@@ -117,7 +117,8 @@ function render(data) {
   DATA = data;
   document.getElementById('today-date').textContent =
     new Date(data.date + 'T00:00:00+09:00').toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
-  document.getElementById('updated-at').textContent = `업데이트: ${fmtTime(data.updated_at)} 기준`;
+  // GitHub Actions cron 실행 지연과 무관하게 목표 회차 시각(06/12/18/24시)을 그대로 표시한다.
+  document.getElementById('updated-at').textContent = `업데이트: ${data.batch_time} 기준`;
 
   const isMobile = window.innerWidth < 640;
   const limit = isMobile ? MOBILE_MAX_ITEMS : MAX_ITEMS;

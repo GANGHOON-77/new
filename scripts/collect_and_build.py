@@ -245,6 +245,22 @@ def dedupe_by_url(articles):
     return out
 
 
+def compute_batch_label(now_kst):
+    """설계문서 2장 날짜 경계 규칙: GitHub Actions cron은 실행이 몇 분~몇십 분
+    늦어질 수 있으므로, 화면에는 실제 실행 시각이 아니라 가장 가까운 목표
+    회차(06/12/18/24시)로 고정 표시한다. 00시 회차는 '전날 24:00'으로 취급한다.
+    """
+    hour = now_kst.hour
+    if 6 <= hour < 12:
+        return now_kst.strftime("%Y-%m-%d"), "06:00"
+    if 12 <= hour < 18:
+        return now_kst.strftime("%Y-%m-%d"), "12:00"
+    if 18 <= hour < 24:
+        return now_kst.strftime("%Y-%m-%d"), "18:00"
+    prev_day = now_kst - timedelta(days=1)
+    return prev_day.strftime("%Y-%m-%d"), "24:00"
+
+
 def detect_wire_credit(article):
     text = f"{article['title']} {article['summary']}"
     for pat, wire in WIRE_CREDIT_PATTERNS:
@@ -449,9 +465,11 @@ def main():
     top = clusters_out[:40]
 
     now_kst = datetime.now(KST)
+    batch_date, batch_time = compute_batch_label(now_kst)
     out = {
-        "date": now_kst.strftime("%Y-%m-%d"),
-        "updated_at": now_kst.isoformat(),
+        "date": batch_date,
+        "batch_time": batch_time,
+        "updated_at": now_kst.isoformat(),  # 실제 실행 시각(로그용). 화면 표시는 date+batch_time을 사용.
         "score_version": "0.1",
         "clustering_method": "tfidf_char3-5gram_greedy_centroid(demo)",
         "source_count_total": live_source_count,
