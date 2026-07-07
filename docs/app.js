@@ -2,14 +2,60 @@
 
 const SCORE_THRESHOLD = 50; // 이 점수 미만 이슈는 화면에서 제외
 const MAX_ITEMS = 20;       // 최대 노출 이슈 수
+const AREA_CAP_RATIO = 0.28; // 1위 이슈가 화면을 과도하게 잡아먹지 않도록 하는 면적 상한
 
-const TIER_DEFS = [
-  { cls: 't1', count: 3, showDesc: true },
-  { cls: 't2', count: 4, showDesc: true },
-  { cls: 't3', count: 8, showDesc: false },
-  { cls: 't4', count: 5, showDesc: false },
-  { cls: 't5', count: Infinity, showDesc: false },
-];
+// 재귀 이등분(recursive bisection) 트리맵. 항상 더 긴 변을 잘라 정사각형에
+// 가까운 조각을 만들고, 빈 공간 없이 컨테이너 전체를 채운다.
+// 입력 순서를 그대로 보존해 반환한다(그룹A 결과 -> 그룹B 결과 순).
+function layoutTreemap(items, x, y, w, h, out) {
+  if (items.length === 0 || w <= 0 || h <= 0) return;
+  if (items.length === 1) {
+    items[0].rect = { x, y, w, h };
+    out.push(items[0]);
+    return;
+  }
+  const total = items.reduce((s, i) => s + i.value, 0);
+  if (total <= 0) {
+    items.forEach(i => { i.rect = { x, y, w: 0, h: 0 }; out.push(i); });
+    return;
+  }
+  const half = total / 2;
+  let acc = 0, splitIdx = 1;
+  for (let i = 0; i < items.length; i++) {
+    acc += items[i].value;
+    if (acc >= half) { splitIdx = i + 1; break; }
+  }
+  splitIdx = Math.min(Math.max(splitIdx, 1), items.length - 1);
+  const groupA = items.slice(0, splitIdx);
+  const groupB = items.slice(splitIdx);
+  const ratioA = groupA.reduce((s, i) => s + i.value, 0) / total;
+
+  if (w >= h) {
+    const wA = w * ratioA;
+    layoutTreemap(groupA, x, y, wA, h, out);
+    layoutTreemap(groupB, x + wA, y, w - wA, h, out);
+  } else {
+    const hA = h * ratioA;
+    layoutTreemap(groupA, x, y, w, hA, out);
+    layoutTreemap(groupB, x, y + hA, w, h - hA, out);
+  }
+}
+
+function squarify(items, x, y, w, h) {
+  const out = [];
+  layoutTreemap(items, x, y, w, h, out);
+  return out;
+}
+
+function sizeClass(rect) {
+  const shortSide = Math.min(rect.w, rect.h);
+  const area = rect.w * rect.h;
+  if (shortSide >= 260 && area >= 130000) return 'size-xl';
+  if (shortSide >= 190 && area >= 65000) return 'size-lg';
+  if (shortSide >= 130 && area >= 30000) return 'size-md';
+  if (shortSide >= 90) return 'size-sm';
+  return 'size-xs';
+}
 
 // 분야별 고정 색상 (요청에 따라 점수가 아닌 카테고리로 색상 구분)
 const CATEGORY_COLORS = {
@@ -61,45 +107,60 @@ function render(data) {
     `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
 
   const el = document.getElementById('treemap');
+  const isMobile = window.innerWidth < 640;
   el.innerHTML = '';
 
-  let cursor = 0;
-  let rank = 1;
-  for (const tier of TIER_DEFS) {
-    if (cursor >= items.length) break;
-    const slice = items.slice(cursor, cursor + tier.count);
-    if (slice.length === 0) continue;
-    const row = document.createElement('div');
-    row.className = `tier-row ${tier.cls}`;
-    slice.forEach(item => {
-      row.appendChild(buildCell(item, rank, tier));
-      rank++;
+  if (isMobile) {
+    el.classList.add('mobile-list');
+    items.forEach((item, idx) => {
+      const div = buildCell(item, idx + 1, 'size-lg');
+      div.style.background = categoryColor(item.category);
+      el.appendChild(div);
     });
-    el.appendChild(row);
-    cursor += tier.count;
+  } else {
+    el.classList.remove('mobile-list');
+    // 면적 값 = 중요도 점수. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
+    let sized = items.map(c => ({ ...c, value: c.score }));
+    const total = sized.reduce((s, i) => s + i.value, 0);
+    const cap = total * AREA_CAP_RATIO;
+    sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
+
+    const w = el.clientWidth, h = el.clientHeight;
+    const laid = squarify(sized, 0, 0, w, h);
+
+    laid.forEach((item, idx) => {
+      const cls = sizeClass(item.rect);
+      const div = buildCell(item, idx + 1, cls);
+      div.style.left = item.rect.x + 'px';
+      div.style.top = item.rect.y + 'px';
+      div.style.width = Math.max(item.rect.w - 3, 0) + 'px';
+      div.style.height = Math.max(item.rect.h - 3, 0) + 'px';
+      div.style.background = categoryColor(item.category);
+      el.appendChild(div);
+    });
   }
 
   // 클릭 없이도 바로 보이도록 기본으로 1위 이슈 상세를 띄운다.
   if (selectedId === null && items.length > 0) {
     selectedId = items[0].id;
-    renderDetail(items[0].id, items.findIndex(x => x.id === items[0].id) + 1);
+    renderDetail(items[0].id, 1);
   } else if (selectedId !== null) {
     const stillShown = items.find(x => x.id === selectedId);
     if (stillShown) renderDetail(selectedId, items.indexOf(stillShown) + 1);
   }
 }
 
-function buildCell(item, rank, tier) {
+function buildCell(item, rank, sizeCls) {
   const div = document.createElement('div');
-  div.className = 'cell' + (item.id === selectedId ? ' selected' : '');
-  div.style.background = categoryColor(item.category);
+  div.className = `cell ${sizeCls}` + (item.id === selectedId ? ' selected' : '');
+  const showDesc = (sizeCls === 'size-xl' || sizeCls === 'size-lg' || sizeCls === 'size-md') && item.excerpt;
   div.innerHTML = `
     <div class="badge-row">
       <span class="rank">${rank}</span>
       <span class="category">${escapeHtml(item.category)}</span>
     </div>
     <div class="title">${escapeHtml(item.title)}</div>
-    ${tier.showDesc && item.excerpt ? `<div class="desc">${escapeHtml(item.excerpt)}</div>` : ''}
+    ${showDesc ? `<div class="desc">${escapeHtml(item.excerpt)}</div>` : ''}
     <div class="spacer"></div>
     <div class="score-line">중요도 ${item.score}점</div>
     <div class="stats-line">기사 ${item.article_count}건 · 언론사 ${item.source_count}곳 · ${fmtTime(item.latest_published_at)} 업데이트</div>
@@ -180,7 +241,8 @@ const ALGO_HTML = `
   </section>
   <section>
     <h4>5. 면적·색상이 의미하는 것</h4>
-    카드 크기는 등급(1~3위/4~7위/8~15위/16~24위/그 외)에 따른 고정 크기이며, 색상이 중요도 점수를 나타냅니다(진한 빨강일수록 고득점).
+    카드 면적은 중요도 점수에 비례합니다(1위 이슈가 화면을 과점하지 않도록 전체의 28%로 상한을 둠).
+    색상은 카테고리(정치·경제·사회·국제·산업·IT·기타) 구분용이며, 중요도 순위는 카드 왼쪽 위 번호로 표시됩니다.
   </section>
   <section>
     <h4>한계 고지</h4>

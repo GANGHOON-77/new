@@ -33,71 +33,61 @@ html, body {
 .layout { display: flex; gap: 10px; padding: 10px; align-items: flex-start; }
 
 .treemap {
-  flex: 1 1 auto; min-width: 0;
-  display: flex; flex-direction: column; gap: 6px;
+  position: relative; flex: 1 1 auto; min-width: 0;
+  height: calc(100vh - 128px);
 }
-.tier-row { display: grid; gap: 6px; }
-.tier-row.t1 { grid-template-columns: repeat(3, 1fr); }
-.tier-row.t2 { grid-template-columns: repeat(4, 1fr); }
-.tier-row.t3 { grid-template-columns: repeat(4, 1fr); }
-.tier-row.t4 { grid-template-columns: repeat(6, 1fr); }
-.tier-row.t5 { grid-template-columns: repeat(8, 1fr); }
 
 .cell {
-  position: relative; overflow: hidden; box-sizing: border-box;
-  border-radius: 6px; padding: 10px 12px; cursor: pointer; color: #fff;
+  position: absolute; overflow: hidden; box-sizing: border-box;
+  border-radius: 6px; padding: 12px 14px; cursor: pointer; color: #fff;
   display: flex; flex-direction: column; border: 1px solid rgba(255,255,255,0.25);
-  transition: filter 0.1s ease, transform 0.1s ease;
+  transition: filter 0.1s ease;
 }
 .cell:hover { filter: brightness(1.08); z-index: 5; }
 .cell.selected { outline: 3px solid #1a1a1a; outline-offset: -3px; z-index: 6; }
 
-.t1 .cell { height: 230px; }
-.t2 .cell { height: 150px; }
-.t3 .cell { height: 130px; }
-.t4 .cell { height: 96px; }
-.t5 .cell { height: 78px; }
-
-.cell .badge-row { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; }
+.cell .badge-row { display: flex; gap: 6px; align-items: center; margin-bottom: 8px; }
 .cell .rank {
   display: inline-flex; align-items: center; justify-content: center;
-  background: rgba(0,0,0,0.3); border-radius: 4px; font-size: 11px; font-weight: 700;
-  width: 20px; height: 20px; flex-shrink: 0;
+  background: rgba(0,0,0,0.3); border-radius: 4px; font-size: 12px; font-weight: 700;
+  width: 22px; height: 22px; flex-shrink: 0;
 }
 .cell .category {
-  font-size: 10.5px; background: rgba(0,0,0,0.22); border-radius: 4px; padding: 2px 6px;
+  font-size: 11.5px; background: rgba(0,0,0,0.22); border-radius: 4px; padding: 2px 7px;
 }
 .cell .title {
-  font-weight: 800; line-height: 1.3; overflow: hidden; text-overflow: ellipsis;
+  font-weight: 800; line-height: 1.28; overflow: hidden; text-overflow: ellipsis;
   display: -webkit-box; -webkit-box-orient: vertical;
 }
-.t1 .title { font-size: 19px; -webkit-line-clamp: 3; }
-.t2 .title { font-size: 15px; -webkit-line-clamp: 2; }
-.t3 .title { font-size: 13px; -webkit-line-clamp: 2; }
-.t4 .title { font-size: 12px; -webkit-line-clamp: 2; }
-.t5 .title { font-size: 11px; -webkit-line-clamp: 2; }
+.cell.size-xl .title { font-size: 30px; -webkit-line-clamp: 4; }
+.cell.size-lg .title { font-size: 22px; -webkit-line-clamp: 3; }
+.cell.size-md .title { font-size: 17px; -webkit-line-clamp: 3; }
+.cell.size-sm .title { font-size: 14px; -webkit-line-clamp: 2; }
+.cell.size-xs .title { font-size: 12px; -webkit-line-clamp: 2; }
 
 .cell .desc {
-  margin-top: 6px; font-size: 12px; opacity: 0.88; line-height: 1.5;
+  margin-top: 8px; font-size: 13px; opacity: 0.88; line-height: 1.5;
   overflow: hidden; text-overflow: ellipsis; display: -webkit-box;
-  -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical;
 }
+.cell.size-md .desc { font-size: 12px; -webkit-line-clamp: 2; }
 .cell .spacer { flex: 1; }
 .cell .score-line { font-weight: 800; }
-.t1 .score-line { font-size: 18px; }
-.t2 .score-line { font-size: 15px; }
-.t3 .score-line, .t4 .score-line, .t5 .score-line { font-size: 12px; }
+.cell.size-xl .score-line { font-size: 24px; }
+.cell.size-lg .score-line { font-size: 19px; }
+.cell.size-md .score-line { font-size: 16px; }
+.cell.size-sm .score-line, .cell.size-xs .score-line { font-size: 13px; }
 .cell .stats-line {
-  font-size: 11px; opacity: 0.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  margin-top: 2px;
+  font-size: 12px; opacity: 0.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  margin-top: 3px;
 }
-.t4 .stats-line, .t5 .stats-line { display: none; }
-.t4 .badge-row .category, .t5 .badge-row .category { display: none; }
-.t5 .badge-row { margin-bottom: 3px; }
+.cell.size-xs .stats-line { display: none; }
+.cell.size-xs .badge-row .category { display: none; }
+.cell.size-xs .badge-row { margin-bottom: 4px; }
 
 .detail-panel {
-  width: 380px; flex: 0 0 380px; background: #fff; border-radius: 8px;
-  padding: 16px; max-height: calc(100vh - 130px); overflow-y: auto;
+  width: 460px; flex: 0 0 460px; background: #fff; border-radius: 8px;
+  padding: 20px; max-height: calc(100vh - 128px); overflow-y: auto;
   border: 1px solid #e3e5e8; position: sticky; top: 10px;
 }
 .detail-panel.hidden { display: none; }
@@ -152,9 +142,11 @@ html, body {
 @media (max-width: 900px) {
   .layout { flex-direction: column; }
   .detail-panel { width: 100%; flex: none; max-height: 60vh; position: static; }
-  .tier-row.t1 { grid-template-columns: repeat(1, 1fr); }
-  .tier-row.t2, .tier-row.t3 { grid-template-columns: repeat(2, 1fr); }
-  .tier-row.t4, .tier-row.t5 { grid-template-columns: repeat(3, 1fr); }
-  .t1 .cell { height: 170px; }
   .topbar-right { width: 100%; justify-content: space-between; }
 }
+
+/* 모바일: 2D 트리맵 대신 세로 카드 목록으로 전환 (좁은 화면에서 얇은 조각 방지) */
+.treemap.mobile-list {
+  position: static; height: auto; display: flex; flex-direction: column; gap: 8px;
+}
+.treemap.mobile-list .cell { position: static; width: 100% !important; height: auto !important; }
