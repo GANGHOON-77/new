@@ -1,7 +1,8 @@
 // 오늘의 뉴스지도 0.1 - 등급별 고정 크기 그리드 렌더러
 
 const SCORE_THRESHOLD = 50; // 이 점수 미만 이슈는 화면에서 제외
-const MAX_ITEMS = 20;       // 최대 노출 이슈 수
+const MAX_ITEMS = 20;       // 데스크톱 최대 노출 이슈 수
+const MOBILE_MAX_ITEMS = 14; // 모바일은 화면이 좁아 박스가 너무 작아지지 않도록 더 적게 표시
 const AREA_CAP_RATIO = 0.42; // 극단적으로 이슈가 적을 때만 작동하는 안전장치용 상한
 
 // 면적 값 계산: 단순 점수가 아니라 (점수-40)^2를 써서 격차를 크게 벌린다.
@@ -55,13 +56,19 @@ function squarify(items, x, y, w, h) {
   return out;
 }
 
-function sizeClass(rect) {
+// 모바일은 컨테이너 자체가 훨씬 좁아서 데스크톱 기준(px)을 그대로 쓰면
+// 1위 박스조차 작은 글씨 등급에 묶여버린다. 화면 폭에 맞는 별도 기준을 쓴다.
+function sizeClass(rect, mobile) {
   const shortSide = Math.min(rect.w, rect.h);
   const area = rect.w * rect.h;
-  if (shortSide >= 260 && area >= 130000) return 'size-xl';
-  if (shortSide >= 190 && area >= 65000) return 'size-lg';
-  if (shortSide >= 130 && area >= 30000) return 'size-md';
-  if (shortSide >= 90) return 'size-sm';
+  const t = mobile
+    ? [{ cls: 'size-xl', side: 150, area: 24000 }, { cls: 'size-lg', side: 110, area: 12000 },
+       { cls: 'size-md', side: 80, area: 6000 }, { cls: 'size-sm', side: 55, area: 0 }]
+    : [{ cls: 'size-xl', side: 260, area: 130000 }, { cls: 'size-lg', side: 190, area: 65000 },
+       { cls: 'size-md', side: 130, area: 30000 }, { cls: 'size-sm', side: 90, area: 0 }];
+  for (const tier of t) {
+    if (shortSide >= tier.side && area >= tier.area) return tier.cls;
+  }
   return 'size-xs';
 }
 
@@ -112,7 +119,9 @@ function render(data) {
     new Date(data.date + 'T00:00:00+09:00').toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
   document.getElementById('updated-at').textContent = `업데이트: ${fmtTime(data.updated_at)} 기준`;
 
-  const items = data.clusters.filter(c => c.score >= SCORE_THRESHOLD).slice(0, MAX_ITEMS);
+  const isMobile = window.innerWidth < 640;
+  const limit = isMobile ? MOBILE_MAX_ITEMS : MAX_ITEMS;
+  const items = data.clusters.filter(c => c.score >= SCORE_THRESHOLD).slice(0, limit);
 
   document.getElementById('meta-line').textContent =
     `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
@@ -128,38 +137,34 @@ function render(data) {
   }
 
   const el = document.getElementById('treemap');
-  const isMobile = window.innerWidth < 640;
+  el.classList.remove('mobile-list');
   el.innerHTML = '';
 
-  if (isMobile) {
-    el.classList.add('mobile-list');
-    items.forEach((item, idx) => {
-      const div = buildCell(item, idx + 1, 'size-lg');
-      div.style.background = categoryColor(item.category);
-      el.appendChild(div);
-    });
-  } else {
-    el.classList.remove('mobile-list');
-    // 면적 값 = 중요도 점수. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
-    let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
-    const total = sized.reduce((s, i) => s + i.value, 0);
-    const cap = total * AREA_CAP_RATIO;
-    sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
+  // 모바일은 상단 버튼·범례가 줄바꿈되어 헤더 높이가 유동적이므로,
+  // CSS 고정값 대신 실제 위치를 기준으로 남은 높이를 계산한다.
+  const top = el.getBoundingClientRect().top;
+  const footerH = document.querySelector('.footer').offsetHeight;
+  el.style.height = Math.max(window.innerHeight - top - footerH - 20, 320) + 'px';
 
-    const w = el.clientWidth, h = el.clientHeight;
-    const laid = squarify(sized, 0, 0, w, h);
+  // 면적 값 = 중요도 점수 기반. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
+  let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
+  const total = sized.reduce((s, i) => s + i.value, 0);
+  const cap = total * AREA_CAP_RATIO;
+  sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
 
-    laid.forEach((item, idx) => {
-      const cls = sizeClass(item.rect);
-      const div = buildCell(item, idx + 1, cls);
-      div.style.left = item.rect.x + 'px';
-      div.style.top = item.rect.y + 'px';
-      div.style.width = Math.max(item.rect.w - 3, 0) + 'px';
-      div.style.height = Math.max(item.rect.h - 3, 0) + 'px';
-      div.style.background = categoryColor(item.category);
-      el.appendChild(div);
-    });
-  }
+  const w = el.clientWidth, h = el.clientHeight;
+  const laid = squarify(sized, 0, 0, w, h);
+
+  laid.forEach((item, idx) => {
+    const cls = sizeClass(item.rect, isMobile);
+    const div = buildCell(item, idx + 1, cls);
+    div.style.left = item.rect.x + 'px';
+    div.style.top = item.rect.y + 'px';
+    div.style.width = Math.max(item.rect.w - 3, 0) + 'px';
+    div.style.height = Math.max(item.rect.h - 3, 0) + 'px';
+    div.style.background = categoryColor(item.category);
+    el.appendChild(div);
+  });
 
   // 클릭 없이도 바로 보이도록 기본으로 1위 이슈 상세를 띄운다.
   if (selectedId === null && items.length > 0) {

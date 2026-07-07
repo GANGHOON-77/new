@@ -140,13 +140,16 @@ html, body {
 .modal-box section h4 { font-size: 13px; margin: 0 0 4px; color: #111; }
 
 @media (max-width: 900px) {
-  .layout { flex-direction: column; }
+  .layout { flex-direction: column; align-items: stretch; }
+  .treemap { width: 100%; }
   .detail-panel { width: 100%; flex: none; max-height: 60vh; position: static; }
   .topbar-right { width: 100%; justify-content: space-between; }
-}
 
-/* 모바일: 2D 트리맵 대신 세로 카드 목록으로 전환 (좁은 화면에서 얇은 조각 방지) */
-.treemap.mobile-list {
-  position: static; height: auto; display: flex; flex-direction: column; gap: 8px;
+  /* 좁은 화면에서는 데스크톱 폰트 크기가 상대적으로 너무 커서 줄바꿈이 어색해진다 */
+  .cell.size-xl .title { font-size: 20px; -webkit-line-clamp: 3; }
+  .cell.size-lg .title { font-size: 16px; -webkit-line-clamp: 3; }
+  .cell.size-md .title { font-size: 14px; }
+  .cell.size-xl .score-line { font-size: 17px; }
+  .cell.size-lg .score-line { font-size: 14px; }
+  .cell .desc { display: none; }
 }
-.treemap.mobile-list .cell { position: static; width: 100% !important; height: auto !important; }
