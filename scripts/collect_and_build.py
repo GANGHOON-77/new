@@ -416,9 +416,11 @@ def main():
             "id": lbl,
             "title": normalize_title(rep["title"]),
             "title_source": title_source,
+            "title_url": rep["url"],
             "category": category,
             "excerpt": excerpt,
             "excerpt_source": excerpt_src["source_name"] if excerpt else None,
+            "excerpt_url": excerpt_src["url"] if excerpt else None,
             "score": score100,
             "score_breakdown": {
                 "article_score": article_score, "diversity_score": diversity_score,

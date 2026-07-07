@@ -125,11 +125,11 @@ function renderDetail(id, rank) {
   panel.innerHTML = `
     <button class="close-btn" id="close-detail">×</button>
     <span class="top-badge">${rank} ${escapeHtml(c.category)}</span>
-    <h2>${escapeHtml(c.title)}</h2>
+    <h2>${c.title_url ? `<a href="${c.title_url}" target="_blank" rel="noopener">${escapeHtml(c.title)}</a>` : escapeHtml(c.title)}</h2>
     <div class="time-row">🕐 최초 보도: ${fmtDateTime(c.first_published_at)} · 최근 보도: ${fmtDateTime(c.latest_published_at)}</div>
-    <div class="title-source-note">대표 제목: ${c.title_source === 'wire_pick' ? '통신사 제목 선택(1순위 규칙)' : '이슈 내 최이른 기사 제목'}</div>
+    <div class="title-source-note">대표 제목: ${c.title_source === 'wire_pick' ? '통신사 제목 선택(1순위 규칙)' : '이슈 내 최이른 기사 제목'} (제목 클릭 시 원문으로 이동)</div>
     <span class="summary-label">인용 요약 (0.1버전: 대표 기사 발췌 인용 · AI 요약은 1.0버전부터)</span>
-    <div class="summary">${escapeHtml(c.excerpt || '요약문을 제공하는 기사가 없습니다.')}${c.excerpt_source ? ` <span style="color:#999">— ${escapeHtml(c.excerpt_source)}</span>` : ''}</div>
+    <div class="summary">${escapeHtml(c.excerpt || '요약문을 제공하는 기사가 없습니다.')}${c.excerpt_source ? ` — ${c.excerpt_url ? `<a href="${c.excerpt_url}" target="_blank" rel="noopener" style="color:#999">${escapeHtml(c.excerpt_source)}</a>` : `<span style="color:#999">${escapeHtml(c.excerpt_source)}</span>`}` : ''}</div>
     <div class="score-box">
       <div class="score-num">${c.score}<span style="font-size:14px;color:#999">/100</span></div>
       ${Object.keys(labels).map(k => `
