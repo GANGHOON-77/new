@@ -110,8 +110,8 @@ html, body {
 .score-box .score-num { font-size: 32px; font-weight: 800; color: #d0311f; }
 .score-row { display: flex; align-items: center; gap: 8px; font-size: 12px; margin: 5px 0; }
 .score-row .label { width: 96px; color: #666; flex-shrink: 0; }
-.score-row .bar-bg { flex: 1; background: #eee; border-radius: 3px; height: 8px; }
-.score-row .bar-fg { background: #d0311f; height: 8px; border-radius: 3px; }
+.score-row .bar-bg { display: block; flex: 1; background: #eee; border-radius: 3px; height: 8px; overflow: hidden; }
+.score-row .bar-fg { display: block; background: #d0311f; height: 8px; border-radius: 3px; }
 .score-row .val { width: 44px; text-align: right; color: #666; flex-shrink: 0; }
 
 .detail-panel h3 { font-size: 13px; margin: 16px 0 6px; color: #333; display: flex; justify-content: space-between; align-items: center; }
