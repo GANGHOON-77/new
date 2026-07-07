@@ -114,6 +114,16 @@ function render(data) {
   document.getElementById('meta-line').textContent =
     `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
 
+  // 상세 패널이 뜰지 여부를 트리맵 폭을 재기 "전"에 먼저 확정한다.
+  // 그렇지 않으면 패널이 없는 상태의 폭으로 박스를 배치한 뒤 패널이 나타나면서
+  // 폭이 줄어들어, 이미 배치된 박스들이 패널 위에 겹쳐 보이는 문제가 생긴다.
+  const panel = document.getElementById('detail-panel');
+  if (items.length > 0) {
+    panel.classList.remove('hidden');
+  } else {
+    panel.classList.add('hidden');
+  }
+
   const el = document.getElementById('treemap');
   const isMobile = window.innerWidth < 640;
   el.innerHTML = '';
