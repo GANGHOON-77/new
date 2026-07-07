@@ -2,7 +2,15 @@
 
 const SCORE_THRESHOLD = 50; // 이 점수 미만 이슈는 화면에서 제외
 const MAX_ITEMS = 20;       // 최대 노출 이슈 수
-const AREA_CAP_RATIO = 0.28; // 1위 이슈가 화면을 과도하게 잡아먹지 않도록 하는 면적 상한
+const AREA_CAP_RATIO = 0.42; // 극단적으로 이슈가 적을 때만 작동하는 안전장치용 상한
+
+// 면적 값 계산: 단순 점수가 아니라 (점수-40)^2를 써서 격차를 크게 벌린다.
+// 예: 85점과 55점은 원점수로는 1.5배 차이지만 이 공식으로는 면적이 9배,
+// 한 변 길이로는 약 3배 차이가 나서 "가장 중요한 기사"가 한눈에 띈다.
+// 90점 이상 기사가 없어도 그 회차의 1위는 항상 상대적으로 확 커 보인다.
+function areaValue(score) {
+  return Math.pow(Math.max(score - 40, 5), 2);
+}
 
 // 재귀 이등분(recursive bisection) 트리맵. 항상 더 긴 변을 잘라 정사각형에
 // 가까운 조각을 만들고, 빈 공간 없이 컨테이너 전체를 채운다.
@@ -120,7 +128,7 @@ function render(data) {
   } else {
     el.classList.remove('mobile-list');
     // 면적 값 = 중요도 점수. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
-    let sized = items.map(c => ({ ...c, value: c.score }));
+    let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
     const total = sized.reduce((s, i) => s + i.value, 0);
     const cap = total * AREA_CAP_RATIO;
     sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
@@ -241,8 +249,10 @@ const ALGO_HTML = `
   </section>
   <section>
     <h4>5. 면적·색상이 의미하는 것</h4>
-    카드 면적은 중요도 점수에 비례합니다(1위 이슈가 화면을 과점하지 않도록 전체의 28%로 상한을 둠).
-    색상은 카테고리(정치·경제·사회·국제·산업·IT·기타) 구분용이며, 중요도 순위는 카드 왼쪽 위 번호로 표시됩니다.
+    카드 면적은 (중요도 점수-40)²에 비례합니다. 점수를 그대로 쓰면 실제 이슈들이 50~90점 구간에 몰려 있어
+    한눈에 크기 차이가 잘 안 보이기 때문에, 격차를 의도적으로 크게 벌렸습니다(예: 85점과 55점은 원점수로는 1.5배 차이지만
+    화면 면적으로는 약 9배 차이). 90점 이상 기사가 없는 회차에도 그날의 1위 이슈는 상대적으로 확실히 크게 보입니다.
+    색상은 카테고리(정치·경제·사회·국제·산업·IT·기타) 구분용입니다.
   </section>
   <section>
     <h4>한계 고지</h4>
