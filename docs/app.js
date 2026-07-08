@@ -196,6 +196,7 @@ let DATA = null;
 let DOMESTIC_DATA = null;
 let KEYWORD_DATA = null;
 let WORLD_DATA = null;
+let VIDEO_DATA = null;
 const _savedMode = localStorage.getItem(CURRENT_MODE_STORAGE_KEY);
 let currentMode = (_savedMode === 'keyword' || _savedMode === 'world') ? _savedMode : 'domestic';
 let selectedKeywordId = null;
@@ -490,6 +491,9 @@ function setMode(mode) {
 
 function render(data) {
   DATA = data;
+  const layout = document.querySelector('.layout');
+  layout.classList.toggle('keyword-video-mode', data.view_mode === 'keyword');
+  renderKeywordVideoPanel(data);
   document.getElementById('today-date').textContent =
     new Date(data.date + 'T00:00:00+09:00').toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
   // GitHub Actions cron 실행 지연과 무관하게 목표 회차 시각(06/12/18/24시)을 그대로 표시한다.
@@ -562,6 +566,106 @@ function render(data) {
     const stillShown = items.find(x => x.id === selectedId);
     if (stillShown) renderDetail(selectedId, items.indexOf(stillShown) + 1);
   }
+}
+
+function getKeywordVideoMatches() {
+  if (!VIDEO_DATA || !Array.isArray(VIDEO_DATA.keywords) || customKeywords.length === 0) return [];
+  const wanted = customKeywords.map(k => k.toLowerCase());
+  return VIDEO_DATA.keywords.filter(entry => wanted.includes((entry.keyword || '').toLowerCase()));
+}
+
+function videoAgeMinutes(video) {
+  const published = `${video.published || ''}`.trim();
+  if (!published) return Number.POSITIVE_INFINITY;
+  if (published.includes('오늘')) return 0;
+  const minuteMatch = published.match(/(\d+)\s*분 전/);
+  if (minuteMatch) return Number(minuteMatch[1]);
+  const hourMatch = published.match(/(\d+)\s*시간 전/);
+  if (hourMatch) return Number(hourMatch[1]) * 60;
+  const dayMatch = published.match(/(\d+)\s*일 전/);
+  if (dayMatch) return Number(dayMatch[1]) * 24 * 60;
+  return Number.POSITIVE_INFINITY;
+}
+
+function isRecentVideo(video) {
+  return videoAgeMinutes(video) <= 2 * 24 * 60;
+}
+
+function isKeywordRelatedVideo(video) {
+  return Boolean(`${video.keyword || ''}`.trim());
+}
+
+function flattenKeywordVideos(matches) {
+  const rows = [];
+  matches.forEach(match => {
+    Object.entries(match.sources || {}).forEach(([sourceId, sourceData]) => {
+      (sourceData.results || []).forEach(video => {
+        rows.push({ ...video, sourceId, keyword: match.keyword });
+      });
+    });
+  });
+  const seen = new Set();
+  return rows.filter(video => {
+    if (!video.url || seen.has(video.url)) return false;
+    if (!isRecentVideo(video)) return false;
+    if (!isKeywordRelatedVideo(video)) return false;
+    seen.add(video.url);
+    return true;
+  }).sort((a, b) => videoAgeMinutes(a) - videoAgeMinutes(b)).slice(0, 12);
+}
+
+function renderKeywordVideoPanel(data) {
+  const panel = document.getElementById('keyword-video-panel');
+  if (!panel) return;
+  if (data.view_mode !== 'keyword') {
+    panel.classList.add('hidden');
+    panel.innerHTML = '';
+    return;
+  }
+  panel.classList.remove('hidden');
+
+  const matches = getKeywordVideoMatches();
+  const videos = flattenKeywordVideos(matches);
+  const title = customKeywords.length ? `${customKeywords.join(' / ')} 관련 영상` : '키워드 관련 영상';
+  if (customKeywords.length === 0) {
+    panel.innerHTML = `
+      <div class="video-panel-head">
+        <h2>키워드 영상</h2>
+        <span>테스트</span>
+      </div>
+      <div class="video-empty">키워드를 추가하면 KBS, MBC, JTBC, SBS, YTN 관련 영상 후보를 보여줍니다.</div>
+    `;
+    return;
+  }
+  if (videos.length === 0) {
+    panel.innerHTML = `
+      <div class="video-panel-head">
+        <h2>${escapeHtml(title)}</h2>
+        <span>0건</span>
+      </div>
+      <div class="video-empty">이 로컬 테스트 데이터에는 최근 2일 이내 해당 키워드 영상이 없습니다.</div>
+    `;
+    return;
+  }
+  panel.innerHTML = `
+    <div class="video-panel-head">
+      <h2>${escapeHtml(title)}</h2>
+      <span>${videos.length}건</span>
+    </div>
+    <div class="video-list">
+      ${videos.map(video => `
+        <a class="video-card" href="${escapeHtml(video.url)}" target="_blank" rel="noopener">
+          <img src="${escapeHtml(video.thumbnail)}" alt="" loading="lazy">
+          <div class="video-card-body">
+            <div class="video-source">${escapeHtml(video.source || video.channel || '')}</div>
+            <div class="video-title">${escapeHtml(video.title)}</div>
+            <div class="video-keyword">${escapeHtml(video.keyword)} 검색 결과</div>
+            <div class="video-meta">${escapeHtml([video.views, video.published, video.length].filter(Boolean).join(' · '))}</div>
+          </div>
+        </a>
+      `).join('')}
+    </div>
+  `;
 }
 
 function buildCell(item, rank, sizeCls) {
@@ -749,7 +853,8 @@ Promise.allSettled([
   fetch('news_map.json').then(r => r.json()),
   fetch('keyword_news_map.json').then(r => r.json()),
   fetch('world_news_map.json').then(r => r.json()),
-]).then(([domesticResult, keywordResult, worldResult]) => {
+  fetch('keyword_videos.json').then(r => r.json()),
+]).then(([domesticResult, keywordResult, worldResult, videoResult]) => {
   if (domesticResult.status === 'fulfilled') {
     DOMESTIC_DATA = domesticResult.value;
     KEYWORD_DATA = DOMESTIC_DATA.keyword_news || null;
@@ -759,6 +864,9 @@ Promise.allSettled([
   }
   if (worldResult.status === 'fulfilled') {
     WORLD_DATA = worldResult.value;
+  }
+  if (videoResult.status === 'fulfilled') {
+    VIDEO_DATA = videoResult.value;
   }
   if (KEYWORD_DATA) {
     const examples = KEYWORD_DATA.keyword_groups || [];
