@@ -34,7 +34,7 @@ html, body {
 
 .treemap {
   position: relative; flex: 1 1 auto; min-width: 0;
-  height: calc(100vh - 128px);
+  height: calc(100svh - 128px);
 }
 
 .cell {
@@ -87,7 +87,7 @@ html, body {
 
 .detail-panel {
   width: 460px; flex: 0 0 460px; background: #fff; border-radius: 8px;
-  padding: 20px; max-height: calc(100vh - 128px); overflow-y: auto;
+  padding: 20px; max-height: calc(100svh - 128px); overflow-y: auto;
   border: 1px solid #e3e5e8; position: sticky; top: 10px;
 }
 .detail-panel.hidden { display: none; }

@@ -112,6 +112,27 @@ function escapeHtml(s) {
 
 let DATA = null;
 let selectedId = null;
+let lastViewportWidth = window.innerWidth;
+let mobileTreemapHeight = null;
+let mobileTreemapWidth = null;
+
+function setTreemapHeight(el, mobile) {
+  const footerH = document.querySelector('.footer').offsetHeight;
+  const pageTop = el.getBoundingClientRect().top + window.scrollY;
+  const nextHeight = Math.max(window.innerHeight - pageTop - footerH - 20, 320);
+
+  if (mobile) {
+    const width = el.clientWidth;
+    if (mobileTreemapHeight === null || mobileTreemapWidth !== width) {
+      mobileTreemapHeight = nextHeight;
+      mobileTreemapWidth = width;
+    }
+    el.style.height = mobileTreemapHeight + 'px';
+    return;
+  }
+
+  el.style.height = nextHeight + 'px';
+}
 
 function render(data) {
   DATA = data;
@@ -143,9 +164,7 @@ function render(data) {
 
   // 모바일은 상단 버튼·범례가 줄바꿈되어 헤더 높이가 유동적이므로,
   // CSS 고정값 대신 실제 위치를 기준으로 남은 높이를 계산한다.
-  const top = el.getBoundingClientRect().top;
-  const footerH = document.querySelector('.footer').offsetHeight;
-  el.style.height = Math.max(window.innerHeight - top - footerH - 20, 320) + 'px';
+  setTreemapHeight(el, isMobile);
 
   // 면적 값 = 중요도 점수 기반. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
   let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
@@ -302,4 +321,16 @@ fetch('news_map.json')
       `<p style="padding:20px;color:#c00">데이터 로드 실패: ${err}</p>`;
   });
 
-window.addEventListener('resize', () => { if (DATA) render(DATA); });
+window.addEventListener('resize', () => {
+  if (!DATA) return;
+
+  const width = window.innerWidth;
+  const widthChanged = width !== lastViewportWidth;
+  lastViewportWidth = width;
+
+  if (widthChanged) {
+    mobileTreemapHeight = null;
+    mobileTreemapWidth = null;
+    render(DATA);
+  }
+});
