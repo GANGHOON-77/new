@@ -115,15 +115,19 @@ html, body {
 }
 .cell.size-md .desc { font-size: 12px; -webkit-line-clamp: 2; }
 .cell .spacer { flex: 1; }
-.cell .score-line { font-weight: 800; }
-.cell.size-xl .score-line { font-size: 24px; }
-.cell.size-lg .score-line { font-size: 19px; }
-.cell.size-md .score-line { font-size: 16px; }
-.cell.size-sm .score-line, .cell.size-xs .score-line { font-size: 13px; }
+.cell .score-line { font-weight: 700; opacity: 0.82; margin-top: 2px; }
+.cell.size-xl .score-line { font-size: 16px; }
+.cell.size-lg .score-line { font-size: 14px; }
+.cell.size-md .score-line { font-size: 12px; }
+.cell.size-sm .score-line, .cell.size-xs .score-line { font-size: 11px; }
 .cell .stats-line {
-  font-size: 12px; opacity: 0.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  margin-top: 3px;
+  font-size: 14px; font-weight: 800; opacity: 0.96; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  margin-top: 0;
 }
+.cell.size-xl .stats-line { font-size: 18px; }
+.cell.size-lg .stats-line { font-size: 16px; }
+.cell.size-md .stats-line { font-size: 14px; }
+.cell.size-sm .stats-line, .cell.size-xs .stats-line { font-size: 12px; }
 .cell.size-xs .stats-line { display: none; }
 .cell.size-xs .badge-row .category { display: none; }
 .cell.size-xs .badge-row { margin-bottom: 4px; }
@@ -195,7 +199,9 @@ html, body {
   .cell.size-xl .title { font-size: 20px; -webkit-line-clamp: 3; }
   .cell.size-lg .title { font-size: 16px; -webkit-line-clamp: 3; }
   .cell.size-md .title { font-size: 14px; }
-  .cell.size-xl .score-line { font-size: 17px; }
-  .cell.size-lg .score-line { font-size: 14px; }
+  .cell.size-xl .stats-line { font-size: 14px; }
+  .cell.size-lg .stats-line { font-size: 13px; }
+  .cell.size-xl .score-line { font-size: 12px; }
+  .cell.size-lg .score-line { font-size: 11px; }
   .cell .desc { display: none; }
 }

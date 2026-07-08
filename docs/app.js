@@ -577,8 +577,8 @@ function buildCell(item, rank, sizeCls) {
     <div class="title">${escapeHtml(item.title)}</div>
     ${showDesc ? `<div class="desc">${escapeHtml(item.excerpt)}</div>` : ''}
     <div class="spacer"></div>
+    <div class="stats-line">관련 기사 ${item.article_count}건 · 언론사 ${item.source_count}곳 · ${fmtTime(item.latest_published_at)} 업데이트</div>
     <div class="score-line">중요도 ${item.score}점</div>
-    <div class="stats-line">기사 ${item.article_count}건 · 언론사 ${item.source_count}곳 · ${fmtTime(item.latest_published_at)} 업데이트</div>
   `;
   div.addEventListener('click', () => selectCluster(item.id));
   return div;
@@ -626,7 +626,7 @@ function renderDetail(id, rank) {
       `).join('')}
     </div>
     <div style="font-size:12px;color:#777">
-      기사 ${c.article_count}건(전재 ${c.syndicated_count}건 제외) · 언론사 ${c.source_count}곳 · (${timeAgoLabel(c.latest_published_at)} 최근 보도)
+      관련 기사 ${c.article_count}건(전재 ${c.syndicated_count}건 제외) · 언론사 ${c.source_count}곳 · (${timeAgoLabel(c.latest_published_at)} 최근 보도)
     </div>
     <h3>관련 기사 <span class="see-all">${c.articles.length > 10 ? `상위 10건 표시 (총 ${c.article_count + c.syndicated_count}건 수집)` : `${c.articles.length}건`}</span></h3>
     ${shown.map(a => `
