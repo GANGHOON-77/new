@@ -102,6 +102,34 @@ function categoryColor(category) {
   return CATEGORY_COLORS[category] || CATEGORY_COLORS['기타'];
 }
 
+const DEFAULT_CATEGORY_COLORS = { ...CATEGORY_COLORS };
+const CATEGORY_COLOR_STORAGE_KEY = 'news-map-category-colors';
+
+function loadCategoryColorOverrides() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(CATEGORY_COLOR_STORAGE_KEY) || '{}');
+    Object.keys(saved).forEach(cat => {
+      if (CATEGORY_COLORS[cat]) CATEGORY_COLORS[cat] = saved[cat];
+    });
+  } catch (_) { /* 저장된 값이 깨졌으면 기본값을 그대로 쓴다 */ }
+}
+
+function saveCategoryColorOverrides() {
+  localStorage.setItem(CATEGORY_COLOR_STORAGE_KEY, JSON.stringify(CATEGORY_COLORS));
+}
+
+function renderCategoryLegend() {
+  document.getElementById('category-legend').innerHTML = Object.entries(CATEGORY_COLORS)
+    .map(([cat, color]) => `
+      <span class="legend-chip">
+        <label class="color-swatch" style="background:${color}" title="${escapeHtml(cat)} 색상 변경">
+          <input type="color" value="${color}" data-category="${escapeHtml(cat)}" class="category-color-input">
+        </label>
+        ${escapeHtml(cat)}
+      </span>
+    `).join('');
+}
+
 // 해외뉴스는 도메인(정치/경제) 대신 소스 기반 지역으로 분류하므로 별도 팔레트를 쓴다
 // (국내뉴스 범례와 섞이지 않도록 완전히 분리, overseas_news_design.txt 8장).
 const REGION_COLORS = {
@@ -644,9 +672,22 @@ document.getElementById('algo-close').addEventListener('click', () => {
 });
 document.getElementById('refresh-btn').addEventListener('click', () => window.location.reload());
 
-document.getElementById('category-legend').innerHTML = Object.entries(CATEGORY_COLORS)
-  .map(([cat, color]) => `<span class="legend-chip"><span class="dot" style="background:${color}"></span>${cat}</span>`)
-  .join('');
+loadCategoryColorOverrides();
+renderCategoryLegend();
+document.getElementById('category-legend').addEventListener('input', event => {
+  if (!event.target.classList.contains('category-color-input')) return;
+  const cat = event.target.dataset.category;
+  CATEGORY_COLORS[cat] = event.target.value;
+  event.target.closest('.color-swatch').style.background = event.target.value;
+  saveCategoryColorOverrides();
+  if (DATA && DATA.view_mode !== 'world') render(DATA);
+});
+document.getElementById('category-color-reset').addEventListener('click', () => {
+  Object.assign(CATEGORY_COLORS, DEFAULT_CATEGORY_COLORS);
+  localStorage.removeItem(CATEGORY_COLOR_STORAGE_KEY);
+  renderCategoryLegend();
+  if (DATA && DATA.view_mode !== 'world') render(DATA);
+});
 
 document.getElementById('region-legend').innerHTML = Object.entries(REGION_COLORS)
   .map(([region, color]) => `<span class="legend-chip"><span class="dot" style="background:${color}"></span>${region}</span>`)

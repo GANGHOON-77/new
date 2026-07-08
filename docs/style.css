@@ -19,17 +19,23 @@ html, body {
 .tagline { margin: 4px 0 0; font-size: 13px; color: #777; }
 
 .topbar-right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-.ghost-btn {
-  font-size: 12px; padding: 6px 10px; border-radius: 5px; border: 1px solid #ddd;
-  background: #fff; color: #888; cursor: not-allowed;
+.legend-block { display: flex; align-items: center; gap: 6px; }
+.reset-link {
+  font-size: 11px; color: #888; background: none; border: none; cursor: pointer;
+  text-decoration: underline; padding: 0;
 }
-.segmented { display: flex; border-radius: 6px; overflow: hidden; border: 1px solid #1a1a1a; }
-.seg-btn { font-size: 12.5px; padding: 6px 12px; border: none; background: #fff; color: #333; cursor: not-allowed; }
-.seg-btn.active { background: #1a1a1a; color: #fff; }
+.reset-link:hover { color: #1a1a1a; }
 .legend { display: flex; align-items: center; gap: 8px; font-size: 11px; color: #777; flex-wrap: wrap; }
 .legend.hidden { display: none; }
 .legend-chip { display: inline-flex; align-items: center; gap: 4px; }
 .legend-chip .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.legend-chip .color-swatch {
+  position: relative; width: 9px; height: 9px; border-radius: 50%; display: inline-block;
+  cursor: pointer;
+}
+.legend-chip .color-swatch input[type="color"] {
+  position: absolute; inset: -3px; opacity: 0; cursor: pointer; width: 15px; height: 15px; padding: 0; border: none;
+}
 .mode-tabs { display: flex; gap: 6px; margin-top: 10px; }
 .mode-tab {
   border: 1px solid #d7dbe0; background: #fff; color: #333; border-radius: 6px;
