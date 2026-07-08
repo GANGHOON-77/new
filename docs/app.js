@@ -102,6 +102,20 @@ function categoryColor(category) {
   return CATEGORY_COLORS[category] || CATEGORY_COLORS['기타'];
 }
 
+// 해외뉴스는 도메인(정치/경제) 대신 소스 기반 지역으로 분류하므로 별도 팔레트를 쓴다
+// (국내뉴스 범례와 섞이지 않도록 완전히 분리, overseas_news_design.txt 8장).
+const REGION_COLORS = {
+  '미국': '#2c3e50',
+  '유럽': '#0f9b8e',
+  '중동': '#c9a227',
+  '아시아': '#d6336c',
+  '기타': '#a89f91',
+};
+
+function regionColor(region) {
+  return REGION_COLORS[region] || REGION_COLORS['기타'];
+}
+
 function fmtTime(isoStr) {
   const d = new Date(isoStr);
   return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
@@ -125,7 +139,9 @@ function escapeHtml(s) {
 let DATA = null;
 let DOMESTIC_DATA = null;
 let KEYWORD_DATA = null;
-let currentMode = localStorage.getItem(CURRENT_MODE_STORAGE_KEY) === 'keyword' ? 'keyword' : 'domestic';
+let WORLD_DATA = null;
+const _savedMode = localStorage.getItem(CURRENT_MODE_STORAGE_KEY);
+let currentMode = (_savedMode === 'keyword' || _savedMode === 'world') ? _savedMode : 'domestic';
 let selectedKeywordId = null;
 let customKeywords = [];
 let selectedId = null;
@@ -160,6 +176,14 @@ function resetRenderState() {
 function renderCurrent() {
   if (currentMode === 'keyword') {
     render(buildCustomKeywordViewData());
+    return;
+  }
+  if (currentMode === 'world') {
+    render(WORLD_DATA || {
+      date: (DOMESTIC_DATA || {}).date, batch_time: (DOMESTIC_DATA || {}).batch_time,
+      view_mode: 'world', source_count_total: 0, article_count_total: 0,
+      cluster_count_total: 0, clusters: [],
+    });
     return;
   }
   if (DOMESTIC_DATA) render(DOMESTIC_DATA);
@@ -394,7 +418,10 @@ function buildCustomKeywordViewData() {
 function applyModeUI(mode) {
   document.getElementById('domestic-tab').classList.toggle('active', mode === 'domestic');
   document.getElementById('keyword-tab').classList.toggle('active', mode === 'keyword');
+  document.getElementById('world-tab').classList.toggle('active', mode === 'world');
   document.getElementById('keyword-toolbar').classList.toggle('hidden', mode !== 'keyword');
+  document.getElementById('category-legend').classList.toggle('hidden', mode === 'world');
+  document.getElementById('region-legend').classList.toggle('hidden', mode !== 'world');
 }
 
 function setMode(mode) {
@@ -419,7 +446,9 @@ function render(data) {
 
   document.getElementById('meta-line').textContent = data.view_mode === 'keyword'
     ? `키워드: ${data.keyword_label} · 최근 ${data.window_hours}시간 매칭 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 ${items.length}개 표시`
-    : `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
+    : data.view_mode === 'world'
+      ? `해외언론 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시 (번역: ${data.translation_engine || 'Google'})`
+      : `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
 
   // 상세 패널이 뜰지 여부를 트리맵 폭을 재기 "전"에 먼저 확정한다.
   // 그렇지 않으면 패널이 없는 상태의 폭으로 박스를 배치한 뒤 패널이 나타나면서
@@ -465,7 +494,7 @@ function render(data) {
     div.style.top = item.rect.y + 'px';
     div.style.width = Math.max(item.rect.w - 3, 0) + 'px';
     div.style.height = Math.max(item.rect.h - 3, 0) + 'px';
-    div.style.background = categoryColor(item.category);
+    div.style.background = data.view_mode === 'world' ? regionColor(item.category) : categoryColor(item.category);
     el.appendChild(div);
   });
 
@@ -487,6 +516,7 @@ function buildCell(item, rank, sizeCls) {
     <div class="badge-row">
       <span class="rank">${rank}</span>
       <span class="category">${escapeHtml(item.category)}</span>
+      ${item.translation_status === 'failed' ? '<span class="translate-fail-tag">번역실패</span>' : ''}
     </div>
     <div class="title">${escapeHtml(item.title)}</div>
     ${showDesc ? `<div class="desc">${escapeHtml(item.excerpt)}</div>` : ''}
@@ -509,6 +539,7 @@ function renderDetail(id, rank) {
   panel.classList.remove('hidden');
   const b = c.score_breakdown;
   const isKeyword = DATA.view_mode === 'keyword';
+  const isWorld = DATA.view_mode === 'world';
   const maxes = isKeyword
     ? { article_score: 20, diversity_score: 20, major_score: 15, breaking_score: 10, time_score: 10, keyword_focus_score: 5 }
     : { article_score: 25, diversity_score: 20, major_score: 15, breaking_score: 10, time_score: 5 };
@@ -521,8 +552,11 @@ function renderDetail(id, rank) {
     <button class="close-btn" id="close-detail">×</button>
     <span class="top-badge">${rank} ${escapeHtml(c.category)}</span>
     <h2>${c.title_url ? `<a href="${c.title_url}" target="_blank" rel="noopener">${escapeHtml(c.title)}</a>` : escapeHtml(c.title)}</h2>
+    ${isWorld && c.title_en ? `<div class="title-en-note">${escapeHtml(c.title_en)}</div>` : ''}
     <div class="time-row">🕐 최초 보도: ${fmtDateTime(c.first_published_at)} · 최근 보도: ${fmtDateTime(c.latest_published_at)}</div>
-    <div class="title-source-note">대표 제목: ${c.title_source === 'wire_pick' ? '통신사 제목 선택(1순위 규칙)' : '이슈 내 최이른 기사 제목'}${isKeyword ? ` · 키워드: ${escapeHtml(DATA.keyword_label)}` : ''} (제목 클릭 시 원문으로 이동)</div>
+    <div class="title-source-note">${isWorld
+      ? `번역: ${escapeHtml(DATA.translation_engine || 'Google')} 자동 번역${c.translation_status === 'failed' ? ' · 번역 실패로 원문 표시' : ''} (제목 클릭 시 원문으로 이동)`
+      : `대표 제목: ${c.title_source === 'wire_pick' ? '통신사 제목 선택(1순위 규칙)' : '이슈 내 최이른 기사 제목'}${isKeyword ? ` · 키워드: ${escapeHtml(DATA.keyword_label)}` : ''} (제목 클릭 시 원문으로 이동)`}</div>
     <span class="summary-label">인용 요약 (0.1버전: 대표 기사 발췌 인용 · AI 요약은 1.0버전부터)</span>
     <div class="summary">${escapeHtml(c.excerpt || '요약문을 제공하는 기사가 없습니다.')}${c.excerpt_source ? ` — ${c.excerpt_url ? `<a href="${c.excerpt_url}" target="_blank" rel="noopener" style="color:#999">${escapeHtml(c.excerpt_source)}</a>` : `<span style="color:#999">${escapeHtml(c.excerpt_source)}</span>`}` : ''}</div>
     <div class="score-box">
@@ -581,10 +615,22 @@ const ALGO_HTML = `
     색상은 카테고리(정치·경제·사회·국제·산업·IT·기타) 구분용입니다.
   </section>
   <section>
+    <h4>6. 해외뉴스 탭</h4>
+    BBC·CNN·Al Jazeera·NPR·DW·France24·Guardian·NYT·SCMP 9곳의 RSS를 수집합니다(영어권 우선, 1차 구현).
+    영어 기사는 조사·어미가 없어 국내뉴스의 문자 n-gram 대신 단어 1~2-gram TF-IDF로 클러스터링합니다.
+    점수 산식은 국내뉴스와 같은 축(기사량·매체 다양성·주요 매체·속보성·시간 가중치)을 쓰되, 해외 매체는
+    같은 사건도 매체마다 제목을 다르게 써서 국내처럼 통신사 기사가 복제되는 corroboration이 드물기 때문에
+    구간값을 해외용으로 낮춰 잡았습니다. 카테고리 배지는 도메인이 아니라 소스 기반 지역(미국/유럽/중동/아시아)입니다.
+    중요도 50점 이상인 이슈만 대표 제목·인용 요약을 한국어로 자동 번역해 보여주며(구글 번역, 무료 API),
+    번역에 실패하면 원문을 그대로 보여주고 "번역실패" 배지를 표시합니다.
+  </section>
+  <section>
     <h4>한계 고지</h4>
     이 화면은 보도량과 규칙 기반 점수를 반영하며, 편집자의 판단이나 특정 관점을 대변하지 않습니다.
-    클러스터링은 임베딩 모델이 아닌 문자 n-gram TF-IDF 임시 구현이라 일부 이슈가 잘못 묶일 수 있습니다.
+    클러스터링은 임베딩 모델이 아닌 n-gram TF-IDF 임시 구현이라 일부 이슈가 잘못 묶이거나(과병합),
+    반대로 같은 사건인데 분리될 수 있습니다(과분할, 해외뉴스에서 특히 자주 발생).
     카테고리 배지는 키워드 추정치이며 공식 분류 기능(2차 확장)이 아닙니다.
+    해외뉴스 번역은 무료 자동 번역이라 품질이 완벽하지 않을 수 있어, 원문 링크를 항상 함께 제공합니다.
   </section>
 `;
 
@@ -601,8 +647,13 @@ document.getElementById('category-legend').innerHTML = Object.entries(CATEGORY_C
   .map(([cat, color]) => `<span class="legend-chip"><span class="dot" style="background:${color}"></span>${cat}</span>`)
   .join('');
 
+document.getElementById('region-legend').innerHTML = Object.entries(REGION_COLORS)
+  .map(([region, color]) => `<span class="legend-chip"><span class="dot" style="background:${color}"></span>${region}</span>`)
+  .join('');
+
 document.getElementById('domestic-tab').addEventListener('click', () => setMode('domestic'));
 document.getElementById('keyword-tab').addEventListener('click', () => setMode('keyword'));
+document.getElementById('world-tab').addEventListener('click', () => setMode('world'));
 document.getElementById('keyword-form').addEventListener('submit', event => {
   event.preventDefault();
   addCustomKeyword(document.getElementById('keyword-input').value);
@@ -615,13 +666,17 @@ applyModeUI(currentMode);
 Promise.allSettled([
   fetch('news_map.json').then(r => r.json()),
   fetch('keyword_news_map.json').then(r => r.json()),
-]).then(([domesticResult, keywordResult]) => {
+  fetch('world_news_map.json').then(r => r.json()),
+]).then(([domesticResult, keywordResult, worldResult]) => {
   if (domesticResult.status === 'fulfilled') {
     DOMESTIC_DATA = domesticResult.value;
     KEYWORD_DATA = DOMESTIC_DATA.keyword_news || null;
   }
   if (!KEYWORD_DATA && keywordResult.status === 'fulfilled') {
     KEYWORD_DATA = keywordResult.value;
+  }
+  if (worldResult.status === 'fulfilled') {
+    WORLD_DATA = worldResult.value;
   }
   if (KEYWORD_DATA) {
     const examples = KEYWORD_DATA.keyword_groups || [];
