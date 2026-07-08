@@ -6,6 +6,7 @@ const MAX_ITEMS = 20;       // 데스크톱 최대 노출 이슈 수
 const MOBILE_MAX_ITEMS = 14; // 모바일은 화면이 좁아 박스가 너무 작아지지 않도록 더 적게 표시
 const AREA_CAP_RATIO = 0.42; // 극단적으로 이슈가 적을 때만 작동하는 안전장치용 상한
 const CUSTOM_KEYWORD_STORAGE_KEY = 'news-map-custom-keywords';
+const CURRENT_MODE_STORAGE_KEY = 'news-map-current-mode';
 const CUSTOM_KEYWORD_WINDOW_HOURS = 48;
 
 // 면적 값 계산: 단순 점수가 아니라 (점수-40)^2를 써서 격차를 크게 벌린다.
@@ -116,7 +117,7 @@ function escapeHtml(s) {
 let DATA = null;
 let DOMESTIC_DATA = null;
 let KEYWORD_DATA = null;
-let currentMode = 'domestic';
+let currentMode = localStorage.getItem(CURRENT_MODE_STORAGE_KEY) === 'keyword' ? 'keyword' : 'domestic';
 let selectedKeywordId = null;
 let customKeywords = [];
 let selectedId = null;
@@ -382,11 +383,16 @@ function buildCustomKeywordViewData() {
   };
 }
 
-function setMode(mode) {
-  currentMode = mode;
+function applyModeUI(mode) {
   document.getElementById('domestic-tab').classList.toggle('active', mode === 'domestic');
   document.getElementById('keyword-tab').classList.toggle('active', mode === 'keyword');
   document.getElementById('keyword-toolbar').classList.toggle('hidden', mode !== 'keyword');
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  localStorage.setItem(CURRENT_MODE_STORAGE_KEY, mode);
+  applyModeUI(mode);
   resetRenderState();
   renderCurrent();
 }
@@ -595,6 +601,7 @@ document.getElementById('keyword-form').addEventListener('submit', event => {
 document.getElementById('keyword-clear').addEventListener('click', clearCustomKeywords);
 loadCustomKeywords();
 renderKeywordChips();
+applyModeUI(currentMode);
 
 Promise.allSettled([
   fetch('news_map.json').then(r => r.json()),
