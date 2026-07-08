@@ -411,9 +411,12 @@ Promise.allSettled([
 ]).then(([domesticResult, keywordResult]) => {
   if (domesticResult.status === 'fulfilled') {
     DOMESTIC_DATA = domesticResult.value;
+    KEYWORD_DATA = DOMESTIC_DATA.keyword_news || null;
   }
-  if (keywordResult.status === 'fulfilled') {
+  if (!KEYWORD_DATA && keywordResult.status === 'fulfilled') {
     KEYWORD_DATA = keywordResult.value;
+  }
+  if (KEYWORD_DATA) {
     const firstWithNews = KEYWORD_DATA.keyword_groups.find(g => g.clusters && g.clusters.length > 0);
     selectedKeywordId = (firstWithNews || KEYWORD_DATA.keyword_groups[0])?.id || null;
     renderKeywordChips();

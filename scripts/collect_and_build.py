@@ -709,6 +709,8 @@ def main():
 
     now_kst = datetime.now(KST)
     batch_date, batch_time = compute_batch_label(now_kst)
+    keyword_config = load_keyword_config(scripts_dir / "keyword_config.json")
+    keyword_out = build_keyword_news_map(all_articles, live_source_count, batch_date, batch_time, now_kst, keyword_config)
     out = {
         "date": batch_date,
         "batch_time": batch_time,
@@ -719,13 +721,12 @@ def main():
         "article_count_total": len(all_articles),
         "cluster_count_total": len(clusters_out),
         "clusters": top,
+        "keyword_news": keyword_out,
     }
 
     out_path = project_root / "docs" / "news_map.json"
     out_path.parent.mkdir(exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    keyword_config = load_keyword_config(scripts_dir / "keyword_config.json")
-    keyword_out = build_keyword_news_map(all_articles, live_source_count, batch_date, batch_time, now_kst, keyword_config)
     keyword_out_path = project_root / "docs" / "keyword_news_map.json"
     keyword_out_path.write_text(json.dumps(keyword_out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n완료: 기사 {len(all_articles)}건 -> 이슈 {len(clusters_out)}개 (상위 {len(top)}개 출력)")
