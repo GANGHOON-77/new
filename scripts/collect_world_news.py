@@ -268,36 +268,36 @@ def compute_world_score(members, now):
     }
 
 
-def majority_region(members, rep):
-    counts = Counter(m["region"] for m in members)
-    top = counts.most_common(1)
-    return top[0][0] if top else rep["region"]
-
-
-# 매체 소속 국가로 다수결을 하면 "어느 지역 매체가 실었나"만 볼 뿐 "실제 사건이
-# 어느 지역 얘기인가"는 전혀 반영이 안 된다. 예: 영국 왕실 소송 기사를 아시아
-# 신문(SCMP·방콕포스트 등)이 국제면에 여러 곳 실으면 다수결로 "아시아"가 돼버린다.
-# 국내뉴스의 guess_category와 같은 방식으로 기사 본문 키워드를 먼저 보고,
-# 아무 키워드도 안 걸리면 그때만 매체 소속 지역으로 대체한다.
+# 매체 소속 국가로 분류하면 "어느 지역 매체가 실었나"만 볼 뿐 "실제 사건이 어느
+# 지역 얘기인가"는 전혀 반영이 안 된다(예: 영국 왕실 소송 기사를 아시아 신문이
+# 국제면에 많이 실으면 매체 다수결로 "아시아"가 돼버림). 그래서 매체 정보는 아예
+# 쓰지 않고, 국내뉴스의 guess_category와 같은 방식으로 기사 제목·요약의 지명과
+# 주요 인물명 키워드만으로 지역을 추정한다. 아무것도 안 걸리면 "기타"로 남긴다.
 REGION_KEYWORDS = [
     ("중동", ["iran", "israel", "gaza", "palestin", "hamas", "hezbollah", "syria",
              "lebanon", "yemen", "saudi", "qatar", "u.a.e", "emirates", "dubai", "jordan",
-             "iraq", "tehran", "jerusalem", "riyadh", "beirut", "damascus", "houthi", "hormuz"]),
+             "iraq", "tehran", "jerusalem", "riyadh", "beirut", "damascus", "houthi", "hormuz",
+             "netanyahu", "khamenei", "abbas", "assad", "el-sisi", "bin salman"]),
     ("아시아", ["china", "chinese", "beijing", "japan", "tokyo", "korea", "seoul",
               "india", "delhi", "mumbai", "pakistan", "thailand", "bangkok", "vietnam",
               "philippines", "indonesia", "singapore", "hong kong", "taiwan", "myanmar",
-              "australia", "sydney", "melbourne", "new zealand"]),
+              "australia", "sydney", "melbourne", "new zealand", "sri lanka", "bangladesh",
+              "xi jinping", "kim jong un", "modi", "marcos", "ishiba", "duterte"]),
     ("유럽", ["u.k.", "britain", "british", "england", "london", "france", "french",
              "paris", "germany", "german", "berlin", "european union", "europe", "russia",
              "russian", "moscow", "ukraine", "ukrainian", "kyiv", "nato", "italy", "spain",
-             "poland", "monaco", "brussels", "switzerland", "sweden", "norway", "denmark", "finland"]),
+             "poland", "monaco", "brussels", "switzerland", "sweden", "norway", "denmark",
+             "finland", "turkey", "turkish", "ankara", "istanbul", "erdogan",
+             "macron", "starmer", "scholz", "merz", "putin", "zelensky", "zelenskyy",
+             "meloni", "sunak", "farage", "le pen", "prince harry", "prince william",
+             "king charles", "orban"]),
     ("미국", ["u.s.", "washington", "white house", "trump", "biden", "congress", "pentagon",
              "houston", "california", "texas", "new york", "manhattan", "los angeles",
-             "canada", "canadian", "america"]),
+             "canada", "canadian", "america", "harris", "vance", "musk", "pelosi", "obama"]),
 ]
 
 
-def guess_region(members, fallback):
+def guess_region(members, fallback="기타"):
     text = " ".join(f"{m['title']} {m['summary']}" for m in members).lower()
     for region, keywords in REGION_KEYWORDS:
         if any(kw in text for kw in keywords):
@@ -380,7 +380,7 @@ def main():
             "id": lbl,
             "rep": rep,
             "excerpt_src": excerpt_src,
-            "region": guess_region(members, majority_region(members, rep)),
+            "region": guess_region(members),
             "score": score,
             "members": members,
             "first_dt": first_dt,

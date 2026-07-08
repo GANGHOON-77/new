@@ -145,6 +145,34 @@ function regionColor(region) {
   return REGION_COLORS[region] || REGION_COLORS['기타'];
 }
 
+const DEFAULT_REGION_COLORS = { ...REGION_COLORS };
+const REGION_COLOR_STORAGE_KEY = 'news-map-region-colors';
+
+function loadRegionColorOverrides() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(REGION_COLOR_STORAGE_KEY) || '{}');
+    Object.keys(saved).forEach(region => {
+      if (REGION_COLORS[region]) REGION_COLORS[region] = saved[region];
+    });
+  } catch (_) { /* 저장된 값이 깨졌으면 기본값을 그대로 쓴다 */ }
+}
+
+function saveRegionColorOverrides() {
+  localStorage.setItem(REGION_COLOR_STORAGE_KEY, JSON.stringify(REGION_COLORS));
+}
+
+function renderRegionLegend() {
+  document.getElementById('region-legend').innerHTML = Object.entries(REGION_COLORS)
+    .map(([region, color]) => `
+      <span class="legend-chip">
+        <label class="color-swatch" style="background:${color}" title="${escapeHtml(region)} 색상 변경">
+          <input type="color" value="${color}" data-region="${escapeHtml(region)}" class="region-color-input">
+        </label>
+        ${escapeHtml(region)}
+      </span>
+    `).join('');
+}
+
 function fmtTime(isoStr) {
   const d = new Date(isoStr);
   return d.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', hour12: false });
@@ -450,7 +478,7 @@ function applyModeUI(mode) {
   document.getElementById('world-tab').classList.toggle('active', mode === 'world');
   document.getElementById('keyword-toolbar').classList.toggle('hidden', mode !== 'keyword');
   document.getElementById('category-legend').classList.toggle('hidden', mode === 'world');
-  document.getElementById('region-legend').classList.toggle('hidden', mode !== 'world');
+  document.getElementById('region-legend-block').classList.toggle('hidden', mode !== 'world');
 }
 
 function setMode(mode) {
@@ -689,9 +717,22 @@ document.getElementById('category-color-reset').addEventListener('click', () => 
   if (DATA && DATA.view_mode !== 'world') render(DATA);
 });
 
-document.getElementById('region-legend').innerHTML = Object.entries(REGION_COLORS)
-  .map(([region, color]) => `<span class="legend-chip"><span class="dot" style="background:${color}"></span>${region}</span>`)
-  .join('');
+loadRegionColorOverrides();
+renderRegionLegend();
+document.getElementById('region-legend').addEventListener('input', event => {
+  if (!event.target.classList.contains('region-color-input')) return;
+  const region = event.target.dataset.region;
+  REGION_COLORS[region] = event.target.value;
+  event.target.closest('.color-swatch').style.background = event.target.value;
+  saveRegionColorOverrides();
+  if (DATA && DATA.view_mode === 'world') render(DATA);
+});
+document.getElementById('region-color-reset').addEventListener('click', () => {
+  Object.assign(REGION_COLORS, DEFAULT_REGION_COLORS);
+  localStorage.removeItem(REGION_COLOR_STORAGE_KEY);
+  renderRegionLegend();
+  if (DATA && DATA.view_mode === 'world') render(DATA);
+});
 
 document.getElementById('domestic-tab').addEventListener('click', () => setMode('domestic'));
 document.getElementById('keyword-tab').addEventListener('click', () => setMode('keyword'));

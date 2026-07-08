@@ -1,17 +1,17 @@
 {
   "date": "2026-07-08",
   "batch_time": "12:00",
-  "updated_at": "2026-07-08T15:28:38.030073+09:00",
+  "updated_at": "2026-07-08T16:13:20.538005+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 609,
-  "cluster_count_total": 463,
+  "article_count_total": 606,
+  "cluster_count_total": 462,
   "clusters": [
     {
-      "id": "world-99",
+      "id": "world-98",
       "title": "해리 왕자, '불법' 정보 수집 혐의로 신문사를 상대로 한 소송에서 패소",
       "title_en": "Prince Harry loses lawsuit against newspaper over ‘unlawful’ information gathering",
       "title_source": "earliest_pick",
@@ -99,7 +99,102 @@
       ]
     },
     {
-      "id": "world-61",
+      "id": "world-13",
+      "title": "미국, 호르무즈 해협에서 '상선 선박 공격' 이유로 이란에 공습 개시",
+      "title_en": "U.S. says it launched strikes on Iran for 'attacking commercial shipping' in Strait of Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/strait-of-hormuz-tanker-attack-9.7261579?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "미 중부사령부는 테헤란이 상업용 선박에 대한 '부당한' 공격으로 휴전을 '명백히 위반'했다고 밝혔습니다. 중동 위기 – 최신 업데이트 미군은 일련의 \"강력한\" 공격을 개시했습니다.",
+      "excerpt_en": "US Central Command says Tehran in ‘clear violation’ of ceasefire with ‘unwarranted’ ​attacks on commercial ships Middle East crisis – latest updates The US military launched ⁠a ⁠series of “powerful” ​",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz",
+      "translation_status": "ok",
+      "score": 92,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 69
+      },
+      "area_value": 9,
+      "article_count": 9,
+      "syndicated_count": 0,
+      "source_count": 8,
+      "sources": [
+        "Bangkok Post",
+        "CBC",
+        "CBS News",
+        "Hindustan Times",
+        "Reuters",
+        "SCMP",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-07T18:37:03+09:00",
+      "latest_published_at": "2026-07-08T01:53:58+09:00",
+      "articles": [
+        {
+          "title": "U.S. launches strikes against Iran over attacks on 3 ships in Strait of Hormuz",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/u-s-launches-strikes-against-iran-to-retaliate-for-attacks-on-3-tankers-in-strait-of-hormuz/",
+          "published_at": "01:53"
+        },
+        {
+          "title": "7/7: The Takeout with Major Garrett",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/77-the-takeout-with-major-garrett/",
+          "published_at": "23:56"
+        },
+        {
+          "title": "US strikes Iran afresh, revokes oil export license after recent Strait of Hormuz ship attacks",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-strikes-iran-afresh-revokes-oil-export-license-after-recent-strait-of-hormuz-ship-attacks-101783466209692.html",
+          "published_at": "23:23"
+        },
+        {
+          "title": "US launches ​strikes against Iran after attacks on vessels in strait ​of ​Hormuz",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz",
+          "published_at": "21:58"
+        },
+        {
+          "title": "US military launches strikes against Iran, Central Command says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVV9wZ2FzeG9JZjdYeVFsay04cWxoUzB1dzRnQ3RwczlRc01vZ0tNUG5aa2JYVUFlRG5vRy1mTnNsLUs2TXk3dzFKTVliRUh2ckJuWkVzQTQtUHpzT0Q4OFFILUFydHlsdUsxaTlhak1hWXViVGZNZDFkNkZSVklSUjZXRV9uLW12X3VOcUlZbmpGQnZUR3gyc3M4WVItZXdjWEpBd01GWjdvRGVzaFc4emZBY0p5YlU?oc=5",
+          "published_at": "21:45"
+        },
+        {
+          "title": "US strikes Iran after Hormuz tanker attacks: military",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3282830/us-strikes-iran-after-hormuz-tanker-attacks-military",
+          "published_at": "21:45"
+        },
+        {
+          "title": "US launches new strikes against Iran hours after revoking oil license",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/iran-war-us-strikes-tehran-trump-b3010803.html",
+          "published_at": "21:40"
+        },
+        {
+          "title": "US strikes Iran, revokes oil waiver after attacks on ships in Strait of Hormuz",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3359780/us-revokes-temporary-sanctions-waiver-iranian-oil-after-vessels-attacked-hormuz?utm_source=rss_feed",
+          "published_at": "20:41"
+        },
+        {
+          "title": "U.S. says it launched strikes on Iran for 'attacking commercial shipping' in Strait of Hormuz",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/strait-of-hormuz-tanker-attack-9.7261579?cmp=rss",
+          "published_at": "18:37"
+        }
+      ]
+    },
+    {
+      "id": "world-58",
       "title": "모나코에서 우크라이나 재벌 폭탄 테러를 주도한 혐의를 받는 여성이 숨진 채 발견됐다.",
       "title_en": "Woman suspected of carrying out Monaco bombing of Ukrainian tycoon found dead",
       "title_source": "earliest_pick",
@@ -111,14 +206,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3359749/ukrainian-woman-wanted-connection-monaco-bombing-found-dead?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 93,
+      "score": 92,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 70
+        "time_score": 2,
+        "raw75": 69
       },
       "area_value": 10,
       "article_count": 10,
@@ -202,328 +297,31 @@
       ]
     },
     {
-      "id": "world-12",
-      "title": "미국, 이란 공습, 호르무즈 해협 선박 공격 후 석유 면제 철회",
-      "title_en": "US strikes Iran, revokes oil waiver after attacks on ships in Strait of Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3359780/us-revokes-temporary-sanctions-waiver-iranian-oil-after-vessels-attacked-hormuz?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "미 중부사령부는 테헤란이 상업용 선박에 대한 '부당한' 공격으로 휴전을 '명백히 위반'했다고 밝혔습니다. 중동 위기 – 최신 업데이트 미군은 일련의 \"강력한\" 공격을 개시했습니다.",
-      "excerpt_en": "US Central Command says Tehran in ‘clear violation’ of ceasefire with ‘unwarranted’ ​attacks on commercial ships Middle East crisis – latest updates The US military launched ⁠a ⁠series of “powerful” ​",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz",
-      "translation_status": "ok",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 9,
-      "article_count": 9,
-      "syndicated_count": 0,
-      "source_count": 7,
-      "sources": [
-        "Bangkok Post",
-        "CBS News",
-        "Hindustan Times",
-        "Reuters",
-        "SCMP",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-07T20:41:19+09:00",
-      "latest_published_at": "2026-07-08T01:53:58+09:00",
-      "articles": [
-        {
-          "title": "U.S. launches strikes against Iran over attacks on 3 ships in Strait of Hormuz",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/u-s-launches-strikes-against-iran-to-retaliate-for-attacks-on-3-tankers-in-strait-of-hormuz/",
-          "published_at": "01:53"
-        },
-        {
-          "title": "7/7: The Takeout with Major Garrett",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/77-the-takeout-with-major-garrett/",
-          "published_at": "23:56"
-        },
-        {
-          "title": "US strikes Iran afresh, revokes oil export license after recent Strait of Hormuz ship attacks",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-strikes-iran-afresh-revokes-oil-export-license-after-recent-strait-of-hormuz-ship-attacks-101783466209692.html",
-          "published_at": "23:23"
-        },
-        {
-          "title": "US launches ​strikes against Iran after attacks on vessels in strait ​of ​Hormuz",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/07/qatar-says-iran-fully-responsible-after-tankers-struck-in-strait-of-hormuz",
-          "published_at": "21:58"
-        },
-        {
-          "title": "US military launches strikes against Iran, Central Command says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVV9wZ2FzeG9JZjdYeVFsay04cWxoUzB1dzRnQ3RwczlRc01vZ0tNUG5aa2JYVUFlRG5vRy1mTnNsLUs2TXk3dzFKTVliRUh2ckJuWkVzQTQtUHpzT0Q4OFFILUFydHlsdUsxaTlhak1hWXViVGZNZDFkNkZSVklSUjZXRV9uLW12X3VOcUlZbmpGQnZUR3gyc3M4WVItZXdjWEpBd01GWjdvRGVzaFc4emZBY0p5YlU?oc=5",
-          "published_at": "21:45"
-        },
-        {
-          "title": "US strikes Iran after Hormuz tanker attacks: military",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3282830/us-strikes-iran-after-hormuz-tanker-attacks-military",
-          "published_at": "21:45"
-        },
-        {
-          "title": "US launches new strikes against Iran hours after revoking oil license",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-war-us-strikes-tehran-trump-b3010803.html",
-          "published_at": "21:40"
-        },
-        {
-          "title": "US revokes Iran oil license after ‘wholly unacceptable’ attacks on ships in Strait of Hormuz",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-iran-war-oil-license-strait-of-hormuz-attacks-trump-b3010781.html",
-          "published_at": "20:53"
-        },
-        {
-          "title": "US strikes Iran, revokes oil waiver after attacks on ships in Strait of Hormuz",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3359780/us-revokes-temporary-sanctions-waiver-iranian-oil-after-vessels-attacked-hormuz?utm_source=rss_feed",
-          "published_at": "20:41"
-        }
-      ]
-    },
-    {
-      "id": "world-201",
-      "title": "마크롱, 시리아 방문 중 다마스쿠스 우마이야 모스크 견학",
-      "title_en": "Macron tours Damascus' Umayyad Mosque during Syria visit",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/video/2026/07/07/macron-tours-damascus-umayyad-mosque-during-syria-visit",
-      "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "폭발은 프랑스 대통령의 방문을 방해하지는 않았지만 안정을 도모하려는 시리아 지도자들의 시도에 좌절을 안겨주었습니다.",
-      "excerpt_en": "Blasts did not interrupt French president’s visit but are setback for Syrian leaders’ attempt to project stability Explosions rocked Damascus near the hotel where French president, Emmanuel Macron, wa",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/07/explosions-rock-damascus-near-hotel-where-french-president-was-staying",
-      "translation_status": "ok",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "CBC",
-        "CBS News",
-        "Euronews",
-        "Fox News",
-        "New York Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-07T09:53:17+09:00",
-      "latest_published_at": "2026-07-07T16:03:04+09:00",
-      "articles": [
-        {
-          "title": "Macron Continues With Syria Visit Despite Explosions Near His Hotel in Damascus",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/07/world/middleeast/syria-explosions-macron-damascus-visit.html",
-          "published_at": "16:03"
-        },
-        {
-          "title": "French President Macron safe after bomb blasts near hotel in Damascus",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/emmanuel-macron-damascus-syria-bomb-explosions-near-hotel/",
-          "published_at": "15:09"
-        },
-        {
-          "title": "Bombs explode near Damascus hotel housing Macron on Syria visit",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/07/explosions-rock-damascus-near-hotel-where-french-president-was-staying",
-          "published_at": "14:14"
-        },
-        {
-          "title": "Video shows bomb rock Damascus hotel where French President Macron is staying during Syrian state visit",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/video-shows-bomb-rock-damascus-hotel-french-president-macron-staying-syrian-state-visit",
-          "published_at": "14:07"
-        },
-        {
-          "title": "Explosions rock Damascus as French President Macron visits Syria",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/macron-syria-damascus-explosion-9.7260905?cmp=rss",
-          "published_at": "10:13"
-        },
-        {
-          "title": "Macron tours Damascus' Umayyad Mosque during Syria visit",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/07/macron-tours-damascus-umayyad-mosque-during-syria-visit",
-          "published_at": "09:53"
-        }
-      ]
-    },
-    {
-      "id": "world-88",
-      "title": "미국, 호르무즈 해협에서 '상선 선박 공격' 이유로 이란에 공습 개시",
-      "title_en": "U.S. says it launched strikes on Iran for 'attacking commercial shipping' in Strait of Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/strait-of-hormuz-tanker-attack-9.7261579?cmp=rss",
-      "category": "중동",
-      "primary_source": "CBC",
-      "excerpt": "미군은 테헤란이 호르무즈 해협에서 선박 3척을 공격했다고 발표한 후 수요일 오전 이란을 공격했습니다.",
-      "excerpt_en": "The U.S. military attacked Iran early Wednesday after it said Tehran struck three ships in the Strait of Hormuz , part of an American effort that also revoked the Islamic Republic's ability to openly ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/strait-of-hormuz-tanker-attack-9.7261579?cmp=rss",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "CBC",
-        "Euronews",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-07T18:37:03+09:00",
-      "latest_published_at": "2026-07-08T03:37:00+09:00",
-      "articles": [
-        {
-          "title": "US launches strikes on Iran after 3 ships attacked in Strait of Hormuz; Bahrain and Kuwait targeted",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?oc=5",
-          "published_at": "03:37"
-        },
-        {
-          "title": "US launches strikes on Iran after 3 ships attacked in Strait of Hormuz; Bahrain and Kuwait targeted",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-tehran-bahrain-strait-of-hormuz-dubai-b3010868.html",
-          "published_at": "03:30"
-        },
-        {
-          "title": "US launches fresh strikes on Iran after ships attacked in Strait of Hormuz",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/08/us-launches-fresh-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz",
-          "published_at": "03:07"
-        },
-        {
-          "title": "US launches new strikes on Iran, revokes oil sales permit after 3 ships attacked in Strait of Hormuz",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?oc=5",
-          "published_at": "02:46"
-        },
-        {
-          "title": "U.S. says it launched strikes on Iran for 'attacking commercial shipping' in Strait of Hormuz",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/strait-of-hormuz-tanker-attack-9.7261579?cmp=rss",
-          "published_at": "18:37"
-        }
-      ]
-    },
-    {
-      "id": "world-171",
-      "title": "러시아, NATO 정상회담에서 트럼프-젤렌스키 회담 앞두고 우크라이나 공격",
-      "title_en": "Russia strikes Ukraine ahead of Trump-Zelensky talks at Nato summit",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "도널드 트럼프 미국 대통령과 우크라이나 볼로디미르 Z의 회담을 앞두고 모스크바가 공격을 지속하면서 우크라이나에 대한 러시아의 공격으로 밤새 최소 2명이 사망하고 여러 명이 부상당했습니다.",
-      "excerpt_en": "Russian strikes on Ukraine overnight killed at least two people and wounded several more, as Moscow sustained its attacks ahead of a meeting between US President Donald Trump and Ukraine’s Volodymyr Z",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "France24",
-        "SCMP",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-07T23:01:22+09:00",
-      "latest_published_at": "2026-07-08T05:57:51+09:00",
-      "articles": [
-        {
-          "title": "NATO summit live: Russia launches deadly strikes on Ukraine as Trump, Zelensky set to meet",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260708-ukraine-live-russia-launches-deadly-strikes-kyiv-nato-leaders-prepare-meet-in-ankara",
-          "published_at": "05:57"
-        },
-        {
-          "title": "2 killed as Russia bombs Ukraine ahead of Zelenskyy-Trump Nato meet",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/2-killed-as-russia-bombs-ukraine-ahead-of-zelenskyy-trump-nato-meet/articleshow/132254577.cms",
-          "published_at": "05:36"
-        },
-        {
-          "title": "Ukraine-Russia war latest: Moscow launches third round of strikes in a week on Kyiv as Zelensky renews Nato bid",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-nato-summit-b3010876.html",
-          "published_at": "04:35"
-        },
-        {
-          "title": "Russia strikes Ukraine ahead of Trump-Zelensky talks at Nato summit",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
-          "published_at": "23:01"
-        }
-      ]
-    },
-    {
       "id": "world-197",
-      "title": "프랑스 극우 지도자 르펜, 법원 판결 후 차기 대선 출마",
-      "title_en": "Far-right French leader Le Pen to run in next presidential election after court ruling",
+      "title": "프랑스 법원, 극우 지도자 마린 르펜에게 발목 태그를 달고 대선 출마를 허용하다",
+      "title_en": "French court allows far-right leader Marine Le Pen to run for president with ankle tag",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/far-right-french-leader-le-pen-able-to-run-in-next-presidential-election-after-court-ruling-13561256",
-      "category": "중동",
-      "primary_source": "Sky News",
+      "title_url": "https://www.nbcnews.com/world/europe/france-far-right-marine-le-pen-presidential-election-macron-rcna353271",
+      "category": "유럽",
+      "primary_source": "NBC News",
       "excerpt": "프랑스 극우 지도자 마린 르펜은 법원이 공직 보유 금지 기간을 단축한 항소 이후 2027년 대선에 출마할 것이라고 화요일 발표했습니다. 르펜의 대통령 희망은",
       "excerpt_en": "French far-right leader Marine Le Pen ⁠announced on Tuesday that she ⁠will run for president in 2027 after an appeal ⁠court shortened her ban on holding public office. Le Pen’s presidential hopes had ",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3359756/french-court-opens-door-le-pen-presidential-run-ankle-tag?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 89,
+      "score": 88,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
-      "area_value": 14,
-      "article_count": 14,
+      "area_value": 12,
+      "article_count": 12,
       "syndicated_count": 0,
-      "source_count": 12,
+      "source_count": 11,
       "sources": [
         "ABC News",
         "Bangkok Post",
@@ -533,12 +331,11 @@
         "NBC News",
         "New York Times",
         "SCMP",
-        "Sky News",
         "Sydney Morning Herald",
         "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-07-07T10:57:00+09:00",
+      "first_published_at": "2026-07-07T12:08:47+09:00",
       "latest_published_at": "2026-07-08T03:51:15+09:00",
       "articles": [
         {
@@ -596,12 +393,6 @@
           "published_at": "13:08"
         },
         {
-          "title": "Jordan Bardella: Le Pen’s 30-year-old protege hoping to become France’s next president",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/jordan-bardella-le-pen-french-president-b3010417.html",
-          "published_at": "12:58"
-        },
-        {
           "title": "French court clears way for far-right leader Le Pen to run in 2027",
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/marine-le-pens-2027-bid-french-presidency-stake-134538407",
@@ -618,18 +409,80 @@
           "source_name": "NBC News",
           "url": "https://www.nbcnews.com/world/europe/france-far-right-marine-le-pen-presidential-election-macron-rcna353271",
           "published_at": "12:08"
+        }
+      ]
+    },
+    {
+      "id": "world-201",
+      "title": "마크롱 프랑스 대통령 시리아 방문 중 다마스쿠스 폭발…",
+      "title_en": "Explosions rock Damascus as French President Macron visits Syria",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/macron-syria-damascus-explosion-9.7260905?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "폭발은 프랑스 대통령의 방문을 방해하지는 않았지만 안정을 도모하려는 시리아 지도자들의 시도에 좌절을 안겨주었습니다.",
+      "excerpt_en": "Blasts did not interrupt French president’s visit but are setback for Syrian leaders’ attempt to project stability Explosions rocked Damascus near the hotel where French president, Emmanuel Macron, wa",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/07/explosions-rock-damascus-near-hotel-where-french-president-was-staying",
+      "translation_status": "ok",
+      "score": 87,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 65
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBC",
+        "CBS News",
+        "Fox News",
+        "New York Times",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-07-07T10:13:35+09:00",
+      "latest_published_at": "2026-07-07T16:03:04+09:00",
+      "articles": [
+        {
+          "title": "Macron Continues With Syria Visit Despite Explosions Near His Hotel in Damascus",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/07/world/middleeast/syria-explosions-macron-damascus-visit.html",
+          "published_at": "16:03"
         },
         {
-          "title": "Far-right French leader Le Pen to run in next presidential election after court ruling",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/far-right-french-leader-le-pen-able-to-run-in-next-presidential-election-after-court-ruling-13561256",
-          "published_at": "10:57"
+          "title": "French President Macron safe after bomb blasts near hotel in Damascus",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/emmanuel-macron-damascus-syria-bomb-explosions-near-hotel/",
+          "published_at": "15:09"
+        },
+        {
+          "title": "Bombs explode near Damascus hotel housing Macron on Syria visit",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/07/explosions-rock-damascus-near-hotel-where-french-president-was-staying",
+          "published_at": "14:14"
+        },
+        {
+          "title": "Video shows bomb rock Damascus hotel where French President Macron is staying during Syrian state visit",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/video-shows-bomb-rock-damascus-hotel-french-president-macron-staying-syrian-state-visit",
+          "published_at": "14:07"
+        },
+        {
+          "title": "Explosions rock Damascus as French President Macron visits Syria",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/macron-syria-damascus-explosion-9.7260905?cmp=rss",
+          "published_at": "10:13"
         }
       ]
     },
     {
       "id": "world-212",
-      "title": "타일러 로빈슨의 예심에서 찰리 커크 살해 장면이 담긴 생생한 비디오가 공개되자 판사는 움찔했다.",
+      "title": "타일러 로빈슨의 예심에서 찰리 커크의 살해 장면이 담긴 생생한 비디오가 공개되자 판사는 움찔했다.",
       "title_en": "Judge flinches as graphic video of Charlie Kirk killing is shown at Tyler Robinson’s preliminary hearing",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/crime/charlie-kirk-evidence-tyler-robinson-trial-b3010192.html",
@@ -689,7 +542,7 @@
       ]
     },
     {
-      "id": "world-18",
+      "id": "world-19",
       "title": "파키스탄 등록 화물기, 항해 문제로 카라치 해안에서 실종",
       "title_en": "Pakistan-registered cargo plane missing off Karachi coast after navigation problem",
       "title_source": "earliest_pick",
@@ -750,7 +603,7 @@
       ]
     },
     {
-      "id": "world-73",
+      "id": "world-69",
       "title": "영국의 나이젤 패라지 의원직 사임, 누명 벗기 위해 재선 모색",
       "title_en": "UK’s Nigel Farage to quit as lawmaker, seeks re-election to clear name",
       "title_source": "earliest_pick",
@@ -879,7 +732,7 @@
       ]
     },
     {
-      "id": "world-262",
+      "id": "world-265",
       "title": "콜롬비아 차기 대통령, 페트로 사기 혐의로 인수인계 중단",
       "title_en": "Colombia's president-elect suspends transition after Petro alleges fraud",
       "title_source": "earliest_pick",
@@ -940,7 +793,7 @@
       ]
     },
     {
-      "id": "world-267",
+      "id": "world-270",
       "title": "중국의 드문 미사일 시험, 아시아 이웃 국가들을 불안하게 하다",
       "title_en": "A rare Chinese missile test unnerves Asian neighbours",
       "title_source": "earliest_pick",
@@ -994,61 +847,7 @@
       ]
     },
     {
-      "id": "world-85",
-      "title": "언론인들이 우려를 제기함에 따라 '가짜 뉴스'를 겨냥한 한국 법률이 발효됩니다.",
-      "title_en": "South Korean law targeting 'fake news' takes effect as journalists' raise concerns",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/south-korean-law-targeting-fake-news-takes-effect-134539002",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "한국은 언론 단체들이 대중의 경각심을 불러일으킬 수 있다고 경고하면서 허위 정보를 퍼뜨린 언론 매체와 소셜 미디어 영향력자들에 대해 엄청난 징벌적 손해배상을 허용하는 법을 시행하고 있습니다.",
-      "excerpt_en": "South Korea is enforcing a law that allows steep punitive damages against news outlets and social media influencers for spreading false information as journalist groups warned it could chill public di",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/south-korean-law-targeting-fake-news-takes-effect-134539002",
-      "translation_status": "ok",
-      "score": 79,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 59
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Euronews"
-      ],
-      "first_published_at": "2026-07-07T09:54:10+09:00",
-      "latest_published_at": "2026-07-07T23:52:00+09:00",
-      "articles": [
-        {
-          "title": "South Korean law targeting ‘fake news’ takes effect as journalist groups raise concerns",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd3dUT2ZYR3gyMUlyMUZLNEVQSlRIOVFvRU02OWhEUklYTzFrVTVqTUh4d2I1aXlCaldoS2JQUnZ5VW1aNjI3QTBWVjYtUVVvYWVqM25xY3RjWnRuVzBpLXV4T1dkN01lMVF6c20yYVJmNnh2MDEwNmdlbHB1Q2F3Mm5Qdjk5M0hxUTFuZXVyeHFoVDA3OWJJbDlYRFBEUG1B?oc=5",
-          "published_at": "23:52"
-        },
-        {
-          "title": "South Korean law targeting 'fake news' takes effect as journalists' groups raise concerns",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/07/south-korean-law-targeting-fake-news-takes-effect-as-journalists-groups-raise-concerns",
-          "published_at": "10:29"
-        },
-        {
-          "title": "South Korean law targeting 'fake news' takes effect as journalists' raise concerns",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/south-korean-law-targeting-fake-news-takes-effect-134539002",
-          "published_at": "09:54"
-        }
-      ]
-    },
-    {
-      "id": "world-147",
+      "id": "world-148",
       "title": "국제올림픽위원회(IOC), 2028년 LA올림픽 앞두고 러시아 출전 정지 해제",
       "title_en": "International Olympic Committee lifts Russia suspension ahead of 2028 LA Games",
       "title_source": "earliest_pick",
@@ -1102,7 +901,90 @@
       ]
     },
     {
-      "id": "world-94",
+      "id": "world-282",
+      "title": "심폐소생술 후 Mitch McConnell 아내의 이상한 행동이 눈썹을 치켜뜨게 합니다. '그러면 다음과 같은 사람이 있을 때...'",
+      "title_en": "Mitch Mcconnell wife's strange move after CPR raises eyebrows: ‘So when you have a person who…’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-wifes-strange-move-after-cpr-raises-eyebrows-so-when-you-have-a-person-who-101783422095443.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "CNN의 스캇 제닝스는 미치 맥코넬과 약 20분 동안 대화를 나누며 그가 병원에서 회복 중임을 확인했으며 바이러스에 의한 '뇌사' 주장에 대해 반박했다고 말했습니다.",
+      "excerpt_en": "CNN's Scott Jennings said he spoke with Mitch McConnell for nearly 20 minutes, confirming he's recovering in hospital, countering viral “brain dead” claims.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-scott-jennings-spoke-to-senator-for-20-minutes-amid-brain-dead-rumors-101783444683656.html",
+      "translation_status": "ok",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 8,
+      "article_count": 8,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-07T11:27:58+09:00",
+      "latest_published_at": "2026-07-08T06:49:21+09:00",
+      "articles": [
+        {
+          "title": "Mitch McConnell health update: Rep. Jack Kimble says he spoke to senator for about 45 mins, 'He's so sharp'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-rep-jack-kimble-says-he-spoke-to-senator-for-about-45-mins-hes-so-sharp-101783492872457.html",
+          "published_at": "06:49"
+        },
+        {
+          "title": "Mitch McConnell’s wife reveals stunning decision to stay on China trip after he was hospitalized: report",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/mitch-mcconnell-elaine-chao-hospital-china-b3010841.html",
+          "published_at": "03:50"
+        },
+        {
+          "title": "Mitch McConnell's social media accounts go dark amid bizarre health rumors",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mcconnell-health-mystery-senators-very-active-social-media-accounts-go-dark-amid-bizarre-rumors-101783449393242.html",
+          "published_at": "19:03"
+        },
+        {
+          "title": "Mitch McConnell gets crucial message amid health concerns and hospitalisation: ‘I told him we want…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-gets-crucial-message-amid-health-concerns-and-hospitalisation-i-told-him-we-want-101783449224578.html",
+          "published_at": "18:49"
+        },
+        {
+          "title": "Mitch McConnell health update: Scott Jennings spoke to Senator ‘for 20 minutes’ amid ‘brain dead’ rumors",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-scott-jennings-spoke-to-senator-for-20-minutes-amid-brain-dead-rumors-101783444683656.html",
+          "published_at": "17:27"
+        },
+        {
+          "title": "Mitch McConnell’s staff faces MAGA fury amid brain dead rumors, ‘Produce proof if he’s still alive and well’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-s-staff-faces-maga-fury-amid-brain-dead-rumors-produce-proof-if-he-s-still-alive-and-well-101783440762873.html",
+          "published_at": "17:12"
+        },
+        {
+          "title": "Who is Mitch McConnell’s daughter? Senator's eldest daughter deactivates her X account amid ‘brain dead’ rumors",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-mitch-mcconnell-s-daughter-senators-eldest-daughter-deactivates-her-x-account-101783423765330.html",
+          "published_at": "11:52"
+        },
+        {
+          "title": "Mitch Mcconnell wife's strange move after CPR raises eyebrows: ‘So when you have a person who…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-wifes-strange-move-after-cpr-raises-eyebrows-so-when-you-have-a-person-who-101783422095443.html",
+          "published_at": "11:27"
+        }
+      ]
+    },
+    {
+      "id": "world-92",
       "title": "ICE, 휴스턴에서 단속 작전 중 총격으로 남성 사망: DHS",
       "title_en": "ICE fatally shoots man during enforcement operation in Houston: DHS",
       "title_source": "earliest_pick",
@@ -1114,14 +996,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/07/ice-agents-shoot-motorist-texas-houston",
       "translation_status": "ok",
-      "score": 73,
+      "score": 72,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
+        "time_score": 2,
+        "raw75": 54
       },
       "area_value": 3,
       "article_count": 3,
@@ -1156,61 +1038,7 @@
       ]
     },
     {
-      "id": "world-345",
-      "title": "중국 중부 지역에서 토네이도와 폭풍으로 최소 11명이 사망했습니다.",
-      "title_en": "Tornadoes and storms in central China leave at least 11 people dead",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/tornadoes-storms-central-china-leave-11-people-dead-134542567",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "화요일 산사태는 중국 남부와 중부 지역에서 극심한 폭풍과 비로 인해 약 17명이 사망하고 수백 명이 부상을 입으면서 발생했습니다.",
-      "excerpt_en": "Tuesday's landslide occurred as intense storms and rains in southern and central China killed around 17 people and injured hundreds of others.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/east-asia/china-landslide-storms-tornadoes-killed-evacuations-6239941",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Channel News Asia",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-07T12:26:17+09:00",
-      "latest_published_at": "2026-07-08T02:27:00+09:00",
-      "articles": [
-        {
-          "title": "Death toll from landslide in northwest China rises to 21",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/china-landslide-storms-tornadoes-killed-evacuations-6239941",
-          "published_at": "02:27"
-        },
-        {
-          "title": "Death toll from China storms rises to 17, hundreds injured",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/death-toll-from-china-storms-rises-to-17-hundreds-injured-101783431725365.html",
-          "published_at": "14:24"
-        },
-        {
-          "title": "Tornadoes and storms in central China leave at least 11 people dead",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/tornadoes-storms-central-china-leave-11-people-dead-134542567",
-          "published_at": "12:26"
-        }
-      ]
-    },
-    {
-      "id": "world-354",
+      "id": "world-351",
       "title": "나이젤 패라지 영국 의회 의원 사임",
       "title_en": "Nigel Farage resigning from UK Parliament",
       "title_source": "earliest_pick",
@@ -1260,6 +1088,114 @@
           "source_name": "Fox News",
           "url": "https://www.foxnews.com/world/nigel-farage-resigning-from-uk-parliament",
           "published_at": "13:32"
+        }
+      ]
+    },
+    {
+      "id": "world-262",
+      "title": "러시아, NATO 정상회담에서 트럼프-젤렌스키 회담 앞두고 우크라이나 공격",
+      "title_en": "Russia strikes Ukraine ahead of Trump-Zelensky talks at Nato summit",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "도널드 트럼프 미국 대통령과 우크라이나 볼로디미르 Z의 회담을 앞두고 러시아가 우크라이나에 대한 공격을 밤새도록 공격해 최소 2명이 사망하고 여러 명이 부상을 입었습니다.",
+      "excerpt_en": "Russian strikes on Ukraine overnight killed at least two people and wounded several more, as Moscow sustained its attacks ahead of a meeting between US President Donald Trump and Ukraine’s Volodymyr Z",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 71,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 53
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "SCMP",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-07-07T23:01:22+09:00",
+      "latest_published_at": "2026-07-08T05:36:55+09:00",
+      "articles": [
+        {
+          "title": "2 killed as Russia bombs Ukraine ahead of Zelenskyy-Trump Nato meet",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/2-killed-as-russia-bombs-ukraine-ahead-of-zelenskyy-trump-nato-meet/articleshow/132254577.cms",
+          "published_at": "05:36"
+        },
+        {
+          "title": "Ukraine-Russia war latest: Moscow launches third round of strikes in a week on Kyiv as Zelensky renews Nato bid",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-nato-summit-b3010876.html",
+          "published_at": "04:35"
+        },
+        {
+          "title": "Russia strikes Ukraine ahead of Trump-Zelensky talks at Nato summit",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3359783/barrage-explosions-rocks-kyiv-after-ukraine-says-drones-attacked-russia-shadow-fleet?utm_source=rss_feed",
+          "published_at": "23:01"
+        }
+      ]
+    },
+    {
+      "id": "world-94",
+      "title": "트럼프, NATO 지도자들이 모인 가운데 미국이 그린란드를 통제해야 한다는 주장 부활",
+      "title_en": "Trump revives argument that U.S. should control Greenland as NATO leaders gather",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/trump-greenland-nato-denmark-9.7261603?cmp=rss",
+      "category": "유럽",
+      "primary_source": "CBC",
+      "excerpt": "도널드 트럼프 미국 대통령은 화요일 그린란드를 덴마크가 아닌 미국이 통제해야 한다고 말하면서 나토 동맹국들 사이에 긴장을 불러일으켰던 입장을 되살렸다.",
+      "excerpt_en": "U.S. President Donald Trump said on Tuesday that the U.S., not Denmark, should control Greenland, reviving a stance that has ‌caused tensions among NATO allies just as leaders of the alliance gathered",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/trump-greenland-nato-denmark-9.7261603?cmp=rss",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "CBC"
+      ],
+      "first_published_at": "2026-07-07T19:02:59+09:00",
+      "latest_published_at": "2026-07-08T06:37:32+09:00",
+      "articles": [
+        {
+          "title": "Danish PM says Greenland is 'not for sale' as Trump joins NATO leaders in Turkey",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/nato-summit-supposed-focus-defense-spending-trumps-strikes-134572678",
+          "published_at": "06:37"
+        },
+        {
+          "title": "Danish PM says Greenland is ‘not for sale’ as Trump joins NATO leaders in Turkey",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQzhoTmRUY1YwTVlQNXBOQ08wcTU5dVQ4YXB4ZW0tN3FuMWZCbkFDbTRyRnMwRVNCRVNaTDFRWkhLWENMeUVKelpJdEVVcXdqVy1QVWxPNC02MVVSWF80MG8zR2FZVklqVFMtN2RZZkltNUEtSUgzempWdjFFSlpHekVmSGxnTzZjNlVndzBIQWVJbHJh?oc=5",
+          "published_at": "06:17"
+        },
+        {
+          "title": "Trump revives argument that U.S. should control Greenland as NATO leaders gather",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/trump-greenland-nato-denmark-9.7261603?cmp=rss",
+          "published_at": "19:02"
         }
       ]
     },
@@ -1318,61 +1254,7 @@
       ]
     },
     {
-      "id": "world-30",
-      "title": "맨해튼 고층빌딩, 붕괴 가능성 경고로 대피",
-      "title_en": "Manhattan high-rise evacuated as officials warn of potential collapse",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/manhattan-high-rise-evacuated-as-officials-warn-of-potential-collapse/articleshow/132244930.cms",
-      "category": "미국",
-      "primary_source": "Times of India",
-      "excerpt": "맨해튼 고층건물, 기둥이 휘어져 대피가 불가피해짐 AP 뉴스",
-      "excerpt_en": "Manhattan high-rise to be stabilized after columns buckle, forcing evacuations AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdUVwSTVQeG9PbkhHcWhlR3FhaWxqVjRXVVAxdFZZT2xuWS1OdW9rX2ZpbnFyVjNRTXF2S1ZzVE5pTGpBVmdsczVlenRudDdzTW9aQlZHY3FCdm1QaUg4OEZKQUpOdmQ1cXh4cnRMUFVmaUlJMXNEMG9CamJVTkdGUGxBMDR0TTBzV2pKUVg2VXRITy1FSWI3MktfWko?oc=5",
-      "translation_status": "ok",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "Reuters",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-07T17:47:57+09:00",
-      "latest_published_at": "2026-07-08T00:35:00+09:00",
-      "articles": [
-        {
-          "title": "Manhattan high-rise to be stabilized after columns buckle, forcing evacuations",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdUVwSTVQeG9PbkhHcWhlR3FhaWxqVjRXVVAxdFZZT2xuWS1OdW9rX2ZpbnFyVjNRTXF2S1ZzVE5pTGpBVmdsczVlenRudDdzTW9aQlZHY3FCdm1QaUg4OEZKQUpOdmQ1cXh4cnRMUFVmaUlJMXNEMG9CamJVTkdGUGxBMDR0TTBzV2pKUVg2VXRITy1FSWI3MktfWko?oc=5",
-          "published_at": "00:35"
-        },
-        {
-          "title": "Columns in Manhattan high-rise buckle, prompting evacuations",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDlDVDBiVGRoeEh1WWlpU0IzUnJ3aWZyYldFdkVRRGVBZkI3YzJLVkhScWhsbHZmcEhFLXhpTXlwdHVWRXdaUUVVQ3ZVQ3NrX01qVUJJdlVLcVAtQ0o0VEtVQXRDTzRJV210RGFXcDNwWWNEY09IUkJfLVdBd2dHa0xZeFRGdWgtelNwa24xNFIzMGRVVHlFRlM1MDdWa0U?oc=5",
-          "published_at": "21:47"
-        },
-        {
-          "title": "Manhattan high-rise evacuated as officials warn of potential collapse",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/manhattan-high-rise-evacuated-as-officials-warn-of-potential-collapse/articleshow/132244930.cms",
-          "published_at": "17:47"
-        }
-      ]
-    },
-    {
-      "id": "world-89",
+      "id": "world-86",
       "title": "트럼프 행정부는 이란 망명 신청자들에 대한 세부 정보를 테헤란에 전달했다고 소송이 제기됐다.",
       "title_en": "Trump administration gave Tehran details on Iranian asylum seekers, lawsuit alleges",
       "title_source": "earliest_pick",
@@ -1422,6 +1304,60 @@
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/iran-asylum-seekers-ice-trump-lawsuit-b3010552.html",
           "published_at": "15:06"
+        }
+      ]
+    },
+    {
+      "id": "world-97",
+      "title": "판사는 가족을 절벽에서 몰아낸 캘리포니아 방사선 전문의에 대한 살인 미수 혐의를 기각했습니다.",
+      "title_en": "Judge drops attempted murder charges against California radiologist who drove family off cliff",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/dharmesh-patel-california-pch-attempted-murder-b3010779.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "2023년 캘리포니아 북부 해안 절벽에서 차를 운전해 가족을 살해하려 한 혐의로 기소된 방사선 전문의에 대한 모든 혐의가 기소가 완료된 후 판사에 의해 기각되었습니다.",
+      "excerpt_en": "All charges against a radiologist accused of trying to kill his family in 2023 by driving his car off a cliff along the Northern California coast have been dismissed by a judge following his completio",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3359785/charges-against-us-dad-who-drove-family-cliff-dropped-after-mental-health-treatment?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-07T21:10:10+09:00",
+      "latest_published_at": "2026-07-07T23:33:19+09:00",
+      "articles": [
+        {
+          "title": "Dad who drove family off California cliff has charges dropped after mental health treatment",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359785/charges-against-us-dad-who-drove-family-cliff-dropped-after-mental-health-treatment?utm_source=rss_feed",
+          "published_at": "23:33"
+        },
+        {
+          "title": "Charges against California dad who drove family off cliff dropped after mental health treatment",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2h1ay16UFk4Tzd4cmZfWUU5NEE3T1J1eWljSjJDQ25ibjR3Z2IybzJEMjhYNGJGQVA5XzAwTGFtUlVZcjc0MWtUQ2h5Wjg0Z0xkUWpCa3QtVzE2RHFuaFVQTHlzbFFfUnItRXY5MGVTbVNUdDh0end2dkhJdVA0QWZWUDhIUDlvVkpwVFpVZGVGNlhna1dKRTV3c09RQQ?oc=5",
+          "published_at": "22:07"
+        },
+        {
+          "title": "Judge drops attempted murder charges against California radiologist who drove family off cliff",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/dharmesh-patel-california-pch-attempted-murder-b3010779.html",
+          "published_at": "21:10"
         }
       ]
     },
@@ -1480,67 +1416,49 @@
       ]
     },
     {
-      "id": "world-284",
-      "title": "미치 맥코넬의 딸은 누구입니까? 상원의원 장녀, '뇌사' 루머에 X 계정 비활성화",
-      "title_en": "Who is Mitch McConnell’s daughter? Senator's eldest daughter deactivates her X account amid ‘brain dead’ rumors",
+      "id": "world-78",
+      "title": "언론계가 우려를 표명하면서 '가짜뉴스'를 겨냥한 한국법이 발효됐다.",
+      "title_en": "South Korean law targeting 'fake news' takes effect as journalists' groups raise concerns",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-mitch-mcconnell-s-daughter-senators-eldest-daughter-deactivates-her-x-account-101783423765330.html",
+      "title_url": "http://www.euronews.com/2026/07/07/south-korean-law-targeting-fake-news-takes-effect-as-journalists-groups-raise-concerns",
       "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "CNN의 스캇 제닝스는 미치 맥코넬과 약 20분 동안 대화를 나누며 그가 병원에서 회복 중임을 확인했으며 바이러스에 의한 '뇌사' 주장에 대해 반박했다고 말했습니다.",
-      "excerpt_en": "CNN's Scott Jennings said he spoke with Mitch McConnell for nearly 20 minutes, confirming he's recovering in hospital, countering viral “brain dead” claims.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-scott-jennings-spoke-to-senator-for-20-minutes-amid-brain-dead-rumors-101783444683656.html",
+      "primary_source": "Euronews",
+      "excerpt": "한국에서는 2024년 계엄령 시도가 실패한 이후 중국의 선거 시스템 개입에 대한 입증되지 않은 주장을 포함하여 온라인에서 잘못된 정보가 급증했습니다.",
+      "excerpt_en": "South Korea saw a surge in online misinformation following the botched 2024 martial law attempt, including unsubstantiated allegations of Chinese interference in the electoral system.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/07/07/south-korean-law-targeting-fake-news-takes-effect-as-journalists-groups-raise-concerns",
       "translation_status": "ok",
-      "score": 65,
+      "score": 64,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 49
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 2,
+        "raw75": 48
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "The Independent"
+        "AP News",
+        "Euronews"
       ],
-      "first_published_at": "2026-07-07T11:52:52+09:00",
-      "latest_published_at": "2026-07-08T03:50:19+09:00",
+      "first_published_at": "2026-07-07T10:29:11+09:00",
+      "latest_published_at": "2026-07-07T23:52:00+09:00",
       "articles": [
         {
-          "title": "Mitch McConnell’s wife reveals stunning decision to stay on China trip after he was hospitalized: report",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/mitch-mcconnell-elaine-chao-hospital-china-b3010841.html",
-          "published_at": "03:50"
+          "title": "South Korean law targeting ‘fake news’ takes effect as journalist groups raise concerns",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd3dUT2ZYR3gyMUlyMUZLNEVQSlRIOVFvRU02OWhEUklYTzFrVTVqTUh4d2I1aXlCaldoS2JQUnZ5VW1aNjI3QTBWVjYtUVVvYWVqM25xY3RjWnRuVzBpLXV4T1dkN01lMVF6c20yYVJmNnh2MDEwNmdlbHB1Q2F3Mm5Qdjk5M0hxUTFuZXVyeHFoVDA3OWJJbDlYRFBEUG1B?oc=5",
+          "published_at": "23:52"
         },
         {
-          "title": "Mitch McConnell gets crucial message amid health concerns and hospitalisation: ‘I told him we want…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-gets-crucial-message-amid-health-concerns-and-hospitalisation-i-told-him-we-want-101783449224578.html",
-          "published_at": "18:49"
-        },
-        {
-          "title": "Mitch McConnell health update: Scott Jennings spoke to Senator ‘for 20 minutes’ amid ‘brain dead’ rumors",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-scott-jennings-spoke-to-senator-for-20-minutes-amid-brain-dead-rumors-101783444683656.html",
-          "published_at": "17:27"
-        },
-        {
-          "title": "Mitch McConnell’s staff faces MAGA fury amid brain dead rumors, ‘Produce proof if he’s still alive and well’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-s-staff-faces-maga-fury-amid-brain-dead-rumors-produce-proof-if-he-s-still-alive-and-well-101783440762873.html",
-          "published_at": "17:12"
-        },
-        {
-          "title": "Who is Mitch McConnell’s daughter? Senator's eldest daughter deactivates her X account amid ‘brain dead’ rumors",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-mitch-mcconnell-s-daughter-senators-eldest-daughter-deactivates-her-x-account-101783423765330.html",
-          "published_at": "11:52"
+          "title": "South Korean law targeting 'fake news' takes effect as journalists' groups raise concerns",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/07/south-korean-law-targeting-fake-news-takes-effect-as-journalists-groups-raise-concerns",
+          "published_at": "10:29"
         }
       ]
     },
@@ -1592,15 +1510,15 @@
       ]
     },
     {
-      "id": "world-102",
-      "title": "호르무즈 해협에서 유조선 피격 후 미국과 이란 무역 파업",
-      "title_en": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
+      "id": "world-103",
+      "title": "미국-이란, 호르무즈 유조선 피격 후 파업",
+      "title_en": "US, Iran exchange strikes after tankers hit in Hormuz",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+      "title_url": "https://www.smh.com.au/world/middle-east/us-military-launches-strikes-against-iran-central-command-says-20260708-p60dhr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "category": "중동",
-      "primary_source": "BBC",
-      "excerpt": "미국과 이란은 몇 시간 동안 걸프만에서 총격전을 벌였고, 미군은 이란에 \"책임을 지겠다\"고 경고했고 테헤란은 \"노골적인 공격 행위\"를 일축했습니다.",
-      "excerpt_en": "The US and Iran traded fire in the Gulf for several hours, with the US military warning it would hold Iran “accountable” and Tehran dismissing a “blatant act of aggression”.",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "미국과 이란은 걸프만에서 몇 시간 동안 총격전을 벌였고, 미군은 이란에 책임을 물을 것이라고 경고했고 테헤란은 \"노골적인 침략 행위\"를 일축했습니다.",
+      "excerpt_en": "The US and Iran traded fire in the Gulf for several hours, with the US military warning it would hold Iran accountable and Tehran dismissing a “blatant act of aggression”.",
       "excerpt_source": "Sydney Morning Herald",
       "excerpt_url": "https://www.smh.com.au/world/middle-east/us-military-launches-strikes-against-iran-central-command-says-20260708-p60dhr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
@@ -1621,119 +1539,25 @@
         "BBC",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-08T04:43:44+09:00",
-      "latest_published_at": "2026-07-08T06:11:33+09:00",
+      "first_published_at": "2026-07-08T06:11:33+09:00",
+      "latest_published_at": "2026-07-08T06:36:05+09:00",
       "articles": [
+        {
+          "title": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+          "published_at": "06:36"
+        },
         {
           "title": "US, Iran exchange strikes after tankers hit in Hormuz",
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/middle-east/us-military-launches-strikes-against-iran-central-command-says-20260708-p60dhr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
           "published_at": "06:11"
-        },
-        {
-          "title": "US and Iran trade strikes after tankers hit in Strait of Hormuz",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
-          "published_at": "04:43"
         }
       ]
     },
     {
-      "id": "world-129",
-      "title": "월드컵에서 IShowSpeed에 무슨 일이 일어났나요? FIFA 조사 결과 아르헨티나전 인종차별 논란 해명",
-      "title_en": "What happened to IShowSpeed at the World Cup? Racist abuse row at Argentina match explained amid FIFA probe",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/what-happened-to-ishowspeed-at-the-world-cup-racist-abuse-row-at-argentina-match-explained-amid-fifa-probe-101783453982753.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "한 아르헨티나 서포터는 마이애미에서 열린 카보베르데와의 경기에서 자신의 라이브 스트리밍에서 스피드에게 '동물원에 가서 울어라'고 말했다.",
-      "excerpt_en": "An Argentina supporter told Speed to 'go cry at the zoo' on his livestream at the match against Cape Verde in Miami.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/sports/2026/7/8/fifa-condemns-fans-racist-attack-on-ishowspeed-at-argentina-world-cup-match?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-07T20:02:06+09:00",
-      "latest_published_at": "2026-07-08T03:46:32+09:00",
-      "articles": [
-        {
-          "title": "FIFA condemns fan’s racist attack on IShowSpeed at Argentina World Cup match",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-condemns-fans-racist-attack-on-ishowspeed-at-argentina-world-cup-match?traffic_source=rss",
-          "published_at": "03:46"
-        },
-        {
-          "title": "What happened to IShowSpeed at the World Cup? Racist abuse row at Argentina match explained amid FIFA probe",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/what-happened-to-ishowspeed-at-the-world-cup-racist-abuse-row-at-argentina-match-explained-amid-fifa-probe-101783453982753.html",
-          "published_at": "20:02"
-        }
-      ]
-    },
-    {
-      "id": "world-139",
-      "title": "이란 전쟁 라이브: 테헤란이 미국 공격에 대응하면서 쿠웨이트 바레인의 사이렌",
-      "title_en": "Iran war live: Sirens in Bahrain, Kuwait as Tehran responds to US attacks",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "미국-이란 전쟁 생방송: 이란의 주요 석유 허브인 카르그 섬, 케심 섬, 남부 항구 도시인 시리크와 반다르 압바스에서 폭발음이 들렸다고 로이터가 보도했습니다.",
-      "excerpt_en": "US-Iran war LIVE: Blasts were heard in Iran's main oil hub on Kharg Island, on Qeshm Island, and in the southern port cities of Sirik and Bandar Abbas, Reuters reported.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-strikes-iran-war-live-updates-khamenei-funeral-coffin-iraq-najaf-trump-peace-ceasefire-hormuz-missile-us-drone-downed-101783480585566.html",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-08T00:00:00+09:00",
-      "latest_published_at": "2026-07-08T03:40:02+09:00",
-      "articles": [
-        {
-          "title": "US-Iran war LIVE updates: Missile sirens in Bahrain, Kuwait also targeted by Iran after US strikes",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-strikes-iran-war-live-updates-khamenei-funeral-coffin-iraq-najaf-trump-peace-ceasefire-hormuz-missile-us-drone-downed-101783480585566.html",
-          "published_at": "03:40"
-        },
-        {
-          "title": "Iran war live: Sirens in Bahrain, Kuwait as Tehran responds to US attacks",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks?traffic_source=rss",
-          "published_at": "00:00"
-        }
-      ]
-    },
-    {
-      "id": "world-190",
+      "id": "world-191",
       "title": "'이러한 지출은 정당화할 수 없다': 부패 감시 기관이 전직 상사에 대한 두 건의 조사를 중단한 이유",
       "title_en": "‘Cannot justify such expenditure’: why the corruption watchdog dropped two investigations into former boss",
       "title_source": "earliest_pick",
@@ -1810,13 +1634,13 @@
         "The Guardian"
       ],
       "first_published_at": "2026-07-08T01:15:41+09:00",
-      "latest_published_at": "2026-07-08T06:05:08+09:00",
+      "latest_published_at": "2026-07-08T07:00:25+09:00",
       "articles": [
         {
           "title": "U.S. hits dozens of Iranian targets in retaliatory strikes after ship attacks",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/",
-          "published_at": "06:05"
+          "published_at": "07:00"
         },
         {
           "title": "Iran accuses US of violating peace agreement after strikes target sites around strait of Hormuz",
@@ -1827,7 +1651,201 @@
       ]
     },
     {
-      "id": "world-247",
+      "id": "world-214",
+      "title": "하메네이가 이란 성직자들에 대해 최고 통치를 했던 쿰에서 대규모 애도 행사",
+      "title_en": "Mass Mournings In Qom, Where Khamenei Ruled Supreme Over Iran’s Clerics",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/07/07/world/middleeast/iran-khamenei-qom-funeral.html",
+      "category": "중동",
+      "primary_source": "New York Times",
+      "excerpt": "많은 시아파가 신성시하는 장소에서 거행된 아야톨라 알리 하메네이의 장례식은 이란 정부가 주최한 일주일 간의 장례식 중 가장 최근 단계였습니다.",
+      "excerpt_en": "The ceremony for Ayatollah Ali Khamenei, held at a site considered sacred by many Shiites, was the latest step in a weeklong funeral organized by Iran’s government.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/07/07/world/middleeast/iran-khamenei-qom-funeral.html",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "New York Times"
+      ],
+      "first_published_at": "2026-07-07T15:33:32+09:00",
+      "latest_published_at": "2026-07-08T06:57:43+09:00",
+      "articles": [
+        {
+          "title": "Ali Khamenei's coffin passes through thousands of mourners in Iraq's holy city of Najaf",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/08/ali-khameneis-coffin-passes-through-thousands-of-mourners-in-iraqs-holy-city-of-najaf",
+          "published_at": "06:57"
+        },
+        {
+          "title": "The Symbols We Saw at Khamenei’s Funeral",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/video/world/middleeast/100000011012446/the-symbols-we-saw-at-khameneis-funeral.html",
+          "published_at": "23:38"
+        },
+        {
+          "title": "Mass Mournings In Qom, Where Khamenei Ruled Supreme Over Iran’s Clerics",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/07/world/middleeast/iran-khamenei-qom-funeral.html",
+          "published_at": "15:33"
+        }
+      ]
+    },
+    {
+      "id": "world-81",
+      "title": "미국, 호르무즈 해협에서 선박 3척 피격 후 이란에 대한 추가 공습, 원유 판매 허가 취소",
+      "title_en": "US launches new strikes on Iran, revokes oil sales permit after 3 ships attacked in Strait of Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "NATO는 미국의 공격이 \"필요하다\"고 설명했고, 이란은 워싱턴에 어떤 대응이 필요한지 검토할 것이라고 경고했습니다.",
+      "excerpt_en": "NATO described the US attack as \"necessary\", as Iran warned Washington it would review what response was needed.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/07/08/us-launches-fresh-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Euronews"
+      ],
+      "first_published_at": "2026-07-08T02:46:00+09:00",
+      "latest_published_at": "2026-07-08T03:07:25+09:00",
+      "articles": [
+        {
+          "title": "US launches fresh strikes on Iran after ships attacked in Strait of Hormuz",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/08/us-launches-fresh-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz",
+          "published_at": "03:07"
+        },
+        {
+          "title": "US launches new strikes on Iran, revokes oil sales permit after 3 ships attacked in Strait of Hormuz",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?oc=5",
+          "published_at": "02:46"
+        }
+      ]
+    },
+    {
+      "id": "world-131",
+      "title": "월드컵에서 IShowSpeed에 무슨 일이 일어났나요? FIFA 조사 결과 아르헨티나전 인종차별 논란 해명",
+      "title_en": "What happened to IShowSpeed at the World Cup? Racist abuse row at Argentina match explained amid FIFA probe",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/what-happened-to-ishowspeed-at-the-world-cup-racist-abuse-row-at-argentina-match-explained-amid-fifa-probe-101783453982753.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "한 아르헨티나 서포터는 마이애미에서 열린 카보베르데와의 경기에서 자신의 라이브 스트리밍에서 스피드에게 '동물원에 가서 울어라'고 말했다.",
+      "excerpt_en": "An Argentina supporter told Speed to 'go cry at the zoo' on his livestream at the match against Cape Verde in Miami.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/sports/2026/7/8/fifa-condemns-fans-racist-attack-on-ishowspeed-at-argentina-world-cup-match?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-07T20:02:06+09:00",
+      "latest_published_at": "2026-07-08T03:46:32+09:00",
+      "articles": [
+        {
+          "title": "FIFA condemns fan’s racist attack on IShowSpeed at Argentina World Cup match",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-condemns-fans-racist-attack-on-ishowspeed-at-argentina-world-cup-match?traffic_source=rss",
+          "published_at": "03:46"
+        },
+        {
+          "title": "What happened to IShowSpeed at the World Cup? Racist abuse row at Argentina match explained amid FIFA probe",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-happened-to-ishowspeed-at-the-world-cup-racist-abuse-row-at-argentina-match-explained-amid-fifa-probe-101783453982753.html",
+          "published_at": "20:02"
+        }
+      ]
+    },
+    {
+      "id": "world-141",
+      "title": "이란 전쟁 라이브: 테헤란이 미국 공격에 대응하면서 쿠웨이트 바레인의 사이렌",
+      "title_en": "Iran war live: Sirens in Bahrain, Kuwait as Tehran responds to US attacks",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "이란 뉴스 라이브: 이란의 주요 석유 허브인 카르그 섬, 케심 섬, 남부 항구 도시인 시리크와 반다르 압바스에서 폭발음이 들렸다고 로이터가 보도했습니다.",
+      "excerpt_en": "Iran news LIVE: Blasts were heard in Iran's main oil hub on Kharg Island, on Qeshm Island, and in the southern port cities of Sirik and Bandar Abbas, Reuters reported.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-strikes-iran-war-live-updates-khamenei-funeral-coffin-iraq-najaf-trump-peace-ceasefire-hormuz-missile-us-drone-downed-101783480585566.html",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-08T00:00:00+09:00",
+      "latest_published_at": "2026-07-08T03:40:02+09:00",
+      "articles": [
+        {
+          "title": "Iran news LIVE: Fresh missile sirens in Bahrain, Kuwait also targeted by Iran after US strikes",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-strikes-iran-war-live-updates-khamenei-funeral-coffin-iraq-najaf-trump-peace-ceasefire-hormuz-missile-us-drone-downed-101783480585566.html",
+          "published_at": "03:40"
+        },
+        {
+          "title": "Iran war live: Sirens in Bahrain, Kuwait as Tehran responds to US attacks",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/8/iran-war-live-us-bombs-sirik-qeshm-bandar-abbas-over-hormuz-attacks?traffic_source=rss",
+          "published_at": "00:00"
+        }
+      ]
+    },
+    {
+      "id": "world-250",
       "title": "YouTube는 시드니 학살 생존자가 '위기 배우'라고 허위 주장하는 동영상을 변호합니다.",
       "title_en": "YouTube defends video that falsely claims Sydney massacre survivor is 'crisis actor'",
       "title_source": "earliest_pick",
@@ -1839,14 +1857,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/australasia/article/3359801/youtube-says-sydney-massacre-crisis-actor-video-can-stay-online?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1874,7 +1892,7 @@
       ]
     },
     {
-      "id": "world-288",
+      "id": "world-286",
       "title": "굴 양식업자이자 민주당 상원 후보인 그레이엄 플래트너(Graham Platner)가 각종 혐의에 휩싸였습니다.",
       "title_en": "Graham Platner, oyster farmer & Democratic Senate candidate caught in a web of allegations",
       "title_source": "earliest_pick",
@@ -1939,7 +1957,7 @@
       ]
     },
     {
-      "id": "world-264",
+      "id": "world-267",
       "title": "트럼프 앙카라 방문 중 터키에 F-35 전투기 판매: 이스라엘이 반대하는 이유",
       "title_en": "F-35 fighter jet sale to Turkey at centre of Trump's Ankara visit: Why Israel opposes it",
       "title_source": "earliest_pick",
@@ -1993,7 +2011,7 @@
       ]
     },
     {
-      "id": "world-63",
+      "id": "world-60",
       "title": "WHO는 극심한 폭염이 다시 발생함에 따라 유럽에 '더 치명적인 주가 올 것'을 예측합니다.",
       "title_en": "WHO predicts ‘more deadly weeks’ for Europe as severe heatwave develops again",
       "title_source": "earliest_pick",
@@ -2040,15 +2058,15 @@
       ]
     },
     {
-      "id": "world-143",
+      "id": "world-144",
       "title": "중동 라이브: 테헤란은 미국이 이란을 공격한 후 바레인과 쿠웨이트를 목표로 삼고 있습니다.",
       "title_en": "Middle East live: Tehran targets Bahrain and Kuwait after US strikes on Iran",
       "title_source": "earliest_pick",
       "title_url": "https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz",
       "category": "중동",
       "primary_source": "France24",
-      "excerpt": "이란 혁명수비대는 수요일 바레인과 쿠웨이트에 있는 미군 기지를 공격했다고 밝혔다. 워싱턴은 호름 해협에서 상선이 공격을 받은 후 이란에 대한 새로운 공격을 시작했습니다.",
-      "excerpt_en": "Iran’s Revolutionary Guards on Wednesday said they targeted US military bases in Bahrain and Kuwait. Washington earlier launched new strikes on Iran after merchant ships were hit in the Strait of Horm",
+      "excerpt": "이란 혁명수비대는 수요일 미국의 이란 공격에 대한 보복으로 바레인과 쿠웨이트에 있는 미군 기지를 공격했다고 밝혔다.",
+      "excerpt_en": "Iran’s Revolutionary Guards on Wednesday said they had targeted US military bases in Bahrain and Kuwait in retaliation for Washington's strikes on Iran after it struck merchant ships in the Strait of ",
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz",
       "translation_status": "ok",
@@ -2087,12 +2105,59 @@
       ]
     },
     {
-      "id": "world-347",
+      "id": "world-342",
+      "title": "중국 중부 지역에서 토네이도와 폭풍으로 최소 11명이 사망했습니다.",
+      "title_en": "Tornadoes and storms in central China leave at least 11 people dead",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/tornadoes-storms-central-china-leave-11-people-dead-134542567",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "13만명 가량을 대피시켰음에도 불구하고 11명이 실종 상태로 남아 있어 일대에 본격적인 비상대응이 내려졌다.",
+      "excerpt_en": "A full-scale emergency response has been issued in the area as 11 people remain missing despite evacuating around 130,000 people",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/death-toll-from-china-storms-rises-to-17-hundreds-injured-101783431725365.html",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-07T12:26:17+09:00",
+      "latest_published_at": "2026-07-07T14:24:01+09:00",
+      "articles": [
+        {
+          "title": "Death toll from China storms rises to 17, hundreds injured",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/death-toll-from-china-storms-rises-to-17-hundreds-injured-101783431725365.html",
+          "published_at": "14:24"
+        },
+        {
+          "title": "Tornadoes and storms in central China leave at least 11 people dead",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/tornadoes-storms-central-china-leave-11-people-dead-134542567",
+          "published_at": "12:26"
+        }
+      ]
+    },
+    {
+      "id": "world-344",
       "title": "스리랑카 교도소 충돌로 사망자 26명으로 늘어, 병원 입원자 77명 추가",
       "title_en": "Death toll in Sri Lanka's prison clash rises to 26, with another 77 in hospital",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/death-toll-sri-lankas-prison-clash-rises-26-134540375",
-      "category": "미국",
+      "category": "아시아",
       "primary_source": "ABC News",
       "excerpt": "이번 폭력 사태는 콜롬보에서 북쪽으로 약 35km 떨어진 해안 마을 네곰보에 있는 교도소에서 이틀에 걸쳐 발생했습니다.",
       "excerpt_en": "The violence erupted over two days at the prison in the coastal town of Negombo, around 35 km north of Colombo.",
@@ -2134,7 +2199,101 @@
       ]
     },
     {
-      "id": "world-120",
+      "id": "world-64",
+      "title": "트럼프는 이탈리아의 멜로니를 '좋은 사람'이라고 부르면서도 이란을 돕지 않은 그녀를 비난했다",
+      "title_en": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "톤의 변화는 프랑스에서 열린 G7 정상회담에서 멜로니가 자신에게 사진을 달라고 “간청”했다는 트럼프의 주장으로 촉발된 짧은 긴장감에 따른 것입니다.",
+      "excerpt_en": "The shift in tone follows a brief period of tension sparked by Trump’s claims that Meloni had \"begged\" him for a photograph during the G7 summit in France.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/turnaround-in-meloni-trump-ties-italian-pm-g7-summit-us-president-nice-person-remark-nato-101783487578368.html",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-07T21:42:32+09:00",
+      "latest_published_at": "2026-07-08T06:54:31+09:00",
+      "articles": [
+        {
+          "title": "Trump changes tune on Meloni after G7 spat, calls her a ‘nice person’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/turnaround-in-meloni-trump-ties-italian-pm-g7-summit-us-president-nice-person-remark-nato-101783487578368.html",
+          "published_at": "06:54"
+        },
+        {
+          "title": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+          "published_at": "21:42"
+        }
+      ]
+    },
+    {
+      "id": "world-76",
+      "title": "르펜, 법원 명령에도 불구하고 내년 프랑스 대선 출마할 것",
+      "title_en": "Le Pen says she’ll run for French presidency next year despite court-ordered monitor",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNFgxdFUtbFZTTlhpYldudGlMWU5SamNIQ0p0RUZjR2hEc3NKc2ZJR2F4amF0TGJDalJCdU1zWnRfMlF2X00wUWhqazB4RmFuWDVMOGs2dGxfNFJLNEVHNUlRbGhrQnMwSTVOeC1WclJkakZlRTV5NUJ6VEs1bmpHT3BUZmtrdS1XbWJLUXQxdFYzMGJvRHBnTHU0MDFpQml4VENuMkVXLWMxdw?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "극우 정당 지도자 마린 르펜이 횡령 혐의로 법원 명령에 따라 전자 모니터를 착용하라는 선고를 받았음에도 불구하고 내년 프랑스 대선에 출마하겠다고 밝혔습니다.",
+      "excerpt_en": "Far-right leader Marine Le Pen says she'll run for the French presidency next year despite being sentenced Tuesday to wear a court-ordered electronic monitor for embezzlement.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/07/08/g-s1-132467/le-pen-court-ordered-monitor",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "NPR"
+      ],
+      "first_published_at": "2026-07-08T00:58:00+09:00",
+      "latest_published_at": "2026-07-08T07:01:03+09:00",
+      "articles": [
+        {
+          "title": "Le Pen says she'll run for French presidency next year despite court-ordered monitor",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/07/08/g-s1-132467/le-pen-court-ordered-monitor",
+          "published_at": "07:01"
+        },
+        {
+          "title": "Le Pen says she’ll run for French presidency next year despite court-ordered monitor",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNFgxdFUtbFZTTlhpYldudGlMWU5SamNIQ0p0RUZjR2hEc3NKc2ZJR2F4amF0TGJDalJCdU1zWnRfMlF2X00wUWhqazB4RmFuWDVMOGs2dGxfNFJLNEVHNUlRbGhrQnMwSTVOeC1WclJkakZlRTV5NUJ6VEs1bmpHT3BUZmtrdS1XbWJLUXQxdFYzMGJvRHBnTHU0MDFpQml4VENuMkVXLWMxdw?oc=5",
+          "published_at": "00:58"
+        }
+      ]
+    },
+    {
+      "id": "world-122",
       "title": "UN에서 쿠바는 미국의 '잔인하고' '무자비한' 봉쇄에 반대하는 지지 집회를 열었습니다.",
       "title_en": "At UN, Cuba rallies support against ‘cruel’ and ‘ruthless’ US blockade",
       "title_source": "earliest_pick",
@@ -2181,7 +2340,7 @@
       ]
     },
     {
-      "id": "world-140",
+      "id": "world-142",
       "title": "스위스, 승부차기 끝에 콜롬비아 꺾고 월드컵 8강 진출",
       "title_en": "Switzerland beat Colombia on penalties to earn final spot in World Cup quarter-finals",
       "title_source": "earliest_pick",
@@ -2234,7 +2393,7 @@
       ]
     },
     {
-      "id": "world-244",
+      "id": "world-247",
       "title": "공무원들이 무너질 수 있다고 우려하는 뉴욕시 고층 건물을 안정화하기 위해 노동자들이 서두르고 있습니다.",
       "title_en": "Workers rush to stabilize New York City highrise that officials fear could collapse",
       "title_source": "earliest_pick",
@@ -2267,7 +2426,7 @@
       "latest_published_at": "2026-07-08T05:08:58+09:00",
       "articles": [
         {
-          "title": "New York City races to secure unstable skyscraper after columns buckle and floors sag",
+          "title": "New York City races to secure unstable skyscraper after columns buckle, floors sag",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3359810/new-york-city-races-secure-unstable-skyscraper-after-columns-buckle-and-floors-sag?utm_source=rss_feed",
           "published_at": "05:08"
@@ -2281,14 +2440,14 @@
       ]
     },
     {
-      "id": "world-14",
+      "id": "world-16",
       "title": "FCC, 중국과 연계된 미국 기업의 통신 서비스 제공 승인 거부",
       "title_en": "FCC denies US firm with Chinese links approval to provide telecom services",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRHBWd3BQc250bE5FT1RTTHZrZHJMQ3NEQTlKS1N2NFNmUHZLc3hGRFJuOTNWVTkwZVdwMDNzd25IcENKTWRkTGNhV0pBZGJ5Vm9YV1RVT1lkeGRCTFM2MDVuU3FDU3ZHNW9mcjkxWHViM25fbkFSdk0zZFZVRkRnYnR0bHcxc1Y3Qkx2MTJKMEt2U2Vudk5WTUNDdXM2SzJNSXdEWWd1Q2k3QndELWl6TWdSWUNnTUM3Z3d3TnVlYUpma0xrM2p1TE5n?oc=5",
       "category": "아시아",
       "primary_source": "Reuters",
-      "excerpt": "미국 연방 통신 위원회(Federal Communications Commission)는 화요일에 중국 기술과의 연관성을 언급하면서 미국 국가 안보에 위험을 초래하는 회사 목록에 캘리포니아 기반의 Digitalsystem Technology를 추가할 것이라고 밝혔습니다.",
+      "excerpt": "미국 연방 통신 위원회(Federal Communications Commission)는 화요일에 중국 기술과의 연관성을 언급하면서 미국 국가 안보에 위험을 초래하는 회사 목록에 캘리포니아 기반 Digitalsystem Technology를 추가한다고 밝혔습니다.",
       "excerpt_en": "The US Federal Communications Commission ⁠said on Tuesday it is adding California-based Digitalsystem Technology to a list of companies posing risks to US national security, citing links to Chinese te",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/tech/policy/article/3359782/fcc-denies-us-firm-chinese-links-approval-provide-telecoms-services?utm_source=rss_feed",
@@ -2375,14 +2534,14 @@
       ]
     },
     {
-      "id": "world-52",
+      "id": "world-51",
       "title": "DeepSeek AI 칩: 중국 스타트업, Nvidia와 Huawei에 대한 의존도를 줄이기 위해 맞춤형 칩 개발",
       "title_en": "DeepSeek AI chip: China startup develops custom chip to reduce reliance on Nvidia and Huawei",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/deepseek-ai-chip-china-startup-develops-custom-chip-to-reduce-nvidia-reliance-101783429324946.html",
       "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "중국의 DeepSeek은 Nvidia와 Huawei에 대한 의존도를 줄이기 위해 자체 AI 추론 칩을 개발하고 있으며, 이는 중국의 AI 및 칩 야망에 큰 진전을 가져왔습니다.",
+      "excerpt": "중국의 DeepSeek은 Nvidia와 Huawei에 대한 의존도를 줄이기 위해 자체 AI 추론 칩을 개발하고 있으며 이는 중국의 AI 및 칩 야망에 큰 진전을 가져왔습니다.",
       "excerpt_en": "China's DeepSeek is developing its own AI inference chip to reduce reliance on Nvidia and Huawei, marking a major step in China's AI and chip ambitions.",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/deepseek-ai-chip-china-startup-develops-custom-chip-to-reduce-nvidia-reliance-101783429324946.html",
@@ -2422,14 +2581,14 @@
       ]
     },
     {
-      "id": "world-78",
+      "id": "world-73",
       "title": "NHTSA는 포드가 와이퍼, 피니언 샤프트 문제로 11만 대 이상의 미국 차량을 리콜한다고 밝혔습니다.",
       "title_en": "Ford to recall over 110,000 US vehicles over wiper, pinion shaft issues, NHTSA says",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV2hZQVBabFJvSXkwb2R6V29UWWxoQkJMa1Rta0FKMVNOUDJCOHFMSTdoazlGa0ZoT3otMU11ZEZkd29nOE9vbmQwTExlQTlGN0hNQnR0Q18xZ1cxS0Z0clRLWEtBVk9UcTYzVXB0M2pvTy1YR0NMSUlqcmg1dTFnVGtnZ1BfU2VJQUFUOXgwRUljdzN2TldudG9iQUtLZzBXOWxJeXZRV3ZWaHB0Y1dRQ2trOWhsU0tISjhPODdPUGZFU3ZpTUJUREh3?oc=5",
       "category": "미국",
       "primary_source": "Reuters",
-      "excerpt": "포드는 충돌 위험을 증가시키는 앞유리 와이퍼 및 구동계 결함으로 인해 미국에서 110,626대의 Mustang, Mustang GTD 및 Mustang Mach-E 차량을 리콜합니다.",
+      "excerpt": "포드는 충돌 위험을 증가시키는 앞유리 와이퍼 및 드라이브트레인 결함으로 인해 미국에서 110,626대의 Mustang, Mustang GTD 및 Mustang Mach-E 차량을 리콜합니다.",
       "excerpt_en": "Ford is recalling 110,626 Mustang, Mustang GTD and Mustang Mach-E vehicles in the US over windshield wiper and drivetrain defects that increase crash risk.",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/ford-recalls-110-626-mustang-vehicles-in-us-over-wiper-and-drivetrain-defects-101783445288074.html",
@@ -2469,195 +2628,7 @@
       ]
     },
     {
-      "id": "world-91",
-      "title": "민주당 의원 중 절반은 이스라엘이 집단 학살을 저질렀다고 답했다.",
-      "title_en": "Half of Democrats now say Israel committed genocide, poll finds",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/israel-hamas-gaza-poll-democrats-b3010328.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "이스라엘에 대한 수십 년간의 신뢰할 수 있는 초당적 지지 이후, 새로운 AP-NORC 여론조사는 이스라엘에 대한 지지가 극적으로 약화되었음을 보여줍니다.",
-      "excerpt_en": "After decades of reliable bipartisan backing for Israel, a new AP-NORC poll reveals a dramatic erosion of support for Israel",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/israel-hamas-gaza-poll-democrats-b3010328.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-07T09:49:55+09:00",
-      "latest_published_at": "2026-07-07T15:27:00+09:00",
-      "articles": [
-        {
-          "title": "AP-NORC poll: About 3 in 10 US adults believe Israel has committed genocide against Palestinians",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQXQxdHVpVlluenNhb2laVGxQN2J3eGd6NXZOTmNsSHdpdDl2bXJZNWplcnE4R1lBYjdBejRIS08tdmF2bnJnaDZtLWpCVGpGRmV4cVFuX0hFMUQzUDlCQllqSGtITmNFVWx6RlFFTU9zQzJKTUpRS1ZpNUFMMEw1WG93WnJoODZuNGpVWFlqNEpSM3lxOXV1Nw?oc=5",
-          "published_at": "15:27"
-        },
-        {
-          "title": "Half of Democrats now say Israel committed genocide, poll finds",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/israel-hamas-gaza-poll-democrats-b3010328.html",
-          "published_at": "09:49"
-        }
-      ]
-    },
-    {
-      "id": "world-92",
-      "title": "유럽연합(EU) 의원, 미국-벨기에 경기 전 트럼프 접촉에 대해 FIFA 회장 조사 촉구",
-      "title_en": "EU lawmakers call for probe of FIFA boss over Trump contact before US-Belgium match",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/eu-lawmakers-call-probe-fifa-boss-trump-contact-134552873",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "EU 의원들, 미국-벨기에 경기 전 트럼프 접촉에 대해 FIFA 회장 조사 촉구 AP 뉴스",
-      "excerpt_en": "EU lawmakers call for investigation of FIFA boss over Trump contact before US-Belgium match AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEp2UFBfMzFQZWFPNm5xaU9ldlpYN0pWOFdmd25lbUh4MmVQaXl4V3RMRl9EZ2tVUkhXcHM4TS10SFprYnllUDNoVWpTYzFzZFAteUVOQTMxbXZSOVJwZG5UeDRUTzFPYzVHb3E4VWlIdlV5VEFSb3RjOW1JUnduVWVjalg4VjE4N2JpTFlLLXl6cmsxZDZVUzlPam9DZjRfZWRoLXliWUkwaTg?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-07-07T15:50:59+09:00",
-      "latest_published_at": "2026-07-07T15:54:34+09:00",
-      "articles": [
-        {
-          "title": "EU lawmakers call for investigation of FIFA boss over Trump contact before US-Belgium match",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEp2UFBfMzFQZWFPNm5xaU9ldlpYN0pWOFdmd25lbUh4MmVQaXl4V3RMRl9EZ2tVUkhXcHM4TS10SFprYnllUDNoVWpTYzFzZFAteUVOQTMxbXZSOVJwZG5UeDRUTzFPYzVHb3E4VWlIdlV5VEFSb3RjOW1JUnduVWVjalg4VjE4N2JpTFlLLXl6cmsxZDZVUzlPam9DZjRfZWRoLXliWUkwaTg?oc=5",
-          "published_at": "15:54"
-        },
-        {
-          "title": "EU lawmakers call for probe of FIFA boss over Trump contact before US-Belgium match",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/eu-lawmakers-call-probe-fifa-boss-trump-contact-134552873",
-          "published_at": "15:50"
-        }
-      ]
-    },
-    {
-      "id": "world-188",
-      "title": "'비열하다': 마크롱은 프랑스 축구 주장이 인종차별을 비난하자 음바페를 지지했다",
-      "title_en": "‘Despicable’: Macron backs Mbappé after French football captain condemns racism",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/europe/despicable-macron-backs-mbapp-after-french-football-captain-condemns-racism-20260707-p60dds.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "유럽",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "셀레스트 아마릴라(Celeste Amarilla)는 프랑스 축구 연맹이 월드컵 경기에 대한 소셜 미디어 게시물에 대해 불만을 제기한 후 기소될 수 있습니다.",
-      "excerpt_en": "Celeste Amarilla could face charges after French Football Federation complains about social media posts over World Cup match Prosecutors in France have opened an investigation into the racist attack o",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/07/french-prosecutors-investigate-racist-abuse-mbappe",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Sydney Morning Herald",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-07T09:30:00+09:00",
-      "latest_published_at": "2026-07-07T15:06:41+09:00",
-      "articles": [
-        {
-          "title": "French prosecutors investigate racist abuse of Kylian Mbappé by Paraguayan senator",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/07/french-prosecutors-investigate-racist-abuse-mbappe",
-          "published_at": "15:06"
-        },
-        {
-          "title": "‘Despicable’: Macron backs Mbappé after French football captain condemns racism",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/despicable-macron-backs-mbapp-after-french-football-captain-condemns-racism-20260707-p60dds.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "09:30"
-        }
-      ]
-    },
-    {
-      "id": "world-333",
-      "title": "호르무즈해협에서 24시간 만에 세 번째 유조선 피격",
-      "title_en": "Third tanker hit in Strait of Hormuz in 24 hours, maritime agency says",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/07/07/third-tanker-hit-in-strait-of-hormuz-in-24-hours-maritime-agency-says",
-      "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "해양청 UKMTO에 따르면 세 번째 유조선이 드론에 부딪혔지만 구조적 손상은 보고되지 않았습니다.",
-      "excerpt_en": "According to the maritime agency UKMTO, the third tanker was struck by a drone, but no structural damage was reported.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/three-ships-hit-by-projectiles-in-the-strait-of-hormuz-qatar-blames-iran-west-asia-conflict-us-101783435759199.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-07T15:01:47+09:00",
-      "latest_published_at": "2026-07-07T15:44:15+09:00",
-      "articles": [
-        {
-          "title": "3 ships hit by projectiles in Strait of Hormuz, Qatar blames Iran",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/three-ships-hit-by-projectiles-in-the-strait-of-hormuz-qatar-blames-iran-west-asia-conflict-us-101783435759199.html",
-          "published_at": "15:44"
-        },
-        {
-          "title": "Third tanker hit in Strait of Hormuz in 24 hours, maritime agency says",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/07/third-tanker-hit-in-strait-of-hormuz-in-24-hours-maritime-agency-says",
-          "published_at": "15:01"
-        }
-      ]
-    },
-    {
-      "id": "world-352",
+      "id": "world-349",
       "title": "해군, 아라비아해 비상착륙 후 실종된 선원 식별",
       "title_en": "Navy identifies missing sailor after Arabian Sea emergency landing",
       "title_source": "earliest_pick",
@@ -2704,7 +2675,101 @@
       ]
     },
     {
-      "id": "world-296",
+      "id": "world-85",
+      "title": "유럽연합(EU) 의원, 미국-벨기에 경기 전 트럼프 접촉에 대해 FIFA 회장 조사 촉구",
+      "title_en": "EU lawmakers call for probe of FIFA boss over Trump contact before US-Belgium match",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/eu-lawmakers-call-probe-fifa-boss-trump-contact-134552873",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "EU 의원들, 미국-벨기에 경기 전 트럼프 접촉에 대해 FIFA 회장 조사 촉구 AP 뉴스",
+      "excerpt_en": "EU lawmakers call for investigation of FIFA boss over Trump contact before US-Belgium match AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEp2UFBfMzFQZWFPNm5xaU9ldlpYN0pWOFdmd25lbUh4MmVQaXl4V3RMRl9EZ2tVUkhXcHM4TS10SFprYnllUDNoVWpTYzFzZFAteUVOQTMxbXZSOVJwZG5UeDRUTzFPYzVHb3E4VWlIdlV5VEFSb3RjOW1JUnduVWVjalg4VjE4N2JpTFlLLXl6cmsxZDZVUzlPam9DZjRfZWRoLXliWUkwaTg?oc=5",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-07-07T15:50:59+09:00",
+      "latest_published_at": "2026-07-07T15:54:34+09:00",
+      "articles": [
+        {
+          "title": "EU lawmakers call for investigation of FIFA boss over Trump contact before US-Belgium match",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEp2UFBfMzFQZWFPNm5xaU9ldlpYN0pWOFdmd25lbUh4MmVQaXl4V3RMRl9EZ2tVUkhXcHM4TS10SFprYnllUDNoVWpTYzFzZFAteUVOQTMxbXZSOVJwZG5UeDRUTzFPYzVHb3E4VWlIdlV5VEFSb3RjOW1JUnduVWVjalg4VjE4N2JpTFlLLXl6cmsxZDZVUzlPam9DZjRfZWRoLXliWUkwaTg?oc=5",
+          "published_at": "15:54"
+        },
+        {
+          "title": "EU lawmakers call for probe of FIFA boss over Trump contact before US-Belgium match",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/eu-lawmakers-call-probe-fifa-boss-trump-contact-134552873",
+          "published_at": "15:50"
+        }
+      ]
+    },
+    {
+      "id": "world-331",
+      "title": "호르무즈해협에서 24시간 만에 세 번째 유조선 피격",
+      "title_en": "Third tanker hit in Strait of Hormuz in 24 hours, maritime agency says",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/07/07/third-tanker-hit-in-strait-of-hormuz-in-24-hours-maritime-agency-says",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "해양청 UKMTO에 따르면 세 번째 유조선이 드론에 부딪혔지만 구조적 손상은 보고되지 않았습니다.",
+      "excerpt_en": "According to the maritime agency UKMTO, the third tanker was struck by a drone, but no structural damage was reported.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/three-ships-hit-by-projectiles-in-the-strait-of-hormuz-qatar-blames-iran-west-asia-conflict-us-101783435759199.html",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-07T15:01:47+09:00",
+      "latest_published_at": "2026-07-07T15:44:15+09:00",
+      "articles": [
+        {
+          "title": "3 ships hit by projectiles in Strait of Hormuz, Qatar blames Iran",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/three-ships-hit-by-projectiles-in-the-strait-of-hormuz-qatar-blames-iran-west-asia-conflict-us-101783435759199.html",
+          "published_at": "15:44"
+        },
+        {
+          "title": "Third tanker hit in Strait of Hormuz in 24 hours, maritime agency says",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/07/third-tanker-hit-in-strait-of-hormuz-in-24-hours-maritime-agency-says",
+          "published_at": "15:01"
+        }
+      ]
+    },
+    {
+      "id": "world-294",
       "title": "앤드류 길럼 체포: 전 플로리다 주지사 후보, 앨라배마에서 마약 혐의로 기소",
       "title_en": "Andrew Gillum arrested: Former Florida governor candidate faces drug charges in Alabama",
       "title_source": "earliest_pick",
