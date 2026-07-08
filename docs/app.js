@@ -59,43 +59,6 @@ function squarify(items, x, y, w, h) {
   return out;
 }
 
-function layoutKeywordGrid(items, w, h, mobile) {
-  const out = [];
-  const gap = 3;
-  const placeGrid = (slice, x, y, width, height, cols) => {
-    const rows = Math.ceil(slice.length / cols) || 1;
-    const cellW = width / cols;
-    const cellH = height / rows;
-    slice.forEach((item, idx) => {
-      const col = idx % cols;
-      const row = Math.floor(idx / cols);
-      item.rect = {
-        x: x + col * cellW,
-        y: y + row * cellH,
-        w: Math.max(cellW - gap, 0),
-        h: Math.max(cellH - gap, 0),
-      };
-      out.push(item);
-    });
-  };
-
-  if (items.length === 0) return out;
-  if (mobile) {
-    placeGrid(items, 0, 0, w, h, items.length === 1 ? 1 : 2);
-    return out;
-  }
-
-  const cols = items.length <= 3
-    ? items.length
-    : w >= 1200
-      ? 5
-      : w >= 760
-        ? 4
-        : 3;
-  placeGrid(items, 0, 0, w, h, cols);
-  return out;
-}
-
 // 모바일은 컨테이너 자체가 훨씬 좁아서 데스크톱 기준(px)을 그대로 쓰면
 // 1위 박스조차 작은 글씨 등급에 묶여버린다. 화면 폭에 맞는 별도 기준을 쓴다.
 function sizeClass(rect, mobile) {
@@ -471,19 +434,14 @@ function render(data) {
   // CSS 고정값 대신 실제 위치를 기준으로 남은 높이를 계산한다.
   setTreemapHeight(el, isMobile);
 
-  const isKeywordView = data.view_mode === 'keyword';
   const w = el.clientWidth, h = el.clientHeight;
-  let laid;
-  if (isKeywordView) {
-    laid = layoutKeywordGrid(items.map(c => ({ ...c })), w, h, isMobile);
-  } else {
-    // 면적 값 = 중요도 점수 기반. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
-    let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
-    const total = sized.reduce((s, i) => s + i.value, 0);
-    const cap = total * AREA_CAP_RATIO;
-    sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
-    laid = squarify(sized, 0, 0, w, h);
-  }
+  // 면적 값 = 중요도 점수 기반. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
+  // 국내뉴스·키워드 탭 모두 동일한 규칙으로 점수에 따라 박스 크기가 달라진다.
+  let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
+  const total = sized.reduce((s, i) => s + i.value, 0);
+  const cap = total * AREA_CAP_RATIO;
+  sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
+  const laid = squarify(sized, 0, 0, w, h);
 
   laid.forEach((item, idx) => {
     const cls = sizeClass(item.rect, isMobile);
