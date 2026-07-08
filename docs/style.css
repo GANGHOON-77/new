@@ -20,6 +20,7 @@ html, body {
 
 .topbar-right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .legend-block { display: flex; align-items: center; gap: 6px; }
+.legend-block.hidden { display: none; }
 .reset-link {
   font-size: 11px; color: #888; background: none; border: none; cursor: pointer;
   text-decoration: underline; padding: 0;
