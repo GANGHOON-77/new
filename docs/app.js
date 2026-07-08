@@ -5,6 +5,8 @@ const KEYWORD_SCORE_THRESHOLD = 0; // 키워드 뉴스는 보도량이 적어 �
 const MAX_ITEMS = 20;       // 데스크톱 최대 노출 이슈 수
 const MOBILE_MAX_ITEMS = 14; // 모바일은 화면이 좁아 박스가 너무 작아지지 않도록 더 적게 표시
 const AREA_CAP_RATIO = 0.42; // 극단적으로 이슈가 적을 때만 작동하는 안전장치용 상한
+const CUSTOM_KEYWORD_STORAGE_KEY = 'news-map-custom-keywords';
+const CUSTOM_KEYWORD_WINDOW_HOURS = 48;
 
 // 면적 값 계산: 단순 점수가 아니라 (점수-40)^2를 써서 격차를 크게 벌린다.
 // 예: 85점과 55점은 원점수로는 1.5배 차이지만 이 공식으로는 면적이 9배,
@@ -116,6 +118,7 @@ let DOMESTIC_DATA = null;
 let KEYWORD_DATA = null;
 let currentMode = 'domestic';
 let selectedKeywordId = null;
+let customKeywords = [];
 let selectedId = null;
 let lastViewportWidth = window.innerWidth;
 let mobileTreemapHeight = null;
@@ -145,60 +148,238 @@ function resetRenderState() {
   mobileTreemapWidth = null;
 }
 
-function getSelectedKeywordGroup() {
-  const groups = KEYWORD_DATA?.keyword_groups || [];
-  if (groups.length === 0) return null;
-  if (!selectedKeywordId || !groups.some(g => g.id === selectedKeywordId)) {
-    const firstWithNews = groups.find(g => g.clusters && g.clusters.length > 0);
-    selectedKeywordId = (firstWithNews || groups[0]).id;
-  }
-  return groups.find(g => g.id === selectedKeywordId) || groups[0];
-}
-
-function keywordGroupToViewData(group) {
-  return {
-    date: KEYWORD_DATA.date,
-    batch_time: KEYWORD_DATA.batch_time,
-    updated_at: KEYWORD_DATA.updated_at,
-    score_version: KEYWORD_DATA.score_version,
-    source_count_total: KEYWORD_DATA.source_count_total,
-    article_count_total: group.matched_article_count,
-    cluster_count_total: group.cluster_count_total,
-    clusters: group.clusters || [],
-    view_mode: 'keyword',
-    keyword_label: group.label,
-    keyword_aliases: group.aliases || [],
-    window_hours: KEYWORD_DATA.window_hours,
-  };
-}
-
 function renderCurrent() {
   if (currentMode === 'keyword') {
-    const group = getSelectedKeywordGroup();
-    if (group) {
-      render(keywordGroupToViewData(group));
-    }
+    render(buildCustomKeywordViewData());
     return;
   }
   if (DOMESTIC_DATA) render(DOMESTIC_DATA);
 }
 
+function normalizeKeywordValue(value) {
+  return value.trim().replace(/\s+/g, ' ');
+}
+
+function loadCustomKeywords() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(CUSTOM_KEYWORD_STORAGE_KEY) || '[]');
+    customKeywords = Array.isArray(saved) ? saved.map(normalizeKeywordValue).filter(Boolean) : [];
+  } catch (_) {
+    customKeywords = [];
+  }
+}
+
+function saveCustomKeywords() {
+  localStorage.setItem(CUSTOM_KEYWORD_STORAGE_KEY, JSON.stringify(customKeywords));
+}
+
+function addCustomKeyword(value) {
+  const keyword = normalizeKeywordValue(value);
+  if (!keyword) return;
+  const exists = customKeywords.some(k => k.toLowerCase() === keyword.toLowerCase());
+  if (!exists) {
+    customKeywords.push(keyword);
+    saveCustomKeywords();
+  }
+  document.getElementById('keyword-input').value = '';
+  resetRenderState();
+  renderKeywordChips();
+  renderCurrent();
+}
+
+function removeCustomKeyword(keyword) {
+  customKeywords = customKeywords.filter(k => k !== keyword);
+  saveCustomKeywords();
+  resetRenderState();
+  renderKeywordChips();
+  renderCurrent();
+}
+
+function clearCustomKeywords() {
+  customKeywords = [];
+  saveCustomKeywords();
+  resetRenderState();
+  renderKeywordChips();
+  renderCurrent();
+}
+
 function renderKeywordChips() {
   const wrap = document.getElementById('keyword-chips');
-  const groups = KEYWORD_DATA?.keyword_groups || [];
-  wrap.innerHTML = groups.map(g => `
-    <button class="keyword-chip ${g.id === selectedKeywordId ? 'active' : ''}" type="button" data-keyword-id="${escapeHtml(g.id)}">
-      ${escapeHtml(g.label)} ${g.matched_article_count ? `<span>(${g.matched_article_count})</span>` : ''}
+  wrap.innerHTML = customKeywords.map(keyword => `
+    <button class="keyword-chip" type="button" data-keyword="${escapeHtml(keyword)}" title="키워드 삭제">
+      <span>${escapeHtml(keyword)}</span><span class="remove">×</span>
     </button>
   `).join('');
   wrap.querySelectorAll('.keyword-chip').forEach(btn => {
     btn.addEventListener('click', () => {
-      selectedKeywordId = btn.dataset.keywordId;
-      resetRenderState();
-      renderKeywordChips();
-      renderCurrent();
+      removeCustomKeyword(btn.dataset.keyword);
     });
   });
+}
+
+function keywordMatchText(article) {
+  return `${article.title || ''} ${article.norm_title || ''} ${article.summary || ''}`.toLowerCase();
+}
+
+function articleMatchesCustomKeywords(article) {
+  const text = keywordMatchText(article);
+  return customKeywords.some(keyword => text.includes(keyword.toLowerCase()));
+}
+
+function titleGrams(text) {
+  const compact = (text || '').toLowerCase().replace(/\s+/g, '');
+  const grams = new Set();
+  for (let i = 0; i < compact.length - 2; i += 1) grams.add(compact.slice(i, i + 3));
+  return grams;
+}
+
+function titleSimilarity(a, b) {
+  const ga = titleGrams(a);
+  const gb = titleGrams(b);
+  if (ga.size === 0 || gb.size === 0) return 0;
+  let inter = 0;
+  ga.forEach(v => { if (gb.has(v)) inter += 1; });
+  return inter / Math.min(ga.size, gb.size);
+}
+
+function clusterCustomKeywordArticles(articles) {
+  const clusters = [];
+  articles.forEach(article => {
+    let best = null;
+    let bestScore = 0;
+    clusters.forEach(cluster => {
+      const score = titleSimilarity(article.norm_title || article.title, cluster.rep.norm_title || cluster.rep.title);
+      if (score > bestScore) {
+        bestScore = score;
+        best = cluster;
+      }
+    });
+    if (best && bestScore >= 0.45) {
+      best.members.push(article);
+    } else {
+      clusters.push({ rep: article, members: [article] });
+    }
+  });
+  return clusters;
+}
+
+function customKeywordScore(members, nonSyn, latestDate) {
+  const articleCount = nonSyn.length;
+  const sources = new Set(nonSyn.map(a => a.source_name));
+  const sourceTypes = new Set(nonSyn.map(a => a.source_type));
+  const articleScore = articleCount <= 1 ? 3 : articleCount <= 3 ? 7 : articleCount <= 6 ? 11 : articleCount <= 10 ? 15 : 20;
+  const diversityScore = sources.size <= 1 ? 3 : sources.size === 2 ? 6 : sources.size <= 4 ? 10 : sources.size <= 7 ? 15 : 20;
+  let majorScore = 0;
+  if (nonSyn.some(a => a.is_wire_service)) majorScore += 3;
+  if (sourceTypes.has('방송사')) majorScore += 4;
+  if (sourceTypes.has('종합일간지')) majorScore += 4;
+  if (sourceTypes.has('경제지') || sourceTypes.has('IT매체')) majorScore += 2;
+  if (sourceTypes.size >= 3) majorScore += 2;
+  majorScore = Math.min(majorScore, 15);
+
+  const breakingWords = ['속보', '단독', '최초', '긴급', '발표', '확정', '체포', '압수수색'];
+  const breakingHits = members.filter(a => breakingWords.some(w => `${a.title} ${a.summary}`.includes(w))).length;
+  const breakingScore = breakingHits >= 2 ? 8 : breakingHits === 1 ? 4 : 1;
+  const ageH = (Date.now() - latestDate.getTime()) / 3600000;
+  const timeScore = ageH <= 1 ? 10 : ageH <= 3 ? 8 : ageH <= 6 ? 6 : ageH <= 12 ? 4 : ageH <= 24 ? 2 : 1;
+  const focusScore = 5;
+  const raw80 = articleScore + diversityScore + majorScore + breakingScore + timeScore + focusScore;
+  return {
+    article_score: articleScore,
+    diversity_score: diversityScore,
+    major_score: majorScore,
+    breaking_score: breakingScore,
+    time_score: timeScore,
+    keyword_focus_score: focusScore,
+    raw80,
+    score100: Math.round(raw80 * 100 / 80),
+  };
+}
+
+function buildCustomKeywordViewData() {
+  const base = DOMESTIC_DATA || {};
+  const articles = base.public_articles || [];
+  if (customKeywords.length === 0) {
+    return {
+      date: base.date,
+      batch_time: base.batch_time,
+      source_count_total: base.source_count_total || 0,
+      article_count_total: 0,
+      cluster_count_total: 0,
+      clusters: [],
+      view_mode: 'keyword',
+      keyword_label: '키워드 미설정',
+      window_hours: CUSTOM_KEYWORD_WINDOW_HOURS,
+    };
+  }
+
+  const cutoff = Date.now() - CUSTOM_KEYWORD_WINDOW_HOURS * 3600000;
+  const matched = articles
+    .filter(article => new Date(article.published_at).getTime() >= cutoff)
+    .filter(articleMatchesCustomKeywords)
+    .sort((a, b) => new Date(a.published_at) - new Date(b.published_at));
+  const rawClusters = clusterCustomKeywordArticles(matched);
+  const clusters = rawClusters.map((cluster, idx) => {
+    const members = cluster.members;
+    const nonSyn = members.filter(m => !m.is_syndicated);
+    const scoredMembers = nonSyn.length ? nonSyn : members;
+    const sources = [...new Set(scoredMembers.map(m => m.source_name))].sort();
+    const rep = members.find(m => m.is_wire_service) || members[0];
+    const firstDate = new Date(Math.min(...members.map(m => new Date(m.published_at).getTime())));
+    const latestDate = new Date(Math.max(...members.map(m => new Date(m.published_at).getTime())));
+    const score = customKeywordScore(members, scoredMembers, latestDate);
+    const excerptSrc = members.reduce((best, item) => (item.summary || '').length > (best.summary || '').length ? item : best, members[0]);
+    return {
+      id: `custom-${idx}`,
+      title: rep.norm_title || rep.title,
+      title_source: rep.is_wire_service ? 'wire_pick' : 'earliest_pick',
+      title_url: rep.url,
+      category: rep.category || '기타',
+      excerpt: excerptSrc.summary || '',
+      excerpt_source: excerptSrc.source_name,
+      excerpt_url: excerptSrc.url,
+      score: score.score100,
+      score_breakdown: {
+        article_score: score.article_score,
+        diversity_score: score.diversity_score,
+        major_score: score.major_score,
+        breaking_score: score.breaking_score,
+        time_score: score.time_score,
+        keyword_focus_score: score.keyword_focus_score,
+        raw80: score.raw80,
+      },
+      area_value: scoredMembers.length,
+      article_count: scoredMembers.length,
+      syndicated_count: members.length - scoredMembers.length,
+      source_count: sources.length,
+      sources,
+      first_published_at: firstDate.toISOString(),
+      latest_published_at: latestDate.toISOString(),
+      articles: members
+        .slice()
+        .sort((a, b) => new Date(a.published_at) - new Date(b.published_at))
+        .slice(0, 15)
+        .map(a => ({
+          title: a.title,
+          source_name: a.source_name,
+          url: a.url,
+          published_at: a.published_time || fmtTime(a.published_at),
+          is_syndicated: a.is_syndicated,
+        })),
+    };
+  }).sort((a, b) => b.score - a.score);
+
+  return {
+    date: base.date,
+    batch_time: base.batch_time,
+    source_count_total: base.source_count_total || 0,
+    article_count_total: matched.length,
+    cluster_count_total: clusters.length,
+    clusters,
+    view_mode: 'keyword',
+    keyword_label: customKeywords.join(' 또는 '),
+    window_hours: CUSTOM_KEYWORD_WINDOW_HOURS,
+  };
 }
 
 function setMode(mode) {
@@ -242,7 +423,10 @@ function render(data) {
 
   if (items.length === 0) {
     panel.classList.add('hidden');
-    el.innerHTML = `<div class="empty-state">표시할 뉴스가 없습니다.</div>`;
+    const emptyMessage = data.view_mode === 'keyword' && customKeywords.length === 0
+      ? '키워드를 추가하면 최근 수집 기사에서 OR 조건으로 검색합니다.'
+      : '표시할 뉴스가 없습니다.';
+    el.innerHTML = `<div class="empty-state">${escapeHtml(emptyMessage)}</div>`;
     return;
   }
 
@@ -404,6 +588,13 @@ document.getElementById('category-legend').innerHTML = Object.entries(CATEGORY_C
 
 document.getElementById('domestic-tab').addEventListener('click', () => setMode('domestic'));
 document.getElementById('keyword-tab').addEventListener('click', () => setMode('keyword'));
+document.getElementById('keyword-form').addEventListener('submit', event => {
+  event.preventDefault();
+  addCustomKeyword(document.getElementById('keyword-input').value);
+});
+document.getElementById('keyword-clear').addEventListener('click', clearCustomKeywords);
+loadCustomKeywords();
+renderKeywordChips();
 
 Promise.allSettled([
   fetch('news_map.json').then(r => r.json()),
@@ -417,9 +608,10 @@ Promise.allSettled([
     KEYWORD_DATA = keywordResult.value;
   }
   if (KEYWORD_DATA) {
-    const firstWithNews = KEYWORD_DATA.keyword_groups.find(g => g.clusters && g.clusters.length > 0);
-    selectedKeywordId = (firstWithNews || KEYWORD_DATA.keyword_groups[0])?.id || null;
-    renderKeywordChips();
+    const examples = KEYWORD_DATA.keyword_groups || [];
+    if (customKeywords.length === 0 && examples.length > 0) {
+      document.getElementById('keyword-input').placeholder = `예: ${examples.slice(0, 3).map(g => g.label).join(', ')}`;
+    }
   }
 
   if (DOMESTIC_DATA) {

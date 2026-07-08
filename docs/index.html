@@ -29,7 +29,12 @@
       <button id="keyword-tab" class="mode-tab" type="button">키워드 뉴스</button>
     </nav>
     <div id="keyword-toolbar" class="keyword-toolbar hidden">
-      <div id="keyword-chips" class="keyword-chips" aria-label="키워드 선택"></div>
+      <form id="keyword-form" class="keyword-form">
+        <input id="keyword-input" class="keyword-input" type="search" placeholder="키워드 입력" autocomplete="off">
+        <button class="keyword-add" type="submit">추가</button>
+        <button id="keyword-clear" class="keyword-clear" type="button">전체삭제</button>
+      </form>
+      <div id="keyword-chips" class="keyword-chips" aria-label="설정된 키워드"></div>
     </div>
     <p class="tagline">중요도와 관심도에 따라 오늘의 뉴스를 지도처럼 보여줍니다.</p>
   </header>

@@ -512,6 +512,27 @@ def build_keyword_news_map(all_articles, live_source_count, batch_date, batch_ti
     }
 
 
+def build_public_articles(all_articles):
+    public = []
+    for idx, a in enumerate(sorted(all_articles, key=lambda x: x["published_at_dt"], reverse=True)):
+        public.append({
+            "id": hashlib.sha1(a["url"].encode("utf-8")).hexdigest()[:12] or str(idx),
+            "title": html.unescape(a["title"]),
+            "norm_title": a["norm_title"],
+            "url": a["url"],
+            "source_name": a["source_name"],
+            "source_type": a["source_type"],
+            "is_wire_service": a["is_wire_service"],
+            "is_major_source": a["is_major_source"],
+            "is_syndicated": a.get("is_syndicated", False),
+            "summary": a.get("summary", "")[:260],
+            "category": guess_category(f"{a['title']} {a.get('summary', '')}"),
+            "published_at": a["published_at_dt"].astimezone(KST).isoformat(),
+            "published_time": a["published_at_dt"].astimezone(KST).strftime("%H:%M"),
+        })
+    return public
+
+
 def main():
     scripts_dir = Path(__file__).parent
     project_root = scripts_dir.parent
@@ -722,6 +743,7 @@ def main():
         "cluster_count_total": len(clusters_out),
         "clusters": top,
         "keyword_news": keyword_out,
+        "public_articles": build_public_articles(all_articles),
     }
 
     out_path = project_root / "docs" / "news_map.json"
