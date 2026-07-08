@@ -196,7 +196,6 @@ let DATA = null;
 let DOMESTIC_DATA = null;
 let KEYWORD_DATA = null;
 let WORLD_DATA = null;
-let VIDEO_DATA = null;
 const _savedMode = localStorage.getItem(CURRENT_MODE_STORAGE_KEY);
 let currentMode = (_savedMode === 'keyword' || _savedMode === 'world') ? _savedMode : 'domestic';
 let selectedKeywordId = null;
@@ -568,50 +567,29 @@ function render(data) {
   }
 }
 
-function getKeywordVideoMatches() {
-  if (!VIDEO_DATA || !Array.isArray(VIDEO_DATA.keywords) || customKeywords.length === 0) return [];
-  const wanted = customKeywords.map(k => k.toLowerCase());
-  return VIDEO_DATA.keywords.filter(entry => wanted.includes((entry.keyword || '').toLowerCase()));
+const YOUTUBE_SEARCH_SOURCES = [
+  { label: '전체', suffix: '' },
+  { label: 'KBS', suffix: 'KBS 뉴스' },
+  { label: 'MBC', suffix: 'MBC 뉴스' },
+  { label: 'JTBC', suffix: 'JTBC News' },
+  { label: 'SBS', suffix: 'SBS 뉴스' },
+  { label: 'YTN', suffix: 'YTN' },
+];
+
+function buildYoutubeSearchUrl(keyword, suffix) {
+  const query = `${keyword} ${suffix}`.trim();
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}&sp=EgIIAw%253D%253D`;
 }
 
-function videoAgeMinutes(video) {
-  const published = `${video.published || ''}`.trim();
-  if (!published) return Number.POSITIVE_INFINITY;
-  if (published.includes('오늘')) return 0;
-  const minuteMatch = published.match(/(\d+)\s*분 전/);
-  if (minuteMatch) return Number(minuteMatch[1]);
-  const hourMatch = published.match(/(\d+)\s*시간 전/);
-  if (hourMatch) return Number(hourMatch[1]) * 60;
-  const dayMatch = published.match(/(\d+)\s*일 전/);
-  if (dayMatch) return Number(dayMatch[1]) * 24 * 60;
-  return Number.POSITIVE_INFINITY;
-}
-
-function isRecentVideo(video) {
-  return videoAgeMinutes(video) <= 2 * 24 * 60;
-}
-
-function isKeywordRelatedVideo(video) {
-  return Boolean(`${video.keyword || ''}`.trim());
-}
-
-function flattenKeywordVideos(matches) {
-  const rows = [];
-  matches.forEach(match => {
-    Object.entries(match.sources || {}).forEach(([sourceId, sourceData]) => {
-      (sourceData.results || []).forEach(video => {
-        rows.push({ ...video, sourceId, keyword: match.keyword });
-      });
-    });
-  });
-  const seen = new Set();
-  return rows.filter(video => {
-    if (!video.url || seen.has(video.url)) return false;
-    if (!isRecentVideo(video)) return false;
-    if (!isKeywordRelatedVideo(video)) return false;
-    seen.add(video.url);
-    return true;
-  }).sort((a, b) => videoAgeMinutes(a) - videoAgeMinutes(b)).slice(0, 12);
+function buildYoutubeSearchLinks() {
+  return customKeywords.flatMap(keyword =>
+    YOUTUBE_SEARCH_SOURCES.map(source => ({
+      keyword,
+      source: source.label,
+      query: `${keyword} ${source.suffix}`.trim(),
+      url: buildYoutubeSearchUrl(keyword, source.suffix),
+    }))
+  ).slice(0, 24);
 }
 
 function renderKeywordVideoPanel(data) {
@@ -624,44 +602,30 @@ function renderKeywordVideoPanel(data) {
   }
   panel.classList.remove('hidden');
 
-  const matches = getKeywordVideoMatches();
-  const videos = flattenKeywordVideos(matches);
-  const title = customKeywords.length ? `${customKeywords.join(' / ')} 관련 영상` : '키워드 관련 영상';
+  const links = buildYoutubeSearchLinks();
+  const title = customKeywords.length ? `${customKeywords.join(' / ')} 유튜브 바로 검색` : '유튜브 바로 검색';
   if (customKeywords.length === 0) {
     panel.innerHTML = `
       <div class="video-panel-head">
-        <h2>키워드 영상</h2>
-        <span>테스트</span>
+        <h2>유튜브 바로 검색</h2>
+        <span>링크</span>
       </div>
-      <div class="video-empty">키워드를 추가하면 KBS, MBC, JTBC, SBS, YTN 관련 영상 후보를 보여줍니다.</div>
-    `;
-    return;
-  }
-  if (videos.length === 0) {
-    panel.innerHTML = `
-      <div class="video-panel-head">
-        <h2>${escapeHtml(title)}</h2>
-        <span>0건</span>
-      </div>
-      <div class="video-empty">이 로컬 테스트 데이터에는 최근 2일 이내 해당 키워드 영상이 없습니다.</div>
+      <div class="video-empty">키워드를 추가하면 YouTube 검색 링크를 바로 만들어 줍니다.</div>
     `;
     return;
   }
   panel.innerHTML = `
     <div class="video-panel-head">
       <h2>${escapeHtml(title)}</h2>
-      <span>${videos.length}건</span>
+      <span>${links.length}개</span>
     </div>
-    <div class="video-list">
-      ${videos.map(video => `
-        <a class="video-card" href="${escapeHtml(video.url)}" target="_blank" rel="noopener">
-          <img src="${escapeHtml(video.thumbnail)}" alt="" loading="lazy">
-          <div class="video-card-body">
-            <div class="video-source">${escapeHtml(video.source || video.channel || '')}</div>
-            <div class="video-title">${escapeHtml(video.title)}</div>
-            <div class="video-keyword">${escapeHtml(video.keyword)} 검색 결과</div>
-            <div class="video-meta">${escapeHtml([video.views, video.published, video.length].filter(Boolean).join(' · '))}</div>
-          </div>
+    <div class="video-search-note">최근 업로드 필터가 적용된 YouTube 검색 결과로 이동합니다.</div>
+    <div class="video-link-list">
+      ${links.map(link => `
+        <a class="video-search-card" href="${escapeHtml(link.url)}" target="_blank" rel="noopener">
+          <div class="video-source">${escapeHtml(link.source)}</div>
+          <div class="video-title">${escapeHtml(link.query)}</div>
+          <div class="video-keyword">YouTube에서 바로 검색</div>
         </a>
       `).join('')}
     </div>
@@ -853,8 +817,7 @@ Promise.allSettled([
   fetch('news_map.json').then(r => r.json()),
   fetch('keyword_news_map.json').then(r => r.json()),
   fetch('world_news_map.json').then(r => r.json()),
-  fetch('keyword_videos.json').then(r => r.json()),
-]).then(([domesticResult, keywordResult, worldResult, videoResult]) => {
+]).then(([domesticResult, keywordResult, worldResult]) => {
   if (domesticResult.status === 'fulfilled') {
     DOMESTIC_DATA = domesticResult.value;
     KEYWORD_DATA = DOMESTIC_DATA.keyword_news || null;
@@ -864,9 +827,6 @@ Promise.allSettled([
   }
   if (worldResult.status === 'fulfilled') {
     WORLD_DATA = worldResult.value;
-  }
-  if (videoResult.status === 'fulfilled') {
-    VIDEO_DATA = videoResult.value;
   }
   if (KEYWORD_DATA) {
     const examples = KEYWORD_DATA.keyword_groups || [];

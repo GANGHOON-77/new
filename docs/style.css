@@ -148,15 +148,16 @@ html, body {
 .video-panel-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
 .video-panel-head h2 { font-size: 15px; margin: 0; line-height: 1.25; }
 .video-panel-head span { font-size: 11px; color: #777; background: #eef0f3; border-radius: 12px; padding: 3px 7px; flex-shrink: 0; }
-.video-list { display: flex; flex-direction: column; gap: 10px; }
-.video-card { display: block; color: #1a1a1a; text-decoration: none; border: 1px solid #edf0f3; border-radius: 8px; overflow: hidden; background: #fff; }
-.video-card:hover { border-color: #cfd6df; box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
-.video-card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #eef0f3; }
-.video-card-body { padding: 9px 10px 10px; }
+.video-search-note { font-size: 11.5px; color: #777; line-height: 1.45; margin: -2px 0 10px; }
+.video-link-list { display: flex; flex-direction: column; gap: 8px; }
+.video-search-card {
+  display: block; color: #1a1a1a; text-decoration: none; border: 1px solid #edf0f3;
+  border-radius: 8px; background: #fff; padding: 10px 11px;
+}
+.video-search-card:hover { border-color: #cfd6df; box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
 .video-source { font-size: 11px; color: #d0311f; font-weight: 800; margin-bottom: 4px; }
 .video-title { font-size: 12.5px; line-height: 1.42; font-weight: 750; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .video-keyword { font-size: 10.5px; color: #666; margin-top: 5px; }
-.video-meta { font-size: 11px; color: #888; margin-top: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .video-empty { font-size: 12.5px; color: #777; line-height: 1.55; background: #f7f8fa; border-radius: 6px; padding: 12px; }
 .detail-panel .close-btn { float: right; border: none; background: none; font-size: 18px; cursor: pointer; color: #888; }
 .detail-panel .top-badge {
@@ -212,7 +213,7 @@ html, body {
   .treemap { width: 100%; }
   .layout.keyword-video-mode .treemap { flex: none; }
   .keyword-video-panel { width: 100%; flex: none; max-height: none; position: static; }
-  .video-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+  .video-link-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
   .detail-panel { width: 100%; flex: none; max-height: 60vh; position: static; }
   .topbar-right { width: 100%; justify-content: space-between; }
   .mode-tabs { overflow-x: auto; }
