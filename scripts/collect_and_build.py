@@ -40,6 +40,8 @@ HEADERS = {
     "Accept": "application/rss+xml, application/xml, text/xml, */*",
 }
 TIMEOUT = 12
+COLLECTION_TIMEZONE = "Asia/Seoul"
+KST_BATCH_SLOTS = ("00:00", "06:00", "12:00", "18:00")
 WIRE_NAMES = {"연합뉴스", "뉴시스", "뉴스1"}
 WIRE_CREDIT_PATTERNS = [
     (re.compile(r"[=(]\s*연합뉴스"), "연합뉴스"),
@@ -354,12 +356,12 @@ def compute_batch_label(now_kst):
     """
     hour = now_kst.hour
     if 6 <= hour < 12:
-        return now_kst.strftime("%Y-%m-%d"), "06:00"
+        return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[1]
     if 12 <= hour < 18:
-        return now_kst.strftime("%Y-%m-%d"), "12:00"
+        return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[2]
     if 18 <= hour < 24:
-        return now_kst.strftime("%Y-%m-%d"), "18:00"
-    return now_kst.strftime("%Y-%m-%d"), "00:00"
+        return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[3]
+    return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[0]
 
 
 def detect_wire_credit(article):
@@ -603,6 +605,8 @@ def build_keyword_news_map(all_articles, live_source_count, batch_date, batch_ti
         "date": batch_date,
         "batch_time": batch_time,
         "updated_at": now_kst.isoformat(),
+        "timezone": COLLECTION_TIMEZONE,
+        "batch_slots": list(KST_BATCH_SLOTS),
         "score_version": "keyword-0.1",
         "clustering_method": "tfidf_char3-5gram_greedy_centroid(keyword)",
         "window_hours": window_hours,
@@ -847,6 +851,8 @@ def main():
         "date": batch_date,
         "batch_time": batch_time,
         "updated_at": now_kst.isoformat(),  # 실제 실행 시각(로그용). 화면 표시는 date+batch_time을 사용.
+        "timezone": COLLECTION_TIMEZONE,
+        "batch_slots": list(KST_BATCH_SLOTS),
         "score_version": "0.1",
         "clustering_method": "tfidf_char3-5gram_greedy_centroid(demo)",
         "source_count_total": live_source_count,

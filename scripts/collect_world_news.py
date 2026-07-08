@@ -26,7 +26,7 @@ import requests
 sys.path.insert(0, str(Path(__file__).parent))
 from collect_and_build import (
     HEADERS, TIMEOUT, KST, parse_entry_time, strip_html, dedupe_by_url,
-    cluster_greedy, compute_batch_label,
+    cluster_greedy, compute_batch_label, COLLECTION_TIMEZONE, KST_BATCH_SLOTS,
 )
 
 CUTOFF_HOURS = 30  # 국내(24h)보다 여유를 둔다(11번: 시차 대응, overseas_news_design.txt 5장)
@@ -445,6 +445,8 @@ def main():
     out = {
         "date": batch_date,
         "batch_time": batch_time,
+        "timezone": COLLECTION_TIMEZONE,
+        "batch_slots": list(KST_BATCH_SLOTS),
         "updated_at": now_kst.isoformat(),
         "score_version": "world-0.1",
         "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
