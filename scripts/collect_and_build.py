@@ -26,6 +26,7 @@ import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote_plus
 
 import feedparser
 import numpy as np
@@ -155,6 +156,105 @@ def fetch_source_articles(row, cutoff):
             "collected_at": datetime.now(timezone.utc).isoformat(),
         })
     return name, articles, None
+
+
+def source_meta_map(rows):
+    meta = {}
+    for row in rows:
+        name = row["source_name"].strip()
+        meta[name] = {
+            "source_type": row["source_type"],
+            "is_wire_service": is_true(row["is_wire_service"]),
+            "is_major_source": is_true(row["is_major_source"]),
+        }
+    return meta
+
+
+def split_google_news_title(title, fallback_source):
+    clean = html.unescape(title or "").strip()
+    if " - " in clean:
+        article_title, source_name = clean.rsplit(" - ", 1)
+        return article_title.strip(), source_name.strip()
+    return clean, fallback_source or "Google뉴스"
+
+
+def build_keyword_query(group):
+    aliases = [a.strip() for a in group.get("aliases", []) if a.strip()]
+    if not aliases:
+        return ""
+    return " OR ".join(f'"{alias}"' if " " in alias else alias for alias in aliases)
+
+
+def fetch_keyword_search_articles(group, cutoff, meta_by_source, max_items=100):
+    query = build_keyword_query(group)
+    if not query:
+        return []
+    url = (
+        "https://news.google.com/rss/search?q="
+        + quote_plus(query)
+        + "&hl=ko&gl=KR&ceid=KR:ko"
+    )
+    articles = []
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        if resp.status_code != 200:
+            print(f"키워드 검색 실패 {group.get('label', group.get('id'))}: HTTP {resp.status_code}")
+            return articles
+        parsed = feedparser.parse(resp.content)
+    except requests.RequestException as e:
+        print(f"키워드 검색 실패 {group.get('label', group.get('id'))}: {type(e).__name__}")
+        return articles
+
+    for e in parsed.entries[:max_items]:
+        raw_title = e.get("title")
+        link = e.get("link")
+        if not raw_title or not link:
+            continue
+        pub = parse_entry_time(e)
+        if pub is None or pub < cutoff:
+            continue
+        fallback_source = ""
+        source_obj = e.get("source")
+        if isinstance(source_obj, dict):
+            fallback_source = source_obj.get("title") or ""
+        title, source_name = split_google_news_title(raw_title, fallback_source)
+        summary = strip_html(e.get("summary") or e.get("description") or "")
+        source_meta = meta_by_source.get(source_name, {})
+        article = {
+            "title": title,
+            "norm_title": normalize_title(title),
+            "url": link.strip(),
+            "source_name": source_name,
+            "source_type": source_meta.get("source_type", "키워드검색"),
+            "is_wire_service": source_meta.get("is_wire_service", source_name in WIRE_NAMES),
+            "is_major_source": source_meta.get("is_major_source", source_name in meta_by_source),
+            "published_at": pub.isoformat(),
+            "published_at_dt": pub,
+            "summary": summary,
+            "collected_at": datetime.now(timezone.utc).isoformat(),
+            "keyword_search_group": group.get("id"),
+        }
+        if article_matches_keyword(article, group):
+            articles.append(article)
+    return articles
+
+
+def collect_keyword_search_articles(config, cutoff, meta_by_source):
+    if not config.get("google_news_search", {}).get("enabled", True):
+        return []
+    opts = config.get("google_news_search", {})
+    max_items = int(opts.get("max_items_per_group", 100))
+    delay = float(opts.get("delay_seconds", 0.3))
+    out = []
+    groups = config.get("keyword_groups", [])
+    for i, group in enumerate(groups, 1):
+        label = group.get("label", group.get("id", f"group-{i}"))
+        rows = fetch_keyword_search_articles(group, cutoff, meta_by_source, max_items=max_items)
+        print(f"[키워드 {i:>2}/{len(groups)}] {label:<16} 검색수집 {len(rows)}건")
+        out.extend(rows)
+        if delay:
+            time.sleep(delay)
+    return dedupe_by_url(out)
 
 
 def char_ngrams(text, n_range=(3, 5)):
@@ -538,6 +638,9 @@ def main():
     project_root = scripts_dir.parent
     cache_path = scripts_dir / "articles_cache.json"
     from_cache = "--from-cache" in sys.argv
+    rows = load_sources(scripts_dir / "feeds_result.csv")
+    meta_by_source = source_meta_map(rows)
+    keyword_config = load_keyword_config(scripts_dir / "keyword_config.json")
 
     if from_cache and cache_path.exists():
         cache_data = json.loads(cache_path.read_text(encoding="utf-8"))
@@ -547,7 +650,6 @@ def main():
         live_source_count = len({a["source_name"] for a in all_articles})
         print(f"캐시에서 기사 {len(all_articles)}건 로드 (재수집 생략)")
     else:
-        rows = load_sources(scripts_dir / "feeds_result.csv")
         live_rows = [r for r in rows if r.get("status") == "LIVE"]
         live_source_count = len(live_rows)
         print(f"LIVE 피드 {len(live_rows)}곳에서 수집 시작...")
@@ -575,6 +677,16 @@ def main():
         credit_wire = detect_wire_credit(a)
         a["is_syndicated"] = bool(credit_wire)
         a["credit_wire"] = credit_wire
+
+    keyword_window_hours = int(keyword_config.get("window_hours", 48))
+    keyword_cutoff = datetime.now(timezone.utc) - timedelta(hours=keyword_window_hours)
+    keyword_search_articles = collect_keyword_search_articles(keyword_config, keyword_cutoff, meta_by_source)
+    for a in keyword_search_articles:
+        credit_wire = detect_wire_credit(a)
+        a["is_syndicated"] = bool(credit_wire)
+        a["credit_wire"] = credit_wire
+    keyword_article_pool = dedupe_by_url(all_articles + keyword_search_articles)
+    print(f"키워드 분석 기사 풀: 국내수집 {len(all_articles)}건 + 키워드검색 {len(keyword_search_articles)}건 -> {len(keyword_article_pool)}건")
 
     # ---- TF-IDF 임베딩(대용) 및 클러스터링 (sklearn 미가용 -> numpy로 직접 구현) ----
     texts = [f"{a['norm_title']} {a['summary']}" for a in all_articles]
@@ -730,8 +842,7 @@ def main():
 
     now_kst = datetime.now(KST)
     batch_date, batch_time = compute_batch_label(now_kst)
-    keyword_config = load_keyword_config(scripts_dir / "keyword_config.json")
-    keyword_out = build_keyword_news_map(all_articles, live_source_count, batch_date, batch_time, now_kst, keyword_config)
+    keyword_out = build_keyword_news_map(keyword_article_pool, live_source_count, batch_date, batch_time, now_kst, keyword_config)
     out = {
         "date": batch_date,
         "batch_time": batch_time,
@@ -743,7 +854,7 @@ def main():
         "cluster_count_total": len(clusters_out),
         "clusters": top,
         "keyword_news": keyword_out,
-        "public_articles": build_public_articles(all_articles),
+        "public_articles": build_public_articles(keyword_article_pool),
     }
 
     out_path = project_root / "docs" / "news_map.json"
