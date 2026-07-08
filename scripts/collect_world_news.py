@@ -274,6 +274,43 @@ def majority_region(members, rep):
     return top[0][0] if top else rep["region"]
 
 
+# 매체 소속 국가로 다수결을 하면 "어느 지역 매체가 실었나"만 볼 뿐 "실제 사건이
+# 어느 지역 얘기인가"는 전혀 반영이 안 된다. 예: 영국 왕실 소송 기사를 아시아
+# 신문(SCMP·방콕포스트 등)이 국제면에 여러 곳 실으면 다수결로 "아시아"가 돼버린다.
+# 국내뉴스의 guess_category와 같은 방식으로 기사 본문 키워드를 먼저 보고,
+# 아무 키워드도 안 걸리면 그때만 매체 소속 지역으로 대체한다.
+REGION_KEYWORDS = [
+    ("중동", ["iran", "israel", "gaza", "palestin", "hamas", "hezbollah", "syria",
+             "lebanon", "yemen", "saudi", "qatar", "u.a.e", "emirates", "dubai", "jordan",
+             "iraq", "tehran", "jerusalem", "riyadh", "beirut", "damascus", "houthi", "hormuz"]),
+    ("아시아", ["china", "chinese", "beijing", "japan", "tokyo", "korea", "seoul",
+              "india", "delhi", "mumbai", "pakistan", "thailand", "bangkok", "vietnam",
+              "philippines", "indonesia", "singapore", "hong kong", "taiwan", "myanmar",
+              "australia", "sydney", "melbourne", "new zealand"]),
+    ("유럽", ["u.k.", "britain", "british", "england", "london", "france", "french",
+             "paris", "germany", "german", "berlin", "european union", "europe", "russia",
+             "russian", "moscow", "ukraine", "ukrainian", "kyiv", "nato", "italy", "spain",
+             "poland", "monaco", "brussels", "switzerland", "sweden", "norway", "denmark", "finland"]),
+    ("미국", ["u.s.", "washington", "white house", "trump", "biden", "congress", "pentagon",
+             "houston", "california", "texas", "new york", "manhattan", "los angeles",
+             "canada", "canadian", "america"]),
+]
+
+
+def guess_region(members, fallback):
+    text = " ".join(f"{m['title']} {m['summary']}" for m in members).lower()
+    for region, keywords in REGION_KEYWORDS:
+        if any(kw in text for kw in keywords):
+            return region
+    # "us"/"uk"처럼 짧은 약어는 부분 문자열로 찾으면 campus·focus 등에 오탐되므로
+    # 단어 경계(\b)로만 매칭한다.
+    if re.search(r"\bus\b", text):
+        return "미국"
+    if re.search(r"\buk\b", text):
+        return "유럽"
+    return fallback
+
+
 _translator = None
 
 
@@ -343,7 +380,7 @@ def main():
             "id": lbl,
             "rep": rep,
             "excerpt_src": excerpt_src,
-            "region": majority_region(members, rep),
+            "region": guess_region(members, majority_region(members, rep)),
             "score": score,
             "members": members,
             "first_dt": first_dt,
@@ -370,6 +407,7 @@ def main():
             "title_source": "earliest_pick",
             "title_url": rep["url"],
             "category": c["region"],
+            "primary_source": rep["source_name"],  # 화면에는 지역 대신 대표 매체명을 그대로 표시한다
             "excerpt": excerpt_ko,
             "excerpt_en": excerpt_en,
             "excerpt_source": excerpt_src["source_name"] if excerpt_en else None,

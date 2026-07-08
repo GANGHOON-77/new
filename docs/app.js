@@ -516,7 +516,7 @@ function buildCell(item, rank, sizeCls) {
   div.innerHTML = `
     <div class="badge-row">
       <span class="rank">${rank}</span>
-      <span class="category">${escapeHtml(item.category)}</span>
+      <span class="category">${escapeHtml(DATA.view_mode === 'world' ? (item.primary_source || item.category) : item.category)}</span>
       ${item.translation_status === 'failed' ? '<span class="translate-fail-tag">번역실패</span>' : ''}
     </div>
     <div class="title">${escapeHtml(item.title)}</div>
@@ -551,7 +551,7 @@ function renderDetail(id, rank) {
 
   panel.innerHTML = `
     <button class="close-btn" id="close-detail">×</button>
-    <span class="top-badge">${rank} ${escapeHtml(c.category)}</span>
+    <span class="top-badge">${rank} ${escapeHtml(isWorld ? (c.primary_source || c.category) : c.category)}</span>
     <h2>${c.title_url ? `<a href="${c.title_url}" target="_blank" rel="noopener">${escapeHtml(c.title)}</a>` : escapeHtml(c.title)}</h2>
     ${isWorld && c.title_en ? `<div class="title-en-note">${escapeHtml(c.title_en)}</div>` : ''}
     <div class="time-row">🕐 최초 보도: ${fmtDateTime(c.first_published_at)} · 최근 보도: ${fmtDateTime(c.latest_published_at)}</div>
