@@ -25,10 +25,15 @@ jobs:
       - name: Run collection pipeline
         run: python scripts/collect_and_build.py
 
+      - name: Run world news collection pipeline
+        run: python scripts/collect_world_news.py
+        continue-on-error: true  # 해외 수집/번역이 실패해도 국내뉴스 커밋은 그대로 진행한다
+
       - name: Commit updated news map
         run: |
           git config user.name "news-map-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/news_map.json
+          if [ -f docs/world_news_map.json ]; then git add docs/world_news_map.json; fi
           git diff --cached --quiet && echo "no changes" || git commit -m "chore: update news map $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
