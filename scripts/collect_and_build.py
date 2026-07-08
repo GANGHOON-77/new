@@ -270,6 +270,248 @@ def detect_wire_credit(article):
     return None
 
 
+def load_keyword_config(path):
+    if not path.exists():
+        return {"window_hours": 48, "cluster_threshold": 0.36, "max_clusters_per_keyword": 20, "keyword_groups": []}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def keyword_text(article):
+    return re.sub(
+        r"\s+",
+        " ",
+        f"{article.get('title', '')} {article.get('norm_title', '')} {article.get('summary', '')}".lower(),
+    )
+
+
+def article_matches_keyword(article, group):
+    text = keyword_text(article)
+    aliases = [a.lower() for a in group.get("aliases", []) if a.strip()]
+    if not aliases or not any(alias in text for alias in aliases):
+        return False
+
+    include_any = [v.lower() for v in group.get("include_any", []) if v.strip()]
+    if include_any and not any(v in text for v in include_any):
+        return False
+
+    exclude_any = [v.lower() for v in group.get("exclude_any", []) if v.strip()]
+    if exclude_any and any(v in text for v in exclude_any):
+        return False
+
+    return True
+
+
+def keyword_focus_score(members, aliases, rep):
+    aliases = [a.lower() for a in aliases if a.strip()]
+    if not aliases:
+        return 0
+    title_hits = 0
+    for m in members:
+        title = f"{m.get('title', '')} {m.get('norm_title', '')}".lower()
+        if any(alias in title for alias in aliases):
+            title_hits += 1
+    rep_title = f"{rep.get('title', '')} {rep.get('norm_title', '')}".lower()
+    score = 0
+    if any(alias in rep_title for alias in aliases):
+        score += 2
+    if title_hits >= max(1, len(members) / 2):
+        score += 2
+    if title_hits == len(members):
+        score += 1
+    return min(score, 5)
+
+
+def compute_keyword_score(members, non_syn, now, aliases, rep):
+    article_count = len(non_syn)
+    source_count = len({m["source_name"] for m in non_syn})
+
+    if article_count <= 1:
+        article_score = 3
+    elif article_count <= 3:
+        article_score = 7
+    elif article_count <= 6:
+        article_score = 11
+    elif article_count <= 10:
+        article_score = 15
+    else:
+        article_score = 20
+
+    if source_count <= 1:
+        diversity_score = 3
+    elif source_count == 2:
+        diversity_score = 6
+    elif source_count <= 4:
+        diversity_score = 10
+    elif source_count <= 7:
+        diversity_score = 15
+    else:
+        diversity_score = 20
+
+    major_score = 0
+    source_types = {m["source_type"] for m in non_syn}
+    if any(m["is_wire_service"] for m in non_syn):
+        major_score += 3
+    if "방송사" in source_types:
+        major_score += 4
+    if "종합일간지" in source_types:
+        major_score += 4
+    if "경제지" in source_types or "IT매체" in source_types:
+        major_score += 2
+    if len(source_types) >= 3:
+        major_score += 2
+    major_score = min(major_score, 15)
+
+    def hits(words):
+        return sum(1 for m in members if any(w in f"{m['title']} {m['summary']}" for w in words))
+    if hits(BREAKING_TIER3) >= 2:
+        breaking_score = 10
+    elif hits(BREAKING_TIER2) >= 2:
+        breaking_score = 7
+    elif hits(BREAKING_TIER1) >= 1:
+        breaking_score = 4
+    else:
+        breaking_score = 1
+
+    latest_dt = max(m["published_at_dt"] for m in members)
+    age_h = (now - latest_dt).total_seconds() / 3600
+    if age_h <= 1:
+        time_score = 10
+    elif age_h <= 3:
+        time_score = 8
+    elif age_h <= 6:
+        time_score = 6
+    elif age_h <= 12:
+        time_score = 4
+    elif age_h <= 24:
+        time_score = 2
+    else:
+        time_score = 1
+
+    focus_score = keyword_focus_score(members, aliases, rep)
+    raw80 = article_score + diversity_score + major_score + breaking_score + time_score + focus_score
+    return {
+        "article_score": article_score,
+        "diversity_score": diversity_score,
+        "major_score": major_score,
+        "breaking_score": breaking_score,
+        "time_score": time_score,
+        "keyword_focus_score": focus_score,
+        "raw80": raw80,
+        "score100": round(raw80 * 100 / 80),
+    }
+
+
+def build_keyword_news_map(all_articles, live_source_count, batch_date, batch_time, now_kst, config):
+    now = datetime.now(timezone.utc)
+    window_hours = int(config.get("window_hours", 48))
+    cutoff = now - timedelta(hours=window_hours)
+    threshold = float(config.get("cluster_threshold", 0.36))
+    max_clusters = int(config.get("max_clusters_per_keyword", 20))
+    keyword_groups_out = []
+
+    for group in config.get("keyword_groups", []):
+        matched = [
+            a for a in all_articles
+            if a["published_at_dt"] >= cutoff and article_matches_keyword(a, group)
+        ]
+        matched = dedupe_by_url(matched)
+
+        if len(matched) >= 2:
+            texts = [f"{a['norm_title']} {a['summary']}" for a in matched]
+            X = build_tfidf_matrix(texts, min_df=1)
+            labels = cluster_greedy(X, threshold=threshold)
+        else:
+            labels = np.arange(len(matched), dtype=int)
+
+        by_cluster = {}
+        for idx, lbl in enumerate(labels):
+            by_cluster.setdefault(int(lbl), []).append(idx)
+
+        clusters_out = []
+        for lbl, idxs in by_cluster.items():
+            members = [matched[i] for i in idxs]
+            non_syn = [m for m in members if not m["is_syndicated"]]
+            if not non_syn:
+                non_syn = members
+
+            article_count = len(non_syn)
+            sources = {m["source_name"] for m in non_syn}
+            source_count = len(sources)
+            syndicated_count = len(members) - len(non_syn)
+            wire_members = [m for m in members if m["is_wire_service"]]
+            pool = wire_members if wire_members else members
+            rep = min(pool, key=lambda m: m["published_at_dt"])
+            title_source = "wire_pick" if wire_members else "earliest_pick"
+            latest_dt = max(m["published_at_dt"] for m in members)
+            first_dt = min(m["published_at_dt"] for m in members)
+            score = compute_keyword_score(members, non_syn, now, group.get("aliases", []), rep)
+            category = guess_category(f"{rep['title']} {rep['summary']}")
+            excerpt_src = max(members, key=lambda m: len(m["summary"]))
+            excerpt = excerpt_src["summary"][:160] if excerpt_src["summary"] else ""
+
+            clusters_out.append({
+                "id": f"{group['id']}-{lbl}",
+                "keyword_id": group["id"],
+                "title": normalize_title(rep["title"]),
+                "title_source": title_source,
+                "title_url": rep["url"],
+                "category": category,
+                "excerpt": excerpt,
+                "excerpt_source": excerpt_src["source_name"] if excerpt else None,
+                "excerpt_url": excerpt_src["url"] if excerpt else None,
+                "score": score["score100"],
+                "score_breakdown": {
+                    "article_score": score["article_score"],
+                    "diversity_score": score["diversity_score"],
+                    "major_score": score["major_score"],
+                    "breaking_score": score["breaking_score"],
+                    "time_score": score["time_score"],
+                    "keyword_focus_score": score["keyword_focus_score"],
+                    "raw80": score["raw80"],
+                },
+                "area_value": article_count,
+                "article_count": article_count,
+                "syndicated_count": syndicated_count,
+                "source_count": source_count,
+                "sources": sorted(sources),
+                "first_published_at": first_dt.astimezone(KST).isoformat(),
+                "latest_published_at": latest_dt.astimezone(KST).isoformat(),
+                "articles": [
+                    {
+                        "title": html.unescape(m["title"]),
+                        "source_name": m["source_name"],
+                        "url": m["url"],
+                        "published_at": m["published_at_dt"].astimezone(KST).strftime("%H:%M"),
+                        "is_syndicated": m["is_syndicated"],
+                    }
+                    for m in sorted(members, key=lambda m: m["published_at_dt"])
+                ][:15],
+            })
+
+        clusters_out.sort(key=lambda c: c["score"], reverse=True)
+        clusters_out = clusters_out[:max_clusters]
+        keyword_groups_out.append({
+            "id": group["id"],
+            "label": group["label"],
+            "aliases": group.get("aliases", []),
+            "matched_article_count": len(matched),
+            "cluster_count_total": len(by_cluster),
+            "clusters": clusters_out,
+        })
+
+    return {
+        "date": batch_date,
+        "batch_time": batch_time,
+        "updated_at": now_kst.isoformat(),
+        "score_version": "keyword-0.1",
+        "clustering_method": "tfidf_char3-5gram_greedy_centroid(keyword)",
+        "window_hours": window_hours,
+        "source_count_total": live_source_count,
+        "article_count_total": len(all_articles),
+        "keyword_groups": keyword_groups_out,
+    }
+
+
 def main():
     scripts_dir = Path(__file__).parent
     project_root = scripts_dir.parent
@@ -482,8 +724,13 @@ def main():
     out_path = project_root / "docs" / "news_map.json"
     out_path.parent.mkdir(exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    keyword_config = load_keyword_config(scripts_dir / "keyword_config.json")
+    keyword_out = build_keyword_news_map(all_articles, live_source_count, batch_date, batch_time, now_kst, keyword_config)
+    keyword_out_path = project_root / "docs" / "keyword_news_map.json"
+    keyword_out_path.write_text(json.dumps(keyword_out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n완료: 기사 {len(all_articles)}건 -> 이슈 {len(clusters_out)}개 (상위 {len(top)}개 출력)")
     print(f"저장: {out_path}")
+    print(f"저장: {keyword_out_path}")
 
 
 if __name__ == "__main__":

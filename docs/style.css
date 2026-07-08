@@ -29,12 +29,31 @@ html, body {
 .legend { display: flex; align-items: center; gap: 8px; font-size: 11px; color: #777; flex-wrap: wrap; }
 .legend-chip { display: inline-flex; align-items: center; gap: 4px; }
 .legend-chip .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.mode-tabs { display: flex; gap: 6px; margin-top: 10px; }
+.mode-tab {
+  border: 1px solid #d7dbe0; background: #fff; color: #333; border-radius: 6px;
+  padding: 7px 12px; font-size: 13px; font-weight: 700; cursor: pointer;
+}
+.mode-tab.active { background: #1a1a1a; border-color: #1a1a1a; color: #fff; }
+.keyword-toolbar { margin-top: 8px; overflow-x: auto; padding-bottom: 2px; }
+.keyword-toolbar.hidden { display: none; }
+.keyword-chips { display: flex; gap: 6px; min-width: max-content; }
+.keyword-chip {
+  border: 1px solid #d7dbe0; background: #fff; color: #333; border-radius: 14px;
+  padding: 5px 10px; font-size: 12px; cursor: pointer; white-space: nowrap;
+}
+.keyword-chip.active { background: #eef3ff; border-color: #1a63d1; color: #1a63d1; font-weight: 700; }
 
 .layout { display: flex; gap: 10px; padding: 10px; align-items: flex-start; }
 
 .treemap {
   position: relative; flex: 1 1 auto; min-width: 0;
   height: calc(100svh - 128px);
+}
+.empty-state {
+  display: flex; align-items: center; justify-content: center; height: 100%;
+  color: #777; font-size: 14px; border: 1px dashed #d7dbe0; border-radius: 8px;
+  background: #fff;
 }
 
 .cell {
@@ -144,6 +163,8 @@ html, body {
   .treemap { width: 100%; }
   .detail-panel { width: 100%; flex: none; max-height: 60vh; position: static; }
   .topbar-right { width: 100%; justify-content: space-between; }
+  .mode-tabs { overflow-x: auto; }
+  .mode-tab { flex: 0 0 auto; }
 
   /* 좁은 화면에서는 데스크톱 폰트 크기가 상대적으로 너무 커서 줄바꿈이 어색해진다 */
   .cell.size-xl .title { font-size: 20px; -webkit-line-clamp: 3; }

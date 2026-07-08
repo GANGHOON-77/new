@@ -1,6 +1,7 @@
 // 오늘의 뉴스지도 0.1 - 등급별 고정 크기 그리드 렌더러
 
 const SCORE_THRESHOLD = 50; // 이 점수 미만 이슈는 화면에서 제외
+const KEYWORD_SCORE_THRESHOLD = 0; // 키워드 뉴스는 보도량이 적어 낮은 점수 이슈도 표시
 const MAX_ITEMS = 20;       // 데스크톱 최대 노출 이슈 수
 const MOBILE_MAX_ITEMS = 14; // 모바일은 화면이 좁아 박스가 너무 작아지지 않도록 더 적게 표시
 const AREA_CAP_RATIO = 0.42; // 극단적으로 이슈가 적을 때만 작동하는 안전장치용 상한
@@ -111,6 +112,10 @@ function escapeHtml(s) {
 }
 
 let DATA = null;
+let DOMESTIC_DATA = null;
+let KEYWORD_DATA = null;
+let currentMode = 'domestic';
+let selectedKeywordId = null;
 let selectedId = null;
 let lastViewportWidth = window.innerWidth;
 let mobileTreemapHeight = null;
@@ -134,6 +139,77 @@ function setTreemapHeight(el, mobile) {
   el.style.height = nextHeight + 'px';
 }
 
+function resetRenderState() {
+  selectedId = null;
+  mobileTreemapHeight = null;
+  mobileTreemapWidth = null;
+}
+
+function getSelectedKeywordGroup() {
+  const groups = KEYWORD_DATA?.keyword_groups || [];
+  if (groups.length === 0) return null;
+  if (!selectedKeywordId || !groups.some(g => g.id === selectedKeywordId)) {
+    const firstWithNews = groups.find(g => g.clusters && g.clusters.length > 0);
+    selectedKeywordId = (firstWithNews || groups[0]).id;
+  }
+  return groups.find(g => g.id === selectedKeywordId) || groups[0];
+}
+
+function keywordGroupToViewData(group) {
+  return {
+    date: KEYWORD_DATA.date,
+    batch_time: KEYWORD_DATA.batch_time,
+    updated_at: KEYWORD_DATA.updated_at,
+    score_version: KEYWORD_DATA.score_version,
+    source_count_total: KEYWORD_DATA.source_count_total,
+    article_count_total: group.matched_article_count,
+    cluster_count_total: group.cluster_count_total,
+    clusters: group.clusters || [],
+    view_mode: 'keyword',
+    keyword_label: group.label,
+    keyword_aliases: group.aliases || [],
+    window_hours: KEYWORD_DATA.window_hours,
+  };
+}
+
+function renderCurrent() {
+  if (currentMode === 'keyword') {
+    const group = getSelectedKeywordGroup();
+    if (group) {
+      render(keywordGroupToViewData(group));
+    }
+    return;
+  }
+  if (DOMESTIC_DATA) render(DOMESTIC_DATA);
+}
+
+function renderKeywordChips() {
+  const wrap = document.getElementById('keyword-chips');
+  const groups = KEYWORD_DATA?.keyword_groups || [];
+  wrap.innerHTML = groups.map(g => `
+    <button class="keyword-chip ${g.id === selectedKeywordId ? 'active' : ''}" type="button" data-keyword-id="${escapeHtml(g.id)}">
+      ${escapeHtml(g.label)} ${g.matched_article_count ? `<span>(${g.matched_article_count})</span>` : ''}
+    </button>
+  `).join('');
+  wrap.querySelectorAll('.keyword-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      selectedKeywordId = btn.dataset.keywordId;
+      resetRenderState();
+      renderKeywordChips();
+      renderCurrent();
+    });
+  });
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('domestic-tab').classList.toggle('active', mode === 'domestic');
+  document.getElementById('keyword-tab').classList.toggle('active', mode === 'keyword');
+  document.getElementById('keyword-toolbar').classList.toggle('hidden', mode !== 'keyword');
+  resetRenderState();
+  renderCurrent();
+}
+
 function render(data) {
   DATA = data;
   document.getElementById('today-date').textContent =
@@ -143,10 +219,12 @@ function render(data) {
 
   const isMobile = window.innerWidth < 640;
   const limit = isMobile ? MOBILE_MAX_ITEMS : MAX_ITEMS;
-  const items = data.clusters.filter(c => c.score >= SCORE_THRESHOLD).slice(0, limit);
+  const scoreThreshold = data.view_mode === 'keyword' ? KEYWORD_SCORE_THRESHOLD : SCORE_THRESHOLD;
+  const items = data.clusters.filter(c => c.score >= scoreThreshold).slice(0, limit);
 
-  document.getElementById('meta-line').textContent =
-    `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
+  document.getElementById('meta-line').textContent = data.view_mode === 'keyword'
+    ? `키워드: ${data.keyword_label} · 최근 ${data.window_hours}시간 매칭 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 ${items.length}개 표시`
+    : `수집원 ${data.source_count_total}곳 · 수집 기사 ${data.article_count_total}건 · 이슈 ${data.cluster_count_total}개 중 중요도 ${SCORE_THRESHOLD}점 이상 ${items.length}개 표시`;
 
   // 상세 패널이 뜰지 여부를 트리맵 폭을 재기 "전"에 먼저 확정한다.
   // 그렇지 않으면 패널이 없는 상태의 폭으로 박스를 배치한 뒤 패널이 나타나면서
@@ -161,6 +239,12 @@ function render(data) {
   const el = document.getElementById('treemap');
   el.classList.remove('mobile-list');
   el.innerHTML = '';
+
+  if (items.length === 0) {
+    panel.classList.add('hidden');
+    el.innerHTML = `<div class="empty-state">표시할 뉴스가 없습니다.</div>`;
+    return;
+  }
 
   // 모바일은 상단 버튼·범례가 줄바꿈되어 헤더 높이가 유동적이므로,
   // CSS 고정값 대신 실제 위치를 기준으로 남은 높이를 계산한다.
@@ -225,8 +309,13 @@ function renderDetail(id, rank) {
   const panel = document.getElementById('detail-panel');
   panel.classList.remove('hidden');
   const b = c.score_breakdown;
-  const maxes = { article_score: 25, diversity_score: 20, major_score: 15, breaking_score: 10, time_score: 5 };
-  const labels = { article_score: '기사량(전재 제외)', diversity_score: '언론사 다양성', major_score: '주요 언론 보도', breaking_score: '속보성·긴급성', time_score: '시간 가중치' };
+  const isKeyword = DATA.view_mode === 'keyword';
+  const maxes = isKeyword
+    ? { article_score: 20, diversity_score: 20, major_score: 15, breaking_score: 10, time_score: 10, keyword_focus_score: 5 }
+    : { article_score: 25, diversity_score: 20, major_score: 15, breaking_score: 10, time_score: 5 };
+  const labels = isKeyword
+    ? { article_score: '기사량(전재 제외)', diversity_score: '언론사 다양성', major_score: '주요 언론 보도', breaking_score: '속보성·긴급성', time_score: '시간 가중치', keyword_focus_score: '키워드 집중도' }
+    : { article_score: '기사량(전재 제외)', diversity_score: '언론사 다양성', major_score: '주요 언론 보도', breaking_score: '속보성·긴급성', time_score: '시간 가중치' };
   const shown = c.articles.slice(0, 10);
 
   panel.innerHTML = `
@@ -234,7 +323,7 @@ function renderDetail(id, rank) {
     <span class="top-badge">${rank} ${escapeHtml(c.category)}</span>
     <h2>${c.title_url ? `<a href="${c.title_url}" target="_blank" rel="noopener">${escapeHtml(c.title)}</a>` : escapeHtml(c.title)}</h2>
     <div class="time-row">🕐 최초 보도: ${fmtDateTime(c.first_published_at)} · 최근 보도: ${fmtDateTime(c.latest_published_at)}</div>
-    <div class="title-source-note">대표 제목: ${c.title_source === 'wire_pick' ? '통신사 제목 선택(1순위 규칙)' : '이슈 내 최이른 기사 제목'} (제목 클릭 시 원문으로 이동)</div>
+    <div class="title-source-note">대표 제목: ${c.title_source === 'wire_pick' ? '통신사 제목 선택(1순위 규칙)' : '이슈 내 최이른 기사 제목'}${isKeyword ? ` · 키워드: ${escapeHtml(DATA.keyword_label)}` : ''} (제목 클릭 시 원문으로 이동)</div>
     <span class="summary-label">인용 요약 (0.1버전: 대표 기사 발췌 인용 · AI 요약은 1.0버전부터)</span>
     <div class="summary">${escapeHtml(c.excerpt || '요약문을 제공하는 기사가 없습니다.')}${c.excerpt_source ? ` — ${c.excerpt_url ? `<a href="${c.excerpt_url}" target="_blank" rel="noopener" style="color:#999">${escapeHtml(c.excerpt_source)}</a>` : `<span style="color:#999">${escapeHtml(c.excerpt_source)}</span>`}` : ''}</div>
     <div class="score-box">
@@ -242,8 +331,8 @@ function renderDetail(id, rank) {
       ${Object.keys(labels).map(k => `
         <div class="score-row">
           <span class="label">${labels[k]}</span>
-          <span class="bar-bg"><span class="bar-fg" style="width:${(b[k] / maxes[k] * 100).toFixed(0)}%"></span></span>
-          <span class="val">${b[k]}/${maxes[k]}</span>
+          <span class="bar-bg"><span class="bar-fg" style="width:${(((b[k] || 0) / maxes[k]) * 100).toFixed(0)}%"></span></span>
+          <span class="val">${b[k] || 0}/${maxes[k]}</span>
         </div>
       `).join('')}
     </div>
@@ -313,13 +402,31 @@ document.getElementById('category-legend').innerHTML = Object.entries(CATEGORY_C
   .map(([cat, color]) => `<span class="legend-chip"><span class="dot" style="background:${color}"></span>${cat}</span>`)
   .join('');
 
-fetch('news_map.json')
-  .then(r => r.json())
-  .then(render)
-  .catch(err => {
-    document.getElementById('treemap').innerHTML =
-      `<p style="padding:20px;color:#c00">데이터 로드 실패: ${err}</p>`;
-  });
+document.getElementById('domestic-tab').addEventListener('click', () => setMode('domestic'));
+document.getElementById('keyword-tab').addEventListener('click', () => setMode('keyword'));
+
+Promise.allSettled([
+  fetch('news_map.json').then(r => r.json()),
+  fetch('keyword_news_map.json').then(r => r.json()),
+]).then(([domesticResult, keywordResult]) => {
+  if (domesticResult.status === 'fulfilled') {
+    DOMESTIC_DATA = domesticResult.value;
+  }
+  if (keywordResult.status === 'fulfilled') {
+    KEYWORD_DATA = keywordResult.value;
+    const firstWithNews = KEYWORD_DATA.keyword_groups.find(g => g.clusters && g.clusters.length > 0);
+    selectedKeywordId = (firstWithNews || KEYWORD_DATA.keyword_groups[0])?.id || null;
+    renderKeywordChips();
+  }
+
+  if (DOMESTIC_DATA) {
+    renderCurrent();
+    return;
+  }
+
+  document.getElementById('treemap').innerHTML =
+    `<p style="padding:20px;color:#c00">데이터 로드 실패: 국내뉴스 데이터를 불러오지 못했습니다.</p>`;
+});
 
 window.addEventListener('resize', () => {
   if (!DATA) return;
