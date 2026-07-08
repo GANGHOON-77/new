@@ -477,7 +477,7 @@ function applyModeUI(mode) {
   document.getElementById('keyword-tab').classList.toggle('active', mode === 'keyword');
   document.getElementById('world-tab').classList.toggle('active', mode === 'world');
   document.getElementById('keyword-toolbar').classList.toggle('hidden', mode !== 'keyword');
-  document.getElementById('category-legend').classList.toggle('hidden', mode === 'world');
+  document.getElementById('category-legend-block').classList.toggle('hidden', mode === 'world');
   document.getElementById('region-legend-block').classList.toggle('hidden', mode !== 'world');
 }
 
