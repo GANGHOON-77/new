@@ -17,6 +17,14 @@ function areaValue(score) {
   return Math.pow(Math.max(score - 40, 5), 2);
 }
 
+// 키워드 뉴스는 임계값이 0이라 20점대 이슈까지 함께 표시되는데, 국내뉴스용
+// 제곱 공식을 그대로 쓰면 하위권이 전부 바닥값에 뭉치고 1~3위만 급격히
+// 부풀어 화면을 과점한다(넓은 점수대 탓에 제곱 격차가 지나치게 벌어짐).
+// 제곱 대신 선형 공식을 써서 국내뉴스와 비슷한 비율의 완만한 크기 차이를 낸다.
+function keywordAreaValue(score) {
+  return Math.max(score - 15, 3);
+}
+
 // 재귀 이등분(recursive bisection) 트리맵. 항상 더 긴 변을 잘라 정사각형에
 // 가까운 조각을 만들고, 빈 공간 없이 컨테이너 전체를 채운다.
 // 입력 순서를 그대로 보존해 반환한다(그룹A 결과 -> 그룹B 결과 순).
@@ -442,8 +450,9 @@ function render(data) {
 
   const w = el.clientWidth, h = el.clientHeight;
   // 면적 값 = 중요도 점수 기반. 1위가 화면을 과점하지 않도록 상한을 둔다(11-1장).
-  // 국내뉴스·키워드 탭 모두 동일한 규칙으로 점수에 따라 박스 크기가 달라진다.
-  let sized = items.map(c => ({ ...c, value: areaValue(c.score) }));
+  // 국내뉴스는 제곱 공식, 키워드 뉴스는 선형 공식으로 점수에 따라 박스 크기가 달라진다.
+  const toValue = data.view_mode === 'keyword' ? keywordAreaValue : areaValue;
+  let sized = items.map(c => ({ ...c, value: toValue(c.score) }));
   const total = sized.reduce((s, i) => s + i.value, 0);
   const cap = total * AREA_CAP_RATIO;
   sized = sized.map(i => i.value > cap ? { ...i, value: cap } : i);
