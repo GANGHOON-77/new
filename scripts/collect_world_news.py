@@ -34,6 +34,12 @@ CLUSTER_THRESHOLD = 0.33
 WORLD_SCORE_THRESHOLD = 50  # 이 점수 미만은 화면에 안 보여주고 번역도 하지 않는다
 
 WORLD_SOURCES = [
+    # 통신사 - 공식 RSS가 폐지돼 국내뉴스와 같은 구글뉴스 검색 경유 우회를 쓴다(google_bypass=True)
+    {"name": "Reuters", "region": "글로벌", "source_type": "통신사", "google_bypass": True,
+     "rss": "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "AP News", "region": "글로벌", "source_type": "통신사", "google_bypass": True,
+     "rss": "https://news.google.com/rss/search?q=site:apnews.com&hl=en-US&gl=US&ceid=US:en"},
+
     {"name": "BBC", "region": "유럽", "source_type": "국제방송",
      "rss": "https://feeds.bbci.co.uk/news/world/rss.xml"},
     {"name": "CNN", "region": "미국", "source_type": "방송사",
@@ -52,8 +58,41 @@ WORLD_SOURCES = [
      "rss": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"},
     {"name": "SCMP", "region": "아시아", "source_type": "종합일간지",
      "rss": "https://www.scmp.com/rss/91/feed"},
+
+    # 2차 확장 (overseas_news_design.txt 후속 확대, 국영매체는 편향 우려로 제외)
+    {"name": "Sky News", "region": "유럽", "source_type": "방송사",
+     "rss": "https://feeds.skynews.com/feeds/rss/world.xml"},
+    {"name": "The Independent", "region": "유럽", "source_type": "종합일간지",
+     "rss": "https://www.independent.co.uk/news/world/rss"},
+    {"name": "Euronews", "region": "유럽", "source_type": "국제방송",
+     "rss": "https://www.euronews.com/rss?level=theme&name=news"},
+    {"name": "ABC News", "region": "미국", "source_type": "방송사",
+     "rss": "https://abcnews.go.com/abcnews/internationalheadlines"},
+    {"name": "CBS News", "region": "미국", "source_type": "방송사",
+     "rss": "https://www.cbsnews.com/latest/rss/world"},
+    {"name": "NBC News", "region": "미국", "source_type": "방송사",
+     "rss": "https://feeds.nbcnews.com/nbcnews/public/world"},
+    {"name": "Fox News", "region": "미국", "source_type": "방송사",
+     "rss": "https://moxie.foxnews.com/google-publisher/world.xml"},
+    {"name": "CBC", "region": "미국", "source_type": "공영방송",
+     "rss": "https://www.cbc.ca/cmlink/rss-world"},
+    {"name": "Arab News", "region": "중동", "source_type": "종합일간지",
+     "rss": "https://www.arabnews.com/rss.xml"},
+    {"name": "Times of India", "region": "아시아", "source_type": "종합일간지",
+     "rss": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms"},
+    {"name": "Hindustan Times", "region": "아시아", "source_type": "종합일간지",
+     "rss": "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml"},
+    {"name": "Channel News Asia", "region": "아시아", "source_type": "방송사",
+     "rss": "https://www.channelnewsasia.com/rssfeeds/8395986"},
+    {"name": "Bangkok Post", "region": "아시아", "source_type": "종합일간지",
+     "rss": "https://www.bangkokpost.com/rss/data/world.xml"},
+    {"name": "ABC News Australia", "region": "아시아", "source_type": "공영방송",
+     "rss": "https://www.abc.net.au/news/feed/51120/rss.xml"},
+    {"name": "Sydney Morning Herald", "region": "아시아", "source_type": "종합일간지",
+     "rss": "https://www.smh.com.au/rss/world.xml"},
 ]
-BROADCAST_TYPES = {"국제방송", "방송사", "공영라디오"}
+WIRE_TYPES = {"통신사"}
+BROADCAST_TYPES = {"국제방송", "방송사", "공영라디오", "공영방송"}
 PAPER_TYPES = {"종합일간지"}
 
 BREAKING_TIER3_EN = ["martial law", "declares war", "invasion", "state of emergency", "mass evacuation", "nuclear"]
@@ -124,6 +163,7 @@ def fetch_world_source(source, cutoff):
     except requests.RequestException as e:
         return source["name"], articles, f"접속실패:{type(e).__name__}"
 
+    is_bypass = source.get("google_bypass", False)
     for e in parsed.entries:
         title = e.get("title")
         link = e.get("link")
@@ -132,6 +172,10 @@ def fetch_world_source(source, cutoff):
         pub = parse_entry_time(e)
         if pub is None or pub < cutoff:
             continue
+        # 구글뉴스 검색 경유 결과는 제목 끝에 " - 매체명"이 붙어 나온다(site: 쿼리로 이미
+        # 매체가 확정돼 있으므로 접미사만 떼어내고 source_name은 그대로 고정값을 쓴다).
+        if is_bypass and " - " in title:
+            title = title.rsplit(" - ", 1)[0]
         summary = strip_html(e.get("summary") or e.get("description") or "")
         articles.append({
             "title": html.unescape(title).strip(),
@@ -177,6 +221,8 @@ def compute_world_score(members, now):
     source_types = {m["source_type"] for m in members}
     regions = {m["region"] for m in members}
     major_score = 0
+    if source_types & WIRE_TYPES:
+        major_score += 5
     if source_types & BROADCAST_TYPES:
         major_score += 5
     if source_types & PAPER_TYPES:
