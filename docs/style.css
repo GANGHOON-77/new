@@ -159,6 +159,13 @@ html, body {
 .video-title { font-size: 12.5px; line-height: 1.42; font-weight: 750; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .video-keyword { font-size: 10.5px; color: #666; margin-top: 5px; }
 .video-empty { font-size: 12.5px; color: #777; line-height: 1.55; background: #f7f8fa; border-radius: 6px; padding: 12px; }
+.video-thumb-card {
+  display: flex; gap: 9px; color: #1a1a1a; text-decoration: none; border: 1px solid #edf0f3;
+  border-radius: 8px; background: #fff; padding: 8px; align-items: flex-start;
+}
+.video-thumb-card:hover { border-color: #cfd6df; box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
+.video-thumb-img { width: 96px; height: 54px; object-fit: cover; border-radius: 6px; background: #eee; flex-shrink: 0; }
+.video-thumb-body { min-width: 0; }
 .detail-panel .close-btn { float: right; border: none; background: none; font-size: 18px; cursor: pointer; color: #888; }
 .detail-panel .top-badge {
   display: inline-flex; align-items: center; gap: 6px; background: #d0311f; color: #fff;

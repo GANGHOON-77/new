@@ -567,29 +567,69 @@ function render(data) {
   }
 }
 
-const YOUTUBE_SEARCH_SOURCES = [
-  { label: '전체', suffix: '' },
-  { label: 'KBS', suffix: 'KBS 뉴스' },
-  { label: 'MBC', suffix: 'MBC 뉴스' },
-  { label: 'JTBC', suffix: 'JTBC News' },
-  { label: 'SBS', suffix: 'SBS 뉴스' },
-  { label: 'YTN', suffix: 'YTN' },
-];
+const YOUTUBE_CACHE_KEY = 'newsmap_youtube_cache_v1';
+const YOUTUBE_MAX_KEYWORDS = 5;
+const YOUTUBE_MAX_RESULTS = 6;
+let youtubeRenderToken = 0;
 
-function buildYoutubeSearchUrl(keyword, suffix) {
-  const query = `${keyword} ${suffix}`.trim();
-  return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}&sp=EgIIAw%253D%253D`;
+function todayKstDateStr() {
+  const now = new Date();
+  const kst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  return kst.toISOString().slice(0, 10);
 }
 
-function buildYoutubeSearchLinks() {
-  return customKeywords.flatMap(keyword =>
-    YOUTUBE_SEARCH_SOURCES.map(source => ({
-      keyword,
-      source: source.label,
-      query: `${keyword} ${source.suffix}`.trim(),
-      url: buildYoutubeSearchUrl(keyword, source.suffix),
-    }))
-  ).slice(0, 24);
+function loadYoutubeCache() {
+  try {
+    return JSON.parse(localStorage.getItem(YOUTUBE_CACHE_KEY)) || {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveYoutubeCache(cache) {
+  try {
+    localStorage.setItem(YOUTUBE_CACHE_KEY, JSON.stringify(cache));
+  } catch (e) { /* storage full or unavailable — skip caching */ }
+}
+
+async function fetchKeywordVideos(keyword) {
+  const today = todayKstDateStr();
+  const cache = loadYoutubeCache();
+  const cached = cache[keyword];
+  if (cached && cached.date === today) return cached.videos;
+
+  const apiKey = window.YOUTUBE_API_KEY;
+  if (!apiKey) return null;
+
+  const publishedAfter = new Date(`${today}T00:00:00+09:00`).toISOString();
+  const params = new URLSearchParams({
+    part: 'snippet',
+    type: 'video',
+    order: 'date',
+    maxResults: String(YOUTUBE_MAX_RESULTS),
+    q: keyword,
+    publishedAfter,
+    regionCode: 'KR',
+    relevanceLanguage: 'ko',
+    key: apiKey,
+  });
+
+  const res = await fetch(`https://www.googleapis.com/youtube/v3/search?${params.toString()}`);
+  if (!res.ok) throw new Error(`youtube api ${res.status}`);
+  const json = await res.json();
+  const videos = (json.items || [])
+    .filter(item => item.id && item.id.videoId)
+    .map(item => ({
+      id: item.id.videoId,
+      title: item.snippet.title,
+      channel: item.snippet.channelTitle,
+      publishedAt: item.snippet.publishedAt,
+      thumbnail: (item.snippet.thumbnails && (item.snippet.thumbnails.medium || item.snippet.thumbnails.default) || {}).url || '',
+    }));
+
+  cache[keyword] = { date: today, videos };
+  saveYoutubeCache(cache);
+  return videos;
 }
 
 function renderKeywordVideoPanel(data) {
@@ -602,34 +642,82 @@ function renderKeywordVideoPanel(data) {
   }
   panel.classList.remove('hidden');
 
-  const links = buildYoutubeSearchLinks();
-  const title = customKeywords.length ? `${customKeywords.join(' / ')} 유튜브 바로 검색` : '유튜브 바로 검색';
   if (customKeywords.length === 0) {
     panel.innerHTML = `
       <div class="video-panel-head">
-        <h2>유튜브 바로 검색</h2>
-        <span>링크</span>
+        <h2>오늘 올라온 유튜브 영상</h2>
+        <span>0개</span>
       </div>
-      <div class="video-empty">키워드를 추가하면 YouTube 검색 링크를 바로 만들어 줍니다.</div>
+      <div class="video-empty">키워드를 추가하면 오늘 올라온 관련 영상을 바로 보여줍니다.</div>
     `;
     return;
   }
+
+  const title = `${customKeywords.join(' / ')} 유튜브`;
+
+  if (!window.YOUTUBE_API_KEY) {
+    panel.innerHTML = `
+      <div class="video-panel-head">
+        <h2>${escapeHtml(title)}</h2>
+        <span>설정 필요</span>
+      </div>
+      <div class="video-empty">YouTube API 키가 아직 설정되지 않았습니다.</div>
+    `;
+    return;
+  }
+
+  const token = ++youtubeRenderToken;
   panel.innerHTML = `
     <div class="video-panel-head">
       <h2>${escapeHtml(title)}</h2>
-      <span>${links.length}개</span>
+      <span>불러오는 중</span>
     </div>
-    <div class="video-search-note">최근 업로드 필터가 적용된 YouTube 검색 결과로 이동합니다.</div>
-    <div class="video-link-list">
-      ${links.map(link => `
-        <a class="video-search-card" href="${escapeHtml(link.url)}" target="_blank" rel="noopener">
-          <div class="video-source">${escapeHtml(link.source)}</div>
-          <div class="video-title">${escapeHtml(link.query)}</div>
-          <div class="video-keyword">YouTube에서 바로 검색</div>
-        </a>
-      `).join('')}
-    </div>
+    <div class="video-empty">오늘 올라온 영상을 조회하고 있습니다…</div>
   `;
+
+  const keywords = customKeywords.slice(0, YOUTUBE_MAX_KEYWORDS);
+  Promise.all(keywords.map(kw => fetchKeywordVideos(kw).then(
+    videos => ({ keyword: kw, videos: videos || [] }),
+    () => ({ keyword: kw, videos: [], error: true })
+  ))).then(results => {
+    if (token !== youtubeRenderToken) return;
+
+    const cards = results.flatMap(r => r.videos.map(v => Object.assign({ keyword: r.keyword }, v)));
+    const anyError = results.some(r => r.error);
+
+    if (cards.length === 0) {
+      panel.innerHTML = `
+        <div class="video-panel-head">
+          <h2>${escapeHtml(title)}</h2>
+          <span>0개</span>
+        </div>
+        <div class="video-empty">${anyError ? '유튜브 조회에 실패했습니다. 잠시 후 다시 시도해 주세요.' : '오늘 올라온 관련 영상이 아직 없습니다.'}</div>
+      `;
+      return;
+    }
+
+    cards.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+
+    panel.innerHTML = `
+      <div class="video-panel-head">
+        <h2>${escapeHtml(title)}</h2>
+        <span>${cards.length}개</span>
+      </div>
+      <div class="video-search-note">오늘 올라온 영상을 최신순으로 보여줍니다.</div>
+      <div class="video-link-list">
+        ${cards.map(v => `
+          <a class="video-thumb-card" href="https://www.youtube.com/watch?v=${encodeURIComponent(v.id)}" target="_blank" rel="noopener">
+            <img class="video-thumb-img" src="${escapeHtml(v.thumbnail)}" alt="" loading="lazy">
+            <div class="video-thumb-body">
+              <div class="video-source">${escapeHtml(v.keyword)} · ${escapeHtml(v.channel)}</div>
+              <div class="video-title">${escapeHtml(v.title)}</div>
+              <div class="video-keyword">${timeAgoLabel(v.publishedAt)}</div>
+            </div>
+          </a>
+        `).join('')}
+      </div>
+    `;
+  });
 }
 
 function buildCell(item, rank, sizeCls) {
