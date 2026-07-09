@@ -20,6 +20,7 @@ import email.utils
 import hashlib
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -41,7 +42,9 @@ HEADERS = {
 }
 TIMEOUT = 12
 COLLECTION_TIMEZONE = "Asia/Seoul"
-KST_BATCH_SLOTS = ("00:00", "06:00", "12:00", "18:00")
+KST_BATCH_SLOTS = ("00:00", "06:00", "12:00", "18:00")  # world news (unchanged)
+DOMESTIC_BATCH_SLOTS = ("07:00", "13:00", "20:00")
+KEYWORD_BATCH_SLOTS = ("07:00", "15:00")
 WIRE_NAMES = {"연합뉴스", "뉴시스", "뉴스1"}
 WIRE_CREDIT_PATTERNS = [
     (re.compile(r"[=(]\s*연합뉴스"), "연합뉴스"),
@@ -347,21 +350,21 @@ def dedupe_by_url(articles):
     return out
 
 
-def compute_batch_label(now_kst):
-    """GitHub Actions cron은 실행이 몇 분~몇십 분 늦어질 수 있으므로,
-    화면에는 실제 실행 시각이 아니라 가장 가까운 목표 회차(06/12/18/00시)를
-    고정 표시한다. 설계문서 2장은 00시 회차를 '전날 24:00'(방송 관례 표기)으로
-    취급하라고 하지만, 사용자 피드백에 따라 "오늘 날짜 00:00"이라는 직관적인
-    표기를 대신 사용한다(가리키는 실제 시점은 동일).
+def compute_batch_label(now_kst, slots=KST_BATCH_SLOTS):
+    """GitHub Actions cron/watchdog은 실행이 몇 분~몇십 분 늦어질 수 있으므로,
+    화면에는 실제 실행 시각이 아니라 가장 최근에 지나간 목표 회차(slots 중 하나)를
+    고정 표시한다. slots는 "HH:MM" 오름차순 튜플이며 서비스마다 다를 수 있다
+    (예: 국내뉴스 07/13/20시, 키워드뉴스 07/15시, 해외뉴스 00/06/12/18시).
+    오늘의 첫 회차 이전 시각(예: 국내뉴스 slots 기준 새벽 3시)에는 전날 마지막
+    회차로 라벨링한다.
     """
-    hour = now_kst.hour
-    if 6 <= hour < 12:
-        return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[1]
-    if 12 <= hour < 18:
-        return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[2]
-    if 18 <= hour < 24:
-        return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[3]
-    return now_kst.strftime("%Y-%m-%d"), KST_BATCH_SLOTS[0]
+    now_hm = now_kst.strftime("%H:%M")
+    today = now_kst.strftime("%Y-%m-%d")
+    passed = [s for s in slots if s <= now_hm]
+    if passed:
+        return today, max(passed)
+    yesterday = (now_kst - timedelta(days=1)).strftime("%Y-%m-%d")
+    return yesterday, slots[-1]
 
 
 def detect_wire_credit(article):
@@ -606,7 +609,7 @@ def build_keyword_news_map(all_articles, live_source_count, batch_date, batch_ti
         "batch_time": batch_time,
         "updated_at": now_kst.isoformat(),
         "timezone": COLLECTION_TIMEZONE,
-        "batch_slots": list(KST_BATCH_SLOTS),
+        "batch_slots": list(KEYWORD_BATCH_SLOTS),
         "score_version": "keyword-0.1",
         "clustering_method": "tfidf_char3-5gram_greedy_centroid(keyword)",
         "window_hours": window_hours,
@@ -845,14 +848,17 @@ def main():
     top = clusters_out[:40]
 
     now_kst = datetime.now(KST)
-    batch_date, batch_time = compute_batch_label(now_kst)
-    keyword_out = build_keyword_news_map(keyword_article_pool, live_source_count, batch_date, batch_time, now_kst, keyword_config)
+    domestic_batch_date, domestic_batch_time = compute_batch_label(now_kst, DOMESTIC_BATCH_SLOTS)
+    keyword_batch_date, keyword_batch_time = compute_batch_label(now_kst, KEYWORD_BATCH_SLOTS)
+    keyword_out = build_keyword_news_map(
+        keyword_article_pool, live_source_count, keyword_batch_date, keyword_batch_time, now_kst, keyword_config
+    )
     out = {
-        "date": batch_date,
-        "batch_time": batch_time,
+        "date": domestic_batch_date,
+        "batch_time": domestic_batch_time,
         "updated_at": now_kst.isoformat(),  # 실제 실행 시각(로그용). 화면 표시는 date+batch_time을 사용.
         "timezone": COLLECTION_TIMEZONE,
-        "batch_slots": list(KST_BATCH_SLOTS),
+        "batch_slots": list(DOMESTIC_BATCH_SLOTS),
         "score_version": "0.1",
         "clustering_method": "tfidf_char3-5gram_greedy_centroid(demo)",
         "source_count_total": live_source_count,
@@ -863,14 +869,28 @@ def main():
         "public_articles": build_public_articles(keyword_article_pool),
     }
 
-    out_path = project_root / "docs" / "news_map.json"
-    out_path.parent.mkdir(exist_ok=True)
-    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    keyword_out_path = project_root / "docs" / "keyword_news_map.json"
-    keyword_out_path.write_text(json.dumps(keyword_out, ensure_ascii=False, indent=2), encoding="utf-8")
+    # 국내뉴스(07/13/20시)와 키워드뉴스(07/15시)는 스케줄이 서로 달라서,
+    # 워크플로가 이번 회차에 어느 쪽이 실행 대상인지 넘겨주는 값에 따라
+    # 파일별로 따로 기록 여부를 정한다. (RSS 수집 자체는 두 출력이 공유)
+    update_domestic = os.environ.get("UPDATE_DOMESTIC", "true").lower() == "true"
+    update_keyword = os.environ.get("UPDATE_KEYWORD", "true").lower() == "true"
+
+    if update_domestic:
+        out_path = project_root / "docs" / "news_map.json"
+        out_path.parent.mkdir(exist_ok=True)
+        out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"저장: {out_path}")
+    else:
+        print("국내뉴스 회차가 아니라 news_map.json은 갱신하지 않음")
+
+    if update_keyword:
+        keyword_out_path = project_root / "docs" / "keyword_news_map.json"
+        keyword_out_path.write_text(json.dumps(keyword_out, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"저장: {keyword_out_path}")
+    else:
+        print("키워드뉴스 회차가 아니라 keyword_news_map.json은 갱신하지 않음")
+
     print(f"\n완료: 기사 {len(all_articles)}건 -> 이슈 {len(clusters_out)}개 (상위 {len(top)}개 출력)")
-    print(f"저장: {out_path}")
-    print(f"저장: {keyword_out_path}")
 
 
 if __name__ == "__main__":

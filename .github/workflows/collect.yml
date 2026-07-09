@@ -3,11 +3,13 @@ name: Collect news and update map
 on:
   schedule:
     # GitHub Actions schedule triggers can be delayed or silently dropped
-    # under load (see GitHub docs). Instead of relying on 4 exact cron
-    # times, we poll every 10 minutes and self-heal: each tick checks
-    # whether the current KST batch slot (00/06/12/18) has already been
-    # collected, and only does the work if it hasn't. Worst case a missed
-    # tick is caught by the next one ~10 minutes later.
+    # under load (see GitHub docs), so instead of relying on exact cron
+    # times we poll every 10 minutes and self-heal: each tick checks,
+    # independently per feed, whether the current KST batch slot has
+    # already been collected, and only does the work if it hasn't.
+    #   domestic (news_map.json):        07:00 / 13:00 / 20:00 KST
+    #   keyword  (keyword_news_map.json): 07:00 / 15:00 KST
+    #   world    (world_news_map.json):   00:00 / 06:00 / 12:00 / 18:00 KST (unchanged)
     - cron: "*/10 * * * *"
   workflow_dispatch: {}
 
@@ -20,61 +22,101 @@ jobs:
     env:
       TZ: Asia/Seoul
       NEWS_MAP_TIMEZONE: Asia/Seoul
-      NEWS_MAP_TARGET_TIMES_KST: "00:00,06:00,12:00,18:00"
     outputs:
-      should_run: ${{ steps.check.outputs.should_run }}
+      domestic_due: ${{ steps.check.outputs.domestic_due }}
+      keyword_due: ${{ steps.check.outputs.keyword_due }}
+      world_due: ${{ steps.check.outputs.world_due }}
+      any_due: ${{ steps.check.outputs.any_due }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check whether this KST batch slot was already collected
+      - name: Check which feeds are due (KST watchdog)
         id: check
         run: |
-          HOUR=$(TZ=Asia/Seoul date +%H)
+          NOW_HM=$(TZ=Asia/Seoul date +%H:%M)
           TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
-          if   [ "$HOUR" -lt 6 ];  then SLOT="00:00"
-          elif [ "$HOUR" -lt 12 ]; then SLOT="06:00"
-          elif [ "$HOUR" -lt 18 ]; then SLOT="12:00"
-          else SLOT="18:00"
-          fi
+          YESTERDAY=$(TZ=Asia/Seoul date -d "yesterday" +%Y-%m-%d)
 
-          ALREADY_DONE="false"
-          if [ -f docs/news_map.json ]; then
-            CUR_DATE=$(jq -r '.date // empty' docs/news_map.json)
-            CUR_SLOT=$(jq -r '.batch_time // empty' docs/news_map.json)
-            if [ "$CUR_DATE" = "$TODAY" ] && [ "$CUR_SLOT" = "$SLOT" ]; then
-              ALREADY_DONE="true"
+          # Returns "SLOT|DATE" for the most recently reached slot in a
+          # comma-separated "HH:MM,..." list, rolling back to yesterday's
+          # last slot if we're before today's first slot.
+          nearest_slot() {
+            local slots="$1" best=""
+            IFS=',' read -ra ARR <<< "$slots"
+            for s in "${ARR[@]}"; do
+              if [[ "$s" < "$NOW_HM" || "$s" == "$NOW_HM" ]]; then
+                if [[ -z "$best" || "$s" > "$best" ]]; then best="$s"; fi
+              fi
+            done
+            if [[ -z "$best" ]]; then
+              echo "${ARR[-1]}|$YESTERDAY"
+            else
+              echo "$best|$TODAY"
             fi
-          fi
+          }
 
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$ALREADY_DONE" = "false" ]; then
-            SHOULD_RUN="true"
-          else
-            SHOULD_RUN="false"
-          fi
+          already_done() {
+            local file="$1" slot="$2" date="$3"
+            if [ ! -f "$file" ]; then echo "false"; return; fi
+            local cur_date cur_slot
+            cur_date=$(jq -r '.date // empty' "$file")
+            cur_slot=$(jq -r '.batch_time // empty' "$file")
+            if [ "$cur_date" = "$date" ] && [ "$cur_slot" = "$slot" ]; then echo "true"; else echo "false"; fi
+          }
 
-          echo "KST now: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S %Z') / target slot: $SLOT / already collected: $ALREADY_DONE / will run: $SHOULD_RUN"
-          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
+          IFS='|' read -r DOM_SLOT DOM_DATE <<< "$(nearest_slot "07:00,13:00,20:00")"
+          IFS='|' read -r KW_SLOT  KW_DATE  <<< "$(nearest_slot "07:00,15:00")"
+          IFS='|' read -r WLD_SLOT WLD_DATE <<< "$(nearest_slot "00:00,06:00,12:00,18:00")"
+
+          DOM_DONE=$(already_done docs/news_map.json "$DOM_SLOT" "$DOM_DATE")
+          KW_DONE=$(already_done docs/keyword_news_map.json "$KW_SLOT" "$KW_DATE")
+          WLD_DONE=$(already_done docs/world_news_map.json "$WLD_SLOT" "$WLD_DATE")
+
+          IS_MANUAL="false"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then IS_MANUAL="true"; fi
+
+          if [ "$IS_MANUAL" = "true" ] || [ "$DOM_DONE" = "false" ]; then DOM_DUE="true"; else DOM_DUE="false"; fi
+          if [ "$IS_MANUAL" = "true" ] || [ "$KW_DONE" = "false" ]; then KW_DUE="true"; else KW_DUE="false"; fi
+          if [ "$IS_MANUAL" = "true" ] || [ "$WLD_DONE" = "false" ]; then WLD_DUE="true"; else WLD_DUE="false"; fi
+
+          ANY_DUE="false"
+          if [ "$DOM_DUE" = "true" ] || [ "$KW_DUE" = "true" ] || [ "$WLD_DUE" = "true" ]; then ANY_DUE="true"; fi
+
+          echo "KST now: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S %Z')"
+          echo "domestic: slot=$DOM_SLOT date=$DOM_DATE already_done=$DOM_DONE due=$DOM_DUE"
+          echo "keyword : slot=$KW_SLOT date=$KW_DATE already_done=$KW_DONE due=$KW_DUE"
+          echo "world   : slot=$WLD_SLOT date=$WLD_DATE already_done=$WLD_DONE due=$WLD_DUE"
+
+          {
+            echo "domestic_due=$DOM_DUE"
+            echo "keyword_due=$KW_DUE"
+            echo "world_due=$WLD_DUE"
+            echo "any_due=$ANY_DUE"
+          } >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
-        if: steps.check.outputs.should_run == 'true'
+        if: steps.check.outputs.any_due == 'true'
         with:
           python-version: "3.12"
 
       - name: Install dependencies
-        if: steps.check.outputs.should_run == 'true'
+        if: steps.check.outputs.any_due == 'true'
         run: pip install -r requirements.txt
 
-      - name: Run collection pipeline
-        if: steps.check.outputs.should_run == 'true'
+      - name: Run domestic + keyword collection pipeline
+        if: steps.check.outputs.domestic_due == 'true' || steps.check.outputs.keyword_due == 'true'
+        env:
+          UPDATE_DOMESTIC: ${{ steps.check.outputs.domestic_due }}
+          UPDATE_KEYWORD: ${{ steps.check.outputs.keyword_due }}
         run: python scripts/collect_and_build.py
 
       - name: Run world news collection pipeline
-        if: steps.check.outputs.should_run == 'true'
+        if: steps.check.outputs.world_due == 'true'
         run: python scripts/collect_world_news.py
-        continue-on-error: true  # Keep domestic news updates even if world news collection/translation fails.
+        continue-on-error: true  # Keep other updates even if world news collection/translation fails.
 
       - name: Commit updated news map
-        if: steps.check.outputs.should_run == 'true'
+        if: steps.check.outputs.any_due == 'true'
         run: |
           git config user.name "news-map-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -85,7 +127,7 @@ jobs:
 
   deploy:
     needs: collect
-    if: needs.collect.outputs.should_run == 'true'
+    if: needs.collect.outputs.any_due == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write
