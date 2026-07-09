@@ -2,10 +2,13 @@ name: Collect news and update map
 
 on:
   schedule:
-    # GitHub Actions cron is always UTC.
-    # Seoul/KST targets: 00:00, 06:00, 12:00, 18:00
-    # UTC conversion:    15:00, 21:00, 03:00, 09:00
-    - cron: "0 15,21,3,9 * * *"
+    # GitHub Actions schedule triggers can be delayed or silently dropped
+    # under load (see GitHub docs). Instead of relying on 4 exact cron
+    # times, we poll every 10 minutes and self-heal: each tick checks
+    # whether the current KST batch slot (00/06/12/18) has already been
+    # collected, and only does the work if it hasn't. Worst case a missed
+    # tick is caught by the next one ~10 minutes later.
+    - cron: "*/10 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -18,30 +21,60 @@ jobs:
       TZ: Asia/Seoul
       NEWS_MAP_TIMEZONE: Asia/Seoul
       NEWS_MAP_TARGET_TIMES_KST: "00:00,06:00,12:00,18:00"
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show scheduler time
+      - name: Check whether this KST batch slot was already collected
+        id: check
         run: |
-          echo "KST now: $(date +'%Y-%m-%d %H:%M:%S %Z')"
-          echo "UTC now: $(TZ=UTC date +'%Y-%m-%d %H:%M:%S %Z')"
-          echo "Target collection times (KST): ${NEWS_MAP_TARGET_TIMES_KST}"
+          HOUR=$(TZ=Asia/Seoul date +%H)
+          TODAY=$(TZ=Asia/Seoul date +%Y-%m-%d)
+          if   [ "$HOUR" -lt 6 ];  then SLOT="00:00"
+          elif [ "$HOUR" -lt 12 ]; then SLOT="06:00"
+          elif [ "$HOUR" -lt 18 ]; then SLOT="12:00"
+          else SLOT="18:00"
+          fi
+
+          ALREADY_DONE="false"
+          if [ -f docs/news_map.json ]; then
+            CUR_DATE=$(jq -r '.date // empty' docs/news_map.json)
+            CUR_SLOT=$(jq -r '.batch_time // empty' docs/news_map.json)
+            if [ "$CUR_DATE" = "$TODAY" ] && [ "$CUR_SLOT" = "$SLOT" ]; then
+              ALREADY_DONE="true"
+            fi
+          fi
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$ALREADY_DONE" = "false" ]; then
+            SHOULD_RUN="true"
+          else
+            SHOULD_RUN="false"
+          fi
+
+          echo "KST now: $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M:%S %Z') / target slot: $SLOT / already collected: $ALREADY_DONE / will run: $SHOULD_RUN"
+          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.should_run == 'true'
         with:
           python-version: "3.12"
 
       - name: Install dependencies
+        if: steps.check.outputs.should_run == 'true'
         run: pip install -r requirements.txt
 
       - name: Run collection pipeline
+        if: steps.check.outputs.should_run == 'true'
         run: python scripts/collect_and_build.py
 
       - name: Run world news collection pipeline
+        if: steps.check.outputs.should_run == 'true'
         run: python scripts/collect_world_news.py
         continue-on-error: true  # Keep domestic news updates even if world news collection/translation fails.
 
       - name: Commit updated news map
+        if: steps.check.outputs.should_run == 'true'
         run: |
           git config user.name "news-map-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -52,6 +85,7 @@ jobs:
 
   deploy:
     needs: collect
+    if: needs.collect.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write
