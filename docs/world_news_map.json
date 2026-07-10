@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,36 +8,375 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-07-10T06:51:57.571364+09:00",
+  "updated_at": "2026-07-10T14:07:45.025513+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 571,
-  "cluster_count_total": 463,
+  "article_count_total": 558,
+  "cluster_count_total": 449,
   "clusters": [
     {
-      "id": "world-92",
-      "title": "그레이엄 플래트너(Graham Platner)는 성폭행 주장으로 민주당 의원들이 자신의 캠페인에서 도망친 후 메인 상원 경선에서 탈락했습니다.",
-      "title_en": "Graham Platner drops out of Maine Senate race after sexual assault claim sends Democrats fleeing his campaign",
+      "id": "world-195",
+      "title": "심하게 분열된 이란, 하메네이의 유산과 씨름하다",
+      "title_en": "A bitterly divided Iran grapples with Khamenei's legacy as he is laid to rest",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/graham-platner-maine-senate-exit-democrats-b3010473.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "노동계급 유권자들을 다시 되찾고 싶어하는 민주당원들은 좀 더 포퓰리즘적이고 좌파적인 메시지와 좀 더 중도적이고 온건한 접근 방식 사이에서 갈등을 겪었습니다. 그들은 Main이 구현한 포퓰리즘 비전을 따랐습니다.",
-      "excerpt_en": "Democrats eager to win back working-class voters have been torn between a more populist, left-leaning message or a more centrist, moderate approach. They went with the populist vision embodied by Main",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/graham-platner-maine-senate-midterms-democrats-9.7262993?cmp=rss",
+      "title_url": "https://abcnews.com/International/wireStory/bitterly-divided-iran-grapples-khameneis-legacy-laid-rest-134608289",
+      "category": "중동",
+      "primary_source": "ABC News",
+      "excerpt": "이란 최고지도자 아야톨라 알리 하메네이가 일주일간의 추도식을 마친 뒤 마슈하드에 안장됐다. 그는 거의 37년 동안 이란을 통치했으며 최근 공습으로 사망했습니다. 많은 군중이 재미를 위해 모였습니다.",
+      "excerpt_en": "Iran's Supreme Leader Ayatollah Ali Khamenei was buried in Mashhad after a week of ceremonies. He ruled Iran for nearly thirty-seven years and died in recent airstrikes. Large crowds gathered for fune",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/middle-east/irans-khamenei-buried-in-mashhad-four-months-after-us-israeli-strikes-killed-him/articleshow/132300357.cms",
       "translation_status": "ok",
-      "score": 89,
+      "score": 93,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 70
+      },
+      "area_value": 7,
+      "article_count": 7,
+      "syndicated_count": 0,
+      "source_count": 7,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "CBC",
+        "CBS News",
+        "Hindustan Times",
+        "New York Times",
+        "Times of India"
+      ],
+      "first_published_at": "2026-07-09T10:08:18+09:00",
+      "latest_published_at": "2026-07-10T03:05:54+09:00",
+      "articles": [
+        {
+          "title": "Iran and U.S. ramp up tit-for-tat strikes as Khamenei laid to rest",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-us-war-trump-ceasefire-over-strait-of-hormuz-attacks/",
+          "published_at": "03:05"
+        },
+        {
+          "title": "Iran War Updates: U.S. and Iran Sink Into Violent Cycle After Latest Strikes",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump",
+          "published_at": "02:08"
+        },
+        {
+          "title": "Iran's Khamenei buried in Mashhad four months after US-Israeli strikes killed him",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/irans-khamenei-buried-in-mashhad-four-months-after-us-israeli-strikes-killed-him/articleshow/132300357.cms",
+          "published_at": "23:34"
+        },
+        {
+          "title": "Iran buries Khamenei at Mashhad's Imam Reza shrine 131 days after his killing in US strikes",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/iran-buries-khamenei-at-mashhads-imam-reza-shrine-131-days-after-his-killing-in-us-strikes-101783623272117.html",
+          "published_at": "20:24"
+        },
+        {
+          "title": "'Only revenge': Iran mourners defiant at Khamenei burial",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3283557/only-revenge-iran-mourners-defiant-at-khamenei-burial",
+          "published_at": "16:45"
+        },
+        {
+          "title": "Iran's Ali Khamenei laid to rest months after being killed in U.S.-Israeli attack",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/ayatollah-ali-khamenei-funeral-procession-burial-9.7263906?cmp=rss",
+          "published_at": "12:42"
+        },
+        {
+          "title": "A bitterly divided Iran grapples with Khamenei's legacy as he is laid to rest",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/bitterly-divided-iran-grapples-khameneis-legacy-laid-rest-134608289",
+          "published_at": "10:08"
+        }
+      ]
+    },
+    {
+      "id": "world-1",
+      "title": "트럼프, 중간선거 앞두고 선거지원위원회 위원 해고",
+      "title_en": "Trump fires Election Assistance Commission members ahead of midterms",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFRlUlhpcnZIaHhYTndHeHVSQXFCNFkyOEItb1hCU1NRRXI2YVNGcklBNllrdG5nYnA4ZWtHRDZQaUFmSVYzZ3JoMndRVnhuY25jQ01GR2lFTHJmUkxGZFhxRVA1U1FtZjJHcGpvd1BFU2JLT3VacXY4Y19kOEVFMHBJWXdHYjNYR3hVSk1CZVBlVWdhSlhHTWdpNDBOWWtBTVl1V1hnMlhGSUVJ?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "양당 선거 지원 위원회는 우편 유권자 등록 양식을 유지하며, 도널드 트럼프는 지원하는 독립 연방 위원회의 나머지 구성원을 해고했습니다.",
+      "excerpt_en": "Bipartisan Election Assistance Commission maintains mail-voter registration form, among other duties Donald Trump has terminated the remaining members of the independent, federal commission that assis",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/09/trump-fires-election-commissioners",
+      "translation_status": "ok",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Channel News Asia",
+        "Reuters",
+        "The Guardian",
+        "Times of India"
+      ],
+      "first_published_at": "2026-07-10T00:39:00+09:00",
+      "latest_published_at": "2026-07-10T04:24:06+09:00",
+      "articles": [
+        {
+          "title": "Trump fires final two US election commissioners ahead of 2026 midterms polls",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/trump-fires-final-two-us-election-commissioners-ahead-of-2026-midterms-polls/articleshow/132302758.cms",
+          "published_at": "04:24"
+        },
+        {
+          "title": "Trump fires Election Assistance Commission members ahead of midterms",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-us-midterm-election-fires-election-assistance-commission-6245366",
+          "published_at": "02:15"
+        },
+        {
+          "title": "Trump fires last members of election commission, inciting fears of midterm ‘chaos’",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/09/trump-fires-election-commissioners",
+          "published_at": "01:18"
+        },
+        {
+          "title": "Trump fires Election Assistance Commission members ahead of midterms",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFRlUlhpcnZIaHhYTndHeHVSQXFCNFkyOEItb1hCU1NRRXI2YVNGcklBNllrdG5nYnA4ZWtHRDZQaUFmSVYzZ3JoMndRVnhuY25jQ01GR2lFTHJmUkxGZFhxRVA1U1FtZjJHcGpvd1BFU2JLT3VacXY4Y19kOEVFMHBJWXdHYjNYR3hVSk1CZVBlVWdhSlhHTWdpNDBOWWtBTVl1V1hnMlhGSUVJ?oc=5",
+          "published_at": "00:39"
+        }
+      ]
+    },
+    {
+      "id": "world-66",
+      "title": "중국 남부에 폭우로 인한 홍수로 39명 사망",
+      "title_en": "Flooding from days of heavy rain in southern China has killed 39 people",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXp1X091MHRxeUJlZzNTNzNxQkZHRnNrQmxpRUVTc25mdVdlSjhsdTB6M0Z4blFJNmFPaGkzMnVmTGg3cFVZNHQweUdSZGtod0VuQ19lVmE2LXNqZVZMY25LbGRDcGs4X0loemZMenF4bWJfVVRpYkpLd0wzWFlsMnFoemxJLUZ4cEJaNXliVXZGWk9LcWFvVlN5NENDZmlqZXNR?oc=5",
+      "category": "아시아",
+      "primary_source": "AP News",
+      "excerpt": "중국 남부 당국은 목요일 대만과 중국 동부 해안에 상륙할 것으로 예상되는 또 다른 대규모 폭풍에 대비하면서 열대성 폭풍 마이삭으로 인한 홍수로 39명이 사망했다고 밝혔습니다.",
+      "excerpt_en": "Authorities in southern China said Thursday that 39 people have died in flooding from tropical storm Maysak, as Taiwan and China's east coast braced for another major storm expected to make landfall i",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/china-floods-taiwan-typhoon-9.7263848?cmp=rss",
+      "translation_status": "ok",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "CBC",
+        "CBS News"
+      ],
+      "first_published_at": "2026-07-09T09:35:00+09:00",
+      "latest_published_at": "2026-07-09T21:13:05+09:00",
+      "articles": [
+        {
+          "title": "39 killed in southern China flooding after days of heavy rain",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/southern-china-flooding-maysak-typhoon-bavi/",
+          "published_at": "21:13"
+        },
+        {
+          "title": "Taiwan braces for powerful typhoon after floods in China kill dozens",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/china-floods-taiwan-typhoon-9.7263848?cmp=rss",
+          "published_at": "11:19"
+        },
+        {
+          "title": "Flooding in southern China has killed 39 people",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/flooding-southern-china-killed-39-people-134607710",
+          "published_at": "09:54"
+        },
+        {
+          "title": "Flooding from days of heavy rain in southern China has killed 39 people",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXp1X091MHRxeUJlZzNTNzNxQkZHRnNrQmxpRUVTc25mdVdlSjhsdTB6M0Z4blFJNmFPaGkzMnVmTGg3cFVZNHQweUdSZGtod0VuQ19lVmE2LXNqZVZMY25LbGRDcGs4X0loemZMenF4bWJfVVRpYkpLd0wzWFlsMnFoemxJLUZ4cEJaNXliVXZGWk9LcWFvVlN5NENDZmlqZXNR?oc=5",
+          "published_at": "09:35"
+        }
+      ]
+    },
+    {
+      "id": "world-241",
+      "title": "팜비치 국제공항이 도널드 트럼프 대통령 국제공항(President Donald Trump International Airport)으로 개명됐다.",
+      "title_en": "Palm Beach International Airport renamed President Donald Trump International Airport",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/palm-beach-international-airport-officially-renamed-president-donald-trump-international-airport-101783610183993.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "플로리다의 한 공항이 목요일 도널드 트럼프의 이름을 따서 이름이 바뀌면서 미국 대통령과 지지자들은 국가 랜드마크부터 지폐까지 모든 것에 그의 이름과 이미지를 새기도록 촉구했습니다. “",
+      "excerpt_en": "A Florida airport was renamed after Donald Trump on Thursday, accelerating a push by the US president and supporters to plaster his name and image on everything from national landmarks to banknotes. “",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3360034/florida-airport-renamed-trump-latest-push-expand-his-brand?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 6,
+      "sources": [
+        "Euronews",
+        "Hindustan Times",
+        "SCMP",
+        "Sky News",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-07-09T15:19:50+09:00",
+      "latest_published_at": "2026-07-10T01:49:57+09:00",
+      "articles": [
+        {
+          "title": "Florida airport officially renamed after Donald Trump; US Prez calls it ‘a very big day’",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/florida-airport-officially-renamed-after-donald-trump-us-president-calls-it-a-very-big-day/articleshow/132300877.cms",
+          "published_at": "01:49"
+        },
+        {
+          "title": "Florida airport renamed after Donald Trump",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/florida-airport-renamed-president-donald-j-trump-international-airport-13562146",
+          "published_at": "23:59"
+        },
+        {
+          "title": "South Florida's Palm Beach airport renamed President Donald J. Trump International",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/09/south-floridas-palm-beach-airport-renamed-president-donald-j-trump-international",
+          "published_at": "19:05"
+        },
+        {
+          "title": "‘President Donald Trump Airport’ is christened in Palm Beach — but flight attendants may not call it that",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-airport-palm-beach-b3012053.html",
+          "published_at": "16:45"
+        },
+        {
+          "title": "Florida airport renamed for Trump in latest push to expand his brand",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360034/florida-airport-renamed-trump-latest-push-expand-his-brand?utm_source=rss_feed",
+          "published_at": "16:41"
+        },
+        {
+          "title": "Palm Beach International Airport renamed President Donald Trump International Airport",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/palm-beach-international-airport-officially-renamed-president-donald-trump-international-airport-101783610183993.html",
+          "published_at": "15:19"
+        }
+      ]
+    },
+    {
+      "id": "world-263",
+      "title": "이란의 트럼프 암살 음모 보도",
+      "title_en": "Reports of Iranian plot to assassinate Trump",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/reports-of-iranian-plot-to-assassinate-trump-20260710-p60ean.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "중동",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "이스라엘은 이란이 도널드 트럼프를 살해하려 한다는 음모에 대해 미국과 정보를 공유했습니다.",
+      "excerpt_en": "Israel has shared intelligence with the US over an alleged Iranian plot to kill Donald Trump.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/reports-of-iranian-plot-to-assassinate-trump-20260710-p60ean.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 83,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 62
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Sydney Morning Herald",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-10T02:19:48+09:00",
+      "latest_published_at": "2026-07-10T04:10:55+09:00",
+      "articles": [
+        {
+          "title": "Iran-US war latest: Strait of Hormuz shipping halts while Israel reveals alleged Iranian plot to kill Trump",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-israel-strait-of-hormuz-b3012370.html",
+          "published_at": "04:10"
+        },
+        {
+          "title": "Israel shared intelligence of new Iranian plot to kill Trump with US officials, report says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-assassination-israel-netanyahu-b3012360.html",
+          "published_at": "03:32"
+        },
+        {
+          "title": "Israel shared intel about 'new' Iran plot to kill Trump: Reports",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/israel-intel-iran-plot-kill-trump-6245396",
+          "published_at": "02:24"
+        },
+        {
+          "title": "Reports of Iranian plot to assassinate Trump",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/reports-of-iranian-plot-to-assassinate-trump-20260710-p60ean.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "02:19"
+        }
+      ]
+    },
+    {
+      "id": "world-41",
+      "title": "'마음의 개기일식(Total Eclipse of the Heart)' 가수 보니 타일러(Bonnie Tyler)가 75세의 나이로 사망했다.",
+      "title_en": "Bonnie Tyler, singer of 'Total Eclipse of the Heart,' dies at 75",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/bonnie-tyler-singer-of-total-eclipse-of-the-heart-dies-at-75/a-77886171?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "기타",
+      "primary_source": "DW",
+      "excerpt": "1983년 차트 1위를 차지한 그녀의 파워 발라드 \"Total Eclipse of the Heart\"로 가장 잘 알려진, 차분한 목소리의 그래미상 후보에 오른 웨일스 팝스타 보니 타일러(Bonnie Tyler)가 사망했습니다. 그녀는 75세의 나이로 병원에서 사망했습니다",
+      "excerpt_en": "Best known her power ballad “Total Eclipse of the Heart” that topped the charts in 1983, Bonnie Tyler, the gravelly voiced, Grammy-nominated Welsh pop star has died. She was 75 and passed away in hosp",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/total-eclipse-singer-and-80s-power-ballad-queen-bonnie-tyler-dies-aged-75",
+      "translation_status": "ok",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
       },
       "area_value": 5,
       "article_count": 5,
@@ -45,148 +384,276 @@
       "source_count": 5,
       "sources": [
         "AP News",
-        "CBC",
-        "Channel News Asia",
-        "Hindustan Times",
-        "The Independent"
+        "DW",
+        "France24",
+        "Reuters",
+        "Times of India"
       ],
-      "first_published_at": "2026-07-09T01:43:38+09:00",
-      "latest_published_at": "2026-07-09T20:12:24+09:00",
+      "first_published_at": "2026-07-09T09:44:00+09:00",
+      "latest_published_at": "2026-07-10T01:58:04+09:00",
       "articles": [
         {
-          "title": "US Senate candidate's implosion forces Democratic reckoning",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-senate-candidates-implosion-forces-democratic-reckoning-6244836",
-          "published_at": "20:12"
+          "title": "Bonnie Tyler, who topped the charts with epic 'Total Eclipse of the Heart', dies",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/bonnie-tyler-who-topped-the-charts-with-epic-total-eclipse-of-the-heart-dies/articleshow/132300984.cms",
+          "published_at": "01:58"
         },
         {
-          "title": "Who are the top contenders to replace Graham Platner? Maine Senate race explained",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-are-the-top-contenders-to-replace-graham-platner-maine-senate-race-explained-101783606362958.html",
-          "published_at": "14:19"
+          "title": "Bonnie Tyler, singer of 'Total Eclipse of the Heart', dies at 75",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSTQ5VzJpdkt1RXpVOTE2VmpRWUREUmpxTGxoeDNvOEQ5ekRnM0dkVDZ2alctTlJLYUk0MlZHSmFaYy0xMXQtb25XcDNXbXc3RWx6YTZfRUlfaVA4WHFoOGNRY0ZDc0Z4VXd1TzNjNWhMMW9wWF9Gdk0yNXRKbFlvSmlNV0hUTTdWN19DcnBCZkxKRnZrNnp5TnVrZ0NUR0xDaU53LXlR?oc=5",
+          "published_at": "18:18"
         },
         {
-          "title": "What the Graham Platner scandal says about Democratic Party's troubles",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/graham-platner-maine-senate-midterms-democrats-9.7262993?cmp=rss",
-          "published_at": "08:00"
+          "title": "'Total Eclipse of the Heart' singer and 80s power ballad queen Bonnie Tyler dies aged 75",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/total-eclipse-singer-and-80s-power-ballad-queen-bonnie-tyler-dies-aged-75",
+          "published_at": "14:46"
         },
         {
-          "title": "Democrat Graham Platner says he plans to withdraw from Maine Senate race after sexual assault claim",
+          "title": "Bonnie Tyler, who topped the charts with epic ‘Total Eclipse of the Heart,’ has died at 75",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRmFtMVZST1ExeFY5dmVwSTNhaldzTzJ6a3hVZGZBTm5zREo0cUlyLWFydkV5LVNFdGxFRThGZTNWUHA4cllqNl9uWE03WTlnM25ZWnNLR29RenlwQVRsV1NTWEVHZ3FwTkQySnd4SEJUcVVBd2lSb3FkOGtONDhTQlVJUldmOHBZM2tHWGJza3BjcW9OZ0lnelBHRzltM2UyRks1MFhrSjZzWEpUQjVObQ?oc=5",
-          "published_at": "02:18"
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbnlyOGxWdV9wbzRlOVhwUm54VHBzdVliTlNWVExNWEdydlRsYnU5Q0w3SXlwd1FHTS1Qa2NSYjRpMUEzTG1qZnE5T1pMdzFRLXFCaXdhYWMySGNubkU0bkY3aTZtbWZZY3l0WTlVampKVEZZUTJVTjZsWmVla1BhdTFoZC14UWJuSHYwOA?oc=5",
+          "published_at": "13:06"
         },
         {
-          "title": "Graham Platner drops out of Maine Senate race after sexual assault claim sends Democrats fleeing his campaign",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/graham-platner-maine-senate-exit-democrats-b3010473.html",
-          "published_at": "01:43"
+          "title": "Bonnie Tyler, singer of 'Total Eclipse of the Heart,' dies at 75",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/bonnie-tyler-singer-of-total-eclipse-of-the-heart-dies-at-75/a-77886171?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:44"
         }
       ]
     },
     {
-      "id": "world-127",
-      "title": "화학무기 감시단체, 시리아 투표권 회복",
-      "title_en": "Chemical weapons watchdog reinstates Syria’s voting rights",
+      "id": "world-64",
+      "title": "트럼프의 반사 수영장 조각을 찢은 혐의로 기소된 올림픽 선수는 판사 앞에 첫 등장에서 무죄를 주장했습니다.",
+      "title_en": "Olympian accused of tearing piece of Trump’s reflecting pool maintains innocence in first appearance before a judge",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/bashar-assad-syria-netherlands-damascus-washington-b3011905.html",
-      "category": "중동",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/reflecting-pool-vandalism-olympian-plea-david-hearn-b3011983.html",
+      "category": "미국",
       "primary_source": "The Independent",
-      "excerpt": "화학무기금지기구(OPCW)는 결정 배경으로 '상황 변화'를 꼽았다. 시리아는 2013년에 감시 기구에 가입했지만 그 감시 대상에서 제외되었습니다.",
-      "excerpt_en": "The Organization for the Prohibition of Chemical Weapons (OPCW) cited a \"change in circumstances\" as the reason behind its decision. Syria had joined the watchdog in 2013, only to be stripped of its r",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/syria-regains-voting-rights-at-world-chemical-weapons-watchdog/a-77891618?maca=en-rss-en-all-1573-xml-mrss",
+      "excerpt": "전 올림픽 카누 경주 선수가 최근 개조된 링컨 기념관 반사 수영장을 고의로 훼손한 것에 대해 목요일 무죄를 주장했습니다.",
+      "excerpt_en": "A former Olympic canoe racer pleaded not guilty on Thursday to deliberately damaging the recently renovated Lincoln Memorial Reflecting Pool, a politically charged case that his defence attorneys and ",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/trump-reflecting-pool-vandalism-9.7264056?cmp=rss",
       "translation_status": "ok",
-      "score": 88,
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 66
+        "raw75": 60
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "Al Jazeera",
-        "DW",
-        "Euronews",
+        "BBC",
+        "CBC",
+        "Reuters",
         "The Independent"
       ],
-      "first_published_at": "2026-07-09T12:19:38+09:00",
-      "latest_published_at": "2026-07-09T17:41:11+09:00",
+      "first_published_at": "2026-07-09T13:48:18+09:00",
+      "latest_published_at": "2026-07-09T17:01:15+09:00",
       "articles": [
         {
-          "title": "OPCW reinstates Syria’s voting rights, citing 'significant change in circumstances'",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/09/opcw-reinstates-syrias-voting-rights-citing-significant-change-in-circumstances",
-          "published_at": "17:41"
+          "title": "Ex-Olympian pleads not guilty to Reflecting Pool vandalism charges",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c78y013ny3eo?at_medium=RSS&at_campaign=rss",
+          "published_at": "17:01"
         },
         {
-          "title": "Chemical weapons watchdog restores Syria’s voting rights, citing progress",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/9/chemical-weapons-watchdog-restores-syrias-voting-rights-citing-progress?traffic_source=rss",
-          "published_at": "15:38"
+          "title": "Former US Olympian pleads not guilty in Reflecting Pool vandalism case",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcTFxME5GUk5zOGhKaGZ2ZHVLdHJIZFZHMWViYnNpdnlvRFdCb01NX3M1Y3MzV05uUTJqTFN3QXR1XzRRUW1ZeEdVRkVFekNDTHVGbjA3M3ZONDhnOExOb2ZNQWRIcnFvVERnYzVKTTMwQjlyX1NsYnhpb0wxSGQ3NWxDRFgxOC11M1J3eHI1RjREMDFwX1Z1NTB3RFoxZkc3Q21pS210Yks4R3IyMGFZS1hZOGVteGNmcFZnaw?oc=5",
+          "published_at": "16:20"
         },
         {
-          "title": "Syria regains voting rights at world chemical weapons watchdog",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/syria-regains-voting-rights-at-world-chemical-weapons-watchdog/a-77891618?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "14:00"
+          "title": "Olympian Trump accused of vandalizing the reflecting pool pleads not guilty",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/trump-reflecting-pool-vandalism-9.7264056?cmp=rss",
+          "published_at": "14:37"
         },
         {
-          "title": "Chemical weapons watchdog reinstates Syria’s voting rights",
+          "title": "Olympian accused of tearing piece of Trump’s reflecting pool maintains innocence in first appearance before a judge",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/bashar-assad-syria-netherlands-damascus-washington-b3011905.html",
-          "published_at": "12:19"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/reflecting-pool-vandalism-olympian-plea-david-hearn-b3011983.html",
+          "published_at": "13:48"
         }
       ]
     },
     {
-      "id": "world-200",
-      "title": "Lance Twiggs의 비디오는 Charlie Kirk 가족 대표인 Tyler Robinson의 청문회에서 재생됩니다. '증거가 있다면...'이라고 말해요.",
-      "title_en": "Lance Twiggs' video to be played at Tyler Robinson's hearing, Charlie Kirk family rep. speaks out, ‘If the evidence is…’",
+      "id": "world-243",
+      "title": "헝가리서 미국인 관광객 살해한 아일랜드 남성, 징역 14년 선고",
+      "title_en": "Irish man jailed for 14 years over murder of US tourist in Hungary",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/lance-twiggs-video-to-be-played-at-tyler-robinsons-hearing-charlie-kirk-family-rep-speaks-out-if-the-evidence-is-101783561001683.html",
+      "title_url": "https://www.independent.co.uk/news/world/europe/budpaest-mackenzie-michalski-murder-jail-b3012014.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "헝가리 법원은 2024년 헝가리 수도에서 미국인 관광객을 목졸라 살해한 혐의로 아일랜드 시민에게 징역 14년을 선고했다. 피해자인 매켄지 미할스크(31)",
+      "excerpt_en": "A court in Hungary on Thursday sentenced an Irish citizen to 14 years in prison for strangling an American tourist to death in the country’s capital in 2024. The victim, 31-year-old Mackenzie Michalsk",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3360031/irish-man-gets-14-years-jail-killing-us-tourist-hungary?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "CBS News",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-09T14:32:42+09:00",
+      "latest_published_at": "2026-07-09T16:42:20+09:00",
+      "articles": [
+        {
+          "title": "Irish citizen found guilty of murdering American woman in Hungary",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/irish-man-guilty-murder-american-mackenzie-michalski-hungary/",
+          "published_at": "16:42"
+        },
+        {
+          "title": "An Irish citizen is sentenced to 14 years for killing a US tourist in Hungary",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/irish-citizen-sentenced-14-years-killing-us-tourist-134618096",
+          "published_at": "15:14"
+        },
+        {
+          "title": "Irish man gets 14 years’ jail for killing US tourist in Hungary in ‘intimate encounter’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3360031/irish-man-gets-14-years-jail-killing-us-tourist-hungary?utm_source=rss_feed",
+          "published_at": "14:52"
+        },
+        {
+          "title": "Irish man jailed for 14 years over murder of US tourist in Hungary",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/budpaest-mackenzie-michalski-murder-jail-b3012014.html",
+          "published_at": "14:32"
+        }
+      ]
+    },
+    {
+      "id": "world-150",
+      "title": "하메네이 장례식에 저항하는 이란 애도자들: '복수만이 고통을 달래줄 수 있다'",
+      "title_en": "Iran mourners defiant as Khamenei buried: ‘only revenge can soothe the pain’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3360040/iran-mourners-defiant-khamenei-burial-only-revenge-can-soothe-pain?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "이란은 미국과 이란의 이틀간의 공습으로 전면전 복귀에 대한 우려가 높아지면서 알리 하메네이 전 최고지도자가 공습으로 사망한 지 4개월여 만에 금요일 시신을 안식시켰습니다. 크",
+      "excerpt_en": "Iran on Friday laid to rest its former supreme leader Ali Khamenei over four months after his killing in an airstrike, as two days of US and Iranian attacks raised fears of a return to all-out war. Kh",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east/20260709-live-iran-buries-khamenei-after-new-fighting-with-us-erupts",
+      "translation_status": "ok",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Euronews",
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-09T22:55:15+09:00",
+      "latest_published_at": "2026-07-10T04:57:11+09:00",
+      "articles": [
+        {
+          "title": "Iran buries Khamenei as renewed fighting tests shaky ceasefire deal",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/10/iran-buries-khamenei-as-renewed-fighting-tests-shaky-ceasefire-deal",
+          "published_at": "04:57"
+        },
+        {
+          "title": "Live: Iran buries Khamenei after new fighting with US erupts",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260709-live-iran-buries-khamenei-after-new-fighting-with-us-erupts",
+          "published_at": "23:59"
+        },
+        {
+          "title": "Iran mourners defiant as Khamenei buried: ‘only revenge can soothe the pain’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3360040/iran-mourners-defiant-khamenei-burial-only-revenge-can-soothe-pain?utm_source=rss_feed",
+          "published_at": "22:55"
+        }
+      ]
+    },
+    {
+      "id": "world-193",
+      "title": "타일러 로빈슨(Tyler Robinson)은 '깊은 숨을 쉬고, 안절부절 못하고…'라는 말을 듣는 동안 Lance Twiggs에 대한 언급에 '눈에 띄게 불안해'했습니다.",
+      "title_en": "Tyler Robinson ‘visible uneasy’ at mention of Lance Twiggs during hearing, ‘Taking deep breaths, fidgeting…’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/tyler-robinson-visible-uneasy-at-mention-of-lance-twiggs-during-hearing-taking-deep-breaths-fidgeting-101783588089247.html",
       "category": "기타",
       "primary_source": "Hindustan Times",
-      "excerpt": "예심 나흘째, 주 정부는 극우 평론가 찰리 커크(Charlie Kirk)를 살해한 혐의로 기소된 23세의 랜스 트위그스 타일러 로빈슨(Lance Twiggs Tyler Robinson)을 인터뷰하는 검사의 영상을 공개하며 울부짖었습니다.",
-      "excerpt_en": "On fourth day of preliminary hearing, state presents video of a prosecutor interviewing Lance Twiggs Tyler Robinson, the 23-year-old charged with murdering far-right pundit Charlie Kirk, cried and tol",
+      "excerpt": "극우 평론가 찰리 K를 살해한 혐의로 기소된 23세 타일러 로빈슨(Tyler Robinson)",
+      "excerpt_en": "Testimony from Lance Twiggs heard in court on fourth day of hearing to determine whether case can proceed to trial Tyler Robinson, the 23-year-old charged with murdering the far-right pundit Charlie K",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/09/erika-charlie-kirk-transparency-judge",
       "translation_status": "ok",
-      "score": 87,
+      "score": 77,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 65
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 58
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 11,
+      "article_count": 11,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 6,
       "sources": [
         "Hindustan Times",
+        "SCMP",
         "Sydney Morning Herald",
         "The Guardian",
         "The Independent",
         "Times of India"
       ],
-      "first_published_at": "2026-07-09T01:49:04+09:00",
-      "latest_published_at": "2026-07-09T20:35:50+09:00",
+      "first_published_at": "2026-07-09T09:14:00+09:00",
+      "latest_published_at": "2026-07-10T00:26:31+09:00",
       "articles": [
         {
           "title": "Suspect in Charlie Kirk killing said ‘he wishes he hadn’t done it’, roommate testifies",
           "source_name": "The Guardian",
           "url": "https://www.theguardian.com/us-news/2026/jul/09/erika-charlie-kirk-transparency-judge",
-          "published_at": "20:35"
+          "published_at": "00:26"
+        },
+        {
+          "title": "Candace Owens under fire from conservatives; Tyler Robinson-Charlie Kirk case comments trigger fresh controversy",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-under-fire-from-conservatives-tyler-robinson-charlie-kirk-case-comments-trigger-fresh-controversy/articleshow/132300315.cms",
+          "published_at": "22:55"
+        },
+        {
+          "title": "Suspect in Charlie Kirk killing expressed regret after shooting, roommate says",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360038/suspect-charlie-kirk-killing-expressed-regret-after-shooting-roommate-says?utm_source=rss_feed",
+          "published_at": "22:03"
         },
         {
           "title": "Charlie Kirk’s accused killer said he wished he ‘hadn’t done it’, court hears",
@@ -219,493 +686,46 @@
           "published_at": "17:03"
         },
         {
-          "title": "Tyler Robinson hearing day 4 LIVE updates: Court shown rifle tied to Tyler Robinson in Charlie Kirk case",
+          "title": "Tyler Robinson hearing day 4 highlights: Court reveals chilling texts to Lance Twiggs confessing to Kirk shooting",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/tyler-robinson-hearing-day-4-live-updates-charlie-kirk-shooting-case-lance-twiggs-interview-101783608429881.html",
           "published_at": "15:36"
+        },
+        {
+          "title": "What jurors are about to hear in the Charlie Kirk assassination case",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/charlie-kirk-trial-tyler-robinson-lance-twiggs-b3011794.html",
+          "published_at": "10:03"
         },
         {
           "title": "Tyler Robinson ‘visible uneasy’ at mention of Lance Twiggs during hearing, ‘Taking deep breaths, fidgeting…’",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/tyler-robinson-visible-uneasy-at-mention-of-lance-twiggs-during-hearing-taking-deep-breaths-fidgeting-101783588089247.html",
           "published_at": "09:14"
-        },
-        {
-          "title": "Lance Twiggs' video to be played at Tyler Robinson's hearing, Charlie Kirk family rep. speaks out, ‘If the evidence is…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lance-twiggs-video-to-be-played-at-tyler-robinsons-hearing-charlie-kirk-family-rep-speaks-out-if-the-evidence-is-101783561001683.html",
-          "published_at": "01:49"
         }
       ]
     },
     {
-      "id": "world-17",
-      "title": "트럼프의 반사 수영장 조각을 찢은 혐의로 기소된 올림픽 선수는 판사 앞에 첫 등장에서 무죄를 주장했습니다.",
-      "title_en": "Olympian accused of tearing piece of Trump’s reflecting pool maintains innocence in first appearance before a judge",
+      "id": "world-82",
+      "title": "이스라엘 공습으로 가자지구에 월드컵 상영관을 가져온 구호요원 사망",
+      "title_en": "Israeli strike kills aid worker who brought World Cup screenings to Gaza",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/reflecting-pool-vandalism-olympian-plea-david-hearn-b3011983.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "전직 올림픽 카누 경주 선수가 최근 개조된 링컨 기념관 반사 수영장을 고의로 훼손한 것에 대해 목요일 무죄를 주장했습니다.",
-      "excerpt_en": "A former Olympic canoe racer pleaded not guilty on Thursday to deliberately damaging the recently renovated Lincoln Memorial Reflecting Pool, a politically charged case that his defence attorneys and ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/trump-reflecting-pool-vandalism-9.7264056?cmp=rss",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "Al Jazeera",
-        "BBC",
-        "CBC",
-        "Channel News Asia",
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-09T13:48:18+09:00",
-      "latest_published_at": "2026-07-09T20:55:59+09:00",
-      "articles": [
-        {
-          "title": "US Olympian accused of vandalising Reflecting Pool pleads not guilty",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-olympian-accused-vandalising-reflecting-pool-pleads-not-guilty-6244896",
-          "published_at": "20:55"
-        },
-        {
-          "title": "Ex-Olympian pleads not guilty to Reflecting Pool vandalism charges",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c78y013ny3eo?at_medium=RSS&at_campaign=rss",
-          "published_at": "17:01"
-        },
-        {
-          "title": "Former US Olympian pleads not guilty in Reflecting Pool vandalism case",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcTFxME5GUk5zOGhKaGZ2ZHVLdHJIZFZHMWViYnNpdnlvRFdCb01NX3M1Y3MzV05uUTJqTFN3QXR1XzRRUW1ZeEdVRkVFekNDTHVGbjA3M3ZONDhnOExOb2ZNQWRIcnFvVERnYzVKTTMwQjlyX1NsYnhpb0wxSGQ3NWxDRFgxOC11M1J3eHI1RjREMDFwX1Z1NTB3RFoxZkc3Q21pS210Yks4R3IyMGFZS1hZOGVteGNmcFZnaw?oc=5",
-          "published_at": "16:20"
-        },
-        {
-          "title": "Former US Olympian pleads not guilty in DC reflecting pool vandalism case",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/9/former-us-olympian-pleads-not-guilty-in-dc-reflecting-pool-vandalism-case?traffic_source=rss",
-          "published_at": "16:06"
-        },
-        {
-          "title": "Olympian Trump accused of vandalizing the reflecting pool pleads not guilty",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-reflecting-pool-vandalism-9.7264056?cmp=rss",
-          "published_at": "14:37"
-        },
-        {
-          "title": "Olympian accused of tearing piece of Trump’s reflecting pool maintains innocence in first appearance before a judge",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/reflecting-pool-vandalism-olympian-plea-david-hearn-b3011983.html",
-          "published_at": "13:48"
-        }
-      ]
-    },
-    {
-      "id": "world-352",
-      "title": "미국-이란 전쟁 LIVE: 이란, 마슈하드 성지에 고(故) 아야톨라 알리 하메네이 최고지도자를 묻다",
-      "title_en": "US-Iran war LIVE: Iran buries late Supreme Leader Ayatollah Ali Khamenei at holy shrine in Mashhad",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-trump-ceasefire-khamenei-funeral-strikes-drone-kuwait-bahrain-qatar-uae-middle-east-hormuz-101783558103358.html",
+      "title_url": "https://www.cbsnews.com/news/palestinian-aid-worker-gaza-killed-israel-strike-world-cup-screenings/",
       "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국-이란 전쟁 LIVE: 이란은 살해된 최고 지도자 아야톨라 알리 하메네이의 고향 마슈하드에 있는 이맘 레자 성지에 안장될 작별 인사를 준비하고 있습니다. 하메네이의 장례식이 재개되는 가운데 이루어졌습니다.",
-      "excerpt_en": "US-Iran war LIVE: Iran is preparing to bid farewell to slain Supreme Leader Ayatollah Ali Khamenei who will be buried at Imam Reza shrine in Mashhad, his hometown. Khamenei's burial comes amid renewed",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-trump-ceasefire-khamenei-funeral-strikes-drone-kuwait-bahrain-qatar-uae-middle-east-hormuz-101783558103358.html",
-      "translation_status": "ok",
-      "score": 83,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 62
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-09T01:19:39+09:00",
-      "latest_published_at": "2026-07-09T20:50:53+09:00",
-      "articles": [
-        {
-          "title": "Iran and U.S. ramp up tit-for-tat strikes as Khamenei laid to rest",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-us-war-trump-ceasefire-over-strait-of-hormuz-attacks/",
-          "published_at": "20:50"
-        },
-        {
-          "title": "Iran buries Khamenei at Mashhad's Imam Reza shrine 131 days after his killing in US strikes",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/iran-buries-khamenei-at-mashhads-imam-reza-shrine-131-days-after-his-killing-in-us-strikes-101783623272117.html",
-          "published_at": "20:24"
-        },
-        {
-          "title": "Former supreme leader Ali Khamenei's body approaches shrine for burial in culmination of multi-day funeral",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/ayatollah-ali-khamenei-funeral-procession-burial-9.7263906?cmp=rss",
-          "published_at": "12:42"
-        },
-        {
-          "title": "US-Iran war LIVE: Iran buries late Supreme Leader Ayatollah Ali Khamenei at holy shrine in Mashhad",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-trump-ceasefire-khamenei-funeral-strikes-drone-kuwait-bahrain-qatar-uae-middle-east-hormuz-101783558103358.html",
-          "published_at": "01:19"
-        }
-      ]
-    },
-    {
-      "id": "world-226",
-      "title": "팜비치 국제공항(Palm Beach International Airport)이 도널드 트럼프 대통령 국제공항(President Donald Trump International Airport)으로 이름이 변경되었습니다.",
-      "title_en": "Palm Beach International Airport renamed President Donald Trump International Airport",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/palm-beach-international-airport-officially-renamed-president-donald-trump-international-airport-101783610183993.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "플로리다의 한 공항이 목요일 도널드 트럼프의 이름을 따서 이름이 바뀌면서 미국 대통령과 지지자들은 국가 랜드마크부터 지폐까지 모든 것에 그의 이름과 이미지를 새기도록 촉구했습니다. 티",
-      "excerpt_en": "A Florida airport was renamed after Donald Trump on Thursday, accelerating a push by the US president and supporters to plaster his name and image on everything from national landmarks to banknotes. T",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3360034/florida-airport-renamed-trump-latest-push-expand-his-brand?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Euronews",
-        "Hindustan Times",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-09T15:19:50+09:00",
-      "latest_published_at": "2026-07-09T19:05:41+09:00",
-      "articles": [
-        {
-          "title": "South Florida's Palm Beach airport renamed President Donald J. Trump International",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/09/south-floridas-palm-beach-airport-renamed-president-donald-j-trump-international",
-          "published_at": "19:05"
-        },
-        {
-          "title": "‘President Donald Trump Airport’ is christened in Palm Beach — but flight attendants may not call it that",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-airport-palm-beach-b3012053.html",
-          "published_at": "16:45"
-        },
-        {
-          "title": "Florida airport renamed ‘Trump’ in latest push to expand his brand",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360034/florida-airport-renamed-trump-latest-push-expand-his-brand?utm_source=rss_feed",
-          "published_at": "16:41"
-        },
-        {
-          "title": "Palm Beach International Airport renamed President Donald Trump International Airport",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/palm-beach-international-airport-officially-renamed-president-donald-trump-international-airport-101783610183993.html",
-          "published_at": "15:19"
-        }
-      ]
-    },
-    {
-      "id": "world-28",
-      "title": "'마음의 개기일식(Total Eclipse of the Heart)' 가수 보니 타일러(Bonnie Tyler)가 75세의 나이로 사망했다.",
-      "title_en": "Bonnie Tyler, singer of 'Total Eclipse of the Heart,' dies at 75",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/bonnie-tyler-singer-of-total-eclipse-of-the-heart-dies-at-75/a-77886171?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "기타",
-      "primary_source": "DW",
-      "excerpt": "차분한 목소리의 보니 타일러(Bonnie Tyler)는 1983년 차트 1위 파워 발라드 \"Total Eclipse of the Heart\"를 부르고 새로운 세대가 그 노래에 굴복하는 모습으로 가장 잘 알려진 그래미상 후보에 오른 웨일스 팝스타입니다.",
-      "excerpt_en": "Bonnie Tyler, the gravelly voiced, Grammy-nominated Welsh pop star best known for singing the chart-topping power ballad “Total Eclipse of the Heart” in 1983 and seeing new generations succumb to its ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/article/3359997/bonnie-tyler-singer-epic-total-eclipse-heart-dies-75?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "AP News",
-        "DW",
-        "France24",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-09T09:44:00+09:00",
-      "latest_published_at": "2026-07-09T18:18:09+09:00",
-      "articles": [
-        {
-          "title": "Bonnie Tyler, singer of 'Total Eclipse of the Heart', dies at 75",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSTQ5VzJpdkt1RXpVOTE2VmpRWUREUmpxTGxoeDNvOEQ5ekRnM0dkVDZ2alctTlJLYUk0MlZHSmFaYy0xMXQtb25XcDNXbXc3RWx6YTZfRUlfaVA4WHFoOGNRY0ZDc0Z4VXd1TzNjNWhMMW9wWF9Gdk0yNXRKbFlvSmlNV0hUTTdWN19DcnBCZkxKRnZrNnp5TnVrZ0NUR0xDaU53LXlR?oc=5",
-          "published_at": "18:18"
-        },
-        {
-          "title": "'Total Eclipse of the Heart' singer and 80s power ballad queen Bonnie Tyler dies aged 75",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/total-eclipse-singer-and-80s-power-ballad-queen-bonnie-tyler-dies-aged-75",
-          "published_at": "14:46"
-        },
-        {
-          "title": "Bonnie Tyler, who topped the charts with epic ‘Total Eclipse of the Heart,’ has died at 75",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbnlyOGxWdV9wbzRlOVhwUm54VHBzdVliTlNWVExNWEdydlRsYnU5Q0w3SXlwd1FHTS1Qa2NSYjRpMUEzTG1qZnE5T1pMdzFRLXFCaXdhYWMySGNubkU0bkY3aTZtbWZZY3l0WTlVampKVEZZUTJVTjZsWmVla1BhdTFoZC14UWJuSHYwOA?oc=5",
-          "published_at": "13:06"
-        },
-        {
-          "title": "Bonnie Tyler, singer of epic ‘Total Eclipse of the Heart’ dies at 75",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/article/3359997/bonnie-tyler-singer-epic-total-eclipse-heart-dies-75?utm_source=rss_feed",
-          "published_at": "09:55"
-        },
-        {
-          "title": "Bonnie Tyler, singer of 'Total Eclipse of the Heart,' dies at 75",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/bonnie-tyler-singer-of-total-eclipse-of-the-heart-dies-at-75/a-77886171?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "09:44"
-        }
-      ]
-    },
-    {
-      "id": "world-62",
-      "title": "6월은 서유럽 역사상 가장 더웠으며, 전 세계적으로 두 번째로 더웠다.",
-      "title_en": "June was the hottest on record for Western Europe, second hottest globally",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/western-europe-hottest-june-record-2026-report/",
-      "category": "유럽",
       "primary_source": "CBS News",
-      "excerpt": "파리 - 유럽연합(EU)의 기후 모니터는 점점 더 빈번하고 강렬한 폭염에 직면하면서 대륙을 휩쓰는 뜨거운 폭염으로 올해 서유럽이 기록상 가장 더운 6월을 경험했다고 밝혔다.",
-      "excerpt_en": "PARIS - Western Europe this year experienced its hottest June on record as a searing heatwave swept across a continent facing increasingly frequent and intense heat extremes, the EU’s climate monitor ",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3283445/western-europe-records-hottestever-june",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Bangkok Post",
-        "CBS News",
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-09T02:00:00+09:00",
-      "latest_published_at": "2026-07-09T12:04:50+09:00",
-      "articles": [
-        {
-          "title": "Western Europe sizzles: Records its hottest June as heatwaves surge, says EU Monitor",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/western-europe-records-its-hottest-june-as-heatwaves-surge-eu-monitor-101783596924127.html",
-          "published_at": "12:04"
-        },
-        {
-          "title": "Western Europe records hottest-ever June",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3283445/western-europe-records-hottestever-june",
-          "published_at": "04:45"
-        },
-        {
-          "title": "Western Europe records hottest June on record, EU scientists say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd3Izd05fakhiWTBkMy1GOVZpVGk0ZlhheWF6dE5CZnVQS05CRG0zLUNIaHZMOW9LbWNURWZBaGNZWHRIY3pzU21peFF4X1VQSXFCc2NEc3RPX24zbEZUSmFNQ092WFFsZldBVElXd2RyNUdsWmt1dWRCSVk0dUNZdnF1SGFuVUJsS0xqWW1pVW9TcnMybnIwanY2bFZxV0VWVFpobWlQblFCTkJjNExHQm9LSHJfZw?oc=5",
-          "published_at": "02:02"
-        },
-        {
-          "title": "June was the hottest on record for Western Europe, second hottest globally",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/western-europe-hottest-june-record-2026-report/",
-          "published_at": "02:00"
-        }
-      ]
-    },
-    {
-      "id": "world-185",
-      "title": "NATO 지도자들은 리볼버를 선물로 받았습니다. 그들이 리볼버로 한 일은 다음과 같습니다.",
-      "title_en": "NATO leaders were given revolvers as a gift – here’s what they did with them",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/nato-summit-turkey-leaders-revolver-gift-b3011925.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "레셉 타이이프 에르도안(Recep Tayyip Erdoğan)은 앙카라의 손님에게 총알이 새겨진 리볼버를 선물하여 보안 문제를 야기했습니다. 세계 지도자는 총과 6개의 총알로 무엇을 합니까? 그게 수수께끼였어 Nat",
-      "excerpt_en": "Recep Tayyip Erdoğan presented engraved revolvers – with bullets – to his guests in Ankara, causing security concerns What does a world leader do with a gun and six bullets? That was the conundrum Nat",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/09/turkish-president-gives-nato-leaders-engraved-guns-and-bullets-at-summit",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Channel News Asia",
-        "SCMP",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-09T13:08:41+09:00",
-      "latest_published_at": "2026-07-09T18:26:00+09:00",
-      "articles": [
-        {
-          "title": "One revolver, six bullets: Turkish president's 'unusual' gift to NATO leaders",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/gun-gift-nato-summit-erdogan-turkey-6244691",
-          "published_at": "18:26"
-        },
-        {
-          "title": "Turkish president’s ‘unusual’ gift to Nato leaders: 1 revolver, 6 bullets",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3360035/turkish-presidents-unusual-gift-nato-leaders-1-revolver-6-bullets?utm_source=rss_feed",
-          "published_at": "17:15"
-        },
-        {
-          "title": "Nato leaders surprised by Turkish president’s gift of guns after summit",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/09/turkish-president-gives-nato-leaders-engraved-guns-and-bullets-at-summit",
-          "published_at": "16:32"
-        },
-        {
-          "title": "NATO leaders were given revolvers as a gift – here’s what they did with them",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/nato-summit-turkey-leaders-revolver-gift-b3011925.html",
-          "published_at": "13:08"
-        }
-      ]
-    },
-    {
-      "id": "world-361",
-      "title": "비행 교관이 학생에게 '무슨 일을 해야 하는지 알잖아'라고 말하고 비행기에서 뛰어내림",
-      "title_en": "Flight instructor says ‘you know what you have to do’ to student, jumps out of plane",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/trending/flight-instructor-says-you-know-what-you-have-to-do-to-student-jumps-out-of-plane-101783568992855.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "레안드로 안드레스 베르타초(Leandro Andrés Bertazzo)는 22세 학생에게 헤드셋과 안전벨트를 벗고 문을 열고 아르헨티나 톨레도 위로 뛰어내리기 전 \"당신이 무엇을 해야 하는지 알고 있습니다\"라고 말했습니다.",
-      "excerpt_en": "Leandro Andrés Bertazzo told the 22-year-old student “you know what you have to do” before removing his headset and seatbelt, opening the door and leaping out over Toledo in Argentina.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/south-america/flight-instructor-jumps-to-his-death-leaving-student-to-land-plane-solo-20260709-p60e24.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Fox News",
-        "Hindustan Times",
-        "NBC News",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-07-09T03:58:34+09:00",
-      "latest_published_at": "2026-07-09T18:18:13+09:00",
-      "articles": [
-        {
-          "title": "Flight instructor jumped midair to his death, left student to land the plane",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/argentina/flight-instructor-jumped-midair-death-left-student-land-plane-rcna353698",
-          "published_at": "18:18"
-        },
-        {
-          "title": "Argentinian flight instructor jumps to death from plane, 22-year-old student forced to land alone",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/argentinian-flight-instructor-jumps-death-from-plane-22-year-old-student-forced-land-alone",
-          "published_at": "16:29"
-        },
-        {
-          "title": "Flight instructor jumps to his death, leaving student to land plane solo",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/south-america/flight-instructor-jumps-to-his-death-leaving-student-to-land-plane-solo-20260709-p60e24.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "05:56"
-        },
-        {
-          "title": "Flight instructor says ‘you know what you have to do’ to student, jumps out of plane",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/trending/flight-instructor-says-you-know-what-you-have-to-do-to-student-jumps-out-of-plane-101783568992855.html",
-          "published_at": "03:58"
-        }
-      ]
-    },
-    {
-      "id": "world-99",
-      "title": "월드컵을 보러 가던 가자지구 구호요원, 이스라엘 공습으로 사망",
-      "title_en": "Gaza Aid Worker on His Way to Watch World Cup Killed by Israeli Strike",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/09/world/middleeast/aid-worker-killed-israeli-strike.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "이스라엘의 공격으로 전쟁으로 폐허가 된 가자지구에서 팔레스타인인들을 위한 월드컵 경기 상영을 조직했던 구호요원이 사망했다고 한 병원장이 밝혔습니다.",
+      "excerpt": "이스라엘의 공격으로 전쟁으로 폐허가 된 가자지구에서 팔레스타인인들을 위한 월드컵 경기 상영회를 조직했던 구호요원이 사망했다고 한 병원장이 밝혔습니다.",
       "excerpt_en": "An Israeli strike has killed an aid worker who organized World Cup game screenings for Palestinians in the war-torn Gaza Strip, a hospital director says.",
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/palestinian-aid-worker-gaza-killed-israel-strike-world-cup-screenings/",
       "translation_status": "ok",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -716,9 +736,15 @@
         "CBS News",
         "New York Times"
       ],
-      "first_published_at": "2026-07-09T15:24:45+09:00",
-      "latest_published_at": "2026-07-09T21:04:09+09:00",
+      "first_published_at": "2026-07-09T21:03:02+09:00",
+      "latest_published_at": "2026-07-09T22:11:13+09:00",
       "articles": [
+        {
+          "title": "Gaza Aid Worker on His Way to Watch World Cup Killed by Israeli Strike",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/09/world/middleeast/aid-worker-killed-israeli-strike.html",
+          "published_at": "22:11"
+        },
         {
           "title": "Palestinians mourn Gaza World Cup screenings organiser killed in Israeli strike",
           "source_name": "BBC",
@@ -730,135 +756,21 @@
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/palestinian-aid-worker-gaza-killed-israel-strike-world-cup-screenings/",
           "published_at": "21:03"
-        },
-        {
-          "title": "Gaza Aid Worker on His Way to Watch World Cup Killed by Israeli Strike",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/09/world/middleeast/aid-worker-killed-israeli-strike.html",
-          "published_at": "15:24"
         }
       ]
     },
     {
-      "id": "world-78",
-      "title": "중국 남부에 폭우로 인한 홍수로 39명 사망",
-      "title_en": "Flooding from days of heavy rain in southern China has killed 39 people",
+      "id": "world-257",
+      "title": "스페인 남부 산불로 최소 12명 사망",
+      "title_en": "Wildfire kills at least 12 in southern Spain",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXp1X091MHRxeUJlZzNTNzNxQkZHRnNrQmxpRUVTc25mdVdlSjhsdTB6M0Z4blFJNmFPaGkzMnVmTGg3cFVZNHQweUdSZGtod0VuQ19lVmE2LXNqZVZMY25LbGRDcGs4X0loemZMenF4bWJfVVRpYkpLd0wzWFlsMnFoemxJLUZ4cEJaNXliVXZGWk9LcWFvVlN5NENDZmlqZXNR?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "중국 남부 당국은 목요일 열대성 폭풍 마이삭으로 인한 홍수로 39명이 사망했다고 밝혔습니다. 대만과 중국 동부 해안이 상륙할 것으로 예상되는 또 다른 대규모 폭풍에 대비하고 있기 때문입니다.",
-      "excerpt_en": "Authorities in southern China said Thursday that 39 people have died in flooding from tropical storm Maysak, as Taiwan and China's east coast braced for another major storm expected to make landfall i",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/china-floods-taiwan-typhoon-9.7263848?cmp=rss",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "CBC",
-        "CBS News"
-      ],
-      "first_published_at": "2026-07-09T09:35:00+09:00",
-      "latest_published_at": "2026-07-09T21:13:05+09:00",
-      "articles": [
-        {
-          "title": "39 killed in southern China flooding after days of heavy rain",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/southern-china-flooding-maysak-typhoon-bavi/",
-          "published_at": "21:13"
-        },
-        {
-          "title": "Taiwan braces for powerful typhoon after floods in China kill dozens",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/china-floods-taiwan-typhoon-9.7263848?cmp=rss",
-          "published_at": "11:19"
-        },
-        {
-          "title": "Flooding from days of heavy rain in southern China has killed 39 people",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXp1X091MHRxeUJlZzNTNzNxQkZHRnNrQmxpRUVTc25mdVdlSjhsdTB6M0Z4blFJNmFPaGkzMnVmTGg3cFVZNHQweUdSZGtod0VuQ19lVmE2LXNqZVZMY25LbGRDcGs4X0loemZMenF4bWJfVVRpYkpLd0wzWFlsMnFoemxJLUZ4cEJaNXliVXZGWk9LcWFvVlN5NENDZmlqZXNR?oc=5",
-          "published_at": "09:35"
-        }
-      ]
-    },
-    {
-      "id": "world-116",
-      "title": "신발 공장에서 화재가 발생해 28명이 사망하고 최근 몇 년간 중국에서 발생한 가장 큰 화재 중 하나",
-      "title_en": "Fire at a shoe factory kills 28 in one of China's deadliest blazes in recent years",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/fire-shoe-factory-kills-28-chinas-deadliest-blazes-134620508",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "베이징 - 목요일 중국 동부의 신발 공장에서 화재가 발생해 최소 28명이 사망했으며 500명 이상의 소방 및 구조 인력이 진화를 위해 서두르고 있다고 국영 언론이 밝혔습니다.",
-      "excerpt_en": "BEIJING - A fire that tore through a shoe factory in eastern China on Thursday killed at least 28 people, state media said, with more than 500 fire and rescue personnel racing against time to extingui",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3283905/china-factory-fire-kills-at-least-28-people",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Al Jazeera",
-        "Bangkok Post"
-      ],
-      "first_published_at": "2026-07-09T16:50:03+09:00",
-      "latest_published_at": "2026-07-09T19:30:00+09:00",
-      "articles": [
-        {
-          "title": "China factory fire kills at least 28 people",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3283905/china-factory-fire-kills-at-least-28-people",
-          "published_at": "19:30"
-        },
-        {
-          "title": "Deadly fire breaks out at shoe factory in China",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-fire-breaks-out-at-shoe-factory-in-china?traffic_source=rss",
-          "published_at": "18:51"
-        },
-        {
-          "title": "Fire at a shoe factory kills 28 in one of China's deadliest blazes in recent years",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fire-shoe-factory-kills-28-chinas-deadliest-blazes-134620508",
-          "published_at": "16:50"
-        }
-      ]
-    },
-    {
-      "id": "world-169",
-      "title": "아프리카 CDC는 콩고민주공화국 사망자 수가 600명으로 증가함에 따라 '역대 가장 빠르게 증가하는 에볼라 발병'을 경고했습니다.",
-      "title_en": "Africa CDC warns of ‘fastest-growing Ebola outbreak ever’ as DR Congo death toll climbs to 600",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/africa/20260709-dr-congo-ebola-outbreak-death-toll-climbs-600",
-      "category": "기타",
-      "primary_source": "France24",
-      "excerpt": "세계보건기구(WHO)가 이 질병으로 인해 600명이 사망했다고 발표한 것처럼, 콩고민주공화국에서 에볼라 발병이 사상 가장 빠르게 확산되고 있다고 아프리카 보건 당국이 목요일 밝혔습니다.",
-      "excerpt_en": "The Ebola outbreak in Democratic Republic of Congo is the “fastest growing” ever, African health authorities said on Thursday, as the World Health Organization said the disease had killed 600 people. ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3360036/ebola-outbreak-fastest-growing-ever-600-die-dr-congo?utm_source=rss_feed",
+      "title_url": "https://news.sky.com/story/wildfire-kills-at-least-12-in-southern-spain-13562150",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "스페인 남부에서 발생한 산불로 최소 12명이 사망했다고 안달루시아 지역 응급구조대가 150명의 소방관이 진화 작업을 벌이고 있다고 밝혔다.",
+      "excerpt_en": "At least 12 people have been killed in a wildfire in southern Spain as ‌150 firefighters are working to put out the blaze, emergency services in the Andalusia region have said.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/wildfire-kills-at-least-12-in-southern-spain-13562150",
       "translation_status": "ok",
       "score": 73,
       "score_breakdown": {
@@ -875,34 +787,88 @@
       "source_count": 3,
       "sources": [
         "ABC News Australia",
-        "France24",
-        "SCMP"
+        "Sky News",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-09T12:58:44+09:00",
-      "latest_published_at": "2026-07-09T19:11:28+09:00",
+      "first_published_at": "2026-07-10T03:30:00+09:00",
+      "latest_published_at": "2026-07-10T03:44:17+09:00",
       "articles": [
         {
-          "title": "Ebola outbreak is 'fastest-growing ever' after 600 deaths, Africa CDC says",
+          "title": "At least 12 people dead as wildfires spread through southern Spain",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/spain-wildfire-climate-heat-europe-temperatures-b3012362.html",
+          "published_at": "03:44"
+        },
+        {
+          "title": "Wildfire in southern Spain kills 12 as heatwave continues",
           "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/ebola-outbreak-fastest-growing-ever/106899786",
-          "published_at": "19:11"
+          "url": "https://www.abc.net.au/news/2026-07-10/spain-wildfire-death-toll-rises-bedar-almeria-european-heatwave/106901722",
+          "published_at": "03:40"
         },
         {
-          "title": "Ebola outbreak is ‘fastest growing ever’ as 600 die in DR Congo",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3360036/ebola-outbreak-fastest-growing-ever-600-die-dr-congo?utm_source=rss_feed",
-          "published_at": "17:37"
-        },
-        {
-          "title": "Africa CDC warns of ‘fastest-growing Ebola outbreak ever’ as DR Congo death toll climbs to 600",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/africa/20260709-dr-congo-ebola-outbreak-death-toll-climbs-600",
-          "published_at": "12:58"
+          "title": "Wildfire kills at least 12 in southern Spain",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/wildfire-kills-at-least-12-in-southern-spain-13562150",
+          "published_at": "03:30"
         }
       ]
     },
     {
-      "id": "world-349",
+      "id": "world-89",
+      "title": "중국 동부 신발 공장에서 화재가 발생해 최소 28명이 사망했다고 국영 언론이 보도했다.",
+      "title_en": "At least 28 dead in fire at shoe factory in eastern China, state media reports",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/07/09/at-least-28-dead-in-fire-at-shoe-factory-in-eastern-china-state-media-reports",
+      "category": "아시아",
+      "primary_source": "Euronews",
+      "excerpt": "베이징 - 목요일 중국 동부의 신발 공장에서 화재가 발생해 최소 28명이 사망했으며 500명 이상의 소방 및 구조 인력이 진화를 위해 서두르고 있다고 국영 언론이 밝혔습니다.",
+      "excerpt_en": "BEIJING - A fire that tore through a shoe factory in eastern China on Thursday killed at least 28 people, state media said, with more than 500 fire and rescue personnel racing against time to extingui",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3283905/china-factory-fire-kills-at-least-28-people",
+      "translation_status": "ok",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "BBC",
+        "Bangkok Post",
+        "Euronews"
+      ],
+      "first_published_at": "2026-07-09T14:39:46+09:00",
+      "latest_published_at": "2026-07-10T01:12:40+09:00",
+      "articles": [
+        {
+          "title": "Factory fire kills at least 28 in China's 'shoe capital'",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "01:12"
+        },
+        {
+          "title": "China factory fire kills at least 28 people",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3283905/china-factory-fire-kills-at-least-28-people",
+          "published_at": "19:30"
+        },
+        {
+          "title": "At least 28 dead in fire at shoe factory in eastern China, state media reports",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/09/at-least-28-dead-in-fire-at-shoe-factory-in-eastern-china-state-media-reports",
+          "published_at": "14:39"
+        }
+      ]
+    },
+    {
+      "id": "world-336",
       "title": "방글라데시, 산사태로 어린이 최소 5명 사망 후 난민 이주",
       "title_en": "Bangladesh relocates refugees after landslide kills at least 5 children",
       "title_source": "earliest_pick",
@@ -914,14 +880,14 @@
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/bangladesh-landslide-deaths-rohingya-9.7263886?cmp=rss",
       "translation_status": "ok",
-      "score": 72,
+      "score": 71,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "time_score": 1,
+        "raw75": 53
       },
       "area_value": 3,
       "article_count": 3,
@@ -956,7 +922,61 @@
       ]
     },
     {
-      "id": "world-15",
+      "id": "world-134",
+      "title": "화학무기 감시단체, 시리아 투표권 회복",
+      "title_en": "Chemical weapons watchdog reinstates Syria’s voting rights",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/bashar-assad-syria-netherlands-damascus-washington-b3011905.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "화학무기금지기구(OPCW)는 결정 배경으로 '상황 변화'를 꼽았다. 시리아는 2013년에 감시 기구에 가입했지만 그 감시 대상에서 제외되었습니다.",
+      "excerpt_en": "The Organization for the Prohibition of Chemical Weapons (OPCW) cited a \"change in circumstances\" as the reason behind its decision. Syria had joined the watchdog in 2013, only to be stripped of its r",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/syria-regains-voting-rights-at-world-chemical-weapons-watchdog/a-77891618?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "DW",
+        "Euronews",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-09T12:19:38+09:00",
+      "latest_published_at": "2026-07-09T17:41:11+09:00",
+      "articles": [
+        {
+          "title": "OPCW reinstates Syria’s voting rights, citing 'significant change in circumstances'",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/09/opcw-reinstates-syrias-voting-rights-citing-significant-change-in-circumstances",
+          "published_at": "17:41"
+        },
+        {
+          "title": "Syria regains voting rights at world chemical weapons watchdog",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/syria-regains-voting-rights-at-world-chemical-weapons-watchdog/a-77891618?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "14:00"
+        },
+        {
+          "title": "Chemical weapons watchdog reinstates Syria’s voting rights",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/bashar-assad-syria-netherlands-damascus-washington-b3011905.html",
+          "published_at": "12:19"
+        }
+      ]
+    },
+    {
+      "id": "world-27",
       "title": "새로 공개된 영상에는 에르도안이 NATO 지도자들에게 리볼버를 선물한 모습이 담겨 있습니다.",
       "title_en": "Newly released footage shows revolver gifted by Erdogan to NATO leaders",
       "title_source": "earliest_pick",
@@ -968,14 +988,14 @@
       "excerpt_source": "Euronews",
       "excerpt_url": "http://www.euronews.com/my-europe/2026/07/09/newly-released-footage-shows-revolver-gifted-by-erdogan-to-nato-leaders",
       "translation_status": "ok",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -1010,124 +1030,71 @@
       ]
     },
     {
-      "id": "world-122",
-      "title": "압바스, 팔레스타인 총선 11월로 결정",
-      "title_en": "Abbas sets Palestinian legislative elections for November",
+      "id": "world-142",
+      "title": "메르츠 총리 \"미국, 독일에 토마호크 미사일 판매 승인\"",
+      "title_en": "US approves sale of Tomahawk missiles to Germany, says Chancellor Merz",
       "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/abbas-sets-palestinian-legislative-elections-for-november/a-77890456?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "중동",
-      "primary_source": "DW",
-      "excerpt": "팔레스타인 자치정부는 곧 20년 만에 첫 선거를 실시할 것이라고 발표했습니다. 그러나 그렇게 할 수 있는 수단과 정당성이 있는지에 대해서는 의문이 남는다.",
-      "excerpt_en": "The Palestinian Authority has announced it will soon hold its first elections in twenty years. However, questions remain about whether it has the means and legitimacy to do so.",
+      "title_url": "https://www.hindustantimes.com/world-news/us-approves-sale-of-tomahawk-missiles-to-germany-says-chancellor-merz-101783584699533.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "프리드리히 메르츠(Friedrich Merz) 총리는 연방의회에 미국산 토마호크 순항미사일을 구매해 독일에 배치하기로 합의했다고 통보했습니다. 그는 이것이 \"우리 방어에 있어서 중요한 전략적 공백을 메웠다\"고 말했습니다.",
+      "excerpt_en": "Chancellor Friedrich Merz has informed the Bundestag parliament of a deal to buy US Tomahawk cruise missiles and station them in Germany. He said this closed a \"important strategic ‌gap ​in our defens",
       "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/abbas-sets-palestinian-legislative-elections-for-november/a-77890456?maca=en-rss-en-all-1573-xml-mrss",
+      "excerpt_url": "https://www.dw.com/en/merz-germany-agreed-to-buy-tomahawk-missiles-at-nato-summit/a-77884596?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "ok",
-      "score": 69,
+      "score": 67,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 1,
+        "raw75": 50
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
+        "ABC News",
         "DW",
-        "New York Times"
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-07-09T15:08:00+09:00",
-      "latest_published_at": "2026-07-09T19:53:05+09:00",
+      "first_published_at": "2026-07-09T08:14:15+09:00",
+      "latest_published_at": "2026-07-09T13:40:40+09:00",
       "articles": [
         {
-          "title": "Palestinian Authority Sets Date for First Major Elections in 20 Years",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/09/world/middleeast/palestinian-authority-elections-abbas.html",
-          "published_at": "19:53"
+          "title": "Germany reaches deal with US to buy long-range Tomahawk missiles, Merz says",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/germany-reaches-deal-us-buy-long-range-tomahawk-134615916",
+          "published_at": "13:40"
         },
         {
-          "title": "Palestinian legislative elections set for November 28",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/9/palestinian-legislative-elections-set-for-november-28?traffic_source=rss",
-          "published_at": "17:32"
-        },
-        {
-          "title": "Abbas sets Palestinian legislative elections for November",
+          "title": "Merz: Germany agreed to buy Tomahawk missiles at NATO summit",
           "source_name": "DW",
-          "url": "https://www.dw.com/en/abbas-sets-palestinian-legislative-elections-for-november/a-77890456?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "15:08"
-        }
-      ]
-    },
-    {
-      "id": "world-273",
-      "title": "오만은 호르무즈 해협을 통과하는 유럽 동맹 선박에 비용을 지불해야 할 수도 있다고 말했습니다.",
-      "title_en": "Oman tells European allies ships passing through Strait of Hormuz may have to pay",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/oman-tells-european-allies-ships-passing-through-strait-of-hormuz-may-have-to-pay-101783617030312.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국, 유럽, 오만의 걸프 아랍 이웃 국가들은 술탄국이 호르무즈 해협에 대해 이란과 통행료나 요금 체계를 마련할 것이라는 점을 점점 더 우려하고 있습니다.",
-      "excerpt_en": "The US, Europe and Oman’s Gulf Arab neighbors are increasingly concerned the sultanate will set up a tolling or fee system with Iran for the Strait of Hormuz.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/oman-tells-european-allies-ships-passing-through-strait-of-hormuz-may-have-to-pay-101783617030312.html",
-      "translation_status": "ok",
-      "score": 64,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 48
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-09T17:13:57+09:00",
-      "latest_published_at": "2026-07-09T20:40:03+09:00",
-      "articles": [
-        {
-          "title": "Iran-US war latest: Washington and Tehran trade strikes as shipping through Strait of Hormuz ‘plummets’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-ceasefire-kuwait-bahrain-nato-b3011605.html",
-          "published_at": "20:40"
+          "url": "https://www.dw.com/en/merz-germany-agreed-to-buy-tomahawk-missiles-at-nato-summit/a-77884596?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:48"
         },
         {
-          "title": "Trump strikes Iran railway bridges on route to Khamenei’s funeral as ceasefire unravels",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-donald-trump-us-strikes-bushehr-b3011939.html",
-          "published_at": "18:50"
-        },
-        {
-          "title": "Oman tells European allies ships passing through Strait of Hormuz may have to pay",
+          "title": "US approves sale of Tomahawk missiles to Germany, says Chancellor Merz",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/oman-tells-european-allies-ships-passing-through-strait-of-hormuz-may-have-to-pay-101783617030312.html",
-          "published_at": "17:13"
+          "url": "https://www.hindustantimes.com/world-news/us-approves-sale-of-tomahawk-missiles-to-germany-says-chancellor-merz-101783584699533.html",
+          "published_at": "08:14"
         }
       ]
     },
     {
-      "id": "world-316",
-      "title": "호주, 인도에 우라늄 판매에 합의해 오랜 교착상태 종료",
-      "title_en": "Australia agrees to sell uranium to India, ending a long stalemate",
+      "id": "world-232",
+      "title": "중국의 탄도미사일 발사는 미국에 대한 메시지였다",
+      "title_en": "China's ballistic missile launch was a message for the US",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/australia-agrees-sell-uranium-india-ending-long-stalemate-134608473",
+      "title_url": "https://abcnews.com/International/wireStory/chinas-ballistic-missile-launch-message-us-134609192",
       "category": "아시아",
       "primary_source": "ABC News",
-      "excerpt": "이번 협약은 호주의 광업을 활성화하고 인도의 원자력 발전을 강화하는 것을 목표로 합니다.",
-      "excerpt_en": "Agreement is aimed at boosting Australia’s mining industry and bolstering India’s nuclear-power generation",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/australasia/australia-modi-uranium-far-right-protest-b3011694.html",
+      "excerpt": "대만은 장거리 조기 경보 레이더 시스템과 미국과의 정보 공유 덕분에 이번 주 베이징의 탄도 미사일 발사에 대한 중요한 정보를 얻었습니다. 섬'",
+      "excerpt_en": "Taiwan gained critical information about Beijing’s ballistic missile launch this week thanks to the island’s long-range early-warning radar system and intelligence sharing with Washington. The island’",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/china/military/article/3360015/radar-system-taiwan-says-tracked-plas-ballistic-missile-launch?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 64,
       "score_breakdown": {
@@ -1144,37 +1111,37 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "The Independent"
+        "SCMP"
       ],
-      "first_published_at": "2026-07-09T08:02:09+09:00",
-      "latest_published_at": "2026-07-09T11:21:46+09:00",
+      "first_published_at": "2026-07-09T10:04:53+09:00",
+      "latest_published_at": "2026-07-10T01:00:14+09:00",
       "articles": [
         {
-          "title": "Australia to sell uranium to India more than a decade after deal stalled",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/australia-modi-uranium-far-right-protest-b3011694.html",
-          "published_at": "11:21"
+          "title": "The radar system that Taiwan says tracked the PLA’s ballistic missile launch",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/military/article/3360015/radar-system-taiwan-says-tracked-plas-ballistic-missile-launch?utm_source=rss_feed",
+          "published_at": "01:00"
         },
         {
-          "title": "Australia agrees to sell uranium to India, ending a long stalemate",
+          "title": "China's ballistic missile launch was a message for the US",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/australia-agrees-sell-uranium-india-ending-long-stalemate-134608473",
-          "published_at": "08:02"
+          "url": "https://abcnews.com/International/wireStory/chinas-ballistic-missile-launch-message-us-134609192",
+          "published_at": "10:04"
         }
       ]
     },
     {
-      "id": "world-199",
-      "title": "엘니뇨 강화는 기록상 '가장 큰 규모'에 속할 것으로 예상됨: 미국 기관",
-      "title_en": "Strengthening El Nino likely to 'rank among largest' on record: US agency",
+      "id": "world-172",
+      "title": "호주 바닷새에서 처음으로 H5 조류독감 변종 검출",
+      "title_en": "H5 bird flu strain detected in Australian seabird for first time",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/strengthening-el-nino-likely-rank-among-largest-record-us-agency-6244611",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "국립 기상청(National Weather Service)은 날씨를 과급할 수 있는 힘으로 인한 기록적인 사건이 엘니뇨가 강화되고 있으며 과급기의 힘으로 인해 역사적 사건의 위험이 점점 더 커지고 있다고 밝혔습니다.",
-      "excerpt_en": "National Weather Service says record-breaking event with power to supercharge weather becoming more likely El Niño is strengthening and the risks of a historic event with the power to supercharge extr",
+      "title_url": "https://www.abc.net.au/news/2026-07-10/h5-bird-flu-strain-detected-in-australian-seabird-for-first-time/106901626",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "흔한 연안 조류인 토종 큰제비갈매기 - SA의 라임스톤 코스트(Limestone Coast) 로브에서 발견된 후 질병 양성 반응을 보임 최신 업데이트를 보려면 호주 뉴스 라이브 블로그를 팔로우하세요.",
+      "excerpt_en": "Native greater crested tern – a common coastal bird – tests positive for disease after being discovered at Robe on SA’s Limestone Coast Follow our Australia news live blog for latest updates Get our b",
       "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/09/el-nino-risks-extreme-weather",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/10/first-case-deadly-h5-bird-flu-local-australian-seabird-sa-coast-crested-tern",
       "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
@@ -1190,38 +1157,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "ABC News Australia",
         "The Guardian"
       ],
-      "first_published_at": "2026-07-09T17:29:59+09:00",
-      "latest_published_at": "2026-07-09T21:06:22+09:00",
+      "first_published_at": "2026-07-10T02:23:43+09:00",
+      "latest_published_at": "2026-07-10T04:15:25+09:00",
       "articles": [
         {
-          "title": "Risks of historic El Niño persisting through spring 2027 rising, says NWS",
+          "title": "Deadly H5 bird flu found in local Australian seabird for first time",
           "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/09/el-nino-risks-extreme-weather",
-          "published_at": "21:06"
+          "url": "https://www.theguardian.com/world/2026/jul/10/first-case-deadly-h5-bird-flu-local-australian-seabird-sa-coast-crested-tern",
+          "published_at": "04:15"
         },
         {
-          "title": "Strengthening El Nino likely to 'rank among largest' on record: US agency",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/strengthening-el-nino-likely-rank-among-largest-record-us-agency-6244611",
-          "published_at": "17:29"
+          "title": "H5 bird flu strain detected in Australian seabird for first time",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/h5-bird-flu-strain-detected-in-australian-seabird-for-first-time/106901626",
+          "published_at": "02:23"
         }
       ]
     },
     {
-      "id": "world-265",
-      "title": "투옥된 가톨릭 여성의 단식투쟁은 이란의 종교적 박해를 강조 - 미국은 조치를 요구",
-      "title_en": "Jailed Catholic woman's hunger strike highlights Iran religious persecution — US demands action",
+      "id": "world-173",
+      "title": "'인간 헤드라인'이자 방송인 데린 힌치(Derryn Hinch)가 82세의 나이로 사망했습니다.",
+      "title_en": "Derryn Hinch, 'human headline' and broadcaster, dies aged 82",
       "title_source": "earliest_pick",
-      "title_url": "https://www.foxnews.com/world/jailed-catholic-womans-hunger-strike-highlights-iran-religious-persecution-us-demands-action",
-      "category": "중동",
-      "primary_source": "Fox News",
-      "excerpt": "가톨릭 여성인 가잘 마르즈반(Ghazal Marzban)은 테헤란의 에빈 교도소에서 단식투쟁을 벌이고 있다. 기독교인 체포 건수는 2024년 139명에서 2025년 254명으로 급증했다.",
-      "excerpt_en": "Ghazal Marzban, a Catholic woman, is on hunger strike in Evin prison in Tehran as arrests of Christians jumped from 139 in 2024 to 254 in 2025.",
-      "excerpt_source": "Fox News",
-      "excerpt_url": "https://www.foxnews.com/world/jailed-catholic-womans-hunger-strike-highlights-iran-religious-persecution-us-demands-action",
+      "title_url": "https://www.abc.net.au/news/2026-07-10/derryn-hinch-obituary-media-broadcaster-former-politician/105893604",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "미디어 인물이자 전 상원의원이 밤새 집에서 사망했으며 라디오 방송국 3AW가 추모하는 가운데 최신 업데이트를 보려면 호주 뉴스 라이브 블로그를 팔로우하세요. 속보 이메일, 무료 앱 또는 일일 n을 받으세요.",
+      "excerpt_en": "Media figure and former senator died overnight at home, with radio station 3AW leading tributes Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily n",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/media/2026/jul/10/derryn-hinch-broadcaster-once-known-as-the-human-headline-dies-age-82",
       "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
@@ -1237,29 +1204,170 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Fox News",
-        "The Independent"
+        "ABC News Australia",
+        "The Guardian"
       ],
-      "first_published_at": "2026-07-09T15:28:05+09:00",
-      "latest_published_at": "2026-07-09T21:42:28+09:00",
+      "first_published_at": "2026-07-10T02:50:41+09:00",
+      "latest_published_at": "2026-07-10T03:56:28+09:00",
       "articles": [
         {
-          "title": "Suspect accused of ambushing and shooting National Guard members is hospitalized after hunger strike",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/national-guard-shooting-suspect-hunger-strike-b3012228.html",
-          "published_at": "21:42"
+          "title": "Derryn Hinch, broadcaster once known as ‘the human headline’, dies aged 82",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/media/2026/jul/10/derryn-hinch-broadcaster-once-known-as-the-human-headline-dies-age-82",
+          "published_at": "03:56"
         },
         {
-          "title": "Jailed Catholic woman's hunger strike highlights Iran religious persecution — US demands action",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/jailed-catholic-womans-hunger-strike-highlights-iran-religious-persecution-us-demands-action",
-          "published_at": "15:28"
+          "title": "Derryn Hinch, 'human headline' and broadcaster, dies aged 82",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/derryn-hinch-obituary-media-broadcaster-former-politician/105893604",
+          "published_at": "02:50"
         }
       ]
     },
     {
-      "id": "world-174",
-      "title": "LGBTQ+ 크루즈선, 터키가 이집트 입국 거부한 지 며칠 만에 이집트 입항 거부",
+      "id": "world-175",
+      "title": "텔스트라, 비키 브래디 최고경영자(CEO)로 복귀 \"전국적 정전에 대해 깊은 사과\"",
+      "title_en": "Telstra returning CEO Vicki Brady 'deeply sorry' for national outage",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.abc.net.au/news/2026-07-10/telstra-ceo-vicki-brady-sorry-outage-investigations-ongoing/106901388",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "SA 경찰이 사망 전 트리플 제로에 대한 호출이 실패했다고 말하면서 해외에서 돌아온 후 처음으로 공개석상에 모습을 드러낸 비키 브래디(Vicki Brady) 최신 업데이트를 보려면 호주 뉴스 라이브 블로그를 팔로우하세요.",
+      "excerpt_en": "Vicki Brady grilled at first public appearance since returning from overseas as SA police say call to triple zero failed before death Follow our Australia news live blog for latest updates Get our bre",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/business/2026/jul/10/telstra-ceo-deeply-sorry-for-outage-and-admits-risk-of-time-keeping-failure-was-known-ntwnfb",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-07-10T01:50:40+09:00",
+      "latest_published_at": "2026-07-10T02:46:21+09:00",
+      "articles": [
+        {
+          "title": "Telstra CEO ‘deeply sorry’ for outage and admits risk of time-keeping failure was known",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/10/telstra-ceo-deeply-sorry-for-outage-and-admits-risk-of-time-keeping-failure-was-known-ntwnfb",
+          "published_at": "02:46"
+        },
+        {
+          "title": "Telstra returning CEO Vicki Brady 'deeply sorry' for national outage",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/telstra-ceo-vicki-brady-sorry-outage-investigations-ongoing/106901388",
+          "published_at": "01:50"
+        }
+      ]
+    },
+    {
+      "id": "world-50",
+      "title": "백악관 UFC 행사에 대한 공격 계획에 대한 살인, 테러 음모 혐의로 8명 기소",
+      "title_en": "8 indicted on murder, terrorism conspiracy charges for planned attack on White House UFC event",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/8-indicted-planned-attack-ufc-white-house-9.7264998?cmp=rss",
+      "category": "미국",
+      "primary_source": "CBC",
+      "excerpt": "지난 6월 백악관에서 열린 UFC 케이지 싸움 쇼에서 드론과 저격수 공격을 저지한 혐의로 남성 8명이 살인 및 테러 음모 혐의로 목요일 기소됐다.",
+      "excerpt_en": "Eight men were indicted on murder and terrorism conspiracy charges Thursday for their alleged roles in a thwarted drone and sniper attack on the UFC cage-fighting show staged at the White House in Jun",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/8-indicted-planned-attack-ufc-white-house-9.7264998?cmp=rss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-09T22:05:19+09:00",
+      "latest_published_at": "2026-07-09T23:09:03+09:00",
+      "articles": [
+        {
+          "title": "Federal grand jury indicts 8 men over alleged plot to attack White House UFC event, DOJ says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOTJzNGgwYmw2MEk4X21JSVJtRXZDNmoxZ3lwMTI3b2tRT3VfVGZMOTVyT2xndkZ1YUJFdjh2T3Y1a2hJZlp4eFc1R3RzZ1p5WHRLWEstVXo3eEN0b2NGdXN6ZFY5dWJjV1F0ODZtc0dsMldud1pGUDlILVpwNjFsMUVHR25sYXVBNGpKMl9BTmVSQndhbEZHTnFtQWRFaE1IRnVBMkhDR0hBTW9QWDA4R1U3amh0a1pxeElmeFlrRmkzcE5lUUpYZDRvU1E?oc=5",
+          "published_at": "23:09"
+        },
+        {
+          "title": "8 indicted on murder, terrorism conspiracy charges for planned attack on White House UFC event",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/8-indicted-planned-attack-ufc-white-house-9.7264998?cmp=rss",
+          "published_at": "22:05"
+        }
+      ]
+    },
+    {
+      "id": "world-106",
+      "title": "가자지구: 축구팬들이 사망자를 기리기 위해 잔해 속에서 월드컵을 관람하고 있습니다.",
+      "title_en": "Gaza: Football fans watch the World Cup amid the rubble in tribute to those killed",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/middle-east/gaza-watch-world-cup-mohammad-al-waheidi-b3011979.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "모하마드 알 와헤이디는 화요일 이집트-아르헨티나 경기 전날 10세와 8세 남매 2명을 포함해 다른 3명과 함께 사망했습니다.",
+      "excerpt_en": "Mohammad al-Waheidi was killed on the eve of the Egypt-Argentina match on Tuesday, along with three others, including two siblings aged 10 and 8",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/middle-east/gaza-watch-world-cup-mohammad-al-waheidi-b3011979.html",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-09T13:43:34+09:00",
+      "latest_published_at": "2026-07-10T01:42:27+09:00",
+      "articles": [
+        {
+          "title": "Gaza mourns aid worker killed by Israel who helped them see the World Cup",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/10/gaza-mourns-aid-worker-killed-by-israel-who-helped-them-see-the-world-cup?traffic_source=rss",
+          "published_at": "01:42"
+        },
+        {
+          "title": "Gaza: Football fans watch the World Cup amid the rubble in tribute to those killed",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/gaza-watch-world-cup-mohammad-al-waheidi-b3011979.html",
+          "published_at": "13:43"
+        }
+      ]
+    },
+    {
+      "id": "world-166",
+      "title": "LGBTQ+ 유람선은 터키가 이집트 입국을 거부한 지 며칠 만에 이집트 입항을 거부했습니다.",
       "title_en": "LGBTQ+ cruise ship refused entry to Egypt days after Turkey turned it away",
       "title_source": "earliest_pick",
       "title_url": "https://www.theguardian.com/world/2026/jul/09/lgbtq-cruise-ship-refused-entry-egypt-turkey",
@@ -1305,17 +1413,71 @@
       ]
     },
     {
-      "id": "world-301",
-      "title": "우크라이나, 크리미아 캠페인 강화로 러시아 연료 유조선 추가 공격 주장",
-      "title_en": "Ukraine claims hits on more Russian fuel tankers as Crimea campaign intensifies",
+      "id": "world-180",
+      "title": "NATO 지도자들은 리볼버를 선물로 받았습니다. 그들이 리볼버로 한 일은 다음과 같습니다.",
+      "title_en": "NATO leaders were given revolvers as a gift – here’s what they did with them",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/ukraine-russian-tankers-crimea-9.7263920?cmp=rss",
+      "title_url": "https://www.independent.co.uk/news/world/europe/nato-summit-turkey-leaders-revolver-gift-b3011925.html",
       "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "우크라이나군은 지난 목요일 아조프해에서 우크라이나 드론이 러시아 유조선 12척을 추가로 공격했다고 밝혔습니다.",
-      "excerpt_en": "Ukrainian drones hit a dozen more Russian tankers in the Sea of Azov overnight, Ukraine's military said on Thursday, the latest in a campaign aimed at disrupting fuel supplies to Russian forces and is",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/ukraine-russian-tankers-crimea-9.7263920?cmp=rss",
+      "primary_source": "The Independent",
+      "excerpt": "레셉 타이이프 에르도안(Recep Tayyip Erdoğan)은 앙카라의 손님에게 총알이 새겨진 리볼버를 선물하여 보안 문제를 야기했습니다. 세계 지도자는 총과 6개의 총알로 무엇을 합니까? 그게 수수께끼였어 Nat",
+      "excerpt_en": "Recep Tayyip Erdoğan presented engraved revolvers – with bullets – to his guests in Ankara, causing security concerns What does a world leader do with a gun and six bullets? That was the conundrum Nat",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/09/turkish-president-gives-nato-leaders-engraved-guns-and-bullets-at-summit",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "SCMP",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-09T13:08:41+09:00",
+      "latest_published_at": "2026-07-09T17:15:39+09:00",
+      "articles": [
+        {
+          "title": "Turkish president’s ‘unusual’ gift to Nato leaders: 1 revolver, 6 bullets",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3360035/turkish-presidents-unusual-gift-nato-leaders-1-revolver-6-bullets?utm_source=rss_feed",
+          "published_at": "17:15"
+        },
+        {
+          "title": "Nato leaders surprised by Turkish president’s gift of guns after summit",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/09/turkish-president-gives-nato-leaders-engraved-guns-and-bullets-at-summit",
+          "published_at": "16:32"
+        },
+        {
+          "title": "NATO leaders were given revolvers as a gift – here’s what they did with them",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/nato-summit-turkey-leaders-revolver-gift-b3011925.html",
+          "published_at": "13:08"
+        }
+      ]
+    },
+    {
+      "id": "world-270",
+      "title": "투옥된 가톨릭 여성의 단식투쟁은 이란의 종교적 박해를 강조 - 미국은 조치를 요구",
+      "title_en": "Jailed Catholic woman's hunger strike highlights Iran religious persecution — US demands action",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.foxnews.com/world/jailed-catholic-womans-hunger-strike-highlights-iran-religious-persecution-us-demands-action",
+      "category": "중동",
+      "primary_source": "Fox News",
+      "excerpt": "가톨릭 여성인 가잘 마르즈반(Ghazal Marzban)은 테헤란의 에빈 교도소에서 단식투쟁을 벌이고 있다. 기독교인 체포 건수는 2024년 139명에서 2025년 254명으로 급증했다.",
+      "excerpt_en": "Ghazal Marzban, a Catholic woman, is on hunger strike in Evin prison in Tehran as arrests of Christians jumped from 139 in 2024 to 254 in 2025.",
+      "excerpt_source": "Fox News",
+      "excerpt_url": "https://www.foxnews.com/world/jailed-catholic-womans-hunger-strike-highlights-iran-religious-persecution-us-demands-action",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1331,332 +1493,50 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBC",
+        "Fox News",
         "The Independent"
       ],
-      "first_published_at": "2026-07-09T11:59:18+09:00",
-      "latest_published_at": "2026-07-09T14:55:35+09:00",
+      "first_published_at": "2026-07-09T15:28:05+09:00",
+      "latest_published_at": "2026-07-09T21:42:28+09:00",
       "articles": [
         {
-          "title": "Ukraine-Russia war latest: Kyiv hits 12 Russian oil tankers as Putin grapples with nationwide fuel shortages",
+          "title": "Suspect accused of ambushing and shooting National Guard members is hospitalized after hunger strike",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-fuel-shortage-b3011611.html",
-          "published_at": "14:55"
+          "url": "https://www.independent.co.uk/news/world/americas/crime/national-guard-shooting-suspect-hunger-strike-b3012228.html",
+          "published_at": "21:42"
         },
         {
-          "title": "Ukraine claims hits on more Russian fuel tankers as Crimea campaign intensifies",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/ukraine-russian-tankers-crimea-9.7263920?cmp=rss",
-          "published_at": "11:59"
+          "title": "Jailed Catholic woman's hunger strike highlights Iran religious persecution — US demands action",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/jailed-catholic-womans-hunger-strike-highlights-iran-religious-persecution-us-demands-action",
+          "published_at": "15:28"
         }
       ]
     },
     {
-      "id": "world-79",
-      "title": "미국, 이란에 대한 새로운 공습 개시, 테헤란은 걸프 아랍 국가 3개국에 대해 반격",
-      "title_en": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "미국은 목요일 오전 이란에 대한 새로운 공습을 시작했고, 테헤란은 미국과 동맹을 맺은 중동 국가들을 표적으로 삼아 대응해 전쟁 재개에 대한 우려를 불러일으켰습니다.",
-      "excerpt_en": "The United States launched new airstrikes against Iran early Thursday, and Tehran responded by targeting U.S.-allied Mideast countries, raising fears of resuming war.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/07/09/g-s1-132670/us-iran-strikes",
-      "translation_status": "ok",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "NPR"
-      ],
-      "first_published_at": "2026-07-09T03:01:00+09:00",
-      "latest_published_at": "2026-07-09T05:46:40+09:00",
-      "articles": [
-        {
-          "title": "The U.S. launches new airstrikes on Iran and Tehran fires back at Gulf Arab states",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/09/g-s1-132670/us-iran-strikes",
-          "published_at": "05:46"
-        },
-        {
-          "title": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?oc=5",
-          "published_at": "03:01"
-        }
-      ]
-    },
-    {
-      "id": "world-131",
-      "title": "놀란 웰스의 사망 원인이 밝혀졌다? Ben Crump 변호사는 가족이 '불일치'를 걱정함에 따라 업데이트를 제공합니다.",
-      "title_en": "Nolan Wells’ cause of death revealed? Attorney Ben Crump provides update as family worried about 'inconsistencies'",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/nolan-wells-cause-of-death-revealed-attorney-ben-crump-provides-update-as-family-worried-about-inconsistencies-101783582433222.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "민주당 그레이엄 플래트너(Graham Platner) 의원은 어젯밤 미국 상원 출마를 마감했습니다. 그리고 7월 넷째 주말에 놀란 웰스(Nolan Wells)가 사망한 사건에 대한 답변을 얻기 위해 저명한 민권 변호사인 벤 크럼프(Ben Crump)가 합류했습니다.",
-      "excerpt_en": "Democrat Graham Platner ended his bid last night for U.S. Senate. And, prominent civil rights attorney Ben Crump has been enlisted to help get answers in the July Fourth weekend death of Nolan Wells.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/07/09/g-s1-132694/up-first-newsletter-graham-platner-trump-iran-israel-nolan-wells",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "NPR"
-      ],
-      "first_published_at": "2026-07-09T07:39:03+09:00",
-      "latest_published_at": "2026-07-09T11:22:04+09:00",
-      "articles": [
-        {
-          "title": "Graham Platner ends Senate bid. And, why Nolan Wells' death captured national attention",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/09/g-s1-132694/up-first-newsletter-graham-platner-trump-iran-israel-nolan-wells",
-          "published_at": "11:22"
-        },
-        {
-          "title": "Nolan Wells’ cause of death revealed? Attorney Ben Crump provides update as family worried about 'inconsistencies'",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/nolan-wells-cause-of-death-revealed-attorney-ben-crump-provides-update-as-family-worried-about-inconsistencies-101783582433222.html",
-          "published_at": "07:39"
-        }
-      ]
-    },
-    {
-      "id": "world-362",
-      "title": "6피트 4인치의 노르웨이 축구 센세이션이 중국에서 영웅이 된 이유",
-      "title_en": "Why this 6-foot-4 Norwegian soccer sensation has become a hero in China",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/asia/soccer-fans-china-are-rooting-norway-erling-haaland-ha-bao-rcna353445",
-      "category": "아시아",
-      "primary_source": "NBC News",
-      "excerpt": "올해 월드컵에는 중국 선수가 없을 수도 있지만, 중국은 자신만의 축구 영웅을 찾았습니다. 바로 노르웨이의 공격수 에를링 홀란드입니다.",
-      "excerpt_en": "There may not be any Chinese players at this year’s World Cup, but China has found its own soccer hero: Norwegian striker Erling Haaland.",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/world/asia/soccer-fans-china-are-rooting-norway-erling-haaland-ha-bao-rcna353445",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "NBC News"
-      ],
-      "first_published_at": "2026-07-09T09:59:16+09:00",
-      "latest_published_at": "2026-07-09T18:52:27+09:00",
-      "articles": [
-        {
-          "title": "Haaland mania sweeps the World Cup as Norway rows behind its Viking hero",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/haaland-mania-sweeps-world-cup-norway-rows-behind-its-viking-hero-6244766",
-          "published_at": "18:52"
-        },
-        {
-          "title": "Why this 6-foot-4 Norwegian soccer sensation has become a hero in China",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/asia/soccer-fans-china-are-rooting-norway-erling-haaland-ha-bao-rcna353445",
-          "published_at": "09:59"
-        }
-      ]
-    },
-    {
-      "id": "world-46",
-      "title": "New York Times가 주도하는 단체, 미국 저작권 분쟁에서 OpenAI를 제재해 달라고 법원에 요청",
-      "title_en": "New York Times-led group asks court to sanction OpenAI in US copyright dispute",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTYxWTEzRzVsSVY1VG80RTRVNUpwekZUV1lkajUzMjYxZVNRb2RkR3NwX3E3Y04yQ2ZaRGtSMkNsMkJGenJnTmRjcUhmNFJnT05kZXJrTVIxX3V1MFpUN29WU1RPTHlxX3djazJ2MS02YmFzZXRNM01FTzJ0cE03dU5GVUFIS2o2eTF1X0tvcDBLSG56NktwTUFDbjV1ZW5mODdmQ0xtcHJfU0ljLW02ZFRaLTZNdVlfV094cW9DOHhpQXM?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "뉴스 회사는 ChatGPT 제작자가 획기적인 저작권 침해 재판에 중요한 증거를 숨기고 있다고 주장합니다.",
-      "excerpt_en": "The news firms allege ChatGPT maker is hiding evidence important to what could be landmark copyright infringement trial.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/economy/2026/7/9/nyt-led-group-asks-court-to-sanction-openai-in-us-copyright-dispute?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-09T17:56:15+09:00",
-      "latest_published_at": "2026-07-09T21:17:54+09:00",
-      "articles": [
-        {
-          "title": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/7/9/nyt-led-group-asks-court-to-sanction-openai-in-us-copyright-dispute?traffic_source=rss",
-          "published_at": "21:17"
-        },
-        {
-          "title": "New York Times-led group asks court to sanction OpenAI in US copyright dispute",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTYxWTEzRzVsSVY1VG80RTRVNUpwekZUV1lkajUzMjYxZVNRb2RkR3NwX3E3Y04yQ2ZaRGtSMkNsMkJGenJnTmRjcUhmNFJnT05kZXJrTVIxX3V1MFpUN29WU1RPTHlxX3djazJ2MS02YmFzZXRNM01FTzJ0cE03dU5GVUFIS2o2eTF1X0tvcDBLSG56NktwTUFDbjV1ZW5mODdmQ0xtcHJfU0ljLW02ZFRaLTZNdVlfV094cW9DOHhpQXM?oc=5",
-          "published_at": "17:56"
-        }
-      ]
-    },
-    {
-      "id": "world-61",
-      "title": "중동 갈등이 재개되면서 월스트리트가 오르고 석유가 미끄러졌습니다.",
-      "title_en": "Wall Street climbs, oil slides as Middle East conflict resumes",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU2dFb1NsRUVjbDhlRWp1VHVuZk9ud2JqcXdJbUxTOGhXLUpvcmJ1UzI4Zk45YmREYzlpVnRHS1dzMkxJemEtZmJRUHFHRm0tcTdqZlZxQXlvM2JKZE5Ed1VZT215aUxERjVGUk5reGZVamdYWXFLV3hfMnBuWXFYNVg3TQ?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "월스트리트와 유럽 증시는 중동 분쟁 우려로 인한 손실에서 반등했습니다. ABC 뉴스 라이브 m에서 비즈니스 리포터의 오늘의 이벤트와 통찰력을 팔로우하세요.",
-      "excerpt_en": "Wall Street and European stocks have rebounded from losses connected to fears about conflict in the Middle East. Follow the day's events and insights from our business reporters on the ABC News live m",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-07-10/asx-markets-business-live-news-10-july-2026/106900270",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-09T01:49:00+09:00",
-      "latest_published_at": "2026-07-09T21:39:06+09:00",
-      "articles": [
-        {
-          "title": "Live: Wall Street and European stocks rebound, ASX 200 set to flatline on opening",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/asx-markets-business-live-news-10-july-2026/106900270",
-          "published_at": "21:39"
-        },
-        {
-          "title": "Wall Street climbs, oil slides as Middle East conflict resumes",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU2dFb1NsRUVjbDhlRWp1VHVuZk9ud2JqcXdJbUxTOGhXLUpvcmJ1UzI4Zk45YmREYzlpVnRHS1dzMkxJemEtZmJRUHFHRm0tcTdqZlZxQXlvM2JKZE5Ed1VZT215aUxERjVGUk5reGZVamdYWXFLV3hfMnBuWXFYNVg3TQ?oc=5",
-          "published_at": "01:49"
-        }
-      ]
-    },
-    {
-      "id": "world-212",
-      "title": "프랑스와 모로코가 전쟁에 나서면서 식민지 시대의 과거와 세계의 현재가 뒤섞일 것입니다",
-      "title_en": "As France and Morocco Take the Field, Colonial Past and Global Present Will Mix",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/09/world/europe/france-morocco-world-cup-soccer.html",
-      "category": "유럽",
-      "primary_source": "New York Times",
-      "excerpt": "프랑스와 옛 보호국 간의 월드컵 8강전이 역사에 남았습니다. 요즘 국가대표팀은 뒤섞이고 겹친다.",
-      "excerpt_en": "History hangs over the World Cup quarterfinal between France and its former protectorate. These days, national teams intermingle and overlap.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/09/world/europe/france-morocco-world-cup-soccer.html",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-09T15:48:32+09:00",
-      "latest_published_at": "2026-07-09T19:25:30+09:00",
-      "articles": [
-        {
-          "title": "Live: Mbappé screamer gives France lead over Morocco in World Cup quarterfinal",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/world-cup-france-vs-morocco-quarterfinal-live-blog/106898962",
-          "published_at": "19:25"
-        },
-        {
-          "title": "As France and Morocco Take the Field, Colonial Past and Global Present Will Mix",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/09/world/europe/france-morocco-world-cup-soccer.html",
-          "published_at": "15:48"
-        }
-      ]
-    },
-    {
-      "id": "world-288",
+      "id": "world-291",
       "title": "로렌조 살가도 아라우조(Lorenzo Salgado Araujo)는 누구였습니까? ICE가 미국에서 35년 동안 거주한 멕시코 남성을 사살하자 텍사스 전역이 분노하고 있다.",
       "title_en": "Who was Lorenzo Salgado Araujo? Outrage across Texas as ICE fatally shoots Mexican man who lived in US for 35 years",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/who-was-lorenzo-salgado-araujo-outrage-across-texas-as-ice-fatally-shoots-mexican-man-who-lived-in-us-for-35-years-101783585962335.html",
       "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "총격 사건은 지난 화요일 휴스턴의 멕시코계 미국인 커뮤니티의 중심지였던 매그놀리아 파크에서 발생했습니다.",
-      "excerpt_en": "The shooting happened Tuesday in Magnolia Park, a neighborhood that has been a hub for Houston’s Mexican American community for a century",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/lorenzo-salgado-araujo-ice-officer-shot-houston-b3011681.html",
+      "excerpt": "로렌조 살가도 아라우조(52세)의 아내와 세 아들이 휴스턴에서 ICE요원의 총격을 받고 사망한 후 답변을 요구하고 있다.",
+      "excerpt_en": "Wife and 3 sons of Lorenzo Salgado Araujo are demanding answers after the 52-year-old construction business owner was fatally shot by an ICE agent in Houston.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-are-lorenzo-salgado-araujos-wife-and-sons-family-speaks-out-after-fatal-houston-ice-shooting-gofundme-launched-101783634685522.html",
       "translation_status": "ok",
-      "score": 55,
+      "score": 60,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 41
+        "raw75": 45
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
@@ -1664,8 +1544,14 @@
         "The Independent"
       ],
       "first_published_at": "2026-07-09T08:41:46+09:00",
-      "latest_published_at": "2026-07-09T17:02:59+09:00",
+      "latest_published_at": "2026-07-09T22:42:43+09:00",
       "articles": [
+        {
+          "title": "Who are Lorenzo Salgado Araujo's wife and sons? Family speaks out after fatal Houston ICE shooting; GoFundMe launched",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-are-lorenzo-salgado-araujos-wife-and-sons-family-speaks-out-after-fatal-houston-ice-shooting-gofundme-launched-101783634685522.html",
+          "published_at": "22:42"
+        },
         {
           "title": "Texas DA claims feds are keeping him away from investigation into ICE shooting of Mexican migrant",
           "source_name": "The Independent",
@@ -1687,17 +1573,111 @@
       ]
     },
     {
-      "id": "world-369",
-      "title": "미국 정치! 플래너 파열, 맥코넬은 어디 있지?",
-      "title_en": "U.S. politics! Platner implosion, where’s McConnell?",
+      "id": "world-74",
+      "title": "신발 공장에서 화재가 발생해 28명이 사망하고 최근 몇 년간 중국에서 발생한 가장 큰 화재 중 하나",
+      "title_en": "Fire at a shoe factory kills 28 in one of China's deadliest blazes in recent years",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/radio/frontburner/u-s-politics-platner-implosion-wheres-mcconnell-9.7263411?cmp=rss",
+      "title_url": "https://abcnews.com/International/wireStory/fire-shoe-factory-kills-28-chinas-deadliest-blazes-134620508",
       "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "최근 몇 년간 중국에서 가장 치명적인 화재 중 하나로 신발 공장에서 화재가 발생해 28명이 사망했습니다.",
+      "excerpt_en": "Fire at a shoe factory kills 28 in one of China’s deadliest blazes in recent years AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRG1FTVJZcGRHOFB6Sno1RkZrd3VwMlY1S1M2bjlFeEVrTjNTUnhOZVpONHpHWFN0NlJ5MThJZV9UOFNGd0NhYTNKR2x2ZWtxSEhzbVppa3NOSE5raDVRS3F0dzlnTzRYZWFiNUY4VWE4YnNZWHJ4cE5kbXM4dU9ST1pyZEFqbUNoVWJB?oc=5",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-07-09T16:50:03+09:00",
+      "latest_published_at": "2026-07-09T20:11:00+09:00",
+      "articles": [
+        {
+          "title": "Fire at a shoe factory kills 28 in one of China’s deadliest blazes in recent years",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRG1FTVJZcGRHOFB6Sno1RkZrd3VwMlY1S1M2bjlFeEVrTjNTUnhOZVpONHpHWFN0NlJ5MThJZV9UOFNGd0NhYTNKR2x2ZWtxSEhzbVppa3NOSE5raDVRS3F0dzlnTzRYZWFiNUY4VWE4YnNZWHJ4cE5kbXM4dU9ST1pyZEFqbUNoVWJB?oc=5",
+          "published_at": "20:11"
+        },
+        {
+          "title": "Fire at a shoe factory kills 28 in one of China's deadliest blazes in recent years",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/fire-shoe-factory-kills-28-chinas-deadliest-blazes-134620508",
+          "published_at": "16:50"
+        }
+      ]
+    },
+    {
+      "id": "world-191",
+      "title": "멕시코 주택 건설업자 총격 사건 현장의 ICE 요원은 신체 카메라가 없었습니다",
+      "title_en": "ICE agents at scene of fatal shooting of Mexican homebuilder had no body cameras",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/ice-shooting-mexican-worker-no-bodycams-9.7265226?cmp=rss",
+      "category": "미국",
       "primary_source": "CBC",
-      "excerpt": "미국 중간선거가 다가옴에 따라 성폭행 혐의가 민주당을 압박하고 공화당 상원의원 미치 매코넬의 건강을 비밀로 에워싸고 있습니다.",
-      "excerpt_en": "As the U.S. midterm elections approach, sex assault allegations tank a Democrat, and secrecy surrounds the health of Republican senator Mitch McConnell.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/radio/frontburner/u-s-politics-platner-implosion-wheres-mcconnell-9.7263411?cmp=rss",
+      "excerpt": "35년 동안 미국에 거주한 멕시코인 로렌조 살가도 아라우조(Lorenzo Salgado Araujo)를 살해한 뒤 다른 사람을 찾고 있는 요원들 로렌조 살가도 아라우조(Lorenzo Salgado Araujo)는 교통경찰에 의해 살해됐다.",
+      "excerpt_en": "Agents seeking different person when they killed Lorenzo Salgado Araujo, Mexican who had lived in US for 35 years Lorenzo Salgado Araujo, a man killed by federal immigration agents during a traffic st",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/09/houston-man-killed-ice-agents",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-07-10T01:11:21+09:00",
+      "latest_published_at": "2026-07-10T01:59:03+09:00",
+      "articles": [
+        {
+          "title": "Man killed by ICE agents not intended target of immigration arrest, DHS says",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/09/houston-man-killed-ice-agents",
+          "published_at": "01:59"
+        },
+        {
+          "title": "ICE agents at scene of fatal shooting of Mexican homebuilder had no body cameras",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/ice-shooting-mexican-worker-no-bodycams-9.7265226?cmp=rss",
+          "published_at": "01:11"
+        }
+      ]
+    },
+    {
+      "id": "world-0",
+      "title": "강력한 태풍 '바비' 접근으로 일본 남서부 섬에 비상 경보 발령",
+      "title_en": "Japan's southwestern islands on high alert as powerful Typhoon Bavi approaches",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNekhCZ2F4SGtjYVBVTG8tZFJ4b1VyeFdyNHpZdW5SNFg4SlQwX3UyZjRKQlNUbzd6VTl3eXl5cUpKTlM3NzdzTDI0b3VDNE84TnZwSnFDcUY2MmJZZEg2NWJLSW5IZHM2SjFVYno2ZE9FV2dIU2gxSE51ZWd6aGdhQlRhTVVfWUFoV3JUS1hXemNmWTBYM3Y1amxHdHl0MUxQM3JQbGdncHFVeVVnSDZ0WDNqbWhSR2FnX0lYTW53RjN2RDRYNWpr?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "강력한 태풍 바비가 접근함에 따라 일본 남서부 섬에 비상 경보가 발령되었습니다.",
+      "excerpt_en": "Japan's southwestern islands on high alert as powerful Typhoon Bavi approaches Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNekhCZ2F4SGtjYVBVTG8tZFJ4b1VyeFdyNHpZdW5SNFg4SlQwX3UyZjRKQlNUbzd6VTl3eXl5cUpKTlM3NzdzTDI0b3VDNE84TnZwSnFDcUY2MmJZZEg2NWJLSW5IZHM2SjFVYno2ZE9FV2dIU2gxSE51ZWd6aGdhQlRhTVVfWUFoV3JUS1hXemNmWTBYM3Y1amxHdHl0MUxQM3JQbGdncHFVeVVnSDZ0WDNqbWhSR2FnX0lYTW53RjN2RDRYNWpr?oc=5",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1713,28 +1693,169 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBC",
-        "Hindustan Times"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-07-09T10:00:00+09:00",
-      "latest_published_at": "2026-07-09T19:03:03+09:00",
+      "first_published_at": "2026-07-10T01:24:00+09:00",
+      "latest_published_at": "2026-07-10T02:21:00+09:00",
       "articles": [
         {
-          "title": "'Do you know he's alive?': GOP Rep. Marlin Stutzman questions Mitch McConnell's lengthy hospitalization",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/do-you-know-hes-alive-gop-rep-marlin-stutzman-questions-mitch-mcconnells-lengthy-hospitalization-101783619765820.html",
-          "published_at": "19:03"
+          "title": "Japan's southwestern islands on high alert as powerful Typhoon Bavi approaches",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/japan-taiwan-china-typhoon-bavi-sakishima-islands-6245301",
+          "published_at": "02:21"
         },
         {
-          "title": "U.S. politics! Platner implosion, where’s McConnell?",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/radio/frontburner/u-s-politics-platner-implosion-wheres-mcconnell-9.7263411?cmp=rss",
-          "published_at": "10:00"
+          "title": "Japan's southwestern islands on high alert as powerful Typhoon Bavi approaches",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNekhCZ2F4SGtjYVBVTG8tZFJ4b1VyeFdyNHpZdW5SNFg4SlQwX3UyZjRKQlNUbzd6VTl3eXl5cUpKTlM3NzdzTDI0b3VDNE84TnZwSnFDcUY2MmJZZEg2NWJLSW5IZHM2SjFVYno2ZE9FV2dIU2gxSE51ZWd6aGdhQlRhTVVfWUFoV3JUS1hXemNmWTBYM3Y1amxHdHl0MUxQM3JQbGdncHFVeVVnSDZ0WDNqbWhSR2FnX0lYTW53RjN2RDRYNWpr?oc=5",
+          "published_at": "01:24"
         }
       ]
     },
     {
-      "id": "world-11",
+      "id": "world-2",
+      "title": "유가는 하락했지만 중동 공급 위험이 지속되면서 주간 상승세를 향하고 있습니다.",
+      "title_en": "Oil edges lower, but heads for weekly gain as Middle East supply risks persist",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdU1pbkMwaXhwRm5RZ000RGVzRzA0b0hTa24wcF9ZWG8wcThYNnRmSTlDdDBsdFhBZEk3OWg5Uzl1WHlvZ3hNSUlZVUtfSFp2Y1RqYmx0bGpfNlRNT05jY2JrUXQxSkR5bWY4UUtjUjl4VWROSnZoeEpIaGtYTkJfZjdET2I0eDk0ZzlNek9QZ1JJYXRIcEhvaWJNWGlZbV9SN2hRSlZwQmJpZFN1ajNSYzBZNmFYR2ZIMlE?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "유가 하락세지만 중동 공급 위험이 지속되면서 주간 상승세로 향함 Reuters",
+      "excerpt_en": "Oil edges lower, but heads for weekly gain as Middle East supply risks persist Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdU1pbkMwaXhwRm5RZ000RGVzRzA0b0hTa24wcF9ZWG8wcThYNnRmSTlDdDBsdFhBZEk3OWg5Uzl1WHlvZ3hNSUlZVUtfSFp2Y1RqYmx0bGpfNlRNT05jY2JrUXQxSkR5bWY4UUtjUjl4VWROSnZoeEpIaGtYTkJfZjdET2I0eDk0ZzlNek9QZ1JJYXRIcEhvaWJNWGlZbV9SN2hRSlZwQmJpZFN1ajNSYzBZNmFYR2ZIMlE?oc=5",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-10T01:33:00+09:00",
+      "latest_published_at": "2026-07-10T03:28:37+09:00",
+      "articles": [
+        {
+          "title": "Oil heads for weekly gain as Middle East supply risks persist",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/oil-heads-weekly-gain-middle-east-supply-risks-persist-6245311",
+          "published_at": "03:28"
+        },
+        {
+          "title": "Oil edges lower, but heads for weekly gain as Middle East supply risks persist",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdU1pbkMwaXhwRm5RZ000RGVzRzA0b0hTa24wcF9ZWG8wcThYNnRmSTlDdDBsdFhBZEk3OWg5Uzl1WHlvZ3hNSUlZVUtfSFp2Y1RqYmx0bGpfNlRNT05jY2JrUXQxSkR5bWY4UUtjUjl4VWROSnZoeEpIaGtYTkJfZjdET2I0eDk0ZzlNek9QZ1JJYXRIcEhvaWJNWGlZbV9SN2hRSlZwQmJpZFN1ajNSYzBZNmFYR2ZIMlE?oc=5",
+          "published_at": "01:33"
+        }
+      ]
+    },
+    {
+      "id": "world-52",
+      "title": "Mick Jagger는 Rolling Stones가 새 앨범 'Foreign Tongues' 투어를 희망한다고 말했습니다.",
+      "title_en": "Mick Jagger says Rolling Stones hope to tour new album 'Foreign Tongues'",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORlNKWGhra0dLRVRhcGFlZGJ6NDFFM21nY01UQ2lSTFgydV9nTy1hdjVTZDFiTEg2b0s1OHVlR3Vrd09wdmZZdEpLYzZIQnRlNzJlQURMOGFPTkpabklyT0ZpRE1QZmRYZmhNTDJFRjNNYTBUR1hqLUtiMXo4OXZFU291NnlXWkYyNWpYU09PZmFZcHdnVDdoWnA1aXU0VFBXN3A4SlBJb3dtNVd1cF9qQnBKd2VxdUtuRzJaZkNmbUNVbk5P?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "앨범 #25, Foreign Tongues에서 록의 원로 정치가들은 80대 남성이 여전히 훌륭한 음반을 만들 수 있는지에 대한 우려를 다시 한번 해소합니다.",
+      "excerpt_en": "On album #25, Foreign Tongues, rock's elder statesmen once again dismantle concerns whether men in their eighties can still make great records.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-07-10/the-rolling-stones-foreign-tongues-album-review-mick-jagger/106901680",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-09T09:19:05+09:00",
+      "latest_published_at": "2026-07-10T03:13:08+09:00",
+      "articles": [
+        {
+          "title": "The Rolling Stones prove 'This never gets old!' with new album",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/the-rolling-stones-foreign-tongues-album-review-mick-jagger/106901680",
+          "published_at": "03:13"
+        },
+        {
+          "title": "Mick Jagger says Rolling Stones hope to tour new album 'Foreign Tongues'",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORlNKWGhra0dLRVRhcGFlZGJ6NDFFM21nY01UQ2lSTFgydV9nTy1hdjVTZDFiTEg2b0s1OHVlR3Vrd09wdmZZdEpLYzZIQnRlNzJlQURMOGFPTkpabklyT0ZpRE1QZmRYZmhNTDJFRjNNYTBUR1hqLUtiMXo4OXZFU291NnlXWkYyNWpYU09PZmFZcHdnVDdoWnA1aXU0VFBXN3A4SlBJb3dtNVd1cF9qQnBKd2VxdUtuRzJaZkNmbUNVbk5P?oc=5",
+          "published_at": "09:19"
+        }
+      ]
+    },
+    {
+      "id": "world-6",
+      "title": "USDA는 데이터에 대한 의심이 커지면서 보고된 쇠고기 수출 판매량을 90% 줄였습니다.",
+      "title_en": "USDA lowers reported beef export sales by 90% amid growing doubts over data",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3360037/usda-lowers-reported-beef-export-sales-90-amid-growing-doubts-over-data?utm_source=rss_feed",
+      "category": "미국",
+      "primary_source": "SCMP",
+      "excerpt": "미국 농무부는 목요일 6월 말에 보고된 쇠고기 수출 판매량을 대폭 낮췄으며, 이는 직원 손실 이후 기관의 데이터 품질에 대한 새로운 우려를 불러일으켰습니다.",
+      "excerpt_en": "The US Department of Agriculture dramatically lowered its reported beef export sales for late June on Thursday, sparking fresh concerns about the quality of the agency’s data after staffing losses as ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3360037/usda-lowers-reported-beef-export-sales-90-amid-growing-doubts-over-data?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-09T20:08:07+09:00",
+      "latest_published_at": "2026-07-09T21:25:06+09:00",
+      "articles": [
+        {
+          "title": "USDA lowers beef export sales by 90% amid growing doubts over data",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblB6c1hlajB5LWRCLUZSRWh2ZFprb2FhRzhtLWo0ajdVMVctclNsbzJnc2tKX2dUX01uUHRValJYWGpwWmVjbjZScG13WHZMZWNyQlVobDREZGV4XzZqaVhkMUo1Y202WUJrY1VNbVBXZG5ONDdzVm9uRFppblJmNDcwSGN5Nk1Gd21La3gwdUV0NW1KZDQ2eFFMSHFWVkg2aFk2VGdpYWhyU3JrWV9F?oc=5",
+          "published_at": "21:25"
+        },
+        {
+          "title": "USDA lowers reported beef export sales by 90% amid growing doubts over data",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360037/usda-lowers-reported-beef-export-sales-90-amid-growing-doubts-over-data?utm_source=rss_feed",
+          "published_at": "20:08"
+        }
+      ]
+    },
+    {
+      "id": "world-21",
       "title": "Meta, 개발자에게 미리 공개된 Muse Spark 1.1 모델 출시",
       "title_en": "Meta debuts Muse Spark 1.1 model with preview open to developers",
       "title_source": "earliest_pick",
@@ -1781,7 +1902,7 @@
       ]
     },
     {
-      "id": "world-13",
+      "id": "world-23",
       "title": "마이크론, 미국 투자 계획 다시 강화, 2035년까지 2,500억 달러 약속",
       "title_en": "Micron boosts US investment plan again, commits $250 billion through 2035",
       "title_source": "earliest_pick",
@@ -1828,64 +1949,17 @@
       ]
     },
     {
-      "id": "world-40",
-      "title": "대만, 외국 국회의원 해안경비대 방문으로 중국 순찰에 반발",
-      "title_en": "Taiwan pushes back at China patrols with Coast Guard trip for foreign lawmakers",
+      "id": "world-56",
+      "title": "New York Times가 주도하는 단체, 미국 저작권 분쟁에서 OpenAI를 제재해 달라고 법원에 요청",
+      "title_en": "New York Times-led group asks court to sanction OpenAI in US copyright dispute",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3283524/taiwan-pushes-back-at-china-patrols-with-coast-guard-trip-for-foreign-lawmakers",
-      "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "대만 해안 경비대 선박 PP-10081, 대만 해협 탑승 - 대만 정부는 해안 경비대 선박에 소수의 외국 국회의원들을 태워 대만이 통제하는 민감한 섬 주변을 돌았습니다.",
-      "excerpt_en": "ON BOARD THE ​TAIWAN COAST GUARD SHIP PP-10081, Taiwan Strait - T aiwan's government took a small group ‌of foreign lawmakers on a Coast Guard ship around sensitive Taiwan-controlled islands next to t",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3283524/taiwan-pushes-back-at-china-patrols-with-coast-guard-trip-for-foreign-lawmakers",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-09T10:52:00+09:00",
-      "latest_published_at": "2026-07-09T10:53:57+09:00",
-      "articles": [
-        {
-          "title": "Taiwan pushes back at China patrols with Coast Guard trip for foreign lawmakers",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2drdDM3SFZBTzZkanhLbUdicTlmUUFtaUhBeE9ySzJXOWhsZnd5cXJBSmhvdVEyVVVHVjFWNHFmS1lQMEJfdE5NaDFXdk9FRi0xSWE2cGV3c0ZMRDNnY0R1U2p6Mk5RRzJzc2lWa0FvU1JtUkgtZTllcUFEalY5ck9NUXZ6Ynhoc0JzRG9yRVpfM0FsQzRDeU9EdVdNUFBBbm9jUVdrdGFTX05NbU1iems1QjhKd3llSFM4Ug?oc=5",
-          "published_at": "10:53"
-        },
-        {
-          "title": "Taiwan pushes back at China patrols with Coast Guard trip for foreign lawmakers",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3283524/taiwan-pushes-back-at-china-patrols-with-coast-guard-trip-for-foreign-lawmakers",
-          "published_at": "10:52"
-        }
-      ]
-    },
-    {
-      "id": "world-73",
-      "title": "북아일랜드 모닥불에 타오르는 모스크 복제품, '역겹다' 비난",
-      "title_en": "Replica of mosque on bonfire in Northern Ireland condemned as 'sickening'",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2E5cGNuYzR4U2ltQkpnbTNlWDJydXkxXzdrZGVpZDhhX2Eta1NheWdqeno1SzdwZFh2b1lHdXBTNFE0c2JEX0ZwYzBzU2NyaEdxVzZCNjU0RkUwUjRFdlJqd1RTMV9aX2VMYkU3bGpISkdsS2FSTklTWlRSbmEwWTJjQzdFUDJDMFFxSENDQm4ybG1VMmQ2aTZhc3dCQUZzZVJTaUZHcw?oc=5",
-      "category": "기타",
+      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTYxWTEzRzVsSVY1VG80RTRVNUpwekZUV1lkajUzMjYxZVNRb2RkR3NwX3E3Y04yQ2ZaRGtSMkNsMkJGenJnTmRjcUhmNFJnT05kZXJrTVIxX3V1MFpUN29WU1RPTHlxX3djazJ2MS02YmFzZXRNM01FTzJ0cE03dU5GVUFIS2o2eTF1X0tvcDBLSG56NktwTUFDbjV1ZW5mODdmQ0xtcHJfU0ljLW02ZFRaLTZNdVlfV094cW9DOHhpQXM?oc=5",
+      "category": "미국",
       "primary_source": "Reuters",
-      "excerpt": "북아일랜드 모이가셸의 충성파 모닥불에는 오렌지 오더 축하 행사를 앞두고 모스크 모형과 이민 반대 표지판이 전시되어 있습니다.",
-      "excerpt_en": "A loyalist bonfire in Moygashel, Northern Ireland displays a mosque replica and anti-immigration signs ahead of Orange Order celebrations.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/video/2026/07/09/mosque-replica-and-anti-immigration-signs-appear-on-northern-ireland-bonfire",
+      "excerpt": "뉴스 회사는 ChatGPT 제작자가 획기적인 저작권 침해 재판에 중요한 증거를 숨기고 있다고 주장합니다.",
+      "excerpt_en": "The news firms allege ChatGPT maker is hiding evidence important to what could be landmark copyright infringement trial.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/economy/2026/7/9/nyt-led-group-asks-court-to-sanction-openai-in-us-copyright-dispute?traffic_source=rss",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1901,29 +1975,29 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Euronews",
+        "Al Jazeera",
         "Reuters"
       ],
-      "first_published_at": "2026-07-09T12:58:09+09:00",
-      "latest_published_at": "2026-07-09T15:21:10+09:00",
+      "first_published_at": "2026-07-09T17:56:15+09:00",
+      "latest_published_at": "2026-07-09T21:17:54+09:00",
       "articles": [
         {
-          "title": "Mosque replica and anti-immigration signs appear on Northern Ireland bonfire",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/09/mosque-replica-and-anti-immigration-signs-appear-on-northern-ireland-bonfire",
-          "published_at": "15:21"
+          "title": "NYT-led group asks court to sanction OpenAI in US copyright dispute",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/7/9/nyt-led-group-asks-court-to-sanction-openai-in-us-copyright-dispute?traffic_source=rss",
+          "published_at": "21:17"
         },
         {
-          "title": "Replica of mosque on bonfire in Northern Ireland condemned as 'sickening'",
+          "title": "New York Times-led group asks court to sanction OpenAI in US copyright dispute",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2E5cGNuYzR4U2ltQkpnbTNlWDJydXkxXzdrZGVpZDhhX2Eta1NheWdqeno1SzdwZFh2b1lHdXBTNFE0c2JEX0ZwYzBzU2NyaEdxVzZCNjU0RkUwUjRFdlJqd1RTMV9aX2VMYkU3bGpISkdsS2FSTklTWlRSbmEwWTJjQzdFUDJDMFFxSENDQm4ybG1VMmQ2aTZhc3dCQUZzZVJTaUZHcw?oc=5",
-          "published_at": "12:58"
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTYxWTEzRzVsSVY1VG80RTRVNUpwekZUV1lkajUzMjYxZVNRb2RkR3NwX3E3Y04yQ2ZaRGtSMkNsMkJGenJnTmRjcUhmNFJnT05kZXJrTVIxX3V1MFpUN29WU1RPTHlxX3djazJ2MS02YmFzZXRNM01FTzJ0cE03dU5GVUFIS2o2eTF1X0tvcDBLSG56NktwTUFDbjV1ZW5mODdmQ0xtcHJfU0ljLW02ZFRaLTZNdVlfV094cW9DOHhpQXM?oc=5",
+          "published_at": "17:56"
         }
       ]
     },
     {
-      "id": "world-82",
-      "title": "미국 스타 크리스티안 풀리식, 월드컵 벨기에전 패배로 다리 골절",
+      "id": "world-70",
+      "title": "미국 스타 크리스티안 풀리식, 월드컵 벨기에전서 다리 골절",
       "title_en": "U.S. star Christian Pulisic fractured leg in World Cup loss to Belgium",
       "title_source": "earliest_pick",
       "title_url": "https://www.cbsnews.com/news/christian-pulisic-injury-broken-leg-world-cup-loss-us-mens-team/",
@@ -1969,7 +2043,7 @@
       ]
     },
     {
-      "id": "world-84",
+      "id": "world-72",
       "title": "파키스탄 구조대원, 화물기 승무원 수색 이틀째 거친 바다 전투",
       "title_en": "Pakistani rescuers battle rough seas on 2nd day of search for cargo plane crew",
       "title_source": "earliest_pick",
@@ -2016,17 +2090,17 @@
       ]
     },
     {
-      "id": "world-91",
-      "title": "이탈리아 지역이 쿠바 의사 프로그램을 중단하라는 미국의 압력에 저항하다",
-      "title_en": "An Italian region defies US pressure to end a Cuban doctors program",
+      "id": "world-77",
+      "title": "트럼프의 대형 아치 계획, 현실 확인",
+      "title_en": "Trump’s oversized arch plan gets a reality check",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/cuban-calabria-europe-italian-jamaica-b3011607.html",
-      "category": "유럽",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-arch-washington-review-b3011838.html",
+      "category": "미국",
       "primary_source": "The Independent",
-      "excerpt": "쿠바 의사들은 미국의 프로그램 종료 노력에도 불구하고 장기 프로그램에 따라 이탈리아 칼라브리아 지역 병원에서 일하고 있습니다.",
-      "excerpt_en": "Cuban doctors are working in hospitals in Italy's Calabria region under a long-running program despite U.S. efforts to end it",
+      "excerpt": "워싱턴 D.C.의 스카이라인을 바꿀 개선문을 건설하려는 도널드 트럼프 미국 대통령의 계획이 연방기관으로부터 또 다른 검토를 받고 있으며, 그의 승인이 필요하다.",
+      "excerpt_en": "President Donald Trump's plan to build a triumphal arch that would alter the Washington, D.C., skyline is getting another review from the federal agency whose approval he needs to build it",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/cuban-calabria-europe-italian-jamaica-b3011607.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-arch-washington-review-b3011838.html",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -2045,25 +2119,166 @@
         "AP News",
         "The Independent"
       ],
-      "first_published_at": "2026-07-09T04:15:42+09:00",
-      "latest_published_at": "2026-07-09T10:03:00+09:00",
+      "first_published_at": "2026-07-09T11:02:32+09:00",
+      "latest_published_at": "2026-07-09T23:39:00+09:00",
       "articles": [
         {
-          "title": "An Italian region defies US pressure to end a Cuban doctors program",
+          "title": "Trump’s plan for a triumphal arch in DC wins early approval from a key federal agency",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWEFWWllrWi0tR2Z4QXF4SGppSEZfSmFRTmZWUkVkSjN6MW1SNUFLdlhVSEhuUFBwUVd4UmJYd3NMYUl2ajB5eW51SjNiazBtRW8wZ2hURm1obE1YM3RVWC1Lb0pmREJ6dTY3T2dmSzlCTjRqVlVVSXBfb2tlWGFBQmZpak96NjFzbDdRUUx2Q1NzMXJmeERNTw?oc=5",
-          "published_at": "10:03"
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeTJ2cTZ0b1BRU0VpVjdyMkNCUHIxUURXUFNMZS1ZUmw2WVNxWjlHdkVlRldsTnp6OFJINUZ2aWEtdkI0ZnpQUzlsT3k3bFZybjVyUDlFMWRiX2hBa0NoU3g2ZDlDSHFhOFQwX3kwbWZnN3ROdTlqX0hPVjl2TzltNTMxM1UtR2tJQkRkVFkteTdveXk5a2VGeWs0cmY?oc=5",
+          "published_at": "23:39"
         },
         {
-          "title": "An Italian region defies US pressure to end a Cuban doctors program",
+          "title": "Trump’s oversized arch plan gets a reality check",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/cuban-calabria-europe-italian-jamaica-b3011607.html",
-          "published_at": "04:15"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-arch-washington-review-b3011838.html",
+          "published_at": "11:02"
         }
       ]
     },
     {
-      "id": "world-93",
+      "id": "world-358",
+      "title": "미국 정치! 플래너 파열, 맥코넬은 어디 있지?",
+      "title_en": "U.S. politics! Platner implosion, where’s McConnell?",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/radio/frontburner/u-s-politics-platner-implosion-wheres-mcconnell-9.7263411?cmp=rss",
+      "category": "아시아",
+      "primary_source": "CBC",
+      "excerpt": "미국 중간선거가 다가옴에 따라 성폭행 혐의가 민주당을 압박하고 공화당 상원의원 미치 매코넬의 건강은 비밀에 휩싸였습니다.",
+      "excerpt_en": "As the U.S. midterm elections approach, sex assault allegations tank a Democrat, and secrecy surrounds the health of Republican senator Mitch McConnell.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/radio/frontburner/u-s-politics-platner-implosion-wheres-mcconnell-9.7263411?cmp=rss",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-09T10:00:00+09:00",
+      "latest_published_at": "2026-07-09T19:03:03+09:00",
+      "articles": [
+        {
+          "title": "'Do you know he's alive?': GOP Rep. Marlin Stutzman questions Mitch McConnell's lengthy hospitalization",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/do-you-know-hes-alive-gop-rep-marlin-stutzman-questions-mitch-mcconnells-lengthy-hospitalization-101783619765820.html",
+          "published_at": "19:03"
+        },
+        {
+          "title": "U.S. politics! Platner implosion, where’s McConnell?",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/radio/frontburner/u-s-politics-platner-implosion-wheres-mcconnell-9.7263411?cmp=rss",
+          "published_at": "10:00"
+        }
+      ]
+    },
+    {
+      "id": "world-58",
+      "title": "대만, 외국 국회의원 해안경비대 방문으로 중국 순찰 거부",
+      "title_en": "Taiwan pushes back at China patrols with Coast Guard trip for foreign lawmakers",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3283524/taiwan-pushes-back-at-china-patrols-with-coast-guard-trip-for-foreign-lawmakers",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "대만 해안 경비대 선박 PP-10081, 대만 해협 탑승 - 대만 정부는 해안 경비대 선박에 소수의 외국 국회의원들을 태워 대만이 통제하는 민감한 섬 주변을 돌았습니다.",
+      "excerpt_en": "ON BOARD THE ​TAIWAN COAST GUARD SHIP PP-10081, Taiwan Strait - T aiwan's government took a small group ‌of foreign lawmakers on a Coast Guard ship around sensitive Taiwan-controlled islands next to t",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3283524/taiwan-pushes-back-at-china-patrols-with-coast-guard-trip-for-foreign-lawmakers",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-09T10:52:00+09:00",
+      "latest_published_at": "2026-07-09T10:53:57+09:00",
+      "articles": [
+        {
+          "title": "Taiwan pushes back at China patrols with Coast Guard trip for foreign lawmakers",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2drdDM3SFZBTzZkanhLbUdicTlmUUFtaUhBeE9ySzJXOWhsZnd5cXJBSmhvdVEyVVVHVjFWNHFmS1lQMEJfdE5NaDFXdk9FRi0xSWE2cGV3c0ZMRDNnY0R1U2p6Mk5RRzJzc2lWa0FvU1JtUkgtZTllcUFEalY5ck9NUXZ6Ynhoc0JzRG9yRVpfM0FsQzRDeU9EdVdNUFBBbm9jUVdrdGFTX05NbU1iems1QjhKd3llSFM4Ug?oc=5",
+          "published_at": "10:53"
+        },
+        {
+          "title": "Taiwan pushes back at China patrols with Coast Guard trip for foreign lawmakers",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3283524/taiwan-pushes-back-at-china-patrols-with-coast-guard-trip-for-foreign-lawmakers",
+          "published_at": "10:52"
+        }
+      ]
+    },
+    {
+      "id": "world-65",
+      "title": "에스와티니, 이민 단속의 일환으로 미국에서 추방된 11명 수용",
+      "title_en": "Eswatini receives 11 people deported from the US as part of migration crackdown",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbTRWa192MEx1Y2gzV2NHTkV1cmQ1VVpteERtS3hhaVZ5ZlNGWXRITXVhMWFtU0REbDV0S0VYSzJQWDJGczRweUZyRDRSVEduZkFVZGV2SDdacXBuU2Z2Z043cFBfLTQxUkxqZmlPTjlnSnZfbWNYY25KVmxLY3ZoU0c0UHhIOWNSaENuNkJqdF8zcHNTdk92X2o3N2RvSXVmRGdTYjJGYURuMGp3aTk2aklid1k?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "에스와티니는 양자간 합의에 따라 미국에서 추방된 네 번째 그룹의 사람들을 받아들였습니다.",
+      "excerpt_en": "Eswatini has accepted a fourth group of people deported from the United States under a bilateral agreement",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/eswatini-receives-11-people-deported-us-part-migration-134614418",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-07-09T12:41:00+09:00",
+      "latest_published_at": "2026-07-09T13:09:35+09:00",
+      "articles": [
+        {
+          "title": "Eswatini receives 11 people deported from the US as part of migration crackdown",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/eswatini-receives-11-people-deported-us-part-migration-134614418",
+          "published_at": "13:09"
+        },
+        {
+          "title": "Eswatini receives 11 people deported from the US as part of migration crackdown",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbTRWa192MEx1Y2gzV2NHTkV1cmQ1VVpteERtS3hhaVZ5ZlNGWXRITXVhMWFtU0REbDV0S0VYSzJQWDJGczRweUZyRDRSVEduZkFVZGV2SDdacXBuU2Z2Z043cFBfLTQxUkxqZmlPTjlnSnZfbWNYY25KVmxLY3ZoU0c0UHhIOWNSaENuNkJqdF8zcHNTdk92X2o3N2RvSXVmRGdTYjJGYURuMGp3aTk2aklid1k?oc=5",
+          "published_at": "12:41"
+        }
+      ]
+    },
+    {
+      "id": "world-75",
       "title": "대부분의 미국 유대인들은 어느 정당이나 트럼프 대통령의 지지를 받지 못한다고 새로운 AP-NORC 여론조사에서 밝혀졌습니다.",
       "title_en": "Most American Jews don't feel supported by either party or President Trump, new AP-NORC poll finds",
       "title_source": "earliest_pick",
@@ -2075,14 +2290,14 @@
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/jewish-americans-political-divide-israel-gaza-antisemitism-b3011811.html",
       "translation_status": "ok",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2110,166 +2325,25 @@
       ]
     },
     {
-      "id": "world-94",
-      "title": "'침묵을 유지할 수 없다': 이집트는 월드컵 아르헨티나에 패한 것에 대해 관리들이 편파적이었다고 불평한다",
-      "title_en": "‘Cannot remain silent': Egypt complains officials were biased in World Cup loss to Argentina",
+      "id": "world-262",
+      "title": "호주, 토종 바닷새에서 첫 H5N1 사례 확인, 개발에 '우려'",
+      "title_en": "Australia confirms first H5N1 case in native seabird, calls development 'concerning'",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVThyR3ltbEo4cTh3ekozUkw0NXpmMVlOYWRkaWo1eVFLeUQzMEItRnEzUktCWl9TUFVDMjFfMXNqLXRXZDgzZDRoeEtkX0l0LUl0NTNjdlRUSmNjSkc2MktjNmZucWFIRTNma1dzU3ZtN1hyMkUtenVabkJfZjVNUEpvWnQxMm0xc1FtbHVn?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "이집트축구협회(EFA)는 화요일 이집트가 아르헨티나를 상대로 16강전에서 3-2로 패한 경기가 불공평하고 편파적이었다고 판단한 데 대해 \"침묵을 지킬 수 없다\"고 수요일 밝혔다.",
-      "excerpt_en": "The Egyptian Football Association (EFA) said Wednesday it \"cannot remain silent\" after what it believes was unfair and biased officiating in Egypt's 3-2 round of 16 loss against Argentina on Tuesday.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/07/09/nx-s1-5887063/egypt-complain-world-cup",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "NPR"
-      ],
-      "first_published_at": "2026-07-09T06:22:00+09:00",
-      "latest_published_at": "2026-07-09T07:15:31+09:00",
-      "articles": [
-        {
-          "title": "Egypt complains officials were biased in World Cup loss to Argentina",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/09/nx-s1-5887063/egypt-complain-world-cup",
-          "published_at": "07:15"
-        },
-        {
-          "title": "‘Cannot remain silent': Egypt complains officials were biased in World Cup loss to Argentina",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVThyR3ltbEo4cTh3ekozUkw0NXpmMVlOYWRkaWo1eVFLeUQzMEItRnEzUktCWl9TUFVDMjFfMXNqLXRXZDgzZDRoeEtkX0l0LUl0NTNjdlRUSmNjSkc2MktjNmZucWFIRTNma1dzU3ZtN1hyMkUtenVabkJfZjVNUEpvWnQxMm0xc1FtbHVn?oc=5",
-          "published_at": "06:22"
-        }
-      ]
-    },
-    {
-      "id": "world-132",
-      "title": "영국의 계급 분열이 영국의 차기 총리가 될 앤디 번햄을 어떻게 형성했나요?",
-      "title_en": "How England's class divide shaped Andy Burnham, the U.K.'s likely next prime minister",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/07/09/nx-s1-5876065/andy-burnham-england-uk",
-      "category": "유럽",
-      "primary_source": "NPR",
-      "excerpt": "런던 – 노련한 정치인 앤디 번햄(Andy Burnham)이 키어 스타머(Keir Starmer)를 대신할 노동당 당수 후보 지명이 공식 개시되면서 목요일 영국의 차기 총리가 되기 위한 또 다른 조치를 취했습니다.",
-      "excerpt_en": "LONDON - Veteran politician Andy Burnham took another step towards becoming Britain’s next prime minister on Thursday as nominations to replace Keir Starmer as leader of the Labour Party formally open",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3283520/andy-burnham-moves-closer-to-uk-premiership",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "NPR"
-      ],
-      "first_published_at": "2026-07-09T09:00:00+09:00",
-      "latest_published_at": "2026-07-09T10:45:00+09:00",
-      "articles": [
-        {
-          "title": "Andy Burnham moves closer to UK premiership",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3283520/andy-burnham-moves-closer-to-uk-premiership",
-          "published_at": "10:45"
-        },
-        {
-          "title": "How England's class divide shaped Andy Burnham, the U.K.'s likely next prime minister",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/09/nx-s1-5876065/andy-burnham-england-uk",
-          "published_at": "09:00"
-        }
-      ]
-    },
-    {
-      "id": "world-147",
-      "title": "메르츠 총리 \"미국, 독일에 토마호크 미사일 판매 승인\"",
-      "title_en": "US approves sale of Tomahawk missiles to Germany, says Chancellor Merz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-approves-sale-of-tomahawk-missiles-to-germany-says-chancellor-merz-101783584699533.html",
-      "category": "유럽",
+      "title_url": "https://www.hindustantimes.com/world-news/australia-confirms-first-h5n1-case-in-native-seabird-calls-development-concerning-101783654831105.html",
+      "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "프리드리히 메르츠(Friedrich Merz) 총리는 연방의회에 미국산 토마호크 순항미사일을 구매해 독일에 배치하기로 합의했다고 통보했습니다. 그는 이것이 \"우리 방어에 있어 중요한 전략적 공백을 메웠다\"고 말했습니다.",
-      "excerpt_en": "Chancellor Friedrich Merz has informed the Bundestag parliament of a deal to buy US Tomahawk cruise missiles and station them in Germany. He said this closed a \"important strategic ‌gap ​in our defens",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/merz-germany-agreed-to-buy-tomahawk-missiles-at-nato-summit/a-77884596?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-09T08:14:15+09:00",
-      "latest_published_at": "2026-07-09T09:48:00+09:00",
-      "articles": [
-        {
-          "title": "Merz: Germany agreed to buy Tomahawk missiles at NATO summit",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/merz-germany-agreed-to-buy-tomahawk-missiles-at-nato-summit/a-77884596?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "09:48"
-        },
-        {
-          "title": "US approves sale of Tomahawk missiles to Germany, says Chancellor Merz",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-approves-sale-of-tomahawk-missiles-to-germany-says-chancellor-merz-101783584699533.html",
-          "published_at": "08:14"
-        }
-      ]
-    },
-    {
-      "id": "world-87",
-      "title": "이란 최고지도자 아야톨라 알리 하메네이의 장례식이 이라크 성지에서 거행됐다.",
-      "title_en": "Funeral processions held in holy Iraqi cities for Iran’s late Supreme Leader Ayatollah Ali Khamenei",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0tiMk9sUC1oMXdEOFM1cnljQkMyWEZqcnlDSVkyY0l4LUpleFlZdk4zM3Y1d0o4RnVUYVRFbnZ6Rk5qOWZVby0wSGxkUHZDaThhQm9MZ2pldUt1cDZReXc1YmFKSWNmajJLbnpIbGZlZnhWNDkyNXQ4X0wxckFPNGRlR2dDZXdkdFRBbG1HbmFPaEFRWEVn?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "이란 최고지도자 아야톨라 알리 하메네이의 장례식이 이라크의 성지 나자프와 카르발라에서 거행됐다.",
-      "excerpt_en": "Funeral processions for Iran’s late Supreme Leader Ayatollah Ali Khamenei have been held in Iraq's holy cities of Najaf and Karbala",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/funeral-processions-begin-najaf-irans-late-supreme-leader-134574528",
+      "excerpt": "이는 호주 바닷새에서 처음으로 확인된 감염이며, 다른 모든 사례는 이동하는 바닷새에서 발견됩니다.",
+      "excerpt_en": "It is the first confirmed infection in an Australian seabird, with all other cases being found in migratory seabirds.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/australia-confirms-first-h5n1-case-in-native-seabird-calls-development-concerning-101783654831105.html",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
         "raw75": 39
       },
       "area_value": 2,
@@ -2277,28 +2351,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "AP News"
+        "Hindustan Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-09T05:13:00+09:00",
-      "latest_published_at": "2026-07-09T06:49:57+09:00",
+      "first_published_at": "2026-07-10T03:45:22+09:00",
+      "latest_published_at": "2026-07-10T04:22:27+09:00",
       "articles": [
         {
-          "title": "Funeral processions held in holy Iraqi cities for Iran’s late Supreme Leader Ayatollah Ali Khamenei",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/funeral-processions-begin-najaf-irans-late-supreme-leader-134574528",
-          "published_at": "06:49"
+          "title": "First case of deadly H5N1 confirmed in Australian seabird",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/science/australia-bird-flu-seabird-first-case-b3012361.html",
+          "published_at": "04:22"
         },
         {
-          "title": "Funeral processions held in holy Iraqi cities for Iran’s late Supreme Leader Ayatollah Ali Khamenei",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0tiMk9sUC1oMXdEOFM1cnljQkMyWEZqcnlDSVkyY0l4LUpleFlZdk4zM3Y1d0o4RnVUYVRFbnZ6Rk5qOWZVby0wSGxkUHZDaThhQm9MZ2pldUt1cDZReXc1YmFKSWNmajJLbnpIbGZlZnhWNDkyNXQ4X0wxckFPNGRlR2dDZXdkdFRBbG1HbmFPaEFRWEVn?oc=5",
-          "published_at": "05:13"
+          "title": "Australia confirms first H5N1 case in native seabird, calls development 'concerning'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/australia-confirms-first-h5n1-case-in-native-seabird-calls-development-concerning-101783654831105.html",
+          "published_at": "03:45"
         }
       ]
     },
     {
-      "id": "world-207",
+      "id": "world-200",
       "title": "중국 신발 제조 중심지 공장 화재로 28명 사망",
       "title_en": "28 killed in factory blaze in the heart of Chinese shoe manufacturing hub",
       "title_source": "earliest_pick",
@@ -2310,14 +2384,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/china/politics/article/3360024/28-killed-factory-blaze-heart-chinese-shoe-manufacturing-hub?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
@@ -2345,7 +2419,7 @@
       ]
     },
     {
-      "id": "world-210",
+      "id": "world-203",
       "title": "이탈리아, 간첩혐의 러시아 외교관 2명 추방",
       "title_en": "Italy expels two Russian diplomats accused of spying",
       "title_source": "earliest_pick",
