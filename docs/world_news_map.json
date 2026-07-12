@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,23 +8,23 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-07-12T06:52:35.971514+09:00",
+  "updated_at": "2026-07-12T12:26:13.872990+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
   "article_count_total": 390,
-  "cluster_count_total": 293,
+  "cluster_count_total": 291,
   "clusters": [
     {
-      "id": "world-17",
-      "title": "태풍 바비, 중국 동부 타이저우에 상륙, 약 200만 명 대피",
-      "title_en": "Typhoon Bavi makes landfall in eastern China's Taizhou after nearly 2 million evacuated",
+      "id": "world-22",
+      "title": "태풍 바비가 대만을 지나 중국에 상륙해 일본 남부를 강타했습니다.",
+      "title_en": "Typhoon Bavi makes landfall in China after brushing past Taiwan, belting southern Japan",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeUVORnVJVlAxZ1U2R2VGdy1UYUFGeU9OWW16dVkzb0tTUlo5em16Z2xzTXBTUlZTNVRnNXlQbGdrRFF0TURjLWJ0SUYxRHdpM1o4ZFJhcEgzNF9OWG5hUHR4YTRTTk5PY1Y4VFdJVEdkalYtVFd4eEtKb016TUpOekFYRkp5SU5EM1N5ZXY1TWJSRDlnMEZWTzVRYWg1cjNzWm1HZUZicVp4RnM?oc=5",
+      "title_url": "https://www.cbc.ca/news/world/typhoon-bavi-evacuations-china-9.7266891?cmp=rss",
       "category": "아시아",
-      "primary_source": "Reuters",
+      "primary_source": "CBC",
       "excerpt": "중국 당국은 태풍 바비가 중국 동부 저장성(浙江省)에 상륙하면서 토요일 현재 170만 명 이상의 사람들을 대피시켰습니다. 수백 편의 항공편도 취소되었으며,",
       "excerpt_en": "Chinese authorities evacuated more than 1.7 million people as of Saturday as Typhoon Bavi made landfall in the country's eastern province of Zhejiang. Hundreds of flights have also been cancelled, and",
       "excerpt_source": "France24",
@@ -39,22 +39,35 @@
         "time_score": 3,
         "raw75": 72
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 9,
+      "article_count": 9,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 8,
       "sources": [
         "ABC News",
+        "ABC News Australia",
         "AP News",
+        "Bangkok Post",
         "CBC",
         "France24",
         "Hindustan Times",
-        "Reuters",
         "Times of India"
       ],
-      "first_published_at": "2026-07-11T01:10:00+09:00",
-      "latest_published_at": "2026-07-11T19:44:32+09:00",
+      "first_published_at": "2026-07-11T13:32:23+09:00",
+      "latest_published_at": "2026-07-12T01:30:20+09:00",
       "articles": [
+        {
+          "title": "Typhoon makes landfall in China as millions of people take shelter",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/typhoon-bavi-makes-landfall-in-china/106906656",
+          "published_at": "01:30"
+        },
+        {
+          "title": "Typhoon makes landfall in China after forcing nearly two million to flee",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3284797/typhoon-makes-landfall-in-china-after-forcing-nearly-two-million-to-flee",
+          "published_at": "19:45"
+        },
         {
           "title": "More than 1 million evacuated as Typhoon Bavi makes landfall in China",
           "source_name": "France24",
@@ -62,16 +75,16 @@
           "published_at": "19:44"
         },
         {
+          "title": "Typhoon Bavi makes landfall in eastern China as more than 1 million are evacuated",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUFpYaEtpZ2dWSzVtVndmRk01cTZ0aHQybGswb1c5QXd1WGtBRjIwejcwbUQ3cFJOVDV1MEpzdVQ0MGNKWWdETkVxVTRYV0ZHYVNTOEVJTktCWlQwVFJnVklJMEIwa3R0SHJDZVotNHdnRi1lbXl1dFpMcXo4eE5pV1lyeWlLWmdoeWxlX0pFRFk5QXRRMHc?oc=5",
+          "published_at": "19:21"
+        },
+        {
           "title": "Typhoon Bavi makes landfall in eastern China, over 1 million evacuated",
           "source_name": "Times of India",
           "url": "https://timesofindia.indiatimes.com/world/china/typhoon-bavi-makes-landfall-in-eastern-china-over-1-million-evacuated/articleshow/132334802.cms",
           "published_at": "17:05"
-        },
-        {
-          "title": "Typhoon Bavi makes landfall in eastern China as more than 1 million are evacuated",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUFpYaEtpZ2dWSzVtVndmRk01cTZ0aHQybGswb1c5QXd1WGtBRjIwejcwbUQ3cFJOVDV1MEpzdVQ0MGNKWWdETkVxVTRYV0ZHYVNTOEVJTktCWlQwVFJnVklJMEIwa3R0SHJDZVotNHdnRi1lbXl1dFpMcXo4eE5pV1lyeWlLWmdoeWxlX0pFRFk5QXRRMHc?oc=5",
-          "published_at": "16:54"
         },
         {
           "title": "More than 1 million evacuated Typhoon Bavi hits China",
@@ -96,17 +109,11 @@
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/typhoon-bavi-evacuations-china-9.7266891?cmp=rss",
           "published_at": "13:32"
-        },
-        {
-          "title": "Typhoon Bavi makes landfall in eastern China's Taizhou after nearly 2 million evacuated",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeUVORnVJVlAxZ1U2R2VGdy1UYUFGeU9OWW16dVkzb0tTUlo5em16Z2xzTXBTUlZTNVRnNXlQbGdrRFF0TURjLWJ0SUYxRHdpM1o4ZFJhcEgzNF9OWG5hUHR4YTRTTk5PY1Y4VFdJVEdkalYtVFd4eEtKb016TUpOekFYRkp5SU5EM1N5ZXY1TWJSRDlnMEZWTzVRYWg1cjNzWm1HZUZicVp4RnM?oc=5",
-          "published_at": "01:10"
         }
       ]
     },
     {
-      "id": "world-5",
+      "id": "world-10",
       "title": "서안 지구 방문 중 이스라엘 정착민에 의해 구금된 미국 민주당원 로 칸나",
       "title_en": "US Democrat Ro Khanna detained by Israeli settlers during West Bank visit",
       "title_source": "earliest_pick",
@@ -118,14 +125,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/jul/11/ro-khanna-congressman-detained-israel-settlers-west-bank",
       "translation_status": "ok",
-      "score": 93,
+      "score": 92,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 70
+        "time_score": 2,
+        "raw75": 69
       },
       "area_value": 9,
       "article_count": 9,
@@ -200,7 +207,197 @@
       ]
     },
     {
-      "id": "world-3",
+      "id": "world-84",
+      "title": "이란 모즈타바 하메네이, 아버지 살해에 대한 복수 다짐",
+      "title_en": "Iran's Mojtaba Khamenei vows revenge for father's killing",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/iran-s-mojtaba-khamenei-vows-revenge-for-father-s-killing/live-77913349?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "이란 최고지도자 모즈타바 하메네이는 도널드 트럼프 대통령이 암살 시도에 대해 경고한 지 몇 시간 만에 미국-이스라엘이 아버지와 전임자를 살해한 데 대한 복수를 다짐했습니다.",
+      "excerpt_en": "Iran's supreme leader Mojtaba Khamenei on Saturday vowed revenge for the US-Israeli killing of his father and predecessor, hours after President Donald Trump warned against any attempt to assassinate ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260711-mojtaba-khamenei-iran-supreme-leader-vows-revenge-for-father-s-killing",
+      "translation_status": "ok",
+      "score": 92,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 69
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "Bangkok Post",
+        "CBS News",
+        "DW",
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-11T11:40:00+09:00",
+      "latest_published_at": "2026-07-12T03:15:46+09:00",
+      "articles": [
+        {
+          "title": "Military strikes, nuclear attack or nothing? What happens if Iran assassinates Trump",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/military-strikes-or-nuclear-attack-or-nothing-what-happens-if-iran-assassinates-trump-jd-vance-role-us-iran-war-101783824419369.html",
+          "published_at": "03:15"
+        },
+        {
+          "title": "Trump, Iran's supreme leader trade threats",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/trump-irans-supreme-leader-trade-threats/",
+          "published_at": "00:51"
+        },
+        {
+          "title": "Mojtaba Khamenei: Iran supreme leader vows revenge for father's killing",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260711-mojtaba-khamenei-iran-supreme-leader-vows-revenge-for-father-s-killing",
+          "published_at": "16:04"
+        },
+        {
+          "title": "Iran’s supreme leader vows revenge for father’s killing",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3284482/irans-supreme-leader-vows-revenge-for-fathers-killing",
+          "published_at": "13:45"
+        },
+        {
+          "title": "Iran's Mojtaba Khamenei vows revenge for father's killing",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/iran-s-mojtaba-khamenei-vows-revenge-for-father-s-killing/live-77913349?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "11:40"
+        }
+      ]
+    },
+    {
+      "id": "world-1",
+      "title": "미국, 호르무즈 해협에서 상선 공격 후 이란에 추가 공격 개시",
+      "title_en": "US launches more strikes on Iran after commercial ship struck in Strait of Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWNfWDBGeUlZdnVYdk9zTTBTa05FcHZQZ2NTaE14ZU9SUFRKcDgyamdEaUFjVi1ycHRuaEdaV2cwU3FSWjZqb3BzNXBvMmdobFNvejdtRGo0QUk3emV4alhETFNOcWgyQUg0MnFDVF9mSHRuM3R0Zng3ZnNWUDlqajlyWndRaHk2dkdycXVNdFA0S21RYk5YRElCTVBQZjloVEF2bU5ZTEl6bDFabTdCWWVSdw?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "중부사령부는 지난 토요일 밤 호르무즈 해협에서 민간인이 탑승하는 컨테이너선을 공격한 것에 대한 보복으로 이란을 공격했다고 확인했습니다.",
+      "excerpt_en": "Central Command confirmed Saturday night that its forces attacked Iran in retaliation for the nation’s alleged attack on a civilian-crewed container ship in the Strait of Hormuz",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-israel-strait-of-hormuz-b3012370.html",
+      "translation_status": "ok",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBS News",
+        "Channel News Asia",
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-11T23:21:00+09:00",
+      "latest_published_at": "2026-07-12T03:09:02+09:00",
+      "articles": [
+        {
+          "title": "U.S. launches another round of retaliatory strikes on Iran, Pentagon says",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-talks-strait-of-hormuz/",
+          "published_at": "03:09"
+        },
+        {
+          "title": "Iran-US war latest: Trump launches more strikes on Iran as Hegseth vows ‘now they pay’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-israel-strait-of-hormuz-b3012370.html",
+          "published_at": "02:32"
+        },
+        {
+          "title": "US launches new strikes on Iran after container ship hit in Hormuz",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-closed-unauthorised-vessel-hit-6248636",
+          "published_at": "23:36"
+        },
+        {
+          "title": "US launches more strikes on Iran after commercial ship struck in Strait of Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaWNfWDBGeUlZdnVYdk9zTTBTa05FcHZQZ2NTaE14ZU9SUFRKcDgyamdEaUFjVi1ycHRuaEdaV2cwU3FSWjZqb3BzNXBvMmdobFNvejdtRGo0QUk3emV4alhETFNOcWgyQUg0MnFDVF9mSHRuM3R0Zng3ZnNWUDlqajlyWndRaHk2dkdycXVNdFA0S21RYk5YRElCTVBQZjloVEF2bU5ZTEl6bDFabTdCWWVSdw?oc=5",
+          "published_at": "23:21"
+        }
+      ]
+    },
+    {
+      "id": "world-108",
+      "title": "토론토 총격 사건: 살사 온 세인트 클레어(Salsa on St Clair) 페스티벌에서 2명이 사망하고 여러 명이 부상당했습니다. 공격자 전체",
+      "title_en": "Toronto shooting: 2 killed, several injured at Salsa on St Clair festival; attacker at large",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/canada-toronto-street-festival-shooting-death-toll-injured-shooter-name-attacker-police-st-clair-avenue-101783820620906.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "캐나다 경찰은 세인트 클레어 페스티벌 살사 근처에서 총상을 입은 6명이 발견된 후 용의자를 체포하지 못했다고 밝혔습니다. 토론토 거리 축제 근처에서 총격 사건이 발생해 2명이 사망했습니다.",
+      "excerpt_en": "Police in the city in Canada say suspect has not been apprehended after finding six people with gunshot wounds near Salsa on St Clair Festival A shooting near a Toronto street festival killed two peop",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/12/toronto-shooting-two-dead-and-three-injured-as-police-search-for-active-shooter",
+      "translation_status": "ok",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Channel News Asia",
+        "Hindustan Times",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-12T01:47:17+09:00",
+      "latest_published_at": "2026-07-12T02:35:11+09:00",
+      "articles": [
+        {
+          "title": "Toronto shooting: two dead and four injured near street festival, with suspect still at large",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/12/toronto-shooting-two-dead-and-three-injured-as-police-search-for-active-shooter",
+          "published_at": "02:35"
+        },
+        {
+          "title": "Two dead and at least 4 wounded in Toronto street festival mass shooting, police say",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/toronto-street-festival-shooting-b3013326.html",
+          "published_at": "02:14"
+        },
+        {
+          "title": "2 dead, several hurt in Toronto shooting, attacker at large",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/2-dead-several-hurt-in-toronto-shooting-attacker-large-6248771",
+          "published_at": "01:55"
+        },
+        {
+          "title": "Toronto shooting: 2 killed, several injured at Salsa on St Clair festival; attacker at large",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/canada-toronto-street-festival-shooting-death-toll-injured-shooter-name-attacker-police-st-clair-avenue-101783820620906.html",
+          "published_at": "01:47"
+        }
+      ]
+    },
+    {
+      "id": "world-8",
       "title": "남아프리카공화국 월드컵 미드필더 아담스(Adams)가 25세의 나이로 사망했습니다.",
       "title_en": "South Africa World Cup midfielder Adams dies aged 25",
       "title_source": "earliest_pick",
@@ -212,21 +409,20 @@
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/sport/20260711-south-africa-2026-world-cup-midfielder-jayden-adams-dies-at-25",
       "translation_status": "ok",
-      "score": 89,
+      "score": 88,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 6,
       "sources": [
-        "ABC News Australia",
         "Al Jazeera",
         "BBC",
         "CBC",
@@ -235,14 +431,8 @@
         "Reuters"
       ],
       "first_published_at": "2026-07-11T14:34:26+09:00",
-      "latest_published_at": "2026-07-11T20:39:40+09:00",
+      "latest_published_at": "2026-07-11T18:38:50+09:00",
       "articles": [
-        {
-          "title": "South African World Cup player dies aged 25",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/south-africa-world-cup-player-jayden-adams-dies/106906444",
-          "published_at": "20:39"
-        },
         {
           "title": "South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup",
           "source_name": "Al Jazeera",
@@ -282,7 +472,89 @@
       ]
     },
     {
-      "id": "world-149",
+      "id": "world-13",
+      "title": "베트남 푸꾸옥섬 근처에서 보트 전복으로 인도 관광객 15명 사망",
+      "title_en": "15 Indian tourists die after boat capsizes near Vietnam's Phu Quoc Island",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/boat-carrying-indian-tourists-capsizes-near-vietnam-phu-quoc-island-embassy-monitoring-situation-death-toll-injured-101783761606068.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "베트남 남부의 섬 여행을 마치고 돌아오는 보트가 토요일 전복되어 승객들이 도움을 청하는 동안 해안에서 0.30마일도 채 떨어지지 않은 인도 관광객 15명이 사망했다고 관리들은 말했습니다.",
+      "excerpt_en": "A boat returning from an island trip in southern Vietnam capsized on Saturday, killing 15 Indian tourists less than half a kilometre (0.30 mile) from shore, as passengers shouted for help, officials a",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 7,
+      "article_count": 7,
+      "syndicated_count": 0,
+      "source_count": 7,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "DW",
+        "Hindustan Times",
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-11T09:21:52+09:00",
+      "latest_published_at": "2026-07-11T23:35:23+09:00",
+      "articles": [
+        {
+          "title": "Indian tourists killed after speedboat capsizes in Vietnam",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/indian-tourists-killed-after-speedboat-capsizes-in-vietnam?traffic_source=rss",
+          "published_at": "23:35"
+        },
+        {
+          "title": "Boat carrying tourists capsizes off Vietnam's Phu Quoc island, killing 15",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT25HMDQ5OF9SczNrMlBVaHlMNC1CbzMtWjZRNmNldnc0VE13dGRGSWFIc3dMWFUzMWFQR3h0c2ZrTDlEMFdZdmpZR1RBeFNOWGdYZWhBbFBkOWVjZWhLNEhRamlyNTJxRl9wYnpRYl8yN1g2b2tBZWNPSlhpdmt3Q1hyQ3NSZ2Rzc3lkZnA4dDdsN0tSd25HVHV2Y1VGMkV4ajBQeHVpbHhZbnFUYXhrNkpPQVNHNjUzYVIzUURlelJKU2NQ?oc=5",
+          "published_at": "18:26"
+        },
+        {
+          "title": "15 Indian tourists killed after speedboat capsizes in southern Vietnam",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/15-indian-tourists-killed-after-speedboat-capsized-southern-134671968",
+          "published_at": "15:46"
+        },
+        {
+          "title": "Vietnam tourist speedboat capsizes, killing 15 Indian tourists",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
+          "published_at": "14:10"
+        },
+        {
+          "title": "Vietnam: Indian tourists killed in boat capsize",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/vietnam-indian-tourists-killed-in-boat-capsize/a-77916717?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "13:49"
+        },
+        {
+          "title": "15 die as speedboat capsizes in Vietnam",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3284457/15-die-as-speedboat-capsizes-in-vietnam",
+          "published_at": "12:05"
+        },
+        {
+          "title": "15 Indian tourists die after boat capsizes near Vietnam's Phu Quoc Island",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/boat-carrying-indian-tourists-capsizes-near-vietnam-phu-quoc-island-embassy-monitoring-situation-death-toll-injured-101783761606068.html",
+          "published_at": "09:21"
+        }
+      ]
+    },
+    {
+      "id": "world-157",
       "title": "스페인 투우 축제에서 주자가 얼굴에 상처를 입고 12명이 부상당했습니다.",
       "title_en": "Runner gored in the face and 12 others injured at Spanish bull-running festival",
       "title_source": "earliest_pick",
@@ -294,14 +566,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3360249/runner-gored-face-spains-san-fermin-bull-run-festival?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 89,
+      "score": 88,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
       "area_value": 6,
       "article_count": 6,
@@ -316,13 +588,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-07-11T07:38:00+09:00",
-      "latest_published_at": "2026-07-11T20:29:52+09:00",
+      "latest_published_at": "2026-07-11T23:10:28+09:00",
       "articles": [
         {
           "title": "Bull gores runner in the face at Spain's San Fermin bull run festival",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/pamplona-spain-bull-run-san-fermin-festival-gore-incident/",
-          "published_at": "20:29"
+          "published_at": "23:10"
         },
         {
           "title": "Runner gored in face and at least 12 others injured during Spain’s historic bull run festival",
@@ -357,7 +629,75 @@
       ]
     },
     {
-      "id": "world-2",
+      "id": "world-165",
+      "title": "러시아가 탄도미사일을 발사하자 우크라이나는 동맹국에 재보급을 촉구했다.",
+      "title_en": "Ukraine presses allies for resupply as Russia launches ballistic missiles",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3360232/ukraine-presses-allies-resupply-russia-launches-ballistic-missiles?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "러시아는 토요일에 미사일과 드론으로 우크라이나를 공격해 2명이 사망하고 19명이 부상했다고 키예프가 대공무기 공급 부족으로 노출된 후 기다리고 있는 가운데 관리들이 말했다.",
+      "excerpt_en": "Russia attacked Ukraine with missiles and drones on Saturday, killing two and wounding 19 others, officials said, as Kyiv awaits supplies of air defence munitions after a shortage has ‌left it exposed",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3360232/ukraine-presses-allies-resupply-russia-launches-ballistic-missiles?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBC",
+        "CBS News",
+        "SCMP",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-07-11T11:48:18+09:00",
+      "latest_published_at": "2026-07-11T15:49:14+09:00",
+      "articles": [
+        {
+          "title": "6 killed as Russia rains missiles, drones on Ukraine; Kyiv renews plea for air defences",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/6-killed-as-russia-rains-missiles-drones-on-ukraine-kyiv-renews-plea-for-air-defences/articleshow/132333773.cms",
+          "published_at": "15:49"
+        },
+        {
+          "title": "Two dead and multiple injuries as Russia strikes Kyiv with ballistic missiles and drones",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/kyiv-russia-missile-drone-strikes-b3013109.html",
+          "published_at": "13:31"
+        },
+        {
+          "title": "6 people dead, dozens wounded as Russia strikes Ukraine with missiles and drones",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/russia-strikes-ukraine-9.7266882?cmp=rss",
+          "published_at": "12:53"
+        },
+        {
+          "title": "10 injured in overnight Russian strikes on Kyiv",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/russia-ukraine-drone-missile-strike-kyiv/",
+          "published_at": "11:51"
+        },
+        {
+          "title": "Ukraine presses allies for resupply as Russia launches ballistic missiles",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3360232/ukraine-presses-allies-resupply-russia-launches-ballistic-missiles?utm_source=rss_feed",
+          "published_at": "11:48"
+        }
+      ]
+    },
+    {
+      "id": "world-7",
       "title": "여러 뉴욕타임스 기자들이 에어포스원 보도에 대해 소환장을 발부했습니다.",
       "title_en": "Multiple New York Times reporters issued subpoenas over Air Force One reporting",
       "title_source": "earliest_pick",
@@ -369,14 +709,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/11/justice-department-subpoenas-new-york-times-air-force-one",
       "translation_status": "ok",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
       "area_value": 8,
       "article_count": 8,
@@ -445,78 +785,17 @@
       ]
     },
     {
-      "id": "world-23",
-      "title": "영국 경찰은 위드컴 전 장관을 살해한 혐의로 석방한 남자를 체포했다.",
-      "title_en": "UK police release man arrested on suspicion of killing former minister Widdecombe",
+      "id": "world-56",
+      "title": "영국 경찰, 전 장관 살해범 추적",
+      "title_en": "British police hunt killer of former minister",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRHVuUVRaRVg2VV9aRUE4dXBYbnhpSzJzcElfSTZ0Z0JnanM1LUFDbVBoa01fS3RHV3JsSGFLUWdkMDNnR1g5M2tMLWlYaHMwdEpCSFpZR1N4R1Fub0lxMFBRUFhhYTJnN1JDcWpHa1VtQnNJd055Si01MmMyTXEtT0luSVJwT1czUDM4RFVBbnZjZklOQkdoblhwNjROQndCUWZBblR0U2JabTVwZVp5aFpnM3JwSFAtWU9yNHY1dVQyQQ?oc=5",
+      "title_url": "https://www.bangkokpost.com/world/3284439/british-police-hunt-killer-of-former-minister",
       "category": "유럽",
-      "primary_source": "Reuters",
+      "primary_source": "Bangkok Post",
       "excerpt": "런던 – 전 영국 정부 장관 앤 위드콤을 살해한 혐의로 체포된 26세 남성이 석방됐고 더 이상 수사에 참여하지 않는다고 경찰이 토요일에 밝혔다.",
       "excerpt_en": "LONDON - A 26-year-old man ​arrested on suspicion of ‌the murder of former British government minister Ann Widdecombe has been released and is no longer part of the investigation, police ​said ⁠on Sat",
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3284439/british-police-hunt-killer-of-former-minister",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-11T06:37:00+09:00",
-      "latest_published_at": "2026-07-11T20:09:00+09:00",
-      "articles": [
-        {
-          "title": "UK police release suspect held over murder of Ann Widdecombe",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/uk-police-release-suspect-held-over-murder-ann-widdecombe-6248466",
-          "published_at": "20:09"
-        },
-        {
-          "title": "UK police release man arrested over killing of former politician Ann Widdecombe",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/uk-police-release-man-arrested-killing-former-politician-134671265",
-          "published_at": "12:26"
-        },
-        {
-          "title": "British police hunt killer of former minister",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3284439/british-police-hunt-killer-of-former-minister",
-          "published_at": "07:23"
-        },
-        {
-          "title": "UK police release man arrested on suspicion of killing former minister Widdecombe",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRHVuUVRaRVg2VV9aRUE4dXBYbnhpSzJzcElfSTZ0Z0JnanM1LUFDbVBoa01fS3RHV3JsSGFLUWdkMDNnR1g5M2tMLWlYaHMwdEpCSFpZR1N4R1Fub0lxMFBRUFhhYTJnN1JDcWpHa1VtQnNJd055Si01MmMyTXEtT0luSVJwT1czUDM4RFVBbnZjZklOQkdoblhwNjROQndCUWZBblR0U2JabTVwZVp5aFpnM3JwSFAtWU9yNHY1dVQyQQ?oc=5",
-          "published_at": "06:37"
-        }
-      ]
-    },
-    {
-      "id": "world-152",
-      "title": "베트남 푸꾸옥섬 근처에서 보트 전복으로 인도 관광객 15명 사망",
-      "title_en": "15 Indian tourists die after boat capsizes near Vietnam's Phu Quoc Island",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/boat-carrying-indian-tourists-capsizes-near-vietnam-phu-quoc-island-embassy-monitoring-situation-death-toll-injured-101783761606068.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "베트남 남부의 섬 여행을 마치고 돌아오는 보트가 토요일 전복되어 승객들이 도움을 청하는 동안 해안에서 0.30마일도 채 떨어지지 않은 인도 관광객 15명이 사망했다고 관리들은 말했습니다.",
-      "excerpt_en": "A boat returning from an island trip in southern Vietnam capsized on Saturday, killing 15 Indian tourists less than half a kilometre (0.30 mile) from shore, as passengers shouted for help, officials a",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 84,
       "score_breakdown": {
@@ -527,269 +806,200 @@
         "time_score": 2,
         "raw75": 63
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
         "ABC News",
         "ABC News Australia",
-        "Hindustan Times",
-        "SCMP"
+        "Al Jazeera",
+        "Bangkok Post",
+        "NBC News"
       ],
-      "first_published_at": "2026-07-11T09:21:52+09:00",
-      "latest_published_at": "2026-07-11T15:46:01+09:00",
+      "first_published_at": "2026-07-11T07:23:00+09:00",
+      "latest_published_at": "2026-07-11T22:53:55+09:00",
       "articles": [
         {
-          "title": "15 Indian tourists killed after speedboat capsizes in southern Vietnam",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/15-indian-tourists-killed-after-speedboat-capsized-southern-134671968",
-          "published_at": "15:46"
-        },
-        {
-          "title": "Speedboat capsize off Vietnam's Phu Quoc island kills 15 tourists",
+          "title": "UK police arrest 28-year-old man in Ann Widdecombe murder case",
           "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/speedboat-capsize-near-vietnams-phu-quoc-island-kills-15/106905880",
-          "published_at": "14:27"
+          "url": "https://www.abc.net.au/news/2026-07-12/man-arrested-ann-widdecombe-murder-investigation/106906592",
+          "published_at": "22:53"
         },
         {
-          "title": "Vietnam tourist speedboat capsizes, killing 15 Indian tourists",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
-          "published_at": "14:10"
+          "title": "UK police investigate murder of politician Ann Widdecombe",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/uk-police-investigate-murder-of-politician-ann-widdecombe?traffic_source=rss",
+          "published_at": "20:29"
         },
         {
-          "title": "15 Indian tourists die after boat capsizes near Vietnam's Phu Quoc Island",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/boat-carrying-indian-tourists-capsizes-near-vietnam-phu-quoc-island-embassy-monitoring-situation-death-toll-injured-101783761606068.html",
-          "published_at": "09:21"
-        }
-      ]
-    },
-    {
-      "id": "world-84",
-      "title": "중재자가 거래를 유지하려고 시도함에 따라 트럼프와이란 최고 지도자의 무역 위협",
-      "title_en": "Trump and Iran's supreme leader trade threats as mediators try to save deal",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/middle-east/20260711-trump-and-iran-s-supreme-leader-trade-threats-as-mediators-try-to-save-deal",
-      "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "미국과 이란 지도자들은 총격전이 벌어져 전쟁 종식을 위한 임시 합의가 결렬된 후 토요일 위협을 주고받았습니다. 도널드 트럼프 미국 대통령은 이라크에 대한 추가 미사일 공격을 위협했다.",
-      "excerpt_en": "US and Iranian leaders traded threats on Saturday, after exchanges of fire rocked an interim agreement aimed at ending the war. US President Donald Trump threatened further missile attacks against Ira",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/middle-east/20260711-trump-and-iran-s-supreme-leader-trade-threats-as-mediators-try-to-save-deal",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "DW",
-        "France24"
-      ],
-      "first_published_at": "2026-07-11T10:05:13+09:00",
-      "latest_published_at": "2026-07-11T16:04:57+09:00",
-      "articles": [
-        {
-          "title": "Mojtaba Khamenei: Iran supreme leader vows revenge for father's killing",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260711-mojtaba-khamenei-iran-supreme-leader-vows-revenge-for-father-s-killing",
-          "published_at": "16:04"
+          "title": "UK police release man arrested over killing of former politician Ann Widdecombe",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/uk-police-release-man-arrested-killing-former-politician-134671265",
+          "published_at": "12:26"
         },
         {
-          "title": "Iran’s supreme leader vows revenge for father’s killing",
+          "title": "U.K. rattled by killing of politician Ann Widdecombe as murder probe continues",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/united-kingdom/uk-rattled-killing-politician-ann-widdecombe-murder-probe-continues-rcna439777",
+          "published_at": "12:24"
+        },
+        {
+          "title": "British police hunt killer of former minister",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3284482/irans-supreme-leader-vows-revenge-for-fathers-killing",
-          "published_at": "13:45"
-        },
-        {
-          "title": "Iran's Mojtaba Khamenei vows revenge for father's killing",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/iran-s-mojtaba-khamenei-vows-revenge-for-father-s-killing/live-77913349?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "11:40"
-        },
-        {
-          "title": "Trump and Iran's supreme leader trade threats as mediators try to save deal",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260711-trump-and-iran-s-supreme-leader-trade-threats-as-mediators-try-to-save-deal",
-          "published_at": "10:05"
+          "url": "https://www.bangkokpost.com/world/3284439/british-police-hunt-killer-of-former-minister",
+          "published_at": "07:23"
         }
       ]
     },
     {
-      "id": "world-99",
-      "title": "우크라이나 전쟁: 키예프가 러시아 탄도미사일과 드론 떼에 공격을 받고 10명이 부상당했습니다.",
-      "title_en": "War in Ukraine: Kyiv hit by Russian ballistic missiles and drone swarm, 10 injured",
+      "id": "world-21",
+      "title": "벨링엄의 영웅적인 활약으로 잉글랜드가 노르웨이를 꺾고 월드컵 준결승에 진출했습니다.",
+      "title_en": "Bellingham heroics edge England past Norway and into World Cup semis",
       "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/video/2026/07/11/war-in-ukraine-kyiv-hit-by-russian-ballistic-missiles-and-drone-swarm-10-injured",
+      "title_url": "https://www.channelnewsasia.com/sport/world-cup-2026-england-norway-quarter-final-6248656",
       "category": "유럽",
-      "primary_source": "Euronews",
-      "excerpt": "최근 러시아의 미사일과 드론 공격으로 인해 우크라이나 전역에서 6명이 목숨을 잃었고 많은 사람들이 부상을 입었습니다. In response to dwindling interceptor missile availability, Kyiv",
-      "excerpt_en": "Recent missile and drone attacks from Russia have claimed the lives of six individuals and left many others wounded throughout Ukraine. In response to dwindling interceptor missile availability, Kyiv ",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/6-killed-as-russia-rains-missiles-drones-on-ukraine-kyiv-renews-plea-for-air-defences/articleshow/132333773.cms",
+      "primary_source": "Channel News Asia",
+      "excerpt": "주드 벨링햄이 연장전에서 득점해 잉글랜드를 2018년 이후 처음으로 월드컵 준결승에 진출시켰습니다.",
+      "excerpt_en": "Jude Bellingham scores in extra-time to send England into the World Cup semifinals for first time since 2018.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/sports/2026/7/12/bellingham-scores-twice-as-england-beat-norway-2-1-to-reach-world-cup-semis?traffic_source=rss",
       "translation_status": "ok",
-      "score": 76,
+      "score": 79,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Euronews",
-        "France24",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-11T08:44:56+09:00",
-      "latest_published_at": "2026-07-11T15:49:14+09:00",
-      "articles": [
-        {
-          "title": "6 killed as Russia rains missiles, drones on Ukraine; Kyiv renews plea for air defences",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/6-killed-as-russia-rains-missiles-drones-on-ukraine-kyiv-renews-plea-for-air-defences/articleshow/132333773.cms",
-          "published_at": "15:49"
-        },
-        {
-          "title": "11 wounded in overnight Russian missile and drone strikes on Kyiv",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260711-11-wounded-in-overnight-russian-missile-and-drone-strikes-on-kyiv",
-          "published_at": "14:54"
-        },
-        {
-          "title": "War in Ukraine: Kyiv hit by Russian ballistic missiles and drone swarm, 10 injured",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/11/war-in-ukraine-kyiv-hit-by-russian-ballistic-missiles-and-drone-swarm-10-injured",
-          "published_at": "08:44"
-        }
-      ]
-    },
-    {
-      "id": "world-41",
-      "title": "베트남서 쾌속정 전복돼 15명 사망",
-      "title_en": "15 die as speedboat capsizes in Vietnam",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3284457/15-die-as-speedboat-capsizes-in-vietnam",
-      "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "베트남 남부 푸꾸옥 섬에서 인도 관광객을 태운 쾌속정이 전복돼 최소 15명이 사망했다고 현지 언론이 보도했다.",
-      "excerpt_en": "At least 15 people died when a speedboat carrying Indian tourists capsized off the popular holiday island of Phu Quoc in southern Vietnam, according to local media reports.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3284457/15-die-as-speedboat-capsizes-in-vietnam",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Bangkok Post",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-11T12:05:00+09:00",
-      "latest_published_at": "2026-07-11T16:08:27+09:00",
-      "articles": [
-        {
-          "title": "15 Killed as Speedboat Capsizes in Vietnam",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/11/world/asia/vietnam-speedboat-tourists-capsize.html",
-          "published_at": "16:08"
-        },
-        {
-          "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
-          "published_at": "13:44"
-        },
-        {
-          "title": "15 die as speedboat capsizes in Vietnam",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3284457/15-die-as-speedboat-capsizes-in-vietnam",
-          "published_at": "12:05"
-        }
-      ]
-    },
-    {
-      "id": "world-16",
-      "title": "콩고에 거주하는 미국 시민이 에볼라 바이러스에 양성 반응을 보였다고 미국 CDC가 밝혔습니다.",
-      "title_en": "US citizen in Congo tests positive for Ebola virus, US CDC says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLXYxZnBYby1GYk9jWEp4czFxdFhyaTlFSEVTZHBoZENRakIzSXhFczZFWERQYl96OVpjVmNrRGN0S2xpNDVweElCZjllZTNVUXZpR25GYXRpMWRJMm1Wci04aUN2MVc5MjFWREdfaGV1UUZoM01neExuZVRXdGFkVU9iQW5zbEJtSmRwVHZJZXo0X0Y0cUsxM3JhUF9KSFVHM3B4dGVsTXVjV1hKalR4SzlCOGdsRGlIM1IxY1VhU3UteHhUYkE?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "발병 초기에는 콩고에서 근무하던 미국 의사도 바이러스 양성 반응을 보였으며 이후 치료를 위해 독일로 이송되었습니다.",
-      "excerpt_en": "Earlier in the outbreak, an American doctor working in Congo also tested positive for the virus and was subsequently transferred to Germany for treatment",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/ebola-us-citizen-congo-cdc-b3013200.html",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
+        "article_score": 25,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
         "time_score": 3,
-        "raw75": 52
+        "raw75": 59
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBS News",
-        "Reuters",
-        "The Independent"
+        "AP News",
+        "Al Jazeera",
+        "Channel News Asia"
       ],
-      "first_published_at": "2026-07-11T02:07:00+09:00",
-      "latest_published_at": "2026-07-11T21:26:10+09:00",
+      "first_published_at": "2026-07-11T23:48:00+09:00",
+      "latest_published_at": "2026-07-12T02:15:11+09:00",
       "articles": [
         {
-          "title": "U.S. citizen working in Congo tests positive for Ebola, CDC says",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/us-citizen-humanitarian-organization-congo-ebola/",
-          "published_at": "21:26"
+          "title": "Bellingham double fires England past Norway into World Cup semis",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/bellingham-double-fires-england-past-norway-world-cup-semis-6248791",
+          "published_at": "02:15"
         },
         {
-          "title": "US citizen tests positive for Ebola as officials work to figure out treatment plan",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/ebola-us-citizen-congo-cdc-b3013200.html",
-          "published_at": "16:08"
+          "title": "Bellingham scores twice to lift England past Haaland and Norway 2-1 and into World Cup semifinals",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMjdYd29Xa3NsdWxUR2g0LUJLR1FlSTQzdlZOLUpZUHFrZXUxN1VCU2d6c0djSGpqZEJiZWFoLXJuTlVhdVJ0NmExV1B1aXFvbFYzR0Z4dk1TY21IYk4xX3RNQ1pxdHpDTU9LWlhKcVc5TVF1Q2N6REkwSWtKWk5mTDdNNEhvdU91U2I1YThNNlVsSERZ?oc=5",
+          "published_at": "01:53"
         },
         {
-          "title": "US citizen in Congo tests positive for Ebola virus, US CDC says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLXYxZnBYby1GYk9jWEp4czFxdFhyaTlFSEVTZHBoZENRakIzSXhFczZFWERQYl96OVpjVmNrRGN0S2xpNDVweElCZjllZTNVUXZpR25GYXRpMWRJMm1Wci04aUN2MVc5MjFWREdfaGV1UUZoM01neExuZVRXdGFkVU9iQW5zbEJtSmRwVHZJZXo0X0Y0cUsxM3JhUF9KSFVHM3B4dGVsTXVjV1hKalR4SzlCOGdsRGlIM1IxY1VhU3UteHhUYkE?oc=5",
-          "published_at": "02:07"
+          "title": "Tearful Solbakken proud of Norway after World Cup odyssey ended by England",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/tearful-solbakken-proud-norway-after-world-cup-odyssey-ended-england-6248696",
+          "published_at": "00:43"
+        },
+        {
+          "title": "Bellingham double fires England past Norway into World Cup semis",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/bellingham-double-fires-england-past-norway-world-cup-semis-6248676",
+          "published_at": "00:16"
+        },
+        {
+          "title": "Bellingham scores twice as England beat Norway 2-1 to reach World Cup semis",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/12/bellingham-scores-twice-as-england-beat-norway-2-1-to-reach-world-cup-semis?traffic_source=rss",
+          "published_at": "00:11"
+        },
+        {
+          "title": "Bellingham double guides England to World Cup semis in extra-time win over Norway",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/bellingham-double-guides-england-world-cup-semis-in-extra-time-win-over-norway-6248661",
+          "published_at": "23:52"
+        },
+        {
+          "title": "Bellingham heroics edge England past Norway and into World Cup semis",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/world-cup-2026-england-norway-quarter-final-6248656",
+          "published_at": "23:48"
         }
       ]
     },
     {
-      "id": "world-210",
+      "id": "world-77",
+      "title": "토론토 페스티벌에서 총격 사건이 발생해 2명이 사망하고 여러 명이 부상당했습니다.",
+      "title_en": "Two people killed and several wounded in mass shooting at Toronto festival",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/two-people-killed-and-several-wounded-in-mass-shooting-at-toronto-festival/a-77920249?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "미국",
+      "primary_source": "DW",
+      "excerpt": "토론토 경찰이 캐나다 도시의 한 축제에서 총격 사건에 대응하고 있습니다. 경찰은 이번 사고로 2명이 숨지고 여러 명이 부상했다고 밝혔다.",
+      "excerpt_en": "Police in Toronto are responding to an active shooter at a festival in the Canadian city. Two people have been killed and several others have been wounded, police said.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/two-people-killed-and-several-wounded-in-mass-shooting-at-toronto-festival/a-77920249?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 79,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 59
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBS News",
+        "DW",
+        "Fox News",
+        "NBC News",
+        "Sky News"
+      ],
+      "first_published_at": "2026-07-12T01:03:00+09:00",
+      "latest_published_at": "2026-07-12T02:36:00+09:00",
+      "articles": [
+        {
+          "title": "At least 2 killed in shooting at Toronto street festival, police say",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/deadly-shooting-toronto-street-festival/",
+          "published_at": "02:36"
+        },
+        {
+          "title": "2 killed, 6 injured in shooting at Toronto festival",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/toronto-festival-shooting-rcna545415",
+          "published_at": "01:44"
+        },
+        {
+          "title": "Two dead and four injured in shooting at Toronto street festival",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/two-dead-and-four-injured-in-shooting-at-toronto-festival-police-say-13562675",
+          "published_at": "01:41"
+        },
+        {
+          "title": "Gunfire shatters Toronto Latin street festival, leaving at least 2 dead and multiple wounded",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/gunfire-shatters-toronto-latin-street-festival-leaving-least-2-dead-3-injured",
+          "published_at": "01:15"
+        },
+        {
+          "title": "Two people killed and several wounded in mass shooting at Toronto festival",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/two-people-killed-and-several-wounded-in-mass-shooting-at-toronto-festival/a-77920249?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "01:03"
+        }
+      ]
+    },
+    {
+      "id": "world-206",
       "title": "7/11: CBS 토요일 아침",
       "title_en": "7/11: CBS Saturday Morning",
       "title_source": "earliest_pick",
@@ -842,71 +1052,71 @@
       ]
     },
     {
-      "id": "world-52",
-      "title": "전직 영국 정치인, 자택에서 숨진 채 발견돼 경찰 조사 중",
-      "title_en": "Police investigating murder of former British politician found dead in her home",
+      "id": "world-132",
+      "title": "관리들이 치료 계획을 파악하기 위해 노력하는 동안 미국 시민은 에볼라 양성 반응을 보였습니다.",
+      "title_en": "US citizen tests positive for Ebola as officials work to figure out treatment plan",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/murder-probe-ann-widdecombe-british-parliament-politician/",
+      "title_url": "https://www.independent.co.uk/news/world/americas/ebola-us-citizen-congo-cdc-b3013200.html",
       "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "런던 — 전직 영국 국회의원이 목요일 자택에서 심각한 부상을 입은 채 발견되어 영국 정치인의 안전에 대한 우려를 다시 불러일으키는 살인 수사가 촉발되었습니다.",
-      "excerpt_en": "LONDON — A former British lawmaker was found dead with serious injuries at her home Thursday, prompting a murder investigation that has reignited concerns about the safety of the country’s politicians",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/world/united-kingdom/uk-rattled-killing-politician-ann-widdecombe-murder-probe-continues-rcna439777",
+      "primary_source": "The Independent",
+      "excerpt": "발병 초기에는 콩고에서 근무하던 미국 의사도 바이러스 양성 반응을 보였으며 이후 치료를 위해 독일로 이송되었습니다.",
+      "excerpt_en": "Earlier in the outbreak, an American doctor working in Congo also tested positive for the virus and was subsequently transferred to Germany for treatment",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/ebola-us-citizen-congo-cdc-b3013200.html",
       "translation_status": "ok",
-      "score": 67,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 50
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
         "CBS News",
-        "NBC News"
+        "New York Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-11T05:58:52+09:00",
-      "latest_published_at": "2026-07-11T20:29:40+09:00",
+      "first_published_at": "2026-07-11T16:08:06+09:00",
+      "latest_published_at": "2026-07-11T21:26:10+09:00",
       "articles": [
         {
-          "title": "UK police investigate murder of politician Ann Widdecombe",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/uk-police-investigate-murder-of-politician-ann-widdecombe?traffic_source=rss",
-          "published_at": "20:29"
-        },
-        {
-          "title": "U.K. rattled by killing of politician Ann Widdecombe as murder probe continues",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/uk-rattled-killing-politician-ann-widdecombe-murder-probe-continues-rcna439777",
-          "published_at": "12:24"
-        },
-        {
-          "title": "Police investigating murder of former British politician found dead in her home",
+          "title": "U.S. citizen working in Congo tests positive for Ebola, CDC says",
           "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/murder-probe-ann-widdecombe-british-parliament-politician/",
-          "published_at": "05:58"
+          "url": "https://www.cbsnews.com/news/us-citizen-humanitarian-organization-congo-ebola/",
+          "published_at": "21:26"
+        },
+        {
+          "title": "U.S. Citizen Tests Positive for Ebola in Democratic Republic of Congo",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/11/world/africa/dr-congo-ebola-american-us-citizen.html",
+          "published_at": "19:25"
+        },
+        {
+          "title": "US citizen tests positive for Ebola as officials work to figure out treatment plan",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/ebola-us-citizen-congo-cdc-b3013200.html",
+          "published_at": "16:08"
         }
       ]
     },
     {
-      "id": "world-107",
-      "title": "최소 12명 사망한 '끔찍한' 스페인 산불, 소방관들이 우위 확보",
-      "title_en": "Firefighters gain upper hand on 'horrific' Spain wildfires that killed at least 12",
+      "id": "world-101",
+      "title": "스페인 남부에서 수백 명의 소방관이 산불과 싸우고 있으며 최소 12명이 사망했습니다.",
+      "title_en": "Hundreds of firefighters battle wildfire in southern Spain that killed at least 12",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/europe/20260711-firefighters-gain-upper-hand-on-horrific-spain-wildfire-that-killed-at-least-12",
+      "title_url": "https://abcnews.com/International/wireStory/hundreds-firefighters-battle-wildfire-southern-spain-killed-12-134672376",
       "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "지난 토요일 스페인에서 발생한 산불은 날씨가 좋아지면서 소방관들이 우위를 점했습니다. 약 500명의 소방관들이 목요일 남부 지역에서 발생한 화재와 싸우고 있습니다.",
-      "excerpt_en": "Firefighters gained the upper hand on wildfires in Spain on Saturday, aided by better weather conditions. Around 500 firefighters are battling the blaze that erupted Thursday in the southern region of",
+      "primary_source": "ABC News",
+      "excerpt": "수백 명의 소방관들이 헬리콥터와 고정익 항공기의 지원을 받아 토요일 적어도 12명의 목숨을 앗아간 스페인에서 가장 치명적인 산불 중 하나를 진압하기 위해 고군분투했습니다. \"우리는 준비가 안 됐어.",
+      "excerpt_en": "Hundreds of firefighters, backed by helicopters and fixed-wing aircraft, struggled on Saturday to contain one of Spain's deadliest wildfires, which has killed at least 12 people. \"We are not prepared ",
       "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/europe/20260711-firefighters-gain-upper-hand-on-horrific-spain-wildfire-that-killed-at-least-12",
+      "excerpt_url": "https://www.france24.com/en/video/20260711-wildfires-in-spain-kills-12-we-are-not-prepared-enough",
       "translation_status": "ok",
       "score": 65,
       "score_breakdown": {
@@ -926,9 +1136,15 @@
         "CBS News",
         "France24"
       ],
-      "first_published_at": "2026-07-11T10:39:12+09:00",
-      "latest_published_at": "2026-07-11T14:17:50+09:00",
+      "first_published_at": "2026-07-11T13:46:19+09:00",
+      "latest_published_at": "2026-07-11T14:23:27+09:00",
       "articles": [
+        {
+          "title": "Wildfires in Spain kills 12: 'We are not prepared enough'",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260711-wildfires-in-spain-kills-12-we-are-not-prepared-enough",
+          "published_at": "14:23"
+        },
         {
           "title": "Hundreds of firefighters in Spain battle deadly wildfires that killed at least 12",
           "source_name": "CBS News",
@@ -940,230 +1156,58 @@
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/hundreds-firefighters-battle-wildfire-southern-spain-killed-12-134672376",
           "published_at": "13:46"
-        },
-        {
-          "title": "Firefighters gain upper hand on 'horrific' Spain wildfires that killed at least 12",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260711-firefighters-gain-upper-hand-on-horrific-spain-wildfire-that-killed-at-least-12",
-          "published_at": "10:39"
         }
       ]
     },
     {
-      "id": "world-190",
-      "title": "Mitch McConnell 건강 업데이트: Elaine Chao는 구급차 비디오 표면과 집 바닥 작업이 시작되면서 중국 여행을 옹호합니다.",
-      "title_en": "Mitch McConnell health update: Elaine Chao defends China trip as ambulance video surfaces and home flooring work begins",
+      "id": "world-23",
+      "title": "미군은 호르무즈 해협에서 민간 선박에 대한 공격에 대응하여 이란을 공격할 것이라고 밝혔습니다.",
+      "title_en": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-elaine-chao-defends-china-trip-as-ambulance-video-surfaces-and-home-flooring-work-begins-101783728335534.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "일레인 차오(Elaine Chao)는 남편 미치 맥코넬(Sen Mitch McConnell)이 병원에 입원한 후 미국으로 돌아왔고 그녀의 중국 여행은 온라인에서 음모론을 촉발시켰습니다.",
-      "excerpt_en": "Elaine Chao is back in the US after her husband, Sen Mitch McConnell, was hospitalized and her China trip has sparked conspiracy theories online.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-elaine-chao-defends-china-trip-as-ambulance-video-surfaces-and-home-flooring-work-begins-101783728335534.html",
-      "translation_status": "ok",
-      "score": 65,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 49
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-11T01:48:31+09:00",
-      "latest_published_at": "2026-07-11T18:57:06+09:00",
-      "articles": [
-        {
-          "title": "CNN distances itself from their conservative commentator Scott Jennings’ claims about Mitch McConnell’s health",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-scott-jennings-mitch-mcconnell-health-b3013216.html",
-          "published_at": "18:57"
-        },
-        {
-          "title": "Mitch McConnell health mystery deepens as renovations unfold at his residence amid ‘brain dead’ speculations",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-mystery-deepens-as-renovations-unfold-at-his-residence-amid-brain-dead-speculations-101783770246794.html",
-          "published_at": "12:10"
-        },
-        {
-          "title": "Mitch McConnell ‘preparing’ to resume Senate duties amid health concerns: Scott Jennings says ‘he was meeting with…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-preparing-to-resume-senate-duties-amid-health-concerns-scott-jennings-says-he-was-meeting-with-101783768168873.html",
-          "published_at": "11:31"
-        },
-        {
-          "title": "Mitch McConnell health update: Elaine Chao defends China trip as ambulance video surfaces and home flooring work begins",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-update-elaine-chao-defends-china-trip-as-ambulance-video-surfaces-and-home-flooring-work-begins-101783728335534.html",
-          "published_at": "01:48"
-        }
-      ]
-    },
-    {
-      "id": "world-60",
-      "title": "린다 노스코바(Linda Noskova)가 체코 윔블던 결승전에서 카롤리나 무초바(Karolina Muchova)를 꺾고 첫 번째 그랜드 슬램 타이틀을 획득했습니다.",
-      "title_en": "Linda Noskova beats Karolina Muchova in all-Czech Wimbledon final to claim 1st Grand Slam title",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/sports/tennis/wimbledon-recap-july-11-9.7266866?cmp=rss",
-      "category": "기타",
-      "primary_source": "CBC",
-      "excerpt": "린다 노스코바(Linda Noskova)는 토요일 체코 전체 결승전에서 카롤리나 무코바(Karolina Muchova)를 6-2, 5-7, 6-3으로 이기고 첫 그랜드 슬램 트로피를 획득하기 위해 5개의 매치 포인트를 낭비한 2세트 붕괴에서 회복했습니다.",
-      "excerpt_en": "Linda Noskova recovered from a second-set meltdown in which she wasted five match points to overcome Karolina Muchova 6-2, 5-7, 6-3 in an all-Czech final on Saturday for her first Grand Slam trophy.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/sports/tennis/wimbledon-recap-july-11-9.7266866?cmp=rss",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "Al Jazeera",
-        "CBC"
-      ],
-      "first_published_at": "2026-07-11T17:57:57+09:00",
-      "latest_published_at": "2026-07-11T19:58:10+09:00",
-      "articles": [
-        {
-          "title": "Nosková downs 'ex-friend' Muchová to win all-Czech Wimbledon final",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/wimbledon-womens-final-linda-noskova-victory/106906416",
-          "published_at": "19:58"
-        },
-        {
-          "title": "Noskova defeats Muchova in Wimbledon final to record first Grand Slam title",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/7/11/noskova-defeats-muchova-in-wimbledon-final-to-record-first-grand-slam-title?traffic_source=rss",
-          "published_at": "18:10"
-        },
-        {
-          "title": "Linda Noskova beats Karolina Muchova in all-Czech Wimbledon final to claim 1st Grand Slam title",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/sports/tennis/wimbledon-recap-july-11-9.7266866?cmp=rss",
-          "published_at": "17:57"
-        }
-      ]
-    },
-    {
-      "id": "world-193",
-      "title": "도널드 트럼프, 이란에 암살당할 경우 지시",
-      "title_en": "Donald Trump gives instruction if he was to be assassinated by Iran",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/donald-trump-gives-instruction-if-he-was-to-be-assassinated-by-iran-20260711-p60eh8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://www.independent.co.uk/news/world/europe/iran-donald-trump-strait-of-hormuz-united-arab-emirates-dubai-b3013318.html",
       "category": "중동",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "트럼프 \"이란이 자신을 암살하면 미국에 그렇게 하라고 지시했다\"",
-      "excerpt_en": "‘Just literally bomb them at levels that they’ve never seen before’, Trump said he’s instructed the US to do if Iran assassinated him",
+      "primary_source": "The Independent",
+      "excerpt": "이란은 '허가되지 않은 항로'를 사용하는 선박이 중요한 수로에서 경고 사격을 받은 후 호르무즈 해협이 폐쇄된 것을 다시 고려한다고 밝혔습니다.",
+      "excerpt_en": "Iran says it again considers the Strait of Hormuz closed after a vessel using an ‘unauthorized route’ was struck by a warning shot in the critical waterway — potentially further menacing the already t",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-israel-strait-of-hormuz-b3012370.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/iran-donald-trump-strait-of-hormuz-united-arab-emirates-dubai-b3013318.html",
       "translation_status": "ok",
       "score": 63,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 47
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-11T09:04:18+09:00",
-      "latest_published_at": "2026-07-11T16:17:29+09:00",
-      "articles": [
-        {
-          "title": "Iran-US war latest: Trump says military will ‘completely decimate and destroy’ Iran if he’s assassinated",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-israel-strait-of-hormuz-b3012370.html",
-          "published_at": "16:17"
-        },
-        {
-          "title": "Trump has ‘left instructions’ if he’s assassinated by Iran, he reveals",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-assassination-plans-iran-b3013154.html",
-          "published_at": "13:34"
-        },
-        {
-          "title": "Donald Trump gives instruction if he was to be assassinated by Iran",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/donald-trump-gives-instruction-if-he-was-to-be-assassinated-by-iran-20260711-p60eh8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "09:04"
-        }
-      ]
-    },
-    {
-      "id": "world-197",
-      "title": "러시아 키예프 공습으로 10명 부상",
-      "title_en": "10 injured in overnight Russian strikes on Kyiv",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/russia-ukraine-drone-missile-strike-kyiv/",
-      "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "우크라이나군은 자국 방공군이 미사일 2대와 드론 111대를 격추하거나 제압했다고 밝혔고, 러시아는 우크라이나군이 키예프의 드론 생산 시설을 목표로 삼았다고 주장했다.",
-      "excerpt_en": "Ukrainian military said its air defenses shot down or suppressed two missiles and 111 drones, while Russia claims its forces targeted drone production facilities in Kyiv.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/russia-ukraine-drone-missile-strike-kyiv/",
-      "translation_status": "ok",
-      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 3,
+        "raw75": 47
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
+        "AP News",
         "The Independent"
       ],
-      "first_published_at": "2026-07-11T11:51:38+09:00",
-      "latest_published_at": "2026-07-11T13:31:07+09:00",
+      "first_published_at": "2026-07-11T23:55:00+09:00",
+      "latest_published_at": "2026-07-12T00:45:00+09:00",
       "articles": [
         {
-          "title": "Two dead and multiple injuries as Russia strikes Kyiv with ballistic missiles and drones",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/kyiv-russia-missile-drone-strikes-b3013109.html",
-          "published_at": "13:31"
+          "title": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb29YUXh5MnNRTjVBazdXOUdMSkx5bkU0WHJFVFRGX1pyY0E5cWZfRXc5NnhQVjdOUVFzZTJFNkpBNlZpdUZIVGdoNk5ieU1sVUw1dDMwdkhSYWF4a0pKUk9nYVFMLW5HRFRjOUJTSTBuVEkxLTQ1X2NEZk5FWDMwV2lnRlBhYmhyY2FjQU82S2pnM2RQSEpfTjFwSXBlbk54OGdr?oc=5",
+          "published_at": "00:45"
         },
         {
-          "title": "10 injured in overnight Russian strikes on Kyiv",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/russia-ukraine-drone-missile-strike-kyiv/",
-          "published_at": "11:51"
+          "title": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/iran-donald-trump-strait-of-hormuz-united-arab-emirates-dubai-b3013318.html",
+          "published_at": "23:55"
         }
       ]
     },
     {
-      "id": "world-198",
+      "id": "world-193",
       "title": "푸틴 대통령의 문앞에 전쟁을 가져오다: 우크라이나의 에너지 공격 전략이 효과가 있습니까?",
       "title_en": "Bringing the war to Putin’s front door: Is Ukraine’s energy strike strategy working?",
       "title_source": "earliest_pick",
@@ -1210,54 +1254,107 @@
       ]
     },
     {
-      "id": "world-77",
-      "title": "트럼프는 자신의 살해를 요구하는 가운데 미사일이 '이란을 겨냥하고 장전됐다'고 말했다.",
-      "title_en": "Trump says missiles ‘locked, loaded and aimed at Iran’ amid calls for his killing",
+      "id": "world-189",
+      "title": "Mitch McConnell은 건강 문제로 상원 업무 재개를 '준비 중': Scott Jennings는 '그는 ...과 만나고 있었다'고 말했습니다.",
+      "title_en": "Mitch McConnell ‘preparing’ to resume Senate duties amid health concerns: Scott Jennings says ‘he was meeting with…’",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3360203/trump-says-missiles-locked-loaded-and-aimed-iran-amid-calls-his-killing?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "도널드 트럼프 미국 대통령은 토요일 최고 지도자 아야톨라 알리 하메네이의 장례식에서 그의 살해에 대한 공개 요구가 나온 후 이란을 위협해 중동을 사로잡고 있는 긴장을 더욱 강조했습니다.",
-      "excerpt_en": "US President Donald Trump threatened Iran on Saturday after the funeral of supreme leader Ayatollah Ali Khamenei saw open calls for his killing, further underlining the tensions gripping the Middle Ea",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3360203/trump-says-missiles-locked-loaded-and-aimed-iran-amid-calls-his-killing?utm_source=rss_feed",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-preparing-to-resume-senate-duties-amid-health-concerns-scott-jennings-says-he-was-meeting-with-101783768168873.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "방송사 대변인은 \"맥코넬 상원의원과의 개인적인 대화에 대한 그의 설명은 그의 경험을 반영한 것이며 CNN 보도가 아니다\"라고 말했다.",
+      "excerpt_en": "‘His account of a personal conversation with Senator McConnell reflects his experience and is not CNN reporting,’ network spokesperson said",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-scott-jennings-mitch-mcconnell-health-b3013216.html",
       "translation_status": "ok",
-      "score": 60,
+      "score": 59,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 44
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-11T11:31:28+09:00",
+      "latest_published_at": "2026-07-11T18:57:06+09:00",
+      "articles": [
+        {
+          "title": "CNN distances itself from their conservative commentator Scott Jennings’ claims about Mitch McConnell’s health",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-scott-jennings-mitch-mcconnell-health-b3013216.html",
+          "published_at": "18:57"
+        },
+        {
+          "title": "Mitch McConnell health mystery deepens as renovations unfold at his residence amid ‘brain dead’ speculations",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-health-mystery-deepens-as-renovations-unfold-at-his-residence-amid-brain-dead-speculations-101783770246794.html",
+          "published_at": "12:10"
+        },
+        {
+          "title": "Mitch McConnell ‘preparing’ to resume Senate duties amid health concerns: Scott Jennings says ‘he was meeting with…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitch-mcconnell-preparing-to-resume-senate-duties-amid-health-concerns-scott-jennings-says-he-was-meeting-with-101783768168873.html",
+          "published_at": "11:31"
+        }
+      ]
+    },
+    {
+      "id": "world-3",
+      "title": "영국 전 장관 앤 위드컴을 살해한 혐의로 남성이 체포됐다.",
+      "title_en": "Man arrested on suspicion of murdering former UK minister Ann Widdecombe",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMktITDI2Rlpab0JIQ0dNb0xkQk1TcS01Y05yT1J0dWE2eUhpbVJwbHU3R0lBWHJIcHBJTFBkcjhlYmpzMXlzZkp5YjdwUFIwekFCM0xZUnhDeHN4Q0RmdjRqQlU0UGlEcklFbTFXbkpPWnlySUlmbmxzSl85U096VmJlTExud1lKekZvcy1PaHNkek52V1Y2U05tWmE4dng0cXE4SUtKdWxtUUJpWmN2Uw?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "전직 영국 정치인이자 리얼리티 TV 참가자였던 그녀가 다트무어 국립공원 가장자리 헤이터 마을에 있는 외딴 시골 집에서 숨진 채 발견되었습니다.",
+      "excerpt_en": "The former UK politician and reality TV contestant was found dead in her isolated rural home in the village of Haytor on the edge of Dartmoor National Park.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/europe/police-make-new-arrest-over-killing-of-former-uk-minister-ann-widdecombe-20260712-p60eln.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "NPR",
-        "SCMP"
+        "Reuters",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-11T03:51:54+09:00",
-      "latest_published_at": "2026-07-11T06:34:09+09:00",
+      "first_published_at": "2026-07-11T22:44:49+09:00",
+      "latest_published_at": "2026-07-11T23:25:37+09:00",
       "articles": [
         {
-          "title": "Trump threatens Iran after Ayatollah Ali Khamenei's funeral saw calls for his killing",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/11/nx-s1-5890029/trump-threatens-iran",
-          "published_at": "06:34"
+          "title": "Police make new arrest over killing of former UK minister Ann Widdecombe",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/police-make-new-arrest-over-killing-of-former-uk-minister-ann-widdecombe-20260712-p60eln.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:25"
         },
         {
-          "title": "Trump says missiles ‘locked, loaded and aimed at Iran’ amid calls for his killing",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360203/trump-says-missiles-locked-loaded-and-aimed-iran-amid-calls-his-killing?utm_source=rss_feed",
-          "published_at": "03:51"
+          "title": "Man arrested on suspicion of murdering former UK minister Ann Widdecombe",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMktITDI2Rlpab0JIQ0dNb0xkQk1TcS01Y05yT1J0dWE2eUhpbVJwbHU3R0lBWHJIcHBJTFBkcjhlYmpzMXlzZkp5YjdwUFIwekFCM0xZUnhDeHN4Q0RmdjRqQlU0UGlEcklFbTFXbkpPWnlySUlmbmxzSl85U096VmJlTExud1lKekZvcy1PaHNkek52V1Y2U05tWmE4dng0cXE4SUtKdWxtUUJpWmN2Uw?oc=5",
+          "published_at": "22:44"
         }
       ]
     },
     {
-      "id": "world-0",
+      "id": "world-4",
       "title": "베네수엘라 지진으로 4,333명이 사망하고 16,740명이 부상했다고 국회의장이 밝혔습니다.",
       "title_en": "Venezuela quakes have killed 4,333, injured 16,740, National Assembly president says",
       "title_source": "earliest_pick",
@@ -1269,14 +1366,14 @@
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/venezuela-earthquakes-death-toll-injured-july11-9.7267028?cmp=rss",
       "translation_status": "ok",
-      "score": 59,
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1304,17 +1401,17 @@
       ]
     },
     {
-      "id": "world-214",
-      "title": "러시아가 우크라이나에 미사일과 드론을 공습해 6명이 숨지고 수십 명이 부상했다.",
-      "title_en": "6 people dead, dozens wounded as Russia strikes Ukraine with missiles and drones",
+      "id": "world-169",
+      "title": "뉴질랜드-인도 무역, 비판에도 불구하고 국방 협정 기념",
+      "title_en": "New Zealand-India trade, defence pact celebrated despite criticism",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/russia-strikes-ukraine-9.7266882?cmp=rss",
-      "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "러시아의 우크라이나 공격을 격추하고 요격하는 데 도움이 될 군수품이 부족한 러시아와의 전쟁에서 전투가 계속되고 있습니다.",
-      "excerpt_en": "Fighting continues in Russia's war against Ukraine, which is running low on munitions that would help it shoot down and intercept Russian strikes.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/russia-strikes-ukraine-9.7266882?cmp=rss",
+      "title_url": "https://www.scmp.com/news/asia/australasia/article/3360224/new-zealand-india-trade-defence-pact-celebrated-despite-criticism?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "뉴질랜드와 인도는 토요일 나렌드라 모디(Narendra Modi) 총리의 획기적인 방문 동안 국방과 안보를 포괄하는 전략적 파트너십 구축을 발표했습니다. 크리스토프 총리",
+      "excerpt_en": "New Zealand and India announced on Saturday the creation of a strategic partnership encompassing defence and security, during a landmark visit by Prime Minister Narendra Modi. Prime Minister Christoph",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/australasia/article/3360224/new-zealand-india-trade-defence-pact-celebrated-despite-criticism?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 56,
       "score_breakdown": {
@@ -1330,352 +1427,70 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBC",
-        "Channel News Asia"
-      ],
-      "first_published_at": "2026-07-11T12:53:11+09:00",
-      "latest_published_at": "2026-07-11T19:03:00+09:00",
-      "articles": [
-        {
-          "title": "Six dead, dozens wounded as Russia strikes Ukraine with missiles, drones",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/six-dead-dozens-wounded-russia-strikes-ukraine-missiles-drones-6248431",
-          "published_at": "19:03"
-        },
-        {
-          "title": "6 people dead, dozens wounded as Russia strikes Ukraine with missiles and drones",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/russia-strikes-ukraine-9.7266882?cmp=rss",
-          "published_at": "12:53"
-        }
-      ]
-    },
-    {
-      "id": "world-4",
-      "title": "방글라데시 홍수로 44명 사망, 100만 명 이상의 이재민 발생",
-      "title_en": "Floods in Bangladesh kill 44, leave over a million stranded",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1RjbW1VQ1YtSGN4bXY1MWZrZFZEQjg1eXNuRkxfTGdHaWtiZUFJSUFSNFZObW9meXFDR3A4bFFERTB2SHozZ3lpbzJJbU5aNmFaelpIaWtLSEtHUUdlNWdHbmRvNDhRWEhPS3JSemtzbUZMSUpqVzhsRHppVW5qLWRfcVhpZkQzYVY3SE43RmU3RmJYMy1TcFVQV083Tkh5S3NFQ21QeVhXVmdraEl3?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "방글라데시 홍수로 44명 사망, 100만 명 이상 발이 묶였다 - Reuters",
-      "excerpt_en": "Floods in Bangladesh kill 44, leave over a million stranded Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1RjbW1VQ1YtSGN4bXY1MWZrZFZEQjg1eXNuRkxfTGdHaWtiZUFJSUFSNFZObW9meXFDR3A4bFFERTB2SHozZ3lpbzJJbU5aNmFaelpIaWtLSEtHUUdlNWdHbmRvNDhRWEhPS3JSemtzbUZMSUpqVzhsRHppVW5qLWRfcVhpZkQzYVY3SE43RmU3RmJYMy1TcFVQV083Tkh5S3NFQ21QeVhXVmdraEl3?oc=5",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
         "Channel News Asia",
-        "Reuters"
+        "SCMP"
       ],
-      "first_published_at": "2026-07-11T14:26:29+09:00",
-      "latest_published_at": "2026-07-11T18:53:00+09:00",
+      "first_published_at": "2026-07-11T09:55:40+09:00",
+      "latest_published_at": "2026-07-12T01:49:09+09:00",
       "articles": [
         {
-          "title": "Floods, landslides kill 44 in Bangladesh, leave over 1 million stranded",
+          "title": "New Zealand, India strike 'milestone' strategic partnership",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/floods-landslides-kill-44-in-bangladesh-leave-over-1-million-stranded-6248421",
-          "published_at": "18:53"
+          "url": "https://www.channelnewsasia.com/asia/india-new-zealand-strategic-partnership-modi-indo-pacific-6248756",
+          "published_at": "01:49"
         },
         {
-          "title": "Floods in Bangladesh kill 44, leave over a million stranded",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1RjbW1VQ1YtSGN4bXY1MWZrZFZEQjg1eXNuRkxfTGdHaWtiZUFJSUFSNFZObW9meXFDR3A4bFFERTB2SHozZ3lpbzJJbU5aNmFaelpIaWtLSEtHUUdlNWdHbmRvNDhRWEhPS3JSemtzbUZMSUpqVzhsRHppVW5qLWRfcVhpZkQzYVY3SE43RmU3RmJYMy1TcFVQV083Tkh5S3NFQ21QeVhXVmdraEl3?oc=5",
-          "published_at": "14:26"
+          "title": "New Zealand-India trade, defence pact celebrated despite criticism",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/australasia/article/3360224/new-zealand-india-trade-defence-pact-celebrated-despite-criticism?utm_source=rss_feed",
+          "published_at": "09:55"
         }
       ]
     },
     {
-      "id": "world-12",
-      "title": "미국은 해협에 초점을 맞춘 회담에서 이란으로부터 호르무즈의 자유로운 접근을 모색하고 있습니다.",
-      "title_en": "US seeks free Hormuz access from Iran as talks focus on strait",
+      "id": "world-192",
+      "title": "도널드 트럼프, 이란에 암살당할 경우 지시",
+      "title_en": "Donald Trump gives instruction if he was to be assassinated by Iran",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDY4WWlhcGlFTE0zWE9HdXJlWnFJNXRhLWthUlFCZVdiVV91elpLUlh3Ni1UQUU2OXg2RXV0MUVWVHk0SE9CSFA4RjdOV05hTFRUX3ZEb3Z0OEJWNkYtdGR2ajRDR0FWS2xXaEhQeFNuLTZ0NXVKLS1mbklIQnpPT2VINnQ1ZmF5eDFHNXQtY01aSVVMYXkwTEh4RnlmRUthcjlGOG1LYndabUJ6NWc?oc=5",
+      "title_url": "https://www.smh.com.au/world/donald-trump-gives-instruction-if-he-was-to-be-assassinated-by-iran-20260711-p60eh8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "미국은 해협에 초점을 맞춘 회담에서 이란으로부터 호르무즈의 자유로운 접근을 모색하고 있습니다.",
-      "excerpt_en": "US seeks free Hormuz access from Iran as talks focus on strait Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDY4WWlhcGlFTE0zWE9HdXJlWnFJNXRhLWthUlFCZVdiVV91elpLUlh3Ni1UQUU2OXg2RXV0MUVWVHk0SE9CSFA4RjdOV05hTFRUX3ZEb3Z0OEJWNkYtdGR2ajRDR0FWS2xXaEhQeFNuLTZ0NXVKLS1mbklIQnpPT2VINnQ1ZmF5eDFHNXQtY01aSVVMYXkwTEh4RnlmRUthcjlGOG1LYndabUJ6NWc?oc=5",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "대통령은 몇 달 동안 지속된 미국 전쟁에서 휴전이 무너지면 자신에게 무슨 일이 일어나면 이란을 파괴하겠다고 거듭 위협했습니다.",
+      "excerpt_en": "The president repeats a threat to destroy Iran should anything happen to him as a ceasefire collapse in the months-long US war",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-assassination-plans-iran-b3013154.html",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-11T04:46:00+09:00",
-      "latest_published_at": "2026-07-11T21:30:00+09:00",
-      "articles": [
-        {
-          "title": "US seeks free Hormuz access from Iran as talks focus on strait",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-seeks-free-hormuz-access-iran-talks-focus-strait-6248521",
-          "published_at": "21:30"
-        },
-        {
-          "title": "US seeks free Hormuz access from Iran as talks focus on strait",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDY4WWlhcGlFTE0zWE9HdXJlWnFJNXRhLWthUlFCZVdiVV91elpLUlh3Ni1UQUU2OXg2RXV0MUVWVHk0SE9CSFA4RjdOV05hTFRUX3ZEb3Z0OEJWNkYtdGR2ajRDR0FWS2xXaEhQeFNuLTZ0NXVKLS1mbklIQnpPT2VINnQ1ZmF5eDFHNXQtY01aSVVMYXkwTEh4RnlmRUthcjlGOG1LYndabUJ6NWc?oc=5",
-          "published_at": "04:46"
-        }
-      ]
-    },
-    {
-      "id": "world-20",
-      "title": "노스코바는 체코와의 결승전에서 무초바의 반격에서 살아남아 윔블던 우승 트로피를 들어올렸습니다.",
-      "title_en": "Noskova survives Muchova fightback in all-Czech final to lift  Wimbledon trophy",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/noskova-survives-muchova-fightback-in-all-czech-final-lift-wimbledon-trophy-6248386",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "노스코바, 체코와의 결승전에서 무초바의 반격에서 살아남아 윔블던 트로피 들어올려 - 최신",
-      "excerpt_en": "Noskova survives Muchova fightback in all-Czech final to lift Wimbledon trophy Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFQ0YjNlUFJWcl9RcXRnU3MwdmtOUGNvQ3J3MXpPVXBIUGozaGVKV1ZFT0QxZVZrekZqd1FHWkdyd3daUU5HakpITDZfUTZ4dTVBenpLa1QtckxhM2lncDI5VVJCb3oxbHNKUUpRQzYwSE1aTXI0QkE5cE44OHBYdE8ybWhjSVhfWWNNS2w1aGljU1ZybjFDWXJIMXd4UFFxNGxQN1RhdG8zUQ?oc=5",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-11T17:40:03+09:00",
-      "latest_published_at": "2026-07-11T19:45:07+09:00",
-      "articles": [
-        {
-          "title": "Noskova survives Muchova fightback in all-Czech final to lift Wimbledon trophy",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFQ0YjNlUFJWcl9RcXRnU3MwdmtOUGNvQ3J3MXpPVXBIUGozaGVKV1ZFT0QxZVZrekZqd1FHWkdyd3daUU5HakpITDZfUTZ4dTVBenpLa1QtckxhM2lncDI5VVJCb3oxbHNKUUpRQzYwSE1aTXI0QkE5cE44OHBYdE8ybWhjSVhfWWNNS2w1aGljU1ZybjFDWXJIMXd4UFFxNGxQN1RhdG8zUQ?oc=5",
-          "published_at": "19:45"
-        },
-        {
-          "title": "Noskova survives Muchova fightback in all-Czech final to lift  Wimbledon trophy",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/noskova-survives-muchova-fightback-in-all-czech-final-lift-wimbledon-trophy-6248386",
-          "published_at": "17:40"
-        }
-      ]
-    },
-    {
-      "id": "world-27",
-      "title": "몰도바 대통령, 사업가 바실레 토판을 총리로 지명",
-      "title_en": "Moldova’s president nominates businessman Vasile Tofan as prime minister",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/7/11/moldovas-president-nominates-businessman-vasile-tofan-as-prime-minister?traffic_source=rss",
-      "category": "기타",
-      "primary_source": "Al Jazeera",
-      "excerpt": "이번 발표는 알렉산드루 문테아누 전 총리가 이달 초 사임한 이후 나온 것이다.",
-      "excerpt_en": "The announcement comes after the previous prime minister, Alexandru Munteanu, stepped down earlier this month.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/7/11/moldovas-president-nominates-businessman-vasile-tofan-as-prime-minister?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-11T15:50:31+09:00",
-      "latest_published_at": "2026-07-11T19:51:51+09:00",
-      "articles": [
-        {
-          "title": "Moldova's president nominates Vasile Tofan as prime minister",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSEFXZDVvMzU1djNqalNkTjVRdURMNVV4QlR2bER2aHJtUXdJVnoyempncEVPMjctU25FaDlZRHBxRmlJOVN4MDdjSXJRMlgxek1lRmMtUHN1cTZhTlYyUEJWNkxLa08wYUxlM2FVX3NMMjBZZU5GaE4xMW0wdmtqTWVRaU1iSmtHbmd1VVhtT05jQVhv?oc=5",
-          "published_at": "19:51"
-        },
-        {
-          "title": "Moldova’s president nominates businessman Vasile Tofan as prime minister",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/11/moldovas-president-nominates-businessman-vasile-tofan-as-prime-minister?traffic_source=rss",
-          "published_at": "15:50"
-        }
-      ]
-    },
-    {
-      "id": "world-33",
-      "title": "철폐를 사용했던 미국의 마지막 소아마비 환자 마사 릴라드(Martha Lillard)가 오클라호마에서 78세의 나이로 사망했습니다.",
-      "title_en": "Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWTJTRkFtZlFmNXRPTjJkMlhHZ0RRcm5hYjRhcEdUYTg0NncybnN1UXZCRjBEQVk0TUY0N1Z0d1hzR2Q1RWswU2htcU9OS3ROT250VDFUSEtFRjFkT2IwNDdyYkZ1MXN0NUozZFlkS2JnLVBBYjJBTmJpWFdsZUY1VWRfeWpXVW4tckl0RFU0c2lnbGpiVGx1cg?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "어린 시절 소아마비에 걸린 후 철폐 속에서 거의 70년을 살았던 마사 앤 릴라드(Martha Ann Lillard)가 78세의 나이로 사망했습니다.",
-      "excerpt_en": "Martha Ann Lillard, who spent nearly seven decades living in an iron lung after contracting polio as a child, has died at 78.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-was-martha-ann-lillard-husband-cause-of-death-and-the-legacy-of-one-of-the-last-iron-lung-us-polio-survivors-101783797714821.html",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-11T04:14:00+09:00",
-      "latest_published_at": "2026-07-11T20:55:44+09:00",
-      "articles": [
-        {
-          "title": "Who was Martha Ann Lillard? Husband, cause of death, and the legacy of one of the last iron lung US polio survivors",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-martha-ann-lillard-husband-cause-of-death-and-the-legacy-of-one-of-the-last-iron-lung-us-polio-survivors-101783797714821.html",
-          "published_at": "20:55"
-        },
-        {
-          "title": "Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWTJTRkFtZlFmNXRPTjJkMlhHZ0RRcm5hYjRhcEdUYTg0NncybnN1UXZCRjBEQVk0TUY0N1Z0d1hzR2Q1RWswU2htcU9OS3ROT250VDFUSEtFRjFkT2IwNDdyYkZ1MXN0NUozZFlkS2JnLVBBYjJBTmJpWFdsZUY1VWRfeWpXVW4tckl0RFU0c2lnbGpiVGx1cg?oc=5",
-          "published_at": "04:14"
-        }
-      ]
-    },
-    {
-      "id": "world-7",
-      "title": "이란 최고지도자, 아버지 죽음에 복수 다짐",
-      "title_en": "Iran's supreme leader pledges revenge for father's death",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-07-11/iran-s-supreme-leader-pledges-revenge-for-father-s-death/106905744",
-      "category": "중동",
-      "primary_source": "ABC News Australia",
-      "excerpt": "이란의 최고 지도자 아야톨라 모즈타바 하메네이는 아버지의 복수가 \"국가의 요구\"이며 \"반드시 이루어져야 한다\"고 말했습니다.",
-      "excerpt_en": "Iran's supreme leader Ayatollah Mojtaba Khamenei has said that avenging his father was \"the demand of the nation\" and \"must certainly\" take place.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-07-11/iran-s-supreme-leader-pledges-revenge-for-father-s-death/106905744",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
+        "major_score": 10,
+        "breaking_score": 7,
         "time_score": 2,
-        "raw75": 40
+        "raw75": 41
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "Reuters"
+        "Sydney Morning Herald",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-11T12:30:52+09:00",
-      "latest_published_at": "2026-07-11T13:08:36+09:00",
+      "first_published_at": "2026-07-11T09:04:18+09:00",
+      "latest_published_at": "2026-07-11T13:34:35+09:00",
       "articles": [
         {
-          "title": "Iran's supreme leader pledges revenge for slain father and predecessor",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVFJ6QzJlMkc1VWtrWHlLcms2NkZhSWZ5VnhDazNkY04zS0RMN01UUjhUOGZUajRWVGRqREUtbWRDUjlLakFZaFByZDgySm9mcFNGQi1rLWJFd3RHS09iUVZRZHZGTHFfM1BlTXVYdmhZczl2bFBkZVZDRHE5T0phT2NDd2dTb1F0aS1vRW12SlFCbEFrMGJhRGdSY3FCRHhhd21vbVg5QVNKMl82c1VQd1NaaEp2dw?oc=5",
-          "published_at": "13:08"
+          "title": "Trump has ‘left instructions’ if he’s assassinated by Iran, he reveals",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-assassination-plans-iran-b3013154.html",
+          "published_at": "13:34"
         },
         {
-          "title": "Iran's supreme leader pledges revenge for father's death",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-11/iran-s-supreme-leader-pledges-revenge-for-father-s-death/106905744",
-          "published_at": "12:30"
-        }
-      ]
-    },
-    {
-      "id": "world-28",
-      "title": "영국에 56회 T20 패배를 앞두고 교통 정체 지연으로 인도의 어려움이 가중되었습니다.",
-      "title_en": "Traffic jam delay adds to India's woes ahead of 56-run T20 loss to England",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/traffic-jam-delay-adds-indias-woes-ahead-56-run-t20-loss-england-6248366",
-      "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "영국에 56회 T20 패배를 앞두고 교통 정체 지연으로 인도의 어려움이 가중됨 Reuters",
-      "excerpt_en": "Traffic jam delay adds to India's woes ahead of 56-run T20 loss to England Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWS1sZjY1aUloOWpjR1U4cUhBME9TSzdJNmFPaXV3eU9TMnZCR3VWSkw4V3pfWWczMWNxckhFN2RCemdWblJYeEdPRjg3WEM3ZTFTOEtERk9JWUlrU0FqSzlTNU92ZHhLeUxpMVp1dll0ZUkyVFpJVjdrRVZXSFZuR2M2c2ZpbGNUT3B1Z3NpRTI3N2htM1VaNGVmTi1BQUxMUmNqZ2pGb18tRTAxcDhEblBiR0dCRWw1MGdZY1EzQQ?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-11T17:08:10+09:00",
-      "latest_published_at": "2026-07-11T18:15:47+09:00",
-      "articles": [
-        {
-          "title": "Traffic jam delay adds to India's woes ahead of 56-run T20 loss to England",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWS1sZjY1aUloOWpjR1U4cUhBME9TSzdJNmFPaXV3eU9TMnZCR3VWSkw4V3pfWWczMWNxckhFN2RCemdWblJYeEdPRjg3WEM3ZTFTOEtERk9JWUlrU0FqSzlTNU92ZHhLeUxpMVp1dll0ZUkyVFpJVjdrRVZXSFZuR2M2c2ZpbGNUT3B1Z3NpRTI3N2htM1VaNGVmTi1BQUxMUmNqZ2pGb18tRTAxcDhEblBiR0dCRWw1MGdZY1EzQQ?oc=5",
-          "published_at": "18:15"
-        },
-        {
-          "title": "Traffic jam delay adds to India's woes ahead of 56-run T20 loss to England",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/traffic-jam-delay-adds-indias-woes-ahead-56-run-t20-loss-england-6248366",
-          "published_at": "17:08"
+          "title": "Donald Trump gives instruction if he was to be assassinated by Iran",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/donald-trump-gives-instruction-if-he-was-to-be-assassinated-by-iran-20260711-p60eh8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "09:04"
         }
       ]
     },
@@ -1723,335 +1538,6 @@
           "source_name": "France24",
           "url": "https://www.france24.com/en/france/20260711-paris-landmarks-to-close-early-as-france-swelters-under-third-heatwave-since-may",
           "published_at": "12:37"
-        }
-      ]
-    },
-    {
-      "id": "world-192",
-      "title": "개조 문제가 계속되면서 트럼프의 D.C. 반사 수영장이 배수되었습니다.",
-      "title_en": "Trump's D.C. reflecting pool drained — again — as renovation troubles continue",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/lincoln-memorial-reflecting-pool-damage-washington-dc-drained-again-july-10-9.7266769?cmp=rss",
-      "category": "미국",
-      "primary_source": "CBC",
-      "excerpt": "수로를 개조하려는 도널드 트럼프 대통령의 문제 많은 노력이 7월 4일까지 준비하겠다는 초기 목표를 훨씬 초과함에 따라 승무원들은 링컨 기념관 반사 수영장에서 다시 물을 빼내고 있습니다.",
-      "excerpt_en": "Crews are again draining the Lincoln Memorial Reflecting Pool as President Donald Trump’s problem-plagued effort to revamp the waterway pushes well past his initial goal of having it ready by July 4 t",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/lincoln-memorial-reflecting-pool-damage-washington-dc-drained-again-july-10-9.7266769?cmp=rss",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-11T01:23:06+09:00",
-      "latest_published_at": "2026-07-11T16:44:16+09:00",
-      "articles": [
-        {
-          "title": "Trump’s algae-filled Reflecting Pool drained once again for ‘beautification’ project",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/reflecting-pool-trump-dc-beautification-drained-b3013212.html",
-          "published_at": "16:44"
-        },
-        {
-          "title": "Trump's D.C. reflecting pool drained — again — as renovation troubles continue",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/lincoln-memorial-reflecting-pool-damage-washington-dc-drained-again-july-10-9.7266769?cmp=rss",
-          "published_at": "01:23"
-        }
-      ]
-    },
-    {
-      "id": "world-202",
-      "title": "애플, 영업비밀 도용 혐의로 OpenAI 고소",
-      "title_en": "Apple is suing OpenAI for allegedly stealing trade secrets",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/apple-sues-openai-for-stealing-trade-secrets-101783734272408.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "법적 고소장에서 Apple은 OpenAI가 Apple에 대한 기밀 정보를 추출하는 방법을 자세히 설명하고 OpenAI에 대한 금지 명령 및 손해 배상을 요구합니다.",
-      "excerpt_en": "In a legal complaint, Apple details how OpenAI is extracting confidential information about Apple, and calls for injunction as well as damages against OpenAI",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/apple-sues-openai-for-stealing-trade-secrets-101783734272408.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-11T01:56:52+09:00",
-      "latest_published_at": "2026-07-11T11:34:10+09:00",
-      "articles": [
-        {
-          "title": "Apple sues OpenAI over alleged theft of trade secrets - here's what to know",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/next/2026/07/11/apple-sues-openai-over-alleged-theft-of-trade-secrets-heres-what-to-know",
-          "published_at": "11:34"
-        },
-        {
-          "title": "Apple is suing OpenAI for allegedly stealing trade secrets",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/apple-sues-openai-for-stealing-trade-secrets-101783734272408.html",
-          "published_at": "01:56"
-        }
-      ]
-    },
-    {
-      "id": "world-203",
-      "title": "트럼프, 하메네이 장례식서 자신 살해 요구에 '미사일 1000개 장전' 경고",
-      "title_en": "Trump's big warning over calls to kill him at Khamenei funeral: ‘1,000 missiles locked, loaded’",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/trumps-mega-warning-on-irans-assassination-plan-1-000-missiles-locked-loaded-101783740610049.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "트럼프 대통령은 소셜미디어에 “1000개의 미사일이 장전되어 이란 이슬람공화국을 겨냥하고 있다”고 적었다.",
-      "excerpt_en": "\"1,000 missiles are locked and loaded and aimed at the Islamic Republic of Iran,\" Trump wrote on social media.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/07/11/trump-threatens-to-completely-decimate-iran-a-day-after-agreeing-to-more-talks",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-11T03:30:28+09:00",
-      "latest_published_at": "2026-07-11T09:41:46+09:00",
-      "articles": [
-        {
-          "title": "Trump threatens to 'completely decimate' Iran, a day after claiming talks to take place",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/11/trump-threatens-to-completely-decimate-iran-a-day-after-agreeing-to-more-talks",
-          "published_at": "09:41"
-        },
-        {
-          "title": "Trump's big warning over calls to kill him at Khamenei funeral: ‘1,000 missiles locked, loaded’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/trumps-mega-warning-on-irans-assassination-plan-1-000-missiles-locked-loaded-101783740610049.html",
-          "published_at": "03:30"
-        }
-      ]
-    },
-    {
-      "id": "world-26",
-      "title": "러시아의 디젤 수출 금지로 글로벌 공급 경색 심화",
-      "title_en": "Russia's diesel export ban deepens global supply crunch",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQODlSbTR5S3p1eVA1NElSZFNsVXd2a0ticUw4M29iNWRnWnRxUHRBczVVR2FEQzhKSE5ERFdhc3pXcTZMTHRNTzB5T0NERnpYVWFycEhYakZTUnpzenJvQThyTzZrd1Z4SVNVdnZpTHdrQnhxOUFfVGxIckZyVUF5UGFMcVhkTWxPYTIzTEpMclJ2X19VdV9nSGZpWmZPMThqLUdOclplVzNhdw?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "이번 주에 디젤 수출을 금지하기로 한 러시아의 결정은 세계 에너지 시장을 혼란에 빠뜨리고 산업용 연료의 부족을 악화시키고 더 이상 연료를 구입하지 않는 국가에서도 가격을 급등시켰습니다.",
-      "excerpt_en": "Russia’s decision to ban diesel exports this week has roiled global energy markets, exacerbating shortages of the industrial fuel and sending prices soaring, even in countries that no longer buy the f",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3360200/russias-diesel-export-ban-deals-fresh-blow-strained-energy-market?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-11T01:27:00+09:00",
-      "latest_published_at": "2026-07-11T02:31:20+09:00",
-      "articles": [
-        {
-          "title": "Russia’s diesel export ban deals fresh blow to strained energy market",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3360200/russias-diesel-export-ban-deals-fresh-blow-strained-energy-market?utm_source=rss_feed",
-          "published_at": "02:31"
-        },
-        {
-          "title": "Russia's diesel export ban deepens global supply crunch",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQODlSbTR5S3p1eVA1NElSZFNsVXd2a0ticUw4M29iNWRnWnRxUHRBczVVR2FEQzhKSE5ERFdhc3pXcTZMTHRNTzB5T0NERnpYVWFycEhYakZTUnpzenJvQThyTzZrd1Z4SVNVdnZpTHdrQnhxOUFfVGxIckZyVUF5UGFMcVhkTWxPYTIzTEpMclJ2X19VdV9nSGZpWmZPMThqLUdOclplVzNhdw?oc=5",
-          "published_at": "01:27"
-        }
-      ]
-    },
-    {
-      "id": "world-34",
-      "title": "Platner는 공식적으로 메인 상원 경선에서 탈퇴하고 민주당은 새로운 후보자를 지명하는 프로세스를 발표합니다.",
-      "title_en": "Platner formally withdraws from Maine Senate race and Democrats announce process to name new nominee",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOemlPZlZNWnlEalI4aURqeU96Rmd0UFkyNlZJZjdjQkRBLW40M2FYY29RRTN6UWNpcU1aRHJOeDFLTjVmMTFNb21aYU5pdDBfbV9VVXdhN1N0UnJ5eWpCbTJIZ2lYUjZQS2xiNVdiMTlpVDdqeGk3aHpCWUhhTFdpNHRnVVB1Mlh1VWw2YkVRX18?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "Graham Platner는 메인주 상원 경선에서 공식적으로 탈락했으며, 탈퇴 편지에 F-폭탄을 넣어 캠페인을 마무리했습니다.",
-      "excerpt_en": "Graham Platner officially dropped out of Maine's Senate race, ending his campaign with an F-bomb in his withdrawal letter.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/graham-platner-quits-maine-senate-race-with-fiery-f-bomb-filled-letter-amid-sexual-assault-allegations-101783732304254.html",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-11T01:45:00+09:00",
-      "latest_published_at": "2026-07-11T01:56:03+09:00",
-      "articles": [
-        {
-          "title": "Graham Platner quits Maine Senate race with fiery, F-bomb-filled letter amid sexual assault allegations",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/graham-platner-quits-maine-senate-race-with-fiery-f-bomb-filled-letter-amid-sexual-assault-allegations-101783732304254.html",
-          "published_at": "01:56"
-        },
-        {
-          "title": "Platner formally withdraws from Maine Senate race and Democrats announce process to name new nominee",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOemlPZlZNWnlEalI4aURqeU96Rmd0UFkyNlZJZjdjQkRBLW40M2FYY29RRTN6UWNpcU1aRHJOeDFLTjVmMTFNb21aYU5pdDBfbV9VVXdhN1N0UnJ5eWpCbTJIZ2lYUjZQS2xiNVdiMTlpVDdqeGk3aHpCWUhhTFdpNHRnVVB1Mlh1VWw2YkVRX18?oc=5",
-          "published_at": "01:45"
-        }
-      ]
-    },
-    {
-      "id": "world-46",
-      "title": "Meta는 개인 정보 보호 반발로 출시 후 며칠 만에 AI 이미지 기능을 폐기합니다.",
-      "title_en": "Meta scraps AI image feature days after launch following privacy backlash",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/meta-scraps-ai-image-feature-days-after-launch-following-privacy-backlash-101783733618062.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "메타는 개인정보 보호 문제로 반발을 받은 후 AI 이미지 생성 기능인 뮤즈 이미지(Muse Image)를 중단했습니다.",
-      "excerpt_en": "Meta has discontinued its AI image generation feature, Muse Image, after receiving backlash over privacy concerns.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/meta-scraps-ai-image-feature-days-after-launch-following-privacy-backlash-101783733618062.html",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-11T01:43:40+09:00",
-      "latest_published_at": "2026-07-11T01:45:59+09:00",
-      "articles": [
-        {
-          "title": "Meta pulls new AI image feature after days of backlash",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2dy6e8klw0o?at_medium=RSS&at_campaign=rss",
-          "published_at": "01:45"
-        },
-        {
-          "title": "Meta scraps AI image feature days after launch following privacy backlash",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/meta-scraps-ai-image-feature-days-after-launch-following-privacy-backlash-101783733618062.html",
-          "published_at": "01:43"
-        }
-      ]
-    },
-    {
-      "id": "world-256",
-      "title": "스페인 소방관, 치명적인 화재에 우위를 점하다",
-      "title_en": "Spanish firefighters gain upper hand on deadly blazes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3284454/spanish-firefighters-gain-upper-hand-on-deadly-blazes",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "스페인, 로스 가야도스 - 토요일 날씨가 좋아진 소방관들이 스페인에서 가장 치명적인 산불 중 하나에서 우위를 점했습니다. 생존자들은 탈출하는 동안 \"끔찍하고\" 무서운 순간을 묘사했습니다.",
-      "excerpt_en": "LOS GALLARDOS, Spain - Firefighters aided by better weather on Saturday gained the upper hand on one of Spain’s deadliest wildfires as survivors described “horrific” and terrifying moments as they esc",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3284454/spanish-firefighters-gain-upper-hand-on-deadly-blazes",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "Channel News Asia"
-      ],
-      "first_published_at": "2026-07-11T10:45:00+09:00",
-      "latest_published_at": "2026-07-11T21:23:00+09:00",
-      "articles": [
-        {
-          "title": "Firefighters gain upper hand on deadly Spain wildfire",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/firefighters-gain-upper-hand-deadly-spain-wildfire-6248511",
-          "published_at": "21:23"
-        },
-        {
-          "title": "Spanish firefighters gain upper hand on deadly blazes",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3284454/spanish-firefighters-gain-upper-hand-on-deadly-blazes",
-          "published_at": "10:45"
         }
       ]
     }
