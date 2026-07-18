@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-18",
-  "batch_time": "18:00",
+  "date": "2026-07-19",
+  "batch_time": "00:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,52 +8,123 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-07-18T18:09:52.809489+09:00",
+  "updated_at": "2026-07-19T00:14:28.338831+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 489,
-  "cluster_count_total": 395,
+  "article_count_total": 382,
+  "cluster_count_total": 315,
   "clusters": [
     {
-      "id": "world-197",
-      "title": "영국의 새 총리 지명자 앤디 번햄(Andy Burnham)에 관한 모든 것: 다우닝가 10번지로 향하는 '북방의 왕'",
-      "title_en": "All about UK's new PM-designate Andy Burnham: The ‘King of the North’ heading to 10, Downing Street",
+      "id": "world-2",
+      "title": "미국-이란 뉴스 LIVE: 이란은 '미국의 위반' 이후 이슬라마바드 MoU가 중단되었다고 밝혔습니다. 바레인 또 공습 사이렌 울려",
+      "title_en": "US-Iran news LIVE: Iran says Islamabad MoU suspended after ‘US violations’; air raid sirens in Bahrain again",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/all-about-uk-pm-designate-who-is-andy-burnham-next-britain-pm-king-of-the-north-heading-to-10-downing-street-101784288868431.html",
+      "title_url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-strait-hormuz-israel-trump-brent-crude-oil-price-today-missile-drone-strike-uae-bahrain-101784338898179.html",
       "category": "중동",
       "primary_source": "Hindustan Times",
-      "excerpt": "앤디 번햄(Andy Burnham)은 금요일 차기 영국 총리로 예정된 집권 노동당의 새 지도자로 확정됨에 따라 영국 국민들에게 “희망을 돌려주겠다”고 다짐했습니다. “사람과 장소는…",
-      "excerpt_en": "Andy Burnham vowed Friday to “give hope” back to the British people as he was confirmed as the ruling Labour Party’s new leader, set to be the next UK prime minister. “People and places … have been wa",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361003/uks-next-prime-minister-andy-burnham-vows-give-hope-back-britons?utm_source=rss_feed",
+      "excerpt": "두바이 - 이란에 대한 미국의 공격이 7일 연속 이어진 후 토요일 중동 지역의 적대 행위가 더욱 격화되었습니다.",
+      "excerpt_en": "DUBAI - Hostilities in the Middle East intensified on Saturday after a seventh straight night of US attacks on Iran, with Tehran threatening a “full-scale offensive” in response and the strategic Stra",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3287925/usiran-strikes-latest-developments",
       "translation_status": "ok",
-      "score": 92,
+      "score": 89,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "BBC",
+        "Bangkok Post",
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-18T02:01:45+09:00",
+      "latest_published_at": "2026-07-18T15:04:25+09:00",
+      "articles": [
+        {
+          "title": "US strikes hit Iran for seventh consecutive night",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+          "published_at": "15:04"
+        },
+        {
+          "title": "US-Iran fighting escalates with infrastructure targeted",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3287950/usiran-fighting-escalates-with-infrastructure-targeted",
+          "published_at": "12:45"
+        },
+        {
+          "title": "US-Iran strikes: latest developments",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3287925/usiran-strikes-latest-developments",
+          "published_at": "08:45"
+        },
+        {
+          "title": "US forces strike Iran for seventh consecutive night",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/18/us-forces-strike-iran-for-seventh-consecutive-night",
+          "published_at": "05:49"
+        },
+        {
+          "title": "US-Iran news LIVE: Iran says Islamabad MoU suspended after ‘US violations’; air raid sirens in Bahrain again",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-strait-hormuz-israel-trump-brent-crude-oil-price-today-missile-drone-strike-uae-bahrain-101784338898179.html",
+          "published_at": "02:01"
+        }
+      ]
+    },
+    {
+      "id": "world-114",
+      "title": "Burnham이 노동당 지도자이자 영국의 차기 총리가 됨",
+      "title_en": "Burnham Becomes Labour Leader and Britain’s Incoming Prime Minister",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html",
+      "category": "중동",
+      "primary_source": "New York Times",
+      "excerpt": "이란에 대한 미국의 공격 재개로 인해 영국 신임 총리 앤디 번햄은 논쟁의 여지가 있는 민병대에서 영국의 가장 가까운 동맹국을 얼마나 지원할 것인지에 대한 잠재적인 첫날 결정을 내리게 되었습니다.",
+      "excerpt_en": "The resumption of US strikes against Iran has thrust incoming UK Prime Minister Andy Burnham into a potential day one decision on how much to support Britain’s closest ally in its controversial milita",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361030/uks-burnham-faces-test-trump-seeks-british-bases-iran-attack?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 2,
-        "raw75": 69
+        "raw75": 66
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 6,
+      "source_count": 4,
       "sources": [
         "ABC News",
-        "CBS News",
-        "Hindustan Times",
+        "Bangkok Post",
         "New York Times",
-        "SCMP",
-        "Sydney Morning Herald"
+        "SCMP"
       ],
-      "first_published_at": "2026-07-17T12:50:20+09:00",
-      "latest_published_at": "2026-07-18T04:31:07+09:00",
+      "first_published_at": "2026-07-17T18:53:00+09:00",
+      "latest_published_at": "2026-07-18T09:45:00+09:00",
       "articles": [
+        {
+          "title": "New British PM faces long list of challenges",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3287935/new-british-pm-faces-long-list-of-challenges",
+          "published_at": "09:45"
+        },
         {
           "title": "UK’s Burnham faces test as Trump seeks British bases for Iran attack",
           "source_name": "SCMP",
@@ -71,322 +142,21 @@
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html",
           "published_at": "18:53"
-        },
-        {
-          "title": "How Andy Burnham, ‘King of the North,’ Conquered U.K. Politics",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/europe/andy-burnham-uk-labour-prime-minister.html",
-          "published_at": "13:56"
-        },
-        {
-          "title": "UK’s next prime minister Andy Burnham vows to ‘give hope back’ to Britons",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3361003/uks-next-prime-minister-andy-burnham-vows-give-hope-back-britons?utm_source=rss_feed",
-          "published_at": "13:52"
-        },
-        {
-          "title": "Andy Burnham clears final hurdle before becoming UK PM, but Aussie expat gets one vote",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/andy-burnham-clears-final-hurdle-before-becoming-uk-pm-but-aussie-expat-gets-one-vote-20260717-p60gdl.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "13:10"
-        },
-        {
-          "title": "Who is Andy Burnham, the man becoming Britain's next prime minister?",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/keir-starmer-resigns-who-is-andy-burnham-likely-next-uk-prime-minister/",
-          "published_at": "12:55"
-        },
-        {
-          "title": "All about UK's new PM-designate Andy Burnham: The ‘King of the North’ heading to 10, Downing Street",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/all-about-uk-pm-designate-who-is-andy-burnham-next-britain-pm-king-of-the-north-heading-to-10-downing-street-101784288868431.html",
-          "published_at": "12:50"
         }
       ]
     },
     {
-      "id": "world-66",
-      "title": "인도 운동가, 장기부전 위험 우려로 단식투쟁 중단 촉구",
-      "title_en": "India activist urged to end hunger strike as he risks organ failure",
+      "id": "world-17",
+      "title": "노르웨이 대형 화재로 주택이 파괴되자 헬리콥터가 물을 뿌렸습니다.",
+      "title_en": "Helicopters dump water as huge Norway fire destroys homes",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/sonam-wangchuck-india-hunger-strike-cockroach-janta-party-protest-education/",
-      "category": "아시아",
-      "primary_source": "CBS News",
-      "excerpt": "활동가인 소남 왕추크는 수백만 명의 학생들에게 영향을 끼친 잘못된 교육 관리에 대한 항의의 일환으로 지난 달 파업을 시작했습니다.",
-      "excerpt_en": "The activist, Sonam Wangchuk, started his strike last month as part of a protest over educational mismanagement that has affected millions of students.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/18/world/asia/sonam-wangchuk-hunger-strike-delhi-police.html",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "CBS News",
-        "Channel News Asia",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-17T13:53:55+09:00",
-      "latest_published_at": "2026-07-18T07:36:30+09:00",
-      "articles": [
-        {
-          "title": "Indian Activist on Hunger Strike Is Forcibly Removed by Police",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/18/world/asia/sonam-wangchuk-hunger-strike-delhi-police.html",
-          "published_at": "07:36"
-        },
-        {
-          "title": "Indian police hospitalize an activist who’s on a hunger strike for education reform",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQTBCbG1NUHJfOEZtSWI3WGx3M2RuWDJHMjNsZDdwZ0YybW1yeWQ5QmFHTWtFcXhzWktqS2ZURGg1eDIzOXZXMWFGRTB5WVljWk1zc0ZQLTBsSHZnME81ZjhQelVzVV9ZLWllX1Y3RzVJWUNXR0dVNVVvNHpmcUYxM1ZmblR4Y1BPUnpSOG83OEd4OFEyZW1Qal9rdF9SSkt3Y0s1a0QyMlVWRWxueVNmV0d4SkFkWHM?oc=5",
-          "published_at": "05:20"
-        },
-        {
-          "title": "Indian activist moved to hospital after 20-day hunger strike to protest country’s exam system",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/india-sonam-wangchuk-hunger-strike-medicine-exam-protest-6262421",
-          "published_at": "04:15"
-        },
-        {
-          "title": "India activist urged to end hunger strike as he risks organ failure",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/sonam-wangchuck-india-hunger-strike-cockroach-janta-party-protest-education/",
-          "published_at": "13:53"
-        }
-      ]
-    },
-    {
-      "id": "world-60",
-      "title": "타코벨, '폭발성 설사' 기생충 발병 연루된 후 많은 식당에서 상추 제거",
-      "title_en": "Taco Bell removing lettuce from many restaurants after it was linked to ‘explosive diarrhea’ parasite outbreak",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/lettuce-taco-bell-diarrhea-parasite-source-b3016884.html",
-      "category": "아시아",
-      "primary_source": "The Independent",
-      "excerpt": "FDA 조사에서 상추의 단일 공급업체가 확인되었지만 연방 경고에서는 회사 이름이 지정되지 않았습니다. 연방 보건 당국은 Taco Bell 지점에서 제공되는 멕시코산 상추를 확인했습니다.",
-      "excerpt_en": "FDA investigation identified a single supplier of the lettuce, but federal warnings did not name the company Federal health officials have identified lettuce from Mexico served by Taco Bell locations ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/17/cyclospora-lettuce-taco-bell",
-      "translation_status": "ok",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 7,
-      "article_count": 7,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News Australia",
-        "AP News",
-        "Bangkok Post",
-        "Hindustan Times",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T12:43:13+09:00",
-      "latest_published_at": "2026-07-18T06:06:33+09:00",
-      "articles": [
-        {
-          "title": "Taco Bell removes Taylor Farms lettuce amid cyclosporiasis outbreak; producer issues clarification: ‘We are committed…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/taco-bell-removes-taylor-farms-lettuce-amid-cyclosporiasis-outbreak-producer-issues-clarification-we-are-committed-101784352167272.html",
-          "published_at": "06:06"
-        },
-        {
-          "title": "Taco Bell lettuce identified as a source of US 'explosive' diarrhoea outbreak",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/taco-bell-lettuce-mexico-source-cyclospora-outbreak-us/106931262",
-          "published_at": "02:16"
-        },
-        {
-          "title": "Lettuce at Taco Bell in 5 states confirmed as a source of diarrhea-causing parasite",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMGRkT2laLXQ4SXI1cjFYeDBkOC04RmVieUZZVHljejdCM3RVWFBCSFJFU0Eya0REWjFMczBKT21RTUlEa3hVZkg2cDVrTmg4UEZOaVIyQlNPYUZmaFBrQWlYRFJUZk5KZmJYVUFfNHBKaDZyRHZCU3NaS0t3LVVMNGl6ZW8tSUR5LUY4VXN4VkIzVy1oRVRLQjUzMjI?oc=5",
-          "published_at": "20:58"
-        },
-        {
-          "title": "CDC and FDA link lettuce at Taco Bell in five states to cyclospora outbreak",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/cyclospora-lettuce-taco-bell",
-          "published_at": "20:10"
-        },
-        {
-          "title": "US links Taco Bell lettuce to diarrhea-causing parasite outbreak",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3287862/us-links-taco-bell-lettuce-to-diarrheacausing-parasite-outbreak",
-          "published_at": "19:45"
-        },
-        {
-          "title": "From Taco Bell to Chipotle: Notable foodborne illness outbreaks at US restaurant chains",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/tacobell-explosive-diarrhea-parasite-outbreak-b3017169.html",
-          "published_at": "19:35"
-        },
-        {
-          "title": "Taco Bell removing lettuce from many restaurants after it was linked to ‘explosive diarrhea’ parasite outbreak",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/lettuce-taco-bell-diarrhea-parasite-source-b3016884.html",
-          "published_at": "12:43"
-        }
-      ]
-    },
-    {
-      "id": "world-201",
-      "title": "멕시코 지진에 쓰나미 경고? 과테말라, 캘리포니아, 워싱턴, 알래스카 및 엘살바도르의 최신 업데이트",
-      "title_en": "Tsunami warning after Mexico earthquake? Latest updates for Guatemala, California, Washington, Alaska and El Salvador",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/tsunami-warning-after-mexico-earthquake-latest-updates-for-guatemala-california-washington-alaska-and-el-salvador-101784301264591.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국 지질조사국(USGS)은 이번 지진의 진원지는 멕시코 아퀼레스 세르단 남서쪽 30마일 떨어진 곳에서 규모 7.3이라고 밝혔다.",
-      "excerpt_en": "The U.S. Geological Survey reported that the earthquake had a magnitude of 7.3 with the epicenter 30 miles southwest of Aquiles Serdan, Mexico.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/earthquake-mexico-guatemala-tsunami-alert/",
-      "translation_status": "ok",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBS News",
-        "Euronews",
-        "Hindustan Times",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-17T15:27:49+09:00",
-      "latest_published_at": "2026-07-17T22:34:10+09:00",
-      "articles": [
-        {
-          "title": "Strong earthquake hits Mexico-Guatemala border, tsunami alert lifted",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/earthquake-mexico-guatemala-tsunami-alert/",
-          "published_at": "22:34"
-        },
-        {
-          "title": "7.3-Magnitude Earthquake Off Coast of Mexico and Guatemala Poses Tsunami Threat",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/americas/earthquake-tsunami-warning-mexico-guatemala.html",
-          "published_at": "19:54"
-        },
-        {
-          "title": "7.3 magnitude earthquake strikes Mexico and Guatemala coasts, tsunami alert lifted",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/17/magnitude-73-earthquake-strikes-mexico-and-guatemala-coasts-tsunami-alert-issued",
-          "published_at": "15:59"
-        },
-        {
-          "title": "Tsunami warning after Mexico earthquake? Latest updates for Guatemala, California, Washington, Alaska and El Salvador",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/tsunami-warning-after-mexico-earthquake-latest-updates-for-guatemala-california-washington-alaska-and-el-salvador-101784301264591.html",
-          "published_at": "15:27"
-        }
-      ]
-    },
-    {
-      "id": "world-118",
-      "title": "중국 남서부 산사태로 인명 갇혔고 구조작업 진행 중",
-      "title_en": "Landslide in southwest China traps people, rescue efforts underway",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/landslide-southwest-china-traps-people-rescue-efforts-underway-134839470",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "지난 7월 17일 충칭시 펑수이현에서 산사태가 발생해 주택가 일부가 매몰되고 수를 알 수 없는 사람이 갇히자 중국은 대규모 구조 작전에 나섰다.",
-      "excerpt_en": "China launched a large-scale rescue operation after a landslide struck Pengshui County in Chongqing municipality on 17 July, burying part of a residential area and trapping an unknown number of people",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/video/2026/07/17/china-rescuers-race-to-find-trapped-people-after-landslide",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News",
-        "Al Jazeera",
-        "Euronews",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T12:34:05+09:00",
-      "latest_published_at": "2026-07-18T08:15:42+09:00",
-      "articles": [
-        {
-          "title": "Rescuers in China race to find survivors after landslide kills at least 8",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/asia/china-landslide-chongqing-deaths-rescue-b3017326.html",
-          "published_at": "08:15"
-        },
-        {
-          "title": "Landslide in southwest China kills eight and leaves 34 missing",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/landslide-in-southwest-china-kills-eight-and-leaves-34-missing?traffic_source=rss",
-          "published_at": "00:33"
-        },
-        {
-          "title": "At least 8 dead as landslide buries homes in China's Chongqing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/death-toll-injured-as-landslide-buries-homes-in-china-chongqing-latest-update-rescue-101784299039396.html",
-          "published_at": "14:44"
-        },
-        {
-          "title": "China rescuers race to find trapped people after landslide",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/17/china-rescuers-race-to-find-trapped-people-after-landslide",
-          "published_at": "13:00"
-        },
-        {
-          "title": "Landslide in southwest China traps people, rescue efforts underway",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/landslide-southwest-china-traps-people-rescue-efforts-underway-134839470",
-          "published_at": "12:34"
-        }
-      ]
-    },
-    {
-      "id": "world-14",
-      "title": "트럼프 \"캐나다, 미국이 더러운 공기에 침략당했다\" 비난",
-      "title_en": "Trump blames Canada as US 'invaded by filthy air'",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/trump-blames-canada-as-us-invaded-by-filthy-air-from-wildfires-that-could-impact-world-cup-final-13563357",
-      "category": "미국",
-      "primary_source": "Sky News",
-      "excerpt": "도널드 트럼프 미국 대통령은 금요일 미국 전역에 산불 연기가 퍼진 것에 대해 캐나다를 비난하고 오염을 처리하는 데 드는 \"헤아릴 수 없는 비용\"을 기존 관세에 추가할 것이라고 말했습니다.",
-      "excerpt_en": "US President Donald Trump on Friday blamed Canada for wildfire smoke spreading across the United States and said he would add the “incalculable cost” ‌of dealing with the pollution to existing tariffs",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3361020/trump-blames-canada-wildfire-smoke-says-hell-add-cost-tariffs?utm_source=rss_feed",
+      "title_url": "https://www.bbc.co.uk/news/videos/c4gj5944n4ko?at_medium=RSS&at_campaign=rss",
+      "category": "유럽",
+      "primary_source": "BBC",
+      "excerpt": "노르웨이 드람멘에서 대규모 화재가 발생해 최소 100채의 가옥이 전소됐습니다. 불길이 빠르게 번지면서 수백 명의 주민들이 대피해야 했습니다. 소방관은 Satur를 통해 일했습니다.",
+      "excerpt_en": "A massive fire destroyed at least one hundred homes in Drammen, Norway. Hundreds of residents were forced to evacuate their residences after the blaze spread rapidly. Firefighters worked through Satur",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/watch-norways-largest-residential-fire-in-modern-history-destroys-at-least-100-homes-triggers-mass-evacuation/articleshow/132481122.cms",
       "translation_status": "ok",
       "score": 81,
       "score_breakdown": {
@@ -402,530 +172,167 @@
       "syndicated_count": 0,
       "source_count": 5,
       "sources": [
-        "Bangkok Post",
-        "Reuters",
-        "SCMP",
-        "Sky News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T13:00:00+09:00",
-      "latest_published_at": "2026-07-18T06:11:00+09:00",
-      "articles": [
-        {
-          "title": "Canadian wildfire smoke prompts Trump tariff threat",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3287917/canadian-wildfire-smoke-prompts-trump-tariff-threat",
-          "published_at": "06:11"
-        },
-        {
-          "title": "Trump threatens Canada with tariffs for wildfire smoke blanketing the US",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-canada-tariffs-wildfire-smoke-b3017268.html",
-          "published_at": "01:51"
-        },
-        {
-          "title": "Trump blames Canada for wildfire smoke, says he’ll add cost to tariffs",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361020/trump-blames-canada-wildfire-smoke-says-hell-add-cost-tariffs?utm_source=rss_feed",
-          "published_at": "20:46"
-        },
-        {
-          "title": "Trump blames Canada for wildfire smoke, says he will add cost to tariffs",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXUtel94MS1EWVNOZU1tWW12N1lUWjBTSVBmSTk3bnNGWUd5ellVbVBYZ09LdmozUjVxT0dWbUZkTXU1UEpucm5kblpRd1JQX1Q0NDhEbDZ0dFJUazhCcjlJemk2RHUtMU1PTkdpSHRyZmVJZ01ZTFNyZ1REQkpFc1JLcTUzM2VaaVJqSDdZblNuWjBJTV9tQnZnVG9NSTRHXzJFUHJB?oc=5",
-          "published_at": "16:11"
-        },
-        {
-          "title": "Trump blames Canada as US 'invaded by filthy air'",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/trump-blames-canada-as-us-invaded-by-filthy-air-from-wildfires-that-could-impact-world-cup-final-13563357",
-          "published_at": "13:00"
-        }
-      ]
-    },
-    {
-      "id": "world-77",
-      "title": "미국-이란 뉴스 라이브: 바레인의 공습 사이렌; 이란 공격 후 쿠웨이트 발전소, 수처리장 화재",
-      "title_en": "US-Iran news LIVE: Air raid sirens in Bahrain; fire at Kuwait power, water plant after Iran strike",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-strait-hormuz-israel-trump-brent-crude-oil-price-today-missile-drone-strike-uae-bahrain-101784338898179.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국-이란 뉴스 LIVE: 중동에서 7일 연속 폭격이 격화되자 이란은 미국의 공습으로 3명이 사망했다고 밝혔습니다. 이란도 미국 민병대 여러 곳을 공격해 보복했다.",
-      "excerpt_en": "US-Iran news LIVE: As bombing intensified in the Middle East for the seventh consecutive night, Iran said three people were killed in US strikes. Iran also retaliated with attacks on several US milita",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-strait-hormuz-israel-trump-brent-crude-oil-price-today-missile-drone-strike-uae-bahrain-101784338898179.html",
-      "translation_status": "ok",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-18T02:01:45+09:00",
-      "latest_published_at": "2026-07-18T07:33:40+09:00",
-      "articles": [
-        {
-          "title": "US strikes hit Iran for seventh consecutive night",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-          "published_at": "07:33"
-        },
-        {
-          "title": "US forces strike Iran for seventh consecutive night",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/18/us-forces-strike-iran-for-seventh-consecutive-night",
-          "published_at": "05:49"
-        },
-        {
-          "title": "US-Iran news LIVE: Air raid sirens in Bahrain; fire at Kuwait power, water plant after Iran strike",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-strait-hormuz-israel-trump-brent-crude-oil-price-today-missile-drone-strike-uae-bahrain-101784338898179.html",
-          "published_at": "02:01"
-        }
-      ]
-    },
-    {
-      "id": "world-171",
-      "title": "호주, 대량 메탄올 중독 혐의 발표로 라오스에 대한 여행 조언 업데이트",
-      "title_en": "Australia updates travel advice for Laos as charges announced over mass methanol poisoning",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "증류소 주인은 호주 청소년 중독 혐의로 단 3개월의 징역형을 받을 수 있습니다. 속보 이메일, 무료 앱 또는 일간 뉴스 팟캐스트를 받아보세요 호주 정부는 증가세를 보이고 있습니다.",
-      "excerpt_en": "Distillery owner could face only three months in jail over alleged poisoning of Australian teenagers Get our breaking news email , free app or daily news podcast The Australian government has increase",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
-      "translation_status": "ok",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
+        "ABC News",
         "ABC News Australia",
-        "Sydney Morning Herald",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-17T21:36:05+09:00",
-      "latest_published_at": "2026-07-18T07:01:49+09:00",
-      "articles": [
-        {
-          "title": "Families left in the dark after methanol deaths",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/families-left-in-the-dark-after-methanol-deaths-20260717-p60gdb.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "07:01"
-        },
-        {
-          "title": "Travel alert level for Laos raised as distillery owner charged",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/laos-travel-alert-methanol-poisoning/106931152",
-          "published_at": "01:51"
-        },
-        {
-          "title": "Australia updates travel advice for Laos as charges announced over mass methanol poisoning",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
-          "published_at": "21:36"
-        }
-      ]
-    },
-    {
-      "id": "world-246",
-      "title": "미국과 이란이 인프라를 공격해 확대 우려",
-      "title_en": "US and Iran attack infrastructure, raising fears of escalation",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "이란은 미국이 물류 인프라를 포함한 이란의 군사 시설을 표적으로 삼아 7일 밤 연속 공습을 펼친 후 토요일 미국 걸프 동맹국에 대한 공격을 재개해 전쟁을 격화시켰습니다.",
-      "excerpt_en": "Iran launched renewed attacks on ⁠US Gulf allies on Saturday after a seventh straight night of US strikes targeting Iranian military sites including logistics infrastructure, escalating the war one we",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-17T19:40:22+09:00",
-      "latest_published_at": "2026-07-18T04:54:00+09:00",
-      "articles": [
-        {
-          "title": "Iran renews attacks on Gulf states after another night of US strikes",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/iran-renews-attacks-gulf-states-us-war-strikes-6262401",
-          "published_at": "04:54"
-        },
-        {
-          "title": "U.S. and Iran each target infrastructure in latest strikes of war",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/iran-us-war-infrastructure-attack-9.7274603?cmp=rss",
-          "published_at": "20:10"
-        },
-        {
-          "title": "US and Iran attack infrastructure, raising fears of escalation",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
-          "published_at": "19:40"
-        }
-      ]
-    },
-    {
-      "id": "world-287",
-      "title": "텍사스가 2년 연속 엄청난 홍수를 겪었습니다.",
-      "title_en": "Texas hit with devastating floods for 2nd year in a row, in photos",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/texas-floods-9.7273734?cmp=rss",
-      "category": "미국",
-      "primary_source": "CBC",
-      "excerpt": "며칠 동안 폭우가 쏟아져 집과 도로가 물에 잠긴 뒤 치명적인 홍수가 텍사스 일부 지역을 휩쓸어 수백 명의 구조가 이루어졌고 비상대응팀은 24시간 내내 일해야 했습니다.",
-      "excerpt_en": "Catastrophic flooding has swept across parts of Texas following days of heavy rain, submerging homes and roads, prompting hundreds of rescues and leaving emergency responders working around the clock ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/texas-floods-9.7273734?cmp=rss",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "CBS News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T13:47:35+09:00",
-      "latest_published_at": "2026-07-17T22:30:00+09:00",
-      "articles": [
-        {
-          "title": "7/17: CBS Evening News",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/071726-cbs-evening-news/",
-          "published_at": "22:30"
-        },
-        {
-          "title": "Two dead as Texas braces for more ‘record-shattering’ rain after days of ‘catastrophic’ flooding",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/texas-flooding-hill-country-death-toll-weather-forecast-b3016947.html",
-          "published_at": "15:47"
-        },
-        {
-          "title": "Texas hit with devastating floods for 2nd year in a row, in photos",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/texas-floods-9.7273734?cmp=rss",
-          "published_at": "13:47"
-        }
-      ]
-    },
-    {
-      "id": "world-8",
-      "title": "노르웨이 화재로 가옥 100채 이상 파괴",
-      "title_en": "More than 100 homes destroyed in Norway fire",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeXZ4SFJQQnBFWmtET1E1cGF2MmY1VTBTRXcta3FCaVduQ3dFZ2F0U1AyMnFUZ1h0QVN4YmFYdGtEeHE5ZnJYd2NGUENWaUpmM3RKR1N4aUJQeEUtVFhJRkZVcUVzNWFxeXZMODJyT2RaN3VYQVQ1WHViOTQ2Ukh4RnowSEc3WWtGZ0hwVnpLd3pJSEtBUDJ6ZE8xNXdQZw?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "노르웨이 남부에서 발생한 대규모 화재로 100채 이상의 가옥이 파괴되어 수백 명의 사람들이 대피했다고 구조 관계자들이 말했습니다.",
-      "excerpt_en": "More than 100 homes have been ‌destroyed in a major fire in southern Norway, forcing the evacuation of hundreds of people, rescue officials ​have said.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/more-than-100-homes-destroyed-as-firefighters-battle-norway-blaze-13564563",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
         "BBC",
-        "Reuters",
-        "Sky News"
+        "The Independent",
+        "Times of India"
       ],
-      "first_published_at": "2026-07-17T19:27:43+09:00",
-      "latest_published_at": "2026-07-18T07:13:07+09:00",
+      "first_published_at": "2026-07-18T07:13:07+09:00",
+      "latest_published_at": "2026-07-18T14:41:46+09:00",
       "articles": [
+        {
+          "title": "Watch: Largest residential fire in Norway's modern history destroys at least 100 homes",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/watch-norways-largest-residential-fire-in-modern-history-destroys-at-least-100-homes-triggers-mass-evacuation/articleshow/132481122.cms",
+          "published_at": "14:41"
+        },
+        {
+          "title": "Massive fire becomes Norway's largest in modern times",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-19/norway-massive-fire-largest-in-modern-times/106931942",
+          "published_at": "14:28"
+        },
+        {
+          "title": "‘Not under control’: Firefighters battle largest blaze in Norway’s history as 100 homes destroyed",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/norway-fire-drammen-homes-destroyed-b3017382.html",
+          "published_at": "13:18"
+        },
+        {
+          "title": "Massive fire destroys 100 homes in Norway and forces hundreds to evacuate",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/massive-fire-destroys-100-homes-norway-forces-hundreds-134870121",
+          "published_at": "10:42"
+        },
         {
           "title": "Helicopters dump water as huge Norway fire destroys homes",
           "source_name": "BBC",
           "url": "https://www.bbc.co.uk/news/videos/c4gj5944n4ko?at_medium=RSS&at_campaign=rss",
           "published_at": "07:13"
-        },
-        {
-          "title": "More than 100 homes destroyed as firefighters battle Norway blaze",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/more-than-100-homes-destroyed-as-firefighters-battle-norway-blaze-13564563",
-          "published_at": "02:57"
-        },
-        {
-          "title": "More than 100 homes destroyed in Norway fire",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeXZ4SFJQQnBFWmtET1E1cGF2MmY1VTBTRXcta3FCaVduQ3dFZ2F0U1AyMnFUZ1h0QVN4YmFYdGtEeHE5ZnJYd2NGUENWaUpmM3RKR1N4aUJQeEUtVFhJRkZVcUVzNWFxeXZMODJyT2RaN3VYQVQ1WHViOTQ2Ukh4RnowSEc3WWtGZ0hwVnpLd3pJSEtBUDJ6ZE8xNXdQZw?oc=5",
-          "published_at": "19:27"
         }
       ]
     },
     {
-      "id": "world-11",
-      "title": "'사람들은 그래야 하기 때문에 비용을 지불할 것입니다': Trump Media는 더 빠른 Truth Social 게시물을 위해 월 100,000달러의 수수료를 제시합니다.",
-      "title_en": "'People will pay because they have to': Trump Media pitches $100,000 monthly fee for faster Truth Social posts",
+      "id": "world-59",
+      "title": "Taco Bell에서 Chipotle까지: 미국 레스토랑 체인에서 주목할만한 식중독 발생",
+      "title_en": "From Taco Bell to Chipotle: Notable foodborne illness outbreaks at US restaurant chains",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/people-will-pay-because-they-have-to-trump-media-pitches-100000-monthly-fee-for-faster-truth-social-posts/articleshow/132467139.cms",
+      "title_url": "https://www.independent.co.uk/news/world/americas/tacobell-explosive-diarrhea-parasite-outbreak-b3017169.html",
       "category": "미국",
-      "primary_source": "Times of India",
-      "excerpt": "도널드 트럼프의 소셜 미디어 회사는 진실 소셜 플랫폼에 있는 미국 대통령의 게시물에 더 빨리 접근할 수 있도록 월스트리트 거래자와 투자 회사에 한 달에 최대 10만 달러를 청구하는 것에 대해 논의했습니다.",
-      "excerpt_en": "Donald Trump’s social media company has discussed charging Wall Street traders and investment firms as much as US$100,000 a month for faster access to the US president’s posts on his Truth Social plat",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3361022/trump-media-pitched-us100000-fee-fastest-feed-us-presidents-posts-sources-say?utm_source=rss_feed",
+      "primary_source": "The Independent",
+      "excerpt": "미국 보건 당국은 타코 벨에서 제공되는 빙산 양상추를 \"폭발성\" 설사를 일으키는 기생충인 원포자충의 발생과 연관시켰습니다. 보건 당국은 오염이 더 심해질 수 있다고 경고합니다.",
+      "excerpt_en": "US health officials linked iceberg lettuce served at Taco Bell to an outbreak of the parasite cyclospora, which causes “explosive” diarrhea. Health officials warn that the contamination may go beyond ",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/taco-bell-lettuce-tied-to-diarrhea-causing-parasite-outbreak/a-78015079?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "ok",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Reuters",
-        "SCMP",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-17T17:55:34+09:00",
-      "latest_published_at": "2026-07-17T22:50:49+09:00",
-      "articles": [
-        {
-          "title": "Trump Media pitched US$100,000 fee for fastest feed of US president’s posts, sources say",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361022/trump-media-pitched-us100000-fee-fastest-feed-us-presidents-posts-sources-say?utm_source=rss_feed",
-          "published_at": "22:50"
-        },
-        {
-          "title": "Trump Media pitched $100,000 monthly fee for fastest feed of US president's posts, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUXhybkhSVTZzdG9mUEw1S0ZveDNCRm81ZEJmYWl2dW1BTzdGWkMxbTM3TWhqTVRlaGN4M3ZZMWNsU21hd0lYRnhtLVBBbWxZcHFLRmpmeHFSTFBfaVZjVFItUWlXMjRlbWpBYlM5b00wYXlnbFU5bnpWX2hwSGdrTzBVWm5ySTcwZnFwNHpqbnlJRVRGQUdDUGR4NFhlVzRqZmJLN1ZPUkdremVHR3VGUkdIOTJ0OVE4dFl3aGVJUmxwYjhMcDJZWC1XTGp6SWFxVThhUg?oc=5",
-          "published_at": "21:39"
-        },
-        {
-          "title": "'People will pay because they have to': Trump Media pitches $100,000 monthly fee for faster Truth Social posts",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/people-will-pay-because-they-have-to-trump-media-pitches-100000-monthly-fee-for-faster-truth-social-posts/articleshow/132467139.cms",
-          "published_at": "17:55"
-        }
-      ]
-    },
-    {
-      "id": "world-67",
-      "title": "7.3 지진이 멕시코-과테말라 국경을 강타했지만 즉각적인 피해는 보고되지 않았습니다.",
-      "title_en": "7.3 earthquake hits Mexico-Guatemala border with no immediate damage reported",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/73-earthquake-hits-mexico-guatemala-border-immediate-damage-134853792",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "멕시코 남부 태평양 연안, 과테말라와의 국경 바로 옆에 강한 지진이 발생했습니다.",
-      "excerpt_en": "A strong earthquake has struck the southern Mexican Pacific coast, right on the border with Guatemala",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/73-earthquake-hits-mexico-guatemala-border-immediate-damage-134853792",
-      "translation_status": "ok",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T18:10:11+09:00",
-      "latest_published_at": "2026-07-18T01:52:34+09:00",
-      "articles": [
-        {
-          "title": "Powerful 7.3 magnitude earthquake in Mexico leaves no immediate damage",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/mexico-earthquake-damage-guatemala-injured-b3017278.html",
-          "published_at": "01:52"
-        },
-        {
-          "title": "A 7.3 earthquake hits Mexico-Guatemala border with no immediate damage reported",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWxrSEMwLS01RTJuYy04NmVnVm5jS3Z4a09UWXNZZ21RT0tEVU9YSGNrQW9KM0FQZDZlQ2xyOHR5aGNLM3ppUWNkTG9yaGNodnhlVzJjUXRyNEQ1TUw1VWtTLTZhbXRzSHVuNUNmSjJSMTBUYWR6anNLYmNpaXhXRXpMZ2ZoT0dNY09fSUhtYVJwaU82ZGdOOVVWNWwteGJhR2x0bDZaMzY5VzA?oc=5",
-          "published_at": "21:19"
-        },
-        {
-          "title": "7.3 earthquake hits Mexico-Guatemala border with no immediate damage reported",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/73-earthquake-hits-mexico-guatemala-border-immediate-damage-134853792",
-          "published_at": "18:10"
-        }
-      ]
-    },
-    {
-      "id": "world-100",
-      "title": "잉글랜드-프랑스 경기 준비 '아무도 참가하고 싶어하지 않는다'",
-      "title_en": "England and France prepare for game 'nobody wants to be in'",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-07-18/fifa-world-cup-2026-england-france-prepare-for-third-place-game/106931340",
-      "category": "유럽",
-      "primary_source": "ABC News Australia",
-      "excerpt": "프랑스와 잉글랜드는 일요일 결승전 진출에 실패해 3위 자리를 놓고 토요일 월드컵 마지막 경기를 치른다. 실망한 팀 중 어느 팀도 t의 전망을 좋아하지 않는 것 같습니다.",
-      "excerpt_en": "France and England meet for their final World Cup match on Saturday competing for third place after failing to reach Sunday's final. Neither of the disappointed teams seems to relish the prospect of t",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match",
-      "translation_status": "ok",
-      "score": 68,
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
+        "diversity_score": 20,
+        "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 51
+        "time_score": 2,
+        "raw75": 60
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 5,
       "sources": [
         "ABC News Australia",
-        "Al Jazeera",
-        "France24"
+        "Bangkok Post",
+        "DW",
+        "Hindustan Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-18T02:55:00+09:00",
-      "latest_published_at": "2026-07-18T07:23:04+09:00",
+      "first_published_at": "2026-07-17T19:35:23+09:00",
+      "latest_published_at": "2026-07-18T06:06:33+09:00",
       "articles": [
         {
-          "title": "World Cup: France vs England prediction, final schedule, latest news",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-weekend-france-vs-england-prediction-schedule-news?traffic_source=rss",
-          "published_at": "07:23"
+          "title": "Taco Bell removes Taylor Farms lettuce amid cyclosporiasis outbreak; producer issues clarification: ‘We are committed…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/taco-bell-removes-taylor-farms-lettuce-amid-cyclosporiasis-outbreak-producer-issues-clarification-we-are-committed-101784352167272.html",
+          "published_at": "06:06"
         },
         {
-          "title": "France vs England: Deschamps set for final World Cup match as Zidane waits",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss",
-          "published_at": "06:01"
-        },
-        {
-          "title": "Disappointed France and England to face off in third place World Cup match",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match",
-          "published_at": "05:56"
-        },
-        {
-          "title": "England and France prepare for game 'nobody wants to be in'",
+          "title": "Taco Bell lettuce identified as a source of US 'explosive' diarrhoea outbreak",
           "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/fifa-world-cup-2026-england-france-prepare-for-third-place-game/106931340",
-          "published_at": "02:55"
+          "url": "https://www.abc.net.au/news/2026-07-18/taco-bell-lettuce-mexico-source-cyclospora-outbreak-us/106931262",
+          "published_at": "02:16"
+        },
+        {
+          "title": "Taco Bell lettuce tied to diarrhea-causing parasite outbreak",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/taco-bell-lettuce-tied-to-diarrhea-causing-parasite-outbreak/a-78015079?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "00:15"
+        },
+        {
+          "title": "US links Taco Bell lettuce to diarrhea-causing parasite outbreak",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3287862/us-links-taco-bell-lettuce-to-diarrheacausing-parasite-outbreak",
+          "published_at": "19:45"
+        },
+        {
+          "title": "From Taco Bell to Chipotle: Notable foodborne illness outbreaks at US restaurant chains",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/tacobell-explosive-diarrhea-parasite-outbreak-b3017169.html",
+          "published_at": "19:35"
         }
       ]
     },
     {
-      "id": "world-152",
+      "id": "world-81",
       "title": "월드컵은 맥주 판매를 증가시켰다. 하지만 지속 될까요?",
       "title_en": "The World Cup gave beer sales a boost. But will it last?",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/world-cup-beer-sales-usa-b3017187.html",
-      "category": "미국",
+      "category": "기타",
       "primary_source": "The Independent",
-      "excerpt": "모든 월드컵에 출전한 유일한 팀은 어디입니까? 그리고 누가 가장 많이 이겼나요? 토너먼트 내내 우리는 팬들에게 월드컵 기록에 대해 물었습니다.",
-      "excerpt_en": "Which is the only team to have competed in every World Cup? And which has won the most? Throughout the tournament, we asked fans about World Cup records.",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/world-cup-2026-do-supporters-know-the-world-cup-records",
+      "excerpt": "카이로 출신의 스포츠 사진작가인 Fareed Kotb는 1930년형 대형 필름 카메라를 사용하여 월드컵 경기를 촬영하는 모습이 포착되면서 국제적인 주목을 받았습니다.",
+      "excerpt_en": "Fareed Kotb, a sports photographer from Cairo, garnered international attention when he was spotted snapping World Cup games using a 1930 large-format film camera.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/canada/world-cup-photos-camera-9.7272702?cmp=rss",
       "translation_status": "ok",
-      "score": 68,
+      "score": 80,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
+        "article_score": 22,
+        "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 51
+        "raw75": 60
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
+        "CBC",
         "Channel News Asia",
         "France24",
         "The Independent"
       ],
       "first_published_at": "2026-07-17T20:29:46+09:00",
-      "latest_published_at": "2026-07-18T05:45:45+09:00",
+      "latest_published_at": "2026-07-18T10:01:40+09:00",
       "articles": [
+        {
+          "title": "Why Argentina are the World Cup's favourite villains",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/why-argentina-are-world-cups-favourite-villains-6262626",
+          "published_at": "10:01"
+        },
+        {
+          "title": "This World Cup photographer used a 96-year-old camera 'in a world where everything is instant'",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/canada/world-cup-photos-camera-9.7272702?cmp=rss",
+          "published_at": "08:00"
+        },
         {
           "title": "World Cup 2026: Do supporters know the World Cup records?",
           "source_name": "France24",
           "url": "https://www.france24.com/en/world-cup-2026-do-supporters-know-the-world-cup-records",
           "published_at": "05:45"
-        },
-        {
-          "title": "Fans drive us to want another World Cup triumph, says Argentina's Scaloni",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/fans-drive-us-want-another-world-cup-triumph-says-argentinas-scaloni-6262256",
-          "published_at": "01:11"
         },
         {
           "title": "The World Cup gave beer sales a boost. But will it last?",
@@ -936,124 +343,287 @@
       ]
     },
     {
-      "id": "world-254",
-      "title": "나홀로집에2 배우 사망",
-      "title_en": "Home Alone 2 actress has died",
+      "id": "world-177",
+      "title": "미국과 이란이 인프라를 공격해 확대 우려",
+      "title_en": "US and Iran attack infrastructure, raising fears of escalation",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/brenda-fricker-actress-best-known-for-my-left-foot-and-home-alone-2-has-died-13564392",
-      "category": "기타",
-      "primary_source": "Sky News",
-      "excerpt": "브렌다 프리커는 1989년 '나의 왼발'로 아카데미상을 수상했고, '나홀로 집에 2'에서 비둘기 여인 역을 맡았으며 '타임 투 킬'과 '그래서 나는 도끼 살인자와 결혼했다'에 출연했다.",
-      "excerpt_en": "Brenda Fricker won an Academy Award for 1989's \"My Left Foot,\" played the Pigeon Lady in \"Home Alone 2\" and appeared in \"A Time to Kill\" and \"So I Married an Axe Murderer.\"",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/brenda-fricker-dies-age-81-home-alone-2/",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "이란은 미국이 물류 허브를 포함한 이란 군사 목표물에 대해 7일 밤 연속 공격을 가한 후 토요일 워싱턴의 걸프 동맹국과 요르단에 대한 추가 공격을 시작하여 전쟁을 확대했습니다.",
+      "excerpt_en": "Iran launched more attacks on Washington’s Gulf allies and Jordan on Saturday after a seventh straight night of US strikes on Iranian military targets, including logistics hubs, escalating the war one",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 67,
+      "score": 77,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 50
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBS News",
-        "Hindustan Times",
-        "Sky News"
+        "CBC",
+        "SCMP",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-17T12:34:00+09:00",
-      "latest_published_at": "2026-07-17T16:46:33+09:00",
+      "first_published_at": "2026-07-17T19:40:22+09:00",
+      "latest_published_at": "2026-07-18T12:22:58+09:00",
       "articles": [
         {
-          "title": "Brenda Fricker, Oscar winner who played Pigeon Lady in \"Home Alone 2,\" dies",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/brenda-fricker-dies-age-81-home-alone-2/",
-          "published_at": "16:46"
+          "title": "Tensions escalate as Iran and U.S. continue to exchange strikes",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/iran-us-war-gulf-9.7275317?cmp=rss",
+          "published_at": "12:22"
         },
         {
-          "title": "Brenda Fricker cause of death: Oscar-winning Irish actress dies at 81, tributes pour in ‘We will never see…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/brenda-fricker-cause-of-death-oscar-winning-irish-actress-dies-at-81-tributes-pour-in-we-will-never-see-101784298539756.html",
-          "published_at": "14:41"
+          "title": "Iran renews attacks on Gulf states after another night of US strikes",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/war-between-us-and-iran-expands-as-bridges-and-water-plant-hit-more-ships-attacked-20260718-p60geu.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "07:13"
         },
         {
-          "title": "Home Alone 2 actress has died",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/brenda-fricker-actress-best-known-for-my-left-foot-and-home-alone-2-has-died-13564392",
-          "published_at": "12:34"
+          "title": "US and Iran attack infrastructure, raising fears of escalation",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
+          "published_at": "19:40"
         }
       ]
     },
     {
-      "id": "world-248",
-      "title": "열악한 작업, 감독 회피로 인해 홍콩 화재가 발생했다고 조사관이 밝혔습니다.",
-      "title_en": "Substandard work, evasion of oversight helped fuel deadly Hong Kong fire, investigators told",
+      "id": "world-82",
+      "title": "모스크바 물류센터에서 우크라이나 드론 공격으로 여러 명이 사망했다고 러시아가 밝혔습니다.",
+      "title_en": "Ukrainian drone attack killed several in Moscow logistics centre, Russia say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/hong-kong-deadly-fire-investigation-9.7273730?cmp=rss",
-      "category": "아시아",
-      "primary_source": "CBC",
-      "excerpt": "홍콩의 치명적인 타이포 화재 원인을 조사하는 독립위원회의 법무팀은 당국이 금속 대체를 위해 대나무 비계를 단계적으로 폐지할 것을 권고했습니다.",
-      "excerpt_en": "The legal team for an independent committee examining the cause of Hong Kong’s deadly Tai Po fire has recommended that authorities gradually phase out bamboo scaffolding in favour of metal replacement",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/hong-kong/society/article/3361000/tai-po-fire-inquiry-panel-calls-bamboo-scaffolding-be-phased-out?utm_source=rss_feed",
+      "title_url": "https://www.france24.com/en/europe/20260718-russia-says-ukrainian-drone-attack-killed-several-in-moscow-logistics-centre",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "우크라이나의 드론이 러시아의 두 창고에 밤새 공격을 가해 8명이 사망하고 60명 이상이 부상했다고 현지 관리들이 토요일 밝혔습니다. 볼로디미르 젤렌스키 우크라이나 대통령은 이렇게 말했다.",
+      "excerpt_en": "Overnight Ukrainian drone attacks on two sprawling warehouses in Russia killed eight people and wounded more than 60 others, local officials said Saturday. Ukrainian President Volodymyr Zelensky said ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/europe/20260718-russia-says-ukrainian-drone-attack-killed-several-in-moscow-logistics-centre",
       "translation_status": "ok",
-      "score": 64,
+      "score": 71,
       "score_breakdown": {
         "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 48
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 53
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        "CBC",
-        "SCMP"
+        "ABC News",
+        "ABC News Australia",
+        "France24"
       ],
-      "first_published_at": "2026-07-17T12:35:28+09:00",
-      "latest_published_at": "2026-07-17T15:06:18+09:00",
+      "first_published_at": "2026-07-18T05:32:46+09:00",
+      "latest_published_at": "2026-07-18T12:47:34+09:00",
       "articles": [
         {
-          "title": "Tai Po fire: corrupt players exploited loopholes in regulations, inquiry hears",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3361010/tai-po-fire-corrupt-players-exploited-loopholes-regulations-inquiry-hears?utm_source=rss_feed",
-          "published_at": "15:06"
+          "title": "Eight killed, 60 wounded, as Ukraine attacks Russian warehouses",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/ukrainian-drone-attack-on-russian-regions-8-killed/106931882",
+          "published_at": "12:47"
         },
         {
-          "title": "Tai Po fire inquiry legal team calls for bamboo scaffolding to be phased out",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3361000/tai-po-fire-inquiry-panel-calls-bamboo-scaffolding-be-phased-out?utm_source=rss_feed",
-          "published_at": "14:41"
+          "title": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/8-killed-60-wounded-ukrainian-drone-attack-russian-134870000",
+          "published_at": "10:43"
         },
         {
-          "title": "Substandard work, evasion of oversight helped fuel deadly Hong Kong fire, investigators told",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/hong-kong-deadly-fire-investigation-9.7273730?cmp=rss",
-          "published_at": "12:35"
+          "title": "Ukrainian drone attack killed several in Moscow logistics centre, Russia say",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260718-russia-says-ukrainian-drone-attack-killed-several-in-moscow-logistics-centre",
+          "published_at": "05:32"
         }
       ]
     },
     {
-      "id": "world-1",
-      "title": "이란, 미국의 또 다른 밤 공습 이후 걸프만 국가에 대한 공격 재개",
-      "title_en": "Iran renews attacks on Gulf states after another night of US strikes",
+      "id": "world-4",
+      "title": "우주 스타트업이 궤도용으로 설계된 인도 최초의 상업용 로켓을 발사했습니다.",
+      "title_en": "Space start-up launches India’s first commercial rocket designed for orbit",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?oc=5",
+      "title_url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
+      "category": "아시아",
+      "primary_source": "BBC",
+      "excerpt": "인도 최초의 민간 제작 궤도 로켓이 토요일 첫 비행을 했다고 회사는 밝혔습니다. 이는 남아시아 거대 기업이 전 세계 우주 공간에서 더 큰 부분을 노리고 있다는 점에서 중요한 발걸음을 내디딘 것입니다.",
+      "excerpt_en": "India’s first privately built orbital rocket took its maiden flight on Saturday, its company said, marking a significant step for the South Asian giant as it eyes a bigger slice of the global space ec",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3361049/india-launches-first-private-orbital-rocket-space-start-ups-expand?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News Australia",
+        "BBC",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-18T07:05:19+09:00",
+      "latest_published_at": "2026-07-18T10:44:41+09:00",
+      "articles": [
+        {
+          "title": "India launches first private orbital rocket as space start-ups expand",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3361049/india-launches-first-private-orbital-rocket-space-start-ups-expand?utm_source=rss_feed",
+          "published_at": "10:44"
+        },
+        {
+          "title": "India successfully launches nation's first private orbital rocket",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/indias-skyroot-launches-vikram-1-first-private-orbital-rocket/106931820",
+          "published_at": "10:16"
+        },
+        {
+          "title": "Space start-up launches India’s first commercial rocket designed for orbit",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
+          "published_at": "07:05"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "라오스, 오염된 알코올과 관련된 관광객 사망 원인을 밝힐 수 없다고 밝혔습니다.",
+      "title_en": "Laos says cannot determine cause of tourist deaths linked to tainted alcohol",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/asia/laos-authorities-cannot-determine-tourist-death-linked-tainted-alcohol-6262581",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "라오스 당국은 토요일 가족들이 허용을 거부했기 때문에 이전에 메탄올 함유 알코올에 연루된 6명의 관광객의 2024년 비난이나 사망 원인을 밝힐 수 없다고 말했습니다.",
+      "excerpt_en": "Authorities in Laos said on Saturday they could not determine blame or cause of death in 2024 of six tourists previously linked to methanol-tainted alcohol because their families had refused to allow ",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3287940/laos-defends-handling-of-taintedalcohol-deaths",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "BBC",
+        "Bangkok Post",
+        "Channel News Asia"
+      ],
+      "first_published_at": "2026-07-18T08:56:00+09:00",
+      "latest_published_at": "2026-07-18T11:15:00+09:00",
+      "articles": [
+        {
+          "title": "Laos defends handling of tainted-alcohol deaths",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3287940/laos-defends-handling-of-taintedalcohol-deaths",
+          "published_at": "11:15"
+        },
+        {
+          "title": "Laos says it can't determine cause of  tourist deaths linked to methanol",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss",
+          "published_at": "11:10"
+        },
+        {
+          "title": "Laos says cannot determine cause of tourist deaths linked to tainted alcohol",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/laos-authorities-cannot-determine-tourist-death-linked-tainted-alcohol-6262581",
+          "published_at": "08:56"
+        }
+      ]
+    },
+    {
+      "id": "world-56",
+      "title": "트럼프 특사는 슈퍼요트를 타고 베니스에 도착해 시위에 나섰다.",
+      "title_en": "Trump envoy met with protests in Venice as he arrives on superyacht",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3361021/trump-envoy-met-protests-venice-he-arrives-superyacht?utm_source=rss_feed",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "쿠웨이트는 지속적인 공격을 받았고, 담수화 공장이 타격을 입었고 쿠웨이트 국제공항의 반복적인 미사일과 드론 위협으로 인해 운영이 중단되었으며, 일주일 만에 전쟁이 격화되었습니다.",
-      "excerpt_en": "Kuwait came under sustained attack, with a desalination plant hit and operations at Kuwait International Airport suspended due to repeated missile and drone threats, escalating the war a week after a ",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/middle-east/war-between-us-and-iran-expands-as-bridges-and-water-plant-hit-more-ships-attacked-20260718-p60geu.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "primary_source": "SCMP",
+      "excerpt": "금요일 베니스에서 수백 명의 사람들이 틸만 페르티타 이탈리아 주재 미국 대사가 슈퍼요트를 타고 석호 도시에 도착하는 것에 항의해 도널드 트럼프 대통령에 대한 비판을 불러일으켰습니다.",
+      "excerpt_en": "A ⁠few hundred people in Venice protested ⁠on Friday against US Ambassador to ⁠Italy Tilman Fertitta as he arrived in the lagoon city aboard his superyacht, drawing criticism of President Donald Trump",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361021/trump-envoy-met-protests-venice-he-arrives-superyacht?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "DW",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-17T21:26:22+09:00",
+      "latest_published_at": "2026-07-18T06:11:13+09:00",
+      "articles": [
+        {
+          "title": "Protests as Trump envoy arrives in Venice on super yacht diplomacy tour",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tilman-fertitta-super-yacht-venice-protests-b3017159.html",
+          "published_at": "06:11"
+        },
+        {
+          "title": "Billionaire US envoy faces Venice protests amid yacht tour",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/billionaire-us-envoy-faces-venice-protests-amid-yacht-tour/a-78015401?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "03:51"
+        },
+        {
+          "title": "Trump envoy met with protests in Venice as he arrives on superyacht",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3361021/trump-envoy-met-protests-venice-he-arrives-superyacht?utm_source=rss_feed",
+          "published_at": "21:26"
+        }
+      ]
+    },
+    {
+      "id": "world-112",
+      "title": "인도 단식투쟁 활동가, 경찰에 의해 강제 추방",
+      "title_en": "Indian activist on hunger strike forcibly removed by police",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.abc.net.au/news/2026-07-18/indian-activist-sonam-wangchuk-hospitalised-by-police/106931802",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "수백만 명의 학생들에게 영향을 끼친 시험 스캔들 이후 인도 청년당과 연대하여 지난달 단식농성을 시작한 소남 왕추크(Sonam Wangchuk)는 법원 명령에 따라 강제로 병원에 입원해야 했다.",
+      "excerpt_en": "Sonam Wangchuk, who began a hunger strike last month in solidarity with India's youth party after an examination scandal affected millions of students, was forced to go to hospital by court order due ",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-07-18/indian-activist-sonam-wangchuk-hospitalised-by-police/106931802",
       "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
@@ -1069,81 +639,140 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "Sydney Morning Herald"
+        "ABC News Australia",
+        "New York Times"
       ],
-      "first_published_at": "2026-07-18T03:55:00+09:00",
-      "latest_published_at": "2026-07-18T07:13:34+09:00",
+      "first_published_at": "2026-07-18T13:28:16+09:00",
+      "latest_published_at": "2026-07-18T14:05:17+09:00",
       "articles": [
         {
-          "title": "Iran renews attacks on Gulf states after another night of US strikes",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/middle-east/war-between-us-and-iran-expands-as-bridges-and-water-plant-hit-more-ships-attacked-20260718-p60geu.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "07:13"
+          "title": "Indian Activist on Hunger Strike Is Forcibly Removed by Police",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/world/asia/sonam-wangchuk-hunger-strike-delhi-police.html",
+          "published_at": "14:05"
         },
         {
-          "title": "Iran renews attacks on Gulf states after another night of US strikes",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?oc=5",
-          "published_at": "03:55"
+          "title": "Indian activist on hunger strike forcibly removed by police",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/indian-activist-sonam-wangchuk-hospitalised-by-police/106931802",
+          "published_at": "13:28"
         }
       ]
     },
     {
-      "id": "world-10",
-      "title": "미국 항소 법원, AR-15에 대한 뉴저지의 공격 무기 금지 조치를 파기",
-      "title_en": "US appeals court strikes down New Jersey's assault weapons ban on AR-15s",
+      "id": "world-190",
+      "title": "스페인과 아르헨티나의 월드컵 결승전에는 트럼프와 8만명 이상의 팬이 모일 것으로 예상된다.",
+      "title_en": "Over 80,000 fans and Trump expected at World Cup final between Spain and Argentina",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNlU0dUhJOUI3Z1hZNVIxLTBmNnBGUTlKLU9VUGFyM1FpaFE5S3RlblNPWFFNVWJpekZJMmxlNVdPUDVvNUZTNFkyZEJQVVF4RzdoaDQ2TWlWcnE5czhNN1VEdGtKbkhRNGlvTDFZaDdoNW1QQjVmNE95YWhETDQtVy1JRlQwbTQ0ZXJHUkNJb0dOU0s3aTJIdzNuajRBMDVyQmxEYkRiRzdISFQ4bVhQMXR2aG1fQQ?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "연방 항소 법원이 이러한 무기에 대한 주정부의 금지 명령을 내린 것은 이번이 처음입니다.",
-      "excerpt_en": "This is the first time a federal appeals court has struck down a state ban on such weapons",
+      "title_url": "https://www.cbsnews.com/video/over-80000-fans-and-trump-expected-at-world-cup-final-between-spain-and-argentina/",
+      "category": "중동",
+      "primary_source": "CBS News",
+      "excerpt": "전 스페인 수비수 조안 카프데빌라가 일요일 월드컵 결승전에서 스페인과 아르헨티나의 경기를 보기 위해 도널드 트럼프 미국 대통령에게 도움을 요청했지만 승인이 거부됐다.",
+      "excerpt_en": "Former Spain defender Joan Capdevila has asked U.S. President Donald Trump for help getting into the United States to watch Spain face Argentina in Sunday’s World Cup final, after being denied authori",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/new-jersey-assault-weapons-ban-ruling-b3017265.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/spain-marco-rubio-iran-madrid-argentina-b3017407.html",
       "translation_status": "ok",
-      "score": 61,
+      "score": 63,
       "score_breakdown": {
-        "article_score": 12,
+        "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
+        "CBS News",
         "The Independent"
       ],
-      "first_published_at": "2026-07-17T23:03:21+09:00",
-      "latest_published_at": "2026-07-18T00:43:30+09:00",
+      "first_published_at": "2026-07-18T00:34:37+09:00",
+      "latest_published_at": "2026-07-18T14:44:39+09:00",
       "articles": [
         {
-          "title": "Appeals court rules New Jersey assault weapons ban unconstitutional",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/new-jersey-assault-weapons-ban-ruling-b3017265.html",
-          "published_at": "00:43"
+          "title": "Fans elated for Argentina and Spain to face off in World Cup final",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/fans-elated-for-argentina-and-spain-to-face-off-in-world-cup-final/",
+          "published_at": "14:44"
         },
         {
-          "title": "US appeals court strikes down New Jersey's assault weapons ban on AR-15s",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNlU0dUhJOUI3Z1hZNVIxLTBmNnBGUTlKLU9VUGFyM1FpaFE5S3RlblNPWFFNVWJpekZJMmxlNVdPUDVvNUZTNFkyZEJQVVF4RzdoaDQ2TWlWcnE5czhNN1VEdGtKbkhRNGlvTDFZaDdoNW1QQjVmNE95YWhETDQtVy1JRlQwbTQ0ZXJHUkNJb0dOU0s3aTJIdzNuajRBMDVyQmxEYkRiRzdISFQ4bVhQMXR2aG1fQQ?oc=5",
-          "published_at": "23:03"
+          "title": "Former Spain defender Capdevila asks Trump for help getting into the US for the World Cup final",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/spain-marco-rubio-iran-madrid-argentina-b3017407.html",
+          "published_at": "13:51"
+        },
+        {
+          "title": "Over 80,000 fans and Trump expected at World Cup final between Spain and Argentina",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/over-80000-fans-and-trump-expected-at-world-cup-final-between-spain-and-argentina/",
+          "published_at": "00:34"
         }
       ]
     },
     {
-      "id": "world-72",
-      "title": "미국과 이란, 중동 전역으로 공습 확대",
-      "title_en": "US and Iran escalate strikes across Mideast",
+      "id": "world-294",
+      "title": "'우리는 위협이다': 우파 만찬에서 폴린 핸슨의 녹음이 유출되면서 그녀의 계획이 드러났다",
+      "title_en": "‘We are a threat’: What leaked audio of Pauline Hanson at right-wing dinner reveals about her plans",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNDdzTHpvMkVtSEIzSklZWnpnSk8wZVE4QVUzOHFBLXl2Smc0eUxaTkNQdi1KLTBtb3piRU5aeDlXcVB3eXRRazRlcXVWaHl4QTFMOUR6S0VwMjlpWGlCd1hwSGgyV3NEd3QycE1CWEZ5VEVpbFdKVEdUSE14MThPUmdoTFFJXzRQTDdBMVZaeDYxam41TWY2VnBhZjU4ME0?oc=5",
+      "title_url": "https://www.smh.com.au/world/europe/we-are-a-threat-what-leaked-audio-of-pauline-hanson-at-right-wing-dinner-reveals-about-her-plans-20260718-p60gf1.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "아시아",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "폴린 핸슨(Pauline Hanson)은 토요일 런던에서 열린 정치 회의에서 약 120명의 사람들이 연설에 참석한 후 조용히 영국과 유럽 여행을 마쳤습니다.",
+      "excerpt_en": "Pauline Hanson has ended her trip to Britain and Europe on a muted note, after around 120 people attended her speech at a political conference in London on Saturday.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-07-18/pauline-hanson-delivers-cpac-london-speech/106931646",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-07-18T02:38:45+09:00",
+      "latest_published_at": "2026-07-18T10:34:37+09:00",
+      "articles": [
+        {
+          "title": "‘Stupid’: Hanson blasts trans rights, renews attack on immigration",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/farage-heaps-praise-on-hanson-as-rinehart-watches-on-in-pink-cowboy-hat-20260718-p60ge3.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "10:34"
+        },
+        {
+          "title": "Pauline Hanson delivers CPAC London speech to mostly empty seats",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/pauline-hanson-delivers-cpac-london-speech/106931646",
+          "published_at": "10:25"
+        },
+        {
+          "title": "‘We are a threat’: What leaked audio of Pauline Hanson at right-wing dinner reveals about her plans",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/we-are-a-threat-what-leaked-audio-of-pauline-hanson-at-right-wing-dinner-reveals-about-her-plans-20260718-p60gf1.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "02:38"
+        }
+      ]
+    },
+    {
+      "id": "world-44",
+      "title": "미국과 이란이 전면전으로 돌입하면서 한계선을 넘어섰다.",
+      "title_en": "The U.S. and Iran blow past red lines as they lurch back toward all-out war",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.npr.org/2026/07/18/nx-s1-5898916/us-iran-escalate-strikes",
       "category": "중동",
-      "primary_source": "AP News",
+      "primary_source": "NPR",
       "excerpt": "미국과 이란은 호르무즈 해협을 둘러싼 전투가 격화되자 토요일 인프라와 군사 목표물을 겨냥한 공습을 주고받았습니다.",
       "excerpt_en": "The United States and Iran exchanged strikes aimed at infrastructure and military targets on Saturday as their battle over the Strait of Hormuz intensified.",
       "excerpt_source": "NPR",
@@ -1163,38 +792,85 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "NPR"
+        "NPR",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-18T04:51:00+09:00",
-      "latest_published_at": "2026-07-18T06:01:20+09:00",
+      "first_published_at": "2026-07-18T06:01:20+09:00",
+      "latest_published_at": "2026-07-18T09:20:22+09:00",
       "articles": [
         {
-          "title": "U.S. and Iran escalate strikes across Mideast",
+          "title": "US and Iran exchange strikes as they struggle over Strait of Hormuz",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/iran-trump-iraq-kuwait-strait-of-hormuz-b3017342.html",
+          "published_at": "09:20"
+        },
+        {
+          "title": "The U.S. and Iran blow past red lines as they lurch back toward all-out war",
           "source_name": "NPR",
           "url": "https://www.npr.org/2026/07/18/nx-s1-5898916/us-iran-escalate-strikes",
           "published_at": "06:01"
-        },
-        {
-          "title": "US and Iran escalate strikes across Mideast",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNDdzTHpvMkVtSEIzSklZWnpnSk8wZVE4QVUzOHFBLXl2Smc0eUxaTkNQdi1KLTBtb3piRU5aeDlXcVB3eXRRazRlcXVWaHl4QTFMOUR6S0VwMjlpWGlCd1hwSGgyV3NEd3QycE1CWEZ5VEVpbFdKVEdUSE14MThPUmdoTFFJXzRQTDdBMVZaeDYxam41TWY2VnBhZjU4ME0?oc=5",
-          "published_at": "04:51"
         }
       ]
     },
     {
-      "id": "world-259",
-      "title": "브루니섬 바다에서 상어가 다이버를 물다",
-      "title_en": "Shark bites diver in waters off Bruny Island",
+      "id": "world-49",
+      "title": "밤새 우크라이나 드론이 러시아를 공격해 7명이 사망하고 50명 이상이 부상당했다.",
+      "title_en": "7 killed, over 50 injured in overnight Ukrainian drone strikes on Russia",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-07-18/non-fatal-shark-attack-diver-bruny-island-tasmania/106931208",
-      "category": "기타",
-      "primary_source": "ABC News Australia",
-      "excerpt": "경찰은 31세 피해자가 안정된 상태로 병원으로 이송됐다고 밝혔다.",
-      "excerpt_en": "Police say 31-year-old victim has been airlifted to hospital in stable condition",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/australasia/tasmania-shark-attack-scuba-diver-b3017302.html",
+      "title_url": "https://www.hindustantimes.com/world-news/7-killed-over-50-injured-in-overnight-ukrainian-drone-strikes-on-russia-101784366132739.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "우크라이나 드론이 러시아 전역의 창고, 석유 저장소 및 기타 목표물을 공격해 야간 교대근무자 7명이 사망했습니다. 키예프는 이 시설이 드론과 내비게이션을 만드는 데 사용되는 부품을 공급했다고 말했습니다.",
+      "excerpt_en": "Ukrainian drones have struck warehouses, an oil depot and other targets across Russia, killing seven night-shift workers. Kyiv said the facilities supplied components used to make drones and navigatio",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/ukrainian-drone-strikes-on-russian-warehouses-kill-7/a-78018446?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-18T10:35:11+09:00",
+      "latest_published_at": "2026-07-18T12:06:00+09:00",
+      "articles": [
+        {
+          "title": "Ukrainian drone strikes on Russian warehouses kill 7",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/ukrainian-drone-strikes-on-russian-warehouses-kill-7/a-78018446?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "12:06"
+        },
+        {
+          "title": "7 killed, over 50 injured in overnight Ukrainian drone strikes on Russia",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/7-killed-over-50-injured-in-overnight-ukrainian-drone-strikes-on-russia-101784366132739.html",
+          "published_at": "10:35"
+        }
+      ]
+    },
+    {
+      "id": "world-89",
+      "title": "호주, 대량 메탄올 중독 혐의 발표로 라오스에 대한 여행 조언 업데이트",
+      "title_en": "Australia updates travel advice for Laos as charges announced over mass methanol poisoning",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
+      "category": "아시아",
+      "primary_source": "The Guardian",
+      "excerpt": "증류소 주인은 호주 청소년 중독 혐의로 단 3개월의 징역형을 받을 수 있습니다. 속보 이메일, 무료 앱 또는 일간 뉴스 팟캐스트를 받아보세요 호주 정부는 증가세를 보이고 있습니다.",
+      "excerpt_en": "Distillery owner could face only three months in jail over alleged poisoning of Australian teenagers Get our breaking news email , free app or daily news podcast The Australian government has increase",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1211,131 +887,37 @@
       "source_count": 2,
       "sources": [
         "ABC News Australia",
-        "The Independent"
+        "The Guardian"
       ],
-      "first_published_at": "2026-07-18T00:45:17+09:00",
-      "latest_published_at": "2026-07-18T05:31:03+09:00",
+      "first_published_at": "2026-07-17T21:36:05+09:00",
+      "latest_published_at": "2026-07-18T01:51:41+09:00",
       "articles": [
         {
-          "title": "Scuba diver attacked by shark off Adventure Bay in Tasmania",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/tasmania-shark-attack-scuba-diver-b3017302.html",
-          "published_at": "05:31"
-        },
-        {
-          "title": "Shark bites diver in waters off Bruny Island",
+          "title": "Travel alert level for Laos raised as distillery owner charged",
           "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/non-fatal-shark-attack-diver-bruny-island-tasmania/106931208",
-          "published_at": "00:45"
-        }
-      ]
-    },
-    {
-      "id": "world-17",
-      "title": "USGS는 규모 7.4의 지진이 멕시코 푸에르토 마데로를 강타했다고 밝혔습니다.",
-      "title_en": "Magnitude 7.4 earthquake strikes Puerto Madero, Mexico, USGS says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVExlaTA3d0tQOTlrdTNudjNYUlluQXVPNFFFRl9zMkFhYVJNbFgyT2NtY2p5S3RtNEJuQ3dTMmlHMzBtRXJQdUMyLV9SUm1XTlNQaDg4QmUxdVBKUnpGVWs4YTNiTDh0UFltMnV2ejRuMFJPcHhmQUZSRG5xMGJTVkhpcm84V05ya3g4YnRtNmhnQlhYX1FwbzZvUG9mZ2thVkdmVHV6UGZzdk5oaXlKYzdDakZ6ODk5dWFv?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "금요일 멕시코 푸에르토 마데로의 WSW에서 규모 7.4의 지진이 발생했으며, 이웃 국가인 과테말라와 엘살바도르에서도 진동이 느껴졌습니다.",
-      "excerpt_en": "A magnitude 7.4 earthquake struck WSW of Puerto Madero, Mexico on Friday, with tremors felt in neighboring Guatemala and El Salvador.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/mexico-earthquake-7-4-magnitude-quake-strikes-near-puerto-madero-tremors-felt-in-guatemala-el-salvador-101784300716679.html",
-      "translation_status": "ok",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-17T15:01:37+09:00",
-      "latest_published_at": "2026-07-17T15:07:32+09:00",
-      "articles": [
-        {
-          "title": "Mexico earthquake: 7.4-magnitude quake strikes near Puerto Madero; tremors felt in Guatemala, El Salvador",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mexico-earthquake-7-4-magnitude-quake-strikes-near-puerto-madero-tremors-felt-in-guatemala-el-salvador-101784300716679.html",
-          "published_at": "15:07"
+          "url": "https://www.abc.net.au/news/2026-07-18/laos-travel-alert-methanol-poisoning/106931152",
+          "published_at": "01:51"
         },
         {
-          "title": "Magnitude 7.4 earthquake strikes Puerto Madero, Mexico, USGS says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVExlaTA3d0tQOTlrdTNudjNYUlluQXVPNFFFRl9zMkFhYVJNbFgyT2NtY2p5S3RtNEJuQ3dTMmlHMzBtRXJQdUMyLV9SUm1XTlNQaDg4QmUxdVBKUnpGVWs4YTNiTDh0UFltMnV2ejRuMFJPcHhmQUZSRG5xMGJTVkhpcm84V05ya3g4YnRtNmhnQlhYX1FwbzZvUG9mZ2thVkdmVHV6UGZzdk5oaXlKYzdDakZ6ODk5dWFv?oc=5",
-          "published_at": "15:01"
+          "title": "Australia updates travel advice for Laos as charges announced over mass methanol poisoning",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
+          "published_at": "21:36"
         }
       ]
     },
     {
-      "id": "world-68",
-      "title": "산불 연기로 인해 매년 수만 명이 사망합니다. 신체를 공격하는 방법은 다음과 같습니다.",
-      "title_en": "Wildfire smoke kills tens of thousands of people a year. Here’s how it attacks the body",
+      "id": "world-65",
+      "title": "'호환되지 않는다': 독일 국회의원, 당 반대에도 불구하고 대리모 출산 후 사임",
+      "title_en": "‘Not compatible’: German MP resigns after having baby through surrogacy despite party's opposition",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOEM5V3Uwbng5aWRoRTNmeGVyUUpVbloyUktDSU9pOVhMSmgzaEI0UWQwZnhTYXpfOEtqUUhwQlNzVWJhUHRBY1RMVHNrSmxaRlJGdFdUd2FaOWY0XzFhb256blF3eVZ6NlJrWDhIZmhCbTdpNllIWDJRbFBGZXBwa29weUZJMW52UHNXRTJXWlE3eVVzSU9PSjFjN3J2cWtQbmtFMUF4TkFSYS1YS0MxTmpB?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "산불 연기로 인해 매년 수만 명이 사망합니다. 신체를 공격하는 방법은 다음과 같습니다. AP 뉴스",
-      "excerpt_en": "Wildfire smoke kills tens of thousands of people a year. Here’s how it attacks the body AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOEM5V3Uwbng5aWRoRTNmeGVyUUpVbloyUktDSU9pOVhMSmgzaEI0UWQwZnhTYXpfOEtqUUhwQlNzVWJhUHRBY1RMVHNrSmxaRlJGdFdUd2FaOWY0XzFhb256blF3eVZ6NlJrWDhIZmhCbTdpNllIWDJRbFBGZXBwa29weUZJMW52UHNXRTJXWlE3eVVzSU9PSjFjN3J2cWtQbmtFMUF4TkFSYS1YS0MxTmpB?oc=5",
-      "translation_status": "ok",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T14:25:00+09:00",
-      "latest_published_at": "2026-07-17T15:12:46+09:00",
-      "articles": [
-        {
-          "title": "It’s not just your lungs that can be impacted by the Canadian wildfire smoke",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/health/wildfire-smoke-heart-lung-brain-health-b3016876.html",
-          "published_at": "15:12"
-        },
-        {
-          "title": "Wildfire smoke kills tens of thousands of people a year. Here’s how it attacks the body",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOEM5V3Uwbng5aWRoRTNmeGVyUUpVbloyUktDSU9pOVhMSmgzaEI0UWQwZnhTYXpfOEtqUUhwQlNzVWJhUHRBY1RMVHNrSmxaRlJGdFdUd2FaOWY0XzFhb256blF3eVZ6NlJrWDhIZmhCbTdpNllIWDJRbFBGZXBwa29weUZJMW52UHNXRTJXWlE3eVVzSU9PSjFjN3J2cWtQbmtFMUF4TkFSYS1YS0MxTmpB?oc=5",
-          "published_at": "14:25"
-        }
-      ]
-    },
-    {
-      "id": "world-4",
-      "title": "베트남 돌발 홍수로 4명 사망, 4명 실종",
-      "title_en": "Flash flood kills 4, leaves 4 others missing in Vietnam",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjZ5TDU5a2pfT01oNlB2YWxIYTgzRFVRc2kzSjhNcjFHem1Qc2lYV0hSOEJLVDFHU0dObnNGM3lwR24td2JqQ2h1UjRpMVBXMkQ1Unk1Ti0xWHNha0dCZmh6Yk1zSkJoSXJDUVhrYXJ6WjRmcWxFUnp6aC1vbndWbVlYaEEwUnF1d08zQjEtWnlFNXJSWVpJUE5oVUw3UG5obDBQVDJUZGdXMXpN?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "베트남은 7월부터 9월까지 절정에 달하는 우기 동안 치명적인 폭풍과 홍수가 발생하기 쉽습니다.",
-      "excerpt_en": "Vietnam is prone to deadly storms and floods during the rainy season that peaks from July through September.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/asia/vietnam-flash-flood-4-killed-6262571",
+      "title_url": "https://www.hindustantimes.com/world-news/not-compatible-german-mp-resigns-for-using-surrogate-mother-for-childbirth-despite-party-opposition-cdu-jens-spahn-101784377721131.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "프리드리히 메르츠 독일 총리가 이끄는 CDU 계파의 옌스 슈판 국회의장은 대리모 금지에도 불구하고 미국에서 대리모 활용에 대한 압력이 거세지자 토요일 사임했다.",
+      "excerpt_en": "Jens Spahn, the parliamentary head of German Chancellor Friedrich Merz's CDU faction, resigned on Saturday amid mounting pressure over his use of a surrogate mother in the US despite a surrogacy ban i",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/europe/20260718-german-conservative-parliamentary-leader-resigns-over-surrogate-baby-controversy",
       "translation_status": "ok",
       "score": 59,
       "score_breakdown": {
@@ -1351,38 +933,179 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "France24",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-07-18T05:30:00+09:00",
-      "latest_published_at": "2026-07-18T08:23:13+09:00",
+      "first_published_at": "2026-07-18T13:34:17+09:00",
+      "latest_published_at": "2026-07-18T14:03:22+09:00",
       "articles": [
         {
-          "title": "Flash flood kills 4, leaves 4 others missing in northern Vietnam",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/vietnam-flash-flood-4-killed-6262571",
-          "published_at": "08:23"
+          "title": "German conservative parliamentary leader resigns over surrogate baby controversy",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260718-german-conservative-parliamentary-leader-resigns-over-surrogate-baby-controversy",
+          "published_at": "14:03"
         },
         {
-          "title": "Flash flood kills 4, leaves 4 others missing in Vietnam",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjZ5TDU5a2pfT01oNlB2YWxIYTgzRFVRc2kzSjhNcjFHem1Qc2lYV0hSOEJLVDFHU0dObnNGM3lwR24td2JqQ2h1UjRpMVBXMkQ1Unk1Ti0xWHNha0dCZmh6Yk1zSkJoSXJDUVhrYXJ6WjRmcWxFUnp6aC1vbndWbVlYaEEwUnF1d08zQjEtWnlFNXJSWVpJUE5oVUw3UG5obDBQVDJUZGdXMXpN?oc=5",
-          "published_at": "05:30"
+          "title": "‘Not compatible’: German MP resigns after having baby through surrogacy despite party's opposition",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/not-compatible-german-mp-resigns-for-using-surrogate-mother-for-childbirth-despite-party-opposition-cdu-jens-spahn-101784377721131.html",
+          "published_at": "13:34"
         }
       ]
     },
     {
-      "id": "world-169",
-      "title": "유명 쿠바 예술가가 5년의 징역형을 마치고 추방될 예정",
-      "title_en": "Prominent Cuban Artist Will Go Into Exile After 5-Year Prison Term",
+      "id": "world-198",
+      "title": "중국 구조대원, 산사태로 최소 8명 사망 후 생존자 찾기 경쟁",
+      "title_en": "Rescuers in China race to find survivors after landslide kills at least 8",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/17/world/americas/luis-manuel-otero-alcantara-cuba-prison-release-exile.html",
-      "category": "미국",
-      "primary_source": "New York Times",
-      "excerpt": "2021년 시위 이후 투옥된 예술가의 행방은 지난 7월 형기가 끝난 이후 알려지지 않았으며, 쿠바의 저명한 반체제 예술가 루이스 마누엘 오테로 알칸타라(Luis Manuel Otero Alcántara)는 현재 행방이 남아있다.",
-      "excerpt_en": "Whereabouts of artist imprisoned after 2021 protests had been unknown following end of his prison term in July Luis Manuel Otero Alcántara, a prominent Cuban dissident artist whose whereabouts remaine",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/17/cuban-dissident-artist-luis-manuel-otero-alcantara-cleared-to-travel-to-us",
+      "title_url": "https://www.independent.co.uk/news/world/asia/china-landslide-chongqing-deaths-rescue-b3017326.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "중국 남서부 도시 충칭에서 산사태가 발생해 최소 8명이 사망하고 34명이 실종된 후 구조대원들이 생존자를 찾기 위해 시간을 다투고 있다.",
+      "excerpt_en": "Rescue crews are racing against the clock to find survivors after a landslide in the southwestern Chinese city of Chongqing killed at least eight people and left 34 missing",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/rescuers-race-find-survivors-rain-after-landslide-china-134869169",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-18T08:15:42+09:00",
+      "latest_published_at": "2026-07-18T10:41:36+09:00",
+      "articles": [
+        {
+          "title": "Rescuers race to find survivors in the rain after a landslide in China kills at least 8",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/rescuers-race-find-survivors-rain-after-landslide-china-134869169",
+          "published_at": "10:41"
+        },
+        {
+          "title": "Rescuers in China race to find survivors after landslide kills at least 8",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/asia/china-landslide-chongqing-deaths-rescue-b3017326.html",
+          "published_at": "08:15"
+        }
+      ]
+    },
+    {
+      "id": "world-64",
+      "title": "말리 반군이 군대 호송대를 매복 공격해 군인 수십 명을 사살하거나 포로로 잡았습니다.",
+      "title_en": "Mali rebels ambush an army convoy, killing or capturing scores of soldiers",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/mali-rebels-ambush-army-convoy-killing-capturing-scores-134873385",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "말리군 호송대가 가오 북부 외딴 지역에서 반군의 매복공격을 받았다고 말리군이 토요일 확인했습니다. 지역 알카에다 계열사인 JNIM과 분리주의자인 Azawad Liberation F",
+      "excerpt_en": "A Malian army convoy was ambushed by rebels in a remote part of the northern Gao region, the Malian military confirmed Saturday. Regional al Qaeda affiliate JNIM and the separatist Azawad Liberation F",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/africa/20260718-malian-army-convoy-ambushed-by-rebels-north-of-gao",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "France24"
+      ],
+      "first_published_at": "2026-07-18T14:07:55+09:00",
+      "latest_published_at": "2026-07-18T15:10:44+09:00",
+      "articles": [
+        {
+          "title": "Malian army convoy ambushed by rebels north of Gao",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/africa/20260718-malian-army-convoy-ambushed-by-rebels-north-of-gao",
+          "published_at": "15:10"
+        },
+        {
+          "title": "Mali rebels ambush an army convoy, killing or capturing scores of soldiers",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/mali-rebels-ambush-army-convoy-killing-capturing-scores-134873385",
+          "published_at": "14:07"
+        }
+      ]
+    },
+    {
+      "id": "world-67",
+      "title": "인도 경찰, 단식투쟁 중인 바퀴벌레당 활동가 강제 입원",
+      "title_en": "Indian police forcibly hospitalize a prominent Cockroach Party activist on hunger strike",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/indian-police-forcibly-hospitalize-prominent-cockroach-party-activist-134869540",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "인도 경찰은 뉴델리에서 몇 주 동안 계속된 단식투쟁 중 건강이 악화된 환경운동가 소남 왕축(Sonam Wangchuk)을 토요일 강제로 병원으로 이송했습니다. 저명한 운동가 왕축(Wangchuk)",
+      "excerpt_en": "Indian police on Saturday forcibly moved environmentalist Sonam Wangchuk to hospital after his health deteriorated during a weeks-long hunger strike in New Delhi. Wangchuk, a prominent activist tied t",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/asia-pacific/20260718-indian-police-shift-cockroach-party-activist-on-hunger-strike-to-hospital-against-his-wish",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "France24"
+      ],
+      "first_published_at": "2026-07-18T10:41:34+09:00",
+      "latest_published_at": "2026-07-18T13:00:36+09:00",
+      "articles": [
+        {
+          "title": "Indian police shift Cockroach Party activist on hunger strike to hospital against his wish",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20260718-indian-police-shift-cockroach-party-activist-on-hunger-strike-to-hospital-against-his-wish",
+          "published_at": "13:00"
+        },
+        {
+          "title": "Indian police forcibly hospitalize a prominent Cockroach Party activist on hunger strike",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/indian-police-forcibly-hospitalize-prominent-cockroach-party-activist-134869540",
+          "published_at": "10:41"
+        }
+      ]
+    },
+    {
+      "id": "world-34",
+      "title": "실망스러운 프랑스와 잉글랜드, 월드컵 3·4위전 대결",
+      "title_en": "Disappointed France and England to face off in third place World Cup match",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "프랑스와 잉글랜드는 일요일 결승전 진출에 실패해 3위 자리를 놓고 토요일 월드컵 마지막 경기를 치른다. 실망한 팀 중 어느 팀도 t의 전망을 좋아하지 않는 것 같습니다.",
+      "excerpt_en": "France and England meet for their final World Cup match on Saturday competing for third place after failing to reach Sunday's final. Neither of the disappointed teams seems to relish the prospect of t",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1398,504 +1121,34 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "New York Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-17T19:34:45+09:00",
-      "latest_published_at": "2026-07-17T22:28:42+09:00",
-      "articles": [
-        {
-          "title": "Cuban dissident artist Luis Manuel Otero Alcántara cleared to travel to US",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/17/cuban-dissident-artist-luis-manuel-otero-alcantara-cleared-to-travel-to-us",
-          "published_at": "22:28"
-        },
-        {
-          "title": "Cuban Dissident Was Missing A Week After Prison Release",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/americas/luis-manuel-otero-alcantara-cuba-missing-exile.html",
-          "published_at": "19:44"
-        },
-        {
-          "title": "Prominent Cuban Artist Will Go Into Exile After 5-Year Prison Term",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/americas/luis-manuel-otero-alcantara-cuba-prison-release-exile.html",
-          "published_at": "19:34"
-        }
-      ]
-    },
-    {
-      "id": "world-181",
-      "title": "이스라엘, 가자지구 장례식장 공습으로 최소 7명 사망",
-      "title_en": "Israeli strike on Gaza funeral killed at least seven people, hospital says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/jul/17/israeli-strike-gaza-funeral-multiple-deaths",
-      "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "이스라엘의 가자지구 장례식장에서 이스라엘군의 공습으로 최소 7명이 사망하고 1명이 부상당했다.",
-      "excerpt_en": "Another 22 reportedly injured while mourning Palestinian killed in Israeli attack earlier in the day An Israeli strike on a funeral in the Gaza Strip has killed at least seven people and injured anoth",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/17/israeli-strike-gaza-funeral-multiple-deaths",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-17T16:06:37+09:00",
-      "latest_published_at": "2026-07-17T19:52:28+09:00",
-      "articles": [
-        {
-          "title": "Israeli Strike in Gaza Kills Seven People, Health Officials Say",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/middleeast/israeli-strike-gaza-kills-eight.html",
-          "published_at": "19:52"
-        },
-        {
-          "title": "Israeli strike on Gaza funeral killed at least seven people, hospital says",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/17/israeli-strike-gaza-funeral-multiple-deaths",
-          "published_at": "16:06"
-        }
-      ]
-    },
-    {
-      "id": "world-5",
-      "title": "연방 직원은 정부 장치에서 TikTok을 다운로드할 수 있다고 DOJ는 말합니다.",
-      "title_en": "Federal employees can download TikTok on government devices, DOJ says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/federal-employees-can-download-tiktok-government-devices-doj-says-6262216",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "연방 직원은 정부 장치에서 TikTok을 다운로드할 수 있다고 DOJ는 말합니다.",
-      "excerpt_en": "Federal employees can download TikTok on government devices, DOJ says Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXlPRm9FWF9FVk1wWGdlOVBkZlpyWEEzejgxbnhEYVhwRFFOVlliX1N1Yjc2dTVTMUo3SmdqdTN1VFczaHFrUjFXM2wtQWUtclJPa1Q4TFJqMkZjdXBpMGRrRjI5Vl8xRS1QTmFIcko3UE9ZRklieW5YVkxtUjBWWFBKVUY1dndZaVFudEEwUXhKOS1obmZBV0JvOXhNMWV4YWRaV0E3WUcyTk0?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-17T23:26:20+09:00",
-      "latest_published_at": "2026-07-17T23:31:12+09:00",
-      "articles": [
-        {
-          "title": "Federal employees can download TikTok on government devices, DOJ says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORXlPRm9FWF9FVk1wWGdlOVBkZlpyWEEzejgxbnhEYVhwRFFOVlliX1N1Yjc2dTVTMUo3SmdqdTN1VFczaHFrUjFXM2wtQWUtclJPa1Q4TFJqMkZjdXBpMGRrRjI5Vl8xRS1QTmFIcko3UE9ZRklieW5YVkxtUjBWWFBKVUY1dndZaVFudEEwUXhKOS1obmZBV0JvOXhNMWV4YWRaV0E3WUcyTk0?oc=5",
-          "published_at": "23:31"
-        },
-        {
-          "title": "Federal employees can download TikTok on government devices, DOJ says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/federal-employees-can-download-tiktok-government-devices-doj-says-6262216",
-          "published_at": "23:26"
-        }
-      ]
-    },
-    {
-      "id": "world-18",
-      "title": "멕시코 해안에서 강한 지진이 과테말라와 엘살바도르를 뒤흔들었지만 피해는 없었습니다",
-      "title_en": "Strong quake off Mexican coast rattles Guatemala and El Salvador, but leaves no damage",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHJ6aE83OVlCb0JKd0VjVGtyRDhVNFBabUQydmNHVVNSMVZPYjdBd0RMQnpKWHdsR3Y4SDJ1VVZwWHkxTVN3ZTY3Wjd5WURKTndxUDl4M1Y1bGNGcVR1eXJWekRmREczcE5aOTlBaGhINTlBSjI1bHgzYWlLNkNMSzZSWm5waXZTRGhtZ2tKUV9tek9lbVlFazlEQ1paZGtDaGZ3Q0VlWkVVMEU?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "금요일 멕시코 최남단 치아파스주 해안에서 규모 7.3의 강력한 지진이 발생해 멀리 과테말라와 엘살바도르까지 건물들이 흔들렸다고 당국은 밝혔습니다.",
-      "excerpt_en": "A powerful magnitude 7.3 earthquake struck off the coast of Mexico’s southernmost state of Chiapas on Friday, shaking buildings as far away as Guatemala and El Salvador, though authorities said there ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3361017/strong-quake-mexican-coast-rattles-guatemala-and-el-salvador?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-17T17:36:28+09:00",
-      "latest_published_at": "2026-07-17T18:37:47+09:00",
-      "articles": [
-        {
-          "title": "Strong quake off Mexican coast rattles Guatemala and El Salvador",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3361017/strong-quake-mexican-coast-rattles-guatemala-and-el-salvador?utm_source=rss_feed",
-          "published_at": "18:37"
-        },
-        {
-          "title": "Strong quake off Mexican coast rattles Guatemala and El Salvador, but leaves no damage",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHJ6aE83OVlCb0JKd0VjVGtyRDhVNFBabUQydmNHVVNSMVZPYjdBd0RMQnpKWHdsR3Y4SDJ1VVZwWHkxTVN3ZTY3Wjd5WURKTndxUDl4M1Y1bGNGcVR1eXJWekRmREczcE5aOTlBaGhINTlBSjI1bHgzYWlLNkNMSzZSWm5waXZTRGhtZ2tKUV9tek9lbVlFazlEQ1paZGtDaGZ3Q0VlWkVVMEU?oc=5",
-          "published_at": "17:36"
-        }
-      ]
-    },
-    {
-      "id": "world-41",
-      "title": "미국, 트럼프가 부과한 홍콩 제재 일부 해제, 자치권 지위에는 변함 없음",
-      "title_en": "US lifts some Hong Kong sanctions imposed by Trump, autonomy status unchanged",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcE5TTHFxWVMyd3J4OFpPSHRzblN3bzk1YXVjRUl2S1ZBbVJha1Y1TmpWbzVfbE15VzIxUVJ0VDRkNnk1ZnJmX0xmT1l5N0pZNlNfZWllRmJQY1V5QTRUTWpWZTBjWGZYNjhxMjhFTEdhaHZGdC1KdklCaXNIbHpCd0RnOFNTNHhwTWxoYUZGa2lLVFdOT2JLYU9Nbjh2T3liZXJyOHcwOXREaklJVnNsWA?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "중국은 앞서 트럼프 대통령의 홍콩에 대한 국가비상사태 선포를 미국이 허용하기로 한 결정이 홍콩의 특별 무역 및 경제 지위를 회복할 것이라고 발표한 바 있다.",
-      "excerpt_en": "China had earlier announced that the US decision to allow the expiration of Trump's national emergency declaration over Hong Kong would restore the territory's special trade and economic status, but U",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/east-asia/us-china-hong-kong-sanctions-autonomy-status-6262361",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-17T23:07:43+09:00",
-      "latest_published_at": "2026-07-18T03:07:00+09:00",
-      "articles": [
-        {
-          "title": "US lifts some Hong Kong sanctions imposed by Trump, autonomy status unchanged",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/us-china-hong-kong-sanctions-autonomy-status-6262361",
-          "published_at": "03:07"
-        },
-        {
-          "title": "US lifts some Hong Kong sanctions imposed by Trump, autonomy status unchanged",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcE5TTHFxWVMyd3J4OFpPSHRzblN3bzk1YXVjRUl2S1ZBbVJha1Y1TmpWbzVfbE15VzIxUVJ0VDRkNnk1ZnJmX0xmT1l5N0pZNlNfZWllRmJQY1V5QTRUTWpWZTBjWGZYNjhxMjhFTEdhaHZGdC1KdklCaXNIbHpCd0RnOFNTNHhwTWxoYUZGa2lLVFdOT2JLYU9Nbjh2T3liZXJyOHcwOXREaklJVnNsWA?oc=5",
-          "published_at": "23:07"
-        }
-      ]
-    },
-    {
-      "id": "world-45",
-      "title": "GameStop은 SEC 서류 제출 쇼인 eBay의 거의 10%를 소유하고 있습니다.",
-      "title_en": "GameStop owns nearly 10% of eBay, SEC filing shows",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/gamestop-owns-nearly-10-ebay-sec-filing-shows-6262186",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "GameStop은 eBay의 거의 10%를 소유하고 있으며 SEC 서류에 따르면 Reuters",
-      "excerpt_en": "GameStop owns nearly 10% of eBay, SEC filing shows Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVXdDS1FEendUOG1hQnlkMXZaNHNUUkxmRTJwUWYyMHByZ2VFdjR2Q2VUdEQzQTdzTXhrejdLTWVZNU03d3poeVZIZWViSkJZbUpBeW8tZFlBQUszYlJsSHU2b3psZV9GTC01VEdSOGtuMXpSWF9ERjROQTlMNVFUdXlaUk1mcjBRRHJqby1STFd0UHJiMlRn?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-17T23:03:46+09:00",
-      "latest_published_at": "2026-07-17T23:59:26+09:00",
-      "articles": [
-        {
-          "title": "GameStop owns nearly 10% of eBay, SEC filing shows",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVXdDS1FEendUOG1hQnlkMXZaNHNUUkxmRTJwUWYyMHByZ2VFdjR2Q2VUdEQzQTdzTXhrejdLTWVZNU03d3poeVZIZWViSkJZbUpBeW8tZFlBQUszYlJsSHU2b3psZV9GTC01VEdSOGtuMXpSWF9ERjROQTlMNVFUdXlaUk1mcjBRRHJqby1STFd0UHJiMlRn?oc=5",
-          "published_at": "23:59"
-        },
-        {
-          "title": "GameStop owns nearly 10% of eBay, SEC filing shows",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/gamestop-owns-nearly-10-ebay-sec-filing-shows-6262186",
-          "published_at": "23:03"
-        }
-      ]
-    },
-    {
-      "id": "world-64",
-      "title": "메인주 총격 사건의 ICE 요원은 폭력적인 행동을 한 이력이 있다고 친척들이 말했습니다.",
-      "title_en": "ICE agent in Maine shooting has history of violent behavior, relatives say",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/ice-officer-maine-shooting-david-brouillette-b3016544.html",
-      "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "경찰관의 과거를 둘러싼 혐의로 인해 국토안보부의 신병 심사 과정에 대한 새로운 의문이 제기되고 있습니다.",
-      "excerpt_en": "The allegations surrounding the officer’s past are raising new questions about the Department of Homeland Security’s screening process for recruits",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/ice-officer-maine-shooting-david-brouillette-b3016544.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T18:29:45+09:00",
-      "latest_published_at": "2026-07-17T22:35:00+09:00",
-      "articles": [
-        {
-          "title": "AP Exclusive: ICE officer in Maine shooting has history of violent behavior, family and records say",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWZZSmE5RWNWUzM2S3Exb2trNkFqQm9mQ3BubjB1dGxxV19mQXZpQlM2REg3S01uVjczUDFxVmhIcDFmX3lOQ3pEWDVXZVJSa1pqRlI3S21kZEczY084M0ZjYWlfbGl0Q2xtYXFteTVVSS0xZlYtYk9NTVllTm5nazVnSS1vSEFmNUp1bktXcXlaWXdXS0FOOS16bFk1RmRqR1p1MDVUSmliVHkycHE3Xw?oc=5",
-          "published_at": "22:35"
-        },
-        {
-          "title": "ICE agent in Maine shooting has history of violent behavior, relatives say",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/ice-officer-maine-shooting-david-brouillette-b3016544.html",
-          "published_at": "18:29"
-        }
-      ]
-    },
-    {
-      "id": "world-70",
-      "title": "산불 연기가 월드컵 결승전에 영향을 미칠지 여부에 대한 예측이 불확실성으로 인해 흐려지고 있습니다.",
-      "title_en": "Uncertainty clouds the forecast on whether wildfire smoke will affect the World Cup final",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/mikel-merino-new-jersey-new-york-argentina-spain-b3017115.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "캐나다 산불로 인한 연기가 일요일 아르헨티나와 스페인 간의 월드컵 결승전에 얼마나 영향을 미칠지는 확실하지 않습니다.",
-      "excerpt_en": "It's unclear how much, if at all, smoke from Canadian wildfires will affect the World Cup final between Argentina and Spain on Sunday",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/mikel-merino-new-jersey-new-york-argentina-spain-b3017115.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T16:57:25+09:00",
-      "latest_published_at": "2026-07-17T21:02:00+09:00",
-      "articles": [
-        {
-          "title": "Uncertainty clouds the forecast on whether wildfire smoke will affect the World Cup final",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU3A3VnJIV05SckYwOTJaQUpvVi1BblJDUWcxODBMVjFDakhmLU1IWFJYU2U0TUVpd1czUTZRVENZNl9FeTRWRFEtdWxlY2tSVUpJeDNXYWdRcmExUHprdm9ocEhpSkFmeEJGUTRicWZQRmVON3Z3VnNrR2R2c3BQQVZYNjV6WUxZ?oc=5",
-          "published_at": "21:02"
-        },
-        {
-          "title": "Uncertainty clouds the forecast on whether wildfire smoke will affect the World Cup final",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/mikel-merino-new-jersey-new-york-argentina-spain-b3017115.html",
-          "published_at": "16:57"
-        }
-      ]
-    },
-    {
-      "id": "world-73",
-      "title": "미국 석유 회사는 대체 운송 경로 개발을 위해 이라크와 계약을 체결했습니다.",
-      "title_en": "US oil firms sign deals with Iraq to develop alternative shipping routes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/iraq-strait-of-hormuz-chevron-washington-persian-gulf-b3017178.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "미국 기업들은 페르시아만에서 석유를 운송하기 위한 대체 경로를 만들기 위한 거래를 포함하여 이라크 정부와 약 600억 달러 규모의 계약 및 파트너십을 체결했습니다.",
-      "excerpt_en": "U.S. companies have signed roughly $60 billion in agreements and partnerships with the Iraqi government, including deals intended to create alternative routes for shipping oil out of the Persian Gulf",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/iraq-strait-of-hormuz-chevron-washington-persian-gulf-b3017178.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-17T19:36:24+09:00",
-      "latest_published_at": "2026-07-17T19:45:00+09:00",
-      "articles": [
-        {
-          "title": "US oil firms sign deals with Iraq to develop alternative shipping routes",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbXI1N1BXdjQzd3Vvd2luWENZVW42VkhrZmNKdW82WFJ5NXFRdnVha2dyTUZ1OFNITDZhRzJGVEdNbHFfclp0dkVDd2JLMGJUY0k1R29KcnhNckNOMjJTaXhISUtnMmJhOU9OTjlKTmQ2NmRlaXl1Y0t5MXFvVVlJQk9GZ3pja2xvUkE?oc=5",
-          "published_at": "19:45"
-        },
-        {
-          "title": "US oil firms sign deals with Iraq to develop alternative shipping routes",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/iraq-strait-of-hormuz-chevron-washington-persian-gulf-b3017178.html",
-          "published_at": "19:36"
-        }
-      ]
-    },
-    {
-      "id": "world-75",
-      "title": "미국, 홍콩 비상사태 종료 허용했지만 우대 제한은 유지",
-      "title_en": "US lets Hong Kong emergency expire but keeps preferential treatment restrictions",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/us/diplomacy/article/3361011/hong-kong-welcomes-us-move-let-national-emergency-declaration-expire?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "홍콩 정부는 지난 금요일 홍콩에 대한 국가비상사태 선포를 만료시키기로 한 트럼프 행정부의 결정을 환영했다.",
-      "excerpt_en": "The Hong Kong government on Friday welcomed the Trump administration’s decision to allow a national emergency declaration concerning the city to expire, although Washington said the executive order th",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/diplomacy/article/3361011/hong-kong-welcomes-us-move-let-national-emergency-declaration-expire?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-17T15:20:52+09:00",
-      "latest_published_at": "2026-07-18T03:44:00+09:00",
-      "articles": [
-        {
-          "title": "US lets Hong Kong emergency declaration lapse, lifting some sanctions as Trump order stays",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNampFOXhtR1UzaFhtSDZYUW04LVpsYXBRcktvYmdFVHBtcm9FWDJWTzVxQlNnaGdHeDFEd1pWdW9QX0FoX01kVGRCYjR5dThBZXF3dWdCZllZUnMwbU5NSW9VQUN6d1VScGJQWC1TaUlVQ3J2Z3g0T0h6al9walYzTnliUXBZbVpRd0RZand4c0VMT250SVhlVFBEQ28wUQ?oc=5",
-          "published_at": "03:44"
-        },
-        {
-          "title": "US lets Hong Kong emergency expire but keeps preferential treatment restrictions",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/diplomacy/article/3361011/hong-kong-welcomes-us-move-let-national-emergency-declaration-expire?utm_source=rss_feed",
-          "published_at": "15:20"
-        }
-      ]
-    },
-    {
-      "id": "world-121",
-      "title": "최신: 멀린 국토안보부 장관은 트럼프가 선거 주장을 되살린 후 유권자 사기를 추적할 것이라고 말했습니다.",
-      "title_en": "The Latest: DHS Secretary Mullin says he’ll chase voter fraud after Trump revives election claims",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/markwayne-mullin-donald-trump-dhs-maine-president-b3017081.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "마크웨인 멀린 국토안보부 장관은 도널드 트럼프 대통령이 임기 중 사실이 아닌 선거 이론을 부활시킨 후 백악관 단지에서 유권자 사기 사건을 적극적으로 추적하겠다고 약속했습니다.",
-      "excerpt_en": "Homeland Security Secretary Markwayne Mullin pledged to aggressively pursue voter fraud cases at the White House complex after President Donald Trump revived debunked election theories in his primetim",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/markwayne-mullin-donald-trump-dhs-maine-president-b3017081.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
         "Al Jazeera",
-        "The Independent"
+        "France24"
       ],
-      "first_published_at": "2026-07-17T16:07:49+09:00",
-      "latest_published_at": "2026-07-18T00:07:38+09:00",
+      "first_published_at": "2026-07-18T05:56:10+09:00",
+      "latest_published_at": "2026-07-18T07:23:04+09:00",
       "articles": [
         {
-          "title": "Homeland Security Secretary Mullin reiterates Trump threats about elections",
+          "title": "World Cup: France vs England prediction, final schedule, latest news",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/18/homeland-security-secretary-mullin-reiterates-trump-threats-about-elections?traffic_source=rss",
-          "published_at": "00:07"
+          "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-weekend-france-vs-england-prediction-schedule-news?traffic_source=rss",
+          "published_at": "07:23"
         },
         {
-          "title": "The Latest: DHS Secretary Mullin says he’ll chase voter fraud after Trump revives election claims",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/markwayne-mullin-donald-trump-dhs-maine-president-b3017081.html",
-          "published_at": "16:07"
+          "title": "France vs England: Deschamps set for final World Cup match as Zidane waits",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/18/world-cup-france-england-third-place-playoff-deschamps-zidane-coach?traffic_source=rss",
+          "published_at": "06:01"
+        },
+        {
+          "title": "Disappointed France and England to face off in third place World Cup match",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match",
+          "published_at": "05:56"
         }
       ]
     },
     {
-      "id": "world-274",
+      "id": "world-219",
       "title": "트럼프는 분도글 프로젝트의 개조 작업이 계속되면서 반사 수영장에 '파손 방지' 재료를 약속합니다",
       "title_en": "Trump promises ‘vandal proof’ material for the Reflecting Pool as renovations on his boondoggle project continues",
       "title_source": "earliest_pick",
@@ -1907,14 +1160,14 @@
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/video/071726-the-takeout-with-major-garrett/",
       "translation_status": "ok",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -1942,119 +1195,25 @@
       ]
     },
     {
-      "id": "world-62",
-      "title": "앤디 번햄(Andy Burnham)이 영국 노동당의 당수로 선출되어 희망을 회복하겠다고 다짐했습니다.",
-      "title_en": "Andy Burnham is declared leader of UK's Labour Party, pledges to restore hope",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "앤디 번햄(Andy Burnham)이 공식적으로 영국 집권 노동당의 당수로 선언되어 다음 주 총리 취임을 위한 마지막 관문을 통과했습니다.",
-      "excerpt_en": "Andy Burnham has been officially declared leader of Britain’s governing Labour Party, clearing his final hurdle to taking office as prime minister next week",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-07-17T13:22:17+09:00",
-      "latest_published_at": "2026-07-17T14:57:00+09:00",
-      "articles": [
-        {
-          "title": "Andy Burnham is declared leader of UK’s Labour Party, pledges to restore hope",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWU05U1otVzNHSXktaWJjX1BBYkdvQTRvb1B1bGZGUUVPcDhTYlA3alczTGszRlMxUi1GN09pbkE0Wjd0c19GbEpzaHRPUGc5a0FIZkRldVplV083LXdfcktDbHZzZk5yTVMwMXpaaU5TYkFTOUhKT2NwWlhMb1FpNTJteURBbGIxd3MzUHZwZUY5WUFhaDNJaTFzMUdvVzJN?oc=5",
-          "published_at": "14:57"
-        },
-        {
-          "title": "Andy Burnham is declared leader of UK's Labour Party, pledges to restore hope",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/andy-burnham-declared-leader-britains-labour-party-become-134840790",
-          "published_at": "13:22"
-        }
-      ]
-    },
-    {
-      "id": "world-161",
-      "title": "과테말라 인근 멕시코 해안에 규모 7.4의 강력한 지진이 발생해 쓰나미 경보 발령",
-      "title_en": "Powerful 7.4 quake hits Mexico coast near Guatemala, triggers tsunami warning",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/mexico-earthquake-southern-coast-guatemala-el-salvador-tsunami-warning-puerto-madero-7-magnitude-quake-101784303771186.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "금요일 멕시코 남부 태평양 연안에서 강력한 지진이 발생해 주민들은 이웃 과테말라와 엘살바도르의 건물에서 대피해야 했고 미국 정부는 경보를 발령했습니다.",
-      "excerpt_en": "A powerful earthquake struck the southern Mexican Pacific coast on Friday, prompting residents to evacuate buildings in neighbouring Guatemala and El Salvador – and triggering an alert from the US Tsu",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/americas/20260717-magnitude-7-3-quake-hits-mexican-coast-near-guatemala-triggering-tsunami-alert",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-17T16:06:36+09:00",
-      "latest_published_at": "2026-07-17T16:42:17+09:00",
-      "articles": [
-        {
-          "title": "Magnitude 7.3 quake hits Mexican coast near Guatemala, tsunami alert lifted",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260717-magnitude-7-3-quake-hits-mexican-coast-near-guatemala-triggering-tsunami-alert",
-          "published_at": "16:42"
-        },
-        {
-          "title": "Powerful 7.4 quake hits Mexico coast near Guatemala, triggers tsunami warning",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/mexico-earthquake-southern-coast-guatemala-el-salvador-tsunami-warning-puerto-madero-7-magnitude-quake-101784303771186.html",
-          "published_at": "16:06"
-        }
-      ]
-    },
-    {
       "id": "world-293",
-      "title": "브라질 만의 깜짝 상어 사육장에서 보존 프로젝트 촉발",
-      "title_en": "A Brazilian bay’s surprise shark nursery sparks conservation project",
+      "title": "메탄올 사망 후 어둠 속에 남겨진 가족들",
+      "title_en": "Families left in the dark after methanol deaths",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/brazilian-bays-surprise-shark-nursery-sparks-conservation-project-134846149",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "과학자들은 브라질 일랴그란데(Ilha Grande) 만의 만이 임신한 흑기흉상어의 서식지라는 사실을 발견했습니다.",
-      "excerpt_en": "Scientists have discovered that a cove in Brazil's Ilha Grande bay is a nursery for pregnant blacktip sharks",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/brazil-sharks-eat-grande-bay-b3016973.html",
+      "title_url": "https://www.smh.com.au/world/asia/families-left-in-the-dark-after-methanol-deaths-20260717-p60gdb.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "아시아",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "라오스 수사관들은 19세 호주인 홀리 모튼-볼스(Holly Morton-Bowles)와 비앙카 존스(Bianca Jones)를 포함해 6명의 사망에 대한 조사에 대한 첫 번째 상세한 설명 중 하나를 제공했습니다.",
+      "excerpt_en": "Investigators in Laos gave one of their first detailed accounts of the investigation into the deaths of six people, including 19-year-old Australians Holly Morton-Bowles and Bianca Jones, saying they ",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-07-19/laos-officials-blame-no-autopsies-poisoning-deaths-australians/106931892",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
         "raw75": 39
       },
       "area_value": 2,
@@ -2062,28 +1221,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "The Independent"
+        "ABC News Australia",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-17T13:18:51+09:00",
-      "latest_published_at": "2026-07-17T14:26:08+09:00",
+      "first_published_at": "2026-07-18T07:01:49+09:00",
+      "latest_published_at": "2026-07-18T14:04:18+09:00",
       "articles": [
         {
-          "title": "Brazil is the largest consumer of shark meat. Now the county wants to help save them",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/brazil-sharks-eat-grande-bay-b3016973.html",
-          "published_at": "14:26"
+          "title": "'Lack of evidence' means Lao officials won't lay charges over teens' deaths",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-19/laos-officials-blame-no-autopsies-poisoning-deaths-australians/106931892",
+          "published_at": "14:04"
         },
         {
-          "title": "A Brazilian bay’s surprise shark nursery sparks conservation project",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazilian-bays-surprise-shark-nursery-sparks-conservation-project-134846149",
-          "published_at": "13:18"
+          "title": "Families left in the dark after methanol deaths",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/asia/families-left-in-the-dark-after-methanol-deaths-20260717-p60gdb.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "07:01"
         }
       ]
     },
     {
-      "id": "world-373",
+      "id": "world-301",
       "title": "라스베거스에서 ICE에 의해 수갑이 채워진 호주인",
       "title_en": "Australian handcuffed by ICE in Las Vegas",
       "title_source": "earliest_pick",
