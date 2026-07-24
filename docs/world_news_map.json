@@ -1,6 +1,6 @@
 {
   "date": "2026-07-24",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,52 +8,73 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-07-24T06:31:41.297542+09:00",
+  "updated_at": "2026-07-24T13:29:42.311764+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 598,
-  "cluster_count_total": 501,
+  "article_count_total": 590,
+  "cluster_count_total": 503,
   "clusters": [
     {
-      "id": "world-136",
-      "title": "미국-사우디 협정으로 글로벌 핵무기 경쟁에 대한 우려 촉발",
-      "title_en": "U.S.-Saudi Deal Prompts Fears of a Global Nuclear Arms Race",
+      "id": "world-133",
+      "title": "트럼프 \"사우디 핵협상, 사우디와 이스라엘 관계 정상화 여부에 달렸다\"",
+      "title_en": "Trump says Saudi Arabia's nuclear deal hinges on the kingdom normalizing Israel ties",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/23/world/europe/us-saudi-deal-nuclear-hedging.html",
+      "title_url": "https://www.npr.org/2026/07/23/nx-s1-5904327/us-saudi-arabia-iran",
       "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "비평가들은 미국과 사우디의 협정이 중동에서 핵 군비 경쟁을 촉발할 수 있다고 말합니다. 이는 확실히 이스라엘이나 UAE와 같은 미국 동맹국을 행복하게 만들지 않습니다. 그리고 보고서에 따르면 미국은 이미 역행하고 있을 수도 있습니다.",
-      "excerpt_en": "Critics say the US-Saudi deal could spark a nuclear arms race in the Middle East. It's certainly not making US allies, like Israel and the UAE, happy. And reports suggest the US may already be backtra",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/us-saudi-nuclear-deal-how-will-it-impact-middle-east-us-iran-war/a-78087041?maca=en-rss-en-all-1573-xml-mrss",
+      "primary_source": "NPR",
+      "excerpt": "백악관은 미국-사우디아라비아 핵 협정이 서명된 지 하루 만인 목요일에 이 협정이 2020년 딥에서 이스라엘을 인정하는 산유국인 걸프만 국가에 달려 있다는 점을 강조하면서 의문을 제기했습니다.",
+      "excerpt_en": "The White House threw a US-Saudi Arabia nuclear deal into question on Thursday, a day after it was signed, emphasising that it depended on the oil-rich Gulf country recognising Israel under a 2020 dip",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/us/diplomacy/article/3361652/trump-throws-newly-signed-saudi-nuclear-deal-doubt-israel-recognition-demand?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 96,
+      "score": 95,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 72
+        "time_score": 2,
+        "raw75": 71
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 10,
+      "article_count": 10,
       "syndicated_count": 0,
-      "source_count": 6,
+      "source_count": 9,
       "sources": [
         "Al Jazeera",
-        "DW",
+        "CBS News",
+        "France24",
         "Hindustan Times",
+        "NBC News",
+        "NPR",
         "New York Times",
-        "Sydney Morning Herald",
-        "The Independent"
+        "SCMP",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-23T15:28:15+09:00",
-      "latest_published_at": "2026-07-23T19:00:00+09:00",
+      "first_published_at": "2026-07-23T10:55:44+09:00",
+      "latest_published_at": "2026-07-23T23:16:23+09:00",
       "articles": [
+        {
+          "title": "Trump’s New Demand for Nuclear Deal Puts Saudis in a Bind",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/23/world/middleeast/trump-saudi-arabia-palestinian-state.html",
+          "published_at": "23:16"
+        },
+        {
+          "title": "Trump throws newly signed Saudi nuclear deal into doubt with Israel recognition demand",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3361652/trump-throws-newly-signed-saudi-nuclear-deal-doubt-israel-recognition-demand?utm_source=rss_feed",
+          "published_at": "22:01"
+        },
+        {
+          "title": "US-Saudi nuclear deal hinges on normalisation with Israel",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/us-saudi-nuclear-deal-hinges-on-normalisation-with-israel?traffic_source=rss",
+          "published_at": "21:41"
+        },
         {
           "title": "The US gave Iran its nuclear capabilities. Now Trump is giving them to Saudi Arabia",
           "source_name": "Sydney Morning Herald",
@@ -67,98 +88,125 @@
           "published_at": "17:38"
         },
         {
-          "title": "What are the security implications of the US-Saudi nuclear deal?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/23/what-are-the-security-implications-of-the-us-saudi-nuclear-deal?traffic_source=rss",
-          "published_at": "17:27"
+          "title": "Trump says Saudi nuclear deal contingent on Riyadh normalising relations with Israel",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260723-trump-stuns-saudis-by-pinning-nuclear-deal-to-israel-ties",
+          "published_at": "16:31"
         },
         {
-          "title": "Trump says Saudi Arabia must recognise Israel for nuclear deal to go ahead as president defends ‘dangerous’ plan",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/trump-saudi-arabia-nuclear-deal-israel-b3020386.html",
-          "published_at": "16:21"
+          "title": "U.S. and Saudis sign nuclear deal, contingent on joining Abraham Accords",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/",
+          "published_at": "15:49"
         },
         {
-          "title": "US-Saudi nuclear deal: How will it impact Middle East, US-Iran war?",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/us-saudi-nuclear-deal-how-will-it-impact-middle-east-us-iran-war/a-78087041?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "16:14"
+          "title": "Trump says Saudi Arabia must normalize Israel ties before nuclear deal is approved",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/middle-east/trump-saudi-arabia-normalize-israel-ties-nuclear-deal-rcna588859",
+          "published_at": "12:35"
         },
         {
-          "title": "U.S.-Saudi Deal Prompts Fears of a Global Nuclear Arms Race",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/23/world/europe/us-saudi-deal-nuclear-hedging.html",
-          "published_at": "15:28"
+          "title": "Recognise Israel: Trump sets big condition after US announces Saudi nuclear deal",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/donald-trump-us-saudi-arabia-civilian-nuclear-deal-abraham-accords-recognise-israel-iran-war-101784809602828.html",
+          "published_at": "12:30"
+        },
+        {
+          "title": "Trump says Saudi Arabia's nuclear deal hinges on the kingdom normalizing Israel ties",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/07/23/nx-s1-5904327/us-saudi-arabia-iran",
+          "published_at": "10:55"
         }
       ]
     },
     {
-      "id": "world-62",
-      "title": "트럼프는 홍해에서 후티 반군 공격에 대해 이란을 처벌하겠다고 다짐했다. 유가 100달러 이상 급등",
-      "title_en": "Trump vows to punish Iran for Houthi attacks in Red Sea; oil surges over $100",
+      "id": "world-101",
+      "title": "인도 운동가 소남 왕추, 단식투쟁 종료",
+      "title_en": "Indian activist Sonam Wangchuk ends hunger strike",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOck9rMklSSHp1Z0E2UmlqZUJHSWNxRXNSZGtZd1JTOFdSbUE2amI3RHFmaUNuSS1nU1NzaThJdVIwVzZFcXVIaXNjU3lrSVYtaDF5THNwWkpqUHVwTEFsWklsbnp4ZllTMndIYWhRM0RZa09qaTNiVXVCNmh5a2p6MnBidG1kWkJSUVJnb1RuOXdUcU5MRDVxbzJmcDE2UWZsaVZYRDdCdHlYcG1kUTdKT093ZXI4b3VkWjZNRzdDUDIwWEFWMHRia2FIY3dIdw?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "도널드 트럼프 미국 대통령은 목요일 예멘 전투기가 홍해에서 사우디 유조선 두 척을 공격해 중동 지역을 확장한 후 이란과 후티 동맹국에 대해 \"중대한 군사적 처벌\"을 약속했습니다.",
-      "excerpt_en": "US President Donald Trump promised on Thursday “major military punishment” for Iran and its Houthi allies, after Yemeni fighters struck two Saudi oil tankers in the Red Sea, extending the Middle East ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3361645/trump-vows-punish-iran-houthi-attacks-red-sea-oil-surges-over-us100?utm_source=rss_feed",
+      "title_url": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "아시아",
+      "primary_source": "DW",
+      "excerpt": "인도의 '폭력 가능성'에 대한 우려 속에 소남 왕추크가 파업을 중단했습니다. 인도의 '바퀴벌레' 활동가인 소남은 지난 금요일 경찰의 만행을 이유로 전국에서 시위를 촉구했습니다.",
+      "excerpt_en": "Sonam Wangchuk halted strike amid concerns about ‘possible violence’ in India as protest movement urges demonstrations across country on Friday over police brutality Indian “cockroach” activist Sonam ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/24/india-cockroach-protest-sonam-wangchuk-ends-hunger-strike",
       "translation_status": "ok",
-      "score": 88,
+      "score": 92,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 2,
-        "raw75": 66
+        "raw75": 69
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 7,
       "sources": [
-        "CBC",
-        "NBC News",
-        "Reuters",
-        "SCMP"
+        "BBC",
+        "Channel News Asia",
+        "DW",
+        "France24",
+        "New York Times",
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-07-23T04:15:00+09:00",
-      "latest_published_at": "2026-07-23T17:53:49+09:00",
+      "first_published_at": "2026-07-23T20:07:00+09:00",
+      "latest_published_at": "2026-07-24T00:32:00+09:00",
       "articles": [
         {
-          "title": "Trump vows to punish Iran for Houthi attacks in Red Sea, as oil surges over US$100",
+          "title": "Indian activist ends fast but youth protesters still seek minister's ouster",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/india-sonam-wangchuk-hunger-strike-youth-protesters-6274891",
+          "published_at": "00:32"
+        },
+        {
+          "title": "India ‘cockroach’ activist Sonam Wangchuk ends hunger strike as protests spread",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/24/india-cockroach-protest-sonam-wangchuk-ends-hunger-strike",
+          "published_at": "00:20"
+        },
+        {
+          "title": "Prominent Indian Activist Breaks Hunger Strike After 26 Days",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/23/world/asia/sonam-wangchuk-india-hunger-strike-protests-modi.html",
+          "published_at": "23:46"
+        },
+        {
+          "title": "Indian activist ends 26-day hunger strike, though student protests continue",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20260723-indian-activist-ends-26-day-hunger-strike-though-student-protests-continue",
+          "published_at": "22:44"
+        },
+        {
+          "title": "Indian activist Sonam Wangchuk ends hunger strike, but ‘cockroach’ protests to continue",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3361645/trump-vows-punish-iran-houthi-attacks-red-sea-oil-surges-over-us100?utm_source=rss_feed",
-          "published_at": "17:53"
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3361653/indian-activist-sonam-wangchuk-ends-hunger-strike-cockroach-protests-continue?utm_source=rss_feed",
+          "published_at": "22:42"
         },
         {
-          "title": "Iran will pay for any Houthi-led attacks, Trump says",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/us-iran-war-houthis-saudis-9.7280533?cmp=rss",
-          "published_at": "14:20"
+          "title": "India activist ends hunger strike after 26 days",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "21:27"
         },
         {
-          "title": "Oil surges to $100 per barrel after Red Sea attacks",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/business/markets/oil-prices-rise-red-sea-attacks-houthis-saudi-trump-iran-war-rcna588851",
-          "published_at": "11:39"
-        },
-        {
-          "title": "Trump vows to punish Iran for Houthi attacks in Red Sea; oil surges over $100",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOck9rMklSSHp1Z0E2UmlqZUJHSWNxRXNSZGtZd1JTOFdSbUE2amI3RHFmaUNuSS1nU1NzaThJdVIwVzZFcXVIaXNjU3lrSVYtaDF5THNwWkpqUHVwTEFsWklsbnp4ZllTMndIYWhRM0RZa09qaTNiVXVCNmh5a2p6MnBidG1kWkJSUVJnb1RuOXdUcU5MRDVxbzJmcDE2UWZsaVZYRDdCdHlYcG1kUTdKT093ZXI4b3VkWjZNRzdDUDIwWEFWMHRia2FIY3dIdw?oc=5",
-          "published_at": "04:15"
+          "title": "Indian activist Sonam Wangchuk ends hunger strike",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "20:07"
         }
       ]
     },
     {
-      "id": "world-149",
-      "title": "놀란 웰스 부검: 사망 원인은 무엇입니까? '비우발적 요인'도 배제할 수 없어",
-      "title_en": "Nolan Wells autopsy: What is cause of death listed as? ‘Non-accidental factors’ could not be ruled out",
+      "id": "world-140",
+      "title": "놀란 웰스의 죽음에서 '비우발적 요인'은 배제됩니까? 법의학 병리학자가 말한 것",
+      "title_en": "Are ‘non-accidental factors’ ruled out in Nolan Wells' death? What forensic pathologist said",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/nolan-wells-autopsy-what-is-cause-of-death-listed-as-non-accidental-factors-could-not-be-ruled-out-101784772674536.html",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/are-non-accidental-factors-ruled-out-in-nolan-wells-death-what-forensic-pathologist-said-101784792142241.html",
       "category": "중동",
       "primary_source": "Hindustan Times",
       "excerpt": "미국이 사우디아라비아와 원자력 협력 협정을 체결했다. 그리고 놀란 웰스의 독립적인 부검 결과는 그의 사망 원인을 둘러싼 더 많은 의문을 불러일으켰습니다.",
@@ -166,17 +214,17 @@
       "excerpt_source": "NPR",
       "excerpt_url": "https://www.npr.org/2026/07/23/g-s1-135097/up-first-newsletter-saudi-arabia-nuclear-deal-house-bills-peptides-nolan-wells",
       "translation_status": "ok",
-      "score": 88,
+      "score": 83,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 66
+        "time_score": 1,
+        "raw75": 62
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
@@ -184,7 +232,7 @@
         "NPR",
         "The Independent"
       ],
-      "first_published_at": "2026-07-23T02:14:35+09:00",
+      "first_published_at": "2026-07-23T07:39:02+09:00",
       "latest_published_at": "2026-07-23T12:35:38+09:00",
       "articles": [
         {
@@ -216,145 +264,17 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/are-non-accidental-factors-ruled-out-in-nolan-wells-death-what-forensic-pathologist-said-101784792142241.html",
           "published_at": "07:39"
-        },
-        {
-          "title": "Nolan Wells autopsy: What is cause of death listed as? ‘Non-accidental factors’ could not be ruled out",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/nolan-wells-autopsy-what-is-cause-of-death-listed-as-non-accidental-factors-could-not-be-ruled-out-101784772674536.html",
-          "published_at": "02:14"
         }
       ]
     },
     {
-      "id": "world-278",
-      "title": "EU, Google에 10억 달러 벌금 부과, 미국의 분노 위험",
-      "title_en": "EU fines Google US$1 billion, risking US fury",
+      "id": "world-285",
+      "title": "프랑스 당국, 산불 확산에 1만명 이상 대피",
+      "title_en": "Authorities evacuate more than 10,000 in France as wildfire spreads",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3361612/eu-fines-google-us1-billion-risking-us-fury?utm_source=rss_feed",
+      "title_url": "https://abcnews.com/International/wireStory/authorities-evacuate-10000-france-wildfire-spreads-popular-tourist-135010258",
       "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "유럽연합(EU)은 목요일 미국과의 긴장을 고조시킬 위험이 있는 조치로 구글에 8억9천만 유로(미화 10억 달러) 상당의 벌금을 부과했다. EU는 미국 거대 기업에 4억 6천만 유로의 벌금을 부과했습니다.",
-      "excerpt_en": "The European Union on Thursday slapped Google with fines worth €890 million (US$1 billion) in a move that risks escalating tensions with the United States. The EU fined the US giant €460 million for i",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361612/eu-fines-google-us1-billion-risking-us-fury?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Bangkok Post",
-        "CBC",
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-23T10:32:26+09:00",
-      "latest_published_at": "2026-07-23T17:11:23+09:00",
-      "articles": [
-        {
-          "title": "Google’s search empire faces $1 billion EU fine over abuse of market power",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/googles-search-empire-faces-1-billion-eu-fine-over-abuse-of-market-power-101784815558795.html",
-          "published_at": "17:11"
-        },
-        {
-          "title": "EU fines Alphabet $1B US for Google Play, search infractions",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/business/eu-fines-alphabet-google-9.7280498?cmp=rss",
-          "published_at": "11:35"
-        },
-        {
-          "title": "Google hit with $1 billion fine for abusing its power in Europe",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3290602/google-hit-with-1-billion-fine-for-abusing-its-power-in-europe",
-          "published_at": "11:30"
-        },
-        {
-          "title": "EU fines Google US$1 billion, risking US fury",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3361612/eu-fines-google-us1-billion-risking-us-fury?utm_source=rss_feed",
-          "published_at": "10:32"
-        }
-      ]
-    },
-    {
-      "id": "world-34",
-      "title": "미국 검찰, 트럼프 비행기 보도 관련 뉴욕타임스 소환장 기각",
-      "title_en": "U.S. prosecutors to drop New York Times subpoenas over Trump plane reporting",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-prosecutors-to-drop-new-york-times-subpoenas-over-trump-plane-reporting-101784834475186.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "도널드 트럼프의 법무부는 대통령이 카타르에서 기증한 에어포스원(Air Force ‌One)을 타고 비행하는 것에 대한 보안 우려를 보도한 뉴욕 타임즈 기자들에게 발부된 소환장을 철회할 예정입니다.",
-      "excerpt_en": "Donald Trump’s Justice Department will withdraw subpoenas issued to New York Times journalists who reported on security concerns about the president flying on a Qatari-donated Air Force ‌One, a prosec",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3361649/us-prosecutors-dropping-new-york-times-subpoenas-over-trump-plane-reporting?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "DW",
-        "Hindustan Times",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-23T19:21:14+09:00",
-      "latest_published_at": "2026-07-23T20:09:34+09:00",
-      "articles": [
-        {
-          "title": "US prosecutors dropping New York Times subpoenas over Trump plane reporting",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361649/us-prosecutors-dropping-new-york-times-subpoenas-over-trump-plane-reporting?utm_source=rss_feed",
-          "published_at": "20:09"
-        },
-        {
-          "title": "Trump administration drops New York Times subpoenas over plane reporting",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/trump-administration-drops-new-york-times-subpoenas-over-plane-reporting/a-78091966?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "20:07"
-        },
-        {
-          "title": "US prosecutors to drop New York Times subpoenas over Trump plane reporting",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQjNlSDFsYTZXQ3RlWDE0M19jTlBjQzBCSkNqNzdDSmhWMzdmd2VIMlVwanptd3Z4Rld5OUJObENzNHU2SDBNejJiWldvaHh5bjRTZjdqcnlmOVNLZGVQcVpDTW9ZSVVSVWxVV1d4SWJOT1JDb0dZNGdNS3ZDUDBSZ0xtdGE3enNBUzVacTJITUxfandpdHBySnA2c0dfVTVjd0twM3JVdkJWLVAwbUtHdXBtZmdYTm9McXNn?oc=5",
-          "published_at": "19:34"
-        },
-        {
-          "title": "U.S. prosecutors to drop New York Times subpoenas over Trump plane reporting",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-prosecutors-to-drop-new-york-times-subpoenas-over-trump-plane-reporting-101784834475186.html",
-          "published_at": "19:21"
-        }
-      ]
-    },
-    {
-      "id": "world-56",
-      "title": "프랑스 남서부 산불 확산으로 1만 명 이상 대피",
-      "title_en": "More than 10,000 evacuated in southwestern France as wildfire spreads",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUmNtQkc1TWJrRl9jMC1IVkVjM05uOVAxSGpZNkZnTXFGTDRHRkR1OWtfUkhPM2NRVXZiNTYteGFadTJPZG9WYjNYZGYyZVRySllSZU5XN0xjeURhQUhaZjZuWFZ2cXNYWDRlQ0NZZF8zZ2ZQNFVjbkswWnNHMzJUTnN4MWgzaTRvRDB3MkRxbWkyMEZmQlVjN2xVcE00aG1EbU5CYWVLTVNRdm5xRnhON1Y3QTNJeS10T0pZ?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
+      "primary_source": "ABC News",
       "excerpt": "인기 있는 해안 도시인 레지 카프 페레 인근에서 산불이 발생하면서 프랑스 남서부의 마을과 휴양지에서 약 2만 명이 대피했습니다.",
       "excerpt_en": "Around 20,000 people were evacuated from towns and holiday resorts in southwestern France as a wildfire raged near the popular tourist coastal town of Lege Cap-Ferret.",
       "excerpt_source": "Sky News",
@@ -376,12 +296,18 @@
       "sources": [
         "ABC News",
         "Euronews",
-        "Reuters",
-        "Sky News"
+        "Sky News",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-23T06:29:00+09:00",
-      "latest_published_at": "2026-07-23T12:14:13+09:00",
+      "first_published_at": "2026-07-23T09:44:52+09:00",
+      "latest_published_at": "2026-07-23T23:39:25+09:00",
       "articles": [
+        {
+          "title": "Thousands flee French holiday spot as fires spread across Europe",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/thousands-flee-french-holiday-spot-as-fires-spread-across-europe-20260724-p60i6x.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:39"
+        },
         {
           "title": "Thousands evacuated as wildfire spreads in southwestern France",
           "source_name": "Euronews",
@@ -399,141 +325,21 @@
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/authorities-evacuate-10000-france-wildfire-spreads-popular-tourist-135010258",
           "published_at": "09:44"
-        },
-        {
-          "title": "More than 10,000 evacuated in southwestern France as wildfire spreads",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUmNtQkc1TWJrRl9jMC1IVkVjM05uOVAxSGpZNkZnTXFGTDRHRkR1OWtfUkhPM2NRVXZiNTYteGFadTJPZG9WYjNYZGYyZVRySllSZU5XN0xjeURhQUhaZjZuWFZ2cXNYWDRlQ0NZZF8zZ2ZQNFVjbkswWnNHMzJUTnN4MWgzaTRvRDB3MkRxbWkyMEZmQlVjN2xVcE00aG1EbU5CYWVLTVNRdm5xRnhON1Y3QTNJeS10T0pZ?oc=5",
-          "published_at": "06:29"
         }
       ]
     },
     {
-      "id": "world-107",
-      "title": "이스라엘을 인정하라: 트럼프는 미국이 사우디 핵 협상을 발표한 후 큰 조건을 제시했다",
-      "title_en": "Recognise Israel: Trump sets big condition after US announces Saudi nuclear deal",
+      "id": "world-82",
+      "title": "중동 산유국들, 호르무즈 해협 우회 계획 강화",
+      "title_en": "Mideast oil producers step up plans to bypass the Strait of Hormuz",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/donald-trump-us-saudi-arabia-civilian-nuclear-deal-abraham-accords-recognise-israel-iran-war-101784809602828.html",
+      "title_url": "https://abcnews.com/International/wireStory/mideast-oil-producers-step-plans-bypass-strait-hormuz-135009733",
       "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국 대통령은 사우디의 원자력 개발을 돕기 위한 획기적인 합의가 아브라함 협정 가입에 달려 있다고 말했습니다.",
-      "excerpt_en": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-      "translation_status": "ok",
-      "score": 79,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 59
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-23T12:30:28+09:00",
-      "latest_published_at": "2026-07-23T17:58:02+09:00",
-      "articles": [
-        {
-          "title": "Saudis must recognise Israel for nuclear deal, says Trump",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-          "published_at": "17:58"
-        },
-        {
-          "title": "U.S. and Saudis sign nuclear deal, contingent on joining Abraham Accords",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/",
-          "published_at": "15:49"
-        },
-        {
-          "title": "Recognise Israel: Trump sets big condition after US announces Saudi nuclear deal",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/donald-trump-us-saudi-arabia-civilian-nuclear-deal-abraham-accords-recognise-israel-iran-war-101784809602828.html",
-          "published_at": "12:30"
-        }
-      ]
-    },
-    {
-      "id": "world-394",
-      "title": "엡스타인 파일에 등장한 모델 스카우트, 파리서 2000여 차례 숨진 채 발견",
-      "title_en": "Modelling scout who appeared in Epstein files almost 2000 times found dead in Paris",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/europe/modelling-scout-who-appeared-in-epstein-files-almost-2000-times-found-dead-in-paris-20260723-p60hr1.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "유럽",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "제프리 엡스타인의 측근 다니엘 시아드가 프랑스에서 숨진 채 발견됐다. Siad는 수년 동안 Epstein을 위해 젊은 여성과 소녀를 모집한 모델 스카우트였습니다. 그는 Eps에 대한 지식이 없다고 부인했습니다.",
-      "excerpt_en": "Daniel Siad, a close associate of Jeffrey Epstein, has been found dead in France. Siad was a model scout who recruited young women and girls for Epstein over many years. He denied any knowledge of Eps",
+      "primary_source": "ABC News",
+      "excerpt": "이란의 공격으로 인해 호르무즈 해협을 통과하는 선박 교통량이 줄어들고 유가가 급등함에 따라 걸프 지역 국가들은 파이프라인 대안에 수십억 달러를 투자할 계획입니다.",
+      "excerpt_en": "As Iran's attacks keep ship traffic through the Strait of Hormuz to a trickle and oil prices surge, Gulf states are planning to invest billions in pipeline alternatives.",
       "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/epstein-associate-found-dead-france/",
-      "translation_status": "ok",
-      "score": 79,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 59
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "Fox News",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-07-23T00:37:36+09:00",
-      "latest_published_at": "2026-07-23T21:02:38+09:00",
-      "articles": [
-        {
-          "title": "French modeling scout linked to Jeffrey Epstein found dead in Paris apartment",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/french-modeling-scout-linked-jeffrey-epstein-found-dead-paris-apartment",
-          "published_at": "21:02"
-        },
-        {
-          "title": "Former model scout linked to Jeffrey Epstein found dead in his Paris home",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/former-model-scout-linked-to-jeffrey-epstein-found-dead-in-his-paris-home/",
-          "published_at": "14:26"
-        },
-        {
-          "title": "Epstein associate found dead in France",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/epstein-associate-found-dead-france/",
-          "published_at": "13:11"
-        },
-        {
-          "title": "Modelling scout who appeared in Epstein files almost 2000 times found dead in Paris",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/modelling-scout-who-appeared-in-epstein-files-almost-2000-times-found-dead-in-paris-20260723-p60hr1.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "00:37"
-        }
-      ]
-    },
-    {
-      "id": "world-69",
-      "title": "미군, 12일 연속 이란 공습 완료",
-      "title_en": "US military completes 12th straight night of strikes on Iran",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSTE4NEl0QlphNDg2Z3VzWFlvd3cxQjBmVzYtOC1HS18tRTNNUWJodlRhUzI4M05DN1lhLWZJWkJCU2wzaXVfVEdqWTBJSmtjeTI1M1BmRkdOclRtOGtCQ3B4bWpxbFVSeXMxRWtwdUtpdFRCOFNLVGFHaFFYRGUtOHZZbFdpRlNScTI5TVZBbi1uMVRvWDlHSWx2RlYxWkFrVGItb1RsdkRpQThH?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "미국은 지난 수요일 12일 연속으로 이란을 상대로 공격을 감행했고, 이란은 계속해서 걸프 지역 국가들을 대상으로 보복을 가하고 있습니다. 이번 공습은 트럼프 대통령이 이란에 새로운 경고를 발령한 가운데 이뤄졌습니다.",
-      "excerpt_en": "The U.S. launched a 12th straight night of strikes against Iran on Wednesday, which continues to target Gulf nations in retaliation. The strikes come as President Trump issues a new warning to Iran an",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/tensions-escalate-as-us-launches-12th-straight-night-of-strikes-against-iran/",
+      "excerpt_url": "https://www.cbsnews.com/news/us-iran-war-strait-hormuz-middle-east-oil-producers-alternatives-escalates/",
       "translation_status": "ok",
       "score": 76,
       "score_breakdown": {
@@ -549,333 +355,9 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBS News",
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-23T03:27:00+09:00",
-      "latest_published_at": "2026-07-23T12:50:37+09:00",
-      "articles": [
-        {
-          "title": "Tensions escalate as U.S. launches 12th straight night of strikes against Iran",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/tensions-escalate-as-us-launches-12th-straight-night-of-strikes-against-iran/",
-          "published_at": "12:50"
-        },
-        {
-          "title": "Saudi oil tanker hit by Houthis, Trump's fresh 'bomb' threat to Iran, drone attacks in Kuwait: Top updates",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-iran-war-saudi-oil-tanker-hit-houthis-trump-bomb-threat-tehran-kuwait-drone-attacks-brent-crude-price-today-latest-101784781641878.html",
-          "published_at": "05:25"
-        },
-        {
-          "title": "US military completes 12th straight night of strikes on Iran",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSTE4NEl0QlphNDg2Z3VzWFlvd3cxQjBmVzYtOC1HS18tRTNNUWJodlRhUzI4M05DN1lhLWZJWkJCU2wzaXVfVEdqWTBJSmtjeTI1M1BmRkdOclRtOGtCQ3B4bWpxbFVSeXMxRWtwdUtpdFRCOFNLVGFHaFFYRGUtOHZZbFdpRlNScTI5TVZBbi1uMVRvWDlHSWx2RlYxWkFrVGItb1RsdkRpQThH?oc=5",
-          "published_at": "03:27"
-        }
-      ]
-    },
-    {
-      "id": "world-18",
-      "title": "중국 남서부 산사태 사망자 11명으로 늘어, 아직 50명 실종",
-      "title_en": "Landslide death toll rises to 11 in southwest China, 50 still missing",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWNWVFROY05TbmZNOVpqQzg1aVdMZHNWckF5SDVBbTZuZTNvUjRGd3dOT3VrTWVUTHFmdTZodnhIcG5MUFhlMHlKUkotSkVUV1RPRVQ1dXVtNjVCcVFudEhmdHN2SEJHSnBhUFMyUU5ZU2tON29tMDNPTWFNSUpsQTJDY25GMURmay1oeFdZYXdaZFUtazNRWnZBQlh6UjJQUE1GQUR3ajN3X0MxOXJ0OF9sNjZ6VWlR?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "지난주 중국 충칭에서 발생한 산사태 잔해 수색팀이 시신 3구를 추가로 발견해 사망자 수는 11명이 됐다.",
-      "excerpt_en": "Teams searching the rubble of last week's landslide in Chongqing, China, have found three more bodies, bringing the death toll to 11",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/toll-landslide-southwestern-china-rises-11-dead-50-135024110",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
         "ABC News",
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-23T15:31:20+09:00",
-      "latest_published_at": "2026-07-23T19:32:42+09:00",
-      "articles": [
-        {
-          "title": "Landslide death toll rises to 11 in southwest China, 50 still missing",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/china-landslide-deathtoll-chongqing-rescue-missing-6274541",
-          "published_at": "19:32"
-        },
-        {
-          "title": "11 dead, 50 missing after landslide in southwestern China",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/toll-landslide-southwestern-china-rises-11-dead-50-135024110",
-          "published_at": "16:37"
-        },
-        {
-          "title": "Landslide death toll rises to 11 in southwest China, 50 still missing",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWNWVFROY05TbmZNOVpqQzg1aVdMZHNWckF5SDVBbTZuZTNvUjRGd3dOT3VrTWVUTHFmdTZodnhIcG5MUFhlMHlKUkotSkVUV1RPRVQ1dXVtNjVCcVFudEhmdHN2SEJHSnBhUFMyUU5ZU2tON29tMDNPTWFNSUpsQTJDY25GMURmay1oeFdZYXdaZFUtazNRWnZBQlh6UjJQUE1GQUR3ajN3X0MxOXJ0OF9sNjZ6VWlR?oc=5",
-          "published_at": "15:31"
-        }
-      ]
-    },
-    {
-      "id": "world-93",
-      "title": "미네소타주 멜리사 호트먼 의원 살해한 남성, 종신형 선고",
-      "title_en": "Man who killed Minnesota lawmaker Melissa Hortman sentenced to life",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/minnesota-lawmaker-sentencing-vance-boelter-9.7281161?cmp=rss",
-      "category": "미국",
-      "primary_source": "CBC",
-      "excerpt": "미네소타 민주당 의원 멜리사 호트먼의 친구와 가족은 목요일 살인에 대해 유죄를 인정한 후 두 번의 종신형과 40년의 형을 선고받은 남자가 그녀의 정신을 제거하지 못했다고 말했습니다.",
-      "excerpt_en": "Friends and family of Minnesota Democratic lawmaker Melissa Hortman said the man sentenced Thursday to two life terms plus 40 years after pleading guilty to her murder failed to eliminate her spirit a",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/minnesota-lawmaker-sentencing-vance-boelter-9.7281161?cmp=rss",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
         "AP News",
-        "Al Jazeera",
-        "CBC"
-      ],
-      "first_published_at": "2026-07-23T18:08:22+09:00",
-      "latest_published_at": "2026-07-23T19:50:30+09:00",
-      "articles": [
-        {
-          "title": "Minnesota man who killed Democratic lawmaker sentenced to life in US prison",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/23/minnesota-man-who-killed-democratic-lawmaker-sentenced-to-life-in-us-prison?traffic_source=rss",
-          "published_at": "19:50"
-        },
-        {
-          "title": "Man who killed Minnesota lawmaker Melissa Hortman sentenced to life as family describes trauma, loss",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUFYdmJXS2pRYTI3aVRXM1ktWWlpaWpqb01UZlUtcDV4ZTdaampkUlFQNnhBaVBvamRZLUstSmFLcXRDOU5SZl83b181SlBjcDBRTnI1UmtTVE9sdWozUkhIbmtLTDAxSTUzNFRNSGFOdTVBbExrYUk5UXRWYUZjOWxJLTFTUU5CaVZwS0p0bnBHWFdSbmpacGp3RFFpdVlwQk83VUZhVU9IX0k3OEZHdWxuTE4?oc=5",
-          "published_at": "19:23"
-        },
-        {
-          "title": "Man who killed Minnesota lawmaker Melissa Hortman sentenced to life",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/minnesota-lawmaker-sentencing-vance-boelter-9.7281161?cmp=rss",
-          "published_at": "18:08"
-        }
-      ]
-    },
-    {
-      "id": "world-150",
-      "title": "트럼프 \"사우디 핵협상, 사우디와 이스라엘 관계 정상화 여부에 달렸다\"",
-      "title_en": "Trump says Saudi Arabia's nuclear deal hinges on the kingdom normalizing Israel ties",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/07/23/nx-s1-5904327/us-saudi-arabia-iran",
-      "category": "중동",
-      "primary_source": "NPR",
-      "excerpt": "도널드 트럼프 미국 대통령은 목요일 미국과 사우디아라비아 간의 핵 협상에서 사우디아라비아는 이스라엘과의 관계를 정상화해야 한다고 말했습니다. 이는 이전에는 불가능했던 중요한 조건입니다.",
-      "excerpt_en": "President Donald Trump said Thursday that a nuclear deal between the United States and Saudi Arabia requires the kingdom to normalize relations with Israel — a significant condition not previously men",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/world/middle-east/trump-saudi-arabia-normalize-israel-ties-nuclear-deal-rcna588859",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "NBC News",
-        "NPR",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-23T10:55:44+09:00",
-      "latest_published_at": "2026-07-23T19:43:17+09:00",
-      "articles": [
-        {
-          "title": "Trump Throws a Potential Wrench in the Saudi Nuclear Deal He Just Inked",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/23/world/middleeast/trump-saudi-arabia-palestinian-state.html",
-          "published_at": "19:43"
-        },
-        {
-          "title": "Trump says Saudi Arabia must normalize Israel ties before nuclear deal is approved",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/middle-east/trump-saudi-arabia-normalize-israel-ties-nuclear-deal-rcna588859",
-          "published_at": "12:35"
-        },
-        {
-          "title": "Trump says Saudi Arabia's nuclear deal hinges on the kingdom normalizing Israel ties",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/23/nx-s1-5904327/us-saudi-arabia-iran",
-          "published_at": "10:55"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "체코: 육군 헬리콥터 추락, 최소 1명 사망",
-      "title_en": "Czechia: Army helicopter crashes, killing at least one",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/czechia-army-helicopter-crashes-killing-at-least-one/a-78083870?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "기타",
-      "primary_source": "DW",
-      "excerpt": "지난 목요일 체코에서 군용 헬리콥터가 추락해 군인 1명이 사망하고 4명이 부상했다고 육군이 밝혔습니다. “베놈(Venom) 헬리콥터가 나메스트 나드 오스(Namest nad Os)의 22번째 헬리콥터 기지에 추락했습니다.",
-      "excerpt_en": "One soldier died and four were injured on Thursday when a military helicopter crashed in the Czech Republic, the army said. “A Venom helicopter has crashed at the 22nd helicopter base in Namest nad Os",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361637/1-dead-4-injured-czech-army-helicopter-crash?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "DW",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-23T11:30:00+09:00",
-      "latest_published_at": "2026-07-23T14:31:43+09:00",
-      "articles": [
-        {
-          "title": "Czech army helicopter with five soldiers on board crashes, one dead",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPajR2YnMzdU9zaUJCaHRJMndHenRXVk41dlVTUUtvbFB3czUyblRaMnJYd2N3NkZrMDN3NFFNMVltdlBBcEtjb2ZFbk1hLWxZZVF2eDNETURPUzhFNExlQmtIMjZ1WFlWajZwWTZaLU9VRW9ibVZkbUF3VVhyUlZfY042OWJlN01YOUNlTEJrWTFWaU52WmlJUS1lRmpNS28tcVVHOWVLTFlJVDg5UEpmNWhjTHRLSTJ1U0QtZkFuTW9jZURJQ3pfeFFyMzBUVE0?oc=5",
-          "published_at": "14:31"
-        },
-        {
-          "title": "1 dead, 4 injured in Czech army helicopter crash",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3361637/1-dead-4-injured-czech-army-helicopter-crash?utm_source=rss_feed",
-          "published_at": "14:30"
-        },
-        {
-          "title": "Czechia: Army helicopter crashes, killing at least one",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/czechia-army-helicopter-crashes-killing-at-least-one/a-78083870?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "11:30"
-        }
-      ]
-    },
-    {
-      "id": "world-8",
-      "title": "미 하원, 트럼프에 대한 또 다른 상징적인 질책으로 이란 전쟁 중단 결의안 표결",
-      "title_en": "US House votes to halt Iran war, in another symbolic rebuke of Trump",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUpXN3hsMGcyQU16bVZOVDBoaDBOZnoxQmtaei1FUkdrQ1p2VnJfaldQV3RxRUxZbFJSbU9IZzRvTHdYZVB1b2I4RV80aVAxNGJjRmFoZ2RmTTgxOXluWUdqclhVVUxYMlNrclV3NTNrV3hwQkd2YmNWN0hUS1U3c0V4aTZXcG1keVNKS2JVcU9zNTBVZmhsSVJsUlpzM1FKZGc4QzVWaFduYVpCcF9QMA?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "미국 하원은 이란에 대한 미국의 군사 행동 중단을 촉구하는 안건을 214-208로 가결시켰으나, 도널드 트럼프 미국 대통령은 구속력 없는 법안을 무시할 것으로 예상된다.",
-      "excerpt_en": "The US House voted 214-208 to call for an end to US military action against Iran, but US President Donald Trump is expected to ignore the non-binding measure.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/us-house-representatives-vote-iran-war-6274406",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Channel News Asia",
-        "Reuters",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-07-23T15:12:44+09:00",
-      "latest_published_at": "2026-07-23T20:52:28+09:00",
-      "articles": [
-        {
-          "title": "US House votes to end Iran war",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/us-house-votes-to-end-iran-war-20260724-p60i56.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "20:52"
-        },
-        {
-          "title": "US House passes symbolic Iran war rebuke to Trump",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-house-representatives-vote-iran-war-6274406",
-          "published_at": "18:18"
-        },
-        {
-          "title": "US House votes to halt Iran war, in another symbolic rebuke of Trump",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUpXN3hsMGcyQU16bVZOVDBoaDBOZnoxQmtaei1FUkdrQ1p2VnJfaldQV3RxRUxZbFJSbU9IZzRvTHdYZVB1b2I4RV80aVAxNGJjRmFoZ2RmTTgxOXluWUdqclhVVUxYMlNrclV3NTNrV3hwQkd2YmNWN0hUS1U3c0V4aTZXcG1keVNKS2JVcU9zNTBVZmhsSVJsUlpzM1FKZGc4QzVWaFduYVpCcF9QMA?oc=5",
-          "published_at": "15:12"
-        }
-      ]
-    },
-    {
-      "id": "world-376",
-      "title": "중동 산유국들, 호르무즈 해협 우회 계획 강화",
-      "title_en": "Mideast oil producers step up plans to bypass the Strait of Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/mideast-oil-producers-step-plans-bypass-strait-hormuz-135009733",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "이란의 수로 장악으로 인해 유가가 배럴당 100달러까지 치솟으면서 걸프 산유국들은 호르무즈 해협 주변으로 원유를 수송하기 위해 설계된 파이프라인에 수십억 달러를 지출하고 있습니다.",
-      "excerpt_en": "Gulf oil producers are spending billions of dollars on pipelines designed to route crude around the Strait of Hormuz, as Iran's grip on the waterway drags on causing oil prices to hit $100 a barrel fo",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/business/2026/07/23/gulf-oil-producers-race-to-build-alternative-routes-to-the-strait-of-hormuz",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "CBS News",
-        "Euronews"
+        "CBS News"
       ],
       "first_published_at": "2026-07-23T08:28:28+09:00",
       "latest_published_at": "2026-07-23T15:41:17+09:00",
@@ -887,10 +369,10 @@
           "published_at": "15:41"
         },
         {
-          "title": "Gulf oil producers race to build alternatives to the Strait of Hormuz as oil hits $100",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/business/2026/07/23/gulf-oil-producers-race-to-build-alternative-routes-to-the-strait-of-hormuz",
-          "published_at": "09:27"
+          "title": "Middle East oil producers step up plans to bypass the Strait of Hormuz",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPanlKYnhiTGgza3JicFhvR2Uzd3NzRUt2anFsOHRXMl83UTRIX2NHYmQ4Mk04bnJ4emtvQ1EzSzVXVFlBeUZPSHpuWWJ6RUhlODR4X2xJd2tqc1FUMExFY21ZLXdWNHVLeEVLV2VZRlJPcHVSbWYxY19WTmNUOXhjdmdYYktrMFVtYlJZXzR3?oc=5",
+          "published_at": "12:44"
         },
         {
           "title": "Mideast oil producers step up plans to bypass the Strait of Hormuz",
@@ -901,26 +383,26 @@
       ]
     },
     {
-      "id": "world-216",
-      "title": "Modi, 인도 시험 스캔들에 대한 처벌 맹세",
-      "title_en": "Modi vows punishment for Indian exam scandal",
+      "id": "world-405",
+      "title": "구글, 유럽에서 권력 남용 혐의로 10억 달러 벌금 부과",
+      "title_en": "Google hit with $1 billion fine for abusing its power in Europe",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3290539/modi-vows-punishment-for-indian-exam-scandal",
-      "category": "아시아",
+      "title_url": "https://www.bangkokpost.com/world/3290602/google-hit-with-1-billion-fine-for-abusing-its-power-in-europe",
+      "category": "유럽",
       "primary_source": "Bangkok Post",
-      "excerpt": "총리는 스캔들이 널리 분노로 치닫자 '우리 청소년의 미래를 해치려는 사람들은 용서받지 못할 것'이라고 말했습니다. 나렌드라 모디는 처벌을 가속화하기 위해 '신속 법원'을 설치하겠다고 다짐했습니다.",
-      "excerpt_en": "PM says ‘those who try to harm the future of our youth will not be spared’ as scandal spirals into widespread anger Narendra Modi has vowed to set up “fast-track courts” to speed up the punishment of ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/23/cockroach-janta-party-protest-cjp-india-modi-corrupt-officials",
+      "excerpt": "런던 — 대서양 무역 긴장을 고조시킬 가능성이 있는 결정으로 유럽연합(EU) 규제 당국은 목요일에 불법적으로 경쟁을 약화시킨 구글에 10억 달러의 벌금을 부과했습니다.",
+      "excerpt_en": "LONDON — In a decision likely to intensify trans-Atlantic trade tensions, European Union (EU) regulators on Thursday hit Google with a US$1 billion fine for illegally undercutting competition through ",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3290602/google-hit-with-1-billion-fine-for-abusing-its-power-in-europe",
       "translation_status": "ok",
-      "score": 68,
+      "score": 64,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "major_score": 5,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 48
       },
       "area_value": 3,
       "article_count": 3,
@@ -928,144 +410,138 @@
       "source_count": 3,
       "sources": [
         "Bangkok Post",
-        "Euronews",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-23T05:45:00+09:00",
-      "latest_published_at": "2026-07-23T15:34:20+09:00",
-      "articles": [
-        {
-          "title": "Modi adresses India's youth's 'Cockroach' movement as protesters hold capital sit-in",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/23/modi-adresses-indias-youths-cockroach-movement-as-protesters-hold-capital-sit-in",
-          "published_at": "15:34"
-        },
-        {
-          "title": "‘Cockroach’ protests: India’s Modi promises to punish officials over exam leaks",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/23/cockroach-janta-party-protest-cjp-india-modi-corrupt-officials",
-          "published_at": "10:31"
-        },
-        {
-          "title": "Modi vows punishment for Indian exam scandal",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3290539/modi-vows-punishment-for-indian-exam-scandal",
-          "published_at": "05:45"
-        }
-      ]
-    },
-    {
-      "id": "world-250",
-      "title": "미국, 우라늄 농축을 위해 사우디아라비아와 획기적인 민간 핵 계약을 공식 발표",
-      "title_en": "US formally announces landmark civilian nuclear deal with Saudi Arabia for uranium enrichment",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-formally-announces-landmark-civilian-nuclear-deal-with-saudi-arabia-for-uranium-enrichment-101784773468696.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "트럼프 행정부는 민간 핵 프로그램에 관해 사우디아라비아와 합의했다고 발표했다. 123협정으로 알려진 이러한 거래는 무기 개발을 방지하기 위해 고안되었습니다.",
-      "excerpt_en": "The Trump administration announced an agreement with Saudi Arabia on a civilian nuclear program. Such deals, known as 123 Agreements, are designed to prevent the development of weapons.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/22/world/middleeast/us-saudi-arabia-nuclear-deal-123-agreement.html",
-      "translation_status": "ok",
-      "score": 65,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 49
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
         "Hindustan Times",
-        "New York Times"
+        "Times of India"
       ],
-      "first_published_at": "2026-07-23T03:03:03+09:00",
-      "latest_published_at": "2026-07-23T07:13:36+09:00",
+      "first_published_at": "2026-07-23T11:30:00+09:00",
+      "latest_published_at": "2026-07-24T02:15:25+09:00",
       "articles": [
         {
-          "title": "How the Trump Administration’s Nuclear Deal With Saudi Arabia May Work",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/22/world/middleeast/us-saudi-arabia-nuclear-deal-123-agreement.html",
-          "published_at": "07:13"
+          "title": "EU penalises Google €890m for breaking antitrust regulations",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/eu-penalises-google-890m-for-breaking-antitrust-regulations/articleshow/132594811.cms",
+          "published_at": "02:15"
         },
         {
-          "title": "Saudi Arabia’s Nuclear Plans",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/22/world/saudi-nuclear-deal-trump-houthis.html",
-          "published_at": "04:51"
-        },
-        {
-          "title": "US formally announces landmark civilian nuclear deal with Saudi Arabia for uranium enrichment",
+          "title": "Google’s search empire faces $1 billion EU fine over abuse of market power",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-formally-announces-landmark-civilian-nuclear-deal-with-saudi-arabia-for-uranium-enrichment-101784773468696.html",
-          "published_at": "03:03"
+          "url": "https://www.hindustantimes.com/world-news/us-news/googles-search-empire-faces-1-billion-eu-fine-over-abuse-of-market-power-101784815558795.html",
+          "published_at": "17:11"
+        },
+        {
+          "title": "Google hit with $1 billion fine for abusing its power in Europe",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3290602/google-hit-with-1-billion-fine-for-abusing-its-power-in-europe",
+          "published_at": "11:30"
         }
       ]
     },
     {
-      "id": "world-50",
-      "title": "미국-사우디 핵 협상, 중동 군비 경쟁에 대한 이스라엘의 우려 촉발",
-      "title_en": "U.S.-Saudi Nuclear Deal Stokes Israeli Concerns of Mideast Arms Race",
+      "id": "world-0",
+      "title": "홍해 해운 공격과 카자흐스탄 생산량 감소로 인해 주간 석유 가격 상승 예정",
+      "title_en": "Oil set for weekly rise amid Red Sea shipping attacks, Kazakhstan output cuts",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/22/world/middleeast/saudi-nuclear-deal-israel.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "이스라엘 장관은 이 합의를 경시하려고 했으나 비평가들은 이 합의가 다른 지역 국가들이 핵 프로그램을 추구하도록 자극하고 잠재적으로 폭탄 제조를 추진할 수 있다고 말했습니다.",
-      "excerpt_en": "An Israeli minister sought to downplay the agreement, while critics said it could spur other regional countries to pursue a nuclear program, and potentially the creation of a bomb.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/22/world/middleeast/saudi-nuclear-deal-israel.html",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFZBdXJmU1lITHlha1NMc0hvVjhaOVVFbjEya0Z1ZXZzNGFjTC1lV21nR1MwcjNERmJydnhvc0xNRzc0ODRPRlpScU9UZ0M3U3hYaEFveXdsbDYwQ01zZlk0WTZWSWJZZHhBUHAtMHNNSG1MRHB0RGRzSUVLNGdJV1VNeW54TWw5cERFekMwdmxDNVdWdVp1VGN0c0xqbnRSS0Fyejh3eXVDZ1J1elFER1doSjdPeU1CMTIwZmlvOWM2dw?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "홍해 해운 공격으로 석유 주간 상승 예정, 카자흐스탄 생산량 감소 Reuters",
+      "excerpt_en": "Oil set for weekly rise amid Red Sea shipping attacks, Kazakhstan output cuts Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFZBdXJmU1lITHlha1NMc0hvVjhaOVVFbjEya0Z1ZXZzNGFjTC1lV21nR1MwcjNERmJydnhvc0xNRzc0ODRPRlpScU9UZ0M3U3hYaEFveXdsbDYwQ01zZlk0WTZWSWJZZHhBUHAtMHNNSG1MRHB0RGRzSUVLNGdJV1VNeW54TWw5cERFekMwdmxDNVdWdVp1VGN0c0xqbnRSS0Fyejh3eXVDZ1J1elFER1doSjdPeU1CMTIwZmlvOWM2dw?oc=5",
       "translation_status": "ok",
-      "score": 64,
+      "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 48
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "New York Times",
+        "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-07-23T02:28:22+09:00",
-      "latest_published_at": "2026-07-23T07:33:57+09:00",
+      "first_published_at": "2026-07-24T01:36:00+09:00",
+      "latest_published_at": "2026-07-24T01:37:41+09:00",
       "articles": [
         {
-          "title": "Israelis fear Saudi nuclear deal could ignite Mideast arms race",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb3ZONFFlOHllMV9mTXRaaFpLZUNUQTZORk5IOGtpcjJQQjFzOWk3dVZVM3ppS0RJMkFtQ3lCaWRfNTFVYTlOb0FlVGxIMWc4MEp1cXZOaXR1QXBUZHhEYXJQQUQxWnpxSXI0Z1M3amlyTUREUmw5WVV5UTJBUEpkZUk4bVZZeUtPWjBSOWlVZDNBaGxOUGZwZEEtQ0U0M3NuVGRmUzdpWXl5MmRXMFRmeXVYS3NCeG5t?oc=5",
-          "published_at": "07:33"
+          "title": "Oil set for weekly rise amid Red Sea shipping attacks, Kazakhstan output cuts",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/oil-set-weekly-rise-amid-red-sea-shipping-attacks-kazakhstan-output-cuts-6275016",
+          "published_at": "01:37"
         },
         {
-          "title": "U.S.-Saudi Nuclear Deal Stokes Israeli Concerns of Mideast Arms Race",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/22/world/middleeast/saudi-nuclear-deal-israel.html",
-          "published_at": "02:28"
+          "title": "Oil set for weekly rise amid Red Sea shipping attacks, Kazakhstan output cuts",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFZBdXJmU1lITHlha1NMc0hvVjhaOVVFbjEya0Z1ZXZzNGFjTC1lV21nR1MwcjNERmJydnhvc0xNRzc0ODRPRlpScU9UZ0M3U3hYaEFveXdsbDYwQ01zZlk0WTZWSWJZZHhBUHAtMHNNSG1MRHB0RGRzSUVLNGdJV1VNeW54TWw5cERFekMwdmxDNVdWdVp1VGN0c0xqbnRSS0Fyejh3eXVDZ1J1elFER1doSjdPeU1CMTIwZmlvOWM2dw?oc=5",
+          "published_at": "01:36"
         }
       ]
     },
     {
-      "id": "world-196",
-      "title": "후티 반군은 사우디 유조선 두 척을 공격했다고 말했습니다. 사우디아라비아는 홍해에서 불이 났다고 밝혔습니다.",
-      "title_en": "Houthis say they attacked two Saudi tankers; Saudi Arabia says one ablaze in Red Sea",
+      "id": "world-283",
+      "title": "살만 루시디(Salman Rushdie)가 테러 재판에서 자신을 찌른 혐의로 유죄 판결을 받은 남성에 대해 증언하고 있습니다.",
+      "title_en": "Salman Rushdie testifies at terrorism trial of the man convicted of stabbing him",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/iran-backed-houthis-say-they-attacked-two-saudi-tankers-saudi-arabia-says-one-ablaze-in-red-sea-encelia-layla-blockade-101784777489751.html",
-      "category": "중동",
+      "title_url": "https://www.hindustantimes.com/world-news/salman-rushdie-testifies-at-terrorism-trial-of-the-man-convicted-of-stabbing-him-101784824175459.html",
+      "category": "기타",
       "primary_source": "Hindustan Times",
-      "excerpt": "예멘 후티 반군이 사우디 유조선 2척을 공격했다고 밝혔습니다. 후티 반군은 이란의 지원을 받고 있으며, 홍해에서의 공격은 미국과 이란 간의 전쟁의 새로운 전선이 될 수 있습니다. 하지만 어떻게",
-      "excerpt_en": "Yemen's Houthi rebels say they have attacked two Saudi oil tankers. The Houthis are supported by Iran, and the attacks in the Red Sea could be a new front for the war between the US and Iran. But how ",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/how-houthi-strikes-on-oil-tankers-will-impact-the-middle-east-war",
+      "excerpt": "상을 받은 작가는 처음에는 자신이 칼에 찔리고 있다는 사실을 깨닫지 못했지만 턱 밑에서 펀치를 맞은 것 같은 느낌을 받았다고 회상했습니다.",
+      "excerpt_en": "The prize-winning author recalled feeling what he thought was a punch under his chin, not realizing at first that he was being stabbed.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/salman-rushdie-testifies-at-terrorism-trial-of-the-man-convicted-of-stabbing-him-101784824175459.html",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Sky News"
+      ],
+      "first_published_at": "2026-07-23T16:34:47+09:00",
+      "latest_published_at": "2026-07-24T02:09:00+09:00",
+      "articles": [
+        {
+          "title": "Knife came 'a millimetre from my brain': Salman Rushdie testifies at attacker's terrorism trial",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/knife-came-a-millimetre-from-my-brain-salman-rushdie-testifies-at-attackers-terrorism-trial-13566501",
+          "published_at": "02:09"
+        },
+        {
+          "title": "Salman Rushdie testifies at terrorism trial of the man convicted of stabbing him",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/salman-rushdie-testifies-at-terrorism-trial-of-the-man-convicted-of-stabbing-him-101784824175459.html",
+          "published_at": "16:34"
+        }
+      ]
+    },
+    {
+      "id": "world-61",
+      "title": "러시아 최대 온라인 소매업체가 우크라이나 공격의 최근 표적이다",
+      "title_en": "Russia's biggest online retailer is the latest target of Ukraine's attacks",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/russias-biggest-online-retailer-latest-target-ukraines-attacks-135009735",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "러시아 온라인 소매업체 Wildberries에 대한 우크라이나 공격 확대로 또 다른 창고 폐쇄 - 최신",
+      "excerpt_en": "Widening Ukrainian attacks on Russian online retailer Wildberries shutter another warehouse Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcWJhZzRQbDFwWDZFZDh0bE5Lc2FwT0FmZHB5ZXNaaDEweDAxUDVSaW43TV9EUmEyY0FkVEY3TEhmdWk5V0NxZ1VtTWNyYU5jSEgtWUxyaWxtaExjbTVZQ2g2dVlYd1hSRGwxYURuTEJtV3JqRm5mYVJtQ19TTGRwSTVSOTI1bDRhOXpxN2F6dXJ4bDd6NVloamtJOUFMalRyN3M3aG44RUJ3SlI0QmNPd3lVYTJNekZLbWh4VDJfckhYUFV5Z000WlpCNDFuWWc0NW53U1J3?oc=5",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1081,45 +557,200 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
-        "Hindustan Times"
+        "ABC News",
+        "Reuters"
       ],
-      "first_published_at": "2026-07-23T04:04:10+09:00",
-      "latest_published_at": "2026-07-23T12:27:25+09:00",
+      "first_published_at": "2026-07-23T09:08:38+09:00",
+      "latest_published_at": "2026-07-23T20:13:14+09:00",
       "articles": [
         {
-          "title": "How Houthi strikes on oil tankers will impact the Middle East war",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/how-houthi-strikes-on-oil-tankers-will-impact-the-middle-east-war",
-          "published_at": "12:27"
+          "title": "Widening Ukrainian attacks on Russian online retailer Wildberries shutter another warehouse",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcWJhZzRQbDFwWDZFZDh0bE5Lc2FwT0FmZHB5ZXNaaDEweDAxUDVSaW43TV9EUmEyY0FkVEY3TEhmdWk5V0NxZ1VtTWNyYU5jSEgtWUxyaWxtaExjbTVZQ2g2dVlYd1hSRGwxYURuTEJtV3JqRm5mYVJtQ19TTGRwSTVSOTI1bDRhOXpxN2F6dXJ4bDd6NVloamtJOUFMalRyN3M3aG44RUJ3SlI0QmNPd3lVYTJNekZLbWh4VDJfckhYUFV5Z000WlpCNDFuWWc0NW53U1J3?oc=5",
+          "published_at": "20:13"
         },
         {
-          "title": "Houthis say they attacked two Saudi tankers; Saudi Arabia says one ablaze in Red Sea",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/iran-backed-houthis-say-they-attacked-two-saudi-tankers-saudi-arabia-says-one-ablaze-in-red-sea-encelia-layla-blockade-101784777489751.html",
-          "published_at": "04:04"
+          "title": "Russia's biggest online retailer is the latest target of Ukraine's attacks",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russias-biggest-online-retailer-latest-target-ukraines-attacks-135009735",
+          "published_at": "09:08"
         }
       ]
     },
     {
-      "id": "world-242",
-      "title": "테이트 형제가 체포된 후 우익 동맹을 잃고 있다",
-      "title_en": "The Tate Brothers Are Losing Right-Wing Allies After Their Arrest",
+      "id": "world-137",
+      "title": "백악관 \"트럼프, 테이트 형제 영국 송환에 개입하지 않을 것\"",
+      "title_en": "White House says Trump will not intervene in Tate brothers' extradition to UK",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/23/us/tate-brothers-trump-tucker-carlson.html",
+      "title_url": "http://www.euronews.com/2026/07/23/white-house-says-trump-will-not-intervene-in-tate-brothers-extradition-to-uk",
+      "category": "유럽",
+      "primary_source": "Euronews",
+      "excerpt": "도널드 트럼프 미국 대통령이 성범죄 혐의로 인플루언서 앤드류 테이트(Andrew Tate)와 그의 형 트리스탄(Tristan)의 영국 송환을 막지 않을 것이라고 백악관이 밝혔다.",
+      "excerpt_en": "US President Donald Trump will not stop the extradition of influencer Andrew Tate and his brother Tristan to Britain on sex crime charges, the White House has said.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-07-24/white-house-will-not-fight-tate-brothers-extradition-to-uk/106952928",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News Australia",
+        "Al Jazeera",
+        "Euronews"
+      ],
+      "first_published_at": "2026-07-23T20:04:36+09:00",
+      "latest_published_at": "2026-07-24T00:14:18+09:00",
+      "articles": [
+        {
+          "title": "White House will not fight Tate brothers extradition to UK",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-24/white-house-will-not-fight-tate-brothers-extradition-to-uk/106952928",
+          "published_at": "00:14"
+        },
+        {
+          "title": "White House says will not block Tate brothers’ extradition to UK",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/23/white-house-says-will-not-block-tate-brothers-extradition-to-uk?traffic_source=rss",
+          "published_at": "21:02"
+        },
+        {
+          "title": "White House says Trump will not intervene in Tate brothers' extradition to UK",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/23/white-house-says-trump-will-not-intervene-in-tate-brothers-extradition-to-uk",
+          "published_at": "20:04"
+        }
+      ]
+    },
+    {
+      "id": "world-175",
+      "title": "트럼프, 강제징용 우려로 60개국에 두 자릿수 관세 부과 발표",
+      "title_en": "Trump announces double digit tariffs on 60 countries over forced labour concerns",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/americas/20260723-trump-announces-double-digit-tariffs-on-60-countries-over-forced-labour-concerns",
       "category": "미국",
-      "primary_source": "New York Times",
-      "excerpt": "이른바 마노스피어(Manosphere)의 저명한 지도자인 앤드류와 트리스탄 테이트가 마이애미에서 체포된 후, 한때 미국 우익의 동맹이었던 많은 사람들이 지지를 철회했습니다.",
-      "excerpt_en": "After Andrew and Tristan Tate, prominent leaders of the so-called manosphere, were arrested in Miami, many of their onetime allies on the American right pulled back support.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/23/us/tate-brothers-trump-tucker-carlson.html",
+      "primary_source": "France24",
+      "excerpt": "도널드 트럼프 미국 대통령은 목요일 대법원이 그의 이전 판결을 기각한 후 금요일에 만료되는 임시 부과금을 대체하여 60개국의 수입품에 대해 최대 12.5%의 새로운 관세를 부과했습니다.",
+      "excerpt_en": "US President Donald Trump imposed new tariffs of up to 12.5% on imports from 60 countries on Thursday, replacing temporary levies that expire on Friday after the Supreme Court struck down his earlier ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/americas/20260723-trump-announces-double-digit-tariffs-on-60-countries-over-forced-labour-concerns",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "France24",
+        "Sky News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-23T21:27:16+09:00",
+      "latest_published_at": "2026-07-23T23:44:00+09:00",
+      "articles": [
+        {
+          "title": "US imposes new tariffs on 60 countries",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/us-imposes-new-tariffs-on-dozens-of-trade-partners-over-forced-labour-imports-13566498",
+          "published_at": "23:44"
+        },
+        {
+          "title": "Trump administration to impose new wave of tariffs on more than 60 countries",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-us-60-countries-forced-labour-b3020626.html",
+          "published_at": "22:27"
+        },
+        {
+          "title": "Trump announces double digit tariffs on 60 countries over forced labour concerns",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260723-trump-announces-double-digit-tariffs-on-60-countries-over-forced-labour-concerns",
+          "published_at": "21:27"
+        }
+      ]
+    },
+    {
+      "id": "world-268",
+      "title": "미국, 유가가 미화 100달러 이상 오르자 이란에 대한 공격 재개",
+      "title_en": "U.S. renews attacks on Iran as oil climbs above $100 US",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/us-iran-war-houthis-saudis-9.7280533?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "도널드 트럼프 미국 대통령은 목요일 예멘 전투기가 홍해에서 사우디 유조선 두 척을 공격한 후 이란과 후티 동맹국에 대해 \"중대한 군사적 처벌\"을 약속했습니다.",
+      "excerpt_en": "US President Donald Trump promised “major ⁠military punishment” for Iran and its Houthi allies on Thursday after the Yemeni fighters struck two Saudi oil tankers in the Red Sea, extending the Middle E",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3361645/trump-vows-punish-iran-houthi-attacks-red-sea-oil-surges-over-us100?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-23T14:20:34+09:00",
+      "latest_published_at": "2026-07-23T17:53:49+09:00",
+      "articles": [
+        {
+          "title": "Trump vows to punish Iran for Houthi attacks in Red Sea as oil surges over US$100",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3361645/trump-vows-punish-iran-houthi-attacks-red-sea-oil-surges-over-us100?utm_source=rss_feed",
+          "published_at": "17:53"
+        },
+        {
+          "title": "U.S. renews attacks on Iran as oil climbs above $100 US",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/us-iran-war-houthis-saudis-9.7280533?cmp=rss",
+          "published_at": "14:20"
+        }
+      ]
+    },
+    {
+      "id": "world-247",
+      "title": "트럼프 동맹인 로라 루머가 젤렌스키를 만나 우크라이나 전쟁을 반전시키다",
+      "title_en": "Trump ally Laura Loomer meets Zelensky in striking reversal on Ukraine war",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/laura-loomer-zelensky-meeting-ukraine-war-b3020557.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "선동적인 소셜미디어 논평으로 악명 높은 도널드 트럼프 미국 대통령의 열렬한 동맹자인 로라 루머가 목요일 드라마틱한 대화를 나눈 뒤 볼로디미르 젤렌스키 우크라이나 대통령과 마주 앉았다.",
+      "excerpt_en": "Laura Loomer, an ardent ally of US President Donald Trump with a reputation for incendiary social media commentary, sat down with Ukrainian President Volodymyr Zelensky on Thursday after a dramatic tu",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361672/trump-ally-loomer-meets-zelensky-ukraine-after-dramatic-u-turn-war?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 59,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
+        "major_score": 10,
+        "breaking_score": 9,
         "time_score": 3,
         "raw75": 44
       },
@@ -1128,28 +759,169 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Euronews",
-        "New York Times"
+        "SCMP",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-23T19:40:01+09:00",
-      "latest_published_at": "2026-07-23T20:04:36+09:00",
+      "first_published_at": "2026-07-23T19:21:36+09:00",
+      "latest_published_at": "2026-07-24T02:57:26+09:00",
       "articles": [
         {
-          "title": "White House says Trump will not intervene in Tate brothers' extradition to UK",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/23/white-house-says-trump-will-not-intervene-in-tate-brothers-extradition-to-uk",
-          "published_at": "20:04"
+          "title": "Trump ally Loomer meets Zelensky in Ukraine after dramatic U-turn on war",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3361672/trump-ally-loomer-meets-zelensky-ukraine-after-dramatic-u-turn-war?utm_source=rss_feed",
+          "published_at": "02:57"
         },
         {
-          "title": "The Tate Brothers Are Losing Right-Wing Allies After Their Arrest",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/23/us/tate-brothers-trump-tucker-carlson.html",
-          "published_at": "19:40"
+          "title": "Trump ally Laura Loomer meets Zelensky in striking reversal on Ukraine war",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/laura-loomer-zelensky-meeting-ukraine-war-b3020557.html",
+          "published_at": "19:21"
         }
       ]
     },
     {
-      "id": "world-95",
+      "id": "world-35",
+      "title": "중국 남서부 산사태 사망자 11명으로 늘어, 아직 50명 실종",
+      "title_en": "Landslide death toll rises to 11 in southwest China, 50 still missing",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWNWVFROY05TbmZNOVpqQzg1aVdMZHNWckF5SDVBbTZuZTNvUjRGd3dOT3VrTWVUTHFmdTZodnhIcG5MUFhlMHlKUkotSkVUV1RPRVQ1dXVtNjVCcVFudEhmdHN2SEJHSnBhUFMyUU5ZU2tON29tMDNPTWFNSUpsQTJDY25GMURmay1oeFdZYXdaZFUtazNRWnZBQlh6UjJQUE1GQUR3ajN3X0MxOXJ0OF9sNjZ6VWlR?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "지난주 중국 충칭에서 발생한 산사태 잔해 수색팀이 시신 3구를 추가로 발견해 사망자 수는 11명이 됐다.",
+      "excerpt_en": "Teams searching the rubble of last week's landslide in Chongqing, China, have found three more bodies, bringing the death toll to 11",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/toll-landslide-southwestern-china-rises-11-dead-50-135024110",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-23T15:31:20+09:00",
+      "latest_published_at": "2026-07-23T16:37:02+09:00",
+      "articles": [
+        {
+          "title": "11 dead, 50 missing after landslide in southwestern China",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/toll-landslide-southwestern-china-rises-11-dead-50-135024110",
+          "published_at": "16:37"
+        },
+        {
+          "title": "Landslide death toll rises to 11 in southwest China, 50 still missing",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMWNWVFROY05TbmZNOVpqQzg1aVdMZHNWckF5SDVBbTZuZTNvUjRGd3dOT3VrTWVUTHFmdTZodnhIcG5MUFhlMHlKUkotSkVUV1RPRVQ1dXVtNjVCcVFudEhmdHN2SEJHSnBhUFMyUU5ZU2tON29tMDNPTWFNSUpsQTJDY25GMURmay1oeFdZYXdaZFUtazNRWnZBQlh6UjJQUE1GQUR3ajN3X0MxOXJ0OF9sNjZ6VWlR?oc=5",
+          "published_at": "15:31"
+        }
+      ]
+    },
+    {
+      "id": "world-36",
+      "title": "체코군 헬기 추락, 1명 사망, 4명 부상",
+      "title_en": "1 dead, 4 injured in Czech army helicopter crash",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3361637/1-dead-4-injured-czech-army-helicopter-crash?utm_source=rss_feed",
+      "category": "기타",
+      "primary_source": "SCMP",
+      "excerpt": "지난 목요일 체코에서 군용 헬리콥터가 추락해 군인 1명이 사망하고 4명이 부상했다고 육군이 밝혔습니다. “베놈(Venom) 헬리콥터가 나메스트 나드 오스(Namest nad Os)의 22번째 헬리콥터 기지에 추락했습니다.",
+      "excerpt_en": "One soldier died and four were injured on Thursday when a military helicopter crashed in the Czech Republic, the army said. “A Venom helicopter has crashed at the 22nd helicopter base in Namest nad Os",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3361637/1-dead-4-injured-czech-army-helicopter-crash?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-23T14:30:16+09:00",
+      "latest_published_at": "2026-07-23T14:31:43+09:00",
+      "articles": [
+        {
+          "title": "Czech army helicopter with five soldiers on board crashes, one dead",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPajR2YnMzdU9zaUJCaHRJMndHenRXVk41dlVTUUtvbFB3czUyblRaMnJYd2N3NkZrMDN3NFFNMVltdlBBcEtjb2ZFbk1hLWxZZVF2eDNETURPUzhFNExlQmtIMjZ1WFlWajZwWTZaLU9VRW9ibVZkbUF3VVhyUlZfY042OWJlN01YOUNlTEJrWTFWaU52WmlJUS1lRmpNS28tcVVHOWVLTFlJVDg5UEpmNWhjTHRLSTJ1U0QtZkFuTW9jZURJQ3pfeFFyMzBUVE0?oc=5",
+          "published_at": "14:31"
+        },
+        {
+          "title": "1 dead, 4 injured in Czech army helicopter crash",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3361637/1-dead-4-injured-czech-army-helicopter-crash?utm_source=rss_feed",
+          "published_at": "14:30"
+        }
+      ]
+    },
+    {
+      "id": "world-80",
+      "title": "미네소타주 멜리사 호트먼 의원 살해한 남성, 종신형 선고",
+      "title_en": "Man who killed Minnesota lawmaker Melissa Hortman sentenced to life",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/minnesota-lawmaker-sentencing-vance-boelter-9.7281161?cmp=rss",
+      "category": "기타",
+      "primary_source": "CBC",
+      "excerpt": "미네소타 민주당 의원 멜리사 호트먼의 친구와 가족은 목요일 살인에 대해 유죄를 인정한 후 두 번의 종신형과 40년의 형을 선고받은 남자가 그녀의 정신을 제거하지 못했다고 말했습니다.",
+      "excerpt_en": "Friends and family of Minnesota Democratic lawmaker Melissa Hortman said the man sentenced Thursday to two life terms plus 40 years after pleading guilty to her murder failed to eliminate her spirit a",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/minnesota-lawmaker-sentencing-vance-boelter-9.7281161?cmp=rss",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "CBC"
+      ],
+      "first_published_at": "2026-07-23T18:08:22+09:00",
+      "latest_published_at": "2026-07-23T22:38:00+09:00",
+      "articles": [
+        {
+          "title": "Man who killed Minnesota lawmaker Melissa Hortman sentenced to life as family describes trauma, loss",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUFYdmJXS2pRYTI3aVRXM1ktWWlpaWpqb01UZlUtcDV4ZTdaampkUlFQNnhBaVBvamRZLUstSmFLcXRDOU5SZl83b181SlBjcDBRTnI1UmtTVE9sdWozUkhIbmtLTDAxSTUzNFRNSGFOdTVBbExrYUk5UXRWYUZjOWxJLTFTUU5CaVZwS0p0bnBHWFdSbmpacGp3RFFpdVlwQk83VUZhVU9IX0k3OEZHdWxuTE4?oc=5",
+          "published_at": "22:38"
+        },
+        {
+          "title": "Man who killed Minnesota lawmaker Melissa Hortman sentenced to life",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/minnesota-lawmaker-sentencing-vance-boelter-9.7281161?cmp=rss",
+          "published_at": "18:08"
+        }
+      ]
+    },
+    {
+      "id": "world-79",
       "title": "콩고에서 에볼라가 발생해 1000명 이상이 사망했다.",
       "title_en": "Ebola outbreak in Congo has killed over 1,000 people",
       "title_source": "earliest_pick",
@@ -1161,14 +933,14 @@
       "excerpt_source": "Sky News",
       "excerpt_url": "https://news.sky.com/story/ebola-more-than-1000-people-killed-in-dr-congo-outbreak-13566201",
       "translation_status": "ok",
-      "score": 57,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
+        "time_score": 1,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
@@ -1196,158 +968,111 @@
       ]
     },
     {
-      "id": "world-140",
-      "title": "트럼프 \"미-사우디 핵협상, 사우디의 에이브러햄 협정 참여 여부에 달려 있다\"",
-      "title_en": "Trump: US-Saudi nuclear deal hinges on Saudi joining Abraham Accords",
+      "id": "world-227",
+      "title": "요르단 주둔 미군 주둔으로 이란의 표적이 되다",
+      "title_en": "U.S. Military Presence in Jordan Makes It Iranian Target",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/trump-us-saudi-nuclear-deal-hinges-on-saudi-joining-abraham-accords?traffic_source=rss",
+      "title_url": "https://www.nytimes.com/2026/07/23/world/middleeast/jordan-iran-us-forces.html",
       "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "베냐민 네타냐후 이스라엘 총리는 미국이 민간 핵무기 개발을 발표한 후 \"사우디아라비아의 아브라함 협정 가입은 중동 평화를 위한 역사적인 도약이 될 것\"이라고 말했다.",
-      "excerpt_en": "\"Saudi Arabia's joining of the Abraham Accords would be a historic leap forward for peace in the Middle East,\" Israeli Prime Minister Benjamin Netanyahu said after the US announced a civilian nuclear ",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/israel-saudi-arabia-us-nuclear-deal-netanyahu-6274316",
+      "primary_source": "New York Times",
+      "excerpt": "하사 뉴욕 출신의 Angel Rampersad는 이란의 요르단 무와팍 살티 공군기지 공격 중에 사망했으며, 슬픔에 잠긴 가족과 군 동료들을 남겨두고 떠났습니다.",
+      "excerpt_en": "Sgt. Angel Rampersad from New York died during an Iranian attack on Muwaffaq Salti Air Base in Jordan, leaving behind a grieving family and military colleagues.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-was-angel-rampersad-us-army-sergeant-from-queens-killed-in-iranian-attack-on-jordan-base-101784858064964.html",
       "translation_status": "ok",
-      "score": 57,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 43
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Channel News Asia"
+        "Hindustan Times",
+        "New York Times"
       ],
-      "first_published_at": "2026-07-23T16:58:58+09:00",
-      "latest_published_at": "2026-07-23T17:12:43+09:00",
+      "first_published_at": "2026-07-23T21:16:38+09:00",
+      "latest_published_at": "2026-07-24T03:54:05+09:00",
       "articles": [
         {
-          "title": "Israel says Saudi recognition would be 'historic' for regional peace",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/israel-saudi-arabia-us-nuclear-deal-netanyahu-6274316",
-          "published_at": "17:12"
+          "title": "Who was Angel Rampersad? US Army sergeant from Queens killed in Iranian attack on Jordan base",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-angel-rampersad-us-army-sergeant-from-queens-killed-in-iranian-attack-on-jordan-base-101784858064964.html",
+          "published_at": "03:54"
         },
         {
-          "title": "Trump: US-Saudi nuclear deal hinges on Saudi joining Abraham Accords",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/trump-us-saudi-nuclear-deal-hinges-on-saudi-joining-abraham-accords?traffic_source=rss",
-          "published_at": "16:58"
+          "title": "U.S. Military Presence in Jordan Makes It Iranian Target",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/23/world/middleeast/jordan-iran-us-forces.html",
+          "published_at": "21:16"
         }
       ]
     },
     {
-      "id": "world-127",
-      "title": "인도 활동가 왕추(Wangchuk), 시험지 유출 문제로 26일간의 단식투쟁 종료",
-      "title_en": "Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks",
+      "id": "world-235",
+      "title": "홍해에서 사우디 유조선에 대한 공격으로 석유가 배럴당 100달러를 넘었습니다.",
+      "title_en": "Strikes Against Saudi Tankers in the Red Sea Send Oil Past $100 a Barrel",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks?traffic_source=rss",
+      "title_url": "https://www.nytimes.com/2026/07/23/world/middleeast/red-sea-strikes-oil-houthis.html",
+      "category": "중동",
+      "primary_source": "New York Times",
+      "excerpt": "미국 대통령이 홍해에서 유조선을 공격한 것에 대해 이란이 지원하는 예멘의 후티 반군을 위협한 이후, 미국은 이란에 대해 13일 연속 밤 동안 공습을 감행했습니다.",
+      "excerpt_en": "The US conducted a 13th consecutive night of strikes against Iran after the US president also threatened Yemen’s Iran-backed Houthi militants over attacks on tankers in the Red Sea.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/middle-east/trump-warns-of-massive-attack-on-iran-as-oil-hits-us100-a-barrel-again-20260724-p60i4m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "New York Times",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-07-23T20:05:27+09:00",
+      "latest_published_at": "2026-07-24T01:34:25+09:00",
+      "articles": [
+        {
+          "title": "Trump warns of ‘massive attack’ on Iran as oil hits $US100 a barrel again",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/trump-warns-of-massive-attack-on-iran-as-oil-hits-us100-a-barrel-again-20260724-p60i4m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "01:34"
+        },
+        {
+          "title": "Strikes Against Saudi Tankers in the Red Sea Send Oil Past $100 a Barrel",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/23/world/middleeast/red-sea-strikes-oil-houthis.html",
+          "published_at": "20:05"
+        }
+      ]
+    },
+    {
+      "id": "world-42",
+      "title": "기술 수익이 AI 지출에 대한 우려를 촉발하고 석유가 100달러를 기록하면서 월스트리트는 하락합니다.",
+      "title_en": "Wall St falls as tech earnings spark AI spending worries and oil hits $100",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQm1lbVBLTDdabmN2REd2TFlJcEV0VHBFdVRWejRSTERMbkk2MWt2SkhhN0R0dFh4cDJQVlV2aFBicWpic1EzNDRqQlFhZ2JXOW1LS2hlM08yTm5LcTUyMVJ2aWZXamhtX3dxVWU4b1ZaWExGX253OFBJWEo3dy1KLUljYmNZUE9sRC13Y1BQZ3U5ZlJySVlJMURtbmt1cUVIbElMM3VpYnd6YnJ2UUxadkZnUXBQeDVNU0tlUU9HU2pPdFVMOXU4LUxzYnYyckExaXA5STJrVQ?oc=5",
       "category": "아시아",
-      "primary_source": "Al Jazeera",
-      "excerpt": "소남왕축은 26일 만에 단식농성을 중단했다. 이 결정은 다양한 조건에 대한 '긴 협상'과 '국가 내 폭력 가능성을 고려'한 결과라고 말했다.",
-      "excerpt_en": "Sonam Wangchuk has broken his hunger strike after 26 days, saying the decision follows a \"long negotiation\" on various conditions and \"in view of possible violence in the country.\"",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW"
-      ],
-      "first_published_at": "2026-07-23T19:58:34+09:00",
-      "latest_published_at": "2026-07-23T20:07:00+09:00",
-      "articles": [
-        {
-          "title": "Indian activist Sonam Wangchuk ends hunger strike",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "20:07"
-        },
-        {
-          "title": "Indian activist Wangchuk ends 26-day hunger strike over exam paper leaks",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/23/indian-activist-wangchuk-ends-26-day-hunger-strike-over-exam-paper-leaks?traffic_source=rss",
-          "published_at": "19:58"
-        }
-      ]
-    },
-    {
-      "id": "world-157",
-      "title": "미국, 후티 반군 공격에 '중대한 군사적 처벌' 위협",
-      "title_en": "US threatens 'major military punishment' for Houthi attacks",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/us-threatens-major-military-punishment-for-houthi-attacks/live-78077811?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "중동",
-      "primary_source": "DW",
-      "excerpt": "도널드 트럼프 대통령은 사우디 유조선 공격에 대해 이란과 후티 반군을 공격하겠다고 위협했다. 한편 유엔은 상황이 '통제 불능'이라고 경고했다. DW가 최신 버전을 보유하고 있습니다.",
-      "excerpt_en": "President Donald Trump threatened to strike Iran and the Houthi militants over attacks on Saudi tankers. Meanwhile, the UN warned that the situation is 'out of control.' DW has the latest.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/us-threatens-major-military-punishment-for-houthi-attacks/live-78077811?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "DW"
-      ],
-      "first_published_at": "2026-07-23T17:42:00+09:00",
-      "latest_published_at": "2026-07-23T18:37:01+09:00",
-      "articles": [
-        {
-          "title": "Trump threatens Houthis with 'major military punishment'",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/houthis-red-sea-attacks-trump-warn-iran-6274446",
-          "published_at": "18:37"
-        },
-        {
-          "title": "US threatens 'major military punishment' for Houthi attacks",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/us-threatens-major-military-punishment-for-houthi-attacks/live-78077811?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "17:42"
-        }
-      ]
-    },
-    {
-      "id": "world-0",
-      "title": "AI 붐으로 칩 수요가 증가함에 따라 Intel은 예상치를 깨뜨렸습니다. 주식 점프",
-      "title_en": "Intel forecast crushes estimates as AI boom boosts chip demand; shares jump",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/intel-forecast-crushes-estimates-ai-boom-boosts-chip-demand-shares-jump-6274591",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "인텔 매출, 이익 전망이 예상치 상회. 회사, AI 붐에 대한 지출 계획 강화 - 최신",
-      "excerpt_en": "Intel sales, profit forecast beat estimates; company boosts spending plans on AI boom Reuters",
+      "primary_source": "Reuters",
+      "excerpt": "기술 수익이 AI 지출 우려를 촉발하고 석유가 100달러를 기록하면서 월스트리트 하락 Reuters",
+      "excerpt_en": "Wall St falls as tech earnings spark AI spending worries and oil hits $100 Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY1JRa3lMd0xIRC1RRGxjWWFMTmZqYmtPMnV1ZXlURS1KX0dQOFRRMXNhbDMwV0NieEhCYkc0QjNlVGlCSnE3OGYwZ1lUR1ZuTndhR2RBNVBxNnFnN043Z2NZM1BiemNBSUNvT3RRc1hSM0o5WjB0MTNkampodGcwSVFndUJwLWdaRXRHZHFKbzdNZFNNT245SHczYjdTX2NBVC0xNS1HcHc0Y1V6ZTFmQzMwcG1FR1NIUHVldlZn?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQm1lbVBLTDdabmN2REd2TFlJcEV0VHBFdVRWejRSTERMbkk2MWt2SkhhN0R0dFh4cDJQVlV2aFBicWpic1EzNDRqQlFhZ2JXOW1LS2hlM08yTm5LcTUyMVJ2aWZXamhtX3dxVWU4b1ZaWExGX253OFBJWEo3dy1KLUljYmNZUE9sRC13Y1BQZ3U5ZlJySVlJMURtbmt1cUVIbElMM3VpYnd6YnJ2UUxadkZnUXBQeDVNU0tlUU9HU2pPdFVMOXU4LUxzYnYyckExaXA5STJrVQ?oc=5",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1366,35 +1091,35 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-07-23T20:03:21+09:00",
-      "latest_published_at": "2026-07-23T20:31:48+09:00",
+      "first_published_at": "2026-07-23T23:21:59+09:00",
+      "latest_published_at": "2026-07-24T01:57:31+09:00",
       "articles": [
         {
-          "title": "Intel sales, profit forecast beat estimates; company boosts spending plans on AI boom",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY1JRa3lMd0xIRC1RRGxjWWFMTmZqYmtPMnV1ZXlURS1KX0dQOFRRMXNhbDMwV0NieEhCYkc0QjNlVGlCSnE3OGYwZ1lUR1ZuTndhR2RBNVBxNnFnN043Z2NZM1BiemNBSUNvT3RRc1hSM0o5WjB0MTNkampodGcwSVFndUJwLWdaRXRHZHFKbzdNZFNNT245SHczYjdTX2NBVC0xNS1HcHc0Y1V6ZTFmQzMwcG1FR1NIUHVldlZn?oc=5",
-          "published_at": "20:31"
+          "title": "Japan's Nikkei falls more than 2% on AI spending worries",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/japans-nikkei-falls-more-2-ai-spending-worries-6275061",
+          "published_at": "01:57"
         },
         {
-          "title": "Intel forecast crushes estimates as AI boom boosts chip demand; shares jump",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/intel-forecast-crushes-estimates-ai-boom-boosts-chip-demand-shares-jump-6274591",
-          "published_at": "20:03"
+          "title": "Wall St falls as tech earnings spark AI spending worries and oil hits $100",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQm1lbVBLTDdabmN2REd2TFlJcEV0VHBFdVRWejRSTERMbkk2MWt2SkhhN0R0dFh4cDJQVlV2aFBicWpic1EzNDRqQlFhZ2JXOW1LS2hlM08yTm5LcTUyMVJ2aWZXamhtX3dxVWU4b1ZaWExGX253OFBJWEo3dy1KLUljYmNZUE9sRC13Y1BQZ3U5ZlJySVlJMURtbmt1cUVIbElMM3VpYnd6YnJ2UUxadkZnUXBQeDVNU0tlUU9HU2pPdFVMOXU4LUxzYnYyckExaXA5STJrVQ?oc=5",
+          "published_at": "23:21"
         }
       ]
     },
     {
-      "id": "world-3",
-      "title": "Eric Trump가 후원하는 재단, AMD와 협력하여 휴머노이드 로봇 개발",
-      "title_en": "Eric Trump-backed Foundation partners with AMD to develop humanoid robots",
+      "id": "world-71",
+      "title": "트럼프, 수십개 국가에 두 자릿수 관세 부과",
+      "title_en": "Trump imposes new double-digit tariffs on dozens of countries",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/eric-trump-backed-foundation-partners-amd-develop-humanoid-robots-6274471",
+      "title_url": "https://www.aljazeera.com/news/2026/7/24/trump-imposes-new-double-digit-tariffs-on-dozens-of-countries?traffic_source=rss",
       "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Eric Trump가 후원하는 재단, AMD와 협력하여 휴머노이드 로봇 개발 - 최신",
-      "excerpt_en": "Eric Trump-backed Foundation partners with AMD to develop humanoid robots Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOU1UZFFxR1dJeGxNbGNiTkVMb3NDM3pFOXhGaFNoUXBhcjZ5Y3kwZ3owVmw1bGVaLWdFOGZHOGJpNUZCYkthVmg3bV91UjlWTFdQYWhTSzBxUDR4bklVR0FCcmJMS3hTWnptUHNxXzN6dWtuNFl2SHp4dzNZMlNjbXNrTFBZc1lFeXNjUElqbmtTN3g4Rk9uaGRONTk2aW1kY2dMeE9rY3M3YWdkaUV0MU5Ud0s1UQ?oc=5",
+      "primary_source": "Al Jazeera",
+      "excerpt": "기존의 10% 관세가 만료됨에 따라 트럼프는 강제 노동 조항이 적용되는 60개국에 새로운 관세를 부과합니다.",
+      "excerpt_en": "With existing 10 percent levies set to expire, Trump issues new tariffs on 60 countries under forced labour provision.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/7/24/trump-imposes-new-double-digit-tariffs-on-dozens-of-countries?traffic_source=rss",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1410,28 +1135,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "AP News",
+        "Al Jazeera"
       ],
-      "first_published_at": "2026-07-23T18:32:41+09:00",
-      "latest_published_at": "2026-07-23T18:35:09+09:00",
+      "first_published_at": "2026-07-24T01:08:08+09:00",
+      "latest_published_at": "2026-07-24T02:27:00+09:00",
       "articles": [
         {
-          "title": "Eric Trump-backed Foundation partners with AMD to develop humanoid robots",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOU1UZFFxR1dJeGxNbGNiTkVMb3NDM3pFOXhGaFNoUXBhcjZ5Y3kwZ3owVmw1bGVaLWdFOGZHOGJpNUZCYkthVmg3bV91UjlWTFdQYWhTSzBxUDR4bklVR0FCcmJMS3hTWnptUHNxXzN6dWtuNFl2SHp4dzNZMlNjbXNrTFBZc1lFeXNjUElqbmtTN3g4Rk9uaGRONTk2aW1kY2dMeE9rY3M3YWdkaUV0MU5Ud0s1UQ?oc=5",
-          "published_at": "18:35"
+          "title": "Trump imposes double-digit tariffs on dozens of countries as his 10% levies are set to expire Friday",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOVM1QThyUlVoWl9xS1lVTTFZUHJJdU1peU1wZjdlaEZ5R08xUFZQcGVmc05LWHhhR0hOdlBqLVlhOWRGRVg5RmpKU2FiUnVSMmZMTEZocGtlZ05xTVJicmJOMndxNENHYU14enNWdllRR2RYZE1jSVVYM2VRZGJuRmhyVW1rcVRnNnNCcDlweURpSTlSUXJZVkZTX0JseUtnTkE?oc=5",
+          "published_at": "02:27"
         },
         {
-          "title": "Eric Trump-backed Foundation partners with AMD to develop humanoid robots",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/eric-trump-backed-foundation-partners-amd-develop-humanoid-robots-6274471",
-          "published_at": "18:32"
+          "title": "Trump imposes new double-digit tariffs on dozens of countries",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/24/trump-imposes-new-double-digit-tariffs-on-dozens-of-countries?traffic_source=rss",
+          "published_at": "01:08"
         }
       ]
     },
     {
-      "id": "world-97",
+      "id": "world-74",
+      "title": "루비오 \"미국은 우크라이나의 '무의미한 전쟁' 종식을 도울 준비가 되어 있다\"",
+      "title_en": "US is ready to help end the 'senseless war' in Ukraine, Rubio says",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/us-ready-end-senseless-war-ukraine-quick-deal-135004865",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "마르코 루비오 미 국무장관은 트럼프 행정부가 우크라이나 전쟁 종식을 도울 준비가 돼 있지만 협상을 위한 빠른 길은 없다는 점을 인정했다고 밝혔습니다.",
+      "excerpt_en": "U.S. Secretary of State Marco Rubio says the Trump administration is ready to help end the war in Ukraine but acknowledges there is no quick path to a deal",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/us-ready-end-senseless-war-ukraine-quick-deal-135004865",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-07-23T11:42:39+09:00",
+      "latest_published_at": "2026-07-24T01:55:00+09:00",
+      "articles": [
+        {
+          "title": "US is ready to help end the ‘senseless war’ in Ukraine but no quick deal ahead, Rubio says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWFkYnFRZ1lKYlVmbi1lS2QyT1BteDg5MHdtQ2NsUnBPY0c1ZXF3TXluc3JLc2FlTENucHNwalh0cHU4emJnSnZkaFJqTDlaQTB3aHB1cm0wM0tKQWlFaTh0RkhleG1qME9SSnhNVlotaWFnU0NYczZaQ2pQSmJkZGtMZF9vclBhOXRmY2lYYTdpS0c4WWRQTg?oc=5",
+          "published_at": "01:55"
+        },
+        {
+          "title": "US is ready to help end the 'senseless war' in Ukraine, Rubio says",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/us-ready-end-senseless-war-ukraine-quick-deal-135004865",
+          "published_at": "11:42"
+        }
+      ]
+    },
+    {
+      "id": "world-75",
       "title": "위스콘신 주지사, 매디슨 경찰관이 흉기로 남성을 쏴 숨지게 한 후 투명성 요구",
       "title_en": "Wisconsin governor calls for transparency after Madison officer fatally shoots man with knife",
       "title_source": "earliest_pick",
@@ -1461,13 +1233,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-07-23T13:46:07+09:00",
-      "latest_published_at": "2026-07-23T19:42:00+09:00",
+      "latest_published_at": "2026-07-24T01:50:00+09:00",
       "articles": [
         {
           "title": "Fatal police shooting of man with knife roils Madison, Wisconsin",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXBRWGFKV29hc08zaW5zOUJiUldGWnNRNDRjZlQ5LW9IalBWdnJTZEdRcFlwZnJiQlZmUFhuNkc1bnRJcy16UkYyQ1N6UFh6aXhid2FZandHV3ozdmdPZkxVd0Z3Vm9vb0h6ME1zMTdTbHhqSW1CSUNhdWZfY25Wb05ON0gxWnVxcy0tLUl5UkV4anU5eFlNTy1MRUdVbHdNWnJsOUZSWjZoXzRJX0x4dXJtUUNEWEk?oc=5",
-          "published_at": "19:42"
+          "published_at": "01:50"
         },
         {
           "title": "Wisconsin governor calls for transparency after Madison officer fatally shoots man with knife",
@@ -1478,109 +1250,15 @@
       ]
     },
     {
-      "id": "world-105",
-      "title": "미사에 가던 중 ICE에 구금된 수녀는 이렇게 말합니다: 우리 중 많은 사람이 '모든 규칙을 따랐습니다'",
-      "title_en": "Nun detained by ICE while walking to Mass speaks out: Many of us ‘followed every rule’",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/nun-sister-ugboaja-ice-trump-nigeria-b3020504.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "그녀의 체포는 본당 관리들이 소셜 미디어에 이 사실을 게시하고 의회 의원들의 개입으로 이어지면서 대중의 관심을 끌었습니다.",
-      "excerpt_en": "Her arrest gained public attention after parish officials posted about it on social media, leading to intervention from members of Congress",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/nun-sister-ugboaja-ice-trump-nigeria-b3020504.html",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-23T18:10:10+09:00",
-      "latest_published_at": "2026-07-23T20:06:00+09:00",
-      "articles": [
-        {
-          "title": "Nun speaks out for first time about being detained by ICE while walking to Mass in Texas",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZEN3N2hNMXF1S3lCNUlHWFg4ZVc2UVc1dzFmQ1hST0hmd2Q2TldmMVNCYjFlQkRWNmZhUHFscVV4OXZxNzBFNThJV1NrUDBubDFZd09SbmVWTU1iRVZXSnI2MVZSSV9oWm5lZ24wOHRwTFVvVzlGZThLRTd4VzVrcjh2aEd0WWtRZXc?oc=5",
-          "published_at": "20:06"
-        },
-        {
-          "title": "Nun detained by ICE while walking to Mass speaks out: Many of us ‘followed every rule’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/nun-sister-ugboaja-ice-trump-nigeria-b3020504.html",
-          "published_at": "18:10"
-        }
-      ]
-    },
-    {
-      "id": "world-118",
-      "title": "우크라이나의 Wildberries 공격으로 인해 러시아 기업이 어려움을 겪고 있습니다.",
-      "title_en": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-      "category": "유럽",
-      "primary_source": "BBC",
-      "excerpt": "우크라이나 드론이 며칠 만에 러시아 최대 온라인 소매업체인 Wildberries 소유의 여러 소매 창고를 공격했습니다.",
-      "excerpt_en": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "BBC"
-      ],
-      "first_published_at": "2026-07-23T06:15:35+09:00",
-      "latest_published_at": "2026-07-23T09:08:38+09:00",
-      "articles": [
-        {
-          "title": "Russia's biggest online retailer is the latest target of Ukraine's attacks",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russias-biggest-online-retailer-latest-target-ukraines-attacks-135009735",
-          "published_at": "09:08"
-        },
-        {
-          "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-          "published_at": "06:15"
-        }
-      ]
-    },
-    {
-      "id": "world-212",
+      "id": "world-205",
       "title": "트럼프 \"이란에 대한 대규모 공격 결정이 임박했다\"",
       "title_en": "Donald Trump says decision on ‘massive attack’ against Iran is close",
       "title_source": "earliest_pick",
       "title_url": "https://www.theguardian.com/world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran",
       "category": "중동",
       "primary_source": "The Guardian",
-      "excerpt": "대통령의 발언은 홍해에서 사우디 유조선에 대한 후티의 공습과 유가가 다시 배럴당 100달러를 넘은 이후에 나온 것입니다.",
-      "excerpt_en": "President’s remarks follow Houthi strikes on Saudi tankers in the Red Sea and oil prices rising past $100 a barrel again Middle East crisis live – latest updates Donald Trump has said he is close to d",
+      "excerpt": "후티 반군이 홍해에서 사우디 유조선을 공습하고 유가가 다시 배럴당 100달러를 넘은 후 대통령의 발언이 나왔습니다.",
+      "excerpt_en": "President’s remarks follow Houthi strikes on Saudi tankers in the Red Sea and oil prices rising past $100 a barrel again Donald Trump has said he is close to deciding whether to launch “a massive atta",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran",
       "translation_status": "ok",
@@ -1619,195 +1297,195 @@
       ]
     },
     {
-      "id": "world-214",
-      "title": "중동 갈등이 심화되면서 석유는 다시 배럴당 100달러를 넘어섰고 주가는 하락했습니다.",
-      "title_en": "Oil passes $100 a barrel again and shares slide as Middle East conflict escalates",
+      "id": "world-3",
+      "title": "유가 급등으로 인플레이션 우려가 되살아 나고 채권이 타격을 입으면서 아시아 증시는 미끄러졌습니다.",
+      "title_en": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/business/2026/jul/23/oil-price-passes-100-a-barrel-again-as-middle-east-conflict-escalates",
-      "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "유가 급등은 미-이란 간 전투가 격화됨에 따라 후티 반군이 사우디 수출을 교살할 수 있다는 우려를 반영합니다. 바브 알-만다브 봉쇄 위협으로 유가가 100달러 이상으로 하락한 이유",
-      "excerpt_en": "Sharp rise in oil price reflects fears Houthi militias could strangle Saudi exports as US-Iran fighting intensifies How the Bab al-Mandab blockade threat pushed oil back above $100 The oil price broke",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/business/2026/jul/23/oil-price-passes-100-a-barrel-again-as-middle-east-conflict-escalates",
+      "title_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "유가 급등으로 인플레이션 우려가 되살아 나고 채권이 타격을 입으면서 아시아 증시는 하락했습니다.",
+      "excerpt_en": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
+        "major_score": 15,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 41
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "The Guardian"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-07-23T13:37:42+09:00",
-      "latest_published_at": "2026-07-23T15:04:08+09:00",
+      "first_published_at": "2026-07-24T01:20:00+09:00",
+      "latest_published_at": "2026-07-24T01:20:41+09:00",
       "articles": [
         {
-          "title": "Oil prices cross $100 as middle east conflict sparks global supply fears",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-cross-100-as-middle-east-conflict-sparks-global-supply-fears-101784818232030.html",
-          "published_at": "15:04"
+          "title": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/asian-stocks-skid-oil-spike-revives-inflation-fears-bonds-take-hit-6274986",
+          "published_at": "01:20"
         },
         {
-          "title": "Oil passes $100 a barrel again and shares slide as Middle East conflict escalates",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/jul/23/oil-price-passes-100-a-barrel-again-as-middle-east-conflict-escalates",
-          "published_at": "13:37"
+          "title": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzVSb2tZRUVrYzhLQ0hCcVk1clVDQ1hjaGFPVElvd0JKZ0RVeGFTQ2JBVlVwRFNLbUxHOGZKTnl3WGEyeU5PQzEtTnBmVjBRdVVVUHBaSzJXY1pRT2ZFenczR0d2emszLWpGZDItNEcxd29RSGdWSDhVOEM5RjZRRXc0VQ?oc=5",
+          "published_at": "01:20"
         }
       ]
     },
     {
-      "id": "world-286",
-      "title": "중국과 미국, 긴장이 지속되는 가운데 안정을 강조",
-      "title_en": "China, US emphasise stability amid lingering tensions",
+      "id": "world-8",
+      "title": "24개 이상의 주, 재난 구호 조건으로 트럼프 행정부를 고소",
+      "title_en": "More than two dozen states sue Trump administration over disaster aid conditions",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/plus/news/china/diplomacy/article/3361588/china-us-emphasise-stability-amid-lingering-tensions?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "중국과 미국 외교장관은 수요일 회담 후 시진핑 중국 국가주석의 미국 방문을 논의한 후 대체로 우호적인 어조를 채택했습니다.",
-      "excerpt_en": "The foreign ministers of China and the United States adopted a largely cordial tone following a meeting on Wednesday where they discussed Chinese President Xi Jinping’s upcoming trip to the US rather ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/plus/news/china/diplomacy/article/3361588/china-us-emphasise-stability-amid-lingering-tensions?utm_source=rss_feed",
+      "title_url": "https://www.independent.co.uk/news/world/americas/trump-lawsuit-fema-dhs-funding-b3020574.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "소송은 행정부가 주정부에게 선거 시스템을 변경하고 DHS의 이민 집행을 지원하도록 강요하고 있다고 주장합니다.",
+      "excerpt_en": "The lawsuit alleges the administration is compelling states to alter their election systems and assist DHS with immigration enforcement",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/trump-lawsuit-fema-dhs-funding-b3020574.html",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBC",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-23T09:05:24+09:00",
-      "latest_published_at": "2026-07-23T19:20:10+09:00",
-      "articles": [
-        {
-          "title": "China's Xi to visit U.S. in September for talks, Trump says",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/china-xi-jingping-trump-us-visit-9.7281287?cmp=rss",
-          "published_at": "19:20"
-        },
-        {
-          "title": "China, US emphasise stability amid lingering tensions",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3361588/china-us-emphasise-stability-amid-lingering-tensions?utm_source=rss_feed",
-          "published_at": "09:05"
-        }
-      ]
-    },
-    {
-      "id": "world-305",
-      "title": "미국 정부, NYT 기자 3명에게 출처 확인 촉구 소환장 철회",
-      "title_en": "U.S. government withdraws subpoenas aimed at compelling 3 NYT reporters to identify sources",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/nyt-subpoenas-withdrawn-air-force-one-9.7281338?cmp=rss",
-      "category": "중동",
-      "primary_source": "CBC",
-      "excerpt": "미국 정부는 엉성한 법률 업무에 대해 연방 판사로부터 비난을 받았고 목요일 뉴욕타임스 기자 3명에게 Arti의 출처에 대해 증언하도록 강요하는 소환장을 철회했습니다.",
-      "excerpt_en": "Criticized by a federal judge for sloppy legal work, the U.S. government on Thursday withdrew subpoenas that would have compelled three New York Times reporters to testify about their sources for arti",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/nyt-subpoenas-withdrawn-air-force-one-9.7281338?cmp=rss",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
+        "Reuters",
         "The Independent"
       ],
-      "first_published_at": "2026-07-23T19:58:07+09:00",
-      "latest_published_at": "2026-07-23T20:00:24+09:00",
+      "first_published_at": "2026-07-23T19:43:40+09:00",
+      "latest_published_at": "2026-07-23T21:00:35+09:00",
       "articles": [
         {
-          "title": "DOJ withdraws NYT reporters’ subpoenas after judge calls it ‘sloppy legal work’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/new-york-times-reporters-subpoenas-trump-withdrawn-b3020580.html",
-          "published_at": "20:00"
+          "title": "US states sue Trump administration for conditioning disaster funds on election changes",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVjVHY09nWlRDVXBZdnpvZXVUSWhZWDQ5NE56ajV2UFVjTmkxa2cwVkhTTkNiU3c1T2pmaWl1em50NERUME1iVURaU2lSOTRrWU9TWjN1ZXhxS1ZWYTU2bG9DdkR3elFuZEFBSE93M2NhYm1udzNGRHNmLTJrTnNaNkViTWY3X28xOEhqSGNKY1AzVno4WjlQY2M2d0U5MVJLcnZsZnJ6bE5BNVUzYWJnOGY5aUx1N3A1TXRzTXVvRzZnbm1jeHFUQWdPWjY?oc=5",
+          "published_at": "21:00"
         },
         {
-          "title": "U.S. government withdraws subpoenas aimed at compelling 3 NYT reporters to identify sources",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/nyt-subpoenas-withdrawn-air-force-one-9.7281338?cmp=rss",
-          "published_at": "19:58"
+          "title": "More than two dozen states sue Trump administration over disaster aid conditions",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/trump-lawsuit-fema-dhs-funding-b3020574.html",
+          "published_at": "19:43"
         }
       ]
     },
     {
-      "id": "world-383",
-      "title": "미국의 제재로 인해 ICC 수석검사의 운명은 전례 없는 투표로 향하고 있습니다.",
-      "title_en": "Fate of ICC chief prosecutor heads to unprecedented vote as US sanctions keep him out of New York",
+      "id": "world-14",
+      "title": "미국 하원은 트럼프의 이란 전쟁권을 억제하기로 표결했지만 상원은 대통령을 지지했다.",
+      "title_en": "US House votes to curb Trump's Iran war powers but Senate backs president",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/fate-icc-chief-prosecutor-heads-unprecedented-vote-us-135025006",
-      "category": "미국",
-      "primary_source": "ABC News",
-      "excerpt": "전 세계 외교관들이 금요일 뉴욕 유엔 본부에 모여 국제범죄수사국(ICC) 수석검사의 영구 해임 여부를 결정하기 위해 모였습니다.",
-      "excerpt_en": "Diplomats from around the world are gathering at United Nations headquarters in New York on Friday to decide whether to permanently remove the embattled chief prosecutor of the International Criminal ",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/fate-icc-chief-prosecutor-heads-unprecedented-vote-us-135025006",
+      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmZraWhuZnh2S3UwSzNiRWxNaFZuNl9jLVV2by1sUm9DdEZjbDJGb05pQWstRDVrM3J2OHE0MFJ6THdLRUc2NUUtS1hnTC1xZ2o4ZHhTOHp0cThGTFNhQkROeVpLdTJIWEVCY2pNTTNIYU0xOVhuVXJIY1ZtaDdxUmRxXzdMc0toSVJOSzR0TC1UY1FqSnJqTW84bHJidk5oMDl5eU5YZzdpWXJSTllKNWJmdU4wZG5MeEE?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "도널드 트럼프 미국 대통령이 전쟁이 원활하게 진행되고 있다고 주장함에 따라 미국 하원은 이란 분쟁을 종식시키기로 투표했습니다.",
+      "excerpt_en": "The US House has voted to end the conflict in Iran, as President Donald Trump maintains the war is proceeding smoothly.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/us-house-votes-to-end-iran-war-20260724-p60i56.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "Hindustan Times"
+        "Reuters",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-23T17:53:43+09:00",
-      "latest_published_at": "2026-07-23T18:45:39+09:00",
+      "first_published_at": "2026-07-23T18:02:16+09:00",
+      "latest_published_at": "2026-07-23T20:52:28+09:00",
       "articles": [
         {
-          "title": "Fate of ICC chief prosecutor heads to unprecedented vote as US sanctions keep him out of New York",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/fate-of-icc-chief-prosecutor-heads-to-unprecedented-vote-as-us-sanctions-keep-him-out-of-new-york-101784832340278.html",
+          "title": "US House votes to end Iran war",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/us-house-votes-to-end-iran-war-20260724-p60i56.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:52"
+        },
+        {
+          "title": "US House votes to curb Trump's Iran war powers but Senate backs president",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmZraWhuZnh2S3UwSzNiRWxNaFZuNl9jLVV2by1sUm9DdEZjbDJGb05pQWstRDVrM3J2OHE0MFJ6THdLRUc2NUUtS1hnTC1xZ2o4ZHhTOHp0cThGTFNhQkROeVpLdTJIWEVCY2pNTTNIYU0xOVhuVXJIY1ZtaDdxUmRxXzdMc0toSVJOSzR0TC1UY1FqSnJqTW84bHJidk5oMDl5eU5YZzdpWXJSTllKNWJmdU4wZG5MeEE?oc=5",
+          "published_at": "18:02"
+        }
+      ]
+    },
+    {
+      "id": "world-24",
+      "title": "FDA 패널은 인기 있는 펩타이드 BPC-157을 합성 목록에 포함시키기로 투표했습니다.",
+      "title_en": "FDA panel votes to place popular peptide BPC-157 on compounding list",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd1RUYzFodUREVENuRkxmajZiWXBrTUVOcUZzTzk1cFE1d3kyeTI5VFZuWU5XSVhRUThGUGEtbUtybDN1TUtoSzlkNncxRUtxMFVpVlluSVBhM1hac3g3bVJXMmtaV1N2clk1RVhxNWJ2NVhOMlVVUU1FeGNDWnhFbTIyclduek16dTBzMUZGeWx5cXAtZHFYMVE2M0Mwa29sTnJ1a1R4SF9qY04wQ1A5U3RicldvalR0OXNnQXBSX3ozdmp4U2gxOHpQS3hIUk0?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "뉴욕 – 목요일 미국 검토 패널은 과장된 펩타이드 BPC-157에 대한 제한을 완화할 것을 권고했으며, 메디컬의 경고에도 불구하고 전문 약국이 BPC-157을 생산할 수 있도록 허용하도록 투표했습니다.",
+      "excerpt_en": "NEW YORK - A US review panel on Thursday recommended loosening restrictions on the much hyped peptide BPC-157, voting that specialized pharmacies be allowed to produce it despite alarm bells from medi",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3291004/us-panel-says-to-loosen-restrictions-on-popular-peptide-despite-safety-concerns",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-23T16:51:44+09:00",
+      "latest_published_at": "2026-07-23T18:45:00+09:00",
+      "articles": [
+        {
+          "title": "US panel says to loosen restrictions on popular peptide despite safety concerns",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3291004/us-panel-says-to-loosen-restrictions-on-popular-peptide-despite-safety-concerns",
           "published_at": "18:45"
         },
         {
-          "title": "Fate of ICC chief prosecutor heads to unprecedented vote as US sanctions keep him out of New York",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fate-icc-chief-prosecutor-heads-unprecedented-vote-us-135025006",
-          "published_at": "17:53"
+          "title": "FDA panel votes to place popular peptide BPC-157 on compounding list",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd1RUYzFodUREVENuRkxmajZiWXBrTUVOcUZzTzk1cFE1d3kyeTI5VFZuWU5XSVhRUThGUGEtbUtybDN1TUtoSzlkNncxRUtxMFVpVlluSVBhM1hac3g3bVJXMmtaV1N2clk1RVhxNWJ2NVhOMlVVUU1FeGNDWnhFbTIyclduek16dTBzMUZGeWx5cXAtZHFYMVE2M0Mwa29sTnJ1a1R4SF9qY04wQ1A5U3RicldvalR0OXNnQXBSX3ozdmp4U2gxOHpQS3hIUk0?oc=5",
+          "published_at": "16:51"
         }
       ]
     },
     {
-      "id": "world-13",
+      "id": "world-29",
       "title": "국회의원들이 '킬 스위치'를 요구함에 따라 백악관은 OpenAI의 '불량' AI 사건을 감시하고 있습니다.",
       "title_en": "White House monitoring OpenAI’s ‘rogue’ AI incident as lawmakers demand a ‘kill switch’",
       "title_source": "earliest_pick",
@@ -1837,13 +1515,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-07-23T16:20:51+09:00",
-      "latest_published_at": "2026-07-23T17:08:08+09:00",
+      "latest_published_at": "2026-07-23T22:43:46+09:00",
       "articles": [
         {
           "title": "White House monitors OpenAI's 'rogue' AI incident, lawmakers propose 'kill switch'",
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRnhrdU9BTTRoNGhtSV9RbmlUT21SMkxiRHZuTU9vdnN2NjZodU1iVjEyMWdVQmQ1OGVKalFXOHRuUFBWNzZaejdwc3hLRE05TzBOcmpNeF83SmlVU0MwNThMZk9aZDBYSFhhNjRMNWxuNndFbHhCdnFnMnhEQTVBVE5QYzkxUllpOEw4U1pBSjFjeHljaXVVcXdOWGF0TUU1cnl3Wg?oc=5",
-          "published_at": "17:08"
+          "published_at": "22:43"
         },
         {
           "title": "White House monitoring OpenAI’s ‘rogue’ AI incident as lawmakers demand a ‘kill switch’",
@@ -1854,7 +1532,101 @@
       ]
     },
     {
-      "id": "world-38",
+      "id": "world-40",
+      "title": "일본 6월 근원 인플레이션 가속화, BOJ 목표 미만 유지",
+      "title_en": "Japan June core inflation accelerates, stays below BOJ target",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX1AwN0E2MmZTeWwwN21RaWJHODExMm11cHpMbjFxMFNYWWkzRktUZlAxMGNTbHJISFFaZVEzS3lXWk0tai1SeTBLNUQybW9POXpQaEFDZFpMeGM3NlQyU3ppeEI0ZkVqVnUxcExQeG14NGtuOHNIeXpoaE00UGdnS2g4blVOZ08yUTFRWmlpT1hkRWxPYmlab0ROeldmTnlVVmZyZEd3aE9vcGxfU0ZhRjZic0xOdw?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "일본 6월 근원 인플레이션 가속화, BOJ 목표 미만 유지 - 최신",
+      "excerpt_en": "Japan June core inflation accelerates, stays below BOJ target Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX1AwN0E2MmZTeWwwN21RaWJHODExMm11cHpMbjFxMFNYWWkzRktUZlAxMGNTbHJISFFaZVEzS3lXWk0tai1SeTBLNUQybW9POXpQaEFDZFpMeGM3NlQyU3ppeEI0ZkVqVnUxcExQeG14NGtuOHNIeXpoaE00UGdnS2g4blVOZ08yUTFRWmlpT1hkRWxPYmlab0ROeldmTnlVVmZyZEd3aE9vcGxfU0ZhRjZic0xOdw?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-23T23:43:00+09:00",
+      "latest_published_at": "2026-07-23T23:43:25+09:00",
+      "articles": [
+        {
+          "title": "Japan June core inflation accelerates, stays below BOJ target",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/japan-june-core-inflation-accelerates-stays-below-boj-target-6274861",
+          "published_at": "23:43"
+        },
+        {
+          "title": "Japan June core inflation accelerates, stays below BOJ target",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX1AwN0E2MmZTeWwwN21RaWJHODExMm11cHpMbjFxMFNYWWkzRktUZlAxMGNTbHJISFFaZVEzS3lXWk0tai1SeTBLNUQybW9POXpQaEFDZFpMeGM3NlQyU3ppeEI0ZkVqVnUxcExQeG14NGtuOHNIeXpoaE00UGdnS2g4blVOZ08yUTFRWmlpT1hkRWxPYmlab0ROeldmTnlVVmZyZEd3aE9vcGxfU0ZhRjZic0xOdw?oc=5",
+          "published_at": "23:43"
+        }
+      ]
+    },
+    {
+      "id": "world-46",
+      "title": "미국 검찰, 트럼프 비행기 보도 관련 뉴욕타임스 소환장 기각",
+      "title_en": "U.S. prosecutors to drop New York Times subpoenas over Trump plane reporting",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-prosecutors-to-drop-new-york-times-subpoenas-over-trump-plane-reporting-101784834475186.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "미국-트럼프-공군 소환장:U.S. 검찰, 트럼프 비행기 보도 관련 뉴욕타임스 소환장 기각",
+      "excerpt_en": "USA-TRUMP-AIRFORCEONE-SUBPOENAS:U.S. prosecutors to drop New York Times subpoenas over Trump plane reporting",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-prosecutors-to-drop-new-york-times-subpoenas-over-trump-plane-reporting-101784834475186.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-23T19:21:14+09:00",
+      "latest_published_at": "2026-07-23T21:03:58+09:00",
+      "articles": [
+        {
+          "title": "US prosecutors drop New York Times subpoenas in Trump plane leak probe",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQjNlSDFsYTZXQ3RlWDE0M19jTlBjQzBCSkNqNzdDSmhWMzdmd2VIMlVwanptd3Z4Rld5OUJObENzNHU2SDBNejJiWldvaHh5bjRTZjdqcnlmOVNLZGVQcVpDTW9ZSVVSVWxVV1d4SWJOT1JDb0dZNGdNS3ZDUDBSZ0xtdGE3enNBUzVacTJITUxfandpdHBySnA2c0dfVTVjd0twM3JVdkJWLVAwbUtHdXBtZmdYTm9McXNn?oc=5",
+          "published_at": "21:03"
+        },
+        {
+          "title": "U.S. prosecutors to drop New York Times subpoenas over Trump plane reporting",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-prosecutors-to-drop-new-york-times-subpoenas-over-trump-plane-reporting-101784834475186.html",
+          "published_at": "19:21"
+        }
+      ]
+    },
+    {
+      "id": "world-49",
       "title": "미국, 육식성 가축 해충 퇴치를 위해 GMO 테스트 서둘러",
       "title_en": "US tests GMO flies in rush to fight flesh-eating livestock pest",
       "title_source": "earliest_pick",
@@ -1901,111 +1673,17 @@
       ]
     },
     {
-      "id": "world-87",
-      "title": "미국과 동맹국들은 러시아 해커들이 소셜 엔지니어링 없이 이메일을 훔쳤다고 밝혔습니다.",
-      "title_en": "US and allies say Russian hackers stole emails without social engineering",
+      "id": "world-90",
+      "title": "카니 총리는 트럼프의 새로운 관세가 발효되면 캐나다가 대응할 준비가 되어 있다고 말했습니다.",
+      "title_en": "Prime Minister Carney says Canada is ready to respond if Trump’s new tariffs go into effect",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/us-and-allies-say-russian-hackers-stole-emails-without-social-engineering-6274226",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "미국과 동맹국들은 러시아 해커들이 소셜 엔지니어링 없이 이메일을 훔쳤다고 밝혔습니다 - 최신",
-      "excerpt_en": "US and allies say Russian hackers stole emails without social engineering Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVVJFNWJLRHJkZURIWFJhZXdEQmppOEhZMWVwWWZyQTFXcWRrOF8zTEFpZmR0dTV6ZEh3SVQ1bXA4blY1TWthQkNSRHZYR0MtRkI5UE5PZF96YnRTZ3JiTUt4VzZpbEsxRmVlZmZfSUZja1ktRW9lZXBOX2kwdjBoMjNpZWdXS2hBR29tX1NXREI5SHNQc1BDT3pYUzFJX05JQ2hxZWlsdlpPU0luSnhPb2hBTUQzU193TDhXVDc0Zw?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-23T15:55:02+09:00",
-      "latest_published_at": "2026-07-23T15:55:43+09:00",
-      "articles": [
-        {
-          "title": "US and allies say Russian hackers stole emails without social engineering",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVVJFNWJLRHJkZURIWFJhZXdEQmppOEhZMWVwWWZyQTFXcWRrOF8zTEFpZmR0dTV6ZEh3SVQ1bXA4blY1TWthQkNSRHZYR0MtRkI5UE5PZF96YnRTZ3JiTUt4VzZpbEsxRmVlZmZfSUZja1ktRW9lZXBOX2kwdjBoMjNpZWdXS2hBR29tX1NXREI5SHNQc1BDT3pYUzFJX05JQ2hxZWlsdlpPU0luSnhPb2hBTUQzU193TDhXVDc0Zw?oc=5",
-          "published_at": "15:55"
-        },
-        {
-          "title": "US and allies say Russian hackers stole emails without social engineering",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/us-and-allies-say-russian-hackers-stole-emails-without-social-engineering-6274226",
-          "published_at": "15:55"
-        }
-      ]
-    },
-    {
-      "id": "world-91",
-      "title": "루비오 \"미국은 우크라이나의 '무의미한 전쟁' 종식을 도울 준비가 되어 있다\"",
-      "title_en": "US is ready to help end the 'senseless war' in Ukraine, Rubio says",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/us-ready-end-senseless-war-ukraine-quick-deal-135004865",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "마르코 루비오 미 국무장관은 트럼프 행정부가 우크라이나 전쟁 종식을 도울 준비가 돼 있지만 협상을 위한 빠른 길은 없다는 점을 인정했다고 밝혔습니다.",
-      "excerpt_en": "U.S. Secretary of State Marco Rubio says the Trump administration is ready to help end the war in Ukraine but acknowledges there is no quick path to a deal",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/us-ready-end-senseless-war-ukraine-quick-deal-135004865",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-07-23T11:42:39+09:00",
-      "latest_published_at": "2026-07-23T13:23:00+09:00",
-      "articles": [
-        {
-          "title": "US is ready to help end the ‘senseless war’ in Ukraine but no quick deal ahead, Rubio says",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWFkYnFRZ1lKYlVmbi1lS2QyT1BteDg5MHdtQ2NsUnBPY0c1ZXF3TXluc3JLc2FlTENucHNwalh0cHU4emJnSnZkaFJqTDlaQTB3aHB1cm0wM0tKQWlFaTh0RkhleG1qME9SSnhNVlotaWFnU0NYczZaQ2pQSmJkZGtMZF9vclBhOXRmY2lYYTdpS0c4WWRQTg?oc=5",
-          "published_at": "13:23"
-        },
-        {
-          "title": "US is ready to help end the 'senseless war' in Ukraine, Rubio says",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/us-ready-end-senseless-war-ukraine-quick-deal-135004865",
-          "published_at": "11:42"
-        }
-      ]
-    },
-    {
-      "id": "world-104",
-      "title": "사진 에세이: 네팔의 어둡고 위험한 고속도로에서 USAID 삭감으로 해고된 구호요원들이 성노동으로 전환",
-      "title_en": "PHOTO ESSAY: By a dark, dangerous highway in Nepal, aid workers fired by USAID cuts turn to sex work",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYXFnUmNadGZjdFdiNE80dldXLXk1UVJNdi0yOExkclFsUXpJU2lsM1kzeC1JNEQwQnVtNE8yUm43WEV1LVBTQ3I1Q2ktQm42OHBwTjlhdWdGYXZXRW1kYzVlTllPWVhuSXpFb19JaG1CbjJtQU0ycmdrQi1qZ25RSnk0QzdfNlZaeWtVNkVxZ3c3MGVqajFkemFDR0hEV25hNy01dDc3b0NmWTFQbXgwMk1n?oc=5",
-      "category": "기타",
+      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZlNDUFFuZl95TnZZOG1LbTVlNFNhYlBXZ0tWbkZEaXVYLWtMamlYVFNrODNtNFI0N20wbE5QWGJfdEtTaThna1pOYmgtbkdZWVpwcXlPYlVObGhpa3NKcld5SnBrX3RoTEFuMWZuRkY1Nkp4eHBIUzdUYTdNVS1rMzUySXBBQVd0MFpwTW9sa0w4aWhX?oc=5",
+      "category": "미국",
       "primary_source": "AP News",
-      "excerpt": "지난해 미국이 해외 원조 자금을 삭감한 후 전 세계적으로 28만 명 이상의 구호 활동가가 일자리를 잃었습니다.",
-      "excerpt_en": "After the United States slashed its foreign aid funding last year, more than 280,000 aid workers worldwide lost their jobs",
+      "excerpt": "마크 카니 캐나다 총리는 캐나다가 미국과 새로운 무역 협정을 계속 협상할 것이지만 새로운 관세 위협이 발효될 경우 이에 대응할 용의가 있다고 밝혔습니다.",
+      "excerpt_en": "Canadian Prime Minister Mark Carney says Canada will continue to negotiate a new trade deal with the U.S., but the country is willing to respond should new threatened tariffs come into effect",
       "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/sex-work-starve-aid-workers-nepal-left-jobless-135008350",
+      "excerpt_url": "https://abcnews.com/International/wireStory/prime-minister-carney-canada-ready-respond-trumps-new-135036143",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -2024,35 +1702,35 @@
         "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-07-23T04:30:00+09:00",
-      "latest_published_at": "2026-07-23T06:35:04+09:00",
+      "first_published_at": "2026-07-24T00:14:00+09:00",
+      "latest_published_at": "2026-07-24T00:26:06+09:00",
       "articles": [
         {
-          "title": "Aid workers in Nepal left jobless by USAID cuts turn to sex work to survive",
+          "title": "Prime Minister Carney says Canada is ready to respond if Trump's new tariffs go into effect",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/sex-work-starve-aid-workers-nepal-left-jobless-135008350",
-          "published_at": "06:35"
+          "url": "https://abcnews.com/International/wireStory/prime-minister-carney-canada-ready-respond-trumps-new-135036143",
+          "published_at": "00:26"
         },
         {
-          "title": "PHOTO ESSAY: By a dark, dangerous highway in Nepal, aid workers fired by USAID cuts turn to sex work",
+          "title": "Prime Minister Carney says Canada is ready to respond if Trump’s new tariffs go into effect",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYXFnUmNadGZjdFdiNE80dldXLXk1UVJNdi0yOExkclFsUXpJU2lsM1kzeC1JNEQwQnVtNE8yUm43WEV1LVBTQ3I1Q2ktQm42OHBwTjlhdWdGYXZXRW1kYzVlTllPWVhuSXpFb19JaG1CbjJtQU0ycmdrQi1qZ25RSnk0QzdfNlZaeWtVNkVxZ3c3MGVqajFkemFDR0hEV25hNy01dDc3b0NmWTFQbXgwMk1n?oc=5",
-          "published_at": "04:30"
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZlNDUFFuZl95TnZZOG1LbTVlNFNhYlBXZ0tWbkZEaXVYLWtMamlYVFNrODNtNFI0N20wbE5QWGJfdEtTaThna1pOYmgtbkdZWVpwcXlPYlVObGhpa3NKcld5SnBrX3RoTEFuMWZuRkY1Nkp4eHBIUzdUYTdNVS1rMzUySXBBQVd0MFpwTW9sa0w4aWhX?oc=5",
+          "published_at": "00:14"
         }
       ]
     },
     {
-      "id": "world-352",
-      "title": "파텔 FBI 국장이 약탈한 문화재를 프라보워 인도네시아 대통령에게 반환했다.",
-      "title_en": "FBI Director Patel returns looted cultural artifacts to Indonesian President Prabowo",
+      "id": "world-93",
+      "title": "미사에 가던 중 ICE에 구금된 수녀는 이렇게 말합니다: 우리 중 많은 사람이 '모든 규칙을 따랐습니다'",
+      "title_en": "Nun detained by ICE while walking to Mass speaks out: Many of us ‘followed every rule’",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/fbi-director-patel-returns-looted-cultural-artifacts-indonesian-135008995",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "프라보워 수비안토 인도네시아 대통령이 자카르타에서 열린 회의에서 카시 파텔 FBI 국장으로부터 송환된 문화 유물 컬렉션을 받았습니다.",
-      "excerpt_en": "Indonesian President Prabowo Subianto has received a collection of repatriated cultural artifacts from FBI Director Kash Patel during a meeting in Jakarta",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/nun-sister-ugboaja-ice-trump-nigeria-b3020504.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "그녀의 체포는 본당 관리들이 소셜 미디어에 이 사실을 게시하고 의회 의원들의 개입으로 이어지면서 대중의 관심을 끌었습니다.",
+      "excerpt_en": "Her arrest gained public attention after parish officials posted about it on social media, leading to intervention from members of Congress",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/indonesia-papua-artifacts-repatriation-fbi-b3020099.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/nun-sister-ugboaja-ice-trump-nigeria-b3020504.html",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -2062,147 +1740,6 @@
         "breaking_score": 1,
         "time_score": 2,
         "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-23T06:47:58+09:00",
-      "latest_published_at": "2026-07-23T12:33:17+09:00",
-      "articles": [
-        {
-          "title": "The FBI helped solve a decades-old mystery involving priceless artifacts",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/indonesia-papua-artifacts-repatriation-fbi-b3020099.html",
-          "published_at": "12:33"
-        },
-        {
-          "title": "FBI Director Patel returns looted cultural artifacts to Indonesian President Prabowo",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fbi-director-patel-returns-looted-cultural-artifacts-indonesian-135008995",
-          "published_at": "06:47"
-        }
-      ]
-    },
-    {
-      "id": "world-373",
-      "title": "베네수엘라 사람들은 여전히 ​​지진으로 잃어버린 애완동물을 찾고 있습니다",
-      "title_en": "Venezuelans still searching for pets lost in quakes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3290502/venezuelans-still-searching-for-pets-lost-in-quakes",
-      "category": "기타",
-      "primary_source": "Bangkok Post",
-      "excerpt": "파괴적인 지진이 발생한 지 거의 한 달이 지난 후, 베네수엘라는 최대 규모의 자연재해로 인한 사회적, 경제적 피해를 재건하고 복구하고 완화하는 데 있어 엄청난 과제를 안고 있습니다.",
-      "excerpt_en": "Almost a month after the devastating earthquakes, Venezuela has a mammoth task ahead in terms of rebuilding, rehabilitating and mitigating the social and economic damage of the biggest natural disaste",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/business/2026/07/23/venezuela-earthquake-damages-add-up-to-almost-20-billion-world-bank-says",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "Euronews"
-      ],
-      "first_published_at": "2026-07-23T02:45:00+09:00",
-      "latest_published_at": "2026-07-23T14:03:55+09:00",
-      "articles": [
-        {
-          "title": "Venezuela earthquake damages add up to almost $20 billion, World Bank says",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/business/2026/07/23/venezuela-earthquake-damages-add-up-to-almost-20-billion-world-bank-says",
-          "published_at": "14:03"
-        },
-        {
-          "title": "Venezuelans still searching for pets lost in quakes",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3290502/venezuelans-still-searching-for-pets-lost-in-quakes",
-          "published_at": "02:45"
-        }
-      ]
-    },
-    {
-      "id": "world-80",
-      "title": "Pichai는 Google이 AI 경쟁에서 입지를 잃고 있다는 주장을 반박합니다.",
-      "title_en": "Pichai pushes back on claims Google is losing ground in AI race",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSW9renVWLXVjWjdiMDFHYTlDdk5pZW5tZS00REF6S05IblUyc3ZHX205YjEyeTlzQ0M2bnRsaWF2RzJreVZHN0JsVmRSMVlCYlF1UVVCLTdUYk9DZG9zaWhicU1wb0paNjFPTzAxMVJQYjdCYVJCWWNaRFo4TDI5ZmY2eWhyYjJKanN6UjBtWEhxeFNYMmVVZ0V2RmVtTWVneVZLZQ?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Sundar Pichai는 AI 투자가 검색, 클라우드, YouTube 및 Gemini 전반에 걸쳐 성장을 주도하는 동시에 Google이 경쟁업체에 뒤처진다는 비판에 대응하고 있다고 말했습니다.",
-      "excerpt_en": "Sundar Pichai says AI investments are driving growth across Search, Cloud, YouTube and Gemini, while responding to criticism about Google falling behind rivals.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/sundar-pichai-reveals-strong-q2-results-as-google-pushes-back-against-ai-race-concerns-exciting-moment-101784771688588.html",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-23T01:17:00+09:00",
-      "latest_published_at": "2026-07-23T03:11:34+09:00",
-      "articles": [
-        {
-          "title": "Sundar Pichai unveils strong Q2 results as Google pushes back against AI race concerns: ‘Exciting moment’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/sundar-pichai-reveals-strong-q2-results-as-google-pushes-back-against-ai-race-concerns-exciting-moment-101784771688588.html",
-          "published_at": "03:11"
-        },
-        {
-          "title": "Pichai pushes back on claims Google is losing ground in AI race",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSW9renVWLXVjWjdiMDFHYTlDdk5pZW5tZS00REF6S05IblUyc3ZHX205YjEyeTlzQ0M2bnRsaWF2RzJreVZHN0JsVmRSMVlCYlF1UVVCLTdUYk9DZG9zaWhicU1wb0paNjFPTzAxMVJQYjdCYVJCWWNaRFo4TDI5ZmY2eWhyYjJKanN6UjBtWEhxeFNYMmVVZ0V2RmVtTWVneVZLZQ?oc=5",
-          "published_at": "01:17"
-        }
-      ]
-    },
-    {
-      "id": "world-98",
-      "title": "열대성 폭풍 버사(Bertha), 위협적인 바람과 함께 루이지애나 남부에 상륙",
-      "title_en": "Tropical Storm Bertha makes landfall on southern Louisiana with threatening winds",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemtTejktLV9VZl9XYW9vOEZUNHA5TlkyLXVBbHAxemRNc3RfZGw1eVlWZHRKQzJQbV9HV1ctSlcxVTRvTUFObkNqU0ZXVG9NQWlzWnFaeWVHai1xWEZndTI4Tnp5SXd2Y09nTVgyU0N6SzFtODhsaHBoUHk3V2hERlpXbVU3YVJTLWw0aS1WLVhfQ2JMRTFLNjRRUXk3SFVWMlZTNUZpR0QyTU5sTFpRZmtn?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "열대성 폭풍 버사(Bertha), 위협적인 바람과 함께 루이지애나 남부에 상륙",
-      "excerpt_en": "Tropical Storm Bertha makes landfall on southern Louisiana with threatening winds AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemtTejktLV9VZl9XYW9vOEZUNHA5TlkyLXVBbHAxemRNc3RfZGw1eVlWZHRKQzJQbV9HV1ctSlcxVTRvTUFObkNqU0ZXVG9NQWlzWnFaeWVHai1xWEZndTI4Tnp5SXd2Y09nTVgyU0N6SzFtODhsaHBoUHk3V2hERlpXbVU3YVJTLWw0aS1WLVhfQ2JMRTFLNjRRUXk3SFVWMlZTNUZpR0QyTU5sTFpRZmtn?oc=5",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2212,20 +1749,319 @@
         "AP News",
         "The Independent"
       ],
-      "first_published_at": "2026-07-23T01:27:00+09:00",
-      "latest_published_at": "2026-07-23T02:05:07+09:00",
+      "first_published_at": "2026-07-23T18:10:10+09:00",
+      "latest_published_at": "2026-07-23T22:17:00+09:00",
       "articles": [
         {
-          "title": "Tropical Storm Bertha makes landfall in Louisiana with 45 mph winds",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/tropical-storm-bertha-landfall-louisiana-path-tracker-b3019794.html",
-          "published_at": "02:05"
+          "title": "Nun speaks out for first time about being detained by ICE while walking to Mass in Texas",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZEN3N2hNMXF1S3lCNUlHWFg4ZVc2UVc1dzFmQ1hST0hmd2Q2TldmMVNCYjFlQkRWNmZhUHFscVV4OXZxNzBFNThJV1NrUDBubDFZd09SbmVWTU1iRVZXSnI2MVZSSV9oWm5lZ24wOHRwTFVvVzlGZThLRTd4VzVrcjh2aEd0WWtRZXc?oc=5",
+          "published_at": "22:17"
         },
         {
-          "title": "Tropical Storm Bertha makes landfall on southern Louisiana with threatening winds",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQemtTejktLV9VZl9XYW9vOEZUNHA5TlkyLXVBbHAxemRNc3RfZGw1eVlWZHRKQzJQbV9HV1ctSlcxVTRvTUFObkNqU0ZXVG9NQWlzWnFaeWVHai1xWEZndTI4Tnp5SXd2Y09nTVgyU0N6SzFtODhsaHBoUHk3V2hERlpXbVU3YVJTLWw0aS1WLVhfQ2JMRTFLNjRRUXk3SFVWMlZTNUZpR0QyTU5sTFpRZmtn?oc=5",
-          "published_at": "01:27"
+          "title": "Nun detained by ICE while walking to Mass speaks out: Many of us ‘followed every rule’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/nun-sister-ugboaja-ice-trump-nigeria-b3020504.html",
+          "published_at": "18:10"
+        }
+      ]
+    },
+    {
+      "id": "world-148",
+      "title": "트럼프 행정부, 에어포스원 보도 관련 뉴욕타임스 소환장 기각",
+      "title_en": "Trump administration drops New York Times subpoenas over Air Force One reporting",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/trump-administration-drops-new-york-times-subpoenas-over-air-force-one-reporting/a-78091966?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "도널드 트럼프의 법무부는 대통령이 카타르에서 기증한 에어포스원(Air Force ‌One)을 타고 비행하는 것에 대한 보안 우려를 보도한 뉴욕 타임즈 기자들에게 발부된 소환장을 철회할 예정입니다.",
+      "excerpt_en": "Donald Trump’s Justice Department will withdraw subpoenas issued to New York Times journalists who reported on security concerns about the president flying on a Qatari-donated Air Force ‌One, a prosec",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3361649/us-prosecutors-dropping-new-york-times-subpoenas-over-trump-plane-reporting?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-23T20:07:00+09:00",
+      "latest_published_at": "2026-07-23T20:09:34+09:00",
+      "articles": [
+        {
+          "title": "US prosecutors dropping New York Times subpoenas over Trump plane reporting",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361649/us-prosecutors-dropping-new-york-times-subpoenas-over-trump-plane-reporting?utm_source=rss_feed",
+          "published_at": "20:09"
+        },
+        {
+          "title": "Trump administration drops New York Times subpoenas over Air Force One reporting",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/trump-administration-drops-new-york-times-subpoenas-over-air-force-one-reporting/a-78091966?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "20:07"
+        }
+      ]
+    },
+    {
+      "id": "world-309",
+      "title": "미국 정부, NYT 기자 3명에게 출처 확인 촉구 소환장 철회",
+      "title_en": "U.S. government withdraws subpoenas aimed at compelling 3 NYT reporters to identify sources",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/nyt-subpoenas-withdrawn-air-force-one-9.7281338?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "미국 정부는 엉성한 법률 업무에 대해 연방 판사로부터 비난을 받았고 목요일 뉴욕타임스 기자 3명에게 Arti의 출처에 대해 증언하도록 강요하는 소환장을 철회했습니다.",
+      "excerpt_en": "Criticized by a federal judge for sloppy legal work, the U.S. government on Thursday withdrew subpoenas that would have compelled three New York Times reporters to testify about their sources for arti",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/nyt-subpoenas-withdrawn-air-force-one-9.7281338?cmp=rss",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-23T19:58:07+09:00",
+      "latest_published_at": "2026-07-23T20:00:24+09:00",
+      "articles": [
+        {
+          "title": "DOJ withdraws NYT reporters’ subpoenas after judge calls it ‘sloppy legal work’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/new-york-times-reporters-subpoenas-trump-withdrawn-b3020580.html",
+          "published_at": "20:00"
+        },
+        {
+          "title": "U.S. government withdraws subpoenas aimed at compelling 3 NYT reporters to identify sources",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/nyt-subpoenas-withdrawn-air-force-one-9.7281338?cmp=rss",
+          "published_at": "19:58"
+        }
+      ]
+    },
+    {
+      "id": "world-311",
+      "title": "트럼프 “시진핑, 9월 미국 방문 예정”",
+      "title_en": "China's Xi to visit U.S. in September for talks, Trump says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/china-xi-jingping-trump-us-visit-9.7281287?cmp=rss",
+      "category": "아시아",
+      "primary_source": "CBC",
+      "excerpt": "우리를. 도널드 트럼프 대통령은 목요일 9월 24일 미국을 방문하는 시진핑 중국 국가주석과 인공지능에 관해 논의할 것이라고 밝혔다.",
+      "excerpt_en": "‌U.S. President Donald Trump said on Thursday he will discuss artificial ​intelligence with Chinese President Xi ​Jinping when he visits the United States on Sept. ​24.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/china-xi-jingping-trump-us-visit-9.7281287?cmp=rss",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-23T19:20:10+09:00",
+      "latest_published_at": "2026-07-23T19:42:18+09:00",
+      "articles": [
+        {
+          "title": "Trump confirms date for visit from China’s Xi to talk AI: ‘Biggest thing anybody’s ever seen’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-china-xi-visit-ai-date-b3020554.html",
+          "published_at": "19:42"
+        },
+        {
+          "title": "China's Xi to visit U.S. in September for talks, Trump says",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/china-xi-jingping-trump-us-visit-9.7281287?cmp=rss",
+          "published_at": "19:20"
+        }
+      ]
+    },
+    {
+      "id": "world-377",
+      "title": "미국의 제재로 인해 ICC 수석검사의 운명은 전례 없는 투표로 향하고 있습니다.",
+      "title_en": "Fate of ICC chief prosecutor heads to unprecedented vote as US sanctions keep him out of New York",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/fate-icc-chief-prosecutor-heads-unprecedented-vote-us-135025006",
+      "category": "미국",
+      "primary_source": "ABC News",
+      "excerpt": "전 세계 외교관들이 금요일 뉴욕 유엔 본부에 모여 국제범죄수사국(ICC) 수석검사의 영구 해임 여부를 결정하기 위해 모였습니다.",
+      "excerpt_en": "Diplomats from around the world are gathering at United Nations headquarters in New York on Friday to decide whether to permanently remove the embattled chief prosecutor of the International Criminal ",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/fate-icc-chief-prosecutor-heads-unprecedented-vote-us-135025006",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-23T17:53:43+09:00",
+      "latest_published_at": "2026-07-23T18:45:39+09:00",
+      "articles": [
+        {
+          "title": "Fate of ICC chief prosecutor heads to unprecedented vote as US sanctions keep him out of New York",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/fate-of-icc-chief-prosecutor-heads-to-unprecedented-vote-as-us-sanctions-keep-him-out-of-new-york-101784832340278.html",
+          "published_at": "18:45"
+        },
+        {
+          "title": "Fate of ICC chief prosecutor heads to unprecedented vote as US sanctions keep him out of New York",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/fate-icc-chief-prosecutor-heads-unprecedented-vote-us-135025006",
+          "published_at": "17:53"
+        }
+      ]
+    },
+    {
+      "id": "world-394",
+      "title": "엡스타인 동료 프랑스서 숨진 채 발견",
+      "title_en": "Epstein associate found dead in France",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/video/epstein-associate-found-dead-france/",
+      "category": "유럽",
+      "primary_source": "CBS News",
+      "excerpt": "제프리 엡스타인의 측근 다니엘 시아드가 프랑스에서 숨진 채 발견됐다. Siad는 수년 동안 Epstein을 위해 젊은 여성과 소녀를 모집한 모델 스카우트였습니다. 그는 Eps에 대한 지식이 없다고 부인했습니다.",
+      "excerpt_en": "Daniel Siad, a close associate of Jeffrey Epstein, has been found dead in France. Siad was a model scout who recruited young women and girls for Epstein over many years. He denied any knowledge of Eps",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/epstein-associate-found-dead-france/",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 5,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 39
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Fox News"
+      ],
+      "first_published_at": "2026-07-23T13:11:43+09:00",
+      "latest_published_at": "2026-07-23T21:02:38+09:00",
+      "articles": [
+        {
+          "title": "French modeling scout linked to Jeffrey Epstein found dead in Paris apartment",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/french-modeling-scout-linked-jeffrey-epstein-found-dead-paris-apartment",
+          "published_at": "21:02"
+        },
+        {
+          "title": "Former model scout linked to Jeffrey Epstein found dead in his Paris home",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/former-model-scout-linked-to-jeffrey-epstein-found-dead-in-his-paris-home/",
+          "published_at": "14:26"
+        },
+        {
+          "title": "Epstein associate found dead in France",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/epstein-associate-found-dead-france/",
+          "published_at": "13:11"
+        }
+      ]
+    },
+    {
+      "id": "world-250",
+      "title": "루비오, 홍콩 39곳에 대한 미국 제재, 중국 본토 관리들은 그대로 유지",
+      "title_en": "US sanctions on 39 Hong Kong, mainland Chinese officials will remain in place: Rubio",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/hong-kong/politics/article/3361628/us-sanctions-39-hong-kong-mainland-chinese-officials-will-remain-place-rubio?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "홍콩의 경쟁 감시단체는 입찰자들이 범죄에 대한 광범위한 움직임의 일환으로 프로젝트에 대한 담합에 가담하지 않았다는 법적 선언을 하도록 요구하는 입찰 조항을 개정했습니다.",
+      "excerpt_en": "Hong Kong’s competition watchdog has revised its tender clauses to require bidders to make a statutory declaration that they have not engaged in collusion on a project, as part of a wider move to crim",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3361629/hong-kongs-competition-watchdog-tightens-tender-clauses-target-bid-rigging?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 4,
+        "major_score": 5,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 38
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 1,
+      "sources": [
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-23T12:49:30+09:00",
+      "latest_published_at": "2026-07-24T02:37:53+09:00",
+      "articles": [
+        {
+          "title": "Hong Kong to issue T1 Friday evening as Typhoon Noul nears",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3361668/typhoon-noul-come-closest-hong-kong-late-saturday-sunday?utm_source=rss_feed",
+          "published_at": "02:37"
+        },
+        {
+          "title": "How scholar Ackbar Abbas changed the way people thought about Hong Kong",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/lifestyle/arts/article/3361422/how-scholar-ackbar-abbas-changed-way-people-thought-about-hong-kong?utm_source=rss_feed",
+          "published_at": "23:15"
+        },
+        {
+          "title": "Hong Kong’s competition watchdog tightens tender clauses to target bid-rigging",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3361629/hong-kongs-competition-watchdog-tightens-tender-clauses-target-bid-rigging?utm_source=rss_feed",
+          "published_at": "12:56"
+        },
+        {
+          "title": "US sanctions on 39 Hong Kong, mainland Chinese officials will remain in place: Rubio",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/politics/article/3361628/us-sanctions-39-hong-kong-mainland-chinese-officials-will-remain-place-rubio?utm_source=rss_feed",
+          "published_at": "12:49"
         }
       ]
     }
