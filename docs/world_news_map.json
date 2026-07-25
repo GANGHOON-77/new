@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-25",
-  "batch_time": "18:00",
+  "date": "2026-07-26",
+  "batch_time": "00:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,116 +8,158 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-07-25T19:20:00.963986+09:00",
+  "updated_at": "2026-07-26T00:41:06.399553+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 531,
-  "cluster_count_total": 420,
+  "article_count_total": 472,
+  "cluster_count_total": 377,
   "clusters": [
     {
-      "id": "world-157",
-      "title": "중동 위기: 테헤란이 이 지역의 미군 기지를 목표로 삼자 미국은 이란 전역에 공습을 감행했습니다.",
-      "title_en": "Middle East crisis: US carries out strikes across Iran as Tehran targets American bases in region – as it happened",
+      "id": "world-122",
+      "title": "사우디, 분쟁 심화로 예멘 후티 반군 기지 공습",
+      "title_en": "Saudi strikes Houthi sites in Yemen as conflict flares",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/saudi-strikes-houthi-sites-in-yemen-as-conflict-flares-101784931476189.html",
       "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "최근 공격은 트럼프가 테헤란과 후티 동맹국에 대해 '중대한 군사적 처벌'을 맹세한 이후에 발생했습니다. 앞서 보도한 바와 같이, 이란군은 금요일에 미군을 표적으로 공격을 했다고 밝혔습니다.",
-      "excerpt_en": "Latest attacks come after Trump vowed ‘major military punishment’ for Tehran and its Houthi allies As we reported earlier, Iran ’s military said on Friday that it carried out attacks targeting US mili",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates",
+      "primary_source": "Hindustan Times",
+      "excerpt": "사우디아라비아는 이란의 지원을 받는 단체가 왕국에 대한 해상 봉쇄를 발표하고 선박을 공격한 후 2명이 부상했다고 반군 언론이 보도하면서 금요일 호데이다의 후티 군사 목표물을 공격했습니다. 사우드",
+      "excerpt_en": "Saudi Arabia struck Houthi military targets in Hodeida on Friday with rebel media reporting two injured after the Iran-backed group announced a maritime blockade of the kingdom and hit its ships. Saud",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3361814/saudi-strikes-houthi-sites-yemen-conflict-flares?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 89,
+      "score": 93,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 70
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 6,
       "sources": [
+        "ABC News Australia",
+        "CBC",
         "CBS News",
-        "Euronews",
-        "France24",
-        "The Guardian"
+        "DW",
+        "Hindustan Times",
+        "SCMP"
       ],
-      "first_published_at": "2026-07-24T17:20:09+09:00",
-      "latest_published_at": "2026-07-25T10:08:36+09:00",
+      "first_published_at": "2026-07-24T22:17:55+09:00",
+      "latest_published_at": "2026-07-25T15:14:50+09:00",
       "articles": [
         {
-          "title": "Iran keeps targeting American bases as U.S. interceptor stockpiles dwindle",
+          "title": "Iran-backed Houthis step up conflict with Saudis by targeting oil facilities",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
-          "published_at": "10:08"
+          "published_at": "15:14"
         },
         {
-          "title": "US pummels Iran as Tehran targets regional bases stationing US forces",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260724-us-pummels-iranian-sites-tehran-targets-regional-bases-stationing-us-forces",
-          "published_at": "20:48"
+          "title": "Yemen's Houthis fire missiles, drones at Saudi Arabia",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/houthis-missiles-saudi-arabia-hodeida-9.7283754?cmp=rss",
+          "published_at": "12:50"
         },
         {
-          "title": "Iran military says it targeted US bases in Bahrain, Jordan and Kuwait",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/24/iran-military-says-it-targeted-us-bases-in-bahrain-jordan-and-kuwait",
-          "published_at": "20:06"
+          "title": "Houthis and Saudi Arabia trade fire amid Red Sea blockade",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-25/houthis-claim-missile-strike-on-saudi-arabia/106958410",
+          "published_at": "10:21"
         },
         {
-          "title": "Middle East crisis: US carries out strikes across Iran as Tehran targets American bases in region – as it happened",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/jul/24/us-iran-donald-trump-iraq-bahrain-kuwait-jordan-latest-news-updates",
-          "published_at": "17:20"
+          "title": "Iran war: Houthis vow response to 'dangerous escalation' by Saudi Arabia",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "03:54"
+        },
+        {
+          "title": "Saudi strikes Houthi sites in Yemen as conflict flares",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3361814/saudi-strikes-houthi-sites-yemen-conflict-flares?utm_source=rss_feed",
+          "published_at": "23:05"
+        },
+        {
+          "title": "Saudi strikes Houthi sites in Yemen as conflict flares",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/saudi-strikes-houthi-sites-in-yemen-as-conflict-flares-101784931476189.html",
+          "published_at": "22:17"
         }
       ]
     },
     {
-      "id": "world-0",
-      "title": "인도 교육부 장관, 청소년 시위자들의 큰 승리로 사임",
-      "title_en": "Indian education minister resigns in major win for youth protesters",
+      "id": "world-121",
+      "title": "인도: 다르멘드라 프라단 교육부 장관 사임 후 바퀴벌레 시위 중단",
+      "title_en": "India: Cockroaches end protest after education minister Dharmendra Pradhan resigns",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPajR0a3JtLUFZTGVwMWJFUDdCR2M1UlpfRGpUU3FEUmlsM3lsNnlsNGMzNkx4VFRlVmNyWUdvTHgwbFBuaVF2czduWDdDNXg2X3Z2M0pOTEFSZklJaVBVbXlYLTZ0czY5V0lUWjNob0d0SnF5NWE4dDlUamNvUTVDT2ZrV1l4dmNVdEZjbVl3YjJYajJ1RDJwbzNZWjdWZGdoNm11NUhvb1hiVEhmbU1rRDZEeVBmdDBlS3c?oc=5",
+      "title_url": "https://www.dw.com/en/india-cockroaches-end-protest-after-education-minister-dharmendra-pradhan-resigns/live-78108089?maca=en-rss-en-all-1573-xml-mrss",
       "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "인도 교육부 장관이 토요일 사임하여 시험지 유출에 대한 책임을 져야 한다고 요구하고 축하 행사를 벌인 청소년 시위자들에게 큰 승리를 안겨주었습니다.",
-      "excerpt_en": "India’s education minister resigned on Saturday, handing a major victory to youth protesters who had demanded he quit ‌to take responsibility for examination paper leaks, and who erupted in celebratio",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3361839/indias-education-minister-quits-major-win-youth-protesters?utm_source=rss_feed",
+      "primary_source": "DW",
+      "excerpt": "인도의 바퀴벌레 잔타당은 교육부 장관이 사임하고 정부가 다수의 활동가 운동 데마에 합의한 후 토요일 전국적인 시위를 취소했습니다.",
+      "excerpt_en": "India’s viral Cockroach Janta Party called off its nationwide protests on Saturday after the country’s education minister resigned and the government agreed to a number of the activist movement’s dema",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/world/india/india-education-minister-resigns-escalating-cockroach-protests-challen-rcna589188",
       "translation_status": "ok",
-      "score": 85,
+      "score": 89,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
         "time_score": 3,
-        "raw75": 64
+        "raw75": 67
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 8,
+      "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 8,
       "sources": [
-        "Bangkok Post",
+        "ABC News",
+        "ABC News Australia",
+        "CBS News",
         "Channel News Asia",
-        "Reuters",
-        "SCMP"
+        "DW",
+        "Hindustan Times",
+        "NBC News",
+        "Sky News"
       ],
-      "first_published_at": "2026-07-25T06:14:00+09:00",
-      "latest_published_at": "2026-07-25T10:01:49+09:00",
+      "first_published_at": "2026-07-25T06:21:00+09:00",
+      "latest_published_at": "2026-07-25T13:00:42+09:00",
       "articles": [
         {
-          "title": "India’s education minister quits in major win for youth protesters",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3361839/indias-education-minister-quits-major-win-youth-protesters?utm_source=rss_feed",
-          "published_at": "10:01"
+          "title": "From ‘Cockroaches Won’ to ‘Win to Protesters’: Here's how US media covering Dharmendra Pradhan's resignation",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/from-cockroaches-won-to-win-to-protesters-heres-how-us-media-covering-dharmendra-pradhans-resignation-101784982595063.html",
+          "published_at": "13:00"
+        },
+        {
+          "title": "India education minister resigns after weeks of \"Cockroach\" protests",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/india-protests-education-cockroach-party/",
+          "published_at": "12:54"
+        },
+        {
+          "title": "India's education minister resigns after weeks of student-led protests",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/indias-education-minister-resigns-after-weeks-student-led-135077325",
+          "published_at": "10:59"
+        },
+        {
+          "title": "‘Cockroaches won’: India’s youth protest leaders declare victory as minister resigns",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/india/india-education-minister-resigns-escalating-cockroach-protests-challen-rcna589188",
+          "published_at": "10:42"
+        },
+        {
+          "title": "Indian education minister resigns after Cockroach movement protests",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-25/indian-education-minister-resigns-after-protests/106958482",
+          "published_at": "10:28"
         },
         {
           "title": "Indian education minister resigns following nationwide youth protests",
@@ -126,37 +168,31 @@
           "published_at": "09:48"
         },
         {
-          "title": "Indian minister steps down over exam scandal",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3291597/indian-minister-steps-down-over-exam-scandal",
-          "published_at": "09:30"
+          "title": "India's 'Cockroach' movement to end protests after education minister quits",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/indias-education-minister-resigns-after-mass-protests-led-by-cockroach-movement-13566842",
+          "published_at": "09:05"
         },
         {
-          "title": "India's education minister resigns after youth protests",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVmozZTBOTU42dE9YZHB4bTV5TVUyU01UUjZydFN6aGo3ejJXeFpSUVhJZ3pkYWE5SHNsWjRobGROVV9YS0g3aU9tRElrWmFqbkZtN2I3TDVXaEVlSkdXUl9NSkJIWUViM09QWkxSTm1KMmdSeW9PMk96d3ZXVUNDNnJMTFhNYUotZ3V5aDNwNTZrYVkydTFXYkNDZXZYUmJ3Z1NSYw?oc=5",
-          "published_at": "09:06"
-        },
-        {
-          "title": "Indian education minister resigns in major win for youth protesters",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPajR0a3JtLUFZTGVwMWJFUDdCR2M1UlpfRGpUU3FEUmlsM3lsNnlsNGMzNkx4VFRlVmNyWUdvTHgwbFBuaVF2czduWDdDNXg2X3Z2M0pOTEFSZklJaVBVbXlYLTZ0czY5V0lUWjNob0d0SnF5NWE4dDlUamNvUTVDT2ZrV1l4dmNVdEZjbVl3YjJYajJ1RDJwbzNZWjdWZGdoNm11NUhvb1hiVEhmbU1rRDZEeVBmdDBlS3c?oc=5",
-          "published_at": "06:14"
+          "title": "India: Cockroaches end protest after education minister Dharmendra Pradhan resigns",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/india-cockroaches-end-protest-after-education-minister-dharmendra-pradhan-resigns/live-78108089?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "06:21"
         }
       ]
     },
     {
-      "id": "world-125",
-      "title": "ICC, 성추행 혐의 카림 칸 검사장 해임",
-      "title_en": "ICC dismisses chief prosecutor Karim Khan over sexual misconduct allegations",
+      "id": "world-113",
+      "title": "ICC 회원국, 검찰총장 해임 결의안 표결",
+      "title_en": "ICC member nations vote to remove chief prosecutor",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say",
+      "title_url": "https://www.npr.org/2026/07/24/nx-s1-5901054/icc-member-nations-vote-to-remove-chief-prosecutor",
       "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "ICC는 지난 금요일 국제형사재판소 회원국들이 심각한 위법 행위를 저지른 카림 칸 검사를 해임하기로 결정했다고 밝혔다. 법원 행정처를 운영하는 외교관",
-      "excerpt_en": "Member states of the International Criminal Court voted to dismiss prosecutor Karim Khan for serious misconduct, the ICC said on Friday. Diplomats running ‌the executive bureau of the court’s governin",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/article/3361809/international-criminal-court-members-dismiss-prosecutor-karim-khan-insiders-say?utm_source=rss_feed",
+      "primary_source": "NPR",
+      "excerpt": "국제형사재판소의 지지자들은 금요일 검찰총장이 축출된 후 국제형사재판소가 미지의 영역에 빠진 지 하루 만에 앞으로 나아갈 방향을 계획하기 위해 노력하고 있습니다.",
+      "excerpt_en": "Supporters of the International Criminal Court work to chart a course forward a day after the global institution was plunged into uncharted territory following the ouster Friday of its chief prosecuto",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/icc-allegations-chief-prosecutor-ouster-9.7283826?cmp=rss",
       "translation_status": "ok",
       "score": 85,
       "score_breakdown": {
@@ -167,23 +203,28 @@
         "time_score": 3,
         "raw75": 64
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 8,
+      "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 8,
+      "source_count": 7,
       "sources": [
+        "CBC",
         "DW",
         "Fox News",
-        "France24",
         "NPR",
         "New York Times",
-        "SCMP",
         "The Independent",
         "Times of India"
       ],
-      "first_published_at": "2026-07-24T18:12:45+09:00",
-      "latest_published_at": "2026-07-25T09:51:00+09:00",
+      "first_published_at": "2026-07-24T20:25:58+09:00",
+      "latest_published_at": "2026-07-25T14:21:30+09:00",
       "articles": [
+        {
+          "title": "ICC regroups after ousting chief prosecutor over sexual misconduct allegations",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/icc-allegations-chief-prosecutor-ouster-9.7283826?cmp=rss",
+          "published_at": "14:21"
+        },
         {
           "title": "The ICC looks ahead after the ouster of its chief prosecutor",
           "source_name": "The Independent",
@@ -225,127 +266,69 @@
           "source_name": "NPR",
           "url": "https://www.npr.org/2026/07/24/nx-s1-5901054/icc-member-nations-vote-to-remove-chief-prosecutor",
           "published_at": "20:25"
-        },
-        {
-          "title": "ICC chief prosecutor Karim Khan removed from post over sexual misconduct allegations",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/article/3361809/international-criminal-court-members-dismiss-prosecutor-karim-khan-insiders-say?utm_source=rss_feed",
-          "published_at": "18:17"
-        },
-        {
-          "title": "ICC dismisses chief prosecutor Karim Khan over sexual misconduct allegations",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say",
-          "published_at": "18:12"
         }
       ]
     },
     {
-      "id": "world-156",
-      "title": "사우디, 분쟁 심화로 예멘 후티 반군 기지 공습",
-      "title_en": "Saudi strikes Houthi sites in Yemen as conflict flares",
+      "id": "world-12",
+      "title": "중국 남부가 태풍 노울에 대비하면서 선전 철도 및 항공 서비스가 취소되었습니다.",
+      "title_en": "Shenzhen rail and air services cancelled as southern China braces for Typhoon Noul",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/saudi-strikes-houthi-sites-in-yemen-as-conflict-flares-101784931476189.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "사우디아라비아와 예멘의 테헤란 동맹 후티 운동은 리야드가 후티 미사일에 대한 보복으로 항구 도시 호데이다를 폭격한 이후 밤새 이란 전쟁에서 새로운 전선을 개척하는 데 가까워졌습니다.",
-      "excerpt_en": "Saudi Arabia and Yemen’s Tehran-allied Houthi movement edged closer to opening a new front in the Iran war overnight, after Riyadh bombed the port city of Hodeidah in retaliation for a Houthi missile ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/week-asia/politics/article/3361822/houthi-blockade-saudi-trade-threatens-wider-middle-east-conflict?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 83,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 62
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "France24",
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-24T22:17:55+09:00",
-      "latest_published_at": "2026-07-25T08:00:18+09:00",
-      "articles": [
-        {
-          "title": "Houthi blockade of Saudi trade threatens wider Middle East conflict",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/politics/article/3361822/houthi-blockade-saudi-trade-threatens-wider-middle-east-conflict?utm_source=rss_feed",
-          "published_at": "08:00"
-        },
-        {
-          "title": "Saudi strikes Houthi sites in Yemen as conflict flares",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3361814/saudi-strikes-houthi-sites-yemen-conflict-flares?utm_source=rss_feed",
-          "published_at": "23:05"
-        },
-        {
-          "title": "Yemen's Houthis say they hit Saudi Arabia as Trump weighs harder Iran strikes",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260724-yemen-s-houthis-say-they-hit-saudi-arabia-as-trump-weighs-harder-iran-strikes",
-          "published_at": "22:31"
-        },
-        {
-          "title": "Saudi strikes Houthi sites in Yemen as conflict flares",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/saudi-strikes-houthi-sites-in-yemen-as-conflict-flares-101784931476189.html",
-          "published_at": "22:17"
-        }
-      ]
-    },
-    {
-      "id": "world-6",
-      "title": "태풍 '노울' 접근으로 비계 붕괴, 항공편 339편 결항",
-      "title_en": "Scaffolding collapses, 339 flights cancelled as Typhoon Noul moves closer",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/hong-kong/article/3361817/t3-signal-expected-between-1pm-and-3pm-saturday-classes-be-suspended?utm_source=rss_feed",
+      "title_url": "https://www.scmp.com/news/china/politics/article/3361828/rail-and-air-services-cancelled-and-schools-shut-southern-china-braces-typhoon-noul?utm_source=rss_feed",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "최대 시속 110km의 돌풍이 홍콩 일부 지역을 강타하고 연간 330회 이상의 항공편이 홍콩 지역을 강타하면서 홍콩의 한 건물 위로 상당 부분의 비계가 무너졌습니다.",
-      "excerpt_en": "A large section of scaffolding has collapsed onto a building in Hong Kong as Typhoon Noul heads towards the region, with gusts of up to 110km/h battering parts of the city and more than 330 flights ca",
+      "excerpt": "태풍이 해안으로 향함에 따라 중국 남부에서는 열차 운행이 중단되고 학교도 운행이 중단되었으며 주민들은 대피했습니다. 국립기상청은 주황색 태풍경보를 발령했습니다.",
+      "excerpt_en": "Trains were stopped, schools were halted and residents were evacuated in southern China as Typhoon Noul headed towards the coast. The National Meteorological Centre issued an orange typhoon alert – th",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/hong-kong/article/3361817/t3-signal-expected-between-1pm-and-3pm-saturday-classes-be-suspended?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/china/politics/article/3361828/rail-and-air-services-cancelled-and-schools-shut-southern-china-braces-typhoon-noul?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 81,
+      "score": 84,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 6,
       "sources": [
         "ABC News",
         "Bangkok Post",
+        "CBC",
+        "Channel News Asia",
         "Reuters",
         "SCMP"
       ],
-      "first_published_at": "2026-07-25T02:25:13+09:00",
-      "latest_published_at": "2026-07-25T09:31:00+09:00",
+      "first_published_at": "2026-07-25T05:20:37+09:00",
+      "latest_published_at": "2026-07-25T12:08:12+09:00",
       "articles": [
+        {
+          "title": "Typhoon Noul puts Southern China on alert, thousands evacuated as Hong Kong cancels flights",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/typhoon-noul-china-flights-cancelled-9.7283721?cmp=rss",
+          "published_at": "12:08"
+        },
+        {
+          "title": "Southern China braces for Typhoon Noul, suspends public transport",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWTAyMXNxNGtaUXo0Z3pKNk0wdDJTSWxibmNsNi1TTlNLNDdEUnB4M1BfeXBHQWJTeXZmS3JTWVlTUURmZlFCWnNQeVRZY0dmaHprbnhXS21ZTXA2RFVqVFkwZDlWTnl1QmNGQUNNdlQyaTNsUWlibnlfcDVBaDdOY2dtYS1sX0ZCRHVDa2FlX2l1aXUwZ0tlbkR2dlg5bzdodG9NenpacW9mdmV6WVdnQ2d0S2dHbWdw?oc=5",
+          "published_at": "11:52"
+        },
+        {
+          "title": "China evacuates 20,000 people as Typhoon Noul nears",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/china-typhoon-noul-20000-people-evacuate-hong-kong-guangdong-6277921",
+          "published_at": "10:19"
+        },
         {
           "title": "Southern China braces for typhoon Noul",
           "source_name": "Bangkok Post",
           "url": "https://www.bangkokpost.com/world/3291602/southern-china-braces-for-typhoon-noul",
           "published_at": "09:31"
-        },
-        {
-          "title": "Southern China braces for typhoon Noul, suspends public transport",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWTAyMXNxNGtaUXo0Z3pKNk0wdDJTSWxibmNsNi1TTlNLNDdEUnB4M1BfeXBHQWJTeXZmS3JTWVlTUURmZlFCWnNQeVRZY0dmaHprbnhXS21ZTXA2RFVqVFkwZDlWTnl1QmNGQUNNdlQyaTNsUWlibnlfcDVBaDdOY2dtYS1sX0ZCRHVDa2FlX2l1aXUwZ0tlbkR2dlg5bzdodG9NenpacW9mdmV6WVdnQ2d0S2dHbWdw?oc=5",
-          "published_at": "07:35"
         },
         {
           "title": "Typhoon Noul nears southern China, putting region on high alert for heavy rain and wind",
@@ -358,217 +341,111 @@
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/china/politics/article/3361828/rail-and-air-services-cancelled-and-schools-shut-southern-china-braces-typhoon-noul?utm_source=rss_feed",
           "published_at": "05:20"
-        },
-        {
-          "title": "Scaffolding collapses, 339 flights cancelled as Typhoon Noul moves closer",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/article/3361817/t3-signal-expected-between-1pm-and-3pm-saturday-classes-be-suspended?utm_source=rss_feed",
-          "published_at": "02:25"
         }
       ]
     },
     {
-      "id": "world-78",
-      "title": "올해에는 이미 2025년 전체보다 더 많은 미국 홍역 사례가 발생했습니다.",
-      "title_en": "There are already more US measles cases this year than in all of 2025",
+      "id": "world-70",
+      "title": "산불로 인해 프랑스 남부와 스페인 중부 지역에서 20만 명이 넘는 사람들이 집을 떠나야 했습니다.",
+      "title_en": "Wildfires force over 200K people in southern France, central Spain to flee homes",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVzRoRE04SEhYVnVZQ1F3aWduemwtdENSQS1LckVlR0RfVEhBUGotNHc4clkwYzMxckpycTBzbm9BQVROeTFhSE01N3N1a3ZKVUwzR2xQNVkweFNIblJmTUg0Rm1fZzlvWFVPOEhrb21hNzZaWG9wMlFBUmVxNi01dWtSNDVRTFY1Q1ZSMUlwWmlaVmtaY1NCVFhUVlVFSmNTWENJSUZB?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "올해 미국의 홍역 사례 수는 이미 2025년 전체 기록을 넘어섰습니다.",
-      "excerpt_en": "The number of measles cases in the U.S. this year has already surpassed the record-breaking tally for all of 2025.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/health/measles-cases-u-s-9.7282606?cmp=rss",
+      "title_url": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "강풍이 보르도를 향해 화재를 몰고 마드리드에 연기가 건강 경고를 촉발하자 수백 명의 소방관이 화재와 싸우고 있습니다.",
+      "excerpt_en": "Hundreds of firefighters battle blazes as strong winds drive fires towards Bordeaux and smoke prompts health warnings in Madrid Unrestrained wildfires in Spain and France have forced more than 250,000",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain",
       "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "CBC",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-24T15:24:00+09:00",
-      "latest_published_at": "2026-07-25T07:03:28+09:00",
-      "articles": [
-        {
-          "title": "Over 2,300 measles cases recorded in US, worst outbreak in 35 years | What's happening",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/over-2-300-measles-cases-in-us-worst-outbreak-in-35-years-decline-in-vaccination-rates-whats-happening-101784953016181.html",
-          "published_at": "07:03"
-        },
-        {
-          "title": "U.S. measles cases have already broken last year's record",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/health/measles-cases-u-s-9.7282606?cmp=rss",
-          "published_at": "17:15"
-        },
-        {
-          "title": "There are already more US measles cases this year than in all of 2025",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVzRoRE04SEhYVnVZQ1F3aWduemwtdENSQS1LckVlR0RfVEhBUGotNHc4clkwYzMxckpycTBzbm9BQVROeTFhSE01N3N1a3ZKVUwzR2xQNVkweFNIblJmTUg0Rm1fZzlvWFVPOEhrb21hNzZaWG9wMlFBUmVxNi01dWtSNDVRTFY1Q1ZSMUlwWmlaVmtaY1NCVFhUVlVFSmNTWENJSUZB?oc=5",
-          "published_at": "15:24"
-        }
-      ]
-    },
-    {
-      "id": "world-101",
-      "title": "유엔 인권최고대표, 임기 4년 연장 투표에서 반대에 부딪혀",
-      "title_en": "UN human rights chief faces opposition in vote to extend his term for another four years",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/china-israel-antonio-guterres-gaza-human-rights-watch-b3021216.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "유엔 총회는 미국, 이스라엘, 러시아의 반대에도 불구하고 투르크에게 새로운 4년 임기를 부여하기로 144대 10으로 표결했습니다.",
-      "excerpt_en": "UN General Assembly votes 144-10 to grant Turk a new four-year term, despite objections from the US, Israel and Russia.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/7/25/how-volker-turk-won-a-new-term-as-un-rights-chief-despite-israel-opposition?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 75,
+      "score": 81,
       "score_breakdown": {
         "article_score": 22,
-        "diversity_score": 15,
+        "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
         "time_score": 3,
-        "raw75": 56
+        "raw75": 61
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-24T18:21:16+09:00",
-      "latest_published_at": "2026-07-25T09:54:44+09:00",
-      "articles": [
-        {
-          "title": "How Volker Turk won a new term as UN rights chief despite Israel opposition",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/25/how-volker-turk-won-a-new-term-as-un-rights-chief-despite-israel-opposition?traffic_source=rss",
-          "published_at": "09:54"
-        },
-        {
-          "title": "UN rights chief Turk wins second term despite US and Israeli opposition",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/25/un-rights-chief-turk-wins-second-term-despite-us-and-israeli-opposition?traffic_source=rss",
-          "published_at": "00:16"
-        },
-        {
-          "title": "UN human rights chief faces opposition in vote to extend his term for another four years",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/un-human-rights-chief-faces-opposition-in-vote-to-extend-his-term-for-another-four-years-101784919516615.html",
-          "published_at": "18:58"
-        },
-        {
-          "title": "UN human rights chief faces opposition in vote to extend his term for another four years",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/china-israel-antonio-guterres-gaza-human-rights-watch-b3021216.html",
-          "published_at": "18:21"
-        }
-      ]
-    },
-    {
-      "id": "world-283",
-      "title": "북아일랜드 경찰, 아일랜드 국경 인근 차량폭탄 차단",
-      "title_en": "Police in Northern Ireland intercept car bomb near Irish border",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/police-northern-ireland-intercept-car-bomb-irish-border-135048934",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "아일랜드 방송인 RTE는 폭탄이 북아일랜드로 운반되고 있으며 공격을 위한 차량 하부 폭발물로 사용될 것으로 예상된다고 보도했습니다.",
-      "excerpt_en": "Irish broadcaster RTE reported that the bomb was being transported to Northern Ireland and was expected to be used as an under-car explosive for an attack.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/irish-police-find-explosive-device-in-car-near-border-with-northern-ireland-101784906340290.html",
-      "translation_status": "ok",
-      "score": 75,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 56
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         "ABC News",
-        "Hindustan Times",
-        "The Independent"
+        "AP News",
+        "Sydney Morning Herald",
+        "The Guardian"
       ],
-      "first_published_at": "2026-07-24T13:18:51+09:00",
-      "latest_published_at": "2026-07-24T16:46:06+09:00",
+      "first_published_at": "2026-07-24T21:28:15+09:00",
+      "latest_published_at": "2026-07-25T14:50:23+09:00",
       "articles": [
         {
-          "title": "Car bomb intercepted by police near Irish border",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/monaghan-car-bomb-gardai-ireland-border-b3020928.html",
-          "published_at": "16:46"
+          "title": "More than 250,000 people flee wildfires in France and Spain",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain",
+          "published_at": "14:50"
         },
         {
-          "title": "Irish police find explosive device in car near border with Northern Ireland",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/irish-police-find-explosive-device-in-car-near-border-with-northern-ireland-101784906340290.html",
-          "published_at": "15:23"
+          "title": "More than 250,000 people flee their homes in France and Spain as wildfires burn",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMFdwNENnTmc5a0NsRzY4cjVhZ3VKUDlzOHFPWjZZZ1BuZ3hsV0FkbVlHVEhYSS0yS3gxMk1fN2t4bFI5aDZGY3ptQmU0emEtVTlBUVcyQVctck9fam40Rm5VTTVaX2ZmMEUxY29WQ2NqYzY3Tm9sLWZ6TnByNVFORERLTEdjc0FzazJiVXBUWWJtUU0?oc=5",
+          "published_at": "13:54"
         },
         {
-          "title": "Police in Northern Ireland intercept car bomb near Irish border",
+          "title": "200,000 people forced to evacuate as wildfires rip through Spain and France",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/200-000-people-forced-to-evacuate-as-wildfires-rip-through-spain-and-france-20260725-p60ijd.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "08:41"
+        },
+        {
+          "title": "Wildfires force over 200K people in southern France, central Spain to flee homes",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/police-northern-ireland-intercept-car-bomb-irish-border-135048934",
-          "published_at": "13:18"
+          "url": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368",
+          "published_at": "21:28"
         }
       ]
     },
     {
-      "id": "world-305",
-      "title": "멜라니아 트럼프는 마지막 총격 시도 이후 백악관 특파원 만찬 재실행을 건너뛰었습니다.",
-      "title_en": "Melania Trump is skipping redo of White House Correspondents’ Dinner after attempted shooting at last one",
+      "id": "world-247",
+      "title": "오늘 백악관 특파원 만찬: 시간, 장소, 생방송 시청 장소",
+      "title_en": "White House Correspondents' Dinner today: Time, venue, where to watch live",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/melania-trump-white-house-correspondents-dinner-b3020967.html",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/white-house-correspondents-dinner-today-time-venue-where-to-watch-live-101784923988605.html",
       "category": "미국",
-      "primary_source": "The Independent",
+      "primary_source": "Hindustan Times",
       "excerpt": "총격범이 백악관 특파원 만찬에 난입한 지 3개월 후, 도널드 트럼프는 삼엄한 경비 속에서 오늘 아침 행사 재실행을 준비하고 있습니다.",
       "excerpt_en": "Three months after a gunman stormed the White House Correspondents' Dinner, Donald Trump is preparing for a redo of the event this morning under heavy security.",
       "excerpt_source": "Sydney Morning Herald",
       "excerpt_url": "https://www.smh.com.au/world/donald-trump-prepares-to-redo-white-house-correspondents-dinner-20260725-p60ig2.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
-      "score": 75,
+      "score": 80,
       "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 56
+        "raw75": 60
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
+        "CBS News",
         "Hindustan Times",
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-07-24T13:34:35+09:00",
-      "latest_published_at": "2026-07-24T23:45:20+09:00",
+      "first_published_at": "2026-07-24T20:49:24+09:00",
+      "latest_published_at": "2026-07-25T10:50:37+09:00",
       "articles": [
+        {
+          "title": "Donald Trump hints he’ll run for president again at White House correspondents’ dinner: ‘I’m gonna do it’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/tv/news/trump-running-for-third-term-video-b3021425.html",
+          "published_at": "10:50"
+        },
         {
           "title": "Where are Melania Trump, JD Vance and Marco Rubio? Why they are skipping today's White House Correspondents' Dinner",
           "source_name": "Hindustan Times",
@@ -582,108 +459,253 @@
           "published_at": "21:37"
         },
         {
+          "title": "7/24: The Takeout with Major Garrett",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/072426-the-takeout-with-major-garrett/",
+          "published_at": "21:00"
+        },
+        {
           "title": "White House Correspondents' Dinner today: Time, venue, where to watch live",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/white-house-correspondents-dinner-today-time-venue-where-to-watch-live-101784923988605.html",
           "published_at": "20:49"
-        },
-        {
-          "title": "Trump to address White House Correspondents' Dinner after April shooting scare",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-to-address-white-house-correspondents-dinner-after-april-shooting-scare-101784914811261.html",
-          "published_at": "17:45"
-        },
-        {
-          "title": "Secret Service issues warning ahead of White House Correspondents' Dinner, says threat level is ‘off the charts’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/secret-service-issues-warning-ahead-of-white-house-correspondents-dinner-says-threat-level-is-off-the-charts-101784904195190.html",
-          "published_at": "14:58"
-        },
-        {
-          "title": "Melania Trump to snub rescheduled WH Correspondents' Dinner? Rising threats against her family explained, ‘Blood for…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/melania-trump-to-snub-rescheduled-wh-correspondents-dinner-all-we-know-amid-intensifying-threats-against-her-family-101784899468904.html",
-          "published_at": "13:34"
-        },
-        {
-          "title": "Melania Trump is skipping redo of White House Correspondents’ Dinner after attempted shooting at last one",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/melania-trump-white-house-correspondents-dinner-b3020967.html",
-          "published_at": "13:34"
         }
       ]
     },
     {
-      "id": "world-10",
-      "title": "삼성전자, SK그룹, 한국이 AI 강국으로 진출함에 따라 9,500억 달러 규모의 거래 성사",
-      "title_en": "Samsung Elec, SK Group seal $950 bln deals as South Korea hosts AI powers",
+      "id": "world-100",
+      "title": "시리아에서 버스 두 대가 충돌해 최소 35명이 사망했다.",
+      "title_en": "Two buses collide in Syria, killing at least 35 people",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFdzRUhVaUx2OUhLeVplQ0o1eFJYV3JzcEdJUXBPblRrcy1UUzJrOXlXalRSRFctZUFEUEJqa3k0ZHdSN3JLelpRNGRpSVB3RUYwMk1lbW0tRmtnN1lOYU4yOG9GbDNaNDlVemZiX2UxVExUQzZuV2FGY1NwdE1WbHdWRmJsdzhCdUNQRXJrbloyNnpQanJ2R2pRTWRUc1YxcHNvc192Qnc5SEZqQTJ2WmlFTF9YQTgwYmFkOF9ZUjMyeWVyM05RcVJhcENXRkpU?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "이번 거래는 미국 AI 기업들이 기술 기업들을 한국의 반도체 및 메모리 리더들과 더욱 긴밀한 파트너십으로 이끌기 위한 최근 움직임입니다.",
-      "excerpt_en": "The deals are the latest moves by US AI firms to driving tech companies into closer partnerships with South Korea's semiconductor and memory leaders.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/east-asia/samsung-sk-group-seal-us950-billion-deals-us-ai-firms-lock-in-south-korean-chip-supply-6277866",
+      "title_url": "https://www.aljazeera.com/news/2026/7/25/two-buses-collide-in-syria-killing-at-least-35-people?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "시리아에서 버스 충돌 사고로 최소 35명이 사망했으며 국영 언론은 구조 활동이 진행되면서 사망자 수가 증가했다고 밝혔습니다.",
+      "excerpt_en": "A bus crash in Syria has resulted in at least 35 fatalities, with state media indicating an increase in the death toll as rescue efforts are ongoing.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/syria-bus-crash-death-toll-rises-state-media-reports-101784982218951.html",
       "translation_status": "ok",
-      "score": 68,
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-25T11:14:14+09:00",
+      "latest_published_at": "2026-07-25T13:56:03+09:00",
+      "articles": [
+        {
+          "title": "At least 35 people killed after buses collide in Syria, state media reports",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/35-people-killed-after-buses-collide-syria-state-135078799",
+          "published_at": "13:56"
+        },
+        {
+          "title": "35 dead in Syria as two buses collide on Deir Az Zor–Damascus road",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/syria-bus-crash-death-toll-rises-state-media-reports-101784982218951.html",
+          "published_at": "12:25"
+        },
+        {
+          "title": "Two buses collide in Syria, killing at least 35 people",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/25/two-buses-collide-in-syria-killing-at-least-35-people?traffic_source=rss",
+          "published_at": "11:14"
+        }
+      ]
+    },
+    {
+      "id": "world-131",
+      "title": "인도 장관, 시험 스캔들로 사임",
+      "title_en": "Indian minister steps down over exam scandal",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3291597/indian-minister-steps-down-over-exam-scandal",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "인도 교육부 장관이 지난 토요일 사임해 시험지 유출에 대한 책임을 져야 한다고 요구한 청년 시위자들에게 큰 승리를 안겨주었습니다.",
+      "excerpt_en": "India's education minister resigned on Saturday, handing a major victory to youth protesters who had demanded he quit to take responsibility for examination paper leaks and erupted in celebration on n",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/india-education-minister-resigns-9.7283715?cmp=rss",
+      "translation_status": "ok",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Bangkok Post",
+        "CBC",
+        "France24"
+      ],
+      "first_published_at": "2026-07-25T09:30:00+09:00",
+      "latest_published_at": "2026-07-25T12:47:33+09:00",
+      "articles": [
+        {
+          "title": "India's education minister resigns in major victory for youth protesters",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/india-s-education-minister-resigns-in-major-victory-for-youth-protesters",
+          "published_at": "12:47"
+        },
+        {
+          "title": "Youth protesters celebrate after India's education minister resigns following exam leak scandal",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/india-education-minister-resigns-9.7283715?cmp=rss",
+          "published_at": "12:18"
+        },
+        {
+          "title": "Indian minister steps down over exam scandal",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3291597/indian-minister-steps-down-over-exam-scandal",
+          "published_at": "09:30"
+        }
+      ]
+    },
+    {
+      "id": "world-165",
+      "title": "그랜드 헤이븐 타운십 주택 화재: 살인-자살이었나요? 8명이 숨진 채 발견된 후 최신 업데이트",
+      "title_en": "Grand Haven Township house fire: Was it a murder-suicide? Latest updates after 8 found dead",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/grand-haven-township-house-fire-was-it-a-murder-suicide-latest-updates-after-8-found-dead-101784938807269.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "소방관들이 긴급 출동하여 시신을 발견했는데 그 중 6명은 어린이였습니다.",
+      "excerpt_en": "Firefighters responded to an emergency call and found the bodies, six of which were those of children A devastating tragedy has unfolded in Michigan after emergency crews responding to a house fire fo",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/25/eight-family-members-dead-michigan-fire",
+      "translation_status": "ok",
+      "score": 72,
       "score_breakdown": {
         "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 4,
         "time_score": 3,
-        "raw75": 51
+        "raw75": 54
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "Hindustan Times",
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-25T00:33:00+09:00",
-      "latest_published_at": "2026-07-25T09:22:00+09:00",
+      "first_published_at": "2026-07-25T00:29:52+09:00",
+      "latest_published_at": "2026-07-25T15:18:33+09:00",
       "articles": [
         {
-          "title": "Samsung, SK Group seal US$950 billion deals with US AI firms to lock in South Korean chip supply",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/samsung-sk-group-seal-us950-billion-deals-us-ai-firms-lock-in-south-korean-chip-supply-6277866",
-          "published_at": "09:22"
+          "title": "Eight family members found dead in Michigan fire, some with gunshot wounds",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/25/eight-family-members-dead-michigan-fire",
+          "published_at": "15:18"
         },
         {
-          "title": "South Korea's SK Hynix, Samsung Elec sign $950 billion partnership with US big tech",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/south-koreas-sk-hynix-samsung-elec-sign-950-billion-partnership-us-big-tech-6277651",
-          "published_at": "04:37"
+          "title": "Some of eight family members, including six children, found dead in Michigan house fire had been shot: police",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/michigan-family-dead-house-fire-shot-b3021474.html",
+          "published_at": "13:47"
         },
         {
-          "title": "South Korea's SK Hynix, Samsung Elec sign $950 bln partnership with US big tech",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0VVbG1peTVPeV9QUzRJSUw0X1RfRzBUUDVFREltWjF6NnlkMk9SOFdodGxZOTRkSVR4T092bUtKNWU5VXdqTHdnN1RRMDQtenVUWERuMHVuSV9VYlZMWERJZ3l5Y244MVFVcmpHbWprNVdBQ1llai0wRFJXdF9KVE5oWThNM2lQaEh5V1dEcVNJR1NwZXU3dXFqZkFfTk5hTWRDN0JWUlBCTkRRSzQ4dkxIZVlLUEFIYk1CeUZaTXdzYWd4Z3JaRktKWWlyeU9k?oc=5",
-          "published_at": "04:37"
+          "title": "Michigan Home fire update: Six children among 8 people found dead; neighbor reacts as ‘gunshot wounds’ details revealed",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/michigan-home-fire-update-six-children-among-8-family-members-found-dead-in-grand-haven-township-101784979292352.html",
+          "published_at": "12:17"
         },
         {
-          "title": "Samsung Elec, SK Group seal $950 bln deals as South Korea hosts AI powers",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFdzRUhVaUx2OUhLeVplQ0o1eFJYV3JzcEdJUXBPblRrcy1UUzJrOXlXalRSRFctZUFEUEJqa3k0ZHdSN3JLelpRNGRpSVB3RUYwMk1lbW0tRmtnN1lOYU4yOG9GbDNaNDlVemZiX2UxVExUQzZuV2FGY1NwdE1WbHdWRmJsdzhCdUNQRXJrbloyNnpQanJ2R2pRTWRUc1YxcHNvc192Qnc5SEZqQTJ2WmlFTF9YQTgwYmFkOF9ZUjMyeWVyM05RcVJhcENXRkpU?oc=5",
-          "published_at": "00:33"
+          "title": "Grand Haven Township house fire: Was it a murder-suicide? Latest updates after 8 found dead",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/grand-haven-township-house-fire-was-it-a-murder-suicide-latest-updates-after-8-found-dead-101784938807269.html",
+          "published_at": "00:29"
         }
       ]
     },
     {
-      "id": "world-85",
-      "title": "도널드 트럼프는 총격 사건으로 강제 연기된 지 몇 달 만에 백악관 특파원들의 만찬에 복귀했다.",
-      "title_en": "Donald Trump returns to White House Correspondents' dinner months after shooting forced postponement",
+      "id": "world-124",
+      "title": "스타십, 스페이스X IPO 이후 첫 시험비행 완료",
+      "title_en": "Starship completes 1st test flight since SpaceX IPO",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/trump-returns-to-white-house-correspondents-dinner-months-after-shooting-forced-postponement/articleshow/132617111.cms",
-      "category": "미국",
-      "primary_source": "Times of India",
-      "excerpt": "트럼프 대통령은 일정이 변경된 백악관 기자협회 만찬에 참석했다. 이번 행사는 지난 4월 원래 행사장 밖에서 발생한 총격 사건에 이어 이뤄졌다. 대통령이 기자에게 말했다.",
-      "excerpt_en": "President Trump attended the rescheduled White House Correspondents' Association dinner. This event followed a shooting incident outside the original venue in April. The president addressed journalist",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/trump-returns-to-white-house-correspondents-dinner-months-after-shooting-forced-postponement/articleshow/132617111.cms",
+      "title_url": "https://www.dw.com/en/starship-completes-1st-test-flight-since-spacex-ipo/a-78107347?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "아시아",
+      "primary_source": "DW",
+      "excerpt": "미국 항공우주회사 스페이스X(SpaceX)가 금요일 14층짜리 스타십 로켓의 시험 비행을 성공적으로 수행해 텍사스에서 이륙해 인도양 해역에 부드럽게 착륙했다. 이런건 처음이야",
+      "excerpt_en": "US aerospace company SpaceX carried out a successful test flight of its14-storey Starship rocket Friday, blasting off from Texas to land gently in the waters of the Indian Ocean. It's the first such s",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/americas/20260725-spacex-starship-splashes-down-in-indian-ocean-after-successful-test-flight",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "DW",
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-25T02:08:00+09:00",
+      "latest_published_at": "2026-07-25T13:41:23+09:00",
+      "articles": [
+        {
+          "title": "SpaceX launches another Starship, and this time the market is watching",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/spacex-launches-another-starship-and-this-time-the-market-is-watching-101784986781411.html",
+          "published_at": "13:41"
+        },
+        {
+          "title": "SpaceX's Starship splashes down in Indian Ocean after successful test flight",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260725-spacex-starship-splashes-down-in-indian-ocean-after-successful-test-flight",
+          "published_at": "11:54"
+        },
+        {
+          "title": "Starship completes 1st test flight since SpaceX IPO",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/starship-completes-1st-test-flight-since-spacex-ipo/a-78107347?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "02:08"
+        }
+      ]
+    },
+    {
+      "id": "world-63",
+      "title": "유엔 인권최고대표, 임기 4년 연장 투표에서 반대에 부딪혀",
+      "title_en": "UN human rights chief faces opposition in vote to extend his term for another four years",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/un-human-rights-chief-faces-opposition-in-vote-to-extend-his-term-for-another-four-years-101784919516615.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "유엔 총회는 미국, 이스라엘, 러시아의 반대에도 불구하고 투르크에게 새로운 4년 임기를 부여하기로 144대 10으로 표결했습니다.",
+      "excerpt_en": "UN General Assembly votes 144-10 to grant Turk a new four-year term, despite objections from the US, Israel and Russia.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/7/25/how-volker-turk-won-a-new-term-as-un-rights-chief-despite-israel-opposition?traffic_source=rss",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
@@ -699,35 +721,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "BBC",
-        "Times of India"
+        "AP News",
+        "Al Jazeera",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-07-24T23:29:25+09:00",
-      "latest_published_at": "2026-07-25T06:41:42+09:00",
+      "first_published_at": "2026-07-24T18:58:36+09:00",
+      "latest_published_at": "2026-07-25T09:54:44+09:00",
       "articles": [
         {
-          "title": "Trump takes swipes at press during White House Correspondents' Dinner",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss",
-          "published_at": "06:41"
+          "title": "How Volker Turk won new UN rights chief term despite US, Israel opposition",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/25/how-volker-turk-won-a-new-term-as-un-rights-chief-despite-israel-opposition?traffic_source=rss",
+          "published_at": "09:54"
         },
         {
-          "title": "Trump mixes jokes with barbs at press freedom dinner",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-25/trump-white-house-correspondents-dinner-speech/106957820",
-          "published_at": "04:09"
+          "title": "UN human rights chief wins second term despite opposition from US, Israel and Russia",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb1Yxei1yR2dOOHUyaW5Jck1IelRDaW9mNHQyUV9HNHc1ZEx1M1pJb2VDdnM3N2VLRklfaFZEQVZUN3l4aG9ZbVRuZF9rSUlyZnJGaTIyZElyTVNkRk5obXpWWUk0d0VYVTI3cE1YZ1dnblF2dWh6Z0hpS2NfdElTSTVkamdZN3EzWWpSTmM0ZkdBY3lpMmZIYkRiWm13dmM?oc=5",
+          "published_at": "22:31"
         },
         {
-          "title": "Donald Trump returns to White House Correspondents' dinner months after shooting forced postponement",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/trump-returns-to-white-house-correspondents-dinner-months-after-shooting-forced-postponement/articleshow/132617111.cms",
-          "published_at": "23:29"
+          "title": "UN human rights chief faces opposition in vote to extend his term for another four years",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/un-human-rights-chief-faces-opposition-in-vote-to-extend-his-term-for-another-four-years-101784919516615.html",
+          "published_at": "18:58"
         }
       ]
     },
     {
-      "id": "world-90",
+      "id": "world-81",
       "title": "부검 의사는 D4vd의 예비 청문회에서 십대 소녀의 치명적인 부상을 자세히 설명합니다.",
       "title_en": "Autopsy doctor details teen girl’s fatal injuries at D4vd’s preliminary hearing",
       "title_source": "earliest_pick",
@@ -781,7 +803,61 @@
       ]
     },
     {
-      "id": "world-175",
+      "id": "world-143",
+      "title": "프랑스와 스페인에서 20만 명 이상의 사람들이 불길을 피해 보르도를 위협하는 산불",
+      "title_en": "Wildfires threaten Bordeaux as more than 200,000 people flee flames in France, Spain",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/europe/wildfires-threaten-bordeaux-as-more-than-200-000-people-flee-flames-in-france-spain-20260725-p60igt.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "유럽",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "대규모 산불로 인해 프랑스 남서부와 스페인 중부 지역에서 약 20만 명이 대피했으며, 주민들은 금요일 마드리드와 보르도 인근 마을에서 대피했습니다.",
+      "excerpt_en": "Massive forest fires have forced the evacuation of some 200,000 people in southwestern France and central Spain, with residents fleeing towns near Madrid and Bordeaux on Friday as flames raged out of ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/france-firefighters-face-fatigue-after-days-of-relentless-fighting",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBC",
+        "France24",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-07-25T02:01:27+09:00",
+      "latest_published_at": "2026-07-25T12:30:22+09:00",
+      "articles": [
+        {
+          "title": "More than 250,000 people flee their homes in France and Spain as wildfires burn",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/wildfire-evacuations-france-suburbs-9.7283693?cmp=rss",
+          "published_at": "12:30"
+        },
+        {
+          "title": "France : Firefighters face fatigue after days of relentless fighting",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/france-firefighters-face-fatigue-after-days-of-relentless-fighting",
+          "published_at": "08:26"
+        },
+        {
+          "title": "Wildfires threaten Bordeaux as more than 200,000 people flee flames in France, Spain",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/wildfires-threaten-bordeaux-as-more-than-200-000-people-flee-flames-in-france-spain-20260725-p60igt.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "02:01"
+        }
+      ]
+    },
+    {
+      "id": "world-156",
       "title": "트럼프는 이란 대리군의 위협 때문에 이달 초 터키에서 비행기를 바꿨다 – 보고서",
       "title_en": "Trump switched planes in Turkey earlier this month because of threat from Iran proxy forces – report",
       "title_source": "earliest_pick",
@@ -835,216 +911,167 @@
       ]
     },
     {
-      "id": "world-40",
-      "title": "네타냐후-젤렌스키, 백악관에서 트럼프 만날 예정, 상원의원 장례식 참석",
-      "title_en": "Netanyahu, Zelensky to meet Trump at White House, attend senator’s funeral",
+      "id": "world-233",
+      "title": "인도네시아 구조대원, 유럽 관광객 11명, 현지 승무원 2명 탑승해 실종 쾌속정 수색",
+      "title_en": "Indonesian rescuers search for missing speedboat with 11 European tourists and 2 local crew members",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/netanyahu-zelensky-to-meet-trump-at-white-house-attend-senator-s-funeral-20260725-p60ifl.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "중동",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "키예프는 볼로디미르 젤렌스키 대통령이 다음 주 워싱턴에서 도널드 트럼프 대통령을 만날지, 아니면 린지 그레이엄 상원의원의 장례식에 참석할지 여부를 즉각 확인하지 않았습니다.",
-      "excerpt_en": "Kyiv did not immediately confirm whether President Volodymyr Zelenskyy will meet President Donald Trump in Washington next week or attend the funeral of Senator Lindsey Graham",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/07/24/trump-and-zelenskyy-to-meet-in-washington-next-week",
+      "title_url": "https://abcnews.com/International/wireStory/indonesian-rescuers-search-missing-speedboat-11-european-tourists-135076584",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "인도네시아 구조대가 술라웨시섬에서 실종된 유럽인 관광객 11명과 현지 승무원 2명을 태운 쾌속정을 찾고 있다.",
+      "excerpt_en": "Indonesian rescuers are searching for a speedboat carrying 11 European tourists and two local crew members that went missing off Sulawesi island",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/indonesian-rescuers-search-missing-speedboat-11-european-tourists-135076584",
       "translation_status": "ok",
-      "score": 67,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 50
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Euronews",
-        "Reuters",
+        "ABC News",
+        "Sky News",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-07-24T16:30:11+09:00",
-      "latest_published_at": "2026-07-24T18:19:48+09:00",
+      "first_published_at": "2026-07-25T07:24:40+09:00",
+      "latest_published_at": "2026-07-25T10:09:05+09:00",
       "articles": [
         {
-          "title": "Trump and Zelenskyy to meet in Washington next week",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/24/trump-and-zelenskyy-to-meet-in-washington-next-week",
-          "published_at": "18:19"
-        },
-        {
-          "title": "White House says Trump, Zelenskiy to meet in Washington next week",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDM0N1g1RUQ0VWtfSjAyWmxtSEItUjhpdEIwcXRSTWxqdFpFRV9YWE1IeFZ5dTBaeXlaMDR4Z2l2S0tIWUJRbWZDWG5kSDNTV0I1d21XYTZnUDdhZ2lvNDRRSzFsZEo0NmpaOVI3by1YZW5Xakh5b0txZmVRRFVKWnRtVHRwZ2FyNkpXT0JLbWh5c1NBZFA4ZlVDbW5YUXRCUGgzdTlB?oc=5",
-          "published_at": "17:07"
-        },
-        {
-          "title": "Netanyahu, Zelensky to meet Trump at White House, attend senator’s funeral",
+          "title": "Rescue team finds 11 European tourists, one crew member alive after speedboat sank in Indonesia",
           "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/netanyahu-zelensky-to-meet-trump-at-white-house-attend-senator-s-funeral-20260725-p60ifl.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "16:30"
+          "url": "https://www.smh.com.au/world/asia/indonesian-rescuers-search-for-missing-speedboat-with-11-european-tourists-two-local-crew-20260725-p60ij5.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "10:09"
+        },
+        {
+          "title": "European tourists found alive after speedboat sinks in Indonesia",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/european-tourists-found-alive-after-speedboat-sinks-in-indonesia-13566846",
+          "published_at": "09:20"
+        },
+        {
+          "title": "Indonesian rescuers search for missing speedboat with 11 European tourists and 2 local crew members",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/indonesian-rescuers-search-missing-speedboat-11-european-tourists-135076584",
+          "published_at": "07:24"
         }
       ]
     },
     {
-      "id": "world-162",
-      "title": "점령된 서안 지구에서 치명적인 충돌",
-      "title_en": "Deadly clashes in the occupied West Bank",
+      "id": "world-54",
+      "title": "유네스코는 이스라엘의 반대에도 불구하고 서안지구 유적지와 레바논 성들을 세계문화유산 목록에 추가했습니다.",
+      "title_en": "UNESCO adds West Bank site and Lebanese castles to World Heritage List despite Israeli objections",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/deadly-clashes-in-the-occupied-west-bank",
+      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2RmdWs1SzVTM3hDTTNHb09ZZHFaWnc4dEpHSTdjaUVpaEZBZV9oNUdQUVVCVW12VTdtZXlkSXZfSUV4ZEtlUkYxUi0yY1Z6X0R6VlNsQ19pUTdfaW1BMFJOb2VzN3c5ZkNGTTNRYnMzSlU0VW5hNnNuR3ROdFh5aEIxOHJkOERRd1pLMzQwSkpNVGpmNENYZ0xCWVQyZ0lzYTJVakkweEtXU0U0N1lv?oc=5",
       "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "베냐민 네타냐후 이스라엘 총리는 점령된 서안 지구에서 치명적인 충돌이 발생한 후 \"전력\"으로 대응하겠다고 다짐했습니다. 지난 금요일 촬영장 근처에서 교전을 벌이다 이스라엘 군인 2명이 사망했습니다.",
-      "excerpt_en": "Israeli Prime Minister Benjamin Netanyahu has vowed to respond with \"full force\" following a deadly clash in the occupied West Bank. Two Israeli soldiers were killed on Friday in fighting near the set",
+      "primary_source": "AP News",
+      "excerpt": "지난 금요일 유엔 위원회는 이스라엘의 반대에도 불구하고 서안지구의 주요 고고학 유적지와 레바논 남부의 성군을 세계유산목록에 등재했습니다.",
+      "excerpt_en": "A United Nations committee on Friday inscribed a major archaeological site in the West Bank and a group of castles in southern Lebanon on the World Heritage List, despite objections from Israel, which",
       "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/deadly-clashes-in-the-occupied-west-bank",
-      "translation_status": "ok",
-      "score": 64,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 48
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "CBS News",
-        "France24"
-      ],
-      "first_published_at": "2026-07-24T15:57:10+09:00",
-      "latest_published_at": "2026-07-24T16:45:34+09:00",
-      "articles": [
-        {
-          "title": "Deadly clash near West Bank village kills 4 Palestinians, 2 Israelis as IDF launches major operation",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/israel-west-bank-settlers-military-confrontation-9.7282403?cmp=rss",
-          "published_at": "16:45"
-        },
-        {
-          "title": "Netanyahu vows crackdown amid deadly clashes in Israeli occupied West Bank",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/israel-west-bank-settlers-palestinians-violence-netanyahu/",
-          "published_at": "16:11"
-        },
-        {
-          "title": "Deadly clashes in the occupied West Bank",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/deadly-clashes-in-the-occupied-west-bank",
-          "published_at": "15:57"
-        }
-      ]
-    },
-    {
-      "id": "world-120",
-      "title": "이란 전쟁 생중계 : 트럼프는이란 대화를 모색하면서 미국이 '잠겨 있고 장전됐다'고 말했습니다.",
-      "title_en": "Iran war live: Trump says US ‘locked and loaded’ as it seeks Iran talks",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/liveblog/2026/7/25/iran-war-live-trump-says-us-locked-and-loaded-as-it-seeks-iran-talks?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "도널드 트럼프 미국 대통령은 중동 전역의 미군 기지에 대한 새로운 공격에 이어 미국이 \"장전된 상태\"이며 이란에 대한 대규모 공격을 고려하고 있다고 경고했습니다.",
-      "excerpt_en": "Donald Trump has warned the US is \"locked and loaded\" and considering massive strikes on Iran following fresh attacks on US military bases across the Middle East.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/trump-warns-us-locked-and-loaded-for-massive-strikes-on-iran-20260725-p60ijg.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "excerpt_url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
       "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
-        "article_score": 12,
+        "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 1,
         "time_score": 3,
         "raw75": 47
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Sydney Morning Herald"
+        "AP News",
+        "France24"
       ],
-      "first_published_at": "2026-07-25T00:00:00+09:00",
-      "latest_published_at": "2026-07-25T08:52:19+09:00",
+      "first_published_at": "2026-07-25T00:34:00+09:00",
+      "latest_published_at": "2026-07-25T14:29:30+09:00",
       "articles": [
         {
-          "title": "Trump warns US 'locked and loaded' for massive strikes on Iran",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/trump-warns-us-locked-and-loaded-for-massive-strikes-on-iran-20260725-p60ijg.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:52"
+          "title": "UNESCO adds West Bank site, Lebanese castles to World Heritage List despite Israeli opposition",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260725-unesco-adds-west-bank-site-lebanese-castles-to-world-heritage-list-despite-israeli-opposition",
+          "published_at": "14:29"
         },
         {
-          "title": "Iran war live: Trump says US ‘locked and loaded’ as it seeks Iran talks",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/25/iran-war-live-trump-says-us-locked-and-loaded-as-it-seeks-iran-talks?traffic_source=rss",
-          "published_at": "00:00"
+          "title": "UNESCO adds Sebastia site to World Heritage List despite Israeli objections",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/unesco-adds-sebastia-site-to-world-heritage-list-despite-israeli-objections",
+          "published_at": "08:12"
+        },
+        {
+          "title": "UNESCO adds West Bank site and Lebanese castles to World Heritage List despite Israeli objections",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2RmdWs1SzVTM3hDTTNHb09ZZHFaWnc4dEpHSTdjaUVpaEZBZV9oNUdQUVVCVW12VTdtZXlkSXZfSUV4ZEtlUkYxUi0yY1Z6X0R6VlNsQ19pUTdfaW1BMFJOb2VzN3c5ZkNGTTNRYnMzSlU0VW5hNnNuR3ROdFh5aEIxOHJkOERRd1pLMzQwSkpNVGpmNENYZ0xCWVQyZ0lzYTJVakkweEtXU0U0N1lv?oc=5",
+          "published_at": "00:34"
         }
       ]
     },
     {
-      "id": "world-172",
-      "title": "남부 유럽을 휩쓴 산불로 프랑스와 스페인에서 20만 명 이상이 대피",
-      "title_en": "More than 200,000 evacuated in France and Spain as wildfires tear through southern Europe",
+      "id": "world-18",
+      "title": "삼성전자, SK그룹, 한국이 AI 강국으로 진출함에 따라 9,500억 달러 규모의 거래 성사",
+      "title_en": "Samsung Elec, SK Group seal $950 bln deals as South Korea hosts AI powers",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/fire-wildfires-france-spain-cap-ferret-map-evacuations-b3021095.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "프랑스 해안과 스페인의 Cap Ferret에서 '매우 예측할 수 없는' 화재 병력 대피, 국가 비상사태 선포 대규모 산불로 인해 200,000명 이상이 대피하거나 폐쇄 명령을 받음",
-      "excerpt_en": "‘Highly unpredictable’ blaze forces evacuation of Cap Ferret on French coast and Spain declares national emergency More than 200,000 people have fled or been ordered to lock down as huge wildfires swe",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire",
+      "title_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFdzRUhVaUx2OUhLeVplQ0o1eFJYV3JzcEdJUXBPblRrcy1UUzJrOXlXalRSRFctZUFEUEJqa3k0ZHdSN3JLelpRNGRpSVB3RUYwMk1lbW0tRmtnN1lOYU4yOG9GbDNaNDlVemZiX2UxVExUQzZuV2FGY1NwdE1WbHdWRmJsdzhCdUNQRXJrbloyNnpQanJ2R2pRTWRUc1YxcHNvc192Qnc5SEZqQTJ2WmlFTF9YQTgwYmFkOF9ZUjMyeWVyM05RcVJhcENXRkpU?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "이번 거래는 미국 AI 기업들이 기술 기업들을 한국의 반도체 및 메모리 리더들과 더욱 긴밀한 파트너십으로 이끌기 위한 최근 움직임입니다.",
+      "excerpt_en": "The deals are the latest moves by US AI firms to driving tech companies into closer partnerships with South Korea's semiconductor and memory leaders.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/east-asia/samsung-sk-group-seal-us950-billion-deals-us-ai-firms-lock-in-south-korean-chip-supply-6277866",
       "translation_status": "ok",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
+        "diversity_score": 10,
+        "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "Sydney Morning Herald",
-        "The Guardian",
-        "The Independent"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-07-24T20:39:20+09:00",
-      "latest_published_at": "2026-07-25T08:41:55+09:00",
+      "first_published_at": "2026-07-25T00:33:00+09:00",
+      "latest_published_at": "2026-07-25T09:22:00+09:00",
       "articles": [
         {
-          "title": "200,000 people forced to evacuate as wildfires rip through Spain and France",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/200-000-people-forced-to-evacuate-as-wildfires-rip-through-spain-and-france-20260725-p60ijd.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:41"
+          "title": "Samsung, SK Group seal US$950 billion deals with US AI firms to lock in South Korean chip supply",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/samsung-sk-group-seal-us950-billion-deals-us-ai-firms-lock-in-south-korean-chip-supply-6277866",
+          "published_at": "09:22"
         },
         {
-          "title": "More than 200,000 people flee or lock down as wildfires sweep France and Spain",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire",
-          "published_at": "22:18"
+          "title": "South Korea's SK Hynix, Samsung Elec sign $950 bln partnership with US big tech",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0VVbG1peTVPeV9QUzRJSUw0X1RfRzBUUDVFREltWjF6NnlkMk9SOFdodGxZOTRkSVR4T092bUtKNWU5VXdqTHdnN1RRMDQtenVUWERuMHVuSV9VYlZMWERJZ3l5Y244MVFVcmpHbWprNVdBQ1llai0wRFJXdF9KVE5oWThNM2lQaEh5V1dEcVNJR1NwZXU3dXFqZkFfTk5hTWRDN0JWUlBCTkRRSzQ4dkxIZVlLUEFIYk1CeUZaTXdzYWd4Z3JaRktKWWlyeU9k?oc=5",
+          "published_at": "04:37"
         },
         {
-          "title": "More than 200,000 evacuated in France and Spain as wildfires tear through southern Europe",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/fire-wildfires-france-spain-cap-ferret-map-evacuations-b3021095.html",
-          "published_at": "20:39"
+          "title": "Samsung Elec, SK Group seal $950 bln deals as South Korea hosts AI powers",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFdzRUhVaUx2OUhLeVplQ0o1eFJYV3JzcEdJUXBPblRrcy1UUzJrOXlXalRSRFctZUFEUEJqa3k0ZHdSN3JLelpRNGRpSVB3RUYwMk1lbW0tRmtnN1lOYU4yOG9GbDNaNDlVemZiX2UxVExUQzZuV2FGY1NwdE1WbHdWRmJsdzhCdUNQRXJrbloyNnpQanJ2R2pRTWRUc1YxcHNvc192Qnc5SEZqQTJ2WmlFTF9YQTgwYmFkOF9ZUjMyeWVyM05RcVJhcENXRkpU?oc=5",
+          "published_at": "00:33"
         }
       ]
     },
     {
-      "id": "world-39",
+      "id": "world-41",
       "title": "러시아, 우크라이나 방위 행사에서 미사일 공격으로 10명 사망",
       "title_en": "Russian missile strike kills 10 at Ukrainian defence event",
       "title_source": "earliest_pick",
@@ -1056,14 +1083,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/russian-missile-strike-kills-10-at-ukrainian-defence-event-101784923051851.html",
       "translation_status": "ok",
-      "score": 61,
+      "score": 60,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
@@ -1091,166 +1118,7 @@
       ]
     },
     {
-      "id": "world-89",
-      "title": "서안지구 총격으로 6명 사망, 수개월 만에 가장 많은 사망자 발생",
-      "title_en": "6 Killed in West Bank Shooting, Officials Say, Among the Deadliest in Months",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/24/world/middleeast/west-bank-shooting-tell-israelis-palestinians.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "당국은 이번 사건으로 팔레스타인인 4명과 이스라엘인 2명이 사망했다고 밝혔다. 자세한 내용은 아직 불분명하며, 관계자들은 서로 다른 설명을 하고 있습니다.",
-      "excerpt_en": "The authorities said four Palestinians and two Israelis were killed in the incident. The details remain unclear, with officials giving differing accounts.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/24/world/middleeast/west-bank-shooting-tell-israelis-palestinians.html",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-24T18:28:37+09:00",
-      "latest_published_at": "2026-07-24T22:49:59+09:00",
-      "articles": [
-        {
-          "title": "Four Palestinians and two Israelis killed in West Bank shooting",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss",
-          "published_at": "22:49"
-        },
-        {
-          "title": "6 Killed in West Bank Shooting, Officials Say, Among the Deadliest in Months",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/24/world/middleeast/west-bank-shooting-tell-israelis-palestinians.html",
-          "published_at": "18:28"
-        }
-      ]
-    },
-    {
-      "id": "world-113",
-      "title": "'쇼는 계속되어야 한다': 트럼프는 일정이 변경된 백악관 언론 갈라에 복귀",
-      "title_en": "‘The show must go on’: Trump returns to rescheduled White House press gala",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/7/25/the-show-must-go-on-trump-returns-to-rescheduled-white-house-press-gala?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "도널드 트럼프 미국 대통령은 금요일 연례 만찬에서 백악관 기자단에게 암살 시도가 암살 시도가 중단된 지 3개월 만에 \"쇼는 계속되어야 한다\"고 말했습니다.",
-      "excerpt_en": "US President Donald Trump told the White House press corps at its annual gala dinner on Friday that “the show must go on,” three months after an earlier attempt was interrupted by an assassination att",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/politics/article/3361824/show-must-go-trump-tells-scaled-back-press-gala-3-months-after-assassination-attempt?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-25T02:59:04+09:00",
-      "latest_published_at": "2026-07-25T04:14:16+09:00",
-      "articles": [
-        {
-          "title": "‘Show must go on,’ Trump tells scaled-back press gala 3 months after assassination attempt",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/politics/article/3361824/show-must-go-trump-tells-scaled-back-press-gala-3-months-after-assassination-attempt?utm_source=rss_feed",
-          "published_at": "04:14"
-        },
-        {
-          "title": "‘The show must go on’: Trump returns to rescheduled White House press gala",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/25/the-show-must-go-on-trump-returns-to-rescheduled-white-house-press-gala?traffic_source=rss",
-          "published_at": "02:59"
-        }
-      ]
-    },
-    {
-      "id": "world-191",
-      "title": "인도의 젊은 시위대가 손에 휴대폰을 들고 모디의 미디어 통제를 뚫고 나섰습니다.",
-      "title_en": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/24/world/asia/india-cockroach-party-cjp-protest-memes.html",
-      "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "인도의 젊은 시위자들은 거리 시위만큼 유머로 나렌드라 모디 총리를 상대하고 있으며, 수천 명이 집회를 하는 동안 소셜 미디어에는 밈, 패러디 비디오, 농담이 넘쳐납니다.",
-      "excerpt_en": "India’s young protesters are taking on Prime Minister Narendra Modi with humor as much as street demonstrations, flooding social media with memes, parody videos and jokes while thousands rally across ",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/indias-cockroach-protests-modi-weapons-sharp-irreverent-humor-135076205",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 46
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-24T14:26:01+09:00",
-      "latest_published_at": "2026-07-25T09:27:28+09:00",
-      "articles": [
-        {
-          "title": "India’s Education Minister Steps Down, Handing Win to Protesters",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns.html",
-          "published_at": "09:27"
-        },
-        {
-          "title": "Who Are the People Out Protesting in India?",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/25/world/asia/india-protests-profiles.html",
-          "published_at": "07:26"
-        },
-        {
-          "title": "India's 'Cockroach' protests take on Modi with unlikely weapons: Sharp, irreverent humor and memes",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/indias-cockroach-protests-modi-weapons-sharp-irreverent-humor-135076205",
-          "published_at": "06:14"
-        },
-        {
-          "title": "India’s Student Protesters Win Some Concessions From Government",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/24/world/asia/india-genz-student-movement-cockroach-janta-party.html",
-          "published_at": "00:27"
-        },
-        {
-          "title": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/24/world/asia/india-cockroach-party-cjp-protest-memes.html",
-          "published_at": "14:26"
-        }
-      ]
-    },
-    {
-      "id": "world-210",
+      "id": "world-190",
       "title": "캐나다가 Gordie Howe International Bridge를 개통함에 따라 미국인들은 집에 머물라는 지시를 받았습니다",
       "title_en": "As Canada Opens Gordie Howe International Bridge, Americans Are Told to Stay Home",
       "title_source": "earliest_pick",
@@ -1262,14 +1130,14 @@
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/07/24/world/canada/canada-gordie-howe-bridge-trump.html",
       "translation_status": "ok",
-      "score": 61,
+      "score": 60,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 3,
       "article_count": 3,
@@ -1304,56 +1172,9 @@
       ]
     },
     {
-      "id": "world-41",
-      "title": "Pogacar는 Alpe d'Huez에 대한 단독 공격으로 투르 드 프랑스 스테이지 19에 진출했습니다.",
-      "title_en": "Pogacar takes Tour de France stage 19 with solo attack on Alpe d'Huez",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/sport/20260724-pogacar-takes-tour-de-france-stage-19-with-solo-attack-alpe-d-huez",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "슬로베니아의 4회 챔피언 Tadej Pogacar는 금요일 투르 드 프랑스 스테이지 19에 진출하여 전체 선두를 더욱 공고히 했습니다. 그는 35분 2초 만에 Alpe d'Huez를 오르는 험난한 등반을 해냈습니다.",
-      "excerpt_en": "Slovenia's four-time champion Tadej Pogacar on Friday further consolidated his overall lead by taking stage 19 of the Tour de France. He made the punishing climb up the Alpe d'Huez in 35 minutes and 2",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/sport/20260724-pogacar-takes-tour-de-france-stage-19-with-solo-attack-alpe-d-huez",
-      "translation_status": "ok",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-24T16:03:26+09:00",
-      "latest_published_at": "2026-07-24T18:45:44+09:00",
-      "articles": [
-        {
-          "title": "Brilliant Pogacar climbs Alpe d'Huez in record time to win Tour stage 19",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMGwyV203X1JWTzUyX055c25TWHk4TVlLMUhOb0MyZXFMQnJ6NktmejRvbXUwMkxtS1N4bXZDSFloMlhseG96TkZpYk9IZ2xycndFSkdUUWFSVUU2ZWUtQmRSbU4wQmlwc1d3SU91dXBfWTJ2Q3N3UkpLZ1dieWUyN2FJSE5hX25PUU42b0Utc2lwdWRQZVhMY0JYbVN0QWZPS3FtVkJzRUt1dXJ3YUQ0Zmtqenc1cFZJcDNtVVdB?oc=5",
-          "published_at": "18:45"
-        },
-        {
-          "title": "Pogacar takes Tour de France stage 19 with solo attack on Alpe d'Huez",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/sport/20260724-pogacar-takes-tour-de-france-stage-19-with-solo-attack-alpe-d-huez",
-          "published_at": "16:03"
-        }
-      ]
-    },
-    {
-      "id": "world-3",
-      "title": "NATO 인턴 캐나다 여성, 간첩 혐의로 벨기에서 체포",
-      "title_en": "Canadian woman who was NATO intern arrested in Belgium on spying charge",
+      "id": "world-8",
+      "title": "나토군 본부 캐나다인 인턴 간첩 혐의로 벨기에서 체포",
+      "title_en": "Canadian intern at NATO military HQ arrested in Belgium on spying charge",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSjhwUHpvTVFodm9TOHNxX3ctYU5lUFNvNURaU1VZemFpak1VZ1R4M2xUblJLMEI0UTM5Si1HZk9XVS1PMjBYaklkUkJvdmhPNGVfdV9GaGoxUmJOVWpQVDZ6QWxoT3dhRU83WERPYnRQTlBoY1NUV3I3emNnMkQxNk1SeEV5RlRmQlozYnRFaHBtQVhVczZXaVJpRjFZU1lya2FwM3ZJdTB1WkxpLU5ScDZkcw?oc=5",
       "category": "아시아",
@@ -1363,14 +1184,14 @@
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/07/25/world/europe/nato-canada-china-arrest-spying.html",
       "translation_status": "ok",
-      "score": 59,
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1381,16 +1202,16 @@
         "Reuters"
       ],
       "first_published_at": "2026-07-25T06:30:00+09:00",
-      "latest_published_at": "2026-07-25T07:59:14+09:00",
+      "latest_published_at": "2026-07-25T11:48:44+09:00",
       "articles": [
         {
           "title": "Canadian Intern at NATO Military HQ Is Arrested on Suspicion of Spying",
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/07/25/world/europe/nato-canada-china-arrest-spying.html",
-          "published_at": "07:59"
+          "published_at": "11:48"
         },
         {
-          "title": "Canadian woman who was NATO intern arrested in Belgium on spying charge",
+          "title": "Canadian intern at NATO military HQ arrested in Belgium on spying charge",
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSjhwUHpvTVFodm9TOHNxX3ctYU5lUFNvNURaU1VZemFpak1VZ1R4M2xUblJLMEI0UTM5Si1HZk9XVS1PMjBYaklkUkJvdmhPNGVfdV9GaGoxUmJOVWpQVDZ6QWxoT3dhRU83WERPYnRQTlBoY1NUV3I3emNnMkQxNk1SeEV5RlRmQlozYnRFaHBtQVhVczZXaVJpRjFZU1lya2FwM3ZJdTB1WkxpLU5ScDZkcw?oc=5",
           "published_at": "06:30"
@@ -1398,7 +1219,54 @@
       ]
     },
     {
-      "id": "world-86",
+      "id": "world-48",
+      "title": "인도 '바퀴벌레' 청소년, 교육부 장관 사임 후 시위 중단",
+      "title_en": "India’s ‘Cockroach’ youth call off protests after education minister quits",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests?traffic_source=rss",
+      "category": "아시아",
+      "primary_source": "Al Jazeera",
+      "excerpt": "청소년 시위자들은 일련의 시험지 유출로 인해 다르멘드라 프라드한(Dharmendra Pradhan)이 사임한 후 선동을 멈추는 데 동의합니다.",
+      "excerpt_en": "Youth protesters agree to end agitation after Dharmendra Pradhan resigns over a series of exam paper leaks.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-25T08:54:20+09:00",
+      "latest_published_at": "2026-07-25T12:11:46+09:00",
+      "articles": [
+        {
+          "title": "India youth protesters agree to end protests after talks with government",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjAyVWFrS1RlcF9saUxiLWhHQXdUaGVfcHdXSVB0WWNjM21LOVhYNzAyc29nc2FnTWJ0NndGRkt0VGJTY0RIT0ctOHZPWFp4VjM4RkFMSDdnZWF2SzNfTGp3dGlnVDFJRlI0bzA2M3BnN0E0SllTQm54ZnlnSElINk53Z0VFb0FaU1A0Qi1HUGpHbVhDMXFvTTk4YzhoN3NUcllmODVpTTUwT19vYnJIUC1SYVp5bUNy?oc=5",
+          "published_at": "12:11"
+        },
+        {
+          "title": "India’s ‘Cockroach’ youth call off protests after education minister quits",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests?traffic_source=rss",
+          "published_at": "08:54"
+        }
+      ]
+    },
+    {
+      "id": "world-77",
       "title": "이란 지원 후티 반군, 사우디아라비아에 미사일 공격 주장",
       "title_en": "Iran-backed Houthis claim missile attack on Saudi Arabia",
       "title_source": "earliest_pick",
@@ -1410,14 +1278,14 @@
       "excerpt_source": "BBC",
       "excerpt_url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
       "translation_status": "ok",
-      "score": 59,
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1445,26 +1313,126 @@
       ]
     },
     {
-      "id": "world-327",
-      "title": "축출된 셰이크 하시나 총리의 측근이었던 방글라데시 대통령이 사임했다.",
-      "title_en": "Bangladesh's president, once a close ally of ousted premier Sheikh Hasina, resigns",
+      "id": "world-75",
+      "title": "2024년 조지아주 애팔라치 고등학교 총격 사건으로 4명이 사망한 10대, 살인 혐의에 대해 유죄를 인정",
+      "title_en": "Teen pleads guilty to murder in a 2024 shooting that left 4 dead at Georgia's Apalachee High School",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/bangladeshs-president-close-ally-ousted-premier-sheikh-hasina-135050233",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "방글라데시 모하메드 샤하부딘 대통령이 의학적 이유를 이유로 임기 중반 사임했다.",
-      "excerpt_en": "Bangladesh’s President Mohammed Shahabuddin has resigned halfway through his term, citing medical reasons",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/bangladeshs-president-close-ally-ousted-premier-sheikh-hasina-135050233",
+      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUS1yZWdESDJPM2dnZk84UmxHWWhjcHN3UE5kTU05QkNpZUw2dTBuUjltV2l4d0NJZ1EwQjlQSjVFRWJadlRlV0RFdTRlUmVmdkkzMXpjRWFVYlVELW1ScVczWmYxWGV5X2xGM0NmWHptOTBFOG5PVGdyMDBaZDNUbV9iUzhrQXB3endwMEpTTGJhMEhhQ004Mkh0RTc0di1VX1o3ZEFB?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "비행기가 워싱턴 주 해안에 불시착했습니다. Apalachee 고등학교 총격 용의자가 조지아 법정에서 유죄를 인정했습니다.",
+      "excerpt_en": "A plane makes a crash landing off the Washington state coast; the Apalachee High School shooting suspect pleads guilty in a Georgia courtroom.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/072426-cbs-evening-news/",
       "translation_status": "ok",
-      "score": 57,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "CBS News"
+      ],
+      "first_published_at": "2026-07-24T20:38:00+09:00",
+      "latest_published_at": "2026-07-24T22:30:00+09:00",
+      "articles": [
+        {
+          "title": "7/24: CBS Evening News",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/072426-cbs-evening-news/",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Teen pleads guilty to murder in a 2024 shooting that left 4 dead at Georgia's Apalachee High School",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUS1yZWdESDJPM2dnZk84UmxHWWhjcHN3UE5kTU05QkNpZUw2dTBuUjltV2l4d0NJZ1EwQjlQSjVFRWJadlRlV0RFdTRlUmVmdkkzMXpjRWFVYlVELW1ScVczWmYxWGV5X2xGM0NmWHptOTBFOG5PVGdyMDBaZDNUbV9iUzhrQXB3endwMEpTTGJhMEhhQ004Mkh0RTc0di1VX1o3ZEFB?oc=5",
+          "published_at": "20:38"
+        }
+      ]
+    },
+    {
+      "id": "world-129",
+      "title": "산불 진압을 위해 보안군이 재배치됨에 따라 투르 드 프랑스 피날레가 단축되었습니다.",
+      "title_en": "Tour de France finale shortened as security forces redeploy to fight wildfires",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/sport/tour-de-france-finale-shortened-security-forces-redeploy-fight-wildfires-6278126",
+      "category": "유럽",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Tadej Pogacar는 에콰도르의 Richard Carapaz가 Alpe d'Huez에서 20번째 스테이지에서 우승하면서 토요일에 기록적인 5번째 투르 드 프랑스 타이틀을 달성했지만 결국 사이클링의 역대 최고 선수들과 합류할 예정입니다.",
+      "excerpt_en": "Tadej Pogacar is set to join cycling's all-time greats after all but sealing a record-equalling fifth Tour de France title on Saturday as Ecuadorian Richard Carapaz won the 20th stage on Alpe d'Huez.",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/sport/20260725-pogacar-closes-in-on-tour-de-france-victory-carapaz-wins-queen-stage",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "France24"
+      ],
+      "first_published_at": "2026-07-25T14:28:26+09:00",
+      "latest_published_at": "2026-07-25T15:10:22+09:00",
+      "articles": [
+        {
+          "title": "Pogacar closes in on Tour de France victory, Carapaz wins Queen stage",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/sport/20260725-pogacar-closes-in-on-tour-de-france-victory-carapaz-wins-queen-stage",
+          "published_at": "15:10"
+        },
+        {
+          "title": "Ecuadorian Carapaz wins 20th stage of Tour de France",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/ecuadorian-carapaz-wins-20th-stage-tour-de-france-6278161",
+          "published_at": "14:49"
+        },
+        {
+          "title": "Tour de France finale shortened as security forces redeploy to fight wildfires",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/tour-de-france-finale-shortened-security-forces-redeploy-fight-wildfires-6278126",
+          "published_at": "14:28"
+        }
+      ]
+    },
+    {
+      "id": "world-281",
+      "title": "러시아가 부분적으로 점령한 자포리자(Zaporizhzhia)의 휴가 캠프에 대한 우크라이나 공격으로 11명 사망",
+      "title_en": "Ukrainian attacks on holiday camps in partly Russian-occupied Zaporizhzhia kill 11",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/russian-attack-kills-3-ukraines-sumy-region-romania-135076941",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "모스크바 주둔 관리들은 우크라이나군이 밤새 러시아가 부분적으로 점령한 자포리자 지역의 휴가 캠프를 공격해 11명이 사망하고 14명이 부상했다고 밝혔습니다.",
+      "excerpt_en": "Moscow-installed officials say Ukrainian forces attacked holiday camps in the partly Russian-occupied Zaporizhzhia region overnight, killing 11 people and wounding 14.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-07-26/russian-held-ukrainian-holiday-camp-attacked/106958586",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
@@ -1472,37 +1440,37 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "Times of India"
+        "ABC News Australia"
       ],
-      "first_published_at": "2026-07-24T13:18:49+09:00",
-      "latest_published_at": "2026-07-25T02:58:05+09:00",
+      "first_published_at": "2026-07-25T14:26:03+09:00",
+      "latest_published_at": "2026-07-25T14:46:19+09:00",
       "articles": [
         {
-          "title": "Bangladesh president quits citing deteriorating health",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-president-quits-citing-deteriorating-health/articleshow/132618029.cms",
-          "published_at": "02:58"
+          "title": "Attack on holiday camp in Russian-held Ukraine kills 11",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-26/russian-held-ukrainian-holiday-camp-attacked/106958586",
+          "published_at": "14:46"
         },
         {
-          "title": "Bangladesh's president, once a close ally of ousted premier Sheikh Hasina, resigns",
+          "title": "Ukrainian attacks on holiday camps in partly Russian-occupied Zaporizhzhia kill 11",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/bangladeshs-president-close-ally-ousted-premier-sheikh-hasina-135050233",
-          "published_at": "13:18"
+          "url": "https://abcnews.com/International/wireStory/russian-attack-kills-3-ukraines-sumy-region-romania-135076941",
+          "published_at": "14:26"
         }
       ]
     },
     {
-      "id": "world-11",
-      "title": "트럼프 대통령, 르브론 제임스에 \"인종차별주의자일 수도\"",
-      "title_en": "President Trump says of LeBron James: 'Maybe he's a racist'",
+      "id": "world-5",
+      "title": "삼성전자, 2000억 달러 규모의 브로드컴 AI 칩 파트너십 체결로 파운드리 추진 박차",
+      "title_en": "Samsung Elec wins $200 billion Broadcom AI chip partnership, boosting foundry push",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2wwYU5yRG0xMy1ua2ZtZ21NanJGNFpTQXVyNE9UWmRoZnpMZDNvREZkRWlwN20tQWhRd0hPNm9CRDBVU2h0ZzhiOS04ZXlfWHV2OWpTcTctU1RkTDRzenFrNVBFS3ZMdVQ3LWxxci1mQ2tVRkVtOU4zcE43VTBZQTZsSlhfM0h2SllKNXhFTzJEWVNxTVhGbklkWUdSSXM?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "미국 대통령은 NBA의 '역대 최고'에 대한 질문에 응답합니다. 제임스는 트럼프에 맞서 출마한 세 명의 후보를 지지했습니다. 마이클 조의 농구 경력을 평가하라는 요청에 기괴한 반응으로 대답했습니다.",
-      "excerpt_en": "US president responds to question about NBA’s ‘best ever’ James backed three candidates who ran against Trump In a bizarre response to being asked to weigh in on the basketball careers of ⁠Michael Jor",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/sport/2026/jul/25/president-trump-basketball-lebron-james-racist",
+      "title_url": "https://www.channelnewsasia.com/business/samsung-elec-wins-200-billion-broadcom-ai-chip-partnership-boosting-foundry-push-6277856",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "삼성전자, 2000억 달러 규모의 브로드컴 AI 칩 파트너십 체결로 파운드리 추진 박차 - 로이터",
+      "excerpt_en": "Samsung Elec wins $200 billion Broadcom AI chip partnership, boosting foundry push Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVVhSemYyWk9XZmJzMXhYLXFvUm1rdElNNW0zYVktUlBGVFdtbHNJa1NBX2gwSGNVbEZpbnlYVi1CcnBvT1BiZEtNSHdDSDllMTNYQXVKMDN2UEdTS2ZOb1FPNzFBMEhpRERtOXVkODJ5ZEEycTVnRXpaTzlsX2Y5ZXdmUndUakpPUlAtaHY3NzIxczd5X3k4ODk0dW9Fenk0TzlCQ2dQaml2aURvTEgtNENFNTVodmcybEVlTGQ5Nmt4Nm9LUTJNOXV2U05jV3ByVzB5cU85OExDRWlKRjlJ?oc=5",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1518,85 +1486,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-25T03:25:00+09:00",
-      "latest_published_at": "2026-07-25T09:35:18+09:00",
-      "articles": [
-        {
-          "title": "‘Maybe he’s a ‌racist’: Donald Trump takes bizarre swipe at NBA great LeBron James",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/sport/2026/jul/25/president-trump-basketball-lebron-james-racist",
-          "published_at": "09:35"
-        },
-        {
-          "title": "President Trump says of LeBron James: 'Maybe he's a racist'",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN2wwYU5yRG0xMy1ua2ZtZ21NanJGNFpTQXVyNE9UWmRoZnpMZDNvREZkRWlwN20tQWhRd0hPNm9CRDBVU2h0ZzhiOS04ZXlfWHV2OWpTcTctU1RkTDRzenFrNVBFS3ZMdVQ3LWxxci1mQ2tVRkVtOU4zcE43VTBZQTZsSlhfM0h2SllKNXhFTzJEWVNxTVhGbklkWUdSSXM?oc=5",
-          "published_at": "03:25"
-        }
-      ]
-    },
-    {
-      "id": "world-16",
-      "title": "미국, 멕시코산 소 수입금지 해제할 것",
-      "title_en": "US says it will lift ban on imports of Mexican cattle",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXFIeVFPQTlrdHcyMzBXOFo0eXlLVlhxUG0yRVNFUThDd0taMnBraWNlLUdTQnRXcXBYZWFibzZ5Rlc5bldBMWxtS1g5TTJYZ0E1TG1mQmQyb0JQNzZDaHBLNW9GYXd0M1I2UHM2elM2dDZQWWU2UTdBZlhJU3ROR2NkRXBoQVpkZGdOcGZDVkRtTW5CcXc?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "미국은 멕시코에서 신세계나사벌레의 확산으로 인해 조치를 취한 지 1년여가 지난 8월 24일부터 멕시코 소 수입 중단을 시작할 것이라고 밝혔습니다.",
-      "excerpt_en": "The United States says it will begin lifting a suspension on Mexican cattle imports on Aug. 24, more than a year after it imposed the measure due to the spread of the New World screwworm in Mexico",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/us-begin-lifting-suspension-mexican-cattle-imports-starting-135076018",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
+        "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-07-24T21:14:00+09:00",
-      "latest_published_at": "2026-07-25T09:39:16+09:00",
+      "first_published_at": "2026-07-25T09:11:54+09:00",
+      "latest_published_at": "2026-07-25T14:25:36+09:00",
       "articles": [
         {
-          "title": "US says it will begin lifting suspension of Mexican cattle imports starting in August",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/us-begin-lifting-suspension-mexican-cattle-imports-starting-135076018",
-          "published_at": "09:39"
-        },
-        {
-          "title": "US says it will lift ban on imports of Mexican cattle",
+          "title": "Samsung Elec wins $200 billion Broadcom AI chip partnership, boosting foundry push",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXFIeVFPQTlrdHcyMzBXOFo0eXlLVlhxUG0yRVNFUThDd0taMnBraWNlLUdTQnRXcXBYZWFibzZ5Rlc5bldBMWxtS1g5TTJYZ0E1TG1mQmQyb0JQNzZDaHBLNW9GYXd0M1I2UHM2elM2dDZQWWU2UTdBZlhJU3ROR2NkRXBoQVpkZGdOcGZDVkRtTW5CcXc?oc=5",
-          "published_at": "21:14"
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVVhSemYyWk9XZmJzMXhYLXFvUm1rdElNNW0zYVktUlBGVFdtbHNJa1NBX2gwSGNVbEZpbnlYVi1CcnBvT1BiZEtNSHdDSDllMTNYQXVKMDN2UEdTS2ZOb1FPNzFBMEhpRERtOXVkODJ5ZEEycTVnRXpaTzlsX2Y5ZXdmUndUakpPUlAtaHY3NzIxczd5X3k4ODk0dW9Fenk0TzlCQ2dQaml2aURvTEgtNENFNTVodmcybEVlTGQ5Nmt4Nm9LUTJNOXV2U05jV3ByVzB5cU85OExDRWlKRjlJ?oc=5",
+          "published_at": "14:25"
+        },
+        {
+          "title": "Samsung Elec wins $200 billion Broadcom AI chip partnership, boosting foundry push",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/samsung-elec-wins-200-billion-broadcom-ai-chip-partnership-boosting-foundry-push-6277856",
+          "published_at": "09:11"
         }
       ]
     },
     {
-      "id": "world-148",
-      "title": "프랑스와 스페인에서 20만 명 이상의 사람들이 불길을 피해 보르도를 위협하는 산불",
-      "title_en": "Wildfires threaten Bordeaux as more than 200,000 people flee flames in France, Spain",
+      "id": "world-88",
+      "title": "인도 교육부 장관, 청소년 시위대 승리로 사임",
+      "title_en": "India’s education minister quits in major win for youth protesters",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/europe/wildfires-threaten-bordeaux-as-more-than-200-000-people-flee-flames-in-france-spain-20260725-p60igt.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "유럽",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "대규모 산불로 인해 프랑스 남서부와 스페인 중부 지역에서 약 20만 명이 대피했으며, 주민들은 금요일 마드리드와 보르도 인근 마을에서 대피했습니다.",
-      "excerpt_en": "Massive forest fires have forced the evacuation of some 200,000 people in southwestern France and central Spain, with residents fleeing towns near Madrid and Bordeaux on Friday as flames raged out of ",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/france-firefighters-face-fatigue-after-days-of-relentless-fighting",
+      "title_url": "https://www.scmp.com/news/asia/south-asia/article/3361839/indias-education-minister-quits-major-win-youth-protesters?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "인도 교육부 장관은 취업 시장에 대한 불만과 시험 문제 유출에 대한 분노가 가중되면서 젊은 시위자들의 극심한 압력을 받은 후 토요일 사임했습니다.",
+      "excerpt_en": "India’s education minister resigned on Saturday after coming under intense pressure from young protesters, with outrage over leaked examination questions compounded by discontent with the job market a",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3361839/indias-education-minister-quits-major-win-youth-protesters?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1612,75 +1533,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
-        "Sydney Morning Herald"
+        "BBC",
+        "SCMP"
       ],
-      "first_published_at": "2026-07-25T02:01:27+09:00",
-      "latest_published_at": "2026-07-25T08:26:34+09:00",
+      "first_published_at": "2026-07-25T10:01:49+09:00",
+      "latest_published_at": "2026-07-25T13:44:01+09:00",
       "articles": [
         {
-          "title": "France : Firefighters face fatigue after days of relentless fighting",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/france-firefighters-face-fatigue-after-days-of-relentless-fighting",
-          "published_at": "08:26"
+          "title": "Protesters celebrate resignation of India's education minister",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cly949k3g1do?at_medium=RSS&at_campaign=rss",
+          "published_at": "13:44"
         },
         {
-          "title": "Wildfires threaten Bordeaux as more than 200,000 people flee flames in France, Spain",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/wildfires-threaten-bordeaux-as-more-than-200-000-people-flee-flames-in-france-spain-20260725-p60igt.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "02:01"
+          "title": "India’s education minister quits in major win for youth protesters",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3361839/indias-education-minister-quits-major-win-youth-protesters?utm_source=rss_feed",
+          "published_at": "10:01"
         }
       ]
     },
     {
-      "id": "world-250",
-      "title": "프랑스 남부에 산불이 퍼지자 짙은 연기 속에서 말들이 달려간다",
-      "title_en": "Horses run from thick smoke as wildfires spread in southern France",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/video/horses-run-from-thick-smoke-as-wildfires-spread-in-southern-france-267241541967",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "영상에는 프랑스 남부 전역에 산불이 번지면서 연기가 자욱한 하늘에서 말들이 달리는 모습이 담겨 있습니다. 유럽 ​​전역의 폭염이 악화되면서 수백 명의 소방관이 배치됐다.",
-      "excerpt_en": "Video captured horses running from smoke-filled skies as wildfires spread across southern France. Hundreds of firefighters have been deployed as scorching temperatures across Europe have exacerbated f",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/video/horses-run-from-thick-smoke-as-wildfires-spread-in-southern-france-267241541967",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "NBC News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-24T20:50:46+09:00",
-      "latest_published_at": "2026-07-25T09:46:43+09:00",
-      "articles": [
-        {
-          "title": "Horses run from thick black smoke as wildfires rage in France",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/tv/news/wildfires-southern-france-video-b3021410.html",
-          "published_at": "09:46"
-        },
-        {
-          "title": "Horses run from thick smoke as wildfires spread in southern France",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/horses-run-from-thick-smoke-as-wildfires-spread-in-southern-france-267241541967",
-          "published_at": "20:50"
-        }
-      ]
-    },
-    {
-      "id": "world-257",
+      "id": "world-252",
       "title": "트럼프는 WHCD 복귀에서 폭탄을 터뜨린 후 CNN의 케이틀란 콜린스와 언론에 입이 떡 벌어질 정도로 한 시간 동안 폭언을 퍼부었습니다.",
       "title_en": "Trump bombs in WHCD return and then unleashes on CNN’s Kaitlan Collins and media in jaw-dropping hour-long rant",
       "title_source": "earliest_pick",
@@ -1727,26 +1601,73 @@
       ]
     },
     {
-      "id": "world-319",
-      "title": "인도네시아 구조대원, 유럽 관광객 11명, 현지 승무원 2명 탑승해 실종 쾌속정 수색",
-      "title_en": "Indonesian rescuers search for missing speedboat with 11 European tourists and 2 local crew members",
+      "id": "world-15",
+      "title": "구테레스, 17년 만에 유엔 사무총장 다마스쿠스 방문에서 시리아 샤라 만나",
+      "title_en": "Guterres meets Syria's Sharaa on first visit to Damascus by UN chief in 17 years",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/indonesian-rescuers-search-missing-speedboat-11-european-tourists-135076584",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "인도네시아 구조대가 술라웨시섬에서 실종된 유럽인 관광객 11명과 현지 승무원 2명을 태운 쾌속정을 찾고 있다.",
-      "excerpt_en": "Indonesian rescuers are searching for a speedboat carrying 11 European tourists and two local crew members that went missing off Sulawesi island",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/indonesian-rescuers-search-missing-speedboat-11-european-tourists-135076584",
+      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNnQ1ZzI5WjVHajNLZnJhZTRwYndTLUZVZHVldS13NF8xSDdQRzNDcFc2UWQ2TXhvUWtDMEdsUFVOSEZBcE1YX3hfZ1pJNG44UjdlNnNDTkwwM01MQy1qWkRkck1yVjU4Y2pRY3c5VC1hZVVudDZTbEhIOWlOS19SNk44WUNkQ0lTNGxtRWlTXzUtT0UwTmVOTzltUl80V3JsZTBjZHdwYjA3ejBpMnB1YnBKZ1p4WjZyLWc?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "유엔 사무총장은 지난해까지 유엔 안전보장이사회 제재 대상이었던 아흐메드 알샤라 시리아 대통령을 만날 예정이다.",
+      "excerpt_en": "The UN chief will meet Syrian President Ahmed al-Sharaa, who was under UN Security Council sanctions until last year.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years?traffic_source=rss",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-25T05:02:00+09:00",
+      "latest_published_at": "2026-07-25T07:22:47+09:00",
+      "articles": [
+        {
+          "title": "Guterres arrives in Syria in first official visit by a UN chief in 17 years",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years?traffic_source=rss",
+          "published_at": "07:22"
+        },
+        {
+          "title": "Guterres meets Syria's Sharaa on first visit to Damascus by UN chief in 17 years",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNnQ1ZzI5WjVHajNLZnJhZTRwYndTLUZVZHVldS13NF8xSDdQRzNDcFc2UWQ2TXhvUWtDMEdsUFVOSEZBcE1YX3hfZ1pJNG44UjdlNnNDTkwwM01MQy1qWkRkck1yVjU4Y2pRY3c5VC1hZVVudDZTbEhIOWlOS19SNk44WUNkQ0lTNGxtRWlTXzUtT0UwTmVOTzltUl80V3JsZTBjZHdwYjA3ejBpMnB1YnBKZ1p4WjZyLWc?oc=5",
+          "published_at": "05:02"
+        }
+      ]
+    },
+    {
+      "id": "world-24",
+      "title": "미국, 멕시코산 소 수입금지 해제할 것",
+      "title_en": "US says it will lift ban on imports of Mexican cattle",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXFIeVFPQTlrdHcyMzBXOFo0eXlLVlhxUG0yRVNFUThDd0taMnBraWNlLUdTQnRXcXBYZWFibzZ5Rlc5bldBMWxtS1g5TTJYZ0E1TG1mQmQyb0JQNzZDaHBLNW9GYXd0M1I2UHM2elM2dDZQWWU2UTdBZlhJU3ROR2NkRXBoQVpkZGdOcGZDVkRtTW5CcXc?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "미국은 멕시코에서 신세계나사벌레의 확산으로 인해 조치를 취한 지 1년여가 지난 8월 24일부터 멕시코 소 수입 중단을 시작할 것이라고 밝혔습니다.",
+      "excerpt_en": "The United States says it will begin lifting a suspension on Mexican cattle imports on Aug. 24, more than a year after it imposed the measure due to the spread of the New World screwworm in Mexico",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/us-begin-lifting-suspension-mexican-cattle-imports-starting-135076018",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1754,37 +1675,37 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "Sydney Morning Herald"
+        "Reuters"
       ],
-      "first_published_at": "2026-07-25T07:24:40+09:00",
-      "latest_published_at": "2026-07-25T10:09:05+09:00",
+      "first_published_at": "2026-07-24T21:14:00+09:00",
+      "latest_published_at": "2026-07-25T09:39:16+09:00",
       "articles": [
         {
-          "title": "Rescue team finds 11 European tourists, one crew member alive after speedboat sank in Indonesia",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/indonesian-rescuers-search-for-missing-speedboat-with-11-european-tourists-two-local-crew-20260725-p60ij5.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "10:09"
-        },
-        {
-          "title": "Indonesian rescuers search for missing speedboat with 11 European tourists and 2 local crew members",
+          "title": "US says it will begin lifting suspension of Mexican cattle imports starting in August",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/indonesian-rescuers-search-missing-speedboat-11-european-tourists-135076584",
-          "published_at": "07:24"
+          "url": "https://abcnews.com/International/wireStory/us-begin-lifting-suspension-mexican-cattle-imports-starting-135076018",
+          "published_at": "09:39"
+        },
+        {
+          "title": "US says it will lift ban on imports of Mexican cattle",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXFIeVFPQTlrdHcyMzBXOFo0eXlLVlhxUG0yRVNFUThDd0taMnBraWNlLUdTQnRXcXBYZWFibzZ5Rlc5bldBMWxtS1g5TTJYZ0E1TG1mQmQyb0JQNzZDaHBLNW9GYXd0M1I2UHM2elM2dDZQWWU2UTdBZlhJU3ROR2NkRXBoQVpkZGdOcGZDVkRtTW5CcXc?oc=5",
+          "published_at": "21:14"
         }
       ]
     },
     {
-      "id": "world-12",
-      "title": "엔비디아와 SK그룹, 5000억 달러 규모 AI 데이터센터 이니셔티브, 메모리 파트너십 공개",
-      "title_en": "Nvidia, SK Group unveil $500 billion-plus AI data centers initiative, memory partnership",
+      "id": "world-248",
+      "title": "프랑스 남부에 산불이 퍼지자 짙은 연기 속에서 말들이 달려간다",
+      "title_en": "Horses run from thick smoke as wildfires spread in southern France",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVFFLak9qWnRXdllOXzdoR0dESHJsZnUzb3E4UnpreExzYVZMa1lYa1JESlZiZUw4VFFOazNUSE4wTll5U3kycTg4RjlYaDQtdEp0T0xQejFDYXZUaVROT1gtaFRQM1RlM0Fpei1yNmZ5bFZFZlo5VEVVYkVCbzRvLVdpZVMxcG9TQ3c1VERSQmZiRGRDZ1hDNnd5bUhWUGNmNmZYMk9lSjN4bzRGTWhNd2RvQWowYTRqdVdXcjJNejFManNYLXNzb1BuMlg?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "엔비디아와 SK그룹, 5000억 달러 규모의 AI 데이터 센터 이니셔티브와 메모리 파트너십 공개 - 최신",
-      "excerpt_en": "Nvidia, SK Group unveil $500 billion-plus AI data centers initiative, memory partnership Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVFFLak9qWnRXdllOXzdoR0dESHJsZnUzb3E4UnpreExzYVZMa1lYa1JESlZiZUw4VFFOazNUSE4wTll5U3kycTg4RjlYaDQtdEp0T0xQejFDYXZUaVROT1gtaFRQM1RlM0Fpei1yNmZ5bFZFZlo5VEVVYkVCbzRvLVdpZVMxcG9TQ3c1VERSQmZiRGRDZ1hDNnd5bUhWUGNmNmZYMk9lSjN4bzRGTWhNd2RvQWowYTRqdVdXcjJNejFManNYLXNzb1BuMlg?oc=5",
+      "title_url": "https://www.nbcnews.com/video/horses-run-from-thick-smoke-as-wildfires-spread-in-southern-france-267241541967",
+      "category": "유럽",
+      "primary_source": "NBC News",
+      "excerpt": "영상에는 프랑스 남부 전역에 산불이 번지면서 연기가 자욱한 하늘에서 말들이 달리는 모습이 담겨 있습니다. 유럽 ​​전역의 폭염이 악화되면서 수백 명의 소방관이 배치됐다.",
+      "excerpt_en": "Video captured horses running from smoke-filled skies as wildfires spread across southern France. Hundreds of firefighters have been deployed as scorching temperatures across Europe have exacerbated f",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/video/horses-run-from-thick-smoke-as-wildfires-spread-in-southern-france-267241541967",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1800,216 +1721,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "NBC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-24T20:50:46+09:00",
+      "latest_published_at": "2026-07-25T09:46:43+09:00",
+      "articles": [
+        {
+          "title": "Horses run from thick black smoke as wildfires rage in France",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/tv/news/wildfires-southern-france-video-b3021410.html",
+          "published_at": "09:46"
+        },
+        {
+          "title": "Horses run from thick smoke as wildfires spread in southern France",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/horses-run-from-thick-smoke-as-wildfires-spread-in-southern-france-267241541967",
+          "published_at": "20:50"
+        }
+      ]
+    },
+    {
+      "id": "world-34",
+      "title": "트럼프, 중국·러시아에 “이란 무장시키면 너희에게 매우 나쁠 것” 경고",
+      "title_en": "Trump warns China and Russia: 'Arm Iran and it will be very bad for you'",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/trump-warns-china-and-russia-arm-iran-and-it-will-be-very-bad-for-you-101784919947385.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "도널드 트럼프 대통령은 중국과 러시아 지도자들의 말을 신뢰한다고 말하면서도 이란을 돕는 것은 그들에게 '매우 나쁜' 일이 될 것이라고 경고했습니다.",
+      "excerpt_en": "Donald Trump has warned China and Russia that helping Iran would be 'very bad' for them, even as he said he trusts their leaders' word.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/trump-warns-china-and-russia-arm-iran-and-it-will-be-very-bad-for-you-101784919947385.html",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-07-24T23:53:00+09:00",
-      "latest_published_at": "2026-07-24T23:53:43+09:00",
+      "first_published_at": "2026-07-24T19:50:17+09:00",
+      "latest_published_at": "2026-07-24T20:37:56+09:00",
       "articles": [
         {
-          "title": "Nvidia, SK Group unveil $500 billion-plus AI data centers initiative, memory partnership",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/nvidia-sk-group-unveil-500-billion-plus-ai-data-centers-initiative-memory-partnership-6277421",
-          "published_at": "23:53"
+          "title": "Trump says he trusts Russia and China's leaders not to enable Iran",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn?oc=5",
+          "published_at": "20:37"
         },
         {
-          "title": "Nvidia, SK Group unveil $500 billion-plus AI data centers initiative, memory partnership",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVFFLak9qWnRXdllOXzdoR0dESHJsZnUzb3E4UnpreExzYVZMa1lYa1JESlZiZUw4VFFOazNUSE4wTll5U3kycTg4RjlYaDQtdEp0T0xQejFDYXZUaVROT1gtaFRQM1RlM0Fpei1yNmZ5bFZFZlo5VEVVYkVCbzRvLVdpZVMxcG9TQ3c1VERSQmZiRGRDZ1hDNnd5bUhWUGNmNmZYMk9lSjN4bzRGTWhNd2RvQWowYTRqdVdXcjJNejFManNYLXNzb1BuMlg?oc=5",
-          "published_at": "23:53"
+          "title": "Trump warns China and Russia: 'Arm Iran and it will be very bad for you'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/trump-warns-china-and-russia-arm-iran-and-it-will-be-very-bad-for-you-101784919947385.html",
+          "published_at": "19:50"
         }
       ]
     },
     {
-      "id": "world-14",
-      "title": "카보베르데 월드컵 영웅 보진야(Vozinha)가 칠레의 콜로콜로로 이적하기로 합의했습니다.",
-      "title_en": "Cape Verde World Cup hero Vozinha agrees move to Chile's Colo Colo",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRkI5c3JRaXBtakNzWkZURk9tdUw4YkxabHJubWR2eTVhWE9SRWJLWTJLUEd6STRDSzRyWk52NVNZOGVuaG5rbGN1YThIOXVULWVaTDY2a0lQWkZFazEwNmhBSHB5TnBFTnAxQ3JSSE0waUlmZG1Ob19QOHFLdnRYekFmRkJRNW82MFVXTFdSMWNvWjR6cC1YY3dwdzBwaWxUMVRncDV3WUVMdzBjX0lqa1VR?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "카보베르데 월드컵 영웅 보진야(Vozinha)가 칠레의 콜로콜로(Colo Colo)로 이적하기로 합의했습니다.",
-      "excerpt_en": "Cape Verde World Cup hero Vozinha agrees move to Chile's Colo Colo Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRkI5c3JRaXBtakNzWkZURk9tdUw4YkxabHJubWR2eTVhWE9SRWJLWTJLUEd6STRDSzRyWk52NVNZOGVuaG5rbGN1YThIOXVULWVaTDY2a0lQWkZFazEwNmhBSHB5TnBFTnAxQ3JSSE0waUlmZG1Ob19QOHFLdnRYekFmRkJRNW82MFVXTFdSMWNvWjR6cC1YY3dwdzBwaWxUMVRncDV3WUVMdzBjX0lqa1VR?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-25T01:50:00+09:00",
-      "latest_published_at": "2026-07-25T01:50:48+09:00",
-      "articles": [
-        {
-          "title": "Cape Verde World Cup hero Vozinha agrees move to Chile's Colo Colo",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/cape-verde-world-cup-hero-vozinha-agrees-move-chiles-colo-colo-6277516",
-          "published_at": "01:50"
-        },
-        {
-          "title": "Cape Verde World Cup hero Vozinha agrees move to Chile's Colo Colo",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRkI5c3JRaXBtakNzWkZURk9tdUw4YkxabHJubWR2eTVhWE9SRWJLWTJLUEd6STRDSzRyWk52NVNZOGVuaG5rbGN1YThIOXVULWVaTDY2a0lQWkZFazEwNmhBSHB5TnBFTnAxQ3JSSE0waUlmZG1Ob19QOHFLdnRYekFmRkJRNW82MFVXTFdSMWNvWjR6cC1YY3dwdzBwaWxUMVRncDV3WUVMdzBjX0lqa1VR?oc=5",
-          "published_at": "01:50"
-        }
-      ]
-    },
-    {
-      "id": "world-15",
-      "title": "SpaceX는 13번째 우주선 테스트를 시작하고 처음으로 업그레이드된 Starlink를 잠시 배포합니다.",
-      "title_en": "SpaceX launches 13th Starship test, briefly deploys first upgraded Starlinks",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5SOE5xcGxqZEZRZ0xpTE9Wc2JiTUloM1VHUHdxcllUQXI4RHNnZnRqdnZWYTJZS1pwYl9obHh3aDVJNVZMX3lBS2ZxbnNlMklGbjdUX0lnal95RFBaNHE1MUt0anNSVHhqd1dFNTN5bWM0YS02QzNWbzRrUHkzN0VKRUR1aFJYd3NPX2RGWDRzVUo0dEtlQm14alV4N3ByQl9qVWxuZmoybU5sSlAyNC1TUE9YQQ?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "SpaceX는 13번째 우주선 테스트를 시작하고 처음으로 업그레이드된 Starlinks를 잠시 배포했습니다.",
-      "excerpt_en": "SpaceX launches 13th Starship test, briefly deploys first upgraded Starlinks Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5SOE5xcGxqZEZRZ0xpTE9Wc2JiTUloM1VHUHdxcllUQXI4RHNnZnRqdnZWYTJZS1pwYl9obHh3aDVJNVZMX3lBS2ZxbnNlMklGbjdUX0lnal95RFBaNHE1MUt0anNSVHhqd1dFNTN5bWM0YS02QzNWbzRrUHkzN0VKRUR1aFJYd3NPX2RGWDRzVUo0dEtlQm14alV4N3ByQl9qVWxuZmoybU5sSlAyNC1TUE9YQQ?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-24T22:56:00+09:00",
-      "latest_published_at": "2026-07-24T22:57:30+09:00",
-      "articles": [
-        {
-          "title": "SpaceX launches 13th Starship test, briefly deploys first upgraded Starlinks",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/spacex-launches-13th-starship-test-briefly-deploys-first-upgraded-starlinks-6277406",
-          "published_at": "22:57"
-        },
-        {
-          "title": "SpaceX launches 13th Starship test, briefly deploys first upgraded Starlinks",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5SOE5xcGxqZEZRZ0xpTE9Wc2JiTUloM1VHUHdxcllUQXI4RHNnZnRqdnZWYTJZS1pwYl9obHh3aDVJNVZMX3lBS2ZxbnNlMklGbjdUX0lnal95RFBaNHE1MUt0anNSVHhqd1dFNTN5bWM0YS02QzNWbzRrUHkzN0VKRUR1aFJYd3NPX2RGWDRzVUo0dEtlQm14alV4N3ByQl9qVWxuZmoybU5sSlAyNC1TUE9YQQ?oc=5",
-          "published_at": "22:56"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "Nvidia, Microsoft 및 기타 기술 대기업들이 오픈 소스 AI 모델을 지원합니다.",
-      "title_en": "Nvidia, Microsoft and other tech giants back open-source AI models",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0tzQWRTUldfRzViemRTbXpHNFlLU1l2QzNkRmE0OFZxTkh4WkRtZThGSGRQaWNHMGhzZ01oVE5jeGUyYkNkMDJTTDV3Q1Ayb3l4cjFDOU1QcmVPeFNFLXItcFVESVJtZ1U5ZE1NUkc4Mkw1RTBDR3JDZGJkNXdraEFTZ213RHhIOG5vOTNLTk9fenJPNnFDM2RFY01uUHBGVklDckhsOXJ6UG1wNC1BWDhPYjk0LVU?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "엔비디아(Nvidia), 팔란티르(Palantir), 메타(Meta)를 포함한 미국의 거대 기술 기업 그룹은 금요일 중국이 현재 지배하고 있는 분야인 개방형 AI 모델에서 미국의 리더십을 촉구하는 공개 서한에 서명했습니다. c",
-      "excerpt_en": "A group of American tech giants, including Nvidia, Palantir and Meta, signed a public letter on Friday calling for US leadership in open-weight AI models, an area that China currently dominates. The c",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/diplomacy/article/3361813/nvidia-palantir-meta-warn-against-premature-restrictions-open-weight-models?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-24T18:07:36+09:00",
-      "latest_published_at": "2026-07-24T21:57:47+09:00",
-      "articles": [
-        {
-          "title": "Nvidia, Palantir, Meta warn against ‘premature restrictions’ of open-weight models",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/diplomacy/article/3361813/nvidia-palantir-meta-warn-against-premature-restrictions-open-weight-models?utm_source=rss_feed",
-          "published_at": "21:57"
-        },
-        {
-          "title": "Nvidia, Microsoft and other tech giants back open-source AI models",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0tzQWRTUldfRzViemRTbXpHNFlLU1l2QzNkRmE0OFZxTkh4WkRtZThGSGRQaWNHMGhzZ01oVE5jeGUyYkNkMDJTTDV3Q1Ayb3l4cjFDOU1QcmVPeFNFLXItcFVESVJtZ1U5ZE1NUkc4Mkw1RTBDR3JDZGJkNXdraEFTZ213RHhIOG5vOTNLTk9fenJPNnFDM2RFY01uUHBGVklDckhsOXJ6UG1wNC1BWDhPYjk0LVU?oc=5",
-          "published_at": "18:07"
-        }
-      ]
-    },
-    {
-      "id": "world-28",
-      "title": "중국, 온라인 호텔 예약 독점으로 트립닷컴에 7억7천만 달러 벌금 부과",
-      "title_en": "China fines Trip.com $770 million over online hotel-booking monopoly",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaUFjdTZ1QXpXemRnM2FKeU5RZXFybU91UzMwV0FGejN4ZXpFT1JsWU5RMHlsT3VVTlFoYUw4TmJBd2VocjdCa3Vyckx0dk56YmxCNk9tbHQ3UmRrdVhXWVlMVGVzaGEzNU13aTkxQVBOR2lHY1BJZU8xa0RDMW1oeXEzaXVUdzFvQW56SWhRWGoyeGs3MEY0Tkp1WlNFTmJhOENGcFNBbDhraTZFSTZwNUdvUWR5bkVBbmE4c21R?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "중국 독점금지 규제 당국은 트립닷컴이 트래픽 할당, 플랫폼 규칙, 기술을 사용해 일부 호텔과 독점 계약을 체결하는 동시에 최저가를 추구했다고 밝혔습니다.",
-      "excerpt_en": "China's antitrust regulator said that Trip.com used traffic allocation, platform rules and technology to secure exclusive deals with some hotels while pushing for the lowest prices.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/east-asia/china-penalises-tripcom-us770-million-fine-online-hotel-booking-monopoly-6277751",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-25T02:27:00+09:00",
-      "latest_published_at": "2026-07-25T06:32:34+09:00",
-      "articles": [
-        {
-          "title": "China penalises Trip.com with US$770 million fine for online hotel-booking monopoly",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/china-penalises-tripcom-us770-million-fine-online-hotel-booking-monopoly-6277751",
-          "published_at": "06:32"
-        },
-        {
-          "title": "China fines Trip.com $770 million over online hotel-booking monopoly",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaUFjdTZ1QXpXemRnM2FKeU5RZXFybU91UzMwV0FGejN4ZXpFT1JsWU5RMHlsT3VVTlFoYUw4TmJBd2VocjdCa3Vyckx0dk56YmxCNk9tbHQ3UmRrdVhXWVlMVGVzaGEzNU13aTkxQVBOR2lHY1BJZU8xa0RDMW1oeXEzaXVUdzFvQW56SWhRWGoyeGs3MEY0Tkp1WlNFTmJhOENGcFNBbDhraTZFSTZwNUdvUWR5bkVBbmE4c21R?oc=5",
-          "published_at": "02:27"
-        }
-      ]
-    },
-    {
-      "id": "world-33",
+      "id": "world-37",
       "title": "미국 판사, 바이든 시대 낙태약 처방 제한은 불법",
       "title_en": "US judge says Biden-era restrictions on prescribing abortion drug are unlawful",
       "title_source": "earliest_pick",
@@ -2021,14 +1801,14 @@
       "excerpt_source": "Reuters",
       "excerpt_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY3RlZk9IeE5JRXdHQy1HWW9aLXZoM1gzZmxUWDVtbnVzUHZ3UHY2eko4aVVLV0FPSVQtUktrR3JxWXBZck1HTDVvVHZMTjJjbjBjUlROTjBBX1AwTHBXX293Z0EwbHFnQnVab1dLZEVaZXhSNzZGNlk4Ni1SbkZUakdaS2VZaFFEdHlfVFF6Zl9IRlJQb29zUlJiOVFXMkZjN0t2MEFOLWRqZw?oc=5",
       "translation_status": "ok",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2056,148 +1836,7 @@
       ]
     },
     {
-      "id": "world-34",
-      "title": "소식통에 따르면 파키스탄과 이란은 중국이 주도하는 추진으로 미국과의 새로운 대화를 향한 길을 모색하고 있다고 합니다.",
-      "title_en": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "소식통에 따르면 파키스탄과 이란은 중국이 주도하는 추진으로 미국과의 새로운 대화를 향한 길을 모색하고 있다고 로이터 통신은 전했습니다.",
-      "excerpt_en": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-24T17:59:38+09:00",
-      "latest_published_at": "2026-07-25T02:47:43+09:00",
-      "articles": [
-        {
-          "title": "Pakistan, Iran explore fresh talks with US in China-initiated push: Report",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/pakistan-iran-explore-fresh-talks-with-us-in-china-initiated-push-report/articleshow/132617938.cms",
-          "published_at": "02:47"
-        },
-        {
-          "title": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
-          "published_at": "17:59"
-        }
-      ]
-    },
-    {
-      "id": "world-35",
-      "title": "미국 중소기업, '강제노동' 관세 부과로 트럼프 행정부 고소",
-      "title_en": "US small businesses sue Trump administration over new ‘forced labour’ tariffs",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3361812/us-small-businesses-sue-trump-administration-over-new-forced-labour-tariffs?utm_source=rss_feed",
-      "category": "미국",
-      "primary_source": "SCMP",
-      "excerpt": "미국의 두 중소기업이 ⁠도널드 대통령 ⁠60개 무역 파트너의 상품에 대한 트럼프의 최근 관세 조치에 도전하면서 새로운 정책은 트럼프의 이전 정책 대부분과 같다고 말했습니다.",
-      "excerpt_en": "Two small businesses in the United States have ⁠challenged President Donald ⁠Trump’s latest round of tariffs on goods ⁠from 60 trading partners, saying that the new policy, like most of Trump’s previo",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3361812/us-small-businesses-sue-trump-administration-over-new-forced-labour-tariffs?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-24T20:27:19+09:00",
-      "latest_published_at": "2026-07-24T21:17:08+09:00",
-      "articles": [
-        {
-          "title": "US small businesses file lawsuit challenging Trump's new 'forced labor' tariffs",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3hXQ2NjUXFEczZHVVJnN0RycFFCY25aUm1TY0lzVVF5SXYtWC1ISFlRRjViUGNEdGhVQTA2ODlPSFFaeDN6blhpbEpvbVpYM0h0VkoxdlI5bnFOMFdjRWw2ZkV3NklLV2NIc0duT1pjVGZMVXZCZmFNTGlQb056WnpHSC1ITjA4SXI5aWFtejEtc2Fjb0xEeDAxMlIyUkVINVdzTFBoZFlYLU1jUm90V09kc3gtYm91a2c?oc=5",
-          "published_at": "21:17"
-        },
-        {
-          "title": "US small businesses sue Trump administration over new ‘forced labour’ tariffs",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361812/us-small-businesses-sue-trump-administration-over-new-forced-labour-tariffs?utm_source=rss_feed",
-          "published_at": "20:27"
-        }
-      ]
-    },
-    {
-      "id": "world-42",
-      "title": "주최측은 Sinner, Djokovic이 몬트리올 이벤트를 건너뛴 후 늦은 철수에 대한 우려를 제기했습니다.",
-      "title_en": "Organisers raise concerns over late pullouts after Sinner, Djokovic skip Montreal event",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUpxWDA2WThPWVBqd3NfcVFfRmd5SGhTME5leWVGRHJNeDJ1SzZQZXVJUFVSNXpDbWtIdFFQbkQ2ZXp2M0xvYjJCNGVRMV9JdU0zWHVhUnVwLXhQTnNYRHZORG1BdVRCLVRvQk1ZeFJVb0lCc00xdDRlZ3d3X3haeXlaWlVfM0c3TmotZnFLMmlCb0pWbGl4MzlyZ3VZRUVaU1RINDF0cUxrNFhTOENOdFNMZTVFNHhiWFRMVW5SMlhROFctYmRXVzNB?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "주최측은 Sinner, Djokovic이 몬트리올 이벤트를 건너 뛰자 늦은 철수에 대한 우려를 제기합니다.",
-      "excerpt_en": "Organisers raise concerns over late pullouts after Sinner, Djokovic skip Montreal event Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUpxWDA2WThPWVBqd3NfcVFfRmd5SGhTME5leWVGRHJNeDJ1SzZQZXVJUFVSNXpDbWtIdFFQbkQ2ZXp2M0xvYjJCNGVRMV9JdU0zWHVhUnVwLXhQTnNYRHZORG1BdVRCLVRvQk1ZeFJVb0lCc00xdDRlZ3d3X3haeXlaWlVfM0c3TmotZnFLMmlCb0pWbGl4MzlyZ3VZRUVaU1RINDF0cUxrNFhTOENOdFNMZTVFNHhiWFRMVW5SMlhROFctYmRXVzNB?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-25T06:23:00+09:00",
-      "latest_published_at": "2026-07-25T06:23:14+09:00",
-      "articles": [
-        {
-          "title": "Organisers raise concerns over late pullouts after Sinner, Djokovic skip Montreal event",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/organisers-raise-concerns-over-late-pullouts-after-sinner-djokovic-skip-montreal-event-6277741",
-          "published_at": "06:23"
-        },
-        {
-          "title": "Organisers raise concerns over late pullouts after Sinner, Djokovic skip Montreal event",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUpxWDA2WThPWVBqd3NfcVFfRmd5SGhTME5leWVGRHJNeDJ1SzZQZXVJUFVSNXpDbWtIdFFQbkQ2ZXp2M0xvYjJCNGVRMV9JdU0zWHVhUnVwLXhQTnNYRHZORG1BdVRCLVRvQk1ZeFJVb0lCc00xdDRlZ3d3X3haeXlaWlVfM0c3TmotZnFLMmlCb0pWbGl4MzlyZ3VZRUVaU1RINDF0cUxrNFhTOENOdFNMZTVFNHhiWFRMVW5SMlhROFctYmRXVzNB?oc=5",
-          "published_at": "06:23"
-        }
-      ]
-    },
-    {
-      "id": "world-68",
+      "id": "world-57",
       "title": "모든 표를 집계하려는 노력에도 불구하고 캘리포니아 예비선거에서 약 150,000개의 우편투표가 거부되었습니다.",
       "title_en": "Nearly 150,000 mail ballots rejected in California's primary despite efforts to count every vote",
       "title_source": "earliest_pick",
@@ -2209,14 +1848,14 @@
       "excerpt_source": "AP News",
       "excerpt_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRDNsV2FJcWQtYWU3Z0ItVnNDbzFMeExCNFRic3JWQWp1MjVObTVBNTA0MUZzUktIZW1XUmZnNmcyeHZjemVwWVBjRFc5RzlnVEZKUU9FQ055dVlORV9xc2xFWEJJb2xiMk5XMEZWWUh0SE5PS2ZNYVFjUHdQc0IwQ0Z3dXlESU9wZVlldm43ZVhab05tS3pJby00RjVpOXJ5R1liajFSX19JVFU?oc=5",
       "translation_status": "ok",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2244,7 +1883,7 @@
       ]
     },
     {
-      "id": "world-76",
+      "id": "world-61",
       "title": "성추행 혐의로 ICC 최고검사가 해임됐다.",
       "title_en": "ICC top prosecutor removed over sexual misconduct allegations",
       "title_source": "earliest_pick",
@@ -2256,14 +1895,14 @@
       "excerpt_source": "BBC",
       "excerpt_url": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss",
       "translation_status": "ok",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2291,195 +1930,7 @@
       ]
     },
     {
-      "id": "world-132",
-      "title": "SpaceX Starship 시험 비행에 타고 있는 것: NASA의 Artemis, 직접 모바일 Starlink 및 150억 달러 베팅",
-      "title_en": "What's riding on SpaceX Starship test-flight: Nasa's Artemis, direct-to-mobile Starlink and a $15 billion bet",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/ht-explainers/whats-riding-on-spacex-starship-test-flight-nasas-artemis-direct-to-mobile-starlink-and-a-15-billion-bet-101784910731083.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "스타쉽은 13번째 시험 비행을 완료하기 위해 인도양에 뛰어들었고, 지난 6월 엘론 머스크의 SpaceX가 상장된 이후 처음입니다.",
-      "excerpt_en": "Starship splashed down in the Indian Ocean to complete its 13th test flight and its first since Elon Musk's SpaceX went public in June.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/starship-completes-1st-test-flight-since-spacex-ipo/a-78107347?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-24T16:58:08+09:00",
-      "latest_published_at": "2026-07-25T02:08:00+09:00",
-      "articles": [
-        {
-          "title": "Starship completes 1st test flight since SpaceX IPO",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/starship-completes-1st-test-flight-since-spacex-ipo/a-78107347?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "02:08"
-        },
-        {
-          "title": "What's riding on SpaceX Starship test-flight: Nasa's Artemis, direct-to-mobile Starlink and a $15 billion bet",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/ht-explainers/whats-riding-on-spacex-starship-test-flight-nasas-artemis-direct-to-mobile-starlink-and-a-15-billion-bet-101784910731083.html",
-          "published_at": "16:58"
-        }
-      ]
-    },
-    {
-      "id": "world-179",
-      "title": "인도 바퀴벌레 운동가, 시위가 확산되자 26일 만에 단식농성을 종료",
-      "title_en": "Indian Cockroach activist ends hunger strike after 26 days as protests spread",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/jul/24/india-cockroach-protest-sonam-wangchuk-ends-hunger-strike",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "소남 왕추크(Sonam Wangchuk)는 델리와의 '어려운 거래'를 성사시켰지만 정부와 운동 지도자들 사이의 대화는 교착 상태입니다.",
-      "excerpt_en": "Sonam Wangchuk secures ‘hard bargain’ with Delhi but talks between government and movement leaders stall The Cockroach activist Sonam Wangchuk has ended a 26-day hunger strike, as youth-led protests c",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/jul/24/india-cockroach-protest-sonam-wangchuk-ends-hunger-strike",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-24T14:14:22+09:00",
-      "latest_published_at": "2026-07-24T18:34:09+09:00",
-      "articles": [
-        {
-          "title": "Prominent Indian Activist Breaks Hunger Strike After 26 Days",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/23/world/asia/sonam-wangchuk-india-hunger-strike-protests-modi.html",
-          "published_at": "18:34"
-        },
-        {
-          "title": "Indian Cockroach activist ends hunger strike after 26 days as protests spread",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/24/india-cockroach-protest-sonam-wangchuk-ends-hunger-strike",
-          "published_at": "14:14"
-        }
-      ]
-    },
-    {
-      "id": "world-301",
-      "title": "학교 총격 사건 콜트 그레이, Apalachee High 총격 사건 이후 55건에 대해 유죄 인정",
-      "title_en": "School shooter Colt Gray pleads guilty to 55 counts after Apalachee High shooting",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/colt-gray-guilty-plea-apalachee-high-school-shooting-b3021019.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "비행기가 워싱턴 주 해안에 불시착했습니다. Apalachee 고등학교 총격 용의자가 조지아 법정에서 유죄를 인정했습니다.",
-      "excerpt_en": "A plane makes a crash landing off the Washington state coast; the Apalachee High School shooting suspect pleads guilty in a Georgia courtroom.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/072426-cbs-evening-news/",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-24T14:24:39+09:00",
-      "latest_published_at": "2026-07-24T22:30:00+09:00",
-      "articles": [
-        {
-          "title": "7/24: CBS Evening News",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/072426-cbs-evening-news/",
-          "published_at": "22:30"
-        },
-        {
-          "title": "School shooter Colt Gray pleads guilty to 55 counts after Apalachee High shooting",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/colt-gray-guilty-plea-apalachee-high-school-shooting-b3021019.html",
-          "published_at": "14:24"
-        }
-      ]
-    },
-    {
-      "id": "world-57",
-      "title": "포드, 엔진룸 화재 위험으로 미국 차량 565,000대 이상 리콜",
-      "title_en": "Ford to recall more than 565,000 US vehicles over engine compartment fire risk",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2E0ZVdzYVlwU3Bua2VLWjlJTmhKXzRKZW9wb0ZBV19kRzM4ZEFrUXZDa0dUTTNVUGpSNGw1R0NUczJXZnVSNjBwMnJqMUY1M1lubGJyVzNEUFJWcjVkRjZUSVp0RGp4SmxPNlZpQjRnYmx0RjRYUlpROGlhTS1SRmQ5LXdyTF91ZkNzV3hfM2kwMVFJNktXbWQzVDRUNk1PblNPZXE3Y2c2STJNT2lValNkb3I5R200ZmhUWVpMS1dHTGJocGc?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "포드 자동차가 엔진룸의 와이어링 하네스가 단락되어 화재 위험을 증가시킬 수 있다는 이유로 50만 대 이상의 브롱코를 리콜합니다.",
-      "excerpt_en": "Ford Motor Co. is recalling more than half a million Broncos because a wiring harness in the engine compartment can short circuit and increase the risk of fire",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/ford-recall-broncos-engine-fire-risk-b3021201.html",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-24T15:21:57+09:00",
-      "latest_published_at": "2026-07-24T18:11:55+09:00",
-      "articles": [
-        {
-          "title": "Over half a million Ford Broncos recalled due to engine fire risk",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/ford-recall-broncos-engine-fire-risk-b3021201.html",
-          "published_at": "18:11"
-        },
-        {
-          "title": "Ford to recall more than 565,000 US vehicles over engine compartment fire risk",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQc2E0ZVdzYVlwU3Bua2VLWjlJTmhKXzRKZW9wb0ZBV19kRzM4ZEFrUXZDa0dUTTNVUGpSNGw1R0NUczJXZnVSNjBwMnJqMUY1M1lubGJyVzNEUFJWcjVkRjZUSVp0RGp4SmxPNlZpQjRnYmx0RjRYUlpROGlhTS1SRmQ5LXdyTF91ZkNzV3hfM2kwMVFJNktXbWQzVDRUNk1PblNPZXE3Y2c2STJNT2lValNkb3I5R200ZmhUWVpMS1dHTGJocGc?oc=5",
-          "published_at": "15:21"
-        }
-      ]
-    },
-    {
-      "id": "world-80",
+      "id": "world-66",
       "title": "트럼프는 미국이 유럽연합(EU)의 무역 관행을 조사할 것이라고 말하며 유럽연합이 거대 기술 기업들에 부당하게 벌금을 부과했다고 주장했다.",
       "title_en": "Trump says the US will investigate EU trade practices, claiming the bloc unfairly fined tech giants",
       "title_source": "earliest_pick",
@@ -2526,25 +1977,25 @@
       ]
     },
     {
-      "id": "world-298",
-      "title": "루마니아, 샤헤드로 의심되는 드론을 자국 영공에서 처음으로 격추",
-      "title_en": "Romania shoots down suspected Shahed drone in its airspace for first time",
+      "id": "world-157",
+      "title": "인도 교육부 장관 사임, 시위대에 승리 안겨",
+      "title_en": "India’s Education Minister Steps Down, Handing Win to Protesters",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/romania-drone-incursion-shot-down-russia-shahed-b3020984.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "루마니아 F-16이 부자우 카운티(Buzău County) 상공에서 승인되지 않은 드론을 격추하여 NATO 회원국의 영공에서 최초로 요격을 기록했습니다.",
-      "excerpt_en": "A Romanian F-16 shot down an unauthorized drone over Buzău County, marking the first such interception in the NATO member's national airspace.",
-      "excerpt_source": "Fox News",
-      "excerpt_url": "https://www.foxnews.com/world/romanian-f-16-shoots-down-drone-after-airspace-breach-marking-first-nato-ally",
+      "title_url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html",
+      "category": "아시아",
+      "primary_source": "New York Times",
+      "excerpt": "다르멘드라 프라드한(Dharmendra Pradhan)은 시험 유출 스캔들에 대한 시위 후 사임하고 수천 명의 시위자들 사이에서 축하를 불러일으켰습니다. 인도 교육부 장관 다르멘드라 프라드한(Dharmendra Pradhan)이 잠시 후 사임했습니다.",
+      "excerpt_en": "Dharmendra Pradhan steps down after demonstrations over exam leak scandal, prompting celebrations among thousands of protesters India’s education minister, Dharmendra Pradhan, has resigned after a wee",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/25/dharmendra-pradhan-india-education-minister-resigns-cockroach-movement",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
         "raw75": 39
       },
       "area_value": 2,
@@ -2552,23 +2003,23 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Fox News",
-        "The Independent"
+        "New York Times",
+        "The Guardian"
       ],
-      "first_published_at": "2026-07-24T14:49:49+09:00",
-      "latest_published_at": "2026-07-24T15:42:02+09:00",
+      "first_published_at": "2026-07-25T11:06:44+09:00",
+      "latest_published_at": "2026-07-25T13:54:33+09:00",
       "articles": [
         {
-          "title": "Romanian F-16 shoots down drone after airspace breach, marking first for NATO ally",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/romanian-f-16-shoots-down-drone-after-airspace-breach-marking-first-nato-ally",
-          "published_at": "15:42"
+          "title": "India’s education minister resigns in victory for Cockroach youth movement protests",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/25/dharmendra-pradhan-india-education-minister-resigns-cockroach-movement",
+          "published_at": "13:54"
         },
         {
-          "title": "Romania shoots down suspected Shahed drone in its airspace for first time",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/romania-drone-incursion-shot-down-russia-shahed-b3020984.html",
-          "published_at": "14:49"
+          "title": "India’s Education Minister Steps Down, Handing Win to Protesters",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html",
+          "published_at": "11:06"
         }
       ]
     }
