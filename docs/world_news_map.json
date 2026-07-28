@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,62 +8,319 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-07-29T01:26:46.829598+09:00",
+  "updated_at": "2026-07-29T06:52:50.168731+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 566,
-  "cluster_count_total": 478,
+  "article_count_total": 584,
+  "cluster_count_total": 476,
   "clusters": [
     {
-      "id": "world-112",
-      "title": "경찰은 시애틀 페스티벌 총격 사건에 최소 3명의 용의자가 연루된 것으로 보고 있다.",
-      "title_en": "Police believe at least 3 suspects involved in deadly Seattle festival shooting",
+      "id": "world-192",
+      "title": "일본 강진으로 1명 사망, 수십명 부상",
+      "title_en": "1 dead, dozens injured after severe earthquake strikes Japan",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/police-arrest-seattle-shooting-9.7286262?cmp=rss",
-      "category": "기타",
-      "primary_source": "CBC",
-      "excerpt": "경찰은 지난 주말 시애틀 스페이스 니들 근처에서 열린 음식 축제 총격 사건에 연루된 용의자가 최소 3명이며, 그 중 한 명이 폭력 사태로 사망했다고 밝혔습니다.",
-      "excerpt_en": "Police now say there were at least three suspects involved in a food festival shooting near Seattle's Space Needle over the weekend, and that one of them was among those killed in the violence.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/police-arrest-seattle-shooting-9.7286262?cmp=rss",
+      "title_url": "https://www.scmp.com/news/asia/east-asia/article/3362112/strong-quake-hits-southern-japan-tsunami-alert-issued?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "대규모 지진으로 건물이 무너지고 화재가 발생해 1명이 사망한 것으로 알려진 일본의 한 쇼핑센터에 갇힌 것으로 의심되는 사람들을 긴급구조대원들이 수요일 오전부터 수색했습니다.",
+      "excerpt_en": "Emergency responders searched early on Wednesday for people feared trapped in a shopping centre in Japan after a major earthquake toppled buildings, sparked fires and reportedly killed one person and ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3362112/strong-quake-hits-southern-japan-tsunami-alert-issued?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 88,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 70
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 12,
+      "article_count": 12,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 7,
       "sources": [
-        "AP News",
+        "ABC News Australia",
+        "Bangkok Post",
+        "CBS News",
+        "France24",
+        "NBC News",
+        "SCMP",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-07-28T07:50:41+09:00",
+      "latest_published_at": "2026-07-28T20:45:00+09:00",
+      "articles": [
+        {
+          "title": "People trapped and injured after powerful earthquake strikes Japan",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/strong-earthquake-with-7-1-magnitude-strikes-southern-japan-tsunami-alert-issued/",
+          "published_at": "20:45"
+        },
+        {
+          "title": "Live: Search for survivors after Japan earthquake collapses shopping centre",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-07-29/live-japan-earthquake-shopping-centre-missing-july-29/106969400",
+          "published_at": "20:36"
+        },
+        {
+          "title": "Major earthquake hits Japan",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/major-earthquake-hits-japan-20260729-p60jgf.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:31"
+        },
+        {
+          "title": "Aerial video shows damage from Japan earthquake",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/japan-earthquake-damage-shown-in-aerial-video-267405893562",
+          "published_at": "19:37"
+        },
+        {
+          "title": "‘Huge impact’: Deadly Japan earthquake triggers shopping mall blast, collapse",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/asia/powerful-earthquake-hits-japan-injuring-at-least-50-20260728-p60jf6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "16:21"
+        },
+        {
+          "title": "Powerful quake hits southern Japan",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260728-powerful-quake-hits-southern-japan",
+          "published_at": "15:35"
+        },
+        {
+          "title": "Dozens feared trapped in quake-hit Japan mall",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3292984/dozens-feared-trapped-in-quakehit-japan-mall",
+          "published_at": "14:45"
+        },
+        {
+          "title": "Dozens injured, buildings damaged after powerful earthquake strikes Japan",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/dozens-injured-buildings-damaged-after-powerful-earthquake-strikes-japan/",
+          "published_at": "14:00"
+        },
+        {
+          "title": "A major earthquake strikes southern Japan",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/now/video/a-major-earthquake-strikes-southern-japan-267381317614",
+          "published_at": "13:18"
+        },
+        {
+          "title": "A major earthquake rocks Japan, prompting tsunami warnings",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/a-major-earthquake-rocks-japan-prompting-tsunami-warnings-267372613950",
+          "published_at": "09:26"
+        },
+        {
+          "title": "Major earthquake rocks southern Japan, injuring dozens",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/japan/earthquake-rocks-japan-tsunami-warnings-rcna589574",
+          "published_at": "07:54"
+        },
+        {
+          "title": "1 dead, dozens injured after severe earthquake strikes Japan",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3362112/strong-quake-hits-southern-japan-tsunami-alert-issued?utm_source=rss_feed",
+          "published_at": "07:50"
+        }
+      ]
+    },
+    {
+      "id": "world-26",
+      "title": "오만, 호르무즈 사용을 위한 자발적 비용에 대한 이란 걸프 지원 계획 제안",
+      "title_en": "Oman offers Iran Gulf-backed plan for voluntary fees to use Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "오만은 사용에 대한 자발적 비용 징수를 포함하여 호르무즈 해협을 관리하기 위해 걸프 국가의 지원을 받는 계획을 이란에 제시했다고 걸프 소식통과 서방 외교관이 화요일 로이터에 말했습니다. 에이",
+      "excerpt_en": "Oman presented ⁠Iran with a plan backed by Gulf states to manage the Strait of Hormuz, including collecting voluntary fees for using it, a Gulf source and a Western diplomat told Reuters on Tuesday. A",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Channel News Asia",
+        "France24",
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-28T13:36:04+09:00",
+      "latest_published_at": "2026-07-28T20:35:15+09:00",
+      "articles": [
+        {
+          "title": "Oman presents Iran with Gulf-backed plan for voluntary fees to use Hormuz",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/oman-proposal-iran-hormuz-us-paused-strikes-6284111",
+          "published_at": "20:35"
+        },
+        {
+          "title": "Oman presents Iran with Gulf-backed plan to ease Strait of Hormuz tensions",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260728-oman-presents-iran-with-gulf-backed-plan-to-ease-strait-of-hormuz-tensions",
+          "published_at": "20:07"
+        },
+        {
+          "title": "Oman presents Iran with Gulf-backed plan for voluntary fees to use Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeWdMSVB3OUxtSmtXNWtjQW9EWHRKb0hKaUFkeXd4ek45MHpkUUhFWnNBNHpIUnJpM2RXYkU5MHJOaHN2c1BJeDdXZ0ZpZDdkVUNfbHczcmt2MExCQ082MUZWbnFxYXd4U0ZidUI4bUhWb3NMMjdNVjFyLXh1c3E2ZEVDY1dHSEpoSGFFVE0xWHRheGhRdXkybnBuTnVZSC0yaTl5U3QtdEJQenhEMThhSGVtQkZVcmRMakdN?oc=5",
+          "published_at": "19:46"
+        },
+        {
+          "title": "Oman offers Iran Gulf-backed plan for voluntary fees to use Hormuz",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
+          "published_at": "13:36"
+        }
+      ]
+    },
+    {
+      "id": "world-131",
+      "title": "세계 지도자들은 그레이엄의 장례식을 위해 워싱턴에 있으며 일부는 트럼프와도 만날 것으로 예상됩니다.",
+      "title_en": "World leaders are in Washington for Graham funeral, with some also expected to meet with Trump",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/video/world-leaders-are-in-washington-for-graham-funeral-with-some-also-expected-to-meet-with-trump/",
+      "category": "중동",
+      "primary_source": "CBS News",
+      "excerpt": "세계 지도자들은 린지 그레이엄 상원의원의 장례식을 위해 화요일 워싱턴에 있을 예정이지만 일부는 트럼프 대통령과도 만날 것으로 예상됩니다. CBS 뉴스 국가 안보 분석가 Aaron MacLean이 설명합니다.",
+      "excerpt_en": "World leaders will be in Washington on Tuesday for the funeral of Sen. Lindsey Graham, but some are also expected to meet with President Trump. CBS News national security analyst Aaron MacLean explain",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/world-leaders-are-in-washington-for-graham-funeral-with-some-also-expected-to-meet-with-trump/",
+      "translation_status": "ok",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 7,
+      "article_count": 7,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "CBS News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-28T12:57:38+09:00",
+      "latest_published_at": "2026-07-28T21:07:39+09:00",
+      "articles": [
+        {
+          "title": "Donald Trump and world leaders attend Lindsey Graham’s funeral",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/gallery/2026/7/28/donald-trump-and-world-leaders-attend-lindsey-grahams-funeral?traffic_source=rss",
+          "published_at": "21:07"
+        },
+        {
+          "title": "Lindsey Graham warned that Trump was letting the Iran war ‘slip away’ just before he died",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/lindsey-graham-donald-trump-iran-war-b3023332.html",
+          "published_at": "20:27"
+        },
+        {
+          "title": "What did Trump say at Lindsey Graham's funeral about Guantanamo? Joke goes viral",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-did-trump-say-at-lindsey-grahams-funeral-about-guantanamo-joke-goes-viral-101785268815176.html",
+          "published_at": "20:08"
+        },
+        {
+          "title": "Where will Lindsey Graham be buried? Funeral at Protestant National Cathedral church draws top DC names",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/where-will-lindsey-graham-be-buried-funeral-at-protestant-national-cathedral-church-religion-draws-top-dc-names-101785264736528.html",
+          "published_at": "19:15"
+        },
+        {
+          "title": "What did Trump say about friendship with Lindsey Graham? ‘We started a little bit rough, but then…'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-did-trump-say-about-friendship-with-lindsey-graham-after-senators-death-we-started-a-little-bit-rough-101785252969469.html",
+          "published_at": "15:40"
+        },
+        {
+          "title": "How to watch Lindsey Graham's funeral live? Time, schedule and Trump appearance",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/how-to-watch-lindsey-grahams-funeral-live-time-schedule-and-trump-appearance-101785246713336.html",
+          "published_at": "13:54"
+        },
+        {
+          "title": "World leaders are in Washington for Graham funeral, with some also expected to meet with Trump",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/world-leaders-are-in-washington-for-graham-funeral-with-some-also-expected-to-meet-with-trump/",
+          "published_at": "12:57"
+        }
+      ]
+    },
+    {
+      "id": "world-231",
+      "title": "시애틀 경찰 \"주말 푸드 페스티벌 총격 사건, 갱단과 연관됐을 수도\"",
+      "title_en": "Seattle police say shooting incident at food festival over the weekend may have been gang related",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/07/28/seattle-police-say-shooting-incident-at-food-festival-over-the-weekend-may-have-been-gang-",
+      "category": "아시아",
+      "primary_source": "Euronews",
+      "excerpt": "용의자 중 1명을 포함해 3명이 사망하고, 2세 소년을 포함해 최소 5명이 부상을 입었다. 시애틀 경찰은 18일(현지시간) 개조된 기관총과 추적 불가능한 '유령총'을 회수했다.",
+      "excerpt_en": "Three people died, including one of the suspects, and at least five more were wounded, including two-year-old boy Seattle police recovered a modified machine gun and an untraceable “ghost gun” from th",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/28/seattle-police-mass-shooting-guns",
+      "translation_status": "ok",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
         "CBC",
         "Euronews",
         "Hindustan Times",
-        "Sydney Morning Herald"
+        "The Guardian"
       ],
-      "first_published_at": "2026-07-27T19:41:57+09:00",
-      "latest_published_at": "2026-07-28T07:37:25+09:00",
+      "first_published_at": "2026-07-28T04:26:07+09:00",
+      "latest_published_at": "2026-07-28T21:29:37+09:00",
       "articles": [
+        {
+          "title": "Seattle police recover machine gun and ghost gun from scene of mass shooting",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/28/seattle-police-mass-shooting-guns",
+          "published_at": "21:29"
+        },
+        {
+          "title": "15-year-old arrested in Seattle festival shooting was armed with ghost gun: police",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/seattle-shooting-ghost-gun-9.7287851?cmp=rss",
+          "published_at": "20:07"
+        },
         {
           "title": "Seattle Center shooting motive: Was the crime gang-related? New details emerge",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/seattle-center-shooting-motive-was-the-crime-gang-related-new-details-emerge-101785223890942.html",
           "published_at": "07:37"
-        },
-        {
-          "title": "A shootout that killed 3 at a food festival near Seattle's Space Needle may have been gang-related",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTy11bk81UWJnWVdhRWR0cXRBRzVfYW5WUE9CdlJIelBZdkVaR2hBVE9uTF9YakRDSElFWG95LXRDTWhvR0RLZ0hpejNKbTZuNHdjS3RwSVFCZ3k2VlBrMlRFa214MllRQVRSUkN5b1lOaTFhQzhSTF9QTkZvWVM1YzhFRi03VzI0ZUlIU242T0hkb0hlYVpGV1ppSWRGYWNwSWNjNFJHVmd2M29ic0JF?oc=5",
-          "published_at": "06:34"
         },
         {
           "title": "Police probe ties between teen shooters at Seattle Food Festival",
@@ -76,35 +333,288 @@
           "source_name": "Euronews",
           "url": "http://www.euronews.com/2026/07/28/seattle-police-say-shooting-incident-at-food-festival-over-the-weekend-may-have-been-gang-",
           "published_at": "04:26"
-        },
-        {
-          "title": "Who was Junior Cee Niko Semo? One of Seattle Center mass shooters ID'd, was among 3 killed",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-junior-cee-niko-semo-one-of-seattle-center-mass-shooters-idd-was-among-3-killed-101785195543777.html",
-          "published_at": "23:46"
-        },
-        {
-          "title": "Who were Ashley Whitehead and Carlos Villalba? Seattle Center mass shooting victims identified",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-were-ashley-whitehead-and-carlos-villalba-seattle-center-mass-shooting-victims-identified-101785193665917.html",
-          "published_at": "23:16"
-        },
-        {
-          "title": "‘Gunfight’: At least three shooters at food festival, police say; 15-year-old arrested",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/at-least-four-people-including-a-child-wounded-by-gunfire-at-a-seattle-festival-hospital-says-20260727-p60ix3.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "21:35"
-        },
-        {
-          "title": "Police believe at least 3 suspects involved in deadly Seattle festival shooting",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/police-arrest-seattle-shooting-9.7286262?cmp=rss",
-          "published_at": "19:41"
         }
       ]
     },
     {
-      "id": "world-278",
+      "id": "world-11",
+      "title": "파괴된 이온(Aeon) 몰은 치명적인 지진으로 인해 10년 만에 '새로운 시작'을 위해 다시 문을 열었습니다.",
+      "title_en": "Destroyed Aeon mall had just reopened for 'fresh start' a decade on from deadly quake",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/aeon-mall-japan-earthquake-reopened-destroyed-6284021",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "이온 몰은 2016년 치명적인 구마모토 지진 이후 재건축된 후 지난달 다시 문을 열었지만 화요일 일본 지진으로 다시 파괴되었습니다.",
+      "excerpt_en": "The Aeon mall had reopened just last month after being rebuilt following the deadly 2016 Kumamoto earthquake, but was destroyed again in Tuesday's earthquake in Japan.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/aeon-mall-japan-earthquake-reopened-destroyed-6284021",
+      "translation_status": "ok",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Fox News",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-28T18:01:31+09:00",
+      "latest_published_at": "2026-07-28T20:05:52+09:00",
+      "articles": [
+        {
+          "title": "Japan mall rebuilt after deadly 2016 earthquake destroyed in major temblor weeks after 'fresh start' reopening",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/japan-mall-rebuilt-after-deadly-earthquake-destroyed-major-temblor-weeks-after-fresh-start-reopening",
+          "published_at": "20:05"
+        },
+        {
+          "title": "Destroyed Aeon mall had just reopened for 'fresh start' a decade on from deadly quake",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTNEZDg0aWZzN0ZYb3N2UWhpWHZhNGQ5ZUZTWXNhLU8xNzRZVjQ1b2RVem9iaWlXZXRGbTBTVXMxOFpCSkxfbmtyRlRBRzRlWUplamNodzJsVUZ4bnVPRThuOFI1SHltRnI2WXZyQ29kRXdIZjUxZ2pwWkZjVG03ZEwyX2R1dE1aa1RWQ0RJdVJzeUdfYjBfNlJ4bTZjdGpLMV9zYVBKUXZNV2lvNmFzV1d2aEtndkQydjJUNm9FR1dEWm5faG5KSkxB?oc=5",
+          "published_at": "19:53"
+        },
+        {
+          "title": "Destroyed Aeon mall had just reopened for 'fresh start' a decade on from deadly quake",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/aeon-mall-japan-earthquake-reopened-destroyed-6284021",
+          "published_at": "18:01"
+        }
+      ]
+    },
+    {
+      "id": "world-96",
+      "title": "월드컵을 운영하기 위해 쿠슈너가 지원하는 200억 달러 규모의 운영을 위한 FIFA 계획은 유럽 UEFA의 분노를 충족시킵니다.",
+      "title_en": "FIFA plan for Kushner-backed $20 billion operation to run World Cup meets fury from Europe's UEFA",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORnZ2WXlkWTR4ZVo1SGozUldxWVNZaEZ1ZG1BazF0VkFGMTJGcGRTdVlnc2J4Zi10cDFPaGtwZGRtblZ0bkh3N0tFeE94ckRpT09lU0hRZEZha0prMWxYWXhuUTJHRHlhWWttdWprLVFXU1dkTTFKVVBlLVQzbW9DaERDWTJCNXdjUUdia3ZJc0lFR1NSVS1uQTZLZ2E3b0dJWi1jNnVUYWpiZzA?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "잔니 인판티노 FIFA 회장이 쿠슈너 가문을 포함한 개인 투자자들과 함께 월드컵을 운영하는 200억 달러 규모의 회사를 만들겠다는 계획이 화요일 발표됐고 즉시 유로(Eur)의 공격을 받았다.",
+      "excerpt_en": "FIFA President Gianni Infantino’s plan to create a $20 billion company running the World Cup with private investors including the Kushner family was announced Tuesday — and immediately attacked by Eur",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/fifa-plan-for-kushner-backed-20-billion-operation-to-run-world-cup-meets-fury-from-europe-s-uefa",
+      "translation_status": "ok",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "CBC",
+        "France24"
+      ],
+      "first_published_at": "2026-07-28T17:25:00+09:00",
+      "latest_published_at": "2026-07-28T19:45:46+09:00",
+      "articles": [
+        {
+          "title": "FIFA plan for Kushner-backed $20 billion operation to run World Cup meets fury from Europe's UEFA",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/fifa-plan-for-kushner-backed-20-billion-operation-to-run-world-cup-meets-fury-from-europe-s-uefa",
+          "published_at": "19:45"
+        },
+        {
+          "title": "FIFA plan for Kushner-backed $20 billion US operation to run World Cup meets fury from Europe's UEFA",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/sports/soccer/fifa-ownership-infantino-uefa-anger-july28-9.7287575?cmp=rss",
+          "published_at": "17:57"
+        },
+        {
+          "title": "FIFA plan for Kushner-backed $20 billion operation to run World Cup meets fury from Europe's UEFA",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORnZ2WXlkWTR4ZVo1SGozUldxWVNZaEZ1ZG1BazF0VkFGMTJGcGRTdVlnc2J4Zi10cDFPaGtwZGRtblZ0bkh3N0tFeE94ckRpT09lU0hRZEZha0prMWxYWXhuUTJHRHlhWWttdWprLVFXU1dkTTFKVVBlLVQzbW9DaERDWTJCNXdjUUdia3ZJc0lFR1NSVS1uQTZLZ2E3b0dJWi1jNnVUYWpiZzA?oc=5",
+          "published_at": "17:25"
+        }
+      ]
+    },
+    {
+      "id": "world-210",
+      "title": "일본 남부를 뒤흔든 대규모 지진으로 일부 피해자가 피해를 입은 쇼핑몰에 갇혔습니다.",
+      "title_en": "Major earthquake shakes southern Japan, some victims trapped in damaged shopping mall",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/japan-earthquake-9.7286947?cmp=rss",
+      "category": "아시아",
+      "primary_source": "CBC",
+      "excerpt": "규모 6.8의 지진으로 구마모토가 흔들리고, 전력이 끊기고 건물이 파손될 것으로 예상되는 규모 6.8의 지진이 일본 남부를 뒤흔들어 최소 100명이 부상당했습니다. 일부는 tr",
+      "excerpt_en": "Deaths expected as Kumamoto shaken by 6.8-magnitude quake, knocking out power and damaging buildings A 6.8-magnitude earthquake has shaken south Japan, leaving at least 100 people injured. Some are tr",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/28/japan-earthquake-traps-people-collapsed-shopping-mall",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Bangkok Post",
+        "CBC",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-07-28T08:53:49+09:00",
+      "latest_published_at": "2026-07-28T15:43:42+09:00",
+      "articles": [
+        {
+          "title": "Japan earthquake injures at least 100 and traps many inside shopping mall",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/japan-earthquake-traps-people-collapsed-shopping-mall",
+          "published_at": "15:43"
+        },
+        {
+          "title": "7.1 earthquake strikes Japan’s Kyushu region",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3292955/71-earthquake-strikes-japans-kyushu-region",
+          "published_at": "09:13"
+        },
+        {
+          "title": "Major earthquake shakes southern Japan, some victims trapped in damaged shopping mall",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/japan-earthquake-9.7286947?cmp=rss",
+          "published_at": "08:53"
+        }
+      ]
+    },
+    {
+      "id": "world-242",
+      "title": "베를린 지역사회, 프라이드 퍼레이드 공격 피해자 기억",
+      "title_en": "Berlin community remembers victims of Pride parade attack",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/video/2026/07/28/berlin-community-remembers-victims-of-pride-parade-attack",
+      "category": "유럽",
+      "primary_source": "Euronews",
+      "excerpt": "독일 당국은 수사관들이 베를린 프라이드 축제 근처에서 발생한 치명적인 공격의 용의자가 책임을 주장하는 것으로 보이는 것을 발견했다고 밝혔습니다.",
+      "excerpt_en": "German authorities say investigators have found what appears to be a claim of responsibility by the suspect in the fatal attack near Berlin’s Pride festival",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/investigators-find-apparent-claim-responsibility-after-berlin-pride-135151906",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Euronews",
+        "New York Times"
+      ],
+      "first_published_at": "2026-07-28T11:19:23+09:00",
+      "latest_published_at": "2026-07-28T15:02:33+09:00",
+      "articles": [
+        {
+          "title": "Germany’s AfD Opposes Pride Flags but May Win Support After L.G.B.T.Q. Attack",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/28/world/europe/berlin-pride-attack-afd-politics.html",
+          "published_at": "15:02"
+        },
+        {
+          "title": "Investigators find apparent claim of responsibility after Berlin Pride attack",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/investigators-find-apparent-claim-responsibility-after-berlin-pride-135151906",
+          "published_at": "13:54"
+        },
+        {
+          "title": "Berlin community remembers victims of Pride parade attack",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/28/berlin-community-remembers-victims-of-pride-parade-attack",
+          "published_at": "11:19"
+        }
+      ]
+    },
+    {
+      "id": "world-161",
+      "title": "트럼프, 젤렌스키·네타냐후 만날 예정. 그리고 TPS 보유자는 곧 추방될 수 있습니다.",
+      "title_en": "Trump to meet with Zelenskyy, Netanyahu. And, TPS holders could soon face deportation",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.npr.org/2026/07/28/g-s1-135845/up-first-newsletter-trump-zelenskyy-netanyahu-lindsey-graham-tps-political-corruption",
+      "category": "중동",
+      "primary_source": "NPR",
+      "excerpt": "도널드 트럼프 미국 대통령은 우크라이나와 중동 전쟁이 미국의 군사력을 계속 시험하고 있는 가운데 볼로디미르 젤렌스키 우크라이나 대통령, 베냐민 네타냐후 이스라엘 총리와 별도로 만났다.",
+      "excerpt_en": "U.S. President Donald Trump met separately with Ukrainian President Volodymyr Zelenskyy and Israeli Prime Minister Benjamin Netanyahu as the wars in Ukraine and the Middle East continue to test U.S. d",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/player/play/9.7287853?cmp=rss",
+      "translation_status": "ok",
+      "score": 75,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 56
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBC",
+        "CBS News",
+        "Channel News Asia",
+        "NPR"
+      ],
+      "first_published_at": "2026-07-28T11:26:09+09:00",
+      "latest_published_at": "2026-07-28T20:50:37+09:00",
+      "articles": [
+        {
+          "title": "Trump meets with Zelenskyy and Netanyahu amid wars in Iran, Ukraine",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-zelenskyy-netanyahu-meeting-iran-ukraine-war/",
+          "published_at": "20:50"
+        },
+        {
+          "title": "Trump meets Zelenskyy, Netanyahu as wars test U.S. diplomacy",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/player/play/9.7287853?cmp=rss",
+          "published_at": "20:10"
+        },
+        {
+          "title": "Before funeral, US lawmakers recall Lindsey Graham as persuasive, funny and hawkish",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/lindsey-graham-funeral-netanyahu-zelenskyy-6284061",
+          "published_at": "18:59"
+        },
+        {
+          "title": "Trump to meet with Zelenskyy, Netanyahu. And, TPS holders could soon face deportation",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/07/28/g-s1-135845/up-first-newsletter-trump-zelenskyy-netanyahu-lindsey-graham-tps-political-corruption",
+          "published_at": "11:26"
+        }
+      ]
+    },
+    {
+      "id": "world-275",
       "title": "콩고의 에볼라 사례는 3,200건을 넘어 국가 최악의 발병 기록에 가까워졌습니다.",
       "title_en": "Ebola cases in Congo top 3,200, nearing record of the country's worst outbreak",
       "title_source": "earliest_pick",
@@ -116,34 +626,27 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/africa/article/3362155/ebola-cases-dr-congo-top-3200-nearing-record-countrys-worst-outbreak?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 85,
+      "score": 72,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 54
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
         "ABC News",
         "SCMP",
-        "Sky News",
-        "The Independent"
+        "Sky News"
       ],
       "first_published_at": "2026-07-28T10:50:15+09:00",
-      "latest_published_at": "2026-07-28T14:52:55+09:00",
+      "latest_published_at": "2026-07-28T12:25:32+09:00",
       "articles": [
-        {
-          "title": "Ebola death toll nearly surpasses DR Congo’s worst outbreak numbers in just 10 weeks",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/ebola-dr-congo-death-toll-b3023134.html",
-          "published_at": "14:52"
-        },
         {
           "title": "Ebola cases in DR Congo top 3,200, nearing record of country’s worst outbreak",
           "source_name": "SCMP",
@@ -165,204 +668,17 @@
       ]
     },
     {
-      "id": "world-177",
-      "title": "일본 남부 대규모 지진으로 수십명 부상",
-      "title_en": "Major earthquake rocks southern Japan, injuring dozens",
+      "id": "world-1",
+      "title": "독점-트럼프 행정부는 새로운 중국 로봇과 인버터를 금지하여 미국 AI 구축을 보호합니다.",
+      "title_en": "Exclusive-Trump administration to ban new Chinese robots and inverters, protecting US AI buildout",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/japan/earthquake-rocks-japan-tsunami-warnings-rcna589574",
+      "title_url": "https://www.channelnewsasia.com/business/exclusive-trump-administration-ban-new-chinese-robots-and-inverters-protecting-us-ai-buildout-6284051",
       "category": "아시아",
-      "primary_source": "NBC News",
-      "excerpt": "일본 기상청은 이번 지진이 잠정 규모 7.1, 깊이 6마일을 조금 넘는 규모로 진도 규모가 가장 높은 수준이라고 밝혔습니다. NBC 뉴스의 라프 산체스",
-      "excerpt_en": "The Japan Meteorological Agency said the earthquake, with a preliminary magnitude of 7.1 and a depth of just over 6 miles, was at the highest end of the seismic intensity scale. NBC News' Raf Sanchez ",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/now/video/a-major-earthquake-strikes-southern-japan-267381317614",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 60
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "DW",
-        "NBC News"
-      ],
-      "first_published_at": "2026-07-28T07:54:31+09:00",
-      "latest_published_at": "2026-07-28T16:15:31+09:00",
-      "articles": [
-        {
-          "title": "People trapped and injured after powerful earthquake strikes Japan",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/strong-earthquake-with-7-1-magnitude-strikes-southern-japan-tsunami-alert-issued/",
-          "published_at": "16:15"
-        },
-        {
-          "title": "Dozens injured, buildings damaged after powerful earthquake strikes Japan",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/dozens-injured-buildings-damaged-after-powerful-earthquake-strikes-japan/",
-          "published_at": "14:00"
-        },
-        {
-          "title": "A major earthquake strikes southern Japan",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/now/video/a-major-earthquake-strikes-southern-japan-267381317614",
-          "published_at": "13:18"
-        },
-        {
-          "title": "Japan: Strong earthquake hits Kumamoto, many feared dead",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/japan-strong-earthquake-hits-kumamoto-many-feared-dead/a-78143660?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "12:10"
-        },
-        {
-          "title": "A major earthquake rocks Japan, prompting tsunami warnings",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/a-major-earthquake-rocks-japan-prompting-tsunami-warnings-267372613950",
-          "published_at": "09:26"
-        },
-        {
-          "title": "Major earthquake rocks southern Japan, injuring dozens",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/japan/earthquake-rocks-japan-tsunami-warnings-rcna589574",
-          "published_at": "07:54"
-        }
-      ]
-    },
-    {
-      "id": "world-298",
-      "title": "일본 남부를 강타한 강력한 지진, 쇼핑몰 폭발로 직원 실종",
-      "title_en": "Powerful quake rocks southern Japan, workers missing after mall explosion",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/east-asia/article/3362112/strong-quake-hits-southern-japan-tsunami-alert-issued?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "화요일에 규모 7.1의 지진이 일본 남부 구마모토 현을 강타하여 수천 채의 가옥에 전력이 공급되지 않고 도로가 파손되었으며 일부는 갇히고 일부는 사망한 것으로 추정됩니다.",
-      "excerpt_en": "A 7.1-magnitude earthquake hit Japan’s southern Kumamoto prefecture on Tuesday, knocking out power to thousands of homes, rupturing roads and leaving some trapped and others presumed dead inside a par",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3362112/strong-quake-hits-southern-japan-tsunami-alert-issued?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "CBC",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-28T07:50:41+09:00",
-      "latest_published_at": "2026-07-28T09:13:00+09:00",
-      "articles": [
-        {
-          "title": "7.1 earthquake strikes Japan’s Kyushu region",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3292955/71-earthquake-strikes-japans-kyushu-region",
-          "published_at": "09:13"
-        },
-        {
-          "title": "Major earthquake shakes southern Japan, some victims trapped in damaged shopping mall",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/japan-earthquake-9.7286947?cmp=rss",
-          "published_at": "08:53"
-        },
-        {
-          "title": "Powerful quake rocks southern Japan, workers missing after mall explosion",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3362112/strong-quake-hits-southern-japan-tsunami-alert-issued?utm_source=rss_feed",
-          "published_at": "07:50"
-        }
-      ]
-    },
-    {
-      "id": "world-234",
-      "title": "유출된 일기는 '횡설수설' 트럼프와 그의 명성에 대한 미국 코로나19 국장의 견해를 드러낸다",
-      "title_en": "Leaked diary reveals US COVID chief’s view on a ‘rambling’ Trump and his own fame",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/leaked-diary-reveals-us-covid-chief-s-view-on-a-rambling-trump-and-his-own-fame-20260728-p60jb0.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "앤서니 파우치(Anthony Fauci)가 의회에 출두하기 전에 발표된 서한은 공화당이 '개별 과학자들과 전쟁을 벌이고 있다'고 비난했습니다. 미국 정치 – 최신 업데이트 155명 이상의 과학자, 의사",
-      "excerpt_en": "Letter, published before Anthony Fauci will appear before Congress, accuses Republicans of ‘waging a war on individual scientists’ US politics live – latest updates More than 155 scientists, physician",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/28/trump-administration-fauci-scientists",
-      "translation_status": "ok",
-      "score": 75,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 56
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Sydney Morning Herald",
-        "The Guardian",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-28T09:30:00+09:00",
-      "latest_published_at": "2026-07-28T14:48:11+09:00",
-      "articles": [
-        {
-          "title": "Anthony Fauci grew increasingly annoyed by ‘obnoxious adolescent’ Trump as Covid pandemic spiraled, diary reveals",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/anthony-fauci-pandemic-diary-trump-b3022990.html",
-          "published_at": "14:48"
-        },
-        {
-          "title": "Trump administration needs to stop ‘public harassment’ of Fauci and scientists, open letter says",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/28/trump-administration-fauci-scientists",
-          "published_at": "14:36"
-        },
-        {
-          "title": "'Sexiest Man Alive': Five big revelations from Dr Anthony Fauci's Covid diary",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/sexiest-man-alive-five-big-revelations-from-dr-anthony-faucis-covid-diary/articleshow/132684195.cms",
-          "published_at": "12:32"
-        },
-        {
-          "title": "Leaked diary reveals US COVID chief’s view on a ‘rambling’ Trump and his own fame",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/leaked-diary-reveals-us-covid-chief-s-view-on-a-rambling-trump-and-his-own-fame-20260728-p60jb0.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "09:30"
-        }
-      ]
-    },
-    {
-      "id": "world-120",
-      "title": "미국, 프랑스 발언 도중 유엔 안보리 회의 퇴장",
-      "title_en": "US walks out of UN Security Council meeting during France's remarks",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-      "category": "아시아",
-      "primary_source": "BBC",
-      "excerpt": "이번 논란은 미국이 북한, 러시아와 함께 유엔 인권고등판무관의 임기 연장에 반대표를 던진 뒤 촉발됐다.",
-      "excerpt_en": "The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
+      "primary_source": "Channel News Asia",
+      "excerpt": "당국은 2023년에 밝혀진 '볼트 태풍' 작전과 같은 중국 정부와 연계된 또 다른 해킹 캠페인을 방지하는 것을 목표로 하고 있습니다.",
+      "excerpt_en": "Authorities aim to avert another Chinese government-linked hacking campaign, such as the ‘Volt Typhoon’ operation revealed in 2023",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-bans-chinese-humanoid-robots-inverters-ai-b3023317.html",
       "translation_status": "ok",
       "score": 69,
       "score_breakdown": {
@@ -378,35 +694,197 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
-        "BBC",
-        "Hindustan Times"
+        "Channel News Asia",
+        "Reuters",
+        "The Independent"
       ],
-      "first_published_at": "2026-07-28T09:32:25+09:00",
-      "latest_published_at": "2026-07-28T13:37:57+09:00",
+      "first_published_at": "2026-07-28T18:33:01+09:00",
+      "latest_published_at": "2026-07-28T20:42:09+09:00",
       "articles": [
         {
-          "title": "Why did US walkout of UN Security Council meeting? Dispute with France, allegations against Human Rights Chief explained",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/why-did-us-walkout-of-un-security-council-meeting-human-rights-chief-france-101785244891108.html",
-          "published_at": "13:37"
+          "title": "EXCLUSIVE: Trump administration bans new Chinese humanoid robots, to protect US AI buildout",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTnkxZko1VERycFBhV3VqR0ZGdS1KVnhybkVqa2N3N2NKZDBKcUlSS3AtNU9oZ2xybmdoTzRwd0h4anlyU2RMdFpVNFZtdnVkcjBXSnJBZ3VDN3ZBanVJeUVOYVhvVkJGd21saURQd0lsWXlMdjY2enpyZnVDb21Bb2thM285cmVuN3V3U1puZ2h3Q3E4ZW1tMG9UQ2UwQXdoMWM0eURlTHlUZEhtOWd5Ymg2QjVOd3Y5R1ZlMG53?oc=5",
+          "published_at": "20:42"
         },
         {
-          "title": "US walks out on France at UN over North Korea, Russia comparison",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss",
-          "published_at": "12:31"
+          "title": "Trump admin will ban Chinese humanoid robots and inverters to protect US AI buildout, report says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-bans-chinese-humanoid-robots-inverters-ai-b3023317.html",
+          "published_at": "20:30"
         },
         {
-          "title": "US walks out of UN Security Council meeting during France's remarks",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-          "published_at": "09:32"
+          "title": "Exclusive-Trump administration to ban new Chinese robots and inverters, protecting US AI buildout",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/exclusive-trump-administration-ban-new-chinese-robots-and-inverters-protecting-us-ai-buildout-6284051",
+          "published_at": "18:33"
         }
       ]
     },
     {
-      "id": "world-193",
+      "id": "world-156",
+      "title": "후지모리 게이코, 아슬아슬한 선거 승리 끝에 페루 대통령 취임",
+      "title_en": "Keiko Fujimori sworn in as president of Peru following narrow election victory",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/americas/article/3362181/keiko-fujimori-sworn-president-peru-following-narrow-election-victory?utm_source=rss_feed",
+      "category": "기타",
+      "primary_source": "SCMP",
+      "excerpt": "후지모리 케이코(Keiko Fujimori)가 화요일 리마에서 열린 공식 행사에서 10년 만에 페루의 9대 대통령으로 취임했습니다. 보수적인 51세의 그는 6월 결선투표에서 50,000표 미만의 표 차이로 승리하여 집권하게 됩니다.",
+      "excerpt_en": "Keiko Fujimori was sworn in as Peru’s ninth president in a decade at an official ceremony in Lima on Tuesday. The conservative 51-year-old won June’s run-off by fewer than 50,000 votes and will govern",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3362181/keiko-fujimori-sworn-president-peru-following-narrow-election-victory?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Euronews",
+        "NPR",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-28T18:50:15+09:00",
+      "latest_published_at": "2026-07-28T20:30:50+09:00",
+      "articles": [
+        {
+          "title": "Keiko Fujimori is inaugurated as Peru's president following a narrow election victory",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/07/28/nx-s1-5910830/peru-president-keiko-fujimori-inaugurated",
+          "published_at": "20:30"
+        },
+        {
+          "title": "Keiko Fujimori takes office as Peru's president, vowing to end decade of instability",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/28/keiko-fujimori-takes-office-as-perus-president-vowing-to-end-decade-of-instability",
+          "published_at": "19:57"
+        },
+        {
+          "title": "Keiko Fujimori sworn in as president of Peru following narrow election victory",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3362181/keiko-fujimori-sworn-president-peru-following-narrow-election-victory?utm_source=rss_feed",
+          "published_at": "18:50"
+        }
+      ]
+    },
+    {
+      "id": "world-314",
+      "title": "케냐 암보셀리 국립공원에서 코끼리 15마리가 사망해 조사가 촉발됐다.",
+      "title_en": "The deaths of 15 elephants in Kenya's Amboseli National Park spark investigation",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/deaths-15-elephants-kenyas-amboseli-national-park-spark-135167842",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "케냐 야생동물 당국은 지난 한 달 동안 암보셀리 국립공원에서 코끼리 15마리가 사망한 것을 조사하고 있습니다.",
+      "excerpt_en": "Kenya’s wildlife authorities are investigating the deaths of 15 elephants over the past month in Amboseli National Park",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/deaths-15-elephants-kenyas-amboseli-national-park-spark-135167842",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "CBS News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-28T20:10:15+09:00",
+      "latest_published_at": "2026-07-28T21:19:57+09:00",
+      "articles": [
+        {
+          "title": "Kenya investigates deaths of 15 elephants in Amboseli National Park",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/kenya-elephant-deaths-amboseli-national-park-investigation/",
+          "published_at": "21:19"
+        },
+        {
+          "title": "Mysterious deaths of 15 elephants prompt national park investigation",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/elephants-dead-kenya-amboseli-national-park-b3023329.html",
+          "published_at": "20:23"
+        },
+        {
+          "title": "The deaths of 15 elephants in Kenya's Amboseli National Park spark investigation",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/deaths-15-elephants-kenyas-amboseli-national-park-spark-135167842",
+          "published_at": "20:10"
+        }
+      ]
+    },
+    {
+      "id": "world-66",
+      "title": "이란, 1월 시위에서 경찰 4명 살해한 남성 2명 교수형",
+      "title_en": "Iran hangs 2 men convicted of killing 4 police officers in January protests",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/iran-hangs-2-men-convicted-killing-4-police-135143894",
+      "category": "중동",
+      "primary_source": "ABC News",
+      "excerpt": "이란 사법부는 지난 1월 전국적인 시위 진압 과정에서 경찰관 4명을 살해한 혐의로 유죄 판결을 받은 남성 2명을 당국이 교수형에 처했다고 밝혔습니다.",
+      "excerpt_en": "Iran's judiciary news outlet says authorities have hanged two men convicted in a case of killing four police officers during a January crackdown on nationwide protests",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/iran-hangs-2-men-convicted-killing-4-police-135143894",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-28T10:22:41+09:00",
+      "latest_published_at": "2026-07-28T17:38:00+09:00",
+      "articles": [
+        {
+          "title": "Iran publicly executes 2 men accused of killing police during January protests",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR0QwcktYNlphaVpDQkJfUTREZE82RVVqd0RkSzVRMDZiRFlQVWFCUWQwYzJlVlNzZ0NEeWlxcFAzRm5mTklFQ1Rsam5SakFMSTRhNHNDOWtkaFhUa05JT0xCZGE2dmlqb0ZkSjFJaEhEM2ljdlBZYWE2RjVyX2ZhUEpSemcycDEwTDlGT1gtNUtRdVFrcE9sZ2xMb3hYU2hieEd0bA?oc=5",
+          "published_at": "17:38"
+        },
+        {
+          "title": "Iran executes two more men over January protests",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZExxM2lWTlZla1lzRk4wQjVFNjVzeHhmb0Rva3hmQW8yd2RmZUV0TG0wLVRYV1dNcHdOZnJzUE5OWkthVUROR3JXWlVSSG1QS2JUVVZYMm4xV3JDX1c0Z2JsMThvNjFZLWswRmxaOVRRM3Y1MF83V1NGeHN6enVYbjJMQ3VKYnRfOXRNcWs5V21BQThCVVE2aFQweWxuRTQ3Sm9PUXdFT1N2UnM4VTZKWTdrRQ?oc=5",
+          "published_at": "16:23"
+        },
+        {
+          "title": "Iran hangs 2 men convicted of killing 4 police officers in January protests",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/iran-hangs-2-men-convicted-killing-4-police-135143894",
+          "published_at": "10:22"
+        }
+      ]
+    },
+    {
+      "id": "world-196",
       "title": "오늘 젤렌스키 백악관 방문, 대러 러시아 지지 확보 위해",
       "title_en": "Zelensky's White House visit to secure Trump's support against Russia likely today",
       "title_source": "earliest_pick",
@@ -418,14 +896,14 @@
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/zelensky-visit-white-house-in-test-to-maga-s-significant-shift-towards-kyiv",
       "translation_status": "ok",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -437,13 +915,13 @@
         "New York Times"
       ],
       "first_published_at": "2026-07-28T02:40:14+09:00",
-      "latest_published_at": "2026-07-28T15:06:26+09:00",
+      "latest_published_at": "2026-07-28T18:48:25+09:00",
       "articles": [
         {
           "title": "Zelensky and Trump Meet at the White House. Has Their Relationship Thawed?",
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/07/28/world/europe/zelensky-trump-meeting-ukraine-war-russia.html",
-          "published_at": "15:06"
+          "published_at": "18:48"
         },
         {
           "title": "Zelensky visit White House in test to Maga's 'significant shift towards' Kyiv",
@@ -460,7 +938,531 @@
       ]
     },
     {
-      "id": "world-131",
+      "id": "world-233",
+      "title": "Gavin Newsom은 Ruby Rippey가 폭발적인 세부 사항에 대해 새로운 폭로를하면서 불륜 스캔들에 대해 침묵을 깨뜨 렸습니다.",
+      "title_en": "Gavin Newsom breaks silence on affair scandal as Ruby Rippey makes new revelation in explosive detail",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/gavin-newsom-breaks-silence-on-affair-scandal-as-ruby-rippey-makes-new-revelation-in-explosive-detail-101785253830034.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Ruby Rippey는 Vanity Fair에 당시 샌프란시스코 시장과의 관계에 대해 글을 썼으며 그의 설명과 모순되는 것으로 보입니다. Gavin Newsom의 전 보좌관이 처음으로 그녀의 전체 내용을 공개적으로 공유했습니다.",
+      "excerpt_en": "Ruby Rippey writes in Vanity Fair of relationship with then San Francisco mayor and appears to contradict his account A former aide to Gavin Newsom has publicly shared for the first time her full acco",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/28/gavin-newsom-ruby-rippey-affair-vanity-fair",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-28T17:56:35+09:00",
+      "latest_published_at": "2026-07-28T21:15:14+09:00",
+      "articles": [
+        {
+          "title": "Former Gavin Newsom aide shares fresh details of affair",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/28/gavin-newsom-ruby-rippey-affair-vanity-fair",
+          "published_at": "21:15"
+        },
+        {
+          "title": "Aide who had affair with Gavin Newsom — while married to his campaign manager — breaks her silence",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/gavin-newsom-affair-campaign-manager-ruby-rippey-b3023319.html",
+          "published_at": "20:48"
+        },
+        {
+          "title": "Gavin Newsom breaks silence on affair scandal as Ruby Rippey makes new revelation in explosive detail",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/gavin-newsom-breaks-silence-on-affair-scandal-as-ruby-rippey-makes-new-revelation-in-explosive-detail-101785253830034.html",
+          "published_at": "17:56"
+        }
+      ]
+    },
+    {
+      "id": "world-84",
+      "title": "미국-이란 파업 없이 며칠 만에 유가 5% 하락해 2주 최저치 기록",
+      "title_en": "Oil prices fall 5% to two-week low after several days without US-Iran strikes",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSklqTGZRSVh1M0h3RXpnQWVxSFhReTZHdGZtakI4Skh5NGVuZnplUUVYRzRldjVmX2Mzald4bnJFNklGNnZ0QkRTeWhqb29OR2xzb0JVWkFTUEc4QTZBMDV4bU5TOWlMb2RQNE5EeVRuaXJvZE94azM3cnZEd25tTjNTNU9uZ2dVcnZOQnh3eVE4bmIxR0RTZk1Zb3pSNnlrYXdlQWJXOWxJLWs?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "미국-이란 파업 없이 며칠 만에 유가 5% 하락해 2주 최저치 기록 - 로이터",
+      "excerpt_en": "Oil prices fall 5% to two-week low after several days without US-Iran strikes Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSklqTGZRSVh1M0h3RXpnQWVxSFhReTZHdGZtakI4Skh5NGVuZnplUUVYRzRldjVmX2Mzald4bnJFNklGNnZ0QkRTeWhqb29OR2xzb0JVWkFTUEc4QTZBMDV4bU5TOWlMb2RQNE5EeVRuaXJvZE94azM3cnZEd25tTjNTNU9uZ2dVcnZOQnh3eVE4bmIxR0RTZk1Zb3pSNnlrYXdlQWJXOWxJLWs?oc=5",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-28T01:02:00+09:00",
+      "latest_published_at": "2026-07-28T17:02:42+09:00",
+      "articles": [
+        {
+          "title": "Oil prices fall 5% to two-week low on hopes for US-Iran conflict easing",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/oil-prices-fall-5-two-week-low-hopes-us-iran-conflict-easing-6283956",
+          "published_at": "17:02"
+        },
+        {
+          "title": "Oil prices fall 5% to two-week low after several days without US-Iran strikes",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSklqTGZRSVh1M0h3RXpnQWVxSFhReTZHdGZtakI4Skh5NGVuZnplUUVYRzRldjVmX2Mzald4bnJFNklGNnZ0QkRTeWhqb29OR2xzb0JVWkFTUEc4QTZBMDV4bU5TOWlMb2RQNE5EeVRuaXJvZE94azM3cnZEd25tTjNTNU9uZ2dVcnZOQnh3eVE4bmIxR0RTZk1Zb3pSNnlrYXdlQWJXOWxJLWs?oc=5",
+          "published_at": "01:02"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "조지아 애팔라치 고등학교에서 4명 살해한 학교 총격범, 가석방 없이 종신형 선고",
+      "title_en": "School shooter gets life in prison without parole for killing four at Apalachee High in Georgia",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/colt-gray-sentence-apalachee-high-school-shooting-georgia-b3023337.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "2024년 미국 학교 총격 사건으로 4명 살해한 조지아 10대, 가석방 없이 종신형 - 최신",
+      "excerpt_en": "Life in prison without parole for Georgia teen who killed four in 2024 US school shooting Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc0Z2TjdTTkgwQUpLTmF2ZnU3cXlCdW1DUm9Yc3J2bTRYaEd4VUpkUnFudVRFNWJROVZ5YlAxMHI2b3FMSXNlN1JMS1NzN1BFb2pwNnBjN3FOY3dxY1JWRmVfeGRmYTh0WDAxZmkzNWU0Z1BJeXhhUWdhdmpvWHV0aFhONFlkUlZLTXhwdWxGNHBlZVhQcWhjbmlmeW1Pb0NoY016SktQNEFiemZfdU4yQ2RJQkMzUzFLSVNtaEtRR3VONnR0dHUxeVVIZVk?oc=5",
+      "translation_status": "ok",
+      "score": 59,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 44
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-28T20:20:23+09:00",
+      "latest_published_at": "2026-07-28T20:29:46+09:00",
+      "articles": [
+        {
+          "title": "Life in prison without parole for Georgia teen who killed four in 2024 US school shooting",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc0Z2TjdTTkgwQUpLTmF2ZnU3cXlCdW1DUm9Yc3J2bTRYaEd4VUpkUnFudVRFNWJROVZ5YlAxMHI2b3FMSXNlN1JMS1NzN1BFb2pwNnBjN3FOY3dxY1JWRmVfeGRmYTh0WDAxZmkzNWU0Z1BJeXhhUWdhdmpvWHV0aFhONFlkUlZLTXhwdWxGNHBlZVhQcWhjbmlmeW1Pb0NoY016SktQNEFiemZfdU4yQ2RJQkMzUzFLSVNtaEtRR3VONnR0dHUxeVVIZVk?oc=5",
+          "published_at": "20:29"
+        },
+        {
+          "title": "School shooter gets life in prison without parole for killing four at Apalachee High in Georgia",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/colt-gray-sentence-apalachee-high-school-shooting-georgia-b3023337.html",
+          "published_at": "20:20"
+        }
+      ]
+    },
+    {
+      "id": "world-263",
+      "title": "트럼프는 백악관이 이란과 대화하기 전에 네타냐후에 대해 짜증을 드러냈다.",
+      "title_en": "Trump shows irritation with Netanyahu before White House talks on Iran",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/trump-netanyahu-white-house-zelenskyy-talks-6283846",
+      "category": "중동",
+      "primary_source": "Channel News Asia",
+      "excerpt": "도널드 트럼프 미국 대통령은 화요일 백악관 회의를 앞두고 베냐민 네타냐후에게 짜증을 내며 이스라엘 총리가 계획한 대화 요점의 세부 사항이 I에 대해 불평했다고 불평했습니다.",
+      "excerpt_en": "US President Donald Trump voiced ⁠irritation with Benjamin Netanyahu ahead of their White House meeting on Tuesday, complaining that details of the Israeli prime minister’s planned talking points on I",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3362180/trump-shows-irritation-netanyahu-white-house-talks-iran?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-28T16:40:31+09:00",
+      "latest_published_at": "2026-07-28T17:49:31+09:00",
+      "articles": [
+        {
+          "title": "Trump shows irritation with Netanyahu before White House talks on Iran",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362180/trump-shows-irritation-netanyahu-white-house-talks-iran?utm_source=rss_feed",
+          "published_at": "17:49"
+        },
+        {
+          "title": "Trump shows irritation with Netanyahu before White House talks on Iran",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-netanyahu-white-house-zelenskyy-talks-6283846",
+          "published_at": "16:40"
+        }
+      ]
+    },
+    {
+      "id": "world-239",
+      "title": "두 전쟁이 호수에서 만날 때: 우크라이나의 카스피해 공격과 이란-러시아 각도",
+      "title_en": "When two wars meet at lake: Ukraine's strike in Caspian Sea and the Iran-Russia angle",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/ht-explainers/ukraines-strike-on-iranian-vessel-on-caspian-sea-and-the-iran-russia-angle-when-two-wars-collide-101785249473722.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "이란 선박에 대한 우크라이나 드론 공격으로 처음으로 호수가 두 전쟁의 직접적인 교차점으로 바뀌었습니다.",
+      "excerpt_en": "A Ukrainian drone strike on an Iranian vessel has, for the first time, turned a lake into the direct intersection of two active wars",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/ht-explainers/ukraines-strike-on-iranian-vessel-on-caspian-sea-and-the-iran-russia-angle-when-two-wars-collide-101785249473722.html",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "New York Times"
+      ],
+      "first_published_at": "2026-07-28T16:15:23+09:00",
+      "latest_published_at": "2026-07-28T19:16:38+09:00",
+      "articles": [
+        {
+          "title": "Ukraine’s Strike on an Iranian Ship Could Bring Two Wars Closer",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/28/world/middleeast/iran-ukraine-ship-strikes-caspian.html",
+          "published_at": "19:16"
+        },
+        {
+          "title": "When two wars meet at lake: Ukraine's strike in Caspian Sea and the Iran-Russia angle",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/ht-explainers/ukraines-strike-on-iranian-vessel-on-caspian-sea-and-the-iran-russia-angle-when-two-wars-collide-101785249473722.html",
+          "published_at": "16:15"
+        }
+      ]
+    },
+    {
+      "id": "world-311",
+      "title": "트럼프-네타냐후, 이란 전쟁 '이견' 이후 첫 대면 회담",
+      "title_en": "Trump and Netanyahu hold first face-to-face talks since their 'disagreement' on the Iran war",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/07/28/trump-and-netanyahu-hold-first-face-to-face-talks-since-their-disagreement-on-the-iran-war",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "이번 회담은 미국 대통령이 2025년 초 재임하고 올해 말 이스라엘과 미국 중간선거를 앞두고 나온 이후 트럼프와 네타냐후의 8번째 회담이었습니다.",
+      "excerpt_en": "The meeting was the eighth between Trump and Netanyahu since the US president returned to office in early 2025 and came ahead of elections in Israel and US midterms later this year.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/07/28/trump-and-netanyahu-hold-first-face-to-face-talks-since-their-disagreement-on-the-iran-war",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "The Independent"
+      ],
+      "first_published_at": "2026-07-28T18:12:30+09:00",
+      "latest_published_at": "2026-07-28T20:44:37+09:00",
+      "articles": [
+        {
+          "title": "Iran-US war latest: Trump and Netanyahu hold ‘positive and productive’ talks in first visit since joint strikes began",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-caspian-sea-tanker-strike-b3022701.html",
+          "published_at": "20:44"
+        },
+        {
+          "title": "Trump and Netanyahu hold first face-to-face talks since their 'disagreement' on the Iran war",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/28/trump-and-netanyahu-hold-first-face-to-face-talks-since-their-disagreement-on-the-iran-war",
+          "published_at": "18:12"
+        }
+      ]
+    },
+    {
+      "id": "world-17",
+      "title": "Rogers, Prime Video, 캐나다 NHL 계약 12년 계약 체결",
+      "title_en": "Rogers, Prime Video sign 12-year deal for NHL deal for Canada",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/rogers-prime-video-sign-12-year-deal-nhl-deal-canada-6283866",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Rogers, Prime Video, 캐나다와 NHL 계약 12년 계약 체결 Reuters",
+      "excerpt_en": "Rogers, Prime Video sign 12-year deal for NHL deal for Canada Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYUFuUEs0T0Z5VlR0R2JFN2xqN2d0aWpFQVdmZlR1cUZ1dDFmcnlzUE80R3d2bC1SNjJRekVRZHg2ZlBFMHlxR21UV3RNTnV3V1o5cjNlbGJYNDVQTFkyX1BzY0lEYXVaLTFwcnBtRWNRWk9ZWVF4eVZTaEk2d2dVSDVJelFqLXo4MmQ5dkZQbmxuTkdoNzZ5Q3RnU0pxQXY2OXhfc2ZtemEtRnMwcUxyQg?oc=5",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-07-28T16:27:52+09:00",
+      "latest_published_at": "2026-07-28T18:55:40+09:00",
+      "articles": [
+        {
+          "title": "Rogers, Prime Video sign 12-year deal for NHL deal for Canada",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYUFuUEs0T0Z5VlR0R2JFN2xqN2d0aWpFQVdmZlR1cUZ1dDFmcnlzUE80R3d2bC1SNjJRekVRZHg2ZlBFMHlxR21UV3RNTnV3V1o5cjNlbGJYNDVQTFkyX1BzY0lEYXVaLTFwcnBtRWNRWk9ZWVF4eVZTaEk2d2dVSDVJelFqLXo4MmQ5dkZQbmxuTkdoNzZ5Q3RnU0pxQXY2OXhfc2ZtemEtRnMwcUxyQg?oc=5",
+          "published_at": "18:55"
+        },
+        {
+          "title": "Rogers, Prime Video sign 12-year deal for NHL deal for Canada",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/rogers-prime-video-sign-12-year-deal-nhl-deal-canada-6283866",
+          "published_at": "16:27"
+        }
+      ]
+    },
+    {
+      "id": "world-34",
+      "title": "프랑스, 스페인, 산불 진압에 진전을 보였지만 새로운 폭염이 닥칠 것",
+      "title_en": "France, Spain make headway against wildfires but new heatwave looms",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "서유럽이 또 다른 폭염에 대비하고 있는 가운데, 소방관들은 화요일 프랑스와 스페인 전역에서 수만 명의 전례 없는 대피를 강요한 대규모 산불을 진압하기 위해 달려갔습니다.",
+      "excerpt_en": "Firefighters raced on Tuesday to subdue huge wildfires that have forced unprecedented evacuations of tens of thousands of people across France and Spain, as western Europe braced for another heatwave.",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-28T16:01:09+09:00",
+      "latest_published_at": "2026-07-28T19:17:59+09:00",
+      "articles": [
+        {
+          "title": "France, Spain make headway against huge blazes as new heatwave looms",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdmd4TlU5Wnh0RjlrTFBmVVJKNk5JQjNkTjZsaEllZnEwdzE3bmFsQlhVaVBXbjdzZmV1cWltU3NRWV9IMlY4LVp3TFpVOGI1eE9VRURtVmM3dWhZQy1TdGpHd2VhWGlOOU1uMlhmeGVNb3Vyc3ZnVHNmUmE4V3R0NE9qb0lGSUVBbmhkaTZEYnV4Q3BlalRfMlhhWEVycHhxbWNiNzJxcUkwWndCT3QwOHJuLVJNLXNXemVaeF9jSWw2cmc?oc=5",
+          "published_at": "19:17"
+        },
+        {
+          "title": "France, Spain make headway against wildfires but new heatwave looms",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
+          "published_at": "16:01"
+        }
+      ]
+    },
+    {
+      "id": "world-36",
+      "title": "트럼프, 워싱턴 장례식에서 린지 그레이엄을 전쟁광이자 골프 친구로 애도",
+      "title_en": "Trump mourns Lindsey Graham as war hawk, golfing buddy at Washington funeral",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3362176/lindsey-graham-eulogised-american-original-memorial-service?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "도널드 트럼프 미국 대통령은 화요일 이스라엘과 우크라이나 지도자들이 워싱턴에 합류하면서 공화당 상원 의원 린지 그레이엄을 국가 정치와 확고한 외교 정책 매파로 칭찬했습니다.",
+      "excerpt_en": "US President Donald Trump eulogised Republican Senator Lindsey Graham on Tuesday as a fixture of national politics and unflinching foreign policy hawk, as the leaders of Israel and Ukraine joined Wash",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3362176/lindsey-graham-eulogised-american-original-memorial-service?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-07-28T15:44:42+09:00",
+      "latest_published_at": "2026-07-28T20:12:46+09:00",
+      "articles": [
+        {
+          "title": "Trump mourns Lindsey Graham as war hawk, golfing buddy at Washington funeral",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWREaHh1VmYtTVpFTTJFTjJnblZINTZPVzlvUW44N0J2S08wZ1VPOE01YjhrcUY5TVJ3Wm1MMzIwMDBHX214UzFJZzFzcnBieUMwekFMM2o3eWQybWZZa1NTT3Fsd2RvUFpDaFhlei1TNFRfb01mZkM5Uk5MNVlabWxxQWhWX1FXclJNNFNXU1FId2pRdHhuYi1wU09VZ0hiWnF2a21Edw?oc=5",
+          "published_at": "20:12"
+        },
+        {
+          "title": "Trump mourns Lindsey Graham as war hawk, golfing buddy at Washington funeral",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362176/lindsey-graham-eulogised-american-original-memorial-service?utm_source=rss_feed",
+          "published_at": "15:44"
+        }
+      ]
+    },
+    {
+      "id": "world-91",
+      "title": "보스니아 당국, 메주고리예 성모 마리아 성지 모독과 화재 피해 조사",
+      "title_en": "Bosnian authorities investigate desecration and fire damage at Medjugorje Virgin Mary shrine",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlh5R1RkZkRvSEFtLUtLMjFLZlN3Qno2V1ZLc2pSRjdObWUtOVdoM3k4SVM5RmNkanVUdy14N3dTRTloenkzMlE1aGJ0WkM2NkF1Yzc4ZVZaMTJCYXVaN29RdWVGSERNTUFQbjVpOGZhZ1h1elR4MW5LMmhJcTlLQm9EaW5ZVkxYYWs0Sk5XREozMWsyd2dkRURVQjVHdXRMV2c?oc=5",
+      "category": "기타",
+      "primary_source": "AP News",
+      "excerpt": "감시 영상에는 주요 축제가 열리기 며칠 전에 메주고리예 성지가 파손되자 세인트 제임스 교회 제단에 한 남자가 휘발유를 붓는 모습이 담겨 있습니다.",
+      "excerpt_en": "Surveillance footage shows a man pouring gasoline on the altar at St. James Church as the Medjugorje shrine was vandalized days before a major festival.",
+      "excerpt_source": "Fox News",
+      "excerpt_url": "https://www.foxnews.com/world/world-famous-catholic-shrine-torched-devil-skirt-scrawled-virgin-mary-statue",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Fox News"
+      ],
+      "first_published_at": "2026-07-28T10:57:00+09:00",
+      "latest_published_at": "2026-07-28T19:52:42+09:00",
+      "articles": [
+        {
+          "title": "World-famous Catholic shrine torched, 'Devil in a skirt' scrawled on Virgin Mary statue",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/world-famous-catholic-shrine-torched-devil-skirt-scrawled-virgin-mary-statue",
+          "published_at": "19:52"
+        },
+        {
+          "title": "Bosnian authorities investigate desecration and fire damage at Medjugorje Virgin Mary shrine",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlh5R1RkZkRvSEFtLUtLMjFLZlN3Qno2V1ZLc2pSRjdObWUtOVdoM3k4SVM5RmNkanVUdy14N3dTRTloenkzMlE1aGJ0WkM2NkF1Yzc4ZVZaMTJCYXVaN29RdWVGSERNTUFQbjVpOGZhZ1h1elR4MW5LMmhJcTlLQm9EaW5ZVkxYYWs0Sk5XREozMWsyd2dkRURVQjVHdXRMV2c?oc=5",
+          "published_at": "10:57"
+        }
+      ]
+    },
+    {
+      "id": "world-98",
+      "title": "플로리다주, 소녀 살해 혐의로 전직 경찰관 사형, 하루에 2건의 사형 집행 예정",
+      "title_en": "Florida puts ex-police officer to death for girl’s murder, first of 2 executions set for single day",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzhra1VZWVM0Y0F4bDBnSlZGMFRiYXdzNFgwTGpIa0JXV0dXeWVVOHlUN01jMWE3RUxkSS1fN09Yamt5MlREc052bmplUkVqQlgyVEFWMi1ocTUzQ3g4bGVjOFZ0UDdTdE84MUpWNWdYTk5vMVNpVFkzLVhyRENCZExZZ0h0NnZRbVNCdF9sdFFmZlNmTVpCMlpoUQ?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "Ron DeSantis 주지사는 임기 말에 주의 죽음의 방을 전국에서 가장 바쁜 곳으로 만들었습니다. 어린 소녀를 성폭행하고 살해한 혐의로 유죄 판결을 받은 전직 경찰관이 감옥에 갇혔습니다.",
+      "excerpt_en": "Governor Ron DeSantis has made the state’s death chamber the nation’s busiest at the end of his final term A former police officer convicted of the on-duty rape and murder of a young girl was put to d",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/28/florida-executes-first-of-two-men-single-day",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-07-28T19:03:00+09:00",
+      "latest_published_at": "2026-07-28T21:39:12+09:00",
+      "articles": [
+        {
+          "title": "Florida executes man in first of two lethal injections planned in single day",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/28/florida-executes-first-of-two-men-single-day",
+          "published_at": "21:39"
+        },
+        {
+          "title": "Florida puts ex-police officer to death for girl’s murder, first of 2 executions set for single day",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzhra1VZWVM0Y0F4bDBnSlZGMFRiYXdzNFgwTGpIa0JXV0dXeWVVOHlUN01jMWE3RUxkSS1fN09Yamt5MlREc052bmplUkVqQlgyVEFWMi1ocTUzQ3g4bGVjOFZ0UDdTdE84MUpWNWdYTk5vMVNpVFkzLVhyRENCZExZZ0h0NnZRbVNCdF9sdFFmZlNmTVpCMlpoUQ?oc=5",
+          "published_at": "19:03"
+        }
+      ]
+    },
+    {
+      "id": "world-125",
       "title": "판사는 가수 D4vd가 10대 소녀를 살해한 혐의로 재판을 받아야 한다고 판결했습니다.",
       "title_en": "Judge rules singer D4vd must stand trial in killing of teenage girl",
       "title_source": "earliest_pick",
@@ -472,23 +1474,22 @@
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/judge-orders-d4vd-trial-9.7286835?cmp=rss",
       "translation_status": "ok",
-      "score": 67,
+      "score": 55,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
+        "article_score": 18,
+        "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 50
+        "raw75": 41
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         "BBC",
-        "CBC",
-        "DW"
+        "CBC"
       ],
       "first_published_at": "2026-07-28T01:13:53+09:00",
       "latest_published_at": "2026-07-28T12:31:45+09:00",
@@ -506,12 +1507,6 @@
           "published_at": "01:29"
         },
         {
-          "title": "US singer D4vd to stand trial in killing of 14-year-old girl",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/us-singer-d4vd-to-stand-trial-in-killing-of-14-year-old-girl/a-78137553?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "01:17"
-        },
-        {
           "title": "Judge rules singer D4vd must stand trial in killing of teenage girl",
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/judge-orders-d4vd-trial-9.7286835?cmp=rss",
@@ -520,405 +1515,71 @@
       ]
     },
     {
-      "id": "world-221",
-      "title": "주택 융자 차입자는 수백만 달러의 상쇄 저축을 놓치고 있습니다",
-      "title_en": "Home loan borrowers missing out on millions in offset savings",
+      "id": "world-163",
+      "title": "프랑스와 스페인에서 산불이 발생하면서 소방대원들이 다음 폭염에 대비하고 있습니다.",
+      "title_en": "With wildfires raging in France and Spain, fire crews race against next heat wave",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180",
-      "category": "아시아",
-      "primary_source": "ABC News Australia",
-      "excerpt": "규제당국은 호주 은행들이 '기본을 제대로 하지 못하고 있다'고 20만 건 이상의 주택 융자를 검토한 후 밝혔습니다. 속보 이메일, 무료 앱 또는 일간 뉴스 팟캐스트를 받으세요 Asic은 은행들이",
-      "excerpt_en": "Australian banks ‘not getting the basics right’, regulator says after review of more than 200,000 home loans Get our breaking news email , free app or daily news podcast Asic has accused banks of “not",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-28T14:01:00+09:00",
-      "latest_published_at": "2026-07-28T14:01:05+09:00",
-      "articles": [
-        {
-          "title": "Banks charged mortgage holders $55m in extra interest after offset account errors, Asic finds",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds",
-          "published_at": "14:01"
-        },
-        {
-          "title": "Home loan borrowers missing out on millions in offset savings",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180",
-          "published_at": "14:01"
-        }
-      ]
-    },
-    {
-      "id": "world-178",
-      "title": "이란의 지원을 받는 후티 반군이 어떻게 사우디아라비아를 새로운 갈등으로 몰고 갔는가",
-      "title_en": "How the Iran-Backed Houthis Cornered Saudi Arabia Into a New Conflict",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "이란의 지원을 받는 예멘의 후티 민병대가 이웃 사우디아라비아에 취약한 순간을 포착했습니다. 이 단체는 예멘에서 정치적 양보를 강요하기를 희망하고 있습니다.",
-      "excerpt_en": "The Iranian-backed Houthi militia in Yemen has seized on a vulnerable moment for neighboring Saudi Arabia. The group hopes to force political concessions in Yemen.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "New York Times"
-      ],
-      "first_published_at": "2026-07-27T20:57:07+09:00",
-      "latest_published_at": "2026-07-28T11:54:00+09:00",
-      "articles": [
-        {
-          "title": "Will Pakistan intervene amid Houthi attacks on Saudi ships?",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/will-pakistan-intervene-amid-houthi-attacks-on-saudi-ships/a-78144890?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "11:54"
-        },
-        {
-          "title": "How the Iran-Backed Houthis Cornered Saudi Arabia Into a New Conflict",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
-          "published_at": "20:57"
-        }
-      ]
-    },
-    {
-      "id": "world-189",
-      "title": "지진 피해를 입은 일본 쇼핑몰에 수십 명이 갇힐 우려",
-      "title_en": "Dozens feared trapped in quake-hit Japan mall",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3292984/dozens-feared-trapped-in-quakehit-japan-mall",
-      "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "화요일 늦게 일본의 한 쇼핑몰에 \"많은 사람들\"이 갇혀 있을 것으로 우려된다고 당국은 밝혔습니다. 대지진으로 인해 건물이 무너지고 화재가 발생했으며 100명 이상이 부상당한 것으로 알려졌습니다.",
-      "excerpt_en": "\"Many people\" were feared trapped in a stricken shopping mall in Japan late on Tuesday, authorities said, after a major earthquake toppled buildings, sparked fires and reportedly injured more than 100",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260728-powerful-quake-hits-southern-japan",
-      "translation_status": "ok",
-      "score": 59,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "France24"
-      ],
-      "first_published_at": "2026-07-28T14:45:00+09:00",
-      "latest_published_at": "2026-07-28T15:35:29+09:00",
-      "articles": [
-        {
-          "title": "Powerful quake hits southern Japan",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260728-powerful-quake-hits-southern-japan",
-          "published_at": "15:35"
-        },
-        {
-          "title": "Dozens feared trapped in quake-hit Japan mall",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3292984/dozens-feared-trapped-in-quakehit-japan-mall",
-          "published_at": "14:45"
-        }
-      ]
-    },
-    {
-      "id": "world-116",
-      "title": "관리들은 한 남자가 미시간 주택 화재에서 모두 발견되기 전에 아내와 6명의 자녀를 살해한 다음 자신도 살해했다고 말했습니다.",
-      "title_en": "Officials say man killed wife and 6 kids, then himself, before all were found in Michigan home fire",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObUt3TERFc1RGeVhkTmRObWdyMUJ0cEtkQlI1bTlETmtwY2Z2OG5JMHkxa2FqbjBId3IyV3ZwbEYtZTNfbkZEdW1HN3VKNW5KbElpTFdlNWNiTGpJQmxjR1VXUzZ4bFJRaU5tZ2VJRWxYZkN5YTgtNEhaTGg4ZVhOTnB6MDBjbTRNN29DYm9MS1pZeF9r?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "Kristopher Karolkiewicz ki는 아내 Mandy와 여섯 자녀를 살해한 후 스스로 목숨을 끊었습니다. 그는 여러 곳에 불을 지르며 집에 불을 지폈습니다.",
-      "excerpt_en": "Kristopher Karolkiewicz ki killed his wife Mandy and their six children before killing himself. He set the house ablaze by starting the fire in numerous places.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-was-kristopher-karolkiewicz-all-on-michigan-man-who-killed-wife-6-kids-and-himself-left-job-weeks-ago-101785214308859.html",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-27T22:52:00+09:00",
-      "latest_published_at": "2026-07-28T05:01:39+09:00",
-      "articles": [
-        {
-          "title": "Who was Kristopher Karolkiewicz? All on Michigan man who killed wife, 6 kids and himself; left job weeks ago",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-kristopher-karolkiewicz-all-on-michigan-man-who-killed-wife-6-kids-and-himself-left-job-weeks-ago-101785214308859.html",
-          "published_at": "05:01"
-        },
-        {
-          "title": "Officials say man killed wife and 6 kids, then himself, before all were found in Michigan home fire",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObUt3TERFc1RGeVhkTmRObWdyMUJ0cEtkQlI1bTlETmtwY2Z2OG5JMHkxa2FqbjBId3IyV3ZwbEYtZTNfbkZEdW1HN3VKNW5KbElpTFdlNWNiTGpJQmxjR1VXUzZ4bFJRaU5tZ2VJRWxYZkN5YTgtNEhaTGg4ZVhOTnB6MDBjbTRNN29DYm9MS1pZeF9r?oc=5",
-          "published_at": "22:52"
-        }
-      ]
-    },
-    {
-      "id": "world-145",
-      "title": "수사관들은 베를린 프라이드 공격 이후 명백한 책임 주장을 발견했습니다",
-      "title_en": "Investigators find apparent claim of responsibility after Berlin Pride attack",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/investigators-find-apparent-claim-responsibility-after-berlin-pride-135151906",
+      "title_url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires",
       "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "독일 당국은 수사관들이 베를린 프라이드 축제 근처에서 발생한 치명적인 공격의 용의자가 책임을 주장하는 것으로 보이는 것을 발견했다고 밝혔습니다.",
-      "excerpt_en": "German authorities say investigators have found what appears to be a claim of responsibility by the suspect in the fatal attack near Berlin’s Pride festival",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/investigators-find-apparent-claim-responsibility-after-berlin-pride-135151906",
+      "primary_source": "NPR",
+      "excerpt": "프랑스 당국은 보르도 서쪽의 대규모 산불에 대한 소방관들의 취약한 진압에 위협이 되자 화요일 대서양 연안의 관광지에서 약 4000명에게 대피 명령을 내렸다.",
+      "excerpt_en": "French authorities ordered nearly 4,000 people evacuated Tuesday from tourist sites on the Atlantic coast as returning heat threatened firefighters' fragile hold on a vast wildfire west of Bordeaux.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires",
       "translation_status": "ok",
-      "score": 56,
+      "score": 55,
       "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 5,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 41
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "ABC News",
-        "Al Jazeera"
+        "CBC",
+        "NPR"
       ],
-      "first_published_at": "2026-07-28T13:54:13+09:00",
-      "latest_published_at": "2026-07-28T15:20:43+09:00",
+      "first_published_at": "2026-07-28T06:25:18+09:00",
+      "latest_published_at": "2026-07-28T12:37:11+09:00",
       "articles": [
         {
-          "title": "German investigators find apparent motive after Berlin Pride attack",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/28/german-investigators-find-apparent-motive-after-berlin-pride-attack?traffic_source=rss",
-          "published_at": "15:20"
-        },
-        {
-          "title": "Investigators find apparent claim of responsibility after Berlin Pride attack",
+          "title": "France evacuates 4K more as heat threatens wildfire fight across southwestern Europe",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/investigators-find-apparent-claim-responsibility-after-berlin-pride-135151906",
-          "published_at": "13:54"
+          "url": "https://abcnews.com/International/wireStory/firefighters-france-hold-back-vast-wildfire-heat-returns-135143322",
+          "published_at": "12:37"
+        },
+        {
+          "title": "New evacuations ordered in southwestern France wildfires as heat wave conditions return",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/france-spain-wildfires-heat-wave-9.7286952?cmp=rss",
+          "published_at": "10:44"
+        },
+        {
+          "title": "With wildfires raging in France and Spain, fire crews race against next heat wave",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires",
+          "published_at": "06:25"
         }
       ]
     },
     {
-      "id": "world-188",
-      "title": "영국 국회의원, 프랑스 순찰선이 해협에서 자신 근처에서 '경고 사격'을 했다고 비난",
-      "title_en": "British MP accuses French patrol boat of firing 'warning shots' near him in Channel",
+      "id": "world-355",
+      "title": "벨기에 검찰, NATO 스파이 혐의에 대한 재판 전 구금 연장",
+      "title_en": "Pretrial custody of alleged NATO spy extended, Belgian prosecutor says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/europe/20260728-british-mp-accuses-french-patrol-boat-of-firing-warning-shots-near-him-in-channel",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "그림자 장관은 경고가 없었고 '고의적인 위협처럼 보였고 들렸다'고 말했습니다. 보수당 의원은 프랑스 해군이 채널에서 자신 근처에서 총격을 가했다고 비난했습니다.",
-      "excerpt_en": "Shadow minister says there was no warning and ‘it looked and sounded like deliberate intimidation’ Conservative MP accuses French navy of firing shots near him in Channel It is not just the Russians f",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/politics/live/2026/jul/28/andy-burnham-education-tories-ai-localism-devolution-latest-news-updates",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-28T15:58:00+09:00",
-      "latest_published_at": "2026-07-28T16:06:39+09:00",
-      "articles": [
-        {
-          "title": "Tories’ Philp rejects French claim that shots fired from naval boat near him were training exercise – UK politics live",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/politics/live/2026/jul/28/andy-burnham-education-tories-ai-localism-devolution-latest-news-updates",
-          "published_at": "16:06"
-        },
-        {
-          "title": "Conservative MP accuses French navy of firing shots near him in Channel",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/28/tory-mp-chris-philp-accuses-french-navy-of-firing-shots-in-channel-incident",
-          "published_at": "16:05"
-        },
-        {
-          "title": "British MP accuses French patrol boat of firing 'warning shots' near him in Channel",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260728-british-mp-accuses-french-patrol-boat-of-firing-warning-shots-near-him-in-channel",
-          "published_at": "15:58"
-        }
-      ]
-    },
-    {
-      "id": "world-265",
-      "title": "워싱턴에서 네타냐후는 섬세한 균형 법안에 직면",
-      "title_en": "In Washington, Netanyahu Faces a Delicate Balancing Act",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/07/27/world/middleeast/trump-netanyahu-relationship-iran.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "베냐민 네타냐후 이스라엘 총리는 화요일에 트럼프 대통령과 만날 ​​예정인데, 한 눈은 이란에, 또 다른 눈은 다가오는 본국 선거에 주목하고 있습니다.",
-      "excerpt_en": "Prime Minister Benjamin Netanyahu of Israel is set to meet President Trump on Tuesday, with one eye on Iran and another on the coming elections back home.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/07/27/world/middleeast/trump-netanyahu-relationship-iran.html",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-27T21:11:42+09:00",
-      "latest_published_at": "2026-07-28T15:18:35+09:00",
-      "articles": [
-        {
-          "title": "Iran-US war latest: Israel’s Netanyahu visits White House for first meeting since Middle East bombing campaign began",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-caspian-sea-tanker-strike-b3022701.html",
-          "published_at": "15:18"
-        },
-        {
-          "title": "In Washington, Netanyahu Faces a Delicate Balancing Act",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/27/world/middleeast/trump-netanyahu-relationship-iran.html",
-          "published_at": "21:11"
-        }
-      ]
-    },
-    {
-      "id": "world-311",
-      "title": "Lindsey Graham의 장례식을 실시간으로 시청하는 방법은 무엇입니까? 시간, 일정 및 트럼프 등장",
-      "title_en": "How to watch Lindsey Graham's funeral live? Time, schedule and Trump appearance",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/how-to-watch-lindsey-grahams-funeral-live-time-schedule-and-trump-appearance-101785246713336.html",
+      "title_url": "https://www.hindustantimes.com/world-news/pretrial-custody-of-alleged-nato-spy-extended-belgian-prosecutor-says-101785264213974.html",
       "category": "유럽",
       "primary_source": "Hindustan Times",
-      "excerpt": "트럼프 대통령은 린지 그레이엄의 죽음에 대해 믿을 수 없다는 뜻을 표명했으며 종종 고 상원의원의 에너지 수준에 대해 언급했습니다.",
-      "excerpt_en": "President Trump has expressed disbelief at Lindsey Graham’s death, often speaking about the late senator’s energy levels",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-lindsey-graham-death-musing-b3022994.html",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-07-28T13:54:56+09:00",
-      "latest_published_at": "2026-07-28T16:17:58+09:00",
-      "articles": [
-        {
-          "title": "Trump, 80, has been musing about his own mortality in the wake of Lindsey Graham’s death: report",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-lindsey-graham-death-musing-b3022994.html",
-          "published_at": "16:17"
-        },
-        {
-          "title": "What did Trump say about friendship with Lindsey Graham? ‘We started a little bit rough, but then…'",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/what-did-trump-say-about-friendship-with-lindsey-graham-after-senators-death-we-started-a-little-bit-rough-101785252969469.html",
-          "published_at": "15:40"
-        },
-        {
-          "title": "How to watch Lindsey Graham's funeral live? Time, schedule and Trump appearance",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/how-to-watch-lindsey-grahams-funeral-live-time-schedule-and-trump-appearance-101785246713336.html",
-          "published_at": "13:54"
-        }
-      ]
-    },
-    {
-      "id": "world-2",
-      "title": "효율성 향상에 따라 직원 7%를 해고하는 Visa",
-      "title_en": "Visa to lay off 7% of staff as efficiency push deepens",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/visa-lay-7-staff-efficiency-push-deepens-6283421",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Visa, 효율성 강화로 직원 7% 해고 예정 - 최신",
-      "excerpt_en": "Visa to lay off 7% of staff as efficiency push deepens Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLXRnQ0duQjJCZzk3eXl2dExidFJ6Q01OdHFDRnNMcDF5TE0yWE5jeHNuTFVRWk44NThVN1ppREZJbXNacDVldXpkM2FVZllJdmxlcThzN0d0V1duZEp1aUVVZWhuUzd4NU5MQlB0VmsxbnBqaVUzRFJmUzM2elFsWWNyTFFTVFptSXkxdTZXUXQ2bFB0NU9yVEs3T1Uta2o3ZEZkMXpn?oc=5",
+      "excerpt": "벨기에에 있는 NATO 군사 본부에서 스파이 활동을 한 혐의로 기소된 캐나다 인턴이 보석이 거부되고 구금될 예정입니다. 벨기에 검찰은 그녀가 제3국을 위해 스파이 활동을 했으며, 그 중 일부였다고 주장했습니다.",
+      "excerpt_en": "A Canadian intern accused of spying at NATO's military headquarters in Belgium has been denied bail and will remain in custody. Belgian prosecutors allege she spied for a third country and was part of",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/player/play/9.7287763?cmp=rss",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -934,47 +1595,47 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "CBC",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-07-28T12:48:15+09:00",
-      "latest_published_at": "2026-07-28T15:03:12+09:00",
+      "first_published_at": "2026-07-28T18:43:33+09:00",
+      "latest_published_at": "2026-07-28T19:17:10+09:00",
       "articles": [
         {
-          "title": "Visa to lay off 7% of staff as efficiency push deepens",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLXRnQ0duQjJCZzk3eXl2dExidFJ6Q01OdHFDRnNMcDF5TE0yWE5jeHNuTFVRWk44NThVN1ppREZJbXNacDVldXpkM2FVZllJdmxlcThzN0d0V1duZEp1aUVVZWhuUzd4NU5MQlB0VmsxbnBqaVUzRFJmUzM2elFsWWNyTFFTVFptSXkxdTZXUXQ2bFB0NU9yVEs3T1Uta2o3ZEZkMXpn?oc=5",
-          "published_at": "15:03"
+          "title": "Canadian NATO intern accused of spying denied bail in Belgium",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/player/play/9.7287763?cmp=rss",
+          "published_at": "19:17"
         },
         {
-          "title": "Visa to lay off 7% of staff as efficiency push deepens",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/visa-lay-7-staff-efficiency-push-deepens-6283421",
-          "published_at": "12:48"
+          "title": "Pretrial custody of alleged NATO spy extended, Belgian prosecutor says",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/pretrial-custody-of-alleged-nato-spy-extended-belgian-prosecutor-says-101785264213974.html",
+          "published_at": "18:43"
         }
       ]
     },
     {
-      "id": "world-6",
-      "title": "에어포스원 비용이 2억 8천만 달러 증가하면서 보잉은 예상보다 큰 2분기 손실을 기록했습니다.",
-      "title_en": "Boeing posts bigger-than-expected Q2 loss as Air Force One costs rise by $280 million",
+      "id": "world-40",
+      "title": "프랑스 검찰, 집에서 시신 발견 후 유아 5명 사망 의심 조사",
+      "title_en": "French prosecutors investigate suspected deaths of five infants after remains found at home",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/business/international-business/boeing-posts-bigger-than-expected-q2-loss-as-air-force-one-costs-rise-by-280-million/articleshow/132684612.cms",
-      "category": "기타",
-      "primary_source": "Times of India",
-      "excerpt": "보잉, 에어포스원 비용 상승으로 2분기 손실이 예상보다 컸다 - 로이터",
-      "excerpt_en": "Boeing posts larger-than-expected Q2 loss as Air Force One costs rise Reuters",
+      "title_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXh1bFQydzhyMER2R3JueG84cUp0T09kck9aUUpzRHNFbmRTdExXSVFaRm1xOHhYXzQ5MDBlWWVDcE9mOVUtQ2NXLWJsTm5tX2tMSVotMDBzMWtncTRlYi1naTh6d0N0TjBYMHNjSmlHWDhCbnlkanB3MUFvLWNneWl2Y0dnM0syTG96cFZibkQ1OGxVZkRyVFIzVlJIMFB4eTFzWUhHbVZncEc2dXdqTGdlNUdpUDZOMS1zNlc5UQ?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "프랑스 검찰, 집에서 시신 발견 후 유아 5명 사망 의심 조사 - 로이터",
+      "excerpt_en": "French prosecutors investigate suspected deaths of five infants after remains found at home Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQlJVSV9pckh4Q3pkZVdLaHRYZ1JDZENsSmV6UjVTOGpMeGNEUVNrTnNBSzczZjgtakpIZHJTekNHR0lpODVfMy1ZeHg2aWg5Q2M3TVBUaWdBSV8yVVowQmNoN2lLNEI5T0NZQm5TN0gyV1pKNjFhUEF1ZWNDaFh1N1M1OUFmNTRnVGFmNEhlaERpTFVBMjhBUHlzSk83d1NXdW14X0tsMVQ0Q250ZHVNMWNGWXNPQkl4TmpVRmxwdWY1NEF0c2xYTg?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXh1bFQydzhyMER2R3JueG84cUp0T09kck9aUUpzRHNFbmRTdExXSVFaRm1xOHhYXzQ5MDBlWWVDcE9mOVUtQ2NXLWJsTm5tX2tMSVotMDBzMWtncTRlYi1naTh6d0N0TjBYMHNjSmlHWDhCbnlkanB3MUFvLWNneWl2Y0dnM0syTG96cFZibkQ1OGxVZkRyVFIzVlJIMFB4eTFzWUhHbVZncEc2dXdqTGdlNUdpUDZOMS1zNlc5UQ?oc=5",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -984,166 +1645,72 @@
         "Reuters",
         "Times of India"
       ],
-      "first_published_at": "2026-07-28T12:27:18+09:00",
-      "latest_published_at": "2026-07-28T16:07:31+09:00",
+      "first_published_at": "2026-07-28T14:03:31+09:00",
+      "latest_published_at": "2026-07-28T16:19:04+09:00",
       "articles": [
         {
-          "title": "Boeing posts larger-than-expected Q2 loss as Air Force One costs rise",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQlJVSV9pckh4Q3pkZVdLaHRYZ1JDZENsSmV6UjVTOGpMeGNEUVNrTnNBSzczZjgtakpIZHJTekNHR0lpODVfMy1ZeHg2aWg5Q2M3TVBUaWdBSV8yVVowQmNoN2lLNEI5T0NZQm5TN0gyV1pKNjFhUEF1ZWNDaFh1N1M1OUFmNTRnVGFmNEhlaERpTFVBMjhBUHlzSk83d1NXdW14X0tsMVQ0Q250ZHVNMWNGWXNPQkl4TmpVRmxwdWY1NEF0c2xYTg?oc=5",
-          "published_at": "16:07"
-        },
-        {
-          "title": "Boeing posts bigger-than-expected Q2 loss as Air Force One costs rise by $280 million",
+          "title": "Remains of five infants found in French couple's home; partner made discovery",
           "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/business/international-business/boeing-posts-bigger-than-expected-q2-loss-as-air-force-one-costs-rise-by-280-million/articleshow/132684612.cms",
-          "published_at": "12:27"
-        }
-      ]
-    },
-    {
-      "id": "world-9",
-      "title": "오만, 호르무즈 사용을 위한 자발적 비용에 대한 이란 걸프 지원 계획 제안",
-      "title_en": "Oman offers Iran Gulf-backed plan for voluntary fees to use Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "오만은 사용에 대한 자발적 비용 징수를 포함하여 호르무즈 해협을 관리하기 위해 걸프 국가의 지원을 받는 계획을 이란에 제시했다고 걸프 소식통과 서방 외교관이 화요일 로이터에 말했습니다. 에이",
-      "excerpt_en": "Oman presented ⁠Iran with a plan backed by Gulf states to manage the Strait of Hormuz, including collecting voluntary fees for using it, a Gulf source and a Western diplomat told Reuters on Tuesday. A",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-28T13:36:04+09:00",
-      "latest_published_at": "2026-07-28T14:06:36+09:00",
-      "articles": [
-        {
-          "title": "Oman presents Iran with Gulf-backed plan for voluntary fees to use Hormuz",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeWdMSVB3OUxtSmtXNWtjQW9EWHRKb0hKaUFkeXd4ek45MHpkUUhFWnNBNHpIUnJpM2RXYkU5MHJOaHN2c1BJeDdXZ0ZpZDdkVUNfbHczcmt2MExCQ082MUZWbnFxYXd4U0ZidUI4bUhWb3NMMjdNVjFyLXh1c3E2ZEVDY1dHSEpoSGFFVE0xWHRheGhRdXkybnBuTnVZSC0yaTl5U3QtdEJQenhEMThhSGVtQkZVcmRMakdN?oc=5",
-          "published_at": "14:06"
+          "url": "https://timesofindia.indiatimes.com/world/europe/remains-of-five-infants-found-in-french-couples-home-partner-made-discovery/articleshow/132689486.cms",
+          "published_at": "16:19"
         },
         {
-          "title": "Oman offers Iran Gulf-backed plan for voluntary fees to use Hormuz",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
-          "published_at": "13:36"
+          "title": "French prosecutors investigate suspected deaths of five infants after remains found at home",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXh1bFQydzhyMER2R3JueG84cUp0T09kck9aUUpzRHNFbmRTdExXSVFaRm1xOHhYXzQ5MDBlWWVDcE9mOVUtQ2NXLWJsTm5tX2tMSVotMDBzMWtncTRlYi1naTh6d0N0TjBYMHNjSmlHWDhCbnlkanB3MUFvLWNneWl2Y0dnM0syTG96cFZibkQ1OGxVZkRyVFIzVlJIMFB4eTFzWUhHbVZncEc2dXdqTGdlNUdpUDZOMS1zNlc5UQ?oc=5",
+          "published_at": "14:03"
         }
       ]
     },
     {
-      "id": "world-11",
-      "title": "애플은 잠시 동안 5조 달러의 시장 가치를 달성한 두 번째 회사가 되었습니다.",
-      "title_en": "Apple briefly becomes second company ever to notch $5 trillion market value",
+      "id": "world-46",
+      "title": "우간다, 최근 에볼라 발병 종식 선언",
+      "title_en": "Uganda declares end to latest Ebola outbreak",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/apple-briefly-becomes-second-company-ever-notch-5-trillion-market-value-6283756",
+      "title_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSXRUcFFGVXBPS1c1NDJyRUptZmR1UHdjeUg0WmpRY3pMaUdoOHNsSDlReVhzaGhmcDFKY1pTUU80SGxFNnkzRmNoelNYWFNZUFJEUURCcURUcW5jYVlCVEtSYUZwdHRucEVBZDBZa01Fal9wWWs1VDEzYUlqX3N5MUJ3M0djQm1QLUF4d3QyWHVJMzZPWGlLWE4ydXVoWklKTjNDamtpSkw4SHRpdzZJVXVMbWRVdld6M20yWUhLYVE?oc=5",
       "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Apple은 잠시 동안 5조 달러의 시장 가치를 달성한 두 번째 회사가 되었습니다.",
-      "excerpt_en": "Apple briefly becomes second company ever to notch $5 trillion market value Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbUZmRGhDbU9sZWNKNm4zU1JTVmNubzllUjF5UnhTREUtbzVHV2FyNzZUMHhfZjItUTh6THB4TDVqRHFHc2tTUkFGSTlqSG1LWmFWS2E0ZFk0bm51RE1wMjQ0X09FdlBvOGVoTGpUUmp5cjZfRG1UM01fSTd4MUdLSWZJMVBoOWRxWExNT1JUaUJWTnZtVGFaMWFKMlB5cVVEQlVFVVFIbWs0ZFlHdlhrZEw0MFd0NUs1UmV3ZWxNZlVxdC03dF94cm9MOGY?oc=5",
+      "primary_source": "Reuters",
+      "excerpt": "보건부 장관은 국민들에게 '경각심을 유지'하고 공중 보건 조치를 계속 준수할 것을 촉구했습니다.",
+      "excerpt_en": "Health minister urges people in the country 'to remain alert' and continue observing public health measures.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak?traffic_source=rss",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Al Jazeera",
         "Reuters"
       ],
-      "first_published_at": "2026-07-28T15:02:53+09:00",
-      "latest_published_at": "2026-07-28T15:06:00+09:00",
+      "first_published_at": "2026-07-28T10:37:44+09:00",
+      "latest_published_at": "2026-07-28T18:02:03+09:00",
       "articles": [
         {
-          "title": "Apple briefly becomes second company ever to notch $5 trillion market value",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbUZmRGhDbU9sZWNKNm4zU1JTVmNubzllUjF5UnhTREUtbzVHV2FyNzZUMHhfZjItUTh6THB4TDVqRHFHc2tTUkFGSTlqSG1LWmFWS2E0ZFk0bm51RE1wMjQ0X09FdlBvOGVoTGpUUmp5cjZfRG1UM01fSTd4MUdLSWZJMVBoOWRxWExNT1JUaUJWTnZtVGFaMWFKMlB5cVVEQlVFVVFIbWs0ZFlHdlhrZEw0MFd0NUs1UmV3ZWxNZlVxdC03dF94cm9MOGY?oc=5",
-          "published_at": "15:06"
+          "title": "Uganda declares end to Ebola outbreak",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak?traffic_source=rss",
+          "published_at": "18:02"
         },
         {
-          "title": "Apple briefly becomes second company ever to notch $5 trillion market value",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/apple-briefly-becomes-second-company-ever-notch-5-trillion-market-value-6283756",
-          "published_at": "15:02"
+          "title": "Uganda declares end to latest Ebola outbreak",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSXRUcFFGVXBPS1c1NDJyRUptZmR1UHdjeUg0WmpRY3pMaUdoOHNsSDlReVhzaGhmcDFKY1pTUU80SGxFNnkzRmNoelNYWFNZUFJEUURCcURUcW5jYVlCVEtSYUZwdHRucEVBZDBZa01Fal9wWWs1VDEzYUlqX3N5MUJ3M0djQm1QLUF4d3QyWHVJMzZPWGlLWE4ydXVoWklKTjNDamtpSkw4SHRpdzZJVXVMbWRVdld6M20yWUhLYVE?oc=5",
+          "published_at": "10:37"
         }
       ]
     },
     {
-      "id": "world-12",
-      "title": "만치니가 이탈리아 감독으로 복귀하고 라니에리가 기술 디렉터로 복귀한다.",
-      "title_en": "Mancini returns as Italy coach with Ranieri as technical director",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/mancini-returns-italy-coach-ranieri-technical-director-6283201",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "만치니가 이탈리아 감독으로 복귀하고 라니에리가 기술 디렉터로 복귀 - 뉴스와이어",
-      "excerpt_en": "Mancini returns as Italy coach with Ranieri as technical director Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdS1sdllBQU1RYi1WV25LVUtpa1JhdlZsbm04OVJiZUtIRlI2WFRyMlRTbmplYVktTFZIMFNWQTdhTU1VQVY4dXIwQjhKeThuOWNwWXpMTmlpa3cxVUVBWGsydGotS1AybFZEODlHbkRfYlFpWjJaSmJ3YVZyc2g3SER6RlBqdXV2TWp2VS15RnJLMWhTcVZOeEY3d0dpenl6Tnc?oc=5",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-28T11:38:14+09:00",
-      "latest_published_at": "2026-07-28T14:25:54+09:00",
-      "articles": [
-        {
-          "title": "Mancini returns as Italy coach with Ranieri as technical director",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdS1sdllBQU1RYi1WV25LVUtpa1JhdlZsbm04OVJiZUtIRlI2WFRyMlRTbmplYVktTFZIMFNWQTdhTU1VQVY4dXIwQjhKeThuOWNwWXpMTmlpa3cxVUVBWGsydGotS1AybFZEODlHbkRfYlFpWjJaSmJ3YVZyc2g3SER6RlBqdXV2TWp2VS15RnJLMWhTcVZOeEY3d0dpenl6Tnc?oc=5",
-          "published_at": "14:25"
-        },
-        {
-          "title": "Mancini returns as Italy coach with Ranieri as technical director",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/mancini-returns-italy-coach-ranieri-technical-director-6283201",
-          "published_at": "11:38"
-        }
-      ]
-    },
-    {
-      "id": "world-30",
+      "id": "world-68",
       "title": "주한미군 백린탄 누출 보고, 한국 관리들 대피 명령",
       "title_en": "S. Korean officials order evacuation after reported white phosphorus leak at US base",
       "title_source": "earliest_pick",
@@ -1155,14 +1722,14 @@
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/south-korean-officials-order-residents-evacuate-after-reported-135147408",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1190,389 +1757,13 @@
       ]
     },
     {
-      "id": "world-71",
-      "title": "프랑스와 스페인, 새로운 폭염으로 인해 대규모 산불에 맞서 전진",
-      "title_en": "France, Spain make headway against huge blazes as new heatwave looms",
+      "id": "world-90",
+      "title": "이스라엘, '황색선' 군사지대 확장해 가자지구 주민들을 집에서 몰아내다",
+      "title_en": "Israel expands ‘yellow line’ military zone, pushing Gazans away from home",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdmd4TlU5Wnh0RjlrTFBmVVJKNk5JQjNkTjZsaEllZnEwdzE3bmFsQlhVaVBXbjdzZmV1cWltU3NRWV9IMlY4LVp3TFpVOGI1eE9VRURtVmM3dWhZQy1TdGpHd2VhWGlOOU1uMlhmeGVNb3Vyc3ZnVHNmUmE4V3R0NE9qb0lGSUVBbmhkaTZEYnV4Q3BlalRfMlhhWEVycHhxbWNiNzJxcUkwWndCT3QwOHJuLVJNLXNXemVaeF9jSWw2cmc?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "서유럽이 또 다른 폭염에 대비하고 있는 가운데, 소방관들은 화요일 프랑스와 스페인 전역에서 수만 명의 전례 없는 대피를 강요한 대규모 산불을 진압하기 위해 달려갔습니다.",
-      "excerpt_en": "Firefighters raced on Tuesday to subdue huge wildfires that have forced unprecedented evacuations of tens of thousands of people across France and Spain, as western Europe braced for another heatwave.",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-07-28T14:12:49+09:00",
-      "latest_published_at": "2026-07-28T16:01:09+09:00",
-      "articles": [
-        {
-          "title": "France, Spain make headway against wildfires but new heatwave looms",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
-          "published_at": "16:01"
-        },
-        {
-          "title": "France, Spain make headway against huge blazes as new heatwave looms",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdmd4TlU5Wnh0RjlrTFBmVVJKNk5JQjNkTjZsaEllZnEwdzE3bmFsQlhVaVBXbjdzZmV1cWltU3NRWV9IMlY4LVp3TFpVOGI1eE9VRURtVmM3dWhZQy1TdGpHd2VhWGlOOU1uMlhmeGVNb3Vyc3ZnVHNmUmE4V3R0NE9qb0lGSUVBbmhkaTZEYnV4Q3BlalRfMlhhWEVycHhxbWNiNzJxcUkwWndCT3QwOHJuLVJNLXNXemVaeF9jSWw2cmc?oc=5",
-          "published_at": "14:12"
-        }
-      ]
-    },
-    {
-      "id": "world-96",
-      "title": "FIFA, 200억 달러 규모 신규 법인 통해 지분 매각 검토, UEFA는 만족하지 않음",
-      "title_en": "FIFA mulls stake sale through new $20 billion entity, UEFA not happy",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/fifa-mulls-stake-sale-through-new-20-billion-entity-uefa-not-happy-6283711",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "FIFA, 200억 달러 규모의 새로운 법인을 통해 지분 매각 고려 중, UEFA는 만족하지 않음 - 로이터",
-      "excerpt_en": "FIFA mulls stake sale through new $20 billion entity, UEFA not happy Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOczNVeVJYcGRvd24xY2dWaXlLOFplX3pMM2ZFaTlmQjRuYWlDTXdGOVUyQURPMzE4MlplUExmT1U4Rjd1ckhqdy1BenRRYThBRWEyajFlZ1M4NUU1ajVHOHg0d3VCYTA4VWlXSWJfU0xIT3FodlhfZlRqb01ZWUY4aWRBLWhHUXJ6bW9IdkdJWEM1RGRXMzlWUXJtNW9QWUlnWEFfUnhxQ3RxdlpVbFlVT0xqbw?oc=5",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-28T14:29:36+09:00",
-      "latest_published_at": "2026-07-28T15:39:50+09:00",
-      "articles": [
-        {
-          "title": "FIFA mulls stake sale through new $20 billion entity, UEFA not happy",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOczNVeVJYcGRvd24xY2dWaXlLOFplX3pMM2ZFaTlmQjRuYWlDTXdGOVUyQURPMzE4MlplUExmT1U4Rjd1ckhqdy1BenRRYThBRWEyajFlZ1M4NUU1ajVHOHg0d3VCYTA4VWlXSWJfU0xIT3FodlhfZlRqb01ZWUY4aWRBLWhHUXJ6bW9IdkdJWEM1RGRXMzlWUXJtNW9QWUlnWEFfUnhxQ3RxdlpVbFlVT0xqbw?oc=5",
-          "published_at": "15:39"
-        },
-        {
-          "title": "FIFA mulls stake sale through new $20 billion entity, UEFA not happy",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/fifa-mulls-stake-sale-through-new-20-billion-entity-uefa-not-happy-6283711",
-          "published_at": "14:29"
-        }
-      ]
-    },
-    {
-      "id": "world-133",
-      "title": "올해 두 번째로 토론토 주재 미국 영사관에서 총격 사건이 발생했습니다.",
-      "title_en": "Shots fired at US consulate in Toronto for a second time this year",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
-      "category": "미국",
-      "primary_source": "BBC",
-      "excerpt": "경찰은 고속 차량 추격전을 벌였으나 용의자를 체포하지 못했다고 밝혔다. 지난 6월에도 비슷한 공격으로 3명이 체포됐다.",
-      "excerpt_en": "Police said they engaged in a high-speed car chase but failed to arrest the suspect, who remains at large. Three people were arrested in June after a similar attack.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "Fox News"
-      ],
-      "first_published_at": "2026-07-28T00:36:16+09:00",
-      "latest_published_at": "2026-07-28T06:53:37+09:00",
-      "articles": [
-        {
-          "title": "Gunman fired at US consulate in Toronto, second time building was shot at this year",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/gunman-fired-us-consulate-toronto-second-time-building-shot-year",
-          "published_at": "06:53"
-        },
-        {
-          "title": "Shots fired at US consulate in Toronto for a second time this year",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ckgvnw44rz9o?at_medium=RSS&at_campaign=rss",
-          "published_at": "00:36"
-        }
-      ]
-    },
-    {
-      "id": "world-169",
-      "title": "네타냐후, 이란 전쟁 발발 후 첫 만남으로 트럼프 만날 것",
-      "title_en": "Netanyahu to meet Trump in a first encounter since the Iran war began",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3362135/israel-expands-yellow-line-military-zone-pushing-gazans-away-home?utm_source=rss_feed",
       "category": "중동",
-      "primary_source": "NPR",
-      "excerpt": "이번 회의는 두 사람 모두 집에서 압력을 받고 있는 가운데 이루어졌습니다. 네타냐후는 트럼프와의 관계 악화로 인해 부분적으로 어려움을 겪고 재선을 앞두고 있습니다. 트럼프는 인기 없는 전쟁을 끝내라는 압력을 받고 있다.",
-      "excerpt_en": "The meeting comes as both face pressures at home. Netanyahu is up for reelection, embattled in part due to his deteriorating relationship with Trump. Trump is under pressure to end an unpopular war.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "NPR"
-      ],
-      "first_published_at": "2026-07-28T07:42:11+09:00",
-      "latest_published_at": "2026-07-28T14:55:31+09:00",
-      "articles": [
-        {
-          "title": "Trump expresses frustrations with Netanyahu before their first meeting since launching the Iran war",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/trump-expresses-frustrations-with-netanyahu-before-their-first-meeting-since-launching-the-iran-war-101785250143053.html",
-          "published_at": "14:55"
-        },
-        {
-          "title": "Netanyahu to meet Trump in a first encounter since the Iran war began",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
-          "published_at": "07:42"
-        }
-      ]
-    },
-    {
-      "id": "world-235",
-      "title": "세계 지도자들은 그레이엄의 장례식을 위해 워싱턴에 있으며 일부는 트럼프와도 만날 것으로 예상됩니다.",
-      "title_en": "World leaders are in Washington for Graham funeral, with some also expected to meet with Trump",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/world-leaders-are-in-washington-for-graham-funeral-with-some-also-expected-to-meet-with-trump/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "이스라엘과 우크라이나 지도자들이 트럼프를 만나는 가운데 미국 국회의사당에서 공화당 상원의원 추모식이 시작됩니다. 미국 정치가 실시간으로 업데이트됩니다. – 최신 업데이트 Lindsey Graham, t의 이틀간의 장례식",
-      "excerpt_en": "Memorials for the Republican senator to start in US Capitol as the Israeli and Ukrainian leaders meet with Trump US politics live – latest updates Two days of funeral ceremonies for Lindsey Graham , t",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/jul/28/lindsey-graham-funeral",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-07-28T12:57:38+09:00",
-      "latest_published_at": "2026-07-28T14:20:46+09:00",
-      "articles": [
-        {
-          "title": "Lindsey Graham’s funeral ceremonies to begin with Netanyahu and Zelenskyy in attendance",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/28/lindsey-graham-funeral",
-          "published_at": "14:20"
-        },
-        {
-          "title": "World leaders are in Washington for Graham funeral, with some also expected to meet with Trump",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/world-leaders-are-in-washington-for-graham-funeral-with-some-also-expected-to-meet-with-trump/",
-          "published_at": "12:57"
-        }
-      ]
-    },
-    {
-      "id": "world-329",
-      "title": "새로 공개된 Biden 오디오 테이프가 새로운 조사를 받는 이유는 무엇입니까? 기밀 문서 설명 및 기억 상실 설명",
-      "title_en": "Why are newly released Biden audio tapes drawing fresh scrutiny? Classified document remarks and memory lapses explained",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/joe-bidens-newly-released-audio-tapes-draw-fresh-scrutiny-classified-document-remarks-and-memory-lapses-explained-101785228496058.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "조 바이든은 2017년 인터뷰에서 기밀 문서에 대해 논의하고 건망증을 보이는 모습이 드러난 후 조사를 받고 있습니다.",
-      "excerpt_en": "Joe Biden is under scrutiny after audio from 2017 interviews reveals him discussing classified documents and appearing forgetful.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/joe-bidens-newly-released-audio-tapes-draw-fresh-scrutiny-classified-document-remarks-and-memory-lapses-explained-101785228496058.html",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-07-28T09:57:48+09:00",
-      "latest_published_at": "2026-07-28T15:15:30+09:00",
-      "articles": [
-        {
-          "title": "Audio recordings appear to show Biden discussing classified information with his ghostwriter",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/07/28/audio-recordings-appear-to-show-biden-discussing-classified-information-with-his-ghostwrit",
-          "published_at": "15:15"
-        },
-        {
-          "title": "Why are newly released Biden audio tapes drawing fresh scrutiny? Classified document remarks and memory lapses explained",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/joe-bidens-newly-released-audio-tapes-draw-fresh-scrutiny-classified-document-remarks-and-memory-lapses-explained-101785228496058.html",
-          "published_at": "09:57"
-        }
-      ]
-    },
-    {
-      "id": "world-8",
-      "title": "IFAB는 월드컵 8강전 아르헨티나와의 엠볼로 퇴장은 잘못됐다고 밝혔다.",
-      "title_en": "Embolo's sending-off in World Cup quarter-final against Argentina was wrong, IFAB says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/embolos-sending-in-world-cup-quarter-final-against-argentina-was-wrong-ifab-says-6283241",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "아르헨티나와의 월드컵 8강전에서 브릴 엠볼로의 두 번째 노란색은 틀렸다고 IFAB는 로이터 통신을 통해 밝혔습니다.",
-      "excerpt_en": "Breel Embolo's second yellow at World Cup quarter-final against Argentina was wrong, IFAB says Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3pneGc2QzFSdGNPMEdZdE0tYVpSX1pzTmJMd0xzQkpoZnFOQXhDTFJ3Z1R6YzE1eFpKQkV5Q1NwQnN3VlZvdnlZdG1WNU1GNVR2cWFtUlJJaUZYRW1mZktvSnNlQ29FZ21hUHh4UHg5ZjA4aWpyM3RiZVlneEpxcUljNEphc19fbTVNN29VQXpVOWhXWExpV3A2eGtrOXZyNkVVNGFWZHJSR2pPaXRZZW1sV2xxeklnR1dxdVYzcDhUX1Ra?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-28T11:49:12+09:00",
-      "latest_published_at": "2026-07-28T11:49:43+09:00",
-      "articles": [
-        {
-          "title": "Breel Embolo's second yellow at World Cup quarter-final against Argentina was wrong, IFAB says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3pneGc2QzFSdGNPMEdZdE0tYVpSX1pzTmJMd0xzQkpoZnFOQXhDTFJ3Z1R6YzE1eFpKQkV5Q1NwQnN3VlZvdnlZdG1WNU1GNVR2cWFtUlJJaUZYRW1mZktvSnNlQ29FZ21hUHh4UHg5ZjA4aWpyM3RiZVlneEpxcUljNEphc19fbTVNN29VQXpVOWhXWExpV3A2eGtrOXZyNkVVNGFWZHJSR2pPaXRZZW1sV2xxeklnR1dxdVYzcDhUX1Ra?oc=5",
-          "published_at": "11:49"
-        },
-        {
-          "title": "Embolo's sending-off in World Cup quarter-final against Argentina was wrong, IFAB says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/embolos-sending-in-world-cup-quarter-final-against-argentina-was-wrong-ifab-says-6283241",
-          "published_at": "11:49"
-        }
-      ]
-    },
-    {
-      "id": "world-16",
-      "title": "Apple, Klarna와 함께 미국 기기 임대 프로그램 시작",
-      "title_en": "Apple launches US device leasing program with Klarna",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/apple-launches-us-device-leasing-program-klarna-6283426",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Apple, Klarna Reuters와 함께 미국 기기 임대 프로그램 시작",
-      "excerpt_en": "Apple launches US device leasing program with Klarna Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVG9IZjBlTmdvTGpCYzdiSTgxa3J0QkxKbzBhN2FkY3cyQmpJTVBMdGNXWEw1amNzeERsOC1uVHREOWd2ckJoWFhGUUdhZ3VEUWlkVzRYY0xDS05jMTFWMkNTV3lmS0ZiZDVma2YxblJyQi1GMTZwYWhkV0FHVncyRFV4ajlqbUdTdUhOVlNaZ0NSUi1QVUtZUGVoeS1reGEt?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-07-28T12:52:02+09:00",
-      "latest_published_at": "2026-07-28T12:52:12+09:00",
-      "articles": [
-        {
-          "title": "Apple launches US device leasing program with Klarna",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVG9IZjBlTmdvTGpCYzdiSTgxa3J0QkxKbzBhN2FkY3cyQmpJTVBMdGNXWEw1amNzeERsOC1uVHREOWd2ckJoWFhGUUdhZ3VEUWlkVzRYY0xDS05jMTFWMkNTV3lmS0ZiZDVma2YxblJyQi1GMTZwYWhkV0FHVncyRFV4ajlqbUdTdUhOVlNaZ0NSUi1QVUtZUGVoeS1reGEt?oc=5",
-          "published_at": "12:52"
-        },
-        {
-          "title": "Apple launches US device leasing program with Klarna",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/apple-launches-us-device-leasing-program-klarna-6283426",
-          "published_at": "12:52"
-        }
-      ]
-    },
-    {
-      "id": "world-46",
-      "title": "이스라엘의 노란색 선, 가자지구 사람들을 고국에서 몰아내는 전쟁의 가장자리",
-      "title_en": "Israel's yellow line, a shifting edge of war pushing Gazans from home",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQTNjUVlhcEZxRDgtcnkzNlFhZ3JISXk4YTdXUC1WS3ZhaDRUUlFsaXNvT0VPdFIzdU9ydDRzSGZLcVExNTZ1LUo3c1VxVDVOdE9GVnlvb0Z6YWhsajhFai1VR1RYWHk3a2U3SmptbzJlZjZlV3RhYWdwODZCMWZ3QjYxdTFRdno2bHVlVlNFWE1WZFJFeTQ4SmdJVkdIN0dJN1NqME1vR2VzOHRUMHlJTg?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
+      "primary_source": "SCMP",
       "excerpt": "가자 시티 Zeitoun 지역의 도로에서 팔레스타인 거주자 Assem Dawla는 이스라엘의 확장되는 군사 구역 가장자리를 표시하는 콘크리트 노란색 블록으로 트럭에 매트리스와 가방을 싣었습니다.",
       "excerpt_en": "On a road ⁠in Gaza City’s Zeitoun district, Palestinian resident Assem Dawla loaded mattresses and ⁠bags onto a truck as concrete yellow blocks marking the edge of Israel’s expanding military zone sto",
       "excerpt_source": "SCMP",
@@ -1595,35 +1786,35 @@
         "Reuters",
         "SCMP"
       ],
-      "first_published_at": "2026-07-28T09:04:13+09:00",
-      "latest_published_at": "2026-07-28T09:45:49+09:00",
+      "first_published_at": "2026-07-28T09:45:49+09:00",
+      "latest_published_at": "2026-07-28T17:01:42+09:00",
       "articles": [
+        {
+          "title": "Israel's yellow line, a shifting edge of war pushing Gazans from home",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQTNjUVlhcEZxRDgtcnkzNlFhZ3JISXk4YTdXUC1WS3ZhaDRUUlFsaXNvT0VPdFIzdU9ydDRzSGZLcVExNTZ1LUo3c1VxVDVOdE9GVnlvb0Z6YWhsajhFai1VR1RYWHk3a2U3SmptbzJlZjZlV3RhYWdwODZCMWZ3QjYxdTFRdno2bHVlVlNFWE1WZFJFeTQ4SmdJVkdIN0dJN1NqME1vR2VzOHRUMHlJTg?oc=5",
+          "published_at": "17:01"
+        },
         {
           "title": "Israel expands ‘yellow line’ military zone, pushing Gazans away from home",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/middle-east/article/3362135/israel-expands-yellow-line-military-zone-pushing-gazans-away-home?utm_source=rss_feed",
           "published_at": "09:45"
-        },
-        {
-          "title": "Israel's yellow line, a shifting edge of war pushing Gazans from home",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQTNjUVlhcEZxRDgtcnkzNlFhZ3JISXk4YTdXUC1WS3ZhaDRUUlFsaXNvT0VPdFIzdU9ydDRzSGZLcVExNTZ1LUo3c1VxVDVOdE9GVnlvb0Z6YWhsajhFai1VR1RYWHk3a2U3SmptbzJlZjZlV3RhYWdwODZCMWZ3QjYxdTFRdno2bHVlVlNFWE1WZFJFeTQ4SmdJVkdIN0dJN1NqME1vR2VzOHRUMHlJTg?oc=5",
-          "published_at": "09:04"
         }
       ]
     },
     {
-      "id": "world-56",
-      "title": "식품 기술 회사인 GrubMarket이 미국 IPO를 비밀리에 신청했습니다.",
-      "title_en": "Food technology firm GrubMarket confidentially files for US IPO",
+      "id": "world-95",
+      "title": "젤렌스키는 미국과 더 많은 협력을 모색하면서 백악관에서 트럼프와 '좋은 만남'을 가졌습니다.",
+      "title_en": "Zelenskyy has a 'good meeting' with Trump at the White House as he seeks more cooperation with US",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/food-technology-firm-grubmarket-confidentially-files-us-ipo-6283376",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "GrubMarket이 미국 IPO를 기밀로 신청했습니다. Reuters",
-      "excerpt_en": "GrubMarket confidentially files for US IPO Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFZDMjhNVUZBVk5yOWt0MmZRX05NajNhcV9HT1FtUnBhVzlxend6RlMxcGNjNWRDeHJYUU5EdFJCcVRVX3d4eTY0eUt1aGVkM0pRQUNvcG5ETUFEVk9KY0t2bGxkcE5ORWR5bjBnUW9aaWdaWWVQZV9JNndYNU9QY2YyZWFQbFB6czJmQ2RB?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMU5TRHpCaF9Hc1F1eFc0TFVZZGprSGhQTmtnTTRGS01XUkR1aGluZlNRbjctNG5rMUdVYkVxc0g0c1BwOVd0T0M3SDZzUXVFd1loLUxtRk1hcms1bnhmTk1GRmcyQk9kbHJycTJKM0ZNOGJ0b2FTUnZTTUdWNm0yNEFQRno3NUppMEl3RlZrYW83bGlnZXB2aWh1aE9POWo4Q0tjOWJkT2xTejd0Umw3aA?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "도널드 트럼프 미국 대통령과 볼로디미르 젤렌스키 우크라이나 대통령은 린지 그레이엄 상원의원의 장례식을 앞두고 화요일에 만나 우크라이나가 자체 권력을 생산하는 방법을 논의했습니다.",
+      "excerpt_en": "US President Donald Trump and Ukrainian President Volodymyr Zelensky met on Tuesday ahead of Senator Lindsey Graham’s funeral, with the two leaders discussing ways for Ukraine to produce its own power",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3362179/zelensky-has-good-meeting-trump-he-seeks-more-cooperation-us?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1639,28 +1830,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "AP News",
+        "SCMP"
       ],
-      "first_published_at": "2026-07-28T12:36:29+09:00",
-      "latest_published_at": "2026-07-28T12:36:43+09:00",
+      "first_published_at": "2026-07-28T07:33:07+09:00",
+      "latest_published_at": "2026-07-28T16:55:07+09:00",
       "articles": [
         {
-          "title": "GrubMarket confidentially files for US IPO",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFZDMjhNVUZBVk5yOWt0MmZRX05NajNhcV9HT1FtUnBhVzlxend6RlMxcGNjNWRDeHJYUU5EdFJCcVRVX3d4eTY0eUt1aGVkM0pRQUNvcG5ETUFEVk9KY0t2bGxkcE5ORWR5bjBnUW9aaWdaWWVQZV9JNndYNU9QY2YyZWFQbFB6czJmQ2RB?oc=5",
-          "published_at": "12:36"
+          "title": "Zelensky has a ‘good meeting’ with Trump as he seeks more cooperation with US",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362179/zelensky-has-good-meeting-trump-he-seeks-more-cooperation-us?utm_source=rss_feed",
+          "published_at": "16:55"
         },
         {
-          "title": "Food technology firm GrubMarket confidentially files for US IPO",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/food-technology-firm-grubmarket-confidentially-files-us-ipo-6283376",
-          "published_at": "12:36"
+          "title": "Zelenskyy has a 'good meeting' with Trump at the White House as he seeks more cooperation with US",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMU5TRHpCaF9Hc1F1eFc0TFVZZGprSGhQTmtnTTRGS01XUkR1aGluZlNRbjctNG5rMUdVYkVxc0g0c1BwOVd0T0M3SDZzUXVFd1loLUxtRk1hcms1bnhmTk1GRmcyQk9kbHJycTJKM0ZNOGJ0b2FTUnZTTUdWNm0yNEFQRno3NUppMEl3RlZrYW83bGlnZXB2aWh1aE9POWo4Q0tjOWJkT2xTejd0Umw3aA?oc=5",
+          "published_at": "07:33"
         }
       ]
     },
     {
-      "id": "world-108",
+      "id": "world-100",
       "title": "중국, 미국 관세 추가 부과로 산업생산 과잉 비판에 반격",
       "title_en": "China hits back at criticism over excess industrial capacity as more US tariffs loom",
       "title_source": "earliest_pick",
@@ -1707,64 +1898,17 @@
       ]
     },
     {
-      "id": "world-154",
-      "title": "캐나다 정치인이 연설 도중 실수로 AI 프롬프트를 읽는 순간",
-      "title_en": "Moment Canadian politician accidentally reads AI prompt during speech",
+      "id": "world-162",
+      "title": "네타냐후, 이란 전쟁 발발 후 첫 만남으로 트럼프 만날 것",
+      "title_en": "Netanyahu to meet Trump in a first encounter since the Iran war began",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/moment-canadian-politician-accidentally-reads-ai-prompt-during-speech?traffic_source=rss",
-      "category": "미국",
-      "primary_source": "Al Jazeera",
-      "excerpt": "'이 부분은 좀 더 자연스러운 흐름 버전입니다...'",
-      "excerpt_en": "‘Here’s a more natural flowing version of that section…’",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/moment-canadian-politician-accidentally-reads-ai-prompt-during-speech?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Times of India"
-      ],
-      "first_published_at": "2026-07-28T12:36:55+09:00",
-      "latest_published_at": "2026-07-28T12:51:10+09:00",
-      "articles": [
-        {
-          "title": "'Here's a more natural, flowing version...': Canada politician accidentally reads AI reply in his speech, remains oblivious and continues",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/heres-a-more-natural-flowing-version-canada-politician-accidentally-reads-ai-reply-in-his-speech-remains-oblivious-and-continues/articleshow/132684827.cms",
-          "published_at": "12:51"
-        },
-        {
-          "title": "Moment Canadian politician accidentally reads AI prompt during speech",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/moment-canadian-politician-accidentally-reads-ai-prompt-during-speech?traffic_source=rss",
-          "published_at": "12:36"
-        }
-      ]
-    },
-    {
-      "id": "world-171",
-      "title": "조지아의 오케페노키 습지(Okefenokee Swamp)가 유네스코 세계문화유산으로 등재되었습니다.",
-      "title_en": "Georgia's Okefenokee Swamp becomes a UNESCO World Heritage site",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/07/27/nx-s1-5906359-e1/georgias-okefenokee-swamp-becomes-a-unesco-world-heritage-site",
-      "category": "기타",
+      "title_url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
+      "category": "중동",
       "primary_source": "NPR",
-      "excerpt": "브라질리아 – 월요일 유네스코는 브라질의 테아트로 다 파즈(Theatro da Paz)와 테아트로 아마조나스(Teatro Amazonas)를 세계문화유산 목록에 추가했습니다.",
-      "excerpt_en": "BRASíLIA - Unesco on Monday added Brazil's Theatro da Paz and Teatro Amazonas to its World Heritage list.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3292852/brazils-amazonia-theatres-earn-world-heritage-status",
+      "excerpt": "이번 회의는 두 사람 모두 집에서 압력을 받고 있는 가운데 이루어졌습니다. 네타냐후는 트럼프와의 관계 악화로 인해 부분적으로 어려움을 겪고 있는 재선을 앞두고 있습니다. 트럼프는 인기 없는 전쟁을 끝내라는 압력을 받고 있다.",
+      "excerpt_en": "The meeting comes as both face pressures at home. Netanyahu is up for reelection, embattled in part due to his deteriorating relationship with Trump. Trump is under pressure to end an unpopular war.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1780,35 +1924,82 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Bangkok Post",
+        "Hindustan Times",
         "NPR"
       ],
-      "first_published_at": "2026-07-27T21:22:33+09:00",
-      "latest_published_at": "2026-07-28T02:20:00+09:00",
+      "first_published_at": "2026-07-28T07:42:11+09:00",
+      "latest_published_at": "2026-07-28T14:55:31+09:00",
       "articles": [
         {
-          "title": "Brazil's Amazonia theatres earn World Heritage status",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3292852/brazils-amazonia-theatres-earn-world-heritage-status",
-          "published_at": "02:20"
+          "title": "Trump expresses frustrations with Netanyahu before their first meeting since launching the Iran war",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/trump-expresses-frustrations-with-netanyahu-before-their-first-meeting-since-launching-the-iran-war-101785250143053.html",
+          "published_at": "14:55"
         },
         {
-          "title": "Georgia's Okefenokee Swamp becomes a UNESCO World Heritage site",
+          "title": "Netanyahu to meet Trump in a first encounter since the Iran war began",
           "source_name": "NPR",
-          "url": "https://www.npr.org/2026/07/27/nx-s1-5906359-e1/georgias-okefenokee-swamp-becomes-a-unesco-world-heritage-site",
-          "published_at": "21:22"
+          "url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
+          "published_at": "07:42"
         }
       ]
     },
     {
-      "id": "world-331",
+      "id": "world-318",
+      "title": "새로 출시된 Biden 오디오 테이프가 새로운 조사를 받는 이유는 무엇입니까? 기밀 문서 설명 및 기억 상실 설명",
+      "title_en": "Why are newly released Biden audio tapes drawing fresh scrutiny? Classified document remarks and memory lapses explained",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/joe-bidens-newly-released-audio-tapes-draw-fresh-scrutiny-classified-document-remarks-and-memory-lapses-explained-101785228496058.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "조 바이든은 2017년 인터뷰에서 기밀 문서에 대해 논의하고 건망증을 보이는 모습이 드러난 후 조사를 받고 있습니다.",
+      "excerpt_en": "Joe Biden is under scrutiny after audio from 2017 interviews reveals him discussing classified documents and appearing forgetful.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/joe-bidens-newly-released-audio-tapes-draw-fresh-scrutiny-classified-document-remarks-and-memory-lapses-explained-101785228496058.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-07-28T09:57:48+09:00",
+      "latest_published_at": "2026-07-28T15:15:30+09:00",
+      "articles": [
+        {
+          "title": "Audio recordings appear to show Biden discussing classified information with his ghostwriter",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/07/28/audio-recordings-appear-to-show-biden-discussing-classified-information-with-his-ghostwrit",
+          "published_at": "15:15"
+        },
+        {
+          "title": "Why are newly released Biden audio tapes drawing fresh scrutiny? Classified document remarks and memory lapses explained",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/joe-bidens-newly-released-audio-tapes-draw-fresh-scrutiny-classified-document-remarks-and-memory-lapses-explained-101785228496058.html",
+          "published_at": "09:57"
+        }
+      ]
+    },
+    {
+      "id": "world-320",
       "title": "일본에서 규모 7.1의 지진이 발생하고 쓰나미 경보가 발령되었습니다.",
       "title_en": "Japan hit by 7.1-magnitude earthquake, tsunami alert issued",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/japan-hit-by-7-1-magnitude-earthquake-tsunami-alert-issued-101785225168459.html",
       "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "규슈를 강타한 규모 7.1의 지진으로 인해 일본은 쓰나미 경보를 발령하여 건물에 피해를 입히고 전력을 차단하고 비상 대응 노력을 촉구했습니다.",
+      "excerpt": "규슈를 강타한 규모 7.1의 지진으로 인해 일본은 쓰나미 경보를 발령하여 건물이 파손되고 전력이 차단되고 비상 대응 노력이 촉구되었습니다.",
       "excerpt_en": "Japan issued a tsunami alert after a 7.1 magnitude earthquake struck Kyushu, damaging buildings, cutting power and prompting emergency response efforts.",
       "excerpt_source": "Euronews",
       "excerpt_url": "http://www.euronews.com/video/2026/07/28/tsunami-alert-follows-powerful-earthquake-in-southwest-japan",
@@ -1848,25 +2039,72 @@
       ]
     },
     {
-      "id": "world-114",
-      "title": "위스콘신 토네이도는 막대한 피해를 입히고 수천 가구의 전력 공급을 중단합니다.",
-      "title_en": "Wisconsin tornado causes extensive damage and cuts power to thousands of homes",
+      "id": "world-348",
+      "title": "'지구상의 부패': 이란, 하메네이 살해 혐의로 트럼프 기소, 사형 선고",
+      "title_en": "'Corruption on Earth': Iran indicts Trump over Khamenei killing, faces death penalty",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/wisconsin-tornado-causes-extensive-damage-and-cuts-power-to-thousands-of-homes-101785181032912.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "위스콘신 토네이도는 막대한 피해를 입히고 수천 가구의 전력 공급을 중단했습니다. AP 뉴스",
-      "excerpt_en": "Wisconsin tornado causes extensive damage and cuts power to thousands of homes AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd2hWMlZsa1RXNWpFNmxfTTdOcTl4UTU2dmQ3aUdlYjFnUkZZSXRpS3JHV2tCWVprdzFrWXJwd1M5TGFUNjUxZWNCR0RXS1R0VF9nS2ZDeTM2dDloNFVHbEtqSnBrTTk1TnotTGtMa1V1T3l3MFk1QlRvZTdBbl9pY0RvSnBfUXhGV3AyTzAtQ2x4bkVPb0R6bThYYXA2QkpGWElnUGZCMExmX19I?oc=5",
+      "title_url": "https://timesofindia.indiatimes.com/world/middle-east/corruption-on-earth-iran-indicts-trump-over-khamenei-killing-faces-death-penalty/articleshow/132691599.cms",
+      "category": "중동",
+      "primary_source": "Times of India",
+      "excerpt": "버마의 새로운 법은 FBI가 범죄 네트워크로부터 80억 달러 규모의 비트코인을 압수한 지 몇 달 만에 인터넷 사기꾼에 대해 사형을 선고하도록 규정하고 있습니다.",
+      "excerpt_en": "Burma's new law mandates the death penalty for internet scammers months after the FBI's $8 billion Bitcoin seizure from a criminal network.",
+      "excerpt_source": "Fox News",
+      "excerpt_url": "https://www.foxnews.com/world/burma-approves-death-penalty-scammers-months-after-fbi-8-billion-crypto-crackdown",
       "translation_status": "ok",
-      "score": 52,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Fox News",
+        "Times of India"
+      ],
+      "first_published_at": "2026-07-28T17:47:22+09:00",
+      "latest_published_at": "2026-07-28T18:27:58+09:00",
+      "articles": [
+        {
+          "title": "Burma approves death penalty for scammers months after FBI's $8 billion crypto crackdown",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/burma-approves-death-penalty-scammers-months-after-fbi-8-billion-crypto-crackdown",
+          "published_at": "18:27"
+        },
+        {
+          "title": "'Corruption on Earth': Iran indicts Trump over Khamenei killing, faces death penalty",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/corruption-on-earth-iran-indicts-trump-over-khamenei-killing-faces-death-penalty/articleshow/132691599.cms",
+          "published_at": "17:47"
+        }
+      ]
+    },
+    {
+      "id": "world-166",
+      "title": "가이아나 경찰, 여객선 전복 사건의 선장과 선원 살해 혐의로 기소",
+      "title_en": "Guyana police file murder charges against captain and crew mates in deadly ferry capsizing",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/guyana-police-file-murder-charges-captain-crew-mates-135160886",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "가이아나 경찰은 최근 73명이 사망하고 30명이 실종된 여객선 전복 사건과 관련해 남성 3명을 살인 혐의로 기소했다. 그러나 일부 국회의원들은 치명적인 사건에 대해 정부 관리들을 비난합니다.",
+      "excerpt_en": "Police in Guyana have charged three men with murder in connection to a recent ferry capsizing that killed 73 and left 30 missing. Some lawmakers, however, blame government officials for the deadly acc",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/guyana-captain-crew-charged-with-murder-in-ferry-capsizing/a-78151552?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
         "raw75": 39
       },
       "area_value": 2,
@@ -1874,23 +2112,70 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "Hindustan Times"
+        "ABC News",
+        "DW"
       ],
-      "first_published_at": "2026-07-27T19:37:12+09:00",
-      "latest_published_at": "2026-07-28T01:15:00+09:00",
+      "first_published_at": "2026-07-28T17:22:14+09:00",
+      "latest_published_at": "2026-07-28T19:45:00+09:00",
       "articles": [
         {
-          "title": "Wisconsin tornado causes extensive damage and cuts power to thousands of homes",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd2hWMlZsa1RXNWpFNmxfTTdOcTl4UTU2dmQ3aUdlYjFnUkZZSXRpS3JHV2tCWVprdzFrWXJwd1M5TGFUNjUxZWNCR0RXS1R0VF9nS2ZDeTM2dDloNFVHbEtqSnBrTTk1TnotTGtMa1V1T3l3MFk1QlRvZTdBbl9pY0RvSnBfUXhGV3AyTzAtQ2x4bkVPb0R6bThYYXA2QkpGWElnUGZCMExmX19I?oc=5",
-          "published_at": "01:15"
+          "title": "Guyana: Captain, crew charged with murder in ferry capsizing",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/guyana-captain-crew-charged-with-murder-in-ferry-capsizing/a-78151552?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "19:45"
         },
         {
-          "title": "Wisconsin tornado causes extensive damage and cuts power to thousands of homes",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/wisconsin-tornado-causes-extensive-damage-and-cuts-power-to-thousands-of-homes-101785181032912.html",
-          "published_at": "19:37"
+          "title": "Guyana police file murder charges against captain and crew mates in deadly ferry capsizing",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/guyana-police-file-murder-charges-captain-crew-mates-135160886",
+          "published_at": "17:22"
+        }
+      ]
+    },
+    {
+      "id": "world-224",
+      "title": "파키스탄, 카슈미르에서 비무장 시위대 30명 사살",
+      "title_en": "Pakistan accused of fatally shooting 30 unarmed protesters in Kashmir",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+      "category": "아시아",
+      "primary_source": "The Guardian",
+      "excerpt": "현지 민권단체는 통신이 두절되는 가운데 당국이 살해 증거를 제거했다고 주장했다. 지난 1년 동안 파키스탄이 관리하는 카슈미르에서 최소 30명이 사망한 것으로 추정된다.",
+      "excerpt_en": "Local civil rights group alleges authorities removed evidence of killings amid communications blackout At least 30 people are alleged to have been killed in Pakistan-administered Kashmir in the past t",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "New York Times",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-07-28T16:41:14+09:00",
+      "latest_published_at": "2026-07-28T21:20:39+09:00",
+      "articles": [
+        {
+          "title": "Clashes Erupt in Pakistani Kashmir as Voting in Local Election Begins",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/28/world/asia/pakistan-kashmir-election-violence.html",
+          "published_at": "21:20"
+        },
+        {
+          "title": "Pakistan accused of fatally shooting 30 unarmed protesters in Kashmir",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/28/pakistan-accused-firing-unarmed-protesters-kashmir-killings",
+          "published_at": "16:41"
         }
       ]
     }
