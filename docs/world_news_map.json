@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,177 +8,102 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-08-02T06:58:48.048035+09:00",
+  "updated_at": "2026-08-02T12:52:23.689027+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 451,
-  "cluster_count_total": 360,
+  "article_count_total": 450,
+  "cluster_count_total": 357,
   "clusters": [
     {
-      "id": "world-31",
-      "title": "러시아, 탄도미사일과 드론으로 우크라이나 수도 공격해 3명 사망, 12명 이상 부상",
-      "title_en": "Russia hits Ukrainian capital with ballistic missiles and drones killing 3 and wounding over a dozen",
+      "id": "world-4",
+      "title": "모스크바 식당서 폭탄테러로 3명 사망, 21명 부상",
+      "title_en": "3 dead, 21 injured in bombing at Moscow restaurant",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/donald-trump-kyiv-russia-telegram-jd-vance-b3025694.html",
+      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3362666/3-dead-15-injured-explosion-near-moscow-cafe-police-say?utm_source=rss_feed",
       "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "러시아가 키예프에 탄도미사일과 드론을 폭격해 최소 9명이 숨지고 22명이 부상당했다.",
-      "excerpt_en": "Russia has launched a barrage of ballistic missiles and drones into Kyiv, killing at least nine people and injuring 22",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
+      "primary_source": "SCMP",
+      "excerpt": "토요일 모스크바의 한 식당에서 폭발이 일어나 3명이 사망하고 21명이 부상을 입었다고 러시아 국가 대테러 위원회가 밝혔습니다. “동네",
+      "excerpt_en": "An explosion at a Moscow restaurant on Saturday that killed three people and wounded 21 more was a bombing, Russia’s national anti-terrorism committee said, the Tass state news agency reported. “A hom",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3362666/3-dead-15-injured-explosion-near-moscow-cafe-police-say?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 89,
+      "score": 93,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 70
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 10,
+      "article_count": 10,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 9,
       "sources": [
-        "ABC News",
-        "AP News",
         "CBC",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-01T02:24:32+09:00",
-      "latest_published_at": "2026-08-01T20:29:00+09:00",
-      "articles": [
-        {
-          "title": "Russia hits Ukrainian capital with ballistic missiles and drones, killing at least 9",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMy1Tb2ZpdTlKMEJmT3JZb0hYWlp1Y1g3R2dwYmZTWEgtRVFsNWhEcUZ3bmx0M09qTWtvSi0wU05pZVdNYzRsa2tITGN0cF9qaWYycl9zWUNrN3pQRjlFVF9PcjFRTUxDam0yOGRMR1pFQTNYWFA5ZFVIeFJvWUxzYTRJMkM4WkhtYXRQd2R3TTlEU2pKZDNUdm5LREp5ZEZXS3FxRkd4b3F1ODYwYlRNZy10VlQ?oc=5",
-          "published_at": "20:29"
-        },
-        {
-          "title": "Russia batters Ukrainian capital of Kyiv, killing at least 10",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/russia-strikes-kyiv-9.7293585?cmp=rss",
-          "published_at": "12:17"
-        },
-        {
-          "title": "Russia hits Ukrainian capital with ballistic missiles and drones, killing at least 9",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
-          "published_at": "06:57"
-        },
-        {
-          "title": "Russia hits Ukrainian capital with ballistic missiles and drones killing 3 and wounding over a dozen",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-kyiv-russia-telegram-jd-vance-b3025694.html",
-          "published_at": "02:24"
-        }
-      ]
-    },
-    {
-      "id": "world-44",
-      "title": "트럼프, 이란에 대한 추가 공격 및 중동 지역 발전 위협",
-      "title_en": "Trump threatens more strikes on Iran, and other developments in the Middle East",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/donald-trump-iran-hamas-strait-of-hormuz-israel-b3025741.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "트럼프는 이란에 대한 추가 공격을 위협했다. 호르무즈에서 쿠웨이트, 가자까지의 긴장으로 인해 더 많은 경고가 발생하다 AP 뉴스",
-      "excerpt_en": "Trump threatens more strikes on Iran. Tensions from Hormuz to Kuwait and Gaza lead to more warnings AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjdiZU1CVmhFWmRaYWtqRW82NnNUMEZjRzNlR293WTljQW1McXpnY3BiLXdWbVdobmRIdUJDVmVuWngwUHRVSUtyMkJjejRkQTl4WU0xc2xfcFpwaHBKamZGdUNqd1RIblhERllZY01hYjlmVUdOblVIVGxjTjVqVndGSURnTGJ5M2U5Vkp6dDVIRHZPZW8wTmRYaXl4WmQtejR6SzFBaw?oc=5",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-01T08:52:05+09:00",
-      "latest_published_at": "2026-08-01T20:14:00+09:00",
-      "articles": [
-        {
-          "title": "Trump threatens more strikes on Iran. Tensions from Hormuz to Kuwait and Gaza lead to more warnings",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjdiZU1CVmhFWmRaYWtqRW82NnNUMEZjRzNlR293WTljQW1McXpnY3BiLXdWbVdobmRIdUJDVmVuWngwUHRVSUtyMkJjejRkQTl4WU0xc2xfcFpwaHBKamZGdUNqd1RIblhERllZY01hYjlmVUdOblVIVGxjTjVqVndGSURnTGJ5M2U5Vkp6dDVIRHZPZW8wTmRYaXl4WmQtejR6SzFBaw?oc=5",
-          "published_at": "20:14"
-        },
-        {
-          "title": "Trump threatens more strikes on Iran. Tensions from Hormuz to Kuwait and Gaza lead to more warnings",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-threatens-more-strikes-on-iran-tensions-from-hormuz-to-kuwait-and-gaza-lead-to-more-warnings-101785610252968.html",
-          "published_at": "18:50"
-        },
-        {
-          "title": "Trump threatens more strikes on Iran, and other developments in the Middle East",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/trump-threatens-strikes-iran-developments-middle-east-135282568",
-          "published_at": "10:33"
-        },
-        {
-          "title": "Trump threatens more strikes on Iran, and other developments in the Middle East",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-iran-hamas-strait-of-hormuz-israel-b3025741.html",
-          "published_at": "08:52"
-        }
-      ]
-    },
-    {
-      "id": "world-219",
-      "title": "모스크바 식당에서 폭발이 발생해 3명이 숨지고 10여 명이 부상당했다.",
-      "title_en": "Three dead and over a dozen others injured after an explosion at a Moscow restaurant",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/moscow-explosion-bomb-kudrinksaya-square-b3025878.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "토요일 밤 모스크바의 한 식당에서 수제 폭발 장치로 인해 3명이 사망하고 더 많은 부상자가 발생했다고 러시아 관리들이 말했습니다.",
-      "excerpt_en": "A homemade explosive device killed three people at a Moscow restaurant, and injured many more on Saturday night, Russian officials said.",
-      "excerpt_source": "Fox News",
-      "excerpt_url": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
         "CBS News",
         "Channel News Asia",
         "Fox News",
+        "Hindustan Times",
+        "Reuters",
+        "SCMP",
+        "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-08-01T19:44:44+09:00",
-      "latest_published_at": "2026-08-01T21:45:42+09:00",
+      "first_published_at": "2026-08-01T19:28:20+09:00",
+      "latest_published_at": "2026-08-02T03:40:59+09:00",
       "articles": [
+        {
+          "title": "Several people killed in explosion at Moscow restaurant, Russian officials say",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
+          "published_at": "03:40"
+        },
+        {
+          "title": "3 killed, at least 21 injured after blast at Moscow restaurant, probe on",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/3-killed-at-least-21-injured-after-blast-at-moscow-restaurant-probe-on-101785636311528.html",
+          "published_at": "02:09"
+        },
+        {
+          "title": "Moscow restaurant bombing kills three people as device carried by woman explodes",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
+          "published_at": "00:22"
+        },
+        {
+          "title": "Ukraine-Russia war latest: At least three dead after bomb explodes near Moscow restaurant",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-ballistic-missile-trump-zelensky-b3025721.html",
+          "published_at": "23:41"
+        },
+        {
+          "title": "Moscow restaurant blast: Woman carrying homemade bomb kills 3, injures 21 in explosion near upscale venue",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/moscow-restaurant-blast-woman-carrying-homemade-bomb-kills-3-injures-21-in-explosion-near-upscale-venue-russia-101785623181034.html",
+          "published_at": "22:43"
+        },
+        {
+          "title": "Bombing near upscale Moscow restaurant kills 3 people, wounds at least 21",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/moscow-restaurant-bombing-9.7294033?cmp=rss",
+          "published_at": "22:06"
+        },
         {
           "title": "Explosion at restaurant in central Moscow leaves three dead, more than a dozen injured",
           "source_name": "Fox News",
           "url": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured",
           "published_at": "21:45"
+        },
+        {
+          "title": "Bomb carried by woman kills three, injures 21 near Moscow restaurant, authorities say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNkhRMDdsSlFaempsUmw0WmZQV0VzNTg5MnQ2TE9pbEs0WUg1ZDVYQWlfVWdXSjRwdUM4YThmMnB3aUs2cUVDZ0s0MnNlSDNHMDJDZU5iWmE0eFdpTmRlMlcwV05HNkI4b0d5SVJhS080bl9CZlNPUkpoSWZjRjRNZUw5alNtaFVQdERIT2p5MDlSTTFCWms4?oc=5",
+          "published_at": "21:32"
         },
         {
           "title": "Bombing at Moscow restaurant kills 3: officials",
@@ -187,55 +112,135 @@
           "published_at": "21:26"
         },
         {
-          "title": "Several people killed in explosion at Moscow restaurant, Russian officials say",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
-          "published_at": "21:23"
-        },
-        {
-          "title": "Three dead and over a dozen others injured after an explosion at a Moscow restaurant",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/moscow-explosion-bomb-kudrinksaya-square-b3025878.html",
-          "published_at": "19:44"
+          "title": "3 dead, 21 injured in bombing at Moscow restaurant",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3362666/3-dead-15-injured-explosion-near-moscow-cafe-police-say?utm_source=rss_feed",
+          "published_at": "19:28"
         }
       ]
     },
     {
-      "id": "world-6",
-      "title": "네팔 산악인 니르말 푸자(Nirmal Purja), 파키스탄 눈사태 발생 후 24시간 넘게 실종 시신 4구 발견",
-      "title_en": "Nepal climber Nirmal Purja missing for over 24 hours after Pakistan avalanche; 4 bodies found",
+      "id": "world-68",
+      "title": "미국 대사관, 시민들에게 중동 출국 고려 촉구",
+      "title_en": "US embassies urge citizens to consider departing Middle East",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/pakistan-broad-peak-karakoram-avalance-mssing-climbers-dead-nirmal-purja-gilgit-baltistan-101785552610286.html",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3362658/us-embassies-urge-citizens-consider-departing-middle-east?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "토요일 중동 전역의 수도에 있는 미국 대사관은 미국 시민들에게 지역 갈등의 예상치 못한 확대를 조심하라고 경고하고 떠날 준비를 할 것을 촉구했습니다. 경고,",
+      "excerpt_en": "US embassies in capitals across the Middle East on Saturday warned American citizens to beware of an “unforeseen escalation” in the regional conflict and urged them to be ready to leave. The warning, ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362658/us-embassies-urge-citizens-consider-departing-middle-east?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "Bangkok Post",
+        "SCMP",
+        "Sydney Morning Herald",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-01T16:57:17+09:00",
+      "latest_published_at": "2026-08-02T02:24:11+09:00",
+      "articles": [
+        {
+          "title": "US embassies issue alerts after Trump vows to hit Iran ‘hard’",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/us-embassies-issue-alerts-after-trump-vows-to-hit-iran?traffic_source=rss",
+          "published_at": "02:24"
+        },
+        {
+          "title": "US embassies urge citizens to consider departing Middle East",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3295065/us-embassies-urge-citizens-to-consider-departing-middle-east",
+          "published_at": "01:11"
+        },
+        {
+          "title": "State Department warns US citizens to be ready to leave Middle East as Iran tensions boil",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/state-department-warns-us-citizens-to-be-ready-to-leave-middle-east-as-iran-tensions-boil-20260802-p60kn2.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "00:12"
+        },
+        {
+          "title": "'Prepare to depart': US embassies issue alert across Middle East amid Iran tensions",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/prepare-to-depart-us-embassies-issue-alert-across-middle-east-amid-iran-tensions/articleshow/132794132.cms",
+          "published_at": "17:29"
+        },
+        {
+          "title": "US embassies urge citizens to consider departing Middle East",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362658/us-embassies-urge-citizens-consider-departing-middle-east?utm_source=rss_feed",
+          "published_at": "16:57"
+        }
+      ]
+    },
+    {
+      "id": "world-153",
+      "title": "산악인 니르말 푸자(Nirmal Purja)가 파키스탄 눈사태로 사망했다고 그의 회사가 밝혔습니다.",
+      "title_en": "Mountaineer Nirmal Purja dead in Pakistan avalanche, says his company",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/mountaineer-nirmal-purja-dies-in-pakistan-avalanche-broad-peak-expedition-company-101785582359839.html",
       "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "세계 14대 최고봉의 가장 빠른 등정 기록을 세운 유명 네팔 등반가 니르말 푸자(Nirmal Purja)가 파키스탄 탐험 중 눈사태로 사망했다고 그의 회사가 토요일(Saturda)에 밝혔다.",
-      "excerpt_en": "Celebrated Nepali climber Nirmal Purja, who set a record for the fastest ascent of the world’s 14 highest mountains, died in an ‌avalanche during an expedition in Pakistan, his company said on Saturda",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3362654/nepals-famed-climber-and-9-others-die-avalanche-pakistan?utm_source=rss_feed",
+      "excerpt": "파키스탄 길기트-발티스탄 지역의 세계 12번째 높은 산인 브로드피크에서 눈사태가 발생해 푸르자(43) 외 9명이 목요일부터 실종됐다.",
+      "excerpt_en": "Purja, 43, and nine others had been missing since Thursday after being struck by an avalanche on Broad Peak, the world's 12th-highest ​mountain, in Pakistan's Gilgit-Baltistan region.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/nepal-climber-nirmal-purja-killed-avalanche-9.7293792?cmp=rss",
       "translation_status": "ok",
-      "score": 88,
+      "score": 89,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
+        "time_score": 3,
+        "raw75": 67
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
       "source_count": 5,
       "sources": [
         "CBC",
-        "Channel News Asia",
+        "CBS News",
+        "Fox News",
         "Hindustan Times",
-        "Reuters",
-        "SCMP"
+        "New York Times"
       ],
-      "first_published_at": "2026-08-01T04:17:26+09:00",
-      "latest_published_at": "2026-08-01T16:50:51+09:00",
+      "first_published_at": "2026-08-01T11:10:13+09:00",
+      "latest_published_at": "2026-08-02T01:59:24+09:00",
       "articles": [
+        {
+          "title": "Famed mountaineer Nirmal Purja, 43, among 10 climbers killed after avalanche in Pakistan",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/famed-mountaineer-nirmal-purja-43-among-10-climbers-killed-avalanche-pakistan",
+          "published_at": "01:59"
+        },
+        {
+          "title": "10 climbers, including famed mountaineer, dead in Pakistan avalanche",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/nirmal-purja-climbers-search-rescue-avalanche-pakistan-broad-peak/",
+          "published_at": "20:04"
+        },
+        {
+          "title": "Nirmal Purja, Renowned Mountaineer, Is Found Dead After Pakistan Avalanche",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html",
+          "published_at": "19:59"
+        },
         {
           "title": "Nirmal Purja, 'inspirational' Nepali climber, among 10 killed in avalanche during Pakistan expedition",
           "source_name": "CBC",
@@ -243,22 +248,10 @@
           "published_at": "16:50"
         },
         {
-          "title": "Noted climber Nirmal Purja among 10 dead in avalanche in Pakistan - officials",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmYyc0pXSkJpNHNLOHFIUVU0clpoNFlfUVFua3EwU2dHUF9MTjBzUFl0M0VJUXNWUVBDeThvMTVPNlNjMDBQTWl1bXdoMTVFNGt5aVdYbmJyaG9TUVlCVWFTTHUzWTJSelM3czY1VFdvZW5iUXVUdXlELXlTVUJvQkdTVUVnN3d6Q044d3pmZFBnYVE3X1M3TlRqZjNTMFNqNWNKSWpWUnR3Nngyd2ozcmRoaUNZSEM5ZV82T1JEU25SUQ?oc=5",
-          "published_at": "15:51"
-        },
-        {
-          "title": "Noted Nepali climber Nirmal Purja among 10 dead in Pakistan avalanche",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3362654/nepals-famed-climber-and-9-others-die-avalanche-pakistan?utm_source=rss_feed",
-          "published_at": "14:25"
-        },
-        {
-          "title": "Famed climber Nirmal Purja, nine others, die in avalanche in Pakistan",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/nepali-climber-nirmal-purja-die-pakistan-avalanche-6292801",
-          "published_at": "12:34"
+          "title": "'Just before setting off for Pakistan...': Nirmal Purja's final Instagram post before he was killed by an avalanche",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/nirmal-purja-death-pakistan-nepali-britisher-nims-nimsdai-mountain-climber-summit-broad-peak-instagram-post-101785588468836.html",
+          "published_at": "14:10"
         },
         {
           "title": "‘Being a Gurkha’: Mountaineer Nirmal Purja ‘Dai’, killed by Pak avalanche, had ‘only one dream’",
@@ -271,37 +264,19 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/mountaineer-nirmal-purja-dies-in-pakistan-avalanche-broad-peak-expedition-company-101785582359839.html",
           "published_at": "11:10"
-        },
-        {
-          "title": "Pakistan avalanche highlights: ‘Nimsdai’ dead in avalanche on Broad Peak, his company says",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pakistan-avalanche-live-update-international-climbers-missing-nirmal-purja-gilgit-baltistan-latest-news-101785563431641.html",
-          "published_at": "06:19"
-        },
-        {
-          "title": "Who was Nirmal Purja, world-famous mountaineer dead after Karakoram avalanche in Pakistan?",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/who-is-nirmal-purja-world-famous-mountaineer-missing-after-karakoram-avalanche-in-pakistan-101785554442281.html",
-          "published_at": "04:29"
-        },
-        {
-          "title": "Nepal climber Nirmal Purja missing for over 24 hours after Pakistan avalanche; 4 bodies found",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pakistan-broad-peak-karakoram-avalance-mssing-climbers-dead-nirmal-purja-gilgit-baltistan-101785552610286.html",
-          "published_at": "04:17"
         }
       ]
     },
     {
-      "id": "world-51",
+      "id": "world-3",
       "title": "페루서 관광비행기 추락, 13명 사망",
       "title_en": "Tourist plane crash leaves 13 dead in Peru",
       "title_source": "earliest_pick",
       "title_url": "https://news.sky.com/story/tourist-plane-crash-leaves-13-dead-in-peru-13569102",
       "category": "기타",
       "primary_source": "Sky News",
-      "excerpt": "페루 이카 인근 도시에서 출발한 항공기가 들판에 충돌했다고 현지 당국이 밝혔습니다. 관광객을 태운 비행기가 페루에서 들판에 추락해 최소 13명이 사망했습니다.",
-      "excerpt_en": "Aircraft crashes into field after departing from the nearby city of Ica, according to local authorities At least 13 people have died after a plane carrying tourists crashed into a field in Peru, local",
+      "excerpt": "페루 현지 경찰에 따르면 인근 도시 피스코에서 출발한 항공기가 들판에 추락해 외국인 관광객을 포함해 13명이 비행기 사고로 사망했다고 현지 경찰이 밝혔다.",
+      "excerpt_en": "Aircraft crashes into field after departing from nearby city of Pisco, according to local authorities Police in Peru report that 13 people, among them foreign tourists, have been killed in a plane cra",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines",
       "translation_status": "ok",
@@ -319,38 +294,38 @@
       "syndicated_count": 0,
       "source_count": 5,
       "sources": [
-        "BBC",
+        "Al Jazeera",
         "DW",
-        "SCMP",
+        "Reuters",
         "Sky News",
         "The Guardian"
       ],
       "first_published_at": "2026-08-01T19:50:00+09:00",
-      "latest_published_at": "2026-08-01T20:59:18+09:00",
+      "latest_published_at": "2026-08-02T01:46:22+09:00",
       "articles": [
         {
-          "title": "Tourist plane crashes in Peru, killing 13 people on sightseeing flight",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3362667/tourist-plane-crashes-peru-killing-13-people-sightseeing-flight?utm_source=rss_feed",
-          "published_at": "20:59"
+          "title": "Thirteen dead in Peruvian tourist plane crash over Nazca Lines",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/thirteen-dead-in-peruvian-tourist-plane-crash-over-nazca-lines?traffic_source=rss",
+          "published_at": "01:46"
         },
         {
-          "title": "Tourist plane crashes in Peru, killing 13",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
-          "published_at": "20:51"
-        },
-        {
-          "title": "At least 13 dead as tourist plane crashes during flight over Peru’s Nazca Lines",
+          "title": "Tourist plane crashes during flight over Peru’s Nazca Lines, killing 13",
           "source_name": "The Guardian",
           "url": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines",
-          "published_at": "20:42"
+          "published_at": "22:31"
         },
         {
-          "title": "13 dead after small tourist plane crashes in Peru",
+          "title": "13 killed in tourist plane crash in Peru",
           "source_name": "DW",
-          "url": "https://www.dw.com/en/13-dead-after-small-tourist-plane-crashes-in-peru/a-78204342?maca=en-rss-en-all-1573-xml-mrss",
+          "url": "https://www.dw.com/en/13-killed-in-tourist-plane-crash-in-peru/a-78204342?maca=en-rss-en-all-1573-xml-mrss",
           "published_at": "20:36"
+        },
+        {
+          "title": "Thirteen die in tourist plane crash over Peru's Nazca Lines",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSnE5c2hGZjM2RjZHLWU5Z3lKclF4ZXUteFlvbk5CTE0wdGN4SlJVdkIyNVFNZXF3SjVyYmY3ZDFkRjMwVTBvUFE3THItbkN1RjF5NFV1UkF6MFhWSDBydFRiQXVxX2djcTBrcm1VTjRCcjJkUGs0VjB6RU12bG91Q2k2ZHZNY1dFUzJqZW9KT09QRVFQZXphSjdDNnJMTWQtRDBsSVR3RnlOSXFvbGg4UTBjU2Rua3Q5VkE?oc=5",
+          "published_at": "19:53"
         },
         {
           "title": "Tourist plane crash leaves 13 dead in Peru",
@@ -361,17 +336,17 @@
       ]
     },
     {
-      "id": "world-85",
-      "title": "FIFA의 ​​월드컵 민영화 입찰",
-      "title_en": "FIFA's World Cup privatisation bid",
+      "id": "world-53",
+      "title": "페루 관광비행기 추락, 관광비행 중 13명 사망",
+      "title_en": "Tourist plane crashes in Peru, killing 13 on sightseeing flight",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/fifas-world-cup-privatisation-bid-20260731-p60k7n.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://abcnews.com/International/wireStory/tourist-plane-crashes-peru-killing-13-nazca-lines-135294691",
       "category": "기타",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "FIFA는 월드컵에 수십억 달러의 민간 상업 투자를 허용할 예정이었던 논란의 여지가 있는 계획을 위원들의 격렬한 반대에 부딪힌 후 보류했습니다.",
-      "excerpt_en": "FIFA is shelving a controversial plan that would have allowed for billions of dollars in private commercial investment in the World Cup after the proposal was met with fierce opposition from its membe",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/fifa-shelves-world-cup-investment-plan/",
+      "primary_source": "ABC News",
+      "excerpt": "페루의 나스카 라인 고고학 유적지를 보기 위해 관광객을 태운 소형 비행기가 추락해 최소 13명이 사망했다고 토요일 경찰이 밝혔다. “승객 11명과 승무원 2명이 탑승했다는 정보가 있습니다.",
+      "excerpt_en": "At least 13 people died when a small plane carrying tourists to view Peru’s famed Nazca Lines archaeological site crashed, police said on Saturday. “We have information that 11 passengers and two crew",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3362667/tourist-plane-crashes-peru-killing-13-people-sightseeing-flight?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 81,
       "score_breakdown": {
@@ -387,109 +362,48 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "Al Jazeera",
-        "CBS News",
-        "Channel News Asia",
-        "Sydney Morning Herald"
+        "ABC News",
+        "ABC News Australia",
+        "BBC",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-01T01:13:06+09:00",
-      "latest_published_at": "2026-08-01T21:39:00+09:00",
+      "first_published_at": "2026-08-01T20:50:31+09:00",
+      "latest_published_at": "2026-08-02T03:10:01+09:00",
       "articles": [
         {
-          "title": "UEFA, CONCACAF target Infantino after FIFA shelve World Cup private investment plan",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/uefa-concacaf-target-infantino-after-fifa-shelve-world-cup-private-investment-plan-6293201",
-          "published_at": "21:39"
+          "title": "Plane crash in Peru kills 13 people on tourist flight",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-02/peru-plane-crash-tourists-viewing-nazca-lines/106987446",
+          "published_at": "03:10"
         },
         {
-          "title": "Infantino’s FIFA crisis: What is reaction to World Cup investment U-turn?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/8/1/infantinos-fifa-crisis-what-is-reaction-to-world-cup-investment-u-turn?traffic_source=rss",
-          "published_at": "13:59"
+          "title": "Tourist plane crashes in Peru, killing 13",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
+          "published_at": "00:29"
         },
         {
-          "title": "FIFA scraps its World Cup investment plan after backlash",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/fifa-shelves-world-cup-investment-plan/",
-          "published_at": "01:55"
-        },
-        {
-          "title": "FIFA's World Cup privatisation bid",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/fifas-world-cup-privatisation-bid-20260731-p60k7n.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "01:13"
-        }
-      ]
-    },
-    {
-      "id": "world-182",
-      "title": "미국, 서아시아 시민들에게 공포 확산 우려 속에 '떠날 준비를 하라' 지시: 중동에서 무슨 일이 일어나고 있는 걸까?",
-      "title_en": "US tells citizens in West Asia to ‘be ready to leave' amid escalation fears: What's happening in the Middle East?",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-embassies-urge-citizens-to-be-ready-to-depart-west-asia-amid-escalation-fears-whats-happening-in-the-middle-east-101785587480649.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "토요일 중동 전역의 수도에 있는 미국 대사관은 미국 시민들에게 지역 갈등의 예상치 못한 확대를 조심하라고 경고하고 떠날 준비를 할 것을 촉구했습니다. 경고,",
-      "excerpt_en": "US embassies in capitals across the Middle East on Saturday warned American citizens to beware of an “unforeseen escalation” in the regional conflict and urged them to be ready to leave. The warning, ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362658/us-embassies-urge-citizens-consider-departing-middle-east?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Channel News Asia",
-        "Hindustan Times",
-        "SCMP",
-        "Times of India"
-      ],
-      "first_published_at": "2026-08-01T13:31:12+09:00",
-      "latest_published_at": "2026-08-01T17:29:35+09:00",
-      "articles": [
-        {
-          "title": "'Prepare to depart': US embassies issue alert across Middle East amid Iran tensions",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/prepare-to-depart-us-embassies-issue-alert-across-middle-east-amid-iran-tensions/articleshow/132794132.cms",
-          "published_at": "17:29"
-        },
-        {
-          "title": "US embassies urge citizens to consider departing Middle East",
+          "title": "Tourist plane crashes in Peru, killing 13 people on sightseeing flight",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3362658/us-embassies-urge-citizens-consider-departing-middle-east?utm_source=rss_feed",
-          "published_at": "16:57"
+          "url": "https://www.scmp.com/news/world/americas/article/3362667/tourist-plane-crashes-peru-killing-13-people-sightseeing-flight?utm_source=rss_feed",
+          "published_at": "20:59"
         },
         {
-          "title": "US embassies urge citizens to 'consider departing' Middle East",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-embassies-urge-citizens-consider-departing-middle-east-6292981",
-          "published_at": "15:29"
-        },
-        {
-          "title": "US tells citizens in West Asia to ‘be ready to leave' amid escalation fears: What's happening in the Middle East?",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-embassies-urge-citizens-to-be-ready-to-depart-west-asia-amid-escalation-fears-whats-happening-in-the-middle-east-101785587480649.html",
-          "published_at": "13:31"
+          "title": "Tourist plane crashes in Peru, killing 13 on sightseeing flight",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/tourist-plane-crashes-peru-killing-13-nazca-lines-135294691",
+          "published_at": "20:50"
         }
       ]
     },
     {
-      "id": "world-229",
-      "title": "'그녀는 죽었습니다': 낸시 거스리 '몸값 메모'가 경찰에 의해 공개되었습니다.",
-      "title_en": "‘She perished’: Nancy Guthrie ‘ransom notes’ released by police",
+      "id": "world-225",
+      "title": "Savannah Guthrie는 두 개의 몸값 메모에서 그녀의 어머니 Nancy가 어떻게 사망했는지에 대한 잊혀지지 않는 세부 사항을 공개합니다. 'Annie와 Tommy…'",
+      "title_en": "Savannah Guthrie reacts as two ransom notes reveal haunting details on how her mother Nancy died, ‘Annie and Tommy…’",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/she-perished-nancy-guthrie-ransom-notes-released-by-police-20260801-p60kk6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/savannah-guthrie-reacts-as-two-ransom-notes-reveal-haunting-details-on-how-her-mother-nancy-died-annie-and-tommy-101785581135885.html",
       "category": "기타",
-      "primary_source": "Sydney Morning Herald",
+      "primary_source": "Hindustan Times",
       "excerpt": "수사관들은 6개월 전 애리조나에 있는 집에서 납치된 투데이 쇼(Today Show) 진행자 사바나 거스리(Savannah Guthrie)의 엄마의 실종과 관련된 전체 몸값 메모와 후속 편지를 공개했습니다. 에이",
       "excerpt_en": "Investigators have released the full ransom note and a follow-up letter tied to the disappearance of Today Show host Savannah Guthrie's mom, who was abducted from her home in Arizona six months ago. A",
       "excerpt_source": "CBC",
@@ -507,17 +421,22 @@
       "area_value": 5,
       "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         "CBC",
         "Hindustan Times",
-        "Sydney Morning Herald",
         "The Independent",
         "Times of India"
       ],
-      "first_published_at": "2026-08-01T06:30:00+09:00",
-      "latest_published_at": "2026-08-01T15:23:32+09:00",
+      "first_published_at": "2026-08-01T11:00:40+09:00",
+      "latest_published_at": "2026-08-01T19:46:32+09:00",
       "articles": [
+        {
+          "title": "Nancy Guthrie update: Sheriff Nanos says search is ‘very active’ after ransom notes, vows ‘we are still here'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nancy-guthrie-update-sheriff-nanos-says-search-is-very-active-after-ransom-notes-vows-we-are-still-here-101785610812517.html",
+          "published_at": "19:46"
+        },
         {
           "title": "Savannah Guthrie begs public after mother's disappearance; ransom note said 'buried in nature'",
           "source_name": "Times of India",
@@ -541,17 +460,72 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/savannah-guthrie-reacts-as-two-ransom-notes-reveal-haunting-details-on-how-her-mother-nancy-died-annie-and-tommy-101785581135885.html",
           "published_at": "11:00"
-        },
-        {
-          "title": "‘She perished’: Nancy Guthrie ‘ransom notes’ released by police",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/she-perished-nancy-guthrie-ransom-notes-released-by-police-20260801-p60kk6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "06:30"
         }
       ]
     },
     {
-      "id": "world-152",
+      "id": "world-143",
+      "title": "아이다호 인앤아웃 버거 레스토랑에서 총격 사건이 발생해 사망자 중 총잡이",
+      "title_en": "Gunman among several dead in shooting at Idaho In-N-Out Burger restaurant",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3362670/gunman-among-several-dead-shooting-idaho-n-out-burger-restaurant?utm_source=rss_feed",
+      "category": "미국",
+      "primary_source": "SCMP",
+      "excerpt": "지난 토요일 오후 아이다호 남부의 인앤아웃 버거 레스토랑에서 총격 사건이 발생해 여러 명이 사망하고 다른 사람들이 부상을 입었다고 경찰이 밝혔습니다. 범인은 사망자 중 한 명으로 트윈 폴스 경찰서장 M이 포함됐다.",
+      "excerpt_en": "A shooting at an In-N-Out Burger restaurant in southern Idaho on Saturday afternoon left multiple people dead and others injured, police said. The shooter was among the dead, Twin Falls Police Chief M",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3362670/gunman-among-several-dead-shooting-idaho-n-out-burger-restaurant?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 79,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 59
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "SCMP",
+        "Sydney Morning Herald",
+        "The Guardian",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-02T00:47:37+09:00",
+      "latest_published_at": "2026-08-02T01:37:00+09:00",
+      "articles": [
+        {
+          "title": "3 killed in US Idaho shopping area shooting; gunman among dead",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/3-killed-in-us-idaho-shopping-area-shooting-gunman-among-dead/articleshow/132799007.cms",
+          "published_at": "01:37"
+        },
+        {
+          "title": "Multiple people killed in shooting at Idaho burger restaurant",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/multiple-people-killed-in-southern-idaho-shooting-20260802-p60kno.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "01:36"
+        },
+        {
+          "title": "Shooting at In-N-Out Burger restaurant in Idaho leaves multiple people dead, police say",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/02/shooting-at-in-n-out-burger-restaurant-in-idaho-leaves-multiple-people-dead-police-say",
+          "published_at": "01:03"
+        },
+        {
+          "title": "Gunman among several dead in shooting at Idaho In-N-Out Burger restaurant",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362670/gunman-among-several-dead-shooting-idaho-n-out-burger-restaurant?utm_source=rss_feed",
+          "published_at": "00:47"
+        }
+      ]
+    },
+    {
+      "id": "world-148",
       "title": "이스라엘은 레바논 남부에서 헤즈볼라 전사 여러 명을 사살했다고 밝혔습니다.",
       "title_en": "Israel says it killed several Hezbollah fighters in south Lebanon",
       "title_source": "earliest_pick",
@@ -563,14 +537,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362660/israel-says-it-killed-several-hezbollah-fighters-south-lebanon?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -605,7 +579,175 @@
       ]
     },
     {
-      "id": "world-93",
+      "id": "world-238",
+      "title": "트럼프, 이란에 대한 추가 공격 및 중동 지역 발전 위협",
+      "title_en": "Trump threatens more strikes on Iran, and other developments in the Middle East",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/donald-trump-iran-hamas-strait-of-hormuz-israel-b3025741.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "트럼프 미국 대통령은 미국이 호르무즈 해협을 재개하겠다고 압박하자 이란에 대한 추가 공격을 위협했다.",
+      "excerpt_en": "U.S. President Trump has threatened more strikes on Iran as the U.S. pushes to reopen the Strait of Hormuz",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/donald-trump-iran-hamas-strait-of-hormuz-israel-b3025741.html",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-01T08:52:05+09:00",
+      "latest_published_at": "2026-08-01T18:50:52+09:00",
+      "articles": [
+        {
+          "title": "Trump threatens more strikes on Iran. Tensions from Hormuz to Kuwait and Gaza lead to more warnings",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-threatens-more-strikes-on-iran-tensions-from-hormuz-to-kuwait-and-gaza-lead-to-more-warnings-101785610252968.html",
+          "published_at": "18:50"
+        },
+        {
+          "title": "Trump threatens more strikes on Iran, and other developments in the Middle East",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/trump-threatens-strikes-iran-developments-middle-east-135282568",
+          "published_at": "10:33"
+        },
+        {
+          "title": "Trump threatens more strikes on Iran, and other developments in the Middle East",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-iran-hamas-strait-of-hormuz-israel-b3025741.html",
+          "published_at": "08:52"
+        }
+      ]
+    },
+    {
+      "id": "world-31",
+      "title": "마피아와 터프가이 역을 맡은 소프라노 배우 빈센트 파스토레(Vincent Pastore)가 80세의 나이로 사망했습니다.",
+      "title_en": "Sopranos actor Vincent Pastore, known for playing mobsters and tough guys, dies aged 80",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/us-news/2026/aug/01/sopranos-actor-vincent-pastore-dead-80",
+      "category": "미국",
+      "primary_source": "The Guardian",
+      "excerpt": "FBI 정보원이 된 토니 소프라노의 친구인 살바토레 '빅 음모' 본펜시에로 역으로 가장 잘 알려진 베테랑 배우 빈센트 파스토레는 마피아와 터프가이 역을 맡은 베테랑 배우입니다.",
+      "excerpt_en": "Veteran actor best-known for playing Salvatore ‘Big Pussy’ Bonpensiero, friend of Tony Soprano who becomes FBI informant Vincent Pastore, a veteran actor who played mobsters and tough guys, and was be",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/01/sopranos-actor-vincent-pastore-dead-80",
+      "translation_status": "ok",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-01T22:36:23+09:00",
+      "latest_published_at": "2026-08-02T01:23:00+09:00",
+      "articles": [
+        {
+          "title": "‘Sopranos’ actor Vincent Pastore, known for playing mobsters and tough guys, dead at 80",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRjdHZzA2RVEzM205b2pGVndobXEtQmotZ3NDS1Q3WGxPQTFxbHpPdXRRMTFGejJpaHZfVkdZVEFNNDY2NDVSQWFyRWx1LW5lNzgxXzdoeHdiWU0xZ3Q0aVFFbTBMZUVLMVpjbTNacDNsaUFFV0hqbUtKaklkaFVUVFZndzRxMXMz?oc=5",
+          "published_at": "01:23"
+        },
+        {
+          "title": "Sopranos actor Vincent Pastore, known for playing mobsters and tough guys, dies at 80",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362668/sopranos-actor-vincent-pastore-known-playing-mobsters-and-tough-guys-dies-80?utm_source=rss_feed",
+          "published_at": "22:44"
+        },
+        {
+          "title": "Sopranos actor Vincent Pastore, known for playing mobsters and tough guys, dies aged 80",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/01/sopranos-actor-vincent-pastore-dead-80",
+          "published_at": "22:36"
+        }
+      ]
+    },
+    {
+      "id": "world-39",
+      "title": "트럼프는 반영 수영장 '기물 파손' 혐의를 기각한 Jeanine Pirro를 맹렬히 비난했습니다: '그녀가 무슨 생각을 했는지 모르겠습니다'",
+      "title_en": "Trump lashes out at Jeanine Pirro after she drops Reflecting Pool ‘vandalism’ charges: ‘I don’t know what she was thinking’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/jeanine-pirro-reflecting-pool-case-trump-b3025849.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "도널드 트럼프 미국 대통령이 최근 리노베이션을 마친 링컨 기념관 반사 수영장의 훼손이 조악한 공사로 인해 발생했다고 평가한 제닌 피로 미국 검사를 날카롭게 비난하고 있다.",
+      "excerpt_en": "President Donald Trump is sharply criticizing U.S. Attorney Jeanine Pirro after her assessment that damage to the Lincoln Memorial Reflecting Pool following a recent renovation was caused by shoddy co",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/donald-trump-justice-department-washington-national-park-service-interior-department-b3025886.html",
+      "translation_status": "ok",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 55
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-01T19:55:30+09:00",
+      "latest_published_at": "2026-08-01T21:56:00+09:00",
+      "articles": [
+        {
+          "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVG1pTGpVdlZfTjVEQmFteHpjbThuQmpsbGdVb2hLT0FSLXJIZmZKVGpCckJtSjVZQ0VLd1hFaTA4dkR4enlia3BvWnQ1aUhLdGdjenNrZXM0Rm91T0FRMlNOZVlaVUFuVGlhczk1Y0lDMEJkUmd2enhUdFNWLU4weExfQlIyREhRckFEQUhHc2xBWGp3VVgyX2NfcVZrR0dPeVJuTjEtVQ?oc=5",
+          "published_at": "21:56"
+        },
+        {
+          "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-blasts-pirro-after-she-refutes-his-claim-that-reflecting-pool-was-damaged-by-vandals-101785614313113.html",
+          "published_at": "19:58"
+        },
+        {
+          "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-justice-department-washington-national-park-service-interior-department-b3025886.html",
+          "published_at": "19:57"
+        },
+        {
+          "title": "Trump lashes out at Jeanine Pirro after she drops Reflecting Pool ‘vandalism’ charges: ‘I don’t know what she was thinking’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jeanine-pirro-reflecting-pool-case-trump-b3025849.html",
+          "published_at": "19:55"
+        }
+      ]
+    },
+    {
+      "id": "world-92",
       "title": "스페인 세우타 국경 위기로 인한 사망자 수 증가",
       "title_en": "Death toll in Spain border crisis in Ceuta grows",
       "title_source": "earliest_pick",
@@ -617,14 +759,14 @@
       "excerpt_source": "NPR",
       "excerpt_url": "https://www.npr.org/2026/08/01/nx-s1-5916271/ceuta-spain-border-morocco",
       "translation_status": "ok",
-      "score": 72,
+      "score": 71,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "time_score": 1,
+        "raw75": 53
       },
       "area_value": 3,
       "article_count": 3,
@@ -659,17 +801,71 @@
       ]
     },
     {
-      "id": "world-20",
-      "title": "PLA와 해안경비대, 필리핀 영토 입찰 며칠 후 남중국해 훈련 실시",
-      "title_en": "PLA and coastguards stage South China Sea drills days after Philippine territorial bid",
+      "id": "world-5",
+      "title": "미 법무부, 북한 관련 기사 뉴욕타임스 프리랜서 소환장 발표",
+      "title_en": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid?utm_source=rss_feed",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-justice-department-subpoenas-new-york-times-freelancer-over-north-korea-story-paper-says-101785610802453.html",
       "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "중국군이 지난 1일 남중국해 영유권 분쟁 암초인 스카버러 암초 인근에서 해상 및 공중 합동훈련을 실시했다. 훈련 훈련은 베이징이 필리핀을 공격한 이후에 이뤄졌습니다.",
-      "excerpt_en": "The Chinese military held joint naval and air drills near Scarborough Shoal, a disputed reef in the South China Sea, on Saturday. The training exercise came after Beijing hit out at the Philippines fo",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid?utm_source=rss_feed",
+      "primary_source": "Hindustan Times",
+      "excerpt": "법무부는 언론인에게 정보 공개를 강요하기 위해 소환장 사용이 증가하고 있다는 비판에 직면해 있습니다.",
+      "excerpt_en": "The Justice Department faces criticism for increasing use of subpoenas in attempts to compel journalists to reveal info.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/8/1/new-york-times-reveals-trump-administration-subpoena-over-north-korea-story?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-01T19:00:01+09:00",
+      "latest_published_at": "2026-08-01T23:42:44+09:00",
+      "articles": [
+        {
+          "title": "New York Times reveals Trump administration subpoena over North Korea story",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/1/new-york-times-reveals-trump-administration-subpoena-over-north-korea-story?traffic_source=rss",
+          "published_at": "23:42"
+        },
+        {
+          "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZUlFSGZMX01QYlFDclh0cnJFeWx4RC1kdU40aUFyLTVUcHhXY0pSY1I0VUNlaXZOOWc2eFBXY014bmhnWGlYXy1lN3hBMGhYMVpEQ3haZnQ2LURWdnlocFlmTjhVdjJQdkhNbWdrakQxN2dGWUhkdTlmcFc0WkQzNkNTbl9EcU1yVEJzY1N4dmZCQmJwRkRoT2ZyUXdqOWtxWDZSMzlFTkJOcmVrTi1tRGlBRDFtRGdjQkF1TF9wN3c0VW9tZDlEUzVsaS11QQ?oc=5",
+          "published_at": "23:16"
+        },
+        {
+          "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-justice-department-subpoenas-new-york-times-freelancer-over-north-korea-story-paper-says-101785610802453.html",
+          "published_at": "19:00"
+        }
+      ]
+    },
+    {
+      "id": "world-28",
+      "title": "러시아, 탄도미사일과 드론으로 우크라이나 수도 공격해 최소 9명 사망",
+      "title_en": "Russia hits Ukrainian capital with ballistic missiles and drones, killing at least 9",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "러시아가 키예프에 탄도미사일과 드론을 폭격해 최소 9명이 숨지고 22명이 부상당했다.",
+      "excerpt_en": "Russia has launched a barrage of ballistic missiles and drones into Kyiv, killing at least nine people and injuring 22",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
@@ -686,34 +882,34 @@
       "source_count": 3,
       "sources": [
         "ABC News",
-        "Reuters",
-        "SCMP"
+        "AP News",
+        "CBC"
       ],
-      "first_published_at": "2026-08-01T05:11:09+09:00",
-      "latest_published_at": "2026-08-01T13:53:57+09:00",
+      "first_published_at": "2026-08-01T06:57:12+09:00",
+      "latest_published_at": "2026-08-01T20:29:00+09:00",
       "articles": [
         {
-          "title": "China holds military drills near disputed South China Sea shoal",
+          "title": "Russia hits Ukrainian capital with ballistic missiles and drones, killing at least 9",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMy1Tb2ZpdTlKMEJmT3JZb0hYWlp1Y1g3R2dwYmZTWEgtRVFsNWhEcUZ3bmx0M09qTWtvSi0wU05pZVdNYzRsa2tITGN0cF9qaWYycl9zWUNrN3pQRjlFVF9PcjFRTUxDam0yOGRMR1pFQTNYWFA5ZFVIeFJvWUxzYTRJMkM4WkhtYXRQd2R3TTlEU2pKZDNUdm5LREp5ZEZXS3FxRkd4b3F1ODYwYlRNZy10VlQ?oc=5",
+          "published_at": "20:29"
+        },
+        {
+          "title": "Russia batters Ukrainian capital of Kyiv, killing at least 10",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/russia-strikes-kyiv-9.7293585?cmp=rss",
+          "published_at": "12:17"
+        },
+        {
+          "title": "Russia hits Ukrainian capital with ballistic missiles and drones, killing at least 9",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/china-holds-military-drills-disputed-shoal-south-china-135284501",
-          "published_at": "13:53"
-        },
-        {
-          "title": "China conducts naval, air patrols around disputed shoal in South China Sea",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRXE0c1JmUmhDb3FjV211UkdlZ2c2ZHBoOW9saThSV0tFdVBYTlFELThzcmltODNtNGpCbHZFUEJtMkFSTU5BMDVydGEtSXhVQkVDNWtyeUZoY0hvblBCN2dTV2VmeUtvc2FPRWxxTVdxdjFUMTJXMzB0SDNGUjlNNzhQT2NKNElMX3RVOEpKMFBjTkJlTkRuN0dzRmhHUmpucXdxTzA5X2t1Zkg2SXU0dXlHSTQ1MEJZSkE?oc=5",
-          "published_at": "10:28"
-        },
-        {
-          "title": "PLA and coastguards stage South China Sea drills days after Philippine territorial bid",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid?utm_source=rss_feed",
-          "published_at": "05:11"
+          "url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
+          "published_at": "06:57"
         }
       ]
     },
     {
-      "id": "world-43",
+      "id": "world-40",
       "title": "포경선의 조난 신호 이후 폴 왓슨 재단의 포경 반대 선박이 압수되고 승무원이 구금되었습니다.",
       "title_en": "Paul Watson Foundation’s anti-whaling ship seized and crew detained after whaling vessel’s distress call",
       "title_source": "earliest_pick",
@@ -744,8 +940,14 @@
         "The Independent"
       ],
       "first_published_at": "2026-08-01T13:36:10+09:00",
-      "latest_published_at": "2026-08-01T14:34:10+09:00",
+      "latest_published_at": "2026-08-01T19:41:00+09:00",
       "articles": [
+        {
+          "title": "Iceland seizes Paul Watson Foundation’s anti-whaling ship and detains its crew",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYlFydGsxbUlUZ0h4OHNiOGtpUkxxS2E2ellheDRoNFlMVy1pX0d0dHJoelZNdUh6X0E0cm1HVGtpajFWM040UWhnbGV0ZWNNV0Rkc2tEclBaWnVhX0Zsa2xaWTA2SjRSVHZZWUlRRnVUcEs0UG1oRGhEZjl0REFzNlliRUlqX1Jvb3VPNkYxWkJxVGtDaDBEMTFfUjJUNnoyVzF6TGNlTS1memM?oc=5",
+          "published_at": "19:41"
+        },
         {
           "title": "Iceland seizes Paul Watson Foundation's anti-whaling ship and detains its crew",
           "source_name": "ABC News",
@@ -753,82 +955,10 @@
           "published_at": "14:34"
         },
         {
-          "title": "Iceland seizes Paul Watson Foundation’s anti-whaling ship and detains its crew",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYlFydGsxbUlUZ0h4OHNiOGtpUkxxS2E2ellheDRoNFlMVy1pX0d0dHJoelZNdUh6X0E0cm1HVGtpajFWM040UWhnbGV0ZWNNV0Rkc2tEclBaWnVhX0Zsa2xaWTA2SjRSVHZZWUlRRnVUcEs0UG1oRGhEZjl0REFzNlliRUlqX1Jvb3VPNkYxWkJxVGtDaDBEMTFfUjJUNnoyVzF6TGNlTS1memM?oc=5",
-          "published_at": "13:59"
-        },
-        {
           "title": "Paul Watson Foundation’s anti-whaling ship seized and crew detained after whaling vessel’s distress call",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/europe/iceland-paul-watson-foundation-bandero-sea-shepherd-b3025794.html",
           "published_at": "13:36"
-        }
-      ]
-    },
-    {
-      "id": "world-218",
-      "title": "트럼프 행정부는 Reflecting Pool이 내내 '실패한 작업'이었다고 인정",
-      "title_en": "Trump administration admits Reflecting Pool was a ‘botched job’ all along",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/trump-administration-admits-reflecting-pool-was-a-botched-job-all-along-20260801-p60kj4.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "도널드 트럼프 미국 대통령이 최근 리노베이션을 마친 링컨 기념관 반사 수영장의 훼손이 조악한 공사로 인해 발생했다고 평가한 제닌 피로 미국 검사를 날카롭게 비난하고 있다.",
-      "excerpt_en": "President Donald Trump is sharply criticizing U.S. Attorney Jeanine Pirro after her assessment that damage to the Lincoln Memorial Reflecting Pool following a recent renovation was caused by shoddy co",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/donald-trump-justice-department-washington-national-park-service-interior-department-b3025886.html",
-      "translation_status": "ok",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 51
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-01T01:03:38+09:00",
-      "latest_published_at": "2026-08-01T20:16:49+09:00",
-      "articles": [
-        {
-          "title": "Trump slams DOJ as charges against ex-Olympian in Reflecting Pool case are dropped: 'I disagree 100%'",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-slams-doj-as-charges-against-ex-olympian-in-reflecting-pool-case-are-dropped-i-disagree-100-101785615041643.html",
-          "published_at": "20:16"
-        },
-        {
-          "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-blasts-pirro-after-she-refutes-his-claim-that-reflecting-pool-was-damaged-by-vandals-101785614313113.html",
-          "published_at": "19:58"
-        },
-        {
-          "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-justice-department-washington-national-park-service-interior-department-b3025886.html",
-          "published_at": "19:57"
-        },
-        {
-          "title": "Trump lashes out at Jeanine Pirro after she drops Reflecting Pool ‘vandalism’ charges: ‘I don’t know what she was thinking’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jeanine-pirro-reflecting-pool-case-trump-b3025849.html",
-          "published_at": "19:55"
-        },
-        {
-          "title": "Trump administration admits Reflecting Pool was a ‘botched job’ all along",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/trump-administration-admits-reflecting-pool-was-a-botched-job-all-along-20260801-p60kj4.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "01:03"
         }
       ]
     },
@@ -892,111 +1022,17 @@
       ]
     },
     {
-      "id": "world-241",
-      "title": "우크라이나가 대규모 공격으로 러시아의 '아마존' 와일드베리를 표적으로 삼는 이유",
-      "title_en": "Why Ukraine is targeting Russia’s ‘Amazon’ Wildberries with major strikes",
+      "id": "world-22",
+      "title": "이스라엘, 가자지구서 2명 사망, 의약품 보관창고 파괴",
+      "title_en": "Israeli strikes kill two in Gaza, destroy medicine storage warehouses",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/ukraine-drone-strikes-wildberries-warehouses-map-russia-b3025749.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "수년 동안 러시아의 가장 크고 부유한 도시의 사람들은 러시아의 전면적인 우크라이나 침공의 영향으로부터 보호받았지만 더 이상은 그렇지 않습니다.",
-      "excerpt_en": "For years, people in Russia's largest and most affluent cities were shielded from the impacts of their country's full-scale invasion of Ukraine, but not anymore.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-02/vladimir-putin-supporters-start-to-question-ukraine-war/106979976",
-      "translation_status": "ok",
-      "score": 65,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-01T09:54:03+09:00",
-      "latest_published_at": "2026-08-01T19:01:40+09:00",
-      "articles": [
-        {
-          "title": "'People are really suffering': Ukraine's drones bring war home to Russia",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/vladimir-putin-supporters-start-to-question-ukraine-war/106979976",
-          "published_at": "19:01"
-        },
-        {
-          "title": "Why Ukraine is targeting Russia’s ‘Amazon’ Wildberries with major strikes",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-drone-strikes-wildberries-warehouses-map-russia-b3025749.html",
-          "published_at": "09:54"
-        }
-      ]
-    },
-    {
-      "id": "world-212",
-      "title": "이란은 미국이 추가 공격을 계획하면서 미국이 긴장을 고조시키고 있다고 비난했다.",
-      "title_en": "Iran accuses U.S. of escalating tensions as Washington plans more strikes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQejJOMUdaM3o5dDFVSU04YTE1RzhOVjhyTzdxR2tqalUtSk1uUFlxOTJFLTN1TGgtMWRqdUktaGdCQUw3dDE1MG1hZjljOUdkYUk4RWhEZnByVHJyN2JPeFVOUG9Danp4ZUZTNmVUeDJtaXVjYUNhbk5wb1lpMGN6ZnZIVEhrelIzS0RjaEdXT3czX1Vrekh6VTRTQzUtNE8zM0pPVGY4eHA4eFdSWm8xR3pIRnNtcXdZSUQw?oc=5",
       "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "이란은 미국이 지역 내 긴장을 고조시키고 있다고 비난하며 미국이 새로운 공격을 감행할 경우 자체 대응을 준비하고 있다고 말했습니다.",
-      "excerpt_en": "Iran accused the U.S. of escalating tensions in the region and said it's preparing its own response if Washington goes ahead with new strikes.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-01T20:38:49+09:00",
-      "latest_published_at": "2026-08-01T21:20:11+09:00",
-      "articles": [
-        {
-          "title": "Trump-Iran latest: Tehran says ‘aggression’ with be met with ‘decisive’ response as Trump threatens fresh strikes",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-israel-gaza-hormuz-strikes-b3025743.html",
-          "published_at": "21:20"
-        },
-        {
-          "title": "Iran accuses U.S. of escalating tensions as Washington plans more strikes",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
-          "published_at": "20:38"
-        }
-      ]
-    },
-    {
-      "id": "world-57",
-      "title": "러시아의 우크라이나 공습으로 10명 사망, 키예프가 러시아 화물선 침몰",
-      "title_en": "10 killed in Russian strikes on Ukraine, while Kyiv sinks Russian cargo ship",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3362622/4-killed-russian-strikes-ukraine-zelensky-pushes-trump-patriot-missiles?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "키예프와 인근 지역에 대한 러시아의 공격으로 토요일 오전 10명이 사망했다고 관리들이 밝혔습니다. 우크라이나 드론이 흑해에서 러시아의 대형 컨테이너선을 침몰시켰습니다. 공격의 교환은",
-      "excerpt_en": "Russian attacks on Kyiv and its suburbs killed 10 people early Saturday, officials said, as Ukrainian drones sank a huge Russian container ship in the Black Sea. The exchange in attacks come after the",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362622/4-killed-russian-strikes-ukraine-zelensky-pushes-trump-patriot-missiles?utm_source=rss_feed",
+      "primary_source": "Reuters",
+      "excerpt": "이스라엘 공습, 가자지구 2명 사망, 의약품 보관창고 파괴 reuters.com",
+      "excerpt_en": "Israeli strikes kill two in Gaza, destroy medicine storage warehouses reuters.com",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQejJOMUdaM3o5dDFVSU04YTE1RzhOVjhyTzdxR2tqalUtSk1uUFlxOTJFLTN1TGgtMWRqdUktaGdCQUw3dDE1MG1hZjljOUdkYUk4RWhEZnByVHJyN2JPeFVOUG9Danp4ZUZTNmVUeDJtaXVjYUNhbk5wb1lpMGN6ZnZIVEhrelIzS0RjaEdXT3czX1Vrekh6VTRTQzUtNE8zM0pPVGY4eHA4eFdSWm8xR3pIRnNtcXdZSUQw?oc=5",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1012,57 +1048,10 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "BBC",
-        "SCMP"
+        "Hindustan Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-01T02:29:42+09:00",
-      "latest_published_at": "2026-08-01T13:35:39+09:00",
-      "articles": [
-        {
-          "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-          "published_at": "13:35"
-        },
-        {
-          "title": "10 killed in Russian strikes on Ukraine, while Kyiv sinks Russian cargo ship",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3362622/4-killed-russian-strikes-ukraine-zelensky-pushes-trump-patriot-missiles?utm_source=rss_feed",
-          "published_at": "02:29"
-        }
-      ]
-    },
-    {
-      "id": "world-80",
-      "title": "이스라엘, 가자지구 전역에서 7명 사망, 의료용품 창고 파괴",
-      "title_en": "Israeli strikes kill seven across Gaza, destroy medical supply warehouse",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/8/1/israeli-strikes-kill-four-across-gaza-destroy-medical-supply-warehouse?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "가자 보건부가 군축 협상이 있은 지 며칠 만에 의약품 상점에 대한 '악랄한' 파업을 비난하면서 공격으로 7명이 사망했습니다.",
-      "excerpt_en": "Attacks kill seven as Gaza Health Ministry condemns 'heinous' strike on medicine stores, days after disarmament deal.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/8/1/israeli-strikes-kill-four-across-gaza-destroy-medical-supply-warehouse?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-01T16:07:10+09:00",
+      "first_published_at": "2026-08-01T15:48:44+09:00",
       "latest_published_at": "2026-08-01T18:56:56+09:00",
       "articles": [
         {
@@ -1072,25 +1061,72 @@
           "published_at": "18:56"
         },
         {
-          "title": "Israeli strikes kill seven across Gaza, destroy medical supply warehouse",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/1/israeli-strikes-kill-four-across-gaza-destroy-medical-supply-warehouse?traffic_source=rss",
-          "published_at": "16:07"
+          "title": "Israeli strikes kill two in Gaza, destroy medicine storage warehouses",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQejJOMUdaM3o5dDFVSU04YTE1RzhOVjhyTzdxR2tqalUtSk1uUFlxOTJFLTN1TGgtMWRqdUktaGdCQUw3dDE1MG1hZjljOUdkYUk4RWhEZnByVHJyN2JPeFVOUG9Danp4ZUZTNmVUeDJtaXVjYUNhbk5wb1lpMGN6ZnZIVEhrelIzS0RjaEdXT3czX1Vrekh6VTRTQzUtNE8zM0pPVGY4eHA4eFdSWm8xR3pIRnNtcXdZSUQw?oc=5",
+          "published_at": "15:48"
         }
       ]
     },
     {
-      "id": "world-112",
-      "title": "트럼프의 '진실 소셜(Truth Social)' 게시물에 대한 빠른 액세스가 월 10만 달러에 판매됩니다.",
-      "title_en": "Fast access to Trump's ‘Truth Social’ posts goes on sale for $100,000 per month",
+      "id": "world-27",
+      "title": "미시간주가 미네소타주에 합류하여 수도 시스템에 대한 사이버 공격을 보고함에 따라 FBI가 조사",
+      "title_en": "FBI investigates as Michigan joins Minnesota in reporting cyberattacks on its water systems",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/americas/20260801-fast-access-trump-truth-social-posts-sale-for-100-000-per-month",
-      "category": "미국",
-      "primary_source": "France24",
-      "excerpt": "Trump의 계정이 가장 큰 Truth Social은 사용자에게 월 최대 100,000달러의 조기 액세스를 제공합니다. Donald Trump는 이제 자신의 Truth Social 게시물에 대한 조기 액세스를 제공합니다.",
-      "excerpt_en": "Truth Social, where Trump’s account is by far the largest, to offer users early access for up to $100,000 per month Donald Trump is now offering early access to his Truth Social posts in a move that h",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/01/trump-truth-social-early-access",
+      "title_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPejV5NEdoc3dyRHhtTTZXUVlOQXI0a0JIMjhOOWtGZ2xvNzlPS2h6WnJ0d25LejIwNDB4TzFYZWRFNk1CaUVQVXp1ZTdpXzNieFFRVUFYUHNfa2tKRGwzRWwwbElHa0dDcmc4Xzl1Y2hfN1JjYkpoVEhsZ2dEbkQweWk0RUxueW5JcW1ybGY0RUZUUFhGRzNadXJ5WQ?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "당국이 이란의 음모 가능성을 경고한 이후 이번 공격에서 범인은 확인되지 않았습니다.",
+      "excerpt_en": "No culprit has been identified in any of the attacks, which comes after authorities warned of possible Iranian plot.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/8/1/michigan-joins-minnesota-in-reporting-cyber-attacks-with-fbi-investigating?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Al Jazeera"
+      ],
+      "first_published_at": "2026-08-01T19:30:00+09:00",
+      "latest_published_at": "2026-08-01T22:34:36+09:00",
+      "articles": [
+        {
+          "title": "Michigan joins Minnesota in reporting cyberattacks, with FBI investigating",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/1/michigan-joins-minnesota-in-reporting-cyber-attacks-with-fbi-investigating?traffic_source=rss",
+          "published_at": "22:34"
+        },
+        {
+          "title": "FBI investigates as Michigan joins Minnesota in reporting cyberattacks on its water systems",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPejV5NEdoc3dyRHhtTTZXUVlOQXI0a0JIMjhOOWtGZ2xvNzlPS2h6WnJ0d25LejIwNDB4TzFYZWRFNk1CaUVQVXp1ZTdpXzNieFFRVUFYUHNfa2tKRGwzRWwwbElHa0dDcmc4Xzl1Y2hfN1JjYkpoVEhsZ2dEbkQweWk0RUxueW5JcW1ybGY0RUZUUFhGRzNadXJ5WQ?oc=5",
+          "published_at": "19:30"
+        }
+      ]
+    },
+    {
+      "id": "world-115",
+      "title": "UEFA는 투자 계획 이후 FIFA 리더십에 대한 신뢰를 잃었다고 밝혔습니다.",
+      "title_en": "UEFA says it has lost confidence in FIFA leadership after investment plan",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/uefa-fifa-investment-plan-scrapped-gianni-infantino-backlash/",
+      "category": "유럽",
+      "primary_source": "CBS News",
+      "excerpt": "유럽축구연맹(UEFA)은 지난 토요일 FIFA 회장인 지아니 인판티노 FIFA 회장이 유럽축구연맹(UEFA) 분할을 제안한 후 \"신뢰를 잃었다\"고 밝혔다.",
+      "excerpt_en": "European football's governing body UEFA said Saturday that the president of the sport’s global governing body, FIFA chief Gianni Infantino, had “lost” their \"confidence\" after his bid to spin off the ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/sport/20260801-european-football-body-declares-no-confidence-in-fifa-infantino-failed-private-equity-bid",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1106,35 +1142,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "France24",
-        "The Guardian",
-        "The Independent"
+        "CBS News",
+        "Channel News Asia",
+        "France24"
       ],
-      "first_published_at": "2026-08-01T15:29:08+09:00",
-      "latest_published_at": "2026-08-01T17:29:00+09:00",
+      "first_published_at": "2026-08-01T13:17:34+09:00",
+      "latest_published_at": "2026-08-01T21:39:00+09:00",
       "articles": [
         {
-          "title": "Trump offering early access to online posts in move seen as corruption",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/01/trump-truth-social-early-access",
-          "published_at": "17:29"
+          "title": "UEFA, CONCACAF target Infantino after FIFA shelve World Cup private investment plan",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/uefa-concacaf-target-infantino-after-fifa-shelve-world-cup-private-investment-plan-6293201",
+          "published_at": "21:39"
         },
         {
-          "title": "Trump’s paid early access to Truth Social posts launches. Here’s why officials are worried",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-truth-social-pay-subscription-b3025844.html",
-          "published_at": "16:23"
-        },
-        {
-          "title": "Fast access to Trump's ‘Truth Social’ posts goes on sale for $100,000 per month",
+          "title": "European football body declares no confidence in FIFA's Infantino after World Cup sell-off plan",
           "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260801-fast-access-trump-truth-social-posts-sale-for-100-000-per-month",
-          "published_at": "15:29"
+          "url": "https://www.france24.com/en/sport/20260801-european-football-body-declares-no-confidence-in-fifa-infantino-failed-private-equity-bid",
+          "published_at": "14:09"
+        },
+        {
+          "title": "UEFA says it has lost confidence in FIFA leadership after investment plan",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/uefa-fifa-investment-plan-scrapped-gianni-infantino-backlash/",
+          "published_at": "13:17"
         }
       ]
     },
     {
-      "id": "world-234",
+      "id": "world-230",
       "title": "함부르크 프라이드는 베를린에서 치명적인 공격이 발생한 지 일주일 만에 보안이 강화된 행사를 진행하고 있습니다.",
       "title_en": "Hamburg Pride gets underway with increased security a week after a fatal attack in Berlin",
       "title_source": "earliest_pick",
@@ -1181,119 +1217,213 @@
       ]
     },
     {
-      "id": "world-180",
-      "title": "콜롬비아 경찰기지 밖에서 트럭이 폭발해 경찰관 11명이 부상하고 개 1마리가 사망했다.",
-      "title_en": "Truck explodes outside Colombia police base, injuring 11 officers and killing a dog",
+      "id": "world-201",
+      "title": "오만 호르무즈 해협 인근에서 유조선 2척 공격",
+      "title_en": "Tankers targeted in twin incidents near Strait of Hormuz off Oman",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/americas/article/3362664/truck-explodes-outside-colombia-police-base-injuring-11-officers-and-killing-dog?utm_source=rss_feed",
-      "category": "기타",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3362633/tankers-targeted-twin-incidents-near-strait-hormuz-oman?utm_source=rss_feed",
+      "category": "중동",
       "primary_source": "SCMP",
-      "excerpt": "콜롬비아 정부는 지난 토요일 경찰 기지 밖에서 폭발이 일어나 경찰관 11명이 부상을 입고 경찰견 한 마리가 사망한 것에 대해 남아있는 최대 규모의 반군 단체를 비난했습니다. 공격이 일찍 일어났어요",
-      "excerpt_en": "Colombia’s government on Saturday blamed the nation’s largest remaining rebel group for an explosion outside a police base that injured 11 officers and killed a police dog. The attack took place early",
+      "excerpt": "영국 해상 무역 작전국(UKMTO)은 토요일 오만에서 유조선이 알 수 없는 발사체에 부딪힌 사건을 포함하여 두 건의 해상 사고에 대한 보고를 받았다고 말했습니다.",
+      "excerpt_en": "The United ⁠Kingdom Maritime Trade Operations (UKMTO) ⁠said on Saturday it had received reports of two maritime incidents off Oman, including one in which a tanker was struck by ‌an unknown projectile",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3362664/truck-explodes-outside-colombia-police-base-injuring-11-officers-and-killing-dog?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362633/tankers-targeted-twin-incidents-near-strait-hormuz-oman?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 56,
+      "score": 60,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
+        "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "SCMP",
-        "The Independent"
+        "Euronews",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-01T18:49:49+09:00",
-      "latest_published_at": "2026-08-01T19:56:40+09:00",
+      "first_published_at": "2026-08-01T07:21:46+09:00",
+      "latest_published_at": "2026-08-01T08:48:48+09:00",
       "articles": [
         {
-          "title": "Truck explosion outside Colombia police base injures 11 and kills dog: ‘Vile terrorist attack’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/colombia-police-truck-bomb-explosion-b3025882.html",
-          "published_at": "19:56"
+          "title": "Two reported attacks on tankers near Strait of Hormuz",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/01/two-reported-attacks-on-tankers-near-strait-of-hormuz",
+          "published_at": "08:48"
         },
         {
-          "title": "Truck explodes outside Colombia police base, injuring 11 officers and killing a dog",
+          "title": "Tankers targeted in twin incidents near Strait of Hormuz off Oman",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3362664/truck-explodes-outside-colombia-police-base-injuring-11-officers-and-killing-dog?utm_source=rss_feed",
-          "published_at": "18:49"
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362633/tankers-targeted-twin-incidents-near-strait-hormuz-oman?utm_source=rss_feed",
+          "published_at": "07:21"
         }
       ]
     },
     {
-      "id": "world-260",
-      "title": "파키스탄에서 눈사태 발생 후 미국인 등산가 유해 발견, 다른 등산가들은 여전히 ​​실종 상태",
-      "title_en": "American climber's remains found after avalanche in Pakistan, other mountaineers still missing",
+      "id": "world-70",
+      "title": "헝가리, 가뭄에 원전만 폐쇄할 계획",
+      "title_en": "Hungary plans to shut down only nuclear power plant amid drought",
       "title_source": "earliest_pick",
-      "title_url": "https://www.foxnews.com/world/american-climber-remains-found-avalanche-pakistan-mountaineers-missing",
-      "category": "아시아",
-      "primary_source": "Fox News",
-      "excerpt": "텍사스 출신의 39세 산악인 사라 말로리 가이스(Sarah Mallory Geis)는 브로드피크(Broad Peak)에서 국제 원정을 하던 중 눈사태로 인해 사망한 4명의 등반가 중 한 명이었습니다.",
-      "excerpt_en": "Sarah Mallory Geis, a 39-year-old mountaineer from Texas, was among four climbers killed in an avalanche struck an international expedition on Broad Peak.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-is-sarah-mallory-geis-texas-climber-among-four-killed-in-broad-peak-avalanche-as-search-on-for-nirmal-purja-101785549935317.html",
+      "title_url": "https://www.aljazeera.com/news/2026/8/2/hungary-plans-to-shut-down-only-nuclear-power-plant-amid-drought?traffic_source=rss",
+      "category": "기타",
+      "primary_source": "Al Jazeera",
+      "excerpt": "관리들은 기록적으로 낮은 다뉴브 수위로 인해 원자로 냉각이 중단됨에 따라 국내 유일의 원자력 발전소를 폐쇄해야 한다고 말했습니다.",
+      "excerpt_en": "Officials say they must shut down nation's sole nuclear plant as record-low Danube water levels disrupt reactor cooling.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/8/2/hungary-plans-to-shut-down-only-nuclear-power-plant-amid-drought?traffic_source=rss",
       "translation_status": "ok",
-      "score": 56,
+      "score": 59,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 44
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW"
+      ],
+      "first_published_at": "2026-08-02T00:49:25+09:00",
+      "latest_published_at": "2026-08-02T02:16:00+09:00",
+      "articles": [
+        {
+          "title": "Hungary to shut sole nuclear plant for first time on Sunday",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "02:16"
+        },
+        {
+          "title": "Hungary plans to shut down only nuclear power plant amid drought",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/hungary-plans-to-shut-down-only-nuclear-power-plant-amid-drought?traffic_source=rss",
+          "published_at": "00:49"
+        }
+      ]
+    },
+    {
+      "id": "world-9",
+      "title": "파키스탄 눈사태로 사망한 10명 중 유명한 네팔 산악인 니르말 푸자(Nirmal Purja)",
+      "title_en": "Noted Nepali climber Nirmal Purja among 10 dead in Pakistan avalanche",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/asia/south-asia/article/3362654/nepals-famed-climber-and-9-others-die-avalanche-pakistan?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "세계 14대 최고봉의 가장 빠른 등정 기록을 세운 유명 네팔 등반가 니르말 푸자(Nirmal Purja)가 파키스탄 탐험 중 눈사태로 사망했다고 그의 회사가 토요일(Saturda)에 밝혔다.",
+      "excerpt_en": "Celebrated Nepali climber Nirmal Purja, who set a record for the fastest ascent of the world’s 14 highest mountains, died in an ‌avalanche during an expedition in Pakistan, his company said on Saturda",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3362654/nepals-famed-climber-and-9-others-die-avalanche-pakistan?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 42
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Fox News",
-        "Hindustan Times"
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-01T01:57:36+09:00",
-      "latest_published_at": "2026-08-01T03:48:25+09:00",
+      "first_published_at": "2026-08-01T14:25:19+09:00",
+      "latest_published_at": "2026-08-01T15:51:47+09:00",
       "articles": [
         {
-          "title": "Who is Sarah Mallory Geis? Texas climber among four killed in Broad Peak avalanche as search on for Nirmal Purja",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-sarah-mallory-geis-texas-climber-among-four-killed-in-broad-peak-avalanche-as-search-on-for-nirmal-purja-101785549935317.html",
-          "published_at": "03:48"
+          "title": "Noted climber Nirmal Purja among 10 dead in avalanche in Pakistan - officials",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmYyc0pXSkJpNHNLOHFIUVU0clpoNFlfUVFua3EwU2dHUF9MTjBzUFl0M0VJUXNWUVBDeThvMTVPNlNjMDBQTWl1bXdoMTVFNGt5aVdYbmJyaG9TUVlCVWFTTHUzWTJSelM3czY1VFdvZW5iUXVUdXlELXlTVUJvQkdTVUVnN3d6Q044d3pmZFBnYVE3X1M3TlRqZjNTMFNqNWNKSWpWUnR3Nngyd2ozcmRoaUNZSEM5ZV82T1JEU25SUQ?oc=5",
+          "published_at": "15:51"
         },
         {
-          "title": "American climber's remains found after avalanche in Pakistan, other mountaineers still missing",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/american-climber-remains-found-avalanche-pakistan-mountaineers-missing",
-          "published_at": "01:57"
+          "title": "Noted Nepali climber Nirmal Purja among 10 dead in Pakistan avalanche",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3362654/nepals-famed-climber-and-9-others-die-avalanche-pakistan?utm_source=rss_feed",
+          "published_at": "14:25"
         }
       ]
     },
     {
-      "id": "world-2",
-      "title": "미 법무부, 북한 관련 기사 뉴욕타임스 프리랜서 소환장 발표",
-      "title_en": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
+      "id": "world-122",
+      "title": "르코르누 총리 \"프랑스 산불은 오늘 통제되고 있다\"",
+      "title_en": "France's fires are 'today under control', says PM Lecornu",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-justice-department-subpoenas-new-york-times-freelancer-over-north-korea-story-paper-says-101785610802453.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "USA-TRUMP/SUBPOENA: 미국 법무부가 북한 이야기에 대해 뉴욕타임즈 프리랜서를 소환했다고 신문이 밝혔습니다.",
-      "excerpt_en": "USA-TRUMP/SUBPOENA:US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-justice-department-subpoenas-new-york-times-freelancer-over-north-korea-story-paper-says-101785610802453.html",
+      "title_url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "세바스티앙 르코르누 프랑스 총리는 1949년 이후 프랑스 최대 규모의 산불이 \"완전히 통제됐다\"고 말했다. 지롱드 지역에서 화재가 발생한 지 일주일이 넘었다.",
+      "excerpt_en": "French Prime Minister Sebastien Lecornu on Saturday said that France's largest wildfire since 1949 was \"totally under control\", more than a week since the fire erupted in the Gironde department near t",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-01T09:58:12+09:00",
+      "latest_published_at": "2026-08-01T19:37:17+09:00",
+      "articles": [
+        {
+          "title": "France's devastating fires now 'under control', says PM",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/frances-devastating-fires-now-under-control-says-pm-101785613037870.html",
+          "published_at": "19:37"
+        },
+        {
+          "title": "France's fires are 'today under control', says PM Lecornu",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/france/20260801-french-firefighters-stop-wildfires-spread-but-they-continue-burn",
+          "published_at": "09:58"
+        }
+      ]
+    },
+    {
+      "id": "world-104",
+      "title": "세우타: 스페인, EU 회의 요구, '이기적' 대응 비난",
+      "title_en": "Ceuta: Spain demands EU meeting, blasts 'selfish' response",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "유럽",
+      "primary_source": "DW",
+      "excerpt": "이탈리아가 스페인과의 솅겐 조약을 일시적으로 중단한 후, 스페인 총리 페드로 산체스는 자신의 국가가 EU 내에서 \"공격\"을 받고 있다고 말하면서 마드리드가 솅겐에 대한 통제권을 완전히 회복했다고 강조했습니다.",
+      "excerpt_en": "After Italy temporarily suspended the Schengen deal with Spain, Spanish PM Pedro Sanchez said his county was being \"attacked\" from within the EU, stressing that Madrid fully restored control over its ",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
         "raw75": 41
       },
       "area_value": 2,
@@ -1301,28 +1431,122 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "Reuters"
+        "DW",
+        "Fox News"
       ],
-      "first_published_at": "2026-08-01T19:00:01+09:00",
-      "latest_published_at": "2026-08-01T19:11:43+09:00",
+      "first_published_at": "2026-08-01T08:54:00+09:00",
+      "latest_published_at": "2026-08-01T18:58:25+09:00",
       "articles": [
         {
-          "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZUlFSGZMX01QYlFDclh0cnJFeWx4RC1kdU40aUFyLTVUcHhXY0pSY1I0VUNlaXZOOWc2eFBXY014bmhnWGlYXy1lN3hBMGhYMVpEQ3haZnQ2LURWdnlocFlmTjhVdjJQdkhNbWdrakQxN2dGWUhkdTlmcFc0WkQzNkNTbl9EcU1yVEJzY1N4dmZCQmJwRkRoT2ZyUXdqOWtxWDZSMzlFTkJOcmVrTi1tRGlBRDFtRGdjQkF1TF9wN3c0VW9tZDlEUzVsaS11QQ?oc=5",
-          "published_at": "19:11"
+          "title": "Socialist Spanish PM blasts Meloni over restored border controls after Ceuta surge, demands emergency meeting",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/socialist-spanish-pm-blasts-meloni-restored-border-controls-ceuta-surge-demands-emergency-meeting",
+          "published_at": "18:58"
         },
         {
-          "title": "US Justice Department subpoenas New York Times freelancer over North Korea story, paper says",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-justice-department-subpoenas-new-york-times-freelancer-over-north-korea-story-paper-says-101785610802453.html",
-          "published_at": "19:00"
+          "title": "Ceuta: Spain demands EU meeting, blasts 'selfish' response",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/ceuta-spain-demands-eu-meeting-blasts-selfish-response/live-78191601?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "08:54"
         }
       ]
     },
     {
-      "id": "world-3",
+      "id": "world-183",
+      "title": "트럼프 \"빠른 협상 위해 이란 공격 보류할 것\"",
+      "title_en": "Trump says he will hold off on fresh Iran attack in hope of quick deal",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/trump-says-he-will-hold-fresh-iran-attack-in-hope-quick-deal-6293236",
+      "category": "중동",
+      "primary_source": "Channel News Asia",
+      "excerpt": "이란은 이번 주말 미국의 “모험적 행동”에 대해 경고했으며, 도널드 트럼프 미국 대통령의 이란에 대한 새로운 공격 위협에 미군이 후속 조치를 취한다면 단호하게 보복할 것이라고 말했습니다.",
+      "excerpt_en": "Iran warned this weekend against any “adventurous action” by the US and said it would retaliate decisively if American forces follow through on US President Donald Trump’s threats of fresh attacks on ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362669/irans-foreign-minister-warns-any-adventurous-action-us?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-01T22:51:00+09:00",
+      "latest_published_at": "2026-08-01T23:01:42+09:00",
+      "articles": [
+        {
+          "title": "Iran’s foreign minister warns of any ‘adventurous action’ by US",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362669/irans-foreign-minister-warns-any-adventurous-action-us?utm_source=rss_feed",
+          "published_at": "23:01"
+        },
+        {
+          "title": "Trump says he will hold off on fresh Iran attack in hope of quick deal",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-says-he-will-hold-fresh-iran-attack-in-hope-quick-deal-6293236",
+          "published_at": "22:51"
+        }
+      ]
+    },
+    {
+      "id": "world-2",
+      "title": "Capital One은 자금 세탁 방지 조사 후 Trump Organization의 계정을 폐쇄했다고 밝혔습니다.",
+      "title_en": "Capital One says it closed Trump Organization's accounts after anti-money laundering probe",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORFNsQWFYNkk3UUhkdm5yRmpmNmZnTjVLS1RrSGdTcGZxTVhOaHVURzlhQTJUd3BYSzlYa3dNcnRXb1Y5VEZuSE1HdjA0bXNjNkM3Y2hHOHptN2I3N2FsQWxsLXFhNVZ2ZDROUkJFaXFLYVNjd0FmcUNqRlNYbkN0SUhfVURTQzdZbzRvaXkyRFVCTGZMTkJMa0Q3SlVHeW0zaGtvY1VidWRETENLWERtSUJUeHdlMmFzemp4bXhTV1BySTQ?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "2021년 조사에서 공개된 내용은 은행이 돈세탁 우려를 공식적으로 도널드 트럼프와 연결한 최초의 사례입니다.",
+      "excerpt_en": "Disclosure from 2021 investigation marks first time a bank has formally tied money-laundering concerns to Donald Trump Capital One Financial hit back on Friday against a lawsuit over its ⁠decision to ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/01/capital-one-trump-organization-money-laundering",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-01T23:23:32+09:00",
+      "latest_published_at": "2026-08-02T00:04:24+09:00",
+      "articles": [
+        {
+          "title": "Capital One says it closed Trump Organization’s accounts after anti-money-laundering review",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/01/capital-one-trump-organization-money-laundering",
+          "published_at": "00:04"
+        },
+        {
+          "title": "Capital One says it closed Trump Organization's accounts after anti-money laundering probe",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORFNsQWFYNkk3UUhkdm5yRmpmNmZnTjVLS1RrSGdTcGZxTVhOaHVURzlhQTJUd3BYSzlYa3dNcnRXb1Y5VEZuSE1HdjA0bXNjNkM3Y2hHOHptN2I3N2FsQWxsLXFhNVZ2ZDROUkJFaXFLYVNjd0FmcUNqRlNYbkN0SUhfVURTQzdZbzRvaXkyRFVCTGZMTkJMa0Q3SlVHeW0zaGtvY1VidWRETENLWERtSUJUeHdlMmFzemp4bXhTV1BySTQ?oc=5",
+          "published_at": "23:23"
+        }
+      ]
+    },
+    {
+      "id": "world-6",
       "title": "트럼프는 반영 풀에 대한 자신의 법무부의 조사 결과에 대해 이의를 제기했습니다.",
       "title_en": "Trump disputes his own Justice Department's findings on Reflecting Pool",
       "title_source": "earliest_pick",
@@ -1334,14 +1558,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3362661/trump-disputes-his-own-justice-departments-findings-reflecting-pool?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1369,111 +1593,17 @@
       ]
     },
     {
-      "id": "world-10",
-      "title": "BYD, 수출 호조로 매출 3개월째 증가",
-      "title_en": "BYD's sales rise for third month, buoyed by exports",
+      "id": "world-26",
+      "title": "가자지구의 팔레스타인인들은 하마스가 무장해제를 바라고 있지만 이스라엘군이 철수하지 않을 것을 우려하고 있습니다.",
+      "title_en": "Palestinians in Gaza hope Hamas will disarm but fear Israeli forces won’t withdraw",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/byds-sales-rise-third-month-buoyed-exports-6292746",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "BYD, 수출 호조로 매출 3개월째 증가 - 최신",
-      "excerpt_en": "BYD's sales rise for third month, buoyed by exports Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjVCMXdTNjJCMk5JZTM5WE9kWE9kd3daYnp4NEdWY3N2dlZlTnhnSl9TSWRmelhBLVBSUzRMR2lPbWdoQVpzamcxWGNMUWZ2Ul9RalFkNUhhQXhJUTFGemFfRnRXOTd3ekdoNUk4SEpxdWx5Mkx5T2E3dmd2UnFscWp6RmFtSWZvSXp0SldFUHBjNXdVdHp1SEZpS3c5MEJUYld1WGx0WGpJSkZ2ZTYyTg?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-01T11:05:25+09:00",
-      "latest_published_at": "2026-08-01T11:06:11+09:00",
-      "articles": [
-        {
-          "title": "BYD's sales rise for third month, buoyed by exports",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjVCMXdTNjJCMk5JZTM5WE9kWE9kd3daYnp4NEdWY3N2dlZlTnhnSl9TSWRmelhBLVBSUzRMR2lPbWdoQVpzamcxWGNMUWZ2Ul9RalFkNUhhQXhJUTFGemFfRnRXOTd3ekdoNUk4SEpxdWx5Mkx5T2E3dmd2UnFscWp6RmFtSWZvSXp0SldFUHBjNXdVdHp1SEZpS3c5MEJUYld1WGx0WGpJSkZ2ZTYyTg?oc=5",
-          "published_at": "11:06"
-        },
-        {
-          "title": "BYD's sales rise for third month, buoyed by exports",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/byds-sales-rise-third-month-buoyed-exports-6292746",
-          "published_at": "11:05"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "UKMTO, 오만에서 두 척의 유조선 사고 보고",
-      "title_en": "UKMTO reports two tanker incidents off Oman",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnUzTS16X1VtV0ZDQ3FkZENqY1RCbTZrN05WcFpTSFNYT2FEVG5PdTZCaklocGFNWmdpYkhVQWVnZVcyeGhSeTBhVjdVeDFRM3doNHdrX29BWXJpN0lTVFFjTms0SkpZbmNhaXpTSl9IYU13U2YweFNiOGFOby1UX1lZUnBaZEhNUFVYeFpMcy1yaGc?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXotazUtdXc1cWk4WXhob0swYURLa1hWdHdfZGIwUS1hZWhZdVdtRS14WjZubVdUa0RzX29CekZUdUdIeWZnMi10d19iWVRFT0tpNUxaS3A4eGdaRC0yZTEtT29rYXY5bHVHLWxJZ1hMWlBHSjcxWDFHRDFHcFUyYWNHNzN5ZzBLaS1YRVdCMHpWTk9iMWctcTVTUWlZRDg3TWdncVVn?oc=5",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "영국 해상 무역 작전국(UKMTO)은 토요일 오만에서 유조선이 알 수 없는 발사체에 부딪힌 사건을 포함하여 두 건의 해상 사고에 대한 보고를 받았다고 말했습니다.",
-      "excerpt_en": "The United ⁠Kingdom Maritime Trade Operations (UKMTO) ⁠said on Saturday it had received reports of two maritime incidents off Oman, including one in which a tanker was struck by ‌an unknown projectile",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362633/tankers-targeted-twin-incidents-near-strait-hormuz-oman?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-01T03:29:00+09:00",
-      "latest_published_at": "2026-08-01T07:21:46+09:00",
-      "articles": [
-        {
-          "title": "Tankers targeted in twin incidents near Strait of Hormuz off Oman",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3362633/tankers-targeted-twin-incidents-near-strait-hormuz-oman?utm_source=rss_feed",
-          "published_at": "07:21"
-        },
-        {
-          "title": "UKMTO reports two tanker incidents off Oman",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnUzTS16X1VtV0ZDQ3FkZENqY1RCbTZrN05WcFpTSFNYT2FEVG5PdTZCaklocGFNWmdpYkhVQWVnZVcyeGhSeTBhVjdVeDFRM3doNHdrX29BWXJpN0lTVFFjTms0SkpZbmNhaXpTSl9IYU13U2YweFNiOGFOby1UX1lZUnBaZEhNUFVYeFpMcy1yaGc?oc=5",
-          "published_at": "03:29"
-        }
-      ]
-    },
-    {
-      "id": "world-37",
-      "title": "사진 속에는 이민자들이 모로코에서 스페인 세우타 영토로 건너오고 있다.",
-      "title_en": "Migrants cross into Spain’s Ceuta territory from Morocco, in photos",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWlo3SVBubjNqaVBQZWgxdzQxYk9QUFJzV29iZWMtTlBvR2RTZlRBaE1uM3ZUTkI2SzhVX3MzVHpoalZYWjFkNGlYUUVtUk1vcWo0WmJESjdsR3Z0TWpVWnRlNDFZeHdOUENmRjFjUUVSVWppTVRnZlJIWlBMRlBUMl9ZMW84WnAzbzl1RFliWXl2X3V1VjF2Yl82MFpleU9FclRTTFFmdWtPdUdXWl9vQjVkWVNVS1c5?oc=5",
-      "category": "유럽",
       "primary_source": "AP News",
-      "excerpt": "갑자기 몰려든 이민자들이 모로코에서 스페인 세우타 영토로 입국을 시도했습니다. 최소 67명이 소동으로 사망했으며, 일부는 익사하거나 짓밟혀 사망했습니다. 수만 명이 자발적으로 모로코로 돌아왔고,",
-      "excerpt_en": "A sudden rush of migrants tried to enter Spain's Ceuta territory from Morocco. At least 67 people died in commotion, some drowning or being trampled. Tens of thousands voluntarily returned to Morocco,",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/why-did-a-wave-of-migrants-cross-from-morocco-into-spains-ceuta-territory/",
+      "excerpt": "하마스가 무장 해제에 동의했다는 도널드 트럼프 대통령의 발표는 가자 지구의 팔레스타인인들에게 희미한 희망을 제공합니다.",
+      "excerpt_en": "President Donald Trump's announcement that Hamas agreed to disarm offers a glimmer of hope for Palestinians in Gaza",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/hamas-gaza-israeli-palestinians-donald-trump-b3025822.html",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1490,84 +1620,37 @@
       "source_count": 2,
       "sources": [
         "AP News",
-        "CBS News"
+        "The Independent"
       ],
-      "first_published_at": "2026-08-01T03:05:00+09:00",
-      "latest_published_at": "2026-08-01T14:32:20+09:00",
+      "first_published_at": "2026-08-01T14:27:00+09:00",
+      "latest_published_at": "2026-08-01T14:27:41+09:00",
       "articles": [
         {
-          "title": "Why did a wave of migrants cross from Morocco into Spain's Ceuta territory?",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/why-did-a-wave-of-migrants-cross-from-morocco-into-spains-ceuta-territory/",
-          "published_at": "14:32"
+          "title": "Palestinians in Gaza hope Hamas will disarm but fear Israeli forces won't withdraw",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/hamas-gaza-israeli-palestinians-donald-trump-b3025822.html",
+          "published_at": "14:27"
         },
         {
-          "title": "Migrants cross into Spain’s Ceuta territory from Morocco, in photos",
+          "title": "Palestinians in Gaza hope Hamas will disarm but fear Israeli forces won’t withdraw",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWlo3SVBubjNqaVBQZWgxdzQxYk9QUFJzV29iZWMtTlBvR2RTZlRBaE1uM3ZUTkI2SzhVX3MzVHpoalZYWjFkNGlYUUVtUk1vcWo0WmJESjdsR3Z0TWpVWnRlNDFZeHdOUENmRjFjUUVSVWppTVRnZlJIWlBMRlBUMl9ZMW84WnAzbzl1RFliWXl2X3V1VjF2Yl82MFpleU9FclRTTFFmdWtPdUdXWl9vQjVkWVNVS1c5?oc=5",
-          "published_at": "03:05"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXotazUtdXc1cWk4WXhob0swYURLa1hWdHdfZGIwUS1hZWhZdVdtRS14WjZubVdUa0RzX29CekZUdUdIeWZnMi10d19iWVRFT0tpNUxaS3A4eGdaRC0yZTEtT29rYXY5bHVHLWxJZ1hMWlBHSjcxWDFHRDFHcFUyYWNHNzN5ZzBLaS1YRVdCMHpWTk9iMWctcTVTUWlZRDg3TWdncVVn?oc=5",
+          "published_at": "14:27"
         }
       ]
     },
     {
-      "id": "world-139",
-      "title": "무대에서 팔레스타인 국기를 펼친 싱가포르의 대규모 공격 금지",
-      "title_en": "Massive Attack barred from Singapore for unfurling Palestinian flag on stage",
+      "id": "world-37",
+      "title": "중국, 남중국해 영유권 분쟁 해역에서 군사훈련",
+      "title_en": "China holds military drills near disputed shoal in the South China Sea",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3362623/massive-attack-barred-singapore-unfurling-palestinian-flag-stage?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "당국은 영국 트립합 밴드 매시브 어택(Massive Attack)이 콘서트 후 '엄격한 경고'를 받고 복귀가 금지되었으며 밴드도 다시 싱가포르 공연에서 제외되었다고 당국이 밝혔습니다.",
-      "excerpt_en": "Two members given ‘stern warnings’ after concert and barred from returning, with band also excluded from performing in Singapore again, say authorities British trip-hop band Massive Attack has been ba",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/music/2026/aug/01/singapore-bans-massive-attack-for-showing-palestinian-flag-breaching-ban-on-foreign-emblems",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-01T03:05:05+09:00",
-      "latest_published_at": "2026-08-01T03:51:36+09:00",
-      "articles": [
-        {
-          "title": "Singapore bans Massive Attack for showing Palestinian flag, breaching ban on foreign emblems",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/music/2026/aug/01/singapore-bans-massive-attack-for-showing-palestinian-flag-breaching-ban-on-foreign-emblems",
-          "published_at": "03:51"
-        },
-        {
-          "title": "Massive Attack barred from Singapore for unfurling Palestinian flag on stage",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3362623/massive-attack-barred-singapore-unfurling-palestinian-flag-stage?utm_source=rss_feed",
-          "published_at": "03:05"
-        }
-      ]
-    },
-    {
-      "id": "world-247",
-      "title": "파키스탄 눈사태로 실종된 등산객 수색 재개",
-      "title_en": "Search resumes for climbers missing in Pakistan avalanche",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3295032/search-resumes-for-climbers-missing-in-pakistan-avalanche",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdVltVTN1VjZFdU05eU9fdEF4aXU3WDVTSVg4blgwRzBNeWRZdll3NmN1ZHNkYy1lUm5jOHBqSHQxRWtPY1g2d29nOFZiU2J5YU44VjZnZkg1cTcyaTBzVXg2eU1oY0xHYVpNdGxPODZJa29ScnJkbUt5OFI4UTRIdWUwOTZreVBiamhzbVV1ZGpXcjRCOElNUV9qTFZGTUtKdlBkSWJURU9VQVphVl9vMQ?oc=5",
       "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "관계자들은 군용 헬리콥터의 지원을 받는 구조대원들이 파키스탄 브로아에서 눈사태가 발생한 후 이번 주 실종된 10명으로 구성된 등반팀 중 최소 6명에 대한 수색을 재개했다고 밝혔습니다.",
-      "excerpt_en": "Officials say rescuers backed by military helicopters have resumed the search for at least six members of a 10-member climbing team who went missing this week after an avalanche struck Pakistan’s Broa",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/search-resumes-missing-climbers-after-avalanche-pakistans-broad-135282177",
+      "primary_source": "AP News",
+      "excerpt": "중국, 남중국해 영유권 분쟁 지역에서 군사훈련 실시 AP통신",
+      "excerpt_en": "China holds military drills near disputed shoal in the South China Sea AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdVltVTN1VjZFdU05eU9fdEF4aXU3WDVTSVg4blgwRzBNeWRZdll3NmN1ZHNkYy1lUm5jOHBqSHQxRWtPY1g2d29nOFZiU2J5YU44VjZnZkg1cTcyaTBzVXg2eU1oY0xHYVpNdGxPODZJa29ScnJkbUt5OFI4UTRIdWUwOTZreVBiamhzbVV1ZGpXcjRCOElNUV9qTFZGTUtKdlBkSWJURU9VQVphVl9vMQ?oc=5",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1584,140 +1667,46 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "Bangkok Post"
+        "AP News"
       ],
-      "first_published_at": "2026-08-01T06:45:00+09:00",
-      "latest_published_at": "2026-08-01T10:33:48+09:00",
+      "first_published_at": "2026-08-01T12:57:00+09:00",
+      "latest_published_at": "2026-08-01T13:53:57+09:00",
       "articles": [
         {
-          "title": "Search resumes for missing climbers after avalanche on Pakistan's Broad Peak",
+          "title": "China holds military drills near disputed South China Sea shoal",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/search-resumes-missing-climbers-after-avalanche-pakistans-broad-135282177",
-          "published_at": "10:33"
+          "url": "https://abcnews.com/International/wireStory/china-holds-military-drills-disputed-shoal-south-china-135284501",
+          "published_at": "13:53"
         },
         {
-          "title": "Search resumes for climbers missing in Pakistan avalanche",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3295032/search-resumes-for-climbers-missing-in-pakistan-avalanche",
-          "published_at": "06:45"
+          "title": "China holds military drills near disputed shoal in the South China Sea",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdVltVTN1VjZFdU05eU9fdEF4aXU3WDVTSVg4blgwRzBNeWRZdll3NmN1ZHNkYy1lUm5jOHBqSHQxRWtPY1g2d29nOFZiU2J5YU44VjZnZkg1cTcyaTBzVXg2eU1oY0xHYVpNdGxPODZJa29ScnJkbUt5OFI4UTRIdWUwOTZreVBiamhzbVV1ZGpXcjRCOElNUV9qTFZGTUtKdlBkSWJURU9VQVphVl9vMQ?oc=5",
+          "published_at": "12:57"
         }
       ]
     },
     {
-      "id": "world-16",
-      "title": "미국은 50개국에 대해 2만 달러의 영구 비자 채권을 만들 예정입니다. 귀하의 국가가 목록에 있는지 확인하십시오.",
-      "title_en": "US to make $20,000 visa bond permanent for 50 countries. Check if your country is among those on the list",
+      "id": "world-85",
+      "title": "트럼프, 블랑쉬 대치 속에서 '무기화 반대' 기금 추구 약속",
+      "title_en": "Trump pledges to pursue ‘anti-weaponisation’ fund amid Blanche standoff",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-to-make-20-000-visa-bond-permanent-for-50-countries-check-if-your-country-is-among-those-on-the-list-101785548653434.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국은 50개국 시민에 대해 비자 채권 요건을 영구적으로 만들 계획입니다.",
-      "excerpt_en": "The US plans to make a visa bond requirement permanent for citizens from 50 countries.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-to-make-20-000-visa-bond-permanent-for-50-countries-check-if-your-country-is-among-those-on-the-list-101785548653434.html",
+      "title_url": "https://www.aljazeera.com/news/2026/8/1/trump-pledges-to-pursue-anti-weaponisation-fund-amid-blanche-standoff?traffic_source=rss",
+      "category": "유럽",
+      "primary_source": "Al Jazeera",
+      "excerpt": "대통령은 토요일 아침 두 명의 공화당 상원의원이 자신의 법무장관 후보자 인준을 거부할 경우 약 18억 달러에 달하는 '비자금' 조성을 추진할 것이라고 말했습니다.",
+      "excerpt_en": "President said Saturday morning he would move forward with the creation of the nearly $1.8 billion ‘slush fund’ if two Republican senators refused to confirm his attorney general nominee",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-slush-fund-thom-tillis-todd-blanche-b3025841.html",
       "translation_status": "ok",
-      "score": 52,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-01T02:09:25+09:00",
-      "latest_published_at": "2026-08-01T03:16:09+09:00",
-      "articles": [
-        {
-          "title": "US to make visa bond program permanent for people from dozens of countries",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVzlLSWZRazMxRDYzOEoyR2s4TUd2czgtdkt3ejMydU5tOWRWZU5VanB3WDF1SmpWNGt1M0pJcGJqUGNTU2o4a0hrX2Ftdmp2MnJPeXdVVkh0a0tLbVhscWhHZ1JQczZHT3pvZmZNUjViekVqYnIwWHNPaVNKYjZvTmhET05TUUxuR3FKbkZmcjRLWnRYMWRVeXF0cXg3NXluUDVEOE5GTQ?oc=5",
-          "published_at": "03:16"
-        },
-        {
-          "title": "US to make $20,000 visa bond permanent for 50 countries. Check if your country is among those on the list",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-to-make-20-000-visa-bond-permanent-for-50-countries-check-if-your-country-is-among-those-on-the-list-101785548653434.html",
-          "published_at": "02:09"
-        }
-      ]
-    },
-    {
-      "id": "world-157",
-      "title": "유명 산악인 ​​니르말 푸자(Nirmal Purja), 파키스탄 눈사태로 사망한 채 발견",
-      "title_en": "Nirmal Purja, Renowned Mountaineer, Is Found Dead After Pakistan Avalanche",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html",
-      "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "영국-네팔 산악인인 그는 목요일에 세계 최고봉 중 하나인 브로드피크에서 눈사태를 겪은 10명의 등반가 중 한 명이었습니다.",
-      "excerpt_en": "The British-Nepali mountaineer was one of 10 climbers who were struck by an avalanche on Thursday on Broad Peak, one of the world’s highest mountains.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "New York Times"
-      ],
-      "first_published_at": "2026-08-01T19:59:09+09:00",
-      "latest_published_at": "2026-08-01T20:04:31+09:00",
-      "articles": [
-        {
-          "title": "10 climbers, including famed mountaineer, dead in Pakistan avalanche",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/nirmal-purja-climbers-search-rescue-avalanche-pakistan-broad-peak/",
-          "published_at": "20:04"
-        },
-        {
-          "title": "Nirmal Purja, Renowned Mountaineer, Is Found Dead After Pakistan Avalanche",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html",
-          "published_at": "19:59"
-        }
-      ]
-    },
-    {
-      "id": "world-81",
-      "title": "콜롬비아 대통령 취임식을 하루 앞두고 폭탄테러로 11명 부상",
-      "title_en": "Bombing in Colombia injures 11, days before presidential inauguration",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/bombing-police-station-colombia-injuries-presidential-inauguration/",
-      "category": "기타",
-      "primary_source": "CBS News",
-      "excerpt": "아벨라르도 데 라 에스프리엘라 대통령 당선자는 반군과 범죄 조직을 강력하게 진압하겠다고 약속했습니다.",
-      "excerpt_en": "President-elect Abelardo de la Espriella pledges to pursue harsh crackdown on rebel groups and criminal organisations.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/8/1/at-least-11-wounded-by-colombia-car-bomb-days-before-presidential-election?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
         "time_score": 2,
-        "raw75": 38
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1725,22 +1714,174 @@
       "source_count": 2,
       "sources": [
         "Al Jazeera",
-        "CBS News"
+        "The Independent"
       ],
-      "first_published_at": "2026-08-01T15:20:31+09:00",
-      "latest_published_at": "2026-08-01T15:48:39+09:00",
+      "first_published_at": "2026-08-01T17:48:41+09:00",
+      "latest_published_at": "2026-08-01T17:57:07+09:00",
       "articles": [
         {
-          "title": "At least 11 wounded by Colombia car bomb days before presidential election",
+          "title": "MAGA rebel condemns ‘payout pot for punks’ after Trump says he’s reviving his $1.8B ‘slush fund’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-slush-fund-thom-tillis-todd-blanche-b3025841.html",
+          "published_at": "17:57"
+        },
+        {
+          "title": "Trump pledges to pursue ‘anti-weaponisation’ fund amid Blanche standoff",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/1/at-least-11-wounded-by-colombia-car-bomb-days-before-presidential-election?traffic_source=rss",
-          "published_at": "15:48"
+          "url": "https://www.aljazeera.com/news/2026/8/1/trump-pledges-to-pursue-anti-weaponisation-fund-amid-blanche-standoff?traffic_source=rss",
+          "published_at": "17:48"
+        }
+      ]
+    },
+    {
+      "id": "world-186",
+      "title": "콜롬비아 대통령 취임식을 하루 앞두고 폭탄테러로 11명 부상",
+      "title_en": "Bombing in Colombia injures 11, days before presidential inauguration",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/bombing-police-station-colombia-injuries-presidential-inauguration/",
+      "category": "기타",
+      "primary_source": "CBS News",
+      "excerpt": "아벨라르도 데 라 에스프리엘라 대통령 당선인이 취임하기 며칠 전 토요일 베네수엘라 국경에서 멀지 않은 콜롬비아 경찰서 근처에서 트럭 폭탄이 터져 14명이 부상당했습니다. 정부",
+      "excerpt_en": "A truck bomb exploded on Saturday near a Colombian police station not far from the Venezuelan border, wounding 14 people just days before president-elect Abelardo de la Espriella takes office. The gov",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3362664/truck-explodes-outside-colombia-police-base-injuring-11-officers-and-killing-dog?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-01T15:20:31+09:00",
+      "latest_published_at": "2026-08-01T18:49:49+09:00",
+      "articles": [
+        {
+          "title": "Colombia truck bomb near police station wounds 14 ahead of presidential inauguration",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3362664/truck-explodes-outside-colombia-police-base-injuring-11-officers-and-killing-dog?utm_source=rss_feed",
+          "published_at": "18:49"
         },
         {
           "title": "Bombing in Colombia injures 11, days before presidential inauguration",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/bombing-police-station-colombia-injuries-presidential-inauguration/",
           "published_at": "15:20"
+        }
+      ]
+    },
+    {
+      "id": "world-246",
+      "title": "트럼프, 리플렉팅 풀(Reflecting Pool) 사건의 전 올림픽 선수에 대한 기소 기각에 법무부를 비난: '나는 100% 동의하지 않는다'",
+      "title_en": "Trump slams DOJ as charges against ex-Olympian in Reflecting Pool case are dropped: 'I disagree 100%'",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-slams-doj-as-charges-against-ex-olympian-in-reflecting-pool-case-are-dropped-i-disagree-100-101785615041643.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "트럼프 대통령은 법무부가 데이비드 헌(David Hearn)에 대한 혐의를 기각한 데 대해 공개적으로 반대하며 링컨 기념관 반사 수영장의 훼손이 기물 파손이었다고 주장했습니다.",
+      "excerpt_en": "President Trump publicly opposed the DOJ's dismissal of charges against David Hearn, claiming the damage to the Lincoln Memorial Reflecting Pool was vandalism.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-slams-doj-as-charges-against-ex-olympian-in-reflecting-pool-case-are-dropped-i-disagree-100-101785615041643.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-01T20:16:49+09:00",
+      "latest_published_at": "2026-08-01T22:30:00+09:00",
+      "articles": [
+        {
+          "title": "8/1: CBS Weekend News",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/080126-cbs-weekend-news/",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Trump slams DOJ as charges against ex-Olympian in Reflecting Pool case are dropped: 'I disagree 100%'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-slams-doj-as-charges-against-ex-olympian-in-reflecting-pool-case-are-dropped-i-disagree-100-101785615041643.html",
+          "published_at": "20:16"
+        }
+      ]
+    },
+    {
+      "id": "world-279",
+      "title": "Twin Falls In-N-Out 버거 총격 사건, 총격 사건 보고: 아이다호 시에서 무슨 일이 일어나고 있나요? 사진과 영상이 등장합니다",
+      "title_en": "Twin Falls In-N-Out Burger shooting, active shooter reports: What happening in the Idaho city? Photos and videos emerge",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-burger-shooting-active-shooter-reports-what-happening-in-the-idaho-city-photos-and-videos-emerge-101785618993723.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Brad Little 주지사는 Twin Falls 총격 사건 직전에 “아이다호는 계속해서 살고 일하고 가족을 부양하기에 가장 안전한 곳 중 하나입니다”라고 말했습니다.",
+      "excerpt_en": "Gov. Brad Little said that “Idaho continues to be one of the safest places to live, work, and raise a family” shortly before the Twin Falls shooting.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-mass-shooting-gov-brad-little-under-fire-for-saying-idaho-is-one-of-the-safest-places-live-101785633040719.html",
+      "translation_status": "ok",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 4,
+        "major_score": 5,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 38
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 1,
+      "sources": [
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-01T21:20:52+09:00",
+      "latest_published_at": "2026-08-02T01:19:39+09:00",
+      "articles": [
+        {
+          "title": "Twin Falls In-N-Out mass shooting: Gov. Brad Little under fire for saying Idaho is ‘one of the safest places live’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-mass-shooting-gov-brad-little-under-fire-for-saying-idaho-is-one-of-the-safest-places-live-101785633040719.html",
+          "published_at": "01:19"
+        },
+        {
+          "title": "Twin Falls In-N-Out mass shooting: Shocking video shows Idaho gunman firing several shots into parked Tesla as 3 dead",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-mass-shooting-shocking-video-shows-idaho-gunman-firing-several-shots-into-parked-tesla-as-3-dead-101785630617317.html",
+          "published_at": "00:35"
+        },
+        {
+          "title": "Twin Falls active shooter update: Is the suspect in custody after deadly In-N-Out shooting?",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-active-shooter-update-is-the-suspect-in-custody-after-deadly-in-n-out-shooting-101785628566385.html",
+          "published_at": "00:22"
+        },
+        {
+          "title": "Twin Falls In-N-Out Burger shooting, active shooter reports: What happening in the Idaho city? Photos and videos emerge",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-burger-shooting-active-shooter-reports-what-happening-in-the-idaho-city-photos-and-videos-emerge-101785618993723.html",
+          "published_at": "21:20"
         }
       ]
     }
