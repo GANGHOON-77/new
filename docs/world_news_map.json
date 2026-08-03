@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,59 +8,260 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-08-03T06:07:09.227337+09:00",
+  "updated_at": "2026-08-03T13:02:39.656658+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 427,
-  "cluster_count_total": 333,
+  "article_count_total": 438,
+  "cluster_count_total": 341,
   "clusters": [
     {
-      "id": "world-229",
-      "title": "모스크바 식당서 폭발로 3명 사망, 최소 21명 부상, 조사 중",
-      "title_en": "3 killed, at least 21 injured after blast at Moscow restaurant, probe on",
+      "id": "world-120",
+      "title": "생방송: 트럼프, 이란과의 새로운 회담이 파업 중단 후 월요일 시작될 것이라고 말했습니다",
+      "title_en": "Live: Trump says new talks with Iran to begin Monday after calling off strikes",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/3-killed-at-least-21-injured-after-blast-at-moscow-restaurant-probe-on-101785636311528.html",
-      "category": "유럽",
+      "title_url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-new-talks-with-iran-to-begin-monday-after-calling-off-strikes",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "도널드 트럼프 미국 대통령은 이란과의 새로운 협상이 6개월째되는 전쟁을 끝내기 위한 협상을 추진하기 위해 이슬람 공화국에 대한 공격을 연기하기로 결정한 후 월요일부터 시작될 것이라고 말했습니다.",
+      "excerpt_en": "US President Donald Trump said that new negotiations with Iran will begin Monday after he decided to hold off on striking the Islamic republic to pursue a deal to end the war entering its sixth month.",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362732/trump-says-new-talks-iran-begin-monday-after-calling-strikes?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 91,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 2,
+        "raw75": 68
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Bangkok Post",
+        "CBS News",
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-02T22:11:19+09:00",
+      "latest_published_at": "2026-08-03T00:53:39+09:00",
+      "articles": [
+        {
+          "title": "U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
+          "published_at": "00:53"
+        },
+        {
+          "title": "Trump says new Iran talks set to start after calling off massive attack",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3295732/trump-says-new-iran-talks-set-to-start-after-calling-off-massive-attack",
+          "published_at": "23:45"
+        },
+        {
+          "title": "Trump says new talks with Iran set to begin after calling off strikes",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362732/trump-says-new-talks-iran-begin-monday-after-calling-strikes?utm_source=rss_feed",
+          "published_at": "23:16"
+        },
+        {
+          "title": "Live: Trump says new talks with Iran to begin Monday after calling off strikes",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-new-talks-with-iran-to-begin-monday-after-calling-off-strikes",
+          "published_at": "22:11"
+        }
+      ]
+    },
+    {
+      "id": "world-78",
+      "title": "브라질의 룰라(80세)는 4선 출마를 시작하면서 '몸 상태가 매우 좋다'고 말했습니다.",
+      "title_en": "Brazil's Lula, 80, says he is 'in great shape' as he launches fourth term bid",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/americas/20260802-brazil-s-lula-80-says-in-great-shape-as-he-launches-reelection-bid",
+      "category": "미국",
+      "primary_source": "France24",
+      "excerpt": "루이스 이나시우 룰라 다 실바(80) 브라질 대통령은 도널드 트럼프 미국 대통령 행정부의 압력으로 10월 대선 출마를 시작하면서 “몸 상태가 아주 좋다”고 일요일 말했다.",
+      "excerpt_en": "Brazilian President Luiz Inacio Lula da Silva, 80, said on Sunday he was “in great shape” as he launched his candidacy for October elections, with pressure from US President Donald Trump’s administrat",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 6,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "Euronews",
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-02T17:26:01+09:00",
+      "latest_published_at": "2026-08-03T02:54:25+09:00",
+      "articles": [
+        {
+          "title": "Brazil’s Lula launches reelection bid amid foreign interference concerns",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/brazils-lula-launches-reelection-bid-amid-foreign-interference-concerns?traffic_source=rss",
+          "published_at": "02:54"
+        },
+        {
+          "title": "Lula da Silva formally launches bid for Brazil's presidency",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/03/lula-da-silva-formally-launches-bid-for-brazils-presidency",
+          "published_at": "02:48"
+        },
+        {
+          "title": "Brazil's Lula launches reelection bid as concerns rise over foreign interference",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231",
+          "published_at": "01:46"
+        },
+        {
+          "title": "Brazil's Lula, 80, says 'in great shape' as he launches fourth term bid",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3295719/brazils-lula-80-says-in-great-shape-as-he-launches-fourth-term-bid",
+          "published_at": "20:45"
+        },
+        {
+          "title": "At 80, Brazil’s Lula launches campaign for fourth term to face Bolsonaro’s son",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed",
+          "published_at": "18:27"
+        },
+        {
+          "title": "Brazil's Lula, 80, says he is 'in great shape' as he launches fourth term bid",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260802-brazil-s-lula-80-says-in-great-shape-as-he-launches-reelection-bid",
+          "published_at": "17:26"
+        }
+      ]
+    },
+    {
+      "id": "world-92",
+      "title": "파키스탄에서 눈사태에 휩쓸려 등산객 10명 전원 사망한 것으로 확인",
+      "title_en": "All 10 climbers swept away in avalanche in Pakistan are confirmed dead",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/pakistan-avalanche-all-10-climbers-swept-away-confirmed-dead-nirmal-purja-alpine-club-elite-exped-101785655820529.html",
+      "category": "아시아",
       "primary_source": "Hindustan Times",
+      "excerpt": "스카르두(파키스탄) - 파키스탄 북부의 세계 최고봉 중 한 곳에서 눈사태로 인해 팀원 9명과 함께 사망한 유명한 등반가 니르말 푸자(Nirmal Purja)의 시신을 구조대가 수습했습니다.",
+      "excerpt_en": "SKARDU (PAKISTAN) - Rescuers recovered the body of renowned climber Nirmal Purja on Sunday after an avalanche killed him and nine team members on one of the world's highest peaks in northern Pakistan,",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3295702/rescuers-recover-climber-nirmal-purjas-body-after-avalanche-disaster",
+      "translation_status": "ok",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-02T07:41:14+09:00",
+      "latest_published_at": "2026-08-02T19:30:25+09:00",
+      "articles": [
+        {
+          "title": "Body of climber Nirmal Purja, six others recovered after Pakistan avalanche",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/body-of-climber-nirmal-purja-six-others-recovered-after-pakistan-avalanche?traffic_source=rss",
+          "published_at": "19:30"
+        },
+        {
+          "title": "At Nepal school, outpouring of grief for climber Nirmal Purja",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3295707/at-nepal-school-outpouring-of-grief-for-climber-nirmal-purja",
+          "published_at": "18:47"
+        },
+        {
+          "title": "Rescuers recover climber Nirmal Purja's body after avalanche disaster",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3295702/rescuers-recover-climber-nirmal-purjas-body-after-avalanche-disaster",
+          "published_at": "18:46"
+        },
+        {
+          "title": "Body of famed international climber Nirmal Purja and 3 more found after Pakistan avalanche",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/body-famed-international-climber-nirmal-purja-3-found-135304378",
+          "published_at": "14:49"
+        },
+        {
+          "title": "Renowned climber Nirmal Purja's body recovered from Broad Peak days after fatal avalanche",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/renowned-mountaineer-climber-nirmal-purjas-body-recovered-from-broad-peak-days-after-fatal-pakistan-avalanche-101785668948451.html",
+          "published_at": "11:12"
+        },
+        {
+          "title": "All 10 climbers swept away in avalanche in Pakistan are confirmed dead",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/pakistan-avalanche-all-10-climbers-swept-away-confirmed-dead-nirmal-purja-alpine-club-elite-exped-101785655820529.html",
+          "published_at": "07:41"
+        }
+      ]
+    },
+    {
+      "id": "world-239",
+      "title": "모스크바 시장, 식당 폭발사고 \"테러 행위\"",
+      "title_en": "Moscow mayor calls deadly restaurant explosion a \"terrorist act\"",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
+      "category": "유럽",
+      "primary_source": "CBS News",
       "excerpt": "세르게이 소뱌닌 모스크바 시장은 지난 토요일 한 고급 레스토랑에서 신체에 닳은 폭탄이 터져 3명이 사망한 사건의 책임자를 색출하겠다고 다짐했습니다.",
       "excerpt_en": "Moscow Mayor Sergei Sobyanin vowed to hunt down those responsible after a body-worn bomb detonated at an upscale restaurant on Saturday killing three.",
       "excerpt_source": "Fox News",
       "excerpt_url": "https://www.foxnews.com/world/mayor-calls-upscale-restaurant-bombing-brutal-terrorist-act-3-killed-21-injured",
       "translation_status": "ok",
-      "score": 93,
+      "score": 88,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 70
+        "time_score": 2,
+        "raw75": 66
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 5,
       "sources": [
         "ABC News",
-        "ABC News Australia",
         "CBS News",
-        "Channel News Asia",
         "Fox News",
         "Hindustan Times",
         "Times of India"
       ],
-      "first_published_at": "2026-08-02T02:09:53+09:00",
-      "latest_published_at": "2026-08-02T20:51:39+09:00",
+      "first_published_at": "2026-08-02T11:33:50+09:00",
+      "latest_published_at": "2026-08-02T15:36:33+09:00",
       "articles": [
-        {
-          "title": "Moscow mayor calls Saturday's deadly bomb attack on restaurant a 'terrorist act'",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/moscow-mayor-calls-saturdays-deadly-bomb-attack-restaurant-terrorist-act-6293651",
-          "published_at": "20:51"
-        },
         {
           "title": "'Cruel terrorist act': Moscow mayor on restaurant blast that killed 3, injured 21",
           "source_name": "Times of India",
@@ -80,12 +281,6 @@
           "published_at": "14:42"
         },
         {
-          "title": "Moscow mayor calls deadly bomb attack on a restaurant a 'terrorist act'",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/moscow-bombing-restaurant-mayor-terror-act/106988208",
-          "published_at": "13:09"
-        },
-        {
           "title": "Moscow mayor calls deadly restaurant blast that left 3 dead a 'terrorist act'",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/moscow-mayor-calls-deadly-restaurant-blast-that-left-3-dead-a-terrorist-act-101785669929482.html",
@@ -96,163 +291,89 @@
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
           "published_at": "11:33"
-        },
-        {
-          "title": "3 killed, at least 21 injured after blast at Moscow restaurant, probe on",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/3-killed-at-least-21-injured-after-blast-at-moscow-restaurant-probe-on-101785636311528.html",
-          "published_at": "02:09"
         }
       ]
     },
     {
-      "id": "world-62",
-      "title": "파키스탄에서 눈사태로 사망한 등반가 10명 중 유명 산악인 ​​니르말 푸자(43)",
-      "title_en": "Famed mountaineer Nirmal Purja, 43, among 10 climbers killed after avalanche in Pakistan",
+      "id": "world-16",
+      "title": "스페인 세우타 이민자 유입으로 최소 72명 사망",
+      "title_en": "At least 72 died in Spain's Ceuta migrant rush",
       "title_source": "earliest_pick",
-      "title_url": "https://www.foxnews.com/world/famed-mountaineer-nirmal-purja-43-among-10-climbers-killed-avalanche-pakistan",
-      "category": "아시아",
-      "primary_source": "Fox News",
-      "excerpt": "구조대원들이 파키스탄 브로드 피크(Broad Peak)에서 원정대원 10명을 모두 죽인 대규모 산사태를 헤쳐나가다가 유명한 산악인 니르말 푸르자(Nirmal Purja)의 시신을 발견했다고 관리들이 Sun에 말했습니다.",
-      "excerpt_en": "Rescuers have found the body of celebrated mountaineer Nirmal Purja as they sift through a massive avalanche that killed all 10 members of an expedition on Pakistan’s Broad Peak, officials said on Sun",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/week-asia/people/article/3362683/nepal-mourns-climber-nirmal-purja-after-death-confirmed-pakistans-broad-peak?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "Al Jazeera",
-        "Channel News Asia",
-        "Fox News",
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-02T01:59:24+09:00",
-      "latest_published_at": "2026-08-02T19:30:25+09:00",
-      "articles": [
-        {
-          "title": "Body of climber Nirmal Purja, six others recovered after Pakistan avalanche",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/body-of-climber-nirmal-purja-six-others-recovered-after-pakistan-avalanche?traffic_source=rss",
-          "published_at": "19:30"
-        },
-        {
-          "title": "Body of famed international climber Nirmal Purja and 3 more found after Pakistan avalanche",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/body-famed-international-climber-nirmal-purja-3-found-135304378",
-          "published_at": "14:49"
-        },
-        {
-          "title": "Renowned climber Nirmal Purja's body recovered from Broad Peak days after fatal avalanche",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/renowned-mountaineer-climber-nirmal-purjas-body-recovered-from-broad-peak-days-after-fatal-pakistan-avalanche-101785668948451.html",
-          "published_at": "11:12"
-        },
-        {
-          "title": "Rescuers recover climber Nirmal Purja's body after avalanche disaster",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/nirmal-purja-body-recover-pakistan-avalanche-6293586",
-          "published_at": "10:09"
-        },
-        {
-          "title": "Nepal mourns climber Nirmal Purja after body found on Pakistan’s Broad Peak",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/people/article/3362683/nepal-mourns-climber-nirmal-purja-after-death-confirmed-pakistans-broad-peak?utm_source=rss_feed",
-          "published_at": "04:04"
-        },
-        {
-          "title": "Famed mountaineer Nirmal Purja, 43, among 10 climbers killed after avalanche in Pakistan",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/famed-mountaineer-nirmal-purja-43-among-10-climbers-killed-avalanche-pakistan",
-          "published_at": "01:59"
-        }
-      ]
-    },
-    {
-      "id": "world-68",
-      "title": "Max Miller 업데이트: Bernie Moreno는 침묵을 깨고 전 사위가 하원의원으로 '봉사해서는 안 된다'고 말했습니다.",
-      "title_en": "Max Miller update: Bernie Moreno breaks silence, says ex-son-in-law ‘should not serve' as Congressman",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/max-miller-update-bernie-moreno-breaks-silence-says-ex-son-in-law-should-not-serve-as-congressman-101785690594319.html",
+      "title_url": "https://www.bangkokpost.com/world/3295365/at-least-72-died-in-spains-ceuta-migrant-rush",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "버니 모레노 상원의원은 전처의 주장으로 하원의원과 전 사위가 사임해야 한다고 말했습니다. 공화당 상원의원 버니 모레노는 일요일 공개적으로 맥스 밀러 하원의원을 자신의 후임으로 요구했습니다.",
-      "excerpt_en": "Senator Bernie Moreno says congressman and former son-in-law should step down after ex-wife’s allegations Republican senator Bernie Moreno on Sunday publicly called for Representative Max Miller, his ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/02/max-miller-domestic-abuse-allegations-calls-to-resign",
+      "primary_source": "Bangkok Post",
+      "excerpt": "지난 주 모로코에서 스페인 영토인 세우타로 몰려든 이주민들의 사망자 수는 일요일 북아프리카 해안을 따라 5구의 시신이 더 발견되면서 최소 72명에 이르렀습니다.",
+      "excerpt_en": "The death toll from a mass rush of migrants from Morocco into the Spanish enclave of Ceuta last week reached at least 72 on Sunday, as five more bodies were found along the North African coast, offici",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3362727/death-toll-migrant-rush-spains-ceuta-rises-72?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
-        "Al Jazeera",
-        "Hindustan Times",
-        "The Guardian",
-        "The Independent"
+        "ABC News Australia",
+        "Bangkok Post",
+        "Fox News",
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-02T18:02:33+09:00",
-      "latest_published_at": "2026-08-02T19:04:40+09:00",
+      "first_published_at": "2026-08-02T10:45:00+09:00",
+      "latest_published_at": "2026-08-02T22:01:53+09:00",
       "articles": [
         {
-          "title": "Senator demands ‘dangerous’ former son-in-law quit as congressman over abuse claims saying he fears for granddaughter",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/max-miller-senator-allegations-resign-b3026060.html",
-          "published_at": "19:04"
+          "title": "Morocco blames social media, human traffickers for Spain migrant rush",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-03/morocco-blames-social-media-for-migrant-crossings-to-spain-ceuta/106988848",
+          "published_at": "22:01"
         },
         {
-          "title": "Republican senator says former son-in-law should resign from US Congress",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
-          "published_at": "18:27"
+          "title": "Death toll from migrant rush into Spanish enclave in North Africa rises to 72",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNenRaMVlhSGtZV3ZHSzZqZnNrcDRfVDViVDFYTElZdnRNWW5TNUlsRWZvMElrRVJ3OWlWbjBwdmFtQ2FBRGFqaF9IU1pidG9ZTzZISnUwWXN6bjBxTjFJSlRFTEc4dzJoak9ObGhuWExVazBxOVJtRnVEM0hXOEFUVkVsUVdvYWxfWmZsb3IyTWhBOWZFbHA0?oc=5",
+          "published_at": "21:16"
         },
         {
-          "title": "Republican calls for Max Miller to resign from Congress amid abuse allegations",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/02/max-miller-domestic-abuse-allegations-calls-to-resign",
-          "published_at": "18:09"
+          "title": "Death toll from migrant rush into Spanish enclave of Ceuta reaches 72",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/africa/article/3362727/death-toll-migrant-rush-spains-ceuta-rises-72?utm_source=rss_feed",
+          "published_at": "17:44"
         },
         {
-          "title": "Max Miller update: Bernie Moreno breaks silence, says ex-son-in-law ‘should not serve' as Congressman",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/max-miller-update-bernie-moreno-breaks-silence-says-ex-son-in-law-should-not-serve-as-congressman-101785690594319.html",
-          "published_at": "18:02"
+          "title": "At least 72 dead amid mass migrant rush to storm Spanish enclave of Ceuta sparking border crisis",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/least-72-dead-mass-migrant-rush-storm-spanish-enclave-ceuta-sparking-border-crisis",
+          "published_at": "17:01"
+        },
+        {
+          "title": "At least 72 died in Spain's Ceuta migrant rush",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3295365/at-least-72-died-in-spains-ceuta-migrant-rush",
+          "published_at": "10:45"
         }
       ]
     },
     {
-      "id": "world-9",
-      "title": "인도네시아 여객선에 화재가 발생해 최소 5명이 숨지고 수십 명이 실종됐다.",
-      "title_en": "At least five dead and dozens missing after Indonesian ferry catches fire",
+      "id": "world-104",
+      "title": "아테네서 여행가방에서 스코틀랜드 여성 시신 발견돼 남성 체포",
+      "title_en": "Man arrested after Scottish woman’s body found in suitcase in Athens",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145",
-      "category": "아시아",
-      "primary_source": "Sky News",
-      "excerpt": "271명이 탑승한 인도네시아 여객선에서 해상에서 화재가 발생해 5명이 숨지고 41명이 실종됐다고 수색구조 당국이 밝혔다.",
-      "excerpt_en": "Five people have been found dead and 41 are missing after an Indonesian ferry with 271 people on board caught fire while at sea, search and rescue officials say.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-02/indonesia-ferry-fire-rescue-madura-island/106988150",
+      "title_url": "https://www.independent.co.uk/news/uk/crime/scottish-body-found-elisabeth-jane-ross-athens-suitcase-arrest-b3026038.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "그리스 경찰은 26세의 아프간 국적자가 엘리자베스-제인 로스의 시신을 버려진 건물에 남겨둔 것으로 추정된다고 밝혔습니다.",
+      "excerpt_en": "Greek police say 26-year-old Afghan national is believed to have left Elisabeth-Jane Ross’s body in derelict building Greek authorities have arrested an Afghan national in connection with the death of",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/aug/02/man-arrested-scottish-woman-dead-suitcase-athens",
       "translation_status": "ok",
       "score": 84,
       "score_breakdown": {
@@ -268,48 +389,184 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "ABC News Australia",
-        "BBC",
-        "Reuters",
-        "Sky News"
+        "DW",
+        "SCMP",
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-02T10:05:00+09:00",
-      "latest_published_at": "2026-08-02T13:07:16+09:00",
+      "first_published_at": "2026-08-02T15:09:12+09:00",
+      "latest_published_at": "2026-08-02T23:50:00+09:00",
       "articles": [
         {
-          "title": "Five dead, 41 missing after Indonesian ferry catches fire, authorities say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPalBXdlNoQ05vVlFLOElTc3BweEhPcWhyd2x4UjBiUmROdDVKN0tvZGlSWnFveF8tNG1zZVBjbVM3VGhYc2hTNGVlZzJrUzcyeEZaY0h5Zllrd25MNUl2ZkI0bGpnaEZubUlYTmNXSUl4RjVpZ2pmckVta1J1NWVQTWlsRVV6aG5JM3BVb2RlMWJncnVqblEyV0R3YmFSNWl3Q1FESl9zVEx0T3ZydjZCX0F0REdZdF9yTUVqZmRwd2lnR3NZRHc?oc=5",
-          "published_at": "13:07"
+          "title": "Man arrested over death of British woman found in suitcase in Athens",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/man-arrested-over-death-of-british-woman-found-in-suitcase-in-athens/a-78210183?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "23:50"
         },
         {
-          "title": "Five dead and 41 missing after Indonesia ferry catches fire",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
-          "published_at": "11:49"
+          "title": "Man arrested after Scottish woman found dead inside suitcase in Athens",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/02/man-arrested-scottish-woman-dead-suitcase-athens",
+          "published_at": "18:29"
         },
         {
-          "title": "Five dead, 41 missing after Indonesian ferry catches fire",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/indonesia-ferry-fire-rescue-madura-island/106988150",
-          "published_at": "10:09"
+          "title": "Greek police arrest suspect after body of British woman found in suitcase",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3362728/greek-police-arrest-suspect-over-british-womans-body-found-suitcase?utm_source=rss_feed",
+          "published_at": "18:00"
         },
         {
-          "title": "At least five dead and dozens missing after Indonesian ferry catches fire",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145",
-          "published_at": "10:05"
+          "title": "Man arrested after Scottish woman’s body found in suitcase in Athens",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/crime/scottish-body-found-elisabeth-jane-ross-athens-suitcase-arrest-b3026038.html",
+          "published_at": "15:09"
         }
       ]
     },
     {
-      "id": "world-98",
-      "title": "헝가리, 일요일에 처음으로 단독 원전 폐쇄",
-      "title_en": "Hungary to shut sole nuclear plant for first time on Sunday",
+      "id": "world-130",
+      "title": "그리스에서 소방헬기 충돌로 2명 사망",
+      "title_en": "Two killed after firefighting helicopters in Greece collide",
       "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "기타",
-      "primary_source": "DW",
+      "title_url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "그리스 소방국은 일요일 아테네 서쪽에서 통제할 수 없을 정도로 타오르는 대규모 산불과 맞서 싸우던 소방헬기 두 대가 충돌해 승무원 2명이 숨지고 다른 2명은 부상을 입었다고 밝혔습니다.",
+      "excerpt_en": "Greece’s fire department says the collision of two firefighting helicopters battling a major wildfire burning out of control west of Athens on Sunday left two crew members dead, while another two were",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBC",
+        "France24",
+        "NBC News",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-02T09:03:11+09:00",
+      "latest_published_at": "2026-08-02T21:32:50+09:00",
+      "articles": [
+        {
+          "title": "Briton survives after two killed in collision between Greek firefighting helicopters",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/greece-helicopters-crash-wildfires-briton-survivor-b3026117.html",
+          "published_at": "21:32"
+        },
+        {
+          "title": "2 killed after helicopters battling Greece wildfires collide",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/greece-europe-wildfire-helicopter-crash-9.7294476?cmp=rss",
+          "published_at": "18:00"
+        },
+        {
+          "title": "Video captures midair collision of Greek firefighting helicopters",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/video-captures-midair-collision-of-greek-firefighting-helicopters-267647045632",
+          "published_at": "16:27"
+        },
+        {
+          "title": "2 crew members dead, 2 found alive after firefighting helicopters collide in Greece",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed",
+          "published_at": "15:16"
+        },
+        {
+          "title": "Two killed after firefighting helicopters in Greece collide",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
+          "published_at": "09:03"
+        }
+      ]
+    },
+    {
+      "id": "world-76",
+      "title": "워싱턴주 동부 화재로 600채의 건축물이 불타고 5,000채의 주택이 대피했습니다.",
+      "title_en": "Eastern Washington fires have burned 600 structures and forced the evacuation of 5,000 homes",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/eastern-washington-fires-have-burned-600-structures-and-forced-the-evacuation-of-5-000-homes-101785698922156.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "스포케인 및 주변 지역의 산불로 인해 연방 및 지방 기관의 산불 진압 능력이 확대되었습니다. 워싱턴주 동부의 산불로 인해 스포케인 지역에서 60,000명이 대피했습니다.",
+      "excerpt_en": "Wildfires in and around Spokane have stretched ability of federal and local agencies to fight blazes Wildfires in eastern Washington state forced the evacuation of 60,000 people in the Spokane area wh",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/02/eastern-washington-wildfires",
+      "translation_status": "ok",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "CBC",
+        "Hindustan Times",
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-02T19:28:41+09:00",
+      "latest_published_at": "2026-08-03T03:26:08+09:00",
+      "articles": [
+        {
+          "title": "Fires in Spokane, Washington, burn 600 structures, force 60,000 evacuations",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations?traffic_source=rss",
+          "published_at": "03:26"
+        },
+        {
+          "title": "Eastern Washington fires have burned 600 structures and forced evacuation of 60,000 people",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362733/eastern-washington-fires-have-burned-600-structures-and-forced-evacuation-60000-people?utm_source=rss_feed",
+          "published_at": "23:59"
+        },
+        {
+          "title": "Eastern Washington fires destroy 600 structures and force 60,000 to evacuate",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/02/eastern-washington-wildfires",
+          "published_at": "23:33"
+        },
+        {
+          "title": "Destructive wildfires prompt evacuations in Washington state",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/wildfires-washington-state-9.7294631?cmp=rss",
+          "published_at": "22:48"
+        },
+        {
+          "title": "Eastern Washington fires have burned 600 structures and forced the evacuation of 5,000 homes",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/eastern-washington-fires-have-burned-600-structures-and-forced-the-evacuation-of-5-000-homes-101785698922156.html",
+          "published_at": "19:28"
+        }
+      ]
+    },
+    {
+      "id": "world-131",
+      "title": "헝가리: 계속되는 폭염으로 인해 원자력 발전소 냉각에 사용되는 다뉴브 강 배수",
+      "title_en": "Hungary: Successive heatwaves drain Danube river used to cool nuclear plant",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/hungary-successive-heatwaves-drain-danube-river-used-to-cool-nuclear-plant",
+      "category": "유럽",
+      "primary_source": "France24",
       "excerpt": "헝가리는 기록적으로 낮은 다뉴브 강의 수위로 인해 처음으로 유일한 원자력 발전소를 완전히 폐쇄하고 에너지 공급에 부담을 주며 경제와 국가에 대한 주요 시험을 제기하고 있습니다.",
       "excerpt_en": "Hungary is fully shutting down its sole nuclear power plant for the first time due to the record low levels of the Danube River, straining energy supplies and posing a major test for the economy and n",
       "excerpt_source": "SCMP",
@@ -329,11 +586,11 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "DW",
+        "France24",
         "SCMP",
         "Times of India"
       ],
-      "first_published_at": "2026-08-02T02:16:00+09:00",
+      "first_published_at": "2026-08-02T08:55:03+09:00",
       "latest_published_at": "2026-08-02T16:11:53+09:00",
       "articles": [
         {
@@ -349,15 +606,123 @@
           "published_at": "10:51"
         },
         {
-          "title": "Hungary to shut sole nuclear plant for first time on Sunday",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/hungary-to-shut-sole-nuclear-plant-for-first-time-on-sunday/a-78205668?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "02:16"
+          "title": "Hungary: Successive heatwaves drain Danube river used to cool nuclear plant",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/hungary-successive-heatwaves-drain-danube-river-used-to-cool-nuclear-plant",
+          "published_at": "08:55"
         }
       ]
     },
     {
-      "id": "world-101",
+      "id": "world-8",
+      "title": "아이다호주 총기 난사범, 자해 총격으로 사망했다고 경찰 발표",
+      "title_en": "Idaho mass shooter died from self-inflicted gunshot, police say",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMFVwMHhFYnhwdk5waGpTSGRjeEdxRU5Uc2VRbHRybFRueTVqYWpiQURURkotTDBmQUVXMWdtcXpteWZvQndtQ2taWmxvTC1SYzVkNU9yU2hyMnYwbFVJUmtlblFxUENYQjlwVUFHT1RQbWRWeVZCT2doLWxiX28xbGJqdTFzMG1wcHQzdGtMcHpKTlhySXV2TlRTejZMQzk5TGt6OA?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "트윈폴스 경찰서장은 지난 토요일 3명이 숨진 공격에서 채드 윌리엄스(24세)가 홀로 있었다고 믿고 있다. 당국은 아이다호 패스트푸드 식당에서 총격을 가한 남성이 사망했다고 밝혔다.",
+      "excerpt_en": "Twin Falls police chief believes Chad Williams, 24, was alone in Saturday attack that killed three people Authorities say the man accused of opening fire at a fast-food restaurant in Idaho is dead fro",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/02/idaho-shooting-suspect-gunshot-wound-death",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "Reuters",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-02T21:14:10+09:00",
+      "latest_published_at": "2026-08-03T00:09:00+09:00",
+      "articles": [
+        {
+          "title": "Suspect in shooting at Idaho fast-food restaurant died from self-inflicted gunshot wound, police say",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbmxQdEZiSXlLeERWT1Mya3c4bm5OWWtvOGxyNjJ5LUFGYjBHeTZlVjA3SkdfNUNyQzhNTE5Rc0tDcXRLUW9Zdkd6aWFBcElaMEl1b3FIbkxpWkYyQTJZUzBlYXg3RDlOYWNUd1cwV0ROUGppZlkzcG5uY1RZWnBZX29SNlI0a1RwbzY0YzZSX0lJSHpONWpmZUJHLTMyVmRfZFhVMUpUNXJKZw?oc=5",
+          "published_at": "00:09"
+        },
+        {
+          "title": "Suspect in Idaho restaurant shooting died of self-inflicted gunshot wound, police say",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/02/idaho-shooting-suspect-gunshot-wound-death",
+          "published_at": "22:27"
+        },
+        {
+          "title": "Idaho mass shooter died from self-inflicted gunshot, police say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMFVwMHhFYnhwdk5waGpTSGRjeEdxRU5Uc2VRbHRybFRueTVqYWpiQURURkotTDBmQUVXMWdtcXpteWZvQndtQ2taWmxvTC1SYzVkNU9yU2hyMnYwbFVJUmtlblFxUENYQjlwVUFHT1RQbWRWeVZCT2doLWxiX28xbGJqdTFzMG1wcHQzdGtMcHpKTlhySXV2TlRTejZMQzk5TGt6OA?oc=5",
+          "published_at": "21:14"
+        }
+      ]
+    },
+    {
+      "id": "world-30",
+      "title": "우크라이나 드론, 러시아서 5명 사망, 와일드베리 창고에 불질러",
+      "title_en": "Ukrainian drones kill 5 in Russia and set fire to Wildberries warehouse",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWdtblg2S1BkaGRZcFZVZ2d1TndRREJ6Uzd0N1BkUG5qVFFWU2ptSDNSc1NXdHBYTVBydUtSNlhfdVI5bGZLRGNvQ2JKVFFEQ09mTTZLcFJuWlVfRG5LOGNDWFZrSXEyVlJZaXVwejBkSXZKN1U5ZXpQbmlRbjRzb3JIX2JHQUc2V1pvMlphX3dFTkx6YjRSR3ctOVJXUG5aNEhNejRSOHIta1FN?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "우크라이나 드론이 러시아에서 8명을 죽이고 와일드베리 창고를 공격했다고 주지사가 밝혔습니다.",
+      "excerpt_en": "Ukrainian drones kill eight in Russia and strike Wildberries warehouse, governors say Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalRXTDFKTmlXU19IODRKYXA1bkZiSXU2MEMxUmxBRlpjakdLenAtS3EyZ1NaR1ByOXBsc182MzRkLTRUX1R2NFNJTXMyNWt4Nm5mZlBtbEw5ZWhNM2dndjJTZElZbGhWVXhjQm93bkJ1NURwSV9GWlItZjRKTDJYdV9vRjhDYWt2SVZFWGpfNXV4UXpWNnFVeGhQZkpnMEdnMFdZYThzQmxzS0YyNEVqSEFWdkJIX19a?oc=5",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-02T14:49:00+09:00",
+      "latest_published_at": "2026-08-02T22:43:43+09:00",
+      "articles": [
+        {
+          "title": "Ukrainian drones kill eight in Russia and strike Wildberries warehouse, governors say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalRXTDFKTmlXU19IODRKYXA1bkZiSXU2MEMxUmxBRlpjakdLenAtS3EyZ1NaR1ByOXBsc182MzRkLTRUX1R2NFNJTXMyNWt4Nm5mZlBtbEw5ZWhNM2dndjJTZElZbGhWVXhjQm93bkJ1NURwSV9GWlItZjRKTDJYdV9vRjhDYWt2SVZFWGpfNXV4UXpWNnFVeGhQZkpnMEdnMFdZYThzQmxzS0YyNEVqSEFWdkJIX19a?oc=5",
+          "published_at": "22:43"
+        },
+        {
+          "title": "Ukrainian drones kill 5 in Russia, set fire to Wildberries warehouse",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/ukrainian-drones-kill-5-russia-set-fire-wildberries-135306270",
+          "published_at": "15:38"
+        },
+        {
+          "title": "Ukrainian drones kill 5 in Russia and set fire to Wildberries warehouse",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWdtblg2S1BkaGRZcFZVZ2d1TndRREJ6Uzd0N1BkUG5qVFFWU2ptSDNSc1NXdHBYTVBydUtSNlhfdVI5bGZLRGNvQ2JKVFFEQ09mTTZLcFJuWlVfRG5LOGNDWFZrSXEyVlJZaXVwejBkSXZKN1U5ZXpQbmlRbjRzb3JIX2JHQUc2V1pvMlphX3dFTkx6YjRSR3ctOVJXUG5aNEhNejRSOHIta1FN?oc=5",
+          "published_at": "14:49"
+        }
+      ]
+    },
+    {
+      "id": "world-122",
       "title": "우크라이나, 러시아에서 9명 사망, 또 다른 Wildberries 창고 타격",
       "title_en": "Ukraine strikes kill 9 in Russia, Moscow says, another Wildberries warehouse hit",
       "title_source": "earliest_pick",
@@ -369,14 +734,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362698/ukrainian-drone-strikes-kill-2-russia-hit-another-wildberries-warehouse?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -411,7 +776,7 @@
       ]
     },
     {
-      "id": "world-161",
+      "id": "world-194",
       "title": "파키스탄 반군 집회서 자살폭탄 테러로 최소 14명 사망",
       "title_en": "At least 14 dead in suicide bomb attack at anti-militant rally in Pakistan",
       "title_source": "earliest_pick",
@@ -423,14 +788,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3362726/least-14-dead-suicide-bomb-attack-anti-militant-rally-pakistan?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -438,17 +803,17 @@
       "source_count": 3,
       "sources": [
         "ABC News",
-        "ABC News Australia",
-        "SCMP"
+        "SCMP",
+        "Sky News"
       ],
       "first_published_at": "2026-08-02T16:31:28+09:00",
-      "latest_published_at": "2026-08-02T19:11:11+09:00",
+      "latest_published_at": "2026-08-02T20:29:00+09:00",
       "articles": [
         {
-          "title": "Suicide bomber strikes crowd at anti-militant rally in Pakistan",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-03/pakistan-suicide-bombing-anti-militant-rally/106988688",
-          "published_at": "19:11"
+          "title": "Deadly suicide bombing targeting anti-militant rally in Pakistan",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/deadly-suicide-bombing-targeting-anti-militant-protesters-in-pakistan-13569275",
+          "published_at": "20:29"
         },
         {
           "title": "A suicide bomber strikes an anti-militant rally in northwestern Pakistan, killing at least 14",
@@ -465,233 +830,17 @@
       ]
     },
     {
-      "id": "world-13",
-      "title": "우크라이나 드론, 러시아서 5명 사망, 와일드베리 창고에 불질러",
-      "title_en": "Ukrainian drones kill 5 in Russia and set fire to Wildberries warehouse",
+      "id": "world-19",
+      "title": "파키스탄 경찰서 폭탄테러로 최소 14명 사망",
+      "title_en": "Pakistan Police Station Bombing Kills at Least 14",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWdtblg2S1BkaGRZcFZVZ2d1TndRREJ6Uzd0N1BkUG5qVFFWU2ptSDNSc1NXdHBYTVBydUtSNlhfdVI5bGZLRGNvQ2JKVFFEQ09mTTZLcFJuWlVfRG5LOGNDWFZrSXEyVlJZaXVwejBkSXZKN1U5ZXpQbmlRbjRzb3JIX2JHQUc2V1pvMlphX3dFTkx6YjRSR3ctOVJXUG5aNEhNejRSOHIta1FN?oc=5",
-      "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "우크라이나 드론이 러시아에서 8명을 죽이고 와일드베리 창고를 공격했다고 주지사가 밝혔습니다.",
-      "excerpt_en": "Ukrainian drones kill eight in Russia and strike Wildberries warehouse, governors say Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalRXTDFKTmlXU19IODRKYXA1bkZiSXU2MEMxUmxBRlpjakdLenAtS3EyZ1NaR1ByOXBsc182MzRkLTRUX1R2NFNJTXMyNWt4Nm5mZlBtbEw5ZWhNM2dndjJTZElZbGhWVXhjQm93bkJ1NURwSV9GWlItZjRKTDJYdV9vRjhDYWt2SVZFWGpfNXV4UXpWNnFVeGhQZkpnMEdnMFdZYThzQmxzS0YyNEVqSEFWdkJIX19a?oc=5",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-02T14:49:00+09:00",
-      "latest_published_at": "2026-08-02T18:03:50+09:00",
-      "articles": [
-        {
-          "title": "Ukrainian drones kill eight in Russia and strike Wildberries warehouse, governors say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalRXTDFKTmlXU19IODRKYXA1bkZiSXU2MEMxUmxBRlpjakdLenAtS3EyZ1NaR1ByOXBsc182MzRkLTRUX1R2NFNJTXMyNWt4Nm5mZlBtbEw5ZWhNM2dndjJTZElZbGhWVXhjQm93bkJ1NURwSV9GWlItZjRKTDJYdV9vRjhDYWt2SVZFWGpfNXV4UXpWNnFVeGhQZkpnMEdnMFdZYThzQmxzS0YyNEVqSEFWdkJIX19a?oc=5",
-          "published_at": "18:03"
-        },
-        {
-          "title": "Ukrainian drones kill 5 in Russia, set fire to Wildberries warehouse",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/ukrainian-drones-kill-5-russia-set-fire-wildberries-135306270",
-          "published_at": "15:38"
-        },
-        {
-          "title": "Ukrainian drones kill 5 in Russia and set fire to Wildberries warehouse",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWdtblg2S1BkaGRZcFZVZ2d1TndRREJ6Uzd0N1BkUG5qVFFWU2ptSDNSc1NXdHBYTVBydUtSNlhfdVI5bGZLRGNvQ2JKVFFEQ09mTTZLcFJuWlVfRG5LOGNDWFZrSXEyVlJZaXVwejBkSXZKN1U5ZXpQbmlRbjRzb3JIX2JHQUc2V1pvMlphX3dFTkx6YjRSR3ctOVJXUG5aNEhNejRSOHIta1FN?oc=5",
-          "published_at": "14:49"
-        }
-      ]
-    },
-    {
-      "id": "world-17",
-      "title": "워싱턴 주 250,000에이커 이상의 화재로 긴급 대피",
-      "title_en": "Fires on more than 250,000 acres of Washington state prompt evacuations",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYThmc2Z4VmNwMVRiazd6X3c4T0Myd0pqbWplTkNMU3o5M0RoVnFNRzViejJ3UlZnUGk4Z29tVGwwRXk2ZS1hM1BWa252d2t3bVhPcU1LLWs1UTVxdTR0Yl91cTl3blhQV2xBMERaODkwZ29iU1RjXzBXY25qTkh6djNXTjdmSTRBNUZRYVo2d1l5cm9jWFpTRjMwOEpzRmlqeHpDNXlOSDFnSzltaFdldk5MNUtWZkVy?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "워싱턴 주에서 25만 에이커가 넘는 면적에 걸친 산불로 인해 광범위한 대피가 촉발되었으며, 미국의 다른 주들은 기록적인 폭염을 견디고 있습니다.",
-      "excerpt_en": "Wildfires burning across more than a quarter of a million acres in Washington state have prompted widespread evacuations, while other US states are enduring record-breaking heat.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/north-america/emergency-warnings-as-us-west-battles-wildfires-extreme-heat-20260802-p60kq8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Reuters",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-08-02T03:13:00+09:00",
-      "latest_published_at": "2026-08-02T10:20:10+09:00",
-      "articles": [
-        {
-          "title": "Wildfires scorch Washington state as thousands evacuated and emergency declared",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss",
-          "published_at": "10:20"
-        },
-        {
-          "title": "Emergency warnings as US west battles wildfires, extreme heat",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/emergency-warnings-as-us-west-battles-wildfires-extreme-heat-20260802-p60kq8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "06:56"
-        },
-        {
-          "title": "Fires on more than 250,000 acres of Washington state prompt evacuations",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYThmc2Z4VmNwMVRiazd6X3c4T0Myd0pqbWplTkNMU3o5M0RoVnFNRzViejJ3UlZnUGk4Z29tVGwwRXk2ZS1hM1BWa252d2t3bVhPcU1LLWs1UTVxdTR0Yl91cTl3blhQV2xBMERaODkwZ29iU1RjXzBXY25qTkh6djNXTjdmSTRBNUZRYVo2d1l5cm9jWFpTRjMwOEpzRmlqeHpDNXlOSDFnSzltaFdldk5MNUtWZkVy?oc=5",
-          "published_at": "03:13"
-        }
-      ]
-    },
-    {
-      "id": "world-51",
-      "title": "페루서 관광여객기 추락해 13명 사망",
-      "title_en": "Tourist plane crashes in Peru, killing 13",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
-      "category": "유럽",
-      "primary_source": "BBC",
-      "excerpt": "세계적으로 유명한 나스카 라인 근처에서 관광 비행기가 추락했을 때 독일, 이탈리아, 스페인에서 온 승객 11명과 승무원 2명이 탑승하고 있었습니다.",
-      "excerpt_en": "Eleven passengers from Germany, Italy and Spain, plus two crew, were on board when their tourist plane crashed near the world-famous Nazca Lines.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/south-america/thirteen-people-die-in-plane-crash-near-ancient-site-in-peru-20260802-p60kp5.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Hindustan Times",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-08-02T00:29:55+09:00",
-      "latest_published_at": "2026-08-02T19:46:56+09:00",
-      "articles": [
-        {
-          "title": "Peru probes crash of tourist plane that killed 13",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/peru-probes-crash-of-tourist-plane-that-killed-13-101785700017103.html",
-          "published_at": "19:46"
-        },
-        {
-          "title": "Thirteen people die in plane crash near ancient site in Peru",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/south-america/thirteen-people-die-in-plane-crash-near-ancient-site-in-peru-20260802-p60kp5.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "03:52"
-        },
-        {
-          "title": "Tourist plane crashes in Peru, killing 13",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
-          "published_at": "00:29"
-        }
-      ]
-    },
-    {
-      "id": "world-99",
-      "title": "브라질 룰라, 외국 개입 우려 커져 재선 출마 개시",
-      "title_en": "Brazil's Lula launches reelection bid as concerns rise over foreign interference",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231",
-      "category": "미국",
-      "primary_source": "ABC News",
-      "excerpt": "루이스 이나시우 룰라 다 실바(80) 브라질 대통령은 도널드 트럼프 미국 대통령 행정부의 압력으로 10월 대선 출마를 시작하면서 “몸 상태가 아주 좋다”고 일요일 말했다.",
-      "excerpt_en": "Brazilian President Luiz Inacio Lula da Silva, 80, said on Sunday he was “in great shape” as he launched his candidacy for October elections, with pressure from US President Donald Trump’s administrat",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-02T16:48:14+09:00",
-      "latest_published_at": "2026-08-02T18:27:23+09:00",
-      "articles": [
-        {
-          "title": "Brazil’s President Lula, 80, says ‘in great shape’ as he launches bid for a fourth term",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed",
-          "published_at": "18:27"
-        },
-        {
-          "title": "Brazil's Lula, 80, says he is 'in great shape' as he launches fourth term bid",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260802-brazil-s-lula-80-says-in-great-shape-as-he-launches-reelection-bid",
-          "published_at": "17:26"
-        },
-        {
-          "title": "Brazil's Lula launches reelection bid as concerns rise over foreign interference",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231",
-          "published_at": "16:48"
-        }
-      ]
-    },
-    {
-      "id": "world-40",
-      "title": "일본 지진으로 열사병에 걸린 여성이 차량 대피 중 숨진 채 발견됐다.",
-      "title_en": "A woman with apparent heat stroke found dead while taking shelter in a car in quake-hit Japan",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ2RidE56LW16bEJ1dV9JTXBPc3dCazAtc3lxM3NQZ0d3ZlhfdE5IZ2hiU0JsU1o0NjJxTnRoWHNGVzZFaW45di1yWDBxNm9Ld1VFVEhXeC1qRzFNaHY3SmJRbTRjMnEyMWpmUHBQMGtzTTlma0NDamFOYTdzNUFzVERqVGtOZkhkZnhNV2cwZmNkQlRLb3Z2TkJIT1laUF90dlE?oc=5",
+      "title_url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
       "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "지난 주 일본 남서부 구마모토 현을 강타한 강력한 지진으로 인해 차 안에서 대피하던 중 열사병에 걸린 노인 여성이 사망했다고 관계자들이 밝혔습니다.",
-      "excerpt_en": "An elderly woman who developed heatstroke while taking shelter in a car was the latest fatality from a powerful earthquake that struck Japan’s southwestern prefecture of Kumamoto last week, officials ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3362685/japan-quake-victim-dies-heatstroke-while-sheltering-car-amid-extreme-heat-warning?utm_source=rss_feed",
+      "primary_source": "New York Times",
+      "excerpt": "당국은 스와트 밸리에서 발생한 자살폭탄 테러로 최소 14명이 사망했다고 밝혔습니다. 파키스탄 탈레반이 자신들의 책임을 주장했습니다.",
+      "excerpt_en": "The authorities said the suicide bombing, which killed at least 14 people in the Swat Valley. The Pakistani Taliban claimed responsibility.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
       "translation_status": "ok",
       "score": 72,
       "score_breakdown": {
@@ -707,65 +856,173 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "AP News",
-        "Channel News Asia",
-        "SCMP"
+        "Al Jazeera",
+        "New York Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-02T03:54:00+09:00",
-      "latest_published_at": "2026-08-02T08:40:00+09:00",
+      "first_published_at": "2026-08-02T18:25:12+09:00",
+      "latest_published_at": "2026-08-03T00:18:50+09:00",
       "articles": [
         {
-          "title": "Japan quake: Elderly woman with apparent heat stroke found dead while taking shelter in car",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/japan-quake-elderly-woman-heat-stroke-dead-6293536",
-          "published_at": "08:40"
+          "title": "Suicide bombing kills at least 14 people in Pakistan’s Swat Valley",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/suicide-bombing-kills-at-least-14-people-in-pakistans-swat-valley?traffic_source=rss",
+          "published_at": "00:18"
         },
         {
-          "title": "Japan quake victim dies of heatstroke while sheltering in car amid ‘extreme heat’ warning",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3362685/japan-quake-victim-dies-heatstroke-while-sheltering-car-amid-extreme-heat-warning?utm_source=rss_feed",
-          "published_at": "04:45"
+          "title": "Suspected suicide bombing at police station kills at least 14 in Pakistan, officials say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTZuMDlfeGlmTG14UGlTZ2EtWHd6LVR1Nk9zSlE1ZDNwZ19PbTVnS1B2bktSZnMxRjFYaU9RX29Xa0djazNpRW0xVThaOHVtVW0xZTFiVURWd1dGNkd0cWV2OHNLcGI1OTVOY19JUTdTX3RiZmE0RzdHWjdTd29jLVlMNUFtM3R5cHBkNHYzbjVqYkh4eXlGNUtDYlduVkxOTG9jaWlZS1FHN2J6QjZTb00zWC1mblRzcFhsYjYwWUgxb0YxNTRYZXRPcjUxUQ?oc=5",
+          "published_at": "19:26"
         },
         {
-          "title": "A woman with apparent heat stroke found dead while taking shelter in a car in quake-hit Japan",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ2RidE56LW16bEJ1dV9JTXBPc3dCazAtc3lxM3NQZ0d3ZlhfdE5IZ2hiU0JsU1o0NjJxTnRoWHNGVzZFaW45di1yWDBxNm9Ld1VFVEhXeC1qRzFNaHY3SmJRbTRjMnEyMWpmUHBQMGtzTTlma0NDamFOYTdzNUFzVERqVGtOZkhkZnhNV2cwZmNkQlRLb3Z2TkJIT1laUF90dlE?oc=5",
-          "published_at": "03:54"
+          "title": "Pakistan Police Station Bombing Kills at Least 14",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
+          "published_at": "18:25"
         }
       ]
     },
     {
-      "id": "world-169",
+      "id": "world-98",
+      "title": "공화당, 학대 혐의로 맥스 밀러 의원직 사임 촉구",
+      "title_en": "Republican calls for Max Miller to resign from Congress amid abuse allegations",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/us-news/2026/aug/02/max-miller-domestic-abuse-allegations-calls-to-resign",
+      "category": "유럽",
+      "primary_source": "The Guardian",
+      "excerpt": "버니 모레노 상원의원은 전처의 주장으로 하원의원과 전 사위가 사임해야 한다고 말했습니다. 공화당 상원의원 버니 모레노는 일요일 공개적으로 맥스 밀러 하원의원을 자신의 후임으로 요구했습니다.",
+      "excerpt_en": "Senator Bernie Moreno says congressman and former son-in-law should step down after ex-wife’s allegations Republican senator Bernie Moreno on Sunday publicly called for Representative Max Miller, his ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/02/max-miller-domestic-abuse-allegations-calls-to-resign",
+      "translation_status": "ok",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-02T18:09:18+09:00",
+      "latest_published_at": "2026-08-02T19:04:40+09:00",
+      "articles": [
+        {
+          "title": "Senator demands ‘dangerous’ former son-in-law quit as congressman over abuse claims saying he fears for granddaughter",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/max-miller-senator-allegations-resign-b3026060.html",
+          "published_at": "19:04"
+        },
+        {
+          "title": "Republican senator says former son-in-law should resign from US Congress",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/2/republican-senator-says-former-son-in-law-should-resign-from-us-congress?traffic_source=rss",
+          "published_at": "18:27"
+        },
+        {
+          "title": "Republican calls for Max Miller to resign from Congress amid abuse allegations",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/02/max-miller-domestic-abuse-allegations-calls-to-resign",
+          "published_at": "18:09"
+        }
+      ]
+    },
+    {
+      "id": "world-247",
       "title": "인도네시아 여객선 화재로 5명 사망, 41명 실종",
       "title_en": "Five dead, 41 missing in Indonesia ferry fire",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/asia/indonesia-ferry-fire-five-dead-41-missing-6293626",
+      "title_url": "https://www.hindustantimes.com/world-news/death-toll-missing-in-indonesia-ferry-fire-rescue-east-java-makassar-south-sulawesi-101785663403470.html",
       "category": "아시아",
-      "primary_source": "Channel News Asia",
+      "primary_source": "Hindustan Times",
+      "excerpt": "무티아라 센토사 2호 페리는 인도네시아 제2의 도시인 동부 자바의 수라바야에서 남부 술라웨시의 마카사르 시로 이동 중이었습니다.",
+      "excerpt_en": "The Mutiara Sentosa 2 ferry was traveling from Indonesia's second-largest city of Surabaya in East Java to the city of Makassar in South Sulawesi.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/indonesia-passenger-ferry-fire-mutiara-sentosa-2/",
+      "translation_status": "ok",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBS News",
+        "Hindustan Times",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-08-02T09:39:10+09:00",
+      "latest_published_at": "2026-08-02T21:25:53+09:00",
+      "articles": [
+        {
+          "title": "Multiple deaths after Indonesia ferry fire",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/multiple-deaths-after-indonesia-ferry-fire-20260803-p60ksy.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "21:25"
+        },
+        {
+          "title": "5 killed, dozens missing after blaze breaks out on Indonesia ferry",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/indonesia-passenger-ferry-fire-mutiara-sentosa-2/",
+          "published_at": "13:00"
+        },
+        {
+          "title": "Five dead, 41 missing in Indonesia ferry fire",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/death-toll-missing-in-indonesia-ferry-fire-rescue-east-java-makassar-south-sulawesi-101785663403470.html",
+          "published_at": "09:39"
+        }
+      ]
+    },
+    {
+      "id": "world-112",
+      "title": "인도네시아: 여객선 화재로 최소 5명 사망",
+      "title_en": "Indonesia: At least 5 dead in ferry fire",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/indonesia-at-least-5-dead-in-ferry-fire/a-78206895?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "아시아",
+      "primary_source": "DW",
       "excerpt": "인도네시아 여객선에서 일요일 바다에서 화재가 발생해 5명이 숨지고 41명이 실종됐다고 수색구조 당국이 밝혔다. 선박에는 총 225명이 탑승하고 있습니다.",
       "excerpt_en": "An Indonesian ferry caught fire at sea on Sunday, killing five people and leaving another 41 missing after some jumped overboard, search and rescue officials said. A total of 225 people on the vessel ",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3362711/5-dead-indonesia-ferry-fire-41-missing?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 72,
+      "score": 71,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "time_score": 1,
+        "raw75": 53
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
+        "DW",
         "Euronews",
         "SCMP"
       ],
-      "first_published_at": "2026-08-02T10:56:00+09:00",
+      "first_published_at": "2026-08-02T10:43:00+09:00",
       "latest_published_at": "2026-08-02T11:23:48+09:00",
       "articles": [
         {
@@ -781,157 +1038,15 @@
           "published_at": "11:23"
         },
         {
-          "title": "Five dead, 41 missing in Indonesia ferry fire",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/indonesia-ferry-fire-five-dead-41-missing-6293626",
-          "published_at": "10:56"
+          "title": "Indonesia: At least 5 dead in ferry fire",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/indonesia-at-least-5-dead-in-ferry-fire/a-78206895?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "10:43"
         }
       ]
     },
     {
-      "id": "world-30",
-      "title": "트럼프 \"전쟁 종식 협상 타결 후 이란 공습 중단 명령할 것\"",
-      "title_en": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjdiZU1CVmhFWmRaYWtqRW82NnNUMEZjRzNlR293WTljQW1McXpnY3BiLXdWbVdobmRIdUJDVmVuWngwUHRVSUtyMkJjejRkQTl4WU0xc2xfcFpwaHBKamZGdUNqd1RIblhERllZY01hYjlmVUdOblVIVGxjTjVqVndGSURnTGJ5M2U5Vkp6dDVIRHZPZW8wTmRYaXl4WmQtejR6SzFBaw?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "도널드 트럼프 미국 대통령은 중동 동맹국들이 전쟁을 끝내기 위한 합의의 한계점에 도달했다고 주장하며 이란에 대한 공격을 보류하라고 미군에 명령할 것이라고 밝혔습니다.",
-      "excerpt_en": "U.S. President Donald Trump says he will order American forces to hold off on strikes he had threatened against Iran, claiming Mideast allies had reached the parameters of a deal to end the war",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/trump-order-halt-iran-strikes-after-parameters-reached-135301824",
-      "translation_status": "ok",
-      "score": 71,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 53
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-08-02T02:58:00+09:00",
-      "latest_published_at": "2026-08-02T18:26:00+09:00",
-      "articles": [
-        {
-          "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZy05LW5ObUpORjFnYnd6WWR0UmJrOVVXR19TU1JqcFBxdUtwMGRGZm5DX2hNZ3h0dWhRWk5Rd3M1cGY5WnpneE85T1JDOEdtYnZUMWl0b1AwN0JseTRCQTNmVlllQzN1djg3RzIyWENCdGx2SzdZSXJLNHJJeXFPVHVwc292NnlCbDJTdDhHQ3ZURE0zaEJvdHR2dkxyRVk1a1FoTmtoZw?oc=5",
-          "published_at": "18:26"
-        },
-        {
-          "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/trump-order-halt-iran-strikes-after-parameters-reached-135301824",
-          "published_at": "05:04"
-        },
-        {
-          "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjdiZU1CVmhFWmRaYWtqRW82NnNUMEZjRzNlR293WTljQW1McXpnY3BiLXdWbVdobmRIdUJDVmVuWngwUHRVSUtyMkJjejRkQTl4WU0xc2xfcFpwaHBKamZGdUNqd1RIblhERllZY01hYjlmVUdOblVIVGxjTjVqVndGSURnTGJ5M2U5Vkp6dDVIRHZPZW8wTmRYaXl4WmQtejR6SzFBaw?oc=5",
-          "published_at": "02:58"
-        }
-      ]
-    },
-    {
-      "id": "world-201",
-      "title": "트윈 폴스(Twin Falls) 총격 사건 업데이트: 치명적인 인앤아웃 총격 사건 이후 용의자가 구금되었나요?",
-      "title_en": "Twin Falls active shooter update: Is the suspect in custody after deadly In-N-Out shooting?",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-active-shooter-update-is-the-suspect-in-custody-after-deadly-in-n-out-shooting-101785628566385.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "트윈폴스 경찰국은 4번가 E와 메도우뷰 레인 근처 트로터 드라이브 300블록에 위치한 한 주택에서 총격 사건이 신고됐다고 밝혔습니다.",
-      "excerpt_en": "The Twin Falls Police Department said that the drive-by shooting was reported at a home in the 300 block of Trotter Drive, near 4th Ave. E and Meadowview Lane.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-drive-by-shooting-gunfire-erupts-at-trotter-drive-home-is-it-connected-to-idaho-in-n-out-shooting-101785653766162.html",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 9,
-      "article_count": 9,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-02T00:22:37+09:00",
-      "latest_published_at": "2026-08-02T20:33:17+09:00",
-      "articles": [
-        {
-          "title": "Idaho shooting latest: Suspect named as two victims remain critically injured and police hail passerby who fired back",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/idaho-twin-falls-shooting-in-n-out-suspect-live-updates-b3025953.html",
-          "published_at": "20:33"
-        },
-        {
-          "title": "Who was Chad Williams? Idaho Twin Falls shooting suspect identified",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-chad-williams-idaho-twin-falls-shooting-suspect-identified-101785700320374.html",
-          "published_at": "20:06"
-        },
-        {
-          "title": "Lynsi Snyder, In-N-Out president, pens emotional message after Twin Falls, Idaho shooting: ‘Lost one of our associates’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lynsi-snyder-in-n-out-president-pens-emotional-message-after-twin-falls-idaho-shooting-lost-one-of-our-associates-101785654614570.html",
-          "published_at": "07:28"
-        },
-        {
-          "title": "Twin Falls drive-by shooting: Gunfire erupts at Trotter Drive home; is it connected to Idaho In-N-Out shooting?",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-drive-by-shooting-gunfire-erupts-at-trotter-drive-home-is-it-connected-to-idaho-in-n-out-shooting-101785653766162.html",
-          "published_at": "07:04"
-        },
-        {
-          "title": "Twin Falls, Idaho mass shooting: Latest updates as number of injured rises to 7; death toll remains at 3",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-idaho-mass-shooting-latest-updates-as-number-of-injured-rises-to-7-death-toll-remains-at-3-101785652654770.html",
-          "published_at": "06:41"
-        },
-        {
-          "title": "Who is Terry Dudley? Latest update on Twin Falls, Idaho shooting victim as son makes emotional plea",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-terry-dudley-latest-update-on-twin-falls-idaho-in-n-out-shooting-victim-as-son-makes-emotional-plea-101785649486699.html",
-          "published_at": "05:52"
-        },
-        {
-          "title": "Twin Falls In-N-Out mass shooting: Gov. Brad Little under fire for saying Idaho is ‘one of the safest places live’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-mass-shooting-gov-brad-little-under-fire-for-saying-idaho-is-one-of-the-safest-places-live-101785633040719.html",
-          "published_at": "01:19"
-        },
-        {
-          "title": "Twin Falls In-N-Out mass shooting: Shocking video shows Idaho gunman firing several shots into parked Tesla as 3 dead",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-in-n-out-mass-shooting-shocking-video-shows-idaho-gunman-firing-several-shots-into-parked-tesla-as-3-dead-101785630617317.html",
-          "published_at": "00:35"
-        },
-        {
-          "title": "Twin Falls active shooter update: Is the suspect in custody after deadly In-N-Out shooting?",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-active-shooter-update-is-the-suspect-in-custody-after-deadly-in-n-out-shooting-101785628566385.html",
-          "published_at": "00:22"
-        }
-      ]
-    },
-    {
-      "id": "world-36",
+      "id": "world-48",
       "title": "스페인 세우타, 국경 급증 여파로 고심",
       "title_en": "Spain's Ceuta grapples with aftermath of border surge",
       "title_source": "earliest_pick",
@@ -943,14 +1058,14 @@
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/spain-ceuta-morocco-migrants-decline-aftermath/",
       "translation_status": "ok",
-      "score": 68,
+      "score": 69,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "time_score": 3,
+        "raw75": 52
       },
       "area_value": 3,
       "article_count": 3,
@@ -962,13 +1077,13 @@
         "CBS News"
       ],
       "first_published_at": "2026-08-02T13:08:20+09:00",
-      "latest_published_at": "2026-08-02T16:52:00+09:00",
+      "latest_published_at": "2026-08-03T02:07:00+09:00",
       "articles": [
         {
           "title": "Ceuta grapples with aftermath of border surge after most migrants leave the Spanish territory",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNV82Z0xEX2JldWNxWXNmMFQtakZrbndjeWNKaEgwRDQ2Z2pNRzJHQllnRkVVcjh4SzgtTmJPWTV4VEV0Z3YzdFctekpqck92RGpYLU1kMUtIN29IOEpwZVNBMTlFRDQtVktmWWYtbG9LZ0NwZER2QzJwYjByTWduVUtaR1lNVG5GVDVMRXd0dEJPdG9QYnk3VU5ORWtsYjRONkE?oc=5",
-          "published_at": "16:52"
+          "published_at": "02:07"
         },
         {
           "title": "Ceuta grapples with aftermath of border surge after most migrants leave the Spanish territory",
@@ -985,17 +1100,17 @@
       ]
     },
     {
-      "id": "world-74",
-      "title": "Capital One 은행, Trump Organization 계좌 폐쇄를 정당화하기 위해 돈세탁 조사 인용",
-      "title_en": "Capital One bank cites money-laundering probe to justify closing Trump Organization accounts",
+      "id": "world-20",
+      "title": "Z세대가 '스파이더맨: 브랜 뉴 데이'를 8억 7,500만 달러로 이끄는 방법",
+      "title_en": "How Gen Z is driving ‘Spider-Man: Brand New Day’ toward $875 million",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/americas/20260802-capital-one-cites-anti-money-laundering-probe-justify-closure-trump-organization-bank-accounts",
+      "title_url": "https://www.hindustantimes.com/world-news/how-gen-z-is-driving-spider-man-brand-new-day-toward-875-million-101785680118515.html",
       "category": "미국",
-      "primary_source": "France24",
-      "excerpt": "캐피털 원 파이낸셜(Capital One Financial)은 금요일 2021년에 300개 이상의 트럼프 계열 은행 계좌를 폐쇄하기로 한 결정을 옹호하며 자금세탁 검토 후 그렇게 했다고 밝혔습니다. 공개 표시",
-      "excerpt_en": "Capital One Financial on Friday defended its decision to close more than 300 Trump-affiliated bank accounts back in 2021, stating that it did so after a money-laundering review. The ‌disclosure marks ",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/americas/20260802-capital-one-cites-anti-money-laundering-probe-justify-closure-trump-organization-bank-accounts",
+      "primary_source": "Hindustan Times",
+      "excerpt": "톰 홀랜드와 젠다야가 주연을 맡은 슈퍼히어로 영화는 북미 이외의 지역에서 5억 7,300만 달러를 추가로 벌어들여 전세계 총액이 9억 2,800만 달러에 달했습니다.",
+      "excerpt_en": "The superhero film starring Tom Holland and Zendaya earned an additional US$573 million outside North America, putting its worldwide total at US$928 million.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/entertainment/spider-man-soars-huge-us355-million-opening-in-north-america-6294161",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
@@ -1011,35 +1126,82 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
-        "France24",
-        "The Independent"
+        "Channel News Asia",
+        "Hindustan Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-02T09:46:00+09:00",
-      "latest_published_at": "2026-08-02T17:07:36+09:00",
+      "first_published_at": "2026-08-02T14:35:01+09:00",
+      "latest_published_at": "2026-08-03T00:03:00+09:00",
       "articles": [
         {
-          "title": "Capital One says it closed over 300 Trump Organization accounts after anti-money laundering probe",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/capital-one-trump-bank-account-money-laundering-b3026067.html",
-          "published_at": "17:07"
+          "title": "Spider-Man soars to huge US$355 million opening in North America",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/entertainment/spider-man-soars-huge-us355-million-opening-in-north-america-6294161",
+          "published_at": "00:03"
         },
         {
-          "title": "Capital One cites anti-money laundering concerns in Trump Organization case",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/2/capital-one-cites-anti-money-laundering-concerns-in-trump-organization-case?traffic_source=rss",
-          "published_at": "16:27"
+          "title": "'Spider-Man: Brand New Day' opens to a huge $927 million global box office",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFlQbEdGa3g5TjA2Sno1dk5icnlES2wwWHE3MGtQcy1aMUE1d0RiWkU3SmRHMmloT25HeTlJWW8zLTdRdTJfdnFScWlBeDZQYklvRjR5SzFLUlVpZ3lLY3hIZUZnZEVUajRlZ1BJUGEtNzJpdFA5ZTFIaHBaN2tzX3FiVjJib2FsR1lqV2pkWFVSSFNfb01PcEdHajBVc2c?oc=5",
+          "published_at": "19:48"
         },
         {
-          "title": "Capital One bank cites money-laundering probe to justify closing Trump Organization accounts",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260802-capital-one-cites-anti-money-laundering-probe-justify-closure-trump-organization-bank-accounts",
-          "published_at": "09:46"
+          "title": "How Gen Z is driving ‘Spider-Man: Brand New Day’ toward $875 million",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/how-gen-z-is-driving-spider-man-brand-new-day-toward-875-million-101785680118515.html",
+          "published_at": "14:35"
         }
       ]
     },
     {
-      "id": "world-8",
+      "id": "world-81",
+      "title": "이란 전쟁 생중계: 트럼프는 회담 재개를 말했다; 테헤란, 미국에 MoU 존중 촉구",
+      "title_en": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "도널드 트럼프 미국 대통령은 이란과의 협상이 임박했으며 월요일부터 협상이 시작될 것이라고 밝혔습니다.",
+      "excerpt_en": "US President Donald Trump says an agreement with Iran is imminent, with negotiations set to begin on Monday.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 65,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 49
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-03T00:00:15+09:00",
+      "latest_published_at": "2026-08-03T03:17:36+09:00",
+      "articles": [
+        {
+          "title": "Iran-US war live: Trump says peace talks to resume Monday after canceling ‘World War II’ level strikes",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-trump-us-war-live-hormuz-attack-israel-saudi-b3025947.html",
+          "published_at": "03:17"
+        },
+        {
+          "title": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou?traffic_source=rss",
+          "published_at": "00:00"
+        }
+      ]
+    },
+    {
+      "id": "world-23",
       "title": "헝가리 총리, 핵 폐쇄가 임박할 '중요한' 날이 다가올 것이라고 경고",
       "title_en": "Hungary PM flags 'critical' days ahead with looming nuclear shutdown",
       "title_source": "earliest_pick",
@@ -1051,14 +1213,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/hungary-pm-flags-critical-days-ahead-with-looming-nuclear-shutdown-101785696136999.html",
       "translation_status": "ok",
-      "score": 65,
+      "score": 64,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
+        "time_score": 2,
+        "raw75": 48
       },
       "area_value": 2,
       "article_count": 2,
@@ -1086,118 +1248,17 @@
       ]
     },
     {
-      "id": "world-64",
-      "title": "트럼프 \"빠른 협상 위해 이란 공격 보류할 것\"",
-      "title_en": "Trump says will hold off on fresh Iran attack in hope of quick deal",
+      "id": "world-22",
+      "title": "그리스에서 소방헬기 충돌로 2명 사망, 프랑스 화재 진로 변경",
+      "title_en": "Two die as firefighting helicopters collide in Greece, French blaze changes course",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3295324/trump-says-will-hold-off-on-fresh-iran-attack-in-hope-of-quick-deal",
-      "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "카이로 – 도널드 트럼프 미국 대통령은 토요일 늦게 이란의 핵 야망을 중단하고 해협을 재개하기 위한 합의가 신속히 타결될 수 있는 한 이란에 대한 새로운 공격을 보류할 것이라고 말했습니다.",
-      "excerpt_en": "CAIRO - US President Donald ‌Trump said late on Saturday he would hold off on a fresh attack on Iran as long as a deal could be reached quickly to halt Iran's nuclear ambitions and reopen the Strait o",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3295324/trump-says-will-hold-off-on-fresh-iran-attack-in-hope-of-quick-deal",
-      "translation_status": "ok",
-      "score": 65,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Bangkok Post"
-      ],
-      "first_published_at": "2026-08-02T03:43:01+09:00",
-      "latest_published_at": "2026-08-02T19:08:06+09:00",
-      "articles": [
-        {
-          "title": "Iran says negotiations with Oman over Strait of Hormuz in final stages",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/2/iran-says-negotiations-with-oman-over-strait-of-hormuz-in-final-stages?traffic_source=rss",
-          "published_at": "19:08"
-        },
-        {
-          "title": "Trump says will hold off on fresh Iran attack in hope of quick deal",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3295324/trump-says-will-hold-off-on-fresh-iran-attack-in-hope-of-quick-deal",
-          "published_at": "03:43"
-        }
-      ]
-    },
-    {
-      "id": "world-108",
-      "title": "그리스에서 소방헬기 충돌로 2명 사망",
-      "title_en": "Two killed after firefighting helicopters in Greece collide",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
-      "category": "기타",
-      "primary_source": "France24",
-      "excerpt": "그리스 아테네 서쪽에서 바람에 휩싸인 산불을 진압하던 그리스 소방헬기 두 대가 공중에서 충돌해 항공기 한 대가 땅으로 추락했습니다. 두 명의 승무원, 그리스인",
-      "excerpt_en": "Two Greek firefighting helicopters collided in midair on Sunday as they were fighting a wind-driven wildfire west of Athens, sending one aircraft plummeting to the ground. Two crew members, a Greek an",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
-      "translation_status": "ok",
-      "score": 65,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 49
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "France24",
-        "NBC News"
-      ],
-      "first_published_at": "2026-08-02T09:03:11+09:00",
-      "latest_published_at": "2026-08-02T18:00:54+09:00",
-      "articles": [
-        {
-          "title": "2 killed after helicopters battling Greece wildfires collide",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/greece-europe-wildfire-helicopter-crash-9.7294476?cmp=rss",
-          "published_at": "18:00"
-        },
-        {
-          "title": "Video captures midair collision of Greek firefighting helicopters",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/video-captures-midair-collision-of-greek-firefighting-helicopters-267647045632",
-          "published_at": "16:27"
-        },
-        {
-          "title": "Two killed after firefighting helicopters in Greece collide",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds",
-          "published_at": "09:03"
-        }
-      ]
-    },
-    {
-      "id": "world-14",
-      "title": "WestJet 승무원, 회담 결렬 후 파업에 돌입",
-      "title_en": "WestJet flight attendants go on strike after talks fall through, grounding flights",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblhNTDVZU3dqTmw4d252dTlOaS1pdnFEcU5ZTjdobll4RnNJYXdVVkszRExqOHRLRGFYbG5XNVE3a0h0TUp3UzZocVNic3l1dXdPMzNGaDljWWZmS2kwUF90RVlfcG02TVc0LVJTS0dqbUV2QWhLZlhEVTloNHUxUjZJLXdwb0FRUk8td1FDaHdUdC1SalhBTWlJVEJ5cDBiaGlmeWtLNHBycWJlVFU0VTlFYThLamVfMGNB?oc=5",
-      "category": "미국",
+      "title_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU0hsUjhJMWI1WXh1VkRmYTVMdzNvcmpNeEplc3pyeHFsM0J5LU9mSzJkNk9sUXpUQ3JITERKRzlNQ004Sm9WMHplUVVyYm9UWmowQjR2ZXlscnJXc3JOMmtKTG1aWUMzNXduNENWY2Y5UFlPWEZnbUpNR1VzYV9kQjJrUGgxNXFvYnBpSVBKdlVEajBzRklYYThaWGtXb25BU0FIN0QzYlFxWmMyRVRUdnRzcHpua2xYdktsNklfQ1hpVE1zSHc?oc=5",
+      "category": "아시아",
       "primary_source": "Reuters",
-      "excerpt": "WestJet은 일요일 오전부터 300편 이상의 항공편을 취소하여 3일간의 주말 동안 캐나다 여행 계획을 혼란스럽게 만들었습니다.",
-      "excerpt_en": "WestJet canceled more than 300 flights as of early Sunday, snarling travel plans in Canada in the middle of a three-day weekend.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/canada-westjet-flight-attendants-strike/",
+      "excerpt": "그리스 TV에서 방송된 영상에는 헬리콥터 한 대가 위에서 다른 헬리콥터를 공격해 화염에 휩싸여 지상으로 추락하는 모습이 담겨 있습니다.",
+      "excerpt_en": "Footage broadcast on Greek TV showed one helicopter strike the other from above, sending it crashing in flames to the ground.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/europe/two-killed-as-firefighting-helicopters-collide-in-greece-20260803-p60ksd.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1213,38 +1274,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
-        "Reuters"
+        "Reuters",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-08-02T06:16:00+09:00",
-      "latest_published_at": "2026-08-02T12:27:28+09:00",
+      "first_published_at": "2026-08-02T11:28:00+09:00",
+      "latest_published_at": "2026-08-02T22:46:17+09:00",
       "articles": [
         {
-          "title": "Flights canceled as WestJet flight attendants strike over pay dispute",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/canada-westjet-flight-attendants-strike/",
-          "published_at": "12:27"
+          "title": "Two die as Australian firefighting helicopters collide in Greece",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/two-killed-as-firefighting-helicopters-collide-in-greece-20260803-p60ksd.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "22:46"
         },
         {
-          "title": "WestJet flight attendants go on strike after talks fall through, grounding flights",
+          "title": "Two die as firefighting helicopters collide in Greece, French blaze changes course",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblhNTDVZU3dqTmw4d252dTlOaS1pdnFEcU5ZTjdobll4RnNJYXdVVkszRExqOHRLRGFYbG5XNVE3a0h0TUp3UzZocVNic3l1dXdPMzNGaDljWWZmS2kwUF90RVlfcG02TVc0LVJTS0dqbUV2QWhLZlhEVTloNHUxUjZJLXdwb0FRUk8td1FDaHdUdC1SalhBTWlJVEJ5cDBiaGlmeWtLNHBycWJlVFU0VTlFYThLamVfMGNB?oc=5",
-          "published_at": "06:16"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU0hsUjhJMWI1WXh1VkRmYTVMdzNvcmpNeEplc3pyeHFsM0J5LU9mSzJkNk9sUXpUQ3JITERKRzlNQ004Sm9WMHplUVVyYm9UWmowQjR2ZXlscnJXc3JOMmtKTG1aWUMzNXduNENWY2Y5UFlPWEZnbUpNR1VzYV9kQjJrUGgxNXFvYnBpSVBKdlVEajBzRklYYThaWGtXb25BU0FIN0QzYlFxWmMyRVRUdnRzcHpua2xYdktsNklfQ1hpVE1zSHc?oc=5",
+          "published_at": "11:28"
         }
       ]
     },
     {
-      "id": "world-114",
-      "title": "이스라엘 가자지구 공습으로 8명 사망",
-      "title_en": "8 killed in overnight Israeli strikes on Gaza",
+      "id": "world-50",
+      "title": "트럼프는 이란에 대한 공격을 중단하겠다고 자주 발표했다. 하지만 그런 일이 계속 일어나고 있어요",
+      "title_en": "Trump frequently announces he’s halting strikes in Iran. But they keep happening",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/eight-killed-in-overnight-israeli-strikes-on-gaza-101785644646124.html",
+      "title_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdTlJZWZtalpsdl9pdHI2eDlzTl9iNndGZjlHRzZUSks2ZlZMU2VNcTQ4UEl4bWxEUExOSk9MV1M0UmY1eGp0QlZzUkNnZWxOYnlIbnU2ZG5FbHlUdjFXbUlkSUFmSkluRnUzVTRjN0FHV29Kc3AxMnpWS0VlNkhaZ2dOQ0FfY0FLSjVTREpPeThGRmNfV29QQUl3?oc=5",
       "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "이스라엘은 가자지구에서 밤새 공습을 감행해 최소 8명이 사망했다. 이것은 이번 일요일 아침에 스트립의 모습입니다. 한 번의 공격에서는 이스라엘 군 헬리콥터가 아파트를 공격해 사망했습니다.",
-      "excerpt_en": "Israel carried out overnight strikes in Gaza, killing at least eight people. This is a look at the Strip this Sunday morning. In one attack, an Israeli military helicopter struck an apartment, killing",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/gaza-overnight-israeli-strikes-kill-at-least-8",
+      "primary_source": "AP News",
+      "excerpt": "트럼프는 이란에 대한 공격을 중단하겠다고 자주 발표했다. 하지만 그런 일이 계속 일어나고 있습니다. AP 뉴스",
+      "excerpt_en": "Trump frequently announces he’s halting strikes in Iran. But they keep happening AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdTlJZWZtalpsdl9pdHI2eDlzTl9iNndGZjlHRzZUSks2ZlZMU2VNcTQ4UEl4bWxEUExOSk9MV1M0UmY1eGp0QlZzUkNnZWxOYnlIbnU2ZG5FbHlUdjFXbUlkSUFmSkluRnUzVTRjN0FHV29Kc3AxMnpWS0VlNkhaZ2dOQ0FfY0FLSjVTREpPeThGRmNfV29QQUl3?oc=5",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1260,94 +1321,47 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
+        "AP News",
         "Hindustan Times"
       ],
-      "first_published_at": "2026-08-02T04:34:16+09:00",
-      "latest_published_at": "2026-08-02T08:42:26+09:00",
+      "first_published_at": "2026-08-02T20:09:00+09:00",
+      "latest_published_at": "2026-08-02T20:10:12+09:00",
       "articles": [
         {
-          "title": "Gaza: overnight Israeli strikes kill at least 8",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/gaza-overnight-israeli-strikes-kill-at-least-8",
-          "published_at": "08:42"
-        },
-        {
-          "title": "8 killed in overnight Israeli strikes on Gaza",
+          "title": "Trump frequently announces he's halting strikes in Iran. But they keep happening",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/eight-killed-in-overnight-israeli-strikes-on-gaza-101785644646124.html",
-          "published_at": "04:34"
-        }
-      ]
-    },
-    {
-      "id": "world-4",
-      "title": "파키스탄 경찰서 폭탄테러로 최소 14명 사망",
-      "title_en": "Pakistan Police Station Bombing Kills at Least 14",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
-      "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "당국은 스와트 밸리에서 발생한 자살폭탄 테러로 최소 14명이 사망했다고 밝혔습니다. 파키스탄 탈레반이 자신들의 책임을 주장했습니다.",
-      "excerpt_en": "The authorities said the suicide bombing, which killed at least 14 people in the Swat Valley. The Pakistani Taliban claimed responsibility.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
-      "translation_status": "ok",
-      "score": 59,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-02T18:25:12+09:00",
-      "latest_published_at": "2026-08-02T19:26:47+09:00",
-      "articles": [
-        {
-          "title": "Suspected suicide bombing at police station kills at least 14 in Pakistan, officials say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTZuMDlfeGlmTG14UGlTZ2EtWHd6LVR1Nk9zSlE1ZDNwZ19PbTVnS1B2bktSZnMxRjFYaU9RX29Xa0djazNpRW0xVThaOHVtVW0xZTFiVURWd1dGNkd0cWV2OHNLcGI1OTVOY19JUTdTX3RiZmE0RzdHWjdTd29jLVlMNUFtM3R5cHBkNHYzbjVqYkh4eXlGNUtDYlduVkxOTG9jaWlZS1FHN2J6QjZTb00zWC1mblRzcFhsYjYwWUgxb0YxNTRYZXRPcjUxUQ?oc=5",
-          "published_at": "19:26"
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-frequently-announces-he-s-halting-strikes-in-iran-but-they-keep-happening-101785701412805.html",
+          "published_at": "20:10"
         },
         {
-          "title": "Pakistan Police Station Bombing Kills at Least 14",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
-          "published_at": "18:25"
+          "title": "Trump frequently announces he’s halting strikes in Iran. But they keep happening",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdTlJZWZtalpsdl9pdHI2eDlzTl9iNndGZjlHRzZUSks2ZlZMU2VNcTQ4UEl4bWxEUExOSk9MV1M0UmY1eGp0QlZzUkNnZWxOYnlIbnU2ZG5FbHlUdjFXbUlkSUFmSkluRnUzVTRjN0FHV29Kc3AxMnpWS0VlNkhaZ2dOQ0FfY0FLSjVTREpPeThGRmNfV29QQUl3?oc=5",
+          "published_at": "20:09"
         }
       ]
     },
     {
-      "id": "world-34",
-      "title": "유럽 ​​산불 비상사태 격화, 아테네 인근에서 소방헬기 충돌해 2명 사망",
-      "title_en": "2 killed when firefighting helicopters collide near Athens as Europe’s wildfire emergency rages",
+      "id": "world-145",
+      "title": "성추행 및 성접촉 혐의에 대한 앨런 존스 재판이 시드니에서 시작됩니다.",
+      "title_en": "Alan Jones trial on indecent assault and sexual touching charges begins in Sydney",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSVVmOGN3UkdYdHBLWVhmMlFheVFwZkplU2xkekoybWZtRi0tbXFRMHBwVHpBTUlwU1RfdFVBTUhuSEVVYnQ0TFVLYXFTWlFNbDZ6Q3JhQUwtMTk0R25HRlZ4OVNKOWtwN2FzYW5Ia2NKdWFsd1U2OFdXVWFyb290dGFUT2VDREhreE5CbUxUQWlmRi1KaWlNdGVuRF80NThpckZ2c2VsSlVRTzU0aUFUVTI4RQ?oc=5",
-      "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "유럽의 산불 비상사태가 계속되는 가운데 아테네 인근에서 헬리콥터 두 대가 충돌해 소방관 두 명이 사망했습니다.",
-      "excerpt_en": "Two firefighters are dead after a collision between two helicopters near Athens, as Europe's wildfire emergency continues.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-03/europe-fires-heatwave-firefighting-collide/106988510",
+      "title_url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb",
+      "category": "아시아",
+      "primary_source": "The Guardian",
+      "excerpt": "85세의 전직 방송인은 4개월 간의 재판이 예상되는 가운데 6명의 고소인으로부터 22건의 혐의를 받고 있습니다. Alan Jones 재판은 실시간 업데이트됩니다.",
+      "excerpt_en": "The 85-year-old former broadcaster faces 22 charges from six different complainants in what is expected to be a four-month trial Alan Jones trial live updates The high-profile trial of former broadcas",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb",
       "translation_status": "ok",
-      "score": 59,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1355,37 +1369,37 @@
       "source_count": 2,
       "sources": [
         "ABC News Australia",
-        "AP News"
+        "The Guardian"
       ],
-      "first_published_at": "2026-08-02T18:37:00+09:00",
-      "latest_published_at": "2026-08-02T18:55:36+09:00",
+      "first_published_at": "2026-08-02T15:00:27+09:00",
+      "latest_published_at": "2026-08-02T23:49:56+09:00",
       "articles": [
         {
-          "title": "Two firefighting helicopters collide midair fighting blazes in Greece",
+          "title": "Alan Jones allegedly kissed 17yo student at property, court told",
           "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-03/europe-fires-heatwave-firefighting-collide/106988510",
-          "published_at": "18:55"
+          "url": "https://www.abc.net.au/news/2026-08-03/alan-jones-indecent-assault-sexual-touching-trial-starts/106985660",
+          "published_at": "23:49"
         },
         {
-          "title": "2 killed when firefighting helicopters collide near Athens as Europe’s wildfire emergency rages",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSVVmOGN3UkdYdHBLWVhmMlFheVFwZkplU2xkekoybWZtRi0tbXFRMHBwVHpBTUlwU1RfdFVBTUhuSEVVYnQ0TFVLYXFTWlFNbDZ6Q3JhQUwtMTk0R25HRlZ4OVNKOWtwN2FzYW5Ia2NKdWFsd1U2OFdXVWFyb290dGFUT2VDREhreE5CbUxUQWlmRi1KaWlNdGVuRF80NThpckZ2c2VsSlVRTzU0aUFUVTI4RQ?oc=5",
-          "published_at": "18:37"
+          "title": "Alan Jones trial on indecent assault and sexual touching charges begins in Sydney",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb",
+          "published_at": "15:00"
         }
       ]
     },
     {
-      "id": "world-162",
-      "title": "그리스에서 소방 헬기 충돌로 승무원 2명 사망, 2명 생존 발견",
-      "title_en": "2 crew members dead, 2 found alive after firefighting helicopters collide in Greece",
+      "id": "world-55",
+      "title": "인도네시아 여객선에서 화재가 발생해 최소 5명이 숨지고 수십 명이 실종됐다.",
+      "title_en": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "그리스 소방국은 일요일 아테네 서쪽에서 통제할 수 없을 정도로 타오르는 대규모 산불과 맞서 싸우던 소방헬기 두 대가 충돌해 승무원 2명이 숨지고 다른 2명은 부상을 입었다고 밝혔습니다.",
-      "excerpt_en": "Greece’s fire department says the collision of two firefighting helicopters battling a major wildfire burning out of control west of Athens on Sunday left two crew members dead, while another two were",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0lKdjVraF9jNC00MkFVWW9laUIzY3dhUGtXZE5sT1J2dzVCUFo0dS1EZ1ZOZTVlWHhBaXRYeFZDb1ZTeXdCM3lyQi1xWm9wd3JxWVVsNU5ycWI1Ynd1WUM0WVJQVllad1VudGJwRGRlcWZrT2JENC1vRVVWSTNQMUt4cklGUG91dzgySTVRcVlGbU9XUGZiaXE4M1I?oc=5",
+      "category": "아시아",
+      "primary_source": "AP News",
+      "excerpt": "271명을 태운 인도네시아 여객선에서 마두라 섬 앞바다에서 화재가 발생해 최소 5명이 사망하고 41명이 실종됐다고 당국이 밝혔다.",
+      "excerpt_en": "An Indonesian ferry carrying 271 people has caught fire in waters off Madura island, killing at least five people and leaving 41 others unaccounted for, authorities said",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/blaze-indonesian-passenger-ferry-leaves-5-dead-dozens-135302801",
       "translation_status": "ok",
       "score": 59,
       "score_breakdown": {
@@ -1402,37 +1416,37 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "SCMP"
+        "AP News"
       ],
-      "first_published_at": "2026-08-02T15:16:08+09:00",
-      "latest_published_at": "2026-08-02T18:18:03+09:00",
+      "first_published_at": "2026-08-03T02:42:00+09:00",
+      "latest_published_at": "2026-08-03T03:05:54+09:00",
       "articles": [
         {
-          "title": "2 killed when firefighting helicopters collide near Athens as Europe’s wildfire emergency rages",
+          "title": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/french-wildfire-bordeaux-contained-1500-firefighters-battle-separate-135302556",
-          "published_at": "18:18"
+          "url": "https://abcnews.com/International/wireStory/blaze-indonesian-passenger-ferry-leaves-5-dead-dozens-135302801",
+          "published_at": "03:05"
         },
         {
-          "title": "2 crew members dead, 2 found alive after firefighting helicopters collide in Greece",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed",
-          "published_at": "15:16"
+          "title": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0lKdjVraF9jNC00MkFVWW9laUIzY3dhUGtXZE5sT1J2dzVCUFo0dS1EZ1ZOZTVlWHhBaXRYeFZDb1ZTeXdCM3lyQi1xWm9wd3JxWVVsNU5ycWI1Ynd1WUM0WVJQVllad1VudGJwRGRlcWZrT2JENC1vRVVWSTNQMUt4cklGUG91dzgySTVRcVlGbU9XUGZiaXE4M1I?oc=5",
+          "published_at": "02:42"
         }
       ]
     },
     {
-      "id": "world-20",
-      "title": "중국 간쑤(甘肅)성에서 폭우가 계속되면서 산사태 사망자가 늘고 있다.",
-      "title_en": "Landslide death toll rises in China's Gansu Province as heavy rains continue",
+      "id": "world-24",
+      "title": "인도네시아 여객선에 화재가 발생해 최소 5명이 숨지고 수십 명이 실종됐다.",
+      "title_en": "At least five dead and dozens missing after Indonesian ferry catches fire",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU211TUJlRDhVUV9BaEFiVG9wY18xdnJ0U1NBZDgtRFZsVTVDN0puSnkyRnk0Mi11Q0RrcV9NalNyY2RxUDNNNjkwM3FnNlVNTkZMcVBVeGF3RHBHNXFqclEtME9JSWxpRHJjRXNMRUgtVlpfYl9lUzlfZ1RsRm1SRXdjMGJsSy1lYzVEWjBFbVNhRHVjenMzWkRfYUUwV3BvRmdSdXBsVnVnaGhxSFV1YXRULWplREx5YVVJcEFFQVZBUEd6?oc=5",
+      "title_url": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145",
       "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "중국은 지난 주 북서부 간쑤(甘肅)성에서 발생한 돌발 홍수로 인한 사망자 수를 늘렸다. 중국 전역이 폭우와 강물 범람의 영향으로 계속 싸우고 있기 때문이다. 성",
-      "excerpt_en": "China has raised the death toll from last week’s flash floods in the northwestern province of Gansu as large parts of the country continue to battle the impact of heavy rainfall and swollen rivers. St",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/article/3362695/china-floods-large-parts-country-remain-alert-gansu-province-death-toll-rises?utm_source=rss_feed",
+      "primary_source": "Sky News",
+      "excerpt": "인도네시아 섬 앞바다에서 여객선에 불이 붙어 최소 5명이 숨지고 41명이 실종됐다고 관계자들이 밝혔다.",
+      "excerpt_en": "At least five people have died and 41 are missing after a ferry caught fire off the coast of an Indonesian island, officials have said.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145",
       "translation_status": "ok",
       "score": 57,
       "score_breakdown": {
@@ -1449,84 +1463,37 @@
       "source_count": 2,
       "sources": [
         "Reuters",
-        "SCMP"
+        "Sky News"
       ],
-      "first_published_at": "2026-08-02T04:12:00+09:00",
-      "latest_published_at": "2026-08-02T06:58:42+09:00",
+      "first_published_at": "2026-08-02T10:05:00+09:00",
+      "latest_published_at": "2026-08-02T13:07:16+09:00",
       "articles": [
         {
-          "title": "China floods: large parts of country remain on alert as Gansu province death toll rises",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/article/3362695/china-floods-large-parts-country-remain-alert-gansu-province-death-toll-rises?utm_source=rss_feed",
-          "published_at": "06:58"
-        },
-        {
-          "title": "Landslide death toll rises in China's Gansu Province as heavy rains continue",
+          "title": "Five dead, 41 missing after Indonesian ferry catches fire, authorities say",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU211TUJlRDhVUV9BaEFiVG9wY18xdnJ0U1NBZDgtRFZsVTVDN0puSnkyRnk0Mi11Q0RrcV9NalNyY2RxUDNNNjkwM3FnNlVNTkZMcVBVeGF3RHBHNXFqclEtME9JSWxpRHJjRXNMRUgtVlpfYl9lUzlfZ1RsRm1SRXdjMGJsSy1lYzVEWjBFbVNhRHVjenMzWkRfYUUwV3BvRmdSdXBsVnVnaGhxSFV1YXRULWplREx5YVVJcEFFQVZBUEd6?oc=5",
-          "published_at": "04:12"
-        }
-      ]
-    },
-    {
-      "id": "world-33",
-      "title": "파키스탄에서 눈사태에 휩쓸려 등산객 10명 전원 사망한 것으로 확인",
-      "title_en": "All 10 climbers swept away in avalanche in Pakistan are confirmed dead",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQUliYnNTNW9Pdm9nd3MwRWpIYmxNX3JBTGg5VUpEQlpvWnRnWnRhSEQwcWhZMmRkU3A4TndHNC14b3lZbGhpeTR5cVEzTlpPeHR1TFo4RUNBaWVmTDJvTXNyVFdhN3RydkhFaFl3RFg3ZUJCNzMzeGExbmN1SnF2UTk2VzRjaWQteVlpZXNnNG1FamMxejRSWEpYci0wUnpubXVzNDE1TTVEMW1pcUpJTw?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "Nirmal Purja의 회사인 Elite Exped는 성명을 통해 “세계는 등산계에서 가장 위대한 등반가 중 한 명을 잃었습니다.”라고 말했습니다.",
-      "excerpt_en": "“The world has lost one of mountaineering's greatest climbers,” Nirmal Purja's company, Elite Exped, said in a statement.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/pakistan-avalanche-all-10-climbers-swept-away-confirmed-dead-nirmal-purja-alpine-club-elite-exped-101785655820529.html",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-02T06:55:00+09:00",
-      "latest_published_at": "2026-08-02T07:41:14+09:00",
-      "articles": [
-        {
-          "title": "All 10 climbers swept away in avalanche in Pakistan are confirmed dead",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pakistan-avalanche-all-10-climbers-swept-away-confirmed-dead-nirmal-purja-alpine-club-elite-exped-101785655820529.html",
-          "published_at": "07:41"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPalBXdlNoQ05vVlFLOElTc3BweEhPcWhyd2x4UjBiUmROdDVKN0tvZGlSWnFveF8tNG1zZVBjbVM3VGhYc2hTNGVlZzJrUzcyeEZaY0h5Zllrd25MNUl2ZkI0bGpnaEZubUlYTmNXSUl4RjVpZ2pmckVta1J1NWVQTWlsRVV6aG5JM3BVb2RlMWJncnVqblEyV0R3YmFSNWl3Q1FESl9zVEx0T3ZydjZCX0F0REdZdF9yTUVqZmRwd2lnR3NZRHc?oc=5",
+          "published_at": "13:07"
         },
         {
-          "title": "All 10 climbers swept away in avalanche in Pakistan are confirmed dead",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQUliYnNTNW9Pdm9nd3MwRWpIYmxNX3JBTGg5VUpEQlpvWnRnWnRhSEQwcWhZMmRkU3A4TndHNC14b3lZbGhpeTR5cVEzTlpPeHR1TFo4RUNBaWVmTDJvTXNyVFdhN3RydkhFaFl3RFg3ZUJCNzMzeGExbmN1SnF2UTk2VzRjaWQteVlpZXNnNG1FamMxejRSWEpYci0wUnpubXVzNDE1TTVEMW1pcUpJTw?oc=5",
-          "published_at": "06:55"
+          "title": "At least five dead and dozens missing after Indonesian ferry catches fire",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145",
+          "published_at": "10:05"
         }
       ]
     },
     {
-      "id": "world-41",
-      "title": "인도네시아 여객선에서 화재가 발생해 최소 5명이 숨지고 수십 명이 실종됐다.",
-      "title_en": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
+      "id": "world-51",
+      "title": "유럽 ​​산불 비상사태 격화, 아테네 인근에서 소방헬기 충돌해 2명 사망",
+      "title_en": "2 killed when firefighting helicopters collide near Athens as Europe’s wildfire emergency rages",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/blaze-indonesian-passenger-ferry-leaves-5-dead-dozens-135302801",
-      "category": "아시아",
+      "title_url": "https://abcnews.com/International/wireStory/french-wildfire-bordeaux-contained-1500-firefighters-battle-separate-135302556",
+      "category": "유럽",
       "primary_source": "ABC News",
-      "excerpt": "271명을 태운 인도네시아 여객선에서 마두라 섬 앞바다에서 화재가 발생해 최소 5명이 사망하고 41명이 실종됐다고 당국이 밝혔다.",
-      "excerpt_en": "An Indonesian ferry carrying 271 people has caught fire in waters off Madura island, killing at least five people and leaving 41 others unaccounted for, authorities said",
+      "excerpt": "그리스 소방국은 아테네 서쪽에서 통제할 수 없을 정도로 타오르는 대규모 산불과 맞서 싸우던 소방헬기 두 대가 충돌해 승무원 2명이 숨지고 2명이 구조됐다고 밝혔습니다.",
+      "excerpt_en": "Greece’s fire department says the collision of two firefighting helicopters battling a major wildfire burning out of control west of Athens left two crew members dead, while another two were recovered",
       "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/blaze-indonesian-passenger-ferry-leaves-5-dead-dozens-135302801",
+      "excerpt_url": "https://abcnews.com/International/wireStory/french-wildfire-bordeaux-contained-1500-firefighters-battle-separate-135302556",
       "translation_status": "ok",
       "score": 57,
       "score_breakdown": {
@@ -1545,25 +1512,119 @@
         "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-08-02T13:36:57+09:00",
-      "latest_published_at": "2026-08-02T13:49:00+09:00",
+      "first_published_at": "2026-08-02T18:18:03+09:00",
+      "latest_published_at": "2026-08-02T18:37:00+09:00",
       "articles": [
         {
-          "title": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
+          "title": "2 killed when firefighting helicopters collide near Athens as Europe’s wildfire emergency rages",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0lKdjVraF9jNC00MkFVWW9laUIzY3dhUGtXZE5sT1J2dzVCUFo0dS1EZ1ZOZTVlWHhBaXRYeFZDb1ZTeXdCM3lyQi1xWm9wd3JxWVVsNU5ycWI1Ynd1WUM0WVJQVllad1VudGJwRGRlcWZrT2JENC1vRVVWSTNQMUt4cklGUG91dzgySTVRcVlGbU9XUGZiaXE4M1I?oc=5",
-          "published_at": "13:49"
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSVVmOGN3UkdYdHBLWVhmMlFheVFwZkplU2xkekoybWZtRi0tbXFRMHBwVHpBTUlwU1RfdFVBTUhuSEVVYnQ0TFVLYXFTWlFNbDZ6Q3JhQUwtMTk0R25HRlZ4OVNKOWtwN2FzYW5Ia2NKdWFsd1U2OFdXVWFyb290dGFUT2VDREhreE5CbUxUQWlmRi1KaWlNdGVuRF80NThpckZ2c2VsSlVRTzU0aUFUVTI4RQ?oc=5",
+          "published_at": "18:37"
         },
         {
-          "title": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
+          "title": "2 killed when firefighting helicopters collide near Athens as Europe’s wildfire emergency rages",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/blaze-indonesian-passenger-ferry-leaves-5-dead-dozens-135302801",
-          "published_at": "13:36"
+          "url": "https://abcnews.com/International/wireStory/french-wildfire-bordeaux-contained-1500-firefighters-battle-separate-135302556",
+          "published_at": "18:18"
         }
       ]
     },
     {
-      "id": "world-126",
+      "id": "world-60",
+      "title": "페루 나스카 경계선 근처 관광객 태운 비행기 추락해 13명 사망",
+      "title_en": "Thirteen dead as plane carrying tourists crashes near Peru’s Nazca Lines",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/peru-plane-crash-nazca-lines-deaths-b3025948.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "당국은 독일, 이탈리아, 스페인 방문객 등 관광객 11명과 승무원 2명이 탑승했다고 밝혔습니다.",
+      "excerpt_en": "Authorities say 11 tourists, including German, Italian and Spanish visitors, and two crew members were on board",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/peru-plane-crash-nazca-lines-deaths-b3025948.html",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-02T07:09:01+09:00",
+      "latest_published_at": "2026-08-02T18:35:00+09:00",
+      "articles": [
+        {
+          "title": "Plane carrying European tourists crashes in Peru, killing 13 people on Nazca Lines viewing flight",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLWZkRTh0SXlFdnZSX2hqRGRvNzI4cXIzOEg2MFIyWGpMVWs4cVNhYkJPbjBHZHR0aUpZSzVXWnVuQmtkaDFueGwxUldON0YwWElNNnFlWDFGR0Q3NmVDRENQMEdzN1VYcjJfLTJySUkwZWZZUWlIbFhMOEFzTlF5Y05B?oc=5",
+          "published_at": "18:35"
+        },
+        {
+          "title": "Thirteen dead as plane carrying tourists crashes near Peru’s Nazca Lines",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/peru-plane-crash-nazca-lines-deaths-b3025948.html",
+          "published_at": "07:09"
+        }
+      ]
+    },
+    {
+      "id": "world-134",
+      "title": "페루: 관광 비행기 추락해 탑승자 13명 전원 사망",
+      "title_en": "Peru: Tourist plane crashes killing all 13 people aboard",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/peru-tourist-plane-crashes-killing-all-13-people-aboard",
+      "category": "기타",
+      "primary_source": "France24",
+      "excerpt": "페루에서 소형 관광 비행기가 이륙 직후 추락해 외국인 관광객 11명과 승무원 2명이 사망했습니다. 충돌 원인은 아직 알려지지 않았으며 조사는 귀하가 진행하고 있습니다.",
+      "excerpt_en": "Eleven foreign tourists and two crew members have been killed after a small sightseeing plane crashed shortly after take-off in Peru. The cause of the crash is not yet known, and an investigation is u",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/peru-tourist-plane-crashes-killing-all-13-people-aboard",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-02T08:50:08+09:00",
+      "latest_published_at": "2026-08-02T19:46:56+09:00",
+      "articles": [
+        {
+          "title": "Peru probes crash of tourist plane that killed 13",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/peru-probes-crash-of-tourist-plane-that-killed-13-101785700017103.html",
+          "published_at": "19:46"
+        },
+        {
+          "title": "Peru: Tourist plane crashes killing all 13 people aboard",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/peru-tourist-plane-crashes-killing-all-13-people-aboard",
+          "published_at": "08:50"
+        }
+      ]
+    },
+    {
+      "id": "world-147",
       "title": "유럽 ​​산불 위기 속에 그리스에서 소방헬기 충돌",
       "title_en": "Firefighting helicopters collide in Greece amid European wildfire crisis",
       "title_source": "earliest_pick",
@@ -1610,211 +1671,17 @@
       ]
     },
     {
-      "id": "world-190",
-      "title": "트럼프, 이란 전쟁 종식 위해 합의 매개변수 도달했다고 주장",
-      "title_en": "Trump claims deal parameters reached to end Iran war, pauses new strikes",
+      "id": "world-47",
+      "title": "AI 지원 무대 연출로 독일 리차드 바그너 페스티벌에서 야유를 불러일으키다",
+      "title_en": "AI-assisted staging draws boos at the Richard Wagner festival in Germany",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/donald-trump-claims-deal-parameters-reached-to-end-us-iran-israel-war-pauses-new-strikes-strait-of-hormuz-101785637883275.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "도널드 트럼프 미국 대통령은 지난 토요일 저녁 소셜미디어에 올린 글에서 중동 동맹국들이 이란 전쟁을 끝내기 위한 합의의 변수에 도달했다고 주장하며 이란 전쟁 명령을 연기하겠다고 밝혔습니다.",
-      "excerpt_en": "US President Donald Trump in a Saturday evening social media post claimed that Middle Eastern allies had reached the parameters of a deal to end the Iran war and said that he would hold off on orderin",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3362682/trump-holds-iran-strikes-after-middle-east-allies-outline-deal?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 9,
-        "time_score": 1,
-        "raw75": 43
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-02T02:35:57+09:00",
-      "latest_published_at": "2026-08-02T04:29:03+09:00",
-      "articles": [
-        {
-          "title": "Oil, gas fields in Saudi, Qatar, Israel among Iran's targets if US attacks",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/oil-gas-fields-in-saudi-qatar-israel-among-iran-targets-if-us-attacks-trump-us-iran-peace-deal-parameters-101785641351415.html",
-          "published_at": "04:29"
-        },
-        {
-          "title": "Trump holds off Iran strikes after Middle East allies outline deal",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362682/trump-holds-iran-strikes-after-middle-east-allies-outline-deal?utm_source=rss_feed",
-          "published_at": "03:54"
-        },
-        {
-          "title": "Trump claims deal parameters reached to end Iran war, pauses new strikes",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/donald-trump-claims-deal-parameters-reached-to-end-us-iran-israel-war-pauses-new-strikes-strait-of-hormuz-101785637883275.html",
-          "published_at": "02:35"
-        }
-      ]
-    },
-    {
-      "id": "world-234",
-      "title": "인도네시아 여객선 화재로 5명 사망, 41명 실종",
-      "title_en": "Five dead, 41 missing in Indonesia ferry fire",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/death-toll-missing-in-indonesia-ferry-fire-rescue-east-java-makassar-south-sulawesi-101785663403470.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "무티아라 센토사 2호 페리는 인도네시아 제2의 도시인 동부 자바의 수라바야에서 남부 술라웨시의 마카사르 시로 이동 중이었습니다.",
-      "excerpt_en": "The Mutiara Sentosa 2 ferry was traveling from Indonesia's second-largest city of Surabaya in East Java to the city of Makassar in South Sulawesi.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/indonesia-passenger-ferry-fire-mutiara-sentosa-2/",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-02T09:39:10+09:00",
-      "latest_published_at": "2026-08-02T13:00:00+09:00",
-      "articles": [
-        {
-          "title": "5 killed, dozens missing after blaze breaks out on Indonesia ferry",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/indonesia-passenger-ferry-fire-mutiara-sentosa-2/",
-          "published_at": "13:00"
-        },
-        {
-          "title": "Five dead, 41 missing in Indonesia ferry fire",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/death-toll-missing-in-indonesia-ferry-fire-rescue-east-java-makassar-south-sulawesi-101785663403470.html",
-          "published_at": "09:39"
-        }
-      ]
-    },
-    {
-      "id": "world-238",
-      "title": "스페인 세우타 이민자 유입으로 최소 72명 사망",
-      "title_en": "At least 72 died in Spain's Ceuta migrant rush",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3295365/at-least-72-died-in-spains-ceuta-migrant-rush",
+      "title_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY3ozYU5WMW5HQTZ6cTJUaWk1dWxtRmVmQXhFOTBxa25rWUpZYVZPTHBsaXRwcFE5d3hCX2NtLU42cWk5Nm9LVHhhaDN4VWFKSWl5cHBNQUI5MFQ5U2JKUHh4cVF3Zk1MeTRrMndfenkyZmJqQ2RyTWsxYkRGTXJJUk54UndCak5BQXVVdmZtdDRsbWhpaENHS1lsWQ?oc=5",
       "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "CEUTA (스페인) - 지난 주 스페인 세우타 지역으로 이민자들이 대량 유입되면서 최소 72명이 사망했습니다.",
-      "excerpt_en": "CEUTA (SPAIN) - At least 72 people died during last week's mass influx of migrants into Spain's Ceuta enclave, when tens of thousands of people mostly swam around the border post from Morocco, local o",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3295365/at-least-72-died-in-spains-ceuta-migrant-rush",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "Fox News"
-      ],
-      "first_published_at": "2026-08-02T10:45:00+09:00",
-      "latest_published_at": "2026-08-02T17:01:11+09:00",
-      "articles": [
-        {
-          "title": "At least 72 dead amid mass migrant rush to storm Spanish enclave of Ceuta sparking border crisis",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/least-72-dead-mass-migrant-rush-storm-spanish-enclave-ceuta-sparking-border-crisis",
-          "published_at": "17:01"
-        },
-        {
-          "title": "At least 72 died in Spain's Ceuta migrant rush",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3295365/at-least-72-died-in-spains-ceuta-migrant-rush",
-          "published_at": "10:45"
-        }
-      ]
-    },
-    {
-      "id": "world-97",
-      "title": "미국: 아이다호 인앤아웃 버거 총격 사건으로 다수 사망",
-      "title_en": "US: Multiple dead in shooting at In-N-Out Burger in Idaho",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/us-multiple-dead-in-shooting-at-in-n-out-burger-in-idaho/a-78205684?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "미국",
-      "primary_source": "DW",
-      "excerpt": "아이다호 남부의 인앤아웃 버거 레스토랑에서 총격 사건이 발생해 여러 명이 사망했습니다. 총격 용의자는 사망했다고 경찰은 밝혔다.",
-      "excerpt_en": "Multiple people were killed in a shooting at an In-N-Out Burger restaurant in southern Idaho. The suspected shooter is dead, police said.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/us-multiple-dead-in-shooting-at-in-n-out-burger-in-idaho/a-78205684?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 42
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-08-02T03:51:00+09:00",
-      "latest_published_at": "2026-08-02T04:53:17+09:00",
-      "articles": [
-        {
-          "title": "Three killed, seven injured in shooting at Idaho burger restaurant",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/multiple-people-killed-in-southern-idaho-shooting-20260802-p60kno.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "04:53"
-        },
-        {
-          "title": "US: Multiple dead in shooting at In-N-Out Burger in Idaho",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/us-multiple-dead-in-shooting-at-in-n-out-burger-in-idaho/a-78205684?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "03:51"
-        }
-      ]
-    },
-    {
-      "id": "world-7",
-      "title": "Z세대가 '스파이더맨: 브랜 뉴 데이'를 8억 7,500만 달러로 이끄는 방법",
-      "title_en": "How Gen Z is driving ‘Spider-Man: Brand New Day’ toward $875 million",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/how-gen-z-is-driving-spider-man-brand-new-day-toward-875-million-101785680118515.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "스파이더맨 브랜드 뉴 데이(Spider Man Brand New Day)는 톰 홀랜드(Tom Holland)의 슈퍼히어로 영화가 Z 세대 팬을 끌어들이고 할리우드에 큰 흥행을 불러일으키면서 3억 2,500만 달러의 개봉을 목표로 하고 있습니다.",
-      "excerpt_en": "Spider Man Brand New Day eyes a $325 million opening as Tom Holland’s superhero movie draws Gen Z fans and gives Hollywood a major box office boost.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/how-gen-z-is-driving-spider-man-brand-new-day-toward-875-million-101785680118515.html",
+      "primary_source": "AP News",
+      "excerpt": "독일 바이로이트에서 매년 열리는 리차드 바그너 페스티벌에서 인공지능을 이용한 실험이 관객들의 야유를 불러일으켰다.",
+      "excerpt_en": "An experiment with artificial intelligence at the annual Richard Wagner festival in the German town of Bayreuth has drawn boos from the audience after producing a staging that appeared to leave some s",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306990",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1830,38 +1697,85 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "Reuters"
+        "ABC News",
+        "AP News"
       ],
-      "first_published_at": "2026-08-02T14:35:01+09:00",
-      "latest_published_at": "2026-08-02T19:48:53+09:00",
+      "first_published_at": "2026-08-03T00:12:00+09:00",
+      "latest_published_at": "2026-08-03T02:18:58+09:00",
       "articles": [
         {
-          "title": "'Spider-Man: Brand New Day' opens to a huge $927 million global box office",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFlQbEdGa3g5TjA2Sno1dk5icnlES2wwWHE3MGtQcy1aMUE1d0RiWkU3SmRHMmloT25HeTlJWW8zLTdRdTJfdnFScWlBeDZQYklvRjR5SzFLUlVpZ3lLY3hIZUZnZEVUajRlZ1BJUGEtNzJpdFA5ZTFIaHBaN2tzX3FiVjJib2FsR1lqV2pkWFVSSFNfb01PcEdHajBVc2c?oc=5",
-          "published_at": "19:48"
+          "title": "AI-assisted staging draws boos at the Richard Wagner festival in Germany",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/ai-assisted-staging-draws-boos-richard-wagner-festival-135306990",
+          "published_at": "02:18"
         },
         {
-          "title": "How Gen Z is driving ‘Spider-Man: Brand New Day’ toward $875 million",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/how-gen-z-is-driving-spider-man-brand-new-day-toward-875-million-101785680118515.html",
-          "published_at": "14:35"
+          "title": "AI-assisted staging draws boos at the Richard Wagner festival in Germany",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY3ozYU5WMW5HQTZ6cTJUaWk1dWxtRmVmQXhFOTBxa25rWUpZYVZPTHBsaXRwcFE5d3hCX2NtLU42cWk5Nm9LVHhhaDN4VWFKSWl5cHBNQUI5MFQ5U2JKUHh4cVF3Zk1MeTRrMndfenkyZmJqQ2RyTWsxYkRGTXJJUk54UndCak5BQXVVdmZtdDRsbWhpaENHS1lsWQ?oc=5",
+          "published_at": "00:12"
         }
       ]
     },
     {
-      "id": "world-46",
-      "title": "트럼프 \"이란 공격 취소할 것\"",
-      "title_en": "Trump says he's cancelling Iran strikes, deal pending",
+      "id": "world-143",
+      "title": "One Nation, 11월 선거 앞두고 빅토리아주 지도자 공개",
+      "title_en": "One Nation reveals Victorian state leader ahead of November election",
       "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+      "title_url": "https://www.abc.net.au/news/2026-08-03/one-nation-victoria-candiates-revealed/106989410",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "11월 주 여론 조사의 라인업 중 다니엘 앤드류스(Daniel Andrews)의 보안 팀에서 일했었다고 말하는 전 자유당이자 '깨어나지 않는' 영화 애니메이터이자 의원인 One Nation이 첫 번째 후보자를 지명했습니다.",
+      "excerpt_en": "Former Liberal, ‘anti-woke’ film animator and councillor who says he used to work on Daniel Andrews’ security team among lineup for November’s state poll One Nation has named its first candidates for ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/australia-news/2026/aug/03/one-nation-candidates-victoria-state-election-2026-ntwnfb",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-03T02:25:46+09:00",
+      "latest_published_at": "2026-08-03T03:08:24+09:00",
+      "articles": [
+        {
+          "title": "One Nation names eight Victorian election candidates as Hanson bars ABC and Guardian from press conferences",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/03/one-nation-candidates-victoria-state-election-2026-ntwnfb",
+          "published_at": "03:08"
+        },
+        {
+          "title": "One Nation reveals Victorian state leader ahead of November election",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-03/one-nation-victoria-candiates-revealed/106989410",
+          "published_at": "02:25"
+        }
+      ]
+    },
+    {
+      "id": "world-196",
+      "title": "이스라엘 장관이 공격 중단에 대한 합의가 없다고 말하자 가자지구에서 공습으로 18명이 사망했습니다.",
+      "title_en": "Strikes kill 18 in Gaza as Israeli minister says no deal to halt attacks",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3362722/israeli-strikes-kill-9-gaza-cabinet-minister-says-no-deal-stop?utm_source=rss_feed",
       "category": "중동",
-      "primary_source": "NPR",
-      "excerpt": "트럼프 대통령은 “이란과 다른 중동 국가들이 미국에 이란에 대한 어떤 공격도 보류해 줄 것을 요청했다”며 “협상 범위가 합의됐기 때문”이라고 말했다.",
-      "excerpt_en": "Trump said Iran and other Middle Eastern countries had asked the U.S. \"to hold off any attack\" on Iran because \"the perimeters of a deal has been agreed to.\"",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+      "primary_source": "SCMP",
+      "excerpt": "이스라엘의 공습이 이틀 연속 가자지구를 강타해 최소 18명의 팔레스타인인이 숨졌다고 의료진이 밝혔습니다.",
+      "excerpt_en": "Israeli air strikes hit Gaza for a second straight day on Sunday, killing at least 18 Palestinians, medics said, despite US President Donald Trump’s announcement of a breakthrough in efforts to implem",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3362722/israeli-strikes-kill-9-gaza-cabinet-minister-says-no-deal-stop?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1877,85 +1791,108 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "BBC",
-        "NPR"
+        "SCMP",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-02T07:34:27+09:00",
-      "latest_published_at": "2026-08-02T11:12:00+09:00",
+      "first_published_at": "2026-08-02T14:04:37+09:00",
+      "latest_published_at": "2026-08-02T20:57:29+09:00",
       "articles": [
         {
-          "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-          "published_at": "11:12"
+          "title": "Israeli strikes kill 18 across Gaza despite Hamas agreeing to disarmament deal",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-strikes-gaza-hamas-disarm-deal-trump-b3026114.html",
+          "published_at": "20:57"
         },
         {
-          "title": "Trump says he's cancelling Iran strikes, deal pending",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-          "published_at": "07:34"
-        }
-      ]
-    },
-    {
-      "id": "world-1",
-      "title": "세우타로 유입된 이민자로 인한 사망자 수는 72명으로 증가",
-      "title_en": "Death toll from migrant rush into Ceuta rises to 72",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNenRaMVlhSGtZV3ZHSzZqZnNrcDRfVDViVDFYTElZdnRNWW5TNUlsRWZvMElrRVJ3OWlWbjBwdmFtQ2FBRGFqaF9IU1pidG9ZTzZISnUwWXN6bjBxTjFJSlRFTEc4dzJoak9ObGhuWExVazBxOVJtRnVEM0hXOEFUVkVsUVdvYWxfWmZsb3IyTWhBOWZFbHA0?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "목요일에 모로코에서 스페인 북아프리카 영토인 세우타로 돌진한 사망자 수는 일요일 세우타 해안에서 5구의 시신이 추가로 발견되면서 최소 72명에 이르렀다고 관리들이 말했습니다. 더",
-      "excerpt_en": "The death toll from Thursday’s mass rush into Spain’s North African enclave of Ceuta from Morocco reached at least 72 on Sunday as five more bodies were found along Ceuta’s coast, officials said. More",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3362727/death-toll-migrant-rush-spains-ceuta-rises-72?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-02T14:35:20+09:00",
-      "latest_published_at": "2026-08-02T17:44:55+09:00",
-      "articles": [
-        {
-          "title": "Death toll from migrant rush into Spain’s Ceuta rises to 72",
+          "title": "Strikes kill 18 in Gaza as Israeli minister says no deal to halt attacks",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3362727/death-toll-migrant-rush-spains-ceuta-rises-72?utm_source=rss_feed",
-          "published_at": "17:44"
-        },
-        {
-          "title": "Death toll from migrant rush into Ceuta rises to 72",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNenRaMVlhSGtZV3ZHSzZqZnNrcDRfVDViVDFYTElZdnRNWW5TNUlsRWZvMElrRVJ3OWlWbjBwdmFtQ2FBRGFqaF9IU1pidG9ZTzZISnUwWXN6bjBxTjFJSlRFTEc4dzJoak9ObGhuWExVazBxOVJtRnVEM0hXOEFUVkVsUVdvYWxfWmZsb3IyTWhBOWZFbHA0?oc=5",
-          "published_at": "14:35"
+          "url": "https://www.scmp.com/news/world/middle-east/article/3362722/israeli-strikes-kill-9-gaza-cabinet-minister-says-no-deal-stop?utm_source=rss_feed",
+          "published_at": "14:04"
         }
       ]
     },
     {
-      "id": "world-11",
-      "title": "유럽리그 수장 \"인판티노 FIFA 회장 입장 받아들일 수 없어\"",
-      "title_en": "FIFA chief Infantino's position looks unacceptable, head of European leagues says",
+      "id": "world-279",
+      "title": "Twin Falls 드라이브 바이 총격: Trotter Drive 집에서 총격이 발생합니다. 아이다호 인앤아웃 촬영과 관련이 있나요?",
+      "title_en": "Twin Falls drive-by shooting: Gunfire erupts at Trotter Drive home; is it connected to Idaho In-N-Out shooting?",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/fifa-chief-infantinos-position-looks-unacceptable-head-european-leagues-says-6293526",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "FIFA 회장 인판티노의 입장은 받아들일 수 없는 것으로 보인다고 유럽 리그 수장이 로이터에 말했다.",
-      "excerpt_en": "FIFA chief Infantino's position looks unacceptable, head of European leagues says Reuters",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-drive-by-shooting-gunfire-erupts-at-trotter-drive-home-is-it-connected-to-idaho-in-n-out-shooting-101785653766162.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "트윈폴스 경찰국은 4번가 E와 메도우뷰 레인 근처 트로터 드라이브 300블록에 위치한 한 주택에서 총격 사건이 신고됐다고 밝혔습니다.",
+      "excerpt_en": "The Twin Falls Police Department said that the drive-by shooting was reported at a home in the 300 block of Trotter Drive, near 4th Ave. E and Meadowview Lane.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-drive-by-shooting-gunfire-erupts-at-trotter-drive-home-is-it-connected-to-idaho-in-n-out-shooting-101785653766162.html",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 4,
+        "major_score": 5,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 1,
+      "sources": [
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-02T07:04:49+09:00",
+      "latest_published_at": "2026-08-03T01:14:43+09:00",
+      "articles": [
+        {
+          "title": "Twin Falls PD issues emotional statement after Idaho In-N-Out shooting, ‘Yesterday challenged our department in ways…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-pd-issues-emotional-statement-after-idaho-in-n-out-shooting-yesterday-challenged-our-department-in-ways-101785719294700.html",
+          "published_at": "01:14"
+        },
+        {
+          "title": "Twin Falls, Idaho shooting death toll: Was Chad Williams among 3 killed? Police provide ‘most accurate information’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-idaho-shooting-death-toll-was-chad-williams-among-3-killed-police-provide-most-accurate-information-101785718077029.html",
+          "published_at": "00:52"
+        },
+        {
+          "title": "Chad Williams motive: What we know so far as police say Idaho Twin Falls mass shooting suspect 'acted alone'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/chad-williams-motive-what-we-know-so-far-as-police-say-idaho-twin-falls-mass-shooting-suspect-acted-alone-101785693333818.html",
+          "published_at": "21:23"
+        },
+        {
+          "title": "Who was Chad Williams? Idaho Twin Falls shooting suspect identified",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-chad-williams-idaho-twin-falls-shooting-suspect-identified-101785700320374.html",
+          "published_at": "20:06"
+        },
+        {
+          "title": "Lynsi Snyder, In-N-Out president, pens emotional message after Twin Falls, Idaho shooting: ‘Lost one of our associates’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lynsi-snyder-in-n-out-president-pens-emotional-message-after-twin-falls-idaho-shooting-lost-one-of-our-associates-101785654614570.html",
+          "published_at": "07:28"
+        },
+        {
+          "title": "Twin Falls drive-by shooting: Gunfire erupts at Trotter Drive home; is it connected to Idaho In-N-Out shooting?",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/twin-falls-drive-by-shooting-gunfire-erupts-at-trotter-drive-home-is-it-connected-to-idaho-in-n-out-shooting-101785653766162.html",
+          "published_at": "07:04"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "Bessent는 엔화 공동 개입을 반복할 준비가 되어 있으며 연준의 더 큰 백스톱을 촉구합니다.",
+      "title_en": "Bessent ready to repeat joint yen intervention, urges bigger Fed backstop",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnRfSWRsRG9LTGxHRGtVT2ZUR2VkVm9oSWRFWHBpV1pLYmwzeWI5VGdDQWNQNGdHUWhMTThMbUVCVXN4NkdlS2dGckxRdUNfNFNmay1rNXdVOXpJTklSUjd0cGNncmxxZFdGN3lyUnRRWWdVS1REZENIZVdQVm5UYWc5LXAzMFlzVng1SDdnb3hwbHk5SUR6eUZFWEtGZW01UjB6ZFhHeGw5SlNscmJFWXhacUtvRHZjaEptWmRpUW5LZw?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "Bessent는 공동 엔 개입을 반복할 준비가 되어 있으며 Fed의 더 큰 백스톱을 촉구합니다. Reuters",
+      "excerpt_en": "Bessent ready to repeat joint yen intervention, urges bigger Fed backstop Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPak9YVGEza1hjVWwtaWNyTHlrLVJmeFp2UDZCMzB0SUh2bGV0cUZjNFhQVnFBX1dzTW1HQlkzREVPbzYtLXVYeVpmeTZhUjRVZHh6LXJ0anJwbXdQNDM2Sk10NUhlWHN1Q1ZTZzRUMW5IWFkzRDV3cEhLRUlTckxUWEVkZjhkSXh6U1ZqN09wVGRWZ2JUcHV0OWYzeTRaVzMtQXlVSXpLVVdkeFczYTVmTC01MDZBZ1dQbDdZRXhid0xpTmRp?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnRfSWRsRG9LTGxHRGtVT2ZUR2VkVm9oSWRFWHBpV1pLYmwzeWI5VGdDQWNQNGdHUWhMTThMbUVCVXN4NkdlS2dGckxRdUNfNFNmay1rNXdVOXpJTklSUjd0cGNncmxxZFdGN3lyUnRRWWdVS1REZENIZVdQVm5UYWc5LXAzMFlzVng1SDdnb3hwbHk5SUR6eUZFWEtGZW01UjB6ZFhHeGw5SlNscmJFWXhacUtvRHZjaEptWmRpUW5LZw?oc=5",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1974,25 +1911,166 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-08-02T07:48:25+09:00",
-      "latest_published_at": "2026-08-02T08:19:43+09:00",
+      "first_published_at": "2026-08-03T00:40:00+09:00",
+      "latest_published_at": "2026-08-03T00:40:23+09:00",
       "articles": [
         {
-          "title": "FIFA chief Infantino's position looks unacceptable, head of European leagues says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPak9YVGEza1hjVWwtaWNyTHlrLVJmeFp2UDZCMzB0SUh2bGV0cUZjNFhQVnFBX1dzTW1HQlkzREVPbzYtLXVYeVpmeTZhUjRVZHh6LXJ0anJwbXdQNDM2Sk10NUhlWHN1Q1ZTZzRUMW5IWFkzRDV3cEhLRUlTckxUWEVkZjhkSXh6U1ZqN09wVGRWZ2JUcHV0OWYzeTRaVzMtQXlVSXpLVVdkeFczYTVmTC01MDZBZ1dQbDdZRXhid0xpTmRp?oc=5",
-          "published_at": "08:19"
+          "title": "Bessent ready to repeat joint yen intervention, urges bigger Fed backstop",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/bessent-ready-repeat-joint-yen-intervention-urges-bigger-fed-backstop-6294241",
+          "published_at": "00:40"
         },
         {
-          "title": "FIFA chief Infantino's position looks unacceptable, head of European leagues says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/fifa-chief-infantinos-position-looks-unacceptable-head-european-leagues-says-6293526",
-          "published_at": "07:48"
+          "title": "Bessent ready to repeat joint yen intervention, urges bigger Fed backstop",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnRfSWRsRG9LTGxHRGtVT2ZUR2VkVm9oSWRFWHBpV1pLYmwzeWI5VGdDQWNQNGdHUWhMTThMbUVCVXN4NkdlS2dGckxRdUNfNFNmay1rNXdVOXpJTklSUjd0cGNncmxxZFdGN3lyUnRRWWdVS1REZENIZVdQVm5UYWc5LXAzMFlzVng1SDdnb3hwbHk5SUR6eUZFWEtGZW01UjB6ZFhHeGw5SlNscmJFWXhacUtvRHZjaEptWmRpUW5LZw?oc=5",
+          "published_at": "00:40"
         }
       ]
     },
     {
-      "id": "world-102",
+      "id": "world-7",
+      "title": "비로 인해 워싱턴 오픈 결승전 일정이 변경되고 캐나다 오픈 경기도 연기됨",
+      "title_en": "Rain forces Washington Open final to be rescheduled, Canadian Open play also pushed back",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFo4X1hnaG1sNXN4SDNqdnN6VGZVcDE5TDQtNTY0cnlQdTZvX3Q3eXlNR2N0RGEtQnFZT2pGZ2RPdFRQeTJqWjgxS1YtVlhnTm1tZVRqcXFXUVZZMkJGbklNQ2ZFRFNuQ2VzSy02dEFLV3ZxaFFWa0pHdkxmLVRueEw1a1hCTy1GazQ1STBCZVFoU0taZmsyazdJcXo2OWNYM2prRE5n?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "비로 인해 워싱턴 오픈 결승전 일정이 변경되고 캐나다 오픈 경기도 연기되었습니다 - 최신",
+      "excerpt_en": "Rain forces Washington Open final to be rescheduled, Canadian Open play also pushed back Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFo4X1hnaG1sNXN4SDNqdnN6VGZVcDE5TDQtNTY0cnlQdTZvX3Q3eXlNR2N0RGEtQnFZT2pGZ2RPdFRQeTJqWjgxS1YtVlhnTm1tZVRqcXFXUVZZMkJGbklNQ2ZFRFNuQ2VzSy02dEFLV3ZxaFFWa0pHdkxmLVRueEw1a1hCTy1GazQ1STBCZVFoU0taZmsyazdJcXo2OWNYM2prRE5n?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-02T23:46:00+09:00",
+      "latest_published_at": "2026-08-02T23:46:33+09:00",
+      "articles": [
+        {
+          "title": "Rain forces Washington Open final to be rescheduled, Canadian Open play also pushed back",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/rain-forces-washington-open-final-be-rescheduled-canadian-open-play-also-pushed-back-6294146",
+          "published_at": "23:46"
+        },
+        {
+          "title": "Rain forces Washington Open final to be rescheduled, Canadian Open play also pushed back",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFo4X1hnaG1sNXN4SDNqdnN6VGZVcDE5TDQtNTY0cnlQdTZvX3Q3eXlNR2N0RGEtQnFZT2pGZ2RPdFRQeTJqWjgxS1YtVlhnTm1tZVRqcXFXUVZZMkJGbklNQ2ZFRFNuQ2VzSy02dEFLV3ZxaFFWa0pHdkxmLVRueEw1a1hCTy1GazQ1STBCZVFoU0taZmsyazdJcXo2OWNYM2prRE5n?oc=5",
+          "published_at": "23:46"
+        }
+      ]
+    },
+    {
+      "id": "world-21",
+      "title": "일본, 미국과의 공동 FX 개입 확인, 더 이상 주저하지 않을 것",
+      "title_en": "Japan confirms joint FX intervention with US, says won't hesitate for more",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/japan-confirms-joint-fx-intervention-us-says-wont-hesitate-more-6294116",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "일본, 미국과의 합동 FX 개입 확인, 더 이상 주저하지 않을 것 Reuters",
+      "excerpt_en": "Japan confirms joint FX intervention with U.S., says won't hesitate for more Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPelZ0aW14TzBuTktjaEcxOE1ldGNuQzVjZGg3ZnljMHlYd2stdXRWTjAzTmxnWGlhU1g0b1M1dkFtQkNTc0dfNUdwSmJjMVYzaXVlaEdzTGhzTE1NcEhORktBUFFha2JqRjJienhOTHR5VXNzaWlNNEJPNTliWDMzeWJsVW1yYWhKTEV0dHp1d3V2aHdsay00S3pmVFdrYm44T3ctVkJySUhrTDFNRTRiUWotVkdST0hKVElJakI1WlQ?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-02T23:16:36+09:00",
+      "latest_published_at": "2026-08-02T23:23:25+09:00",
+      "articles": [
+        {
+          "title": "Japan confirms joint FX intervention with U.S., says won't hesitate for more",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPelZ0aW14TzBuTktjaEcxOE1ldGNuQzVjZGg3ZnljMHlYd2stdXRWTjAzTmxnWGlhU1g0b1M1dkFtQkNTc0dfNUdwSmJjMVYzaXVlaEdzTGhzTE1NcEhORktBUFFha2JqRjJienhOTHR5VXNzaWlNNEJPNTliWDMzeWJsVW1yYWhKTEV0dHp1d3V2aHdsay00S3pmVFdrYm44T3ctVkJySUhrTDFNRTRiUWotVkdST0hKVElJakI1WlQ?oc=5",
+          "published_at": "23:23"
+        },
+        {
+          "title": "Japan confirms joint FX intervention with US, says won't hesitate for more",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/japan-confirms-joint-fx-intervention-us-says-wont-hesitate-more-6294116",
+          "published_at": "23:16"
+        }
+      ]
+    },
+    {
+      "id": "world-52",
+      "title": "Max Miller 업데이트: Bernie Moreno는 침묵을 깨고 전 사위가 하원의원으로 '봉사해서는 안 된다'고 말했습니다.",
+      "title_en": "Max Miller update: Bernie Moreno breaks silence, says ex-son-in-law ‘should not serve' as Congressman",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/max-miller-update-bernie-moreno-breaks-silence-says-ex-son-in-law-should-not-serve-as-congressman-101785690594319.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "버니 모레노 상원의원은 자신의 전 사위인 맥스 밀러 하원의원이 의회에 부적합하다며 공개적으로 비난했습니다.",
+      "excerpt_en": "Sen Bernie Moreno has publicly slammed his former son-in-law, Rep Max Miller, saying he is unfit for Congress.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/max-miller-update-bernie-moreno-breaks-silence-says-ex-son-in-law-should-not-serve-as-congressman-101785690594319.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-02T18:02:33+09:00",
+      "latest_published_at": "2026-08-02T22:04:00+09:00",
+      "articles": [
+        {
+          "title": "Sen. Bernie Moreno says former son-in-law Max Miller should not serve in the House",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLXZOMkdIZmx2RlB1bmpTMzV0enV1UVVmdVViTURLSENNYjMwVTFmN1RWQlZHRm44OFh5MGpPLUliY1lLWGktVmlXTVREZTI4THNnRkgydHVIVFExQ3ppamJrTTV5WmZWdkhVZVdiOExWanFFV1JGcjBqNmZCazhqR3RMMFRGWXV5UFhiUHFRelBSeEhuOHR3MU5R?oc=5",
+          "published_at": "22:04"
+        },
+        {
+          "title": "Max Miller update: Bernie Moreno breaks silence, says ex-son-in-law ‘should not serve' as Congressman",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/max-miller-update-bernie-moreno-breaks-silence-says-ex-son-in-law-should-not-serve-as-congressman-101785690594319.html",
+          "published_at": "18:02"
+        }
+      ]
+    },
+    {
+      "id": "world-123",
       "title": "그리스, 산불 확산으로 산불 피해 급증",
       "title_en": "Fire toll mounts in Greece as blazes spread",
       "title_source": "earliest_pick",
@@ -2039,7 +2117,101 @@
       ]
     },
     {
-      "id": "world-245",
+      "id": "world-153",
+      "title": "아리아나 그란데, '끝없고 지속적인 조사'로 인해 공적 생활에서 '한발 물러나'",
+      "title_en": "Ariana Grande to take ‘a step back’ from public life due to ‘endless, ongoing scrutiny’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/music/2026/aug/03/ariana-grande-statement-step-back-public-life-eternal-sunshine-tour",
+      "category": "유럽",
+      "primary_source": "The Guardian",
+      "excerpt": "가수는 조지 아리아나 그란데와 함께 런던 프로덕션인 Sunday in the Park에서 위키드(Wicked)의 공동 출연자 조나단 베일리(Jonathan Bailey)와 재회할 예정이었습니다.",
+      "excerpt_en": "Singer was due to reunite with Wicked co-star Jonathan Bailey in London production of Sunday in the Park With George Ariana Grande has announced plans to take a break from public-facing work after her",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/music/2026/aug/03/ariana-grande-statement-step-back-public-life-eternal-sunshine-tour",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-02T23:23:22+09:00",
+      "latest_published_at": "2026-08-02T23:43:00+09:00",
+      "articles": [
+        {
+          "title": "Ariana Grande withdraws from London musical, seeks to 'step back'",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/entertainment/ariana-grande-step-back-withdraws-london-musical-6294126",
+          "published_at": "23:43"
+        },
+        {
+          "title": "Ariana Grande to take ‘a step back’ from public life due to ‘endless, ongoing scrutiny’",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/music/2026/aug/03/ariana-grande-statement-step-back-public-life-eternal-sunshine-tour",
+          "published_at": "23:23"
+        }
+      ]
+    },
+    {
+      "id": "world-214",
+      "title": "몬태나주 10대, 로데오 올가미로 옐로스톤 강에 빠진 남자 구해",
+      "title_en": "Montana teen uses rodeo lasso to save man drowning in Yellowstone River",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/montana-lasso-drowning-man-yellowstone-river-b3026125.html",
+      "category": "기타",
+      "primary_source": "The Independent",
+      "excerpt": "첫째, 의학적으로 설명되지 않는 치료법을 조사합니다. 그럼 \"Ted Lasso\"의 비하인드 스토리를 살펴보겠습니다. 그리고 게릴라들이 무장 해제된 이후로 새 관찰자들이 이곳으로 모여듭니다.",
+      "excerpt_en": "First, investigating medically unexplained cures. Then, a look behind the scenes of \"Ted Lasso.\" And, birders flock here since guerrillas disarmed.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/60minutes-2026-08-02/",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-02T22:48:33+09:00",
+      "latest_published_at": "2026-08-02T23:00:00+09:00",
+      "articles": [
+        {
+          "title": "8/2/2026: Lourdes; The Improbable Tale of Ted Lasso; Birds of War",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/60minutes-2026-08-02/",
+          "published_at": "23:00"
+        },
+        {
+          "title": "Montana teen uses rodeo lasso to save man drowning in Yellowstone River",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/montana-lasso-drowning-man-yellowstone-river-b3026125.html",
+          "published_at": "22:48"
+        }
+      ]
+    },
+    {
+      "id": "world-256",
       "title": "EU, 스페인 국경 통과 후 위기 회의 개최",
       "title_en": "EU holds crisis meeting after Spanish border crossing",
       "title_source": "earliest_pick",
@@ -2082,147 +2254,6 @@
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/eu-holds-crisis-meeting-after-spanish-border-crossing-20260802-p60kmk.html?ref=rss&utm_medium=rss&utm_source=rss_world",
           "published_at": "13:55"
-        }
-      ]
-    },
-    {
-      "id": "world-160",
-      "title": "아테네서 여행가방에서 스코틀랜드 여성 시신 발견돼 남성 체포",
-      "title_en": "Man arrested after Scottish woman’s body found in suitcase in Athens",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/uk/crime/scottish-body-found-elisabeth-jane-ross-athens-suitcase-arrest-b3026038.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "그리스 경찰은 지난 달 아테네에서 여행가방에서 시신이 발견된 영국 여성의 사망 사건을 수사하던 중 용의자를 체포했다고 일요일 밝혔다. 경찰은 성명을 통해 이렇게 말했다.",
-      "excerpt_en": "Greek police on Sunday said they had arrested a suspect in their investigation into the death of a British woman whose body was found in a suitcase in Athens last month. The police in a statement said",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3362728/greek-police-arrest-suspect-over-british-womans-body-found-suitcase?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-02T15:09:12+09:00",
-      "latest_published_at": "2026-08-02T18:00:47+09:00",
-      "articles": [
-        {
-          "title": "Greek police arrest suspect over British woman’s body found in suitcase",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3362728/greek-police-arrest-suspect-over-british-womans-body-found-suitcase?utm_source=rss_feed",
-          "published_at": "18:00"
-        },
-        {
-          "title": "Man arrested after Scottish woman’s body found in suitcase in Athens",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/scottish-body-found-elisabeth-jane-ross-athens-suitcase-arrest-b3026038.html",
-          "published_at": "15:09"
-        }
-      ]
-    },
-    {
-      "id": "world-182",
-      "title": "스리랑카, 과밀한 마하라 교도소에서 치명적인 폭동을 진압하기 위해 군대 배치",
-      "title_en": "Sri Lanka deploys troops to contain deadly riot at overcrowded Mahara Prison",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/south-asia/article/3362692/sri-lanka-deploys-troops-contain-deadly-riot-overcrowded-mahara-prison?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "스리랑카는 일요일 수감자가 사망하고 6명이 부상을 입은 과밀한 교도소에서 폭동을 진압하기 위해 수백 명의 군대와 정예 특공대를 배치했다고 경찰이 말했습니다. 경찰 부감찰관",
-      "excerpt_en": "Sri Lanka deployed hundreds of troops and elite commandos on Sunday to contain riots at an overcrowded prison in which an inmate was killed and six others wounded, police said. Deputy police inspector",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3362692/sri-lanka-deploys-troops-contain-deadly-riot-overcrowded-mahara-prison?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-02T06:51:04+09:00",
-      "latest_published_at": "2026-08-02T08:51:23+09:00",
-      "articles": [
-        {
-          "title": "Sri Lanka deploys troops after prison riot",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/sri-lanka-police-troops-commandos-prison-riot-aug-2-6293551",
-          "published_at": "08:51"
-        },
-        {
-          "title": "Sri Lanka deploys troops to contain deadly riot at overcrowded Mahara Prison",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3362692/sri-lanka-deploys-troops-contain-deadly-riot-overcrowded-mahara-prison?utm_source=rss_feed",
-          "published_at": "06:51"
-        }
-      ]
-    },
-    {
-      "id": "world-220",
-      "title": "페루 나스카 라인 관람 유럽 관광객 태운 비행기 추락으로 13명 사망 | 무슨 일이에요",
-      "title_en": "13 killed after plane carrying European tourists to view Peru's Nazca Lines crashes | What happened",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/13-killed-after-plane-carrying-european-tourists-to-view-perus-nazca-lines-crashes-what-happened-101785646666808.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "당국은 독일, 이탈리아, 스페인 방문객 등 관광객 11명과 승무원 2명이 탑승했다고 밝혔습니다.",
-      "excerpt_en": "Authorities say 11 tourists, including German, Italian and Spanish visitors, and two crew members were on board",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/peru-plane-crash-nazca-lines-deaths-b3025948.html",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-02T05:48:32+09:00",
-      "latest_published_at": "2026-08-02T07:09:01+09:00",
-      "articles": [
-        {
-          "title": "Thirteen dead as plane carrying tourists crashes near Peru’s Nazca Lines",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/peru-plane-crash-nazca-lines-deaths-b3025948.html",
-          "published_at": "07:09"
-        },
-        {
-          "title": "13 killed after plane carrying European tourists to view Peru's Nazca Lines crashes | What happened",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/13-killed-after-plane-carrying-european-tourists-to-view-perus-nazca-lines-crashes-what-happened-101785646666808.html",
-          "published_at": "05:48"
         }
       ]
     }
