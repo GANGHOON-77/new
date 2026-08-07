@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,49 +8,144 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-08-07T09:21:18.984289+09:00",
+  "updated_at": "2026-08-07T12:22:31.556473+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 583,
-  "cluster_count_total": 454,
+  "article_count_total": 562,
+  "cluster_count_total": 445,
   "clusters": [
     {
-      "id": "world-269",
-      "title": "북한, '미확인 발사체' 발사 : 남한",
-      "title_en": "North Korea fires ‘unidentified projectile’: South Korea",
+      "id": "world-6",
+      "title": "트럼프, 대법원 판결에도 불구하고 미국 출생 시민권 제한 명령에 서명",
+      "title_en": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/east-asia/article/3363166/north-korea-fires-unidentified-projectile-south-korea-says?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "북한이 목요일 일본해 상공으로 단거리 탄도미사일을 발사했다고 한국군은 밝혔습니다. 이번 발사는 북한이 태평양에서 일본의 군사력 증강을 비난한 이후에 이뤄졌습니다. N",
-      "excerpt_en": "North Korea fired a short-range ballistic missile over the Sea of Japan on Thursday, Seoul’s military said, with the launch coming after Pyongyang lambasted Japan’s military build-up in the Pacific. N",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3363166/north-korea-fires-unidentified-projectile-south-korea-says?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "10년 넘게 대통령은 헌법상 핵심 권리를 훼손하려는 시도에 집착해 왔다. 도널드 트럼프 대통령은 목요일 두 차례의 행정 명령을 통해 다시 한번 헌법상의 권리를 훼손하려고 시도했다.",
+      "excerpt_en": "For more than a decade, president has been fixated on trying to undermine a key constitutional right With a pair of executive orders on Thursday, Donald Trump has tried – once again – to undermine the",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/06/trump-birthright-citizenship-attack",
       "translation_status": "ok",
-      "score": 95,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 70
+      },
+      "area_value": 9,
+      "article_count": 9,
+      "syndicated_count": 0,
+      "source_count": 9,
+      "sources": [
+        "Al Jazeera",
+        "CBS News",
+        "Channel News Asia",
+        "DW",
+        "Hindustan Times",
+        "Reuters",
+        "SCMP",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T19:50:00+09:00",
+      "latest_published_at": "2026-08-07T01:57:42+09:00",
+      "articles": [
+        {
+          "title": "Trump’s birthright citizenship attack the latest effort in obsessive campaign",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/06/trump-birthright-citizenship-attack",
+          "published_at": "01:57"
+        },
+        {
+          "title": "US President Trump signs new orders to limit birthright citizenship",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-president-trump-signs-new-orders-to-limit-birthright-citizenship-101786067049947.html",
+          "published_at": "01:44"
+        },
+        {
+          "title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/donald-trump-signs-order-limit-us-birthright-citizenship-6304671",
+          "published_at": "23:32"
+        },
+        {
+          "title": "Trump signs new orders restricting birthright citizenship",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/trump-signs-new-orders-restricting-birthright-citizenship/a-78272447?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "23:05"
+        },
+        {
+          "title": "8/6: CBS Evening News",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/080626-cbs-evening-news/",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Trump signs new orders to restrict birthright citizenship despite Supreme Court ruling",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-birthright-citizenship-executive-orders-b3028955.html",
+          "published_at": "22:06"
+        },
+        {
+          "title": "Trump signs new orders targeting birthright citizenship and ‘birth tourism’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3363223/trump-signs-new-orders-targeting-birthright-citizenship-and-birth-tourism?utm_source=rss_feed",
+          "published_at": "21:41"
+        },
+        {
+          "title": "Trump signs new executive orders seeking to limit US birthright citizenship",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship?traffic_source=rss",
+          "published_at": "21:27"
+        },
+        {
+          "title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5",
+          "published_at": "19:50"
+        }
+      ]
+    },
+    {
+      "id": "world-340",
+      "title": "북한이 단거리 탄도미사일을 해상으로 발사했다고 한국 정부가 밝혔습니다.",
+      "title_en": "North Korea launches a short-range ballistic missile toward sea, South Korea says",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/north-korea-launches-short-range-ballistic-missile-sea-135413600",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "2019년 김정은 국무위원장과 도널드 트럼프 미국 대통령의 정상회담이 비핵화와 제재의 범위를 둘러싸고 결렬된 이후 북한은 거듭 '돌이킬 수 없는 핵보유국'을 선언해왔다.",
+      "excerpt_en": "North Korea has repeatedly declared itself an \"irreversible\" nuclear state since leader Kim Jong- un's 2019 summit with US President Donald Trump collapsed over the scope of denuclearisation and sanct",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/08/06/north-korea-fires-at-least-one-ballistic-missile-into-sea-south-koreas-military-says",
+      "translation_status": "ok",
+      "score": 91,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
         "breaking_score": 9,
         "time_score": 2,
-        "raw75": 71
+        "raw75": 68
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         "ABC News",
         "Bangkok Post",
         "Euronews",
-        "Fox News",
-        "SCMP"
+        "Fox News"
       ],
-      "first_published_at": "2026-08-06T08:43:05+09:00",
+      "first_published_at": "2026-08-06T09:42:15+09:00",
       "latest_published_at": "2026-08-06T16:25:57+09:00",
       "articles": [
         {
@@ -82,92 +177,11 @@
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/north-korea-launches-short-range-ballistic-missile-sea-135413600",
           "published_at": "09:42"
-        },
-        {
-          "title": "North Korea fires ‘unidentified projectile’: South Korea",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3363166/north-korea-fires-unidentified-projectile-south-korea-says?utm_source=rss_feed",
-          "published_at": "08:43"
         }
       ]
     },
     {
-      "id": "world-25",
-      "title": "이스라엘, 서안지구 점령지에서 팔레스타인 운동가 아우다 하탈린 살해한 정착민 기소",
-      "title_en": "Israel charges settler for killing Palestinian activist Awdah Hathaleen in occupied West Bank",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/middle-east/20260806-israel-charges-settler-killing-palestinian-activist-awdah-hathaleen-occupied-west-bank",
-      "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "Yinon Levi는 2025년 Awdah Hathaleen 살해와 관련된 무모한 살인 혐의로 재판을 앞두고 있습니다. 이스라엘 검찰은 팔레스타인 지역 사회 지도자를 살해한 혐의로 유대인 정착민을 기소했습니다.",
-      "excerpt_en": "Yinon Levi faces trial for reckless manslaughter related to the 2025 killing of Awdah Hathaleen Israeli prosecutors have charged a Jewish settler over the killing of a Palestinian community leader in ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/06/israel-charges-west-bank-settler-killing-palestinian-activist-awdah-hathaleen",
-      "translation_status": "ok",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "AP News",
-        "Al Jazeera",
-        "France24",
-        "New York Times",
-        "Reuters",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-06T11:41:50+09:00",
-      "latest_published_at": "2026-08-06T20:52:50+09:00",
-      "articles": [
-        {
-          "title": "Israeli Settler Charged in Death of Activist Awdah Hathaleen",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/06/world/middleeast/israel-settler-manslaughter-palestinian-activist.html",
-          "published_at": "20:52"
-        },
-        {
-          "title": "Israeli settler charged over Palestinian activist’s killing",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/israeli-settler-charged-over-palestinian-activists-killing?traffic_source=rss",
-          "published_at": "19:48"
-        },
-        {
-          "title": "Israel charges settler in Palestinian activist's killing, in rare indictment",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRmMySTR1MllIMlRGTk8temRiWld1a3VoMHJnRHF4bDdYV3BhaVAwTEJ5NVcxOUtDXzd1cG5ya05ic1lEa080M18xZWJnYWNPYnNLQmMycWt0VThwSV9iY2RIamlpQUE0Z255LUpjbnB1NFdlYU1XYzVSaXZ1T0k1YzBqdXIwUEVVYmJfbi1Ka1oxU1J1ZzNVMWstWDUxU0NoeW52MVhtdmRWaVdFcm9LY2k5RlN2T1BkTkFEWDlxMA?oc=5",
-          "published_at": "15:00"
-        },
-        {
-          "title": "Israel charges West Bank settler over death of renowned Palestinian activist",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/israel-charges-west-bank-settler-killing-palestinian-activist-awdah-hathaleen",
-          "published_at": "14:38"
-        },
-        {
-          "title": "Israeli prosecutors charge settler with killing Palestinian activist in rare indictment",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEFWeExZb3ZjMnhXOTE2Qi1vUHZBWXRZcFBFNkF0bmhwLUNNSzFQS1V1MFk0ejNsZ3FqLVJEMU1IOVlFOXBSNkZQTm16TzJ6b2dvUlpobGMwSHJocGVDOXhyWFQ3RXBzUndNNkVBWTBkUm1ueUVWRURUc1lkeEV2QUc0VmVhcGNIdldGdDZkYnA5VFp1VUQ3ajU3ZlR3eVRZMDI3MzBVal8xU29pakZELU12eWI5WE0xVS1FcU5VaGg?oc=5",
-          "published_at": "14:31"
-        },
-        {
-          "title": "Israel charges settler for killing Palestinian activist Awdah Hathaleen in occupied West Bank",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260806-israel-charges-settler-killing-palestinian-activist-awdah-hathaleen-occupied-west-bank",
-          "published_at": "11:41"
-        }
-      ]
-    },
-    {
-      "id": "world-89",
+      "id": "world-85",
       "title": "독일, 뮌헨에서 차량 충돌로 사망한 남성에게 종신형을 선고하다",
       "title_en": "Germany jails man for life over deadly Munich car-ramming",
       "title_source": "earliest_pick",
@@ -228,7 +242,7 @@
       ]
     },
     {
-      "id": "world-215",
+      "id": "world-216",
       "title": "표절 의혹으로 케임브리지 최연소 흑인 교수 사임",
       "title_en": "Youngest Black professor at Cambridge resigns over plagiarism allegations",
       "title_source": "earliest_pick",
@@ -240,14 +254,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/uk-news/2026/aug/06/jason-arday-cambridge-dons-demand-accountability-grotesque-racism",
       "translation_status": "ok",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
       "area_value": 4,
       "article_count": 4,
@@ -289,212 +303,17 @@
       ]
     },
     {
-      "id": "world-219",
-      "title": "파우치 소장, 코로나19 팬데믹 증언에 대한 의회 투표에서 모독당하다",
-      "title_en": "Fauci faces contempt of Congress vote over COVID-19 pandemic testimony",
+      "id": "world-86",
+      "title": "미 상원 위원회, 파우치 소장을 의회 모독죄로 기소",
+      "title_en": "US Senate panel votes to hold Fauci in contempt of Congress",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/fauci-senate-contempt-rand-paul-pardon-b3028463.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "대통령의 명령은 대법원이 미국 헌법에 명시된 출생 시민권을 제한하려는 행정부의 초기 시도를 기각한 지 한 달 만에 나온 것입니다.",
-      "excerpt_en": "President’s orders come month after supreme court struck down administration’s earlier attempt to place restrictions on birthright citizenship enshrined in US constitution Sign up for the Breaking New",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates",
-      "translation_status": "ok",
-      "score": 83,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 62
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T08:22:17+09:00",
-      "latest_published_at": "2026-08-06T23:24:32+09:00",
-      "articles": [
-        {
-          "title": "ACLU blasts Trump’s new orders on birthright citizenship, saying they are doomed to fail in court– live",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates",
-          "published_at": "23:24"
-        },
-        {
-          "title": "Republicans have voted to hold Dr Anthony Fauci in contempt of Congress. So what happens now?",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/anthony-fauci-rand-paul-contempt-b3028765.html",
-          "published_at": "16:00"
-        },
-        {
-          "title": "U.S. Senate committee votes to hold Dr. Anthony Fauci in contempt",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/us-senate-panel-fauci-contempt-9.7297951?cmp=rss",
-          "published_at": "14:01"
-        },
-        {
-          "title": "Republicans vote to hold Anthony Fauci in contempt of Congress as Democrats blast ‘McCarthy-esque’ hearing",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/anthony-fauci-contempt-of-congress-vote-b3028665.html",
-          "published_at": "13:19"
-        },
-        {
-          "title": "Fauci faces contempt of Congress vote over COVID-19 pandemic testimony",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fauci-senate-contempt-rand-paul-pardon-b3028463.html",
-          "published_at": "08:22"
-        }
-      ]
-    },
-    {
-      "id": "world-2",
-      "title": "트럼프, 미국 출생 시민권 제한하는 새로운 행정명령에 서명",
-      "title_en": "Trump signs new executive orders seeking to limit US birthright citizenship",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship?traffic_source=rss",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed",
       "category": "미국",
-      "primary_source": "Al Jazeera",
-      "excerpt": "미국 대통령의 이번 조치는 대법원이 그의 첫 번째 시민권 행정명령이 위헌이라고 판결한 지 불과 두 달 만에 나온 것입니다.",
-      "excerpt_en": "The US president's move comes just two months after the Supreme Court ruled that his first executive order on citizenship was unconstitutional.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/trump-signs-new-orders-restricting-birthright-citizenship/a-78272447?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "Al Jazeera",
-        "Channel News Asia",
-        "DW",
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T21:27:19+09:00",
-      "latest_published_at": "2026-08-06T23:32:00+09:00",
-      "articles": [
-        {
-          "title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/donald-trump-signs-order-limit-us-birthright-citizenship-6304671",
-          "published_at": "23:32"
-        },
-        {
-          "title": "Trump signs new orders restricting birthright citizenship",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/trump-signs-new-orders-restricting-birthright-citizenship/a-78272447?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "23:05"
-        },
-        {
-          "title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5",
-          "published_at": "22:20"
-        },
-        {
-          "title": "Trump signs new orders to restrict birthright citizenship despite Supreme Court ruling",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-birthright-citizenship-executive-orders-b3028955.html",
-          "published_at": "22:06"
-        },
-        {
-          "title": "Trump signs new executive orders seeking to limit US birthright citizenship",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship?traffic_source=rss",
-          "published_at": "21:27"
-        }
-      ]
-    },
-    {
-      "id": "world-130",
-      "title": "이란과 오만, 호르무즈 합의에 가까워",
-      "title_en": "Iran and Oman close to agreement on Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3297487/iran-and-oman-close-to-agreement-on-hormuz",
-      "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "테헤란 – 이란과 오만은 호르무즈 해협을 통과하는 선박의 항로에 합의했으며 전략적 수로를 공동 관리하기 위한 합의를 마무리하고 있다고 테헤란이 수요일 밝혔다.",
-      "excerpt_en": "TEHRAN - Iran and Oman have agreed a route for ships transiting the Strait of Hormuz and were finalising arrangements for jointly managing the strategic waterway, Tehran said on Wednesday, even as fre",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3297487/iran-and-oman-close-to-agreement-on-hormuz",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "Bangkok Post",
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T04:45:00+09:00",
-      "latest_published_at": "2026-08-07T00:00:00+09:00",
-      "articles": [
-        {
-          "title": "Trump says war can’t ‘go much longer’, Hormuz deal close",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/7/trump-says-war-cant-go-much-longer-hormuz-deal-close?traffic_source=rss",
-          "published_at": "00:00"
-        },
-        {
-          "title": "Iran, Oman deal on Strait of Hormuz getting close, Tehran says",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/",
-          "published_at": "22:17"
-        },
-        {
-          "title": "Two coasts, three fee formulas, one Supreme Leader still to sign: The versions of Iran-Oman deal on Strait of Hormuz",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/ht-explainers/iran-us-war-strait-of-hormuz-deal-oman-pezeshkian-mojtaba-khamenei-sigh-donald-trump-shipping-oil-prices-101785992905372.html",
-          "published_at": "05:28"
-        },
-        {
-          "title": "Iran and Oman close to agreement on Hormuz",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3297487/iran-and-oman-close-to-agreement-on-hormuz",
-          "published_at": "04:45"
-        }
-      ]
-    },
-    {
-      "id": "world-133",
-      "title": "트럼프, '출생 관광' 금지하고 출생시민권 제한하겠다",
-      "title_en": "Trump moves to ban 'birth tourism' and restrict birthright citizenship",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-08-07/trump-signs-executive-order-targeting-birthright-citizenship/107007578",
-      "category": "미국",
-      "primary_source": "ABC News Australia",
-      "excerpt": "도널드 트럼프 미국 대통령은 목요일 출생시민권을 축소하고 출산관광 단속을 강화하는 두 가지 행정명령에 서명해 자동 시민권을 제한하려는 새로운 시도를 했다.",
-      "excerpt_en": "US President Donald Trump signed two executive orders on Thursday seeking to narrow birthright citizenship and intensify a crackdown on “birth tourism”, making a new attempt to restrict automatic citi",
+      "primary_source": "SCMP",
+      "excerpt": "미국 상원 위원회는 전직 미국 전염병 관리가 C의 처리에 대한 질문에 답변을 거부한 후 앤서니 파우치 박사를 의회 모독죄로 체포하기로 목요일에 투표했습니다.",
+      "excerpt_en": "A US Senate committee voted on Thursday to ⁠hold Dr. Anthony Fauci ⁠in contempt of Congress after the former ⁠top US infectious disease official refused to answer questions about his handling of the C",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/diplomacy/article/3363223/trump-signs-new-orders-targeting-birthright-citizenship-and-birth-tourism?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 81,
       "score_breakdown": {
@@ -510,164 +329,42 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "ABC News Australia",
-        "Al Jazeera",
-        "CBC",
-        "SCMP"
+        "AP News",
+        "BBC",
+        "SCMP",
+        "Times of India"
       ],
-      "first_published_at": "2026-08-06T21:37:45+09:00",
-      "latest_published_at": "2026-08-06T23:42:47+09:00",
+      "first_published_at": "2026-08-06T13:43:50+09:00",
+      "latest_published_at": "2026-08-07T01:40:01+09:00",
       "articles": [
         {
-          "title": "Trump signs executive orders banning so-called ‘birth tourism’",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss",
-          "published_at": "23:42"
+          "title": "Senate panel holds Fauci in contempt for not answering Covid questions",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/senate-panel-holds-fauci-in-contempt-for-not-answering-covid-questions/articleshow/133018789.cms",
+          "published_at": "01:40"
         },
         {
-          "title": "Trump signs new orders targeting birthright citizenship and ‘birth tourism’",
+          "title": "Senate committee votes to hold Fauci in contempt for refusing to answer COVID questions",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0dtOWZGUmVJbHhldC1KMkpOUENBYlV4Q0pxN0x4VFVkbkt4MlhJTjJZQUt3WnUyLWpDZ3FpWG5ydTl3TXZYOFczdTNZQW5GOWd4V3ZVM3dHRVRjOS00R0s4aVJBbTNsYWc3UFpSdk5LYm5IckZuUWRMVUs0ejRJOGdMUmxzTGt1a0xjc2FkNWpWRnkyOHNWbA?oc=5",
+          "published_at": "22:14"
+        },
+        {
+          "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "14:47"
+        },
+        {
+          "title": "US Senate panel votes to hold Fauci in contempt of Congress",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/diplomacy/article/3363223/trump-signs-new-orders-targeting-birthright-citizenship-and-birth-tourism?utm_source=rss_feed",
-          "published_at": "21:41"
-        },
-        {
-          "title": "Trump targets birthright citizenship with newly signed executive orders",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-birthright-citizenship-executive-orders-9.7298789?cmp=rss",
-          "published_at": "21:39"
-        },
-        {
-          "title": "Trump moves to ban 'birth tourism' and restrict birthright citizenship",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-07/trump-signs-executive-order-targeting-birthright-citizenship/107007578",
-          "published_at": "21:37"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed",
+          "published_at": "13:43"
         }
       ]
     },
     {
-      "id": "world-76",
-      "title": "의약품 감시단체, 미국에서 최초의 mRNA 기반 독감 주사 승인",
-      "title_en": "Medicines watchdog approves first-ever mRNA-based flu shot in the US",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/health/2026/08/06/medicines-watchdog-approves-first-ever-mrna-based-flu-shot-in-the-us",
-      "category": "미국",
-      "primary_source": "Euronews",
-      "excerpt": "FDA는 이전 거부를 번복하고 Moderna의 50세 이상 성인을 위한 첫 번째 mRNA 독감 주사를 승인했습니다. 캐나다 보건부가 백신에 대한 자체 승인을 고려함에 따라 주요 결정이 의미하는 바는 다음과 같습니다.",
-      "excerpt_en": "Reversing an earlier refusal, the FDA has approved Moderna's first mRNA flu shot for adults 50 and older. Here's what the major decision means as Health Canada considers its own approval of the vaccin",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/health/fda-mrna-flu-shot-approved-9.7298345?cmp=rss",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "CBC",
-        "Euronews",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-06T04:00:41+09:00",
-      "latest_published_at": "2026-08-06T19:39:21+09:00",
-      "articles": [
-        {
-          "title": "U.S. FDA approves first mRNA flu shot from Moderna",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/health/fda-mrna-flu-shot-approved-9.7298345?cmp=rss",
-          "published_at": "19:39"
-        },
-        {
-          "title": "New kind of flu shot is on the way as the FDA approves Moderna’s mRNA-based vaccine",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaEVGbmk2cXVaNnJJMGFoaXlDSHhMOG1iM1JKamY0ODVHQXpLcmhzMlpTbk9FalBpSTJBVDkyYnR2NXBkTkswa2NQZVRWNTdud01WY2Q0ZG9qSWtmMlRIMUxlbkdBLUlXa3hPTEdDdldjaFFYM2gxSnJPVDVZNXpXbHlWeWY2UkZjNkJUY0RiR25taXJ6Q0dpb3hzeHFxdw?oc=5",
-          "published_at": "16:25"
-        },
-        {
-          "title": "US FDA approves first mRNA flu shot from Moderna",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdkZQalpnY19jQUQySC1iT2VOTDVZV2JRZTdjS1Zxa1pkdi1HUnl1ZnQ3UkVNN2RYcXhSZDRZSnBNVFpMakIyVlV2bS1RNFp4ZzY1QmxjRXlkSEoxMUZBLTliYUF3VUsyOWNzSVczdk42N05LLTdjem1rczlnOVlqQ0dON3lWTE9iZHotcDQtZ2paa0pWaHVGZmxrNmpKd3BqWThXblNPNzE2QnFiS2QtQ3d2ZnNqdw?oc=5",
-          "published_at": "14:38"
-        },
-        {
-          "title": "Medicines watchdog approves first-ever mRNA-based flu shot in the US",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/health/2026/08/06/medicines-watchdog-approves-first-ever-mrna-based-flu-shot-in-the-us",
-          "published_at": "04:00"
-        }
-      ]
-    },
-    {
-      "id": "world-92",
-      "title": "트럼프 행정부의 최근 해상 풍력 임대 계약 총액은 거의 40억 달러에 이릅니다.",
-      "title_en": "Trump administration’s latest buyback of offshore wind leases brings total to nearly $4 billion",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3R1ek1NVGttOHhoeDFOU0d2LWpWbFdxSnBYRHAxSnFYZk5hV1NXdWdiMXFzMURWUXR4ZzA1UFhfRUxiRHVfdVJyY1V1X2tmczJ6Mi15SEEtUnhPMERJRUJQNmV0MlVQVS16TFpHdUxSN3M3ZTBISURzZW5iMVhrUjlzUU9fUXZoLWlOd1NGY3Y1RkZlOUdvbWlQSlJnVEZqTzVTVS04WWdTbVhN?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "오랫동안 풍력 에너지를 비판해 온 미국 대통령 도널드 트럼프는 풍력 터빈을 보기 흉하다고 반복해서 일축하고 “경제적, 환경적 재앙”이라고 꼬리표를 붙였습니다.",
-      "excerpt_en": "US President Donald Trump, long a critic of wind energy, has repeatedly dismissed wind turbines as unsightly and has labelled them an \"economic and environmental disaster.\"",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/06/trump-administration-to-pay-106-billion-to-cancel-rwe-offshore-wind-leases",
-      "translation_status": "ok",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "Euronews",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T19:42:00+09:00",
-      "latest_published_at": "2026-08-06T20:33:41+09:00",
-      "articles": [
-        {
-          "title": "Trump administration reaches $1.2B deal with offshore wind company to abandon projects",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-offshore-wind-settlement-rwe-b3028959.html",
-          "published_at": "20:33"
-        },
-        {
-          "title": "Trump administration to pay €1.06 billion to cancel RWE offshore wind leases",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/06/trump-administration-to-pay-106-billion-to-cancel-rwe-offshore-wind-leases",
-          "published_at": "20:02"
-        },
-        {
-          "title": "Trump administration's latest buyback of offshore wind leases brings total to nearly $4 billion",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-s-latest-buyback-of-offshore-wind-leases-brings-total-to-nearly-4-billion-101786045418754.html",
-          "published_at": "19:43"
-        },
-        {
-          "title": "Trump administration’s latest buyback of offshore wind leases brings total to nearly $4 billion",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3R1ek1NVGttOHhoeDFOU0d2LWpWbFdxSnBYRHAxSnFYZk5hV1NXdWdiMXFzMURWUXR4ZzA1UFhfRUxiRHVfdVJyY1V1X2tmczJ6Mi15SEEtUnhPMERJRUJQNmV0MlVQVS16TFpHdUxSN3M3ZTBISURzZW5iMVhrUjlzUU9fUXZoLWlOd1NGY3Y1RkZlOUdvbWlQSlJnVEZqTzVTVS04WWdTbVhN?oc=5",
-          "published_at": "19:42"
-        }
-      ]
-    },
-    {
-      "id": "world-96",
+      "id": "world-95",
       "title": "유럽의 폭염으로 인해 오스트리아가 폭염 기록을 세우면서 이탈리아의 모든 주요 도시에 비상이 걸렸습니다.",
       "title_en": "Europe heat wave puts all major Italian cities on red alert as Austria sets heat record",
       "title_source": "earliest_pick",
@@ -679,14 +376,14 @@
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/europe-heat-wave-red-alert-italy-austria-record/",
       "translation_status": "ok",
-      "score": 80,
+      "score": 81,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "time_score": 3,
+        "raw75": 61
       },
       "area_value": 4,
       "article_count": 4,
@@ -699,13 +396,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-08-06T11:19:05+09:00",
-      "latest_published_at": "2026-08-06T18:20:00+09:00",
+      "latest_published_at": "2026-08-07T01:08:00+09:00",
       "articles": [
         {
           "title": "Europe heat wave puts all major Italian cities on red alert as Austria sets heat record",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWHZINGNSQ2k0bUN6ZzVUWHA4eUVsazdEeEJIbnlGM1dsTGpRUS1Xb2tlM3lPZEhXdnNOblR6N3RQN1h5czZoVzdTRDdxelRXaWJzcjlyRXEtTXJoWmJWN0VtYkpYYXJyTjByak05QnJCOEVQbDRPR1VERERLXzNENmxBMVZYZ1JPVzgxZTRIVno4dUhlSVRLc01SME9yMUJGZ0VkNDNISkxPV2Z2dU5J?oc=5",
-          "published_at": "18:20"
+          "published_at": "01:08"
         },
         {
           "title": "Red alert issued for major Italian cities as heat wave grips Europe, sets Austria record",
@@ -728,68 +425,313 @@
       ]
     },
     {
-      "id": "world-120",
-      "title": "나이지리아 보안군, 납치 피해자 300명 이상 구출",
-      "title_en": "Nigerian security forces rescue more than 300 abductees",
+      "id": "world-108",
+      "title": "중국 위성, 달에 충돌하는 SpaceX 로켓 잔해 영상 포착",
+      "title_en": "Chinese satellite captures video of SpaceX rocket debris crashing into the moon",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cn4ndd8nr8lo?at_medium=RSS&at_campaign=rss",
-      "category": "기타",
-      "primary_source": "BBC",
-      "excerpt": "대통령은 북중부 지역 카인지 호수 국립공원의 울창한 숲에 갇힌 포로들을 구출하기 위한 작전을 환영했습니다. 나이지리아 보안군은 이번 작전에서 납치된 사람들 300명 이상을 구출했습니다.",
-      "excerpt_en": "President hails operation to rescue captives held in dense forests of Kainji Lake national park in north-central region Nigerian security forces have rescued more than 300 abducted people in what the ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants",
+      "title_url": "https://www.scmp.com/news/china/science/article/3363199/chinese-satellite-captures-video-spacex-rocket-debris-crashing-moon?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "우주 감시 능력을 보여주기 위해 새로 발사된 중국 위성은 달에 충돌하는 SpaceX Falcon 9 로켓의 일부를 추적하고 그 충돌 장면을 포착했습니다. 눈에 보이는 깃털이 없습니다.",
+      "excerpt_en": "In a show of space surveillance strength, a newly launched Chinese satellite tracked a piece of a SpaceX Falcon 9 rocket crashing into the moon and captured footage of its impact. No visible plume can",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/china/science/article/3363199/chinese-satellite-captures-video-spacex-rocket-debris-crashing-moon?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 80,
+      "score": 81,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "time_score": 3,
+        "raw75": 61
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "ABC News",
+        "ABC News Australia",
         "BBC",
-        "The Guardian",
-        "The Independent"
+        "Hindustan Times",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-06T04:35:33+09:00",
-      "latest_published_at": "2026-08-06T12:40:32+09:00",
+      "first_published_at": "2026-08-06T12:01:27+09:00",
+      "latest_published_at": "2026-08-07T00:45:24+09:00",
       "articles": [
         {
-          "title": "Nigerian security forces free more than 300 hostages in ‘largest single-day recovery’",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants",
-          "published_at": "12:40"
+          "title": "First images show Moon's fresh crater after stray rocket impact",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-07/south-korean-satellite-before-and-after-image-spacex-moon-crash/107007784",
+          "published_at": "00:45"
         },
         {
-          "title": "Nigeria security forces free over 300 abducted people in largest-ever rescue operation",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/nigeria-kidnappings-rescue-kwara-b3028479.html",
-          "published_at": "09:05"
-        },
-        {
-          "title": "Nigerian president hails 'largest ever' single-day rescue as 308 abductees freed",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/nigerian-president-hails-largest-single-day-rescue-308-135413965",
-          "published_at": "09:00"
-        },
-        {
-          "title": "Nigerian security forces rescue more than 300 abductees",
+          "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
           "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cn4ndd8nr8lo?at_medium=RSS&at_campaign=rss",
-          "published_at": "04:35"
+          "url": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
+          "published_at": "17:38"
+        },
+        {
+          "title": "SpaceX rocket crashes into Moon: What happened and what scientists found",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/spacex-rocket-crashes-into-moon-what-happened-and-what-scientists-found-101786024577454.html",
+          "published_at": "14:05"
+        },
+        {
+          "title": "Chinese satellite captures video of SpaceX rocket debris crashing into the moon",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/science/article/3363199/chinese-satellite-captures-video-spacex-rocket-debris-crashing-moon?utm_source=rss_feed",
+          "published_at": "12:01"
         }
       ]
     },
     {
-      "id": "world-142",
+      "id": "world-97",
+      "title": "6월 헤즈볼라와 휴전한 이후 처음으로 레바논에서 군인 2명이 사망했다.",
+      "title_en": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/2-soldiers-killed-lebanon-israeli-deaths-june-truce-135412592",
+      "category": "중동",
+      "primary_source": "ABC News",
+      "excerpt": "이스라엘군은 이스라엘과 이란의 지원을 받는 레바논 사이에 불안정한 휴전이 체결된 이후 처음으로 레바논 남부에서 전투에서 군인 2명이 사망했다고 밝혔습니다.",
+      "excerpt_en": "The Israeli military said two of its soldiers were killed in combat in southern Lebanon in the first Israeli deaths since the implementation of a shaky truce between Israel and the Iran-backed Lebanes",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/2-soldiers-killed-lebanon-israeli-deaths-june-truce-135412592",
+      "translation_status": "ok",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T06:53:39+09:00",
+      "latest_published_at": "2026-08-07T01:30:00+09:00",
+      "articles": [
+        {
+          "title": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUc1OHhTU1VHSmtkeXBGM0Vob3M5VW01VVRVMVNIS3hXdk1mTDRDOUdqX0oyMmZpVTY0VUZENE4zaTdkcjR5SlRDdmVrQTVqblBGNmFIcmxPRVdsTllFU1g0Y3ZpeGNpMTJEbTN2TVZFV3F4S0pROHFvR2k5WXVLUTI4T0ItaEhsdkxBb0hYUGFFU2ZRQk5pYkZqZlp0bF9M?oc=5",
+          "published_at": "01:30"
+        },
+        {
+          "title": "Two Israeli soldiers killed in Lebanon explosion as military announces first deaths since fragile Hezbollah truce",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-soldiers-dead-lebanon-hezbollah-truce-b3028423.html",
+          "published_at": "07:29"
+        },
+        {
+          "title": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/2-soldiers-killed-lebanon-israeli-deaths-june-truce-135412592",
+          "published_at": "06:53"
+        }
+      ]
+    },
+    {
+      "id": "world-149",
+      "title": "콩고 에볼라 발병 진원지의 보건요원들, 급여 부족에 항의",
+      "title_en": "Health workers at epicenter of Congo’s Ebola outbreak protest lack of payment",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/dozens-health-workers-epicenter-congos-ebola-outbreak-protest-135414149",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "콩고 보건부의 최신 데이터에 따르면 월요일 현재 이 발병으로 인해 3,874명의 확진자가 발생했고 1,751명이 사망했습니다.",
+      "excerpt_en": "As of Monday, the outbreak has led to 3,874 confirmed cases and 1,751 deaths, according to the latest data from Congo’s Ministry of Health",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/africa/drc-congo-ebola-outbreak-workers-strike-b3028910.html",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T09:46:44+09:00",
+      "latest_published_at": "2026-08-06T20:52:53+09:00",
+      "articles": [
+        {
+          "title": "WHO chief: Ebola outbreak in DRC spreading at ‘unprecedented rate’",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/08-06-sv-ebola-update-funding-drc?traffic_source=rss",
+          "published_at": "20:52"
+        },
+        {
+          "title": "Fast-spreading Ebola outbreak outpaces recovery efforts as Congo aid workers strike",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/drc-congo-ebola-outbreak-workers-strike-b3028910.html",
+          "published_at": "18:55"
+        },
+        {
+          "title": "Health workers at epicenter of Congo’s Ebola outbreak protest lack of payment",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/dozens-health-workers-epicenter-congos-ebola-outbreak-protest-135414149",
+          "published_at": "09:46"
+        }
+      ]
+    },
+    {
+      "id": "world-246",
+      "title": "홍콩 공항 제2터미널 열차 콘크리트 추락으로 운행 중단",
+      "title_en": "Falling concrete disrupts Terminal 2 train at Hong Kong airport",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/hong-kong/transport/article/3363185/passengers-all-sea-hong-kong-airports-terminal-2-train-breaks-down?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "홍콩 해피밸리의 한 개인 주택 단지에 있는 수영장은 근무 중인 인명구조원이 위조 자격증을 사용한 혐의를 당국이 적발한 후 폐쇄 명령을 받았습니다. 더 포",
+      "excerpt_en": "A swimming pool at a private housing estate in Hong Kong’s Happy Valley has been ordered to close after authorities discovered a lifeguard on duty was suspected of using fraudulent credentials. The Fo",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/society/article/3363215/pool-hong-kongs-happy-valley-shut-over-suspected-fake-lifeguard-credentials?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 57
+      },
+      "area_value": 8,
+      "article_count": 8,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-06T10:19:55+09:00",
+      "latest_published_at": "2026-08-07T00:30:08+09:00",
+      "articles": [
+        {
+          "title": "Hong Kong aims to be a global tech hub, but can it hold on to its young talent?",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3363208/hong-kong-aims-be-global-tech-hub-can-it-hold-its-young-talent?utm_source=rss_feed",
+          "published_at": "00:30"
+        },
+        {
+          "title": "Pioneering Hong Kong Cantopop lyricist Peter Lai dies aged 76",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/entertainment/peter-lai-dies-hong-kong-cantopop-lyricist-6304956",
+          "published_at": "00:04"
+        },
+        {
+          "title": "Criticism of Hong Kong’s economy and rule of law is baseless",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3363160/criticism-hong-kongs-economy-and-rule-law-baseless?utm_source=rss_feed",
+          "published_at": "21:30"
+        },
+        {
+          "title": "Pool at Hong Kong’s Happy Valley shut over suspected fake lifeguard credentials",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3363215/pool-hong-kongs-happy-valley-shut-over-suspected-fake-lifeguard-credentials?utm_source=rss_feed",
+          "published_at": "16:43"
+        },
+        {
+          "title": "Coded for glamour and glory, AI make-up arm steals the show in Hong Kong hackathon",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3363197/coded-glamour-and-glory-ai-make-arm-steals-show-hong-kong-hackathon?utm_source=rss_feed",
+          "published_at": "13:30"
+        },
+        {
+          "title": "More checks for embryo biopsies, overhaul reproductive tech law, DAB urges",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3363205/more-checks-embryo-biopsies-overhaul-reproductive-tech-law-dab-urges?utm_source=rss_feed",
+          "published_at": "13:06"
+        },
+        {
+          "title": "Hong Kong must be realistic and flexible in re-engaging with the US",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3362869/hong-kong-must-be-realistic-and-flexible-re-engaging-us?utm_source=rss_feed",
+          "published_at": "12:30"
+        },
+        {
+          "title": "Falling concrete disrupts Terminal 2 train at Hong Kong airport",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/transport/article/3363185/passengers-all-sea-hong-kong-airports-terminal-2-train-breaks-down?utm_source=rss_feed",
+          "published_at": "10:19"
+        }
+      ]
+    },
+    {
+      "id": "world-135",
+      "title": "브라질 경찰은 2024년 62명의 목숨을 앗아간 보패스(Voepass) 나선형 비행기 추락 사고로 16명을 공식 기소했다.",
+      "title_en": "Brazil's police formally accuses 16 people for Voepass spiral plane crash that killed 62 in 2024",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/brazils-police-formally-accuses-16-people-for-voepass-spiral-plane-crash-that-killed-62-in-2024-101786045053400.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "브라질 연방 경찰은 2024년 8월 비행기 추락 사고로 탑승자 62명 전원이 사망한 사건에 대해 Voepass 항공사의 현직 및 전직 직원 16명을 공식적으로 고발했습니다.",
+      "excerpt_en": "Brazil’s federal police have formally accused 16 current and former employees of airline Voepass for the in August 2024 plane crash that killed all 62 people on board",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/brazils-police-formally-accuses-16-people-voepass-spiral-135435496",
+      "translation_status": "ok",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-06T19:37:32+09:00",
+      "latest_published_at": "2026-08-07T01:17:13+09:00",
+      "articles": [
+        {
+          "title": "Brazil formally accuses 16 people over 2024 Voepass deadly plane crash",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/brazil-formally-accuses-16-people-over-2024-voepass-deadly-plane-crash?traffic_source=rss",
+          "published_at": "01:17"
+        },
+        {
+          "title": "Brazil's police formally accuses 16 people for plane crash that killed 62 in 2024",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/brazils-police-formally-accuses-16-people-voepass-spiral-135435496",
+          "published_at": "23:21"
+        },
+        {
+          "title": "Brazil's police formally accuses 16 people for Voepass spiral plane crash that killed 62 in 2024",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/brazils-police-formally-accuses-16-people-for-voepass-spiral-plane-crash-that-killed-62-in-2024-101786045053400.html",
+          "published_at": "19:37"
+        }
+      ]
+    },
+    {
+      "id": "world-151",
       "title": "GOP 상원 의원은 비디오 증거를 요구한 후에도 몇 주 동안 Mitch McConnell의 건강에 대해 여전히 어둠 속에 있음을 인정합니다.",
       "title_en": "GOP senator admits he’s still in the dark about Mitch McConnell’s health weeks after demanding video evidence",
       "title_source": "earliest_pick",
@@ -801,34 +743,27 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3363221/us-senator-mitch-mcconnell-says-hes-been-released-rehab-centre?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 80,
+      "score": 73,
       "score_breakdown": {
         "article_score": 22,
-        "diversity_score": 20,
+        "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 60
+        "raw75": 55
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
-        "ABC News Australia",
         "Al Jazeera",
         "SCMP",
         "The Independent"
       ],
       "first_published_at": "2026-08-06T14:27:56+09:00",
-      "latest_published_at": "2026-08-06T20:56:15+09:00",
+      "latest_published_at": "2026-08-06T20:36:55+09:00",
       "articles": [
-        {
-          "title": "US senator Mitch McConnell released from rehab centre after fall in June",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-07/mitch-mcconnell-alive-out-of-hospital-after-pneumonia-bout/107007472",
-          "published_at": "20:56"
-        },
         {
           "title": "US Senator McConnell says he’s been discharged from rehabilitation centre",
           "source_name": "Al Jazeera",
@@ -856,250 +791,17 @@
       ]
     },
     {
-      "id": "world-275",
-      "title": "히로시마 시장은 원자폭탄 투하 81주년을 맞아 핵무기 추구를 개탄했다",
-      "title_en": "Hiroshima marks 81 years since atomic bombing as mayor deplores pursuit of nuclear weapons",
+      "id": "world-176",
+      "title": "Meta는 '공공 방해' 및 아동 피해 주장을 해결하기 위해 8억 6백만 달러를 지불하라는 명령을 받았습니다.",
+      "title_en": "Meta ordered to pay $806m to address 'public nuisance' and child harm claims",
       "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/08/06/hiroshima-marks-81-years-since-atomic-bombing-as-mayor-deplores-pursuit-of-nuclear-weapons",
-      "category": "아시아",
-      "primary_source": "Euronews",
-      "excerpt": "다카이치 사나에 일본 총리는 목요일에 일본이 비핵 원칙을 유지할 것이라는 명시적인 약속을 하지 않았으며 단순히 정부가 오랫동안 유지해 온 정책을 \"지지하고 있다\"고 말했습니다.",
-      "excerpt_en": "Japanese Prime Minister Sanae Takaichi on Thursday failed to explicitly pledge that Japan will maintain its non-nuclear principles, simply saying the government “is upholding” the long-held policy, as",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3363153/japans-takaichi-stops-short-clear-pledge-maintain-non-nuclear-principles?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 1,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Euronews",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-06T06:09:37+09:00",
-      "latest_published_at": "2026-08-06T07:26:21+09:00",
-      "articles": [
-        {
-          "title": "Japan’s Takaichi stops short of clear pledge to maintain non-nuclear principles",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3363153/japans-takaichi-stops-short-clear-pledge-maintain-non-nuclear-principles?utm_source=rss_feed",
-          "published_at": "07:26"
-        },
-        {
-          "title": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/hiroshima-marks-81st-atomic-bomb-anniversary-mayor-deplores-135411503",
-          "published_at": "06:53"
-        },
-        {
-          "title": "Hiroshima marks 81 years since atomic bombing as mayor deplores pursuit of nuclear weapons",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/06/hiroshima-marks-81-years-since-atomic-bombing-as-mayor-deplores-pursuit-of-nuclear-weapons",
-          "published_at": "06:09"
-        }
-      ]
-    },
-    {
-      "id": "world-99",
-      "title": "WHO 사무총장은 구호요원들이 급여를 놓고 파업을 벌이면서 에볼라 발병이 대응 속도를 앞지르고 있다고 말했습니다.",
-      "title_en": "WHO chief says Ebola outbreak is outpacing response as aid workers strike over pay",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRHR4MEdrUEJtTHFsb1o0ZHh1RUd3NHRpUHBLbGlWYVY2Rld5V1JROGRPX3FfUXdqUWdUTUl5SDRDeUJWQU9hLWJNMzNPSFdQY3VDOWlUanBGSDRTVzhvMl9aYnR4ekVIOUJjNlZqWGJfa05vN2pGc0w5V0V3TEk1NTVLbGRlUXY5RE5lOFI5Z2NkeVdTa2pqenhMM09rSjZyOGUwVmQ1VFJXMmF0TkpjTGd0OA?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "콩고 보건부의 최신 데이터에 따르면 월요일 현재 이 발병으로 인해 3,874명의 확진자가 발생했고 1,751명이 사망했습니다.",
-      "excerpt_en": "As of Monday, the outbreak has led to 3,874 confirmed cases and 1,751 deaths, according to the latest data from Congo’s Ministry of Health",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/africa/drc-congo-ebola-outbreak-workers-strike-b3028910.html",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T04:55:00+09:00",
-      "latest_published_at": "2026-08-06T18:55:37+09:00",
-      "articles": [
-        {
-          "title": "Fast-spreading Ebola outbreak outpaces recovery efforts as Congo aid workers strike",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/drc-congo-ebola-outbreak-workers-strike-b3028910.html",
-          "published_at": "18:55"
-        },
-        {
-          "title": "Health workers at epicenter of Congo’s Ebola outbreak protest lack of payment",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/dozens-health-workers-epicenter-congos-ebola-outbreak-protest-135414149",
-          "published_at": "09:46"
-        },
-        {
-          "title": "WHO chief says Ebola outbreak is outpacing response as aid workers strike over pay",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRHR4MEdrUEJtTHFsb1o0ZHh1RUd3NHRpUHBLbGlWYVY2Rld5V1JROGRPX3FfUXdqUWdUTUl5SDRDeUJWQU9hLWJNMzNPSFdQY3VDOWlUanBGSDRTVzhvMl9aYnR4ekVIOUJjNlZqWGJfa05vN2pGc0w5V0V3TEk1NTVLbGRlUXY5RE5lOFI5Z2NkeVdTa2pqenhMM09rSjZyOGUwVmQ1VFJXMmF0TkpjTGd0OA?oc=5",
-          "published_at": "04:55"
-        }
-      ]
-    },
-    {
-      "id": "world-244",
-      "title": "홍콩은 미국과의 재참여에 있어 현실적이고 유연해야 한다",
-      "title_en": "Hong Kong must be realistic and flexible in re-engaging with the US",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3362869/hong-kong-must-be-realistic-and-flexible-re-engaging-us?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "홍콩 해피밸리의 한 개인 주택 단지에 있는 수영장은 근무 중인 인명구조원이 위조 자격증을 사용한 혐의를 당국이 적발한 후 폐쇄 명령을 받았습니다. 더 포",
-      "excerpt_en": "A swimming pool at a private housing estate in Hong Kong’s Happy Valley has been ordered to close after authorities discovered a lifeguard on duty was suspected of using fraudulent credentials. The Fo",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/hong-kong/society/article/3363215/pool-hong-kongs-happy-valley-shut-over-suspected-fake-lifeguard-credentials?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 57
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-06T12:30:07+09:00",
-      "latest_published_at": "2026-08-07T00:04:00+09:00",
-      "articles": [
-        {
-          "title": "Pioneering Hong Kong Cantopop lyricist Peter Lai dies aged 76",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/entertainment/peter-lai-dies-hong-kong-cantopop-lyricist-6304956",
-          "published_at": "00:04"
-        },
-        {
-          "title": "Gold’s price potential still ‘explosive’ amid Beijing hoarding, Hong Kong trading push",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/business/commodities/article/3363180/golds-price-potential-still-explosive-amid-beijing-hoarding-hong-kong-trading-push?utm_source=rss_feed",
-          "published_at": "00:00"
-        },
-        {
-          "title": "Criticism of Hong Kong’s economy and rule of law is baseless",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3363160/criticism-hong-kongs-economy-and-rule-law-baseless?utm_source=rss_feed",
-          "published_at": "21:30"
-        },
-        {
-          "title": "Pool at Hong Kong’s Happy Valley shut over suspected fake lifeguard credentials",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3363215/pool-hong-kongs-happy-valley-shut-over-suspected-fake-lifeguard-credentials?utm_source=rss_feed",
-          "published_at": "16:43"
-        },
-        {
-          "title": "More checks for embryo biopsies, overhaul reproductive tech law, DAB urges",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3363205/more-checks-embryo-biopsies-overhaul-reproductive-tech-law-dab-urges?utm_source=rss_feed",
-          "published_at": "13:06"
-        },
-        {
-          "title": "Hong Kong must be realistic and flexible in re-engaging with the US",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3362869/hong-kong-must-be-realistic-and-flexible-re-engaging-us?utm_source=rss_feed",
-          "published_at": "12:30"
-        }
-      ]
-    },
-    {
-      "id": "world-336",
-      "title": "6월 헤즈볼라와 휴전한 이후 처음으로 레바논에서 군인 2명이 사망했다.",
-      "title_en": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/2-soldiers-killed-lebanon-israeli-deaths-june-truce-135412592",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "이스라엘군은 목요일 이란의 지원을 받는 L군과 불안정한 휴전을 이행한 이후 처음으로 레바논 남부에서 폭발이 일어나 이스라엘 군인 2명이 사망했다고 밝혔습니다.",
-      "excerpt_en": "The Israeli military said Thursday that two of its soldiers were killed in an explosion in southern Lebanon in the first Israeli deaths since the implementation of a shaky truce with the Iran-backed L",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/israel-lebanon-idf-deaths-talks-9.7297938?cmp=rss",
-      "translation_status": "ok",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "CBC",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T06:53:39+09:00",
-      "latest_published_at": "2026-08-06T12:01:14+09:00",
-      "articles": [
-        {
-          "title": "Israel confirms death of 2 soldiers, striking back in Lebanon",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/israel-lebanon-idf-deaths-talks-9.7297938?cmp=rss",
-          "published_at": "12:01"
-        },
-        {
-          "title": "Two Israeli soldiers killed in Lebanon explosion as military announces first deaths since fragile Hezbollah truce",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/israel-soldiers-dead-lebanon-hezbollah-truce-b3028423.html",
-          "published_at": "07:29"
-        },
-        {
-          "title": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/2-soldiers-killed-lebanon-israeli-deaths-june-truce-135412592",
-          "published_at": "06:53"
-        }
-      ]
-    },
-    {
-      "id": "world-86",
-      "title": "미 상원 위원회, 파우치 소장을 의회 모독죄로 기소",
-      "title_en": "US Senate panel votes to hold Fauci in contempt of Congress",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed",
+      "title_url": "https://www.abc.net.au/news/2026-08-07/meta-ordered-to-pay-us567-million-in-new-mexico-/107008246",
       "category": "미국",
-      "primary_source": "SCMP",
-      "excerpt": "미국 상원 위원회는 전직 미국 전염병 관리가 C의 처리에 대한 질문에 답변을 거부한 후 앤서니 파우치 박사를 의회 모독죄로 체포하기로 목요일에 투표했습니다.",
-      "excerpt_en": "A US Senate committee voted on Thursday to ⁠hold Dr. Anthony Fauci ⁠in contempt of Congress after the former ⁠top US infectious disease official refused to answer questions about his handling of the C",
+      "primary_source": "ABC News Australia",
+      "excerpt": "목요일 뉴멕시코의 한 판사는 소셜 미디어 거대 기업이 \"공공의 폐해\"를 조성하고 어린이들에게 해를 끼쳤다는 주정부의 주장에 대해 메타에게 5억 달러 이상을 지불하라고 명령했습니다. 메타는 이전에 있었습니다",
+      "excerpt_en": "A New Mexico judge on Thursday ordered Meta to pay more than half a billion dollars over the state’s claims that the social media giant created a “public nuisance” and harmed children. Meta was previo",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3363233/meta-ordered-us-pay-us567-million-address-child-safety-harms?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 69,
       "score_breakdown": {
@@ -1115,162 +817,54 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "AP News",
-        "BBC",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-06T13:43:50+09:00",
-      "latest_published_at": "2026-08-06T22:14:00+09:00",
-      "articles": [
-        {
-          "title": "Senate committee votes to hold Fauci in contempt for refusing to answer COVID questions",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0dtOWZGUmVJbHhldC1KMkpOUENBYlV4Q0pxN0x4VFVkbkt4MlhJTjJZQUt3WnUyLWpDZ3FpWG5ydTl3TXZYOFczdTNZQW5GOWd4V3ZVM3dHRVRjOS00R0s4aVJBbTNsYWc3UFpSdk5LYm5IckZuUWRMVUs0ejRJOGdMUmxzTGt1a0xjc2FkNWpWRnkyOHNWbA?oc=5",
-          "published_at": "22:14"
-        },
-        {
-          "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss",
-          "published_at": "14:47"
-        },
-        {
-          "title": "US Senate panel votes to hold Fauci in contempt of Congress",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed",
-          "published_at": "13:43"
-        }
-      ]
-    },
-    {
-      "id": "world-109",
-      "title": "레바논에서 언론인을 살해한 이스라엘의 공습은 전쟁범죄라고 인권단체들이 밝혔습니다.",
-      "title_en": "Israeli strike that killed journalist in Lebanon was war crime, say rights groups",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/aug/06/israeli-strike-that-killed-journalist-in-lebanon-was-war-say-rights-groups",
-      "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "Human Rights Watch, Amnesty and Legal Agenda의 조사에 따르면 이스라엘은 민간인임을 알면서 고의적으로 Amal Khalil과 동료 Zeinab Faraj를 공격했습니다. 레바인을 죽인 이스라엘의 공격",
-      "excerpt_en": "Investigation by Human Rights Watch, Amnesty and Legal Agenda shows Israel deliberately attacked Amal Khalil and colleague Zeinab Faraj knowing they were civilians An Israeli strike that killed Lebane",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/06/israeli-strike-that-killed-journalist-in-lebanon-was-war-say-rights-groups",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
+        "ABC News Australia",
         "France24",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-06T06:00:34+09:00",
-      "latest_published_at": "2026-08-06T14:20:15+09:00",
-      "articles": [
-        {
-          "title": "Rights groups say Israeli attack that killed Lebanese journalist an apparent war crime",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2md67y3nlo?at_medium=RSS&at_campaign=rss",
-          "published_at": "14:20"
-        },
-        {
-          "title": "Lebanese journalist deliberately targeted by Israeli attack, probe reveals",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/lebanese-journalist-deliberately-targeted-by-israeli-attack-probe-reveals",
-          "published_at": "12:35"
-        },
-        {
-          "title": "Israeli strike that killed journalist in Lebanon was war crime, say rights groups",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/israeli-strike-that-killed-journalist-in-lebanon-was-war-say-rights-groups",
-          "published_at": "06:00"
-        }
-      ]
-    },
-    {
-      "id": "world-104",
-      "title": "중국 위성, 달에 충돌하는 SpaceX 로켓 잔해 영상 포착",
-      "title_en": "Chinese satellite captures video of SpaceX rocket debris crashing into the moon",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/science/article/3363199/chinese-satellite-captures-video-spacex-rocket-debris-crashing-moon?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "우주 감시 능력을 보여주기 위해 새로 발사된 중국 위성은 달에 충돌하는 SpaceX Falcon 9 로켓의 일부를 추적하고 그 충돌 장면을 포착했습니다. 눈에 보이는 깃털이 없습니다.",
-      "excerpt_en": "In a show of space surveillance strength, a newly launched Chinese satellite tracked a piece of a SpaceX Falcon 9 rocket crashing into the moon and captured footage of its impact. No visible plume can",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/science/article/3363199/chinese-satellite-captures-video-spacex-rocket-debris-crashing-moon?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Hindustan Times",
         "SCMP"
       ],
-      "first_published_at": "2026-08-06T12:01:27+09:00",
-      "latest_published_at": "2026-08-06T17:38:51+09:00",
+      "first_published_at": "2026-08-07T01:22:47+09:00",
+      "latest_published_at": "2026-08-07T02:21:47+09:00",
       "articles": [
         {
-          "title": "South Korea space agency shares Moon images after SpaceX rocket debris crash",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqjxgx5y51lo?at_medium=RSS&at_campaign=rss",
-          "published_at": "17:38"
+          "title": "Social media giant Meta ordered to pay $567 million in New Mexico child safety ruling",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/technology/20260807-meta-new-mexico-567-million-child-harm-public-nuisance",
+          "published_at": "02:21"
         },
         {
-          "title": "SpaceX rocket crashes into Moon: What happened and what scientists found",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/spacex-rocket-crashes-into-moon-what-happened-and-what-scientists-found-101786024577454.html",
-          "published_at": "14:05"
-        },
-        {
-          "title": "Chinese satellite captures video of SpaceX rocket debris crashing into the moon",
+          "title": "Meta ordered in US to pay US$567 million to address child safety harms",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/science/article/3363199/chinese-satellite-captures-video-spacex-rocket-debris-crashing-moon?utm_source=rss_feed",
-          "published_at": "12:01"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363233/meta-ordered-us-pay-us567-million-address-child-safety-harms?utm_source=rss_feed",
+          "published_at": "02:12"
+        },
+        {
+          "title": "Meta ordered to pay $806m to address 'public nuisance' and child harm claims",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-07/meta-ordered-to-pay-us567-million-in-new-mexico-/107008246",
+          "published_at": "01:22"
         }
       ]
     },
     {
-      "id": "world-207",
+      "id": "world-328",
       "title": "호주, 망명 신청한 이란 여자축구 선수 2명에게 시민권 부여",
       "title_en": "Australia grants citizenship to 2 Iranian women’s soccer players who sought asylum",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/australia-grants-citizenship-2-iranian-womens-soccer-players-135414351",
       "category": "중동",
       "primary_source": "ABC News",
-      "excerpt": "선수들은 3월 아시안컵 이후 국내에 머물렀다. 듀오는 국가를 부르지 않은 것에 대해 이란에서 반역자로 비난받았다. 두 명의 전직 이란 축구 선수는 목요일에 호주 축구 국가대표팀의 승인을 받은 것을 자랑스럽게 생각한다고 말했다.",
-      "excerpt_en": "Players stayed in country after Asian Cup in March Duo condemned as traitors in Iran for not singing anthem Two former Iranian footballers said on Thursday they were proud to have been granted Austral",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/football/2026/aug/06/two-iranian-female-footballers-australian-citizenship-protest",
+      "excerpt": "두 명의 여성 축구 선수는 올해 초 호주에 망명을 신청했으며 현재 시민권을 부여 받았습니다.",
+      "excerpt_en": "The two female footballers sought asylum in Australia earlier this year and have now been granted citizenship",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/sport/football/iran-women-football-australia-citizenship-asylum-b3028536.html",
       "translation_status": "ok",
-      "score": 68,
+      "score": 69,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "time_score": 3,
+        "raw75": 52
       },
       "area_value": 3,
       "article_count": 3,
@@ -1278,17 +872,17 @@
       "source_count": 3,
       "sources": [
         "ABC News",
-        "The Guardian",
-        "The Independent"
+        "The Independent",
+        "Times of India"
       ],
       "first_published_at": "2026-08-06T09:44:10+09:00",
-      "latest_published_at": "2026-08-06T13:38:59+09:00",
+      "latest_published_at": "2026-08-07T02:05:07+09:00",
       "articles": [
         {
-          "title": "Two Iranian female footballers granted Australian citizenship after protest",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/aug/06/two-iranian-female-footballers-australian-citizenship-protest",
-          "published_at": "13:38"
+          "title": "Australian citizenship for 2 Iranian women soccer players who sought asylum",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/australian-citizenship-for-2-iranian-women-soccer-players-who-sought-asylum/articleshow/133018960.cms",
+          "published_at": "02:05"
         },
         {
           "title": "Iranian women footballers granted Australian citizenship after seeking asylum",
@@ -1305,7 +899,530 @@
       ]
     },
     {
-      "id": "world-32",
+      "id": "world-3",
+      "title": "킨 장군은 이란 회담에서 파키스탄, 사우디아라비아, 카타르를 신뢰할 수 있는지 의문을 제기합니다.",
+      "title_en": "Gen Keane questions whether Pakistan, Saudi Arabia and Qatar can be trusted in Iran talks",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.foxnews.com/world/gen-keane-questions-whether-pakistan-saudi-arabia-qatar-trusted-iran-talks",
+      "category": "중동",
+      "primary_source": "Fox News",
+      "excerpt": "사우디군과 가까운 소식통은 AFP통신에 사우디아라비아, 파키스탄, 터키가 금요일 제다에서 공동 방위 협정에 서명할 것이라고 말했습니다. 무함마드 빈 살만 사우디 왕세자, 레세 터키 대통령",
+      "excerpt_en": "A source close to the Saudi army told AFP that Saudi Arabia, Pakistan and Turkey will sign a joint defence agreement on Friday in Jeddah. Saudi Crown Prince Mohammed bin Salman, Turkish President Rece",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Fox News",
+        "France24",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-06T10:00:38+09:00",
+      "latest_published_at": "2026-08-07T00:02:57+09:00",
+      "articles": [
+        {
+          "title": "Middle East live: Saudi Arabia, Pakistan and Turkey set to sign defence pact in Jeddah",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
+          "published_at": "00:02"
+        },
+        {
+          "title": "Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVWlCbG9KRkh2aHRNSjBWS25TWEM3V3Y5aDlfbFcwNGZIaldpZ25rNlpGUGVtcDFRQ0JUWnZ5NnhwSGJSZjBSRm5idU9iNFNUcEMxcFJDb0FrcjBUU2JvemN0OWYxazdOS3hzMHBxVVJvOVlsQ1RQcEIyT0R0NXFxSU01SDJJdm1hZklPSEYxSEQxS0t6WFpMemlDdWpFcXh5bW0wMUM3ODBBSjVPVHNJTk5rQ2ViSHdTWWlQeWQ0YjR4MjJNVTdXNDBqcw?oc=5",
+          "published_at": "22:03"
+        },
+        {
+          "title": "Gen Keane questions whether Pakistan, Saudi Arabia and Qatar can be trusted in Iran talks",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/gen-keane-questions-whether-pakistan-saudi-arabia-qatar-trusted-iran-talks",
+          "published_at": "10:00"
+        }
+      ]
+    },
+    {
+      "id": "world-35",
+      "title": "이스라엘, 팔레스타인 운동가 살해에 정착민 기소, 드물게 기소",
+      "title_en": "Israel charges settler in Palestinian activist's killing, in rare indictment",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRmMySTR1MllIMlRGTk8temRiWld1a3VoMHJnRHF4bDdYV3BhaVAwTEJ5NVcxOUtDXzd1cG5ya05ic1lEa080M18xZWJnYWNPYnNLQmMycWt0VThwSV9iY2RIamlpQUE0Z255LUpjbnB1NFdlYU1XYzVSaXZ1T0k1YzBqdXIwUEVVYmJfbi1Ka1oxU1J1ZzNVMWstWDUxU0NoeW52MVhtdmRWaVdFcm9LY2k5RlN2T1BkTkFEWDlxMA?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "이번 기소는 이스라엘 당국이 팔레스타인인 살해에 대해 이스라엘인을 기소한 드문 사례였습니다.",
+      "excerpt_en": "The indictment was a rare case in which the Israeli authorities pressed charges against an Israeli in the killing of a Palestinian.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/08/06/world/middleeast/israel-settler-manslaughter-palestinian-activist.html",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "New York Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-06T15:00:48+09:00",
+      "latest_published_at": "2026-08-06T20:52:50+09:00",
+      "articles": [
+        {
+          "title": "Israeli Settler Charged in Death of Activist Awdah Hathaleen",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/06/world/middleeast/israel-settler-manslaughter-palestinian-activist.html",
+          "published_at": "20:52"
+        },
+        {
+          "title": "Israeli settler charged over Palestinian activist’s killing",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/israeli-settler-charged-over-palestinian-activists-killing?traffic_source=rss",
+          "published_at": "19:48"
+        },
+        {
+          "title": "Israel charges settler in Palestinian activist's killing, in rare indictment",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRmMySTR1MllIMlRGTk8temRiWld1a3VoMHJnRHF4bDdYV3BhaVAwTEJ5NVcxOUtDXzd1cG5ya05ic1lEa080M18xZWJnYWNPYnNLQmMycWt0VThwSV9iY2RIamlpQUE0Z255LUpjbnB1NFdlYU1XYzVSaXZ1T0k1YzBqdXIwUEVVYmJfbi1Ka1oxU1J1ZzNVMWstWDUxU0NoeW52MVhtdmRWaVdFcm9LY2k5RlN2T1BkTkFEWDlxMA?oc=5",
+          "published_at": "15:00"
+        }
+      ]
+    },
+    {
+      "id": "world-68",
+      "title": "영국, 파라마운트의 워너 브라더스 인수 승인",
+      "title_en": "UK clears Paramount’s takeover of Warner Bros",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3363207/uk-clears-paramounts-takeover-warner-bros?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "목요일 영국은 파라마운트 스카이댄스(Paramount Skydance)가 1,100억 달러에 워너 브라더스 디스커버리(Warner Bros. Discovery)를 인수하는 것에 청신호를 보냈습니다. 엔터테인먼트 및 미디어 거대 거래는 여전히 미국 통계청에서 주요 장애물에 직면해 있기 때문입니다.",
+      "excerpt_en": "Britain on Thursday gave the green light to Paramount Skydance’s US$110 billion takeover of Warner Bros. Discovery, as the entertainment and media mega-deal still faces a key hurdle in the United Stat",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3363207/uk-clears-paramounts-takeover-warner-bros?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-06T13:32:14+09:00",
+      "latest_published_at": "2026-08-06T18:27:02+09:00",
+      "articles": [
+        {
+          "title": "Britain clears Paramount's $110 billion takeover ​of Warner Bros.",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF81ejV3OTNvNFdETEFTMlhYSE9NYS1SM05BYUZ3eGNtMXc4cmVCcm1oZ2lQUmpOU2VZeGFzeFRjUUwzemxIMjJRdnpWcUpwcm5qWl9rVjF6RDU2MWdNS0pEV2ZHWU9IbmNQTnRHQ25qeU5icXNLUDRnYS1lT3ZDdXkzRGVicFJnUE90eHZNdWhJRVROUGhXbDE3cFcxOWh1Q3NjTEZWZW1nZw?oc=5",
+          "published_at": "18:27"
+        },
+        {
+          "title": "UK won’t intervene in Paramount’s $81 billion takeover of Warner Bros. Discovery",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaEZHbnlfd1RQbVJMTjBxeW5zanlxMlU0ejEwd09MT2xhNW9maDdoSEtRbVFRSV83aU5qa2tSdnN0QUhJQzZvZkdiYnc2Y0I5elkzWTJiczlpMUFGdkJHTEVHWm9Kal9yajdtVV9WOGRPOEdFOUtlM1R1QmlwZDgxSXh4R0taREMtWmJkNE9VOG1jOEE?oc=5",
+          "published_at": "16:14"
+        },
+        {
+          "title": "UK clears Paramount’s takeover of Warner Bros",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3363207/uk-clears-paramounts-takeover-warner-bros?utm_source=rss_feed",
+          "published_at": "13:32"
+        }
+      ]
+    },
+    {
+      "id": "world-91",
+      "title": "트럼프 행정부의 최근 해상 풍력 임대 계약 총액은 거의 40억 달러에 이릅니다.",
+      "title_en": "Trump administration’s latest buyback of offshore wind leases brings total to nearly $4 billion",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3R1ek1NVGttOHhoeDFOU0d2LWpWbFdxSnBYRHAxSnFYZk5hV1NXdWdiMXFzMURWUXR4ZzA1UFhfRUxiRHVfdVJyY1V1X2tmczJ6Mi15SEEtUnhPMERJRUJQNmV0MlVQVS16TFpHdUxSN3M3ZTBISURzZW5iMVhrUjlzUU9fUXZoLWlOd1NGY3Y1RkZlOUdvbWlQSlJnVEZqTzVTVS04WWdTbVhN?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "트럼프 행정부의 최근 해상 풍력 임대 매입으로 총액이 거의 40억 달러에 달했습니다.",
+      "excerpt_en": "Trump administration’s latest buyback of offshore wind leases brings total to nearly $4 billion AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3R1ek1NVGttOHhoeDFOU0d2LWpWbFdxSnBYRHAxSnFYZk5hV1NXdWdiMXFzMURWUXR4ZzA1UFhfRUxiRHVfdVJyY1V1X2tmczJ6Mi15SEEtUnhPMERJRUJQNmV0MlVQVS16TFpHdUxSN3M3ZTBISURzZW5iMVhrUjlzUU9fUXZoLWlOd1NGY3Y1RkZlOUdvbWlQSlJnVEZqTzVTVS04WWdTbVhN?oc=5",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T19:42:00+09:00",
+      "latest_published_at": "2026-08-06T20:33:41+09:00",
+      "articles": [
+        {
+          "title": "Trump administration reaches $1.2B deal with offshore wind company to abandon projects",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-offshore-wind-settlement-rwe-b3028959.html",
+          "published_at": "20:33"
+        },
+        {
+          "title": "Trump administration's latest buyback of offshore wind leases brings total to nearly $4 billion",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-s-latest-buyback-of-offshore-wind-leases-brings-total-to-nearly-4-billion-101786045418754.html",
+          "published_at": "19:43"
+        },
+        {
+          "title": "Trump administration’s latest buyback of offshore wind leases brings total to nearly $4 billion",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3R1ek1NVGttOHhoeDFOU0d2LWpWbFdxSnBYRHAxSnFYZk5hV1NXdWdiMXFzMURWUXR4ZzA1UFhfRUxiRHVfdVJyY1V1X2tmczJ6Mi15SEEtUnhPMERJRUJQNmV0MlVQVS16TFpHdUxSN3M3ZTBISURzZW5iMVhrUjlzUU9fUXZoLWlOd1NGY3Y1RkZlOUdvbWlQSlJnVEZqTzVTVS04WWdTbVhN?oc=5",
+          "published_at": "19:42"
+        }
+      ]
+    },
+    {
+      "id": "world-101",
+      "title": "카니 \"트럼프, 캐나다 리더십 비난 후 미국 무역협상은 '불쾌하다'\"",
+      "title_en": "Carney says US trade talks are ‘nasty’ after Trump criticizes Canada’s leadership",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcHl4R1ZMTVEwZzlDaHBiQmE0S3pRdHFGd3ZTZlBDOFkwbE9ld3hrMk4yZVBoZWpIOVBtT29vX2dQTE4xUVc4V25SZGhZazgzRzluZnR0aVZkX2hIN2o3eTJLRHRRYWkyWFNneGdVTDlwbzRUTmg1dnhjaFp6c2ZERWZialpsTkJub0t3aEtGQXpHZGpiRTMzdFNGOEM3WjQx?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "마크 카니 캐나다 총리는 도널드 트럼프 대통령이 이웃 국가와 캐나다 지도자들을 조롱하고 탈퇴를 위협한 이후 미국과의 무역 협상이 \"불쾌\"해졌다고 말했습니다.",
+      "excerpt_en": "Canadian Prime Minister Mark Carney says trade negotiations with the United States had turned “nasty” after President Donald Trump derided America’s neighbor and its leadership while threatening to ex",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/carney-us-trade-talks-nasty-after-trump-criticizes-135436569",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-08-06T20:43:00+09:00",
+      "latest_published_at": "2026-08-06T23:23:58+09:00",
+      "articles": [
+        {
+          "title": "Carney says US trade talks are 'nasty' after Trump criticizes Canada's leadership",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/carney-us-trade-talks-nasty-after-trump-criticizes-135436569",
+          "published_at": "23:23"
+        },
+        {
+          "title": "After Trump Calls Canadians ‘Nasty,’ Mark Carney Says the Word Fits Trade Talks",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/06/world/canada/carney-trump-tariffs-trade.html",
+          "published_at": "22:45"
+        },
+        {
+          "title": "Carney says US trade talks are ‘nasty’ after Trump criticizes Canada’s leadership",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcHl4R1ZMTVEwZzlDaHBiQmE0S3pRdHFGd3ZTZlBDOFkwbE9ld3hrMk4yZVBoZWpIOVBtT29vX2dQTE4xUVc4V25SZGhZazgzRzluZnR0aVZkX2hIN2o3eTJLRHRRYWkyWFNneGdVTDlwbzRUTmg1dnhjaFp6c2ZERWZialpsTkJub0t3aEtGQXpHZGpiRTMzdFNGOEM3WjQx?oc=5",
+          "published_at": "20:43"
+        }
+      ]
+    },
+    {
+      "id": "world-103",
+      "title": "히로시마 시장이 핵무기 추구를 개탄하면서 81주년 원자폭탄 기념일을 맞이했습니다.",
+      "title_en": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/hiroshima-marks-81st-atomic-bomb-anniversary-mayor-deplores-135411503",
+      "category": "미국",
+      "primary_source": "ABC News",
+      "excerpt": "히로시마 시장이 핵무기 추구를 개탄하면서 81주년 원자폭탄 기념일을 맞이했습니다.",
+      "excerpt_en": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXhZRWFUSkhWMDBoeW5Yd2YzSUlhVXNFb2F4eU14dUlwRzl1Q0JFQ2lNVS0ycHZQRy1TSjJvdkR2aUdDejhCYUgwWVItd3lSaHUySFpEZUtDRUNGMVRIQnpTX2FDTV9wMk5aN181a0phVXFFNmFRYzVnN3RTa1A4YTF3YzdkVGw4eHJkVFZGNHk?oc=5",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 1,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-08-06T06:53:40+09:00",
+      "latest_published_at": "2026-08-06T10:45:00+09:00",
+      "articles": [
+        {
+          "title": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXhZRWFUSkhWMDBoeW5Yd2YzSUlhVXNFb2F4eU14dUlwRzl1Q0JFQ2lNVS0ycHZQRy1TSjJvdkR2aUdDejhCYUgwWVItd3lSaHUySFpEZUtDRUNGMVRIQnpTX2FDTV9wMk5aN181a0phVXFFNmFRYzVnN3RTa1A4YTF3YzdkVGw4eHJkVFZGNHk?oc=5",
+          "published_at": "10:45"
+        },
+        {
+          "title": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/hiroshima-marks-81st-atomic-bomb-anniversary-mayor-deplores-135411503",
+          "published_at": "06:53"
+        }
+      ]
+    },
+    {
+      "id": "world-157",
+      "title": "아르헨티나 사유재산법 반대 시위",
+      "title_en": "Thousands protest private property legislation in Argentina",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3297920/thousands-protest-private-property-legislation-in-argentina",
+      "category": "기타",
+      "primary_source": "Bangkok Post",
+      "excerpt": "부에노스아이레스(아르헨티나) - 목요일 부에노스아이레스의 시위자들은 논쟁의 여지가 있는 사유 재산에 반대하는 수천 명의 사람들이 시위를 벌이는 동안 경찰이 최루탄과 고무탄을 발사하는 것과 충돌했습니다.",
+      "excerpt_en": "BUENOS AIRES (ARGENTINA) - Protesters in Buenos Aires clashed on Thursday with police firing tear gas and rubber bullets as thousands of people demonstrated against a controversial private property bi",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3297944/clashes-with-police-as-argentines-protest-property-bill",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "DW"
+      ],
+      "first_published_at": "2026-08-07T00:45:00+09:00",
+      "latest_published_at": "2026-08-07T01:45:00+09:00",
+      "articles": [
+        {
+          "title": "Clashes with police as Argentines protest property bill",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3297944/clashes-with-police-as-argentines-protest-property-bill",
+          "published_at": "01:45"
+        },
+        {
+          "title": "Argentina: Milei's property bill triggers protests, anger",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/argentina-milei-s-property-bill-triggers-protests-anger/a-78272866?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "01:21"
+        },
+        {
+          "title": "Thousands protest private property legislation in Argentina",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3297920/thousands-protest-private-property-legislation-in-argentina",
+          "published_at": "00:45"
+        }
+      ]
+    },
+    {
+      "id": "world-181",
+      "title": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces",
+      "title_en": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "이란의 지원을 받는 예멘 후티 반군이 목요일 미사일과 드론 공격으로 정부군 최소 58명을 살해했다고 군 소식통이 밝혔습니다. 이는 4년 만에 내전 중 가장 치명적인 날 중 하나였습니다.",
+      "excerpt_en": "Yemen’s Iran-backed Houthis killed at least 58 government troops in missile and drone attacks on Thursday, a military source said, in one of the deadliest days of the country’s civil war in four years",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363241/houthi-attacks-kill-dozens-troops-yemen-wound-civilians-saudi-arabia?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-06T19:58:27+09:00",
+      "latest_published_at": "2026-08-07T03:00:56+09:00",
+      "articles": [
+        {
+          "title": "Houthi attacks kill dozens of troops in Yemen, wound civilians in Saudi Arabia",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3363241/houthi-attacks-kill-dozens-troops-yemen-wound-civilians-saudi-arabia?utm_source=rss_feed",
+          "published_at": "03:00"
+        },
+        {
+          "title": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
+          "published_at": "19:58"
+        }
+      ]
+    },
+    {
+      "id": "world-221",
+      "title": "파우치 소장, 코로나19 팬데믹 증언에 대한 의회 투표에서 모독당하다",
+      "title_en": "Fauci faces contempt of Congress vote over COVID-19 pandemic testimony",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/fauci-senate-contempt-rand-paul-pardon-b3028463.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "이 라이브 블로그는 현재 폐쇄되었습니다. 트럼프는 출생시민권을 겨냥한 새로운 명령에 서명했습니다. 속보 미국 이메일에 가입하십시오. 경멸 해결에 대한 간단한 메모: 랜드 폴 상원의원은 상원의원에게 상원의원을 보내려고 할 수도 있습니다.",
+      "excerpt_en": "This live blog is now closed. Trump signs new orders targeting birthright citizenship Sign up for the Breaking News US email One quick note on the contempt resolution: Senator Rand Paul may try to sen",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 10,
+        "major_score": 5,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T08:22:17+09:00",
+      "latest_published_at": "2026-08-07T02:01:07+09:00",
+      "articles": [
+        {
+          "title": "ACLU blasts Trump’s new orders on birthright citizenship, saying they are doomed to fail in court– as it happened",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates",
+          "published_at": "02:01"
+        },
+        {
+          "title": "Republicans have voted to hold Dr Anthony Fauci in contempt of Congress. So what happens now?",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/anthony-fauci-rand-paul-contempt-b3028765.html",
+          "published_at": "16:00"
+        },
+        {
+          "title": "Republicans vote to hold Anthony Fauci in contempt of Congress as Democrats blast ‘McCarthy-esque’ hearing",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/anthony-fauci-contempt-of-congress-vote-b3028665.html",
+          "published_at": "13:19"
+        },
+        {
+          "title": "Fauci faces contempt of Congress vote over COVID-19 pandemic testimony",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fauci-senate-contempt-rand-paul-pardon-b3028463.html",
+          "published_at": "08:22"
+        }
+      ]
+    },
+    {
+      "id": "world-249",
+      "title": "이란은 호르무즈가 오만과 협상을 진행함에 따라 미국 선박을 금지하려고 합니다.",
+      "title_en": "Iran seeks to bar US ships as Hormuz deal with Oman advances",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3363226/iran-seeks-bar-us-ships-hormuz-deal-oman-advances?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "이란은 미국과 이스라엘 선박의 호르무즈 해협 입항을 금지하고, 사용을 허용하기 전에 적대국에 보상을 요구할 것이라고 현지 언론이 보도했다.",
+      "excerpt_en": "Iran will seek to bar US and Israeli ships from the Strait of Hormuz and require compensation from hostile countries before they are allowed to use it, according to local media reports on a proposed I",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363226/iran-seeks-bar-us-ships-hormuz-deal-oman-advances?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-06T23:33:20+09:00",
+      "latest_published_at": "2026-08-07T01:08:14+09:00",
+      "articles": [
+        {
+          "title": "Iran, Oman deal on Strait of Hormuz getting close, Tehran says",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/",
+          "published_at": "01:08"
+        },
+        {
+          "title": "Iran seeks to bar US ships as Hormuz deal with Oman advances",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3363226/iran-seeks-bar-us-ships-hormuz-deal-oman-advances?utm_source=rss_feed",
+          "published_at": "23:33"
+        }
+      ]
+    },
+    {
+      "id": "world-42",
       "title": "후티 반군 공격으로 예멘 정부군 최소 30명 사망",
       "title_en": "Houthi attacks kill at least 30 Yemeni government troops",
       "title_source": "earliest_pick",
@@ -1317,14 +1434,14 @@
       "excerpt_source": "BBC",
       "excerpt_url": "https://www.bbc.co.uk/news/articles/ckgdmdr0lmgo?at_medium=RSS&at_campaign=rss",
       "translation_status": "ok",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1352,160 +1469,7 @@
       ]
     },
     {
-      "id": "world-97",
-      "title": "Qdoba는 Chipotle의 선례를 따라 살모넬라 발병이 27개 주로 확대됨에 따라 메뉴에서 할라피뇨를 제거했습니다.",
-      "title_en": "Qdoba follows Chipotle’s lead and removes jalapeños from the menu as salmonella outbreak expands to 27 states",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/salmonella-outbreak-jalapenos-qdoba-chipotle-b3028655.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "주로 미네소타와 콜로라도에서 27개 주에서 최소 345명이 살모넬라균에 감염되었습니다.",
-      "excerpt_en": "At least 345 people in 27 states have fallen ill from the salmonella strain, predominantly in Minnesota and Colorado",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/jalapenos-salmonella-outbreak-mexico-farm-chipotle-b3028928.html",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T14:02:08+09:00",
-      "latest_published_at": "2026-08-06T22:36:00+09:00",
-      "articles": [
-        {
-          "title": "Jalapeños linked to a US salmonella outbreak are tracked to a Mexican farm and a distributor",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbTlsOEZXSzZGSk5ET1J0RGlTZzVJYm1jOVZ2MUJHa2kxc2xDRmZ5SjJyQl9HQTF4eERuVWYxX3h3Yy1NVEdIRnptZEFENVV2Z1AwX0NPNEJPVzR1RTQ3LTQ1UktKMEFXSm1LUGxLcm1ZdlctNm9KeFplZ0E2NGUtQktpVlg2MjIxNWJqU2YxcXh2d05XdmMzbHVxYw?oc=5",
-          "published_at": "22:36"
-        },
-        {
-          "title": "Jalapeños linked to salmonella outbreak that sickened hundreds traced to Mexican grower",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/jalapenos-salmonella-outbreak-mexico-farm-chipotle-b3028928.html",
-          "published_at": "19:43"
-        },
-        {
-          "title": "Qdoba follows Chipotle’s lead and removes jalapeños from the menu as salmonella outbreak expands to 27 states",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/salmonella-outbreak-jalapenos-qdoba-chipotle-b3028655.html",
-          "published_at": "14:02"
-        }
-      ]
-    },
-    {
-      "id": "world-180",
-      "title": "시리아 수도 인근에서 버스 폭발로 2명이 사망하고 13명이 부상했다고 국영 언론이 보도했다.",
-      "title_en": "2 killed, 13 wounded in bus blast near Syrian capital: state media",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/2-killed-13-wounded-in-bus-blast-near-syrian-capital-state-media-101786043651984.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "시리아 다마스쿠스 인근 자라마나 마을에서 목요일 미니버스에 설치된 폭탄이 폭발해 최소 2명이 사망하고 13명이 부상했다고 국영 언론이 보건부를 인용해 보도했습니다. 목",
-      "excerpt_en": "At least two people were killed and 13 wounded when a bomb planted on a minibus exploded on Thursday in the Syrian town of Jaramana, near Damascus, state media reported, citing the health ministry. Th",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T19:14:11+09:00",
-      "latest_published_at": "2026-08-06T21:54:18+09:00",
-      "articles": [
-        {
-          "title": "Bus explosion near Damascus kills at least two, injures 13",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260806-damascus-bus-explosion-kills-two",
-          "published_at": "21:54"
-        },
-        {
-          "title": "2 killed, 13 wounded in bus blast near Syrian capital: state media",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/2-killed-13-wounded-in-bus-blast-near-syrian-capital-state-media-101786043651984.html",
-          "published_at": "19:14"
-        }
-      ]
-    },
-    {
-      "id": "world-57",
-      "title": "러시아의 우크라이나와의 전쟁에 북한군이 합류했다는 사실에 대해 우리가 알고 있는 것",
-      "title_en": "What we know about North Korean forces joining Russia's war against Ukraine",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "러시아의 우크라이나와의 전쟁에 참여하는 북한군에 대해 우리가 알고 있는 것 Reuters",
-      "excerpt_en": "What we know about North Korean forces joining Russia's war against Ukraine Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T07:50:02+09:00",
-      "latest_published_at": "2026-08-06T09:47:59+09:00",
-      "articles": [
-        {
-          "title": "Everything you need to know as Russia wants another 30,000 North Korean soldiers to fight against Ukraine",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/north-korea-soldiers-russia-ukraine-putin-b3028450.html",
-          "published_at": "09:47"
-        },
-        {
-          "title": "North Korea sends missile unit to Russia as Putin tries to exploit Ukraine weakness",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/north-korea-russia-missile-40-kn23-ukraine-putin-war-b3028476.html",
-          "published_at": "08:38"
-        },
-        {
-          "title": "What we know about North Korean forces joining Russia's war against Ukraine",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
-          "published_at": "07:50"
-        }
-      ]
-    },
-    {
-      "id": "world-94",
+      "id": "world-98",
       "title": "다마스커스 교외에서 폭발이 발생해 최소 2명이 사망하고 여러 명이 부상을 입었습니다.",
       "title_en": "Explosion in Damascus suburb kills at least 2 people, wounds several others",
       "title_source": "earliest_pick",
@@ -1552,54 +1516,7 @@
       ]
     },
     {
-      "id": "world-100",
-      "title": "우크라이나가 전선에서 1,300km 이상 떨어진 러시아 정유소를 공격했다고 젤렌스키가 밝혔습니다.",
-      "title_en": "Ukraine strikes Russian oil refinery over 1,300km behind frontline, says Zelensky",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/yaroslavl-oil-refinery-ukraine-russia-oil-bashkortostan-b3028671.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "우크라이나 대통령은 우크라이나가 러시아 내부 석유시설 2곳을 추가 공격했다고 밝혔습니다.",
-      "excerpt_en": "Ukrainian President says Ukraine has hit two more oil facilities deep inside Russia",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/yaroslavl-oil-refinery-ukraine-russia-oil-bashkortostan-b3028671.html",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T13:45:17+09:00",
-      "latest_published_at": "2026-08-06T18:30:00+09:00",
-      "articles": [
-        {
-          "title": "Ukraine strikes more oil facilities deep inside Russia, Zelenskyy says",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSExCQ3NUNmxhRWVjcHVLcUp5RVZLbnBWR3pWY2RFcy1BdjdMTUVwVVFGc2xISEN4dXpxeWloSDFXQ1hFQ2x4VFlsYk52QVlKV3NZLWZJNmliSElKRk5YU2FUVnBZbmlBSjFhQ3BNdmVEbm5QX0lqd2JJbVVBZm9ZYXR1N09ibWdPNEk0dlZ3WmhGU2Jiejd0NUJkXzdmLTI1UWRCdlgzdU40MzJ5eXdLN1ctRQ?oc=5",
-          "published_at": "18:30"
-        },
-        {
-          "title": "Ukraine strikes Russian oil refinery over 1,300km behind frontline, says Zelensky",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/yaroslavl-oil-refinery-ukraine-russia-oil-bashkortostan-b3028671.html",
-          "published_at": "13:45"
-        }
-      ]
-    },
-    {
-      "id": "world-117",
+      "id": "world-121",
       "title": "복서, 영국 구호요원 살해하고 시신을 여행가방에 버린 혐의로 기소",
       "title_en": "Boxer charged with killing UK aid worker and dumping body in suitcase",
       "title_source": "earliest_pick",
@@ -1653,254 +1570,119 @@
       ]
     },
     {
-      "id": "world-148",
-      "title": "살모넬라균 발병으로 미국에서 340명 이상이 감염되면서 멕시코 할라피뇨에 주목",
-      "title_en": "Mexican jalapenos in focus as 340+ fall sick in US due to Salmonella outbreak",
+      "id": "world-275",
+      "title": "Lindsay Clancy 재판 업데이트: Elaine Rossi는 누구이며 지금 어디에 있나요? 전 유모, 아동 살해 사건 증언",
+      "title_en": "Lindsay Clancy trial update: Who is Elaine Rossi, where is she now? Former nanny testifies in children's murder case",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/mexican-jalapenos-in-focus-as-340-fall-sick-in-us-due-to-salmonella-outbreak-101785988450332.html",
-      "category": "미국",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-elaine-rossi-where-is-she-now-former-nanny-to-lindsay-clancys-children-testifies-in-murder-trial-101785997730333.html",
+      "category": "기타",
       "primary_source": "Hindustan Times",
-      "excerpt": "질병통제예방센터(CDC)와 FDA는 조사가 진행되는 동안 36건의 입원과 사망은 보고되지 않았다고 밝혔다.",
-      "excerpt_en": "Both the Centers for Disease Control and Prevention (CDC) and the FDA said 36 hospitalizations and no deaths have been reported, while investigation underway.",
+      "excerpt": "Lindsay Clancy의 직계 가족에는 부모 Paula와 Michael Musgrove, 자매 Allison Ozga 및 전 남편 Patrick Clancy가 포함됩니다.",
+      "excerpt_en": "Lindsay Clancy’s immediate family includes her parents Paula and Michael Musgrove, sister Allison Ozga and former husband Patrick Clancy.",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/mexican-jalapenos-in-focus-as-340-fall-sick-in-us-due-to-salmonella-outbreak-101785988450332.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/does-lindsay-clancy-have-siblings-all-we-know-about-the-family-of-the-woman-accused-of-killing-her-three-children-101786039389217.html",
       "translation_status": "ok",
       "score": 61,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 46
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T08:01:31+09:00",
+      "latest_published_at": "2026-08-07T00:55:24+09:00",
+      "articles": [
+        {
+          "title": "Lindsay Clancy breaks down during trial as jurors view 8-month-old’s autopsy photos",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-murder-trial-autopsy-photos-b3029035.html",
+          "published_at": "00:55"
+        },
+        {
+          "title": "Who are Lindsay Clancy's ex-in-laws? Meet Patrick Clancy's family as former father-in-law testifies in murder trial",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-are-lindsay-clancys-ex-in-laws-meet-patrick-clancys-family-as-former-father-in-law-testifies-in-murder-trial-101786051402015.html",
+          "published_at": "21:35"
+        },
+        {
+          "title": "Does Lindsay Clancy have siblings? All we know about her parents, sister and family",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/does-lindsay-clancy-have-siblings-all-we-know-about-the-family-of-the-woman-accused-of-killing-her-three-children-101786039389217.html",
+          "published_at": "18:27"
+        },
+        {
+          "title": "Lindsay Clancy trial update: Who is Elaine Rossi, where is she now? Former nanny testifies in children's murder case",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-elaine-rossi-where-is-she-now-former-nanny-to-lindsay-clancys-children-testifies-in-murder-trial-101785997730333.html",
+          "published_at": "08:01"
+        }
+      ]
+    },
+    {
+      "id": "world-63",
+      "title": "러시아의 우크라이나와의 전쟁에 북한군이 합류했다는 사실에 대해 우리가 알고 있는 것",
+      "title_en": "What we know about North Korean forces joining Russia's war against Ukraine",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "러시아의 우크라이나와의 전쟁에 참여하는 북한군에 대해 우리가 알고 있는 것 Reuters",
+      "excerpt_en": "What we know about North Korean forces joining Russia's war against Ukraine Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
+      "translation_status": "ok",
+      "score": 60,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T04:12:04+09:00",
-      "latest_published_at": "2026-08-06T18:47:13+09:00",
-      "articles": [
-        {
-          "title": "CDC says US salmonella outbreak tied to jalapeno peppers from Mexico",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/6/cdc-says-us-salmonella-outbreak-tied-to-jalapeno-peppers-from-mexico?traffic_source=rss",
-          "published_at": "18:47"
-        },
-        {
-          "title": "Salmonella outbreak linked to Mexican jalapenos sickens 345 people in US",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/salmonella-outbreak-linked-to-mexican-jalapenos-sickens-345-people-in-us-101786014972874.html",
-          "published_at": "11:30"
-        },
-        {
-          "title": "Mexican jalapenos in focus as 340+ fall sick in US due to Salmonella outbreak",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/mexican-jalapenos-in-focus-as-340-fall-sick-in-us-due-to-salmonella-outbreak-101785988450332.html",
-          "published_at": "04:12"
-        }
-      ]
-    },
-    {
-      "id": "world-349",
-      "title": "브라질 경찰은 2024년 62명의 목숨을 앗아간 보패스(Voepass) 나선형 비행기 추락 사고로 16명을 공식 기소했다.",
-      "title_en": "Brazil's police formally accuses 16 people for Voepass spiral plane crash that killed 62 in 2024",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/brazils-police-formally-accuses-16-people-for-voepass-spiral-plane-crash-that-killed-62-in-2024-101786045053400.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "브라질 연방 경찰은 2024년 8월 비행기 추락 사고로 탑승자 62명 전원이 사망한 사건에 대해 Voepass 항공사의 현직 및 전직 직원 16명을 공식적으로 고발했습니다.",
-      "excerpt_en": "Brazil’s federal police have formally accused 16 current and former employees of airline Voepass for the in August 2024 plane crash that killed all 62 people on board",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/brazils-police-formally-accuses-16-people-voepass-spiral-135435496",
-      "translation_status": "ok",
-      "score": 59,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T19:37:32+09:00",
-      "latest_published_at": "2026-08-06T23:21:06+09:00",
-      "articles": [
-        {
-          "title": "Brazil's police formally accuses 16 people for plane crash that killed 62 in 2024",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazils-police-formally-accuses-16-people-voepass-spiral-135435496",
-          "published_at": "23:21"
-        },
-        {
-          "title": "Brazil's police formally accuses 16 people for Voepass spiral plane crash that killed 62 in 2024",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/brazils-police-formally-accuses-16-people-for-voepass-spiral-plane-crash-that-killed-62-in-2024-101786045053400.html",
-          "published_at": "19:37"
-        }
-      ]
-    },
-    {
-      "id": "world-221",
-      "title": "파손자가 피해를 입히지 않았다는 사실을 인정했음에도 불구하고 반사 웅덩이 주변에는 울타리가 남아 있습니다.",
-      "title_en": "Fencing remains up around the Reflecting Pool despite admission that vandals didn’t cause the damage",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/lincoln-memorial-reflecting-pool-fencing-b3028772.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "트럼프 대통령은 미국 변호사의 '끔찍한 실수'를 비난했다. 그는 법정에서 잘못된 개조로 인한 손해배상을 청구했다고 말했다. 도널드 트럼프는 미국 변호사 이후 Jeanine Pirro에 대한 비판을 두 배로 늘렸다.",
-      "excerpt_en": "President attacks ‘terrible mistake’ of US attorney, who said in court filing damage stemmed from botched renovation Donald Trump has doubled down on his criticism of Jeanine Pirro after the US attorn",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/06/trump-jeanine-pirro-reflecting-pool-vandalism",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 43
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "The Guardian",
+        "Reuters",
         "The Independent"
       ],
-      "first_published_at": "2026-08-06T16:52:23+09:00",
-      "latest_published_at": "2026-08-06T22:51:12+09:00",
+      "first_published_at": "2026-08-06T07:50:02+09:00",
+      "latest_published_at": "2026-08-06T09:47:59+09:00",
       "articles": [
         {
-          "title": "Trump again rebukes Jeanine Pirro over reflecting pool ‘vandalism’ case",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/06/trump-jeanine-pirro-reflecting-pool-vandalism",
-          "published_at": "22:51"
+          "title": "Everything you need to know as Russia wants another 30,000 North Korean soldiers to fight against Ukraine",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/north-korea-soldiers-russia-ukraine-putin-b3028450.html",
+          "published_at": "09:47"
         },
         {
-          "title": "Trump doesn’t understand why Pirro ‘did such a stupid thing’ but says he won’t fire her over reflecting pool betrayal",
+          "title": "North Korea sends missile unit to Russia as Putin tries to exploit Ukraine weakness",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jeanine-pirro-reflecting-pool-not-fired-b3028929.html",
-          "published_at": "20:25"
+          "url": "https://www.independent.co.uk/news/world/europe/north-korea-russia-missile-40-kn23-ukraine-putin-war-b3028476.html",
+          "published_at": "08:38"
         },
         {
-          "title": "Fencing remains up around the Reflecting Pool despite admission that vandals didn’t cause the damage",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/lincoln-memorial-reflecting-pool-fencing-b3028772.html",
-          "published_at": "16:52"
+          "title": "What we know about North Korean forces joining Russia's war against Ukraine",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPck5RYzRha0ZtTldodHlHZENRNDVadTRPNGoxblhlYmNsOG9iUzhlemNsSFZ2RDZqLUVJWHRTQXluejluUW04Rks5M3l4ZDd1OXBWeVpwODFfRjJHeFlPN2d2S0RSbjFXZkVBWDNmTGZfRFpCWkF4ZTJ4ZlJoRDBVSkhTbHR0UmJEQTduQ3Jra2ZueHhQalhxZXBVRXNBb3NuLWgyRktBM1czU3lrdUNVZndZNlBrXzJjbFlsdS1yTnF0amdiQndQNlVCWWd1WUxQWncw?oc=5",
+          "published_at": "07:50"
         }
       ]
     },
     {
-      "id": "world-329",
-      "title": "기록적으로 낮은 다뉴브 강은 세르비아에서 모래톱을 노출시키고 보트를 좌초시킵니다",
-      "title_en": "Record-low Danube exposes sandbanks, strands boats in Serbia",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/video/2026/08/06/record-low-danube-exposes-sandbanks-strands-boats-in-serbia",
-      "category": "기타",
-      "primary_source": "Euronews",
-      "excerpt": "세르비아 북부의 기록적으로 낮은 도나우 강 수위로 인해 모래톱과 건조한 정박지가 노출되고 화물선이 강을 따라 좌초됩니다.",
-      "excerpt_en": "Record-low Danube water levels in northern Serbia expose sandbanks, dry marinas and leave cargo vessels stranded along the river.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/video/2026/08/06/record-low-danube-exposes-sandbanks-strands-boats-in-serbia",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T10:43:25+09:00",
-      "latest_published_at": "2026-08-06T11:05:44+09:00",
-      "articles": [
-        {
-          "title": "Romania diverts Danube water in race to save nuclear reactors from shutdown",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/romania-danube-water-levels-nuclear-reactor-shutdown-b3028573.html",
-          "published_at": "11:05"
-        },
-        {
-          "title": "Record-low Danube exposes sandbanks, strands boats in Serbia",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/08/06/record-low-danube-exposes-sandbanks-strands-boats-in-serbia",
-          "published_at": "10:43"
-        }
-      ]
-    },
-    {
-      "id": "world-182",
-      "title": "후티 반군, 사우디 지원 예멘 정부군 수십명 사살",
-      "title_en": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
-      "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "의료 소식통에 따르면 목요일 후티 반군의 드론과 미사일 공격으로 예멘 정부군 최소 38명이 사망했다고 합니다. 이란의 지원을 받는 후티 반군이",
-      "excerpt_en": "At least 38 members of the Yemeni government forces were killed Thursday in drone and missile attacks carried out by Houthi rebels, according to medical sources. The Iran-backed Houthis claimed the at",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "France24"
-      ],
-      "first_published_at": "2026-08-06T19:58:27+09:00",
-      "latest_published_at": "2026-08-06T21:43:59+09:00",
-      "articles": [
-        {
-          "title": "Houthi missile attacks kill 58 Saudi-backed Yemeni govt forces: source",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/houthi-rebels-yemen-kill-government-troops-6304816",
-          "published_at": "21:43"
-        },
-        {
-          "title": "Houthi rebels kill dozens of Saudi-backed Yemeni government forces",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces",
-          "published_at": "19:58"
-        }
-      ]
-    },
-    {
-      "id": "world-217",
+      "id": "world-218",
       "title": "노퍽 경찰은 망명 계획에 대한 불안으로 부상당한 경찰관 2명을 체포했습니다.",
       "title_en": "Norfolk police arrest two men after officers injured during unrest over asylum plans",
       "title_source": "earliest_pick",
@@ -1930,13 +1712,13 @@
         "The Guardian"
       ],
       "first_published_at": "2026-08-06T18:06:14+09:00",
-      "latest_published_at": "2026-08-06T23:22:42+09:00",
+      "latest_published_at": "2026-08-07T01:46:43+09:00",
       "articles": [
         {
           "title": "Police injured as protesters descend on homes for asylum seekers in England",
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/europe/police-injured-as-protesters-descend-on-homes-for-asylum-seekers-in-england-20260807-p60m7c.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "23:22"
+          "published_at": "01:46"
         },
         {
           "title": "Norfolk police arrest two men after officers injured during unrest over asylum plans",
@@ -1947,17 +1729,64 @@
       ]
     },
     {
-      "id": "world-37",
-      "title": "AMD는 칩 경쟁이 가열됨에 따라 Taalas 거래를 통해 AI 추론 베팅을 심화합니다.",
-      "title_en": "AMD deepens AI inference bet with Taalas deal as chip race heats up",
+      "id": "world-325",
+      "title": "기록적으로 낮은 다뉴브 강은 세르비아에서 모래톱을 노출시키고 보트를 좌초시킵니다",
+      "title_en": "Record-low Danube exposes sandbanks, strands boats in Serbia",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/amd-deepens-ai-inference-bet-taalas-deal-chip-race-heats-up-6304796",
+      "title_url": "http://www.euronews.com/video/2026/08/06/record-low-danube-exposes-sandbanks-strands-boats-in-serbia",
       "category": "기타",
+      "primary_source": "Euronews",
+      "excerpt": "세르비아 북부의 기록적으로 낮은 도나우 강 수위로 인해 모래톱과 건조한 정박지가 노출되고 화물선이 강을 따라 좌초됩니다.",
+      "excerpt_en": "Record-low Danube water levels in northern Serbia expose sandbanks, dry marinas and leave cargo vessels stranded along the river.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/video/2026/08/06/record-low-danube-exposes-sandbanks-strands-boats-in-serbia",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T10:43:25+09:00",
+      "latest_published_at": "2026-08-06T11:05:44+09:00",
+      "articles": [
+        {
+          "title": "Romania diverts Danube water in race to save nuclear reactors from shutdown",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/romania-danube-water-levels-nuclear-reactor-shutdown-b3028573.html",
+          "published_at": "11:05"
+        },
+        {
+          "title": "Record-low Danube exposes sandbanks, strands boats in Serbia",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/video/2026/08/06/record-low-danube-exposes-sandbanks-strands-boats-in-serbia",
+          "published_at": "10:43"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "호르무즈 해협 재개 계획 우려로 유가 상승",
+      "title_en": "Oil rises on concerns over Strait of Hormuz reopening plans",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/oil-rises-concerns-over-strait-hormuz-reopening-plans-6305041",
+      "category": "중동",
       "primary_source": "Channel News Asia",
-      "excerpt": "칩 경쟁이 가열되면서 AMD, Taalas 거래로 AI 추론 베팅 심화 Reuters",
-      "excerpt_en": "AMD deepens AI inference bet with Taalas deal as chip race heats up Reuters",
+      "excerpt": "호르무즈 해협 재개 계획 우려로 유가 상승 - 로이터",
+      "excerpt_en": "Oil rises on concerns over Strait of Hormuz reopening plans Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWUF0eTJUTHJzZWdiSWNVbjA5VGhldm83MG9sZnd2d2ZGRzRISEFDVFUtU3JDSGtTaWJpS0xvM0lhT2FKUnJEUmZIeTdkcElDN0UyMXN6bW5KRlNadEpEVTg5OFloSFBYM0IxclhVNG04eS1GZURWaVRFR21rYmhWWFp0U1JfcnFqTWZ6aEJrcE1tSXpobjNLQ2ZmdG9jd0lxc0JzZnZUN3Q0Wjc0Y1E?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1976,35 +1805,35 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-08-06T21:27:23+09:00",
-      "latest_published_at": "2026-08-06T21:29:08+09:00",
+      "first_published_at": "2026-08-07T00:47:28+09:00",
+      "latest_published_at": "2026-08-07T02:08:15+09:00",
       "articles": [
         {
-          "title": "AMD deepens AI inference bet with Taalas deal as chip race heats up",
+          "title": "Oil rises on concerns over Strait of Hormuz reopening plans",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWUF0eTJUTHJzZWdiSWNVbjA5VGhldm83MG9sZnd2d2ZGRzRISEFDVFUtU3JDSGtTaWJpS0xvM0lhT2FKUnJEUmZIeTdkcElDN0UyMXN6bW5KRlNadEpEVTg5OFloSFBYM0IxclhVNG04eS1GZURWaVRFR21rYmhWWFp0U1JfcnFqTWZ6aEJrcE1tSXpobjNLQ2ZmdG9jd0lxc0JzZnZUN3Q0Wjc0Y1E?oc=5",
-          "published_at": "21:29"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
+          "published_at": "02:08"
         },
         {
-          "title": "AMD deepens AI inference bet with Taalas deal as chip race heats up",
+          "title": "Oil rises on concerns over Strait of Hormuz reopening plans",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/amd-deepens-ai-inference-bet-taalas-deal-chip-race-heats-up-6304796",
-          "published_at": "21:27"
+          "url": "https://www.channelnewsasia.com/business/oil-rises-concerns-over-strait-hormuz-reopening-plans-6305041",
+          "published_at": "00:47"
         }
       ]
     },
     {
-      "id": "world-95",
-      "title": "트럼프 행정부, 규제 철폐 제안하며 헤드스타트 개편 추진",
-      "title_en": "Trump administration moves forward with Head Start overhaul, proposing to eliminate regulations",
+      "id": "world-34",
+      "title": "독점: 이란, 걸프 지역 국가에 경고: 트럼프에게 단념하라고 말하지 않으면 우리가 당신을 강타할 것입니다",
+      "title_en": "EXCLUSIVE: Iran warns Gulf states: tell Trump to desist or we hit you hard",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUNfNGY3UG5UMUhyR2c3eDJhU0hjdE1XckpNVEFjclNUQzRxN0NTLTRtUmF1TkE4TG9vak9ELTR3elpHVjhLWTFvdkFwNGV2czVQNDNXZFdHMVBFV1RMZUdzQlJWMkM4el96SWh2T2xQRzBRR05idXN4Q09jLUc2QkU1WGF5NjJ5cFo1Z1h2T25BWXZr?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "관리들은 제안된 개정안이 더 많은 등록을 장려할 것이라고 말하고 있지만 옹호자들은 이 프로그램이 프로그램을 훼손할 것이라고 말합니다. 트럼프 행정부는 헤드 스타트를 전면 개편할 계획이라고 밝혔습니다.",
-      "excerpt_en": "While officials say proposed revisions will encourage more enrollment, advocates say it will undermine the program The Trump administration has said it plans to overhaul Head Start, tossing out many o",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/06/trump-administration-head-start-changes",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0dwSU95VFRkYTBfdlZyQVRjek1GbUp0d285UjJ5SUFlV2RvNm00S0dWZ0JBbXFUbGx5OG5pV2drM0l6UGVCTFdNeGxIRU00REVTYkZZa2VZVjlEZzhtcmdBejgtclFqd3VrOUVWSVNQUi14a2s1VEI1TTgxa0U1RmdscUFlVGJqTW9yNFVhQlZDZ1RYMG4wazBwSjlZVG1SMEhpbDNqQm4xNDNVeHN6NQ?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "독점: 이란, 걸프 국가들에 경고: 트럼프에게 단념하라고 말하지 않으면 우리가 당신을 강타할 것입니다 - 로이터",
+      "excerpt_en": "EXCLUSIVE: Iran warns Gulf states: tell Trump to desist or we hit you hard Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0dwSU95VFRkYTBfdlZyQVRjek1GbUp0d285UjJ5SUFlV2RvNm00S0dWZ0JBbXFUbGx5OG5pV2drM0l6UGVCTFdNeGxIRU00REVTYkZZa2VZVjlEZzhtcmdBejgtclFqd3VrOUVWSVNQUi14a2s1VEI1TTgxa0U1RmdscUFlVGJqTW9yNFVhQlZDZ1RYMG4wazBwSjlZVG1SMEhpbDNqQm4xNDNVeHN6NQ?oc=5",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -2020,28 +1849,322 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "The Guardian"
+        "Reuters",
+        "Times of India"
       ],
-      "first_published_at": "2026-08-06T21:59:00+09:00",
-      "latest_published_at": "2026-08-06T23:27:43+09:00",
+      "first_published_at": "2026-08-06T12:31:46+09:00",
+      "latest_published_at": "2026-08-07T01:46:58+09:00",
       "articles": [
         {
-          "title": "Trump administration announces changes to Head Start in overhaul",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/06/trump-administration-head-start-changes",
-          "published_at": "23:27"
+          "title": "Tell Trump to desist or we hit you hard: Iran warns Gulf countries",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/tell-trump-to-desist-or-we-hit-you-hard-iran-warns-gulf-countries/articleshow/133018813.cms",
+          "published_at": "01:46"
         },
         {
-          "title": "Trump administration moves forward with Head Start overhaul, proposing to eliminate regulations",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUNfNGY3UG5UMUhyR2c3eDJhU0hjdE1XckpNVEFjclNUQzRxN0NTLTRtUmF1TkE4TG9vak9ELTR3elpHVjhLWTFvdkFwNGV2czVQNDNXZFdHMVBFV1RMZUdzQlJWMkM4el96SWh2T2xQRzBRR05idXN4Q09jLUc2QkU1WGF5NjJ5cFo1Z1h2T25BWXZr?oc=5",
-          "published_at": "21:59"
+          "title": "EXCLUSIVE: Iran warns Gulf states: tell Trump to desist or we hit you hard",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0dwSU95VFRkYTBfdlZyQVRjek1GbUp0d285UjJ5SUFlV2RvNm00S0dWZ0JBbXFUbGx5OG5pV2drM0l6UGVCTFdNeGxIRU00REVTYkZZa2VZVjlEZzhtcmdBejgtclFqd3VrOUVWSVNQUi14a2s1VEI1TTgxa0U1RmdscUFlVGJqTW9yNFVhQlZDZ1RYMG4wazBwSjlZVG1SMEhpbDNqQm4xNDNVeHN6NQ?oc=5",
+          "published_at": "12:31"
         }
       ]
     },
     {
-      "id": "world-3",
+      "id": "world-75",
+      "title": "주식은 금요일 미국 고용지표보다 앞서 하락했습니다. 이란 우려로 인한 석유 이익",
+      "title_en": "Stocks fall ahead of Friday's US jobs data; oil gains on Iran concerns",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "주식은 금요일 미국 고용지표보다 앞서 하락했습니다. 이란 석유 이익 우려 - 로이터",
+      "excerpt_en": "Stocks fall ahead of Friday's US jobs data; oil gains on Iran concerns Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-06T22:15:43+09:00",
+      "latest_published_at": "2026-08-07T02:04:53+09:00",
+      "articles": [
+        {
+          "title": "Dollar drifts higher as traders eye Iran talks ahead of US jobs data",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/dollar-drifts-higher-traders-eye-iran-talks-ahead-us-jobs-data-6305161",
+          "published_at": "02:04"
+        },
+        {
+          "title": "Stocks fall ahead of Friday's US jobs data; oil gains on Iran concerns",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
+          "published_at": "22:15"
+        }
+      ]
+    },
+    {
+      "id": "world-134",
+      "title": "뉴멕시코 법원, 메타에게 청소년 피해에 대해 5억 6700만 달러 배상 명령",
+      "title_en": "New Mexico court orders Meta to pay $567m over harm to youths",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss",
+      "category": "기타",
+      "primary_source": "Al Jazeera",
+      "excerpt": "판결은 소셜 미디어 회사가 사용자에게 해를 끼쳤다는 것을 발견한 획기적인 재판의 두 번째 단계의 일환으로 이루어졌습니다. 뉴멕시코 법원은 페이스북의 모회사인 Meta에 5억 6700만 달러를 지불하라고 명령했습니다.",
+      "excerpt_en": "Ruling comes as part of second phase of landmark trial that found social media company enabled harm against users A New Mexico court has ordered Meta, the parent company of Facebook, to pay $567m into",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-07T01:51:03+09:00",
+      "latest_published_at": "2026-08-07T02:24:50+09:00",
+      "articles": [
+        {
+          "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+          "published_at": "02:24"
+        },
+        {
+          "title": "New Mexico court orders Meta to pay $567m over harm to youths",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss",
+          "published_at": "01:51"
+        }
+      ]
+    },
+    {
+      "id": "world-291",
+      "title": "멕시코 할라피뇨와 관련된 살모넬라 발병으로 미국에서 345명 감염",
+      "title_en": "Salmonella outbreak linked to Mexican jalapenos sickens 345 people in US",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/salmonella-outbreak-linked-to-mexican-jalapenos-sickens-345-people-in-us-101786014972874.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "멕시코산 할라피뇨 고추와 관련된 살모넬라 발병으로 미국 27개 주에서 345명이 감염되었으며 36명이 입원했고 고추 리콜이 진행 중입니다.",
+      "excerpt_en": "Salmonella outbreak linked to jalapeno peppers from Mexico sickens 345 people in 27 US states, with 36 hospitalizations and a pepper recall underway.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/salmonella-outbreak-linked-to-mexican-jalapenos-sickens-345-people-in-us-101786014972874.html",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-06T11:30:40+09:00",
+      "latest_published_at": "2026-08-06T19:43:55+09:00",
+      "articles": [
+        {
+          "title": "Jalapeños linked to salmonella outbreak that sickened hundreds traced to Mexican grower",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/jalapenos-salmonella-outbreak-mexico-farm-chipotle-b3028928.html",
+          "published_at": "19:43"
+        },
+        {
+          "title": "Qdoba follows Chipotle’s lead and removes jalapeños from the menu as salmonella outbreak expands to 27 states",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/salmonella-outbreak-jalapenos-qdoba-chipotle-b3028655.html",
+          "published_at": "14:02"
+        },
+        {
+          "title": "Salmonella outbreak linked to Mexican jalapenos sickens 345 people in US",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/salmonella-outbreak-linked-to-mexican-jalapenos-sickens-345-people-in-us-101786014972874.html",
+          "published_at": "11:30"
+        }
+      ]
+    },
+    {
+      "id": "world-342",
+      "title": "트럼프, 군수품 부족 보도 일축…미국이 '엄청난 양' 보유",
+      "title_en": "Trump dismisses reports of munitions shortages, says US has 'massive amounts'",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/08/06/trump-dismisses-reports-of-munitions-shortages-says-us-has-massive-amounts",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "워싱턴포스트(WP)는 트럼프 대통령이 지난 금요일 캠프 데이비드 대통령궁에서 열린 각료회의에 참석해 피트 헤그세스 미 국방부 장관에게 군수품 부족에 대한 답변을 요구했다고 보도했다.",
+      "excerpt_en": "The Washington Post reported that Trump demanded answers about the munitions shortages from Pentagon chief Pete Hegseth last Friday, when they attended a cabinet meeting at the Camp David presidential",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/08/06/trump-dismisses-reports-of-munitions-shortages-says-us-has-massive-amounts",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Euronews"
+      ],
+      "first_published_at": "2026-08-06T07:40:53+09:00",
+      "latest_published_at": "2026-08-06T21:00:00+09:00",
+      "articles": [
+        {
+          "title": "8/6: The Takeout with Major Garrett",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/080626-the-takeout-with-major-garrett/",
+          "published_at": "21:00"
+        },
+        {
+          "title": "Trump denies U.S. running low on some munitions, says vast resupplies being made",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-us-munitions-shortages-iran-war/",
+          "published_at": "12:57"
+        },
+        {
+          "title": "Trump dismisses reports of munitions shortages, says US has 'massive amounts'",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/06/trump-dismisses-reports-of-munitions-shortages-says-us-has-massive-amounts",
+          "published_at": "07:40"
+        }
+      ]
+    },
+    {
+      "id": "world-1",
+      "title": "메타는 청소년 정신건강 기금으로 미국 주정부에 5억 6,700만 달러를 지불하라는 명령을 받았습니다.",
+      "title_en": "Meta ordered to pay US$567 million in US state for teen mental health fund",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/meta-us-teen-mental-health-fund-567-million-court-6304976",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "메타는 판결에 항소할 예정이며 플랫폼에서 유해한 콘텐츠를 식별하고 제거하기 위해 노력해 왔다고 말했습니다.",
+      "excerpt_en": "Meta said it will appeal the ruling and that it has been working to identify and remove harmful content from its platforms.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/meta-us-teen-mental-health-fund-567-million-court-6304976",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-06T23:50:00+09:00",
+      "latest_published_at": "2026-08-06T23:51:00+09:00",
+      "articles": [
+        {
+          "title": "Meta ordered to pay $567 million in New Mexico for teen mental health fund",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ25adU40RDVWeVlvNTZDdmNqdHZpOERIODV6XzhBRmY3bFdPYmlYN2liNTloRWRkaEVNaDRpSXRXdEh5RVN2SFZGSTZRdXFsaGRyNENpMkRnTDBNdm5EX0trbWJQS3FFcmNMMzZabGRCb2VaZW5LYVExdVp2Zy1uWkFQTU54cC0xbTZKaU1FbDBKVW5TeGdFUDVZLXVjbGd3eW5JNl9mYlNodw?oc=5",
+          "published_at": "23:51"
+        },
+        {
+          "title": "Meta ordered to pay US$567 million in US state for teen mental health fund",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/meta-us-teen-mental-health-fund-567-million-court-6304976",
+          "published_at": "23:50"
+        }
+      ]
+    },
+    {
+      "id": "world-8",
+      "title": "피지에서 열린 태평양 외교관 회의에서 중국 미사일 시험이 최우선 의제로 다뤄졌습니다.",
+      "title_en": "China missile test top of agenda as Pacific diplomats meet in Fiji",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/china-missile-test-top-of-agenda-as-pacific-diplomats-meet-in-fiji-101786045054179.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "태평양 장관들, 중국 미사일 시험에 관한 공동성명 발표 논의 -로이터",
+      "excerpt_en": "Pacific ministers to discuss issuing a joint statement on China missile test Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVJaNldQMjdyaFZsN2otZlNUUnhubkVTTF9EOGd5Ny1ZczZSVHZ3dnc2Tnl5U2VYMmx5STZyeWs3aGM2Y2lnR1JLS3pKX3VXM3lZaGNuTHkyOGk2Z2M5YzlQZmhIaEFpaTFFV21ybzF0cG1iczVuck4yVmxhNjBBNVBZN18yWmlvUGIwZl9hRWFmNU9GR2hVQllHM3E?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-06T19:37:33+09:00",
+      "latest_published_at": "2026-08-06T22:33:00+09:00",
+      "articles": [
+        {
+          "title": "Pacific ministers to discuss issuing a joint statement on China missile test",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVJaNldQMjdyaFZsN2otZlNUUnhubkVTTF9EOGd5Ny1ZczZSVHZ3dnc2Tnl5U2VYMmx5STZyeWs3aGM2Y2lnR1JLS3pKX3VXM3lZaGNuTHkyOGk2Z2M5YzlQZmhIaEFpaTFFV21ybzF0cG1iczVuck4yVmxhNjBBNVBZN18yWmlvUGIwZl9hRWFmNU9GR2hVQllHM3E?oc=5",
+          "published_at": "22:33"
+        },
+        {
+          "title": "China missile test top of agenda as Pacific diplomats meet in Fiji",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/china-missile-test-top-of-agenda-as-pacific-diplomats-meet-in-fiji-101786045054179.html",
+          "published_at": "19:37"
+        }
+      ]
+    },
+    {
+      "id": "world-9",
       "title": "독점: 수감된 전직 미 해병대가 러시아에서 사망할 가능성이 있다고 자매 단체들이 밝혔습니다.",
       "title_en": "EXCLUSIVE: Jailed ex-US Marine may be near death in Russia, sister, advocacy groups say",
       "title_source": "earliest_pick",
@@ -2088,7 +2211,7 @@
       ]
     },
     {
-      "id": "world-12",
+      "id": "world-20",
       "title": "미국 대행사, 지역 TV 방송국 소유주에 대한 가계 한도 39% 종료",
       "title_en": "US agency ends 39% household cap on local TV station owners",
       "title_source": "earliest_pick",
@@ -2135,17 +2258,17 @@
       ]
     },
     {
-      "id": "world-50",
-      "title": "영국, 파라마운트의 워너 브라더스 인수 승인",
-      "title_en": "UK clears Paramount’s takeover of Warner Bros",
+      "id": "world-40",
+      "title": "RWE와 트럼프 행정부는 해상 풍력 임대를 취소하기 위해 12억 2천만 달러 규모의 계약을 체결했습니다.",
+      "title_en": "RWE, Trump administration reach $1.22 billion agreement to cancel offshore wind leases",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3363207/uk-clears-paramounts-takeover-warner-bros?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "목요일 영국은 파라마운트 스카이댄스(Paramount Skydance)가 1,100억 달러에 워너 브라더스 디스커버리(Warner Bros. Discovery)를 인수하는 것에 청신호를 보냈습니다. 엔터테인먼트 및 미디어 거대 거래는 여전히 미국 통계청에서 주요 장애물에 직면해 있기 때문입니다.",
-      "excerpt_en": "Britain on Thursday gave the green light to Paramount Skydance’s US$110 billion takeover of Warner Bros. Discovery, as the entertainment and media mega-deal still faces a key hurdle in the United Stat",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3363207/uk-clears-paramounts-takeover-warner-bros?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd3dYT2FnN21qMy1yZFBKZFMxNEFiUDVXUlZaVGhQZW1SUkRRQjNjcUtxTUVHQngwRURMeVNmUFg4LTYzelREUS1WS04xTnNGbHhIRmJTb1I3OW9mcXBhQ0E3ZkplcDgwMEw4QmhuZDJfRjBlQnRZUC1VbG9pZ2VvOVd5dVpmb1BLb0ZwNmNDUlpjMGxma3hjQ0ZwZlVCbGpTajc3UHBZOHpBcHZLbkNldHE3OElES2Frb254OWpTbVU2dw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "오랫동안 풍력 에너지를 비판해 온 미국 대통령 도널드 트럼프는 풍력 터빈을 보기 흉하다고 반복해서 일축하고 “경제적, 환경적 재앙”이라고 꼬리표를 붙였습니다.",
+      "excerpt_en": "US President Donald Trump, long a critic of wind energy, has repeatedly dismissed wind turbines as unsightly and has labelled them an \"economic and environmental disaster.\"",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/08/06/trump-administration-to-pay-106-billion-to-cancel-rwe-offshore-wind-leases",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -2161,28 +2284,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "SCMP"
+        "Euronews",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-06T13:32:14+09:00",
-      "latest_published_at": "2026-08-06T18:27:02+09:00",
+      "first_published_at": "2026-08-06T16:17:57+09:00",
+      "latest_published_at": "2026-08-06T20:02:48+09:00",
       "articles": [
         {
-          "title": "Britain clears Paramount's $110 billion takeover ​of Warner Bros.",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF81ejV3OTNvNFdETEFTMlhYSE9NYS1SM05BYUZ3eGNtMXc4cmVCcm1oZ2lQUmpOU2VZeGFzeFRjUUwzemxIMjJRdnpWcUpwcm5qWl9rVjF6RDU2MWdNS0pEV2ZHWU9IbmNQTnRHQ25qeU5icXNLUDRnYS1lT3ZDdXkzRGVicFJnUE90eHZNdWhJRVROUGhXbDE3cFcxOWh1Q3NjTEZWZW1nZw?oc=5",
-          "published_at": "18:27"
+          "title": "Trump administration to pay €1.06 billion to cancel RWE offshore wind leases",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/06/trump-administration-to-pay-106-billion-to-cancel-rwe-offshore-wind-leases",
+          "published_at": "20:02"
         },
         {
-          "title": "UK clears Paramount’s takeover of Warner Bros",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3363207/uk-clears-paramounts-takeover-warner-bros?utm_source=rss_feed",
-          "published_at": "13:32"
+          "title": "RWE, Trump administration reach $1.22 billion agreement to cancel offshore wind leases",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd3dYT2FnN21qMy1yZFBKZFMxNEFiUDVXUlZaVGhQZW1SUkRRQjNjcUtxTUVHQngwRURMeVNmUFg4LTYzelREUS1WS04xTnNGbHhIRmJTb1I3OW9mcXBhQ0E3ZkplcDgwMEw4QmhuZDJfRjBlQnRZUC1VbG9pZ2VvOVd5dVpmb1BLb0ZwNmNDUlpjMGxma3hjQ0ZwZlVCbGpTajc3UHBZOHpBcHZLbkNldHE3OElES2Frb254OWpTbVU2dw?oc=5",
+          "published_at": "16:17"
         }
       ]
     },
     {
-      "id": "world-72",
+      "id": "world-82",
       "title": "미국 무역 긴장이 심화됨에 따라 중국은 Palo Alto Networks에 대한 조사를 시작했습니다.",
       "title_en": "China launches probe into Palo Alto Networks as US trade tensions intensify",
       "title_source": "earliest_pick",
@@ -2229,17 +2352,17 @@
       ]
     },
     {
-      "id": "world-91",
-      "title": "트럼프가 관리 부실을 비난하면서 기후 변화가 캐나다의 대형 화재에 기여했다고 연구 결과가 나왔습니다.",
-      "title_en": "Climate change contributed to big Canada fires, study says as Trump blames mismanagement",
+      "id": "world-96",
+      "title": "비자금 중단 후 트럼프의 '숨 막힐 정도로 부패한' IRS 면책 계약을 차단할 것을 판사에게 요구하는 소송",
+      "title_en": "Lawsuit calls on judge to block Trump’s ‘breathtakingly corrupt’ IRS immunity deal after stopping slush fund",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/canada-donald-trump-ontario-france-spanish-b3028361.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/rump-irs-immunity-lawsuit-todd-blanche-b3028940.html",
       "category": "미국",
       "primary_source": "The Independent",
-      "excerpt": "새로운 연구에서는 인간이 초래한 기후 변화가 캐나다의 대규모 여름 산불을 촉발한 화약통 기상 조건의 가능성을 두 배로 높였다고 계산합니다.",
-      "excerpt_en": "A new study calculates that human-caused climate change doubled the likelihood of the tinderbox weather conditions that sparked Canada’s massive summer wildfires",
+      "excerpt": "Todd Blanche가 대통령과 그의 가족을 세금 조사로부터 보호하는 IRS 거래를 구제한 후 원고는 소송을 다시 제기합니다.",
+      "excerpt_en": "Plaintiffs refile lawsuit after Todd Blanche salvages IRS deal that shields the president and his family from tax investigations",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/canada-donald-trump-ontario-france-spanish-b3028361.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/rump-irs-immunity-lawsuit-todd-blanche-b3028940.html",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -2258,35 +2381,35 @@
         "AP News",
         "The Independent"
       ],
-      "first_published_at": "2026-08-06T04:03:21+09:00",
-      "latest_published_at": "2026-08-06T13:29:00+09:00",
+      "first_published_at": "2026-08-06T20:45:38+09:00",
+      "latest_published_at": "2026-08-06T22:12:00+09:00",
       "articles": [
         {
-          "title": "Climate change created conditions for Canada fires, scientists say, as Trump blames mismanagement",
+          "title": "Union representing IRS workers asks judge to block Trump tax audit immunity deal",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVjBkMTNlWU5oaVl6X2xNV2JrYjV3eDJhaVY1WVhodUR2Z3BaV0tlSFAwQjdGOXdRRklONFVHeElSb3BvbFVQWUg1SXFwM3VNUjFIRE9tbS11LTVwN0tKN2dPUEFOV2V2cTNaU3dCdXltMTk5QkR6Ml9fWDU0dTNqazNsTW5hdThWbVhJSjF5SDRJREVDcGoxLUpreTNOWXZxTk50QVVHcGphdFRnR2gwbQ?oc=5",
-          "published_at": "13:29"
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaUJlMVNMWWhJRTVvczlhSDVtVU80dExDaXdNN0trREZ5aTMzbDg0MlRXTmRZOHlVWTdhc0QyeWZaX3dsYjR3RFZOWDI0MGRqRWRwbUgwa0RCa0I4X2k1WkxidXA3OTFrbk9XV1pHc1QwSGx3QmM4SE1oQmRvNFNKX1l1RUl6NWlRaFdpWERmWVM4c0tiVXdwZzlZQQ?oc=5",
+          "published_at": "22:12"
         },
         {
-          "title": "Climate change contributed to big Canada fires, study says as Trump blames mismanagement",
+          "title": "Lawsuit calls on judge to block Trump’s ‘breathtakingly corrupt’ IRS immunity deal after stopping slush fund",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/canada-donald-trump-ontario-france-spanish-b3028361.html",
-          "published_at": "04:03"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/rump-irs-immunity-lawsuit-todd-blanche-b3028940.html",
+          "published_at": "20:45"
         }
       ]
     },
     {
-      "id": "world-121",
-      "title": "Meta는 자사의 AI가 다른 회사를 해킹했다고 최근 발표했습니다.",
-      "title_en": "Meta becomes latest firm to say its AI hacked another company",
+      "id": "world-177",
+      "title": "베네수엘라, 카라카스에서 정치적 전환 회담 시작",
+      "title_en": "Venezuela's political transition talks launch in Caracas",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
-      "category": "기타",
-      "primary_source": "BBC",
-      "excerpt": "최근 사건은 Anthropic 및 OpenAI와 관련된 유사한 공개에 이어졌지만 상황은 달랐습니다.",
-      "excerpt_en": "The latest incident follows similar disclosures involving Anthropic and OpenAI, though the circumstances differed.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/meta-says-its-ai-model-hacked-another-company-during-security-testing-101786013112888.html",
+      "title_url": "https://www.bangkokpost.com/world/3297919/venezuelas-political-transition-talks-launch-in-caracas",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "미국이 지원하는 베네수엘라 임시정부와 야당 세력 간의 협상이 거의 일주일 동안 지연된 끝에 목요일에 시작되었다고 양측은 말했습니다. The talks aim to reshape the country'",
+      "excerpt_en": "US-backed negotiations between Venezuela's interim government and a faction of the opposition began on Thursday after nearly a week of delays, the two sides said. The talks aim to reshape the country'",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/americas/20260806-us-backed-venezuela-political-transition-talks-begin-without-nobel-laureate-machado",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -2302,75 +2425,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "BBC",
-        "Hindustan Times"
+        "Bangkok Post",
+        "France24"
       ],
-      "first_published_at": "2026-08-06T05:53:58+09:00",
-      "latest_published_at": "2026-08-06T11:41:39+09:00",
+      "first_published_at": "2026-08-06T22:45:00+09:00",
+      "latest_published_at": "2026-08-06T22:55:59+09:00",
       "articles": [
         {
-          "title": "Meta says its AI model hacked another company during security testing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/meta-says-its-ai-model-hacked-another-company-during-security-testing-101786013112888.html",
-          "published_at": "11:41"
+          "title": "US-backed Venezuela political transition talks begin without Nobel laureate Machado",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260806-us-backed-venezuela-political-transition-talks-begin-without-nobel-laureate-machado",
+          "published_at": "22:55"
         },
         {
-          "title": "Meta becomes latest firm to say its AI hacked another company",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
-          "published_at": "05:53"
+          "title": "Venezuela's political transition talks launch in Caracas",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3297919/venezuelas-political-transition-talks-launch-in-caracas",
+          "published_at": "22:45"
         }
       ]
     },
     {
-      "id": "world-150",
-      "title": "새로운 AP-NORC 여론조사에 따르면 극심한 더위가 미국인의 삶에 가장 큰 영향을 미치는 곳은 어디입니까?",
-      "title_en": "Where extreme heat is having the biggest impact on Americans’ lives, according to a new AP-NORC poll",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/americans-arizona-tucson-midwest-travel-b3028508.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "새로운 AP-NORC 여론조사에 따르면 미국인들은 극심한 더위가 자신의 삶에 미치는 영향을 점점 더 인식하고 있으며 이러한 변화의 대부분은 서부와 중서부에서 일어나고 있다고 말합니다.",
-      "excerpt_en": "A new AP-NORC poll finds that Americans are increasingly noticing the impact of extreme heat on their lives, and they say much of that shift is happening in the West and Midwest",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/americans-arizona-tucson-midwest-travel-b3028508.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-06T09:08:02+09:00",
-      "latest_published_at": "2026-08-06T18:34:29+09:00",
-      "articles": [
-        {
-          "title": "Poll suggests US adults are facing increased strain from extreme heat",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/6/poll-suggests-us-adults-are-facing-increased-strain-from-extreme-heat?traffic_source=rss",
-          "published_at": "18:34"
-        },
-        {
-          "title": "Where extreme heat is having the biggest impact on Americans’ lives, according to a new AP-NORC poll",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/americans-arizona-tucson-midwest-travel-b3028508.html",
-          "published_at": "09:08"
-        }
-      ]
-    },
-    {
-      "id": "world-185",
+      "id": "world-184",
       "title": "UEFA 사무총장 세페린: FIFA의 ​​인판티노와 싸우는 '언더독' 리더",
       "title_en": "UEFA chief Ceferin: 'Underdog' leader taking fight to FIFA's Infantino",
       "title_source": "earliest_pick",
@@ -2417,111 +2493,17 @@
       ]
     },
     {
-      "id": "world-241",
-      "title": "이스라엘, 레바논 회담 계속 중 병력 사망 보고",
-      "title_en": "Israel reports troop deaths as Lebanon talks continue",
+      "id": "world-88",
+      "title": "잔니 인판티노, 위기 회의에서 FIFA 회장직 유지에 대한 내부 지지 확보",
+      "title_en": "Gianni Infantino gets internal support at crisis meeting to remain as FIFA president",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3297492/israel-reports-troop-deaths-as-lebanon-talks-continue",
-      "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "예루살렘-이스라엘은 미국이 지원하는 로마에서 진행 중인 회담에도 불구하고 새로운 공습을 단행한 후 한 달여 만에 레바논 남부에서 처음으로 군인 사망자가 발생했다고 보고했습니다.",
-      "excerpt_en": "JERUSALEM - Israel on Thursday reported its first military fatalities in southern Lebanon in more than a month, after carrying out fresh strikes despite ongoing US-backed talks in Rome aimed at ending",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3297492/israel-reports-troop-deaths-as-lebanon-talks-continue",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "New York Times"
-      ],
-      "first_published_at": "2026-08-06T04:45:00+09:00",
-      "latest_published_at": "2026-08-06T07:20:01+09:00",
-      "articles": [
-        {
-          "title": "Israel Strikes Lebanon After Accusing Hezbollah of Cease-Fire Violation",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/05/world/middleeast/israel-lebanon-hezbollah-cease-fire.html",
-          "published_at": "07:20"
-        },
-        {
-          "title": "Israel reports troop deaths as Lebanon talks continue",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3297492/israel-reports-troop-deaths-as-lebanon-talks-continue",
-          "published_at": "04:45"
-        }
-      ]
-    },
-    {
-      "id": "world-346",
-      "title": "트럼프, 군수품 부족 보도 일축…미국이 '엄청난 양' 보유",
-      "title_en": "Trump dismisses reports of munitions shortages, says US has 'massive amounts'",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/08/06/trump-dismisses-reports-of-munitions-shortages-says-us-has-massive-amounts",
-      "category": "미국",
-      "primary_source": "Euronews",
-      "excerpt": "워싱턴포스트(WP)는 트럼프 대통령이 지난 금요일 캠프 데이비드 대통령궁에서 열린 각료회의에 참석해 피트 헤그세스 미 국방부 장관에게 군수품 부족에 대한 답변을 요구했다고 보도했다.",
-      "excerpt_en": "The Washington Post reported that Trump demanded answers about the munitions shortages from Pentagon chief Pete Hegseth last Friday, when they attended a cabinet meeting at the Camp David presidential",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/06/trump-dismisses-reports-of-munitions-shortages-says-us-has-massive-amounts",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T07:40:53+09:00",
-      "latest_published_at": "2026-08-06T17:17:47+09:00",
-      "articles": [
-        {
-          "title": "Trump says US has ‘massive amounts’ of munitions; netizens ask ‘where is the proof?’ after Hegseth reposts",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-says-us-has-massive-amounts-of-munitions-netizens-ask-where-is-the-proof-after-hegseth-reposts-101786034247292.html",
-          "published_at": "17:17"
-        },
-        {
-          "title": "Trump dismisses reports of munitions shortages, says US has 'massive amounts'",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/06/trump-dismisses-reports-of-munitions-shortages-says-us-has-massive-amounts",
-          "published_at": "07:40"
-        }
-      ]
-    },
-    {
-      "id": "world-87",
-      "title": "독일 공항에서 폭발물 탑재 드론 발견, 관리들은 위협의 '새로운 특성'을 본다",
-      "title_en": "Drone with explosives found at German airport, official sees ‘new quality’ of threat",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTm92MmlFQ2hMRDlGRmM1cHk3ZlVIR1locXM5cjFvTEpVR3EtNnM2el82eEtkQWlQbXVDM3JhNkh3Nl90eERjbGF4Q2ZoVjU0eGxvc2dDeGxrd0JLX05oN2ZDMF9kNGJkRFJuWGVSdldCRTBieEV5MVJseTRqYW9OVHZZUkpNQmt5V19ZVElfYUVDTjN4OGlwbjhPUHVGSFFyenc?oc=5",
-      "category": "유럽",
+      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUUzblFjVFRKQWlxYngzbXZvcllLWG4wVHo1LW9ZNk5NLU9WVmV5eXhOdEo4a2tEcklkbzZzaHpvT3NBM2NVTjd1MWFWc2lzcW1QWG5vbmxoMVdMZUZVS1duZGdkMDRZRUtydzZYYWZEd2lSeUJ0ZjMwR09oaWxHUzM3UWcwc3pnY0hKdGlZTFdPZGhJR0Vz?oc=5",
+      "category": "기타",
       "primary_source": "AP News",
-      "excerpt": "지역 경찰과 검찰은 공항 직원이 공항 남쪽 활주로 근처에서 '알 수 없는 폭발 장치'를 탑재한 드론을 발견해 경찰이 해당 물체를 조사했다고 밝혔다.",
-      "excerpt_en": "Regional police and prosecutors said an airport employee discovered a drone near the airport's south runway with \"an unknown explosive device,\" and the object was examined by police",
+      "excerpt": "FIFA는 수요일 잔니 인판티노의 월드컵 지분 매각 계획 실패로 인해 발생한 실수에 대해 사과했으며 모로코에서 열린 위기 회의에 참석한 고위 직원들이 \"재확인했다\"고 밝혔다.",
+      "excerpt_en": "FIFA said Wednesday it had apologized for errors made over Gianni Infantino's failed plan to sell stakes in the World Cup and that senior staff in attendance at a crisis meeting in Morocco \"reaffirmed",
       "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport",
+      "excerpt_url": "https://www.npr.org/2026/08/06/nx-s1-5923233/infantino-crisis-meeting-fifa",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -2540,43 +2522,43 @@
         "AP News",
         "NPR"
       ],
-      "first_published_at": "2026-08-06T03:21:00+09:00",
-      "latest_published_at": "2026-08-06T05:23:08+09:00",
+      "first_published_at": "2026-08-06T08:25:00+09:00",
+      "latest_published_at": "2026-08-06T08:52:16+09:00",
       "articles": [
         {
-          "title": "Drone with explosives found at German airport, official sees 'new quality' of threat",
+          "title": "Gianni Infantino gets internal support at crisis meeting to remain as FIFA president",
           "source_name": "NPR",
-          "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport",
-          "published_at": "05:23"
+          "url": "https://www.npr.org/2026/08/06/nx-s1-5923233/infantino-crisis-meeting-fifa",
+          "published_at": "08:52"
         },
         {
-          "title": "Drone with explosives found at German airport, official sees ‘new quality’ of threat",
+          "title": "Gianni Infantino gets internal support at crisis meeting to remain as FIFA president",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTm92MmlFQ2hMRDlGRmM1cHk3ZlVIR1locXM5cjFvTEpVR3EtNnM2el82eEtkQWlQbXVDM3JhNkh3Nl90eERjbGF4Q2ZoVjU0eGxvc2dDeGxrd0JLX05oN2ZDMF9kNGJkRFJuWGVSdldCRTBieEV5MVJseTRqYW9OVHZZUkpNQmt5V19ZVElfYUVDTjN4OGlwbjhPUHVGSFFyenc?oc=5",
-          "published_at": "03:21"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUUzblFjVFRKQWlxYngzbXZvcllLWG4wVHo1LW9ZNk5NLU9WVmV5eXhOdEo4a2tEcklkbzZzaHpvT3NBM2NVTjd1MWFWc2lzcW1QWG5vbmxoMVdMZUZVS1duZGdkMDRZRUtydzZYYWZEd2lSeUJ0ZjMwR09oaWxHUzM3UWcwc3pnY0hKdGlZTFdPZGhJR0Vz?oc=5",
+          "published_at": "08:25"
         }
       ]
     },
     {
-      "id": "world-281",
-      "title": "호르무즈(이란)를 경유하는 항로에 대해 오만과 합의",
-      "title_en": "Reached agreement with Oman on shipping route through Hormuz: Iran",
+      "id": "world-332",
+      "title": "나이지리아 대통령, 납치자 308명 석방…'역대 최대 규모' 하루 구출 환영",
+      "title_en": "Nigerian president hails 'largest ever' single-day rescue as 308 abductees freed",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/reached-agreement-with-oman-on-shipping-route-through-hormuz-iran-101785989603355.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "호르무즈에 대한 이란의 최근 발표는 미국과 테헤란이 해상운송 통제권을 두고 전쟁을 어떻게 마무리할지 수개월간 교착상태에 빠진 이후 나온 것입니다.",
-      "excerpt_en": "Iran’s latest announcement on Hormuz comes after months of deadlock between the US and Tehran over how to conclude the war, with control over shipping.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/reached-agreement-with-oman-on-shipping-route-through-hormuz-iran-101785989603355.html",
+      "title_url": "https://abcnews.com/International/wireStory/nigerian-president-hails-largest-single-day-rescue-308-135413965",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "나이지리아 대통령은 보안군이 북부에서 납치된 최소 300명을 구출했다고 밝혔습니다.",
+      "excerpt_en": "Nigeria's president says security forces have rescued at least 300 people abducted in the country's north",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/nigerian-president-hails-largest-single-day-rescue-308-135413965",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
         "raw75": 39
       },
       "area_value": 2,
@@ -2584,28 +2566,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
+        "ABC News",
         "The Independent"
       ],
-      "first_published_at": "2026-08-06T05:32:02+09:00",
-      "latest_published_at": "2026-08-06T23:42:43+09:00",
+      "first_published_at": "2026-08-06T09:00:41+09:00",
+      "latest_published_at": "2026-08-06T09:05:56+09:00",
       "articles": [
         {
-          "title": "Iran-US war latest: Trump says Strait of Hormuz ‘sort of open’ as he denies munitions shortage in war with Tehran",
+          "title": "Nigeria security forces free over 300 abducted people in largest-ever rescue operation",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-strikes-oil-news-b3027628.html",
-          "published_at": "23:42"
+          "url": "https://www.independent.co.uk/news/world/africa/nigeria-kidnappings-rescue-kwara-b3028479.html",
+          "published_at": "09:05"
         },
         {
-          "title": "Reached agreement with Oman on shipping route through Hormuz: Iran",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/reached-agreement-with-oman-on-shipping-route-through-hormuz-iran-101785989603355.html",
-          "published_at": "05:32"
+          "title": "Nigerian president hails 'largest ever' single-day rescue as 308 abductees freed",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/nigerian-president-hails-largest-single-day-rescue-308-135413965",
+          "published_at": "09:00"
         }
       ]
     },
     {
-      "id": "world-337",
+      "id": "world-335",
       "title": "미국, 위협으로 인해 멕시코 미초아칸 주에서 아보카도 검사 중단",
       "title_en": "US suspends avocado inspections in Mexican state of Michoacan due to threat",
       "title_source": "earliest_pick",
@@ -2648,147 +2630,6 @@
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/us-suspends-avocado-inspections-mexican-state-michoacan-due-135409746",
           "published_at": "06:34"
-        }
-      ]
-    },
-    {
-      "id": "world-365",
-      "title": "페레즈 힐튼의 팀과 가족은 끔찍한 라이브 스트리밍 이후 '그는 의사소통이 가능하다…'라는 건강 업데이트를 받았습니다.",
-      "title_en": "Perez Hilton’s team and family issue health update after horrific livestream, ‘He is able to communicate…’",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/perez-hilton-s-team-and-family-issue-health-update-after-horrific-livestream-he-is-able-to-communicate-101786001917041.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "페레스 힐튼(Perez Hilton)의 팀과 가족은 그가 마이애미 자택에서 충격적인 틱톡(TikTok) 라이브로 자해를 하는 모습이 목격된 후 두 번째 성명을 발표했습니다.",
-      "excerpt_en": "Perez Hilton’s team and family have issued a second statement after he was seen allegedly harming himself in his Miami home in a shocking TikTok live.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/perez-hilton-s-team-and-family-issue-health-update-after-horrific-livestream-he-is-able-to-communicate-101786001917041.html",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T07:43:18+09:00",
-      "latest_published_at": "2026-08-06T08:00:00+09:00",
-      "articles": [
-        {
-          "title": "Perez Hilton livestreamed apparent self-harm. How did TikTok let this happen?",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/perez-hilton-tiktok-self-harm-9.7296857?cmp=rss",
-          "published_at": "08:00"
-        },
-        {
-          "title": "Perez Hilton’s team and family issue health update after horrific livestream, ‘He is able to communicate…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/perez-hilton-s-team-and-family-issue-health-update-after-horrific-livestream-he-is-able-to-communicate-101786001917041.html",
-          "published_at": "07:43"
-        }
-      ]
-    },
-    {
-      "id": "world-387",
-      "title": "'덜덜덜한' 샤를빌 지역사회, 살인-자살 혐의 이후 단결하겠다고 다짐",
-      "title_en": "'Rattled' Charleville community vows to unite after suspected murder-suicide",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-08-07/charleville-community-vows-to-unite-after-woman-man-found-dead/107005566",
-      "category": "미국",
-      "primary_source": "ABC News Australia",
-      "excerpt": "머웨 샤이어 시장인 숀 라드네지(Shaun Radnedge)는 한 여성과 한 남성의 목숨을 앗아간 파괴적인 '폭력' 범죄에도 불구하고 지역사회가 단결할 것이라고 말했습니다.",
-      "excerpt_en": "Murweh Shire Mayor Shaun Radnedge says the community will band together despite the devastating \"violent\" crime that has left a woman and a man dead.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-07/charleville-community-vows-to-unite-after-woman-man-found-dead/107005566",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-06T20:32:51+09:00",
-      "latest_published_at": "2026-08-06T23:52:04+09:00",
-      "articles": [
-        {
-          "title": "Who were Sarah Myers and Amy Steadman? What we know about the New York mother, grandmother after alleged murder-suicide",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-were-sarah-myers-and-amy-steadman-what-we-know-about-the-new-york-mother-grandmother-after-alleged-murdersuicide-101786006184227.html",
-          "published_at": "23:52"
-        },
-        {
-          "title": "'Rattled' Charleville community vows to unite after suspected murder-suicide",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-07/charleville-community-vows-to-unite-after-woman-man-found-dead/107005566",
-          "published_at": "20:32"
-        }
-      ]
-    },
-    {
-      "id": "world-114",
-      "title": "인도 언론인 타룬 테즈팔, 성폭행 혐의로 징역 10년 선고",
-      "title_en": "Indian journalist Tarun Tejpal sentenced to 10 years in jail for rape",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-      "category": "아시아",
-      "primary_source": "BBC",
-      "excerpt": "Tehelka 잡지의 전 편집자 Tarun Tejpal은 전국적인 관심을 끌었던 사건으로 2021년 처음에 무죄 판결을 받았습니다.",
-      "excerpt_en": "Tarun Tejpal, ex-editor of Tehelka magazine, was initially acquitted in 2021 in case that drew nationwide attention An Indian court has sentenced a high-profile former editor of an investigative news ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/06/indian-journalist-tarun-tejpal-convicted-raping-colleague",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-06T09:49:24+09:00",
-      "latest_published_at": "2026-08-06T11:47:41+09:00",
-      "articles": [
-        {
-          "title": "High-profile Indian journalist jailed for 10 years for raping colleague",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/06/indian-journalist-tarun-tejpal-convicted-raping-colleague",
-          "published_at": "11:47"
-        },
-        {
-          "title": "Indian journalist Tarun Tejpal sentenced to 10 years in jail for rape",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss",
-          "published_at": "09:49"
         }
       ]
     }
