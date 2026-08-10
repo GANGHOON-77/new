@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,17 +8,17 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-08-10T06:35:02.943558+09:00",
+  "updated_at": "2026-08-10T12:58:49.838960+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 421,
-  "cluster_count_total": 310,
+  "article_count_total": 427,
+  "cluster_count_total": 319,
   "clusters": [
     {
-      "id": "world-42",
+      "id": "world-53",
       "title": "네타냐후, 트럼프의 가자지구 평화위원회 계획 거부",
       "title_en": "Netanyahu rejects Trump's Board of Peace plan for Gaza",
       "title_source": "earliest_pick",
@@ -30,40 +30,43 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363458/netanyahu-rejects-gaza-plan-new-break-trump?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 96,
+      "score": 95,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 72
+        "time_score": 2,
+        "raw75": 71
       },
-      "area_value": 18,
-      "article_count": 18,
+      "area_value": 16,
+      "article_count": 16,
       "syndicated_count": 0,
-      "source_count": 16,
+      "source_count": 13,
       "sources": [
-        "ABC News Australia",
-        "Al Jazeera",
         "BBC",
         "CBC",
         "CBS News",
-        "Channel News Asia",
         "DW",
         "Euronews",
         "Fox News",
+        "France24",
         "Hindustan Times",
         "NBC News",
         "SCMP",
         "Sky News",
         "Sydney Morning Herald",
-        "The Independent",
-        "Times of India"
+        "The Independent"
       ],
       "first_published_at": "2026-08-09T11:23:00+09:00",
-      "latest_published_at": "2026-08-09T21:25:04+09:00",
+      "latest_published_at": "2026-08-10T00:10:10+09:00",
       "articles": [
+        {
+          "title": "Netanyahu rejects US-backed 15-point peace plan for Gaza",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/netanyahu-rejects-us-backed-15-point-peace-plan-for-gaza-20260810-p60mvu.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "00:10"
+        },
         {
           "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
           "source_name": "BBC",
@@ -83,19 +86,13 @@
           "published_at": "19:56"
         },
         {
-          "title": "Israeli government rejects Trump's Gaza peace plan",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-10/israel-rejects-trump-gaza-plan/107015052",
-          "published_at": "18:51"
-        },
-        {
           "title": "Israel rejects Trump’s Gaza peace plan and won’t withdraw until Hamas disarms",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/middle-east/israel-trump-gaza-peace-plan-netanyahu-b3029970.html",
           "published_at": "16:14"
         },
         {
-          "title": "Netanyahu rejects Gaza plan in new break from Trump",
+          "title": "Israel’s Netanyahu rejects Trump’s Gaza plan endorsed by Hamas",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/middle-east/article/3363458/netanyahu-rejects-gaza-plan-new-break-trump?utm_source=rss_feed",
           "published_at": "15:07"
@@ -105,12 +102,6 @@
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/benjamin-netanyahu-us-gaza-peace-plan-reject/",
           "published_at": "14:57"
-        },
-        {
-          "title": "What now as Israel rejects Trump’s 15-point plan for Gaza?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/9/what-now-as-israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss",
-          "published_at": "14:26"
         },
         {
           "title": "Hamas must disarm for Israel to pull out of Gaza, Netanyahu says",
@@ -125,16 +116,16 @@
           "published_at": "13:46"
         },
         {
-          "title": "Netanyahu rejects Gaza plan, in new break from Trump",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/israel-netanyahu-rejects-us-gaza-plan-hamas-trump-6308466",
-          "published_at": "13:45"
-        },
-        {
           "title": "Israel 'rejects' the US ceasefire plan for Gaza accepted by Hamas",
           "source_name": "Euronews",
           "url": "http://www.euronews.com/2026/08/09/israel-rejects-the-us-ceasefire-plan-for-gaza-accepted-by-hamas",
           "published_at": "13:25"
+        },
+        {
+          "title": "Israel, US spar over Gaza withdrawal",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/israel-us-spar-over-gaza-withdrawal",
+          "published_at": "13:20"
         },
         {
           "title": "Netanyahu rejects Board of Peace's Gaza plan: No 'withdrawal until Hamas is genuinely disarmed'",
@@ -153,164 +144,122 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/with-or-without-a-deal-netanyahu-vows-iran-will-not-have-nuclear-weapons-101786275249372.html",
           "published_at": "12:07"
+        },
+        {
+          "title": "Israel rejects Trump’s 15-point plan for Gaza, Netanyahu says",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555",
+          "published_at": "11:26"
         }
       ]
     },
     {
-      "id": "world-37",
-      "title": "브리티시컬럼비아주 비상사태 선포로 산불로 2만명 대피",
-      "title_en": "Wildfires force 20,000 to flee as British Columbia declares state of emergency",
+      "id": "world-33",
+      "title": "카르텔 두목 다니엘 키나한(Daniel Kinahan), 삼엄한 보안 속에 아일랜드에서 기소",
+      "title_en": "Alleged cartel boss Daniel Kinahan charged in Ireland amid heavy security",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWFHcGZLTElaS2tjME10OWxDWE9aM3ZHeXpMVzJIUVhLeVMzY0Y1LWxZODh1SmRrdDJvRHVHR09TOEV3STlXNVc1YnRtbFdSYWdpR0E5alVOMDB5QWdBdmw1U3VzZkVQYU5oalA4cU9NNk5CZ0EtZ3dlRDV4R0xkRWNGR1MzTDVVVTd3UWpTcW50QkdjZkFhY0hVbGRmZWtVSmZycjAzcTBHRmdMYTYyT2pB?oc=5",
-      "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "캐나다 브리티시컬럼비아주는 빠르게 확산되는 산불로 인해 밤새 2만 명 이상이 대피하면서 비상사태를 선포했습니다. 당국은 강한 바람이 불길을 빠르게 확산시켰다고 밝혔습니다.",
-      "excerpt_en": "Canada’s British Columbia has declared a state of emergency as a fast-moving wildfire forced more than 20,000 people to evacuate overnight. Officials say strong winds helped the flames spread rapidly,",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/wildfires-british-columbia-declares-state-of-emergency-thousands-forced-to-flee-homes",
+      "title_url": "https://www.aljazeera.com/news/2026/8/9/uae-extradites-alleged-international-crime-boss-daniel-kinahan-to-ireland?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "아일랜드 범죄 조직의 두목으로 추정되는 다니엘 키나한(Daniel Kinahan)은 범죄 조직을 지휘한 혐의로 더블린 검찰에 의해 일요일 기소됐다. 그의 송환 후 특별 법원의 삼엄한 보안 속에",
+      "excerpt_en": "Alleged Irish crime gang boss Daniel Kinahan was charged with directing a criminal organisation by prosecutors in Dublin on Sunday amid tight security at a special court sitting following his extradit",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3363466/suspected-irish-crime-boss-lands-dublin-after-being-extradited-dubai?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 95,
+      "score": 89,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 71
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "CBS News",
-        "Euronews",
-        "France24",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-09T03:10:00+09:00",
-      "latest_published_at": "2026-08-09T14:03:34+09:00",
-      "articles": [
-        {
-          "title": "Over 20,000 flee wildfires as British Columbia declares state of emergency",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/09/over-20000-flee-wildfires-as-british-columbia-declares-state-of-emergency",
-          "published_at": "14:03"
-        },
-        {
-          "title": "Wildfires: British Columbia declares state of emergency, thousands forced to flee homes",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/wildfires-british-columbia-declares-state-of-emergency-thousands-forced-to-flee-homes",
-          "published_at": "08:58"
-        },
-        {
-          "title": "Tens of thousands flee British Columbia wildfire as state of emergency declared",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/british-columbia-bald-range-fire-b3029919.html",
-          "published_at": "07:49"
-        },
-        {
-          "title": "20,000 flee wildfires as British Columbia declares state of emergency",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fast-moving-wildfire-forces-20000-people-evacuate-western-135483600",
-          "published_at": "04:03"
-        },
-        {
-          "title": "Wildfires in western Canada forces more than 20,000 people to evacuate",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/",
-          "published_at": "03:46"
-        },
-        {
-          "title": "Wildfires force 20,000 to flee as British Columbia declares state of emergency",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWFHcGZLTElaS2tjME10OWxDWE9aM3ZHeXpMVzJIUVhLeVMzY0Y1LWxZODh1SmRrdDJvRHVHR09TOEV3STlXNVc1YnRtbFdSYWdpR0E5alVOMDB5QWdBdmw1U3VzZkVQYU5oalA4cU9NNk5CZ0EtZ3dlRDV4R0xkRWNGR1MzTDVVVTd3UWpTcW50QkdjZkFhY0hVbGRmZWtVSmZycjAzcTBHRmdMYTYyT2pB?oc=5",
-          "published_at": "03:10"
-        }
-      ]
-    },
-    {
-      "id": "world-99",
-      "title": "신러시아·우크라이나 공습으로 5명 사망",
-      "title_en": "Five dead in new Russia, Ukraine strikes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/five-dead-in-new-russia-ukraine-strikes-101786265154203.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "러시아와 우크라이나 사이의 계속되는 갈등은 하루아침에 격화되었으며, 공습으로 인해 민간인 7명이 목숨을 잃고 많은 사람들이 부상을 입었습니다. 러시아 드론과 미사일이 하르키프와 오데사를 표적으로 삼았습니다.",
-      "excerpt_en": "The ongoing conflict between Russia and Ukraine escalated overnight, with strikes claiming the lives of seven civilians and injuring many others. Russian drones and missiles targeted Kharkiv and Odesa",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/7-civilians-killed-in-russia-ukraine-overnight-strikes-moldova-reports-drone-explosion/articleshow/133070365.cms",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 4,
         "time_score": 3,
         "raw75": 67
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 9,
+      "article_count": 9,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 8,
       "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "France24",
-        "Hindustan Times",
-        "Times of India"
+        "Al Jazeera",
+        "BBC",
+        "CBS News",
+        "Channel News Asia",
+        "DW",
+        "Reuters",
+        "SCMP",
+        "Sky News"
       ],
-      "first_published_at": "2026-08-09T08:45:53+09:00",
-      "latest_published_at": "2026-08-09T18:45:00+09:00",
+      "first_published_at": "2026-08-09T16:00:50+09:00",
+      "latest_published_at": "2026-08-10T01:43:37+09:00",
       "articles": [
         {
-          "title": "Five dead in new Russia, Ukraine strikes",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3299239/five-dead-in-new-russia-ukraine-strikes",
-          "published_at": "18:45"
+          "title": "Alleged Irish crime boss Daniel Kinahan in court after Dubai extradition",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/alleged-irish-crime-boss-daniel-kinahan-in-court-after-dubai-extradition?traffic_source=rss",
+          "published_at": "01:43"
         },
         {
-          "title": "7 civilians killed in Russia-Ukraine overnight strikes; Moldova reports drone explosion",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/7-civilians-killed-in-russia-ukraine-overnight-strikes-moldova-reports-drone-explosion/articleshow/133070365.cms",
-          "published_at": "16:03"
+          "title": "Alleged boss of Irish crime gang charged and taken to jail",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/daniel-kinahan-alleged-boss-of-irish-crime-gang-charged-and-taken-to-jail-13571522",
+          "published_at": "00:25"
         },
         {
-          "title": "Russia exploits Ukraine's interceptor shortage in ongoing strikes",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russia-ukraine-exchange-overnight-strikes-leave-7-dead-135496212",
-          "published_at": "15:38"
+          "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzl5TEZoallFdF9oRFpZcHRETGZPXzRmYnNwRGU5eXBweFRkTFVEU0lSb2VDLVg0dFBueFhEeWc5YVlCdUJtckVvcXdVWndxMDRSdmREeGc3YzBkQUZLU2dmX2EwRVc3cmdXamhYRUhoTExqeklKZDhoaU9RM0NKNl90RkEwRGc1R1JMZ1BxWFU3VVBoZjBtaVl3U1J5YnZ1MTJv?oc=5",
+          "published_at": "23:24"
         },
         {
-          "title": "Russia and Ukraine exchange deadly overnight strikes",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
-          "published_at": "13:22"
+          "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/irish-daniel-kinahan-crime-kingpin-charged-6308821",
+          "published_at": "22:13"
         },
         {
-          "title": "Five dead in new Russia, Ukraine strikes",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/five-dead-in-new-russia-ukraine-strikes-101786265154203.html",
-          "published_at": "08:45"
+          "title": "How Kinahan's hearing unfolded inside the courtroom in Dublin",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cly5zpx0ypdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "21:26"
+        },
+        {
+          "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/alleged-irish-crime-boss-kinahan-charged-with-directing-criminal-organisation/a-78297919?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "20:36"
+        },
+        {
+          "title": "Alleged Irish crime boss charged in Dublin after extradition from Dubai",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3363466/suspected-irish-crime-boss-lands-dublin-after-being-extradited-dubai?utm_source=rss_feed",
+          "published_at": "18:17"
+        },
+        {
+          "title": "Suspected Irish crime boss extradited from Dubai",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/daniel-kinahan-irish-crime-boss-extradited-dubai/",
+          "published_at": "18:12"
+        },
+        {
+          "title": "Alleged cartel boss Daniel Kinahan charged in Ireland amid heavy security",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/9/uae-extradites-alleged-international-crime-boss-daniel-kinahan-to-ireland?traffic_source=rss",
+          "published_at": "16:00"
         }
       ]
     },
     {
-      "id": "world-211",
-      "title": "예멘 후티 반군, 자잔에 있는 사우디 아람코 정유소 공격 주장, 한 달 만에 두 번째 공격",
-      "title_en": "Yemen's Houthis claim attack on Saudi Aramco's refinery in Jazan, second such strike within a month",
+      "id": "world-107",
+      "title": "러시아와 우크라이나가 밤새 치명적인 파업을 벌였습니다.",
+      "title_en": "Russia and Ukraine exchange deadly overnight strikes",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/yemen-houthis-claim-attack-saudi-aramco-refinery-jazan-second-such-strike-in-a-month-saudi-arabia-us-iran-war-101786258134426.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "이란의 지원을 받는 후티 반군이 예멘의 항구 도시 모카에서 일요일 공습으로 최소 11명이 사망했다고 의료 소식통이 밝혔습니다. 앞서 사우디 정유소를 겨냥한 드론 공격이 있었습니다. 공격 fr",
-      "excerpt_en": "Strikes by Iran-backed Houthi rebels on Sunday killed at least 11 people in the Yemeni port city of Mokha, says a medical source, after an earlier drone salvo targeted a Saudi oil refinery. Attacks fr",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/09/yemens-houthis-claim-attack-on-saudi-arabia-refinery",
+      "title_url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "러시아와 우크라이나가 하룻밤 사이에 교전을 벌여 양측에서 민간인이 사망하고 많은 사람이 부상을 입었다고 현지 당국이 일요일 보도했습니다. 러시아, 우크라이나 도시에 대규모 미사일 공격",
+      "excerpt_en": "Russia and Ukraine exchanged strikes overnight that killed civilians and injured many others on both sides, local authorities reported on Sunday. Large-scale Russian missile strikes on Ukrainian citie",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3363468/russia-and-ukraine-exchange-overnight-strikes-leave-7-dead-many-injured?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 88,
       "score_breakdown": {
@@ -327,251 +276,170 @@
       "source_count": 4,
       "sources": [
         "ABC News",
-        "CBC",
         "Euronews",
-        "Hindustan Times"
+        "France24",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-09T07:02:22+09:00",
-      "latest_published_at": "2026-08-09T15:44:02+09:00",
+      "first_published_at": "2026-08-09T13:22:24+09:00",
+      "latest_published_at": "2026-08-09T20:07:33+09:00",
       "articles": [
         {
-          "title": "Houthis claim attacks on Saudi oil facility and Yemeni port, and other Mideast news",
+          "title": "Russia and Ukraine exchange strikes, leaving 7 dead and dozens injured",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3363468/russia-and-ukraine-exchange-overnight-strikes-leave-7-dead-many-injured?utm_source=rss_feed",
+          "published_at": "20:07"
+        },
+        {
+          "title": "Russia exploits Ukraine's interceptor shortage in ongoing strikes",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001",
-          "published_at": "15:44"
+          "url": "https://abcnews.com/International/wireStory/russia-ukraine-exchange-overnight-strikes-leave-7-dead-135496212",
+          "published_at": "15:38"
         },
         {
-          "title": "Yemen's Houthis claim attack on Aramco oil facility in Saudi Arabia",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/houthis-attack-aramco-oil-saudi-arabia-yemen-9.7300964?cmp=rss",
-          "published_at": "12:58"
-        },
-        {
-          "title": "Yemen's Houthis attack kills 11 in Yemen, hit Saudi refinery",
+          "title": "13 killed in Ukraine and 90 injured as Russia intensifies overnight bombardment campaign of Ukrainian cities",
           "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/09/yemens-houthis-claim-attack-on-saudi-arabia-refinery",
-          "published_at": "09:28"
+          "url": "http://www.euronews.com/2026/08/09/13-killed-in-ukraine-and-90-injured-as-russia-intensifies-overnight-bombardment-campaign-o",
+          "published_at": "13:29"
         },
         {
-          "title": "Yemen's Houthis claim attack on Saudi Aramco's refinery in Jazan, second such strike within a month",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/yemen-houthis-claim-attack-saudi-aramco-refinery-jazan-second-such-strike-in-a-month-saudi-arabia-us-iran-war-101786258134426.html",
-          "published_at": "07:02"
+          "title": "Russia and Ukraine exchange deadly overnight strikes",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
+          "published_at": "13:22"
         }
       ]
     },
     {
-      "id": "world-19",
-      "title": "중국 태풍 돌핀 대비로 항공편 취소",
-      "title_en": "Flights canceled as China prepares for Typhoon Dolphin",
+      "id": "world-172",
+      "title": "트럼프는 미국이 이란에 대해 '낮은 키를 갖고 있다'고 말하고 호르무즈에 대한 긴급성을 무시한다.",
+      "title_en": "Trump says US ‘low-keying it’ with Iran, playing down urgency over Hormuz",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/shanghai-cancels-1300-flights-china-prepares-typhoon-dolphin-135495153",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "태풍 돌핀이 일요일 인구 밀도가 높은 중국 동부에 상륙했다고 기상청은 밝혔습니다. 폭풍으로 인해 1,000건 이상의 항공편이 취소되고, 100만 명이 대피했으며,",
-      "excerpt_en": "Typhoon Dolphin made landfall in densely populated eastern China on Sunday, meteorological authorities said, after the storm triggered more than 1,000 flight cancellations, 1 million evacuations, and ",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/09/over-1-million-evacuated-as-typhoon-dolphin-hits-china",
-      "translation_status": "ok",
-      "score": 84,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 63
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Bangkok Post",
-        "Euronews",
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-09T04:01:18+09:00",
-      "latest_published_at": "2026-08-09T15:11:00+09:00",
-      "articles": [
-        {
-          "title": "Shanghai cancels at least 1,300 flights as Typhoon Dolphin hits China’s eastern coast",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdGtvcElBNThyOFktNjcySXRiVGJNaXBiMnZCNnFmQi1QaTc5MVRLck95ZjMtdGtvT0hUdms2dGV1WXJOekpxYm1sZkd1cmR4dzlkMDNJUGRWZzlMT0F1UENhRG5zQXZNc0NuUDlVMWFFTUpacnZNREItSTVaLUhBeQ?oc=5",
-          "published_at": "15:11"
-        },
-        {
-          "title": "Over 1 million evacuated as Typhoon Dolphin hits China",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/09/over-1-million-evacuated-as-typhoon-dolphin-hits-china",
-          "published_at": "13:56"
-        },
-        {
-          "title": "Typhoon Dolphin makes landfall in China after flight cancellations, evacuations",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3298922/typhoon-dolphin-makes-landfall-in-china-after-flight-cancellations-evacuations",
-          "published_at": "11:45"
-        },
-        {
-          "title": "Flight cancellations, evacuations in China as Typhoon Dolphin looms",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/flight-cancellations-evacuations-in-china-as-typhoon-dolphin-looms-101786254093558.html",
-          "published_at": "05:41"
-        },
-        {
-          "title": "Typhoon Dolphin hits China's east coast, over 1 million evacuated",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRXZOaG5zYjRBVnRvRWkzcnlTVldKWFA4MHZHSEp3VF9NSnhWVW5fX1FNTlhmdUhYOEZfWWV1S2cyUXQtSWxCbGktRnhheHo3M3A0VHpYUGx5NHhFdXkwSUhLR25jajJoNlhkZF83UFkxSlN4eVFyd05tdjNpMUNIUVNBN0x3cjFJUWpfQ3AtbkRqbE9FTWk3MHZhWDMtRG5TekI4Nm8xcjJmZDdDVmdOYXBreU5WR1RwXzBnTnZYYTNLQQ?oc=5",
-          "published_at": "04:57"
-        },
-        {
-          "title": "Flights canceled as China prepares for Typhoon Dolphin",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/shanghai-cancels-1300-flights-china-prepares-typhoon-dolphin-135495153",
-          "published_at": "04:01"
-        }
-      ]
-    },
-    {
-      "id": "world-20",
-      "title": "젯스타 비행기, 시드니 공항에서 카타르항공 여객기와의 충돌을 간신히 피하다",
-      "title_en": "Jetstar plane narrowly avoids crashing into Qatar Airways flight at Sydney airport",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/australasia/article/3363425/jetstar-plane-narrowly-avoids-crashing-qatar-airways-flight-sydney-airport?utm_source=rss_feed",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3363467/trump-says-us-low-keying-it-iran-stresses-economic-pain?utm_source=rss_feed",
       "category": "중동",
       "primary_source": "SCMP",
-      "excerpt": "안전 규제 당국은 일요일 호주에서 가장 분주한 공항에서 두 대의 여객기 사이에 승무원이 부상을 입힌 \"충돌 직전\"에 대한 조사를 시작했습니다. J씨가 연루된 사건",
-      "excerpt_en": "Safety regulators launched an investigation on Sunday into a “near collision” between two passenger aircraft at Australia’s busiest airport that injured a crew member. The incident, which involved a J",
+      "excerpt": "도널드 트럼프 미국 대통령은 일요일 이란에 대한 경제적 압박을 가할 준비가 되어 있다는 신호를 보내 테헤란이 강력한 요구를 내놓고 있음에도 불구하고 추가 군사 공격 명령을 철회한 것으로 보입니다.",
+      "excerpt_en": "US President Donald Trump signalled on Sunday he is prepared to let economic pressure mount against Iran, apparently backing away from ordering more military strikes even as Tehran issues tough demand",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/australasia/article/3363425/jetstar-plane-narrowly-avoids-crashing-qatar-airways-flight-sydney-airport?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363467/trump-says-us-low-keying-it-iran-stresses-economic-pain?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 84,
+      "score": 85,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 63
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 64
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "DW",
-        "Reuters",
+        "Hindustan Times",
         "SCMP",
+        "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-08-09T04:51:54+09:00",
-      "latest_published_at": "2026-08-09T09:24:53+09:00",
+      "first_published_at": "2026-08-09T18:45:57+09:00",
+      "latest_published_at": "2026-08-10T02:01:19+09:00",
       "articles": [
         {
-          "title": "Jetstar and Qatar Airways planes in near-miss collision at Sydney airport",
+          "title": "Why opening the Strait of Hormuz will need more than Trump ‘low-keying it’",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/iran-holding-firm-to-strait-steers-trump-back-to-june-deal-20260810-p60mvw.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "02:01"
+        },
+        {
+          "title": "Trump says US 'low-keying' talks with Iran amid deadlock on Hormuz: 'Will work out, it's like chess game'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-low-keying-talks-with-iran-trump-tehran-conditions-hormuz-deal-chess-game-west-asia-war-101786323870254.html",
+          "published_at": "01:10"
+        },
+        {
+          "title": "Trump claims he’s ‘low-keying it’ with Iran after report he could walk away without nuclear deal",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/collision-sydney-airport-jetstar-qatar-airways-b3029926.html",
-          "published_at": "09:24"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-strait-of-hormuz-negotiations-terms-b3030066.html",
+          "published_at": "21:20"
         },
         {
-          "title": "Australia: Jetstar, Qatar Airways planes almost collide on Sydney Airport tarmac",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/australia-jetstar-qatar-airways-planes-almost-collide-on-sydney-airport-tarmac/a-78293085?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "07:53"
-        },
-        {
-          "title": "Australia probes near-miss collision of two planes on tarmac at Sydney airport",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxON0NFV2dVdHlXcHlZUG5QWTZKZTNCczRicGxNLVQ5ODVwdDdkNGdkMDRmMHFOM3czZDVwVWxmcDR4MURUNk5jcWZHSVQ3Yjl0aWFURElyMVcxSElLYzBkelVHcWVaM2Z4TWl3bmFzV1RJOHZ4M2E1dEtzdkFSOTI3TXJfbXpkTU95azRRcUQ4eFI1NGp2MGJaUjhBc2c5OWtIYlc1SnI4VFFYblRNZWtOQTVONnZnbWZXNUFiZWFmakNaQQ?oc=5",
-          "published_at": "06:12"
-        },
-        {
-          "title": "Jetstar plane narrowly avoids crashing into Qatar Airways flight at Sydney airport",
+          "title": "Trump says US ‘low-keying it’ with Iran, playing down urgency over Hormuz",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/australasia/article/3363425/jetstar-plane-narrowly-avoids-crashing-qatar-airways-flight-sydney-airport?utm_source=rss_feed",
-          "published_at": "04:51"
+          "url": "https://www.scmp.com/news/world/middle-east/article/3363467/trump-says-us-low-keying-it-iran-stresses-economic-pain?utm_source=rss_feed",
+          "published_at": "18:45"
         }
       ]
     },
     {
-      "id": "world-31",
-      "title": "아일랜드 범죄 두목 용의자, 두바이서 송환",
-      "title_en": "Suspected Irish crime boss extradited from Dubai",
+      "id": "world-6",
+      "title": "트럼프, 백악관 고문에 윌 샤프 지명",
+      "title_en": "Trump names Will Scharf as White House counsel",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/daniel-kinahan-irish-crime-boss-extradited-dubai/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "⁠아일랜드 검찰은 아일랜드 범죄 조직 두목으로 추정되는 다니엘 키나한(Daniel Kinahan)이 UN에서 인도된 후 일요일 늦게 ⁠일요일 늦게 특별 ‌법원에서 범죄 조직을 지휘한 혐의로 기소했습니다.",
-      "excerpt_en": "⁠Irish prosecutors charged alleged Irish ‌crime gang boss Daniel Kinahan with ⁠directing a criminal organisation ‌at a special ‌court sitting ⁠late ⁠on ‌Sunday following his extradition ‌from ‌the ‌Un",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3363466/suspected-irish-crime-boss-lands-dublin-after-being-extradited-dubai?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS3hNb19RenYzdHZBS0o4cDk2bzlzR1pkX0ZqWWExcXpuajFYZnJEeldyYzRVVUJQNU1DVDJxcmFYb3dVZzBQajk4bWlpSWwxQW15bEZHVjJUZGtyQWV2am9jUE41OXM2SDR1NDBrMEQ2bnFRZmoyZERDU3F0YXRKR2NuWlpzWjdnRk9qM012QjZwZw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "대통령이 9월 1일 데이비드 워링턴을 대신하여 4억 달러 규모의 연회장 승인을 받도록 도운 샤프 도널드 트럼프는 일요일에 승인 확보를 도운 비서 윌 샤프가 다음과 같이 발표했습니다.",
+      "excerpt_en": "Scharf, who helped president win approval for $400m ballroom, to replace David Warrington on 1 September Donald Trump announced on Sunday that ⁠Will ​Scharf, the staff secretary who helped secure appr",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/09/trump-will-scharf-white-house-counsel",
       "translation_status": "ok",
-      "score": 81,
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 60
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "CBS News",
-        "DW",
+        "AP News",
         "Reuters",
-        "SCMP"
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-08-09T18:12:18+09:00",
-      "latest_published_at": "2026-08-09T20:53:26+09:00",
+      "first_published_at": "2026-08-09T22:03:57+09:00",
+      "latest_published_at": "2026-08-09T23:52:00+09:00",
       "articles": [
         {
-          "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzl5TEZoallFdF9oRFpZcHRETGZPXzRmYnNwRGU5eXBweFRkTFVEU0lSb2VDLVg0dFBueFhEeWc5YVlCdUJtckVvcXdVWndxMDRSdmREeGc3YzBkQUZLU2dmX2EwRVc3cmdXamhYRUhoTExqeklKZDhoaU9RM0NKNl90RkEwRGc1R1JMZ1BxWFU3VVBoZjBtaVl3U1J5YnZ1MTJv?oc=5",
-          "published_at": "20:53"
+          "title": "Trump announces staff secretary Will Scharf will be his new White House counsel",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbjVnWVNDOGo3QWJxaTRzendUTU5mZ3VjMUpoVU52YVlTdkEtXzFHTDlGeEhxZmZISVJYVHduY1VIcExFcS1UVjAyaEl2V0lqV1lBRUFVMENxLUt6Wm9HcTNNS2lISlZhWVJHeVFDXy1DNERjTzFDNFpuc0U3OUNORy1jOGhhWXQtc3Ftdkg1eVZJNEZVM2xaT204VkVhZw?oc=5",
+          "published_at": "23:52"
         },
         {
-          "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/alleged-irish-crime-boss-kinahan-charged-with-directing-criminal-organisation/a-78297919?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "20:36"
-        },
-        {
-          "title": "Alleged Irish crime boss Kinahan charged with directing criminal organisation",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNiWTEyOWVSUTFRWE84YjZiang2N19rR3BPaE9zM19Zb3otaGVDNmFkbUYtclYzd29XUDFMdWtRenNBYUJaWC0xMVFNMXZTQnVkeWhoRjVLZW5mMWxxOFZRTmIxOXQyVlBBMks1ZWtCR2JjYkxvanV6ZTZTQlJ5Q3E3eERWNnZISzBodUtYSnFWLU9BVWVlTGhCTjFPYno4dFpVdUQ5TkZzN1FoT01UaTJWZVVEQ1ViVUFaWGJZb2N4Tko4?oc=5",
-          "published_at": "19:27"
-        },
-        {
-          "title": "Alleged Irish crime boss charged in Dublin with directing criminal organisation",
+          "title": "Trump announces staff secretary Will Scharf will be his new White House counsel",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3363466/suspected-irish-crime-boss-lands-dublin-after-being-extradited-dubai?utm_source=rss_feed",
-          "published_at": "18:17"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363471/trump-announces-staff-secretary-will-scharf-will-be-his-new-white-house-counsel?utm_source=rss_feed",
+          "published_at": "22:52"
         },
         {
-          "title": "Suspected Irish crime boss extradited from Dubai",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/daniel-kinahan-irish-crime-boss-extradited-dubai/",
-          "published_at": "18:12"
+          "title": "Trump appoints staff secretary Will Scharf as new White House counsel",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/09/trump-will-scharf-white-house-counsel",
+          "published_at": "22:28"
+        },
+        {
+          "title": "Trump names Will Scharf as White House counsel",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS3hNb19RenYzdHZBS0o4cDk2bzlzR1pkX0ZqWWExcXpuajFYZnJEeldyYzRVVUJQNU1DVDJxcmFYb3dVZzBQajk4bWlpSWwxQW15bEZHVjJUZGtyQWV2am9jUE41OXM2SDR1NDBrMEQ2bnFRZmoyZERDU3F0YXRKR2NuWlpzWjdnRk9qM012QjZwZw?oc=5",
+          "published_at": "22:03"
         }
       ]
     },
     {
-      "id": "world-44",
+      "id": "world-56",
       "title": "2000년 전 로마 난파선 시칠리아 앞바다서 발견",
       "title_en": "2,000-year-old Roman shipwreck discovered off coast of Sicily",
       "title_source": "earliest_pick",
       "title_url": "https://www.cbsnews.com/news/roman-shipwreck-italy-sicily-ancient-jar-discovered/",
       "category": "유럽",
       "primary_source": "CBS News",
-      "excerpt": "난파선의 나이는 2,000년 이상으로 추정됩니다. 이탈리아 문화부 장관은 이것이 수년 만에 발견된 \"가장 중요한 수중 고고학적 발견 중 하나\"라고 말했습니다.",
+      "excerpt": "난파선은 2,000년 이상 된 것으로 추정됩니다. 이탈리아 문화부 장관은 이것이 수년 만에 발견된 \"가장 중요한 수중 고고학적 발견 중 하나\"라고 말했습니다.",
       "excerpt_en": "The wreck is believed to be more than 2,000 years old. Italy's culture minister says it is \"one of the most important underwater archaeological\" finds in years.",
       "excerpt_source": "DW",
       "excerpt_url": "https://www.dw.com/en/divers-in-italy-find-ancient-roman-shipwreck-amphorae-off-coast-of-sicily-believed-to-be-2-100-years-old/a-78296552?maca=en-rss-en-all-1573-xml-mrss",
@@ -625,24 +493,78 @@
       ]
     },
     {
-      "id": "world-190",
-      "title": "트럼프는 핵 협상 없이 이란 전쟁을 끝낼 준비가 되어 있다. 테헤란의 요구는 출구를 복잡하게 만든다 : 보고서",
-      "title_en": "Trump ready to end Iran war without nuclear deal; Tehran's demands complicate exit: Report",
+      "id": "world-216",
+      "title": "예멘 후티 반군, 자잔에 있는 사우디 아람코 정유소 공격 주장, 한 달 만에 두 번째 공격",
+      "title_en": "Yemen's Houthis claim attack on Saudi Aramco's refinery in Jazan, second such strike within a month",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/trump-ready-to-end-iran-war-without-nuclear-deal-tehrans-demands-complicate-exit-report/articleshow/133069218.cms",
+      "title_url": "https://www.hindustantimes.com/world-news/yemen-houthis-claim-attack-saudi-aramco-refinery-jazan-second-such-strike-in-a-month-saudi-arabia-us-iran-war-101786258134426.html",
       "category": "중동",
-      "primary_source": "Times of India",
-      "excerpt": "트럼프 대통령은 미국 협상단이 호르무즈해협 재개방 협상을 타결하지 못하더라도 경제적 어려움이 이란에 계속 해를 끼칠 것이라고 주장했습니다.",
-      "excerpt_en": "The president claims economic challenges will continue harming Iran, even if US negotiators have been unable to clinch a deal for the Strait of Hormuz to reopen",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-strait-of-hormuz-negotiations-terms-b3030066.html",
+      "primary_source": "Hindustan Times",
+      "excerpt": "예멘 후티 반군은 최근 이란의 지원을 받는 반군이 사우디아라비아 남서부에 있는 석유 시설을 공격했다고 밝혔습니다.",
+      "excerpt_en": "Yemen's Houthis said they attacked an oil facility Sunday in southwestern Saudi Arabia, in the latest attack by the Iranian-backed rebels on the kingdom.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/houthis-attack-aramco-oil-saudi-arabia-yemen-9.7300964?cmp=rss",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "CBC",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-09T07:02:22+09:00",
+      "latest_published_at": "2026-08-09T15:44:02+09:00",
+      "articles": [
+        {
+          "title": "Houthis claim attacks on Saudi oil facility and Yemeni port, and other Mideast news",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001",
+          "published_at": "15:44"
+        },
+        {
+          "title": "Yemen's Houthis claim attack on Aramco oil facility in Saudi Arabia",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/houthis-attack-aramco-oil-saudi-arabia-yemen-9.7300964?cmp=rss",
+          "published_at": "12:58"
+        },
+        {
+          "title": "Yemen's Houthis claim attack on Saudi Aramco's refinery in Jazan, second such strike within a month",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/yemen-houthis-claim-attack-saudi-aramco-refinery-jazan-second-such-strike-in-a-month-saudi-arabia-us-iran-war-101786258134426.html",
+          "published_at": "07:02"
+        }
+      ]
+    },
+    {
+      "id": "world-101",
+      "title": "호주: 젯스타와 카타르항공 비행기가 시드니 공항 활주로에서 거의 충돌할 뻔했습니다.",
+      "title_en": "Australia: Jetstar, Qatar Airways planes almost collide on Sydney Airport tarmac",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/australia-jetstar-qatar-airways-planes-almost-collide-on-sydney-airport-tarmac/a-78293085?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "호주 시드니 공항 활주로에서 충돌사고가 발생해 승무원 1명이 부상을 입었다. 사건의 원인을 파악하기 위한 조사가 시작되었습니다.",
+      "excerpt_en": "A flight crew member was injured in a near-miss collision on the runway at Australia's Sydney Airport. An investigation has been launched to determine what caused the incident.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/australia-jetstar-qatar-airways-planes-almost-collide-on-sydney-airport-tarmac/a-78293085?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "ok",
       "score": 73,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 9,
+        "major_score": 15,
+        "breaking_score": 4,
         "time_score": 3,
         "raw75": 55
       },
@@ -651,54 +573,54 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Hindustan Times",
+        "DW",
         "The Independent",
         "Times of India"
       ],
-      "first_published_at": "2026-08-09T14:25:54+09:00",
-      "latest_published_at": "2026-08-09T21:20:03+09:00",
+      "first_published_at": "2026-08-09T07:53:00+09:00",
+      "latest_published_at": "2026-08-10T01:33:39+09:00",
       "articles": [
         {
-          "title": "Trump claims he’s ‘low-keying it’ with Iran after report he could walk away without nuclear deal",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-strait-of-hormuz-negotiations-terms-b3030066.html",
-          "published_at": "21:20"
-        },
-        {
-          "title": "Trump ready to drop Iran nuclear deal push if Tehran reopens Hormuz: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/donald-trump-was-willing-to-walk-away-from-iran-war-without-nuclear-deal-but-tehran-raised-demands-report-101786289410282.html",
-          "published_at": "16:28"
-        },
-        {
-          "title": "Trump ready to end Iran war without nuclear deal; Tehran's demands complicate exit: Report",
+          "title": "Jetstar, Qatar Air jets in near-miss at Sydney airport",
           "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/trump-ready-to-end-iran-war-without-nuclear-deal-tehrans-demands-complicate-exit-report/articleshow/133069218.cms",
-          "published_at": "14:25"
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/jetstar-qatar-air-jets-in-near-miss-at-sydney-airport/articleshow/133077204.cms",
+          "published_at": "01:33"
+        },
+        {
+          "title": "Jetstar and Qatar Airways planes in near-miss collision at Sydney airport",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/collision-sydney-airport-jetstar-qatar-airways-b3029926.html",
+          "published_at": "09:24"
+        },
+        {
+          "title": "Australia: Jetstar, Qatar Airways planes almost collide on Sydney Airport tarmac",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/australia-jetstar-qatar-airways-planes-almost-collide-on-sydney-airport-tarmac/a-78293085?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "07:53"
         }
       ]
     },
     {
-      "id": "world-24",
-      "title": "태국 학교 총기 난사범, 온라인 폭력 콘텐츠 시청했다고 경찰 발표",
-      "title_en": "Accused Thai school shooter had watched violent content online, police say",
+      "id": "world-176",
+      "title": "태국에서 총격 사건을 일으킨 14세 소년이 온라인에서 폭력적인 콘텐츠를 시청했다고 경찰이 밝혔다.",
+      "title_en": "14-year-old accused in deadly school shooting in Thailand had watched violent online content, police say",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZFkzSXhmN09aWEh5NnFWc0pQVFVLbEFYaGV4c1NZRHpHM045N1lrY3pWZFpGQWRKaWluT3llQ3FXYlh6Y3RPb0xVYnNqMnBmVGhTRmNndVZISWVnZU9CUVc5N2VBVGVCeHMtTVJ2LXp2VXRIVWNpZVpmLUZ5MS1CRVdkclNlaU5yRVlleDI2Y2s1RjVwRHNLT3hqbHE2MThESDRjVjRoODR4U0dMNEt2WGVBLWlLTjhhcWVvUG9US2xkbGZtNFZz?oc=5",
+      "title_url": "https://www.cbc.ca/news/world/accused-thai-school-shooter-9.7300952?cmp=rss",
       "category": "아시아",
-      "primary_source": "Reuters",
+      "primary_source": "CBC",
       "excerpt": "방콕 외곽에서 치명적인 학교 총격 사건을 일으킨 태국 10대 소년은 지난해 교사에게 공기총을 압수했으며 온라인에서 폭력적인 콘텐츠를 시청했다고 정부가 약속한 대로 일요일 경찰이 밝혔다.",
       "excerpt_en": "The Thai teen behind a deadly school shooting outside Bangkok had an air gun confiscated by a teacher last year and had watched violent content online, police said on Sunday, as the government ‌promis",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3363460/thai-school-shooter-had-watched-violent-content-online-police?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 72,
+      "score": 73,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "time_score": 3,
+        "raw75": 55
       },
       "area_value": 3,
       "article_count": 3,
@@ -706,12 +628,18 @@
       "source_count": 3,
       "sources": [
         "CBC",
-        "Reuters",
-        "SCMP"
+        "SCMP",
+        "Times of India"
       ],
-      "first_published_at": "2026-08-09T06:16:00+09:00",
-      "latest_published_at": "2026-08-09T15:26:08+09:00",
+      "first_published_at": "2026-08-09T12:24:04+09:00",
+      "latest_published_at": "2026-08-10T01:26:17+09:00",
       "articles": [
+        {
+          "title": "Police Probe Teen Gunman: Thai 14-year-old learned gun use from violent content; govt vows school safety steps",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/thai-teen-learnt-to-use-gun-from-social-media-police/articleshow/133077202.cms",
+          "published_at": "01:26"
+        },
         {
           "title": "Thai school shooter had watched violent content online: police",
           "source_name": "SCMP",
@@ -723,34 +651,88 @@
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/accused-thai-school-shooter-9.7300952?cmp=rss",
           "published_at": "12:24"
-        },
-        {
-          "title": "Accused Thai school shooter had watched violent content online, police say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZFkzSXhmN09aWEh5NnFWc0pQVFVLbEFYaGV4c1NZRHpHM045N1lrY3pWZFpGQWRKaWluT3llQ3FXYlh6Y3RPb0xVYnNqMnBmVGhTRmNndVZISWVnZU9CUVc5N2VBVGVCeHMtTVJ2LXp2VXRIVWNpZVpmLUZ5MS1CRVdkclNlaU5yRVlleDI2Y2s1RjVwRHNLT3hqbHE2MThESDRjVjRoODR4U0dMNEt2WGVBLWlLTjhhcWVvUG9US2xkbGZtNFZz?oc=5",
-          "published_at": "06:16"
         }
       ]
     },
     {
-      "id": "world-117",
-      "title": "태국 학교 총격 사건, 12세 학생 사망 후 9명으로 늘어",
-      "title_en": "Thailand school shooting toll rises to nine after 12-year-old dies, police say",
+      "id": "world-219",
+      "title": "범죄 혐의로 의심되는 아일랜드 두목, 송환 후 더블린에 도착",
+      "title_en": "Suspected Irish crime boss lands in Dublin after being extradited",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/aug/09/thailand-school-shooting-toll-rises-to-nine-after-12-year-old-dies-police-say",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "금요일 학교 총격 사건 이후 병원에서 치료를 받은 10대 소녀가 사망했다고 경찰이 밝혔습니다. 태국에서 학교 총격 사건으로 인한 사망자 수는 경찰이 12세 소녀가 사망했다고 발표한 후 토요일 9명으로 늘어났습니다.",
-      "excerpt_en": "Teenage girl treated in hospital after Friday’s school shooting has died, police say The death toll from a school shooting in Thailand rose to nine on Saturday, after police said a 12-year-old girl ca",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/09/thailand-school-shooting-toll-rises-to-nine-after-12-year-old-dies-police-say",
+      "title_url": "https://abcnews.com/International/wireStory/alleged-irish-organized-crime-boss-daniel-kinahan-extradited-135497071",
+      "category": "중동",
+      "primary_source": "ABC News",
+      "excerpt": "아일랜드 조직범죄 조직의 지도자로 추정되는 그가 텐트를 이용해 국제 마약 밀수와 돈세탁 제국을 운영했다는 혐의에 직면하기 위해 일요일 두바이에서 아일랜드로 송환됐다.",
+      "excerpt_en": "The alleged leader of an Irish organized crime gang was extradited to Ireland from Dubai on Sunday to face allegations that he ran an international drug smuggling and money laundering empire with tent",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/europe/irish-gang-boss-extradited-20260810-p60mvc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 55
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Hindustan Times",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-08-09T18:30:45+09:00",
+      "latest_published_at": "2026-08-10T00:31:25+09:00",
+      "articles": [
+        {
+          "title": "‘Gang war’: Suspected Irish crime kingpin charged after high-security Dubai extradition",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/gang-war-suspected-irish-crime-kingpin-charged-after-high-security-dubai-extradition-20260810-p60mu4.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "00:31"
+        },
+        {
+          "title": "Irish gang boss extradited",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/irish-gang-boss-extradited-20260810-p60mvc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:42"
+        },
+        {
+          "title": "Suspected Irish crime boss lands in Dublin after extradition from Dubai to face allegations",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/suspected-irish-crime-boss-lands-in-dublin-after-extradition-from-dubai-to-face-allegations-101786305318629.html",
+          "published_at": "19:55"
+        },
+        {
+          "title": "Suspected Irish crime boss lands in Dublin after being extradited",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/alleged-irish-organized-crime-boss-daniel-kinahan-extradited-135497071",
+          "published_at": "18:30"
+        }
+      ]
+    },
+    {
+      "id": "world-118",
+      "title": "비상사태가 선포되면서 수만 명이 브리티시컬럼비아 산불을 피해 대피했습니다.",
+      "title_en": "Tens of thousands flee British Columbia wildfire as state of emergency declared",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/british-columbia-bald-range-fire-b3029919.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "캐나다 브리티시컬럼비아주는 빠르게 확산되는 산불로 인해 밤새 2만 명 이상이 대피하면서 비상사태를 선포했습니다. 당국은 강한 바람이 불길을 빠르게 확산시켰다고 밝혔습니다.",
+      "excerpt_en": "Canada’s British Columbia has declared a state of emergency as a fast-moving wildfire forced more than 20,000 people to evacuate overnight. Officials say strong winds helped the flames spread rapidly,",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/wildfires-british-columbia-declares-state-of-emergency-thousands-forced-to-flee-homes",
       "translation_status": "ok",
       "score": 72,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
+        "major_score": 10,
+        "breaking_score": 9,
         "time_score": 2,
         "raw75": 54
       },
@@ -759,148 +741,196 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Bangkok Post",
-        "Channel News Asia",
-        "The Guardian"
+        "Euronews",
+        "France24",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-09T02:11:34+09:00",
-      "latest_published_at": "2026-08-09T14:15:00+09:00",
+      "first_published_at": "2026-08-09T07:49:50+09:00",
+      "latest_published_at": "2026-08-09T14:03:34+09:00",
       "articles": [
         {
-          "title": "Students, teachers mourn girl killed in Thailand school shooting",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/thailand-school-shooting-students-teachers-12-year-old-victim-6308491",
-          "published_at": "14:15"
+          "title": "Over 20,000 flee wildfires as British Columbia declares state of emergency",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/09/over-20000-flee-wildfires-as-british-columbia-declares-state-of-emergency",
+          "published_at": "14:03"
         },
         {
-          "title": "Students, teachers mourn girl killed in Thailand school shooting",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3298925/students-teachers-mourn-girl-killed-in-thailand-school-shooting",
-          "published_at": "12:45"
+          "title": "Wildfires: British Columbia declares state of emergency, thousands forced to flee homes",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/wildfires-british-columbia-declares-state-of-emergency-thousands-forced-to-flee-homes",
+          "published_at": "08:58"
         },
         {
-          "title": "Thailand school shooting toll rises to nine after 12-year-old dies, police say",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/09/thailand-school-shooting-toll-rises-to-nine-after-12-year-old-dies-police-say",
-          "published_at": "02:11"
+          "title": "Tens of thousands flee British Columbia wildfire as state of emergency declared",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/british-columbia-bald-range-fire-b3029919.html",
+          "published_at": "07:49"
         }
       ]
     },
     {
-      "id": "world-22",
-      "title": "예멘 후티 반군, 사우디 왕국과 방위 협정 체결 후 사우디 정유소 공격",
-      "title_en": "Yemen's Houthis attack Saudi refinery after kingdom signs defence pact",
+      "id": "world-154",
+      "title": "Summerland BC 화재 동영상: 캐나다에서 발생한 산불로 인한 최신 업데이트;  '그들은 모든 것을 잃었다'",
+      "title_en": "Summerland BC fire videos: Latest update as wildfire wreaks destruction in Canada;  ‘they have lost everything’",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBVeVBiZENRc3B0WldHbXZqbXBjLU5ucDVuODRNY3pIWFRKaWlES0lzRDVoWEFjOFBLQVkxeGVHd0pHWWV6Y0V0OFphUk81YksyX3BHQ0I2MVY2RHdfNDY1dE9XdGozaVQ0RWsyaXNieWlRT2RYdHNRNEp4ZHptOHBBTVFST2pfZXVIbkJZUlIteElMRTlQWEt5eGZ6RU9JMjRtUmdCYWVXUUM0TUE?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "예멘의 이란과 제휴한 후티 반군이 사우디 아람코의 자잔 정유소를 공격했다고 사우디 아람코가 터키, 파키스탄과 국방 협정을 체결한 지 이틀 뒤인 일요일에 밝혔습니다.",
-      "excerpt_en": "Yemen’s Iran-aligned Houthis have ⁠attacked Saudi Aramco’s Jazan refinery, they said on Sunday, two days after the kingdom signed a defence pact with Turkey and Pakistan in response to growing regiona",
+      "title_url": "https://www.hindustantimes.com/world-news/summerland-bc-fire-videos-latest-update-as-wildfire-wreaks-destruction-in-canada-they-have-lost-everything-101786263181893.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "캐나다 연방 정부는 일요일에 격렬한 산불로 인해 수천 명의 사람들이 대피해야 하는 주민들에게 피난처와 숙소를 제공함으로써 브리티시 컬럼비아에 도움이 될 것이라고 밝혔습니다.",
+      "excerpt_en": "The Canadian federal government said on ⁠Sunday it would ⁠help British Columbia ⁠as raging wildfires forced thousands of people to evacuate by providing shelter and accommodation for residents displac",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363465/yemens-houthis-attack-saudi-refinery-after-kingdom-signs-defence-pact?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3363470/canadian-province-get-federal-help-wildfire-forces-evacuations?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 69,
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "New York Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-09T08:50:26+09:00",
+      "latest_published_at": "2026-08-09T22:22:44+09:00",
+      "articles": [
+        {
+          "title": "Canada’s British Columbia gets federal help as wildfire forces evacuations",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363470/canadian-province-get-federal-help-wildfire-forces-evacuations?utm_source=rss_feed",
+          "published_at": "22:22"
+        },
+        {
+          "title": "Bald Range Wildfire Forces Evacuation of 18,000 in British Columbia",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/08/world/canada/canada-summerland-bc-wildfire-bald-range-evacuation.html",
+          "published_at": "15:10"
+        },
+        {
+          "title": "Summerland BC fire videos: Latest update as wildfire wreaks destruction in Canada;  ‘they have lost everything’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/summerland-bc-fire-videos-latest-update-as-wildfire-wreaks-destruction-in-canada-they-have-lost-everything-101786263181893.html",
+          "published_at": "08:50"
+        }
+      ]
+    },
+    {
+      "id": "world-102",
+      "title": "이란-미국 전쟁 최신: 테헤란은 트럼프에게 호르무즈 해협 재개를 위해 보상을 요구",
+      "title_en": "Iran-US war latest: Tehran demands compensation from Trump to reopen Strait of Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-israel-oman-b3029908.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "이란 혁명수비대는 일요일 미국이 제재 종료와 전쟁 피해 보상을 포함한 테헤란의 요구를 충족할 때까지 호르무즈 해협을 폐쇄할 것이라고 밝혔습니다. 봉쇄 오",
+      "excerpt_en": "Iran’s Revolutionary Guards said Sunday that the Strait of Hormuz would remain closed until the US meets Tehran’s demands, including an end to sanctions and compensation for war damage. The blockade o",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east/20260809-iran-vows-to-keep-strait-of-hormuz-closed-until-us-meets-demands",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBS News",
+        "France24",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-09T17:31:20+09:00",
+      "latest_published_at": "2026-08-10T00:47:00+09:00",
+      "articles": [
+        {
+          "title": "Iranian leaders demand U.S. pay for war damage or will keep Strait of Hormuz closed",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/iranian-leaders-demand-us-pay-war-damage-keep-strait-of-hormuz-closed/",
+          "published_at": "00:47"
+        },
+        {
+          "title": "Iran vows to keep Strait of Hormuz closed until US meets demands",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260809-iran-vows-to-keep-strait-of-hormuz-closed-until-us-meets-demands",
+          "published_at": "20:14"
+        },
+        {
+          "title": "Iran-US war latest: Tehran demands compensation from Trump to reopen Strait of Hormuz",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-israel-oman-b3029908.html",
+          "published_at": "17:31"
+        }
+      ]
+    },
+    {
+      "id": "world-48",
+      "title": "셀틱스 선수로서 5번의 우승을 차지한 NBA 2번째 코치 돈 넬슨이 86세의 나이로 사망했습니다.",
+      "title_en": "Don Nelson, 2nd-winningest NBA coach who won 5 titles as Celtics player, dead at 86",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/sports/basketball/nba/don-nelson-obit-9.7301199?cmp=rss",
+      "category": "기타",
+      "primary_source": "CBC",
+      "excerpt": "NBA 역사상 두 번째로 우승을 차지한 코치이자 보스턴 셀틱스에서 5번의 우승을 차지한 돈 넬슨이 일요일 사망했습니다. 그는 86세였습니다.",
+      "excerpt_en": "Don Nelson, the second-winningest coach in NBA history who won five championships as a player with the Boston Celtics, died Sunday. He was 86.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/sports/basketball/nba/don-nelson-obit-9.7301199?cmp=rss",
+      "translation_status": "ok",
+      "score": 65,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 4,
         "time_score": 2,
-        "raw75": 52
+        "raw75": 49
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "SCMP"
+        "AP News",
+        "CBC"
       ],
-      "first_published_at": "2026-08-09T01:48:00+09:00",
-      "latest_published_at": "2026-08-09T17:45:15+09:00",
+      "first_published_at": "2026-08-09T19:24:41+09:00",
+      "latest_published_at": "2026-08-10T00:19:00+09:00",
       "articles": [
         {
-          "title": "Yemen’s Houthis attack Saudi refinery after kingdom signs defence pact",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3363465/yemens-houthis-attack-saudi-refinery-after-kingdom-signs-defence-pact?utm_source=rss_feed",
-          "published_at": "17:45"
+          "title": "Reaction to the death of Don Nelson, the NBA’s second-winningest coach",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOME1JN3h2VzBLcUl5OU5id09OWVA2WGRqd2hhcDZOb1ZnS0RjZXVMUTJ4QVE2djlBSnRveUttTDFET1NJeDA0eTdlTF80aHhrMDZFMkdvUlVCMkpTVEl5ZHpNeERyWFFXaFhZMEREdFRrVGFYdlV3VXltVmtQTUdaamdHei0tMjg5TTFlTGpR?oc=5",
+          "published_at": "00:19"
         },
         {
-          "title": "How Saudi Arabia-Turkey-Pakistan defence pact acts as ‘insurance’ over US disengagement",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/politics/article/3363383/how-saudi-arabia-turkey-pakistan-defence-pact-acts-insurance-over-us-disengagement?utm_source=rss_feed",
-          "published_at": "08:00"
-        },
-        {
-          "title": "Yemen's Houthis attack Saudi refinery after kingdom signs defence pact",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBVeVBiZENRc3B0WldHbXZqbXBjLU5ucDVuODRNY3pIWFRKaWlES0lzRDVoWEFjOFBLQVkxeGVHd0pHWWV6Y0V0OFphUk81YksyX3BHQ0I2MVY2RHdfNDY1dE9XdGozaVQ0RWsyaXNieWlRT2RYdHNRNEp4ZHptOHBBTVFST2pfZXVIbkJZUlIteElMRTlQWEt5eGZ6RU9JMjRtUmdCYWVXUUM0TUE?oc=5",
-          "published_at": "01:48"
-        }
-      ]
-    },
-    {
-      "id": "world-95",
-      "title": "Demi Vollering은 결승 전날 여자 투르 드 프랑스를 뒤집어 놓았습니다.",
-      "title_en": "Demi Vollering turns women's Tour de France upside down on eve of finish",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/tv-shows/sports/20260809-demi-vollering-turns-women-tour-de-france-upside-down-eve-of-finish",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "네덜란드 라이더 데미 볼러링(Demi Vollering)은 니스에서 열린 최종 스테이지에서 우승하고 두 번째 대회를 마친 가장 가까운 라이벌인 카시아 니에비아도마(Kasia Niewiadoma)를 제치고 선두를 확장한 후 일요일에 두 번째 투르 드 프랑스 팜므(Tour de France Femmes) 타이틀을 획득했습니다.",
-      "excerpt_en": "Dutch rider Demi Vollering won her second Tour de France Femmes title on Sunday after winning the final stage in Nice and extending her lead over nearest rival Kasia Niewiadoma, who finished second ov",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/sport/20260809-demi-vollering-wins-second-women-s-tour-de-france-title",
-      "translation_status": "ok",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 51
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "Channel News Asia",
-        "France24"
-      ],
-      "first_published_at": "2026-08-09T08:23:32+09:00",
-      "latest_published_at": "2026-08-09T20:31:54+09:00",
-      "articles": [
-        {
-          "title": "'Go chase the dreams': Vollering wins second Tour de France Femmes",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-10/demi-vollering-wins-tour-de-france-femmes/107014760",
+          "title": "Don Nelson, second-winningest NBA coach who won 5 titles as a Celtics player, dies at 86",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEhpV2ZGcF9TOGdsV3FOc2pLVGt6d3ZPSmhlWS1CVjVyLXhHRVdMRHBmckhRRDRINm83bHJnbDg5eXJhRDlrSXdISDkxVHRRN1UwOURvX2FiWW5vOFRUbWt2RUpQM3NPOWFQT2NvelZveXZ2dWlQMDREUy1NanI5MGRtbDRrNzlvbDVDZUhB?oc=5",
           "published_at": "20:31"
         },
         {
-          "title": "Vollering delivers masterclass to secure second Tour de France Femmes title",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/vollering-delivers-masterclass-secure-second-tour-de-france-femmes-title-6308671",
-          "published_at": "17:24"
-        },
-        {
-          "title": "Demi Vollering wins second Women’s Tour de France title",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/sport/20260809-demi-vollering-wins-second-women-s-tour-de-france-title",
-          "published_at": "17:04"
-        },
-        {
-          "title": "Demi Vollering turns women's Tour de France upside down on eve of finish",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260809-demi-vollering-turns-women-tour-de-france-upside-down-eve-of-finish",
-          "published_at": "08:23"
+          "title": "Don Nelson, 2nd-winningest NBA coach who won 5 titles as Celtics player, dead at 86",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/sports/basketball/nba/don-nelson-obit-9.7301199?cmp=rss",
+          "published_at": "19:24"
         }
       ]
     },
     {
-      "id": "world-156",
+      "id": "world-174",
       "title": "뉴욕 항구에서 보트 전복으로 여성과 아기 사망",
       "title_en": "Woman and baby die after boat capsizes in New York harbour",
       "title_source": "earliest_pick",
@@ -912,14 +942,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3363462/woman-and-baby-die-after-boat-capsizes-new-york-harbour?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 67,
+      "score": 65,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 50
+        "time_score": 2,
+        "raw75": 49
       },
       "area_value": 3,
       "article_count": 3,
@@ -954,121 +984,14 @@
       ]
     },
     {
-      "id": "world-197",
-      "title": "이란, 호르무즈 재개 요구",
-      "title_en": "Iran issues demands for reopening of Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3298885/iran-issues-demands-for-reopening-of-hormuz",
-      "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "테헤란 – 이란 혁명수비대는 일요일 미국이 전날 제시한 테헤란의 조건을 충족할 때까지 세계 경제에 필수적인 호르무즈 해협을 재개하지 않을 것이라고 말했습니다.",
-      "excerpt_en": "TEHRAN - Iran's Revolutionary Guards said on Sunday they would not reopen the Strait of Hormuz, vital to the world economy, until the United States met Tehran's conditions set out the day before, incl",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3298914/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions",
-      "translation_status": "ok",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 50
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-09T04:45:00+09:00",
-      "latest_published_at": "2026-08-09T17:31:20+09:00",
-      "articles": [
-        {
-          "title": "Iran-US war latest: Tehran demands compensation from Trump to reopen Strait of Hormuz",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-israel-oman-b3029908.html",
-          "published_at": "17:31"
-        },
-        {
-          "title": "Iran Guards say won't reopen Hormuz without US meeting all Tehran's conditions",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3298914/iran-guards-say-wont-reopen-hormuz-without-us-meeting-all-tehrans-conditions",
-          "published_at": "09:45"
-        },
-        {
-          "title": "‘Middle of the game’: Iran renews list of demands around Strait of Hormuz",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/middle-east/iran-makes-dramatic-new-demands-around-strait-of-hormuz-20260809-p60mo6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "04:51"
-        },
-        {
-          "title": "Iran issues demands for reopening of Hormuz",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3298885/iran-issues-demands-for-reopening-of-hormuz",
-          "published_at": "04:45"
-        }
-      ]
-    },
-    {
-      "id": "world-6",
-      "title": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 행동해야 한다고 말했습니다.",
-      "title_en": "Iran says Oman deal is in ‘final stages’ but US must act to open Hormuz",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3363457/iran-says-oman-deal-final-stages-us-must-act-open-hormuz?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "이란은 일요일 호르무즈 해협에서 새로운 항로를 정의하는 오만과의 거래가 최종 단계에 있다고 말했지만 미국이 다른 사람들과 만나야만 수로가 다시 열릴 것이라고 반복했습니다.",
-      "excerpt_en": "Iran said on Sunday that a deal ⁠with Oman defining new shipping lanes in the Strait of Hormuz was in its final stages but reiterated that the waterway would only reopen once the United States met oth",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363457/iran-says-oman-deal-final-stages-us-must-act-open-hormuz?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-09T14:39:41+09:00",
-      "latest_published_at": "2026-08-09T18:55:32+09:00",
-      "articles": [
-        {
-          "title": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-          "published_at": "18:55"
-        },
-        {
-          "title": "Iran says Oman deal is in ‘final stages’ but US must act to open Hormuz",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3363457/iran-says-oman-deal-final-stages-us-must-act-open-hormuz?utm_source=rss_feed",
-          "published_at": "14:39"
-        }
-      ]
-    },
-    {
-      "id": "world-11",
+      "id": "world-29",
       "title": "우크라이나와 러시아, 서로 치명적인 공격을 가했다고 비난, 오데사 항구 손상",
       "title_en": "Ukraine, Russia accuse each other of lethal attacks, Odesa port damaged",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYkNMLVhYYm1zdG9veTFxQlIxY3IzNHpyOFZGMzAzWVZVWU9xU0xTUzdGMUplZmlzZTlPbEZCV3Fsb3pPa1J2MWhuU0Vhc0xoSDhsZXpLWUh6ektRLUItdUVUd2g4Q1lTSmtLZWlNd1p4ZnhhYUxlRFdCVjZlOUtQaU5qX1U4Ql9DRUtvNWZOVnRJMjNOOHJMSmFkQzNqTThMY2ZFamxQV0dqemsyRlhmaGFHZHgzLXd0b081dDZKRVRfTE9PeVhj?oc=5",
       "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "우크라이나, 러시아, 치명적인 공격으로 서로 비난, 오데사 항구 손상 - ​​최신",
+      "excerpt": "우크라이나와 러시아는 치명적인 공격으로 서로를 비난하고 오데사 항구는 피해를 입었습니다 - 최신",
       "excerpt_en": "Ukraine, Russia accuse each other of lethal attacks, Odesa port damaged Reuters",
       "excerpt_source": "Reuters",
       "excerpt_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYkNMLVhYYm1zdG9veTFxQlIxY3IzNHpyOFZGMzAzWVZVWU9xU0xTUzdGMUplZmlzZTlPbEZCV3Fsb3pPa1J2MWhuU0Vhc0xoSDhsZXpLWUh6ektRLUItdUVUd2g4Q1lTSmtLZWlNd1p4ZnhhYUxlRFdCVjZlOUtQaU5qX1U4Ql9DRUtvNWZOVnRJMjNOOHJMSmFkQzNqTThMY2ZFamxQV0dqemsyRlhmaGFHZHgzLXd0b081dDZKRVRfTE9PeVhj?oc=5",
@@ -1091,13 +1014,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-08-09T16:22:10+09:00",
-      "latest_published_at": "2026-08-09T20:50:46+09:00",
+      "latest_published_at": "2026-08-10T02:52:07+09:00",
       "articles": [
         {
           "title": "Ukraine-Russia war latest: Kyiv unleashes wave of nearly 300 drones in 12 hours, says Moscow",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-putin-zelensky-nato-drone-strikes-b3029907.html",
-          "published_at": "20:50"
+          "published_at": "02:52"
         },
         {
           "title": "Ukraine, Russia accuse each other of lethal attacks, Odesa port damaged",
@@ -1108,7 +1031,113 @@
       ]
     },
     {
-      "id": "world-18",
+      "id": "world-246",
+      "title": "Charlie Kirk 암살: Candace Owens는 사망 후 TPUSA의 조치를 폭파했습니다. '멍청한 홍보전략…'",
+      "title_en": "Charlie Kirk assassination: Candace Owens blasts TPUSA actions in aftermath of death; ‘dumbest PR strategy…’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/charlie-kirk-assassination-candace-owens-blasts-tpusa-actions-in-aftermath-of-death-dumbest-pr-strategy-101786267093130.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Candace Owens는 Charlie Kirk의 미망인이 Owens가 자신에게 적대적이라고 생각하는 사람들과 일한다고 비난하면서 Erika Kirk와의 불화를 다시 시작했습니다. Owens는 Erika가 인터뷰를 한 것에 대해 구체적으로 비판했습니다.",
+      "excerpt_en": "Candace Owens has reignited her feud with Erika Kirk, accusing Charlie Kirk’s widow of working with people Owens considers hostile to him. Owens specifically criticized Erika for giving an interview t",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/us-streamers/erika-prefers-to-grieve-with-charlies-enemies-candace-owens-takes-aim-at-erika-kirk-again-as-charlie-kirk-feud-erupts-over-controversial-reporter/articleshow/133076857.cms",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 10,
+        "major_score": 5,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-09T09:34:05+09:00",
+      "latest_published_at": "2026-08-10T03:24:08+09:00",
+      "articles": [
+        {
+          "title": "Candace Owens threatens to file police report over ‘protect Erika Kirk’ chat group: ‘Sharing our personal information…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/candace-owens-threatens-to-file-police-report-over-protect-erika-kirk-chat-group-sharing-our-personal-information-101786331787548.html",
+          "published_at": "03:24"
+        },
+        {
+          "title": "Owens Attacks Erika Again: Candace Owens escalates feud; revives disputed allegations",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us-streamers/erika-prefers-to-grieve-with-charlies-enemies-candace-owens-takes-aim-at-erika-kirk-again-as-charlie-kirk-feud-erupts-over-controversial-reporter/articleshow/133076857.cms",
+          "published_at": "00:01"
+        },
+        {
+          "title": "$300K Debate Terms: Owens accepts Wilson’s original offer; Piers Morgan eyes winner",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us-streamers/andrew-wilson-vs-candace-owens-what-are-the-final-terms-of-their-300k-debate-explained/articleshow/133076635.cms",
+          "published_at": "22:15"
+        },
+        {
+          "title": "Charlie Kirk assassination: Candace Owens blasts TPUSA actions in aftermath of death; ‘dumbest PR strategy…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/charlie-kirk-assassination-candace-owens-blasts-tpusa-actions-in-aftermath-of-death-dumbest-pr-strategy-101786267093130.html",
+          "published_at": "09:34"
+        }
+      ]
+    },
+    {
+      "id": "world-24",
+      "title": "이란은 오만 협상이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 행동해야 한다고 말했습니다.",
+      "title_en": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "이란은 일요일 호르무즈 해협에서 새로운 항로를 정의하는 오만과의 거래가 최종 단계에 있다고 말했지만 미국이 다른 사람들과 만나야만 수로가 다시 열릴 것이라고 반복했습니다.",
+      "excerpt_en": "Iran said on Sunday that a deal ⁠with Oman defining new shipping lanes in the Strait of Hormuz was in its final stages but reiterated that the waterway would only reopen once the United States met oth",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3363457/iran-says-oman-deal-final-stages-us-must-act-open-hormuz?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-09T11:43:00+09:00",
+      "latest_published_at": "2026-08-09T14:39:41+09:00",
+      "articles": [
+        {
+          "title": "Iran says Oman deal is in ‘final stages’ but US must act to open Hormuz",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3363457/iran-says-oman-deal-final-stages-us-must-act-open-hormuz?utm_source=rss_feed",
+          "published_at": "14:39"
+        },
+        {
+          "title": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+          "published_at": "11:43"
+        }
+      ]
+    },
+    {
+      "id": "world-40",
       "title": "러시아 벨고로드에 대한 우크라이나 드론 공격, 3명 사망, 25명 부상",
       "title_en": "Ukrainian drone attack on Russia's Belgorod kills 3, injures 25",
       "title_source": "earliest_pick",
@@ -1120,14 +1149,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/ukrainian-drone-attack-on-russias-belgorod-kills-3-injures-25-101786267657771.html",
       "translation_status": "ok",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1155,362 +1184,180 @@
       ]
     },
     {
-      "id": "world-35",
-      "title": "러시아와 우크라이나가 밤새 파업을 벌여 7명이 사망하고 다수가 부상당했다.",
-      "title_en": "Russia, Ukraine exchange overnight strikes that leave 7 dead, many injured",
+      "id": "world-51",
+      "title": "Demi Vollering은 결승 전날 여자 투르 드 프랑스를 뒤집어 놓았습니다.",
+      "title_en": "Demi Vollering turns women's Tour de France upside down on eve of finish",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZUUwZGVYSU5sMHpMazg3MEo2YkJ0RlJEOGloN2UxcXVNSENMSWYwdFM2aFdTa3g1ZjdER3FxS3ZDS3c1cWZoSy1nVUFWODlOM2g4VzRmN2VvYWZxaGJ3aHdvX2VSdTJlN3RyOVhsQW5NTllELTI5U1d0VmxwYWlsRWNVNnlQWk01eGtMQ09mYV9JLVFETDJncU4xaUpab0Vrc2lGVw?oc=5",
+      "title_url": "https://www.france24.com/en/tv-shows/sports/20260809-demi-vollering-turns-women-tour-de-france-upside-down-eve-of-finish",
       "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "러시아와 우크라이나는 하룻밤 사이에 교전을 벌여 양측 모두 민간인이 사망하고 많은 사람이 부상을 입었다고 현지 당국이 보도했습니다. 우크라이나 도시에 대한 러시아의 대규모 미사일 공격이 발생했습니다.",
-      "excerpt_en": "Russia and Ukraine exchanged strikes overnight that killed civilians and injured many others on both sides, local authorities reported. Large-scale Russian missile strikes on Ukrainian cities have bec",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3363468/russia-and-ukraine-exchange-overnight-strikes-leave-7-dead-many-injured?utm_source=rss_feed",
+      "primary_source": "France24",
+      "excerpt": "네덜란드 라이더 Demi Vollering은 니스에서 열린 최종 스테이지에서 우승하고 두 번째 대회를 마친 가장 가까운 라이벌인 Kasia Niewiadoma를 제치고 선두를 확장한 후 일요일에 두 번째 투르 드 프랑스 팜므 타이틀을 획득했습니다.",
+      "excerpt_en": "Dutch rider Demi Vollering won her second Tour de France Femmes title on Sunday after winning the final stage in Nice and extending her lead over nearest rival Kasia Niewiadoma, who finished second ov",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/sport/20260809-demi-vollering-wins-second-women-s-tour-de-france-title",
       "translation_status": "ok",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
-        "article_score": 12,
+        "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
         "AP News",
-        "SCMP"
+        "France24"
       ],
-      "first_published_at": "2026-08-09T15:18:00+09:00",
-      "latest_published_at": "2026-08-09T20:07:33+09:00",
+      "first_published_at": "2026-08-09T08:23:32+09:00",
+      "latest_published_at": "2026-08-09T18:48:00+09:00",
       "articles": [
         {
-          "title": "Russia and Ukraine exchange overnight strikes that leave 7 dead, many injured",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3363468/russia-and-ukraine-exchange-overnight-strikes-leave-7-dead-many-injured?utm_source=rss_feed",
-          "published_at": "20:07"
+          "title": "Tears of joy for Demi Vollering after winning the Women's Tour de France for the second time",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObXlPZGdiS3BzbUNpUTFtVUNEUGxvbndpanNQbi16bFFmTy1MOUVCNnAwd3A0WXZmZ2ZkSlZiYnhlSGt4TWdRcjIzWExnc29BZmlLR09Jb2ZDZm9Va1FtWE1mMVdxUUxKSUNIamxOM1YwZFJOS0FBaTlpV2JxX2pRRk9JMUpwYTJydG41aTk3cWc2N2VMamlF?oc=5",
+          "published_at": "18:48"
         },
         {
-          "title": "Russia, Ukraine exchange overnight strikes that leave 7 dead, many injured",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZUUwZGVYSU5sMHpMazg3MEo2YkJ0RlJEOGloN2UxcXVNSENMSWYwdFM2aFdTa3g1ZjdER3FxS3ZDS3c1cWZoSy1nVUFWODlOM2g4VzRmN2VvYWZxaGJ3aHdvX2VSdTJlN3RyOVhsQW5NTllELTI5U1d0VmxwYWlsRWNVNnlQWk01eGtMQ09mYV9JLVFETDJncU4xaUpab0Vrc2lGVw?oc=5",
-          "published_at": "15:18"
+          "title": "Demi Vollering wins second Women’s Tour de France title",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/sport/20260809-demi-vollering-wins-second-women-s-tour-de-france-title",
+          "published_at": "17:04"
+        },
+        {
+          "title": "Demi Vollering turns women's Tour de France upside down on eve of finish",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/tv-shows/sports/20260809-demi-vollering-turns-women-tour-de-france-upside-down-eve-of-finish",
+          "published_at": "08:23"
         }
       ]
     },
     {
-      "id": "world-60",
-      "title": "야니크 시너(Jannik Sinner), 무릎 부상으로 신시내티 오픈 기권",
-      "title_en": "Jannik Sinner withdraws from Cincinnati Open with knee injury",
+      "id": "world-135",
+      "title": "Burnham은 생활비를 완화하기 위해 '바가지'사업 관행에 대한 단속을 맹세합니다.",
+      "title_en": "Burnham vows crackdown on ‘rip-off’ business practices to ease cost of living",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/sports/2026/8/9/jannik-sinner-withdraws-from-cincinnati-open-with-knee-injury?traffic_source=rss",
-      "category": "미국",
-      "primary_source": "Al Jazeera",
-      "excerpt": "남자 테니스 세계 1위 야니크 시너(Jannik Sinner)가 오른쪽 무릎 부상으로 신시내티 오픈에서 탈락하면서 이번 달 US 오픈을 준비하는 이탈리아 선수에게 타격을 입혔습니다.",
-      "excerpt_en": "Men's tennis world number one Jannik Sinner pulls out of the Cincinnati Open with a right knee injury, handing the Italian a blow in his preparations for this month's US Open.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-10/jannik-sinner-pulls-out-of-cincinnati-open/107015540",
+      "title_url": "https://www.theguardian.com/business/2026/aug/09/burnham-vows-crackdown-on-rip-off-business-practices-to-ease-cost-of-living",
+      "category": "유럽",
+      "primary_source": "The Guardian",
+      "excerpt": "가짜 할인을 금지하고 원치 않는 구독을 더 쉽게 취소할 수 있도록 하는 PM의 '일상 수정' 중 첫 번째 Andy Burnham: 사람들이 싫어하는 Andy Burnham이 약속한 사기 행위를 끝내겠습니다.",
+      "excerpt_en": "First of PM’s ‘everyday fixes’ to be banning fake discounts and making it easier to cancel unwanted subscriptions Andy Burnham: I’ll end the rip-offs that people hate Andy Burnham has promised a serie",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/business/2026/aug/09/burnham-vows-crackdown-on-rip-off-business-practices-to-ease-cost-of-living",
       "translation_status": "ok",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "Al Jazeera",
-        "Channel News Asia"
+        "Hindustan Times",
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-08-09T16:53:53+09:00",
-      "latest_published_at": "2026-08-09T20:53:45+09:00",
+      "first_published_at": "2026-08-09T21:30:26+09:00",
+      "latest_published_at": "2026-08-09T22:08:46+09:00",
       "articles": [
         {
-          "title": "'Not ready to compete': Sinner pulls out of tournament ahead of US Open",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-10/jannik-sinner-pulls-out-of-cincinnati-open/107015540",
-          "published_at": "20:53"
+          "title": "UK PM Burnham vows to end ‘subscription traps’ amid cost-of-living crisis",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3363469/uk-pm-burnham-vows-end-subscription-traps-amid-cost-living-crisis?utm_source=rss_feed",
+          "published_at": "22:08"
         },
         {
-          "title": "Sinner withdraws from Cincinnati Open with knee injury ahead of US Open",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/sinner-withdraws-cincinnati-open-knee-injury-ahead-us-open-6308641",
-          "published_at": "17:07"
+          "title": "UK PM Burnham vows to end 'subscription traps' amid cost-of-living crisis",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/uk-pm-burnham-vows-to-end-subscription-traps-amid-cost-of-living-crisis-101786311263449.html",
+          "published_at": "21:34"
         },
         {
-          "title": "Jannik Sinner withdraws from Cincinnati Open with knee injury",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/8/9/jannik-sinner-withdraws-from-cincinnati-open-with-knee-injury?traffic_source=rss",
-          "published_at": "16:53"
+          "title": "Burnham vows crackdown on ‘rip-off’ business practices to ease cost of living",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/aug/09/burnham-vows-crackdown-on-rip-off-business-practices-to-ease-cost-of-living",
+          "published_at": "21:30"
         }
       ]
     },
     {
-      "id": "world-119",
-      "title": "NSW 지역 길가에서 여행가방 속에 숨진 여성 시신 발견",
-      "title_en": "Body of woman found in suitcase by side of road in regional NSW",
+      "id": "world-123",
+      "title": "기록적인 폭염에 홍콩 도시 무더위에 등산객 사망",
+      "title_en": "Hiker dies on Hong Kong trail as city swelters in record-breaking heat",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/australia-news/2026/aug/09/body-woman-found-suitcase-regional-nsw-road-ntwnfb",
-      "category": "기타",
-      "primary_source": "The Guardian",
-      "excerpt": "경찰은 일요일 오후 울곤 로드(Wolgon Road) 근처에서 여행 가방이 발견된 후 골번(Goulburn)에서 남쪽으로 약 40km 떨어진 올렌(Oallen)에 전화를 걸었습니다. 속보 이메일, 무료 앱 또는 일간 뉴스 팟캐스트를 받으세요.",
-      "excerpt_en": "Police called to Oallen, about 40km south of Goulburn, on Sunday afternoon after suitcase discovered near Wolgon Road Get our breaking news email , free app or daily news podcast The body of a woman h",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/aug/09/body-woman-found-suitcase-regional-nsw-road-ntwnfb",
+      "title_url": "https://www.scmp.com/news/hong-kong/society/article/3363446/hiker-collapses-dies-hong-kong-trail-city-swelters-record-breaking-heat?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "홍콩이 142년 전 기록이 시작된 이래 가장 더운 기온을 견뎌온 가운데 일요일 오후 타이포의 시골 길에서 등산객이 사망했습니다. 경찰은 오후 2시17분께 A씨의 신고를 접수했다고 밝혔다.",
+      "excerpt_en": "A hiker died on a country trail in Tai Po on Sunday afternoon as Hong Kong endured its hottest temperatures since records began 142 years ago. Police said they received a report at 2.17pm that a man, ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/society/article/3363446/hiker-collapses-dies-hong-kong-trail-city-swelters-record-breaking-heat?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 63,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
+        "major_score": 10,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 47
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
+        "SCMP",
         "The Guardian"
       ],
-      "first_published_at": "2026-08-09T11:46:58+09:00",
-      "latest_published_at": "2026-08-09T21:19:54+09:00",
+      "first_published_at": "2026-08-09T10:49:16+09:00",
+      "latest_published_at": "2026-08-10T01:24:13+09:00",
       "articles": [
         {
-          "title": "Police yet to identify body in suitcase in southern NSW",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-10/oallen-suitcase-body-police/107015534",
-          "published_at": "21:19"
+          "title": "Hong Kong records hottest day ever as Typhoon Dolphin fuels heatwave",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/10/hong-kong-heat-record-hottest-day-ever-typhoon-dolphin",
+          "published_at": "01:24"
         },
         {
-          "title": "Body of woman found in suitcase by side of road in regional NSW",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/09/body-woman-found-suitcase-regional-nsw-road-ntwnfb",
-          "published_at": "11:46"
+          "title": "Hiker dies on Hong Kong trail as city swelters in record-breaking heat",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3363446/hiker-collapses-dies-hong-kong-trail-city-swelters-record-breaking-heat?utm_source=rss_feed",
+          "published_at": "10:49"
         }
       ]
     },
     {
       "id": "world-212",
-      "title": "블랑쉬를 US A-G로 확인하면서 상원의원들은 트럼프의 영향력 아래 법무부를 지지합니다.",
-      "title_en": "In confirming Blanche as US A-G, senators endorse a Justice Department under Trump’s sway",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/trump-s-incoming-a-g-a-champion-of-unbridled-presidential-power-20260809-p60mol.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "유럽",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "형사재판에서 도널드 트럼프를 변호하면서 경력의 위험을 무릅쓴 토드 블랜치(Todd Blanche)가 미국 법무장관으로 확정되면서 미국 법무부의 독립성에 대한 우려가 커지고 있다.",
-      "excerpt_en": "After risking his career defending Donald Trump in a criminal trial, Todd Blanche was confirmed as US attorney general, raising fears over the US Justice Department's independence.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/09/todd-blanches-confirmation-as-attorney-general-strikes-worries-over-us-justice-independenc",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-08-09T00:39:51+09:00",
-      "latest_published_at": "2026-08-09T07:22:12+09:00",
-      "articles": [
-        {
-          "title": "Todd Blanche's confirmation as attorney general strikes worries over US Justice independence",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/09/todd-blanches-confirmation-as-attorney-general-strikes-worries-over-us-justice-independenc",
-          "published_at": "07:22"
-        },
-        {
-          "title": "In confirming Blanche as US A-G, senators endorse a Justice Department under Trump’s sway",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/trump-s-incoming-a-g-a-champion-of-unbridled-presidential-power-20260809-p60mol.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "00:39"
-        }
-      ]
-    },
-    {
-      "id": "world-39",
-      "title": "셀틱스 선수로서 5번의 우승을 차지한 NBA 2번째 코치 돈 넬슨이 86세의 나이로 사망했습니다.",
-      "title_en": "Don Nelson, 2nd-winningest NBA coach who won 5 titles as Celtics player, dead at 86",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/sports/basketball/nba/don-nelson-obit-9.7301199?cmp=rss",
-      "category": "기타",
-      "primary_source": "CBC",
-      "excerpt": "NBA 역사상 두 번째로 우승을 차지한 코치이자 보스턴 셀틱스에서 5번의 우승을 차지한 돈 넬슨이 일요일 사망했습니다. 그는 86세였습니다.",
-      "excerpt_en": "Don Nelson, the second-winningest coach in NBA history who won five championships as a player with the Boston Celtics, died Sunday. He was 86.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/sports/basketball/nba/don-nelson-obit-9.7301199?cmp=rss",
-      "translation_status": "ok",
-      "score": 59,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "CBC"
-      ],
-      "first_published_at": "2026-08-09T19:24:41+09:00",
-      "latest_published_at": "2026-08-09T19:39:00+09:00",
-      "articles": [
-        {
-          "title": "Don Nelson, second-winningest NBA coach who won 5 titles as a Celtics player, dies at 86",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEhpV2ZGcF9TOGdsV3FOc2pLVGt6d3ZPSmhlWS1CVjVyLXhHRVdMRHBmckhRRDRINm83bHJnbDg5eXJhRDlrSXdISDkxVHRRN1UwOURvX2FiWW5vOFRUbWt2RUpQM3NPOWFQT2NvelZveXZ2dWlQMDREUy1NanI5MGRtbDRrNzlvbDVDZUhB?oc=5",
-          "published_at": "19:39"
-        },
-        {
-          "title": "Don Nelson, 2nd-winningest NBA coach who won 5 titles as Celtics player, dead at 86",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/sports/basketball/nba/don-nelson-obit-9.7301199?cmp=rss",
-          "published_at": "19:24"
-        }
-      ]
-    },
-    {
-      "id": "world-5",
-      "title": "이란의 페제쉬키안이 최근 하메네이 최고지도자를 만났다고 국영 언론이 밝혔습니다.",
-      "title_en": "Iran's Pezeshkian recently met Supreme Leader Khamenei, state media says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTd6TExsQVUzWU1OTlNGdzREQVBSY2R5STlrTVBra3ZPOWozaERiVC1zd3FDMmJJOTEwS2pIemlUcUNZZ2l5Y1JGMjljUHlqTWJ4RC1fRjFRNEtuc1JCd1BFOEM5VzRwRnAyc3N0ejEtOGlhT2Y5VHNPWXd1a2puYXNxTS1fQjJpSzFrTlpYUDd5UFlCRFloQWhQZDdNM1FqZEFOYXNpYmEtTmdpUFFockU0TnhKSVpfNmd5SmRJZmp3UQ?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "이란의 페제쉬키안이 최근 하메네이 최고 지도자를 만났다고 국영 언론이 로이터 통신을 통해 보도했습니다.",
-      "excerpt_en": "Iran's Pezeshkian recently met Supreme Leader Khamenei, state media says Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTd6TExsQVUzWU1OTlNGdzREQVBSY2R5STlrTVBra3ZPOWozaERiVC1zd3FDMmJJOTEwS2pIemlUcUNZZ2l5Y1JGMjljUHlqTWJ4RC1fRjFRNEtuc1JCd1BFOEM5VzRwRnAyc3N0ejEtOGlhT2Y5VHNPWXd1a2puYXNxTS1fQjJpSzFrTlpYUDd5UFlCRFloQWhQZDdNM1FqZEFOYXNpYmEtTmdpUFFockU0TnhKSVpfNmd5SmRJZmp3UQ?oc=5",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Times of India"
-      ],
-      "first_published_at": "2026-08-09T12:22:49+09:00",
-      "latest_published_at": "2026-08-09T13:18:17+09:00",
-      "articles": [
-        {
-          "title": "Supreme Leader Khamenei footage to be released 'in future', Iran says as reports claim he is close to 'dead'",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/supreme-leader-khamenei-footage-to-be-released-in-future-iran-says-as-reports-claim-he-is-close-to-dead/articleshow/133068260.cms",
-          "published_at": "13:18"
-        },
-        {
-          "title": "Iran's Pezeshkian recently met Supreme Leader Khamenei, state media says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTd6TExsQVUzWU1OTlNGdzREQVBSY2R5STlrTVBra3ZPOWozaERiVC1zd3FDMmJJOTEwS2pIemlUcUNZZ2l5Y1JGMjljUHlqTWJ4RC1fRjFRNEtuc1JCd1BFOEM5VzRwRnAyc3N0ejEtOGlhT2Y5VHNPWXd1a2puYXNxTS1fQjJpSzFrTlpYUDd5UFlCRFloQWhQZDdNM1FqZEFOYXNpYmEtTmdpUFFockU0TnhKSVpfNmd5SmRJZmp3UQ?oc=5",
-          "published_at": "12:22"
-        }
-      ]
-    },
-    {
-      "id": "world-110",
-      "title": "우크라이나, 가스 파이프라인 근처에서 드론 폭발 후 불가리아 공격 거부",
-      "title_en": "Ukraine denies targeting Bulgaria after drone explodes near gas pipeline",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/ukraine-bulgaria-drone-russia-explosion-gas/",
-      "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "우크라이나는 지난 토요일 불가리아의 가스관 근처에서 드론이 추락한 이후 불가리아를 목표로 삼지 않았다고 밝혔습니다. 불가리아 당국은 해당 드론이 우크라이나군이 사용하는 유형인 것으로 보인다고 밝혔다. 그것",
-      "excerpt_en": "Ukraine says it did not target Bulgaria after a drone crashed near a gas pipeline in the country on Saturday. Bulgarian authorities said the drone appeared to be a type used by Ukraine’s military. It ",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/ukraine-denies-targeting-bulgaria-after-drone-exploded-near-a-gas-pipeline",
-      "translation_status": "ok",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "France24"
-      ],
-      "first_published_at": "2026-08-09T06:29:15+09:00",
-      "latest_published_at": "2026-08-09T09:04:07+09:00",
-      "articles": [
-        {
-          "title": "Ukraine denies targeting Bulgaria, after drone exploded near a gas pipeline",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/ukraine-denies-targeting-bulgaria-after-drone-exploded-near-a-gas-pipeline",
-          "published_at": "09:04"
-        },
-        {
-          "title": "Ukraine denies targeting Bulgaria after drone explodes near gas pipeline",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-bulgaria-drone-russia-explosion-gas/",
-          "published_at": "06:29"
-        }
-      ]
-    },
-    {
-      "id": "world-210",
       "title": "나가사키 81주년 원자폭탄 기념일, 평화주의 지지자들을 불안하게 하다",
       "title_en": "Nagasaki 81st atomic bomb anniversary unnerves proponents of pacifism",
       "title_source": "earliest_pick",
       "title_url": "http://www.euronews.com/2026/08/09/nagasaki-81st-atomic-bomb-anniversary-unnerves-proponents-of-pacifism",
       "category": "아시아",
       "primary_source": "Euronews",
-      "excerpt": "나가사키 시장은 미국이 남서부 도시에 원자폭탄을 투하한 지 81주년이 되는 일요일을 맞아 핵무기를 “절대악”이라고 부르면서 핵 억지력에 대한 지지가 커지고 있다고 비난했습니다.",
+      "excerpt": "나가사키 시장은 미국이 남서부 도시에 원자폭탄을 투하한 지 81주년이 되는 일요일을 맞아 핵무기를 “절대악”이라고 부르며 핵 억지력에 대한 지지가 커지고 있다고 비난했습니다.",
       "excerpt_en": "Nagasaki marked on Sunday the 81st anniversary of the US atomic bombing of the southwestern city, as the mayor called nuclear weapons “absolute evil,” denounced growing support for nuclear deterrence,",
       "excerpt_source": "Euronews",
       "excerpt_url": "http://www.euronews.com/2026/08/09/nagasaki-81st-atomic-bomb-anniversary-unnerves-proponents-of-pacifism",
       "translation_status": "ok",
-      "score": 57,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 43
+        "time_score": 1,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
@@ -1538,7 +1385,524 @@
       ]
     },
     {
-      "id": "world-10",
+      "id": "world-233",
+      "title": "학생과 교사, 태국 학교 총격 사건으로 사망한 소녀 애도",
+      "title_en": "Students, teachers mourn girl killed in Thailand school shooting",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3298925/students-teachers-mourn-girl-killed-in-thailand-school-shooting",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "방콕 - 수십 명의 유족 학생, 부모, 교사들이 가정과 학교에서 발생한 피해 8명 중 한 명인 12세 소녀의 시신을 위해 기도하기 위해 일요일 태국의 한 불교 사원에 줄을 섰습니다.",
+      "excerpt_en": "BANGKOK - Dozens of bereaved students, parents and teachers queued at a Buddhist temple in Thailand on Sunday to pray over the body of a 12-year-old girl, one of eight victims of a home and school sho",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3298925/students-teachers-mourn-girl-killed-in-thailand-school-shooting",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "CBC"
+      ],
+      "first_published_at": "2026-08-09T12:45:00+09:00",
+      "latest_published_at": "2026-08-09T12:54:04+09:00",
+      "articles": [
+        {
+          "title": "12-year-old girl dies following Thailand shooting, bringing victim death toll to at least 8",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/thailand-shooting-schoolgirl-9.7300653?cmp=rss",
+          "published_at": "12:54"
+        },
+        {
+          "title": "Students, teachers mourn girl killed in Thailand school shooting",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3298925/students-teachers-mourn-girl-killed-in-thailand-school-shooting",
+          "published_at": "12:45"
+        }
+      ]
+    },
+    {
+      "id": "world-2",
+      "title": "미국 인플레이션 데이터가 기다려지면서 달러는 2개월 최저점에 가까워졌습니다.",
+      "title_en": "Dollar near two-month trough as US inflation data awaited",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUNXbzdKZzN4SWREMXRobGFBNUZTbkhiRERVTXVER0xFMndJbzBGXzRwckk4SWJLTlJtUHNaSDN1Uy1BRUMwZDY2U3dYRVRzeWV1NTNWN3QzazF5NHZuNGUteGpmanpqQnloXzBQWk1oY1FKWWFjUWYyX0ljSF91NXhWQVl0ek5RVWhwakpoZWZTbXJFelRXN3hIZnlfMlk3elZtUEtzbU5DQWZiamc?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "미국 인플레이션 데이터가 기다려지면서 달러는 2개월 최저점에 가까워졌습니다.",
+      "excerpt_en": "Dollar near two-month trough as US inflation data awaited Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUNXbzdKZzN4SWREMXRobGFBNUZTbkhiRERVTXVER0xFMndJbzBGXzRwckk4SWJLTlJtUHNaSDN1Uy1BRUMwZDY2U3dYRVRzeWV1NTNWN3QzazF5NHZuNGUteGpmanpqQnloXzBQWk1oY1FKWWFjUWYyX0ljSF91NXhWQVl0ek5RVWhwakpoZWZTbXJFelRXN3hIZnlfMlk3elZtUEtzbU5DQWZiamc?oc=5",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-10T01:31:00+09:00",
+      "latest_published_at": "2026-08-10T01:31:32+09:00",
+      "articles": [
+        {
+          "title": "Dollar near two-month trough as US inflation data awaited",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/dollar-near-two-month-trough-us-inflation-data-awaited-6308976",
+          "published_at": "01:31"
+        },
+        {
+          "title": "Dollar near two-month trough as US inflation data awaited",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUNXbzdKZzN4SWREMXRobGFBNUZTbkhiRERVTXVER0xFMndJbzBGXzRwckk4SWJLTlJtUHNaSDN1Uy1BRUMwZDY2U3dYRVRzeWV1NTNWN3QzazF5NHZuNGUteGpmanpqQnloXzBQWk1oY1FKWWFjUWYyX0ljSF91NXhWQVl0ek5RVWhwakpoZWZTbXJFelRXN3hIZnlfMlk3elZtUEtzbU5DQWZiamc?oc=5",
+          "published_at": "01:31"
+        }
+      ]
+    },
+    {
+      "id": "world-22",
+      "title": "일본 경영진, 엔화 약세로 인해 수입 비용 압박이 가중됨에 따라 FX 안정성 촉구",
+      "title_en": "Japan's executives call for FX stability as weak yen intensify import-cost pressure",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbGNXT3hEcGh2WERYLXFXRXo3Ml9oaDVJbGFFc1hDRUtnc3pkR3dEcm1IemlvenJSNVdxVHhIWXBlbHp0WXpTM0U0TUR3NTNNU3otS1A0Y3pEVWVCLTVHZTVwVmM2ME4wcW5KbExZX0lJbk5HM2JNa0dIX0RMaU1wOE5fczgyd1p1UUdmdm1fVmhMOVZnUHVmMGUtVkVnTnMtZzlzZ21Xbll5NFJvSm1TemVmdlhQbGdjSGNNakVHQTNZOFVfcWZ2bm9YS3pXa1doZGc?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "일본 경영진, 엔화 약세로 인해 수입 비용 압박이 가중됨에 따라 FX 안정성 촉구 - 로이터",
+      "excerpt_en": "Japan's executives call for FX stability as weak yen intensify import-cost pressure Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbGNXT3hEcGh2WERYLXFXRXo3Ml9oaDVJbGFFc1hDRUtnc3pkR3dEcm1IemlvenJSNVdxVHhIWXBlbHp0WXpTM0U0TUR3NTNNU3otS1A0Y3pEVWVCLTVHZTVwVmM2ME4wcW5KbExZX0lJbk5HM2JNa0dIX0RMaU1wOE5fczgyd1p1UUdmdm1fVmhMOVZnUHVmMGUtVkVnTnMtZzlzZ21Xbll5NFJvSm1TemVmdlhQbGdjSGNNakVHQTNZOFVfcWZ2bm9YS3pXa1doZGc?oc=5",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-10T01:04:00+09:00",
+      "latest_published_at": "2026-08-10T01:08:12+09:00",
+      "articles": [
+        {
+          "title": "Japan's executives call for FX stability as weak yen intensify import-cost pressure",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/japans-executives-call-fx-stability-weak-yen-intensify-import-cost-pressure-6308961",
+          "published_at": "01:08"
+        },
+        {
+          "title": "Japan's executives call for FX stability as weak yen intensify import-cost pressure",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbGNXT3hEcGh2WERYLXFXRXo3Ml9oaDVJbGFFc1hDRUtnc3pkR3dEcm1IemlvenJSNVdxVHhIWXBlbHp0WXpTM0U0TUR3NTNNU3otS1A0Y3pEVWVCLTVHZTVwVmM2ME4wcW5KbExZX0lJbk5HM2JNa0dIX0RMaU1wOE5fczgyd1p1UUdmdm1fVmhMOVZnUHVmMGUtVkVnTnMtZzlzZ21Xbll5NFJvSm1TemVmdlhQbGdjSGNNakVHQTNZOFVfcWZ2bm9YS3pXa1doZGc?oc=5",
+          "published_at": "01:04"
+        }
+      ]
+    },
+    {
+      "id": "world-36",
+      "title": "Air India 기장의 초기 약물 검사로 갑작스러운 고도 상실 후 추가 검사가 필요합니다",
+      "title_en": "Air India captain's initial drug screening prompts further testing after sudden altitude loss",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNDBseXR4STVfU3FuR2tqajZISEM1UUFlSlVUd3ZKVV92cC1XWTdaZWVlVWdIS2RRbEJuTlRDWDZ2YTh2NFdVLUpkYTNjNUJ4Q1l2bnJMRS15M1dDd0ctalY3NXJiZDdYaFRnMHJ0NVlxX3JlSGFuU211LVVpZjdtNHhGeGtja2ktZFFURkQzTWR4ZTNrTzloRFI0WXlZMjJha3J5U1pJR2lOVGtkTDFnMDlNOXJvc1VETTNWN3BoaTBXbUdt?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "뉴델리 - ⁠지난 주 갑작스러운 고도 감소를 겪은 푸켓에서 뉴델리까지 에어 인디아 항공기의 기장은 향정신성 물질에 대한 1차 검사 결과를 반환했습니다.",
+      "excerpt_en": "NEW DELHI - ⁠The ⁠captain of an Air ​India flight from Phuket to New Delhi that encountered a sudden ​loss of altitude last week returned ‌an initial screening result for psychoactive substances, prom",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3299309/air-india-captains-initial-drug-screening-prompts-further-testing-after-sudden-altitude-loss",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-09T13:49:46+09:00",
+      "latest_published_at": "2026-08-10T03:07:00+09:00",
+      "articles": [
+        {
+          "title": "Air India captain's initial drug screening prompts further testing after sudden altitude loss",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3299309/air-india-captains-initial-drug-screening-prompts-further-testing-after-sudden-altitude-loss",
+          "published_at": "03:07"
+        },
+        {
+          "title": "Air India captain's initial drug screening prompts further testing after sudden altitude loss",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNDBseXR4STVfU3FuR2tqajZISEM1UUFlSlVUd3ZKVV92cC1XWTdaZWVlVWdIS2RRbEJuTlRDWDZ2YTh2NFdVLUpkYTNjNUJ4Q1l2bnJMRS15M1dDd0ctalY3NXJiZDdYaFRnMHJ0NVlxX3JlSGFuU211LVVpZjdtNHhGeGtja2ktZFFURkQzTWR4ZTNrTzloRFI0WXlZMjJha3J5U1pJR2lOVGtkTDFnMDlNOXJvc1VETTNWN3BoaTBXbUdt?oc=5",
+          "published_at": "13:49"
+        }
+      ]
+    },
+    {
+      "id": "world-44",
+      "title": "명예의 전당 코치이자 선수로서 5번의 NBA 챔피언이었던 넬슨이 86세의 나이로 사망했습니다.",
+      "title_en": "Nelson, Hall of Fame coach and five-time NBA champion as a player, dies at 86",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcHhLbHVkXzBvREhTUndsR0xUSktyTGFyR1VVMzNpSXFHT0NMZUJpNEZHbVZrNTIxcEUxNGNsam1kQkhGWGZ5czdqYWNDenRILTFpTUhSYVhtSmJLY3RBUmdQUlAxcGszbjFoN0R3SFpqUHhyTXM1NklWV0stMi1IWXRNdHdMaHZBSG5xanVMMzNSMFZpNUsyZjRwZ0ZZOG9wMFNRTnJn?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "명예의 전당 코치이자 선수로서 5번의 NBA 챔피언이었던 넬슨이 86세로 사망했습니다.",
+      "excerpt_en": "Nelson, Hall of Fame coach and five-time NBA champion as a player, dies at 86 Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcHhLbHVkXzBvREhTUndsR0xUSktyTGFyR1VVMzNpSXFHT0NMZUJpNEZHbVZrNTIxcEUxNGNsam1kQkhGWGZ5czdqYWNDenRILTFpTUhSYVhtSmJLY3RBUmdQUlAxcGszbjFoN0R3SFpqUHhyTXM1NklWV0stMi1IWXRNdHdMaHZBSG5xanVMMzNSMFZpNUsyZjRwZ0ZZOG9wMFNRTnJn?oc=5",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-09T19:17:00+09:00",
+      "latest_published_at": "2026-08-10T01:53:16+09:00",
+      "articles": [
+        {
+          "title": "Nelson, Hall of Fame coach and five-time NBA champion as a player, dies at 86",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/nelson-hall-fame-coach-and-five-time-nba-champion-player-dies-86-6308986",
+          "published_at": "01:53"
+        },
+        {
+          "title": "Nelson, Hall of Fame coach and five-time NBA champion as a player, dies at 86",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcHhLbHVkXzBvREhTUndsR0xUSktyTGFyR1VVMzNpSXFHT0NMZUJpNEZHbVZrNTIxcEUxNGNsam1kQkhGWGZ5czdqYWNDenRILTFpTUhSYVhtSmJLY3RBUmdQUlAxcGszbjFoN0R3SFpqUHhyTXM1NklWV0stMi1IWXRNdHdMaHZBSG5xanVMMzNSMFZpNUsyZjRwZ0ZZOG9wMFNRTnJn?oc=5",
+          "published_at": "19:17"
+        }
+      ]
+    },
+    {
+      "id": "world-50",
+      "title": "시리아는 새로운 협정에 따라 지중해의 핵심 기지 2곳에 대한 러시아의 통제권을 되찾을 예정이다.",
+      "title_en": "Syria will take back control from Russia of 2 key Mediterranean bases under a new deal",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0xUOUZscjJubmJIbnBRTHVjbUV4emlhWXo1MjZNdVpWRFIxOFFYeVlENUR6ZDkxbkMxVkRCcGVXTWJ6dkM2OGRSMHlUZGx5bFl4aHV6dHJONmtPenpsZDZkb0NOY0NUWjhWRGFsZVV6VkM0dy1SSEJPRDBSN2Vod3dNM3B3eW9QYmdlYXFZSUJuOWFKWnA3dkd2ZmU0OGZoR3h1SGVjaEkzdw?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "시리아와 러시아는 모스크바가 두 개의 지중해 연안 전략적 기지를 군사 전초기지로 사용하는 것을 중단하기로 합의했습니다.",
+      "excerpt_en": "Syria and Russia have agreed to end Moscow's use of two strategic Mediterranean coastal bases as military outposts",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/syria-agrees-deal-russia-future-2-key-mediterranean-135499105",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-08-09T15:38:00+09:00",
+      "latest_published_at": "2026-08-10T03:14:06+09:00",
+      "articles": [
+        {
+          "title": "Syria will take back control from Russia of 2 key Mediterranean bases under a new deal",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/syria-agrees-deal-russia-future-2-key-mediterranean-135499105",
+          "published_at": "03:14"
+        },
+        {
+          "title": "Syria will take back control from Russia of 2 key Mediterranean bases under a new deal",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0xUOUZscjJubmJIbnBRTHVjbUV4emlhWXo1MjZNdVpWRFIxOFFYeVlENUR6ZDkxbkMxVkRCcGVXTWJ6dkM2OGRSMHlUZGx5bFl4aHV6dHJONmtPenpsZDZkb0NOY0NUWjhWRGFsZVV6VkM0dy1SSEJPRDBSN2Vod3dNM3B3eW9QYmdlYXFZSUJuOWFKWnA3dkd2ZmU0OGZoR3h1SGVjaEkzdw?oc=5",
+          "published_at": "15:38"
+        }
+      ]
+    },
+    {
+      "id": "world-92",
+      "title": "시리아는 군사기지 미래에 대해 러시아와 합의했다고 밝혔습니다.",
+      "title_en": "Syria says deal agreed with Russia on future of military bases",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "다마스쿠스 – 시리아는 일요일 축출된 지도자 바샤르 알 아사드 두리에게 군사 지원을 제공하기 위해 한때 모스크바가 사용했던 두 기지의 운명에 대해 러시아와 합의했다고 밝혔습니다.",
+      "excerpt_en": "DAMASCUS - Syria said on Sunday that it reached a deal with Russia on the fate of its two bases in the country, which Moscow once used to provide military support to ousted leader Bashar al-Assad duri",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3299279/syria-says-reached-deal-with-moscow-on-fate-of-russian-bases",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "DW"
+      ],
+      "first_published_at": "2026-08-09T17:19:00+09:00",
+      "latest_published_at": "2026-08-10T01:45:00+09:00",
+      "articles": [
+        {
+          "title": "Syria says reached deal with Moscow on fate of Russian bases",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3299279/syria-says-reached-deal-with-moscow-on-fate-of-russian-bases",
+          "published_at": "01:45"
+        },
+        {
+          "title": "Syria says deal agreed with Russia on future of military bases",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "17:19"
+        }
+      ]
+    },
+    {
+      "id": "world-134",
+      "title": "이란과 동맹한 후티 반군, 사우디아라비아 정유소 공격 주장",
+      "title_en": "Iran-aligned Houthis claim they attacked oil refinery in Saudi Arabia",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz",
+      "category": "중동",
+      "primary_source": "The Guardian",
+      "excerpt": "리야드가 방위 협정을 체결하고 테헤란이 호르무즈 해협을 재개하라는 강력한 요구를 한 후 드론 공격이 이루어졌습니다.",
+      "excerpt_en": "Drone strike comes after Riyadh signs defence pact and Tehran issues tough demands to reopen strait of Hormuz Yemen’s Tehran-aligned Houthis have claimed responsibility for an attack on a refinery in ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-09T15:11:28+09:00",
+      "latest_published_at": "2026-08-09T17:45:15+09:00",
+      "articles": [
+        {
+          "title": "Yemen’s Houthis attack Saudi refinery, testing new defence pact",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3363465/yemens-houthis-attack-saudi-refinery-after-kingdom-signs-defence-pact?utm_source=rss_feed",
+          "published_at": "17:45"
+        },
+        {
+          "title": "Iran-aligned Houthis claim they attacked oil refinery in Saudi Arabia",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/09/yemen-houthis-saudi-oil-refinery-defence-pact-iran-strait-of-hormuz",
+          "published_at": "15:11"
+        }
+      ]
+    },
+    {
+      "id": "world-217",
+      "title": "폭염이 지역을 덮치면서 서유럽이 새로운 기온 기록을 세웠습니다.",
+      "title_en": "Western Europe sets new temperature record as heat waves pummel the region",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/western-europe-sets-new-temperature-record-as-heat-waves-pummel-the-region-101786327967603.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "올여름 서유럽을 휘젓는 폭염은 2022년 6~7월 평균 기온 기록을 경신했다.",
+      "excerpt_en": "The heat waves roiling Western Europe this summer toppled an average temperature record for the June-July period set in 2022",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/western-europe-sets-new-temperature-record-heat-waves-135507462",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-10T02:12:47+09:00",
+      "latest_published_at": "2026-08-10T03:43:13+09:00",
+      "articles": [
+        {
+          "title": "Western Europe sets new temperature record as heat waves pummel the region",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/western-europe-sets-new-temperature-record-heat-waves-135507462",
+          "published_at": "03:43"
+        },
+        {
+          "title": "Western Europe sets new temperature record as heat waves pummel the region",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/western-europe-sets-new-temperature-record-as-heat-waves-pummel-the-region-101786327967603.html",
+          "published_at": "02:12"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "호르무즈 재개 불확실성에 유가 상승",
+      "title_en": "Oil rises on uncertainty over reopening of Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "호르무즈 재개장 불확실성에 유가 상승 - Reuters",
+      "excerpt_en": "Oil rises on uncertainty over reopening of Hormuz Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-09T22:17:00+09:00",
+      "latest_published_at": "2026-08-09T22:17:04+09:00",
+      "articles": [
+        {
+          "title": "Oil rises on uncertainty over reopening of Hormuz",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/oil-rises-uncertainty-over-reopening-hormuz-6308831",
+          "published_at": "22:17"
+        },
+        {
+          "title": "Oil rises on uncertainty over reopening of Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
+          "published_at": "22:17"
+        }
+      ]
+    },
+    {
+      "id": "world-11",
+      "title": "걸프 혼란 속에 아시아 증시 상승, 석유 상승",
+      "title_en": "Asia stocks gain, oil up amid Gulf confusion",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "브렌트유는 중요한 수로를 통한 운송이 조금씩 계속되면서 배럴당 84.40달러로 1% 상승했고, 미국 원유는 배럴당 78.80달러로 0.8% 상승했습니다.",
+      "excerpt_en": "Brent crude added 1 per cent to US$84.40 a barrel as shipping through the vital waterway remained at a trickle, while US crude rose 0.8 per cent to US$78.80 a barrel.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/business/asia-stocks-edge-higher-oil-up-6308921",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-10T00:25:00+09:00",
+      "latest_published_at": "2026-08-10T00:25:00+09:00",
+      "articles": [
+        {
+          "title": "Asia stocks gain, oil up amid Gulf confusion",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5",
+          "published_at": "00:25"
+        },
+        {
+          "title": "Asia stocks edge higher, oil up amid Gulf confusion",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/asia-stocks-edge-higher-oil-up-6308921",
+          "published_at": "00:25"
+        }
+      ]
+    },
+    {
+      "id": "world-28",
       "title": "교황 레오, 우크라이나 전쟁 종식 촉구 재차 촉구",
       "title_en": "Pope Leo renews call for Ukraine war to end",
       "title_source": "earliest_pick",
@@ -1550,14 +1914,14 @@
       "excerpt_source": "Reuters",
       "excerpt_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVmI1RUZtWkNMSDM0NUxiWUEycWxxa0RmOWZNd0IzdW93UzRmRll6TTVDVzdBdERjMzlOeUlqNWRPT0xSbDhUTjZWSUVsRG1MTGpQVnpQMERDNEI3YjRmWDNGaWtlbWdZdjBSamdqaXRHT0N0NHMxUlZNNEVHemZfSEgyRm0?oc=5",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1585,108 +1949,14 @@
       ]
     },
     {
-      "id": "world-213",
-      "title": "범죄 혐의로 의심되는 아일랜드 두목, 송환 후 더블린에 도착",
-      "title_en": "Suspected Irish crime boss lands in Dublin after being extradited",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/alleged-irish-organized-crime-boss-daniel-kinahan-extradited-135497071",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "아일랜드 범죄 두목 용의자, 혐의에 직면하기 위해 두바이에서 송환된 후 더블린에 상륙",
-      "excerpt_en": "Suspected Irish crime boss lands in Dublin after extradition from Dubai to face allegations",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/suspected-irish-crime-boss-lands-in-dublin-after-extradition-from-dubai-to-face-allegations-101786305318629.html",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-09T18:30:45+09:00",
-      "latest_published_at": "2026-08-09T19:55:18+09:00",
-      "articles": [
-        {
-          "title": "Suspected Irish crime boss lands in Dublin after extradition from Dubai to face allegations",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/suspected-irish-crime-boss-lands-in-dublin-after-extradition-from-dubai-to-face-allegations-101786305318629.html",
-          "published_at": "19:55"
-        },
-        {
-          "title": "Suspected Irish crime boss lands in Dublin after being extradited",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/alleged-irish-organized-crime-boss-daniel-kinahan-extradited-135497071",
-          "published_at": "18:30"
-        }
-      ]
-    },
-    {
-      "id": "world-12",
-      "title": "미국인 5명 중 3명은 소셜미디어 기업에 대한 감독 강화를 선호하는 것으로 로이터/입소스 여론조사 결과",
-      "title_en": "Three in five Americans favor stronger oversight of social media companies, Reuters/Ipsos poll finds",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/three-in-five-americans-favor-stronger-oversight-social-media-companies-reutersipsos-poll-finds-6308356",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "미국인 5명 중 3명은 소셜 미디어 기업에 대한 감독 강화를 선호",
-      "excerpt_en": "Three in five Americans favor stronger oversight of social media companies, Reuters/Ipsos poll finds Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOWFNbERCMmMwUUxzaXVsbzJyQTZoM2tqY21scnllSUJBZWhlZzlyRmdqZXJjRDdIYmU1ZTZOaVBON3loSVR1NGhIWGpXMTFYa1B0Q3JVV0tSZTV6TWhHU29nYUdsaFBnVFJ2eUt5WkJKekVlRWVlUzZiVmtqRjFkUU1pbTNwYUpWSFY3UHhjdVIxOWRCd2lrXzU1TGRTS3FRb1VFMjg3Z0Jna255b2I4?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-09T10:03:30+09:00",
-      "latest_published_at": "2026-08-09T14:06:58+09:00",
-      "articles": [
-        {
-          "title": "Three in five Americans favor stronger oversight of social media companies, Reuters/Ipsos poll finds",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOWFNbERCMmMwUUxzaXVsbzJyQTZoM2tqY21scnllSUJBZWhlZzlyRmdqZXJjRDdIYmU1ZTZOaVBON3loSVR1NGhIWGpXMTFYa1B0Q3JVV0tSZTV6TWhHU29nYUdsaFBnVFJ2eUt5WkJKekVlRWVlUzZiVmtqRjFkUU1pbTNwYUpWSFY3UHhjdVIxOWRCd2lrXzU1TGRTS3FRb1VFMjg3Z0Jna255b2I4?oc=5",
-          "published_at": "14:06"
-        },
-        {
-          "title": "Three in five Americans favor stronger oversight of social media companies, Reuters/Ipsos poll finds",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/three-in-five-americans-favor-stronger-oversight-social-media-companies-reutersipsos-poll-finds-6308356",
-          "published_at": "10:03"
-        }
-      ]
-    },
-    {
-      "id": "world-15",
+      "id": "world-34",
       "title": "대만의 2027년 국방비는 16% 증가할 것이라고 공식 언론이 보도했습니다.",
       "title_en": "Taiwan's 2027 defence spending to rise 16%, official media reports",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUTVKU2Z0cm5PanRWcy13ZFJQckNvN014LW9RV0NxTkdUb2pDYXZRSV9ZRGZKYTVtZGhBdURMM1AtdHlHa0tERUdHQmJoZFdEUnhWc285MVZPMmFFcll5eHBTbzdWRDNQMFN6RlMwNjRZdk1yMmFqSmJxTC1YNWlvM0ROYzlMbUhsNGNlSHN1bkdra0FTc1BzYkJxN3VZeGVlT0htbV84cnRnRGNT?oc=5",
       "category": "아시아",
       "primary_source": "Reuters",
-      "excerpt": "‌대만 내각은 2027년 국방비 지출을 연간 16% 인상할 것을 제안할 예정이며, 이는 처음으로 대만 자금 1조 달러(433억 달러 Cdn)를 초과하게 됩니다.",
+      "excerpt": "‌대만 내각은 2027년 국방비 지출을 연간 16% 인상할 것을 제안할 예정이며, 이는 처음으로 대만 자금 1조 달러(433억 달러 Cdn)를 초과하는 것입니다.",
       "excerpt_en": "‌Taiwan's cabinet will propose a 16 per cent annual rise in defence spending for 2027, which would for the first time exceed $1 trillion in Taiwanese money ($43.3 billion Cdn), the official Central Ne",
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/taiwan-defence-spending-2027-9.7300966?cmp=rss",
@@ -1726,17 +1996,17 @@
       ]
     },
     {
-      "id": "world-17",
-      "title": "백악관·트럼프 캠페인 게시물에서 테일러 스위프트 노래 삭제",
-      "title_en": "Taylor Swift songs removed from White House, Trump campaign posts",
+      "id": "world-103",
+      "title": "프랑스 남부에서 200명이 넘는 소방관들이 화재 진압에 나섰다.",
+      "title_en": "Over 200 firefighters battle blaze in southern France",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem8tQ281dWR1RWV5ZVFHX1BEQWZnNU1RaW1uZm40S0VjZzZEbGxVVHVLZkJDZjBkRzM4bUNrNVIwR0RSbDM1MFo1UVdYUV8yLXZKc1QyZEZxcFlHOGgtZzcxYk0zNzZiWlc3TExjMlU4cGhYS0tzT09feE93US1TMEh0eXlGMk12VHNRQUdkcDdmM2ZDRGhBcExEazVUOVBaTlNXc2ZZbmd4SDBxcW1kU1pFSHJZT0dqU1E?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "트럼프 계정의 분노를 자극하는 노력은 자신의 레드 앨범을 공화당원과 연결하는 동영상과 같은 게시물이 게시된 후 침묵되었습니다. 테일러 스위프트의 노래 중 일부는 D가 소셜 미디어에 게시한 동영상에서 삭제되었습니다.",
-      "excerpt_en": "Rage-baiting efforts of Trump accounts silenced after posts such as a video linking her Red album to Republicans Some of Taylor Swift ’s songs have been removed from videos posted on social media by D",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/09/taylor-swift-songs-removed-trump-white-house-posts",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3363464/over-200-firefighters-battle-blaze-southern-france?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "일요일 프랑스 남부에서 빠르게 퍼지는 산불이 발생해 200명 이상의 소방관이 화재를 진압하기 위해 달려가며 대피가 불가피했습니다. 불은 낮 12시45분께 로제레 지역에서 발생했다.",
+      "excerpt_en": "A fast-moving wildfire was raging in southern France on Sunday, forcing evacuations as more than 200 firefighters raced to contain the blaze. The fire broke out at around 12.45pm in the Lozere region,",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3363464/over-200-firefighters-battle-blaze-southern-france?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1752,75 +2022,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "The Guardian"
+        "France24",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-09T05:44:00+09:00",
-      "latest_published_at": "2026-08-09T14:33:46+09:00",
+      "first_published_at": "2026-08-09T17:13:45+09:00",
+      "latest_published_at": "2026-08-09T17:21:52+09:00",
       "articles": [
         {
-          "title": "Taylor Swift songs removed from Trump and White House’s social media posts",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/09/taylor-swift-songs-removed-trump-white-house-posts",
-          "published_at": "14:33"
+          "title": "Wildfire rages in southern France, forcing evacuations",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/france/20260809-wildfire-rages-in-southern-france-forcing-evacuations",
+          "published_at": "17:21"
         },
         {
-          "title": "Taylor Swift songs removed from White House, Trump campaign posts",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem8tQ281dWR1RWV5ZVFHX1BEQWZnNU1RaW1uZm40S0VjZzZEbGxVVHVLZkJDZjBkRzM4bUNrNVIwR0RSbDM1MFo1UVdYUV8yLXZKc1QyZEZxcFlHOGgtZzcxYk0zNzZiWlc3TExjMlU4cGhYS0tzT09feE93US1TMEh0eXlGMk12VHNRQUdkcDdmM2ZDRGhBcExEazVUOVBaTlNXc2ZZbmd4SDBxcW1kU1pFSHJZT0dqU1E?oc=5",
-          "published_at": "05:44"
+          "title": "Over 200 firefighters battle blaze in southern France",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3363464/over-200-firefighters-battle-blaze-southern-france?utm_source=rss_feed",
+          "published_at": "17:13"
         }
       ]
     },
     {
-      "id": "world-40",
-      "title": "시리아는 새로운 협정에 따라 지중해의 핵심 기지 2곳에 대한 러시아의 통제권을 되찾을 예정이다.",
-      "title_en": "Syria will take back control from Russia of 2 key Mediterranean bases under a new deal",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0xUOUZscjJubmJIbnBRTHVjbUV4emlhWXo1MjZNdVpWRFIxOFFYeVlENUR6ZDkxbkMxVkRCcGVXTWJ6dkM2OGRSMHlUZGx5bFl4aHV6dHJONmtPenpsZDZkb0NOY0NUWjhWRGFsZVV6VkM0dy1SSEJPRDBSN2Vod3dNM3B3eW9QYmdlYXFZSUJuOWFKWnA3dkd2ZmU0OGZoR3h1SGVjaEkzdw?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "시리아와 러시아는 모스크바가 두 개의 지중해 연안 전략적 기지를 군사 전초기지로 사용하는 것을 중단하기로 합의했습니다.",
-      "excerpt_en": "Syria and Russia have agreed to end Moscow's use of two strategic Mediterranean coastal bases as military outposts",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/syria-agrees-deal-russia-future-2-key-mediterranean-135499105",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-08-09T14:57:13+09:00",
-      "latest_published_at": "2026-08-09T16:50:03+09:00",
-      "articles": [
-        {
-          "title": "Syria will take back control from Russia of 2 key Mediterranean bases under a new deal",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/syria-agrees-deal-russia-future-2-key-mediterranean-135499105",
-          "published_at": "16:50"
-        },
-        {
-          "title": "Syria will take back control from Russia of 2 key Mediterranean bases under a new deal",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0xUOUZscjJubmJIbnBRTHVjbUV4emlhWXo1MjZNdVpWRFIxOFFYeVlENUR6ZDkxbkMxVkRCcGVXTWJ6dkM2OGRSMHlUZGx5bFl4aHV6dHJONmtPenpsZDZkb0NOY0NUWjhWRGFsZVV6VkM0dy1SSEJPRDBSN2Vod3dNM3B3eW9QYmdlYXFZSUJuOWFKWnA3dkd2ZmU0OGZoR3h1SGVjaEkzdw?oc=5",
-          "published_at": "14:57"
-        }
-      ]
-    },
-    {
-      "id": "world-115",
+      "id": "world-124",
       "title": "태풍 돌핀 중국 동부 해안 강타해 100만명 대피",
       "title_en": "Typhoon Dolphin hits China's east coast, over 1 million evacuated",
       "title_source": "earliest_pick",
@@ -1867,8 +2090,55 @@
       ]
     },
     {
-      "id": "world-164",
-      "title": "미얀마, 아웅산 수지 여사 석방을 위한 아세안 요청 거부, 특사에게 질문 필요",
+      "id": "world-210",
+      "title": "태풍 돌핀, 비행기 결항·대피 끝에 중국 상륙",
+      "title_en": "Typhoon Dolphin makes landfall in China after flight cancellations, evacuations",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3298922/typhoon-dolphin-makes-landfall-in-china-after-flight-cancellations-evacuations",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "태풍 돌핀이 일요일 인구 밀도가 높은 중국 동부에 상륙했다고 기상청은 밝혔습니다. 폭풍으로 인해 1,000편 이상의 항공편이 취소되고, 100만 명이 대피했으며,",
+      "excerpt_en": "Typhoon Dolphin made landfall in densely populated eastern China on Sunday, meteorological authorities said, after the storm triggered more than 1,000 flight cancellations, 1 million evacuations, and ",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/08/09/over-1-million-evacuated-as-typhoon-dolphin-hits-china",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "Euronews"
+      ],
+      "first_published_at": "2026-08-09T11:45:00+09:00",
+      "latest_published_at": "2026-08-09T13:56:29+09:00",
+      "articles": [
+        {
+          "title": "Over 1 million evacuated as Typhoon Dolphin hits China",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/09/over-1-million-evacuated-as-typhoon-dolphin-hits-china",
+          "published_at": "13:56"
+        },
+        {
+          "title": "Typhoon Dolphin makes landfall in China after flight cancellations, evacuations",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3298922/typhoon-dolphin-makes-landfall-in-china-after-flight-cancellations-evacuations",
+          "published_at": "11:45"
+        }
+      ]
+    },
+    {
+      "id": "world-182",
+      "title": "미얀마, 아웅산 수지 여사 석방을 위한 아세안의 요청 거부, 특사에게 질문 필요",
       "title_en": "Myanmar rebuffs ASEAN call to free Aung San Suu Kyi, questions need for envoy",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/myanmar-rebuffs-asean-call-free-aung-san-suu-135495727",
@@ -1879,14 +2149,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3363453/myanmar-rebuffs-asean-call-free-aung-san-suu-kyi-questions-need-envoy?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -1910,147 +2180,6 @@
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/myanmar-rebuffs-asean-call-free-aung-san-suu-135495727",
           "published_at": "08:37"
-        }
-      ]
-    },
-    {
-      "id": "world-214",
-      "title": "인도네시아, 산불 확산으로 국립공원 폐쇄",
-      "title_en": "Indonesia closes national park as wildfire spreads",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3298887/indonesia-closes-national-park-as-wildfire-spreads",
-      "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "인도네시아는 유난히 건기 동안 증가하는 산불 위협에 맞서 싸우고 있으며, 당국은 가뭄, 강풍, 엘니뇨 기상 패턴으로 인해 인도네시아 전역에서 화재 위험이 증가하고 있다고 경고했습니다.",
-      "excerpt_en": "Indonesia is battling a growing wildfire threat during an unusually dry season, with authorities warning that drought, strong winds and the El Niño weather pattern have increased fire risks across the",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/wildfire-indonesian-national-park-grows-135495817",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Bangkok Post"
-      ],
-      "first_published_at": "2026-08-09T06:45:00+09:00",
-      "latest_published_at": "2026-08-09T14:33:55+09:00",
-      "articles": [
-        {
-          "title": "Wildfire in Indonesian national park grows",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/wildfire-indonesian-national-park-grows-135495817",
-          "published_at": "14:33"
-        },
-        {
-          "title": "Indonesia closes national park as wildfire spreads",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3298887/indonesia-closes-national-park-as-wildfire-spreads",
-          "published_at": "06:45"
-        }
-      ]
-    },
-    {
-      "id": "world-41",
-      "title": "티베트 협동조합이 수백년 된 직조 전통을 이어가고 있습니다",
-      "title_en": "A Tibetan cooperative keeps a centuries-old weaving tradition alive",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0NRY3JadVZiTlNXWWVSWHRnRk5GUmYzMW1HVlhsWTJBdE9PUUZtX1ZFX0xILWRLVDllaXI3RHJKTjNWODNTMUZtUFgwRkttRHJSNmhFQUZUUGtWcTJ4Rm1KdnJZNWNiaWZlT3BBTDhUd0VRUHNYdDBkMkh5d1RKanlFdk5XZjN1UE5QSE1BLWFhaVhvNHhwczN4MXRkaFU?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "티베트 직조 협동조합의 장인들이 수세기 동안 티베트 고원에서 사용된 전통 양모 직물인 풀루를 보존하기 위해 노력하고 있습니다.",
-      "excerpt_en": "Artisans at a weaving cooperative in Tibet are working to preserve Pulu, a traditional wool fabric that has been used on the Tibetan plateau for centuries",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/tibetan-cooperative-centuries-weaving-tradition-alive-135494418",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-08-09T02:23:00+09:00",
-      "latest_published_at": "2026-08-09T03:09:06+09:00",
-      "articles": [
-        {
-          "title": "A Tibetan cooperative keeps a centuries-old weaving tradition alive",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/tibetan-cooperative-centuries-weaving-tradition-alive-135494418",
-          "published_at": "03:09"
-        },
-        {
-          "title": "A Tibetan cooperative keeps a centuries-old weaving tradition alive",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0NRY3JadVZiTlNXWWVSWHRnRk5GUmYzMW1HVlhsWTJBdE9PUUZtX1ZFX0xILWRLVDllaXI3RHJKTjNWODNTMUZtUFgwRkttRHJSNmhFQUZUUGtWcTJ4Rm1KdnJZNWNiaWZlT3BBTDhUd0VRUHNYdDBkMkh5d1RKanlFdk5XZjN1UE5QSE1BLWFhaVhvNHhwczN4MXRkaFU?oc=5",
-          "published_at": "02:23"
-        }
-      ]
-    },
-    {
-      "id": "world-137",
-      "title": "뉴욕 보트 전복 사고로 여성과 5개월 된 아기 사망한 선장 기소",
-      "title_en": "Captain charged after woman and her five-month-old die in New York boat capsizing",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/us-news/2026/aug/09/man-charged-new-york-harbor-boat-capsized-deaths",
-      "category": "미국",
-      "primary_source": "The Guardian",
-      "excerpt": "뉴욕 항구에서 보트 전복 후 13건의 무모한 위험 혐의로 기소된 마누엘 에르난데스 토요일 저녁 뉴욕 항구에서 전복된 보트의 선장이 기소되었습니다",
-      "excerpt_en": "Manuel Hernandez charged with 13 counts of reckless endangerment after boat overturned in New York harbor The captain of a boat that capsized in the New York harbor on Saturday evening has been charge",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/09/man-charged-new-york-harbor-boat-capsized-deaths",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-09T14:47:37+09:00",
-      "latest_published_at": "2026-08-09T17:35:12+09:00",
-      "articles": [
-        {
-          "title": "Sara Sanchez and 5-month-old Antonella Garcia identified as NY boat crash victims; Captain Manuel Hernandez arrested",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/sara-sanchez-and-5-month-old-antonella-garcia-identified-as-ny-boat-crash-victims-captain-manuel-hernandez-arrested-101786295319305.html",
-          "published_at": "17:35"
-        },
-        {
-          "title": "Captain charged after woman and her five-month-old die in New York boat capsizing",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/09/man-charged-new-york-harbor-boat-capsized-deaths",
-          "published_at": "14:47"
         }
       ]
     }
