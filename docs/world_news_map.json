@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,28 +8,28 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-08-23T06:30:08.152156+09:00",
+  "updated_at": "2026-08-23T12:16:41.430667+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 401,
+  "article_count_total": 384,
   "cluster_count_total": 300,
   "clusters": [
     {
-      "id": "world-60",
-      "title": "US imposes 50% tariffs on Canada products as talks fail, Carney vows to match them ‘dollar for dollar’",
-      "title_en": "US imposes 50% tariffs on Canada products as talks fail, Carney vows to match them ‘dollar for dollar’",
+      "id": "world-42",
+      "title": "스웨덴 학교 칼 공격으로 10대 소녀 사망",
+      "title_en": "Teen girl killed in Swedish school sword attack",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-imposes-50-tariffs-on-canada-products-as-talks-fail-carney-vows-retaliation-101787372946123.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "\"최근 몇 주 동안 우리는 미국과 세계 최고의 거래를 맺은 캐나다의 지위를 향상시키는 데 중요한 진전을 이루었습니다. 그러나 그 진전은 우리의 목표를 달성하기에 충분하지 않았습니다.",
-      "excerpt_en": "\"In recent weeks, we made important progress toward improving Canada’s position as having the best deal in the world with the U.S. However, that progress has not been enough to meet our objectives for",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/22/canada-will-match-us-tariffs-dollar-for-dollar-carney-says",
-      "translation_status": "failed",
+      "title_url": "https://www.bangkokpost.com/world/3306199/teen-girl-killed-in-swedish-school-sword-attack",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "스웨덴 경찰이 지난 금요일 한 고등학교에서 학생들을 칼로 공격해 한 명을 살해한 18세 남성이 학교 폭력을 조장하는 온라인 커뮤니티에 가담했는지 조사하고 있다.",
+      "excerpt_en": "Swedish police are investigating whether an 18-year-old man who attacked students at a high school with a sword on Friday, killing one, was involved in online communities promoting school violence, a ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3364939/sword-attack-sweden-killed-one-prompts-probe-social-media?utm_source=rss_feed",
+      "translation_status": "ok",
       "score": 93,
       "score_breakdown": {
         "article_score": 25,
@@ -39,103 +39,108 @@
         "time_score": 3,
         "raw75": 70
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 8,
+      "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 6,
+      "source_count": 8,
       "sources": [
+        "ABC News",
         "Al Jazeera",
-        "Euronews",
-        "Hindustan Times",
-        "NPR",
+        "BBC",
+        "Bangkok Post",
+        "CBS News",
+        "SCMP",
         "Sky News",
-        "The Independent"
+        "The Guardian"
       ],
-      "first_published_at": "2026-08-22T04:32:22+09:00",
-      "latest_published_at": "2026-08-22T19:13:02+09:00",
+      "first_published_at": "2026-08-22T13:45:00+09:00",
+      "latest_published_at": "2026-08-23T01:34:15+09:00",
       "articles": [
         {
-          "title": "Canada to match US tariffs “dollar for dollar,” PM Carney says",
+          "title": "Swedish sword attack victim was 17-year-old girl, police say",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "01:34"
+        },
+        {
+          "title": "Swedish police identify 17-year-old girl as victim in school sword attack",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss",
-          "published_at": "19:13"
+          "url": "https://www.aljazeera.com/news/2026/8/22/swedish-police-identify-17-year-old-girl-as-victim-in-school-sword-attack?traffic_source=rss",
+          "published_at": "18:29"
         },
         {
-          "title": "Canada vows to match US tariffs ‘dollar for dollar’ as Trump’s 50% taxes come into force",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-tariffs-trump-carney-b3037446.html",
-          "published_at": "07:03"
+          "title": "Seventeen-year-old girl killed in sword attack at school in Sweden",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/22/seventeen-year-old-girl-killed-in-sword-attack-at-school-in-sweden",
+          "published_at": "18:11"
         },
         {
-          "title": "Canada will match US tariffs 'dollar for dollar,' Carney says",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/22/canada-will-match-us-tariffs-dollar-for-dollar-carney-says",
-          "published_at": "06:26"
-        },
-        {
-          "title": "'America has changed': Canada to match Trump's tariffs 'dollar for dollar' after trade talks collapse",
+          "title": "'17-year-old girl killed' in sword attack at Swedish school",
           "source_name": "Sky News",
-          "url": "https://news.sky.com/story/donald-trumps-50-us-tariffs-on-canada-to-be-matched-dollar-for-dollar-after-trade-talks-collapse-13575681",
-          "published_at": "05:09"
+          "url": "https://news.sky.com/story/17-year-old-girl-killed-in-sword-attack-at-swedish-school-13575868",
+          "published_at": "15:49"
         },
         {
-          "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-          "published_at": "04:36"
+          "title": "Sword attack at school in Sweden kills 17-year-old girl, officials say",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/sweden-school-sword-attack-fagersta/",
+          "published_at": "14:46"
         },
         {
-          "title": "US imposes 50% tariffs on Canada products as talks fail, Carney vows to match them ‘dollar for dollar’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-imposes-50-tariffs-on-canada-products-as-talks-fail-carney-vows-retaliation-101787372946123.html",
-          "published_at": "04:32"
+          "title": "Sword attack that killed 1 at Sweden high school prompts social media probe",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3364939/sword-attack-sweden-killed-one-prompts-probe-social-media?utm_source=rss_feed",
+          "published_at": "14:41"
+        },
+        {
+          "title": "Victim of sword attack at Swedish school was a 17-year-old girl",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/victim-sword-attack-swedish-school-17-year-girl-135861734",
+          "published_at": "13:54"
+        },
+        {
+          "title": "Teen girl killed in Swedish school sword attack",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3306199/teen-girl-killed-in-swedish-school-sword-attack",
+          "published_at": "13:45"
         }
       ]
     },
     {
-      "id": "world-22",
-      "title": "미국 판사, 75개국에 대한 이민 비자 처리 중단 정책 파기",
-      "title_en": "US judge strikes down policy suspending immigrant visa processing for 75 nations",
+      "id": "world-85",
+      "title": "미국 법원, 75개국에 영향을 미치는 트럼프의 이민 비자 동결을 뒤집고 정책이 '명백히 불법'이라고 판단",
+      "title_en": "US court overturns Trump’s immigrant visa freeze affecting 75 countries, calling policy ‘patently unlawful’",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT0F2RlpfcnFUWko2OFFTZzBmUG9TcWJJZDJYMXhPU1oyVEx4cV9jSXhiZDdiU3E3Q1ctcExuWFh2UERJWkd2dWVKQ0tJZlk1eDlJT01OSk9nMkZzQWozcXgxVktwajN1cE1YQ0pxWUNBYXNCU3BHSUlOWFlqS0JIRW16VWxRbjJfSlExc3kyaS1jcUdxeFhaSUQ3V3V0NzlKTU1rbEFtTWxQRnNDVHpNZkhPbmhyTzhKSGxZLVY4WXZiMjNZRVRzTg?oc=5",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-court-overturns-donald-trump-s-immigrant-visa-freeze-affecting-75-countries-calling-policy-patently-unlawful-101787380694282.html",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "미국 판사는 75개국 출신 신청자에 대한 이민 비자 발급을 중단하는 트럼프 행정부의 정책을 기각하면서 이 정책이 마르코 루비오 국무장관의 정책을 초과했다고 밝혔습니다.",
-      "excerpt_en": "A US ⁠judge has struck down a Trump administration ⁠policy suspending the issuance of immigrant visas to applicants from 75 countries, saying that the policy exceeded Secretary of State Marco Rubio’s ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3364905/us-court-strikes-down-trump-visa-ban-affecting-south-asian-nations?utm_source=rss_feed",
+      "primary_source": "Hindustan Times",
+      "excerpt": "미국 연방 판사는 75개국 국민에 대한 이민 비자 처리를 중단하는 트럼프 행정부의 정책을 뒤집고, 이 조치가 \"법에 어긋나고\" 주를 초과한다고 판결했습니다.",
+      "excerpt_en": "A US federal judge has overturned a Trump administration policy suspending immigrant visa processing for nationals of 75 countries, ruling that the measure was \"contrary to law\" and exceeded the State",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban",
       "translation_status": "ok",
-      "score": 92,
+      "score": 88,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 2,
-        "raw75": 69
+        "raw75": 66
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 4,
       "sources": [
         "Bangkok Post",
-        "Channel News Asia",
         "France24",
         "Hindustan Times",
-        "Reuters",
-        "SCMP",
         "The Independent"
       ],
-      "first_published_at": "2026-08-22T01:28:00+09:00",
-      "latest_published_at": "2026-08-22T17:40:02+09:00",
+      "first_published_at": "2026-08-22T07:17:54+09:00",
+      "latest_published_at": "2026-08-22T17:06:55+09:00",
       "articles": [
-        {
-          "title": "US judge strikes down Trump's 75-country visa ban",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-judge-strikes-down-trumps-75-country-visa-ban-6335151",
-          "published_at": "17:40"
-        },
         {
           "title": "Federal judge strikes down Trump’s visa ban from 75 countries ruling Rubio exceeded his authority",
           "source_name": "The Independent",
@@ -165,329 +170,60 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/us-court-overturns-donald-trump-s-immigrant-visa-freeze-affecting-75-countries-calling-policy-patently-unlawful-101787380694282.html",
           "published_at": "07:17"
-        },
-        {
-          "title": "US court strikes down Trump visa ban affecting South Asian nations",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3364905/us-court-strikes-down-trump-visa-ban-affecting-south-asian-nations?utm_source=rss_feed",
-          "published_at": "05:51"
-        },
-        {
-          "title": "US judge strikes down policy suspending immigrant visa processing for 75 nations",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT0F2RlpfcnFUWko2OFFTZzBmUG9TcWJJZDJYMXhPU1oyVEx4cV9jSXhiZDdiU3E3Q1ctcExuWFh2UERJWkd2dWVKQ0tJZlk1eDlJT01OSk9nMkZzQWozcXgxVktwajN1cE1YQ0pxWUNBYXNCU3BHSUlOWFlqS0JIRW16VWxRbjJfSlExc3kyaS1jcUdxeFhaSUQ3V3V0NzlKTU1rbEFtTWxQRnNDVHpNZkhPbmhyTzhKSGxZLVY4WXZiMjNZRVRzTg?oc=5",
-          "published_at": "01:28"
         }
       ]
     },
     {
-      "id": "world-14",
-      "title": "푸틴 \"우크라이나, 러시아 공습으로 '판도라의 상자' 열었다\"",
-      "title_en": "Ukraine's deadly strikes on Russia open 'Pandora's Box', Putin says",
+      "id": "world-32",
+      "title": "소말리아 해적, 최근 공격으로 예멘에서 유조선 납치",
+      "title_en": "Somali pirates hijack oil tanker off Yemen in latest attack",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-08-22/civilians-killed-in-ukrainian-drone-strikes-over-russia-/107067556",
-      "category": "유럽",
-      "primary_source": "ABC News Australia",
-      "excerpt": "Ukrainian drones killed at least 10 people in attacks against targets across Russia and Russian-occupied areas of Ukraine, including a warehouse owned by online retailer Ozon and an industrial facilit",
-      "excerpt_en": "Ukrainian drones killed at least 10 people in attacks against targets across Russia and Russian-occupied areas of Ukraine, including a warehouse owned by online retailer Ozon and an industrial facilit",
+      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd2ZWcnEzSHpvUUo0b0FBWFh5cndyNS1kMVY2dmJzcEpfdU1xM05BR3p1SndrTEthZ0Z4bmFiZWJVQ05zZGRyc3NDNjJwclpHcnZFNUNoMF9hTVF1MHYxMENRNEw4a21pekZzaDN6WHpSYjFiLUJwWFFXRzJHdGhMTnlnMzF6S243SkJYYXpiYzI1T2s?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "소말리아 해적들이 예멘 앞바다에서 석유 제품 유조선을 납치했다고 소말리아 해양 보안 관계자가 밝혔습니다. 이는 지난 4월부터 전 세계에서 6척의 상선이 나포된 해적 행위가 다시 시작된 최근의 일입니다.",
+      "excerpt_en": "Somali pirates hijacked an oil products tanker off Yemen, a Somali maritime security official said, the latest in a resurgence of piracy that has seen six commercial vessels seized since April across ",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3364934/20-sailors-kidnapped-somali-pirates-near-yemen-us-sanctioned-ship?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 89,
+      "score": 76,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "Reuters",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-22T13:52:25+09:00",
-      "latest_published_at": "2026-08-22T18:35:28+09:00",
-      "articles": [
-        {
-          "title": "Ukraine-Russia war latest: Putin says Kyiv has ‘opened Pandora’s box’ with strikes across Russia",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-shopping-centre-attack-b3037438.html",
-          "published_at": "18:35"
-        },
-        {
-          "title": "Ukrainian drones kill at least 10, hit warehouse of Russian online retailer Ozon",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
-          "published_at": "17:40"
-        },
-        {
-          "title": "Ukrainian drones kill at least 10, hit warehouse of Russian online retailer Ozon",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR3V4eHZkQWFrSEdIRXBiQjVXZUd6c3FuVllaNWVWQmRqeFY0WUhkQWswRVFNRGJFT0tFWkJVbTlqNnVOT0F1Rk0yRHlrVUhDRldJcjRlTjVjcjVDbG1Sc2tkQ0t5MWwzcHJBSmduTWhXazBUWHVKWUFrRmRkZzhYdXh4Wko4R3k2bmp6VDFpRkRudkNaVWxsUm85ZUxtbGFNNUxIdEExV2hxbDRTalFQeGR5cVFxTTZ3b0U4?oc=5",
-          "published_at": "16:58"
-        },
-        {
-          "title": "Ukraine's deadly strikes on Russia open 'Pandora's Box', Putin says",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-22/civilians-killed-in-ukrainian-drone-strikes-over-russia-/107067556",
-          "published_at": "13:52"
-        }
-      ]
-    },
-    {
-      "id": "world-115",
-      "title": "스웨덴 학교 칼 공격으로 10대 소녀 사망",
-      "title_en": "Teen girl killed in Swedish school sword attack",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3306199/teen-girl-killed-in-swedish-school-sword-attack",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "파게르스타 학교에서 18세 남성이 학생들을 향해 칼을 휘두르며 3명이 부상당했다.",
-      "excerpt_en": "Three other people wounded after 18-year-old man wielding sword assail students in Fagersta school A 17-year-old girl has been killed after a teenager brandishing a sword attacked students at a school",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/22/seventeen-year-old-girl-killed-in-sword-attack-at-school-in-sweden",
-      "translation_status": "ok",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "CBS News",
-        "Sky News",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-22T13:45:00+09:00",
-      "latest_published_at": "2026-08-22T18:11:55+09:00",
-      "articles": [
-        {
-          "title": "Seventeen-year-old girl killed in sword attack at school in Sweden",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/22/seventeen-year-old-girl-killed-in-sword-attack-at-school-in-sweden",
-          "published_at": "18:11"
-        },
-        {
-          "title": "'17-year-old girl killed' in sword attack at Swedish school",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/17-year-old-girl-killed-in-sword-attack-at-swedish-school-13575868",
-          "published_at": "15:49"
-        },
-        {
-          "title": "Sword attack at school in Sweden kills 17-year-old girl, officials say",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/sweden-school-sword-attack-fagersta/",
-          "published_at": "14:46"
-        },
-        {
-          "title": "Victim of sword attack at Swedish school was a 17-year-old girl",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/victim-sword-attack-swedish-school-17-year-girl-135861734",
-          "published_at": "13:54"
-        },
-        {
-          "title": "Teen girl killed in Swedish school sword attack",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3306199/teen-girl-killed-in-swedish-school-sword-attack",
-          "published_at": "13:45"
-        }
-      ]
-    },
-    {
-      "id": "world-9",
-      "title": "중국 로봇, 우사인 볼트의 100m 세계신기록 경신",
-      "title_en": "Chinese robot beats Usain Bolt's 100m world record",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "아시아",
-      "primary_source": "DW",
-      "excerpt": "중국의 휴머노이드 로봇 '라이트닝(Lightning)'이 인간 세계기록 보유자 우사인 볼트(Usain Bolt)보다 더 빠르게 100m 시험 경주를 달렸습니다. 1년 전, 휴머노이드 로봇은 경주를 완주하기 위해 고군분투했습니다.",
-      "excerpt_en": "The Chinese humanoid robot \"Lightning\" ran a 100-meter trial race faster than human world-record holder Usain Bolt. A year ago, humanoid robots struggled to finish a race.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "BBC",
-        "DW",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-22T12:41:00+09:00",
-      "latest_published_at": "2026-08-22T19:14:19+09:00",
-      "articles": [
-        {
-          "title": "Chinese robot beats Usain Bolt's 100m world record at Beijing games",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFpWcEU2Z3A5dEFDSXRERWhFSGsxd0NCRDAydDk5MFZXYmkwajZ0OFhwZFh0TzN1NVM0bUFmTTBocUNfYzZoT1FUdFVGazRZVHp3NC00eVNlWlFUcnFuOW1QdkhWeWk0OW42OW42SWxWVjFJRGFKZi0xYUN2ekFuUHRyVEdzNmg0MS1NeU80MFZWeTNmX0VTR2d5VFhQUFlzVmZBX2ZKNnFOM2tFbGtiZE1fV0drOXNtOTFMQWh0VQ?oc=5",
-          "published_at": "19:14"
-        },
-        {
-          "title": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/cgljl9zp47xo?at_medium=RSS&at_campaign=rss",
-          "published_at": "17:02"
-        },
-        {
-          "title": "Chinese robot beats Usain Bolt's 100m world record",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-22/the-robot-that-can-beat-usain-bolt/107067592",
-          "published_at": "13:38"
-        },
-        {
-          "title": "Chinese robot beats Usain Bolt's 100m world record",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "12:41"
-        }
-      ]
-    },
-    {
-      "id": "world-33",
-      "title": "러시아, 우크라이나 공격으로 쇼핑몰 드론 공격 하루만에 2명 사망",
-      "title_en": "Russian attacks on Ukraine kill 2 a day after deadly shopping mall drone strike",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/russian-attacks-ukraine-kill-2-people-day-after-135860466",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "이번 공격은 젤렌스키의 고향 쇼핑몰에서 2차례에 걸친 드론 공격으로 16명이 사망한 지 하루 만에 이뤄졌습니다.",
-      "excerpt_en": "The attacks come a day after a two-wave drone strike on a shopping mall in Zelenskyy's hometown killed 16 people.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/ukraine-russia-war-mall/",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
+        "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 2,
-        "raw75": 61
+        "raw75": 57
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
         "ABC News",
         "AP News",
-        "CBS News"
+        "SCMP"
       ],
-      "first_published_at": "2026-08-22T10:47:20+09:00",
-      "latest_published_at": "2026-08-22T16:41:00+09:00",
+      "first_published_at": "2026-08-22T08:18:00+09:00",
+      "latest_published_at": "2026-08-22T12:17:08+09:00",
       "articles": [
         {
-          "title": "Russian and Ukrainian attacks kill 10 people, a day after deadly shopping mall drone strike",
+          "title": "20 sailors kidnapped by Somali pirates near Yemen on US-sanctioned ship",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/africa/article/3364934/20-sailors-kidnapped-somali-pirates-near-yemen-us-sanctioned-ship?utm_source=rss_feed",
+          "published_at": "12:17"
+        },
+        {
+          "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/somali-pirates-hijack-oil-tanker-off-yemen-latest-135860915",
+          "published_at": "10:16"
+        },
+        {
+          "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVURpSFQ4WnVGVmZkQzdrYS1FTUVNdHRIREZWYU1iek1RV24tNjlINGRZSHU3bElZSFBHVHFTQklmdXRlaGk2eWFoM2NUWWVRTGkzbjdxM1FkTXFpM0hDOTBXaDZsQXFZZEJLcGtLai16ZjZHQmtpcVhLOG1Yc2dpSzJQSi1ObWNIT2xMbkwxQmxha0RmV0ZfNWFwQjFpeFNJ?oc=5",
-          "published_at": "16:41"
-        },
-        {
-          "title": "Russian and Ukrainian attacks kill at least 10 after deadly mall drone strike",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-russia-war-mall/",
-          "published_at": "14:56"
-        },
-        {
-          "title": "Russian and Ukrainian attacks kill 5 a day after deadly shopping mall drone strike",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russian-ukrainian-attacks-kill-5-people-day-after-135860467",
-          "published_at": "10:47"
-        },
-        {
-          "title": "Russian attacks on Ukraine kill 2 a day after deadly shopping mall drone strike",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russian-attacks-ukraine-kill-2-people-day-after-135860466",
-          "published_at": "10:47"
-        }
-      ]
-    },
-    {
-      "id": "world-44",
-      "title": "마크 카니 캐나다 총리는 무역협상 결렬 후 미국의 새로운 관세는 '오산'이라고 비난했다.",
-      "title_en": "Canadian Prime Minister Mark Carney calls new U.S. tariffs ‘a miscalculation’ after trade talks collapse",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
-      "category": "미국",
-      "primary_source": "NBC News",
-      "excerpt": "미국이 새로 발표한 캐나다에 대한 관세에 대한 협상은 캐나다 총리 마크 카니가 두 나라가 \"우리의 옛 관계로 돌아가지 않을 것\"이라고 말하면서 결렬되었습니다.",
-      "excerpt_en": "Negotiations over the United States' newly announced tariffs on Canada have fallen apart, as Canadian Prime Minister Mark Carney says the countries won't \"return to our old relationship\".",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-23/canada-to-impose-retaliatory-tariffs-on-us-goods/107067920",
-      "translation_status": "ok",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "BBC",
-        "NBC News",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-08-22T03:48:17+09:00",
-      "latest_published_at": "2026-08-22T20:10:00+09:00",
-      "articles": [
-        {
-          "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-          "published_at": "20:10"
-        },
-        {
-          "title": "‘At war’: Canada walks away from US trade talks, retaliates against tariffs",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/at-war-canada-walks-away-from-us-trade-talks-retaliates-to-tariffs-20260823-p60qnc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "18:33"
-        },
-        {
-          "title": "Canada will impose retaliatory tariffs on US, prime minister says",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-23/canada-to-impose-retaliatory-tariffs-on-us-goods/107067920",
-          "published_at": "16:28"
-        },
-        {
-          "title": "Canadian Prime Minister Mark Carney calls new U.S. tariffs ‘a miscalculation’ after trade talks collapse",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/business/economy/trump-canada-tariffs-carney-rcna593510",
-          "published_at": "03:48"
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd2ZWcnEzSHpvUUo0b0FBWFh5cndyNS1kMVY2dmJzcEpfdU1xM05BR3p1SndrTEthZ0Z4bmFiZWJVQ05zZGRyc3NDNjJwclpHcnZFNUNoMF9hTVF1MHYxMENRNEw4a21pekZzaDN6WHpSYjFiLUJwWFFXRzJHdGhMTnlnMzF6S243SkJYYXpiYzI1T2s?oc=5",
+          "published_at": "08:18"
         }
       ]
     },
@@ -504,14 +240,14 @@
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3306178/dozens-more-civilians-killed-kidnapped-in-nigeria",
       "translation_status": "ok",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -546,181 +282,13 @@
       ]
     },
     {
-      "id": "world-108",
-      "title": "Russian drone strikes on Ukraine shopping centre kill 16, injure 130",
-      "title_en": "Russian drone strikes on Ukraine shopping centre kill 16, injure 130",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3364896/russian-drone-strikes-ukraine-shopping-centre-kill-16-injure-130?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "지난 금요일 러시아 드론 여러 대가 우크라이나 중부의 쇼핑센터를 공격해 최소 16명이 사망하고 130명 이상이 부상했다고 볼로디미르 젤렌스키 대통령이 약속했습니다.",
-      "excerpt_en": "At least ⁠16 people were killed ⁠and more than 130 wounded on Friday when several Russian drones struck a shopping centre in central Ukraine, authorities said, with President Volodymyr Zelensky promis",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3364896/russian-drone-strikes-ukraine-shopping-centre-kill-16-injure-130?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "France24",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-22T01:03:56+09:00",
-      "latest_published_at": "2026-08-22T14:26:35+09:00",
-      "articles": [
-        {
-          "title": "Zelensky vows revenge after Russian double-tap strike on shopping mall in his hometown kills 16",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-shopping-mall-zelensky-b3037469.html",
-          "published_at": "14:26"
-        },
-        {
-          "title": "Children among wounded in Zelensky's hometown, struck by Russian drones",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/children-among-wounded-in-zelensky-s-hometown-struck-by-russian-drones",
-          "published_at": "09:38"
-        },
-        {
-          "title": "Russian drone strikes on Ukraine shopping centre kill 16, injure 130",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364896/russian-drone-strikes-ukraine-shopping-centre-kill-16-injure-130?utm_source=rss_feed",
-          "published_at": "01:03"
-        }
-      ]
-    },
-    {
-      "id": "world-89",
-      "title": "미 국방부, '불복종' 이유로 군 신문 지도부 해고",
-      "title_en": "Pentagon fires military newspaper leadership for 'insubordination'",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/pentagon-fires-military-newspaper-leadership-for-insubordination/a-78466373?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "미국",
-      "primary_source": "DW",
-      "excerpt": "Stars and Stripes의 편집장은 잠재적인 편집 간섭에 반대한 후 불복종 혐의로 신문 발행인 및 기자와 함께 해고되었다고 말했습니다.",
-      "excerpt_en": "The editor-in-chief of Stars and Stripes said he was fired, alongside the newspaper's publisher and a reporter, for insubordination after he objected to potential editorial interference.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/pentagon-fires-military-newspaper-leadership-for-insubordination/a-78466373?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 55
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "DW",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-22T02:55:00+09:00",
-      "latest_published_at": "2026-08-22T15:52:11+09:00",
-      "articles": [
-        {
-          "title": "Pentagon fires Stars and Stripes publisher after he gave an interview to CBS News over ‘hypothetical censorship’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/stars-and-stripes-fired-pentagon-hegseth-cbs-news-b3037576.html",
-          "published_at": "15:52"
-        },
-        {
-          "title": "Pentagon fires Stars and Stripes chief editor, publisher days after report on aircraft carrier USS Abraham Lincoln",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pentagon-trump-administration-fires-stars-and-stripes-editor-publisher-report-uss-abraham-lincoln-navy-carrier-101787397096259.html",
-          "published_at": "13:01"
-        },
-        {
-          "title": "Who are Erik Slavin, Lara Korte? Stars and Stripes editor, reporter fired for 'insubordination' - here's what they said",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-are-erik-slavin-lara-korte-stars-and-stripes-editor-reporter-fired-for-insubordination-heres-what-they-said-101787375718172.html",
-          "published_at": "05:50"
-        },
-        {
-          "title": "Pentagon fires military newspaper leadership for 'insubordination'",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/pentagon-fires-military-newspaper-leadership-for-insubordination/a-78466373?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "02:55"
-        }
-      ]
-    },
-    {
-      "id": "world-12",
-      "title": "전 세계 챔피언 복서, 집 밖에서 총에 맞아 사망",
-      "title_en": "Former world champion boxer shot dead outside his home",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/former-world-champion-boxer-zolani-tete-shot-dead-outside-his-home-13575726",
-      "category": "기타",
-      "primary_source": "Sky News",
-      "excerpt": "전 세계 복싱 챔피언 Zolani \"Last Born\" Tete가 남아프리카 이스턴 케이프 지방에 있는 그의 집 밖에서 총에 맞아 사망했습니다.",
-      "excerpt_en": "Former world boxing champion Zolani \"Last Born\" Tete has been shot dead outside his home in South Africa's Eastern Cape province.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-22/south-africas-former-world-boxing-champion-zolani-tete-shot-dead/107067524",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-08-22T09:24:00+09:00",
-      "latest_published_at": "2026-08-22T16:31:06+09:00",
-      "articles": [
-        {
-          "title": "South Africa's former world boxing champion Tete shot dead outside his home",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVDlRa1g4Rkd1OWVuOThwZWZ5STJ4eEtUbV9iWDhDb0x1cmtvRHAwcjNGWnZsSi1WYmxDd1ZKV2I2bzFRLTA1MWQ4Q1hUOGFkc3BfZXVibDhJNXVnRWdraGZ2Sy1VUW0tS0x1bElfbGJYTDA3TzRMd2FyclppVUhPanpWVkNrZlgxbUJsdXVRS0Vuc3hITzJuX0lmWVlMVHFzQ1BPaFJpOC1NV04zc0xBZVNqQ3NhWTNr?oc=5",
-          "published_at": "16:31"
-        },
-        {
-          "title": "World boxing champion shot dead outside his home in South Africa",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-22/south-africas-former-world-boxing-champion-zolani-tete-shot-dead/107067524",
-          "published_at": "09:46"
-        },
-        {
-          "title": "Former world champion boxer shot dead outside his home",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/former-world-champion-boxer-zolani-tete-shot-dead-outside-his-home-13575726",
-          "published_at": "09:24"
-        }
-      ]
-    },
-    {
-      "id": "world-42",
+      "id": "world-191",
       "title": "산불은 제1차 세계 대전과 제2차 세계 대전 당시 묻힌 폭탄과 지뢰를 노출시키고 폭발시킵니다.",
       "title_en": "Wildfires expose — and detonate — buried bombs and mines from WWI and WWII",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWoxWmxoZzJmT20yYWR3Yks0MGd4Z1U0S28yLXpxWDNiZjNNdTJ6cnVTWUlmY2JFREFWRThpTDJQazNRSzA1bHBzWmRkLVBGT0ZJbmhjTFFmVzdEZzA5MHktY2FSRk5DUk4yM1FBMUl3Q3pmRllIQnUyWFFfamZ3Z1Rwa1lVNWlzR2ljUWd2Q1dnY3BZZkdTNmxRVFZ3U2tHN0E?oc=5",
+      "title_url": "https://abcnews.com/International/wireStory/wildfires-expose-detonate-buried-bombs-mines-wwi-wwii-135860099",
       "category": "유럽",
-      "primary_source": "AP News",
+      "primary_source": "ABC News",
       "excerpt": "올여름 유럽 전역에서 발생한 산불은 검게 변한 풍경 아래에 잠재적으로 치명적인 위협이 숨어 있음을 드러냈습니다. 바로 제1차 세계 대전과 제2차 세계 대전의 녹슨 폭탄과 지뢰입니다.",
       "excerpt_en": "The wildfires burning across Europe this summer have exposed a potentially deadly threat lurking beneath the blackened landscape: rusty bombs and mines from World War I and II",
       "excerpt_source": "ABC News",
@@ -741,10 +309,10 @@
       "source_count": 3,
       "sources": [
         "ABC News",
-        "AP News",
-        "CBS News"
+        "CBS News",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-22T07:53:00+09:00",
+      "first_published_at": "2026-08-22T09:59:51+09:00",
       "latest_published_at": "2026-08-22T12:35:04+09:00",
       "articles": [
         {
@@ -754,139 +322,31 @@
           "published_at": "12:35"
         },
         {
+          "title": "Wildfires across Europe detonate forgotten World War bombs",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/europe-wildfires-world-war-bombs-b3037458.html",
+          "published_at": "12:11"
+        },
+        {
           "title": "Wildfires expose — and detonate — buried bombs and mines from WWI and WWII",
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/wildfires-expose-detonate-buried-bombs-mines-wwi-wwii-135860099",
           "published_at": "09:59"
-        },
-        {
-          "title": "Wildfires expose — and detonate — buried bombs and mines from WWI and WWII",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWoxWmxoZzJmT20yYWR3Yks0MGd4Z1U0S28yLXpxWDNiZjNNdTJ6cnVTWUlmY2JFREFWRThpTDJQazNRSzA1bHBzWmRkLVBGT0ZJbmhjTFFmVzdEZzA5MHktY2FSRk5DUk4yM1FBMUl3Q3pmRllIQnUyWFFfamZ3Z1Rwa1lVNWlzR2ljUWd2Q1dnY3BZZkdTNmxRVFZ3U2tHN0E?oc=5",
-          "published_at": "07:53"
         }
       ]
     },
     {
-      "id": "world-211",
-      "title": "영국 북동부에서 경찰차 충돌로 경찰 2명 포함 7명 사망",
-      "title_en": "Seven persons, including two cops, dead in police car collision in northeast England",
+      "id": "world-50",
+      "title": "이란-미국 전쟁 최신: 테헤란은 트럼프 위협 이후 미국의 '경제 D-Day'에 참여하지 말라고 국가들에게 경고",
+      "title_en": "Iran-US war latest: Tehran warns countries against joining US ‘economic D-Day’ after Trump threats",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/several-dead-in-police-car-collision-accident-in-northeast-england-middlesbrough-injured-hospitalised-uk-indians-101787389185388.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "영국 북동부에서 추격을 하던 중 경찰 2명을 포함해 7명이 정면충돌해 사망했다.",
-      "excerpt_en": "Seven people, including two police officers, have died in a head-on collision in the north-east of England following a pursuit.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-23/two-police-officers-among-seven-killed-in-uk-collision/107067634",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "ABC News Australia",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-22T09:04:24+09:00",
-      "latest_published_at": "2026-08-22T14:32:44+09:00",
-      "articles": [
-        {
-          "title": "7 people, including 2 police officers, die following a head-on collision in northeast England",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/7-people-including-2-police-officers-die-head-135864314",
-          "published_at": "14:32"
-        },
-        {
-          "title": "Seven killed in head-on collision with police car in UK",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-23/two-police-officers-among-seven-killed-in-uk-collision/107067634",
-          "published_at": "14:22"
-        },
-        {
-          "title": "Seven persons, including two cops, dead in police car collision in northeast England",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/several-dead-in-police-car-collision-accident-in-northeast-england-middlesbrough-injured-hospitalised-uk-indians-101787389185388.html",
-          "published_at": "09:04"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "Iran condemns US plans to announce new sanctions",
-      "title_en": "Iran condemns US plans to announce new sanctions",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
+      "title_url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-threat-sanctions-hormuz-update-b3037440.html",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "이란은 토요일 미국이 이슬람 공화국 경제에 추가적인 부담을 가하고 중국을 포함한 가장 중요한 무역 파트너에게 영향을 미칠 수 있는 새로운 제재를 발표할 계획을 비난했습니다.",
-      "excerpt_en": "Iran on Saturday denounced US plans to announce ⁠new sanctions that could put further strain on the Islamic Republic’s economy and have an impact on its most important trading partners including China",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3364944/iran-condemns-us-plans-announce-new-sanctions?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Channel News Asia",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-22T01:05:00+09:00",
-      "latest_published_at": "2026-08-22T21:21:14+09:00",
-      "articles": [
-        {
-          "title": "Iran condemns US plans to announce new sanctions",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3364944/iran-condemns-us-plans-announce-new-sanctions?utm_source=rss_feed",
-          "published_at": "21:21"
-        },
-        {
-          "title": "Iran condemns US plans to announce new sanctions",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/iran-condemns-us-plans-announce-new-sanctions-6335291",
-          "published_at": "20:33"
-        },
-        {
-          "title": "Iran condemns US plans to announce new sanctions",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-          "published_at": "01:05"
-        }
-      ]
-    },
-    {
-      "id": "world-29",
-      "title": "노리스, 러셀을 꺾고 네덜란드의 맥라렌 해트트릭 달성",
-      "title_en": "Norris beats Russell to pole in Dutch hat-trick for McLaren",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/norris-beats-russell-pole-in-dutch-hat-trick-mclaren-6335021",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Oscar Piastri는 네덜란드 그랑프리를 4위부터 시작할 예정이며, 팀 동료인 Lando Norris는 하룻밤 동안 예선을 통과한 후 폴 포지션을 차지했습니다.",
-      "excerpt_en": "Oscar Piastri will start the Dutch Grand Prix from fourth, while teammate Lando Norris claimed pole position after qualifying overnight.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-23/oscar-piastri-qualifies-fourth-f1-dutch-grand-prix/106998476",
+      "primary_source": "The Independent",
+      "excerpt": "이란은 미국의 경제제재에 동참하는 나라들은 적으로 간주될 것이라고 말했습니다. 이번 주 초, 트럼프 대통령은 자신이 \"가장 파괴적인 경제 작전\"이라고 부르는 것을 다시 발표했습니다.",
+      "excerpt_en": "Iran has said nations joining US economic sanctions against it would be considered enemies. Earlier this week, President Trump had announced what he called the \"most crushing economic operation\" again",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/iran-warns-countries-against-joining-us-economic-war/a-78473222?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "ok",
       "score": 69,
       "score_breakdown": {
@@ -902,35 +362,143 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "Channel News Asia",
+        "Al Jazeera",
+        "DW",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-22T20:19:50+09:00",
+      "latest_published_at": "2026-08-23T00:50:00+09:00",
+      "articles": [
+        {
+          "title": "Iran warns countries against joining US 'economic war'",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/iran-warns-countries-against-joining-us-economic-war/a-78473222?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "00:50"
+        },
+        {
+          "title": "Iran threatens countries that join US ‘economic D-Day’",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/iran-threatens-countries-that-join-us-economic-d?traffic_source=rss",
+          "published_at": "23:56"
+        },
+        {
+          "title": "Iran-US war latest: Tehran warns countries against joining US ‘economic D-Day’ after Trump threats",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-threat-sanctions-hormuz-update-b3037440.html",
+          "published_at": "20:19"
+        }
+      ]
+    },
+    {
+      "id": "world-11",
+      "title": "중국 로봇, 우사인 볼트의 100m 세계신기록 경신",
+      "title_en": "Chinese robot beats Usain Bolt's 100m world record",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "아시아",
+      "primary_source": "DW",
+      "excerpt": "중국의 휴머노이드 로봇 '라이트닝(Lightning)'이 인간 세계기록 보유자 우사인 볼트(Usain Bolt)보다 더 빠르게 100m 시험 경주를 달렸습니다. 1년 전, 휴머노이드 로봇은 경주를 완주하기 위해 고군분투했습니다.",
+      "excerpt_en": "The Chinese humanoid robot \"Lightning\" ran a 100-meter trial race faster than human world-record holder Usain Bolt. A year ago, humanoid robots struggled to finish a race.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "BBC",
+        "DW",
         "Reuters"
       ],
-      "first_published_at": "2026-08-22T15:12:53+09:00",
-      "latest_published_at": "2026-08-22T21:06:05+09:00",
+      "first_published_at": "2026-08-22T12:41:00+09:00",
+      "latest_published_at": "2026-08-22T19:14:19+09:00",
       "articles": [
         {
-          "title": "Norris to start on pole for Dutch GP as Russell claims sprint",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-23/oscar-piastri-qualifies-fourth-f1-dutch-grand-prix/106998476",
-          "published_at": "21:06"
-        },
-        {
-          "title": "Norris beats Russell to pole in Dutch hat-trick for McLaren",
+          "title": "Chinese robot beats Usain Bolt's 100m world record at Beijing games",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZV9Kak1OQVVXQVR4d2xmWnhyVkhZU1FzdUxxTjR3Y2sxMER0U0lOaTRTQUdEZlkzaWhDVVZIQUVuaFIwM0dUVkJSaW85blFqMmRWWmpIcFJvUTNoOU8zUnZrRGFscnMyYi1TQ2k2TXptME92aEtjVlltTUpZejZBbGxvcHdJUGVZVFBha2JpYw?oc=5",
-          "published_at": "16:28"
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFpWcEU2Z3A5dEFDSXRERWhFSGsxd0NCRDAydDk5MFZXYmkwajZ0OFhwZFh0TzN1NVM0bUFmTTBocUNfYzZoT1FUdFVGazRZVHp3NC00eVNlWlFUcnFuOW1QdkhWeWk0OW42OW42SWxWVjFJRGFKZi0xYUN2ekFuUHRyVEdzNmg0MS1NeU80MFZWeTNmX0VTR2d5VFhQUFlzVmZBX2ZKNnFOM2tFbGtiZE1fV0drOXNtOTFMQWh0VQ?oc=5",
+          "published_at": "19:14"
         },
         {
-          "title": "Norris beats Russell to pole in Dutch hat-trick for McLaren",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/norris-beats-russell-pole-in-dutch-hat-trick-mclaren-6335021",
-          "published_at": "15:12"
+          "title": "Watch: Moment humanoid robot beats Usain Bolt's 100m record",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cgljl9zp47xo?at_medium=RSS&at_campaign=rss",
+          "published_at": "17:02"
+        },
+        {
+          "title": "Chinese robot beats Usain Bolt's 100m world record",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/chinese-robot-beats-usain-bolt-s-100m-world-record/a-78468749?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "12:41"
         }
       ]
     },
     {
-      "id": "world-100",
+      "id": "world-61",
+      "title": "캐나다는 미국 관세와 '달러 대 달러'를 일치시킬 것이라고 Carney는 말했습니다.",
+      "title_en": "Canada will match US tariffs 'dollar for dollar,' Carney says",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/08/22/canada-will-match-us-tariffs-dollar-for-dollar-carney-says",
+      "category": "미국",
+      "primary_source": "Euronews",
+      "excerpt": "\"최근 몇 주 동안 우리는 미국과 세계 최고의 거래를 맺은 캐나다의 지위를 향상시키는 데 중요한 진전을 이루었습니다. 그러나 그 진전은 우리의 목표를 달성하기에 충분하지 않았습니다.",
+      "excerpt_en": "\"In recent weeks, we made important progress toward improving Canada’s position as having the best deal in the world with the U.S. However, that progress has not been enough to meet our objectives for",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/08/22/canada-will-match-us-tariffs-dollar-for-dollar-carney-says",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Euronews",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-22T06:26:53+09:00",
+      "latest_published_at": "2026-08-22T19:13:02+09:00",
+      "articles": [
+        {
+          "title": "Canada to match US tariffs “dollar for dollar,” PM Carney says",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-clip-carney-tariffs-canada-ca?traffic_source=rss",
+          "published_at": "19:13"
+        },
+        {
+          "title": "Canada vows to match US tariffs ‘dollar for dollar’ as Trump’s 50% taxes come into force",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-tariffs-trump-carney-b3037446.html",
+          "published_at": "07:03"
+        },
+        {
+          "title": "Canada will match US tariffs 'dollar for dollar,' Carney says",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/22/canada-will-match-us-tariffs-dollar-for-dollar-carney-says",
+          "published_at": "06:26"
+        }
+      ]
+    },
+    {
+      "id": "world-89",
       "title": "네타냐후의 시리아 공군기지 공격 명령으로 이스라엘-터키 긴장 고조",
       "title_en": "Israel-Turkey tensions rise after Netanyahu orders strikes on Syrian airbase",
       "title_source": "earliest_pick",
@@ -942,14 +510,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/week-asia/politics/article/3364901/israel-turkey-tensions-rise-after-netanyahu-orders-strikes-syrian-airbase?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 52
+        "time_score": 1,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -983,262 +551,115 @@
       ]
     },
     {
-      "id": "world-181",
-      "title": "공개: 트럼프 보좌관 나탈리 하프가 상사에게 보낸 '상사병' 편지",
-      "title_en": "Revealed: The ‘lovesick’ letters Trump aide Natalie Harp sent her boss",
+      "id": "world-95",
+      "title": "이란, 미국 제재에 동참하는 국가는 적으로 간주될 것이라고 경고",
+      "title_en": "Iran warns states joining US sanctions will be considered enemies",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/revealed-the-lovesick-letters-trump-aide-natalie-harp-sent-her-boss-20260822-p60qje.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "유럽",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "2023년에 작성된 긴 메모에는 어떤 식으로든 자신의 상사를 화나게 한 것에 대해 깊이 걱정하고 그와 친밀한 관계를 구축하기 위해 필사적으로 노력하는 한 젊은 여성이 담겨 있습니다.",
-      "excerpt_en": "The lengthy notes, written in 2023, reveal a young woman deeply concerned about having upset her boss in some way, and desperate to foster an intimate relationship with him.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/north-america/revealed-the-lovesick-letters-trump-aide-natalie-harp-sent-her-boss-20260822-p60qje.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://www.france24.com/en/middle-east/20260822-middle-east-live-iran-allows-several-iraqi-oil-tankers-to-pass-through-hormuz",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "이란은 토요일 미국이 이슬람 공화국 경제에 추가적인 부담을 가하고 중국을 포함한 가장 중요한 무역 파트너에게 영향을 미칠 수 있는 새로운 제재를 발표할 계획을 비난했습니다.",
+      "excerpt_en": "Iran on Saturday denounced US plans to announce ⁠new sanctions that could put further strain on the Islamic Republic’s economy and have an impact on its most important trading partners including China",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3364944/iran-condemns-us-plans-announce-new-sanctions?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 51
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-22T02:52:22+09:00",
-      "latest_published_at": "2026-08-22T21:17:23+09:00",
-      "articles": [
-        {
-          "title": "Another Democratic rising star jibes at Trump over close aide Natalie Harp as her deleted Jan 6 posts revealed",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-democrat-abdul-elsayed-michgan-policies-b3037618.html",
-          "published_at": "21:17"
-        },
-        {
-          "title": "Trump aide Natalie Harp reacts to ‘human printer’ tag amid security clearance concerns",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-aide-natalie-harp-reacts-to-human-printer-tag-amid-security-clearance-concerns-101787413930899.html",
-          "published_at": "16:08"
-        },
-        {
-          "title": "Trump and aide Natalie Harp trolled in Lego AI parody after her brother calls out ‘unhealthy’ relationship",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-ai-lego-video-b3037527.html",
-          "published_at": "15:53"
-        },
-        {
-          "title": "Revealed: The ‘lovesick’ letters Trump aide Natalie Harp sent her boss",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/revealed-the-lovesick-letters-trump-aide-natalie-harp-sent-her-boss-20260822-p60qje.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "02:52"
-        }
-      ]
-    },
-    {
-      "id": "world-187",
-      "title": "아메리칸 항공 항공기에서 노트북 화재로 공중 공포가 촉발되었습니다. 부상당한 승객",
-      "title_en": "Laptop fire sparks mid-air scare on American Airlines flight; passengers injured",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/laptop-fire-sparks-mid-air-scare-on-american-airlines-flight-passengers-injured/articleshow/133422814.cms",
-      "category": "미국",
-      "primary_source": "Times of India",
-      "excerpt": "아메리칸 항공의 승객 5명이 애틀랜타에서 댈러스로 비행하는 동안 노트북에 불이 붙어 화상을 입었습니다.",
-      "excerpt_en": "Five passengers on American Airlines suffered burns when a laptop ignited during a flight from Atlanta to Dallas.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/american-airlines-tragedy-5-passengers-on-atlanta-to-dallas-flight-suffer-burn-injuries-as-laptop-bursts-into-flames-101787409983876.html",
-      "translation_status": "ok",
-      "score": 65,
-      "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
+        "major_score": 15,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 49
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Hindustan Times",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-08-22T11:19:57+09:00",
-      "latest_published_at": "2026-08-22T17:15:07+09:00",
-      "articles": [
-        {
-          "title": "Laptop catches fire on American Airlines flight as multiple passengers reportedly burned",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/laptop-fire-plane-american-airlines-b3037588.html",
-          "published_at": "17:15"
-        },
-        {
-          "title": "American Airlines tragedy: 5 passengers aboard Atlanta to Dallas flight suffer burn injuries, here's what went wrong",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/american-airlines-tragedy-5-passengers-on-atlanta-to-dallas-flight-suffer-burn-injuries-as-laptop-bursts-into-flames-101787409983876.html",
-          "published_at": "15:01"
-        },
-        {
-          "title": "Laptop fire sparks mid-air scare on American Airlines flight; passengers injured",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/laptop-fire-sparks-mid-air-scare-on-american-airlines-flight-passengers-injured/articleshow/133422814.cms",
-          "published_at": "11:19"
-        }
-      ]
-    },
-    {
-      "id": "world-1",
-      "title": "푸틴 \"우크라이나 경제 목표물에 대한 공격으로 '판도라의 상자' 열었다\"",
-      "title_en": "Putin says Ukraine opened 'Pandora's box' with strikes on economic targets",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmx1MlE4ak9qOGpNUGN5UUFYTFdMOGNaaFU5aUdmR2ZFS3A4NGlnQ2NqbHlMSWI1eHc5bmQ1eW9rbnFudGt6ZTM3RG9QTy1PeTdtN1J0ZXRMTDRMNVVsMk1qcEhuSmNpTjhraXBXZUtERmw4M3VVbDh6VzF2ZE5vS1hnblpsUEpFLVpUSHpTUmI4dEVIcUxPNC1tUXFmdk0xaVJnX0FlclFHaUl3RHBaX2F0eGpKUkVJ?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "러시아 채널 베스티(Vesti)와의 인터뷰에서 블라디미르 푸틴 대통령은 우크라이나의 '가장 취약한' 경제 부문을 위협했습니다.",
-      "excerpt_en": "In an interview with the Russian channel Vesti, Vladimir Putin threatened Ukraine's 'most vulnerable' economic sectors.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-putin-ukraine-talks-clip?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-22T16:03:12+09:00",
-      "latest_published_at": "2026-08-22T19:24:00+09:00",
-      "articles": [
-        {
-          "title": "Putin warns Ukraine has opened ‘Pandora’s box’, rejects peace proposals",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-putin-ukraine-talks-clip?traffic_source=rss",
-          "published_at": "19:24"
-        },
-        {
-          "title": "Putin says Ukraine opened 'Pandora's box' with strikes on economic targets",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmx1MlE4ak9qOGpNUGN5UUFYTFdMOGNaaFU5aUdmR2ZFS3A4NGlnQ2NqbHlMSWI1eHc5bmQ1eW9rbnFudGt6ZTM3RG9QTy1PeTdtN1J0ZXRMTDRMNVVsMk1qcEhuSmNpTjhraXBXZUtERmw4M3VVbDh6VzF2ZE5vS1hnblpsUEpFLVpUSHpTUmI4dEVIcUxPNC1tUXFmdk0xaVJnX0FlclFHaUl3RHBaX2F0eGpKUkVJ?oc=5",
-          "published_at": "16:03"
-        }
-      ]
-    },
-    {
-      "id": "world-7",
-      "title": "이스라엘이 시리아 남부를 공격합니다. 다마스쿠스, 공격을 규탄하다",
-      "title_en": "Israel strikes southern Syria; Damascus condemns attack",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "이스라엘은 지난 토요일 시리아 남부의 \"테러리스트\"를 표적으로 삼았다고 밝혔습니다. 시리아 외무부는 다마스쿠스 외곽의 민간 차량에 대한 드론 공격이 \"노골적인\" 위반이었다고 밝혔습니다.",
-      "excerpt_en": "Israel said it targeted a “terrorist” ⁠in southern Syria ⁠on Saturday in ⁠what Syria’s foreign ministry said was a drone strike on a civilian vehicle on the outskirts of Damascus in a “blatant” violat",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3364943/israel-targets-terrorist-southern-syria-damascus-condemns-attack?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
+        "Channel News Asia",
+        "France24",
         "SCMP"
       ],
-      "first_published_at": "2026-08-22T18:51:50+09:00",
-      "latest_published_at": "2026-08-22T19:31:47+09:00",
+      "first_published_at": "2026-08-22T09:48:45+09:00",
+      "latest_published_at": "2026-08-22T21:21:14+09:00",
       "articles": [
         {
-          "title": "Israel targets ‘terrorist’ in southern Syria; Damascus condemns attack",
+          "title": "Iran condemns US plans to announce new sanctions",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3364943/israel-targets-terrorist-southern-syria-damascus-condemns-attack?utm_source=rss_feed",
-          "published_at": "19:31"
+          "url": "https://www.scmp.com/news/world/middle-east/article/3364944/iran-condemns-us-plans-announce-new-sanctions?utm_source=rss_feed",
+          "published_at": "21:21"
         },
         {
-          "title": "Israel strikes southern Syria; Damascus condemns attack",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
-          "published_at": "18:51"
+          "title": "Iran condemns US plans to announce new sanctions",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/iran-condemns-us-plans-announce-new-sanctions-6335291",
+          "published_at": "20:33"
+        },
+        {
+          "title": "Iran warns states joining US sanctions will be considered enemies",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260822-middle-east-live-iran-allows-several-iraqi-oil-tankers-to-pass-through-hormuz",
+          "published_at": "09:48"
         }
       ]
     },
     {
-      "id": "world-10",
-      "title": "이란, 이라크 유조선 다수의 호르무즈 통과 허가",
-      "title_en": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz",
+      "id": "world-204",
+      "title": "이란은 세계가 자신들이 미국과 기타 중동 발전을 이겼다는 것을 인정했다고 말했습니다.",
+      "title_en": "Iran says the world has accepted it has defeated the US, and other Middle East developments",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
+      "title_url": "https://abcnews.com/International/wireStory/iran-world-accepted-defeated-us-middle-east-developments-135861227",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "니자르 아미디 이라크 대통령은 자국 영토가 다른 어떤 국가에 대한 공격을 시작하는 데 사용되지 않을 것이라고 밝혔습니다.",
-      "excerpt_en": "Iraqi President Nizar Amidi says his country's territory will not be used to launch attacks against any other state.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/8/22/iran-grants-permission-for-some-iraqi-oil-tankers-to-pass-through-hormuz?traffic_source=rss",
+      "primary_source": "ABC News",
+      "excerpt": "이란 대통령은 금요일 JD 밴스 부통령이 경제적 압박이 \"우리가 가진 가장 효과적인 도구\"라고 선언함에 따라 세계가 이란의 승리를 \"승인\"했다고 말했습니다.",
+      "excerpt_en": "Iran's president said Friday the world had \"approved\" the country's victory, as Vice President JD Vance declares economic pressure \"the most effective tool that we have.\"",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/",
       "translation_status": "ok",
-      "score": 63,
+      "score": 68,
       "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        "Al Jazeera",
-        "Reuters"
+        "ABC News",
+        "CBS News",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-08-22T12:21:29+09:00",
-      "latest_published_at": "2026-08-22T20:05:52+09:00",
+      "first_published_at": "2026-08-22T09:55:52+09:00",
+      "latest_published_at": "2026-08-22T20:55:33+09:00",
       "articles": [
         {
-          "title": "Iran grants permission for some Iraqi oil tankers to pass through Hormuz",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/22/iran-grants-permission-for-some-iraqi-oil-tankers-to-pass-through-hormuz?traffic_source=rss",
-          "published_at": "20:05"
+          "title": "Iran declares it has won the war as U.S. turns to economic warfare",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/",
+          "published_at": "20:55"
         },
         {
-          "title": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
-          "published_at": "12:21"
+          "title": "‘US put allies at risk for Israel’: Iran says neighbours seek security, economic cooperation amid West Asia conflict",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-iran-war-latest-put-allies-at-risk-tehran-received-numerous-messages-from-uae-qatar-saudi-arabia-security-cooperation-101787400843042.html",
+          "published_at": "13:49"
+        },
+        {
+          "title": "Iran says the world has accepted it has defeated the US, and other Middle East developments",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/iran-world-accepted-defeated-us-middle-east-developments-135861227",
+          "published_at": "09:55"
         }
       ]
     },
     {
-      "id": "world-97",
+      "id": "world-86",
       "title": "전직 영국·프랑스 외교관, 이스라엘의 팔레스타인 '삭제'에 대한 조치 촉구",
       "title_en": "Former British and French diplomats urge action over Israel’s ‘erasure’ of Palestine",
       "title_source": "earliest_pick",
@@ -1291,17 +712,64 @@
       ]
     },
     {
-      "id": "world-41",
-      "title": "소말리아 해적, 최근 공격으로 예멘에서 유조선 납치",
-      "title_en": "Somali pirates hijack oil tanker off Yemen in latest attack",
+      "id": "world-102",
+      "title": "호주 장관은 포유류에서 첫 번째 조류독감 사례를 기록했다고 밝혔습니다.",
+      "title_en": "Australia records its first bird flu case in a mammal, minister says",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd2ZWcnEzSHpvUUo0b0FBWFh5cndyNS1kMVY2dmJzcEpfdU1xM05BR3p1SndrTEthZ0Z4bmFiZWJVQ05zZGRyc3NDNjJwclpHcnZFNUNoMF9hTVF1MHYxMENRNEw4a21pekZzaDN6WHpSYjFiLUJwWFFXRzJHdGhMTnlnMzF6S243SkJYYXpiYzI1T2s?oc=5",
+      "title_url": "https://www.abc.net.au/news/2026-08-23/australias-first-bird-flu-case-in-mammal-confirmed-in-sa/107068380",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "남호주 비치포트에서 죽은 물개 발견 '상당한 손실' 예고, 장관 경고 호주 뉴스 라이브 블로그에서 최신 업데이트 확인 속보 이메일, 무료 앱 또는 매일 새로운 소식 받기",
+      "excerpt_en": "Seal found dead at Beachport in South Australia presages ‘significant losses’, minister warns Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily new",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/aug/23/fur-seal-death-first-australian-mainland-mammal-h5-bird-flu",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-23T00:36:50+09:00",
+      "latest_published_at": "2026-08-23T00:42:49+09:00",
+      "articles": [
+        {
+          "title": "Fur seal’s death marks first Australian mainland mammal fatality from spreading H5 bird flu strain",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/23/fur-seal-death-first-australian-mainland-mammal-h5-bird-flu",
+          "published_at": "00:42"
+        },
+        {
+          "title": "Australia records its first bird flu case in a mammal, minister says",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-23/australias-first-bird-flu-case-in-mammal-confirmed-in-sa/107068380",
+          "published_at": "00:36"
+        }
+      ]
+    },
+    {
+      "id": "world-2",
+      "title": "이스라엘이 시리아 남부를 공격합니다. 다마스커스는 공격을 비난",
+      "title_en": "Israel strikes southern Syria; Damascus condemns attack",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
       "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "소말리아 해적들이 예멘 앞바다에서 유조선을 납치해 해적 행위가 부활했다.",
-      "excerpt_en": "Somali pirates have hijacked an oil tanker off Yemen, marking a resurgence in piracy",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/somali-pirates-hijack-oil-tanker-off-yemen-latest-135860915",
+      "primary_source": "Reuters",
+      "excerpt": "이스라엘은 지난 토요일 시리아 남부의 \"테러리스트\"를 표적으로 삼았다고 밝혔습니다. 시리아 외무부는 다마스쿠스 외곽의 민간 차량에 대한 드론 공격이 \"노골적인\" 위반이었다고 밝혔습니다.",
+      "excerpt_en": "Israel said it targeted a “terrorist” ⁠in southern Syria ⁠on Saturday in ⁠what Syria’s foreign ministry said was a drone strike on a civilian vehicle on the outskirts of Damascus in a “blatant” violat",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3364943/israel-targets-terrorist-southern-syria-damascus-condemns-attack?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1317,28 +785,269 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "AP News"
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-22T08:18:00+09:00",
-      "latest_published_at": "2026-08-22T10:16:16+09:00",
+      "first_published_at": "2026-08-22T18:51:50+09:00",
+      "latest_published_at": "2026-08-22T19:31:47+09:00",
       "articles": [
         {
-          "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/somali-pirates-hijack-oil-tanker-off-yemen-latest-135860915",
-          "published_at": "10:16"
+          "title": "Israel targets ‘terrorist’ in southern Syria; Damascus condemns attack",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3364943/israel-targets-terrorist-southern-syria-damascus-condemns-attack?utm_source=rss_feed",
+          "published_at": "19:31"
         },
         {
-          "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd2ZWcnEzSHpvUUo0b0FBWFh5cndyNS1kMVY2dmJzcEpfdU1xM05BR3p1SndrTEthZ0Z4bmFiZWJVQ05zZGRyc3NDNjJwclpHcnZFNUNoMF9hTVF1MHYxMENRNEw4a21pekZzaDN6WHpSYjFiLUJwWFFXRzJHdGhMTnlnMzF6S243SkJYYXpiYzI1T2s?oc=5",
-          "published_at": "08:18"
+          "title": "Israel strikes southern Syria; Damascus condemns attack",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
+          "published_at": "18:51"
         }
       ]
     },
     {
-      "id": "world-94",
+      "id": "world-3",
+      "title": "푸틴 \"우크라이나, 경제적 타격으로 '판도라의 상자' 열었다\"",
+      "title_en": "Putin says Ukraine opened 'Pandora's box' with strikes on economic targets",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmx1MlE4ak9qOGpNUGN5UUFYTFdMOGNaaFU5aUdmR2ZFS3A4NGlnQ2NqbHlMSWI1eHc5bmQ1eW9rbnFudGt6ZTM3RG9QTy1PeTdtN1J0ZXRMTDRMNVVsMk1qcEhuSmNpTjhraXBXZUtERmw4M3VVbDh6VzF2ZE5vS1hnblpsUEpFLVpUSHpTUmI4dEVIcUxPNC1tUXFmdk0xaVJnX0FlclFHaUl3RHBaX2F0eGpKUkVJ?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "러시아 채널 베스티(Vesti)와의 인터뷰에서 블라디미르 푸틴 대통령은 우크라이나의 '가장 취약한' 경제 부문을 위협했습니다.",
+      "excerpt_en": "In an interview with the Russian channel Vesti, Vladimir Putin threatened Ukraine's 'most vulnerable' economic sectors.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-putin-ukraine-talks-clip?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-22T16:03:12+09:00",
+      "latest_published_at": "2026-08-22T19:24:00+09:00",
+      "articles": [
+        {
+          "title": "Putin warns Ukraine has opened ‘Pandora’s box’, rejects peace proposals",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/08-22-26-putin-ukraine-talks-clip?traffic_source=rss",
+          "published_at": "19:24"
+        },
+        {
+          "title": "Putin says Ukraine opened 'Pandora's box' with strikes on economic targets",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmx1MlE4ak9qOGpNUGN5UUFYTFdMOGNaaFU5aUdmR2ZFS3A4NGlnQ2NqbHlMSWI1eHc5bmQ1eW9rbnFudGt6ZTM3RG9QTy1PeTdtN1J0ZXRMTDRMNVVsMk1qcEhuSmNpTjhraXBXZUtERmw4M3VVbDh6VzF2ZE5vS1hnblpsUEpFLVpUSHpTUmI4dEVIcUxPNC1tUXFmdk0xaVJnX0FlclFHaUl3RHBaX2F0eGpKUkVJ?oc=5",
+          "published_at": "16:03"
+        }
+      ]
+    },
+    {
+      "id": "world-10",
+      "title": "학교 칼 공격으로 10대 소녀 사망한 스웨덴 경찰, 온라인 네트워크 조사",
+      "title_en": "Swedish police probe online networks after teenage girl killed in school sword attack",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZVV3NExuQmFxMzNiVU9iZnhweFRMb2tvQmlqVmhNbXJia0YtcXFMalNXanhOS2gxYy12MHFZT0VoRENBOWFLMklzdWVaV3pZMVFmSmI0VEJENUxSTU5nbUJZdnpWa3lIR1IydEFSb3JIY0pjQ0RRdjh5aGhqdy1DYlVLdksyc1psREx4Q1NXUDVOTk45WndFU1RaWE5RMmdTZFZ2SnAxVFltWDhhYTJ2WlQxNS1lNU9rX29nVXVRMmEwdw?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "학교 칼 공격으로 10대 소녀 사망한 스웨덴 경찰, 온라인 네트워크 조사 - 최신",
+      "excerpt_en": "Swedish police probe online networks after teenage girl killed in school sword attack Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZVV3NExuQmFxMzNiVU9iZnhweFRMb2tvQmlqVmhNbXJia0YtcXFMalNXanhOS2gxYy12MHFZT0VoRENBOWFLMklzdWVaV3pZMVFmSmI0VEJENUxSTU5nbUJZdnpWa3lIR1IydEFSb3JIY0pjQ0RRdjh5aGhqdy1DYlVLdksyc1psREx4Q1NXUDVOTk45WndFU1RaWE5RMmdTZFZ2SnAxVFltWDhhYTJ2WlQxNS1lNU9rX29nVXVRMmEwdw?oc=5",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-22T13:22:35+09:00",
+      "latest_published_at": "2026-08-22T21:24:14+09:00",
+      "articles": [
+        {
+          "title": "Sweden probes cyber networks after girl dies in school sword attack",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/sweden-probes-cyber-networks-after-girl-dies-in-school-sword-attack/articleshow/133431047.cms",
+          "published_at": "21:24"
+        },
+        {
+          "title": "Swedish police probe online networks after teenage girl killed in school sword attack",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZVV3NExuQmFxMzNiVU9iZnhweFRMb2tvQmlqVmhNbXJia0YtcXFMalNXanhOS2gxYy12MHFZT0VoRENBOWFLMklzdWVaV3pZMVFmSmI0VEJENUxSTU5nbUJZdnpWa3lIR1IydEFSb3JIY0pjQ0RRdjh5aGhqdy1DYlVLdksyc1psREx4Q1NXUDVOTk45WndFU1RaWE5RMmdTZFZ2SnAxVFltWDhhYTJ2WlQxNS1lNU9rX29nVXVRMmEwdw?oc=5",
+          "published_at": "13:22"
+        }
+      ]
+    },
+    {
+      "id": "world-13",
+      "title": "이란, 이라크 유조선 다수의 호르무즈 통과 허가",
+      "title_en": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "니자르 아미디 이라크 대통령은 자국 영토가 다른 어떤 국가에 대한 공격을 시작하는 데 사용되지 않을 것이라고 밝혔습니다.",
+      "excerpt_en": "Iraqi President Nizar Amidi says his country's territory will not be used to launch attacks against any other state.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/8/22/iran-grants-permission-for-some-iraqi-oil-tankers-to-pass-through-hormuz?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-22T12:21:29+09:00",
+      "latest_published_at": "2026-08-22T20:05:52+09:00",
+      "articles": [
+        {
+          "title": "Iran grants permission for some Iraqi oil tankers to pass through Hormuz",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/iran-grants-permission-for-some-iraqi-oil-tankers-to-pass-through-hormuz?traffic_source=rss",
+          "published_at": "20:05"
+        },
+        {
+          "title": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
+          "published_at": "12:21"
+        }
+      ]
+    },
+    {
+      "id": "world-15",
+      "title": "우크라이나 드론, 최소 10명 사망, 러시아 온라인 소매업체 오존 창고 공격",
+      "title_en": "Ukrainian drones kill at least 10, hit warehouse of Russian online retailer Ozon",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR3V4eHZkQWFrSEdIRXBiQjVXZUd6c3FuVllaNWVWQmRqeFY0WUhkQWswRVFNRGJFT0tFWkJVbTlqNnVOT0F1Rk0yRHlrVUhDRldJcjRlTjVjcjVDbG1Sc2tkQ0t5MWwzcHJBSmduTWhXazBUWHVKWUFrRmRkZzhYdXh4Wko4R3k2bmp6VDFpRkRudkNaVWxsUm85ZUxtbGFNNUxIdEExV2hxbDRTalFQeGR5cVFxTTZ3b0U4?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "우크라이나 드론이 온라인 소매업체 오존(Ozon)이 소유한 창고와 산업 시설을 포함해 러시아 전역과 우크라이나의 러시아 점령 지역 전역의 목표물을 공격해 최소 10명이 사망했습니다.",
+      "excerpt_en": "Ukrainian drones killed at least 10 people in attacks against targets across Russia and Russian-occupied areas of Ukraine, including a warehouse owned by online retailer Ozon and an industrial facilit",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-22T16:58:41+09:00",
+      "latest_published_at": "2026-08-22T17:40:19+09:00",
+      "articles": [
+        {
+          "title": "Ukrainian drones kill at least 10, hit warehouse of Russian online retailer Ozon",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364941/ukrainian-drones-kill-least-10-hit-warehouse-russian-online-retailer-ozon?utm_source=rss_feed",
+          "published_at": "17:40"
+        },
+        {
+          "title": "Ukrainian drones kill at least 10, hit warehouse of Russian online retailer Ozon",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR3V4eHZkQWFrSEdIRXBiQjVXZUd6c3FuVllaNWVWQmRqeFY0WUhkQWswRVFNRGJFT0tFWkJVbTlqNnVOT0F1Rk0yRHlrVUhDRldJcjRlTjVjcjVDbG1Sc2tkQ0t5MWwzcHJBSmduTWhXazBUWHVKWUFrRmRkZzhYdXh4Wko4R3k2bmp6VDFpRkRudkNaVWxsUm85ZUxtbGFNNUxIdEExV2hxbDRTalFQeGR5cVFxTTZ3b0U4?oc=5",
+          "published_at": "16:58"
+        }
+      ]
+    },
+    {
+      "id": "world-27",
+      "title": "'전쟁 중': 캐나다는 미국 무역 회담에서 물러나고 관세에 대한 보복",
+      "title_en": "‘At war’: Canada walks away from US trade talks, retaliates against tariffs",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/north-america/at-war-canada-walks-away-from-us-trade-talks-retaliates-to-tariffs-20260823-p60qnc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "미국",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "마크 카니 총리는 두 나라가 무역전쟁을 벌이고 있음을 인정하면서 트럼프 행정부에 대한 저항을 계속 이어가고 있다.",
+      "excerpt_en": "Acknowledging the two countries were in a trade war, Prime Minister Mark Carney continues to lead resistance to the Trump administration.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/at-war-canada-walks-away-from-us-trade-talks-retaliates-to-tariffs-20260823-p60qnc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-08-22T18:33:01+09:00",
+      "latest_published_at": "2026-08-22T23:30:56+09:00",
+      "articles": [
+        {
+          "title": "Trade war begins as US-Canada talks collapse",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/trade-war-begins-as-us-canada-talks-collapse-20260823-p60qo7.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:30"
+        },
+        {
+          "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFZQdTRIMXVabHVfUTNldG4yeGlBSWlHNTFsNUt4WktQeHBuT1RzUUxVT3NZMTQ4ampFeFMtQVhVUDN4bXZXVWlzWXY5LTBEVTI1d29obi03ZGd2dTB6WG0zRGtsa3llaHhtVlVnRjFKYW4tOGpubG1qSWp6NWZfNG5WUVlpeGdjc0s0ck5GM0F3eWs?oc=5",
+          "published_at": "19:43"
+        },
+        {
+          "title": "‘At war’: Canada walks away from US trade talks, retaliates against tariffs",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/at-war-canada-walks-away-from-us-trade-talks-retaliates-to-tariffs-20260823-p60qnc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "18:33"
+        }
+      ]
+    },
+    {
+      "id": "world-82",
       "title": "100명 이상의 전직 프랑스 및 영국 외교관들이 이스라엘 정착촌 정책에 반대하는 조치를 촉구",
       "title_en": "More than 100 former French and UK diplomats urge action against Israeli settlement policies",
       "title_source": "earliest_pick",
@@ -1391,82 +1100,76 @@
       ]
     },
     {
-      "id": "world-206",
-      "title": "살인 재판이 거의 끝나감에 따라 린제이 클랜시의 변호가 중단되었습니다.",
-      "title_en": "Lindsay Clancy’s defense rests as murder trial nears end",
+      "id": "world-173",
+      "title": "트럼프와 보좌관 나탈리 하프는 오빠가 '건강하지 못한' 관계를 말한 후 레고 AI 패러디를 트롤링했습니다.",
+      "title_en": "Trump and aide Natalie Harp trolled in Lego AI parody after her brother calls out ‘unhealthy’ relationship",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-trial-defense-children-murder-b3037409.html",
-      "category": "기타",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-ai-lego-video-b3037527.html",
+      "category": "유럽",
       "primary_source": "The Independent",
-      "excerpt": "변호인은 Lindsay Clancy 재판에서 배심원들이 세 자녀를 살해한 동안 그녀의 정신 상태에 대해 정신 건강 전문가로부터 증언을 듣는 가운데 결론을 내립니다.",
-      "excerpt_en": "Defense concludes in Lindsay Clancy trial as jurors hear testimony from mental health experts about her state of mind during the murders of her three children.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/what-did-lindsay-clancy-tell-her-kids-before-killing-them-chilling-3-word-message-revealed-101787396418218.html",
+      "excerpt": "하프는 존 오소프(조지아) 민주당 상원의원이 선거 유세 중 대통령과의 관계를 언급하면서 주목을 받았다.",
+      "excerpt_en": "Harp was thrust into the spotlight when Democratic Senator Jon Ossoff of Georgia alluded to her relationship with the president during a campaign rally",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-democrat-abdul-elsayed-michgan-policies-b3037618.html",
       "translation_status": "ok",
-      "score": 60,
+      "score": 61,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 45
+        "time_score": 3,
+        "raw75": 46
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
         "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-08-22T00:54:23+09:00",
-      "latest_published_at": "2026-08-22T18:09:19+09:00",
+      "first_published_at": "2026-08-22T15:53:25+09:00",
+      "latest_published_at": "2026-08-23T02:07:17+09:00",
       "articles": [
         {
-          "title": "Lindsay Clancy 'has no remorse': Viral murder trial courtroom video sparks fury; 'Pure evil'",
+          "title": "Natalie Harp update: More than 150 January 6 posts show fierce Trump loyalty, ‘We love you’",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-has-no-remorse-viral-murder-trial-courtroom-video-sparks-fury-pure-evil-101787418428328.html",
-          "published_at": "18:09"
+          "url": "https://www.hindustantimes.com/world-news/us-news/natalie-harp-update-more-than-150-january-6-posts-show-fierce-trump-loyalty-we-love-you-101787443969009.html",
+          "published_at": "02:07"
         },
         {
-          "title": "Could Lindsay Clancy be acquitted? Here are possible outcomes in killer mom case",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/could-lindsay-clancy-be-acquitted-here-are-possible-outcomes-in-killer-mom-case-101787398371614.html",
-          "published_at": "11:47"
-        },
-        {
-          "title": "What did Lindsay Clancy tell her kids before killing them? Chilling 3-word message revealed",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/what-did-lindsay-clancy-tell-her-kids-before-killing-them-chilling-3-word-message-revealed-101787396418218.html",
-          "published_at": "11:27"
-        },
-        {
-          "title": "Lindsay Clancy trial: When is verdict, what it would mean? Lawyer Kevin Reddington's first reaction as defense rests",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-trial-when-is-verdict-what-it-would-mean-lawyer-kevin-reddingtons-first-reaction-as-defense-rests-watch-101787361987895.html",
-          "published_at": "02:00"
-        },
-        {
-          "title": "Lindsay Clancy’s defense rests as murder trial nears end",
+          "title": "Another Democratic rising star jibes at Trump over close aide Natalie Harp as her deleted Jan 6 posts revealed",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-trial-defense-children-murder-b3037409.html",
-          "published_at": "00:54"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-democrat-abdul-elsayed-michgan-policies-b3037618.html",
+          "published_at": "21:17"
+        },
+        {
+          "title": "Trump aide Natalie Harp reacts to ‘human printer’ tag amid security clearance concerns",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-aide-natalie-harp-reacts-to-human-printer-tag-amid-security-clearance-concerns-101787413930899.html",
+          "published_at": "16:08"
+        },
+        {
+          "title": "Trump and aide Natalie Harp trolled in Lego AI parody after her brother calls out ‘unhealthy’ relationship",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-ai-lego-video-b3037527.html",
+          "published_at": "15:53"
         }
       ]
     },
     {
-      "id": "world-15",
-      "title": "영국, 잘못된 길로 가던 차량이 경찰차에 들이받아 7명 사망",
-      "title_en": "Seven dead in UK after vehicle travelling wrong way hits police car",
+      "id": "world-200",
+      "title": "규모 5.9의 적당한 지진이 일본 동부를 뒤흔들었습니다. 쓰나미 경보는 ​​발령되지 않았습니다.",
+      "title_en": "A moderate, magnitude 5.9 earthquake shakes eastern Japan. No tsunami alert is issued",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcC11SW8wQU1KT0N4d3h5RUI5eVhQcDBUZFdlZXFjQzZPMGJrYi1mYnVGS2tobE9ZV1JkSDJRWTVIWlkxSk1obkpYeHlTZ2ItX0NYWmlXbmdRTjBHeHRocmJaaG9NVktrclNHYTBMZVZaSjdia1BmZDhTNGUtTGZfS0tBNHhveTVfMFZIS3czR0o4SHNQMGpBQmlUUldxUQ?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "토요일 영국 북동부에서 주요 도로를 엉뚱한 방향으로 향하던 차량이 표시된 경찰 무장 대응 차량을 들이받은 후 경찰관 2명을 포함해 7명이 교통사고로 사망했습니다.",
-      "excerpt_en": "Seven people, including two police officers, died in a car crash in northeast England on Saturday after a car heading the wrong ‌way down a major road hit a marked police armed response car, the local",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3364942/7-dead-uk-after-vehicle-travelling-wrong-direction-hits-police-car?utm_source=rss_feed",
+      "title_url": "https://abcnews.com/International/wireStory/moderate-earthquake-magnitude-59-shakes-eastern-japan-tsunami-135870135",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "최근 일본 지진으로 인해 도쿄와 나리타 공항을 운행하는 급행 열차와 북동부 지역을 운행하는 기타 지역 열차가 지연되었습니다.",
+      "excerpt_en": "The latest Japan earthquake caused delays to express trains serving Tokyo and Narita Airport and other local trains serving northeastern regions.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/over-20-injured-as-5-9-magnitude-earthquake-jolts-japan-tremors-felt-in-tokyo-tsunami-101787450233678.html",
       "translation_status": "ok",
       "score": 59,
       "score_breakdown": {
@@ -1476,6 +1179,53 @@
         "breaking_score": 4,
         "time_score": 3,
         "raw75": 44
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-22T19:19:47+09:00",
+      "latest_published_at": "2026-08-23T02:18:11+09:00",
+      "articles": [
+        {
+          "title": "Over 20 injured as 5.9-magnitude earthquake jolts Japan, tremors felt in Tokyo",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/over-20-injured-as-5-9-magnitude-earthquake-jolts-japan-tremors-felt-in-tokyo-tsunami-101787450233678.html",
+          "published_at": "02:18"
+        },
+        {
+          "title": "A moderate, magnitude 5.9 earthquake shakes eastern Japan. No tsunami alert is issued",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/moderate-earthquake-magnitude-59-shakes-eastern-japan-tsunami-135870135",
+          "published_at": "19:19"
+        }
+      ]
+    },
+    {
+      "id": "world-18",
+      "title": "영국, 잘못된 길로 가던 차량이 경찰차에 들이받아 7명 사망",
+      "title_en": "Seven dead in UK after vehicle travelling wrong way hits police car",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcC11SW8wQU1KT0N4d3h5RUI5eVhQcDBUZFdlZXFjQzZPMGJrYi1mYnVGS2tobE9ZV1JkSDJRWTVIWlkxSk1obkpYeHlTZ2ItX0NYWmlXbmdRTjBHeHRocmJaaG9NVktrclNHYTBMZVZaSjdia1BmZDhTNGUtTGZfS0tBNHhveTVfMFZIS3czR0o4SHNQMGpBQmlUUldxUQ?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "토요일 영국 북동부에서 주요 도로를 엉뚱한 방향으로 향하던 차량이 표시된 경찰 무장 대응 차량을 들이받은 후 경찰관 2명을 포함해 7명이 사망했습니다.",
+      "excerpt_en": "Seven people, including two police officers, died in a car crash in northeast England on Saturday after a car heading the wrong ‌way down a major road hit a marked police armed response car, the local",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3364942/7-dead-uk-after-vehicle-travelling-wrong-direction-hits-police-car?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1503,26 +1253,267 @@
       ]
     },
     {
-      "id": "world-26",
-      "title": "Bloomberg News는 Nvidia 고객들에게 AI 관련 가격이 15% 이상 인상되었다는 통보를 했다고 보도했습니다.",
+      "id": "world-19",
+      "title": "전 세계 챔피언 복서, 집 밖에서 총에 맞아 사망",
+      "title_en": "Former world champion boxer shot dead outside his home",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/former-world-champion-boxer-zolani-tete-shot-dead-outside-his-home-13575726",
+      "category": "기타",
+      "primary_source": "Sky News",
+      "excerpt": "전 세계 챔피언 졸라니 테테(Zolani Tete)가 남아프리카 공화국의 자택 밖에서 총에 맞아 사망했다고 정부 관리가 말했습니다.",
+      "excerpt_en": "Former world champion boxer Zolani Tete has been shot dead outside his home in South Africa, government officials said.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/former-world-champion-boxer-zolani-tete-shot-dead-outside-his-home-13575726",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Sky News"
+      ],
+      "first_published_at": "2026-08-22T09:24:00+09:00",
+      "latest_published_at": "2026-08-22T21:03:28+09:00",
+      "articles": [
+        {
+          "title": "South Africa's former world boxing champion Tete shot dead outside his home",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVDlRa1g4Rkd1OWVuOThwZWZ5STJ4eEtUbV9iWDhDb0x1cmtvRHAwcjNGWnZsSi1WYmxDd1ZKV2I2bzFRLTA1MWQ4Q1hUOGFkc3BfZXVibDhJNXVnRWdraGZ2Sy1VUW0tS0x1bElfbGJYTDA3TzRMd2FyclppVUhPanpWVkNrZlgxbUJsdXVRS0Vuc3hITzJuX0lmWVlMVHFzQ1BPaFJpOC1NV04zc0xBZVNqQ3NhWTNr?oc=5",
+          "published_at": "21:03"
+        },
+        {
+          "title": "Former world champion boxer shot dead outside his home",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/former-world-champion-boxer-zolani-tete-shot-dead-outside-his-home-13575726",
+          "published_at": "09:24"
+        }
+      ]
+    },
+    {
+      "id": "world-202",
+      "title": "영국 북동부에서 경찰차 충돌로 경찰 2명 포함 7명 사망",
+      "title_en": "Seven persons, including two cops, dead in police car collision in northeast England",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/several-dead-in-police-car-collision-accident-in-northeast-england-middlesbrough-injured-hospitalised-uk-indians-101787389185388.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "영국 북동부에서 추격전이 벌어져 경찰 2명을 포함해 7명이 정면충돌해 사망했다.",
+      "excerpt_en": "Seven people, including two police officers, have died in a head-on collision in the northeast of England following a pursuit",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/7-people-including-2-police-officers-die-head-135864314",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-22T09:04:24+09:00",
+      "latest_published_at": "2026-08-22T14:32:44+09:00",
+      "articles": [
+        {
+          "title": "7 people, including 2 police officers, die following a head-on collision in northeast England",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/7-people-including-2-police-officers-die-head-135864314",
+          "published_at": "14:32"
+        },
+        {
+          "title": "Seven persons, including two cops, dead in police car collision in northeast England",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/several-dead-in-police-car-collision-accident-in-northeast-england-middlesbrough-injured-hospitalised-uk-indians-101787389185388.html",
+          "published_at": "09:04"
+        }
+      ]
+    },
+    {
+      "id": "world-206",
+      "title": "게리 인디애나(Gary Indiana) 정전: 주민들이 NIPSCO를 비난하면서 25,000명 이상이 전기 공급을 중단했습니다. '매일 울어요'",
+      "title_en": "Gary Indiana power outage: Over 25,000 without electricity as residents slam NIPSCO; 'Every day I'm crying'",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/gary-indiana-power-outage-over-25-000-without-electricity-as-residents-slam-nipsco-every-day-im-crying-101787432279278.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "캐나다, 미국에 보복 관세 발표 인디애나 주 게리에는 여전히 전력이 공급되지 않는 수천 명의 주민이 있습니다.",
+      "excerpt_en": "Canada announces retaliatory tariffs on U.S; Thousands in Gary, Indiana, still without power.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/082226-cbs-weekend-news/",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-22T21:49:08+09:00",
+      "latest_published_at": "2026-08-22T22:30:00+09:00",
+      "articles": [
+        {
+          "title": "8/22: CBS Weekend News",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/082226-cbs-weekend-news/",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Gary Indiana power outage: Over 25,000 without electricity as residents slam NIPSCO; 'Every day I'm crying'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/gary-indiana-power-outage-over-25-000-without-electricity-as-residents-slam-nipsco-every-day-im-crying-101787432279278.html",
+          "published_at": "21:49"
+        }
+      ]
+    },
+    {
+      "id": "world-44",
+      "title": "시드니 마라톤 메달은 뮌헨 경기장을 잘못 묘사했습니다.",
+      "title_en": "Sydney Marathon medal mistakenly depicts Munich stadium",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/articles/cvg92y1wzn8o?at_medium=RSS&at_campaign=rss",
+      "category": "아시아",
+      "primary_source": "BBC",
+      "excerpt": "메달의 '랜드마크' 쪽에는 시드니의 알리안츠 스타디움이 아닌 독일 도시의 알리안츠 아레나가 표시됩니다. 최신 업데이트를 보려면 호주 뉴스 라이브 블로그를 팔로우하세요. 속보 이메일을 무료로 받으세요.",
+      "excerpt_en": "‘Landmarks’ side of the medal features the Allianz Arena in German city rather than Allianz Stadium in Sydney Follow our Australia news live blog for latest updates Get our breaking news email , free ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/australia-news/2026/aug/23/sydney-marathon-medal-allianz-stadium-munich-germany-unfortunate-error",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-22T07:53:57+09:00",
+      "latest_published_at": "2026-08-23T02:14:52+09:00",
+      "articles": [
+        {
+          "title": "Sydney Marathon admits ‘unfortunate error’ as finisher’s medal depicts Munich stadium as race highlight",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/23/sydney-marathon-medal-allianz-stadium-munich-germany-unfortunate-error",
+          "published_at": "02:14"
+        },
+        {
+          "title": "Sydney Marathon medal mistakenly depicts Munich stadium",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cvg92y1wzn8o?at_medium=RSS&at_campaign=rss",
+          "published_at": "07:53"
+        }
+      ]
+    },
+    {
+      "id": "world-205",
+      "title": "러시아, 우크라이나 공격으로 쇼핑몰 드론 공격 하루만에 2명 사망",
+      "title_en": "Russian attacks on Ukraine kill 2 a day after deadly shopping mall drone strike",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/russian-attacks-ukraine-kill-2-people-day-after-135860466",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "이번 공격은 젤렌스키의 고향 쇼핑몰에서 2차례에 걸친 드론 공격으로 16명이 사망한 지 하루 만에 이뤄졌습니다.",
+      "excerpt_en": "The attacks come a day after a two-wave drone strike on a shopping mall in Zelenskyy's hometown killed 16 people.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/ukraine-russia-war-mall/",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 5,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 42
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "CBS News"
+      ],
+      "first_published_at": "2026-08-22T10:47:20+09:00",
+      "latest_published_at": "2026-08-22T14:56:00+09:00",
+      "articles": [
+        {
+          "title": "Russian and Ukrainian attacks kill at least 10 after deadly mall drone strike",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-war-mall/",
+          "published_at": "14:56"
+        },
+        {
+          "title": "Russian and Ukrainian attacks kill 5 a day after deadly shopping mall drone strike",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russian-ukrainian-attacks-kill-5-people-day-after-135860467",
+          "published_at": "10:47"
+        },
+        {
+          "title": "Russian attacks on Ukraine kill 2 a day after deadly shopping mall drone strike",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russian-attacks-ukraine-kill-2-people-day-after-135860466",
+          "published_at": "10:47"
+        }
+      ]
+    },
+    {
+      "id": "world-0",
+      "title": "Bloomberg News는 Nvidia 고객들에게 AI 관련 가격이 15% 이상 인상되었다는 통보를 받았다고 보도했습니다.",
       "title_en": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
       "title_source": "earliest_pick",
       "title_url": "https://www.channelnewsasia.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-reports-6335256",
       "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Bloomberg News는 Nvidia 고객에게 AI 관련 가격이 15% 이상 인상되었음을 통보했다고 밝혔습니다.",
+      "excerpt": "Bloomberg News는 Nvidia 고객들에게 AI 관련 가격이 15% 이상 인상되었다는 통보를 받았다고 보도했습니다.",
       "excerpt_en": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports Reuters",
       "excerpt_source": "Reuters",
       "excerpt_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLWE3OUFQMndpYzJSVFBuYXBocWg0RUlmWGFtZDU0NEdtTUJzRmV2c3ZtWjJFOTUxNEFwaFNkSno5ZlhCdGpTSjJOMnNUc2U1Y01Fc1YtX2NrdnRFM0pEMDYyYXBrWGdHUVpTei1ramJ6YVE1aFFFTGVwX0drX1lBOFdyRGM4cEpZVG9uUEhka1J1RDZDQ0F3UWY3S0VjQVhLbzVjYmZPazhPcnV3c1ZVd0F4bExTeU9QN0VnOVRyVlA?oc=5",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1550,7 +1541,7 @@
       ]
     },
     {
-      "id": "world-36",
+      "id": "world-29",
       "title": "낸시 카세바움 베이커(캔자스주 전 미국 상원의원)가 94세의 나이로 사망했습니다.",
       "title_en": "Nancy Kassebaum Baker, former US senator from Kansas, dies at 94",
       "title_source": "earliest_pick",
@@ -1562,14 +1553,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/22/nancy-kassebaum-baker-dies-aged-94",
       "translation_status": "ok",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1597,289 +1588,7 @@
       ]
     },
     {
-      "id": "world-76",
-      "title": "이스라엘 정착민, 점령된 서안 지구에서 팔레스타인에 대한 폭력 증가의 일부를 봉쇄",
-      "title_en": "Israeli settler blockades part of escalating violence against Palestinians in the occupied West Bank",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/israeli-siege-occupied-west-bank-qusra-9.7315801?cmp=rss",
-      "category": "중동",
-      "primary_source": "CBC",
-      "excerpt": "공격과 정착촌 확장이 급증하는 가운데 한 팔레스타인계 미국인이 이스라엘 정착민으로부터 이곳을 보호하기 위해 점령된 서안 지구 마을 쿠스라에 있는 자신의 집으로 돌아왔습니다.",
-      "excerpt_en": "A Palestinian-American has returned to his home in the occupied West Bank village of Qusra to protect it from Israeli settlers, amid a surge in attacks and settlement expansion.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/israeli-siege-occupied-west-bank-qusra-9.7315801?cmp=rss",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "CBC"
-      ],
-      "first_published_at": "2026-08-22T08:00:00+09:00",
-      "latest_published_at": "2026-08-22T15:45:40+09:00",
-      "articles": [
-        {
-          "title": "Settlers target Palestinian homes in Occupied West Bank’s Area B",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/22-08-reported-nida-live-westbank-ps?traffic_source=rss",
-          "published_at": "15:45"
-        },
-        {
-          "title": "Israeli settler blockades part of escalating violence against Palestinians in the occupied West Bank",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/israeli-siege-occupied-west-bank-qusra-9.7315801?cmp=rss",
-          "published_at": "08:00"
-        }
-      ]
-    },
-    {
-      "id": "world-160",
-      "title": "Albanese: 캔버라, 본다이 공격 이후 호주의 총기 환매 프로그램에 합류",
-      "title_en": "Albanese: Canberra to join Australia’s gun buy-back programme after Bondi attack",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/australasia/article/3364923/albanese-canberra-join-australias-gun-buy-back-program-after-bondi-attack?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "호주의 수도 시드니에서 열린 유대인 축제에서 15명의 목숨을 앗아간 총격 사건에 대한 대응의 일환으로 총기 환매에 동참할 것이라고 앤서니 알바니스 총리가 토요일 밝혔습니다. 알바인의 CE",
-      "excerpt_en": "Australia’s capital will join a gun buy-back ⁠as part of ⁠a response to a ⁠shooting spree that killed 15 at a Jewish festival in Sydney, Prime Minister Anthony Albanese said on Saturday. Albanese’s ce",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/australasia/article/3364923/albanese-canberra-join-australias-gun-buy-back-program-after-bondi-attack?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-22T09:36:45+09:00",
-      "latest_published_at": "2026-08-22T10:09:08+09:00",
-      "articles": [
-        {
-          "title": "Australia’s capital to join gun buyback after deadly Bondi Beach attack, Albanese says",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/australia-canberra-gun-buyback-bondi-beach-b3037478.html",
-          "published_at": "10:09"
-        },
-        {
-          "title": "Albanese: Canberra to join Australia’s gun buy-back programme after Bondi attack",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/australasia/article/3364923/albanese-canberra-join-australias-gun-buy-back-program-after-bondi-attack?utm_source=rss_feed",
-          "published_at": "09:36"
-        }
-      ]
-    },
-    {
-      "id": "world-214",
-      "title": "튀니지 해안서 난민선 전복돼 시신 2구 수습, 12명 실종",
-      "title_en": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/2-bodies-recovered-and-about-12-missing-after-migrant-boat-capsized-off-tunisian-coast-101787428091137.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "튀니지 남부 해상에서 이주민을 태운 보트가 전복돼 최소 2명이 숨지고 12명이 실종됐다.",
-      "excerpt_en": "At least two people have died and around 12 are missing after a boat carrying migrants capsized off southern Tunisia",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/2-bodies-recovered-12-missing-after-migrant-boat-135871958",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-22T19:48:10+09:00",
-      "latest_published_at": "2026-08-22T20:48:27+09:00",
-      "articles": [
-        {
-          "title": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/2-bodies-recovered-12-missing-after-migrant-boat-135871958",
-          "published_at": "20:48"
-        },
-        {
-          "title": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/2-bodies-recovered-and-about-12-missing-after-migrant-boat-capsized-off-tunisian-coast-101787428091137.html",
-          "published_at": "19:48"
-        }
-      ]
-    },
-    {
-      "id": "world-215",
-      "title": "'미국은 동맹국을 이스라엘을 위험에 빠뜨렸다': 이란은 이웃들이 서아시아 분쟁 속에서 안보와 경제 협력을 추구한다고 말했습니다",
-      "title_en": "‘US put allies at risk for Israel’: Iran says neighbours seek security, economic cooperation amid West Asia conflict",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-iran-war-latest-put-allies-at-risk-tehran-received-numerous-messages-from-uae-qatar-saudi-arabia-security-cooperation-101787400843042.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "이란 대통령은 금요일 JD 밴스 부통령이 경제적 압박이 \"우리가 가진 가장 효과적인 도구\"라고 선언함에 따라 세계가 이란의 승리를 \"승인\"했다고 말했습니다.",
-      "excerpt_en": "Iran's president said Friday the world had \"approved\" the country's victory, as Vice President JD Vance declares economic pressure \"the most effective tool that we have.\"",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-22T13:49:37+09:00",
-      "latest_published_at": "2026-08-22T20:55:33+09:00",
-      "articles": [
-        {
-          "title": "Iran declares it has won the war as U.S. turns to economic warfare",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/",
-          "published_at": "20:55"
-        },
-        {
-          "title": "‘US put allies at risk for Israel’: Iran says neighbours seek security, economic cooperation amid West Asia conflict",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-iran-war-latest-put-allies-at-risk-tehran-received-numerous-messages-from-uae-qatar-saudi-arabia-security-cooperation-101787400843042.html",
-          "published_at": "13:49"
-        }
-      ]
-    },
-    {
-      "id": "world-17",
-      "title": "임란 칸(Imran Khan) 당은 투옥된 지도자의 병원 이전에 대해 모욕죄 소송을 제기",
-      "title_en": "Imran Khan's party seeks contempt action over jailed leader's hospital move",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOblRkaFZsa2c5ZW5wU1ZUV0Y1SXBlZVVPRTE0YTV2aXY4c2JGVUNJMHo2cTFkUVVBSi01TWRlS1JpdWk4b1o4dVJrQ2N6dURlTDg2NEZZczljY3U0Ul9FMHpnRlEteldCT1dCYm9tb2JyNzZWbFliWFl2VGdfWGg5WEFHcEN6SlpaVzZvZDluelp0VVowYm44RjBTZmhaXzdXRkNCSG51ZGF5TGY1QkRKM3ZleVRVUkt4NTZiQjVwT0U3Yk5VMmdB?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "파키스탄에서 여전히 높은 인기를 누리고 있는 칸은 정치적 동기가 있다고 주장하는 혐의로 2023년 8월부터 투옥되었습니다.",
-      "excerpt_en": "Khan, who remains highly popular in Pakistan, has been imprisoned since August 2023 on charges he calls politically motivated.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/imran-khans-party-seeks-contempt-action-over-jailed-leaders-hospital-move-101787386578036.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-22T08:02:28+09:00",
-      "latest_published_at": "2026-08-22T08:28:07+09:00",
-      "articles": [
-        {
-          "title": "Imran Khan's party seeks contempt action over jailed leader's hospital move",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/imran-khans-party-seeks-contempt-action-over-jailed-leaders-hospital-move-101787386578036.html",
-          "published_at": "08:28"
-        },
-        {
-          "title": "Imran Khan's party seeks contempt action over jailed leader's hospital move",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOblRkaFZsa2c5ZW5wU1ZUV0Y1SXBlZVVPRTE0YTV2aXY4c2JGVUNJMHo2cTFkUVVBSi01TWRlS1JpdWk4b1o4dVJrQ2N6dURlTDg2NEZZczljY3U0Ul9FMHpnRlEteldCT1dCYm9tb2JyNzZWbFliWFl2VGdfWGg5WEFHcEN6SlpaVzZvZDluelp0VVowYm44RjBTZmhaXzdXRkNCSG51ZGF5TGY1QkRKM3ZleVRVUkt4NTZiQjVwT0U3Yk5VMmdB?oc=5",
-          "published_at": "08:02"
-        }
-      ]
-    },
-    {
-      "id": "world-37",
-      "title": "콩고는 전례 없는 발병 속에서 16,000회 이상의 에볼라 백신을 받았습니다.",
-      "title_en": "Congo receives more than 16,000 doses of Ebola vaccine amid unprecedented outbreak",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/congo-receives-16000-doses-ebola-vaccine-grapples-unprecedented-135860726",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "Congo has received more than 16,000 doses of the Ervebo vaccine as the country grapples with the fastest Ebola outbreak in history, the country’s health minister said",
-      "excerpt_en": "Congo has received more than 16,000 doses of the Ervebo vaccine as the country grapples with the fastest Ebola outbreak in history, the country’s health minister said",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/congo-receives-16000-doses-ebola-vaccine-grapples-unprecedented-135860726",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-08-22T10:15:37+09:00",
-      "latest_published_at": "2026-08-22T11:19:00+09:00",
-      "articles": [
-        {
-          "title": "Congo receives more than 16,000 doses of Ebola vaccine as it grapples with unprecedented outbreak",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdFh4LXA1WTJxUFB0SFF2UE0wNjRjTldBNjIwMlFWUC11VlZyQXpyYnh5WTFkSjFCMjBUbElJUnNTYjdTa3JBVjZDRGdlR0FZSTlhd2dUZGVWTTBtRDFTYlYwel8wZHVuelB0aW9hZ05oSHhyVEJJN0VoZlNLWm42Y1hLT2pZZw?oc=5",
-          "published_at": "11:19"
-        },
-        {
-          "title": "Congo receives more than 16,000 doses of Ebola vaccine amid unprecedented outbreak",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/congo-receives-16000-doses-ebola-vaccine-grapples-unprecedented-135860726",
-          "published_at": "10:15"
-        }
-      ]
-    },
-    {
-      "id": "world-39",
+      "id": "world-30",
       "title": "멕시코, 나사벌레 위험에 대한 엄격한 통제 하에 미국에 가축 판매 재개",
       "title_en": "Mexico resumes livestock sales to US under tight controls over screwworm risk",
       "title_source": "earliest_pick",
@@ -1926,17 +1635,64 @@
       ]
     },
     {
-      "id": "world-163",
-      "title": "전 홍콩 집회 주최자, 유죄 판결에도 불구하고 천안문 탄압을 기념하기 위해 노력",
-      "title_en": "Former Hong Kong vigil organizer strives to mark Tiananmen crackdown despite convictions",
+      "id": "world-158",
+      "title": "Albanese: 캔버라, 본다이 공격 이후 호주의 총기 환매 프로그램에 합류",
+      "title_en": "Albanese: Canberra to join Australia’s gun buy-back programme after Bondi attack",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/former-hong-kong-vigil-organizer-strives-mark-tiananmen-135856760",
+      "title_url": "https://www.scmp.com/news/asia/australasia/article/3364923/albanese-canberra-join-australias-gun-buy-back-program-after-bondi-attack?utm_source=rss_feed",
       "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "홍콩 당국은 연례 천안문 광장 집회와 그 이전의 활동 뒤에 있는 현재 해체된 동맹의 유죄 판결에 대해 서방 국가들의 “근거 없는 비방과 비방”을 비난했습니다.",
-      "excerpt_en": "Hong Kong authorities have hit out at “baseless slander and smearing” by Western countries over the convictions of the now-disbanded alliance behind the annual Tiananmen Square vigil and its former le",
+      "primary_source": "SCMP",
+      "excerpt": "호주의 수도 시드니에서 열린 유대인 축제에서 15명의 목숨을 앗아간 총격 사건에 대한 대응의 일환으로 총기 환매에 동참할 것이라고 앤서니 알바니스 총리가 토요일 밝혔습니다. 알바인의 CE",
+      "excerpt_en": "Australia’s capital will join a gun buy-back ⁠as part of ⁠a response to a ⁠shooting spree that killed 15 at a Jewish festival in Sydney, Prime Minister Anthony Albanese said on Saturday. Albanese’s ce",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/hong-kong/politics/article/3364918/hong-kong-hits-back-western-slander-over-verdict-tiananmen-vigil-leaders?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/asia/australasia/article/3364923/albanese-canberra-join-australias-gun-buy-back-program-after-bondi-attack?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-22T09:36:45+09:00",
+      "latest_published_at": "2026-08-22T10:09:08+09:00",
+      "articles": [
+        {
+          "title": "Australia’s capital to join gun buyback after deadly Bondi Beach attack, Albanese says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/australia-canberra-gun-buyback-bondi-beach-b3037478.html",
+          "published_at": "10:09"
+        },
+        {
+          "title": "Albanese: Canberra to join Australia’s gun buy-back programme after Bondi attack",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/australasia/article/3364923/albanese-canberra-join-australias-gun-buy-back-program-after-bondi-attack?utm_source=rss_feed",
+          "published_at": "09:36"
+        }
+      ]
+    },
+    {
+      "id": "world-199",
+      "title": "튀니지 해안서 난민선 전복돼 시신 2구 수습, 12명 실종",
+      "title_en": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/2-bodies-recovered-and-about-12-missing-after-migrant-boat-capsized-off-tunisian-coast-101787428091137.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "튀니지 남부 해상에서 이주민을 태운 보트가 전복돼 최소 2명이 숨지고 12명이 실종됐다.",
+      "excerpt_en": "At least two people have died and around 12 are missing after a boat carrying migrants capsized off southern Tunisia",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/2-bodies-recovered-12-missing-after-migrant-boat-135871958",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1953,22 +1709,210 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "SCMP"
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-08-22T02:41:45+09:00",
-      "latest_published_at": "2026-08-22T08:55:10+09:00",
+      "first_published_at": "2026-08-22T19:48:10+09:00",
+      "latest_published_at": "2026-08-22T20:48:27+09:00",
       "articles": [
         {
-          "title": "Hong Kong hits back at Western ‘slander’ over verdict on Tiananmen vigil leaders",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/politics/article/3364918/hong-kong-hits-back-western-slander-over-verdict-tiananmen-vigil-leaders?utm_source=rss_feed",
-          "published_at": "08:55"
+          "title": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/2-bodies-recovered-12-missing-after-migrant-boat-135871958",
+          "published_at": "20:48"
         },
         {
-          "title": "Former Hong Kong vigil organizer strives to mark Tiananmen crackdown despite convictions",
+          "title": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/2-bodies-recovered-and-about-12-missing-after-migrant-boat-capsized-off-tunisian-coast-101787428091137.html",
+          "published_at": "19:48"
+        }
+      ]
+    },
+    {
+      "id": "world-20",
+      "title": "임란 칸(Imran Khan) 당은 투옥된 지도자의 병원 이전에 대해 모욕죄 소송을 제기",
+      "title_en": "Imran Khan's party seeks contempt action over jailed leader's hospital move",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOblRkaFZsa2c5ZW5wU1ZUV0Y1SXBlZVVPRTE0YTV2aXY4c2JGVUNJMHo2cTFkUVVBSi01TWRlS1JpdWk4b1o4dVJrQ2N6dURlTDg2NEZZczljY3U0Ul9FMHpnRlEteldCT1dCYm9tb2JyNzZWbFliWFl2VGdfWGg5WEFHcEN6SlpaVzZvZDluelp0VVowYm44RjBTZmhaXzdXRkNCSG51ZGF5TGY1QkRKM3ZleVRVUkt4NTZiQjVwT0U3Yk5VMmdB?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "파키스탄에서 여전히 높은 인기를 누리고 있는 칸은 정치적 동기가 있다고 주장하는 혐의로 2023년 8월부터 투옥되었습니다.",
+      "excerpt_en": "Khan, who remains highly popular in Pakistan, has been imprisoned since August 2023 on charges he calls politically motivated.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/imran-khans-party-seeks-contempt-action-over-jailed-leaders-hospital-move-101787386578036.html",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-22T08:02:28+09:00",
+      "latest_published_at": "2026-08-22T08:28:07+09:00",
+      "articles": [
+        {
+          "title": "Imran Khan's party seeks contempt action over jailed leader's hospital move",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/imran-khans-party-seeks-contempt-action-over-jailed-leaders-hospital-move-101787386578036.html",
+          "published_at": "08:28"
+        },
+        {
+          "title": "Imran Khan's party seeks contempt action over jailed leader's hospital move",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOblRkaFZsa2c5ZW5wU1ZUV0Y1SXBlZVVPRTE0YTV2aXY4c2JGVUNJMHo2cTFkUVVBSi01TWRlS1JpdWk4b1o4dVJrQ2N6dURlTDg2NEZZczljY3U0Ul9FMHpnRlEteldCT1dCYm9tb2JyNzZWbFliWFl2VGdfWGg5WEFHcEN6SlpaVzZvZDluelp0VVowYm44RjBTZmhaXzdXRkNCSG51ZGF5TGY1QkRKM3ZleVRVUkt4NTZiQjVwT0U3Yk5VMmdB?oc=5",
+          "published_at": "08:02"
+        }
+      ]
+    },
+    {
+      "id": "world-93",
+      "title": "중앙아프리카공화국 금광 붕괴로 수십명 실종",
+      "title_en": "Dozens missing after gold mine collapse in Central African Republic",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/dozens-missing-after-gold-mine-collapse-in-central-african-republic",
+      "category": "기타",
+      "primary_source": "France24",
+      "excerpt": "중앙아프리카공화국에서는 화요일 금광 붕괴 이후 희생자 수색 작업이 계속되고 있습니다. 정부는 이번 사건으로 최소 49명이 목숨을 잃었다고 밝혔지만 현지 소식통은",
+      "excerpt_en": "In the Central African Republic, the search for victims continues following Tuesday’s gold mine collapse. The government says the incident has claimed at least 49 lives but local sources estimate the ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/dozens-missing-after-gold-mine-collapse-in-central-african-republic",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "France24"
+      ],
+      "first_published_at": "2026-08-22T10:06:49+09:00",
+      "latest_published_at": "2026-08-23T00:18:46+09:00",
+      "articles": [
+        {
+          "title": "Central African Republic shuts down collapsed gold mining site that killed more than 100",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/former-hong-kong-vigil-organizer-strives-mark-tiananmen-135856760",
-          "published_at": "02:41"
+          "url": "https://abcnews.com/International/wireStory/central-african-republic-shuts-collapsed-gold-mining-site-135873525",
+          "published_at": "00:18"
+        },
+        {
+          "title": "Dozens missing after gold mine collapse in Central African Republic",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/dozens-missing-after-gold-mine-collapse-in-central-african-republic",
+          "published_at": "10:06"
+        }
+      ]
+    },
+    {
+      "id": "world-84",
+      "title": "콩고는 전례 없는 에볼라 발병 속에서 16,000회 이상의 에볼라 백신을 받았습니다.",
+      "title_en": "Congo receives more than 16,000 doses of Ebola vaccine amid unprecedented outbreak",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/congo-receives-16000-doses-ebola-vaccine-grapples-unprecedented-135860726",
+      "category": "미국",
+      "primary_source": "ABC News",
+      "excerpt": "콩고민주공화국은 당국이 진행 중인 에볼라 발병에 대한 노력을 강화함에 따라 16,000회 이상의 에볼라 백신을 접종받았습니다. 이미 2,500명 이상이 사망하고 치유되었습니다.",
+      "excerpt_en": "The Democratic Republic of Congo has received more than 16,000 doses of an Ebola vaccine, as authorities step up efforts against the ongoing outbreak. More than 2,500 people have already died and heal",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/dr-congo-receives-ebola-vaccines-in-face-of-exponential-outbreak",
+      "translation_status": "ok",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 38
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "France24"
+      ],
+      "first_published_at": "2026-08-22T10:15:37+09:00",
+      "latest_published_at": "2026-08-22T12:47:14+09:00",
+      "articles": [
+        {
+          "title": "DR Congo receives Ebola vaccines in face of 'exponential' outbreak",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/dr-congo-receives-ebola-vaccines-in-face-of-exponential-outbreak",
+          "published_at": "12:47"
+        },
+        {
+          "title": "Congo receives more than 16,000 doses of Ebola vaccine amid unprecedented outbreak",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/congo-receives-16000-doses-ebola-vaccine-grapples-unprecedented-135860726",
+          "published_at": "10:15"
+        }
+      ]
+    },
+    {
+      "id": "world-151",
+      "title": "차량 3대 충돌 후 마약에 취한 상태로 운전한 남성 체포",
+      "title_en": "Man arrested for driving under influence of drugs after 3-vehicle crash",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364929/man-38-arrested-driving-under-influence-drugs-after-3-vehicle-crash?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "홍콩 경찰이 차량 3대가 충돌해 2명이 부상을 입은 뒤 마약에 취한 상태로 운전한 혐의로 38세 남성을 체포했다. 경찰은 A씨로부터 신고를 받았다고 밝혔다.",
+      "excerpt_en": "Hong Kong police have arrested a 38-year-old man on suspicion of driving under the influence of drugs following a three-vehicle crash that left two people injured. Police said they received a report a",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364929/man-38-arrested-driving-under-influence-drugs-after-3-vehicle-crash?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 38
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-22T10:59:38+09:00",
+      "latest_published_at": "2026-08-22T23:43:04+09:00",
+      "articles": [
+        {
+          "title": "Man driving stolen vehicle killed in head-on crash",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-23/man-driving-stolen-vehicle-killed-in-collision-east-melbourne/107068238",
+          "published_at": "23:43"
+        },
+        {
+          "title": "Man arrested for driving under influence of drugs after 3-vehicle crash",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364929/man-38-arrested-driving-under-influence-drugs-after-3-vehicle-crash?utm_source=rss_feed",
+          "published_at": "10:59"
         }
       ]
     }
