@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,144 +8,259 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-08-29T10:10:29.961148+09:00",
+  "updated_at": "2026-08-29T16:53:35.577340+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 597,
-  "cluster_count_total": 467,
+  "article_count_total": 555,
+  "cluster_count_total": 439,
   "clusters": [
     {
-      "id": "world-96",
-      "title": "The Lindsay Clancy army, from mums in pink to right-wing podcasters",
-      "title_en": "The Lindsay Clancy army, from mums in pink to right-wing podcasters",
+      "id": "world-81",
+      "title": "미국, 베네수엘라, '역사적인' 석유 거래 발표",
+      "title_en": "US, Venezuela announce 'historic' oil deal",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/the-lindsay-clancy-army-from-mums-in-pink-to-right-wing-podcasters-20260828-p60sf7.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "Moms who have been closely following the Lindsay Clancy murder trial reflect on their experiences of postpartum mental health crises and tell Rhian Lubin why the case has them speaking out about the f",
-      "excerpt_en": "Moms who have been closely following the Lindsay Clancy murder trial reflect on their experiences of postpartum mental health crises and tell Rhian Lubin why the case has them speaking out about the f",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-b3040408.html",
-      "translation_status": "failed",
-      "score": 92,
+      "title_url": "https://www.dw.com/en/us-venezuela-announce-historic-oil-deal/a-78553607?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "도널드 트럼프 미국 대통령은 금요일 미국이 베네수엘라와 남미 국가의 석유 매장량 650억 배럴을 통제하기로 합의했다고 말했습니다. 트럼프는 소셜미디어에 글을 올렸다.",
+      "excerpt_en": "President Donald Trump on Friday said the US had entered an agreement with Venezuela to take control of 65 billion barrels of the South American country’s oil reserves. Trump in a social media post an",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3365672/trump-says-us-has-deal-venezuela-control-65-billion-barrels-oil-reserves?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
+        "time_score": 3,
+        "raw75": 70
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 11,
+      "article_count": 11,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 11,
       "sources": [
+        "ABC News Australia",
         "AP News",
-        "CBC",
+        "CBS News",
+        "DW",
+        "Euronews",
         "Hindustan Times",
+        "NBC News",
+        "NPR",
+        "SCMP",
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-08-28T05:30:00+09:00",
-      "latest_published_at": "2026-08-28T18:11:03+09:00",
+      "first_published_at": "2026-08-28T23:23:00+09:00",
+      "latest_published_at": "2026-08-29T06:18:18+09:00",
       "articles": [
         {
-          "title": "Lindsay Clancy trial update: What happens if she's found not guilty by reason of insanity? Possible path to ‘freedom’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-trial-update-what-happens-if-she-s-found-not-guilty-her-possible-path-to-freedom-101787938871757.html",
-          "published_at": "18:11"
+          "title": "US strikes deal to control 65 billion barrels of Venezuela's oil reserves, Trump says",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/08/29/us-strikes-deal-to-control-more-than-65-billion-barrels-of-venezuelas-oil-reserves",
+          "published_at": "06:18"
         },
         {
-          "title": "I’m a mother who watched the Lindsay Clancy trial. Here’s what I want you to know about postpartum psychosis",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-b3040408.html",
-          "published_at": "15:23"
+          "title": "Trump says U.S. now has control of over 60 billion barrels of Venezuelan oil reserves",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-venezuela-oil-u-s-majority-control-65-billion-barrels/",
+          "published_at": "04:15"
         },
         {
-          "title": "What to know about the Lindsay Clancy murder trial",
+          "title": "Trump says U.S. has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
+          "published_at": "02:07"
+        },
+        {
+          "title": "Trump says US has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmt1X1kycWh3UEx2STd2b21tWmxsYk5Jc1RXdWhXLVlqZHpnMDlnWTZfWWhLQVlrUS1mams2Wl9IUnE2WExGUEhsMmdNaDgzVHJzWFVSYWxpNHV4SXVad3hvTU1rYUpTNDFKRmF2NlRxUjMzTkJSamg2c3dBaVpOWmdFNHNnNXQyTzl2WUYzQ01LTjVSWWRpMXpObHFOcGZEYUE?oc=5",
-          "published_at": "13:37"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPandFWnE5LWFYSWl5SEtwWmlTZVF3cXp2WDFlNVBEdXNUQjVtR0NUTktzS24wb1VYdDdRZVpVQmR4SjhvblU2QzFVLS1DS0xtYnVUb2tTclhweEFZUHhPYVVtWlpxNVRxYUQ2QkJiWDhBNVFJQUt1TTIxME9DM2EzTDZ0YUFCYm1FdGR0SFFzTkVmUQ?oc=5",
+          "published_at": "01:41"
         },
         {
-          "title": "Lindsay Clancy trial update: Ex-FBI shares why she thinks Patrick Clancy did not kill their children",
+          "title": "Trump says US is taking partial control of Venezuela's oil reserves",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-29/trump-announces-us-venezuela-oil-reserves-deal/107093382",
+          "published_at": "01:30"
+        },
+        {
+          "title": "'Biggest deal in world history': Trump says US secured 65 billion barrels of Venezuelan oil",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-trial-update-ex-fbi-shares-why-she-thinks-patrick-clancy-did-not-kill-their-children-101787908078661.html",
-          "published_at": "09:40"
+          "url": "https://www.hindustantimes.com/world-news/trump-venezuela-oil-deal-united-states-biggest-deal-in-history-65-billion-barrels-101787963714354.html",
+          "published_at": "00:36"
         },
         {
-          "title": "Lindsay Clancy jury returns Friday to decide her fate after heartbreaking murder trial",
+          "title": "Trump announces massive oil deal with Venezuela as gas prices surge",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-murder-trial-massachusetts-b3040844.html",
-          "published_at": "08:08"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-venezuela-oil-deal-gas-prices-b3041350.html",
+          "published_at": "00:29"
         },
         {
-          "title": "Why Lindsay Clancy, on trial for the deaths of her 3 children, has so many supporters",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/lindsay-clancy-trial-support-9.7322441?cmp=rss",
-          "published_at": "08:01"
-        },
-        {
-          "title": "Did Patrick Clancy know Dr Rachel Danis before 2024? Fact-checking viral photo amid Lindsay Clancy trial",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/did-patrick-clancy-know-dr-rachel-danis-before-2024-fact-checking-viral-photo-amid-lindsay-clancy-trial-101787888157014.html",
-          "published_at": "07:59"
-        },
-        {
-          "title": "Patrick Clancy seen ‘shopping’ amid Lindsay Clancy trial? Alleged photo sparks outrage online; ‘he runs away…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/patrick-clancy-seen-shopping-amid-lindsay-clancy-trial-alleged-photo-sparks-outrage-online-he-runs-away-101787897853487.html",
-          "published_at": "06:48"
-        },
-        {
-          "title": "The Lindsay Clancy army, from mums in pink to right-wing podcasters",
+          "title": "Trump says US has agreed to deal with Venezuela to take control of 65 billion barrels of oil reserves",
           "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/the-lindsay-clancy-army-from-mums-in-pink-to-right-wing-podcasters-20260828-p60sf7.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "05:30"
+          "url": "https://www.smh.com.au/world/north-america/trump-says-us-has-agreed-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves-20260829-p60slm.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:55"
+        },
+        {
+          "title": "Trump says U.S. has struck deal with Venezuela to take control of 65 billion barrels of oil reserves",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966",
+          "published_at": "23:44"
+        },
+        {
+          "title": "Trump says US has deal with Venezuela for control of 65 billion barrels of oil reserves",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3365672/trump-says-us-has-deal-venezuela-control-65-billion-barrels-oil-reserves?utm_source=rss_feed",
+          "published_at": "23:41"
+        },
+        {
+          "title": "US, Venezuela announce 'historic' oil deal",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/us-venezuela-announce-historic-oil-deal/a-78553607?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "23:23"
         }
       ]
     },
     {
-      "id": "world-1",
-      "title": "Who is Milo Yiannopoulos and why was he detained by ICE in Louisiana? Right-wing provocateur faces deportation from US",
+      "id": "world-64",
+      "title": "노르웨이 국왕 하랄드 5세가 89세로 사망하고 그의 아들이 하콘 8세가 된다",
+      "title_en": "Norway’s King Harald V dies at 89 and his son becomes King Haakon VIII",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUHNOX1pxMzZOcXo4VmU0S2xfU240TEJQaXlDYXZZeVd4QV9rczlNSUpURFNtQ253WkxzenVSM0NJTzRsU1hhT0JwakhSc1JHUTNVcndQb3o2SzI3YkFhUWxwZGsxWWxoRkJNVWM2OE01QWVwNTNBaHZPU3hCNHpDVGkySHc?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "노르웨이인들은 왕세녀와 제프리 엡스타인의 연관 스캔들로 사망한 군주를 추모하기 위해 모였습니다. 노르웨이인들은 하르 왕에게 경의를 표하기 위해 수천 명 모였습니다.",
+      "excerpt_en": "Norwegians gather to remember monarch whose death comes amid scandal over links between crown princess and Jeffrey Epstein Norwegians have gathered in their thousands to pay their respects to King Har",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links",
+      "translation_status": "ok",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 10,
+      "article_count": 10,
+      "syndicated_count": 0,
+      "source_count": 8,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "Euronews",
+        "New York Times",
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-28T12:01:00+09:00",
+      "latest_published_at": "2026-08-29T07:19:36+09:00",
+      "articles": [
+        {
+          "title": "King Haakon VIII takes throne as Norway mourns death of King Harald",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3365693/king-haakon-viii-takes-throne-norway-mourns-death-king-harald?utm_source=rss_feed",
+          "published_at": "07:19"
+        },
+        {
+          "title": "Norway, in mourning, enters new era under Haakon VIII",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3310275/norway-in-mourning-enters-new-era-under-haakon-viii",
+          "published_at": "05:45"
+        },
+        {
+          "title": "‘The whole country’s grandfather:’ Norway’s King Harald V dies aged 89",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/the-whole-countrys-grandfather-norways-king-harald-v-dies-aged-89?traffic_source=rss",
+          "published_at": "04:14"
+        },
+        {
+          "title": "Norway mourns king Harald V as crown prince Haakon becomes king",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/video/2026/08/28/norway-mourns-king-harald-v-as-crown-prince-haakon-becomes-king",
+          "published_at": "20:40"
+        },
+        {
+          "title": "Who Is Haakon, Norway’s New King?",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/28/world/europe/norway-new-king-haakon.html",
+          "published_at": "19:44"
+        },
+        {
+          "title": "Mourners in Norway Remember King Harald V",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/28/world/europe/king-harald-norway-death.html",
+          "published_at": "17:26"
+        },
+        {
+          "title": "Norway’s King Harald dies aged 89",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links",
+          "published_at": "15:52"
+        },
+        {
+          "title": "Norway's crown prince becomes King Haakon VIII after his father's death",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/norways-crown-prince-king-haakon-viii-after-fathers-136023201",
+          "published_at": "12:15"
+        },
+        {
+          "title": "Norway’s King Harald V dies at 89 and his son becomes king",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/norways-king-harald-dies-89-son-king-136023103",
+          "published_at": "12:10"
+        },
+        {
+          "title": "Norway’s King Harald V dies at 89 and his son becomes King Haakon VIII",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUHNOX1pxMzZOcXo4VmU0S2xfU240TEJQaXlDYXZZeVd4QV9rczlNSUpURFNtQ253WkxzenVSM0NJTzRsU1hhT0JwakhSc1JHUTNVcndQb3o2SzI3YkFhUWxwZGsxWWxoRkJNVWM2OE01QWVwNTNBaHZPU3hCNHpDVGkySHc?oc=5",
+          "published_at": "12:01"
+        }
+      ]
+    },
+    {
+      "id": "world-10",
+      "title": "Milo Yiannopoulos는 누구이며 그가 루이지애나주 ICE에 구금된 이유는 무엇입니까? 우익 선동가, 미국에서 추방 위기 직면",
       "title_en": "Who is Milo Yiannopoulos and why was he detained by ICE in Louisiana? Right-wing provocateur faces deportation from US",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-milo-yiannopoulos-and-why-was-he-detained-by-ice-in-louisiana-right-wing-provocateur-faces-deportation-from-us-101787940715365.html",
       "category": "유럽",
       "primary_source": "Hindustan Times",
-      "excerpt": "A former editor of Breitbart News, Yiannopoulos has also served as an intern for Marjorie Taylor Greene Milo Yiannopoulos, a far-right British political commentator, was detained by Immigration and Cu",
-      "excerpt_en": "A former editor of Breitbart News, Yiannopoulos has also served as an intern for Marjorie Taylor Greene Milo Yiannopoulos, a far-right British political commentator, was detained by Immigration and Cu",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/28/milo-yiannopoulos-detained-ice",
-      "translation_status": "failed",
-      "score": 89,
+      "excerpt": "극우 평론가인 야노풀로스(Yiannopoulos)는 도널드 트럼프(Donald Trump)와 그의 이민 단속을 초기에 지지했지만 이후 그들은 무너졌습니다. DHS는 그가 방문 기간을 초과한 '불법 외국인'이라고 밝혔다.",
+      "excerpt_en": "Yiannopoulos, a far-right commentator, was an early supporter of Donald Trump and his immigration crackdown, but they have since fallen out. DHS said he was an \"illegal alien\" who overstayed his visit",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/us-arrests-far-right-provocateur-milo-yiannopoulos/a-78553559?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 84,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 12,
-      "article_count": 12,
+      "area_value": 8,
+      "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 11,
+      "source_count": 7,
       "sources": [
-        "ABC News Australia",
         "Al Jazeera",
         "BBC",
         "DW",
         "Hindustan Times",
         "Reuters",
-        "SCMP",
         "Sydney Morning Herald",
-        "The Guardian",
-        "The Independent",
         "Times of India"
       ],
       "first_published_at": "2026-08-28T18:32:25+09:00",
@@ -156,12 +271,6 @@
           "source_name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cj06jgq62v9o?at_medium=RSS&at_campaign=rss",
           "published_at": "00:46"
-        },
-        {
-          "title": "British far-right activist Milo Yiannopoulos arrested by ICE",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/milo-yiannopoulos-arrested-in-us-by-ice/107093336",
-          "published_at": "00:44"
         },
         {
           "title": "Far-right UK provocateur Milo Yiannopoulos detained by ICE in US",
@@ -176,28 +285,10 @@
           "published_at": "22:25"
         },
         {
-          "title": "UK far-right provocateur Milo Yiannopoulos arrested by US immigration",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365669/uk-far-right-provocateur-milo-yiannopoulos-arrested-us-immigration?utm_source=rss_feed",
-          "published_at": "22:03"
-        },
-        {
           "title": "US arrests far-right provocateur Milo Yiannopoulos",
           "source_name": "DW",
           "url": "https://www.dw.com/en/us-arrests-far-right-provocateur-milo-yiannopoulos/a-78553559?maca=en-rss-en-all-1573-xml-mrss",
           "published_at": "21:45"
-        },
-        {
-          "title": "Milo Yiannopoulos, a far-right political commentator, detained by ICE",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/28/milo-yiannopoulos-detained-ice",
-          "published_at": "21:13"
-        },
-        {
-          "title": "Milo Yiannopoulos looks dejected in mugshot after he is detained by Trump’s ICE",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/milo-yiannopoulos-ice-detained-b3041254.html",
-          "published_at": "20:52"
         },
         {
           "title": "Who is Milo Yiannopoulos, far-right British commentator, detained by ICE? Former Trump supporter faces deportation",
@@ -226,121 +317,79 @@
       ]
     },
     {
-      "id": "world-86",
-      "title": "Trump hails major oil deal with Venezuela",
-      "title_en": "Trump hails major oil deal with Venezuela",
+      "id": "world-78",
+      "title": "Milo Yiannopoulos는 트럼프의 ICE에 구금된 후 머그샷에서 낙담한 모습을 보입니다.",
+      "title_en": "Milo Yiannopoulos looks dejected in mugshot after he is detained by Trump’s ICE",
       "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/trump-hails-major-oil-deal-with-venezuela/a-78553607?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "중동",
-      "primary_source": "DW",
-      "excerpt": "US president says US will have ‘majority’ control of 65bn barrels of proven oil reserves Donald Trump announced Friday a new US oil agreement with Venezuela’s interim president Delcy Rodríguez, saying",
-      "excerpt_en": "US president says US will have ‘majority’ control of 65bn barrels of proven oil reserves Donald Trump announced Friday a new US oil agreement with Venezuela’s interim president Delcy Rodríguez, saying",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement",
-      "translation_status": "failed",
-      "score": 85,
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/milo-yiannopoulos-ice-detained-b3041254.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "국토안보부에 따르면 미국 이민 관리들은 논란이 되고 있는 영국 극우 평론가 마일로 이안노풀로스를 뉴올리언스에서 목요일 체포했다고 밝혔습니다. 이민국 관계자는 아노",
+      "excerpt_en": "US immigration officials arrested controversial British far-right commentator Milo Yiannopoulos on Thursday in New Orleans, according to the Department of Homeland Security. Immigration officials anno",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365669/uk-far-right-provocateur-milo-yiannopoulos-arrested-us-immigration?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 84,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 10,
-      "article_count": 10,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 10,
+      "source_count": 4,
       "sources": [
+        "ABC News Australia",
         "AP News",
-        "BBC",
-        "CBS News",
-        "DW",
-        "Hindustan Times",
-        "NBC News",
         "SCMP",
-        "Sydney Morning Herald",
-        "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-08-28T23:23:00+09:00",
-      "latest_published_at": "2026-08-29T00:36:53+09:00",
+      "first_published_at": "2026-08-28T20:52:01+09:00",
+      "latest_published_at": "2026-08-29T00:44:43+09:00",
       "articles": [
         {
-          "title": "'Biggest deal in world history': Trump says US secured 65 billion barrels of Venezuelan oil",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/trump-venezuela-oil-deal-united-states-biggest-deal-in-history-65-billion-barrels-101787963714354.html",
-          "published_at": "00:36"
+          "title": "British far-right activist Milo Yiannopoulos arrested by ICE",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-29/milo-yiannopoulos-arrested-in-us-by-ice/107093336",
+          "published_at": "00:44"
         },
         {
-          "title": "Trump announces massive oil deal with Venezuela as gas prices surge",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-venezuela-oil-deal-gas-prices-b3041350.html",
-          "published_at": "00:29"
-        },
-        {
-          "title": "Trump says U.S. now has control of over 60 billion barrels of Venezuelan oil reserves",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/trump-venezuela-oil-u-s-majority-control-65-billion-barrels/",
-          "published_at": "00:28"
-        },
-        {
-          "title": "Trump says US has 'historic' deal to control 65bn barrels of Venezuela's oil",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-          "published_at": "00:25"
-        },
-        {
-          "title": "Trump says US has agreed to deal with Venezuela to take control of 65 billion barrels of oil reserves",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/trump-says-us-has-agreed-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves-20260829-p60slm.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "23:55"
-        },
-        {
-          "title": "Trump says U.S. has struck deal with Venezuela to take control of 65 billion barrels of oil reserves",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966",
-          "published_at": "23:44"
-        },
-        {
-          "title": "Trump says US has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPandFWnE5LWFYSWl5SEtwWmlTZVF3cXp2WDFlNVBEdXNUQjVtR0NUTktzS24wb1VYdDdRZVpVQmR4SjhvblU2QzFVLS1DS0xtYnVUb2tTclhweEFZUHhPYVVtWlpxNVRxYUQ2QkJiWDhBNVFJQUt1TTIxME9DM2EzTDZ0YUFCYm1FdGR0SFFzTkVmUQ?oc=5",
-          "published_at": "23:42"
-        },
-        {
-          "title": "Trump says US has deal with Venezuela for control of 65 billion barrels of oil reserves",
+          "title": "UK far-right provocateur Milo Yiannopoulos arrested by US immigration",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3365672/trump-says-us-has-deal-venezuela-control-65-billion-barrels-oil-reserves?utm_source=rss_feed",
-          "published_at": "23:41"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365669/uk-far-right-provocateur-milo-yiannopoulos-arrested-us-immigration?utm_source=rss_feed",
+          "published_at": "22:03"
         },
         {
-          "title": "Trump announces new US oil agreement with Venezuela",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement",
-          "published_at": "23:34"
+          "title": "Far-right British provocateur Milo Yiannopoulos arrested by US immigration enforcement",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkFEZ0NjWENENktHN3hZRE92U1p6cDVLSFFaR0p2VllGZXhSWUtsYVI4b1V4S2NxTW96VGVUWFFXSzJLbzZGYVBMd2d3NUM0MVBwYjE2eVJDTjVlNi1UbDJjV0NsY1VYeWhqelNaelNkVGlXbGZqUThQaU84UjFpZ0FiSDQtdDB0M3RWbHlmOUZXdkZ0M3htRnFLQk5IamNmQmF4U3BvdFdPN3dvZW5VZXh3?oc=5",
+          "published_at": "21:17"
         },
         {
-          "title": "Trump hails major oil deal with Venezuela",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/trump-hails-major-oil-deal-with-venezuela/a-78553607?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "23:23"
+          "title": "Milo Yiannopoulos looks dejected in mugshot after he is detained by Trump’s ICE",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/milo-yiannopoulos-ice-detained-b3041254.html",
+          "published_at": "20:52"
         }
       ]
     },
     {
-      "id": "world-51",
-      "title": "Charles pays tribute to 'dear cousin' King Harald of Norway",
-      "title_en": "Charles pays tribute to 'dear cousin' King Harald of Norway",
+      "id": "world-101",
+      "title": "세계 최연소 전통 군주 34세로 사망",
+      "title_en": "World's youngest reigning traditional monarch dies aged 34",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/king-harald-of-norway-dies-13578013",
-      "category": "유럽",
-      "primary_source": "Sky News",
-      "excerpt": "Norwegians gather to remember monarch whose death comes amid scandal over links between crown princess and Jeffrey Epstein Norwegians have gathered in their thousands to pay their respects to King Har",
-      "excerpt_en": "Norwegians gather to remember monarch whose death comes amid scandal over links between crown princess and Jeffrey Epstein Norwegians have gathered in their thousands to pay their respects to King Har",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links",
-      "translation_status": "failed",
+      "title_url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss",
+      "category": "기타",
+      "primary_source": "BBC",
+      "excerpt": "한때 세계 최연소 군주로 인정받았던 오요 님바(Oyo Nyimba)가 30대 중반의 나이로 사망했습니다. 우간다의 전통 군주 중 한 명인 그는 1995년 3세의 나이로 투로 왕국의 왕위에 올랐습니다.",
+      "excerpt_en": "Oyo Nyimba, once recognized as the world's youngest reigning monarch, has died in his mid-30s. As one of Uganda's traditional monarchs, he took the throne of the Tooro kingdom in 1995, aged just 3.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/uganda-world-s-youngest-monarch-dies-aged-34/a-78549208?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
       "score": 84,
       "score_breakdown": {
         "article_score": 25,
@@ -350,336 +399,15 @@
         "time_score": 2,
         "raw75": 63
       },
-      "area_value": 21,
-      "article_count": 21,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 17,
+      "source_count": 7,
       "sources": [
         "ABC News",
-        "ABC News Australia",
-        "AP News",
-        "CBS News",
-        "Channel News Asia",
-        "DW",
-        "Euronews",
-        "Fox News",
-        "Hindustan Times",
-        "NPR",
-        "New York Times",
-        "Reuters",
-        "SCMP",
-        "Sky News",
-        "Sydney Morning Herald",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-28T06:30:00+09:00",
-      "latest_published_at": "2026-08-28T21:48:44+09:00",
-      "articles": [
-        {
-          "title": "Norwegians mourn King Harald as son succeeds to throne",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/norway-king-harald-mourn-death-6348751",
-          "published_at": "21:48"
-        },
-        {
-          "title": "Norway's crown prince becomes King Haakon after father's death",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/harald-death-sees-norway-crown-prince-becomes-king-haakon-viii/107093150",
-          "published_at": "21:22"
-        },
-        {
-          "title": "Norway mourns king Harald V as crown prince Haakon becomes king",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/08/28/norway-mourns-king-harald-v-as-crown-prince-haakon-becomes-king",
-          "published_at": "20:40"
-        },
-        {
-          "title": "Who Is Haakon, Norway’s New King?",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/28/world/europe/norway-new-king-haakon.html",
-          "published_at": "19:44"
-        },
-        {
-          "title": "Norway’s King Harald dies aged 89",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links",
-          "published_at": "15:52"
-        },
-        {
-          "title": "Haakon, the reluctant prince who became Norway's new king",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT1R6UXJMSHhPSlZmVVloVmZKUFA4SE1CRzE2RDZxdXoyaXQtYS1xYWlTMm45X1U4cUNmVW1Fdm8zTTJTSFYwLVBncVRzUjJiaVA1U25ldE5IVzg5LUtfTEFlMWxVUmc1SWFpSWtqa1VHSGdPWThUbmpNdmVUQnhON1VNMjBjaE9RSkxzX1BCSE9fMkZDZzkxTk56OVNJUmlQSEdqSDQtbWZjLXNPTFlV?oc=5",
-          "published_at": "13:48"
-        },
-        {
-          "title": "Norway's crown prince becomes King Haakon VIII after his father's death",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/norways-crown-prince-king-haakon-viii-after-fathers-136023201",
-          "published_at": "12:15"
-        },
-        {
-          "title": "Norway’s King Harald V dies at 89 and his son becomes king",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/norways-king-harald-dies-89-son-king-136023103",
-          "published_at": "12:10"
-        },
-        {
-          "title": "Norway’s King Harald V dies at 89 and his son becomes King Haakon VIII",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUHNOX1pxMzZOcXo4VmU0S2xfU240TEJQaXlDYXZZeVd4QV9rczlNSUpURFNtQ253WkxzenVSM0NJTzRsU1hhT0JwakhSc1JHUTNVcndQb3o2SzI3YkFhUWxwZGsxWWxoRkJNVWM2OE01QWVwNTNBaHZPU3hCNHpDVGkySHc?oc=5",
-          "published_at": "12:01"
-        },
-        {
-          "title": "Norway's King Harald V, Europe's oldest monarch, dies at 89",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/norway-king-harald-v-europes-oldest-monarch-dies-89/",
-          "published_at": "10:24"
-        },
-        {
-          "title": "Quote of the Day by King Harald: ‘Individuals shall not destroy the vast majority who want fellowship’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/quote-of-the-day-by-king-harald-individuals-shall-not-destroy-the-vast-majority-who-want-fellowship-101787909609064.html",
-          "published_at": "10:05"
-        },
-        {
-          "title": "King Harald V of Norway dies aged 89 after 35 years on the throne",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/king-harald-norway-death-royal-family-b3038155.html",
-          "published_at": "08:44"
-        },
-        {
-          "title": "King Haakon VIII: The surfing, guitar-playing royal acceding to Norway’s throne",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/king-haakon-viii-norway-harald-b3040835.html",
-          "published_at": "08:34"
-        },
-        {
-          "title": "Norway's King Harald dies at 89",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/norway-s-king-harald-dies-at-89/a-78524572?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "08:28"
-        },
-        {
-          "title": "Who is King Haakon? What to know about Norway’s new monarch",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3365581/who-king-haakon-what-know-about-norways-new-monarch?utm_source=rss_feed",
-          "published_at": "08:18"
-        }
-      ]
-    },
-    {
-      "id": "world-253",
-      "title": "Six months into Iran war, Donald Trump says he’s in no hurry to end it",
-      "title_en": "Six months into Iran war, Donald Trump says he’s in no hurry to end it",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/six-months-into-iran-war-donald-trump-says-he-s-in-no-hurry-to-end-it-us-iran-israel-101787893801769.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "President Donald Trump arrives at an awkward moment for his presidency on Friday as the US-Israel war against Iran reaches the six-month mark, a notable milestone for a conflict that the Republican le",
-      "excerpt_en": "President Donald Trump arrives at an awkward moment for his presidency on Friday as the US-Israel war against Iran reaches the six-month mark, a notable milestone for a conflict that the Republican le",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3365663/iran-war-hits-six-month-mark-trump-says-hes-not-hurry?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBC",
-        "CBS News",
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-28T05:17:42+09:00",
-      "latest_published_at": "2026-08-28T23:23:23+09:00",
-      "articles": [
-        {
-          "title": "Iran war hits 6-month mark with no end in sight",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-6-months-no-end-in-sight/",
-          "published_at": "23:23"
-        },
-        {
-          "title": "As Iran war hits six-month mark, Trump says he’s ‘not in a hurry’",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3365663/iran-war-hits-six-month-mark-trump-says-hes-not-hurry?utm_source=rss_feed",
-          "published_at": "17:26"
-        },
-        {
-          "title": "Iran war hits 6-month milestone with Trump's attention largely elsewhere",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/iran-war-six-months-trump-9.7323892?cmp=rss",
-          "published_at": "17:13"
-        },
-        {
-          "title": "Six months into Iran war, Donald Trump says he’s in no hurry to end it",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/six-months-into-iran-war-donald-trump-says-he-s-in-no-hurry-to-end-it-us-iran-israel-101787893801769.html",
-          "published_at": "05:17"
-        }
-      ]
-    },
-    {
-      "id": "world-7",
-      "title": "Trump orders creation of US ‘Space Academy’, amid rivalry with China",
-      "title_en": "Trump orders creation of US ‘Space Academy’, amid rivalry with China",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "US President Donald Trump on Friday announced the creation of a “Space Academy” to train future civilian and military recruits for an arena where the United States faces rivalry with China. Speaking a",
-      "excerpt_en": "US President Donald Trump on Friday announced the creation of a “Space Academy” to train future civilian and military recruits for an arena where the United States faces rivalry with China. Speaking a",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-28T19:07:43+09:00",
-      "latest_published_at": "2026-08-28T21:07:51+09:00",
-      "articles": [
-        {
-          "title": "Trump announces new US 'Space Academy', calls it a 'big deal'",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-announces-new-us-space-academy-calls-it-a-big-deal-101787948609619.html",
-          "published_at": "21:07"
-        },
-        {
-          "title": "Trump signs order to create a US Space Academy",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWklmRzYtdUxEaWNGamhqcHNQSnI1NEVYOTNVVHdQaFlTYzBNbFZ0M01xUlkwU1lCTzJObU1aa3dfZVdkMEpLZGhyQUFCVTQ3UVptVngtNWl6UXBzS0xhUTM3bi1xZEg3SjdyckZ3M0k5c0FSQy0zTnpMMWEzVmhjVW5ENXoyWjMzeUlFSmZjX3p4SGE3eUVVT05SQ0I1elF5OW9KT0pGX1NLaHlO?oc=5",
-          "published_at": "19:26"
-        },
-        {
-          "title": "President Donald Trump signs order creating US Space Academy",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/28/president-donald-trump-signs-order-creating-us-space-academy?traffic_source=rss",
-          "published_at": "19:23"
-        },
-        {
-          "title": "Trump orders creation of US ‘Space Academy’, amid rivalry with China",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
-          "published_at": "19:07"
-        }
-      ]
-    },
-    {
-      "id": "world-83",
-      "title": "Kevin Warsh Jackson Hole speech: When and where to watch Fed Chair's address? Here's what to expect",
-      "title_en": "Kevin Warsh Jackson Hole speech: When and where to watch Fed Chair's address? Here's what to expect",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/kevin-warsh-jackson-hole-speech-when-and-where-to-watch-fed-chairs-address-heres-what-to-expect-101787924169056.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "U.S. Federal Reserve chair Kevin Warsh said Friday that inflation is still too high and suggested the country's central bank may have to raise interest rates in the coming months to bring it down.",
-      "excerpt_en": "U.S. Federal Reserve chair Kevin Warsh said Friday that inflation is still too high and suggested the country's central bank may have to raise interest rates in the coming months to bring it down.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/business/fed-warsh-jackson-hole-speech-9.7324232?cmp=rss",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "CBC",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-28T13:44:15+09:00",
-      "latest_published_at": "2026-08-28T18:27:00+09:00",
-      "articles": [
-        {
-          "title": "Fed Chair Warsh signals rate hikes may be needed with US inflation stubbornly elevated",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUFJSHBlaThPY3QxNm1TZEpORnhMam5QQUZTc203emxiY0pKSWJLYWtvaFZNMUd0UGluNzJHVHNhcTZERkpOdmpQR2ZsWC10Q1IxMTFIaDVVRkQ3WjhFWFZsX254RVVJUG9QemZ6ZEtIbndJZk1iYUtuNDEzUGFmejVPZTZlQXl5SEx5WGZPSzh1WHlXalY1dldNR2l3a0RkT0t2M1RZTEdLZw?oc=5",
-          "published_at": "18:27"
-        },
-        {
-          "title": "More U.S. rate hikes possible with inflation still elevated, Federal Reserve chair Kevin Warsh says",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/business/fed-warsh-jackson-hole-speech-9.7324232?cmp=rss",
-          "published_at": "17:52"
-        },
-        {
-          "title": "Fed Chair Kevin Warsh signals rate hikes may be needed in Jackson Hole speech",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/kevin-warsh-jackson-hole-speech-inflation-fed-b3041119.html",
-          "published_at": "15:12"
-        },
-        {
-          "title": "Kevin Warsh Jackson Hole speech: When and where to watch Fed Chair's address? Here's what to expect",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/kevin-warsh-jackson-hole-speech-when-and-where-to-watch-fed-chairs-address-heres-what-to-expect-101787924169056.html",
-          "published_at": "13:44"
-        }
-      ]
-    },
-    {
-      "id": "world-115",
-      "title": "World's youngest reigning traditional monarch dies aged 34",
-      "title_en": "World's youngest reigning traditional monarch dies aged 34",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/c0j38d9v40po?at_medium=RSS&at_campaign=rss",
-      "category": "기타",
-      "primary_source": "BBC",
-      "excerpt": "Oyo Nyimba, once recognized as the world's youngest reigning monarch, has died in his mid-30s. As one of Uganda's traditional monarchs, he took the throne of the Tooro kingdom in 1995, aged just 3.",
-      "excerpt_en": "Oyo Nyimba, once recognized as the world's youngest reigning monarch, has died in his mid-30s. As one of Uganda's traditional monarchs, he took the throne of the Tooro kingdom in 1995, aged just 3.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/uganda-world-s-youngest-monarch-dies-aged-34/a-78549208?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
         "BBC",
         "DW",
+        "Hindustan Times",
         "New York Times",
         "Sky News",
         "The Independent"
@@ -706,10 +434,22 @@
           "published_at": "14:38"
         },
         {
+          "title": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/ugandan-king-oyo-nyimba-once-worlds-youngest-monarch-dies-at-34-101787923504592.html",
+          "published_at": "13:27"
+        },
+        {
           "title": "World's youngest reigning monarch dies age 34",
           "source_name": "Sky News",
           "url": "https://news.sky.com/story/ugandan-ruler-named-worlds-youngest-monarch-died-age-34-13578122",
           "published_at": "12:25"
+        },
+        {
+          "title": "Oyo Nyimba, Ugandan 'boy king' who mesmerized world leaders, dies at 34",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/oyo-nyimba-ugandan-boy-king-mesmerized-world-leaders-136023567",
+          "published_at": "12:11"
         },
         {
           "title": "World's youngest reigning traditional monarch dies aged 34",
@@ -720,180 +460,327 @@
       ]
     },
     {
-      "id": "world-164",
-      "title": "Dutch court jails man for life over role in Rwanda genocide",
-      "title_en": "Dutch court jails man for life over role in Rwanda genocide",
+      "id": "world-19",
+      "title": "트럼프, 중국과 경쟁 속에 미국에 '우주사관학교' 창설 지시",
+      "title_en": "Trump orders creation of US ‘Space Academy’, amid rivalry with China",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3365618/dutch-court-jails-man-life-over-role-rwanda-genocide?utm_source=rss_feed",
-      "category": "기타",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
+      "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "A Dutch court on Friday handed a life sentence to a 66-year-old man for his role in the massacre of 3,000 Tutsis during the 1994 Rwanda genocide. During the violence that took place in April 1994, ter",
-      "excerpt_en": "A Dutch court on Friday handed a life sentence to a 66-year-old man for his role in the massacre of 3,000 Tutsis during the 1994 Rwanda genocide. During the violence that took place in April 1994, ter",
+      "excerpt": "도널드 트럼프 미국 대통령은 금요일 미국이 중국과 경쟁에 직면한 분야에서 미래의 민간인 및 군인 신병을 훈련시키기 위해 '우주 아카데미' 창설을 발표했습니다. 말하기",
+      "excerpt_en": "US President Donald Trump on Friday announced the creation of a “Space Academy” to train future civilian and military recruits for an arena where the United States faces rivalry with China. Speaking a",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3365618/dutch-court-jails-man-life-over-role-rwanda-genocide?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 76,
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 80,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Hindustan Times",
+        "Reuters",
+        "SCMP",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-28T19:07:43+09:00",
+      "latest_published_at": "2026-08-29T04:25:41+09:00",
+      "articles": [
+        {
+          "title": "US to establish first space academy, expand \"far beyond the Moon\"",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-to-establish-first-space-academy-expand-far-beyond-the-moon/articleshow/133603759.cms",
+          "published_at": "04:25"
+        },
+        {
+          "title": "Trump announces new US 'Space Academy', calls it a 'big deal'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-announces-new-us-space-academy-calls-it-a-big-deal-101787948609619.html",
+          "published_at": "21:07"
+        },
+        {
+          "title": "Trump signs order to create a US Space Academy",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWklmRzYtdUxEaWNGamhqcHNQSnI1NEVYOTNVVHdQaFlTYzBNbFZ0M01xUlkwU1lCTzJObU1aa3dfZVdkMEpLZGhyQUFCVTQ3UVptVngtNWl6UXBzS0xhUTM3bi1xZEg3SjdyckZ3M0k5c0FSQy0zTnpMMWEzVmhjVW5ENXoyWjMzeUlFSmZjX3p4SGE3eUVVT05SQ0I1elF5OW9KT0pGX1NLaHlO?oc=5",
+          "published_at": "19:26"
+        },
+        {
+          "title": "Trump orders creation of US ‘Space Academy’, amid rivalry with China",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365667/trump-orders-creation-us-space-academy-amid-rivalry-china?utm_source=rss_feed",
+          "published_at": "19:07"
+        }
+      ]
+    },
+    {
+      "id": "world-63",
+      "title": "Kevin Warsh Jackson Hole 연설: Fed 의장의 연설을 언제 어디서 시청할 수 있나요? 예상되는 내용은 다음과 같습니다.",
+      "title_en": "Kevin Warsh Jackson Hole speech: When and where to watch Fed Chair's address? Here's what to expect",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/kevin-warsh-jackson-hole-speech-when-and-where-to-watch-fed-chairs-address-heres-what-to-expect-101787924169056.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "케빈 워시 연방준비제도(연준) 의장은 금요일 인플레이션이 목표치인 2%로 되돌아가는지 정책 입안자들이 확신하지 못한다면 미국 중앙은행은 \"해야 할 일이 있을 것\"이라고 말했다.",
+      "excerpt_en": "The US central bank will “have work to do” if policymakers are not confident that underlying inflation is returning to its 2 per cent target, Federal Reserve Chairman Kevin Warsh said on Friday in rem",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365658/warsh-says-us-fed-has-work-do-if-above-target-inflation-lingers?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "AP News",
+        "CBC",
+        "Hindustan Times",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-28T13:44:15+09:00",
+      "latest_published_at": "2026-08-28T18:27:00+09:00",
+      "articles": [
+        {
+          "title": "Fed Chair Warsh signals rate hikes may be needed with US inflation stubbornly elevated",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUFJSHBlaThPY3QxNm1TZEpORnhMam5QQUZTc203emxiY0pKSWJLYWtvaFZNMUd0UGluNzJHVHNhcTZERkpOdmpQR2ZsWC10Q1IxMTFIaDVVRkQ3WjhFWFZsX254RVVJUG9QemZ6ZEtIbndJZk1iYUtuNDEzUGFmejVPZTZlQXl5SEx5WGZPSzh1WHlXalY1dldNR2l3a0RkT0t2M1RZTEdLZw?oc=5",
+          "published_at": "18:27"
+        },
+        {
+          "title": "More U.S. rate hikes possible with inflation still elevated, Federal Reserve chair Kevin Warsh says",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/business/fed-warsh-jackson-hole-speech-9.7324232?cmp=rss",
+          "published_at": "17:52"
+        },
+        {
+          "title": "Warsh signals US Fed may need to raise rates if above-target inflation lingers",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365658/warsh-says-us-fed-has-work-do-if-above-target-inflation-lingers?utm_source=rss_feed",
+          "published_at": "15:13"
+        },
+        {
+          "title": "Fed Chair Kevin Warsh signals rate hikes may be needed in Jackson Hole speech",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/kevin-warsh-jackson-hole-speech-inflation-fed-b3041119.html",
+          "published_at": "15:12"
+        },
+        {
+          "title": "Kevin Warsh Jackson Hole speech: When and where to watch Fed Chair's address? Here's what to expect",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/kevin-warsh-jackson-hole-speech-when-and-where-to-watch-fed-chairs-address-heres-what-to-expect-101787924169056.html",
+          "published_at": "13:44"
+        }
+      ]
+    },
+    {
+      "id": "world-134",
+      "title": "네팔과 티베트에서 돌발 홍수로 수백 명이 사망하고 1,000명 이상이 실종됨",
+      "title_en": "Hundreds killed, over 1,000 missing after flash floods in Nepal and Tibet",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
+      "category": "아시아",
+      "primary_source": "NPR",
+      "excerpt": "네팔-티베트 국경을 강타한 엄청난 홍수로 인해 수백 명이 사망하고 도로, 다리, 마을 전체가 휩쓸려갔습니다. 아직도 실종자가 1000명이 넘습니다.",
+      "excerpt_en": "Hundreds of people were killed by devastating flash floods that hit the Nepal-Tibet border, sweeping away roads, bridges and entire villages. More than 1,000 people are still missing.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
+      "translation_status": "ok",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 4,
         "time_score": 2,
-        "raw75": 57
+        "raw75": 58
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News",
-        "DW",
-        "SCMP"
+        "Bangkok Post",
+        "NPR",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-08-28T10:56:13+09:00",
-      "latest_published_at": "2026-08-28T12:30:00+09:00",
+      "first_published_at": "2026-08-28T10:56:17+09:00",
+      "latest_published_at": "2026-08-29T03:45:00+09:00",
       "articles": [
         {
-          "title": "Rwanda genocide: Dutch court sentences man to life in prison",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/rwanda-genocide-dutch-court-sentences-man-to-life-in-prison/a-78547749?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "12:30"
+          "title": "The missing in Nepal-Tibet flash floods",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3310264/the-missing-in-nepaltibet-flash-floods",
+          "published_at": "03:45"
         },
         {
-          "title": "A Dutch court convicts a Rwandan man over his home country's 1994 genocide, sentences him to life",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/dutch-court-convicts-rwandan-man-home-countrys-1994-136024690",
-          "published_at": "12:02"
+          "title": "Hundreds dead and almost 2000 missing after Nepal’s flash floods",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/hundreds-dead-and-almost-2000-missing-after-nepal-s-flash-floods-20260829-p60sm8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "01:08"
         },
         {
-          "title": "Dutch court jails man for life over role in Rwanda genocide",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3365618/dutch-court-jails-man-life-over-role-rwanda-genocide?utm_source=rss_feed",
+          "title": "The missing in Nepal-Tibet flash floods",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3309813/the-missing-in-nepaltibet-flash-floods",
+          "published_at": "16:48"
+        },
+        {
+          "title": "Hundreds killed, over 1,000 missing after flash floods in Nepal and Tibet",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
           "published_at": "10:56"
         }
       ]
     },
     {
-      "id": "world-21",
-      "title": "US academic who accused Jason Arday of plagiarism allowed to resume some work",
-      "title_en": "US academic who accused Jason Arday of plagiarism allowed to resume some work",
+      "id": "world-170",
+      "title": "미국-캐나다: 트럼프는 온타리오 호수의 이름을 '레이크 아메리카'로 변경하는 명령에 서명했습니다.",
+      "title_en": "US-CANADA: Trump signs order renaming Lake Ontario to ‘Lake America’",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQczdaTzJUYzZPd3F6MjZaU2lscEJGS3BtNEhqUGpBRmU4eW51NTFPalRva0xYbmRKeU9qbUZzOUdna251UVc1QmN4cmtobXBoWmRJaUg5c1FoZUdSTFpFa3ZBYkV5LUtvVjlJVmFrdlZUai1OUEMtODRTQlZhS0JSU25WTDdCNnp3SUlxdWlxbm9hM3lhakNiRzRVS0RsZXpZbzk4c20wdFBYbU1GcW53c3Z0Yw?oc=5",
+      "title_url": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
       "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "US academic who accused Jason Arday of plagiarism allowed to resume some work Reuters",
-      "excerpt_en": "US academic who accused Jason Arday of plagiarism allowed to resume some work Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQczdaTzJUYzZPd3F6MjZaU2lscEJGS3BtNEhqUGpBRmU4eW51NTFPalRva0xYbmRKeU9qbUZzOUdna251UVc1QmN4cmtobXBoWmRJaUg5c1FoZUdSTFpFa3ZBYkV5LUtvVjlJVmFrdlZUai1OUEMtODRTQlZhS0JSU25WTDdCNnp3SUlxdWlxbm9hM3lhakNiRzRVS0RsZXpZbzk4c20wdFBYbU1GcW53c3Z0Yw?oc=5",
-      "translation_status": "failed",
-      "score": 72,
+      "primary_source": "France24",
+      "excerpt": "도널드 트럼프 미국 대통령은 지난 8월 27일 레이크 온타리오(Lake Ontario)를 '레이크 아메리카(Lake America)'로 바꾸는 행정명령에 서명했으며, 변경 사항은 즉시 발효될 것이라고 밝혔습니다. 캐나다 총리 마크 카니(Mark Carney)가 X를 선택했습니다.",
+      "excerpt_en": "US President Donald Trump signed an executive order on August 27 to rename Lake Ontario as 'Lake America', a change he said would take effect immediately. Canadian Prime Minister Mark Carney took to X",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
+      "translation_status": "ok",
+      "score": 75,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 56
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Reuters",
-        "The Independent",
-        "Times of India"
+        "France24",
+        "Hindustan Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-28T15:16:50+09:00",
-      "latest_published_at": "2026-08-28T18:02:51+09:00",
+      "first_published_at": "2026-08-28T12:16:51+09:00",
+      "latest_published_at": "2026-08-29T07:02:01+09:00",
       "articles": [
         {
-          "title": "Academic who accused Jason Arday of plagiarism allowed to resume work amid probe",
+          "title": "US-Canada trade war: State Department makes big statement on Lake Ontario after Trump's move; sparks online reactions",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/uscanada-trade-war-state-department-makes-big-statement-on-lake-ontario-after-trumps-move-sparks-online-reactions-101787985475993.html",
+          "published_at": "07:02"
+        },
+        {
+          "title": "Did 'Jack Kimble' predict Trump's Lake Ontario name change? 2025 post goes viral amid US-Canada trade war",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/did-jack-kimble-predict-trumps-lake-ontario-name-change-2025-post-goes-viral-amid-us-canada-trade-war-101787977302746.html",
+          "published_at": "05:56"
+        },
+        {
+          "title": "Canada’s Carney responds to Trump’s Lake America name change with a history lesson",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/jason-arday-plagiarism-nathan-cofnas-ghent-university-b3041176.html",
-          "published_at": "18:02"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-trump-lake-ontario-carney-reaction-b3041149.html",
+          "published_at": "16:13"
         },
         {
-          "title": "Jason Arday plagiarism accuser Nathan Cofnas faced doubts over expertise, 'far-right agenda' at Ghent",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/uk/jason-arday-plagiarism-accuser-nathan-cofnas-faced-doubts-over-expertise-far-right-agenda-at-ghent/articleshow/133595910.cms",
-          "published_at": "17:15"
-        },
-        {
-          "title": "US academic who accused Jason Arday of plagiarism allowed to resume some work",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQczdaTzJUYzZPd3F6MjZaU2lscEJGS3BtNEhqUGpBRmU4eW51NTFPalRva0xYbmRKeU9qbUZzOUdna251UVc1QmN4cmtobXBoWmRJaUg5c1FoZUdSTFpFa3ZBYkV5LUtvVjlJVmFrdlZUai1OUEMtODRTQlZhS0JSU25WTDdCNnp3SUlxdWlxbm9hM3lhakNiRzRVS0RsZXpZbzk4c20wdFBYbU1GcW53c3Z0Yw?oc=5",
-          "published_at": "15:16"
+          "title": "US-CANADA: Trump signs order renaming Lake Ontario to ‘Lake America’",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
+          "published_at": "12:16"
         }
       ]
     },
     {
-      "id": "world-44",
-      "title": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
-      "title_en": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
+      "id": "world-205",
+      "title": "'사우나는 덥고 불편해요': EU에 투표하세요. 대화로 아이슬란드가 땀을 흘리게 됩니다",
+      "title_en": "‘The Sauna Is Hot and Uncomfortable’: Vote on E.U. Talks Makes Iceland Sweat",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYWhTek5LX1pzampoMXpSNFQ5NzhUM0VUN0pkSDlxX3M0b0drM3h3ZHBSbzE0Slh4Wk15aFphRkFJV0pmLVExNElKOFo2ajhIcHoyRXR0V0pCcW1zMmVCMTdMazFIMTg5QjF1SVRrY2FvNU9KWElsQUNtWDNwVDZYbldYcUlfX3NMUWJkV190WjNLUEJFUzYyalNuc1VUM2RVZ0RLSDg2aWRPemgtaEE?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Oyo Nyimba, the Ugandan king and world's youngest monarch, has died at 34. Crowned at age three, he held symbolic yet influential power.",
-      "excerpt_en": "Oyo Nyimba, the Ugandan king and world's youngest monarch, has died at 34. Crowned at age three, he held symbolic yet influential power.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/ugandan-king-oyo-nyimba-once-worlds-youngest-monarch-dies-at-34-101787923504592.html",
-      "translation_status": "failed",
-      "score": 68,
+      "title_url": "https://www.nytimes.com/2026/08/28/world/europe/iceland-european-union-vote.html",
+      "category": "유럽",
+      "primary_source": "New York Times",
+      "excerpt": "아이슬란드의 유권자들은 유럽연합(EU) 회원국이 되기 위해 오랫동안 중단된 협상을 재개해야 할지 여부를 결정하기 위해 여론조사로 향하고 있으며, 그들은 미국의 그림자 속에서 그렇게 하고 있습니다.",
+      "excerpt_en": "Voters in Iceland are heading to the polls to decide whether the country should resume long-stalled negotiations on becoming a member of the European Union and they are doing so in the shadow of U.S. ",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/trumps-greenland-threats-cast-shadow-icelands-vote-trigger-136051151",
+      "translation_status": "ok",
+      "score": 73,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 51
+        "raw75": 55
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
         "ABC News",
-        "Hindustan Times",
-        "Reuters"
+        "ABC News Australia",
+        "New York Times"
       ],
-      "first_published_at": "2026-08-28T09:02:06+09:00",
-      "latest_published_at": "2026-08-28T13:27:51+09:00",
+      "first_published_at": "2026-08-28T15:08:23+09:00",
+      "latest_published_at": "2026-08-29T04:14:14+09:00",
       "articles": [
         {
-          "title": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/ugandan-king-oyo-nyimba-once-worlds-youngest-monarch-dies-at-34-101787923504592.html",
-          "published_at": "13:27"
-        },
-        {
-          "title": "Oyo Nyimba, Ugandan 'boy king' who mesmerized world leaders, dies at 34",
+          "title": "Trump's Greenland threats cast a shadow on Iceland's vote on whether to trigger EU membership talks",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/oyo-nyimba-ugandan-boy-king-mesmerized-world-leaders-136023567",
-          "published_at": "12:11"
+          "url": "https://abcnews.com/International/wireStory/trumps-greenland-threats-cast-shadow-icelands-vote-trigger-136051151",
+          "published_at": "04:14"
         },
         {
-          "title": "Ugandan King Oyo Nyimba, once world's youngest monarch, dies at 34",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYWhTek5LX1pzampoMXpSNFQ5NzhUM0VUN0pkSDlxX3M0b0drM3h3ZHBSbzE0Slh4Wk15aFphRkFJV0pmLVExNElKOFo2ajhIcHoyRXR0V0pCcW1zMmVCMTdMazFIMTg5QjF1SVRrY2FvNU9KWElsQUNtWDNwVDZYbldYcUlfX3NMUWJkV190WjNLUEJFUzYyalNuc1VUM2RVZ0RLSDg2aWRPemgtaEE?oc=5",
-          "published_at": "09:02"
+          "title": "Icelanders Are Voting on E.U. Membership Talks. Here’s What to Know.",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/29/world/europe/iceland-eu-referendum-what-to-know.html",
+          "published_at": "04:01"
+        },
+        {
+          "title": "Interest rates, fish and Donald Trump on Icelanders' minds as nation goes to referendum on EU",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-29/iceland-referendum-on-restarting-talks-to-join-european-union/107084870",
+          "published_at": "03:23"
+        },
+        {
+          "title": "‘The Sauna Is Hot and Uncomfortable’: Vote on E.U. Talks Makes Iceland Sweat",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/28/world/europe/iceland-european-union-vote.html",
+          "published_at": "15:08"
         }
       ]
     },
     {
-      "id": "world-72",
-      "title": "Syrian president names former commander of Kurdish-led force as adviser",
-      "title_en": "Syrian president names former commander of Kurdish-led force as adviser",
+      "id": "world-58",
+      "title": "스페인, EU에 세우타 이민자 처리에 도움 요청",
+      "title_en": "Spain asks EU for help processing migrants in Ceuta",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmJlelo0bnZxZVp6UjJidmJUZG1zSkJ3cnNCQnFsRXN0VlhrbXRzRkN2RUVnNmRIazRkb0xZX0p4R0t2Y0o1eU9sZ210cDh5ZHpHeEVnN0o4Rmw2MVJDWTNvNWY4UjFMNndyUl9JeHRBVDZxX0JndUdBWTdiNmNfSGNhdXp6dUlmYVFtdWVxakxFMjU2U05ET01tV2VtTFJJdU1IdWRLUzViQnFnWEtld25LZG1HWlM3ck40?oc=5",
-      "category": "중동",
+      "title_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzMxRWo1SnZvb2gyS3hjUU1KYzRNT05IS2dHMHZvb1VQQ0otTTNCempCa0hQS0ktanpfYnU0TU9ZU2l0akdPY3pQUkJHOUF2bUZCMFdla0FZYUdNUGFqVW9MUEtnck1JZFdkMVRqQmx5TGxsOWNwa2pjcDZsUmxiX2o2UlhFeGh0WXlwRk9Ya0NoNGtzcXpZbg?oc=5",
+      "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "Syrian President Ahmed al-Sharaa appointed the former commander of a now-dissolved Kurdish-led fighting force as a presidential adviser on Friday, reflecting a rapprochement between the two longtime c",
-      "excerpt_en": "Syrian President Ahmed al-Sharaa appointed the former commander of a now-dissolved Kurdish-led fighting force as a presidential adviser on Friday, reflecting a rapprochement between the two longtime c",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/syria-president-former-commander-sdf-kurdish-forces-9.7323985?cmp=rss",
-      "translation_status": "failed",
+      "excerpt": "7월 말 모로코에서 불법적으로 세우타로 건너온 70,000명 이상의 이주민 중 약 5,000명이 여전히 스페인의 고립된 영토에 남아 있습니다. 세우타 주민들은 계속되는 불법 행위에 분노해 항의해 왔다.",
+      "excerpt_en": "Of the over 70,000 migrants who illegally crossed into Ceuta from Morocco in late July, some 5,000 still remain in the Spanish exclave. Ceuta residents have been angrily protesting their continued pre",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/spain-asks-eu-s-frontex-for-help-in-processing-ceuta-migrants/a-78553545?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
         "article_score": 18,
@@ -908,46 +795,46 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBC",
-        "Euronews",
+        "Al Jazeera",
+        "DW",
         "Reuters"
       ],
-      "first_published_at": "2026-08-28T12:10:28+09:00",
-      "latest_published_at": "2026-08-28T14:34:43+09:00",
+      "first_published_at": "2026-08-28T18:43:43+09:00",
+      "latest_published_at": "2026-08-28T23:39:48+09:00",
       "articles": [
         {
-          "title": "Syria's al-Sharaa appoints SDF commander as adviser after Kurdish force dissolves",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/28/syrias-al-sharaa-appoints-sdf-commander-as-adviser-after-kurdish-force-dissolves",
-          "published_at": "14:34"
+          "title": "Spain asks EU for help to process 5,000 Ceuta migrants amid local unrest",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/28/spain-asks-eu-for-help-to-process-5000-ceuta-migrants-amid-local-unrest?traffic_source=rss",
+          "published_at": "23:39"
         },
         {
-          "title": "Syrian president names former commander of Kurdish-led fighting force as adviser",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/syria-president-former-commander-sdf-kurdish-forces-9.7323985?cmp=rss",
-          "published_at": "13:58"
+          "title": "Spain asks EU's Frontex for help in processing Ceuta migrants",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/spain-asks-eu-s-frontex-for-help-in-processing-ceuta-migrants/a-78553545?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "21:23"
         },
         {
-          "title": "Syrian president names former commander of Kurdish-led force as adviser",
+          "title": "Spain asks EU for help processing migrants in Ceuta",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmJlelo0bnZxZVp6UjJidmJUZG1zSkJ3cnNCQnFsRXN0VlhrbXRzRkN2RUVnNmRIazRkb0xZX0p4R0t2Y0o1eU9sZ210cDh5ZHpHeEVnN0o4Rmw2MVJDWTNvNWY4UjFMNndyUl9JeHRBVDZxX0JndUdBWTdiNmNfSGNhdXp6dUlmYVFtdWVxakxFMjU2U05ET01tV2VtTFJJdU1IdWRLUzViQnFnWEtld25LZG1HWlM3ck40?oc=5",
-          "published_at": "12:10"
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzMxRWo1SnZvb2gyS3hjUU1KYzRNT05IS2dHMHZvb1VQQ0otTTNCempCa0hQS0ktanpfYnU0TU9ZU2l0akdPY3pQUkJHOUF2bUZCMFdla0FZYUdNUGFqVW9MUEtnck1JZFdkMVRqQmx5TGxsOWNwa2pjcDZsUmxiX2o2UlhFeGh0WXlwRk9Ya0NoNGtzcXpZbg?oc=5",
+          "published_at": "18:43"
         }
       ]
     },
     {
-      "id": "world-103",
-      "title": "Serbia’s president criticizes UN court for not releasing war criminal Mladic to die at home",
+      "id": "world-87",
+      "title": "세르비아 대통령, 전범 믈라디치를 자택에서 죽도록 석방하지 않은 유엔 법원 비난",
       "title_en": "Serbia’s president criticizes UN court for not releasing war criminal Mladic to die at home",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUkQtUkNBaXN6LTRGZEZ1Z3pPNjVUOEw4LV8ySHNYLUlsTjdMUGpyckttUktZNlhqNlU2YzV5TGtzQWlncUtHS0hES2dDcXNaNDFOYlJjb0VGTWdlSUgxZE8zRHJNTnFHT0hvbnBsbEhFMTR0YmNPM0I1WndxVUVMNExsaGplRFZzNWEwMTk2VGZfbWhk?oc=5",
       "category": "기타",
       "primary_source": "AP News",
-      "excerpt": "Serbia's President Aleksandar Vucic has accused a U.N. court of “uncivilized behavior” for denying early release to former Bosnian Serb commander Ratko Mladic",
+      "excerpt": "알렉산다르 부치치 세르비아 대통령은 전 보스니아 세르비아 사령관 라트코 믈라디치의 조기 석방을 거부한 것에 대해 유엔 법원이 “미개한 행동”을 했다고 비난했습니다.",
       "excerpt_en": "Serbia's President Aleksandar Vucic has accused a U.N. court of “uncivilized behavior” for denying early release to former Bosnian Serb commander Ratko Mladic",
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/serbias-president-criticizes-court-releasing-war-criminal-mladic-136032820",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
         "article_score": 18,
@@ -990,265 +877,166 @@
       ]
     },
     {
-      "id": "world-150",
-      "title": "Hundreds killed, over 1,000 missing after flash floods in Nepal and Tibet",
-      "title_en": "Hundreds killed, over 1,000 missing after flash floods in Nepal and Tibet",
+      "id": "world-247",
+      "title": "이란 전쟁은 트럼프의 관심을 다른 곳으로 돌리면서 6개월의 이정표를 세웠습니다.",
+      "title_en": "Iran war hits 6-month milestone with Trump's attention largely elsewhere",
       "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
-      "category": "아시아",
-      "primary_source": "NPR",
-      "excerpt": "KATHMANDU - More than 1,400 people are missing and at least 552 have been killed after a devastating, tsunami-like wall of water gouged a path through the border region between Nepal and Tibet, sweepi",
-      "excerpt_en": "KATHMANDU - More than 1,400 people are missing and at least 552 have been killed after a devastating, tsunami-like wall of water gouged a path through the border region between Nepal and Tibet, sweepi",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3309750/nepalchina-floods-latest-developments",
-      "translation_status": "failed",
-      "score": 65,
+      "title_url": "https://www.cbc.ca/news/world/iran-war-six-months-trump-9.7323892?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "도널드 트럼프 대통령은 이란과의 미국-이스라엘 전쟁이 6개월에 접어들면서 금요일 대선을 앞두고 난감한 순간에 도착했다.",
+      "excerpt_en": "President Donald Trump arrives at an awkward moment for his presidency on Friday as the US-Israel war against Iran reaches the six-month mark, a notable milestone for a conflict that the Republican le",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3365663/iran-war-hits-six-month-mark-trump-says-hes-not-hurry?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
-        "diversity_score": 10,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 49
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "NPR"
-      ],
-      "first_published_at": "2026-08-28T10:56:17+09:00",
-      "latest_published_at": "2026-08-28T16:48:00+09:00",
-      "articles": [
-        {
-          "title": "The missing in Nepal-Tibet flash floods",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3309813/the-missing-in-nepaltibet-flash-floods",
-          "published_at": "16:48"
-        },
-        {
-          "title": "Nepal-China floods: Latest developments",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3309750/nepalchina-floods-latest-developments",
-          "published_at": "11:30"
-        },
-        {
-          "title": "Hundreds killed, over 1,000 missing after flash floods in Nepal and Tibet",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/08/28/nx-s1-5946732/hundreds-killed-over-1-000-missing-after-flash-floods-in-nepal-and-tibet",
-          "published_at": "10:56"
-        }
-      ]
-    },
-    {
-      "id": "world-52",
-      "title": "King Harald, Norway's reform-minded head of state, dies at 89",
-      "title_en": "King Harald, Norway's reform-minded head of state, dies at 89",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEdTOE1wSHluakhCd1otX1RTSXBoMU44SnRvLWVKMlBMdWlwZ282eE9zWjZ4UFduZnhHX3N2dC1jOWVZbkVWVEJvRjdnYmdJUUFJYU4zbC1ZRVZwc25KQ3BvRDlyaW5UREo4UVFYSnUzQVVabkxHVkpOWHpOMFVBb291SWtGeUg1SWtrNHFSWmxFZHlGVFdURkRtSjlhUW9ramVN?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Norway's King ‌Harald, a ​reformer who emerged ​from the shadow ​of his well-loved ‌father over more than three decades on the ‌throne, has died aged ​89, the royal palace said on ​Friday.",
-      "excerpt_en": "Norway's King ‌Harald, a ​reformer who emerged ​from the shadow ​of his well-loved ‌father over more than three decades on the ‌throne, has died aged ​89, the royal palace said on ​Friday.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/king-harald-norway-obit-9.7323781?cmp=rss",
-      "translation_status": "failed",
-      "score": 64,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 48
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "CBC",
+        "CBS News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-28T17:13:07+09:00",
+      "latest_published_at": "2026-08-29T01:11:18+09:00",
+      "articles": [
+        {
+          "title": "Iran war hits 6-month mark with no end in sight",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-6-months-no-end-in-sight/",
+          "published_at": "01:11"
+        },
+        {
+          "title": "As Iran war hits six-month mark, Trump says he’s ‘not in a hurry’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3365663/iran-war-hits-six-month-mark-trump-says-hes-not-hurry?utm_source=rss_feed",
+          "published_at": "17:26"
+        },
+        {
+          "title": "Iran war hits 6-month milestone with Trump's attention largely elsewhere",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/iran-war-six-months-trump-9.7323892?cmp=rss",
+          "published_at": "17:13"
+        }
+      ]
+    },
+    {
+      "id": "world-16",
+      "title": "Zelenskiy는 미국이 모스크바 회의에 대한 정보를 키예프에 제공했다고 말했습니다.",
+      "title_en": "Zelenskiy says US gave Kyiv information about meetings in Moscow",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHMxLV9xV0M5U1ZzREhsNGJ5bnRCM2ZkREZYei1oUFFoWHo2SE5sZFA3V21zazJRdWJzX1pYcS1UTzl6S2ktV3VBanhjNUdYWm1YNFpIdDJHSVJwc3lsMnRBYVN4bjl0eUZCNldNdGxzRXNKZ2dTOGxMZFc4elB2V0ltMVAzemFFTTdtT2Z2bkEwQUpJOUg4SzZheExEMTFBYjhRVVgyQVBmcFFHMVlV?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "월스트리트저널(WSJ)은 존 랫클리프 CIA 국장이 나토 회원국에 대한 공격을 러시아에 경고하기 위해 모스크바를 방문했다고 수요일 보도했다.",
+      "excerpt_en": "The Wall Street Journal reported on Wednesday that CIA Director John Ratcliffe had travelled to Moscow to warn Russia off any attack on a NATO member.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/zelensky-says-us-gave-ukraine-information-about-number-of-meetings-in-moscow-over-past-few-days-101787968594140.html",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-08-28T06:38:00+09:00",
-      "latest_published_at": "2026-08-28T08:48:46+09:00",
+      "first_published_at": "2026-08-28T18:57:58+09:00",
+      "latest_published_at": "2026-08-29T02:07:22+09:00",
       "articles": [
         {
-          "title": "King Harald V, Norway's reform-minded head of state, dead at 89",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/king-harald-norway-obit-9.7323781?cmp=rss",
-          "published_at": "08:48"
-        },
-        {
-          "title": "King Harald V, Norway's reform-minded head of state, dies at 89",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ2Vpb1R5eWktXzhJUURtdXFSX1J2c05obUU2QkQ0T21DTjdpdUl6dHBqU3FtRlVCNkpPazBjZk5BOFNsOG5DX1RwRHlNUjhOckcwQVIyM2V2anNXdUNoUzRMWVIwdDlxVEF3TkUxemhraE1DUFBCTGk2anoyWWowdW1ReUQ1dDdWZU9WVE9pb2Uwbm5HSzBvT1lxSkdMejNmc25fVzBKM3lIRW9DbVE?oc=5",
-          "published_at": "06:55"
-        },
-        {
-          "title": "King Harald, Norway's reform-minded head of state, dies at 89",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEdTOE1wSHluakhCd1otX1RTSXBoMU44SnRvLWVKMlBMdWlwZ282eE9zWjZ4UFduZnhHX3N2dC1jOWVZbkVWVEJvRjdnYmdJUUFJYU4zbC1ZRVZwc25KQ3BvRDlyaW5UREo4UVFYSnUzQVVabkxHVkpOWHpOMFVBb291SWtGeUg1SWtrNHFSWmxFZHlGVFdURkRtSjlhUW9ramVN?oc=5",
-          "published_at": "06:38"
-        }
-      ]
-    },
-    {
-      "id": "world-97",
-      "title": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
-      "title_en": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/israeli-strikes-kill-5-in-gaza-and-3-in-west-bank-and-other-news-in-the-middle-east-101787942154007.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East AP News",
-      "excerpt_en": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ3FmcjlycjlqYTlNSzJueHF3d2ZkRHJ3c2ZEbFJkYzZ6ZERHdVE0WXFlV3Y0Uy10emVoZzV4dlBleGRrbTV6a0Z1WkJPVHBTM1NqdExfRUZvRGk5bHJRdnZSdEdBbXBSN2h4VmE0SzB2emV4NHdQQUZSSWRpUlNGRjNaamtWbEdUbGtoSlNtMzF6TGd0b05SdHMtRTFaYVk?oc=5",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-28T18:35:53+09:00",
-      "latest_published_at": "2026-08-28T22:15:00+09:00",
-      "articles": [
-        {
-          "title": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ3FmcjlycjlqYTlNSzJueHF3d2ZkRHJ3c2ZEbFJkYzZ6ZERHdVE0WXFlV3Y0Uy10emVoZzV4dlBleGRrbTV6a0Z1WkJPVHBTM1NqdExfRUZvRGk5bHJRdnZSdEdBbXBSN2h4VmE0SzB2emV4NHdQQUZSSWRpUlNGRjNaamtWbEdUbGtoSlNtMzF6TGd0b05SdHMtRTFaYVk?oc=5",
-          "published_at": "22:15"
-        },
-        {
-          "title": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
+          "title": "Zelensky says US gave Ukraine information about ‘number of meetings’ in Moscow over past few days",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/israeli-strikes-kill-5-in-gaza-and-3-in-west-bank-and-other-news-in-the-middle-east-101787942154007.html",
-          "published_at": "18:35"
+          "url": "https://www.hindustantimes.com/world-news/zelensky-says-us-gave-ukraine-information-about-number-of-meetings-in-moscow-over-past-few-days-101787968594140.html",
+          "published_at": "02:07"
+        },
+        {
+          "title": "Zelenskiy says US gave Kyiv information about meetings in Moscow",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHMxLV9xV0M5U1ZzREhsNGJ5bnRCM2ZkREZYei1oUFFoWHo2SE5sZFA3V21zazJRdWJzX1pYcS1UTzl6S2ktV3VBanhjNUdYWm1YNFpIdDJHSVJwc3lsMnRBYVN4bjl0eUZCNldNdGxzRXNKZ2dTOGxMZFc4elB2V0ltMVAzemFFTTdtT2Z2bkEwQUpJOUg4SzZheExEMTFBYjhRVVgyQVBmcFFHMVlV?oc=5",
+          "published_at": "18:57"
         }
       ]
     },
     {
-      "id": "world-144",
-      "title": "Ukraine’s Zelenskyy plans to hit Russia with ‘1,000 drones’ a day",
-      "title_en": "Ukraine’s Zelenskyy plans to hit Russia with ‘1,000 drones’ a day",
+      "id": "world-54",
+      "title": "잔혹한 갱단 살해 이후 아이티에서 약 20만명의 강제추방자가 발생했다고 유엔이 밝혔습니다.",
+      "title_en": "Haiti receives nearly 200,000 forced deportees, UN says after brutal gang killing",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/8/28/ukraines-zelenskyy-plans-to-hit-russia-with-1000-drones-a-day?traffic_source=rss",
-      "category": "유럽",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Ongoing Russian attacks have killed several people and wounded dozens across Ukraine.",
-      "excerpt_en": "Ongoing Russian attacks have killed several people and wounded dozens across Ukraine.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/8/28/ukraines-zelenskyy-plans-to-hit-russia-with-1000-drones-a-day?traffic_source=rss",
-      "translation_status": "failed",
-      "score": 63,
+      "title_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUk9PdkZXSEIwWkpEUkZvbkxaTXgxaHNzMGFNVVlRWFhDdU9FQXJ6d1ZiNzNGZllJZGItdTBSVll0RGx1aDRHdmQ4WlhQZ3c2Q0dQSlQ0UkxQdks1eURQN2xzR3hLZWR0dFlHNGJuNEdWNkRDZkVZMXdpZWRHSzdTVXZacDl5Ym1LTXEyYlVVVmxGQ2NUUTlzd2pQZ2p0QlE1d00wTU5lSUdBd016UXpscnVpNVJ5R2RfR1o3MA?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "갱단 폭력이 급증하는 가운데 아이티는 수천 명의 강제 귀환민을 수용했습니다. 치명적인 갱단 공격 이후 아이티의 상황을 논의하기 위해 유엔 안전보장이사회의 긴급 회의가 소집되었습니다.",
+      "excerpt_en": "Amid surging gang violence, Haiti received thousands of forced returnees. An emergency meeting of the UN Security Council was called to discuss the situation in Haiti following a deadly gang attack.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/nearly-200-000-forced-deportees-received-by-haiti-un-says/a-78554006?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "The Independent"
+        "DW",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-28T19:03:02+09:00",
-      "latest_published_at": "2026-08-28T22:32:52+09:00",
+      "first_published_at": "2026-08-28T20:36:57+09:00",
+      "latest_published_at": "2026-08-29T04:49:00+09:00",
       "articles": [
         {
-          "title": "Ukraine-Russia war latest: Zelensky orders military to hit Russia with ‘1,000 drones a day’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-burnham-missiles-nato-b3040764.html",
-          "published_at": "22:32"
+          "title": "Nearly 200,000 forced deportees received by Haiti, UN says",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/nearly-200-000-forced-deportees-received-by-haiti-un-says/a-78554006?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "04:49"
         },
         {
-          "title": "Ukraine’s Zelenskyy plans to hit Russia with ‘1,000 drones’ a day",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/28/ukraines-zelenskyy-plans-to-hit-russia-with-1000-drones-a-day?traffic_source=rss",
-          "published_at": "19:03"
+          "title": "Haiti receives nearly 200,000 forced deportees, UN says after brutal gang killing",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUk9PdkZXSEIwWkpEUkZvbkxaTXgxaHNzMGFNVVlRWFhDdU9FQXJ6d1ZiNzNGZllJZGItdTBSVll0RGx1aDRHdmQ4WlhQZ3c2Q0dQSlQ0UkxQdks1eURQN2xzR3hLZWR0dFlHNGJuNEdWNkRDZkVZMXdpZWRHSzdTVXZacDl5Ym1LTXEyYlVVVmxGQ2NUUTlzd2pQZ2p0QlE1d00wTU5lSUdBd016UXpscnVpNVJ5R2RfR1o3MA?oc=5",
+          "published_at": "20:36"
         }
       ]
     },
     {
-      "id": "world-202",
-      "title": "Planned statue of ex-Victorian premier Daniel Andrews scrapped",
-      "title_en": "Planned statue of ex-Victorian premier Daniel Andrews scrapped",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-08-29/statue-tribute-to-daniel-andrews-scrapped/107093218",
-      "category": "아시아",
-      "primary_source": "ABC News Australia",
-      "excerpt": "The $134,000 cost of the statue of the former Victorian premier has been heavily criticised by the Liberal opposition Get our breaking news email , free app or daily news podcast The Carroll governmen",
-      "excerpt_en": "The $134,000 cost of the statue of the former Victorian premier has been heavily criticised by the Liberal opposition Get our breaking news email , free app or daily news podcast The Carroll governmen",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/aug/29/controversial-plans-for-a-daniel-andrews-sculpture-officially-scrapped-by-victorian-government",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-28T23:36:16+09:00",
-      "latest_published_at": "2026-08-28T23:47:37+09:00",
-      "articles": [
-        {
-          "title": "Controversial plans for a Daniel Andrews sculpture officially scrapped by Victorian government",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/29/controversial-plans-for-a-daniel-andrews-sculpture-officially-scrapped-by-victorian-government",
-          "published_at": "23:47"
-        },
-        {
-          "title": "Planned statue of ex-Victorian premier Daniel Andrews scrapped",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/statue-tribute-to-daniel-andrews-scrapped/107093218",
-          "published_at": "23:36"
-        }
-      ]
-    },
-    {
-      "id": "world-42",
-      "title": "Israel army carries out rare West Bank air strike, killing 'three terrorists'",
+      "id": "world-60",
+      "title": "이스라엘군, 서안지구 공습으로 '테러리스트 3명 사살'",
       "title_en": "Israel army carries out rare West Bank air strike, killing 'three terrorists'",
       "title_source": "earliest_pick",
       "title_url": "https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists",
       "category": "중동",
       "primary_source": "France24",
-      "excerpt": "Israel's military said it carried out an air strike in the Jenin area in the West Bank on Friday that killed a ​Palestinian it described as a Hamas militant operative as well as two of his accomplices",
+      "excerpt": "이스라엘군은 금요일 서안 지구 예닌 지역에 공습을 가해 하마스 무장세력으로 묘사된 팔레스타인인 1명과 그의 공범 2명을 사살했다고 밝혔습니다.",
       "excerpt_en": "Israel's military said it carried out an air strike in the Jenin area in the West Bank on Friday that killed a ​Palestinian it described as a Hamas militant operative as well as two of his accomplices",
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/middle-east/20260828-israel-army-carries-out-rare-west-bank-air-strike-killing-three-terrorists",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
         "article_score": 12,
@@ -1284,18 +1072,18 @@
       ]
     },
     {
-      "id": "world-99",
-      "title": "Russian drones batter Ukraine's Kyiv region, hitting apartments and warehouses for a second day",
-      "title_en": "Russian drones batter Ukraine's Kyiv region, hitting apartments and warehouses for a second day",
+      "id": "world-85",
+      "title": "이스라엘 공습으로 가자지구 5명, 서안지구 3명 사망 등 중동 지역 소식",
+      "title_en": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/russian-drones-batter-ukraines-kyiv-region-hitting-apartments-136024871",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "Russian forces have resumed drone attacks on Ukraine’s Kyiv region, hitting numerous buildings and storage depots",
-      "excerpt_en": "Russian forces have resumed drone attacks on Ukraine’s Kyiv region, hitting numerous buildings and storage depots",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/russian-drones-batter-ukraines-kyiv-region-hitting-apartments-136024871",
-      "translation_status": "failed",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/israeli-strikes-kill-5-in-gaza-and-3-in-west-bank-and-other-news-in-the-middle-east-101787942154007.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "이스라엘 공습으로 가자지구 5명, 서안지구 3명 사망 등 중동 소식 AP통신",
+      "excerpt_en": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ3FmcjlycjlqYTlNSzJueHF3d2ZkRHJ3c2ZEbFJkYzZ6ZERHdVE0WXFlV3Y0Uy10emVoZzV4dlBleGRrbTV6a0Z1WkJPVHBTM1NqdExfRUZvRGk5bHJRdnZSdEdBbXBSN2h4VmE0SzB2emV4NHdQQUZSSWRpUlNGRjNaamtWbEdUbGtoSlNtMzF6TGd0b05SdHMtRTFaYVk?oc=5",
+      "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
         "article_score": 12,
@@ -1304,6 +1092,194 @@
         "breaking_score": 7,
         "time_score": 2,
         "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-28T18:35:53+09:00",
+      "latest_published_at": "2026-08-28T22:15:00+09:00",
+      "articles": [
+        {
+          "title": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ3FmcjlycjlqYTlNSzJueHF3d2ZkRHJ3c2ZEbFJkYzZ6ZERHdVE0WXFlV3Y0Uy10emVoZzV4dlBleGRrbTV6a0Z1WkJPVHBTM1NqdExfRUZvRGk5bHJRdnZSdEdBbXBSN2h4VmE0SzB2emV4NHdQQUZSSWRpUlNGRjNaamtWbEdUbGtoSlNtMzF6TGd0b05SdHMtRTFaYVk?oc=5",
+          "published_at": "22:15"
+        },
+        {
+          "title": "Israeli strikes kill 5 in Gaza and 3 in West Bank, and other news in the Middle East",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/israeli-strikes-kill-5-in-gaza-and-3-in-west-bank-and-other-news-in-the-middle-east-101787942154007.html",
+          "published_at": "18:35"
+        }
+      ]
+    },
+    {
+      "id": "world-125",
+      "title": "미국, 중국 해커가 기관을 공격했다는 진술 수정",
+      "title_en": "US revises statements suggesting Chinese hackers attacked agencies",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/2026/8/29/us-revises-statements-suggesting-chinese-hackers-attacked-agencies?traffic_source=rss",
+      "category": "아시아",
+      "primary_source": "Al Jazeera",
+      "excerpt": "법무부는 미국 상원, 연방준비은행, NASA 등이 중국 정부가 후원하는 해킹 그룹인 QTFY의 표적 중 하나라고 밝혔습니다.",
+      "excerpt_en": "The Department of Justice said that US Senate, the Federal Reserve, NASA and others were \"among the targets of QTFY,\" a Chinese state-sponsored hacking group.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-revises-china-linked-hacking-qtfy-claims-says-agencies-were-only-targets-101787969737948.html",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-29T00:46:20+09:00",
+      "latest_published_at": "2026-08-29T02:24:28+09:00",
+      "articles": [
+        {
+          "title": "US revises China-linked hacking claims, says agencies were only targets",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-revises-china-linked-hacking-qtfy-claims-says-agencies-were-only-targets-101787969737948.html",
+          "published_at": "02:24"
+        },
+        {
+          "title": "US revises statements suggesting Chinese hackers attacked agencies",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/29/us-revises-statements-suggesting-chinese-hackers-attacked-agencies?traffic_source=rss",
+          "published_at": "00:46"
+        }
+      ]
+    },
+    {
+      "id": "world-183",
+      "title": "전 빅토리아주 총리 다니엘 앤드류스의 동상이 폐기될 예정이었다",
+      "title_en": "Planned statue of ex-Victorian premier Daniel Andrews scrapped",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.abc.net.au/news/2026-08-29/statue-tribute-to-daniel-andrews-scrapped/107093218",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "전 빅토리아 총리 동상의 134,000달러 비용은 자유당 야당으로부터 심한 비난을 받았습니다. 속보 이메일, 무료 앱 또는 일간 뉴스 팟캐스트를 받아보세요 The Carroll Governmentmen",
+      "excerpt_en": "The $134,000 cost of the statue of the former Victorian premier has been heavily criticised by the Liberal opposition Get our breaking news email , free app or daily news podcast The Carroll governmen",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/australia-news/2026/aug/29/controversial-plans-for-a-daniel-andrews-sculpture-officially-scrapped-by-victorian-government",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-08-28T23:36:16+09:00",
+      "latest_published_at": "2026-08-28T23:47:37+09:00",
+      "articles": [
+        {
+          "title": "Controversial plans for a Daniel Andrews sculpture officially scrapped by Victorian government",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/29/controversial-plans-for-a-daniel-andrews-sculpture-officially-scrapped-by-victorian-government",
+          "published_at": "23:47"
+        },
+        {
+          "title": "Planned statue of ex-Victorian premier Daniel Andrews scrapped",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-29/statue-tribute-to-daniel-andrews-scrapped/107093218",
+          "published_at": "23:36"
+        }
+      ]
+    },
+    {
+      "id": "world-326",
+      "title": "칼리드 셰이크 모하메드: 미국 법원은 9·11 테러 주모자의 자백이 재판에서 불리하게 사용될 수 없다고 판결",
+      "title_en": "Khalid Sheikh Mohammed: US court rules alleged 9/11 mastermind's confessions cannot be used against him in trial",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/khalid-sheikh-mohammed-us-court-rules-alleged-9-11-masterminds-confessions-cannot-be-used-against-him-in-trial-101787962033062.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "9·11테러 이후 25년이 지난 지금, 주모자로 추정되는 칼리드 셰이크 모하메드를 처벌하려는 노력이 큰 장애물에 부딪혔다. CBS 뉴스는 밀리타를 배웠습니다",
+      "excerpt_en": "Coming up on 25 years since the September 11th terrorist attacks, the effort to bring to justice the alleged mastermind, Khalid Sheikh Mohammed, has hit a major obstacle. CBS News has learned a milita",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/judge-throws-out-confession-of-man-accused-of-plotting-911-attack/",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-08-29T00:19:04+09:00",
+      "latest_published_at": "2026-08-29T02:16:48+09:00",
+      "articles": [
+        {
+          "title": "Judge throws out confession of Khalid Sheikh Mohammed, man accused of plotting 9/11 attack",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/judge-throws-out-confession-of-man-accused-of-plotting-911-attack/",
+          "published_at": "02:16"
+        },
+        {
+          "title": "Khalid Sheikh Mohammed: US court rules alleged 9/11 mastermind's confessions cannot be used against him in trial",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/khalid-sheikh-mohammed-us-court-rules-alleged-9-11-masterminds-confessions-cannot-be-used-against-him-in-trial-101787962033062.html",
+          "published_at": "00:19"
+        }
+      ]
+    },
+    {
+      "id": "world-80",
+      "title": "러시아 드론이 우크라이나 키예프 지역을 공격해 이틀 동안 아파트와 창고를 공격했습니다.",
+      "title_en": "Russian drones batter Ukraine's Kyiv region, hitting apartments and warehouses for a second day",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/russian-drones-batter-ukraines-kyiv-region-hitting-apartments-136024871",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "러시아군이 우크라이나 키예프 지역에 대한 드론 공격을 재개해 수많은 건물과 창고를 공격했습니다.",
+      "excerpt_en": "Russian forces have resumed drone attacks on Ukraine’s Kyiv region, hitting numerous buildings and storage depots",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/russian-drones-batter-ukraines-kyiv-region-hitting-apartments-136024871",
+      "translation_status": "ok",
+      "score": 60,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
@@ -1331,134 +1307,132 @@
       ]
     },
     {
-      "id": "world-293",
-      "title": "‘Netanyahu has panicked Trump’: Iran security chief denies plot to kill US President's son Barron Trump",
-      "title_en": "‘Netanyahu has panicked Trump’: Iran security chief denies plot to kill US President's son Barron Trump",
+      "id": "world-294",
+      "title": "저는 린제이 클랜시 재판을 지켜본 엄마입니다. 산후 정신병에 대해 알아두셨으면 하는 점은 다음과 같습니다.",
+      "title_en": "I’m a mother who watched the Lindsay Clancy trial. Here’s what I want you to know about postpartum psychosis",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/netanyahu-has-panicked-trump-iran-security-chief-denies-plot-to-kill-us-presidents-son-barron-trump-101787889830640.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Major General Rezaei claimed that if Iran decided to carry out an assassination, \"nothing would prevent\" the country from doing so.",
-      "excerpt_en": "Major General Rezaei claimed that if Iran decided to carry out an assassination, \"nothing would prevent\" the country from doing so.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/netanyahu-has-panicked-trump-iran-security-chief-denies-plot-to-kill-us-presidents-son-barron-trump-101787889830640.html",
-      "translation_status": "failed",
-      "score": 61,
+      "title_url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-b3040408.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Lindsay Clancy 살인 재판을 면밀히 지켜본 엄마들은 산후 정신 건강 위기에 대한 자신의 경험을 되돌아보고 Rhian Lubin에게 사건에서 f에 대해 이야기하게 된 이유를 알려줍니다.",
+      "excerpt_en": "Moms who have been closely following the Lindsay Clancy murder trial reflect on their experiences of postpartum mental health crises and tell Rhian Lubin why the case has them speaking out about the f",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-b3040408.html",
+      "translation_status": "ok",
+      "score": 60,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
+        "article_score": 22,
+        "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 46
+        "raw75": 45
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         "Hindustan Times",
-        "The Independent",
-        "Times of India"
+        "The Independent"
       ],
-      "first_published_at": "2026-08-28T04:44:28+09:00",
-      "latest_published_at": "2026-08-28T20:56:52+09:00",
+      "first_published_at": "2026-08-28T15:23:21+09:00",
+      "latest_published_at": "2026-08-29T03:04:34+09:00",
       "articles": [
         {
-          "title": "Barron Trump becoming ‘reclusive’ after Iran’s bounty call and Charlie Kirk’s assassination",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/barron-trump-reclusive-iran-bounty-charlie-kirk-b3041310.html",
-          "published_at": "20:56"
-        },
-        {
-          "title": "Barron Trump leads reclusive life amid Iran threats, avoids public outings: Report",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/barron-trump-leads-reclusive-life-amid-iran-threats-avoids-public-outings-report/articleshow/133597517.cms",
-          "published_at": "17:56"
-        },
-        {
-          "title": "‘Netanyahu has panicked Trump’: Iran security chief denies plot to kill US President's son Barron Trump",
+          "title": "Who is Dr Avram Mack? Lindsay Clancy trial's expert witness for prosecution 'no longer employed' by health system",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/netanyahu-has-panicked-trump-iran-security-chief-denies-plot-to-kill-us-presidents-son-barron-trump-101787889830640.html",
-          "published_at": "04:44"
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-dr-avram-mack-lindsay-clancy-trials-expert-witness-for-prosecution-no-longer-employed-by-health-system-101787968005240.html",
+          "published_at": "03:04"
+        },
+        {
+          "title": "Lindsay Clancy trial: Why is the jury deliberation taking so long? Latest update on mother accused of killing children",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-trial-why-is-the-jury-deliberation-taking-so-long-latest-update-on-mother-accused-of-killing-children-101787964334850.html",
+          "published_at": "02:01"
+        },
+        {
+          "title": "Lindsay Clancy trial update: What happens if she's found not guilty by reason of insanity? Possible path to ‘freedom’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-trial-update-what-happens-if-she-s-found-not-guilty-her-possible-path-to-freedom-101787938871757.html",
+          "published_at": "18:11"
+        },
+        {
+          "title": "I’m a mother who watched the Lindsay Clancy trial. Here’s what I want you to know about postpartum psychosis",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-b3040408.html",
+          "published_at": "15:23"
         }
       ]
     },
     {
-      "id": "world-342",
-      "title": "Nepal: army rescues hundreds as diaspora mourns lives lost",
-      "title_en": "Nepal: army rescues hundreds as diaspora mourns lives lost",
+      "id": "world-33",
+      "title": "제이슨 아데이(Jason Arday)를 표절 혐의로 고발한 미국 학자, 일부 연구 재개 허용",
+      "title_en": "US academic who accused Jason Arday of plagiarism allowed to resume some work",
       "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/video/2026/08/28/nepal-army-rescues-hundreds-as-diaspora-mourns-lives-lost",
-      "category": "미국",
-      "primary_source": "Euronews",
-      "excerpt": "Nepal’s army rescues hundreds from a flooded hydropower tunnel as more than 1,500 remain missing, while the Nepali diaspora holds vigils in New York.",
-      "excerpt_en": "Nepal’s army rescues hundreds from a flooded hydropower tunnel as more than 1,500 remain missing, while the Nepali diaspora holds vigils in New York.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/video/2026/08/28/nepal-army-rescues-hundreds-as-diaspora-mourns-lives-lost",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Euronews",
-        "Fox News",
-        "NBC News"
-      ],
-      "first_published_at": "2026-08-28T09:53:02+09:00",
-      "latest_published_at": "2026-08-28T18:19:09+09:00",
-      "articles": [
-        {
-          "title": "Trapped Nepali workers pulled from hydropower tunnel after catastrophic flooding",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/trapped-nepali-workers-pulled-hydropower-tunnel-catastrophic-flooding",
-          "published_at": "18:19"
-        },
-        {
-          "title": "Nepali army rescues people trapped in a tunnel after flooding",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/nepali-army-rescues-people-trapped-in-a-tunnel-after-flooding-269001285948",
-          "published_at": "10:02"
-        },
-        {
-          "title": "Nepal: army rescues hundreds as diaspora mourns lives lost",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/video/2026/08/28/nepal-army-rescues-hundreds-as-diaspora-mourns-lives-lost",
-          "published_at": "09:53"
-        }
-      ]
-    },
-    {
-      "id": "world-22",
-      "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
-      "title_en": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFRMTXpLZi02MkN6akFHWTVEZzl6RHpDRVc3S1JGbEFQS0JWSDV3dEp4WVYtT3NEczZSU3RLMWtpMUZzSktKT09xT1g3R2JyOFdQTzFXbTJGUjFhRDBRYUV0OXYwU2lXc1h2X3ZmSk0tQmhSdUhWYW9YV0NLU1d2cG1reGVDdFN0eGQtc1BJQVM3T1NWeHZNOTFfSGRwSWh1aEtuNkh5enM2dUUzRGJyeg?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQczdaTzJUYzZPd3F6MjZaU2lscEJGS3BtNEhqUGpBRmU4eW51NTFPalRva0xYbmRKeU9qbUZzOUdna251UVc1QmN4cmtobXBoWmRJaUg5c1FoZUdSTFpFa3ZBYkV5LUtvVjlJVmFrdlZUai1OUEMtODRTQlZhS0JSU25WTDdCNnp3SUlxdWlxbm9hM3lhakNiRzRVS0RsZXpZbzk4c20wdFBYbU1GcW53c3Z0Yw?oc=5",
       "category": "미국",
       "primary_source": "Reuters",
-      "excerpt": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million Reuters",
-      "excerpt_en": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million Reuters",
+      "excerpt": "제이슨 아데이(Jason Arday)를 표절 혐의로 고발한 미국 학자, 일부 연구 재개 허용 - 최신",
+      "excerpt_en": "US academic who accused Jason Arday of plagiarism allowed to resume some work Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFRMTXpLZi02MkN6akFHWTVEZzl6RHpDRVc3S1JGbEFQS0JWSDV3dEp4WVYtT3NEczZSU3RLMWtpMUZzSktKT09xT1g3R2JyOFdQTzFXbTJGUjFhRDBRYUV0OXYwU2lXc1h2X3ZmSk0tQmhSdUhWYW9YV0NLU1d2cG1reGVDdFN0eGQtc1BJQVM3T1NWeHZNOTFfSGRwSWh1aEtuNkh5enM2dUUzRGJyeg?oc=5",
-      "translation_status": "failed",
-      "score": 59,
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQczdaTzJUYzZPd3F6MjZaU2lscEJGS3BtNEhqUGpBRmU4eW51NTFPalRva0xYbmRKeU9qbUZzOUdna251UVc1QmN4cmtobXBoWmRJaUg5c1FoZUdSTFpFa3ZBYkV5LUtvVjlJVmFrdlZUai1OUEMtODRTQlZhS0JSU25WTDdCNnp3SUlxdWlxbm9hM3lhakNiRzRVS0RsZXpZbzk4c20wdFBYbU1GcW53c3Z0Yw?oc=5",
+      "translation_status": "ok",
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-28T15:16:50+09:00",
+      "latest_published_at": "2026-08-28T18:02:51+09:00",
+      "articles": [
+        {
+          "title": "Academic who accused Jason Arday of plagiarism allowed to resume work amid probe",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/jason-arday-plagiarism-nathan-cofnas-ghent-university-b3041176.html",
+          "published_at": "18:02"
+        },
+        {
+          "title": "US academic who accused Jason Arday of plagiarism allowed to resume some work",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQczdaTzJUYzZPd3F6MjZaU2lscEJGS3BtNEhqUGpBRmU4eW51NTFPalRva0xYbmRKeU9qbUZzOUdna251UVc1QmN4cmtobXBoWmRJaUg5c1FoZUdSTFpFa3ZBYkV5LUtvVjlJVmFrdlZUai1OUEMtODRTQlZhS0JSU25WTDdCNnp3SUlxdWlxbm9hM3lhakNiRzRVS0RsZXpZbzk4c20wdFBYbU1GcW53c3Z0Yw?oc=5",
+          "published_at": "15:16"
+        }
+      ]
+    },
+    {
+      "id": "world-37",
+      "title": "월마트, 수십억 달러를 요구한 미국 정부의 오피오이드 소송을 5천만 달러에 해결",
+      "title_en": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFRMTXpLZi02MkN6akFHWTVEZzl6RHpDRVc3S1JGbEFQS0JWSDV3dEp4WVYtT3NEczZSU3RLMWtpMUZzSktKT09xT1g3R2JyOFdQTzFXbTJGUjFhRDBRYUV0OXYwU2lXc1h2X3ZmSk0tQmhSdUhWYW9YV0NLU1d2cG1reGVDdFN0eGQtc1BJQVM3T1NWeHZNOTFfSGRwSWh1aEtuNkh5enM2dUUzRGJyeg?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "월마트, 수십억 달러를 요구한 미국 정부의 오피오이드 소송을 5천만 달러에 해결 - 최신",
+      "excerpt_en": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFRMTXpLZi02MkN6akFHWTVEZzl6RHpDRVc3S1JGbEFQS0JWSDV3dEp4WVYtT3NEczZSU3RLMWtpMUZzSktKT09xT1g3R2JyOFdQTzFXbTJGUjFhRDBRYUV0OXYwU2lXc1h2X3ZmSk0tQmhSdUhWYW9YV0NLU1d2cG1reGVDdFN0eGQtc1BJQVM3T1NWeHZNOTFfSGRwSWh1aEtuNkh5enM2dUUzRGJyeg?oc=5",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1486,112 +1460,18 @@
       ]
     },
     {
-      "id": "world-89",
-      "title": "Autopsy exposes glaring contradiction in fatal shooting by Trump-deployed National Guard",
-      "title_en": "Autopsy exposes glaring contradiction in fatal shooting by Trump-deployed National Guard",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/tyrin-johnson-national-guard-shooting-autopsy-b3040823.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "An autopsy shows that an armed man killed by the Tennessee National Guard was shot in the back",
-      "excerpt_en": "An autopsy shows that an armed man killed by the Tennessee National Guard was shot in the back",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/tyrin-johnson-national-guard-shooting-autopsy-b3040823.html",
-      "translation_status": "failed",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-28T07:42:13+09:00",
-      "latest_published_at": "2026-08-28T16:17:00+09:00",
-      "articles": [
-        {
-          "title": "Autopsy shows Tennessee National Guard fatally shot 20-year-old armed man in the back",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN3VWMTVPWkljWTd0Z3I5WkhONWxSMTZ3b1NzY2lUaDA0TjI5WV9XTGdTbVNoS2ExOTBtREcxUWRySElweFowcDFFTnRoa2tESGl0MzNoV2R0dTRfazZ0TElhRmhIbURvTmMwclRYVG9nd0gyRzVuWnJOM0I0VEJVRXBIaVc5eDE1WEkyU0Y5Z1ZCekh2LVR4ek5Wa00?oc=5",
-          "published_at": "16:17"
-        },
-        {
-          "title": "Autopsy exposes glaring contradiction in fatal shooting by Trump-deployed National Guard",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/tyrin-johnson-national-guard-shooting-autopsy-b3040823.html",
-          "published_at": "07:42"
-        }
-      ]
-    },
-    {
-      "id": "world-90",
-      "title": "Why a newly formed lake is sparking fears of more flooding along the Nepal-China border",
-      "title_en": "Why a newly formed lake is sparking fears of more flooding along the Nepal-China border",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0lwMHJGdlJ5MXhxdGZQZ1R3OU4wY2ZGanNnRlBjLUpkQ3pRajRqTm5nRUtCaWxjT05RdzNRZGVtNTlGTXdXS3JjSHpmU1hYejZHX205SnpzWXZYbFUwRzdZdnhDSUZIUkRYeXlzcVpjYmRRck9wTU1rOHN0TkJwaDM1RzlyMkJ1bVhkTHBOYndxMTFjRm5BWlpEeUE?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "Rescue operations are continuing after the devastating Nepal-China floods, but authorities have ordered emergency teams to stay on high alert as a newly formed upstream lake threatens to burst and tri",
-      "excerpt_en": "Rescue operations are continuing after the devastating Nepal-China floods, but authorities have ordered emergency teams to stay on high alert as a newly formed upstream lake threatens to burst and tri",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260828-nepal-a-newly-formed-lake-is-sparking-fears-of-more-flooding-along-the-chinese-border",
-      "translation_status": "failed",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "France24"
-      ],
-      "first_published_at": "2026-08-28T11:49:00+09:00",
-      "latest_published_at": "2026-08-28T12:36:23+09:00",
-      "articles": [
-        {
-          "title": "Nepal: A newly formed lake is sparking fears of more flooding along the Chinese border",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260828-nepal-a-newly-formed-lake-is-sparking-fears-of-more-flooding-along-the-chinese-border",
-          "published_at": "12:36"
-        },
-        {
-          "title": "Why a newly formed lake is sparking fears of more flooding along the Nepal-China border",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0lwMHJGdlJ5MXhxdGZQZ1R3OU4wY2ZGanNnRlBjLUpkQ3pRajRqTm5nRUtCaWxjT05RdzNRZGVtNTlGTXdXS3JjSHpmU1hYejZHX205SnpzWXZYbFUwRzdZdnhDSUZIUkRYeXlzcVpjYmRRck9wTU1rOHN0TkJwaDM1RzlyMkJ1bVhkTHBOYndxMTFjRm5BWlpEeUE?oc=5",
-          "published_at": "11:49"
-        }
-      ]
-    },
-    {
-      "id": "world-95",
-      "title": "Ebola outbreak in eastern Congo spreads to 2 new health zones with a total of 60 areas now affected",
+      "id": "world-75",
+      "title": "콩고 동부의 에볼라 발병이 2개의 새로운 보건 구역으로 확산되어 현재 총 60개 지역이 영향을 받고 있습니다.",
       "title_en": "Ebola outbreak in eastern Congo spreads to 2 new health zones with a total of 60 areas now affected",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQek5rUENqWEJ3enhEUWZ3Y1BET1EzQjhUQl9udUx6T3FwNjBRa0VIbTdCdldXUXRGWllZYkRnWmpMdnd6bjh5RnZ5SlB1azN3eTMxVXZpODNHTXJxNXYyT0ZFOExYZHA4bktBNVExTGxGSDhvVFphYlo2LVVzLVY4VEtzcVJYd00?oc=5",
       "category": "기타",
       "primary_source": "AP News",
-      "excerpt": "Ebola outbreak in eastern Congo spreads to 2 new health zones with a total of 60 areas now affected AP News",
+      "excerpt": "콩고 동부의 에볼라 발병이 2개의 새로운 보건 구역으로 확산되어 현재 총 60개 지역이 영향을 받고 있습니다. AP 뉴스",
       "excerpt_en": "Ebola outbreak in eastern Congo spreads to 2 new health zones with a total of 60 areas now affected AP News",
       "excerpt_source": "AP News",
       "excerpt_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQek5rUENqWEJ3enhEUWZ3Y1BET1EzQjhUQl9udUx6T3FwNjBRa0VIbTdCdldXUXRGWllZYkRnWmpMdnd6bjh5RnZ5SlB1azN3eTMxVXZpODNHTXJxNXYyT0ZFOExYZHA4bktBNVExTGxGSDhvVFphYlo2LVVzLVY4VEtzcVJYd00?oc=5",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 57,
       "score_breakdown": {
         "article_score": 12,
@@ -1627,13 +1507,13 @@
       ]
     },
     {
-      "id": "world-252",
-      "title": "Nepal flood rescue efforts intensify as number of missing soars past 2,000",
-      "title_en": "Nepal flood rescue efforts intensify as number of missing soars past 2,000",
+      "id": "world-246",
+      "title": "China-Nepal floods: rescuers pull out survivors caked in mud as toll climbs",
+      "title_en": "China-Nepal floods: rescuers pull out survivors caked in mud as toll climbs",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/nepal-flood-rescue-efforts-death-toll/",
+      "title_url": "https://www.scmp.com/news/asia/south-asia/article/3365668/china-nepal-floods-rescuers-pull-out-survivors-caked-mud-toll-climbs?utm_source=rss_feed",
       "category": "아시아",
-      "primary_source": "CBS News",
+      "primary_source": "SCMP",
       "excerpt": "Rescuers pulled out survivors caked in dark brown mud and helicopters lifted stranded people to safety, as Nepal and China raced to respond to catastrophic flash floods that killed nearly 600 people a",
       "excerpt_en": "Rescuers pulled out survivors caked in dark brown mud and helicopters lifted stranded people to safety, as Nepal and China raced to respond to catastrophic flash floods that killed nearly 600 people a",
       "excerpt_source": "SCMP",
@@ -1656,43 +1536,90 @@
         "CBS News",
         "SCMP"
       ],
-      "first_published_at": "2026-08-28T17:59:38+09:00",
-      "latest_published_at": "2026-08-28T20:21:45+09:00",
+      "first_published_at": "2026-08-28T20:21:45+09:00",
+      "latest_published_at": "2026-08-29T02:08:39+09:00",
       "articles": [
+        {
+          "title": "Nepal flood rescue efforts intensify as number of missing soars past 2,000",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/nepal-flood-rescue-efforts-death-toll/",
+          "published_at": "02:08"
+        },
         {
           "title": "China-Nepal floods: rescuers pull out survivors caked in mud as toll climbs",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/asia/south-asia/article/3365668/china-nepal-floods-rescuers-pull-out-survivors-caked-mud-toll-climbs?utm_source=rss_feed",
           "published_at": "20:21"
-        },
-        {
-          "title": "Nepal flood rescue efforts intensify as number of missing soars past 2,000",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/nepal-flood-rescue-efforts-death-toll/",
-          "published_at": "17:59"
         }
       ]
     },
     {
-      "id": "world-140",
-      "title": "Haaland and Cherki doubles send Man City to EPL win at Crystal Palace",
-      "title_en": "Haaland and Cherki doubles send Man City to EPL win at Crystal Palace",
+      "id": "world-70",
+      "title": "Why a newly formed lake is sparking fears of more flooding along the Nepal-China border",
+      "title_en": "Why a newly formed lake is sparking fears of more flooding along the Nepal-China border",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/sports/2026/8/28/cherki-double-sends-man-city-to-win-at-crystal-palace-in-premier-league?traffic_source=rss",
-      "category": "기타",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Manchester City make it back-to-back wins to start the Premier League season as Crystal Palace slip to another defeat.",
-      "excerpt_en": "Manchester City make it back-to-back wins to start the Premier League season as Crystal Palace slip to another defeat.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/sports/2026/8/28/cherki-double-sends-man-city-to-win-at-crystal-palace-in-premier-league?traffic_source=rss",
+      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0lwMHJGdlJ5MXhxdGZQZ1R3OU4wY2ZGanNnRlBjLUpkQ3pRajRqTm5nRUtCaWxjT05RdzNRZGVtNTlGTXdXS3JjSHpmU1hYejZHX205SnpzWXZYbFUwRzdZdnhDSUZIUkRYeXlzcVpjYmRRck9wTU1rOHN0TkJwaDM1RzlyMkJ1bVhkTHBOYndxMTFjRm5BWlpEeUE?oc=5",
+      "category": "아시아",
+      "primary_source": "AP News",
+      "excerpt": "Rescue operations are continuing after the devastating Nepal-China floods, but authorities have ordered emergency teams to stay on high alert as a newly formed upstream lake threatens to burst and tri",
+      "excerpt_en": "Rescue operations are continuing after the devastating Nepal-China floods, but authorities have ordered emergency teams to stay on high alert as a newly formed upstream lake threatens to burst and tri",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260828-nepal-a-newly-formed-lake-is-sparking-fears-of-more-flooding-along-the-chinese-border",
       "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "France24"
+      ],
+      "first_published_at": "2026-08-28T11:49:00+09:00",
+      "latest_published_at": "2026-08-28T12:36:23+09:00",
+      "articles": [
+        {
+          "title": "Nepal: A newly formed lake is sparking fears of more flooding along the Chinese border",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260828-nepal-a-newly-formed-lake-is-sparking-fears-of-more-flooding-along-the-chinese-border",
+          "published_at": "12:36"
+        },
+        {
+          "title": "Why a newly formed lake is sparking fears of more flooding along the Nepal-China border",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0lwMHJGdlJ5MXhxdGZQZ1R3OU4wY2ZGanNnRlBjLUpkQ3pRajRqTm5nRUtCaWxjT05RdzNRZGVtNTlGTXdXS3JjSHpmU1hYejZHX205SnpzWXZYbFUwRzdZdnhDSUZIUkRYeXlzcVpjYmRRck9wTU1rOHN0TkJwaDM1RzlyMkJ1bVhkTHBOYndxMTFjRm5BWlpEeUE?oc=5",
+          "published_at": "11:49"
+        }
+      ]
+    },
+    {
+      "id": "world-196",
+      "title": "트럼프 아치는 워싱턴 DC의 많은 랜드마크의 시야를 바꿀 것이라고 보고서는 밝혔습니다.",
+      "title_en": "Trump arch will alter sightlines of many Washington DC landmarks, report says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/us-news/2026/aug/28/trump-arch-sightlines-washington-dc",
+      "category": "미국",
+      "primary_source": "The Guardian",
+      "excerpt": "250피트 아치를 지지하는 국립공원관리청은 이 아치가 수십 곳의 역사적 중요성을 훼손할 가능성이 있다고 말했습니다. 새로운 국립공원관리청 보고서는 도널드 트럼프가 제안한 아치를 뒷받침합니다.",
+      "excerpt_en": "National Park Service, which backs the 250ft arch, says it is likely to disrupt historical significance of dozens of sites A new National Park Service report backs Donald Trump ’s proposed arch, despi",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/28/trump-arch-sightlines-washington-dc",
+      "translation_status": "ok",
       "score": 56,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
+        "major_score": 5,
+        "breaking_score": 7,
+        "time_score": 2,
         "raw75": 42
       },
       "area_value": 3,
@@ -1700,44 +1627,44 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Channel News Asia"
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-28T20:53:51+09:00",
-      "latest_published_at": "2026-08-28T22:29:23+09:00",
+      "first_published_at": "2026-08-28T21:36:28+09:00",
+      "latest_published_at": "2026-08-29T01:56:21+09:00",
       "articles": [
         {
-          "title": "Cherki checks all the boxes as Man City crush Crystal Palace",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/cherki-checks-all-boxes-man-city-crush-crystal-palace-6348826",
-          "published_at": "22:29"
+          "title": "National Park Service supports Trump’s arch even though it would have ‘adverse effects’ on other DC monuments, report says – as it happened",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/aug/28/donald-trump-mail-voting-tariffs-canada-space-nasa-march-on-washington-latest-news-updates",
+          "published_at": "01:56"
         },
         {
-          "title": "Doubles for Cherki, Haaland as Man City cruise to 4-1 win over Palace",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/doubles-cherki-haaland-man-city-cruise-4-1-win-over-palace-6348746",
-          "published_at": "21:21"
+          "title": "Trump’s proposed arch backed despite adverse effects on DC sightlines",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-arch-national-parks-service-washington-landmarks-report-b3041352.html",
+          "published_at": "00:52"
         },
         {
-          "title": "Haaland and Cherki doubles send Man City to EPL win at Crystal Palace",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/8/28/cherki-double-sends-man-city-to-win-at-crystal-palace-in-premier-league?traffic_source=rss",
-          "published_at": "20:53"
+          "title": "Trump arch will alter sightlines of many Washington DC landmarks, report says",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-arch-sightlines-washington-dc",
+          "published_at": "21:36"
         }
       ]
     },
     {
-      "id": "world-87",
-      "title": "8/28: The Takeout with Major Garrett",
-      "title_en": "8/28: The Takeout with Major Garrett",
+      "id": "world-15",
+      "title": "Mother reunited with 8-year-old who climbed trees to survive Nepal floods",
+      "title_en": "Mother reunited with 8-year-old who climbed trees to survive Nepal floods",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/082826-the-takeout-with-major-garrett/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "Iran war hits 6-month mark with negotiations stalled; Lindsay Clancy jury ends Day 2 of deliberations without a verdict.",
-      "excerpt_en": "Iran war hits 6-month mark with negotiations stalled; Lindsay Clancy jury ends Day 2 of deliberations without a verdict.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/082826-the-takeout-with-major-garrett/",
+      "title_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObXBfS09sZG5sME9IbTIxZGEyalhSZ2YtYUk3RU81eGNMcGhjZXNzcnN5cEZLRVAwZXFlX3ZjTWMxY0JhcDVhNWFSRnV0UW55aHJfaFg1WkRJWHR0S2I1b2RzUVFOVERfcnpiNlcyZGJMbkVvbzAzcFZySGhuT3Nfa0U3TGEtM3hmbElGaFk4d0RjQ0JJVXRqMElRNFFIcFRzajdYRmp2aHRlNUFKczJxWS1WSld3VFBoV0VSblcyUXc0cmZiaXc?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "A day earlier, eight-year-old Zoyal Ghale had been airlifted out of the flood-affected northern district of Rasuwa with a broken leg and injuries to his face.",
+      "excerpt_en": "A day earlier, eight-year-old Zoyal Ghale had been airlifted out of the flood-affected northern district of Rasuwa with a broken leg and injuries to his face.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/nepal-floods-how-8-year-old-boy-from-rasuwa-was-reunited-with-mother-climbed-trees-airlifted-later-101787983313292.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1747,6 +1674,194 @@
         "breaking_score": 1,
         "time_score": 3,
         "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-08-28T21:27:15+09:00",
+      "latest_published_at": "2026-08-29T06:59:54+09:00",
+      "articles": [
+        {
+          "title": "Climbed trees to escape floods, airlifted later: How 8-year-old boy was reunited with mother in Nepal",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/nepal-floods-how-8-year-old-boy-from-rasuwa-was-reunited-with-mother-climbed-trees-airlifted-later-101787983313292.html",
+          "published_at": "06:59"
+        },
+        {
+          "title": "Mother reunited with 8-year-old who climbed trees to survive Nepal floods",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObXBfS09sZG5sME9IbTIxZGEyalhSZ2YtYUk3RU81eGNMcGhjZXNzcnN5cEZLRVAwZXFlX3ZjTWMxY0JhcDVhNWFSRnV0UW55aHJfaFg1WkRJWHR0S2I1b2RzUVFOVERfcnpiNlcyZGJMbkVvbzAzcFZySGhuT3Nfa0U3TGEtM3hmbElGaFk4d0RjQ0JJVXRqMElRNFFIcFRzajdYRmp2aHRlNUFKczJxWS1WSld3VFBoV0VSblcyUXc0cmZiaXc?oc=5",
+          "published_at": "21:27"
+        }
+      ]
+    },
+    {
+      "id": "world-92",
+      "title": "트럼프 말에 베팅한 백악관 텔레프롬프터 운영자에 벌금 부과 및 상금 몰수",
+      "title_en": "White House teleprompter operator fined, forfeits winnings for betting on Trump’s words",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3365677/white-house-teleprompter-operator-fined-forfeits-winnings-betting-trumps-words?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "내부 지식을 이용해 예측 시장에 베팅한 혐의로 기소된 전직 백악관 텔레프롬프터 운영자 칼시(Kalshi)는 미화 10만 달러 이상의 이익을 내고 미화 65달러를 지불하라는 명령을 받았습니다.",
+      "excerpt_en": "A former White House teleprompter operator accused of using inside knowledge to make bets on the prediction market Kalshi has been ordered to turn over more than US$100,000 in profits and pay a US$65,",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365677/white-house-teleprompter-operator-fined-forfeits-winnings-betting-trumps-words?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "SCMP"
+      ],
+      "first_published_at": "2026-08-29T02:19:44+09:00",
+      "latest_published_at": "2026-08-29T07:11:04+09:00",
+      "articles": [
+        {
+          "title": "Ex-White House teleprompter operator ordered to pay $172,000 for Trump speech bets",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4gj2dl4x52o?at_medium=RSS&at_campaign=rss",
+          "published_at": "07:11"
+        },
+        {
+          "title": "White House teleprompter operator fined, forfeits winnings for betting on Trump’s words",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365677/white-house-teleprompter-operator-fined-forfeits-winnings-betting-trumps-words?utm_source=rss_feed",
+          "published_at": "02:19"
+        }
+      ]
+    },
+    {
+      "id": "world-7",
+      "title": "트럼프 \"미국이 베네수엘라의 막대한 석유 매장량을 부분적으로 통제하고 있다\"",
+      "title_en": "Trump says US is taking partial control of Venezuela's vast oil reserves",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDBRX1E5WWItYWoycXJDSUZhMWJaZUthYmJUcTFqcTA3MGJLZnVPS1dQcWZyeW1FbW9wYnRBNS1OSlVyM0VXN3BIV01IVl8tMmdjQzByaGxIcmVQSnRDSjRiTXdtdEkza1hkdDJQcGNzYXY4OGkzOGZpS1pFMUtyaVFXenBXalpHUTNnZGhZUl92bklLcUg5OVhVMWkzaWxvYWN6S05oN0w3dw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "도널드 트럼프 미국 대통령은 미국이 베네수엘라와 베네수엘라 석유 매장량의 5분의 1을 통제하기로 합의했다고 밝혔습니다.",
+      "excerpt_en": "Donald Trump has said the US has entered into an agreement with Venezuela to take control of a fifth of the country's oil reserves.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/trump-says-us-is-taking-partial-control-of-venezuelas-vast-oil-reserves-13578423",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Sky News"
+      ],
+      "first_published_at": "2026-08-28T22:55:00+09:00",
+      "latest_published_at": "2026-08-29T02:17:00+09:00",
+      "articles": [
+        {
+          "title": "Trump says US is taking partial control of Venezuela's vast oil reserves",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/trump-says-us-is-taking-partial-control-of-venezuelas-vast-oil-reserves-13578423",
+          "published_at": "02:17"
+        },
+        {
+          "title": "Trump says US is taking partial control of Venezuela's vast oil reserves",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDBRX1E5WWItYWoycXJDSUZhMWJaZUthYmJUcTFqcTA3MGJLZnVPS1dQcWZyeW1FbW9wYnRBNS1OSlVyM0VXN3BIV01IVl8tMmdjQzByaGxIcmVQSnRDSjRiTXdtdEkza1hkdDJQcGNzYXY4OGkzOGZpS1pFMUtyaVFXenBXalpHUTNnZGhZUl92bklLcUg5OVhVMWkzaWxvYWN6S05oN0w3dw?oc=5",
+          "published_at": "22:55"
+        }
+      ]
+    },
+    {
+      "id": "world-24",
+      "title": "트럼프, 이미 결정된 범죄 입막음 사건을 미국 법원으로 옮기려는 입찰에서 패",
+      "title_en": "Trump loses bid to move already-decided criminal hush money case to US court",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUUg0czFxNERQWmlNeTdTVXNmbnA3dVkzbERZSXB3OC1yTWt2RkFqd0EwSGhxUV9wc2lzbHpMa3BkWlphRG5ndmNnWmFXc2hjN3hHV2QtTzdUWHZydUJ2N1VCVWdFWDJFdFkxUWhQU2gwMGVVQmFvTVhXWVEtYmxZSzNjU1Nibi1qai1Gb2ZGVVdmdUZFeGpFbHpNS0NtX2dxNnJQdjFIWG1PLUV0Rzk5UEtR?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "트럼프는 이미 결정된 범죄 입막음 사건을 미국 법원으로 옮기려는 입찰에서 패했습니다.",
+      "excerpt_en": "Trump loses bid to move already-decided criminal hush money case to US court Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUUg0czFxNERQWmlNeTdTVXNmbnA3dVkzbERZSXB3OC1yTWt2RkFqd0EwSGhxUV9wc2lzbHpMa3BkWlphRG5ndmNnWmFXc2hjN3hHV2QtTzdUWHZydUJ2N1VCVWdFWDJFdFkxUWhQU2gwMGVVQmFvTVhXWVEtYmxZSzNjU1Nibi1qai1Gb2ZGVVdmdUZFeGpFbHpNS0NtX2dxNnJQdjFIWG1PLUV0Rzk5UEtR?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-28T18:49:30+09:00",
+      "latest_published_at": "2026-08-29T04:44:49+09:00",
+      "articles": [
+        {
+          "title": "No escape for Trump in hush money case as US judge blocks bid to shift federal court",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/no-escape-for-trump-in-hush-money-case-as-us-judge-blocks-bid-to-shift-federal-court/articleshow/133603393.cms",
+          "published_at": "04:44"
+        },
+        {
+          "title": "Trump loses bid to move already-decided criminal hush money case to US court",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUUg0czFxNERQWmlNeTdTVXNmbnA3dVkzbERZSXB3OC1yTWt2RkFqd0EwSGhxUV9wc2lzbHpMa3BkWlphRG5ndmNnWmFXc2hjN3hHV2QtTzdUWHZydUJ2N1VCVWdFWDJFdFkxUWhQU2gwMGVVQmFvTVhXWVEtYmxZSzNjU1Nibi1qai1Gb2ZGVVdmdUZFeGpFbHpNS0NtX2dxNnJQdjFIWG1PLUV0Rzk5UEtR?oc=5",
+          "published_at": "18:49"
+        }
+      ]
+    },
+    {
+      "id": "world-67",
+      "title": "8/28: Garrett 소령과 함께하는 테이크아웃",
+      "title_en": "8/28: The Takeout with Major Garrett",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/video/082826-the-takeout-with-major-garrett/",
+      "category": "중동",
+      "primary_source": "CBS News",
+      "excerpt": "이란 전쟁은 협상이 중단된 채 6개월째 이어지고 있다. Lindsay Clancy 배심원단은 평결 없이 심의 2일차를 종료합니다.",
+      "excerpt_en": "Iran war hits 6-month mark with negotiations stalled; Lindsay Clancy jury ends Day 2 of deliberations without a verdict.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/082826-the-takeout-with-major-garrett/",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1774,118 +1889,65 @@
       ]
     },
     {
-      "id": "world-188",
-      "title": "News anchor blasts ‘deeply pathetic’ Trump over ‘Lake America’ stunt in Canada fight: ‘You Sad Weirdo’",
-      "title_en": "News anchor blasts ‘deeply pathetic’ Trump over ‘Lake America’ stunt in Canada fight: ‘You Sad Weirdo’",
+      "id": "world-72",
+      "title": "판사는 트럼프의 중범죄 유죄 판결을 취소하려는 시도를 다시 차단했습니다.",
+      "title_en": "Judge again blocks Trump’s attempt to get his felony hush money conviction tossed",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-lake-ontario-america-chris-haynes-b3040836.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-trump-hush-money-conviction-b3041217.html",
       "category": "미국",
       "primary_source": "The Independent",
-      "excerpt": "US President Donald Trump signed an executive order on August 27 to rename Lake Ontario as 'Lake America', a change he said would take effect immediately. Canadian Prime Minister Mark Carney took to X",
-      "excerpt_en": "US President Donald Trump signed an executive order on August 27 to rename Lake Ontario as 'Lake America', a change he said would take effect immediately. Canadian Prime Minister Mark Carney took to X",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
-      "translation_status": "failed",
-      "score": 55,
+      "excerpt": "트럼프 대통령은 자신의 주 법원 유죄판결을 연방 관할권으로 옮기려고 했으나 판사가 이를 저지했다.",
+      "excerpt_en": "President Trump had sought to move his state court conviction to a federal jurisdiction, though a judge has blocked that effort",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-trump-hush-money-conviction-b3041217.html",
+      "translation_status": "ok",
+      "score": 53,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
+        "major_score": 15,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 41
+        "raw75": 40
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
+        "AP News",
         "The Independent"
       ],
-      "first_published_at": "2026-08-28T09:55:10+09:00",
-      "latest_published_at": "2026-08-28T16:13:23+09:00",
+      "first_published_at": "2026-08-28T18:10:06+09:00",
+      "latest_published_at": "2026-08-28T20:34:00+09:00",
       "articles": [
         {
-          "title": "Canada’s Carney responds to Trump’s Lake America name change with a history lesson",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-trump-lake-ontario-carney-reaction-b3041149.html",
-          "published_at": "16:13"
+          "title": "President Donald Trump loses again in bid to erase his hush money conviction",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSzRLZHRXUXZ3VlZrMWtmNVR6U25wSWwwaHkteHFNdmZ5eWVGaU1zOTNXSXNHT2ZNMUdTbWRiazNmUXVBc3lDaXdWUWd5S2VkM3hUbGlsXzAyUHF1eWpUOFlROXJXR25keXhFci1BbTV5XzVZb2Ntb1VsazZRdmFVdFQtdmFWLWkwcTZFMHUxbHI?oc=5",
+          "published_at": "20:34"
         },
         {
-          "title": "US-CANADA: Trump signs order renaming Lake Ontario to ‘Lake America’",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
-          "published_at": "12:16"
-        },
-        {
-          "title": "News anchor blasts ‘deeply pathetic’ Trump over ‘Lake America’ stunt in Canada fight: ‘You Sad Weirdo’",
+          "title": "Judge again blocks Trump’s attempt to get his felony hush money conviction tossed",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-lake-ontario-america-chris-haynes-b3040836.html",
-          "published_at": "09:55"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-trump-hush-money-conviction-b3041217.html",
+          "published_at": "18:10"
         }
       ]
     },
     {
-      "id": "world-19",
-      "title": "Forced birth control in Greenland violated women's rights but didn't constitute genocide, experts find",
-      "title_en": "Forced birth control in Greenland violated women's rights but didn't constitute genocide, experts find",
+      "id": "world-267",
+      "title": "레닌 모레노 전 에콰도르 대통령, 부패혐의로 징역 5년 선고",
+      "title_en": "Former Ecuadorian President Lenín Moreno sentenced to 5 years for corruption",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQUFZMFZXcHZXN1ZrWWNjeFRvWHdVQXVZY3lLQ21iSHBaTXVfTmxuRHRiSy13UWZ6RDI1eXVDQ1pPZVNKQzVOdHl1cXRvU1hCazgyRGl0QkV6bm1XRmktZmxwNGFRU0ZfeVZhdi1QNnBOZGRiMVhDSTVidE04V3h1V1lUaUU0NHFIdkIwMF95TG1KNFIwY2R1R0pXZ2dkNHJLWVZFR0hxZkRsQ09QMVZSSmJQaWlKa3AzaU5uREEyaXpybmNFZTdNanlDbmhrYjl6bUhmbk1IVWs2TnFJUXBSQVVmUVg2UQ?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Truth commission to be established after two expert reports failed to agree whether scheme constituted genocide.",
-      "excerpt_en": "Truth commission to be established after two expert reports failed to agree whether scheme constituted genocide.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/8/28/forced-birth-control-in-greenland-violated-womens-rights-experts-find?traffic_source=rss",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-28T19:06:53+09:00",
-      "latest_published_at": "2026-08-28T20:54:35+09:00",
-      "articles": [
-        {
-          "title": "Forced birth control in Greenland violated women’s rights, experts find",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/28/forced-birth-control-in-greenland-violated-womens-rights-experts-find?traffic_source=rss",
-          "published_at": "20:54"
-        },
-        {
-          "title": "Forced birth control in Greenland violated women's rights but didn't constitute genocide, experts find",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQUFZMFZXcHZXN1ZrWWNjeFRvWHdVQXVZY3lLQ21iSHBaTXVfTmxuRHRiSy13UWZ6RDI1eXVDQ1pPZVNKQzVOdHl1cXRvU1hCazgyRGl0QkV6bm1XRmktZmxwNGFRU0ZfeVZhdi1QNnBOZGRiMVhDSTVidE04V3h1V1lUaUU0NHFIdkIwMF95TG1KNFIwY2R1R0pXZ2dkNHJLWVZFR0hxZkRsQ09QMVZSSmJQaWlKa3AzaU5uREEyaXpybmNFZTdNanlDbmhrYjl6bUhmbk1IVWs2TnFJUXBSQVVmUVg2UQ?oc=5",
-          "published_at": "19:06"
-        }
-      ]
-    },
-    {
-      "id": "world-25",
-      "title": "China strips former generals Zhang Youxia and Liu Zhenli of top military positions",
-      "title_en": "China strips former generals Zhang Youxia and Liu Zhenli of top military positions",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/military/article/3365646/china-strips-former-generals-zhang-youxia-and-liu-zhenli-top-military-positions?utm_source=rss_feed",
+      "title_url": "https://www.independent.co.uk/news/world/europe/lenin-moreno-quito-chinese-belgium-latin-america-b3041359.html",
       "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Beijing has formally removed former senior officers Zhang Youxia and Liu Zhenli as members of China’s supreme military command. The two generals have been under investigation for alleged discipline vi",
-      "excerpt_en": "Beijing has formally removed former senior officers Zhang Youxia and Liu Zhenli as members of China’s supreme military command. The two generals have been under investigation for alleged discipline vi",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/military/article/3365646/china-strips-former-generals-zhang-youxia-and-liu-zhenli-top-military-positions?utm_source=rss_feed",
-      "translation_status": "failed",
+      "primary_source": "The Independent",
+      "excerpt": "레닌 모레노 전 에콰도르 대통령이 중국 기업 시노하이드로로부터 뇌물을 받은 혐의로 징역형을 선고받았다.",
+      "excerpt_en": "Former Ecuadorian President Lenín Moreno has been sentenced to prison for accepting bribes from the Chinese company Sinohydro",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/lenin-moreno-quito-chinese-belgium-latin-america-b3041359.html",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1900,94 +1962,47 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "SCMP"
+        "ABC News",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-28T13:06:16+09:00",
-      "latest_published_at": "2026-08-28T16:21:29+09:00",
+      "first_published_at": "2026-08-29T01:41:12+09:00",
+      "latest_published_at": "2026-08-29T04:14:53+09:00",
       "articles": [
         {
-          "title": "China removes two top generals from supreme military command body",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGdpVEN0UGhYb1lHSjN6dGk5YWZBTXJrX3N1R0dSbjhmUzlCZTJJVFZReFNBbG5iSWZIQVlnN3FPekJ4OXJ5RlJ4d0VkQkdITjdRVmY0UklpOUdPeTJPVVFXOWtFNzU0aG85LVlRdXVZRmdiU3ZCSE5ZZ1dpVWxpNVEtLVFDakNUQ01XVlV1V0hKcVI2X05TX1Vqb09uQXBLYjJwU1VvOFFHaXV5WDB6SVVDQTRBZw?oc=5",
-          "published_at": "16:21"
+          "title": "Former Ecuadorian President Lenín Moreno sentenced to 5 years for corruption",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/former-ecuadorian-president-lenn-moreno-sentenced-5-years-136048771",
+          "published_at": "04:14"
         },
         {
-          "title": "China strips former generals Zhang Youxia and Liu Zhenli of top military positions",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/military/article/3365646/china-strips-former-generals-zhang-youxia-and-liu-zhenli-top-military-positions?utm_source=rss_feed",
-          "published_at": "13:06"
+          "title": "Former Ecuadorian President Lenín Moreno sentenced to 5 years for corruption",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/lenin-moreno-quito-chinese-belgium-latin-america-b3041359.html",
+          "published_at": "01:41"
         }
       ]
     },
     {
-      "id": "world-63",
-      "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
-      "title_en": "Warsh signals Fed may need to hike rates if above-target inflation persists",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZzBPdElUODB3ZXZsUG96Q1U0Mkp0bVhQcURGaFRQMWtDenpTSFZlU1NRd2F4RWdxRXZYejVZVXM2UDA1Q1BFaFRxd0hQMkgwLVIxME9LMmc5VjlQbk9HbGIyVkZDcnF1clU4TWd1UlE3dl9nUVVzY0tZcGhWYmtGOWpIMXVUZTlSZk9zSlNVMGh5di1COVYxeGdGXzF3MkJyZTE4dU9wRG9xbEk?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "The US central bank will “have work to do” if policymakers are not confident that underlying inflation is returning to its 2 per cent target, Federal Reserve Chairman Kevin Warsh said on Friday in rem",
-      "excerpt_en": "The US central bank will “have work to do” if policymakers are not confident that underlying inflation is returning to its 2 per cent target, Federal Reserve Chairman Kevin Warsh said on Friday in rem",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365658/warsh-says-us-fed-has-work-do-if-above-target-inflation-lingers?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-08-28T05:03:00+09:00",
-      "latest_published_at": "2026-08-28T15:13:26+09:00",
-      "articles": [
-        {
-          "title": "Warsh signals US Fed may need to raise rates if above-target inflation lingers",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365658/warsh-says-us-fed-has-work-do-if-above-target-inflation-lingers?utm_source=rss_feed",
-          "published_at": "15:13"
-        },
-        {
-          "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZzBPdElUODB3ZXZsUG96Q1U0Mkp0bVhQcURGaFRQMWtDenpTSFZlU1NRd2F4RWdxRXZYejVZVXM2UDA1Q1BFaFRxd0hQMkgwLVIxME9LMmc5VjlQbk9HbGIyVkZDcnF1clU4TWd1UlE3dl9nUVVzY0tZcGhWYmtGOWpIMXVUZTlSZk9zSlNVMGh5di1COVYxeGdGXzF3MkJyZTE4dU9wRG9xbEk?oc=5",
-          "published_at": "05:03"
-        }
-      ]
-    },
-    {
-      "id": "world-128",
-      "title": "Blood Moon total lunar eclipse: Will moon turn into red? Here's when and where to watch in US",
+      "id": "world-112",
+      "title": "블러드문 개기월식: 달이 붉게 변할까? 미국에서 언제, 어디서 시청할 수 있나요?",
       "title_en": "Blood Moon total lunar eclipse: Will moon turn into red? Here's when and where to watch in US",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/blood-moon-total-lunar-eclipse-will-moon-turn-into-red-heres-when-and-where-to-watch-in-us-101787915557962.html",
       "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "A near-total lunar eclipse, offering views across North and South America, will occur Thursday night. About 96.2% of the moon will be shadowed.",
+      "excerpt": "북미와 남미 전역을 볼 수 있는 거의 개기 월식이 목요일 밤에 일어날 것입니다. 달의 약 96.2%가 그림자에 가려질 것이다.",
       "excerpt_en": "A near-total lunar eclipse, offering views across North and South America, will occur Thursday night. About 96.2% of the moon will be shadowed.",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/blood-moon-total-lunar-eclipse-will-moon-turn-into-red-heres-when-and-where-to-watch-in-us-101787915557962.html",
-      "translation_status": "failed",
-      "score": 53,
+      "translation_status": "ok",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2015,26 +2030,26 @@
       ]
     },
     {
-      "id": "world-177",
-      "title": "Greenland to open truth commission over forced contraception scheme",
+      "id": "world-159",
+      "title": "그린란드, 강제 피임 계획에 대한 진실 위원회 열다",
       "title_en": "Greenland to open truth commission over forced contraception scheme",
       "title_source": "earliest_pick",
       "title_url": "https://www.france24.com/en/europe/20260828-greenland-to-open-truth-commission-over-forced-contraception-scheme",
       "category": "유럽",
       "primary_source": "France24",
-      "excerpt": "Greenland's government said Friday it would ⁠establish a Truth and Reconciliation Commission to shed light on a campaign of forced contraception carried out by Danish authorities from the 1960s to 199",
+      "excerpt": "그린란드 정부는 금요일 1960년대부터 1999년까지 덴마크 당국이 자행한 강제 피임 캠페인을 밝히기 위해 진실과 화해 위원회를 설립할 것이라고 밝혔습니다.",
       "excerpt_en": "Greenland's government said Friday it would ⁠establish a Truth and Reconciliation Commission to shed light on a campaign of forced contraception carried out by Danish authorities from the 1960s to 199",
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/europe/20260828-greenland-to-open-truth-commission-over-forced-contraception-scheme",
-      "translation_status": "failed",
-      "score": 53,
+      "translation_status": "ok",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2062,73 +2077,73 @@
       ]
     },
     {
-      "id": "world-322",
-      "title": "Extreme rollercoaster ‘leaves two women with brain injuries’",
-      "title_en": "Extreme rollercoaster ‘leaves two women with brain injuries’",
+      "id": "world-228",
+      "title": "AIA, 5세 소녀와 노인 여성에게 폭행을 가한 홍콩 쇼핑몰 직원 해고",
+      "title_en": "AIA suspends employee linked to viral Hong Kong mall spat involving girl, 5, slapped by elderly woman",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/x2-six-flags-magic-mountain-injury-brain-b3040898.html",
-      "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "The Geelong concussion waiver raises serious concerns about how the AFL will insure players who suffer traumatic brain injuries.",
-      "excerpt_en": "The Geelong concussion waiver raises serious concerns about how the AFL will insure players who suffer traumatic brain injuries.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-08-29/afl-concussion-waiver-drama-player-protection-analysis/107091910",
-      "translation_status": "failed",
-      "score": 53,
+      "title_url": "https://www.channelnewsasia.com/east-asia/aia-hong-kong-suspension-viral-mall-brawl-6349056",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "홍콩과 마카오 변호사들은 시험에 합격하고 마이가 통과한 법률 개정에 따라 필요한 자격을 취득한 후 다음 주부터 광둥성 9개 도시에서 업무를 수행할 수 있게 됩니다.",
+      "excerpt_en": "Hong Kong and Macau lawyers will be able to practise in nine Guangdong cities from next week after passing an examination and obtaining the required qualifications under legal amendments passed by mai",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/society/article/3365687/hong-kong-lawyers-gain-route-practise-9-guangdong-cities-under-new-law?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "The Independent"
+        "Channel News Asia",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-28T11:26:04+09:00",
-      "latest_published_at": "2026-08-28T19:45:16+09:00",
+      "first_published_at": "2026-08-29T03:30:00+09:00",
+      "latest_published_at": "2026-08-29T04:57:17+09:00",
       "articles": [
         {
-          "title": "AFL in bind over future concussion insurance for players",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/afl-concussion-waiver-drama-player-protection-analysis/107091910",
-          "published_at": "19:45"
+          "title": "Hong Kong lawyers gain route to practise in 9 Guangdong cities under new law",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3365687/hong-kong-lawyers-gain-route-practise-9-guangdong-cities-under-new-law?utm_source=rss_feed",
+          "published_at": "04:57"
         },
         {
-          "title": "Extreme rollercoaster ‘leaves two women with brain injuries’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/x2-six-flags-magic-mountain-injury-brain-b3040898.html",
-          "published_at": "11:26"
+          "title": "AIA suspends employee linked to viral Hong Kong mall spat involving girl, 5, slapped by elderly woman",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/aia-hong-kong-suspension-viral-mall-brawl-6349056",
+          "published_at": "03:30"
         }
       ]
     },
     {
-      "id": "world-357",
-      "title": "Men buy museum tickets, then steal 200-carat diamond necklace",
+      "id": "world-334",
+      "title": "남자들은 박물관 입장권을 산 뒤 200캐럿 다이아몬드 목걸이를 훔쳤다.",
       "title_en": "Men buy museum tickets, then steal 200-carat diamond necklace",
       "title_source": "earliest_pick",
       "title_url": "https://www.cbsnews.com/news/carat-platinum-diamond-necklace-heist-vienna-museum/",
       "category": "기타",
       "primary_source": "CBS News",
-      "excerpt": "VIENNA - Two men bought tickets to enter Vienna’s Museum of Applied Arts (MAK) before smashing a display case, grabbing a 200-carat platinum and diamond necklace and walking away, police said on Frida",
+      "excerpt": "비엔나 - 두 남자가 비엔나 응용미술박물관(MAK) 입장권을 구매한 뒤 진열장을 부수고 200캐럿 플래티늄과 다이아몬드 목걸이를 움켜쥐고 걸어갔다고 경찰이 프리다에 밝혔다.",
       "excerpt_en": "VIENNA - Two men bought tickets to enter Vienna’s Museum of Applied Arts (MAK) before smashing a display case, grabbing a 200-carat platinum and diamond necklace and walking away, police said on Frida",
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3309789/thieves-buy-tickets-before-robbing-vienna-museum",
-      "translation_status": "failed",
-      "score": 53,
+      "translation_status": "ok",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2156,253 +2171,18 @@
       ]
     },
     {
-      "id": "world-359",
-      "title": "Photo gallery: Flash flooding devastates Nepal and Tibet",
-      "title_en": "Photo gallery: Flash flooding devastates Nepal and Tibet",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/asia/photo-gallery-flash-flooding-devastates-nepal-and-tibet-20260828-p60sk2.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "NBC News meteorologist Bill Karins explains how a glacier collapse triggered catastrophic flooding along the Nepal-China border and why experts are linking it to climate change.",
-      "excerpt_en": "NBC News meteorologist Bill Karins explains how a glacier collapse triggered catastrophic flooding along the Nepal-China border and why experts are linking it to climate change.",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/now/video/nepal-flooding-likely-caused-by-collapsed-glacier-in-himalayan-region-269020741703",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "NBC News",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-08-28T11:19:57+09:00",
-      "latest_published_at": "2026-08-28T18:19:58+09:00",
-      "articles": [
-        {
-          "title": "Nepal flooding likely caused by collapsed glacier: How and why it happened",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/now/video/nepal-flooding-likely-caused-by-collapsed-glacier-in-himalayan-region-269020741703",
-          "published_at": "18:19"
-        },
-        {
-          "title": "Photo gallery: Flash flooding devastates Nepal and Tibet",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/photo-gallery-flash-flooding-devastates-nepal-and-tibet-20260828-p60sk2.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "11:19"
-        }
-      ]
-    },
-    {
-      "id": "world-333",
-      "title": "Number of missing in Nepal floods passes 2,400 as UNICEF says 17,000 children need aid",
-      "title_en": "Number of missing in Nepal floods passes 2,400 as UNICEF says 17,000 children need aid",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/08/28/number-of-missing-in-nepal-floods-passes-2400-as-unicef-says-17000-children-need-aid",
-      "category": "아시아",
-      "primary_source": "Euronews",
-      "excerpt": "Rescuers were battling through mud even as the threat of new floods loomed, with emergency teams recovering 586 bodies so far and some of the dead swept downstream as far away as India.",
-      "excerpt_en": "Rescuers were battling through mud even as the threat of new floods loomed, with emergency teams recovering 586 bodies so far and some of the dead swept downstream as far away as India.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/08/28/number-of-missing-in-nepal-floods-passes-2400-as-unicef-says-17000-children-need-aid",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Euronews"
-      ],
-      "first_published_at": "2026-08-28T19:56:52+09:00",
-      "latest_published_at": "2026-08-28T23:07:00+09:00",
-      "articles": [
-        {
-          "title": "Number of missing in deadly Nepal, China floods jumps past 2,400",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/nepal-tibet-china-floods-missing-2400-6348831",
-          "published_at": "23:07"
-        },
-        {
-          "title": "Number of missing in Nepal floods passes 2,400 as UNICEF says 17,000 children need aid",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/08/28/number-of-missing-in-nepal-floods-passes-2400-as-unicef-says-17000-children-need-aid",
-          "published_at": "19:56"
-        }
-      ]
-    },
-    {
-      "id": "world-358",
-      "title": "Shipping traffic via Strait of Hormuz slips below 10-day average, data shows",
-      "title_en": "Shipping traffic via Strait of Hormuz slips below 10-day average, data shows",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/shipping-traffic-via-strait-of-hormuz-slips-below-10-day-average-data-shows-101787894324104.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "As U.S. economic pressure bites, Iran touts a plan with Oman to get ships moving through the Strait of Hormuz and suggests the next move is Trump's.",
-      "excerpt_en": "As U.S. economic pressure bites, Iran touts a plan with Oman to get ships moving through the Strait of Hormuz and suggests the next move is Trump's.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-08-28T05:23:06+09:00",
-      "latest_published_at": "2026-08-28T06:23:00+09:00",
-      "articles": [
-        {
-          "title": "Iran says Strait of Hormuz agreement with Oman puts ball back in U.S. court",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/",
-          "published_at": "06:23"
-        },
-        {
-          "title": "Shipping traffic via Strait of Hormuz slips below 10-day average, data shows",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/shipping-traffic-via-strait-of-hormuz-slips-below-10-day-average-data-shows-101787894324104.html",
-          "published_at": "05:23"
-        }
-      ]
-    },
-    {
-      "id": "world-198",
-      "title": "Nepal flood trauma ‘enormous’, says Red Cross",
-      "title_en": "Nepal flood trauma ‘enormous’, says Red Cross",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3309794/nepal-flood-trauma-enormous-says-red-cross",
-      "category": "미국",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Federation says it fears death toll of nearly 600 will continue to rise as rescuers reach cut-off areas Nepal-Tibet flash flood – latest updates Visual guide: how the deadly flooding unfolded Tell us:",
-      "excerpt_en": "Federation says it fears death toll of nearly 600 will continue to rise as rescuers reach cut-off areas Nepal-Tibet flash flood – latest updates Visual guide: how the deadly flooding unfolded Tell us:",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-08-28T13:45:00+09:00",
-      "latest_published_at": "2026-08-28T15:55:41+09:00",
-      "articles": [
-        {
-          "title": "At least 93,000 ‘in great need’ after Nepal-Tibet flash floods, says Red Cross",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll",
-          "published_at": "15:55"
-        },
-        {
-          "title": "Nepal flood trauma ‘enormous’, says Red Cross",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3309794/nepal-flood-trauma-enormous-says-red-cross",
-          "published_at": "13:45"
-        }
-      ]
-    },
-    {
-      "id": "world-237",
-      "title": "Group of hikers from Virginia among those still missing in Nepal after deadly floods",
-      "title_en": "Group of hikers from Virginia among those still missing in Nepal after deadly floods",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/nepal-floods-virginia-hikers-missing-b3041044.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Dozens of Americans, including community leaders from Northern Virginia, were traveling to Tibet’s sacred Mount Kailash when catastrophic flash floods struck the border region",
-      "excerpt_en": "Dozens of Americans, including community leaders from Northern Virginia, were traveling to Tibet’s sacred Mount Kailash when catastrophic flash floods struck the border region",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/nepal-floods-virginia-hikers-missing-b3041044.html",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-28T16:07:10+09:00",
-      "latest_published_at": "2026-08-28T18:00:29+09:00",
-      "articles": [
-        {
-          "title": "Mount Kailash, Sacred to 4 Faiths, Drew Pilgrims Lost in Nepal and Tibet Floods",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/28/world/asia/mount-kailash-nepal-floods.html",
-          "published_at": "18:00"
-        },
-        {
-          "title": "Group of hikers from Virginia among those still missing in Nepal after deadly floods",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nepal-floods-virginia-hikers-missing-b3041044.html",
-          "published_at": "16:07"
-        }
-      ]
-    },
-    {
-      "id": "world-304",
-      "title": "Who are Daejon Love and Taylor Jamie Chan? Duo posed as 49ers player to scam over 26 women for $1.3 million",
+      "id": "world-285",
+      "title": "대전 러브와 테일러 제이미 찬은 누구인가요? 듀오는 49ers 선수로 위장하여 26명의 여성에게 130만 달러를 사기 위해 사기를 쳤습니다.",
       "title_en": "Who are Daejon Love and Taylor Jamie Chan? Duo posed as 49ers player to scam over 26 women for $1.3 million",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/who-are-daejon-love-and-taylor-jamie-chan-duo-posed-as-49ers-player-to-scam-over-26-women-for-1-3-million-101787935280063.html",
       "category": "기타",
       "primary_source": "Hindustan Times",
-      "excerpt": "Daejon Labrayae Love allegedly posted videos in luxury sports cars and used search engine results to convince victims he was high-earning wide receiver for San Francisco 49ers",
+      "excerpt": "대전 라브라레 러브(Daejon Labrayae Love)는 럭셔리 스포츠카에 대한 동영상을 게시하고 검색 엔진 결과를 사용하여 피해자들에게 자신이 샌프란시스코 49ers의 고액 와이드 리시버임을 설득한 것으로 알려졌습니다.",
       "excerpt_en": "Daejon Labrayae Love allegedly posted videos in luxury sports cars and used search engine results to convince victims he was high-earning wide receiver for San Francisco 49ers",
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/fake-49ers-player-dating-app-scam-b3041162.html",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 51,
       "score_breakdown": {
         "article_score": 12,
