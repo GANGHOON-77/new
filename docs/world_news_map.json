@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-01",
-  "batch_time": "18:00",
+  "date": "2026-09-02",
+  "batch_time": "00:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,53 +8,146 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-01T19:28:39.560122+09:00",
+  "updated_at": "2026-09-02T00:09:02.779103+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 609,
-  "cluster_count_total": 493,
+  "article_count_total": 644,
+  "cluster_count_total": 522,
   "clusters": [
     {
-      "id": "world-108",
-      "title": "드리스콜 미 육군장관, 국방부 지도부 갈등으로 사임",
-      "title_en": "US Army Secretary Driscoll resigns after rifts in Pentagon leadership",
+      "id": "world-137",
+      "title": "뉴욕 타임스퀘어 총격 사건, 흉악 사건 보도: 맨해튼에서 무슨 일이 일어나고 있는 걸까? 7번가에 경찰 출동",
+      "title_en": "NYC Times Square shooting, stabbing reports: What's happening in Manhattan? Police presence on Seventh Avenue",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3365905/us-army-secretary-dan-driscoll-resigns-after-18-months-job-white-house-says?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "댄 드리스콜 미 육군장관이 취임 18개월 만에 사임한다고 백악관이 월요일 밝혔다. 최근 트럼프 행정부 시절 한 최고 군사 지도자가 사임했다. 이유는 없었다",
-      "excerpt_en": "US Army Secretary Dan Driscoll is stepping down after 18 months on the job, the White House said Monday, in the latest departure of a top military leader during the Trump administration. No reason was",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365905/us-army-secretary-dan-driscoll-resigns-after-18-months-job-white-house-says?utm_source=rss_feed",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/nyc-times-square-shooting-stabbing-reports-whats-happening-in-manhattan-police-presence-on-seventh-avenue-101788210179756.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "NEW YORK - A knife-wielding woman stabbed and killed a person and injured another in New York's tourist-filled Times Square on Monday, before she was shot and killed by police.",
+      "excerpt_en": "NEW YORK - A knife-wielding woman stabbed and killed a person and injured another in New York's tourist-filled Times Square on Monday, before she was shot and killed by police.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3311783/two-dead-after-stabbing-in-new-yorks-times-square",
       "translation_status": "ok",
-      "score": 89,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 7,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 70
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 5,
+      "sources": [
+        "BBC",
+        "Bangkok Post",
+        "Hindustan Times",
+        "Sydney Morning Herald",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-31T21:08:16+09:00",
+      "latest_published_at": "2026-09-01T14:48:03+09:00",
+      "articles": [
+        {
+          "title": "Who was Erin Piacenti? Times Square stabbing victims identified as New Jersey couple - one dead, another hospitalised",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-erin-piacenti-times-square-stabbing-victims-identified-as-new-jersey-couple-one-dead-another-hospitalised-101788273074813.html",
+          "published_at": "14:48"
+        },
+        {
+          "title": "Woman killed in Times Square stabbing, suspect shot dead by police",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckgvrm5nxexo?at_medium=RSS&at_campaign=rss",
+          "published_at": "13:12"
+        },
+        {
+          "title": "Who was Pamela Cisneros? Times Square stabbing suspect identified: ‘She had a history of mental health issues’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-was-pamela-cisneros-times-square-stabbing-suspect-identified-she-had-a-history-of-mental-health-issues-101788264625770.html",
+          "published_at": "12:34"
+        },
+        {
+          "title": "Times Square stabbing: Who is Pamela Cisneros? Attacker had mental health history",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/new-york-times-square-stabbing-who-is-pamela-cisneros-woman-behind-attack-had-mental-health-history/articleshow/133678226.cms",
+          "published_at": "10:49"
+        },
+        {
+          "title": "Two dead after stabbing in New York's Times Square",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3311783/two-dead-after-stabbing-in-new-yorks-times-square",
+          "published_at": "02:45"
+        },
+        {
+          "title": "NYC Mayor Zohran Mamdani speaks after stabbing attack",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/nyc-mayor-zohran-mamdani-speaks-after-stabbing-attack-20260901-p60td3.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "00:59"
+        },
+        {
+          "title": "NYC Times Square shooting, stabbing reports: What's happening in Manhattan? Police presence on Seventh Avenue",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nyc-times-square-shooting-stabbing-reports-whats-happening-in-manhattan-police-presence-on-seventh-avenue-101788210179756.html",
+          "published_at": "21:08"
+        }
+      ]
+    },
+    {
+      "id": "world-117",
+      "title": "트럼프 육군장관, 행정부 사임한 최신 군사지도자 됐다",
+      "title_en": "Trump's army secretary becomes latest military leader to quit administration",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/army-secretary-dan-driscoll-resigns-trump-administration-9.7327311?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "댄 드리스콜 육군장관은 월요일 트럼프 대통령에게 사임을 제출했습니다. 주말 동안 이란과의 전쟁은 몇 주 만에 처음으로 공격을 주고받으며 7개월째 접어들었습니다. 웨이지아 J",
+      "excerpt_en": "Army Secretary Dan Driscoll submitted his resignation to President Trump on Monday. Over the weekend, the war with Iran entered its seventh month, with the first exchange of attacks in weeks. Weijia J",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/us-launches-first-strike-iran-regime-retaliates/",
+      "translation_status": "ok",
+      "score": 92,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 69
+      },
+      "area_value": 10,
+      "article_count": 10,
+      "syndicated_count": 0,
+      "source_count": 8,
       "sources": [
         "AP News",
         "BBC",
         "Bangkok Post",
         "CBC",
+        "CBS News",
         "Hindustan Times",
-        "SCMP",
+        "NPR",
         "The Independent"
       ],
-      "first_published_at": "2026-08-31T22:54:27+09:00",
-      "latest_published_at": "2026-09-01T08:48:47+09:00",
+      "first_published_at": "2026-08-31T22:59:43+09:00",
+      "latest_published_at": "2026-09-01T11:23:46+09:00",
       "articles": [
+        {
+          "title": "SCOTUS allows Trump's ballroom project to continue. And, the Army secretary resigns",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/01/g-s1-141357/up-first-newsletter-trump-white-house-ballroom-dan-driscoll-g20-iran-usps-mail-in-voting",
+          "published_at": "11:23"
+        },
+        {
+          "title": "The chaos inside Hegseth’s defense department as Trump ‘concerned’ by scale of purge",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/pete-hegseth-pentagon-firings-dan-driscoll-b3042619.html",
+          "published_at": "11:04"
+        },
         {
           "title": "US army secretary Dan Driscoll resigns after reported tensions with Pete Hegseth",
           "source_name": "Hindustan Times",
@@ -86,6 +179,12 @@
           "published_at": "00:07"
         },
         {
+          "title": "U.S. launches its first strike on Iran in over a month, regime retaliates",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/us-launches-first-strike-iran-regime-retaliates/",
+          "published_at": "23:43"
+        },
+        {
           "title": "Why did Army Secretary Dan Driscoll resign? 'Conflict' with Pete Hegseth explained",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/why-did-army-secretary-dan-driscoll-resign-conflict-with-pete-hegseth-explained-101788216549293.html",
@@ -96,71 +195,167 @@
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/army-secretary-dan-driscoll-resigns-trump-administration-9.7327311?cmp=rss",
           "published_at": "22:59"
-        },
-        {
-          "title": "US Army Secretary Driscoll resigns after rifts in Pentagon leadership",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365905/us-army-secretary-dan-driscoll-resigns-after-18-months-job-white-house-says?utm_source=rss_feed",
-          "published_at": "22:54"
         }
       ]
     },
     {
-      "id": "world-166",
-      "title": "최신: 배심원단은 Tupac Shakur 살인 재판에서 최종 변론을 듣게 됩니다",
-      "title_en": "The Latest: Jury will hear closing arguments in Tupac Shakur murder trial",
+      "id": "world-111",
+      "title": "이란 \"미국이 휴전하면 휴전 복귀할 것\"",
+      "title_en": "Iran says it will return to ceasefire if US does",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/tupac-shakur-cadillac-las-vegas-death-row-records-anderson-b3042233.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "배심원단은 피고인의 자백에 크게 의존한 사건에 대해 평결을 내리는 데 약 3시간이 걸렸습니다. 게다가 프레디 머큐리와 함께 살며 약혼자로 사랑했던 여자도 안녕. 아 라스 V",
-      "excerpt_en": "Jury took about three hours to reach verdict in case that relied heavily on confessions from the defendant. Plus, the woman who lived with and loved Freddie Mercury as her fiance Good morning. A Las V",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/01/first-thing-duane-keith-davis-guilty-tupac-shakur-murder",
+      "title_url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "페제쉬키안 이란 대통령은 지난 주말 이란과 미국이 총격전을 벌인 지 몇 시간 만에 비슈케크에서 열린 SCO 정상회담에서 이같은 제안을 했습니다. IRGC는 호르무즈 통제와 전쟁 보상을 요구하고 있다.",
+      "excerpt_en": "Iran's President Pezeshkian made the offer at the SCO summit in Bishkek hours after Iran and the US exchanged fire over the weekend. IRGC's demands for control of Hormuz and war compensation remain co",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same",
       "translation_status": "ok",
       "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "AP News",
+        "DW",
+        "Euronews",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-01T10:00:00+09:00",
+      "latest_published_at": "2026-09-01T14:15:55+09:00",
+      "articles": [
+        {
+          "title": "Iran says it will return to June ceasefire deal if US does the same",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/09/01/iran-says-it-will-return-to-june-ceasefire-deal-if-us-does-the-same",
+          "published_at": "14:15"
+        },
+        {
+          "title": "Iran's president says Iran would return to ceasefire agreement if US does, and other Mideast news",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/iran-strait-of-hormuz-kyrgyzstan-washington-revolutionary-guard-b3042734.html",
+          "published_at": "12:21"
+        },
+        {
+          "title": "Iran's president says Iran would return to ceasefire agreement if US does, and other Mideast news",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdlc2ODRWbzc4Ujc2bkpMYWU2dGtJU3JNdk1UeHhYbThocGhLbG9WdDVGd3JpdlIxLUNRZFhWZU80TXhRMWk2RFVaYmVwRXhVdG9fcUl3Zk5Pd0Q1SHpzT0w1aURMQVVxUURyR2lZYTZGbjNfT18yTlBMRml2bTZGM3dDaWNKNmNfelRuLXlsWmw1SlIwNHY0c3ljY2cwc0pma0tId2VtUjBpVWQ4OE5TeE90QVFrWFI5UTZ5eV9HeWhVQ09WUGc?oc=5",
+          "published_at": "12:21"
+        },
+        {
+          "title": "Iran says it will return to ceasefire if US does",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "10:00"
+        }
+      ]
+    },
+    {
+      "id": "world-104",
+      "title": "샌디에고 모스크 총격 사건 생중계 녹화한 10대 소녀, 살인 혐의로 기소",
+      "title_en": "Teen girl who recorded livestream of San Diego mosque shooting charged with murder, DA says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/teen-girl-charged-san-diego-mosque-shooting-b3042336.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "제임스 오닐 검사실이 발표한 보도자료에 따르면 사라 산티아고(17세)는 성인으로 기소될 예정이다.",
+      "excerpt_en": "Sarah Santiago, 17, will be charged as an adult, according to a press release issued by prosecutor James O'Neill's office.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/09/01/us-teen-charged-with-aiding-san-diego-mosque-shooters-share-livestream-and-manifesto",
+      "translation_status": "ok",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "AP News",
+        "Euronews",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-08-31T21:31:34+09:00",
+      "latest_published_at": "2026-09-01T11:40:56+09:00",
+      "articles": [
+        {
+          "title": "17-year-old girl who recorded California mosque shooting livestream charged with murder",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/17-year-old-girl-who-recorded-california-mosque-shooting-livestream-charged-with-murder/articleshow/133679901.cms",
+          "published_at": "11:40"
+        },
+        {
+          "title": "US teen charged with aiding San Diego mosque shooters share livestream and manifesto",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/09/01/us-teen-charged-with-aiding-san-diego-mosque-shooters-share-livestream-and-manifesto",
+          "published_at": "05:50"
+        },
+        {
+          "title": "DA says a teen who recorded San Diego mosque shooting livestream has been charged with murder",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWI5VlJLNTBPQ2lmM3RBdHM2amUwSXNqOHhPQ2dWbzRiWDVJZmd2YXpwLUIxT25FVFJHTVlDY3NwOWktRkkxXzhlMWpadmRDajdOSDFtYTFDSHY5M2xQUXg2a25qbDBZdFZMSy14ZG13dVVfZUJfRGlFWlA0UzdPcHp3OU56ajhRZE5wUlNn?oc=5",
+          "published_at": "22:48"
+        },
+        {
+          "title": "Teen girl who recorded livestream of San Diego mosque shooting charged with murder, DA says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/teen-girl-charged-san-diego-mosque-shooting-b3042336.html",
+          "published_at": "21:31"
+        }
+      ]
+    },
+    {
+      "id": "world-118",
+      "title": "배심원단, 투팍 샤쿠르(Tupac Shakur) 살인 재판에서 심의 시작",
+      "title_en": "Jury begins deliberations in Tupac Shakur murder trial",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3311734/jury-begins-deliberations-in-tupac-shakur-murder-trial",
+      "category": "미국",
+      "primary_source": "Bangkok Post",
+      "excerpt": "이번 판결은 거의 30년 동안 해결되지 않은 이목을 끄는 살인 사건에 대해 전 세계 열렬한 힙합 팬들의 수십 년간의 추측과 음모에 종지부를 찍었습니다. 데이비스가 등장할 것으로 예상됩니다.",
+      "excerpt_en": "The verdict lays to rest decades of speculation and conspiracy from avid hip-hop fans around the world in the high-profile killing that went unresolved for close to 30 years. Davis is expected to appe",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/09/01/jury-convicts-duane-keffe-d-davis-of-first-degree-murder-in-1996-killing-of-hip-hop-icon-t",
+      "translation_status": "ok",
+      "score": 88,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
-      "area_value": 14,
-      "article_count": 14,
+      "area_value": 8,
+      "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 5,
       "sources": [
-        "Al Jazeera",
+        "AP News",
         "Bangkok Post",
         "CBC",
-        "France24",
-        "Hindustan Times",
-        "The Guardian",
-        "The Independent"
+        "Euronews",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-08-31T15:40:37+09:00",
-      "latest_published_at": "2026-09-01T10:15:04+09:00",
+      "first_published_at": "2026-08-31T21:45:00+09:00",
+      "latest_published_at": "2026-09-01T07:04:30+09:00",
       "articles": [
-        {
-          "title": "First Thing: Duane Keith Davis found guilty of 1996 murder of Tupac Shakur",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/01/first-thing-duane-keith-davis-guilty-tupac-shakur-murder",
-          "published_at": "10:15"
-        },
-        {
-          "title": "Murder he wrote: How gang leader behind Tupac Shakur killing was snared by his own memoir",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/duane-keffe-d-davis-tupac-shakur-b3042598.html",
-          "published_at": "09:47"
-        },
-        {
-          "title": "Former gang member found guilty of murdering rapper Tupac Shakur",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/former-gang-member-found-guilty-of-murdering-rapper-tupac-shakur",
-          "published_at": "09:31"
-        },
         {
           "title": "Tupac Shakur murder: A shooting, bizarre conspiracy theories and a case that remained unsolved for decades",
           "source_name": "Hindustan Times",
@@ -168,22 +363,16 @@
           "published_at": "07:04"
         },
         {
-          "title": "Duane ‘Keffe D’ Davis found guilty in Tupac murder case after decades of speculation",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/tupac-murder-trial-duane-davis-suge-knight-b3042461.html",
-          "published_at": "06:43"
+          "title": "Jury convicts Duane 'Keffe D' Davis of first degree murder in 1996 killing of hip-hop icon Tupac Shakur",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/09/01/jury-convicts-duane-keffe-d-davis-of-first-degree-murder-in-1996-killing-of-hip-hop-icon-t",
+          "published_at": "03:51"
         },
         {
-          "title": "Ex-gang leader Duane ‘Keffe D’ Davis found guilty of murdering Tupac Shakur",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/1/ex-gang-leader-keffe-d-found-guilty-of-killing-rap-legend-tupac-shakur?traffic_source=rss",
-          "published_at": "06:10"
-        },
-        {
-          "title": "Former gang leader found guilty of Tupac Shakur’s 1996 murder",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/09-01-26-tupac-murder-verdict-sv?traffic_source=rss",
-          "published_at": "04:29"
+          "title": "Jury convicts a man of first-degree murder for the 1996 killing of rap icon Tupac Shakur",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOckladTlIUGxNTm1saG5fdHluYXFVOFM3UnZjdGVXUi05Ym9sRXR6blhqN3dIWHpEYUp0eHBOVDl5RTFxNkVtTXhyTlBQVUw2bjZyMVdEZFJoRDdpN0FtbWVuOWxKSUoyVG8wYVY3T0F4R2hzUzk2NUZkZ1U4WThpS3VJT2lPajJlU3ozRktuT1NsXzNlMDFyMXVuZWliOEY1dkE?oc=5",
+          "published_at": "02:17"
         },
         {
           "title": "Who really shot Tupac Shakur? Timeline of the 1996 murder as Duane 'Keffe D' Davis is found guilty",
@@ -196,12 +385,6 @@
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/entertainment/duane-keffe-d-davis-guilty-tupac-murder-9.7327445?cmp=rss",
           "published_at": "01:01"
-        },
-        {
-          "title": "Duane “Keffe D” Davis found guilty in Tupac Shakur murder",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260901-duane-keffe-d-davis-found-guilty-in-tupac-shakur-murder",
-          "published_at": "00:57"
         },
         {
           "title": "Tupac Shakur family: All on mom Afeni, dad Billy Garland and siblings as Duane ‘Keffe D’ Davis found guilty",
@@ -220,303 +403,150 @@
           "source_name": "Bangkok Post",
           "url": "https://www.bangkokpost.com/world/3311734/jury-begins-deliberations-in-tupac-shakur-murder-trial",
           "published_at": "21:45"
-        },
-        {
-          "title": "The Latest: Jury will hear closing arguments in Tupac Shakur murder trial",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/tupac-shakur-cadillac-las-vegas-death-row-records-anderson-b3042233.html",
-          "published_at": "15:40"
         }
       ]
     },
     {
-      "id": "world-102",
-      "title": "뉴욕 타임스퀘어서 흉기 찔러 살해한 여성, 경찰 총격에 사망",
-      "title_en": "Woman fatally shot by police after deadly stabbing attack in New York’s Times Square",
+      "id": "world-42",
+      "title": "영국 총리 사임 후 Keir Starmer 의원 사임 : '…에 집중할 것입니다.'",
+      "title_en": "After resigning as UK PM, Keir Starmer to stand down as MP: ‘Will focus on…’",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3365906/woman-waving-2-knives-shot-us-police-new-yorks-times-square?utm_source=rss_feed",
-      "category": "미국",
-      "primary_source": "SCMP",
-      "excerpt": "뉴욕 타임스퀘어에서 한 여성이 2명을 무작위로 찔러 1명의 여성을 숨지게 한 뒤 경찰이 쏜 총에 맞아 사망했다고 관계자들이 밝혔다. 총격 사건은 오후 4시 30분 직전에 발생했습니다.",
-      "excerpt_en": "A woman randomly stabbed two people in New York City’s Times Square on Monday, killing one woman, and then was fatally shot by police, according to officials. The shooting happened just before 4.30pm ",
+      "title_url": "https://www.hindustantimes.com/world-news/after-resigning-as-uk-pm-keir-starmer-to-stand-down-as-mp-101788263604078.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "2년간의 소란스러운 집권 끝에 올 여름 지도자직에서 물러난 키어 스타머 영국 전 총리는 화요일에 의회를 그만두고 국제 관계에 집중하겠다고 발표했습니다.",
+      "excerpt_en": "Britain’s former prime minister Keir Starmer, who stepped down as leader this summer after a tumultuous two years in power, announced on Tuesday he would quit parliament to focus on “international aff",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365906/woman-waving-2-knives-shot-us-police-new-yorks-times-square?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366013/uk-ex-pm-starmer-quit-parliament-focus-international-affairs?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 88,
+      "score": 81,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
       },
       "area_value": 5,
       "article_count": 5,
       "syndicated_count": 0,
       "source_count": 5,
       "sources": [
-        "AP News",
-        "Bangkok Post",
-        "Euronews",
-        "SCMP",
-        "The Independent"
+        "Channel News Asia",
+        "Hindustan Times",
+        "New York Times",
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-08-31T23:15:16+09:00",
-      "latest_published_at": "2026-09-01T04:33:58+09:00",
+      "first_published_at": "2026-09-01T12:00:18+09:00",
+      "latest_published_at": "2026-09-01T14:24:02+09:00",
       "articles": [
         {
-          "title": "One person killed as woman randomly stabs two people in Times Square before being fatally shot by police",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/09/01/one-person-killed-as-woman-randomly-stabs-two-people-in-times-square-before-being-fatally-",
-          "published_at": "04:33"
-        },
-        {
-          "title": "Woman randomly stabs 2 people in New York City's Times Square, killing 1, then is killed by police",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQUo3SHlqTDVtQXFwUmc2am5iVEh5NFBWNENERDRaSDVCOVpXNXQ4cUJrLU9yS2RZaHRTLWlnZ0pXUHU5Nk5hUFZfb0UwT3BYSzNQTDJxeERXemVvSGZxb1g0SzJqWC1wVHlHYWx5SWZJVXdHUTk1R0Y1em9WaWNac19CMGk4ajk2?oc=5",
-          "published_at": "02:57"
-        },
-        {
-          "title": "Two dead after stabbing in New York's Times Square",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3311783/two-dead-after-stabbing-in-new-yorks-times-square",
-          "published_at": "02:45"
-        },
-        {
-          "title": "Woman shot dead by police in Times Square after fatally stabbing one and injuring another",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/times-square-stabbing-shooting-nyc-b3042388.html",
-          "published_at": "00:58"
-        },
-        {
-          "title": "Woman fatally shot by police after deadly stabbing attack in New York’s Times Square",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365906/woman-waving-2-knives-shot-us-police-new-yorks-times-square?utm_source=rss_feed",
-          "published_at": "23:15"
-        }
-      ]
-    },
-    {
-      "id": "world-136",
-      "title": "메시, '더 이상 줄 것이 없다'며 대표팀 은퇴",
-      "title_en": "Messi retires from international football with 'nothing left to give'",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-      "category": "중동",
-      "primary_source": "BBC",
-      "excerpt": "아르헨티나의 슈퍼스타 리오넬 메시가 월요일 국가대표팀 은퇴를 선언해 2022년 월드컵 우승으로 마무리된 21년 간의 국가대표 임무를 마무리했다.",
-      "excerpt_en": "Argentina superstar Lionel Messi announced his retirement from international soccer on Monday, ending 21 years of national-team duty that were capped by winning the World Cup in 2022 to secure his pla",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/sports/soccer/lionel-messi-argentina-retirement-international-soccer-9.7326682?cmp=rss",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "BBC",
-        "CBC",
-        "CBS News",
-        "DW",
-        "France24",
-        "New York Times"
-      ],
-      "first_published_at": "2026-08-31T15:18:39+09:00",
-      "latest_published_at": "2026-09-01T09:12:27+09:00",
-      "articles": [
-        {
-          "title": "Lionel Messi’s Retirement From Soccer Sparks Heartbreak Across Argentina",
+          "title": "Keir Starmer, Former UK Prime Minister, Says He Will Resign From Parliament",
           "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/31/world/americas/lionel-messi-retirement-soccer-argentina.html",
-          "published_at": "09:12"
+          "url": "https://www.nytimes.com/2026/09/01/world/europe/keir-starmer-uk-prime-minister-resigns-mp.html",
+          "published_at": "14:24"
         },
         {
-          "title": "Argentina: Lionel Messi announces end of international career",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260901-argentina-lionel-messi-announces-end-of-international-career",
-          "published_at": "08:23"
+          "title": "Ousted UK Prime Minister Starmer quits parliament to focus on international affairs",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdVczaDkwemNDVXRnM1FVUnAzS0d2cXNMVTNrLVF1OHFTVnhKRUZDMm1hSkxJUUQzQzNqamc0V0kzNjZIREoxYnlDWkJUdnFobWZ5ZG1kUTNSUzJvOFZudl9CNmwwM1NjUEFIWkwtZTFycllBNmMzMGVEY0oyMjd3Y2hSUzJrWklXNGpGM3VHTV9Qa0RPRFpQQ3dtX0FjMlU1MElZa1Vn?oc=5",
+          "published_at": "12:55"
         },
         {
-          "title": "Lionel Messi says he is retiring from the Argentina national soccer team",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/lionel-messi-retiring-argentina-national-soccer-team/",
-          "published_at": "18:21"
+          "title": "Ousted UK Prime Minister Starmer quits parliament to focus on international affairs",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/ex-uk-prime-minister-keir-starmer-quits-parliament-6355066",
+          "published_at": "12:52"
         },
         {
-          "title": "Argentina soccer legend Lionel Messi, 39, retiring from international play",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/sports/soccer/lionel-messi-argentina-retirement-international-soccer-9.7326682?cmp=rss",
-          "published_at": "15:42"
+          "title": "UK ex-PM Starmer to quit parliament, focus on ‘international affairs’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3366013/uk-ex-pm-starmer-quit-parliament-focus-international-affairs?utm_source=rss_feed",
+          "published_at": "12:07"
         },
         {
-          "title": "Lionel Messi announces retirement from international football",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/lionel-messi-announces-retirement-from-international-football/a-78579502?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "15:30"
-        },
-        {
-          "title": "Messi retires from international football with 'nothing left to give'",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "published_at": "15:18"
+          "title": "After resigning as UK PM, Keir Starmer to stand down as MP: ‘Will focus on…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/after-resigning-as-uk-pm-keir-starmer-to-stand-down-as-mp-101788263604078.html",
+          "published_at": "12:00"
         }
       ]
     },
     {
-      "id": "world-113",
-      "title": "트럼프, 애플 지도에 '온타리오 호수'를 '아메리카 호수'로 바꾸라고 압박",
-      "title_en": "Trump pushes Apple to change 'Lake Ontario' to 'Lake America' on its maps",
+      "id": "world-188",
+      "title": "노르웨이 국왕 하콘 8세, 헌법 준수 맹세",
+      "title_en": "Norway’s King Haakon VIII swears allegiance to constitution",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/c2l80eq5lxno?at_medium=RSS&at_campaign=rss",
-      "category": "미국",
-      "primary_source": "BBC",
-      "excerpt": "더그 버검 미국 내무장관은 도널드 트럼프 대통령이 지난 주 캐나다에서 온타리오 호수의 이름을 바꾸라는 명령에 서명한 후 애플 지도가 온타리오 호수의 이름을 '레이크 아메리카'로 \"곧\" 바꿀 수 있다고 말했습니다.",
-      "excerpt_en": "U.S. Interior Secretary Doug Burgum says Apple Maps could \"soon\" change the name of Lake Ontario to \"Lake America,\" after President Donald Trump signed an order last week to rename the lake amid Canad",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/trump-apple-lake-ontario-9.7327014?cmp=rss",
-      "translation_status": "ok",
-      "score": 84,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 63
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "BBC",
-        "CBC",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-31T15:00:11+09:00",
-      "latest_published_at": "2026-08-31T23:57:00+09:00",
-      "articles": [
-        {
-          "title": "Trump has asked Apple to change Lake Ontario name to 'Lake America' on its maps, interior chief says",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQkc0b2cyRHBfY2NWTWZPLTU2MVdnSHRGeG04Ti1sVGx5RzUwdkRQa29yNTdkMURVZ2JHRUk4TWZrMjZsNXNSOHo0Q2pKNnQxUEx0a05DU0Jjd0IwZkxoZVM3OW9OYUNxbkRPeG5xSFhSWm9PbUJ6cmd1d1A1SnpidVdOcGY2bFV1Yk9MbTN4am5vN056SlRN?oc=5",
-          "published_at": "23:57"
-        },
-        {
-          "title": "Trump renamed Lake Ontario to Lake America amid escalating Canada trade war — but who gets to decide what goes on maps?",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-rename-lake-america-maps-ontario-canada-b3042341.html",
-          "published_at": "20:40"
-        },
-        {
-          "title": "Trump asked Apple to change Lake Ontario to 'Lake America' on its maps: U.S. official",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-apple-lake-ontario-9.7327014?cmp=rss",
-          "published_at": "20:13"
-        },
-        {
-          "title": "MapQuest surges in rankings after Google bows to Trump and re-labels Lake Ontario",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/mapquest-viral-trump-lake-ontario-google-b3042271.html",
-          "published_at": "18:55"
-        },
-        {
-          "title": "Trump called Apple to demand they label Lake Ontario ‘Lake America’ on maps, Doug Burgum reveals",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-lake-ontario-apple-doug-burgum-b3042224.html",
-          "published_at": "16:23"
-        },
-        {
-          "title": "Trump pushes Apple to change 'Lake Ontario' to 'Lake America' on its maps",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c2l80eq5lxno?at_medium=RSS&at_campaign=rss",
-          "published_at": "15:00"
-        }
-      ]
-    },
-    {
-      "id": "world-179",
-      "title": "뉴욕 타임스퀘어 총격 사건, 흉악 사건 보도: 맨해튼에서 무슨 일이 일어나고 있는 걸까? 7번가에 경찰 출동",
-      "title_en": "NYC Times Square shooting, stabbing reports: What's happening in Manhattan? Police presence on Seventh Avenue",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/nyc-times-square-shooting-stabbing-reports-whats-happening-in-manhattan-police-presence-on-seventh-avenue-101788210179756.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "두 개의 부엌칼로 무장한 여성이 뉴욕 타임스퀘어에서 한 명을 죽이고 다른 한 명에게 부상을 입힌 뒤 경찰이 총격을 가해 숨졌습니다. 당국은 이번 공격이 무작위적이고 이유가 없는 공격이었다고 말했습니다.",
-      "excerpt_en": "A woman armed with two kitchen knives killed one person and wounded another in New York City's Times Square before police fatally shot her. Authorities said the attack was random and unprovoked.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/times-square-stabbing-in-nyc-leaves-1-dead-assailant-killed/a-78582543?maca=en-rss-en-all-1573-xml-mrss",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3366012/norways-king-haakon-viii-swears-allegiance-constitution?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "하콘 8세(Haakon VIII)는 1814년 헌법을 준수하겠다고 약속했지만 그의 여왕은 수술 후 '합병증' 때문에 의식을 놓쳤습니다. 하콘 8세 국왕은 화요일 노르웨이 의회에서 충성을 맹세했습니다.",
+      "excerpt_en": "Haakon VIII promises to uphold 1814 constitution but his queen misses ceremony because of post-surgery ‘complications’ King Haakon VIII swore an oath of allegiance before Norway’s parliament on Tuesda",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/01/norways-new-king-haakon-viii-swears-oath-of-allegiance-with-daughter-at-his-side",
       "translation_status": "ok",
       "score": 81,
       "score_breakdown": {
         "article_score": 22,
-        "diversity_score": 15,
+        "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
+        "breaking_score": 1,
+        "time_score": 3,
         "raw75": 61
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
+        "ABC News",
         "DW",
-        "Hindustan Times",
-        "Sydney Morning Herald"
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-08-31T21:08:16+09:00",
-      "latest_published_at": "2026-09-01T07:00:00+09:00",
+      "first_published_at": "2026-09-01T12:01:38+09:00",
+      "latest_published_at": "2026-09-01T14:40:34+09:00",
       "articles": [
         {
-          "title": "Times Square stabbing in NYC leaves 1 dead, assailant killed",
+          "title": "Norway’s new king swears oath of allegiance with daughter at his side",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/01/norways-new-king-haakon-viii-swears-oath-of-allegiance-with-daughter-at-his-side",
+          "published_at": "14:40"
+        },
+        {
+          "title": "King Haakon VIII pledges an oath of allegiance to Norway's constitution as his father lies in state",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/norways-king-haakon-pledges-oath-allegiance-constitution-father-136110584",
+          "published_at": "13:06"
+        },
+        {
+          "title": "Norway's new King Haakon VIII takes oath in parliament",
           "source_name": "DW",
-          "url": "https://www.dw.com/en/times-square-stabbing-in-nyc-leaves-1-dead-assailant-killed/a-78582543?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "07:00"
+          "url": "https://www.dw.com/en/norway-s-new-king-haakon-viii-takes-oath-in-parliament/a-78606923?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "12:23"
         },
         {
-          "title": "Kitchen knives, 4-minute standoff, failed tasers: What we know about NYC Times Square stabbing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/2-kitchen-knives-4-minute-standoff-failed-tasers-what-we-know-about-nyc-times-square-stabbing-101788228453607.html",
-          "published_at": "02:53"
-        },
-        {
-          "title": "NYC Mayor Zohran Mamdani speaks after stabbing attack",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/nyc-mayor-zohran-mamdani-speaks-after-stabbing-attack-20260901-p60td3.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "00:59"
-        },
-        {
-          "title": "NYC Times Square shooting, stabbing reports: What's happening in Manhattan? Police presence on Seventh Avenue",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/nyc-times-square-shooting-stabbing-reports-whats-happening-in-manhattan-police-presence-on-seventh-avenue-101788210179756.html",
-          "published_at": "21:08"
+          "title": "Norway’s King Haakon VIII swears allegiance to constitution",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3366012/norways-king-haakon-viii-swears-allegiance-constitution?utm_source=rss_feed",
+          "published_at": "12:01"
         }
       ]
     },
     {
-      "id": "world-212",
-      "title": "트럼프의 큰 흰 고래: 캐나다",
-      "title_en": "Trump’s Great White Whale: Canada",
+      "id": "world-256",
+      "title": "태국 파타야, USS Abraham Lincoln 방문 예상",
+      "title_en": "Thailand's Pattaya anticipates USS Abraham Lincoln visit",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/trumps-great-white-whale-canada-101788167867577.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국과의 무역 전쟁이 격화되는 가운데 마크 카니 캐나다 총리가 이끄는 정당이 월요일 보궐선거에서 승리해 의회 과반수 의석을 확보했습니다. 카니의 리베",
-      "excerpt_en": "Canadian Prime Minister Mark Carney’s party swept to victory in special elections on Monday, boosting the leader’s parliamentary majority as a trade war with the United States escalates. Carney’s Libe",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365941/carneys-liberals-win-3-canada-special-elections-amid-trade-clash-us?utm_source=rss_feed",
+      "title_url": "https://abcnews.com/International/wireStory/thailands-pattaya-anticipates-uss-abraham-lincoln-visit-middle-136107716",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "항공모함 링컨호의 중동 파병을 앞두고 태국 파타야 경찰이 성노동자들에 대한 단속을 강화하고 있다. 매춘을 하면서",
+      "excerpt_en": "Police in Pattaya, Thailand, are intensifying a crackdown on sex workers ahead of the arrival of the USS Lincoln after the aircraft carrier’s lengthy deployment in the Middle East. While prostitution ",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/video/thai-police-crackdown-on-sex-workers-ahead-of-uss-lincoln-s-arrival-269144133971",
       "translation_status": "ok",
       "score": 81,
       "score_breakdown": {
@@ -533,58 +563,58 @@
       "source_count": 5,
       "sources": [
         "ABC News",
-        "Channel News Asia",
-        "Hindustan Times",
-        "SCMP",
-        "The Guardian"
+        "NBC News",
+        "New York Times",
+        "The Independent",
+        "Times of India"
       ],
-      "first_published_at": "2026-08-31T14:20:42+09:00",
-      "latest_published_at": "2026-09-01T09:33:53+09:00",
+      "first_published_at": "2026-09-01T09:22:21+09:00",
+      "latest_published_at": "2026-09-01T14:39:45+09:00",
       "articles": [
         {
-          "title": "Carney’s Liberals sweep 3 special elections in Canada as voters back his stand against Trump",
+          "title": "Thailand issues prostitution warning as 5,000 US sailors arrive in tourist town after 200 days at sea",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/uss-abraham-lincoln-pattaya-prostitution-thailand-b3042016.html",
+          "published_at": "14:39"
+        },
+        {
+          "title": "Thailand steps up sex-worker raids as USS Abraham Lincoln set to dock with 5,000 sailors in Pattaya",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/thailand-steps-up-sex-worker-raids-as-uss-abraham-lincoln-set-to-dock-with-5000-sailors-in-pattaya/articleshow/133676486.cms",
+          "published_at": "11:47"
+        },
+        {
+          "title": "U.S.S. Abraham Lincoln to Dock in Thailand on Wednesday, Pattaya Mayor Says",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/01/world/asia/uss-lincoln-pattaya-thailand.html",
+          "published_at": "10:14"
+        },
+        {
+          "title": "Thai police crackdown on sex workers ahead of USS Lincoln’s arrival",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/thai-police-crackdown-on-sex-workers-ahead-of-uss-lincoln-s-arrival-269144133971",
+          "published_at": "10:05"
+        },
+        {
+          "title": "Thailand's Pattaya anticipates USS Abraham Lincoln visit",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/carneys-liberals-sweep-3-special-elections-canada-voters-136106661",
-          "published_at": "09:33"
-        },
-        {
-          "title": "Canada’s ruling Liberals sweep special elections in boost to Mark Carney",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/01/canada-liberals-special-elections-mark-carney",
-          "published_at": "07:42"
-        },
-        {
-          "title": "Carney's Liberals sweep Canada by-elections as US trade war rages",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/carneys-liberals-sweep-canada-elections-us-trade-war-rages-6353906",
-          "published_at": "07:02"
-        },
-        {
-          "title": "Carney’s Liberals win 3 special elections in Canada amid trade clash with US",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365941/carneys-liberals-win-3-canada-special-elections-amid-trade-clash-us?utm_source=rss_feed",
-          "published_at": "06:25"
-        },
-        {
-          "title": "Trump’s Great White Whale: Canada",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/trumps-great-white-whale-canada-101788167867577.html",
-          "published_at": "14:20"
+          "url": "https://abcnews.com/International/wireStory/thailands-pattaya-anticipates-uss-abraham-lincoln-visit-middle-136107716",
+          "published_at": "09:22"
         }
       ]
     },
     {
-      "id": "world-44",
+      "id": "world-77",
       "title": "트럼프 \"포클랜드 제도에 대한 미국의 입장 검토 중\"",
       "title_en": "Trump says he is reviewing US position on Falkland Islands",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa09CNDNpMTJhUzZ2MHl4X3lyeWxLLUQ1dTlLVlRUeDcxX0hKMnVJc2NsMGVNU2Q1dnk0SzVsSVF2bDZLQnhuSFVncDlQWWlTU0RFZ3YxUzVZRHFxSHJ1WWVHZHpjaHBUclpyd29CQWQ4Ujd4WG1HS2VYN0NjRk5wdlMydm91LVRRSkhzcVlFZ1Y1NldsR1NEQzI5MzFSYWg0MHc?oc=5",
       "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "워싱턴 (미국) – 도널드 트럼프 미국 대통령은 미국이 영국의 포클랜드 제도에 반대하겠다고 위협했다는 보도가 나온 후 월요일 미국이 포클랜드 제도에 대한 입장을 검토하고 있다고 말했다.",
-      "excerpt_en": "WASHINGTON (UNITED STATES) - President Donald Trump said Monday that the United States is reviewing its position on the Falkland Islands, after reports that Washington threatened to oppose Britain's s",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3311744/trump-says-us-reviewing-position-on-falkland-islands",
+      "excerpt": "트럼프 대통령은 영국이 국방비와 나토 분담금을 인상하도록 압력을 가하기 위해 분쟁을 이용할 준비가 되어 있다는 신호를 보냈다. 도널드 트럼프는 영국 주권에 대한 미국의 지지를 재검토하고 있다고 시사했다.",
+      "excerpt_en": "Comments signal president prepared to use dispute to push UK to raise defence spending and Nato contributions Donald Trump has suggested he is reconsidering US support for Britain’s sovereignty over t",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/aug/31/trump-uk-sovereignty-falkland-islands",
       "translation_status": "ok",
       "score": 80,
       "score_breakdown": {
@@ -595,24 +625,31 @@
         "time_score": 2,
         "raw75": 60
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
         "Bangkok Post",
         "Hindustan Times",
         "Reuters",
+        "The Guardian",
         "The Independent"
       ],
       "first_published_at": "2026-08-31T20:43:31+09:00",
-      "latest_published_at": "2026-09-01T00:06:19+09:00",
+      "latest_published_at": "2026-09-01T11:02:31+09:00",
       "articles": [
         {
           "title": "Trump says he is reviewing US position on Falkland Islands",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/falklands-trump-uk-argentina-sovereignty-b3042377.html",
-          "published_at": "00:06"
+          "published_at": "11:02"
+        },
+        {
+          "title": "Trump suggests he is reviewing US support for UK over Falkland Islands",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/31/trump-uk-sovereignty-falkland-islands",
+          "published_at": "08:31"
         },
         {
           "title": "Trump says US reviewing position on Falkland Islands",
@@ -635,183 +672,482 @@
       ]
     },
     {
-      "id": "world-50",
-      "title": "대법원, 백악관에 4억 달러 규모 트럼프 연회장 건설 계속 허용",
-      "title_en": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
+      "id": "world-193",
+      "title": "팀 쿡의 Apple CEO 마지막 날: 직원들에게 메모 전문 읽어주기",
+      "title_en": "Tim Cook's last day as Apple CEO: Read his full memo to employees",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaV84YlJPVE9XY0Vqdzh3Q0h3dE9XRUdHRlh5aWFIX2RqeVFBWjg1Y2FjaDZPN0pRUzZ0dEtwVkRPWUVoanNZRjQ1RjZpOS1Bdk8ySjZ1eTNPM18tTWRzUkI2bWQ2TGpLeHQzSVRoWDRSUTRUR1J2VENKREtRXzcyTks3bWp3N0VPUkZvZTJjZUxhcEdKSHNHT1BFYjluR01BVFE?oc=5",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/tim-cooks-last-day-as-apple-ceo-read-his-full-memo-to-employees-101788219864574.html",
       "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "월요일 미국 대법원은 도널드 트럼프 대통령이 백악관 연회장 건설을 계속하도록 허용하여 워싱턴에 영구적인 흔적을 남기기 위해 노력하는 동안 그에게 큰 승리를 안겨주었습니다. 목",
-      "excerpt_en": "The US Supreme Court on Monday allowed President Donald Trump to continue construction of his White House ballroom, granting him a major victory as he works to leave a permanent mark on Washington. Th",
+      "primary_source": "Hindustan Times",
+      "excerpt": "애플의 신임 CEO인 존 터누스(John Ternus)가 화요일 애플의 경영권을 맡게 되면서 팀 쿡의 15년 임기가 종료되고, 이 기간 동안 애플의 가치는 아이폰 덕분에 4조 6000억 달러로 치솟았다.",
+      "excerpt_en": "Apple’s new CEO John Ternus takes the helm of the iconic tech giant on Tuesday, ending Tim Cook’s 15-year tenure during which the company’s value skyrocketed to US$4.6 trillion thanks to the iPhone’s ",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365903/us-supreme-court-lets-trumps-white-house-ballroom-construction-continue?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3366022/apples-new-ceo-ternus-takes-over-tim-cook-after-15-years?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 80,
+      "score": 79,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 25,
+        "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "time_score": 3,
+        "raw75": 59
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
-        "AP News",
-        "Bangkok Post",
-        "Reuters",
+        "DW",
+        "Hindustan Times",
         "SCMP"
       ],
-      "first_published_at": "2026-08-31T20:15:19+09:00",
-      "latest_published_at": "2026-08-31T22:21:38+09:00",
+      "first_published_at": "2026-08-31T23:53:48+09:00",
+      "latest_published_at": "2026-09-01T13:27:55+09:00",
       "articles": [
         {
-          "title": "Supreme Court lets Trump's White House ballroom construction continue",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS2hRVUluMnJ6dUFOZTlrN1FkM3VLWVJpRDhYUTVBSFJHMUNud25FR2x0cmxlbVlKNkFKc2RSRkdrNU96WHZNcy1IbUtSMUJkaXVqTlJYTHdPcDJiY0FHYVJPMW9TaGJfUXhWRGhwenk2RVQzcFd2LVVZcFdodWxfWnJvYm1jeHRkY0p5eG1MejRNSFIwaGo1U1JWbzh2SkhKNjJicGdGM1d0alpPMFN1eWtfRzU?oc=5",
-          "published_at": "22:21"
-        },
-        {
-          "title": "Trump wins Supreme Court ruling to continue White House ballroom construction",
+          "title": "Apple’s new CEO Ternus takes over from Tim Cook after 15 years",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365903/us-supreme-court-lets-trumps-white-house-ballroom-construction-continue?utm_source=rss_feed",
-          "published_at": "22:07"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3366022/apples-new-ceo-ternus-takes-over-tim-cook-after-15-years?utm_source=rss_feed",
+          "published_at": "13:27"
         },
         {
-          "title": "US Supreme Court allows Trump ballroom project to proceed",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3311739/us-supreme-court-allows-trump-ballroom-project-to-proceed",
-          "published_at": "21:45"
+          "title": "John Ternus takes over as Apple's new CEO from Tim Cook after 15 years",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/john-ternus-takes-over-as-apples-new-ceo-from-tim-cook-after-15-years-101788268235998.html",
+          "published_at": "13:13"
         },
         {
-          "title": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaV84YlJPVE9XY0Vqdzh3Q0h3dE9XRUdHRlh5aWFIX2RqeVFBWjg1Y2FjaDZPN0pRUzZ0dEtwVkRPWUVoanNZRjQ1RjZpOS1Bdk8ySjZ1eTNPM18tTWRzUkI2bWQ2TGpLeHQzSVRoWDRSUTRUR1J2VENKREtRXzcyTks3bWp3N0VPUkZvZTJjZUxhcEdKSHNHT1BFYjluR01BVFE?oc=5",
-          "published_at": "20:15"
+          "title": "Can new Apple CEO John Ternus fix the tech giant's AI woes?",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/can-new-apple-ceo-john-ternus-fix-the-tech-giant-s-ai-woes/a-78575898?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:49"
+        },
+        {
+          "title": "Why is Tim Cook stepping down? What he plans to do at his Palm Springs vacation home after Apple exit",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/why-is-tim-cook-stepping-down-what-he-plans-to-do-at-his-palm-springs-vacation-home-after-apple-exit-101788247699488.html",
+          "published_at": "07:34"
+        },
+        {
+          "title": "Tim Cook signs off as Apple CEO, says ‘title changes but love for community never will’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/tim-cook-signs-off-as-apple-ceo-says-title-changes-but-love-for-community-never-will-101788226442999.html",
+          "published_at": "01:53"
+        },
+        {
+          "title": "John Ternus: The making of Apple’s new CEO",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/john-ternus-the-making-of-apple-s-new-ceo-tim-cook-successor-iphone-101788225782051.html",
+          "published_at": "01:32"
+        },
+        {
+          "title": "Tim Cook's last day as Apple CEO: Read his full memo to employees",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/tim-cooks-last-day-as-apple-ceo-read-his-full-memo-to-employees-101788219864574.html",
+          "published_at": "23:53"
         }
       ]
     },
     {
-      "id": "world-100",
-      "title": "John Galliano 행: Met가 영국 패션 디자이너에 대한 계획된 전시회를 취소한 이유는 무엇입니까? '깊이 후회하고 있습니다'",
-      "title_en": "John Galliano row: Why has Met cancelled planned exhibit on British fashion designer? ‘I remain deeply sorry for it’",
+      "id": "world-246",
+      "title": "린제이 클랜시 평결이 나왔나요? 이 사건에서 긴 배심원 심의가 의미할 수 있는 것",
+      "title_en": "Lindsay Clancy verdict reached? What lengthy jury deliberations could mean in the case",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/john-galliano-row-why-has-met-cancelled-planned-exhibit-on-british-fashion-designer-101788186740428.html",
-      "category": "유럽",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-verdict-reached-what-lengthy-jury-deliberations-could-mean-in-the-case-101788200658149.html",
+      "category": "기타",
       "primary_source": "Hindustan Times",
-      "excerpt": "뉴욕 - 최고의 패션 디자이너 존 갈리아노(John Galliano)는 기부자들과 폴의 비난으로 내년 봄 뉴욕 메트 갈라(Met Gala)를 시작하기로 했던 자신의 작품 전시회를 취소한다고 월요일 발표했습니다.",
-      "excerpt_en": "NEW YORK - Top fashion designer John Galliano announced Monday he was cancelling an exhibition of his work that was to kick off New York's Met Gala next spring, following criticism from donors and pol",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3311724/galliano-pulls-met-gala-exhibit-after-antisemitism-backlash",
+      "excerpt": "클랜시는 자신의 세 자녀를 목졸라 죽였다는 사실을 부인하지 않지만 산후 정신병으로 인해 자신의 행동이 이어졌다고 말했습니다. 판사는 린제이 클랜시 재판에서 배심원단에게 그것이 사실이 아니라고 말한 후 계속 심사숙고하라고 말했습니다.",
+      "excerpt_en": "Clancy does not deny strangling her three children but says postpartum psychosis led to her actions The judge has told the jury in the Lindsay Clancy trial to keep deliberating after it said it was un",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating",
       "translation_status": "ok",
-      "score": 80,
+      "score": 79,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 59
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "AP News",
-        "Bangkok Post",
-        "CBC",
-        "Hindustan Times"
+        "Hindustan Times",
+        "Sydney Morning Herald",
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-31T14:39:05+09:00",
-      "latest_published_at": "2026-08-31T22:28:00+09:00",
+      "first_published_at": "2026-08-31T19:10:35+09:00",
+      "latest_published_at": "2026-09-01T14:56:30+09:00",
       "articles": [
         {
-          "title": "Amid backlash, museum cancels planned Met Gala exhibit on fashion designer John Galliano",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUm9KMC1CRlVnRXVocFZDc2t4X3JBblRTTmRJWkhOdElDd3VmeWJQRzBpZFFTdUFBV2R6amVvSFFjT3MwMUdoZFNzaXJjTm4wN29XX3IzZDhnc2hHeHRrWFpzZzR4TEtpVk5CYzlDUGRldXVyZzNFeHM3U0xrcUxyQWhKRGtuS1J4MnVBOFBscmFzX3BW?oc=5",
-          "published_at": "22:28"
+          "title": "Lindsay Clancy jury ordered to keep deliberating after failing to reach unanimous verdict",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-hung-jury-deliberations-verdict-b3042844.html",
+          "published_at": "14:56"
         },
         {
-          "title": "Galliano pulls Met Gala exhibit after antisemitism backlash",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3311724/galliano-pulls-met-gala-exhibit-after-antisemitism-backlash",
-          "published_at": "19:45"
+          "title": "Judge tells jury in Lindsay Clancy trial to keep deliberating after deadlock",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/01/lindsay-clancy-jury-deliberating",
+          "published_at": "14:54"
         },
         {
-          "title": "Met Gala honouring John Galliano cancelled following backlash",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/entertainment/john-galliano-met-cancelled-9.7326572?cmp=rss",
-          "published_at": "14:57"
-        },
-        {
-          "title": "John Galliano row: Why has Met cancelled planned exhibit on British fashion designer? ‘I remain deeply sorry for it’",
+          "title": "Why was Lindsay Clancy jury dismissed today? Are supporters on the jury reason for delayed verdict? Here’s all we know",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/john-galliano-row-why-has-met-cancelled-planned-exhibit-on-british-fashion-designer-101788186740428.html",
-          "published_at": "14:39"
+          "url": "https://www.hindustantimes.com/world-news/us-news/why-was-the-lindsay-clancy-jury-dismissed-today-are-supporters-on-the-jury-reason-for-delayed-verdict-101788223122915.html",
+          "published_at": "08:20"
+        },
+        {
+          "title": "Defense attorney comments as Lindsay Clancy jury ends third day of deliberations without verdict",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/defense-attorney-comments-as-lindsay-clancy-jury-ends-third-day-of-deliberations-without-verdict-20260901-p60tiw.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "07:05"
+        },
+        {
+          "title": "Lindsay Clancy verdict reached? What lengthy jury deliberations could mean in the case",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-verdict-reached-what-lengthy-jury-deliberations-could-mean-in-the-case-101788200658149.html",
+          "published_at": "19:10"
         }
       ]
     },
     {
-      "id": "world-99",
-      "title": "샌디에고 모스크 총격 사건 생중계 녹화한 10대 소녀, 살인 혐의로 기소",
-      "title_en": "Teen girl who recorded livestream of San Diego mosque shooting charged with murder, DA says",
+      "id": "world-3",
+      "title": "전쟁이 멈출 기미를 보이지 않는 가운데 사우디 석유를 운반한 유조선 2척이 호르무즈 해협에 충돌했다.",
+      "title_en": "2 tankers carrying Saudi oil hit in Strait of Hormuz as war shows no signs of stopping",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/teen-girl-charged-san-diego-mosque-shooting-b3042336.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "제임스 오닐 검사실이 발표한 보도자료에 따르면 사라 산티아고(17세)는 성인으로 기소될 예정이다.",
-      "excerpt_en": "Sarah Santiago, 17, will be charged as an adult, according to a press release issued by prosecutor James O'Neill's office.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/09/01/us-teen-charged-with-aiding-san-diego-mosque-shooters-share-livestream-and-manifesto",
+      "title_url": "https://www.cbc.ca/news/world/saudi-oil-tankers-strait-of-hormuz-hit-9.7327688?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "사우디 석유를 운반하는 두 척의 초대형 유조선이 월요일 늦게 호르무즈 해협을 통과하여 출항하던 중 서로 몇 분 만에 알 수 없는 발사체에 맞았다고 해운 정보가 밝혔습니다.",
+      "excerpt_en": "Two supertankers carrying Saudi oil were struck by unknown projectiles within ‌minutes of each other while transiting outbound through the Strait of Hormuz late on Monday, according to shipping intell",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/saudi-oil-tankers-strait-of-hormuz-hit-9.7327688?cmp=rss",
       "translation_status": "ok",
-      "score": 76,
+      "score": 77,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "time_score": 3,
+        "raw75": 58
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "AP News",
-        "Euronews",
-        "The Independent"
+        "CBC",
+        "CBS News",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-31T21:31:34+09:00",
-      "latest_published_at": "2026-09-01T05:50:14+09:00",
+      "first_published_at": "2026-09-01T12:19:42+09:00",
+      "latest_published_at": "2026-09-01T14:25:36+09:00",
       "articles": [
         {
-          "title": "US teen charged with aiding San Diego mosque shooters share livestream and manifesto",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/09/01/us-teen-charged-with-aiding-san-diego-mosque-shooters-share-livestream-and-manifesto",
-          "published_at": "05:50"
+          "title": "Tankers attacked as Trump mulls new strikes in \"little war\" with Iran",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/",
+          "published_at": "14:25"
         },
         {
-          "title": "DA says a teen who recorded San Diego mosque shooting livestream has been charged with murder",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWI5VlJLNTBPQ2lmM3RBdHM2amUwSXNqOHhPQ2dWbzRiWDVJZmd2YXpwLUIxT25FVFJHTVlDY3NwOWktRkkxXzhlMWpadmRDajdOSDFtYTFDSHY5M2xQUXg2a25qbDBZdFZMSy14ZG13dVVfZUJfRGlFWlA0UzdPcHp3OU56ajhRZE5wUlNn?oc=5",
-          "published_at": "22:48"
+          "title": "Two tankers carrying Saudi oil attacked in Strait of Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbTdiazZLdjJmZFUzaDZwUHpSV3R0b2lubVJLcXdtNmk1WEZjbU96MjJveEl4dl9FWjl3V3kwTVQtY0N5WnhINS1PSXoyNUNtYXpub0EwWVBCZklqaTJPTXN0QmxaTWJ3b284NWx4ckg4S3NONkl4WEVnSzdaaV94cUJ0YXI3UlZHV3RwZ1B2am8xMHc2VnV1TTBjcExjSEg1R2d0RWhuUkY?oc=5",
+          "published_at": "12:31"
         },
         {
-          "title": "Teen girl who recorded livestream of San Diego mosque shooting charged with murder, DA says",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/teen-girl-charged-san-diego-mosque-shooting-b3042336.html",
-          "published_at": "21:31"
+          "title": "2 tankers carrying Saudi oil hit in Strait of Hormuz as war shows no signs of stopping",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/saudi-oil-tankers-strait-of-hormuz-hit-9.7327688?cmp=rss",
+          "published_at": "12:19"
         }
       ]
     },
     {
-      "id": "world-90",
+      "id": "world-132",
+      "title": "이스라엘, 가자지구 공습 중 공습으로 체포된 하마스 고위 간부 3명 사망",
+      "title_en": "Israel says senior Hamas member seized as strikes kill three during Gaza raid",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss",
+      "category": "중동",
+      "primary_source": "BBC",
+      "excerpt": "이스라엘 국방장관은 이번 작전으로 하마스 고위 간부가 체포됐다고 말했습니다. 하마스는 이스라엘이 가자시티에 비밀 요원을 보냈다고 말했습니다.",
+      "excerpt_en": "Israel’s defense minister said the operation resulted in the capture of a senior Hamas member. Hamas said Israel sent covert operatives into Gaza City.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/09/01/world/middleeast/israel-gaza-hamas-leader.html",
+      "translation_status": "ok",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "BBC",
+        "Fox News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-09-01T12:58:44+09:00",
+      "latest_published_at": "2026-09-01T15:06:58+09:00",
+      "articles": [
+        {
+          "title": "Israeli Operation in Gaza Kills 4, Palestinian Officials Say",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/01/world/middleeast/israel-gaza-hamas-leader.html",
+          "published_at": "15:06"
+        },
+        {
+          "title": "Israel captures top Hamas commander in Gaza strike, defense minister says",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says",
+          "published_at": "14:39"
+        },
+        {
+          "title": "Israel says senior Hamas member seized as strikes kill three during Gaza raid",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss",
+          "published_at": "12:58"
+        }
+      ]
+    },
+    {
+      "id": "world-110",
+      "title": "Google이 트럼프에게 굴복하고 온타리오 호수에 이름을 다시 붙인 후 MapQuest 순위 급등",
+      "title_en": "MapQuest surges in rankings after Google bows to Trump and re-labels Lake Ontario",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/mapquest-viral-trump-lake-ontario-google-b3042271.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "더그 버검 미국 내무장관은 도널드 트럼프 대통령이 지난 주 캐나다에서 온타리오 호수의 이름을 바꾸라는 명령에 서명한 후 애플 지도가 온타리오 호수의 이름을 '레이크 아메리카'로 \"곧\" 바꿀 수 있다고 말했습니다.",
+      "excerpt_en": "U.S. Interior Secretary Doug Burgum says Apple Maps could \"soon\" change the name of Lake Ontario to \"Lake America,\" after President Donald Trump signed an order last week to rename the lake amid Canad",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/trump-apple-lake-ontario-9.7327014?cmp=rss",
+      "translation_status": "ok",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 54
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "CBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-08-31T18:55:19+09:00",
+      "latest_published_at": "2026-08-31T20:40:46+09:00",
+      "articles": [
+        {
+          "title": "Trump renamed Lake Ontario to Lake America amid escalating Canada trade war — but who gets to decide what goes on maps?",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-rename-lake-america-maps-ontario-canada-b3042341.html",
+          "published_at": "20:40"
+        },
+        {
+          "title": "Trump asked Apple to change Lake Ontario to 'Lake America' on its maps: U.S. official",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/trump-apple-lake-ontario-9.7327014?cmp=rss",
+          "published_at": "20:13"
+        },
+        {
+          "title": "Trump has asked Apple to change Lake Ontario name to 'Lake America' on its maps, interior chief says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQkc0b2cyRHBfY2NWTWZPLTU2MVdnSHRGeG04Ti1sVGx5RzUwdkRQa29yNTdkMURVZ2JHRUk4TWZrMjZsNXNSOHo0Q2pKNnQxUEx0a05DU0Jjd0IwZkxoZVM3OW9OYUNxbkRPeG5xSFhSWm9PbUJ6cmd1d1A1SnpidVdOcGY2bFV1Yk9MbTN4am5vN056SlRN?oc=5",
+          "published_at": "20:08"
+        },
+        {
+          "title": "MapQuest surges in rankings after Google bows to Trump and re-labels Lake Ontario",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/mapquest-viral-trump-lake-ontario-google-b3042271.html",
+          "published_at": "18:55"
+        }
+      ]
+    },
+    {
+      "id": "world-270",
+      "title": "네팔에서 자신의 학교가 떠내려가기 전에 900명의 학생을 구한 교장",
+      "title_en": "A Principal Saved 900 Students Before His School Was Washed Away in Nepal",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-teacher.html",
+      "category": "기타",
+      "primary_source": "New York Times",
+      "excerpt": "네팔 트리슐리 계곡의 한 학교 교장인 라젠드라 다와디(Rajendra Dawadi)는 홍수가 닥치기 전에 학교에서 대피하여 900명의 생명을 구한 순간을 설명합니다.",
+      "excerpt_en": "Rajendra Dawadi, the principal of a school in Nepal’s Trishuli Valley, describes the moment he evacuated his school before the floods hit, saving the lives of 900 people.",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/video/nepali-principal-saves-900-lives-as-deadly-floods-approached-269144133918",
+      "translation_status": "ok",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "NBC News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-08-31T19:16:35+09:00",
+      "latest_published_at": "2026-09-01T09:12:10+09:00",
+      "articles": [
+        {
+          "title": "Nepali principal saves 900 lives as deadly floods approached",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/nepali-principal-saves-900-lives-as-deadly-floods-approached-269144133918",
+          "published_at": "09:12"
+        },
+        {
+          "title": "How a principal saved 900 students moments before school vanished in Nepal floods",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/how-a-school-principal-saved-900-students-moments-before-school-vanished-in-nepal-floods-death-toll-missing-101788248008915.html",
+          "published_at": "07:54"
+        },
+        {
+          "title": "A Principal Saved 900 Students Before His School Was Washed Away in Nepal",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-teacher.html",
+          "published_at": "19:16"
+        }
+      ]
+    },
+    {
+      "id": "world-226",
+      "title": "카니의 자유당은 미국과의 무역 충돌 속에서 캐나다에서 3번의 보궐선거에서 승리했습니다.",
+      "title_en": "Carney’s Liberals win 3 special elections in Canada amid trade clash with US",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3365941/carneys-liberals-win-3-canada-special-elections-amid-trade-clash-us?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "미국과의 무역 전쟁이 격화되는 가운데 마크 카니 캐나다 총리가 이끄는 정당이 월요일 보궐선거에서 승리해 의회 과반수 의석을 확보했습니다. 카니의 리베",
+      "excerpt_en": "Canadian Prime Minister Mark Carney’s party swept to victory in special elections on Monday, boosting the leader’s parliamentary majority as a trade war with the United States escalates. Carney’s Libe",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3365941/carneys-liberals-win-3-canada-special-elections-amid-trade-clash-us?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-01T06:25:01+09:00",
+      "latest_published_at": "2026-09-01T13:38:14+09:00",
+      "articles": [
+        {
+          "title": "Carney’s Liberals sweep 3 special elections in Canada as voters back his stand against Trump",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/carneys-liberals-sweep-3-special-elections-canada-voters-136106661",
+          "published_at": "13:38"
+        },
+        {
+          "title": "Canada’s ruling Liberals sweep special elections in boost to Mark Carney",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/01/canada-liberals-special-elections-mark-carney",
+          "published_at": "07:42"
+        },
+        {
+          "title": "Carney’s Liberals win 3 special elections in Canada amid trade clash with US",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365941/carneys-liberals-win-3-canada-special-elections-amid-trade-clash-us?utm_source=rss_feed",
+          "published_at": "06:25"
+        }
+      ]
+    },
+    {
+      "id": "world-320",
+      "title": "영국, 2년 연속 역대 가장 더운 여름 기록",
+      "title_en": "UK chalks up hottest summer on record for second year running",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/uk-heatwave-hottest-summer-2026-6355221",
+      "category": "유럽",
+      "primary_source": "Channel News Asia",
+      "excerpt": "영국 기상청 잠정 자료에 따르면 영국의 여름은 역대 가장 더웠다.",
+      "excerpt_en": "Britain's summer has been the hottest on record, according to provisional data from the national weather service",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/london-britain-scotland-met-office-england-b3042853.html",
+      "translation_status": "ok",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Channel News Asia",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-01T14:02:14+09:00",
+      "latest_published_at": "2026-09-01T15:01:20+09:00",
+      "articles": [
+        {
+          "title": "A series of heatwaves leads Britain to record its hottest summer",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/series-heatwaves-leads-britain-record-hottest-summer-136116577",
+          "published_at": "15:01"
+        },
+        {
+          "title": "A series of heatwaves leads Britain to record its hottest summer",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/london-britain-scotland-met-office-england-b3042853.html",
+          "published_at": "14:55"
+        },
+        {
+          "title": "UK chalks up hottest summer on record for second year running",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/uk-heatwave-hottest-summer-2026-6355221",
+          "published_at": "14:02"
+        }
+      ]
+    },
+    {
+      "id": "world-99",
       "title": "트럼프가 베네수엘라 석유 거래를 발표한 지 며칠 후, 백악관은 일부 세부 사항을 작성합니다.",
       "title_en": "Days after Trump announces Venezuela oil deal, White House fills in some of the details",
       "title_source": "earliest_pick",
@@ -823,14 +1159,14 @@
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/white-house-trump-venezuela-oil-deal-north-american-blue-energy-partners/",
       "translation_status": "ok",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -865,185 +1201,259 @@
       ]
     },
     {
-      "id": "world-355",
-      "title": "산후정신병을 겪으며 나 자신의 가장 어두운 면을 만났다. Lindsay Clancy 재판은 내가 침묵할 수 없다는 것을 의미했습니다.",
-      "title_en": "I met the darkest parts of myself during postpartum psychosis. The Lindsay Clancy trial meant I couldn’t stay silent",
+      "id": "world-349",
+      "title": "중국-대만 마찰구름 태평양 정상회담",
+      "title_en": "China-Taiwan friction clouds Pacific summit",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-experience-b3042183.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Lindsay Clancy 살인 재판을 면밀히 지켜본 엄마들은 산후 정신 건강 위기에 대한 자신의 경험을 되돌아보고 Rhian Lubin에게 사건에서 f에 대해 이야기하게 된 이유를 알려줍니다.",
-      "excerpt_en": "Moms who have been closely following the Lindsay Clancy murder trial reflect on their experiences of postpartum mental health crises and tell Rhian Lubin why the case has them speaking out about the f",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-experience-b3042183.html",
+      "title_url": "https://www.bangkokpost.com/world/3311833/chinataiwan-friction-clouds-pacific-summit",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "코로르 — 호주는 화요일 중국이 대만의 방관에 반대를 제기하자 태평양 블록이 연례 정상회담에 참석할 사람을 스스로 결정할 것이라고 말했습니다.",
+      "excerpt_en": "KOROR — Australia said Tuesday the Pacific bloc will decide for itself who attends its annual summit, after China raised objections to Taiwan's presence on the sidelines.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3311833/chinataiwan-friction-clouds-pacific-summit",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 51
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-31T14:23:38+09:00",
-      "latest_published_at": "2026-09-01T08:20:06+09:00",
-      "articles": [
-        {
-          "title": "Why was Lindsay Clancy jury dismissed today? Are supporters on the jury reason for delayed verdict? Here’s all we know",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/why-was-the-lindsay-clancy-jury-dismissed-today-are-supporters-on-the-jury-reason-for-delayed-verdict-101788223122915.html",
-          "published_at": "08:20"
-        },
-        {
-          "title": "Defense attorney comments as Lindsay Clancy jury ends third day of deliberations without verdict",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/defense-attorney-comments-as-lindsay-clancy-jury-ends-third-day-of-deliberations-without-verdict-20260901-p60tiw.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "07:05"
-        },
-        {
-          "title": "Lindsay Clancy verdict reached? What lengthy jury deliberations could mean in the case",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-verdict-reached-what-lengthy-jury-deliberations-could-mean-in-the-case-101788200658149.html",
-          "published_at": "19:10"
-        },
-        {
-          "title": "I met the darkest parts of myself during postpartum psychosis. The Lindsay Clancy trial meant I couldn’t stay silent",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-postpartum-psychosis-experience-b3042183.html",
-          "published_at": "14:23"
-        }
-      ]
-    },
-    {
-      "id": "world-258",
-      "title": "네팔에서 자신의 학교가 떠내려가기 전에 900명의 학생을 구한 교장",
-      "title_en": "A Principal Saved 900 Students Before His School Was Washed Away in Nepal",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-teacher.html",
-      "category": "기타",
-      "primary_source": "New York Times",
-      "excerpt": "Rajendra Dawadi가 교실에 있을 때 동료가 경고를 가지고 달려왔습니다. 홍수가 네팔의 트리슐리 계곡을 휩쓸고 집과 다리, 마을 전체를 휩쓸고 있었습니다. 그럼 테",
-      "excerpt_en": "Rajendra Dawadi was inside his classroom when a colleague rushed in with a warning: floodwaters were racing through Nepal’s Trishuli Valley, tearing apart homes, bridges and entire villages. Then a te",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3365908/nepal-floods-meet-principal-whose-quick-thinking-saved-900-students?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 67,
-      "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 50
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Hindustan Times",
-        "New York Times",
-        "SCMP"
+        "ABC News",
+        "Bangkok Post",
+        "The Independent"
       ],
-      "first_published_at": "2026-08-31T19:16:35+09:00",
-      "latest_published_at": "2026-09-01T07:54:21+09:00",
+      "first_published_at": "2026-09-01T03:45:00+09:00",
+      "latest_published_at": "2026-09-01T10:50:12+09:00",
       "articles": [
         {
-          "title": "How a principal saved 900 students moments before school vanished in Nepal floods",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/how-a-school-principal-saved-900-students-moments-before-school-vanished-in-nepal-floods-death-toll-missing-101788248008915.html",
-          "published_at": "07:54"
+          "title": "China says ‘there will be consequences’ as Taiwanese delegation attends Pacific leaders’ summit",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/china-taiwan-palau-pacific-forum-b3042650.html",
+          "published_at": "10:50"
         },
         {
-          "title": "Nepal floods: meet the principal whose quick thinking saved 900 students",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3365908/nepal-floods-meet-principal-whose-quick-thinking-saved-900-students?utm_source=rss_feed",
-          "published_at": "01:26"
+          "title": "China warns of 'consequences' for Taiwan after Taipei envoys attend leaders summit",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/china-warns-consequences-taiwan-after-taipei-envoys-attend-136109572",
+          "published_at": "10:34"
         },
         {
-          "title": "A Principal Saved 900 Students Before His School Was Washed Away in Nepal",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-teacher.html",
-          "published_at": "19:16"
+          "title": "China-Taiwan friction clouds Pacific summit",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3311833/chinataiwan-friction-clouds-pacific-summit",
+          "published_at": "03:45"
         }
       ]
     },
     {
-      "id": "world-213",
-      "title": "태국 파타야 핀, 관광 활성화를 위해 5,000명의 미국 선원 도착 희망",
-      "title_en": "Thailand’s Pattaya pins hopes on arrival of 5,000 US sailors to boost tourism",
+      "id": "world-217",
+      "title": "러시아, 6일 연속 우크라이나 수도 공습, 최소 12명 사망",
+      "title_en": "Russia strikes Ukraine capital for sixth straight day, killing at least 12",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/week-asia/people/article/3365910/thailands-pattaya-pins-hopes-arrival-5000-us-sailors-boost-tourism?utm_source=rss_feed",
-      "category": "중동",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3365931/russia-strikes-ukraine-capital-sixth-straight-day-killing-least-9?utm_source=rss_feed",
+      "category": "유럽",
       "primary_source": "SCMP",
-      "excerpt": "바다에서 250일 이상을 보낸 후, 대부분 이란과의 전쟁을 치르고 선내 상황이 좋지 않다는 보고가 있는 가운데 USS Abraham Lincoln이 마침내 이번 주 파타야 근처에 정박할 예정입니다.",
-      "excerpt_en": "After more than 250 days at sea, much of it fighting the war on Iran – and amid reports of dire conditions on board – the USS Abraham Lincoln is finally set to dock near Pattaya this week, giving more",
+      "excerpt": "화요일 키예프와 주변 지역에 대한 러시아의 공습으로 12명이 사망하고 여러 명이 부상했다고 당국이 밝혔습니다. 이는 우크라이나 모자에 대한 6일 연속 공습입니다.",
+      "excerpt_en": "Twelve people were killed and several more injured in Russian air attacks on Kyiv and the surrounding region on Tuesday, authorities said, in the sixth consecutive day of ‌strikes on the Ukrainian cap",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/week-asia/people/article/3365910/thailands-pattaya-pins-hopes-arrival-5000-us-sailors-boost-tourism?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3365931/russia-strikes-ukraine-capital-sixth-straight-day-killing-least-9?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 64,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 2,
+        "raw75": 48
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-01T05:39:22+09:00",
+      "latest_published_at": "2026-09-01T10:50:03+09:00",
+      "articles": [
+        {
+          "title": "'Massive' Russian missile, drone attacks on Kyiv",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260901-massive-russian-missile-drone-attacks-on-kyiv",
+          "published_at": "10:50"
+        },
+        {
+          "title": "Russia strikes Ukraine capital for sixth straight day, killing at least 12",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3365931/russia-strikes-ukraine-capital-sixth-straight-day-killing-least-9?utm_source=rss_feed",
+          "published_at": "05:39"
+        }
+      ]
+    },
+    {
+      "id": "world-7",
+      "title": "이란, 트럼프가 추가 공격 위협하자 미국에 임시 협정 준수 촉구",
+      "title_en": "Iran urges US to comply with interim deal after Trump threatens further strikes",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "6개월째 접어들고 있는 미국-이란 전쟁이 경제적 교착상태로 전환했지만 여전히 긴장은 고조돼 군사행동으로까지 번질 수 있다.",
+      "excerpt_en": "The US-Iran war, which is into its sixth month, has shifted into an economic standoff, but tensions remain high and could spill over into military action.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/war-iran-interim-deal-trump-us-strikes-6355261",
       "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
         "time_score": 3,
         "raw75": 47
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "SCMP",
-        "The Guardian",
-        "The Independent"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-01T02:00:13+09:00",
-      "latest_published_at": "2026-09-01T08:50:14+09:00",
+      "first_published_at": "2026-09-01T12:28:11+09:00",
+      "latest_published_at": "2026-09-01T14:14:00+09:00",
       "articles": [
         {
-          "title": "Thailand issues prostitution warning as 5,000 US sailors arrive in tourist town after 200 days at sea",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/uss-abraham-lincoln-pattaya-prostitution-thailand-b3042016.html",
-          "published_at": "08:50"
+          "title": "Iran urges US to comply with interim deal after Trump threatens further strikes",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/war-iran-interim-deal-trump-us-strikes-6355261",
+          "published_at": "14:14"
         },
         {
-          "title": "Thai resort prepares to host USS Abraham Lincoln sailors after more than 270 days at sea",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/01/thailand-pattaya-uss-abraham-lincoln-sailors-marines",
-          "published_at": "08:30"
-        },
-        {
-          "title": "Thailand’s Pattaya pins hopes on arrival of 5,000 US sailors to boost tourism",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/people/article/3365910/thailands-pattaya-pins-hopes-arrival-5000-us-sailors-boost-tourism?utm_source=rss_feed",
-          "published_at": "02:00"
+          "title": "Iran urges US to comply with interim deal after Trump threatens further strikes",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
+          "published_at": "12:28"
         }
       ]
     },
     {
-      "id": "world-26",
-      "title": "러시아 공습 6일째 키예프 지역에서 12명 사망",
-      "title_en": "Russian air attacks kill 12 in Kyiv region, on sixth day of strikes",
+      "id": "world-20",
+      "title": "이스라엘군, 하마스 무장세력 체포 발표하자 가자지구 공습으로 5명 사망",
+      "title_en": "Israeli strikes kill five in Gaza as military says it arrests Hamas militant",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS1dvY08wWUVmMGNwR3hXbVR4anpDeXoxcndHakhnUzRqNk9Ub3ZqcEhsUUdHTTM3dGxuODQ4bXpNRGkxQjhyTmR5QkVFR2FKVTVaOEhwUi1PTTVSal9xZjd2ME4yUjhleFFSMUFHc1RmNVBUSjBtNUhpRndqb25sVi1HaDBmYmpyR0xFY1lKTVgyd2pSdlBJMEYtb1lMTTVkU2Vya1FjSjR3ZjZnQmlEbnlHeW1ZSmc5eURPTHFNSndsVEk?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "가자지구 관리들에 따르면 이스라엘의 지원을 받는 공습이 진행되는 동안 가자시티에서 이스라엘의 총격과 공습으로 두 명의 어린이를 포함해 팔레스타인인 여러 명이 사망했다고 합니다.",
+      "excerpt_en": "Several Palestinians, including two children, have been killed by Israeli gunfire and airstrikes in Gaza City during an Israeli-backed raid, according to Gaza officials.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-01/israeli-strikes-kill-four-in-gaza-as-military-makes-arrest/107104910",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-01T12:53:26+09:00",
+      "latest_published_at": "2026-09-01T13:18:40+09:00",
+      "articles": [
+        {
+          "title": "Israeli strikes kill four in Gaza as military says it arrests Hamas militant",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-01/israeli-strikes-kill-four-in-gaza-as-military-makes-arrest/107104910",
+          "published_at": "13:18"
+        },
+        {
+          "title": "Israeli strikes kill five in Gaza as military says it arrests Hamas militant",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS1dvY08wWUVmMGNwR3hXbVR4anpDeXoxcndHakhnUzRqNk9Ub3ZqcEhsUUdHTTM3dGxuODQ4bXpNRGkxQjhyTmR5QkVFR2FKVTVaOEhwUi1PTTVSal9xZjd2ME4yUjhleFFSMUFHc1RmNVBUSjBtNUhpRndqb25sVi1HaDBmYmpyR0xFY1lKTVgyd2pSdlBJMEYtb1lMTTVkU2Vya1FjSjR3ZjZnQmlEbnlHeW1ZSmc5eURPTHFNSndsVEk?oc=5",
+          "published_at": "12:53"
+        }
+      ]
+    },
+    {
+      "id": "world-192",
+      "title": "독일 뉴스: 발전소 근처에서 폭발 장치 발견",
+      "title_en": "Germany news: Explosive devices found near power plant",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/germany-news-explosive-devices-found-near-power-plant/live-78583741?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "유럽",
+      "primary_source": "DW",
+      "excerpt": "화요일 독일 석탄화력발전소 인근에서 발생한 사보타주 공격에서 급조폭발 장치가 사용됐으며, 이로 인해 여러 전력선이 손상되고 공급이 잠시 중단됐다고 관계자들이 밝혔다.",
+      "excerpt_en": "Improvised explosive devices were used on Tuesday in a sabotage attack near a coal-fired power plant in Germany, with several electricity lines damaged and supply briefly interrupted, officials said. ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366017/explosive-devices-found-near-major-power-plant-germany?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-01T10:07:00+09:00",
+      "latest_published_at": "2026-09-01T12:56:41+09:00",
+      "articles": [
+        {
+          "title": "Explosive devices damage power lines near German coal plant",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3366017/explosive-devices-found-near-major-power-plant-germany?utm_source=rss_feed",
+          "published_at": "12:56"
+        },
+        {
+          "title": "Germany news: Explosive devices found near power plant",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/germany-news-explosive-devices-found-near-power-plant/live-78583741?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "10:07"
+        }
+      ]
+    },
+    {
+      "id": "world-61",
+      "title": "러시아 공습 6일째 키예프 지역서 공습으로 12명 사망",
+      "title_en": "Russian air attacks kill 12 in Kyiv region on sixth day of strikes",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQay04RmdKUzF2OWRsYVFTN3FidVZ0NG1QYm5yc2JXWnBVOUN6VWpUdGliVk0zeF9YbWNsVXU5WUxVY2tFbWgxbUZ4RU5sdWU1OEVHdjU4T2pjbFlmRnhsdW5UdGl6YnRqRFFmeS1yU3dTRUZEVHllaWJ4dmZxbFpRV3hFajdLZkw1QVdOc2lqVDlGTXBlcVNhRWRhckZ1UXlf?oc=5",
       "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "러시아 공습 6일째 키예프 지역에서 12명 사망 - 최신",
-      "excerpt_en": "Russian air attacks kill 12 in Kyiv region, on sixth day of strikes Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQay04RmdKUzF2OWRsYVFTN3FidVZ0NG1QYm5yc2JXWnBVOUN6VWpUdGliVk0zeF9YbWNsVXU5WUxVY2tFbWgxbUZ4RU5sdWU1OEVHdjU4T2pjbFlmRnhsdW5UdGl6YnRqRFFmeS1yU3dTRUZEVHllaWJ4dmZxbFpRV3hFajdLZkw1QVdOc2lqVDlGTXBlcVNhRWRhckZ1UXlf?oc=5",
+      "excerpt": "우크라이나 수도 키예프에 대한 공습이 6일 연속으로 화요일 새벽 키예프와 주변 지역에서 러시아의 공습으로 12명이 사망하고 여러 명이 부상을 입었다고 당국이 밝혔습니다.",
+      "excerpt_en": "Russian air attacks killed 12 people and injured several more in Kyiv and the surrounding region early on Tuesday, authorities said, in the sixth consecutive day of strikes on the Ukrainian capital.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/russia-air-ukraine-kyiv-strikes-9.7327653?cmp=rss",
       "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
@@ -1059,20 +1469,20 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "CBC",
         "Reuters"
       ],
       "first_published_at": "2026-09-01T00:00:00+09:00",
-      "latest_published_at": "2026-09-01T06:42:40+09:00",
+      "latest_published_at": "2026-09-01T11:54:27+09:00",
       "articles": [
         {
-          "title": "Nine killed, over a dozen injured as Russia strikes Kyiv region for sixth successive day",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/nine-killed-over-dozen-injured-russia-strikes-kyiv-region-sixth-successive-day-6353301",
-          "published_at": "06:42"
+          "title": "Russian air attacks kill 12 in Kyiv region on 6th day of strikes",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/russia-air-ukraine-kyiv-strikes-9.7327653?cmp=rss",
+          "published_at": "11:54"
         },
         {
-          "title": "Russian air attacks kill 12 in Kyiv region, on sixth day of strikes",
+          "title": "Russian air attacks kill 12 in Kyiv region on sixth day of strikes",
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQay04RmdKUzF2OWRsYVFTN3FidVZ0NG1QYm5yc2JXWnBVOUN6VWpUdGliVk0zeF9YbWNsVXU5WUxVY2tFbWgxbUZ4RU5sdWU1OEVHdjU4T2pjbFlmRnhsdW5UdGl6YnRqRFFmeS1yU3dTRUZEVHllaWJ4dmZxbFpRV3hFajdLZkw1QVdOc2lqVDlGTXBlcVNhRWRhckZ1UXlf?oc=5",
           "published_at": "00:00"
@@ -1080,26 +1490,120 @@
       ]
     },
     {
-      "id": "world-468",
+      "id": "world-106",
+      "title": "뉴욕 타임스퀘어에서 여성 2명을 무작위로 찔러 1명 사망, 경찰에 사살",
+      "title_en": "Woman randomly stabs 2 people in New York City's Times Square, killing 1, then is killed by police",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQUo3SHlqTDVtQXFwUmc2am5iVEh5NFBWNENERDRaSDVCOVpXNXQ4cUJrLU9yS2RZaHRTLWlnZ0pXUHU5Nk5hUFZfb0UwT3BYSzNQTDJxeERXemVvSGZxb1g0SzJqWC1wVHlHYWx5SWZJVXdHUTk1R0Y1em9WaWNac19CMGk4ajk2?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "이번 공격의 배후에 있는 여성은 뉴욕 경찰과 정신 건강 문제를 겪었던 전력이 있는 것으로 알려졌으나 화요일 칼부림 공격 이전에는 체포 기록이 없는 것으로 알려졌다.",
+      "excerpt_en": "The woman behind the attack has reportedly had a history of mental health issues with New York police but no arrest record prior to her stabbing attacks on Tuesday.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/09/01/one-person-killed-as-woman-randomly-stabs-two-people-in-times-square-before-being-fatally-",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Euronews"
+      ],
+      "first_published_at": "2026-09-01T02:57:00+09:00",
+      "latest_published_at": "2026-09-01T04:33:58+09:00",
+      "articles": [
+        {
+          "title": "One person killed as woman randomly stabs two people in Times Square before being fatally shot by police",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/09/01/one-person-killed-as-woman-randomly-stabs-two-people-in-times-square-before-being-fatally-",
+          "published_at": "04:33"
+        },
+        {
+          "title": "Woman randomly stabs 2 people in New York City's Times Square, killing 1, then is killed by police",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQUo3SHlqTDVtQXFwUmc2am5iVEh5NFBWNENERDRaSDVCOVpXNXQ4cUJrLU9yS2RZaHRTLWlnZ0pXUHU5Nk5hUFZfb0UwT3BYSzNQTDJxeERXemVvSGZxb1g0SzJqWC1wVHlHYWx5SWZJVXdHUTk1R0Y1em9WaWNac19CMGk4ajk2?oc=5",
+          "published_at": "02:57"
+        }
+      ]
+    },
+    {
+      "id": "world-194",
+      "title": "부엌칼, 4분 대치, 테이저건 실패: 뉴욕 타임스퀘어 칼부림 사건에 대해 우리가 알고 있는 것",
+      "title_en": "Kitchen knives, 4-minute standoff, failed tasers: What we know about NYC Times Square stabbing",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/2-kitchen-knives-4-minute-standoff-failed-tasers-what-we-know-about-nyc-times-square-stabbing-101788228453607.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "두 개의 부엌칼로 무장한 여성이 뉴욕 타임스퀘어에서 한 명을 죽이고 다른 한 명에게 부상을 입힌 뒤 경찰이 총격을 가해 숨졌습니다. 당국은 이번 공격이 무작위적이고 이유가 없는 공격이었다고 말했습니다.",
+      "excerpt_en": "A woman armed with two kitchen knives killed one person and wounded another in New York City's Times Square before police fatally shot her. Authorities said the attack was random and unprovoked.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/times-square-stabbing-in-nyc-leaves-1-dead-assailant-killed/a-78582543?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-01T02:53:32+09:00",
+      "latest_published_at": "2026-09-01T07:00:00+09:00",
+      "articles": [
+        {
+          "title": "Times Square stabbing in NYC leaves 1 dead, assailant killed",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/times-square-stabbing-in-nyc-leaves-1-dead-assailant-killed/a-78582543?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "07:00"
+        },
+        {
+          "title": "Kitchen knives, 4-minute standoff, failed tasers: What we know about NYC Times Square stabbing",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/2-kitchen-knives-4-minute-standoff-failed-tasers-what-we-know-about-nyc-times-square-stabbing-101788228453607.html",
+          "published_at": "02:53"
+        }
+      ]
+    },
+    {
+      "id": "world-498",
       "title": "전 ADF 군인이 우크라이나에서 사망했다고 보도",
       "title_en": "Reports former ADF soldier died in Ukraine",
       "title_source": "earliest_pick",
       "title_url": "https://www.smh.com.au/world/reports-former-adf-soldier-died-in-ukraine-20260901-p60t8s.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "category": "아시아",
       "primary_source": "Sydney Morning Herald",
-      "excerpt": "그의 전 호주군 동료 연방 자유당 의원인 필립 톰슨(Phillip Thompson)에 따르면, 우크라이나에서 \"Mozzie\"라는 호출 부호로 알려진 이 군인은 지난 수요일 전투에서 사망했다고 합니다.",
-      "excerpt_en": "The soldier, known by his call-sign “Mozzie” in Ukraine, was killed in action last Wednesday, according to his former Australian Army colleague, federal Liberal MP Phillip Thompson.",
+      "excerpt": "그의 전 호주군 동료 연방 자유당 의원인 필립 톰슨(Phillip Thompson)에 따르면, 우크라이나에서 \"모지(Mozzie)\"로 알려진 이 군인은 지난 수요일 전투에서 사망했다고 합니다.",
+      "excerpt_en": "The soldier, known by his call sign “Mozzie” in Ukraine, was killed in action last Wednesday, according to his former Australian Army colleague, federal Liberal MP Phillip Thompson.",
       "excerpt_source": "Sydney Morning Herald",
       "excerpt_url": "https://www.smh.com.au/world/europe/former-adf-combat-medic-dies-while-volunteering-in-ukraine-20260901-p60tjr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
-      "score": 60,
+      "score": 59,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 45
+        "time_score": 2,
+        "raw75": 44
       },
       "area_value": 3,
       "article_count": 3,
@@ -1113,7 +1617,7 @@
       "latest_published_at": "2026-09-01T10:10:52+09:00",
       "articles": [
         {
-          "title": "Former ADF combat medic killed while volunteering in Ukraine",
+          "title": "‘Legend’ former ADF combat medic killed while volunteering in Ukraine",
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/europe/former-adf-combat-medic-dies-while-volunteering-in-ukraine-20260901-p60tjr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
           "published_at": "10:10"
@@ -1133,78 +1637,25 @@
       ]
     },
     {
-      "id": "world-227",
-      "title": "트럼프, 미국과 이란이 새로운 폭발로 총격전을 벌이자 추가 조치 위협",
-      "title_en": "Trump threatens further action as US and Iran exchange fire in new flare-up",
+      "id": "world-157",
+      "title": "바르셀로나는 아스날에서 브라질 공격수 헤수스를 영입했습니다.",
+      "title_en": "Barcelona sign Brazilian striker Jesus from Arsenal",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/aug/31/trump-threatens-further-action-us-iran-exchange-fire",
-      "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "이란은 요르단에 있는 미군 기지를 표적으로 삼아 라락 섬에 대한 공격에 대응했습니다. 트럼프는 미국과 이란이 새로운 폭발로 총격전을 벌이면서 추가 조치를 위협했습니다. 이번 주 G20 회의와 동시에, t",
-      "excerpt_en": "Iran responded to an assault on its Larak Island by targeting US bases in Jordan Trump threatens further action as US and Iran exchange fire in new flare-up Coinciding with this week’s G20 meeting , t",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
-      "translation_status": "ok",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 42
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-31T17:13:55+09:00",
-      "latest_published_at": "2026-08-31T19:41:42+09:00",
-      "articles": [
-        {
-          "title": "Trump threatens further action as US and Iran exchange strikes for first time in weeks",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-trump-strait-of-hormuz-kharg-island-b3042282.html",
-          "published_at": "19:41"
-        },
-        {
-          "title": "Trump says US will ‘hit Iran hard’ as hostilities resume – as it happened",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
-          "published_at": "17:17"
-        },
-        {
-          "title": "Trump threatens further action as US and Iran exchange fire in new flare-up",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/31/trump-threatens-further-action-us-iran-exchange-fire",
-          "published_at": "17:13"
-        }
-      ]
-    },
-    {
-      "id": "world-360",
-      "title": "스위스에서 총격전을 벌여 여성이 사망하고 여러 명이 부상당한 남성이 체포됐다.",
-      "title_en": "Man arrested after woman killed and several injured in Switzerland rave shooting",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/switzerland-rave-shooting-aarau-police-latest-b3042116.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "경찰은 지난 주말 스위스 북부에서 레이브 파티에서 총격을 가해 1명이 사망하고 5명이 부상한 용의자를 체포했다고 밝혔습니다.",
-      "excerpt_en": "Police say a suspect has been arrested after a weekend shooting at a rave in northern Switzerland that left one person dead and five wounded",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/suspect-arrested-after-shooting-rave-switzerland-left-1-136083761",
+      "title_url": "https://www.channelnewsasia.com/sport/barcelona-sign-brazilian-striker-jesus-arsenal-6355206",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "브라질의 가브리엘 제수스는 마감일에 프리미어 리그 챔피언 아스널에서 라 리가 우승팀 바르셀로나로 이적합니다.",
+      "excerpt_en": "Brazil's Gabriel Jesus transfers from Premier League champions Arsenal to La Liga holders Barcelona on deadline day.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/sports/2026/9/1/barcelona-sign-gabriel-jesus-from-arsenal-for-a-reported-11-5m?traffic_source=rss",
       "translation_status": "ok",
       "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
         "raw75": 42
       },
       "area_value": 2,
@@ -1212,38 +1663,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "The Independent"
+        "Al Jazeera",
+        "Channel News Asia"
       ],
-      "first_published_at": "2026-08-31T13:45:39+09:00",
-      "latest_published_at": "2026-08-31T17:19:41+09:00",
+      "first_published_at": "2026-09-01T13:37:22+09:00",
+      "latest_published_at": "2026-09-01T14:23:22+09:00",
       "articles": [
         {
-          "title": "Suspect arrested after shooting at rave in Switzerland that left 1 person dead",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/suspect-arrested-after-shooting-rave-switzerland-left-1-136083761",
-          "published_at": "17:19"
+          "title": "Barcelona sign Gabriel Jesus from Arsenal for a reported $11.6m",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/1/barcelona-sign-gabriel-jesus-from-arsenal-for-a-reported-11-5m?traffic_source=rss",
+          "published_at": "14:23"
         },
         {
-          "title": "Man arrested after woman killed and several injured in Switzerland rave shooting",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/switzerland-rave-shooting-aarau-police-latest-b3042116.html",
-          "published_at": "13:45"
+          "title": "Barcelona sign Brazilian striker Jesus from Arsenal",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/barcelona-sign-brazilian-striker-jesus-arsenal-6355206",
+          "published_at": "13:37"
         }
       ]
     },
     {
-      "id": "world-28",
-      "title": "금리 인상 기대로 달러 상승, 엔화는 160을 넘어 후퇴",
-      "title_en": "Dollar gains on rate hike expectations, yen retreats past 160",
+      "id": "world-2",
+      "title": "Fervo는 Google과 396MW 지열 전력 공급 계약을 체결했습니다. 주식 점프",
+      "title_en": "Fervo signs 396-MW geothermal power supply deal with Google; shares jump",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
+      "title_url": "https://www.channelnewsasia.com/business/fervo-signs-396-mw-geothermal-power-supply-deal-google-shares-jump-6355051",
       "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "금리 인상 기대로 달러 상승, 엔화는 160을 넘어 후퇴 - 로이터",
-      "excerpt_en": "Dollar gains on rate hike expectations, yen retreats past 160 Reuters",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Fervo는 Google과 396MW 지열 전력 공급 계약을 체결했습니다. 주식 점프 로이터",
+      "excerpt_en": "Fervo signs 396-MW geothermal power supply deal with Google; shares jump Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZkN0cENkZTJhN3hEaE9NYTNlX2R2c3lsd0p6Y0VySFNEUnZiVFlGYUNXS1NyRlNjZzl3b1pqQk5CdHoxNTBEa3liZHFOb3MxWlFOMjUyeVVCb2o5YV9ueV9ZcVkyTnplanp5Z1VJTG1yNlctNDFOeUJCb3lBblU2dkJ2NUZLbDRLTXhxWVpZSS1Iemk1QkJxYzNpY2VTQzFodFFBV0szT3V6M1JMU3FiOGI5cktGcWcyOU1NVEdDUlBzdw?oc=5",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
@@ -1262,184 +1713,78 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-01T01:24:00+09:00",
-      "latest_published_at": "2026-09-01T08:40:48+09:00",
+      "first_published_at": "2026-09-01T12:39:23+09:00",
+      "latest_published_at": "2026-09-01T14:04:29+09:00",
       "articles": [
         {
-          "title": "Dollar gains on rate hike expectations, yen retreats past 160",
+          "title": "Fervo signs 396-MW geothermal power supply deal with Google; shares jump",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZkN0cENkZTJhN3hEaE9NYTNlX2R2c3lsd0p6Y0VySFNEUnZiVFlGYUNXS1NyRlNjZzl3b1pqQk5CdHoxNTBEa3liZHFOb3MxWlFOMjUyeVVCb2o5YV9ueV9ZcVkyTnplanp5Z1VJTG1yNlctNDFOeUJCb3lBblU2dkJ2NUZLbDRLTXhxWVpZSS1Iemk1QkJxYzNpY2VTQzFodFFBV0szT3V6M1JMU3FiOGI5cktGcWcyOU1NVEdDUlBzdw?oc=5",
+          "published_at": "14:04"
+        },
+        {
+          "title": "Fervo signs 396-MW geothermal power supply deal with Google; shares jump",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/dollar-gains-rate-hike-expectations-yen-retreats-past-160-6353491",
-          "published_at": "08:40"
-        },
-        {
-          "title": "Dollar gains on rate hike expectations, yen retreats past 160",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
-          "published_at": "01:24"
+          "url": "https://www.channelnewsasia.com/business/fervo-signs-396-mw-geothermal-power-supply-deal-google-shares-jump-6355051",
+          "published_at": "12:39"
         }
       ]
     },
     {
-      "id": "world-68",
-      "title": "인도의 모디는 러시아의 푸틴에게 우크라이나 전쟁은 인류를 위해 끝나야 한다고 말했다",
-      "title_en": "India's Modi tells Russia's Putin that the war in Ukraine must end for humanity's sake",
+      "id": "world-25",
+      "title": "노르웨이 새 국왕, 하랄드 사망 후 의회에서 선서",
+      "title_en": "Norway's new king takes oath before parliament after Harald's death",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX1JRSVpMMVp5U0JZRXJRaXk3TTBZSjZqcXNTSTN4QjFBT1RTNGwyZ0hWa216TW94TjNkdE1XZ2lMWnVNMDhsSzczaHRpeWItSDNKREdvdTRSTlBDR3NrUFI5VUJKUnd0N2RyOVdHWmwwM3lFQXNiQnBLUHJTNFFBaGZRNEZ6a2M3Ymh2OEk2VFYzalRISUJCSTM0Y0c4QjNDR2tmU291UzdQWm91V0NpUFZzU0FGYnNZS3hKUEhB?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "인도는 러시아 석유의 가장 큰 구매자 중 하나이며, 그 무역은 서방 제재에도 불구하고 모스크바가 예산을 보충하는 데 도움이 되고 있습니다",
-      "excerpt_en": "India is one of ​the ⁠biggest buyers of Russian oil and that trade is helping Moscow replenish its budget despite Western sanctions",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-modi-putin-war-peace-b3042456.html",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-31T23:03:04+09:00",
-      "latest_published_at": "2026-09-01T08:07:34+09:00",
-      "articles": [
-        {
-          "title": "Modi tells visibly tense Putin to end Ukraine war ‘for humanity’s sake’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-modi-putin-war-peace-b3042456.html",
-          "published_at": "08:07"
-        },
-        {
-          "title": "India's Modi tells Russia's Putin that the war in Ukraine must end for humanity's sake",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX1JRSVpMMVp5U0JZRXJRaXk3TTBZSjZqcXNTSTN4QjFBT1RTNGwyZ0hWa216TW94TjNkdE1XZ2lMWnVNMDhsSzczaHRpeWItSDNKREdvdTRSTlBDR3NrUFI5VUJKUnd0N2RyOVdHWmwwM3lFQXNiQnBLUHJTNFFBaGZRNEZ6a2M3Ymh2OEk2VFYzalRISUJCSTM0Y0c4QjNDR2tmU291UzdQWm91V0NpUFZzU0FGYnNZS3hKUEhB?oc=5",
-          "published_at": "23:03"
-        }
-      ]
-    },
-    {
-      "id": "world-160",
-      "title": "White House unveils more details of Trump’s Venezuela oil deal",
-      "title_en": "White House unveils more details of Trump’s Venezuela oil deal",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/9/1/white-house-unveils-more-details-of-trumps-venezuela-oil-deal?traffic_source=rss",
-      "category": "미국",
-      "primary_source": "Al Jazeera",
-      "excerpt": "베네수엘라 대통령 대행 델시 로드리게스(Delcy Rodríguez)는 이번 협정이 국가 석유 산업을 현대화할 경제 회복을 향한 한 단계라고 설명했습니다.",
-      "excerpt_en": "Venezuela’s acting president, Delcy Rodríguez, described the deal as a step toward economic recovery that would modernise the country’s oil industry.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/17-oil-fields-65-billion-barrels-100-billion-investment-what-is-inside-trump-s-venezuela-deal-explained-lower-gas-prices-101788253318713.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-01T07:39:52+09:00",
-      "latest_published_at": "2026-09-01T09:13:51+09:00",
-      "articles": [
-        {
-          "title": "17 oil fields, 65 billion barrels: Inside Trump’s Venezuela deal and why it may not lower gas prices anytime soon",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/17-oil-fields-65-billion-barrels-100-billion-investment-what-is-inside-trump-s-venezuela-deal-explained-lower-gas-prices-101788253318713.html",
-          "published_at": "09:13"
-        },
-        {
-          "title": "White House unveils more details of Trump’s Venezuela oil deal",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/1/white-house-unveils-more-details-of-trumps-venezuela-oil-deal?traffic_source=rss",
-          "published_at": "07:39"
-        }
-      ]
-    },
-    {
-      "id": "world-278",
-      "title": "시진핑이 외국 지도자들을 만난다: 추적기, 2026년 8월",
-      "title_en": "Xi Jinping meets foreign leaders: tracker, August 2026",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/plus/news/china/article/3365821/xi-jinping-meets-foreign-leaders-tracker-august-2026?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "2년 전 나렌드라 모디 총리는 아스타나에서 열린 상하이협력기구(SCO) 정상회담에 아예 참석하지 않고 외무장관을 대신 보냈다. 그 부재는 작년 여름에 처음으로 시정되었습니다.",
-      "excerpt_en": "Two years ago, Narendra Modi skipped the Shanghai Cooperation Organisation’s (SCO) summit in Astana entirely, sending his foreign minister instead. That absence was redressed first at last year’s summ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/week-asia/politics/article/3365955/aloof-engaged-what-indias-sco-comeback-reveals?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-01T02:59:47+09:00",
-      "latest_published_at": "2026-09-01T09:22:07+09:00",
-      "articles": [
-        {
-          "title": "Modi-Xi bonhomie, Sharif’s quick catch-up with Putin after SCO photo op | Watch",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/modi-xi-bonhomie-sharif-s-quick-catch-up-with-putin-after-sco-summit-2026-photo-op-watch-101788250469184.html",
-          "published_at": "09:22"
-        },
-        {
-          "title": "Xi Jinping calls on SCO members to team up for bigger global tech-security role",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3365957/xi-raises-universal-security-mission-sco-putin-modi-meet-kyrgyzstan?utm_source=rss_feed",
-          "published_at": "07:32"
-        },
-        {
-          "title": "‘Aloof’ but engaged: what India’s SCO comeback reveals",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/politics/article/3365955/aloof-engaged-what-indias-sco-comeback-reveals?utm_source=rss_feed",
-          "published_at": "07:19"
-        },
-        {
-          "title": "Xi Jinping meets foreign leaders: tracker, August 2026",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/plus/news/china/article/3365821/xi-jinping-meets-foreign-leaders-tracker-august-2026?utm_source=rss_feed",
-          "published_at": "02:59"
-        }
-      ]
-    },
-    {
-      "id": "world-309",
-      "title": "무더위가 계속되는 스페인, 전통 접이식 부채가 전성기를 누리고 있다",
-      "title_en": "In a scorching Spain, the traditional folding hand fan is having a moment",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/scorching-spain-traditional-folding-hand-fan-moment-136106887",
+      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUnIySndhcW1yNFZwdXFBbXUtc3QxQnAtVVF1dXlYRW1sY1ZMNHNjUW9BUkFhSUtIZFFNVzM5MTl3dWE3d0c3RGxlcHdOc3ZyNFhXeXNQZjBQcFp1UVduQVI5UFJxeDB2UTR2SVVWRW9udnA5Wm1GZWUyOFJFeDdTU25UdnFFM3BWMlViMGUxbTN5X245SlpFRS1wSV9ZM0FrNGlKZVRCN3dKRFdtTE1zeTlENGk?oc=5",
       "category": "유럽",
-      "primary_source": "ABC News",
+      "primary_source": "Reuters",
+      "excerpt": "노르웨이의 새 국왕은 고(故) 하랄드 5세 국왕이 왕궁에 안치됨에 따라 통치의 첫 번째 주요 단계를 밟게 됩니다.",
+      "excerpt_en": "Norway's new King takes the first major step of his reign as his father, the late King Harald V, lies in state at the Royal Palace.",
+      "excerpt_source": "BBC",
+      "excerpt_url": "https://www.bbc.co.uk/news/videos/ceq8945e71ro?at_medium=RSS&at_campaign=rss",
+      "translation_status": "ok",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-01T12:33:32+09:00",
+      "latest_published_at": "2026-09-01T14:06:58+09:00",
+      "articles": [
+        {
+          "title": "Norway's new king takes oath as mourners pay respects to his late father",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/ceq8945e71ro?at_medium=RSS&at_campaign=rss",
+          "published_at": "14:06"
+        },
+        {
+          "title": "Norway's new king takes oath before parliament after Harald's death",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUnIySndhcW1yNFZwdXFBbXUtc3QxQnAtVVF1dXlYRW1sY1ZMNHNjUW9BUkFhSUtIZFFNVzM5MTl3dWE3d0c3RGxlcHdOc3ZyNFhXeXNQZjBQcFp1UVduQVI5UFJxeDB2UTR2SVVWRW9udnA5Wm1GZWUyOFJFeDdTU25UdnFFM3BWMlViMGUxbTN5X245SlpFRS1wSV9ZM0FrNGlKZVRCN3dKRFdtTE1zeTlENGk?oc=5",
+          "published_at": "12:33"
+        }
+      ]
+    },
+    {
+      "id": "world-352",
+      "title": "뜨거운 폭염 속에서도 유럽인들을 시원하게 지켜주는 스타일리시한 액세서리",
+      "title_en": "The stylish accessory keeping Europeans cool amid scorching heatwaves",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/spain-heatwave-hand-fans-cool-europe-b3042624.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
       "excerpt": "스페인에서는 여름의 무더위로 인해 전통 접이식 부채인 아바니코가 잠시 쉬어가고 있습니다.",
       "excerpt_en": "In Spain, the traditional folding hand fan, or abanico, is having a moment due to the summer's intense heat",
       "excerpt_source": "ABC News",
@@ -1462,25 +1807,25 @@
         "ABC News",
         "The Independent"
       ],
-      "first_published_at": "2026-09-01T10:10:58+09:00",
-      "latest_published_at": "2026-09-01T10:15:46+09:00",
+      "first_published_at": "2026-09-01T10:15:46+09:00",
+      "latest_published_at": "2026-09-01T12:42:14+09:00",
       "articles": [
+        {
+          "title": "In a scorching Spain, the traditional folding hand fan is having a moment",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/scorching-spain-traditional-folding-hand-fan-moment-136106887",
+          "published_at": "12:42"
+        },
         {
           "title": "The stylish accessory keeping Europeans cool amid scorching heatwaves",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/europe/spain-heatwave-hand-fans-cool-europe-b3042624.html",
           "published_at": "10:15"
-        },
-        {
-          "title": "In a scorching Spain, the traditional folding hand fan is having a moment",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/scorching-spain-traditional-folding-hand-fan-moment-136106887",
-          "published_at": "10:10"
         }
       ]
     },
     {
-      "id": "world-364",
+      "id": "world-393",
       "title": "8/31: Garrett 소령과 함께하는 테이크아웃",
       "title_en": "8/31: The Takeout with Major Garrett",
       "title_source": "earliest_pick",
@@ -1527,195 +1872,60 @@
       ]
     },
     {
-      "id": "world-370",
-      "title": "중국-대만 마찰구름 태평양 정상회담",
-      "title_en": "China-Taiwan friction clouds Pacific summit",
+      "id": "world-496",
+      "title": "네팔-티베트 돌발 홍수 이후 두 번째 실종 호주인 발견",
+      "title_en": "Second missing Australian found following Nepal-Tibet flash floods",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3311833/chinataiwan-friction-clouds-pacific-summit",
+      "title_url": "https://www.smh.com.au/world/second-missing-australian-found-following-nepal-tibet-flash-floods-20260901-p60tje.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "코로르 — 호주는 화요일 중국이 대만의 방관에 반대를 제기하자 태평양 블록이 연례 정상회담에 참석할 사람을 스스로 결정할 것이라고 말했습니다.",
-      "excerpt_en": "KOROR — Australia said Tuesday the Pacific bloc will decide for itself who attends its annual summit, after China raised objections to Taiwan's presence on the sidelines.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3311833/chinataiwan-friction-clouds-pacific-summit",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "재앙적인 네팔-티베트 홍수가 발생한 지 일주일 후, 사라다 비스와나단(Sarada Viswanathan)은 아직 실종된 파트너인 리샤브 아이어(Rishab Iyer)를 포기하지 않고 있습니다.",
+      "excerpt_en": "A week after the catastrophic Nepal-Tibet flood, Sarada Viswanathan is refusing to give up on her partner Rishab Iyer, who is still missing.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-01/families-refuse-to-give-up-on-loved-ones-missing-in-nepal/107104082",
       "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
-        "article_score": 12,
+        "article_score": 18,
         "diversity_score": 10,
-        "major_score": 15,
+        "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
+        "time_score": 2,
         "raw75": 41
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "Bangkok Post"
-      ],
-      "first_published_at": "2026-09-01T03:45:00+09:00",
-      "latest_published_at": "2026-09-01T10:18:51+09:00",
-      "articles": [
-        {
-          "title": "China warns of 'consequences' for Taiwan after Taipei envoys attend leaders summit",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/china-warns-consequences-taiwan-after-taipei-envoys-attend-136109572",
-          "published_at": "10:18"
-        },
-        {
-          "title": "China-Taiwan friction clouds Pacific summit",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3311833/chinataiwan-friction-clouds-pacific-summit",
-          "published_at": "03:45"
-        }
-      ]
-    },
-    {
-      "id": "world-41",
-      "title": "트럼프 동맹자인 로라 루머가 직면한 문제",
-      "title_en": "Trump ally Laura Loomer faces",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-ally-laura-loomer-faces-101788210161815.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "USA-RACISM/LOOMER (PIX): 트럼프 동맹인 로라 루머가 흑인 여성에 대한 인종차별적 발언으로 비판에 직면",
-      "excerpt_en": "USA-RACISM/LOOMER (PIX):Trump ally Laura Loomer faces criticism over racist comments against Black women",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-ally-laura-loomer-faces-101788210161815.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-31T21:02:41+09:00",
-      "latest_published_at": "2026-08-31T23:33:28+09:00",
-      "articles": [
-        {
-          "title": "Trump ally Laura Loomer faces fresh criticism over racist comments",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGlDcWZoTEdEdklFVEl4YnBHcFN5MEFxZEVlR3VMcnBBczNoTjBDcEVPaVBrQnlxdmVMaHZlYV9BVHhreUdfVVJPVXNPbGhIX1J5TEx6MExXek9aYUJsanZIUnRiWEZwVTQ3M3lrS3FORFl6UjZGTXZrRTVKZ1JNUlR4eHVBMlF3aDFLUmVpdXNnb0U3Q1dxRE0ydTRIQ2FwMlR4eUVGZzh4SE93Z1lMcG9DZ2lvQUIzbWctcFhUUHQ4NjhRVVpFbVFFLU5xZw?oc=5",
-          "published_at": "23:33"
-        },
-        {
-          "title": "Trump ally Laura Loomer faces",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-ally-laura-loomer-faces-101788210161815.html",
-          "published_at": "21:02"
-        }
-      ]
-    },
-    {
-      "id": "world-51",
-      "title": "유럽인들은 러시아의 G20 복귀에 격분한다",
-      "title_en": "Europeans bristle at Russia's return to G20",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/europeans-bristle-at-russia-s-return-to-g20-101788204593628.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "G20-RUSSIA/:러시아의 G20 복귀에 유럽인들이 격분함",
-      "excerpt_en": "G20-RUSSIA/:Europeans bristle at Russia's return to G20",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/europeans-bristle-at-russia-s-return-to-g20-101788204593628.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-08-31T19:29:53+09:00",
-      "latest_published_at": "2026-08-31T20:09:39+09:00",
-      "articles": [
-        {
-          "title": "Europeans bristle at Russia's return to G20",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTXZxUVBoT0FGcGM1MnBqZEtONlBueE00WktYNGJ2Nm5LRVZQWmVzQklNTXpKaFk2ZEMtNDd6NG1KdWJVTEJZdkJRaTdHZDZiRmlobjFjdjlmZ3RORTh3ZXRVelhYVTlPSVdrcjRTLUhqOEtkNE9abVhiTFJqOXVGS3VGYlpDeXF6SVNZTG9YbW03RTQ?oc=5",
-          "published_at": "20:09"
-        },
-        {
-          "title": "Europeans bristle at Russia's return to G20",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/europeans-bristle-at-russia-s-return-to-g20-101788204593628.html",
-          "published_at": "19:29"
-        }
-      ]
-    },
-    {
-      "id": "world-103",
-      "title": "네팔과 티베트에서 홍수 사망자가 950명을 넘어 수백명이 수력발전 터널에 갇힐 우려가 있습니다.",
-      "title_en": "Hundreds feared stuck in hydropower tunnels as flood deaths surpass 950 in Nepal and Tibet",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeF9fY0FGcDNINmhyYlJPWWM3LTJESnQ3dUZLVXVBSjJtQmR1V0l0aDdvN0J5aF9uOGxldDIwZy1TYlpWVnlFTUVYaGJmeW80dVR6MUYzZU5JSHFCTWJwZXhOaTBuN3EwS3pqeklVQzd4Q2xybXRmbjNWRnZVSjl4Zm52dFB4NDgwM0pvZ0I5cHI1Z3dM?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "지난 주 돌발 홍수로 인해 파괴되거나 피해를 입은 12개 수력 발전 프로젝트에서 최소 900명의 근로자가 여전히 실종 상태인 것으로 알려졌습니다.",
-      "excerpt_en": "At least 900 workers are still reportedly unaccounted-for from 12 hydropower projects destroyed or damaged by last week’s flash floods.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/asia/race-to-free-hundreds-feared-trapped-in-hydropower-tunnels-as-nepal-flood-deaths-surpass-950-20260901-p60t97.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
+        "ABC News Australia",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-01T02:18:00+09:00",
-      "latest_published_at": "2026-09-01T02:58:36+09:00",
+      "first_published_at": "2026-09-01T08:40:47+09:00",
+      "latest_published_at": "2026-09-01T10:22:32+09:00",
       "articles": [
         {
-          "title": "Race to free hundreds feared trapped in Nepal’s hydropower tunnels as flood deaths surpass 950",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/race-to-free-hundreds-feared-trapped-in-hydropower-tunnels-as-nepal-flood-deaths-surpass-950-20260901-p60t97.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "02:58"
+          "title": "Partner of missing Australian in Nepal says waiting for news has been 'hell'",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-01/families-refuse-to-give-up-on-loved-ones-missing-in-nepal/107104082",
+          "published_at": "10:22"
         },
         {
-          "title": "Hundreds feared stuck in hydropower tunnels as flood deaths surpass 950 in Nepal and Tibet",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeF9fY0FGcDNINmhyYlJPWWM3LTJESnQ3dUZLVXVBSjJtQmR1V0l0aDdvN0J5aF9uOGxldDIwZy1TYlpWVnlFTUVYaGJmeW80dVR6MUYzZU5JSHFCTWJwZXhOaTBuN3EwS3pqeklVQzd4Q2xybXRmbjNWRnZVSjl4Zm52dFB4NDgwM0pvZ0I5cHI1Z3dM?oc=5",
-          "published_at": "02:18"
+          "title": "Missing Australian found in Tibet was not in flood zone, China says",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-01/missing-australian-found-alive-in-tibet-floods-nepal/107104646",
+          "published_at": "09:05"
+        },
+        {
+          "title": "Second missing Australian found following Nepal-Tibet flash floods",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/second-missing-australian-found-following-nepal-tibet-flash-floods-20260901-p60tje.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "08:40"
         }
       ]
     },
     {
-      "id": "world-105",
+      "id": "world-98",
       "title": "Wendell Berry가 92세로 사망: 사망 원인, 아내, 자녀, 유명한 인용문, 시 등",
       "title_en": "Wendell Berry dies at 92: Cause of death, wife, children, famous quotes, poems and more",
       "title_source": "earliest_pick",
@@ -1762,158 +1972,17 @@
       ]
     },
     {
-      "id": "world-106",
-      "title": "배심원단은 1996년 랩 아이콘 투팍 샤커(Tupac Shakur)를 살해한 남성에게 1급 살인 혐의로 유죄를 선고했습니다.",
-      "title_en": "Jury convicts a man of first-degree murder for the 1996 killing of rap icon Tupac Shakur",
+      "id": "world-105",
+      "title": "네팔과 티베트에서 홍수 사망자가 950명을 넘어 수백명이 수력발전 터널에 갇힐 우려가 있다",
+      "title_en": "Hundreds feared stuck in hydropower tunnels as flood deaths surpass 950 in Nepal and Tibet",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOckladTlIUGxNTm1saG5fdHluYXFVOFM3UnZjdGVXUi05Ym9sRXR6blhqN3dIWHpEYUp0eHBOVDl5RTFxNkVtTXhyTlBQVUw2bjZyMVdEZFJoRDdpN0FtbWVuOWxKSUoyVG8wYVY3T0F4R2hzUzk2NUZkZ1U4WThpS3VJT2lPajJlU3ozRktuT1NsXzNlMDFyMXVuZWliOEY1dkE?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeF9fY0FGcDNINmhyYlJPWWM3LTJESnQ3dUZLVXVBSjJtQmR1V0l0aDdvN0J5aF9uOGxldDIwZy1TYlpWVnlFTUVYaGJmeW80dVR6MUYzZU5JSHFCTWJwZXhOaTBuN3EwS3pqeklVQzd4Q2xybXRmbjNWRnZVSjl4Zm52dFB4NDgwM0pvZ0I5cHI1Z3dM?oc=5",
       "category": "기타",
       "primary_source": "AP News",
-      "excerpt": "이번 판결은 거의 30년 동안 해결되지 않은 이목을 끄는 살인 사건에 대해 전 세계 열렬한 힙합 팬들의 수십 년간의 추측과 음모에 종지부를 찍는 것입니다. 데이비스가 나올 것으로 예상됩니다.",
-      "excerpt_en": "The verdict lays to rest decades of speculation and conspiracy from avid hip-hop fans around the world in the high-profile killing that went unresolved for close to 30 years. Davis is expected to appe",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/09/01/jury-convicts-duane-keffe-d-davis-of-first-degree-murder-in-1996-killing-of-hip-hop-icon-t",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Euronews"
-      ],
-      "first_published_at": "2026-09-01T02:17:00+09:00",
-      "latest_published_at": "2026-09-01T03:51:22+09:00",
-      "articles": [
-        {
-          "title": "Jury convicts Duane 'Keffe D' Davis of first degree murder in 1996 killing of hip-hop icon Tupac Shakur",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/09/01/jury-convicts-duane-keffe-d-davis-of-first-degree-murder-in-1996-killing-of-hip-hop-icon-t",
-          "published_at": "03:51"
-        },
-        {
-          "title": "Jury convicts a man of first-degree murder for the 1996 killing of rap icon Tupac Shakur",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOckladTlIUGxNTm1saG5fdHluYXFVOFM3UnZjdGVXUi05Ym9sRXR6blhqN3dIWHpEYUp0eHBOVDl5RTFxNkVtTXhyTlBQVUw2bjZyMVdEZFJoRDdpN0FtbWVuOWxKSUoyVG8wYVY3T0F4R2hzUzk2NUZkZ1U4WThpS3VJT2lPajJlU3ozRktuT1NsXzNlMDFyMXVuZWliOEY1dkE?oc=5",
-          "published_at": "02:17"
-        }
-      ]
-    },
-    {
-      "id": "world-117",
-      "title": "91세 노인, 애팔래치아 트레일 완주한 최고령 등산객 기록 되찾아",
-      "title_en": "91-year-old reclaims his record as oldest hiker to complete Appalachian Trail",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/dale-sanders-appalachian-trail-oldest-hiker-grey-beard-b3042278.html",
-      "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "91세의 데일 '그레이 비어드' 샌더스, 애팔래치아 트레일 완주 최고령 등산객 기록 되찾아",
-      "excerpt_en": "At 91, Dale 'Grey Beard' Sanders reclaims record as oldest hiker to complete the Appalachian Trail AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcDZYM21kelE0RnpkaTNlcmZNUnNKSUhTNk5NQnJZSFg5Y3M3ZHl5ejFwWUVPakwwcEZqRHliaGtKN0hBN3BZcVlhQ2ZBc0ZUc3BLbklNMTlFY24wWDUyR3hhd0xuVUoxVnlqcDhfRm41MVRiT0RFenlvYVhpU01pd01tZWgyZkdoYVZoY3dJTlpmb1NvbjlxeXNvUF90ZWlkSVVR?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-31T18:30:44+09:00",
-      "latest_published_at": "2026-08-31T22:31:00+09:00",
-      "articles": [
-        {
-          "title": "At 91, Dale 'Grey Beard' Sanders reclaims record as oldest hiker to complete the Appalachian Trail",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcDZYM21kelE0RnpkaTNlcmZNUnNKSUhTNk5NQnJZSFg5Y3M3ZHl5ejFwWUVPakwwcEZqRHliaGtKN0hBN3BZcVlhQ2ZBc0ZUc3BLbklNMTlFY24wWDUyR3hhd0xuVUoxVnlqcDhfRm41MVRiT0RFenlvYVhpU01pd01tZWgyZkdoYVZoY3dJTlpmb1NvbjlxeXNvUF90ZWlkSVVR?oc=5",
-          "published_at": "22:31"
-        },
-        {
-          "title": "91-year-old reclaims his record as oldest hiker to complete Appalachian Trail",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/dale-sanders-appalachian-trail-oldest-hiker-grey-beard-b3042278.html",
-          "published_at": "18:30"
-        }
-      ]
-    },
-    {
-      "id": "world-324",
-      "title": "테아 프로딘(Thea Frodin)은 '킹 리처드'에서 세레나 윌리엄스의 바디 더블 역을 맡았습니다. 지금 그녀는 US 오픈에서 뛰고 있어요",
-      "title_en": "Thea Frodin was Serena Williams' body double in 'King Richard.' Now she's playing in the US Open",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/serena-williams-richard-williams-will-smith-new-york-elena-rybakina-b3042413.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "오사카 나오미가 전설적인 NBA 선수 앨런 아이버슨에게 경의를 표하기 전 US 오픈에서 또 다른 멋진 워크온 의상을 공개했습니다.",
-      "excerpt_en": "Naomi Osaka unveils another stunning walk-on outfit at the US Open, before paying tribute to legendary NBA player Allen Iverson.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-01/tennis-us-open-naomi-osaka-allen-iverson-fashion-style/107103512",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-01T01:05:25+09:00",
-      "latest_published_at": "2026-09-01T06:02:16+09:00",
-      "articles": [
-        {
-          "title": "Osaka pays tribute to NBA great as she brings style and steel to US Open",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-01/tennis-us-open-naomi-osaka-allen-iverson-fashion-style/107103512",
-          "published_at": "06:02"
-        },
-        {
-          "title": "Thea Frodin was Serena Williams' body double in 'King Richard.' Now she's playing in the US Open",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/serena-williams-richard-williams-will-smith-new-york-elena-rybakina-b3042413.html",
-          "published_at": "01:05"
-        }
-      ]
-    },
-    {
-      "id": "world-377",
-      "title": "네팔 참사 이후 두 번째 호주인 발견, 사망자 수 1000명 넘으면서 42명 실종 여전히 '심각한 우려'",
-      "title_en": "Second Australian found after Nepal disaster, ‘grave concerns’ for 42 still missing as death toll passes 1000",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/asia/second-australian-found-after-nepal-disaster-grave-concerns-for-42-still-missing-20260901-p60ten.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "DFAT 관계자들은 화요일 정부가 신원을 밝히지 않은 그 사람에게 연락해 영사 조력을 제공하고 가족들과 연락을 취했습니다.",
-      "excerpt_en": "DFAT officials contacted the person, whom the government has not identified, on Tuesday to offer consular assistance and put them in touch with family members.",
+      "excerpt": "지난주의 돌발 홍수로 인해 파괴되거나 피해를 입은 12개 수력 발전 프로젝트에서 최소 900명의 근로자가 여전히 실종 상태인 것으로 알려졌습니다.",
+      "excerpt_en": "At least 900 workers are still reportedly unaccounted-for from 12 hydropower projects destroyed or damaged by last week’s flash floods.",
       "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/asia/second-australian-found-after-nepal-disaster-grave-concerns-for-42-still-missing-20260901-p60ten.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "excerpt_url": "https://www.smh.com.au/world/asia/race-to-free-hundreds-feared-trapped-in-hydropower-tunnels-as-nepal-flood-deaths-surpass-950-20260901-p60t97.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1929,38 +1998,85 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
+        "AP News",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-01T06:12:47+09:00",
-      "latest_published_at": "2026-09-01T06:14:36+09:00",
+      "first_published_at": "2026-09-01T02:18:00+09:00",
+      "latest_published_at": "2026-09-01T02:58:36+09:00",
       "articles": [
         {
-          "title": "Families of those missing after Nepal floods struggle to cling to hope as death toll passes 1,000",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/nepal-flood-rescues-deaths-hope-alive-but-fading-4200-people-missing/",
-          "published_at": "06:14"
+          "title": "Race to free hundreds feared trapped in Nepal’s hydropower tunnels as flood deaths surpass 950",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/asia/race-to-free-hundreds-feared-trapped-in-hydropower-tunnels-as-nepal-flood-deaths-surpass-950-20260901-p60t97.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "02:58"
         },
         {
-          "title": "Second Australian found after Nepal disaster, ‘grave concerns’ for 42 still missing as death toll passes 1000",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/second-australian-found-after-nepal-disaster-grave-concerns-for-42-still-missing-20260901-p60ten.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "06:12"
+          "title": "Hundreds feared stuck in hydropower tunnels as flood deaths surpass 950 in Nepal and Tibet",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeF9fY0FGcDNINmhyYlJPWWM3LTJESnQ3dUZLVXVBSjJtQmR1V0l0aDdvN0J5aF9uOGxldDIwZy1TYlpWVnlFTUVYaGJmeW80dVR6MUYzZU5JSHFCTWJwZXhOaTBuN3EwS3pqeklVQzd4Q2xybXRmbjNWRnZVSjl4Zm52dFB4NDgwM0pvZ0I5cHI1Z3dM?oc=5",
+          "published_at": "02:18"
         }
       ]
     },
     {
-      "id": "world-71",
-      "title": "트럼프는 Kharg Island 게시물을 통해이란에 메시지를 보냈다고 Vance는 말합니다.",
-      "title_en": "Trump was sending message to Iran with Kharg Island post, says Vance",
+      "id": "world-398",
+      "title": "베냐민 네타냐후, 이스라엘 선거 앞두고 불화 조장",
+      "title_en": "Binyamin Netanyahu sows discord ahead of Israel’s election",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeElJSjJGWk5EandMUHVfb3J5dmhzdzh2eVNWQjdZYnFPaGFzMmNLX2N1c21TQzFtb0tfeTRhTlBJMnlUVThxR1FqNXg2Q0pTanRSMnVlY0s5RDNqcHhqVVE3YjVrTnlTWGVXd3hERnc0N0lsdmJLcEM2Yk5EUnBKSnI4UUZKeDkwY2ZFVm1aRFJYRG8yR3hRV0RzZFhucUNzdnNjcTJGN3lPdVdPQXVwYmVOUHdzS01zRVE?oc=5",
+      "title_url": "https://www.hindustantimes.com/world-news/binyamin-netanyahu-sows-discord-ahead-of-israel-s-election-101788246308741.html",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "일요일 도널드 트럼프 미국 대통령의 한 줄짜리 소셜 미디어 게시물에는 AI가 생성한 비디오 클립이 함께 게재됐다.",
-      "excerpt_en": "US President Donald Trump's one-line social media post on Sunday was accompanied by an AI-generated video clip.",
+      "primary_source": "Hindustan Times",
+      "excerpt": "에마뉘엘 마크롱 후임 프랑스 대통령 선거운동이 탄력을 받고 있다",
+      "excerpt_en": "The election campaign to replace Emmanuel Macron as France's president is gaining momentum",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/election-campaign-replace-macron-france-heating-summer-vacation-136109571",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-01T10:09:45+09:00",
+      "latest_published_at": "2026-09-01T10:58:24+09:00",
+      "articles": [
+        {
+          "title": "The election campaign to replace Macron in France is heating up as the summer vacation season ends",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/election-campaign-replace-macron-france-heating-summer-vacation-136109571",
+          "published_at": "10:58"
+        },
+        {
+          "title": "Binyamin Netanyahu sows discord ahead of Israel’s election",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/binyamin-netanyahu-sows-discord-ahead-of-israel-s-election-101788246308741.html",
+          "published_at": "10:09"
+        }
+      ]
+    },
+    {
+      "id": "world-75",
+      "title": "트럼프 동맹자인 로라 루머가 직면한 문제",
+      "title_en": "Trump ally Laura Loomer faces",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-ally-laura-loomer-faces-101788210161815.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "USA-RACISM/LOOMER (PIX): 트럼프 동맹인 로라 루머가 흑인 여성에 대한 인종차별적 발언으로 비판에 직면",
+      "excerpt_en": "USA-RACISM/LOOMER (PIX):Trump ally Laura Loomer faces criticism over racist comments against Black women",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/trumps-social-media-post-on-kharg-island-a-message-to-iran-says-vance-101788190736254.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-ally-laura-loomer-faces-101788210161815.html",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -1979,35 +2095,35 @@
         "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-08-31T15:46:18+09:00",
-      "latest_published_at": "2026-08-31T16:36:50+09:00",
+      "first_published_at": "2026-08-31T21:02:41+09:00",
+      "latest_published_at": "2026-08-31T23:33:28+09:00",
       "articles": [
         {
-          "title": "Trump’s social media post on Kharg Island a message to Iran, says Vance",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/trumps-social-media-post-on-kharg-island-a-message-to-iran-says-vance-101788190736254.html",
-          "published_at": "16:36"
-        },
-        {
-          "title": "Trump was sending message to Iran with Kharg Island post, says Vance",
+          "title": "Trump ally Laura Loomer faces fresh criticism over racist comments",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeElJSjJGWk5EandMUHVfb3J5dmhzdzh2eVNWQjdZYnFPaGFzMmNLX2N1c21TQzFtb0tfeTRhTlBJMnlUVThxR1FqNXg2Q0pTanRSMnVlY0s5RDNqcHhqVVE3YjVrTnlTWGVXd3hERnc0N0lsdmJLcEM2Yk5EUnBKSnI4UUZKeDkwY2ZFVm1aRFJYRG8yR3hRV0RzZFhucUNzdnNjcTJGN3lPdVdPQXVwYmVOUHdzS01zRVE?oc=5",
-          "published_at": "15:46"
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGlDcWZoTEdEdklFVEl4YnBHcFN5MEFxZEVlR3VMcnBBczNoTjBDcEVPaVBrQnlxdmVMaHZlYV9BVHhreUdfVVJPVXNPbGhIX1J5TEx6MExXek9aYUJsanZIUnRiWEZwVTQ3M3lrS3FORFl6UjZGTXZrRTVKZ1JNUlR4eHVBMlF3aDFLUmVpdXNnb0U3Q1dxRE0ydTRIQ2FwMlR4eUVGZzh4SE93Z1lMcG9DZ2lvQUIzbWctcFhUUHQ4NjhRVVpFbVFFLU5xZw?oc=5",
+          "published_at": "23:33"
+        },
+        {
+          "title": "Trump ally Laura Loomer faces",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-ally-laura-loomer-faces-101788210161815.html",
+          "published_at": "21:02"
         }
       ]
     },
     {
-      "id": "world-95",
-      "title": "돌리 파튼 에스테이트(Dolly Parton Estate)는 자신의 유산을 기념하기 위해 2일간 열리는 축제 '돌리페스트(Dollyfest)'를 발표했습니다.",
-      "title_en": "Dolly Parton estate announces 2-day festival ‘Dollyfest’ to celebrate her legacy",
+      "id": "world-83",
+      "title": "유럽인들은 러시아의 G20 복귀에 격분한다",
+      "title_en": "Europeans bristle at Russia's return to G20",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yTU1ITlFpb1pDWGpEYWV3eXhQcUFXZkNWVVBNdFV0M3hPTHVtUmctVXJtSi1sWGg4VklqQktBOTJHcDk1OGk1S01KaGJqdDFUYjNtRkFtOVk0RldlN3Z5MHhiTVVzU3J0OXc1M1VYcWpXUnlCVG10dUhsNVM?oc=5",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/europeans-bristle-at-russia-s-return-to-g20-101788204593628.html",
       "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "Dolly Parton의 재산에 따르면 DollyFest는 그녀가 원하는 대로 예술가를 위한 전통적인 공공 기념관을 대신할 것이라고 합니다.",
-      "excerpt_en": "Dolly Parton's estate says DollyFest will take the place of a traditional public memorial for the artist, just as she wanted.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/c5ywd9q3ywvo?at_medium=RSS&at_campaign=rss",
+      "primary_source": "Hindustan Times",
+      "excerpt": "G20-RUSSIA/:러시아의 G20 복귀에 유럽인들이 격분함",
+      "excerpt_en": "G20-RUSSIA/:Europeans bristle at Russia's return to G20",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/europeans-bristle-at-russia-s-return-to-g20-101788204593628.html",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -2023,38 +2139,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "BBC"
+        "Hindustan Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-08-31T15:31:00+09:00",
-      "latest_published_at": "2026-08-31T18:58:35+09:00",
+      "first_published_at": "2026-08-31T19:29:53+09:00",
+      "latest_published_at": "2026-08-31T20:09:39+09:00",
       "articles": [
         {
-          "title": "Festival honouring Dolly Parton set for Nashville and London",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5ywd9q3ywvo?at_medium=RSS&at_campaign=rss",
-          "published_at": "18:58"
+          "title": "Europeans bristle at Russia's return to G20",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTXZxUVBoT0FGcGM1MnBqZEtONlBueE00WktYNGJ2Nm5LRVZQWmVzQklNTXpKaFk2ZEMtNDd6NG1KdWJVTEJZdkJRaTdHZDZiRmlobjFjdjlmZ3RORTh3ZXRVelhYVTlPSVdrcjRTLUhqOEtkNE9abVhiTFJqOXVGS3VGYlpDeXF6SVNZTG9YbW03RTQ?oc=5",
+          "published_at": "20:09"
         },
         {
-          "title": "Dolly Parton estate announces 2-day festival ‘Dollyfest’ to celebrate her legacy",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yTU1ITlFpb1pDWGpEYWV3eXhQcUFXZkNWVVBNdFV0M3hPTHVtUmctVXJtSi1sWGg4VklqQktBOTJHcDk1OGk1S01KaGJqdDFUYjNtRkFtOVk0RldlN3Z5MHhiTVVzU3J0OXc1M1VYcWpXUnlCVG10dUhsNVM?oc=5",
-          "published_at": "15:31"
+          "title": "Europeans bristle at Russia's return to G20",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/europeans-bristle-at-russia-s-return-to-g20-101788204593628.html",
+          "published_at": "19:29"
         }
       ]
     },
     {
-      "id": "world-119",
-      "title": "펜타닐이 거리에 범람하도록 하는 DEA 전술이 하원 공화당에서 조사 중입니다.",
-      "title_en": "DEA tactic that let fentanyl flood the streets is being investigated by House Republicans",
+      "id": "world-102",
+      "title": "갈리아노, 반유대주의 반발로 메트 갈라 전시회 취소",
+      "title_en": "Galliano pulls Met Gala exhibit after antisemitism backlash",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPblZFcDR4Snhhanp0Ykk3MEpsa0ppTjdLa1pWU0tUZlZqQjFZeEFoUWhVR3ZkRVdWNmd2aUhwRjhSZTJFa3VIRUJGbFlzWEpFWEs1YThuTF96dmtWOTM2VXVCQjhVNk0yUk9SR1YycWlaa3NtWjFTSTdNRldPOFh2WjU2WndNdDNYTk4xWC1fWi0xdG56SlVjQ1R3cUoyaS04aldnZmxhYWY1dw?oc=5",
+      "title_url": "https://www.bangkokpost.com/world/3311724/galliano-pulls-met-gala-exhibit-after-antisemitism-backlash",
       "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "종종 마약을 '유행'시키는 것으로 언급되는 전술적 접근 방식은 트럼프의 두 번째 행정부에서도 지속되었습니다.",
-      "excerpt_en": "The tactical approach — often referred to as letting drugs ‘walk’ — persisted into Trump's second administration",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/dea-tactic-fentanyl-house-republicans-b3042251.html",
+      "primary_source": "Bangkok Post",
+      "excerpt": "뉴욕 – 최고의 패션 디자이너 존 갈리아노(John Galliano)는 기부자들과 폴의 비난으로 내년 봄 뉴욕 멧 갈라(Met Gala)를 시작하기로 했던 자신의 작품 전시회를 취소한다고 월요일 발표했습니다.",
+      "excerpt_en": "NEW YORK - Top fashion designer John Galliano announced Monday he was cancelling an exhibition of his work that was to kick off New York's Met Gala next spring, following criticism from donors and pol",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3311724/galliano-pulls-met-gala-exhibit-after-antisemitism-backlash",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -2071,22 +2187,22 @@
       "source_count": 2,
       "sources": [
         "AP News",
-        "The Independent"
+        "Bangkok Post"
       ],
-      "first_published_at": "2026-08-31T13:46:00+09:00",
-      "latest_published_at": "2026-08-31T16:43:30+09:00",
+      "first_published_at": "2026-08-31T19:45:00+09:00",
+      "latest_published_at": "2026-08-31T22:28:00+09:00",
       "articles": [
         {
-          "title": "Controversial DEA tactic that let fentanyl flood the streets investigated by House Republicans",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/dea-tactic-fentanyl-house-republicans-b3042251.html",
-          "published_at": "16:43"
+          "title": "Amid backlash, museum cancels planned Met Gala exhibit on fashion designer John Galliano",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUm9KMC1CRlVnRXVocFZDc2t4X3JBblRTTmRJWkhOdElDd3VmeWJQRzBpZFFTdUFBV2R6amVvSFFjT3MwMUdoZFNzaXJjTm4wN29XX3IzZDhnc2hHeHRrWFpzZzR4TEtpVk5CYzlDUGRldXVyZzNFeHM3U0xrcUxyQWhKRGtuS1J4MnVBOFBscmFzX3BW?oc=5",
+          "published_at": "22:28"
         },
         {
-          "title": "DEA tactic that let fentanyl flood the streets is being investigated by House Republicans",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPblZFcDR4Snhhanp0Ykk3MEpsa0ppTjdLa1pWU0tUZlZqQjFZeEFoUWhVR3ZkRVdWNmd2aUhwRjhSZTJFa3VIRUJGbFlzWEpFWEs1YThuTF96dmtWOTM2VXVCQjhVNk0yUk9SR1YycWlaa3NtWjFTSTdNRldPOFh2WjU2WndNdDNYTk4xWC1fWi0xdG56SlVjQ1R3cUoyaS04aldnZmxhYWY1dw?oc=5",
-          "published_at": "13:46"
+          "title": "Galliano pulls Met Gala exhibit after antisemitism backlash",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3311724/galliano-pulls-met-gala-exhibit-after-antisemitism-backlash",
+          "published_at": "19:45"
         }
       ]
     },
@@ -2098,7 +2214,7 @@
       "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZF81VmtCai00TzROb0FfbXpvUVpWUE5zdGRLVnQ0TENCa0VXVkdGaUwzcFduUUN2RG1qRkVCZFhiSlc1S29sX29uUE8xN0hwS2llRnpIelN4ZjZhT0podXZ0My01b0twaDZQeVNmWEQ2dVJZYmg4UnloWG1JQTlob01La0luMnpnSzZleUxWYUNvUXVPQUFEQzV4SFpaUkRBT3hYVw?oc=5",
       "category": "미국",
       "primary_source": "AP News",
-      "excerpt": "미국 느릅나무를 멸종시킨 질병이 그들을 다시 살리는 데 도움이 될 수 있습니다.",
+      "excerpt": "미국 느릅나무를 멸종시킨 질병이 그들을 다시 살리는 데 도움이 될 수 있습니다. AP 뉴스",
       "excerpt_en": "The disease that decimated American elms could help bring them back AP News",
       "excerpt_source": "AP News",
       "excerpt_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZF81VmtCai00TzROb0FfbXpvUVpWUE5zdGRLVnQ0TENCa0VXVkdGaUwzcFduUUN2RG1qRkVCZFhiSlc1S29sX29uUE8xN0hwS2llRnpIelN4ZjZhT0podXZ0My01b0twaDZQeVNmWEQ2dVJZYmg4UnloWG1JQTlob01La0luMnpnSzZleUxWYUNvUXVPQUFEQzV4SFpaUkRBT3hYVw?oc=5",
@@ -2138,17 +2254,17 @@
       ]
     },
     {
-      "id": "world-211",
-      "title": "남아프리카 항공사, 럭비 연합 충돌 전에 극적인 저공 비행 방어",
-      "title_en": "South African airline defends dramatic low-level flyby before rugby union clash",
+      "id": "world-198",
+      "title": "미국 대법원, 트럼프 볼룸 프로젝트 진행 허용",
+      "title_en": "US Supreme Court allows Trump ballroom project to proceed",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/sport/2026/aug/31/south-african-airline-defends-dramatic-low-level-flyby-before-rugby-union-springboks-new-zealand",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "케이프타운 스턴트, 안전 위험에 대한 주요 논쟁 촉발",
-      "excerpt_en": "Cape Town stunt sparks major debate over safety risks Airlink insists flyby conducted according to regulations A pre-game stunt involving two passenger jets flying dramatically low over a stadium in S",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/sport/2026/aug/31/south-african-airline-defends-dramatic-low-level-flyby-before-rugby-union-springboks-new-zealand",
+      "title_url": "https://www.bangkokpost.com/world/3311739/us-supreme-court-allows-trump-ballroom-project-to-proceed",
+      "category": "미국",
+      "primary_source": "Bangkok Post",
+      "excerpt": "워싱턴 (미국) – 월요일 미국 대법원은 도널드 트럼프 대통령이 백악관 연회장 건설을 계속하도록 허용하여 대통령 반대파에 대한 큰 승리를 거두었습니다.",
+      "excerpt_en": "WASHINGTON (UNITED STATES) - The US Supreme Court on Monday allowed President Donald Trump to continue construction of his White House ballroom, granting him a major victory against opponents of the p",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3311739/us-supreme-court-allows-trump-ballroom-project-to-proceed",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -2164,34 +2280,34 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "The Guardian"
+        "Bangkok Post",
+        "DW"
       ],
-      "first_published_at": "2026-08-31T13:44:39+09:00",
-      "latest_published_at": "2026-08-31T16:34:22+09:00",
+      "first_published_at": "2026-08-31T21:45:00+09:00",
+      "latest_published_at": "2026-08-31T21:54:00+09:00",
       "articles": [
         {
-          "title": "Dramatic low flyby by passenger jets over South African stadium sparks safety debate",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/dramatically-low-flyby-passenger-jets-packed-south-african-136087343",
-          "published_at": "16:34"
+          "title": "US Supreme Court allows Trump ballroom project to proceed",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/us-supreme-court-allows-trump-ballroom-project-to-proceed/a-78581275?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "21:54"
         },
         {
-          "title": "South African airline defends dramatic low-level flyby before rugby union clash",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/sport/2026/aug/31/south-african-airline-defends-dramatic-low-level-flyby-before-rugby-union-springboks-new-zealand",
-          "published_at": "13:44"
+          "title": "US Supreme Court allows Trump ballroom project to proceed",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3311739/us-supreme-court-allows-trump-ballroom-project-to-proceed",
+          "published_at": "21:45"
         }
       ]
     },
     {
       "id": "world-331",
-      "title": "사랑하는 가족 당나귀가 경찰의 총에 맞아 사망한 뒤 주인들이 답변을 요구하다",
-      "title_en": "Owners demand answers after beloved family donkey is shot and killed by police",
+      "title": "한나 이스라엘은 누구입니까? 사랑하는 당나귀 희호가 경찰에 의해 살해된 후 상심한 주인이 이렇게 말했습니다: '그는 내 아들이었습니다!'",
+      "title_en": "Who is Hannah Israel? Heartbroken owner speaks out after beloved donkey HeeHaw is killed by cop: ‘He was my son!’",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/donkey-shot-killed-georgia-police-b3042136.html",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-hannah-israel-heartbroken-owner-speaks-out-after-beloved-donkey-heehaw-is-killed-by-cop-he-was-my-son-101788251199516.html",
       "category": "중동",
-      "primary_source": "The Independent",
+      "primary_source": "Hindustan Times",
       "excerpt": "당나귀 히호(HeeHaw)의 주인인 한나 이스라엘(Hannah Israel)은 포크 카운티(Polk County)에서 시더타운(Cedartown) 경찰의 총격으로 당나귀가 죽은 뒤 상심했다.",
       "excerpt_en": "Hannah Israel, the owner of a donkey, HeeHaw, was left heartbroken after a Cedartown police officer allegedly shot the animal dead in Polk County.",
       "excerpt_source": "Hindustan Times",
@@ -2214,114 +2330,20 @@
         "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-08-31T20:41:56+09:00",
-      "latest_published_at": "2026-09-01T08:34:21+09:00",
+      "first_published_at": "2026-09-01T08:34:21+09:00",
+      "latest_published_at": "2026-09-01T14:00:55+09:00",
       "articles": [
+        {
+          "title": "Owners demand answers after beloved family donkey is shot and killed by police",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/donkey-shot-killed-georgia-police-b3042136.html",
+          "published_at": "14:00"
+        },
         {
           "title": "Who is Hannah Israel? Heartbroken owner speaks out after beloved donkey HeeHaw is killed by cop: ‘He was my son!’",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/who-is-hannah-israel-heartbroken-owner-speaks-out-after-beloved-donkey-heehaw-is-killed-by-cop-he-was-my-son-101788251199516.html",
           "published_at": "08:34"
-        },
-        {
-          "title": "Owners demand answers after beloved family donkey is shot and killed by police",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donkey-shot-killed-georgia-police-b3042136.html",
-          "published_at": "20:41"
-        }
-      ]
-    },
-    {
-      "id": "world-363",
-      "title": "네팔과 중국에서 발생한 홍수로 인한 사망자 수가 1000명을 넘어섰다고 관리들이 밝혔습니다.",
-      "title_en": "Death toll passes 1,000 from catastrophic flooding in Nepal and China, officials say",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/09/01/death-toll-passes-1000-from-catastrophic-flooding-in-nepal-and-china-officials-say",
-      "category": "아시아",
-      "primary_source": "Euronews",
-      "excerpt": "8월 26일 재난은 히말라야 높은 곳에서 일련의 사건으로 시작되었습니다. 빙하 붕괴로 인해 다량의 암석, 얼음, 녹은 물이 아래 계곡으로 유입되어 하류에 강력한 홍수가 발생했습니다.",
-      "excerpt_en": "The 26 August disaster began with a chain of events high in the Himalayas. A glacial collapse sent large amounts of rock, ice and meltwater into valleys below, triggering powerful floods downstream.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/09/01/death-toll-passes-1000-from-catastrophic-flooding-in-nepal-and-china-officials-say",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
-        "Euronews"
-      ],
-      "first_published_at": "2026-09-01T06:50:17+09:00",
-      "latest_published_at": "2026-09-01T10:17:19+09:00",
-      "articles": [
-        {
-          "title": "More than 1,000 dead from catastrophic Nepal-China floods as rescuers search for survivors",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/nepal-china-flood-1-000-dead-9.7327637?cmp=rss",
-          "published_at": "10:17"
-        },
-        {
-          "title": "Death toll passes 1,000 from catastrophic flooding in Nepal and China, officials say",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/09/01/death-toll-passes-1000-from-catastrophic-flooding-in-nepal-and-china-officials-say",
-          "published_at": "06:50"
-        }
-      ]
-    },
-    {
-      "id": "world-328",
-      "title": "판사는 치명적인 주방위군 총격 사건으로 수감된 용의자에게 비자발적인 먹이를 주는 것을 승인했습니다.",
-      "title_en": "Judge authorizes involuntary feeding of jailed suspect in deadly National Guard shooting",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/judge-authorizes-involuntary-feeding-of-jailed-suspect-in-deadly-national-guard-shooting-101788203184263.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "판사는 지난 7월 식사를 중단한 뒤 병원으로 이송된 라마눌라 라칸왈(Rahmanullah Lakanwal)에게 '합의되지 않은' 영양 및 치료를 명령하기로 동의했습니다.",
-      "excerpt_en": "A judge agreed to order ‘nonconsensual’ nutrition and medical treatment for Rahmanullah Lakanwal, who was rushed to a hospital in July after he stopped eating",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/rahmanullah-lakanwal-hunger-strike-national-guard-shooting-b3042348.html",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-08-31T19:06:23+09:00",
-      "latest_published_at": "2026-08-31T21:04:18+09:00",
-      "articles": [
-        {
-          "title": "National Guard shooting suspect can be fed against his will in jail, judge rules",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/rahmanullah-lakanwal-hunger-strike-national-guard-shooting-b3042348.html",
-          "published_at": "21:04"
-        },
-        {
-          "title": "Judge authorizes involuntary feeding of jailed suspect in deadly National Guard shooting",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/judge-authorizes-involuntary-feeding-of-jailed-suspect-in-deadly-national-guard-shooting-101788203184263.html",
-          "published_at": "19:06"
         }
       ]
     }
