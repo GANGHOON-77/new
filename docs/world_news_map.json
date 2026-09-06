@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "batch_time": "12:00",
+  "batch_time": "18:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,43 +8,44 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-06T14:43:18.573328+09:00",
+  "updated_at": "2026-09-06T18:42:45.400959+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 416,
-  "cluster_count_total": 305,
+  "article_count_total": 419,
+  "cluster_count_total": 307,
   "clusters": [
     {
-      "id": "world-69",
-      "title": "러시아는 평화 회담을 재개하기 위한 트럼프 특사들의 주요 방문을 앞두고 우크라이나 공항을 공격했습니다: 젤렌스키",
-      "title_en": "Russia hit Ukrainian airports ahead of key visit by Trump's envoys to revive peace talks: Zelensky",
+      "id": "world-71",
+      "title": "Putin meets with U.S. envoys at the Kremlin in renewed talks over war in Ukraine",
+      "title_en": "Putin meets with U.S. envoys at the Kremlin in renewed talks over war in Ukraine",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/russia-targets-ukrainian-airports-ahead-of-key-visit-by-trump-envoys-to-revive-peace-talks-zelensky-101788601650434.html",
+      "title_url": "https://www.cbc.ca/news/world/putin-pause-strikes-us-envoys-russia-9.7333737?cmp=rss",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "미국 특별대표 스티브 위트코프(Steve Witkoff)와 재러드 쿠슈너(Jared Kushner)는 우크라이나 전쟁을 종식시킬 방법에 대한 회담을 위해 토요일 모스크바에 도착했고, 거기서 그들은 키릴 드미트리예프(Kirill Dmitriev) 러시아 대통령 특사를 만났습니다.",
-      "excerpt_en": "US special representatives Steve Witkoff and Jared Kushner landed in Moscow on Saturday for talks on how to end the ‌war in Ukraine, where they were met by Russian presidential envoy Kirill Dmitriev. ",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260905-us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-on-peace-in-ukraine",
-      "translation_status": "ok",
-      "score": 93,
+      "primary_source": "CBC",
+      "excerpt": "도널드 트럼프의 사업가 동지이자 사위는 이제 스티브 위트코프 우크라이나 대통령을 만나기 위해 모스크바에서 키예프로 향하고 있으며, 재러드 쿠슈너는 도널드 트럼프 역할을 맡아 처음으로 키예프로 향하고 있다.",
+      "excerpt_en": "Donald Trump’s business ally and son-in-law now head from Moscow to Kyiv to meet Ukrainian president Steve Witkoff and Jared Kushner are headed to Kyiv for the first time in their roles as Donald Trum",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/05/steve-witkoff-jared-kushner-russia-revive-ukraine-talks",
+      "translation_status": "failed",
+      "score": 96,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 9,
         "time_score": 3,
-        "raw75": 70
+        "raw75": 72
       },
-      "area_value": 13,
-      "article_count": 13,
+      "area_value": 18,
+      "article_count": 18,
       "syndicated_count": 0,
-      "source_count": 9,
+      "source_count": 11,
       "sources": [
         "Al Jazeera",
+        "Bangkok Post",
         "CBC",
         "CBS News",
         "DW",
@@ -52,16 +53,53 @@
         "France24",
         "Hindustan Times",
         "New York Times",
+        "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-05T10:23:34+09:00",
-      "latest_published_at": "2026-09-06T04:28:28+09:00",
+      "first_published_at": "2026-09-05T13:28:29+09:00",
+      "latest_published_at": "2026-09-06T09:23:22+09:00",
       "articles": [
         {
-          "title": "Ukraine-Russia war latest: No sign of breakthrough in Putin’s ‘highly useful’ peace talks as Trump envoys head to Kyiv",
+          "title": "Witkoff and Kushner discuss ‘next steps’ with Putin to end Ukraine war, says US",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/05/steve-witkoff-jared-kushner-russia-revive-ukraine-talks",
+          "published_at": "09:23"
+        },
+        {
+          "title": "Trump Envoys Expected to Make First Visit to Kyiv",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html",
+          "published_at": "09:02"
+        },
+        {
+          "title": "Ukraine-Russia war latest: Trump envoys set to meet Zelensky in Kyiv after ‘highly useful’ Putin talks",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-peace-talks-news-b3045126.html",
-          "published_at": "04:28"
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-talks-witkoff-kushner-b3045408.html",
+          "published_at": "07:57"
+        },
+        {
+          "title": "US envoys Witkoff and Kushner set for talks in Kyiv after meeting with Putin in Moscow",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/vladimir-putin-ukraine-russia-jared-kushner-donald-trump-b3045435.html",
+          "published_at": "07:53"
+        },
+        {
+          "title": "'A bad sign': US envoys head to Kyiv after three-hour talks with Putin",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/a-bad-sign-us-envoys-head-to-kyiv-after-three-hour-talks-with-putin",
+          "published_at": "06:18"
+        },
+        {
+          "title": "Live: Trump's envoys head to Ukraine after 'substantive' talks with Putin",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin",
+          "published_at": "04:57"
+        },
+        {
+          "title": "US envoys discuss 'substantive' plan with Putin towards ending Ukraine war",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3314923/us-envoys-discuss-substantiveplan-with-putin-towards-ending-ukraine-war",
+          "published_at": "03:45"
         },
         {
           "title": "US envoys Steve Witkoff, Jared Kusner head to Kyiv after Putin says ending Ukraine war 'not simple'",
@@ -110,160 +148,66 @@
           "source_name": "France24",
           "url": "https://www.france24.com/en/video/20260905-us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-on-peace-in-ukraine",
           "published_at": "16:14"
-        },
-        {
-          "title": "Trump negotiators Witkoff, Kushner meet with Putin in Moscow as US pushes for end to Russia-Ukraine war",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/trump-negotiators-witkoff-kushner-arrive-moscow-us-pushes-end-russia-ukraine-war",
-          "published_at": "14:52"
-        },
-        {
-          "title": "Putin meets with U.S. envoys at the Kremlin in renewed talks over war in Ukraine",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/putin-pause-strikes-us-envoys-russia-9.7333737?cmp=rss",
-          "published_at": "13:28"
-        },
-        {
-          "title": "Putin orders halt on Kyiv strikes for 3 days, to hold talks with US envoys today",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/russia-putin-orders-halt-on-ukraine-kyiv-strikes-for-3-days-to-hold-talks-with-us-envoys-today-101788609227282.html",
-          "published_at": "12:00"
-        },
-        {
-          "title": "Russia hit Ukrainian airports ahead of key visit by Trump's envoys to revive peace talks: Zelensky",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/russia-targets-ukrainian-airports-ahead-of-key-visit-by-trump-envoys-to-revive-peace-talks-zelensky-101788601650434.html",
-          "published_at": "10:23"
         }
       ]
     },
     {
-      "id": "world-21",
-      "title": "이스라엘 주재 미국대사, 서안지구 정착민 폭력사태 피해 팔레스타인 마을 방문",
-      "title_en": "US ambassador to Israel visits Palestinian town hit by West Bank settler violence",
+      "id": "world-29",
+      "title": "미국 중앙사령부(CENTCOM)는 IRGC가 해군 함정을 공격한 후 이란 유조선 3척을 공격했다고 밝혔습니다.",
+      "title_en": "US CENTCOM says it struck three Iran oil tankers after IRGC attacks on Navy ships",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/middle-east/20260905-us-ambassador-to-israel-visits-palestinian-town-hit-by-west-bank-settler-violence",
+      "title_url": "https://www.hindustantimes.com/world-news/us-centcom-says-it-struck-three-iran-oil-tankers-after-irgc-missile-attacks-on-navy-ships-101788616548681.html",
       "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "마이크 허커비 이스라엘 주재 미국 대사는 지난 토요일 이스라엘이 점령한 서안 지구에 있는 팔레스타인 마을 투르무스 아이야를 방문했습니다. 투르무스 아이야는 이스라엘 정착민 폭력의 표적이 되어 왔습니다. 허커비, s",
-      "excerpt_en": "US ambassador to Israel Mike Huckabee on Saturday visited Turmus Ayya, a Palestinian town in the Israeli-occupied West Bank that has been repeatedly targeted by Israeli settler violence. Huckabee, a s",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/middle-east/20260905-us-ambassador-to-israel-visits-palestinian-town-hit-by-west-bank-settler-violence",
-      "translation_status": "ok",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "Bangkok Post",
-        "CBC",
-        "CBS News",
-        "Channel News Asia",
-        "France24",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-05T12:19:19+09:00",
-      "latest_published_at": "2026-09-05T22:29:12+09:00",
-      "articles": [
-        {
-          "title": "US ambassador visits Palestinian town amid rise in West Bank settler violence",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
-          "published_at": "22:29"
-        },
-        {
-          "title": "US ambassador visits Palestinian town amid rise in West Bank settler violence",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/us-ambassador-palestinian-town-west-bank-settler-violence-6364511",
-          "published_at": "20:43"
-        },
-        {
-          "title": "U.S. ambassador calls ongoing West Bank settler violence an \"act of terror\"",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/mike-huckabee-west-bank-settler-violence/",
-          "published_at": "17:54"
-        },
-        {
-          "title": "U.S. ambassador visits Palestinian town amid rise in occupied West Bank settler violence",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/us-ambassador-visits-palestinian-town-9.7333786?cmp=rss",
-          "published_at": "15:38"
-        },
-        {
-          "title": "US envoy says Israel has responsibility for Palestinians",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3314555/us-envoy-says-israel-has-responsibility-for-palestinians",
-          "published_at": "13:45"
-        },
-        {
-          "title": "US ambassador to Israel visits Palestinian town hit by West Bank settler violence",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260905-us-ambassador-to-israel-visits-palestinian-town-hit-by-west-bank-settler-violence",
-          "published_at": "12:19"
-        }
-      ]
-    },
-    {
-      "id": "world-34",
-      "title": "이란은 호르무즈 충돌이 격화되자 미국과 연계된 선박과 유조선을 공격했다고 밝혔습니다.",
-      "title_en": "Iran says it attacked US-linked vessels and tankers as Hormuz clashes intensify",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/09/05/iranian-media-report-us-strike-on-iranian-oil-tanker-near-kharg-island",
-      "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "미국 중부사령부(CENTCOM)는 이란의 주요 석유 수출 허브인 카르그 섬 해안에서 떨어진 한 척을 포함해 이란 유조선 세 척을 토요일 공격했다고 밝혔습니다. CENTCOM은 파업이 실시되었다고 말했다",
+      "primary_source": "Hindustan Times",
+      "excerpt": "미국 중부사령부(CENTCOM)는 이란의 주요 석유 수출 허브인 카르그섬 해안에서 떨어진 한 척을 포함해 이란 유조선 세 척을 토요일 공격했다고 밝혔습니다. CENTCOM은 파업이 실시되었다고 말했다",
       "excerpt_en": "US Central Command (CENTCOM) said it hit three Iranian oil tankers on Saturday, including one off the coast of Kharg Island adjoining Iran’s major oil export hub. CENTCOM said the strikes were conduct",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3366498/us-disables-or-destroys-3-iran-oil-tankers-after-warships-targeted?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 92,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
+        "time_score": 3,
+        "raw75": 70
       },
       "area_value": 14,
       "article_count": 14,
       "syndicated_count": 0,
-      "source_count": 10,
+      "source_count": 9,
       "sources": [
         "ABC News",
         "AP News",
         "CBC",
         "CBS News",
-        "Euronews",
         "Hindustan Times",
         "NBC News",
         "SCMP",
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-09-05T09:39:48+09:00",
-      "latest_published_at": "2026-09-06T01:40:01+09:00",
+      "first_published_at": "2026-09-05T13:57:57+09:00",
+      "latest_published_at": "2026-09-06T09:31:09+09:00",
       "articles": [
         {
-          "title": "'Joined Navy at bottom of the sea': US claims it sank Iranian oil tanker in Gulf of Oman | Watch",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-centcom-claims-it-sank-oil-tanker-mt-kylo-in-gulf-of-oman-as-iran-war-escalates-watch-101788658361455.html",
-          "published_at": "01:40"
+          "title": "US military blasts trio of Iranian oil tankers",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/us-military-blasts-trio-of-iranian-oil-tankers-20260906-p60uwi.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "09:31"
         },
         {
           "title": "U.S. strikes Iranian oil tankers in retaliation for Iran targeting warships",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/",
-          "published_at": "01:13"
+          "published_at": "07:49"
+        },
+        {
+          "title": "'Joined Navy at bottom of the sea': US claims it sank Iranian oil tanker in Gulf of Oman | Watch",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-centcom-claims-it-sank-oil-tanker-mt-kylo-in-gulf-of-oman-as-iran-war-escalates-watch-101788658361455.html",
+          "published_at": "01:40"
         },
         {
           "title": "U.S. military attacks 3 Iranian oil tankers in retaliation for American warship strikes",
@@ -330,24 +274,18 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-centcom-says-it-struck-three-iran-oil-tankers-after-irgc-missile-attacks-on-navy-ships-101788616548681.html",
           "published_at": "13:57"
-        },
-        {
-          "title": "Iran says it attacked US-linked vessels and tankers as Hormuz clashes intensify",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/09/05/iranian-media-report-us-strike-on-iranian-oil-tanker-near-kharg-island",
-          "published_at": "09:39"
         }
       ]
     },
     {
-      "id": "world-37",
+      "id": "world-172",
       "title": "연례 공중 쇼에서 그리스 공군 제트기가 추락하고 화재가 발생했습니다.",
       "title_en": "Greek air force jet crashes at annual aerial show, starts fire",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/greek-air-force-jet-crashes-annual-aerial-show-136224237",
       "category": "기타",
       "primary_source": "ABC News",
-      "excerpt": "그리스 공군기가 지난 토요일 아테네 북쪽 에어쇼에서 추락해 두 명의 조종사가 사망했다고 관계자들이 밝혔습니다. 충돌 후 화재로 인해 큰 자두가 발생했습니다.",
+      "excerpt": "A Greek air force plane crashed at an air show north of Athens on Saturday, killing the two pilots, officials said, as thousands of people attended the event. A fire after the crash sent up large plum",
       "excerpt_en": "A Greek air force plane crashed at an air show north of Athens on Saturday, killing the two pilots, officials said, as thousands of people attended the event. A fire after the crash sent up large plum",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366502/2-pilots-killed-after-greek-air-force-plane-crashes-annual-air-show?utm_source=rss_feed",
@@ -361,13 +299,12 @@
         "time_score": 2,
         "raw75": 66
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 6,
       "sources": [
         "ABC News",
-        "AP News",
         "Fox News",
         "Hindustan Times",
         "SCMP",
@@ -402,12 +339,6 @@
           "published_at": "18:39"
         },
         {
-          "title": "Greek air force jet crashes at an annual aerial show, killing 2 pilots",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVmJIdGJzdkhLMUJybzF4SHU5U2VfMUpJSXRIMC1TdlozSUVnZlllX1dINEV0U1ZxUlFoUjFndkpGTGtzNWItSEp6OTFETGwxY3ZKY2l4enhVTXl6anpkbENFeVJhRkZqM3BfWk9EUk15S2hFcVdrUy13Skh4WmpaMWR3LTRhRzJWNVBkaDhkT25OM3RyNjE4?oc=5",
-          "published_at": "18:37"
-        },
-        {
           "title": "2 pilots killed after Greek air force plane crashes at annual air show",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/europe/article/3366502/2-pilots-killed-after-greek-air-force-plane-crashes-annual-air-show?utm_source=rss_feed",
@@ -422,157 +353,7 @@
       ]
     },
     {
-      "id": "world-61",
-      "title": "자카르타 공항, 아낙 크라카타우 산 화산재로 인해 항공편 운항 중단 영향을 받는 항공사 중 SIA",
-      "title_en": "Jakarta airport suspends flights due to Mount Anak Krakatau ash; SIA among affected airlines",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/asia/jakarta-airport-suspends-flights-due-mount-anak-krakatau-ash-sia-among-affected-airlines-6365251",
-      "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "공항 홈페이지에 따르면 일요일(9월 6일) 예정된 국제선 항공편 중 일부가 싱가포르, 쿠알라룸푸르, 광저우, 홍콩, 도하에서 지연되거나 취소됐다.",
-      "excerpt_en": "International flights scheduled for Sunday (Sep 6) that were delayed or cancelled include some to or from Singapore, Kuala Lumpur, Guangzhou, Hong Kong and Doha, according to the airport's website.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/asia/jakarta-airport-suspends-flights-due-mount-anak-krakatau-ash-sia-among-affected-airlines-6365251",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "ABC News Australia",
-        "Al Jazeera",
-        "Channel News Asia",
-        "DW",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-06T00:55:00+09:00",
-      "latest_published_at": "2026-09-06T04:00:09+09:00",
-      "articles": [
-        {
-          "title": "Indonesian volcano eruption halts flights at country’s busiest airport",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/indonesian-volcano-eruption-halts-flights-at-country-s-busiest-airport-20260906-p60uuk.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "04:00"
-        },
-        {
-          "title": "Indonesia: Flights canceled as Anak Krakatau volcano erupts",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/indonesia-flights-canceled-as-anak-krakatau-volcano-erupts/a-79050871?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "03:46"
-        },
-        {
-          "title": "Indonesia’s main airport suspends flights due to Anak Krakatau eruption",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/6/indonesias-main-airport-suspends-flights-due-to-anak-krakatoa-eruption?traffic_source=rss",
-          "published_at": "03:38"
-        },
-        {
-          "title": "Indonesia flights suspended due to ongoing volcanic eruption",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-06/indonesia-volcano-mount-anak-krakatau-eruption-flights-suspended/107121302",
-          "published_at": "02:28"
-        },
-        {
-          "title": "Indonesia cancels flights at Jakarta airport as Anak Krakatau volcano erupts",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/indonesia-cancels-flights-jakarta-airport-anak-krakatau-volcano-136233965",
-          "published_at": "02:00"
-        },
-        {
-          "title": "Jakarta airport suspends flights due to Mount Anak Krakatau ash; SIA among affected airlines",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/jakarta-airport-suspends-flights-due-mount-anak-krakatau-ash-sia-among-affected-airlines-6365251",
-          "published_at": "00:55"
-        }
-      ]
-    },
-    {
-      "id": "world-35",
-      "title": "네팔 구조대원, 엄청난 홍수 발생 10일 만에 잔해 속에서 2명 살려내",
-      "title_en": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/rescuers-nepal-pull-2-people-alive-debris-10-136221837",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "네팔 구조대원들은 엄청난 홍수가 발생한 지 10일 만인 토요일, 수천 명의 실종자들을 계속 수색하는 가운데 중국 남성과 여성을 별도의 작전으로 구출했습니다.",
-      "excerpt_en": "Rescuers in Nepal pulled out a Chinese man and a woman in separate operations Saturday, 10 days after devastating floods hit the country, as teams continued searching for thousands of missing people.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/nepal-floods-2-rescues-tunnel-9.7333723?cmp=rss",
-      "translation_status": "ok",
-      "score": 84,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 63
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "CBC",
-        "CBS News",
-        "Hindustan Times",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-05T10:39:28+09:00",
-      "latest_published_at": "2026-09-06T01:59:00+09:00",
-      "articles": [
-        {
-          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX18zT1FRbXVDNm5HcEJ2WmxDRHplcmtJTEZnRjV5TXZ5YXJ6WDFYR1E5d3JBWHlwMzAtN3kwUU9OVTJLZ00yTnlPTE44UUljVF80NXdvYTRXYWlDcnhyMndOV3RhcWctQUxQb0RCMThzNHBhZWUzcjVuaFpEdzd0Tk5BR1RSYTNmaTJBeDR4NThUZzAzNFljZnc0Yw?oc=5",
-          "published_at": "01:59"
-        },
-        {
-          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/rescuers-in-nepal-pull-2-people-alive-from-the-debris-10-days-after-devastating-floods-101788659742666.html",
-          "published_at": "01:55"
-        },
-        {
-          "title": "2 more rescued from debris in Nepal 10 days after devastating floods",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
-          "published_at": "01:10"
-        },
-        {
-          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/nepal-floods-2-rescues-tunnel-9.7333723?cmp=rss",
-          "published_at": "12:17"
-        },
-        {
-          "title": "Two people found alive 10 days after floods",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/two-people-found-alive-10-days-after-floods-20260905-p60ura.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "11:47"
-        },
-        {
-          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/rescuers-nepal-pull-2-people-alive-debris-10-136221837",
-          "published_at": "10:39"
-        }
-      ]
-    },
-    {
-      "id": "world-42",
+      "id": "world-40",
       "title": "이집트, 마약 혐의로 TV 진행자 등 11명에 사형 선고",
       "title_en": "Egypt sentences TV presenter, 11 others to death in drugs case",
       "title_source": "earliest_pick",
@@ -584,34 +365,48 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/africa/article/3366504/egypt-sentences-tv-presenter-11-others-death-drugs-case?utm_source=rss_feed",
       "translation_status": "ok",
-      "score": 81,
+      "score": 85,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
         "time_score": 3,
-        "raw75": 61
+        "raw75": 64
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 7,
       "sources": [
         "ABC News Australia",
+        "Al Jazeera",
         "BBC",
         "SCMP",
         "The Guardian",
+        "The Independent",
         "Times of India"
       ],
       "first_published_at": "2026-09-05T17:38:14+09:00",
-      "latest_published_at": "2026-09-06T05:04:04+09:00",
+      "latest_published_at": "2026-09-06T08:36:38+09:00",
       "articles": [
         {
-          "title": "TV presenter among 11 sentenced to death in Egypt drugs case",
+          "title": "Egyptian TV host Sarah Khalifa among 12 sentenced to death in drugs case",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/sarah-khalifa-egypt-sentenced-death-drugs-case-b3045441.html",
+          "published_at": "08:36"
+        },
+        {
+          "title": "TV presenter among 12 sentenced to death in Egypt drugs case",
           "source_name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
-          "published_at": "05:04"
+          "published_at": "08:05"
+        },
+        {
+          "title": "Egyptian TV presenter Sarah Khalifa sentenced to death in drugs case",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/6/egyptian-tv-presenter-sentenced-to-death-in-major-drug-case?traffic_source=rss",
+          "published_at": "07:20"
         },
         {
           "title": "Egyptian TV presenter Sarah Khalifa among 12 sentenced to death in drugs case",
@@ -640,14 +435,218 @@
       ]
     },
     {
-      "id": "world-45",
+      "id": "world-62",
+      "title": "독일, 극우 AfD가 권력을 노리는 동부 주에서 투표",
+      "title_en": "Germans vote in eastern state as far-right AfD eyes power",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win?traffic_source=rss",
+      "category": "유럽",
+      "primary_source": "Al Jazeera",
+      "excerpt": "독일의 반이민 대안당인 독일을 위한 대안당은 제2차 세계대전 이후 독일 동부 작센주 유권자로서 주 차원에서 정권을 잡은 최초의 극우 정당이 되는 것을 목표로 하고 있습니다.",
+      "excerpt_en": "Germany's anti-immigrant Alternative for Germany party is aiming to become the first far-right party to take power at a state level since World War II as voters in the eastern German state of Saxony-A",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/europe/20260906-germany-s-far-right-afd-eyes-historic-state-victory-in-saxony-anhalt-election",
+      "translation_status": "ok",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 6,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "CBS News",
+        "DW",
+        "France24",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-06T04:12:18+09:00",
+      "latest_published_at": "2026-09-06T08:21:26+09:00",
+      "articles": [
+        {
+          "title": "Germany braced for political earthquake as far-right AfD eyes first taste of power",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/germany-afd-election-saxony-parliament-b3044830.html",
+          "published_at": "08:21"
+        },
+        {
+          "title": "Saxony-Anhalt: Far-right AfD eyes power in German state vote",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/saxony-anhalt-far-right-afd-eyes-power-in-german-state-vote/live-78754934?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "07:23"
+        },
+        {
+          "title": "German region votes in election that could bring first far-right state governor to power",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/german-region-votes-election-bring-state-governor-power-136236455",
+          "published_at": "07:03"
+        },
+        {
+          "title": "Polls open in election that could leave German far-right party in power",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/afd-germany-saxony-anhalt-election-europe-far-right/",
+          "published_at": "06:16"
+        },
+        {
+          "title": "Germany's far-right AfD eyes historic state victory in Saxony-Anhalt election",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260906-germany-s-far-right-afd-eyes-historic-state-victory-in-saxony-anhalt-election",
+          "published_at": "05:52"
+        },
+        {
+          "title": "Germans vote in eastern state as far-right AfD eyes power",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win?traffic_source=rss",
+          "published_at": "04:12"
+        }
+      ]
+    },
+    {
+      "id": "world-31",
+      "title": "인도네시아, 아낙 크라카타우 화산 폭발로 자카르타 공항 항공편 취소",
+      "title_en": "Indonesia cancels flights at Jakarta airport as Anak Krakatau volcano erupts",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/indonesia-cancels-flights-jakarta-airport-anak-krakatau-volcano-136233965",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "아낙 크라카타우(Anak Krakatau) 화산 폭발 이후 화산재가 확산되면서 자카르타 국제공항의 항공편이 취소되면서 수천 명의 승객이 영향을 받았습니다.",
+      "excerpt_en": "The spread of ash after the volcanic eruption of Anak Krakatau has impacted thousands of passengers, as flights were canceled at Jakarta's international airport.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/indonesia-flights-canceled-as-anak-krakatau-volcano-erupts/a-79050871?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "DW",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-06T02:00:10+09:00",
+      "latest_published_at": "2026-09-06T07:46:00+09:00",
+      "articles": [
+        {
+          "title": "Indonesia cancels flights at Jakarta airport and others as Anak Krakatau volcano erupts",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYV9LY1JLSHlZeDl1dXA5cTJZeXFCdUdaREphR2NJNVBXLUE1NXlzRnV0d1JCVlVqSkF2LThqcFJZVVlNTzVFYV90N2RYQnh3QzFQVmNtOHkzVUktNUNiR2xIak9oYXhNNXlWQVNKdlNIUWltYW54NS00eXZQQ1hydVdaYjJpZG5wZmhDek1VTjhQVWhyU0JZTUVTQnBNeUdtVkE1b3dSMVRPeFBGSHc?oc=5",
+          "published_at": "07:46"
+        },
+        {
+          "title": "Indonesia: Flights canceled as Anak Krakatau volcano erupts",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/indonesia-flights-canceled-as-anak-krakatau-volcano-erupts/a-79050871?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "07:33"
+        },
+        {
+          "title": "Lava spews from Indonesia's Anak Krakatau volcano",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/lava-spews-from-indonesias-anak-krakatau-volcano-20260906-p60uvi.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "06:00"
+        },
+        {
+          "title": "Indonesia cancels flights at Jakarta airport as Anak Krakatau volcano erupts",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/indonesia-cancels-flights-jakarta-airport-anak-krakatau-volcano-136233965",
+          "published_at": "02:00"
+        }
+      ]
+    },
+    {
+      "id": "world-63",
+      "title": "자카르타 공항, 아낙 크라카타우 산 화산재로 인해 항공편 운항 중단 영향을 받는 항공사 중 SIA",
+      "title_en": "Jakarta airport suspends flights due to Mount Anak Krakatau ash; SIA among affected airlines",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/asia/jakarta-airport-suspends-flights-due-mount-anak-krakatau-ash-sia-among-affected-airlines-6365251",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "공항 웹사이트에 따르면 일요일(9월 6일) 지연되거나 취소된 국제선 항공편에는 싱가포르, 쿠알라룸푸르, 광저우, 홍콩, 도하를 오가는 일부 항공편이 포함됩니다.",
+      "excerpt_en": "Delayed or cancelled international flights on Sunday (Sep 6) include some to or from Singapore, Kuala Lumpur, Guangzhou, Hong Kong and Doha, according to the airport's website.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/asia/jakarta-airport-suspends-flights-due-mount-anak-krakatau-ash-sia-among-affected-airlines-6365251",
+      "translation_status": "ok",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "ABC News Australia",
+        "Al Jazeera",
+        "Channel News Asia",
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-06T00:55:00+09:00",
+      "latest_published_at": "2026-09-06T08:49:48+09:00",
+      "articles": [
+        {
+          "title": "Indonesia volcano eruption: 300 flights hit, schools shut as ash soars 50,000 feet",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/indonesia-volcano-eruption-300-flights-hit-schools-shut-as-ash-soars-50-000-feet-krakatau-java-sumatra-101788679472925.html",
+          "published_at": "08:49"
+        },
+        {
+          "title": "Flights suspended at Indonesia's main airport due to volcanic eruption",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/09/06/flights-suspended-at-indonesias-main-airport-due-to-volcanic-eruption",
+          "published_at": "07:12"
+        },
+        {
+          "title": "Indonesia’s main airport suspends flights due to Anak Krakatau eruption",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/6/indonesias-main-airport-suspends-flights-due-to-anak-krakatoa-eruption?traffic_source=rss",
+          "published_at": "03:38"
+        },
+        {
+          "title": "Flights to and from Indonesia's capital suspended after volcanic eruption",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-06/indonesia-volcano-mount-anak-krakatau-eruption-flights-suspended/107121302",
+          "published_at": "02:28"
+        },
+        {
+          "title": "Jakarta airport suspends flights due to Mount Anak Krakatau ash; SIA among affected airlines",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/jakarta-airport-suspends-flights-due-mount-anak-krakatau-ash-sia-among-affected-airlines-6365251",
+          "published_at": "00:55"
+        }
+      ]
+    },
+    {
+      "id": "world-43",
       "title": "노르웨이 국왕 하랄드의 장례식에 찰스를 대표하는 윌리엄 왕자",
       "title_en": "Prince William to represent Charles at funeral of Norway's King Harald",
       "title_source": "earliest_pick",
       "title_url": "https://news.sky.com/story/prince-william-to-represent-charles-at-funeral-of-king-harald-of-norway-13581691",
       "category": "유럽",
       "primary_source": "Sky News",
-      "excerpt": "영국의 윌리엄 왕자가 다음 주 노르웨이의 고(故) 하럴드 국왕의 장례식에 아버지 찰스 국왕을 대신해 참석할 것이라고 버킹엄 궁이 토요일 밝혔다. 왕위 계승자는 대표로 정해졌습니다.",
+      "excerpt": "영국의 윌리엄 왕자가 다음 주 노르웨이의 고(故) 하럴드 국왕의 장례식에 아버지 찰스 국왕을 대신해 참석할 것이라고 버킹엄궁이 토요일 밝혔다. 왕위 계승자는 대표로 정해졌습니다.",
       "excerpt_en": "Britain’s Prince William will attend the funeral of Norway’s late King Harald next week in place of his father King Charles, Buckingham Palace said on Saturday. The heir to the throne is set to repres",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366510/uks-prince-william-represent-king-charles-funeral-norways-king-harald?utm_source=rss_feed",
@@ -708,68 +707,115 @@
       ]
     },
     {
-      "id": "world-175",
-      "title": "복면을 쓴 반이민 시위대, 영국 항구 폐쇄",
-      "title_en": "Masked anti-migrant protesters shut down UK port",
+      "id": "world-24",
+      "title": "美대사 \"이스라엘, 팔레스타인에 책임 있다\"",
+      "title_en": "US envoy says Israel has responsibility for Palestinians",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3314538/masked-antimigrant-protesters-shut-down-uk-port",
-      "category": "유럽",
+      "title_url": "https://www.bangkokpost.com/world/3314555/us-envoy-says-israel-has-responsibility-for-palestinians",
+      "category": "중동",
       "primary_source": "Bangkok Post",
-      "excerpt": "복면을 쓴 수십 명의 반이민 시위대가 토요일 영국에서 가장 분주한 페리 항구로 이어지는 도로를 막아 교통을 막고 프랑스로 향하는 여행자와 화물 차량을 방해했습니다. 이동",
-      "excerpt_en": "Dozens of masked anti-immigration protesters blocked roads leading to Britain’s busiest ferry port on Saturday, clogging traffic and disrupting travellers and cargo vehicles heading for France. The go",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port?utm_source=rss_feed",
+      "excerpt": "투르무스 아야(TURMUS AYYA), 팔레스타인 영토 - 이스라엘 주재 미국 대사는 토요일 이스라엘 정부가 서안 지구 팔레스타인 사람들의 안전에 대한 책임을 지며 \"심각한 결과\"를 부과해야 한다고 말했습니다.",
+      "excerpt_en": "TURMUS AYYA, Palestinian Territories - The US ambassador to Israel said on Saturday that the Israeli government bore responsibility for West Bank Palestinians’ safety and should impose “severe consequ",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3314555/us-envoy-says-israel-has-responsibility-for-palestinians",
       "translation_status": "ok",
-      "score": 80,
+      "score": 76,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
+        "breaking_score": 7,
         "time_score": 2,
-        "raw75": 60
+        "raw75": 57
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
-        "ABC News",
         "Bangkok Post",
-        "Channel News Asia",
-        "SCMP"
+        "CBC",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-05T10:36:00+09:00",
-      "latest_published_at": "2026-09-05T20:21:20+09:00",
+      "first_published_at": "2026-09-05T13:45:00+09:00",
+      "latest_published_at": "2026-09-05T22:29:12+09:00",
       "articles": [
         {
-          "title": "Masked men block traffic to UK's port of Dover, site of past anti-immigrant protests",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/masked-men-uk-port-dover-anti-immigrant-protests-6364506",
-          "published_at": "20:21"
+          "title": "US ambassador visits Palestinian town amid rise in West Bank settler violence",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
+          "published_at": "22:29"
         },
         {
-          "title": "UK government condemns masked anti-immigrant protesters blocking Dover port",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port?utm_source=rss_feed",
-          "published_at": "13:36"
+          "title": "U.S. ambassador visits Palestinian town amid rise in occupied West Bank settler violence",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/us-ambassador-visits-palestinian-town-9.7333786?cmp=rss",
+          "published_at": "15:38"
         },
         {
-          "title": "Masked men block traffic to UK's port of Dover, site of past anti-immigrant protests",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/masked-men-block-traffic-uks-port-dover-site-136222188",
-          "published_at": "10:39"
-        },
-        {
-          "title": "Masked anti-migrant protesters shut down UK port",
+          "title": "US envoy says Israel has responsibility for Palestinians",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3314538/masked-antimigrant-protesters-shut-down-uk-port",
-          "published_at": "10:36"
+          "url": "https://www.bangkokpost.com/world/3314555/us-envoy-says-israel-has-responsibility-for-palestinians",
+          "published_at": "13:45"
         }
       ]
     },
     {
-      "id": "world-111",
+      "id": "world-30",
+      "title": "미국 대사는 몇 주 동안 서안지구의 불안을 겪은 후 폭력적인 이스라엘 정착민을 '테러리스트'라고 부릅니다.",
+      "title_en": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3366501/us-ambassador-calls-violent-israeli-settlers-terrorists-after-weeks-west-bank-unrest?utm_source=rss_feed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "이스라엘 주재 미국 대사는 토요일 팔레스타인계 미국인 거주지를 방문하면서 서안 지구에서 이스라엘 정착민의 폭력 행위를 다시 한번 비난하며 이 행위를 \"테러 행위\"라고 불렀습니다.",
+      "excerpt_en": "The United States ambassador to Israel condemned Israeli settler violence in the occupied West Bank again on Saturday, calling the behaviour an “act of terror” as he visited Palestinian American resid",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3366501/us-ambassador-calls-violent-israeli-settlers-terrorists-after-weeks-west-bank-unrest?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 76,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "CBS News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-05T16:50:54+09:00",
+      "latest_published_at": "2026-09-05T19:06:00+09:00",
+      "articles": [
+        {
+          "title": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEtQeGdOOG0tWlByeVhITXFPWm02dzVPbG9Za1huS05sN0xJTldVT2h0d284R3JKMEUwMnd1ZUE5VkFTV2hQbTdlNlIzRzVIRDBNaDJ1QU9Ya1o3OW1hRWdsTUVEVlVCSzhKZDZOaDZHZUhvVnFoaTIwYWdFZURRQ1VsVG1lMUV4amFwSVdUQkpDMHZJSHZxb1NkcDQxWTR4UzlmOXY0U1hNaEtiUFE?oc=5",
+          "published_at": "19:06"
+        },
+        {
+          "title": "U.S. ambassador calls ongoing West Bank settler violence an \"act of terror\"",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/mike-huckabee-west-bank-settler-violence/",
+          "published_at": "17:54"
+        },
+        {
+          "title": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3366501/us-ambassador-calls-violent-israeli-settlers-terrorists-after-weeks-west-bank-unrest?utm_source=rss_feed",
+          "published_at": "16:50"
+        }
+      ]
+    },
+    {
+      "id": "world-106",
       "title": "콜롬비아, 게릴라 드론 공격으로 최소 3명 사망",
       "title_en": "Suspected guerrilla drone attack kills at least three soldiers in Colombia",
       "title_source": "earliest_pick",
@@ -823,61 +869,7 @@
       ]
     },
     {
-      "id": "world-58",
-      "title": "콩고 결혼식 파티, 대규모 화재로 최소 22명 사망",
-      "title_en": "Congo wedding party horror as major fire kills at least 22 people",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/africa/congo-wedding-party-fire-kinshasa-b3045271.html",
-      "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "콩고민주공화국 수도 킨샤사에서 열린 결혼식장에서 화재가 발생해 최소 22명이 숨졌다고 콩고 시장이 토요일 밝혔다. 다른 몇몇도 부상을 입었습니다. 화재는 금요일에 시작됐어요",
-      "excerpt_en": "A fire at a wedding party in Democratic Republic of Congo’s capital Kinshasa left at least 22 people dead, the regional mayor said on Saturday. Several others were injured. The fire started on Friday ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3366508/least-22-dead-several-injured-fire-dr-congo-wedding-party?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-05T15:21:51+09:00",
-      "latest_published_at": "2026-09-06T04:47:55+09:00",
-      "articles": [
-        {
-          "title": "More than 20 killed in fire at wedding party in DR Congo",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/more-than-20-killed-in-fire-at-wedding-party-in-dr-congo?traffic_source=rss",
-          "published_at": "04:47"
-        },
-        {
-          "title": "At least 22 dead, several injured, in fire at DR Congo wedding reception",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3366508/least-22-dead-several-injured-fire-dr-congo-wedding-party?utm_source=rss_feed",
-          "published_at": "20:49"
-        },
-        {
-          "title": "Congo wedding party horror as major fire kills at least 22 people",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/congo-wedding-party-fire-kinshasa-b3045271.html",
-          "published_at": "15:21"
-        }
-      ]
-    },
-    {
-      "id": "world-33",
+      "id": "world-37",
       "title": "페미니스트, 시인, 편집자가 된 아역 스타 로빈 모건이 85세의 나이로 사망했습니다.",
       "title_en": "Robin Morgan, child star who became feminist, poet and editor, dies aged 85",
       "title_source": "earliest_pick",
@@ -931,17 +923,71 @@
       ]
     },
     {
-      "id": "world-20",
-      "title": "네팔군 \"중국인 10일 만에 수력발전 터널에서 살아서 구출\"",
-      "title_en": "Chinese national rescued alive from hydropower tunnel after 10 days, Nepali army says",
+      "id": "world-60",
+      "title": "콩고 결혼식 파티 대형 화재로 최소 22명 사망",
+      "title_en": "Congo wedding party horror as major fire kills at least 22 people",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/chinese-national-woman-rescued-hydropower-project-nepal-floods-tibet-rescue-operations-death-toll-injured-missing-101788597769960.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "히말라야 계곡의 얼음, 바위, 진흙 벽이 찢어져 1,300명 이상이 사망한 지 10일 만에 토요일 네팔의 터널에서 중국 국적자가 살아 남았다고 당국이 밝혔습니다.",
-      "excerpt_en": "A Chinese national was pulled alive from a tunnel in Nepal on Saturday, authorities said, 10 ‌days after a wall of ice, rock and mud tore through a Himalayan valley, killing more than 1,300 people.",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood",
+      "title_url": "https://www.independent.co.uk/news/world/africa/congo-wedding-party-fire-kinshasa-b3045271.html",
+      "category": "기타",
+      "primary_source": "The Independent",
+      "excerpt": "콩고민주공화국 수도 킨샤사에서 열린 결혼식장에서 화재가 발생해 최소 22명이 숨졌다고 콩고 시장이 토요일 밝혔다. 다른 몇몇도 부상을 입었습니다. 화재는 금요일에 시작됐어요",
+      "excerpt_en": "A fire at a wedding party in Democratic Republic of Congo’s capital Kinshasa left at least 22 people dead, the regional mayor said on Saturday. Several others were injured. The fire started on Friday ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3366508/least-22-dead-several-injured-fire-dr-congo-wedding-party?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-05T15:21:51+09:00",
+      "latest_published_at": "2026-09-06T04:47:55+09:00",
+      "articles": [
+        {
+          "title": "More than 20 killed in fire at wedding party in DR Congo",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/more-than-20-killed-in-fire-at-wedding-party-in-dr-congo?traffic_source=rss",
+          "published_at": "04:47"
+        },
+        {
+          "title": "At least 22 dead, several injured, in fire at DR Congo wedding reception",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/africa/article/3366508/least-22-dead-several-injured-fire-dr-congo-wedding-party?utm_source=rss_feed",
+          "published_at": "20:49"
+        },
+        {
+          "title": "Congo wedding party horror as major fire kills at least 22 people",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/congo-wedding-party-fire-kinshasa-b3045271.html",
+          "published_at": "15:21"
+        }
+      ]
+    },
+    {
+      "id": "world-32",
+      "title": "엄청난 홍수 발생 10일 만에 네팔 잔해 속에서 2명 더 구조",
+      "title_en": "2 more rescued from debris in Nepal 10 days after devastating floods",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
+      "category": "기타",
+      "primary_source": "CBS News",
+      "excerpt": "구조로 인해 하루 전에 다른 2명의 작업자가 구출된 후 수력 발전 터널에서 구조된 작업자는 총 3명입니다.",
+      "excerpt_en": "The rescue brings the total to three workers saved from a hydropower tunnel, after two other workers were freed a day before.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
@@ -957,35 +1003,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "France24",
-        "Hindustan Times",
-        "Reuters"
+        "AP News",
+        "CBS News",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-09-05T08:52:18+09:00",
-      "latest_published_at": "2026-09-05T18:56:16+09:00",
+      "first_published_at": "2026-09-06T01:10:10+09:00",
+      "latest_published_at": "2026-09-06T01:59:00+09:00",
       "articles": [
         {
-          "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaG1aeTdsTDc5NHp0U0J2UFV0eGtnY1k4TjBqT3FzS3hmM3o1Um1hRW1Xa0UtcmV3YlRFZTVROFVVRVBYY2t5MF9WekJzLXZMdWJLa1ZYeWpIZmpjcC1Vamt3bzJvd21WeWFnTjB2QWJqXzA5bWM5dHJhLTNwLXRDMnJ0SVNqUmo4cjBQYXNjWi15aURhVTE4NXhtVHJFcVJxeUlVZVRERUlXa1dZY01PVGpmclFnMkpldFZGQkdXdw?oc=5",
-          "published_at": "18:56"
+          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX18zT1FRbXVDNm5HcEJ2WmxDRHplcmtJTEZnRjV5TXZ5YXJ6WDFYR1E5d3JBWHlwMzAtN3kwUU9OVTJLZ00yTnlPTE44UUljVF80NXdvYTRXYWlDcnhyMndOV3RhcWctQUxQb0RCMThzNHBhZWUzcjVuaFpEdzd0Tk5BR1RSYTNmaTJBeDR4NThUZzAzNFljZnc0Yw?oc=5",
+          "published_at": "01:59"
         },
         {
-          "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood",
-          "published_at": "16:17"
-        },
-        {
-          "title": "Chinese national rescued alive from hydropower tunnel after 10 days, Nepali army says",
+          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/chinese-national-woman-rescued-hydropower-project-nepal-floods-tibet-rescue-operations-death-toll-injured-missing-101788597769960.html",
-          "published_at": "08:52"
+          "url": "https://www.hindustantimes.com/world-news/us-news/rescuers-in-nepal-pull-2-people-alive-from-the-debris-10-days-after-devastating-floods-101788659742666.html",
+          "published_at": "01:55"
+        },
+        {
+          "title": "2 more rescued from debris in Nepal 10 days after devastating floods",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
+          "published_at": "01:10"
         }
       ]
     },
     {
-      "id": "world-39",
+      "id": "world-36",
       "title": "헝가리 무덤 발굴 대회에서 참가자들이 깊이 파고들고 있습니다.",
       "title_en": "Competitors dig deep in Hungarian grave-digging contest",
       "title_source": "earliest_pick",
@@ -1039,25 +1085,25 @@
       ]
     },
     {
-      "id": "world-23",
-      "title": "우크라이나 전쟁: 점점 커지는 공격으로 인해 키예프의 삶이 어떻게 뒤바뀌고 있습니까?",
-      "title_en": "Ukraine war: how escalating attacks are upending lives in Kyiv",
+      "id": "world-25",
+      "title": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다.",
+      "title_en": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3366478/ukraine-war-how-escalating-attacks-are-upending-lives-kyiv?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "발이 묶인 통근자들; ⁠아이들은 수업 시간 중간에 지하로 달려갔습니다. 축제가 취소되었습니다. 호황을 누리는 대공 방어로 인해 걷는다. 거의 끊임없는 드론 공격은 완전히 새로운 현실입니다.",
-      "excerpt_en": "Commuters stranded; ⁠children rushed underground in the middle of the school day; festivals cancelled; walks punctuated by booming air defences. Near-constant drone attacks are the stark new reality i",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3366478/ukraine-war-how-escalating-attacks-are-upending-lives-kyiv?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명 사망",
+      "excerpt_en": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says reuters.com",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
       "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 1,
+        "breaking_score": 7,
+        "time_score": 3,
         "raw75": 47
       },
       "area_value": 2,
@@ -1065,23 +1111,23 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "SCMP"
+        "ABC News",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-05T09:09:55+09:00",
-      "latest_published_at": "2026-09-05T14:13:02+09:00",
+      "first_published_at": "2026-09-05T16:19:53+09:00",
+      "latest_published_at": "2026-09-06T07:03:05+09:00",
       "articles": [
         {
-          "title": "How escalating attacks are upending daily life in Kyiv",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTi1uWk5tUVg3Z0QyNUROOER0VE9HWU0yZ09IMHNGQmE4VnFxY2RqSnE2MlRqbHFpdExsT0x0dTE3N1JsZEZzUHZ3dnpGWmdrVTR3UFJDaEhxMGRBeFdUY21GZ3pmQWhBYW9UMU5zM1Q4ODdzR2xRMGpvZF8zTEZlS3hDRzZfS1VGWWVtRnlsR001TGtFMjRPVEZtNjdrNklSR2c?oc=5",
-          "published_at": "14:13"
+          "title": "A fuel tanker explosion in west Iran kills 11 and injures 7",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/fuel-tanker-explosion-west-iran-kills-11-injures-136236457",
+          "published_at": "07:03"
         },
         {
-          "title": "Ukraine war: how escalating attacks are upending lives in Kyiv",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3366478/ukraine-war-how-escalating-attacks-are-upending-lives-kyiv?utm_source=rss_feed",
-          "published_at": "09:09"
+          "title": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
+          "published_at": "16:19"
         }
       ]
     },
@@ -1093,7 +1139,7 @@
       "title_url": "https://www.channelnewsasia.com/world/us-iranian-forces-fire-vessels-in-waters-near-iran-6365176",
       "category": "중동",
       "primary_source": "Channel News Asia",
-      "excerpt": "이번 공격은 지난 2월 시작된 이후 갈등이 심화될 위험이 지난 주에 확대된 데 따른 것입니다.",
+      "excerpt": "이번 공격은 지난 2월 시작된 이후 갈등이 심화될 위험이 있는 지난 주에 이어졌습니다.",
       "excerpt_en": "The exchange of attacks followed an escalation in the past week that threatens to deepen a conflict since its outset in February.",
       "excerpt_source": "Channel News Asia",
       "excerpt_url": "https://www.channelnewsasia.com/world/us-iranian-forces-fire-vessels-in-waters-near-iran-6365176",
@@ -1133,125 +1179,71 @@
       ]
     },
     {
-      "id": "world-31",
-      "title": "미국 대사는 몇 주 동안 서안지구의 불안을 겪은 후 폭력적인 이스라엘 정착민을 '테러리스트'라고 부릅니다.",
-      "title_en": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
+      "id": "world-208",
+      "title": "중국 산사태: 실종자 1명 숨진 채 발견, 사망자 2명으로 늘어",
+      "title_en": "China mudslide: One missing person found dead as death toll rises to two",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3366501/us-ambassador-calls-violent-israeli-settlers-terrorists-after-weeks-west-bank-unrest?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "이스라엘 주재 미국 대사는 토요일 점령된 서안 지구에서 발생한 이스라엘 정착민의 폭력을 다시 한번 비난하며 팔레스타인계 미국인 거주지를 방문하면서 이러한 행위를 “테러 행위”라고 불렀습니다.",
-      "excerpt_en": "The United States ambassador to Israel condemned Israeli settler violence in the occupied West Bank again on Saturday, calling the behaviour an “act of terror” as he visited Palestinian American resid",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3366501/us-ambassador-calls-violent-israeli-settlers-terrorists-after-weeks-west-bank-unrest?utm_source=rss_feed",
+      "title_url": "https://timesofindia.indiatimes.com/world/china/china-mudslide-one-missing-person-found-dead-as-death-toll-rises-to-two-10-remain-missing/articleshow/133824054.cms",
+      "category": "아시아",
+      "primary_source": "Times of India",
+      "excerpt": "태풍 사우델로 인한 폭우로 중국 동부 지역에서 산사태로 인한 사망자가 3명으로 늘었습니다.",
+      "excerpt_en": "The death toll from a mudslide in eastern China has risen to three after days of torrential rain brought by Typhoon Saudel",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/mudslide-death-toll-china-rises-3-after-heavy-136236639",
       "translation_status": "ok",
-      "score": 61,
+      "score": 59,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 44
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "SCMP"
+        "ABC News",
+        "Times of India"
       ],
-      "first_published_at": "2026-09-05T16:50:54+09:00",
-      "latest_published_at": "2026-09-05T19:06:00+09:00",
+      "first_published_at": "2026-09-06T03:23:58+09:00",
+      "latest_published_at": "2026-09-06T07:02:57+09:00",
       "articles": [
         {
-          "title": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEtQeGdOOG0tWlByeVhITXFPWm02dzVPbG9Za1huS05sN0xJTldVT2h0d284R3JKMEUwMnd1ZUE5VkFTV2hQbTdlNlIzRzVIRDBNaDJ1QU9Ya1o3OW1hRWdsTUVEVlVCSzhKZDZOaDZHZUhvVnFoaTIwYWdFZURRQ1VsVG1lMUV4amFwSVdUQkpDMHZJSHZxb1NkcDQxWTR4UzlmOXY0U1hNaEtiUFE?oc=5",
-          "published_at": "19:06"
+          "title": "Mudslide death toll in China rises to 3 after heavy rain from Typhoon Saudel",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/mudslide-death-toll-china-rises-3-after-heavy-136236639",
+          "published_at": "07:02"
         },
         {
-          "title": "US ambassador calls violent Israeli settlers ‘terrorists’ after weeks of West Bank unrest",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3366501/us-ambassador-calls-violent-israeli-settlers-terrorists-after-weeks-west-bank-unrest?utm_source=rss_feed",
-          "published_at": "16:50"
+          "title": "China mudslide: One missing person found dead as death toll rises to two",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/china/china-mudslide-one-missing-person-found-dead-as-death-toll-rises-to-two-10-remain-missing/articleshow/133824054.cms",
+          "published_at": "03:23"
         }
       ]
     },
     {
-      "id": "world-172",
-      "title": "세르비아 클럽, 전범 라트코 믈라디치를 기리는 팬 구호로 UEFA로부터 처벌을 받다",
-      "title_en": "Serbian club punished by Uefa over fan chants in honour of war criminal Ratko Mladic",
+      "id": "world-15",
+      "title": "그리스 F-4, 아테네 인근 에어쇼 도중 추락해 조종사 2명 사망",
+      "title_en": "Greek F-4 crashes during air show near Athens, two pilots dead, sources say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/sport/football/ratko-mladic-red-star-belgrade-chants-uefa-b3045186.html",
+      "title_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWDhRUjlOUEk4X20tWWV0dzFUNXZGc0RyMzM2eEpqOS0xRnpfdXpxSUdWZXdoZkJZV3VpWlI1WEJCUFZiUWFvcEFMdmxFY1dDMkNDMDBBZmdzUmhXSlVxMndZdE5yUV9ST05BOHJjc3JvajRqVUlDYk1xTVdwX2d2bnBXRzVVVWg2TUxIUnpxTzUtZGpBUHp2OW1UTE5CbVlYS1lfTXNOVk9RSXotVjFSdDBnR3Jsa0MtSzlMbk44TnI?oc=5",
       "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "전범 라트코 믈라디치의 장례식을 이틀 앞두고 토요일 베오그라드에서 수십 명의 전직 군인, 가족, 관리들이 참석한 가운데 추모식이 열렸습니다. 믈라디치가 마지막으로 사망",
-      "excerpt_en": "A commemoration was held on Saturday in Belgrade for war criminal Ratko Mladic two days ahead of his burial, attended by dozens of former military staff, family members and officials. Mladic died last",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366507/commemoration-held-late-serb-war-criminal-ratko-mladic?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-05T11:49:00+09:00",
-      "latest_published_at": "2026-09-05T19:57:58+09:00",
-      "articles": [
-        {
-          "title": "Commemoration held for late Serb war criminal Ratko Mladic",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3366507/commemoration-held-late-serb-war-criminal-ratko-mladic?utm_source=rss_feed",
-          "published_at": "19:57"
-        },
-        {
-          "title": "Commemoration held for Serbian war criminal Mladic",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3314553/commemoration-held-for-serbian-war-criminal-mladic",
-          "published_at": "13:45"
-        },
-        {
-          "title": "Serbian club punished by Uefa over fan chants in honour of war criminal Ratko Mladic",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/sport/football/ratko-mladic-red-star-belgrade-chants-uefa-b3045186.html",
-          "published_at": "11:49"
-        }
-      ]
-    },
-    {
-      "id": "world-85",
-      "title": "모스크바 주재 미국 특사, 러시아와 우크라이나 간의 평화를 위한 새로운 추진",
-      "title_en": "U.S. envoys in Moscow in new push for peace between Russia and Ukraine",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
-      "category": "유럽",
-      "primary_source": "NPR",
-      "excerpt": "미국 특사 스티브 위트코프와 재러드 쿠슈너가 러시아의 우크라이나 침공을 종식시키기 위한 노력을 재개하기 위해 모스크바에 도착했습니다. 볼로디미르 젤렌스키 우크라이나 대통령은 공습 중단을 촉구했다.",
-      "excerpt_en": "U.S. envoys Steve Witkoff and Jared Kushner have arrived in Moscow to revive efforts to end Russia's invasion of Ukraine. Ukrainian President Volodymyr Zelenskyy has called for a halt to air attacks d",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+      "primary_source": "Reuters",
+      "excerpt": "그리스 F-4, 아테네 인근 에어쇼 도중 추락해 조종사 2명 사망, 소식통에 따르면 reuters.com",
+      "excerpt_en": "Greek F-4 crashes during air show near Athens, two pilots dead, sources say reuters.com",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWDhRUjlOUEk4X20tWWV0dzFUNXZGc0RyMzM2eEpqOS0xRnpfdXpxSUdWZXdoZkJZV3VpWlI1WEJCUFZiUWFvcEFMdmxFY1dDMkNDMDBBZmdzUmhXSlVxMndZdE5yUV9ST05BOHJjc3JvajRqVUlDYk1xTVdwX2d2bnBXRzVVVWg2TUxIUnpxTzUtZGpBUHp2OW1UTE5CbVlYS1lfTXNOVk9RSXotVjFSdDBnR3Jsa0MtSzlMbk44TnI?oc=5",
       "translation_status": "ok",
       "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 9,
+        "major_score": 15,
+        "breaking_score": 4,
         "time_score": 2,
         "raw75": 43
       },
@@ -1260,39 +1252,86 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
-        "NPR"
+        "Reuters",
+        "Times of India"
       ],
-      "first_published_at": "2026-09-05T11:08:57+09:00",
-      "latest_published_at": "2026-09-05T15:09:22+09:00",
+      "first_published_at": "2026-09-05T15:57:11+09:00",
+      "latest_published_at": "2026-09-06T06:09:58+09:00",
       "articles": [
         {
-          "title": "Witkoff and Kushner are in Moscow in a new push for peace between Russia and Ukraine",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260905-witkoff-and-kushner-are-in-moscow-in-a-new-push-for-peace-between-russia-and-ukraine",
-          "published_at": "15:09"
+          "title": "Both pilots killed as Greek fighter jet crashes during air show near Athens",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/both-pilots-killed-as-greek-fighter-jet-crashes-during-air-show-near-athens/articleshow/133827381.cms",
+          "published_at": "06:09"
         },
         {
-          "title": "U.S. envoys in Moscow in new push for peace between Russia and Ukraine",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
-          "published_at": "11:08"
+          "title": "Greek F-4 crashes during air show near Athens, two pilots dead, sources say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWDhRUjlOUEk4X20tWWV0dzFUNXZGc0RyMzM2eEpqOS0xRnpfdXpxSUdWZXdoZkJZV3VpWlI1WEJCUFZiUWFvcEFMdmxFY1dDMkNDMDBBZmdzUmhXSlVxMndZdE5yUV9ST05BOHJjc3JvajRqVUlDYk1xTVdwX2d2bnBXRzVVVWg2TUxIUnpxTzUtZGpBUHp2OW1UTE5CbVlYS1lfTXNOVk9RSXotVjFSdDBnR3Jsa0MtSzlMbk44TnI?oc=5",
+          "published_at": "15:57"
         }
       ]
     },
     {
-      "id": "world-93",
-      "title": "US envoys discuss 'substantive' plan with Putin towards ending Ukraine war",
-      "title_en": "US envoys discuss 'substantive' plan with Putin towards ending Ukraine war",
+      "id": "world-88",
+      "title": "이란, 전투 격화로 호르무즈 해협에서 미국 선박에 대한 공격 주장",
+      "title_en": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3314923/us-envoys-discuss-substantiveplan-with-putin-towards-ending-ukraine-war",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "도널드 트럼프 미국 대통령의 비즈니스 파트너인 스티브 위트코프와 사위 재러드 쿠슈너가 러시아 대통령과의 회담에서 우크라이나 전쟁을 종식하기 위한 다음 단계에 대한 \"실질적인 계획\"에 대해 논의했습니다.",
-      "excerpt_en": "US President Donald Trump's business partner Steve Witkoff and son-in-law Jared Kushner discussed \"substantive plans\" for next steps to end the Ukraine war during their meeting with Russian President ",
+      "title_url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "이란은 일요일 호르무즈 해협에 진입하려던 미국 무인 선박을 공격했다고 밝혔습니다. 이는 양국 간 새로운 전투의 격화 중 가장 최근의 일제 사격이었습니다.",
+      "excerpt_en": "Iran said Sunday it struck an unmanned U.S. vessel trying to enter the Strait of Hormuz, the latest salvo in a new flare-up of fighting between the two countries.",
       "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin",
-      "translation_status": "failed",
+      "excerpt_url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "France24"
+      ],
+      "first_published_at": "2026-09-06T09:04:13+09:00",
+      "latest_published_at": "2026-09-06T09:11:07+09:00",
+      "articles": [
+        {
+          "title": "Iran claims strike on U.S. ship in Strait of Hormuz as fighting escalates",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/iran-claims-strike-us-ship-9.7334159?cmp=rss",
+          "published_at": "09:11"
+        },
+        {
+          "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260906-iran-claims-strike-on-us-ship-in-strait-of-hormuz-as-fighting-escalates",
+          "published_at": "09:04"
+        }
+      ]
+    },
+    {
+      "id": "world-89",
+      "title": "기적에 힘입은 네팔 구조대원들, 발견했지만 여전히 어려운 상황",
+      "title_en": "Nepali rescuers buoyed by miracle finds but tough conditions persist",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3314948/nepali-rescuers-buoyed-by-miracle-finds-but-tough-conditions-persist",
+      "category": "미국",
+      "primary_source": "Bangkok Post",
+      "excerpt": "네팔 구조대원들은 생존자 4명의 특별한 구조에 힘입어 재앙적인 홍수 이후 수색 작업이 12일째에 접어들면서 일요일 어려운 상황에 직면했습니다. 재난은",
+      "excerpt_en": "Nepali rescuers faced challenging conditions on Sunday as search operations following catastrophic floods entered their 12th day, buoyed by the extraordinary rescue of four survivors. The disaster has",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260906-nepal-floods-search-operations-enter-12th-day",
+      "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
@@ -1310,25 +1349,25 @@
         "Bangkok Post",
         "France24"
       ],
-      "first_published_at": "2026-09-06T03:45:00+09:00",
-      "latest_published_at": "2026-09-06T04:57:43+09:00",
+      "first_published_at": "2026-09-06T07:45:00+09:00",
+      "latest_published_at": "2026-09-06T09:03:10+09:00",
       "articles": [
         {
-          "title": "Live: Trump's envoys head to Ukraine after 'substantive' talks with Putin",
+          "title": "Nepal floods: Search operations enter 12th day",
           "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin",
-          "published_at": "04:57"
+          "url": "https://www.france24.com/en/video/20260906-nepal-floods-search-operations-enter-12th-day",
+          "published_at": "09:03"
         },
         {
-          "title": "US envoys discuss 'substantive' plan with Putin towards ending Ukraine war",
+          "title": "Nepali rescuers buoyed by miracle finds but tough conditions persist",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3314923/us-envoys-discuss-substantiveplan-with-putin-towards-ending-ukraine-war",
-          "published_at": "03:45"
+          "url": "https://www.bangkokpost.com/world/3314948/nepali-rescuers-buoyed-by-miracle-finds-but-tough-conditions-persist",
+          "published_at": "07:45"
         }
       ]
     },
     {
-      "id": "world-170",
+      "id": "world-169",
       "title": "아르헨티나, 포클랜드 주변 석유 프로젝트 제재 위협",
       "title_en": "Argentina threatens to sanction oil projects around Falklands",
       "title_source": "earliest_pick",
@@ -1382,65 +1421,18 @@
       ]
     },
     {
-      "id": "world-213",
-      "title": "US drafting post-war plan for the Middle East, report says",
-      "title_en": "US drafting post-war plan for the Middle East, report says",
+      "id": "world-239",
+      "title": "저자 Nick Adams는 Lindsay Clancy의 격렬한 논쟁으로 데이트를 마쳤습니다. '내가 걸어가는 동안 그녀는 깜짝 놀랐습니다…'",
+      "title_en": "Author Nick Adams ends date over intense Lindsay Clancy debate, ‘She looked stunned as I strolled away…’",
       "title_source": "earliest_pick",
-      "title_url": "http://www.euronews.com/2026/09/05/us-drafting-post-war-plan-for-the-middle-east-report-says",
-      "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "Axios reported that the plan remains in its early stages but that it could set out US policy towards the Middle East for the remainder of Trump's term.",
-      "excerpt_en": "Axios reported that the plan remains in its early stages but that it could set out US policy towards the Middle East for the remainder of Trump's term.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "http://www.euronews.com/2026/09/05/us-drafting-post-war-plan-for-the-middle-east-report-says",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-05T14:04:40+09:00",
-      "latest_published_at": "2026-09-06T04:13:27+09:00",
-      "articles": [
-        {
-          "title": "‘Something much bigger’: Trump planning major Middle East reset after Iran war",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/something-much-bigger-trump-planning-major-middle-east-reset-after-iran-war/articleshow/133825281.cms",
-          "published_at": "04:13"
-        },
-        {
-          "title": "US drafting post-war plan for the Middle East, report says",
-          "source_name": "Euronews",
-          "url": "http://www.euronews.com/2026/09/05/us-drafting-post-war-plan-for-the-middle-east-report-says",
-          "published_at": "14:04"
-        }
-      ]
-    },
-    {
-      "id": "world-264",
-      "title": "Fleet-footed Gauff dances into US Open fourth round",
-      "title_en": "Fleet-footed Gauff dances into US Open fourth round",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/fleet-footed-gauff-dances-us-open-fourth-round-6365141",
-      "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Australia's last US Open singles hope is eliminated, with gallant wildcard Dane Sweeny suffering a third-round loss to Italian 21st seed Luciano Darderi.",
-      "excerpt_en": "Australia's last US Open singles hope is eliminated, with gallant wildcard Dane Sweeny suffering a third-round loss to Italian 21st seed Luciano Darderi.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-06/us-open-australia-dane-sweeny-eliminated-new-york/107121304",
-      "translation_status": "failed",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/author-nick-adams-ends-date-over-intense-lindsay-clancy-debate-she-looked-stunned-as-i-strolled-away-101788653820931.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "비록 배심원들이 Lindsay Clancy의 살인 재판에서 평결을 내리지 못했음에도 불구하고, 그녀의 미래에는 적어도 오랫동안 자유가 포함되지 않을 것 같습니다. 그러나 미국인들은 그녀의 사기 목적을 둘러싸고 의견이 분분합니다.",
+      "excerpt_en": "Even as a jury failed to reach a verdict in Lindsay Clancy’s murder trial, her future is unlikely to include freedom, at least for a long time. But Americans have been divided over the goal of her con",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/clancy-faces-years-of-confinement-no-matter-what-comes-next-20260906-p60usk.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
       "score": 55,
       "score_breakdown": {
         "article_score": 22,
@@ -1455,51 +1447,51 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "Channel News Asia"
+        "Hindustan Times",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-05T21:40:15+09:00",
-      "latest_published_at": "2026-09-06T05:21:51+09:00",
+      "first_published_at": "2026-09-06T00:23:23+09:00",
+      "latest_published_at": "2026-09-06T07:36:51+09:00",
       "articles": [
         {
-          "title": "Zverev reaches US Open fourth round with win over Tabilo",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/zverev-reaches-us-open-fourth-round-win-over-tabilo-6365421",
-          "published_at": "05:21"
+          "title": "Lindsay Clancy: What happens after a mistrial? Can prosecutors ask for a new trial? Where the case stands now",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-what-happens-after-a-mistrial-can-prosecutors-ask-for-a-new-trial-where-the-case-stands-now-101788679873976.html",
+          "published_at": "07:36"
         },
         {
-          "title": "From boardroom chic to battling win, Osaka reaches US Open last 16",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/boardroom-chic-battling-win-osaka-reaches-us-open-last-16-6365296",
-          "published_at": "02:05"
+          "title": "Lindsay Clancy GoFundMe: The Musgrove Family Fund tops $1.2 million after mistrial, draws over 35,000 donors",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-gofundme-the-musgrove-family-fund-tops-1-2-million-after-mistrial-draws-over-35-000-donors-101788677001312.html",
+          "published_at": "06:47"
         },
         {
-          "title": "Sweeny exits US Open to end Australia's singles chances",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-06/us-open-australia-dane-sweeny-eliminated-new-york/107121304",
-          "published_at": "01:01"
+          "title": "Clancy faces years of confinement, no matter what comes next",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/clancy-faces-years-of-confinement-no-matter-what-comes-next-20260906-p60usk.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "06:30"
         },
         {
-          "title": "Fleet-footed Gauff dances into US Open fourth round",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/fleet-footed-gauff-dances-us-open-fourth-round-6365141",
-          "published_at": "21:40"
+          "title": "Author Nick Adams ends date over intense Lindsay Clancy debate, ‘She looked stunned as I strolled away…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/author-nick-adams-ends-date-over-intense-lindsay-clancy-debate-she-looked-stunned-as-i-strolled-away-101788653820931.html",
+          "published_at": "00:23"
         }
       ]
     },
     {
-      "id": "world-2",
-      "title": "German rocket reaches space as Europe enters satellite launch race",
+      "id": "world-5",
+      "title": "유럽이 위성 발사 경쟁에 돌입하면서 독일 로켓이 우주에 도달했습니다.",
       "title_en": "German rocket reaches space as Europe enters satellite launch race",
       "title_source": "earliest_pick",
       "title_url": "https://www.scmp.com/news/world/europe/article/3366509/german-rocket-reaches-space-europe-enters-satellite-launch-race?utm_source=rss_feed",
       "category": "유럽",
       "primary_source": "SCMP",
-      "excerpt": "German start-up Isar Aerospace on Saturday launched its first rocket into space from a site in Arctic Norway, bringing Europe closer to offering satellite flights from its own soil. The uncrewed Spect",
+      "excerpt": "독일의 스타트업 Isar Aerospace는 지난 토요일 노르웨이 북극 지역에서 첫 번째 로켓을 우주로 발사하여 유럽이 자국 영토에서 위성 비행을 제공하는 데 더 가까워졌습니다. 풀리지 않은 스펙트",
       "excerpt_en": "German start-up Isar Aerospace on Saturday launched its first rocket into space from a site in Arctic Norway, bringing Europe closer to offering satellite flights from its own soil. The uncrewed Spect",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366509/german-rocket-reaches-space-europe-enters-satellite-launch-race?utm_source=rss_feed",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1535,18 +1527,18 @@
       ]
     },
     {
-      "id": "world-18",
-      "title": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
+      "id": "world-19",
+      "title": "미국이 돈세탁 혐의로 조사한 베네수엘라 억만장자가 이제 국방부와 석유 계약을 맺었습니다.",
       "title_en": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/the-venezuelan-billionaire-the-us-investigated-for-money-laundering-now-has-a-pentagon-oil-deal-101788645751636.html",
       "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "USA-VENEZUELA-OIL-BILLIONAIRE:The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
+      "excerpt": "USA-VENEZUELA-OIL-BILLIONAIRE: 미국이 돈세탁 혐의로 조사한 베네수엘라 억만장자가 이제 국방부 석유 거래를 체결했습니다.",
       "excerpt_en": "USA-VENEZUELA-OIL-BILLIONAIRE:The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/the-venezuelan-billionaire-the-us-investigated-for-money-laundering-now-has-a-pentagon-oil-deal-101788645751636.html",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1582,18 +1574,18 @@
       ]
     },
     {
-      "id": "world-199",
-      "title": "Painting looted by Nazis to be returned to collector's heir",
-      "title_en": "Painting looted by Nazis to be returned to collector's heir",
+      "id": "world-21",
+      "title": "돌발 홍수 10일 만에 네팔 터널에서 중국인 구출",
+      "title_en": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/portrait-lady-nazi-looted-painting-returned-argentina/",
-      "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "The painting was among the artworks looted and sold under duress to Nazi officials from art dealer Jacques Goudstikker after Adolf Hitler's Germany invaded the Netherlands in 1940.",
-      "excerpt_en": "The painting was among the artworks looted and sold under duress to Nazi officials from art dealer Jacques Goudstikker after Adolf Hitler's Germany invaded the Netherlands in 1940.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/portrait-lady-nazi-looted-painting-returned-argentina/",
-      "translation_status": "failed",
+      "title_url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood",
+      "category": "아시아",
+      "primary_source": "France24",
+      "excerpt": "히말라야 계곡의 얼음, 바위, 진흙 벽이 찢어져 1,300명 이상이 사망한 지 10일 만에 토요일 네팔의 터널에서 중국 국적자가 살아 남았다고 당국이 밝혔습니다.",
+      "excerpt_en": "A Chinese national was pulled alive from a tunnel in Nepal on Saturday, authorities said, 10 ‌days after a wall of ice, rock and mud tore through a Himalayan valley, killing more than 1,300 people.",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1608,39 +1600,86 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
-        "The Independent"
+        "France24",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-05T13:58:31+09:00",
-      "latest_published_at": "2026-09-05T17:32:37+09:00",
+      "first_published_at": "2026-09-05T16:17:10+09:00",
+      "latest_published_at": "2026-09-05T18:56:16+09:00",
       "articles": [
         {
-          "title": "Argentine couple to return Nazi-looted portrait to Jewish collector’s family after 80 years",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/portrait-of-a-lady-argentina-nazi-kadgien-b3045309.html",
-          "published_at": "17:32"
+          "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaG1aeTdsTDc5NHp0U0J2UFV0eGtnY1k4TjBqT3FzS3hmM3o1Um1hRW1Xa0UtcmV3YlRFZTVROFVVRVBYY2t5MF9WekJzLXZMdWJLa1ZYeWpIZmpjcC1Vamt3bzJvd21WeWFnTjB2QWJqXzA5bWM5dHJhLTNwLXRDMnJ0SVNqUmo4cjBQYXNjWi15aURhVTE4NXhtVHJFcVJxeUlVZVRERUlXa1dZY01PVGpmclFnMkpldFZGQkdXdw?oc=5",
+          "published_at": "18:56"
         },
         {
-          "title": "Painting looted by Nazis to be returned to collector's heir",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/portrait-lady-nazi-looted-painting-returned-argentina/",
-          "published_at": "13:58"
+          "title": "Chinese national rescued from Nepal tunnel 10 days after flash flood",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260905-chinese-national-rescued-from-nepal-tunnel-10-days-after-flash-flood",
+          "published_at": "16:17"
         }
       ]
     },
     {
-      "id": "world-218",
-      "title": "Prince Hisahito turns 20 as Japan's government reinforces male-only succession rules",
+      "id": "world-199",
+      "title": "미국이 중동에 대한 전후 계획 초안을 작성하고 있다고 보고서는 밝혔습니다.",
+      "title_en": "US drafting post-war plan for the Middle East, report says",
+      "title_source": "earliest_pick",
+      "title_url": "http://www.euronews.com/2026/09/05/us-drafting-post-war-plan-for-the-middle-east-report-says",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "액시오스(Axios)는 이 계획이 아직 초기 단계에 있지만 트럼프 대통령의 남은 임기 동안 미국의 중동 정책을 수립할 수 있다고 보도했다.",
+      "excerpt_en": "Axios reported that the plan remains in its early stages but that it could set out US policy towards the Middle East for the remainder of Trump's term.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "http://www.euronews.com/2026/09/05/us-drafting-post-war-plan-for-the-middle-east-report-says",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-05T14:04:40+09:00",
+      "latest_published_at": "2026-09-06T04:13:27+09:00",
+      "articles": [
+        {
+          "title": "‘Something much bigger’: Trump planning major Middle East reset after Iran war",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/something-much-bigger-trump-planning-major-middle-east-reset-after-iran-war/articleshow/133825281.cms",
+          "published_at": "04:13"
+        },
+        {
+          "title": "US drafting post-war plan for the Middle East, report says",
+          "source_name": "Euronews",
+          "url": "http://www.euronews.com/2026/09/05/us-drafting-post-war-plan-for-the-middle-east-report-says",
+          "published_at": "14:04"
+        }
+      ]
+    },
+    {
+      "id": "world-202",
+      "title": "히사히토 왕자, 20살 생일 일본 정부, 남성 단독 왕위계승 규정 강화",
       "title_en": "Prince Hisahito turns 20 as Japan's government reinforces male-only succession rules",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/prince-hisahito-turns-20-as-japan-s-government-reinforces-male-only-succession-rules-101788657244550.html",
       "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "Japan’s Prince Hisahito has turned 20 while facing growing attention as a future monarch",
+      "excerpt": "일본의 히사히토 왕자가 20세가 되면서 미래 군주로 주목받고 있다.",
       "excerpt_en": "Japan’s Prince Hisahito has turned 20 while facing growing attention as a future monarch",
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/prince-hisahito-turns-20-japans-government-reinforces-male-136233775",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1676,158 +1715,82 @@
       ]
     },
     {
-      "id": "world-223",
-      "title": "백신 연구에 사용되는 침팬지는 장기 치료의 일환으로 건강 검진을 받습니다.",
-      "title_en": "Chimpanzees used for vaccine research get health checks as part of long-term care",
+      "id": "world-264",
+      "title": "재빠른 발의 Gauff, US 오픈 4라운드 진출",
+      "title_en": "Fleet-footed Gauff dances into US Open fourth round",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/chimpanzees-vaccine-research-health-checks-part-long-term-136222541",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "Chimpanzees once used in hepatitis B vaccine experiments are getting health checks at their new home in Liberia",
-      "excerpt_en": "Chimpanzees once used in hepatitis B vaccine experiments are getting health checks at their new home in Liberia",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/chimpanzees-vaccine-research-health-checks-part-long-term-136222541",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-05T13:22:26+09:00",
-      "latest_published_at": "2026-09-05T15:48:58+09:00",
-      "articles": [
-        {
-          "title": "'Second chance': Chimps used in hepatitis B experiments get comprehensive health checks in Liberia",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/second-chance-chimps-used-in-hepatitis-b-experiments-get-comprehensive-health-checks-in-liberia/articleshow/133806950.cms",
-          "published_at": "15:48"
-        },
-        {
-          "title": "Chimpanzees used for vaccine research get health checks as part of long-term care",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/chimpanzees-vaccine-research-health-checks-part-long-term-136222541",
-          "published_at": "13:22"
-        }
-      ]
-    },
-    {
-      "id": "world-224",
-      "title": "모토구찌의 개조된 코모 호수 본사는 모터사이클 애호가들의 순례를 환영합니다.",
-      "title_en": "Moto Guzzi's renovated Lake Como headquarters welcomes a pilgrimage of motorcycle-bound aficionados",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/moto-guzzis-renovated-lake-como-headquarters-welcomes-pilgrimage-136222521",
-      "category": "미국",
-      "primary_source": "ABC News",
-      "excerpt": "Moto Guzzi enthusiasts now have a new reason to visit the iconic Italian motorcycle's headquarters",
-      "excerpt_en": "Moto Guzzi enthusiasts now have a new reason to visit the iconic Italian motorcycle's headquarters",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/moto-guzzis-renovated-lake-como-headquarters-welcomes-pilgrimage-136222521",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-05T10:39:22+09:00",
-      "latest_published_at": "2026-09-05T19:42:21+09:00",
-      "articles": [
-        {
-          "title": "This city in New York rejects 'Lake America' name, Republican mayor says Lake Ontario is in the DNA of the residents",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/this-city-in-new-york-rejects-lake-america-name-republican-mayor-says-lake-ontario-is-in-the-dna-of-the-residents/articleshow/133814273.cms",
-          "published_at": "19:42"
-        },
-        {
-          "title": "Moto Guzzi's renovated Lake Como headquarters welcomes a pilgrimage of motorcycle-bound aficionados",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/moto-guzzis-renovated-lake-como-headquarters-welcomes-pilgrimage-136222521",
-          "published_at": "10:39"
-        }
-      ]
-    },
-    {
-      "id": "world-30",
-      "title": "각국은 제네바에서 열린 자율 무기 회담에서 합의에 도달했습니다.",
-      "title_en": "States reach agreement at autonomous weapons talks in Geneva",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUxkQ2FtOXRTbDRSMi1HdTA3aUxtbFlua0sxaHpwWkZYYVg3VlI5Q1JNOEtOd01sYlNLa01EcnlTd3BzUDdqcDJhaFI5SUJUelk5VUs3WFdVXzdaS3Z1U0pUbFBvUFMzenVCWkJBRkota3doU2pJdmdkOGNMNllFWTN4eFQ1c0ZYOFNFUkZJdHkxOGk4RWlMZWhYeEE?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "제네바 - ⁠128 ⁠당사는 무차별적인 ​또는 너무 많은 부상을 초래하는 것으로 간주되는 무기를 규제 또는 금지하는 프레임워크에 참여하여 인턴의 길을 열어줄 수 있는 문서에 동의했습니다.",
-      "excerpt_en": "GENEVA - The ⁠128 ⁠states party to ​a framework that regulates or bans weapons considered as indiscriminate, ​or causing too many ‌injuries, have agreed on a document that could pave the way to intern",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3314540/global-autonomous-weapons-pact-taking-shape",
-      "translation_status": "ok",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-05T10:44:00+09:00",
-      "latest_published_at": "2026-09-05T11:17:00+09:00",
-      "articles": [
-        {
-          "title": "Global autonomous weapons pact taking shape",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3314540/global-autonomous-weapons-pact-taking-shape",
-          "published_at": "11:17"
-        },
-        {
-          "title": "States reach agreement at autonomous weapons talks in Geneva",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUxkQ2FtOXRTbDRSMi1HdTA3aUxtbFlua0sxaHpwWkZYYVg3VlI5Q1JNOEtOd01sYlNLa01EcnlTd3BzUDdqcDJhaFI5SUJUelk5VUs3WFdVXzdaS3Z1U0pUbFBvUFMzenVCWkJBRkota3doU2pJdmdkOGNMNllFWTN4eFQ1c0ZYOFNFUkZJdHkxOGk4RWlMZWhYeEE?oc=5",
-          "published_at": "10:44"
-        }
-      ]
-    },
-    {
-      "id": "world-187",
-      "title": "14명은 Eaton HK 호텔 레스토랑에서 식사 후 병에 걸렸습니다.",
-      "title_en": "14 fall ill after dining at Eaton HK hotel restaurant",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/hong-kong/health-environment/article/3366480/14-fall-ill-after-dining-eaton-hk-hotel-restaurant?utm_source=rss_feed",
+      "title_url": "https://www.channelnewsasia.com/sport/fleet-footed-gauff-dances-us-open-fourth-round-6365141",
       "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "용감한 와일드카드 Dane Sweeny가 이탈리아의 21번 시드 Luciano Darderi에게 3라운드 패배를 당하면서 호주의 마지막 US Open 단식 희망이 사라졌습니다.",
+      "excerpt_en": "Australia's last US Open singles hope is eliminated, with gallant wildcard Dane Sweeny suffering a third-round loss to Italian 21st seed Luciano Darderi.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-06/us-open-australia-dane-sweeny-eliminated-new-york/107121304",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 10,
+        "major_score": 5,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "Channel News Asia"
+      ],
+      "first_published_at": "2026-09-05T21:40:15+09:00",
+      "latest_published_at": "2026-09-06T05:56:47+09:00",
+      "articles": [
+        {
+          "title": "Osaka apologises to children after struggling with Achilles issue at US Open",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-06/tennis-naomi-osaka-apologises-children-us-open-victory/107121698",
+          "published_at": "05:56"
+        },
+        {
+          "title": "Zverev reaches US Open fourth round with win over Tabilo",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/zverev-reaches-us-open-fourth-round-win-over-tabilo-6365421",
+          "published_at": "05:21"
+        },
+        {
+          "title": "From boardroom chic to battling win, Osaka reaches US Open last 16",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/boardroom-chic-battling-win-osaka-reaches-us-open-last-16-6365296",
+          "published_at": "02:05"
+        },
+        {
+          "title": "Sweeny exits US Open to end Australia's singles chances",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-06/us-open-australia-dane-sweeny-eliminated-new-york/107121304",
+          "published_at": "01:01"
+        },
+        {
+          "title": "Fleet-footed Gauff dances into US Open fourth round",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/fleet-footed-gauff-dances-us-open-fourth-round-6365141",
+          "published_at": "21:40"
+        }
+      ]
+    },
+    {
+      "id": "world-86",
+      "title": "영국 정부, 도버항을 막고 있는 복면을 쓴 반이민 시위대 규탄",
+      "title_en": "UK government condemns masked anti-immigrant protesters blocking Dover port",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port?utm_source=rss_feed",
+      "category": "유럽",
       "primary_source": "SCMP",
-      "excerpt": "Hong Kong health authorities have detected seven additional suspected food poisoning cases linked to a hotel restaurant in Yau Ma Tei, raising the total number of affected diners to 14. The Centre for",
-      "excerpt_en": "Hong Kong health authorities have detected seven additional suspected food poisoning cases linked to a hotel restaurant in Yau Ma Tei, raising the total number of affected diners to 14. The Centre for",
+      "excerpt": "Dozens of masked anti-immigration protesters blocked roads leading to Britain’s busiest ferry port on Saturday, clogging traffic and disrupting travellers and cargo vehicles heading for France. The go",
+      "excerpt_en": "Dozens of masked anti-immigration protesters blocked roads leading to Britain’s busiest ferry port on Saturday, clogging traffic and disrupting travellers and cargo vehicles heading for France. The go",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/hong-kong/health-environment/article/3366480/14-fall-ill-after-dining-eaton-hk-hotel-restaurant?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -1843,39 +1806,133 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
+        "DW",
         "SCMP"
       ],
-      "first_published_at": "2026-09-05T09:30:35+09:00",
-      "latest_published_at": "2026-09-05T10:44:39+09:00",
+      "first_published_at": "2026-09-05T13:36:26+09:00",
+      "latest_published_at": "2026-09-05T14:00:00+09:00",
       "articles": [
         {
-          "title": "Nearly 2,000 people fall ill in suspected food poisoning in Indonesia",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/2000-fall-ill-suspected-food-poisoning-linked-indonesias-136222279",
-          "published_at": "10:44"
+          "title": "Masked anti-migrant protesters block UK's Dover terminal",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/masked-anti-migrant-protesters-block-uk-s-dover-terminal/a-79046929?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "14:00"
         },
         {
-          "title": "14 fall ill after dining at Eaton HK hotel restaurant",
+          "title": "UK government condemns masked anti-immigrant protesters blocking Dover port",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3366480/14-fall-ill-after-dining-eaton-hk-hotel-restaurant?utm_source=rss_feed",
-          "published_at": "09:30"
+          "url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port?utm_source=rss_feed",
+          "published_at": "13:36"
         }
       ]
     },
     {
-      "id": "world-137",
-      "title": "네팔 홍수로 집이 파묻혔습니다. 안에 있는 여자는 아직 살아 있었다.",
-      "title_en": "Nepal Floods Buried a House. The Woman Inside Was Still Alive.",
+      "id": "world-189",
+      "title": "Painting looted by Nazis to be returned to collector's heir",
+      "title_en": "Painting looted by Nazis to be returned to collector's heir",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html",
+      "title_url": "https://www.cbsnews.com/news/portrait-lady-nazi-looted-painting-returned-argentina/",
+      "category": "유럽",
+      "primary_source": "CBS News",
+      "excerpt": "The painting was among the artworks looted and sold under duress to Nazi officials from art dealer Jacques Goudstikker after Adolf Hitler's Germany invaded the Netherlands in 1940.",
+      "excerpt_en": "The painting was among the artworks looted and sold under duress to Nazi officials from art dealer Jacques Goudstikker after Adolf Hitler's Germany invaded the Netherlands in 1940.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/portrait-lady-nazi-looted-painting-returned-argentina/",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-05T13:58:31+09:00",
+      "latest_published_at": "2026-09-05T17:32:37+09:00",
+      "articles": [
+        {
+          "title": "Argentine couple to return Nazi-looted portrait to Jewish collector’s family after 80 years",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/portrait-of-a-lady-argentina-nazi-kadgien-b3045309.html",
+          "published_at": "17:32"
+        },
+        {
+          "title": "Painting looted by Nazis to be returned to collector's heir",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/portrait-lady-nazi-looted-painting-returned-argentina/",
+          "published_at": "13:58"
+        }
+      ]
+    },
+    {
+      "id": "world-192",
+      "title": "Georgia cop reveals why he shot dead a family’s pet donkey",
+      "title_en": "Georgia cop reveals why he shot dead a family’s pet donkey",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/georgia-donkey-police-shooting-b3045287.html",
       "category": "기타",
-      "primary_source": "New York Times",
-      "excerpt": "거의 묻혀 있던 집에서 구조된 일은 네팔의 홍수로 황폐화된 마을에 새로운 희망을 주었습니다. 토요일 아침, 또 다른 생존자가 터널에서 구조되었습니다.",
+      "primary_source": "The Independent",
+      "excerpt": "The Georgia cop who killed baby donkey HeeHaw has been identified as Trenton Garner. He has now revealed why he shot the beloved donkey.",
+      "excerpt_en": "The Georgia cop who killed baby donkey HeeHaw has been identified as Trenton Garner. He has now revealed why he shot the beloved donkey.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trenton-garner-5-things-about-georgia-cop-who-killed-beloved-donkey-heehaw-as-he-breaks-silence-i-then-fired-a-single-101788681940259.html",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-05T16:28:25+09:00",
+      "latest_published_at": "2026-09-06T08:12:02+09:00",
+      "articles": [
+        {
+          "title": "Trenton Garner: 5 things about Georgia cop who killed baby donkey HeeHaw as he breaks silence, ‘Fired a single round…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trenton-garner-5-things-about-georgia-cop-who-killed-beloved-donkey-heehaw-as-he-breaks-silence-i-then-fired-a-single-101788681940259.html",
+          "published_at": "08:12"
+        },
+        {
+          "title": "Georgia cop reveals why he shot dead a family’s pet donkey",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/georgia-donkey-police-shooting-b3045287.html",
+          "published_at": "16:28"
+        }
+      ]
+    },
+    {
+      "id": "world-131",
+      "title": "She was given up for dead, then a faint cry came from the depths of the mud",
+      "title_en": "She was given up for dead, then a faint cry came from the depths of the mud",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/asia/she-was-given-up-for-dead-then-a-faint-cry-came-from-the-depths-of-the-mud-20260906-p60usf.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "기타",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "A rescue from a mostly buried house gave new hope to a town devastated by floods in Nepal. Earlier Saturday, another survivor had been pulled from a tunnel.",
       "excerpt_en": "A rescue from a mostly buried house gave new hope to a town devastated by floods in Nepal. Earlier Saturday, another survivor had been pulled from a tunnel.",
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 51,
       "score_breakdown": {
         "article_score": 12,
@@ -1893,20 +1950,20 @@
         "New York Times",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-05T18:15:57+09:00",
-      "latest_published_at": "2026-09-05T23:22:57+09:00",
+      "first_published_at": "2026-09-05T23:22:57+09:00",
+      "latest_published_at": "2026-09-06T06:27:16+09:00",
       "articles": [
+        {
+          "title": "Nepal Floods Buried a House. The Woman Inside Was Still Alive.",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html",
+          "published_at": "06:27"
+        },
         {
           "title": "She was given up for dead, then a faint cry came from the depths of the mud",
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/asia/she-was-given-up-for-dead-then-a-faint-cry-came-from-the-depths-of-the-mud-20260906-p60usf.html?ref=rss&utm_medium=rss&utm_source=rss_world",
           "published_at": "23:22"
-        },
-        {
-          "title": "Nepal Floods Buried a House. The Woman Inside Was Still Alive.",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html",
-          "published_at": "18:15"
         }
       ]
     }
