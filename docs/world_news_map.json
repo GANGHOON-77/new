@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,28 +8,204 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-11T08:05:52.090791+09:00",
+  "updated_at": "2026-09-11T14:57:56.964697+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 480,
-  "cluster_count_total": 382,
+  "article_count_total": 584,
+  "cluster_count_total": 466,
   "clusters": [
     {
-      "id": "world-61",
-      "title": "At least 25 killed after cargo ship catches fire at Chinese port",
+      "id": "world-114",
+      "title": "후티 반군, 바브 엘 만데브 탈환을 위해 예멘 홍해 해안선 공습",
+      "title_en": "Houthis blitz Yemen's Red Sea coastline in push to seize Bab el-Mandeb",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "이란의 지원을 받는 후티 반군 단체가 목요일 예멘의 항구 도시인 모카를 점령했다고 후티와 예멘 관리들이 말했습니다. 이 지역은 홍해를 통과하는 선박을 통제하는 데 필수적인 지역입니다. 모카는 80킬로 정도인데",
+      "excerpt_en": "The Iran-backed Houthi rebel group on Thursday took over Yemen’s port city of Mokha, an area vital to controlling shipping through the Red Sea, Houthi and Yemeni officials said. Mokha is about 80 kilo",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/iran-backed-houthi-rebels-take-strategic-port-city-in-yemen-raising-threat-to-red-sea-shipping",
+      "translation_status": "ok",
+      "score": 93,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 70
+      },
+      "area_value": 8,
+      "article_count": 8,
+      "syndicated_count": 0,
+      "source_count": 7,
+      "sources": [
+        "BBC",
+        "Euronews",
+        "Fox News",
+        "France24",
+        "NPR",
+        "New York Times",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-10T15:59:44+09:00",
+      "latest_published_at": "2026-09-11T05:40:21+09:00",
+      "articles": [
+        {
+          "title": "Iran-backed Houthi rebels seize strategic Red Sea port in Yemen",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
+          "published_at": "05:40"
+        },
+        {
+          "title": "Yemen's Iran-backed Houthi rebels seize strategic Red Sea port city of Mocha",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran",
+          "published_at": "22:55"
+        },
+        {
+          "title": "Houthis Seize Strategic Red Sea Port, a Major Victory for Iranian Ally",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
+          "published_at": "19:31"
+        },
+        {
+          "title": "Iran-backed Houthi rebels take strategic port city in Yemen, raising threat to Red Sea shipping",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/iran-backed-houthi-rebels-take-strategic-port-city-in-yemen-raising-threat-to-red-sea-shipping",
+          "published_at": "19:18"
+        },
+        {
+          "title": "Iran-backed terror group’s latest territorial grab threatens second global shipping chokepoint",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint",
+          "published_at": "19:03"
+        },
+        {
+          "title": "Houthis seize Yemen's strategic Red Sea port city of Mokha from Saudi-backed forces",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/houthis-seize-yemens-strategic-red-sea-port-city-of-mokha-from-saudi-backed-forces/articleshow/134025249.cms",
+          "published_at": "18:29"
+        },
+        {
+          "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "18:15"
+        },
+        {
+          "title": "Houthis blitz Yemen's Red Sea coastline in push to seize Bab el-Mandeb",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb",
+          "published_at": "15:59"
+        }
+      ]
+    },
+    {
+      "id": "world-173",
+      "title": "천안문 집회 주최측 3명, 홍콩 국가안보 혐의로 선고 예정",
+      "title_en": "3 Tiananmen vigil organizers set to be sentenced in Hong Kong national security case",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/3-tiananmen-vigil-organizers-set-sentenced-hong-kong-136351311",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "홍콩의 연례 천안문 광장 집회를 주도한 현재 해체된 동맹의 전 지도자 3명이 국가보안법에 따라 최대 7년 3개월의 징역형을 선고 받았습니다.",
+      "excerpt_en": "Three former leaders of the now-disbanded alliance behind Hong Kong’s annual Tiananmen Square vigil have been sentenced to up to seven years and three months in jail under the national security law fo",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367127/hong-kong-vigil-leaders-jailed-7-years-group-fined-hk15-million?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 8,
+      "article_count": 8,
+      "syndicated_count": 0,
+      "source_count": 7,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "CBC",
+        "Euronews",
+        "France24",
+        "NBC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-10T23:09:28+09:00",
+      "latest_published_at": "2026-09-11T05:00:07+09:00",
+      "articles": [
+        {
+          "title": "Hong Kong gives Tiananmen vigil activists between 5 and 7 year",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/11/hong-kong-gives-tiananmen-vigil-activists-between-5-and-7-year",
+          "published_at": "05:00"
+        },
+        {
+          "title": "The Hong Kong Tiananmen vigil activists convicted in national security trial",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3317920/the-hong-kong-tiananmen-vigil-activists-convicted-in-national-security-trial",
+          "published_at": "03:45"
+        },
+        {
+          "title": "More Tiananmen vigil activists sentenced to prison in Hong Kong security case",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/hong-kong-activists-sentenced-9.7339856?cmp=rss",
+          "published_at": "02:57"
+        },
+        {
+          "title": "Hong Kong sentences Tiananmen activists to between 5 and 7 years in jail",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3317868/hong-kong-sentences-tiananmen-activists-to-between-5-and-7-years-in-jail",
+          "published_at": "02:45"
+        },
+        {
+          "title": "Tiananmen vigil leaders jailed up to 7 years, as group is fined HK$1.5 million",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367127/hong-kong-vigil-leaders-jailed-7-years-group-fined-hk15-million?utm_source=rss_feed",
+          "published_at": "02:31"
+        },
+        {
+          "title": "Organizers of Hong Kong’s Tiananmen Square vigils sentenced in national security case",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/organizers-hong-kong-tiananmen-vigils-sentenced-rcna596550",
+          "published_at": "02:29"
+        },
+        {
+          "title": "Hong Kong court sentences Tiananmen vigil activists to between 5 and 7 years in jail",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20260911-hong-kong-court-sentences-tiananmen-vigil-activists-to-between-5-and-7-years-in-jail",
+          "published_at": "01:49"
+        },
+        {
+          "title": "3 Tiananmen vigil organizers set to be sentenced in Hong Kong national security case",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/3-tiananmen-vigil-organizers-set-sentenced-hong-kong-136351311",
+          "published_at": "23:09"
+        }
+      ]
+    },
+    {
+      "id": "world-171",
+      "title": "중국 항구에서 화물선에 화재가 발생해 최소 25명 사망",
       "title_en": "At least 25 killed after cargo ship catches fire at Chinese port",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/several-killed-after-cargo-ship-catches-fire-at-chinese-port-101789037458233.html",
       "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "Twenty-five people died in a fire aboard a foreign cargo vessel undergoing repairs at a state-owned ‌shipyard in the eastern Chinese city of Qingdao on Thursday, state media reported.",
+      "excerpt": "목요일 중국 동부 칭다오의 국영 조선소에서 수리를 하던 외국 화물선에서 화재가 발생해 25명이 사망했다고 국영 언론이 보도했습니다.",
       "excerpt_en": "Twenty-five people died in a fire aboard a foreign cargo vessel undergoing repairs at a state-owned ‌shipyard in the eastern Chinese city of Qingdao on Thursday, state media reported.",
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/china-qingdao-ship-fatal-fire-9.7338330?cmp=rss",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 88,
       "score_breakdown": {
         "article_score": 25,
@@ -39,15 +215,14 @@
         "time_score": 2,
         "raw75": 66
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 8,
+      "source_count": 7,
       "sources": [
         "CBC",
         "CBS News",
         "DW",
-        "Euronews",
         "Fox News",
         "Hindustan Times",
         "New York Times",
@@ -61,12 +236,6 @@
           "source_name": "Fox News",
           "url": "https://www.foxnews.com/world/fire-aboard-cargo-ship-undergoing-repairs-busy-chinese-port-leaves-25-people-dead-five-more-injured",
           "published_at": "16:45"
-        },
-        {
-          "title": "25 killed after international cargo ship docked in China catches fire",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/10/heavy-casualties-reported-after-international-cargo-ship-docked-in-china-catches-fire",
-          "published_at": "14:20"
         },
         {
           "title": "25 people killed in fire on cargo ship docked in China, state media reports",
@@ -107,160 +276,18 @@
       ]
     },
     {
-      "id": "world-124",
-      "title": "Fire on passenger ferry in Philippines leaves at least 5 dead, dozens missing",
-      "title_en": "Fire on passenger ferry in Philippines leaves at least 5 dead, dozens missing",
+      "id": "world-358",
+      "title": "해안경비대가 필리핀에서 불타는 여객선에서 생존자를 구출했습니다.",
+      "title_en": "Coast guard rescues survivors from burning ferry in Philippines",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/ferry-fire-philippines-9.7338242?cmp=rss",
+      "title_url": "https://www.euronews.com/video/2026/09/10/coast-guard-rescues-survivors-from-burning-ferry-in-philippines",
       "category": "아시아",
-      "primary_source": "CBC",
-      "excerpt": "Rescuers struggled on Thursday to get into a passenger ferry that had caught fire and burned overnight off the western Philippines, leaving five people dead and 86 missing, officials said. By nightfal",
-      "excerpt_en": "Rescuers struggled on Thursday to get into a passenger ferry that had caught fire and burned overnight off the western Philippines, leaving five people dead and 86 missing, officials said. By nightfal",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/ferry-fire-philippines-9.7338242?cmp=rss",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "CBC",
-        "CBS News",
-        "New York Times",
-        "Sky News",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-10T02:57:16+09:00",
-      "latest_published_at": "2026-09-10T13:50:43+09:00",
-      "articles": [
-        {
-          "title": "Deadly fire on ferry off Philippines leaves dozens of people missing",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
-          "published_at": "13:50"
-        },
-        {
-          "title": "Five dead, dozens missing after ferry fire in Philippines",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/five-dead-dozens-missing-after-ferry-fire-in-philippines-20260910-p60we7.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:31"
-        },
-        {
-          "title": "Fire on passenger ferry in Philippines leaves dozens missing and at least 5 dead",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fire-passenger-ferry-philippines-leaves-dozens-missing-5-136323032",
-          "published_at": "06:34"
-        },
-        {
-          "title": "At least five dead and more than 80 missing after fire on Philippines ferry",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/at-least-five-dead-and-dozens-missing-after-fire-on-philippines-ferry-13583838",
-          "published_at": "05:40"
-        },
-        {
-          "title": "At Least 5 Dead, More Than 80 Missing After Ferry Fire in the Philippines",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
-          "published_at": "04:49"
-        },
-        {
-          "title": "Fire on passenger ferry in Philippines leaves at least 5 dead, dozens missing",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/ferry-fire-philippines-9.7338242?cmp=rss",
-          "published_at": "02:57"
-        }
-      ]
-    },
-    {
-      "id": "world-267",
-      "title": "Trump promises $5,000 dividend checks to US adults if Republicans win both House & Senate in midterms",
-      "title_en": "Trump promises $5,000 dividend checks to US adults if Republicans win both House & Senate in midterms",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-rnc-speech-potus-promises-5-000-to-every-adult-citizen-if-republicans-win-both-house-senate-in-midterms-101789006787718.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "U.S. President Donald Trump said Wednesday he would pay every American adult a $5,000 US \"Trump dividend\" if Republicans retain control of Congress in November's midterm elections, an extraordinary at",
-      "excerpt_en": "U.S. President Donald Trump said Wednesday he would pay every American adult a $5,000 US \"Trump dividend\" if Republicans retain control of Congress in November's midterm elections, an extraordinary at",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/trump-midterm-convention-republican-5-000-us-9.7338277?cmp=rss",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBC",
-        "Euronews",
-        "Hindustan Times",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-10T02:24:34+09:00",
-      "latest_published_at": "2026-09-10T08:53:06+09:00",
-      "articles": [
-        {
-          "title": "Trump offers $5,000 US to every American if Republicans win midterm elections",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-midterm-convention-republican-5-000-us-9.7338277?cmp=rss",
-          "published_at": "08:53"
-        },
-        {
-          "title": "Trump pledges to give all American adults $US5000",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/trump-pledges-to-give-all-american-adults-us5000-20260910-p60wco.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:46"
-        },
-        {
-          "title": "Republican convention: Trump defends Iran war, attacks Democrats and promises voters cash",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/10/trump-promises-5000-to-every-us-adult-if-republicans-win-midterms-election",
-          "published_at": "06:44"
-        },
-        {
-          "title": "Trump offers every American adult $US5000 if Republicans win midterms",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/trump-offers-every-american-adult-us5000-if-republicans-win-midterms-20260910-p60w7j.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "04:44"
-        },
-        {
-          "title": "Trump promises $5,000 dividend checks to US adults if Republicans win both House & Senate in midterms",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-rnc-speech-potus-promises-5-000-to-every-adult-citizen-if-republicans-win-both-house-senate-in-midterms-101789006787718.html",
-          "published_at": "02:24"
-        }
-      ]
-    },
-    {
-      "id": "world-89",
-      "title": "Deadly Philippines ferry fire triggers search for scores of missing",
-      "title_en": "Deadly Philippines ferry fire triggers search for scores of missing",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/sep/10/deadly-philippines-ferry-fire-leaves-scores-of-people-missing",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "Multiple search and rescue vessels deployed after blaze off Palawan island leaves at least five dead, says coast guard A large-scale ⁠search and rescue operation ​is under way off the western Philippi",
-      "excerpt_en": "Multiple search and rescue vessels deployed after blaze off Palawan island leaves at least five dead, says coast guard A large-scale ⁠search and rescue operation ​is under way off the western Philippi",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/10/deadly-philippines-ferry-fire-leaves-scores-of-people-missing",
-      "translation_status": "failed",
+      "primary_source": "Euronews",
+      "excerpt": "팔라완 — 구조대원들이 수십 명의 실종자를 수색하기 위해 짙은 연기와 싸우는 동안 필리핀 여객선을 휩쓴 치명적인 화재가 \"초 만에\" 발생했다고 해안경비대가 금요일 밝혔습니다.",
+      "excerpt_en": "PALAWAN — A deadly blaze that swept through a Philippine ferry happened \"in seconds\", the coast guard said Friday, as rescuers battled heavy smoke in the search for dozens of missing people.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3317863/philippine-coast-guard-battles-smoke-in-search-for-ferry-fire-missing",
+      "translation_status": "ok",
       "score": 85,
       "score_breakdown": {
         "article_score": 22,
@@ -273,16 +300,29 @@
       "area_value": 5,
       "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
+        "Bangkok Post",
+        "CBS News",
+        "Channel News Asia",
         "Euronews",
-        "NBC News",
-        "Sydney Morning Herald",
-        "The Guardian"
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-10T05:54:14+09:00",
-      "latest_published_at": "2026-09-10T20:11:19+09:00",
+      "first_published_at": "2026-09-10T11:00:55+09:00",
+      "latest_published_at": "2026-09-11T03:09:00+09:00",
       "articles": [
+        {
+          "title": "Philippine Coast Guard battles smoke in search for ferry fire missing",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/philippines-ferry-fire-missing-search-rescue-6377741",
+          "published_at": "03:09"
+        },
+        {
+          "title": "Philippine Coast Guard battles smoke in search for ferry fire missing",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3317863/philippine-coast-guard-battles-smoke-in-search-for-ferry-fire-missing",
+          "published_at": "02:45"
+        },
         {
           "title": "At least five killed in Philippines ferry fire",
           "source_name": "Sydney Morning Herald",
@@ -290,98 +330,276 @@
           "published_at": "20:11"
         },
         {
+          "title": "Deadly fire on ferry off Philippines leaves dozens of people missing",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
+          "published_at": "13:50"
+        },
+        {
           "title": "Coast guard rescues survivors from burning ferry in Philippines",
           "source_name": "Euronews",
           "url": "https://www.euronews.com/video/2026/09/10/coast-guard-rescues-survivors-from-burning-ferry-in-philippines",
           "published_at": "11:00"
-        },
-        {
-          "title": "At least five dead, dozens missing after Philippine ferry fire",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/at-least-five-dead-dozens-missing-after-philippine-ferry-fire-269606981910",
-          "published_at": "08:13"
-        },
-        {
-          "title": "At least five dead and 86 missing in Philippines ferry fire",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/10/philippines-five-killed-and-86-missing-after-fire-on-ferry-near-tourist-hotspot",
-          "published_at": "08:09"
-        },
-        {
-          "title": "Deadly Philippines ferry fire triggers search for scores of missing",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/deadly-philippines-ferry-fire-leaves-scores-of-people-missing",
-          "published_at": "05:54"
         }
       ]
     },
     {
-      "id": "world-20",
-      "title": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
-      "title_en": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
+      "id": "world-97",
+      "title": "스위스에서 관광버스가 전복돼 여러 명이 사망했다고 경찰이 밝혔다.",
+      "title_en": "Several dead after tour bus overturns in Switzerland, police say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/israel-says-destroyed-key-hezbollah-tunnels-in-south-lebanon-101789067189276.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Israel said on Thursday it destroyed key tunnels built by Iran-backed Hezbollah beneath the strategic Ali al-Taher ridge in southern Lebanon, completing what it called operational control of the area.",
-      "excerpt_en": "Israel said on Thursday it destroyed key tunnels built by Iran-backed Hezbollah beneath the strategic Ali al-Taher ridge in southern Lebanon, completing what it called operational control of the area.",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/middle-east/20260910-israel-hezbollah-tunnels-lebanon-earthquake",
-      "translation_status": "failed",
-      "score": 77,
+      "title_url": "https://www.cbc.ca/news/world/tour-bus-overturn-switzerland-9.7339330?cmp=rss",
+      "category": "유럽",
+      "primary_source": "CBC",
+      "excerpt": "스위스 동부에서 네덜란드 관광객을 태운 버스가 추락해 여러 명이 사망하고 부상했다고 경찰이 목요일 밝혔다. 사고는 오후 4시 45분쯤 Susch 마을 사이에서 발생했습니다.",
+      "excerpt_en": "Several people were killed and injured when a coach carrying Dutch tourists in eastern Switzerland crashed, police said on Thursday. The accident happened at about 4.45pm between the communes of Susch",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367111/several-dead-dutch-coach-crash-switzerland?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 84,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
+        "article_score": 22,
+        "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
-        "Al Jazeera",
-        "France24",
-        "Hindustan Times"
+        "AP News",
+        "CBC",
+        "SCMP",
+        "Sky News"
       ],
-      "first_published_at": "2026-09-10T19:06:28+09:00",
-      "latest_published_at": "2026-09-10T21:50:24+09:00",
+      "first_published_at": "2026-09-10T20:27:25+09:00",
+      "latest_published_at": "2026-09-11T02:43:00+09:00",
       "articles": [
         {
-          "title": "Israel destroys Hezbollah tunnel network in south Lebanon, triggering 4.1-magnitude tremor",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260910-israel-hezbollah-tunnels-lebanon-earthquake",
-          "published_at": "21:50"
+          "title": "Dutch tour bus overturns in Switzerland, leaving several people dead, police say",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOekZMUTh0Q1RldW0weVhXeXJGM2R4OG95UU1hOVh4MHlkNGVoR21WSE81VkR6el9wcWVfOXpyMkNvX0tLUFlvNTBJZ2EyLVpsVmJPQmloV245cm5lS0tiRFFPXzdVNDJVdTVKUHN2V28yLVg2dG5kaUI3OTlWUkhLSnNvV3JUdlVRby1fTXMxekdhSXQwcXowSHRYN2w?oc=5",
+          "published_at": "02:43"
         },
         {
-          "title": "Israel says it destroyed key Hezbollah tunnels in southern Lebanon",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/israel-says-it-destroyed-key-hezbollah-tunnels-in-southern-lebanon?traffic_source=rss",
-          "published_at": "21:19"
+          "title": "Several dead in Dutch tour bus crash in Switzerland",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3367111/several-dead-dutch-coach-crash-switzerland?utm_source=rss_feed",
+          "published_at": "23:22"
         },
         {
-          "title": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/israel-says-destroyed-key-hezbollah-tunnels-in-south-lebanon-101789067189276.html",
-          "published_at": "19:06"
+          "title": "Several killed and injured in Swiss Alps coach crash",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/several-killed-and-injured-as-dutch-tour-bus-overturns-in-swiss-alps-13584148",
+          "published_at": "20:53"
+        },
+        {
+          "title": "Several dead after tour bus overturns in Switzerland, police say",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/tour-bus-overturn-switzerland-9.7339330?cmp=rss",
+          "published_at": "20:27"
         }
       ]
     },
     {
-      "id": "world-22",
-      "title": "Russian strike on Ukraine shopping centre kills at least six",
+      "id": "world-71",
+      "title": "알제리, UAE와 단교",
+      "title_en": "Algeria cuts diplomatic ties with the UAE",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5YdHFlZ2U0Sll2VTZQeGxweXUtTk8zSUt4UGdNQ2ljcTRzeG84SEdzcWlFOUpXNGFhekVfcXc3dEU0Y0UtQnBpRnZwWmVqVXl1TWpDQlhRRjZnbWRoT0JFaUdZcVkxdU9BU3NfSjNMeW5zR2I1M20wTHlvS3N0MXBIWWVLUTNIR0RFS2ctWWJJLS1nVXhyRnhIakpKd3ZUS1pmeld6MTVBNl9KVnVpaWFMTzI?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "알제리는 '도발적이고 적대적인 행위'를 이유로 아랍에미리트(UAE)와의 외교 관계를 끊고 에미리트 민간 및 군용 항공기의 영공 진입을 금지했다. 알제리행 상업용 항공편은 다음 날짜까지 면제됩니다.",
+      "excerpt_en": "Algeria cut diplomatic ties with the UAE and banned Emirati civilian and military aircraft from its airspace, citing 'provocative and hostile acts'. Commercial flights to Algiers are exempt until the ",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/11/algeria-closes-its-airspace-to-uae-aircrafts-after-cutting-diplomatic-ties",
+      "translation_status": "ok",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "DW",
+        "Euronews",
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-10T19:07:21+09:00",
+      "latest_published_at": "2026-09-11T03:16:31+09:00",
+      "articles": [
+        {
+          "title": "Algeria closes its airspace to UAE aircrafts after cutting diplomatic ties",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/11/algeria-closes-its-airspace-to-uae-aircrafts-after-cutting-diplomatic-ties",
+          "published_at": "03:16"
+        },
+        {
+          "title": "Algeria cuts diplomatic ties with UAE",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/algeria-cuts-diplomatic-ties-with-uae/a-79222141?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "22:27"
+        },
+        {
+          "title": "Algeria closes airspace to UAE after diplomatic break",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/algeria-closes-airspace-to-uae-after-diplomatic-break-101789068423083.html",
+          "published_at": "19:27"
+        },
+        {
+          "title": "Algeria cuts diplomatic ties with the UAE",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5YdHFlZ2U0Sll2VTZQeGxweXUtTk8zSUt4UGdNQ2ljcTRzeG84SEdzcWlFOUpXNGFhekVfcXc3dEU0Y0UtQnBpRnZwWmVqVXl1TWpDQlhRRjZnbWRoT0JFaUdZcVkxdU9BU3NfSjNMeW5zR2I1M20wTHlvS3N0MXBIWWVLUTNIR0RFS2ctWWJJLS1nVXhyRnhIakpKd3ZUS1pmeld6MTVBNl9KVnVpaWFMTzI?oc=5",
+          "published_at": "19:07"
+        }
+      ]
+    },
+    {
+      "id": "world-52",
+      "title": "지미 킴멜은 FCC의 위협으로 떠오르는 민주당 스타와의 인터뷰가 ABC에서 방송되지 않을 것이라고 말했습니다.",
+      "title_en": "Jimmy Kimmel says interview with rising Democratic star won’t air on ABC amid FCC threats",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/arts-entertainment/tv/news/jimmy-kimmel-james-talarico-interview-fcc-b3047879.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "ABC 심야 토크쇼 진행자 지미 키멜(Jimmy Kimmel)은 목요일 민주당 상원 후보 제임스 탈라리코(James Talarico)와의 인터뷰가 네트워크 방송이 아닌 유튜브를 통해 방송될 것이라고 말했습니다.",
+      "excerpt_en": "ABC late-night talk show host Jimmy Kimmel said an interview with Democratic Senate candidate James Talarico on Thursday will air on YouTube and not during the network broadcast, citing threats from t",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/kimmel-talarico-interview-fcc-abc-9.7339071?cmp=rss",
+      "translation_status": "ok",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBC",
+        "Reuters",
+        "Sydney Morning Herald",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-10T11:31:26+09:00",
+      "latest_published_at": "2026-09-10T22:40:42+09:00",
+      "articles": [
+        {
+          "title": "Jimmy Kimmel blocked from airing James Talarico interview",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/jimmy-kimmel-blocked-from-airing-james-talarico-interview-20260911-p60wgu.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "22:40"
+        },
+        {
+          "title": "ABC's Jimmy Kimmel says interview with Senate candidate Talarico will not air on network",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSWJrNnkwcXF3M2tBZFQ1TW9abFhLOUREenRPTHZqVmlzc3BNTnV2VktLcENMTTZvNWt2MENWUWVLLXZxdEZpTXBESm5nNXBzYzgtc09iS1JNc2VzY1d1Q0hPYk5FUHBUSTg3ZG1kaXcwSk1Qenk0SDNwTUNOcGJsLWpWSWxCS0VycHNCUDB3RE9XLXVqM1k0UnYzc3Z5VE42LXJsZTFtMks3QXMyRU5RVy0wVHVkdw?oc=5",
+          "published_at": "19:12"
+        },
+        {
+          "title": "Kimmel says interview with Democratic candidate won't air on his network show, cites FCC threats",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/kimmel-talarico-interview-fcc-abc-9.7339071?cmp=rss",
+          "published_at": "18:32"
+        },
+        {
+          "title": "Jimmy Kimmel says interview with rising Democratic star won’t air on ABC amid FCC threats",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/jimmy-kimmel-james-talarico-interview-fcc-b3047879.html",
+          "published_at": "11:31"
+        }
+      ]
+    },
+    {
+      "id": "world-82",
+      "title": "찰리 커크 사망 1년 후, 미국의 전환점은 성장했지만 트럼프는 젊은 유권자들과 함께 미끄러졌습니다.",
+      "title_en": "A year after Charlie Kirk's death, Turning Point USA grows but Trump slips with young voters",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHpUcWNtNXREbnhzblktM2l6a2luRS1zeENZa2tPNGJ0dC1veUdLWVZCM3MzYmJDN1I4YUtoYllMV3EyckZtUl9IQURlbnVNZW51VVJhRWdZQXVGLWs2THZleXIyNlZ2QjJCTElvUE02Zy1zNTlZVktsT0dnenZPbjRuSzBCLVhFY3VzdFNPV1M3blB3eFY2MXM1a3dNT0E3T0h5MURDNDdwY2VMNjhwMmZrMFg1M0FLeG9aUDB6Zw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "대학이 수업을 취소하고 Turning Point USA가 이벤트 센터에서 추모식을 개최하도록 허용한 후 일부 학생들이 커크의 사망 기일에 항의하고 있습니다.",
+      "excerpt_en": "Some students are protesting on the anniversary of Kirk’s death after the university canceled classes and allowed Turning Point USA to host a memorial at its event center",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/charlie-kirk-memorial-utah-valley-university-b3048194.html",
+      "translation_status": "ok",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times",
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-10T10:03:00+09:00",
+      "latest_published_at": "2026-09-10T23:08:55+09:00",
+      "articles": [
+        {
+          "title": "A year after Charlie Kirk’s death, are young voters turning on Trump?",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/a-year-after-charlie-kirks-death-are-young-voters-turning-on-trump?traffic_source=rss",
+          "published_at": "23:08"
+        },
+        {
+          "title": "10 Charlie Kirk quotes that defined the TPUSA founder's beliefs, one year after his assassination",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/10-charlie-kirk-quotes-that-defined-the-tpusa-founders-beliefs-one-year-after-his-assassination-101789068055128.html",
+          "published_at": "21:01"
+        },
+        {
+          "title": "Utah Valley University remains divided a year after Charlie Kirk’s assassination. His picture still haunts the campus",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/charlie-kirk-memorial-utah-valley-university-b3048194.html",
+          "published_at": "20:04"
+        },
+        {
+          "title": "A year after Charlie Kirk's death, Turning Point USA grows but Trump slips with young voters",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHpUcWNtNXREbnhzblktM2l6a2luRS1zeENZa2tPNGJ0dC1veUdLWVZCM3MzYmJDN1I4YUtoYllMV3EyckZtUl9IQURlbnVNZW51VVJhRWdZQXVGLWs2THZleXIyNlZ2QjJCTElvUE02Zy1zNTlZVktsT0dnenZPbjRuSzBCLVhFY3VzdFNPV1M3blB3eFY2MXM1a3dNT0E3T0h5MURDNDdwY2VMNjhwMmZrMFg1M0FLeG9aUDB6Zw?oc=5",
+          "published_at": "10:03"
+        }
+      ]
+    },
+    {
+      "id": "world-115",
+      "title": "러시아, 우크라이나 쇼핑센터 공습으로 최소 6명 사망",
       "title_en": "Russian strike on Ukraine shopping centre kills at least six",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/us-news/russian-strike-on-ukraine-shopping-centre-kills-at-least-six-101789072091557.html",
       "category": "유럽",
       "primary_source": "Hindustan Times",
-      "excerpt": "KYIV (UKRAINE) - At least five people were killed and nearly 70 others wounded on Thursday when a Russian strike hit a shopping centre in Pavlograd, central Ukraine, the authorities announced.",
-      "excerpt_en": "KYIV (UKRAINE) - At least five people were killed and nearly 70 others wounded on Thursday when a Russian strike hit a shopping centre in Pavlograd, central Ukraine, the authorities announced.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3317813/russian-strike-on-ukraine-shopping-centre-kills-at-least-six",
-      "translation_status": "failed",
+      "excerpt": "파블로흐라드 도심에서 발생한 이번 공격은 러시아가 며칠 만에 한 쇼핑몰을 공격한 세 번째 사건이라고 현지 언론이 보도했습니다.",
+      "excerpt_en": "The attack in Pavlohrad city centre was the third Russian strike on a mall within days, local media report.",
+      "excerpt_source": "BBC",
+      "excerpt_url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
+      "translation_status": "ok",
       "score": 77,
       "score_breakdown": {
         "article_score": 18,
@@ -396,24 +614,24 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
-        "Bangkok Post",
-        "Hindustan Times"
+        "BBC",
+        "Hindustan Times",
+        "The Independent"
       ],
       "first_published_at": "2026-09-10T20:28:11+09:00",
-      "latest_published_at": "2026-09-10T21:03:42+09:00",
+      "latest_published_at": "2026-09-11T04:07:16+09:00",
       "articles": [
         {
-          "title": "Russian strike hits shopping centre in central Ukraine",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-clip-russia-strike-pavlohrad-ua?traffic_source=rss",
-          "published_at": "21:03"
+          "title": "Ukraine-Russia war latest: Children among five killed and 67 injured as Putin strikes shopping centre",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-shopping-centre-attack-drones-b3048352.html",
+          "published_at": "04:07"
         },
         {
-          "title": "Russian strike on Ukraine shopping centre kills at least six",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317813/russian-strike-on-ukraine-shopping-centre-kills-at-least-six",
-          "published_at": "20:45"
+          "title": "Five killed and 67 injured in Russian strike on shopping centre, Ukraine says",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
+          "published_at": "22:36"
         },
         {
           "title": "Russian strike on Ukraine shopping centre kills at least six",
@@ -424,18 +642,18 @@
       ]
     },
     {
-      "id": "world-65",
-      "title": "Yemen's Houthis seize key city on Red Sea: military source",
-      "title_en": "Yemen's Houthis seize key city on Red Sea: military source",
+      "id": "world-176",
+      "title": "이스라엘, 레바논 남부 헤즈볼라 터널망 파괴, 규모 4.1 지진 발생",
+      "title_en": "Israel destroys Hezbollah tunnel network in south Lebanon, triggering 4.1-magnitude tremor",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3317344/yemens-houthis-seize-key-city-on-red-sea-military-source",
+      "title_url": "https://www.france24.com/en/middle-east/20260910-israel-hezbollah-tunnels-lebanon-earthquake",
       "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Yemen’s Houthis seized the strategic Red Sea port city of Mocha on Thursday as their offensive against Saudi-backed government forces intensified. Saudi Arabia launched dozens of airstrikes over the p",
-      "excerpt_en": "Yemen’s Houthis seized the strategic Red Sea port city of Mocha on Thursday as their offensive against Saudi-backed government forces intensified. Saudi Arabia launched dozens of airstrikes over the p",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran",
-      "translation_status": "failed",
+      "primary_source": "France24",
+      "excerpt": "이스라엘은 목요일 레바논 남부의 전략적 알리 알 타헤르 능선 아래에 이란의 지원을 받는 헤즈볼라 그룹이 건설한 주요 터널을 철거하여 규모 4.1의 진동을 일으켰다고 밝혔습니다. 에이전시 프랑스-P",
+      "excerpt_en": "Israel said Thursday it demolished key tunnels built by the Iran-backed Hezbollah group beneath the strategic Ali al-Taher ridge in southern Lebanon, triggering a 4.1 magnitude tremor. Agence France-P",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367135/israel-destroys-hezbollah-tunnel-network-south-lebanon-triggering-tremor?utm_source=rss_feed",
+      "translation_status": "ok",
       "score": 77,
       "score_breakdown": {
         "article_score": 18,
@@ -452,44 +670,44 @@
       "sources": [
         "Bangkok Post",
         "France24",
-        "Times of India"
+        "SCMP"
       ],
-      "first_published_at": "2026-09-10T11:45:00+09:00",
-      "latest_published_at": "2026-09-10T22:55:18+09:00",
+      "first_published_at": "2026-09-10T21:50:24+09:00",
+      "latest_published_at": "2026-09-11T03:19:12+09:00",
       "articles": [
         {
-          "title": "Yemen's Iran-backed Houthi rebels seize strategic Red Sea port city of Mocha",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran",
-          "published_at": "22:55"
+          "title": "Israel destroys Hezbollah tunnel network in Lebanon, triggering tremor",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367135/israel-destroys-hezbollah-tunnel-network-south-lebanon-triggering-tremor?utm_source=rss_feed",
+          "published_at": "03:19"
         },
         {
-          "title": "Houthis seize Yemen's strategic Red Sea port city of Mokha from Saudi-backed forces",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/houthis-seize-yemens-strategic-red-sea-port-city-of-mokha-from-saudi-backed-forces/articleshow/134025249.cms",
-          "published_at": "18:29"
-        },
-        {
-          "title": "Yemen's Houthis seize key city on Red Sea: military source",
+          "title": "Tremor recorded as Israel says Hezbollah tunnels destroyed in south Lebanon",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317344/yemens-houthis-seize-key-city-on-red-sea-military-source",
-          "published_at": "11:45"
+          "url": "https://www.bangkokpost.com/world/3317829/tremor-recorded-as-israel-says-hezbollah-tunnels-destroyed-in-south-lebanon",
+          "published_at": "02:00"
+        },
+        {
+          "title": "Israel destroys Hezbollah tunnel network in south Lebanon, triggering 4.1-magnitude tremor",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260910-israel-hezbollah-tunnels-lebanon-earthquake",
+          "published_at": "21:50"
         }
       ]
     },
     {
-      "id": "world-84",
-      "title": "3,000 drones light up New York skyline in 9/11 tribute",
-      "title_en": "3,000 drones light up New York skyline in 9/11 tribute",
+      "id": "world-159",
+      "title": "9/11 테러 이후 25년이 지났지만 알카에다는 여전히 아프가니스탄에 본거지를 두고 있습니다.",
+      "title_en": "25 Years After 9/11, Al Qaeda Still Has a Home in Afghanistan",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/video/2026/09/10/3000-drones-light-up-new-york-skyline-in-911-tribute",
-      "category": "미국",
-      "primary_source": "Euronews",
-      "excerpt": "A drone light show illuminated the New York City skyline Wednesday night during a test for the 'Tribute in Light' installation that will mark the 25th anniversary of the September 11 attacks. A total ",
-      "excerpt_en": "A drone light show illuminated the New York City skyline Wednesday night during a test for the 'Tribute in Light' installation that will mark the 25th anniversary of the September 11 attacks. A total ",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260910-9-11-drones-light-up-nyc-ahead-of-25th-anniversary",
-      "translation_status": "failed",
+      "title_url": "https://www.nytimes.com/2026/09/10/world/asia/25-years-after-9-11-al-qaeda-still-has-a-home-in-afghanistan.html",
+      "category": "아시아",
+      "primary_source": "New York Times",
+      "excerpt": "9/11 테러 이후 25년이 지난 지금, 테러단체 알카에다는 더 이상 예전의 글로벌 테러조직이 ​​아닙니다. 중앙 리더십은 약해졌으나 아프리카와 AS 전역에서 분파들은 여전히 ​​강세를 유지하고 있습니다.",
+      "excerpt_en": "25 years after 9/11, the terrorist group al-Qaeda is no longer the global terrorist organization it once was. Its central leadership has been weakened, but offshoots remain strong across Africa and As",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/25-years-after-9-11-al-qaeda-weakened-but-not-gone/a-79202457?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
       "score": 76,
       "score_breakdown": {
         "article_score": 18,
@@ -504,46 +722,46 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Euronews",
-        "France24",
-        "Sydney Morning Herald"
+        "DW",
+        "Hindustan Times",
+        "New York Times"
       ],
-      "first_published_at": "2026-09-10T13:31:41+09:00",
-      "latest_published_at": "2026-09-10T19:58:23+09:00",
+      "first_published_at": "2026-09-10T09:02:44+09:00",
+      "latest_published_at": "2026-09-11T02:45:14+09:00",
       "articles": [
         {
-          "title": "Drone display honours 9/11 victims",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/drone-display-honours-9-11-victims-20260911-p60wfn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "19:58"
+          "title": "25 years after 9/11: The warnings, ‘muscle hijackers’ and details you may not know",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/25-years-after-9-11-the-warnings-muscle-hijackers-and-details-you-may-not-know-laden-al-qaeda-bush-trump-new-york-101789092573637.html",
+          "published_at": "02:45"
         },
         {
-          "title": "9/11: Drones light up NYC ahead of 25th anniversary",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260910-9-11-drones-light-up-nyc-ahead-of-25th-anniversary",
-          "published_at": "15:46"
+          "title": "25 years after 9/11: Al-Qaeda weakened but not gone",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/25-years-after-9-11-al-qaeda-weakened-but-not-gone/a-79202457?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "18:05"
         },
         {
-          "title": "3,000 drones light up New York skyline in 9/11 tribute",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/09/10/3000-drones-light-up-new-york-skyline-in-911-tribute",
-          "published_at": "13:31"
+          "title": "25 Years After 9/11, Al Qaeda Still Has a Home in Afghanistan",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/10/world/asia/25-years-after-9-11-al-qaeda-still-has-a-home-in-afghanistan.html",
+          "published_at": "09:02"
         }
       ]
     },
     {
-      "id": "world-144",
-      "title": "Unsealed Swiss files to reveal shocking new twist in the search for Nazi doctor Josef Mengele, historians say",
+      "id": "world-262",
+      "title": "나치 의사 요제프 멩겔레(Josef Mengele) 수색 과정에서 충격적인 새로운 반전이 드러난 스위스 파일 공개",
       "title_en": "Unsealed Swiss files to reveal shocking new twist in the search for Nazi doctor Josef Mengele, historians say",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/europe/swiss-intelligence-dossier-josef-mengele-b3048052.html",
       "category": "유럽",
       "primary_source": "The Independent",
-      "excerpt": "The Swiss federal intelligence service on Thursday published a 200-page dossier on the notorious Nazi war criminal Josef Mengele, the German doctor known as the “Angel of Death” for conducting horrifi",
+      "excerpt": "스위스 연방정보국은 목요일 공포영화를 저지른 악명 높은 나치 전범이자 '죽음의 천사'로 알려진 독일 의사 요제프 멩겔레에 관한 200페이지 분량의 서류를 공개했다.",
       "excerpt_en": "The Swiss federal intelligence service on Thursday published a 200-page dossier on the notorious Nazi war criminal Josef Mengele, the German doctor known as the “Angel of Death” for conducting horrifi",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367107/switzerland-publishes-200-page-dossier-nazi-doctor-mengele-known-angel-death?utm_source=rss_feed",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 72,
       "score_breakdown": {
         "article_score": 18,
@@ -586,72 +804,72 @@
       ]
     },
     {
-      "id": "world-145",
-      "title": "Canada unveils US$254 million air defence package for Ukraine",
-      "title_en": "Canada unveils US$254 million air defence package for Ukraine",
+      "id": "world-8",
+      "title": "한국, 김정은에게 아들은 있지만 딸의 지위는 확실해 보인다",
+      "title_en": "S. Korea trying to learn if Kim Jong Un has a son but daughter's status appears solid",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3367106/canada-unveils-us254-million-air-defence-package-ukraine?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Canada ⁠has agreed to a C$350 million (US$254 million) aid package for Kyiv to acquire air defence interceptors, Prime Minister Mark Carney said on Thursday, after meeting Ukrainian President Volodymy",
-      "excerpt_en": "Canada ⁠has agreed to a C$350 million (US$254 million) aid package for Kyiv to acquire air defence interceptors, Prime Minister Mark Carney said on Thursday, after meeting Ukrainian President Volodymy",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3367106/canada-unveils-us254-million-air-defence-package-ukraine?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 71,
+      "title_url": "https://abcnews.com/International/wireStory/south-korea-learn-kim-jong-son-daughters-status-136328521",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "서울/베이징 — 커피 바. 워터파크. 소매치료. 여가나 즐거움을 떠올리는 나라가 거의 없는 북한에서는 예상치 못한 즐거움이 발생하고 있습니다.",
+      "excerpt_en": "SEOUL/BEIJING — Coffee bars. Waterparks. Retail therapy. North Korea — a country few would associate with leisure or pleasure — is experiencing an unlikely outbreak of fun.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3317933/kim-jong-un-wants-north-koreans-to-have-more-statesanctioned-fun",
+      "translation_status": "ok",
+      "score": 69,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
+        "major_score": 15,
+        "breaking_score": 1,
         "time_score": 3,
-        "raw75": 53
+        "raw75": 52
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "Hindustan Times",
-        "SCMP"
+        "ABC News",
+        "Bangkok Post",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-10T18:05:20+09:00",
-      "latest_published_at": "2026-09-10T20:47:23+09:00",
+      "first_published_at": "2026-09-10T10:18:20+09:00",
+      "latest_published_at": "2026-09-11T04:26:00+09:00",
       "articles": [
         {
-          "title": "Canada agrees on C$350 million air defense package for Ukraine, Carney says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/canada-agrees-c350-million-air-defense-package-ukraine-carney-says-6375251",
-          "published_at": "20:47"
+          "title": "Kim Jong Un wants North Koreans to have more (state-sanctioned) fun",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3317933/kim-jong-un-wants-north-koreans-to-have-more-statesanctioned-fun",
+          "published_at": "04:26"
         },
         {
-          "title": "Canada agrees on C$350 million air defense package for Ukraine, Carney says",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/canada-agrees-on-c-350-million-air-defense-package-for-ukraine-carney-says-101789066245660.html",
-          "published_at": "18:50"
+          "title": "Kim Jong Un wants North Koreans to have more (state-sanctioned) fun",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNDREekN4OWVSWnN4YkY1XzctdzFDOHBWbmtCanpBaW5zLXhOeG9LWVV1dWdzcWhZUEltVDJMOTdIYkdHcnJvOXZMVnBaWFUwSjdwX2xtQllISy1KcmZUeWZ6R0k4RlpVZXYtejlaTkhOZHlrRDAteGxKZldEODFfNjk4WnVlR0lrUVVyMm1yLVF5Y0Fac2JLcmwwaG0xMFhGbXhiUUxFaw?oc=5",
+          "published_at": "03:00"
         },
         {
-          "title": "Canada unveils US$254 million air defence package for Ukraine",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3367106/canada-unveils-us254-million-air-defence-package-ukraine?utm_source=rss_feed",
-          "published_at": "18:05"
+          "title": "S. Korea trying to learn if Kim Jong Un has a son but daughter's status appears solid",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/south-korea-learn-kim-jong-son-daughters-status-136328521",
+          "published_at": "10:18"
         }
       ]
     },
     {
-      "id": "world-19",
-      "title": "Vance takes spotlight as Republicans close Trump-heavy convention",
-      "title_en": "Vance takes spotlight as Republicans close Trump-heavy convention",
+      "id": "world-144",
+      "title": "우크라이나, 중동 전쟁이 다가옴에 따라 BRICS 정상 회담을 위해 인도에서 푸틴과 시",
+      "title_en": "Putin and Xi in India for BRICS summit as Ukraine, Middle East wars loom",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3317339/vance-takes-spotlight-as-republicans-close-trumpheavy-convention",
-      "category": "미국",
-      "primary_source": "Bangkok Post",
-      "excerpt": "DALLAS (UNITED STATES) - US Republicans returned to the stage Thursday to close their midterm convention, still betting that Donald Trump's political magnetism can overcome grim election forecasts -- ",
-      "excerpt_en": "DALLAS (UNITED STATES) - US Republicans returned to the stage Thursday to close their midterm convention, still betting that Donald Trump's political magnetism can overcome grim election forecasts -- ",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3317339/vance-takes-spotlight-as-republicans-close-trumpheavy-convention",
-      "translation_status": "failed",
+      "title_url": "https://www.france24.com/en/asia-pacific/20260911-putin-xi-india-brics-summit-ukraine-middle-east-wars",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "블라디미르 푸틴 러시아 대통령은 우크라이나와 중동 전쟁, 경제적 도전에 초점을 맞출 것으로 예상되는 이틀간의 BRICS 정상회담을 위해 금요일 뉴델리에 도착했습니다. 푸틴과 이란의 마수드 페즈",
+      "excerpt_en": "Russian President Vladimir Putin arrived in New Delhi on Friday for a two-day BRICS summit expected to focus on wars in Ukraine and the Middle East and economic challenges. Putin and Iran’s Masoud Pez",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/asia-pacific/20260911-putin-xi-india-brics-summit-ukraine-middle-east-wars",
+      "translation_status": "ok",
       "score": 69,
       "score_breakdown": {
         "article_score": 18,
@@ -668,223 +886,158 @@
       "sources": [
         "Al Jazeera",
         "Bangkok Post",
-        "Sydney Morning Herald"
+        "France24"
       ],
-      "first_published_at": "2026-09-10T11:45:00+09:00",
-      "latest_published_at": "2026-09-10T21:31:03+09:00",
+      "first_published_at": "2026-09-11T02:08:34+09:00",
+      "latest_published_at": "2026-09-11T04:45:00+09:00",
       "articles": [
         {
-          "title": "Republican midterm convention live: Trump, Vance headline day two in Dallas",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/10/republican-midterm-convention-live-trump-headlines-day-2-of-dallas-rally?traffic_source=rss",
-          "published_at": "21:31"
-        },
-        {
-          "title": "Day two of Republican midterm convention",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/day-two-of-republican-midterm-convention-20260911-p60wfv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "20:12"
-        },
-        {
-          "title": "Vance takes spotlight as Republicans close Trump-heavy convention",
+          "title": "Putin in India for Brics summit overshadowed by war",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317339/vance-takes-spotlight-as-republicans-close-trumpheavy-convention",
-          "published_at": "11:45"
+          "url": "https://www.bangkokpost.com/world/3317953/putin-in-india-for-brics-summit-overshadowed-by-war",
+          "published_at": "04:45"
+        },
+        {
+          "title": "Putin lands in India for BRICs summit, shadowed by Iran and Ukraine wars",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/11/putin-lands-in-india-for-brics-summit-shadowed-by-iran-and-ukraine-wars?traffic_source=rss",
+          "published_at": "02:40"
+        },
+        {
+          "title": "Putin and Xi in India for BRICS summit as Ukraine, Middle East wars loom",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20260911-putin-xi-india-brics-summit-ukraine-middle-east-wars",
+          "published_at": "02:08"
         }
       ]
     },
     {
-      "id": "world-202",
-      "title": "UT Knoxville under fire over ‘Kirkaversary’ parties celebrating Charlie Kirk's murder, disturbing screenshots surface",
-      "title_en": "UT Knoxville under fire over ‘Kirkaversary’ parties celebrating Charlie Kirk's murder, disturbing screenshots surface",
+      "id": "world-231",
+      "title": "고 왕의 가족이 TV 앵커 후계자를 거부한 후 왕실 갈등이 우간다 왕국을 휩쓸었습니다.",
+      "title_en": "Royal row engulfs Ugandan kingdom after late king's family rejects TV anchor successor",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/ut-knoxville-under-fire-over-kirkaversary-parties-celebrating-charlie-kirks-murder-disturbing-screenshots-surface-101789019505393.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Some students are protesting on the anniversary of Kirk’s death after the university canceled classes and allowed Turning Point USA to host a memorial at its event center",
-      "excerpt_en": "Some students are protesting on the anniversary of Kirk’s death after the university canceled classes and allowed Turning Point USA to host a memorial at its event center",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/charlie-kirk-memorial-utah-valley-university-b3048194.html",
-      "translation_status": "failed",
+      "title_url": "https://news.sky.com/story/royal-row-engulfs-ugandan-kingdom-after-late-kings-family-rejects-tv-anchor-successor-13583964",
+      "category": "미국",
+      "primary_source": "Sky News",
+      "excerpt": "뉴욕 — 텔레비전 앵커. 젊고 신비한 상속자. 빅G라는 별명을 가진 아마추어 축구선수. 이들은 우간다 투로 왕국의 왕위 계승 후보로 제의된 사람들이었다.",
+      "excerpt_en": "NEW YORK — A television anchor. A young, mysterious heir. An amateur football player nicknamed “Big G.” Those were the people offered as candidates for the throne of the Tooro Kingdom in Uganda, after",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3317924/a-succession-battle-erupts-over-a-late-ugandan-monarch",
+      "translation_status": "ok",
       "score": 69,
       "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 10,
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Bangkok Post",
+        "New York Times",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-10T12:20:00+09:00",
+      "latest_published_at": "2026-09-11T04:00:00+09:00",
+      "articles": [
+        {
+          "title": "A succession battle erupts over a late Ugandan monarch",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3317924/a-succession-battle-erupts-over-a-late-ugandan-monarch",
+          "published_at": "04:00"
+        },
+        {
+          "title": "A Succession Battle Erupts Over a Late Ugandan Monarch",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/10/world/africa/uganda-tooro-kingdom-heir-succession.html",
+          "published_at": "21:16"
+        },
+        {
+          "title": "Royal row engulfs Ugandan kingdom after late king's family rejects TV anchor successor",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/royal-row-engulfs-ugandan-kingdom-after-late-kings-family-rejects-tv-anchor-successor-13583964",
+          "published_at": "12:20"
+        }
+      ]
+    },
+    {
+      "id": "world-137",
+      "title": "Pegula는 Sabalenka에게 경의를 표하고 US Open에서 큰 걸음으로 패배했습니다.",
+      "title_en": "Pegula salutes Sabalenka and takes US Open defeat in stride",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/sport/pegula-salutes-sabalenka-and-takes-us-open-defeat-in-stride-6377696",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Elena Rybakina는 치열한 US 오픈 준결승에서 Coco Gauff를 제치고 디펜딩 챔피언 Aryna ‌Sabalenka와의 타이틀 대결을 확보했습니다.",
+      "excerpt_en": "Elena Rybakina overpowers Coco Gauff ​in a fierce US Open semifinal to secure a title showdown with defending ​champion Aryna ‌Sabalenka.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-11/us-open-aryna-sabalenka-elena-rybakina-final/107143572",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
         "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-10T06:03:02+09:00",
-      "latest_published_at": "2026-09-10T21:01:17+09:00",
-      "articles": [
-        {
-          "title": "10 Charlie Kirk quotes that defined the TPUSA founder's beliefs, one year after his assassination",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/10-charlie-kirk-quotes-that-defined-the-tpusa-founders-beliefs-one-year-after-his-assassination-101789068055128.html",
-          "published_at": "21:01"
-        },
-        {
-          "title": "Utah Valley University remains divided a year after Charlie Kirk’s assassination. His picture still haunts the campus",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/charlie-kirk-memorial-utah-valley-university-b3048194.html",
-          "published_at": "20:04"
-        },
-        {
-          "title": "‘Good men must die, but…’: Charlie Kirk's 2013 post resurfaces one year after his assassination",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/good-men-must-die-but-charlie-kirks-2013-post-resurfaces-one-year-after-his-assassination-101789026998372.html",
-          "published_at": "08:02"
-        },
-        {
-          "title": "What is ‘Kirkification’? Charlie Kirk fans slam face-swap AI trend as they mourn assassination one year on",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/what-is-kirkification-face-swap-ai-trend-slammed-as-charlie-kirk-fans-mourn-assassination-one-year-on-101789025360450.html",
-          "published_at": "07:53"
-        },
-        {
-          "title": "Who are Charlie Kirk's parents, where are they now? Family in focus one year after TPUSA founder's assassination",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-are-charlie-kirks-parents-where-are-they-now-family-in-focus-one-year-after-tpusa-founders-assassination-101789019874120.html",
-          "published_at": "06:23"
-        },
-        {
-          "title": "UT Knoxville under fire over ‘Kirkaversary’ parties celebrating Charlie Kirk's murder, disturbing screenshots surface",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/ut-knoxville-under-fire-over-kirkaversary-parties-celebrating-charlie-kirks-murder-disturbing-screenshots-surface-101789019505393.html",
-          "published_at": "06:03"
-        }
-      ]
-    },
-    {
-      "id": "world-208",
-      "title": "There were many Aussies in New York on 9/11. I was one of them",
-      "title_en": "There were many Aussies in New York on 9/11. I was one of them",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/there-were-many-aussies-in-new-york-on-9-11-i-was-one-of-them-20260831-p60syj.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "A new documentary retells the story of the World Trade Center’s iconic top-floor restaurant, Windows on the World. For the surviving staff, its legacy rests not on how it ended but on the workplace th",
-      "excerpt_en": "A new documentary retells the story of the World Trade Center’s iconic top-floor restaurant, Windows on the World. For the surviving staff, its legacy rests not on how it ended but on the workplace th",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/911-documentary-restaurant-anniversary-cnn-b3048208.html",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
         "breaking_score": 1,
         "time_score": 3,
-        "raw75": 52
+        "raw75": 51
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "Sydney Morning Herald",
-        "The Independent"
+        "ABC News Australia",
+        "Al Jazeera",
+        "Channel News Asia"
       ],
-      "first_published_at": "2026-09-10T05:30:00+09:00",
-      "latest_published_at": "2026-09-10T22:00:00+09:00",
+      "first_published_at": "2026-09-11T02:51:14+09:00",
+      "latest_published_at": "2026-09-11T04:56:48+09:00",
       "articles": [
         {
-          "title": "Trapped on the 106th floor: The inside story of 73 restaurant workers above 9/11 impact zone",
+          "title": "Sabalenka beats Pegula to set up Rybakina epic in US Open final",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/11/sabalenka-beats-pegula-to-set-up-rybakina-epic-in-us-open-final?traffic_source=rss",
+          "published_at": "04:56"
+        },
+        {
+          "title": "Rybakina beats Gauff to book US Open final against Sabalenka",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-11/us-open-aryna-sabalenka-elena-rybakina-final/107143572",
+          "published_at": "04:08"
+        },
+        {
+          "title": "Rybakina books US Open final with defending champion Sabalenka",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/cna-insider/911-windows-world-trade-center-73-restaurant-workers-trapped-6372771",
-          "published_at": "22:00"
+          "url": "https://www.channelnewsasia.com/sport/rybakina-books-us-open-final-defending-champion-sabalenka-6377776",
+          "published_at": "03:22"
         },
         {
-          "title": "A shift swap on 9/11: The story of the World Trade Center restaurant staff who lost their lives",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/911-documentary-restaurant-anniversary-cnn-b3048208.html",
-          "published_at": "19:00"
-        },
-        {
-          "title": "There were many Aussies in New York on 9/11. I was one of them",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/there-were-many-aussies-in-new-york-on-9-11-i-was-one-of-them-20260831-p60syj.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "05:30"
+          "title": "Pegula salutes Sabalenka and takes US Open defeat in stride",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/pegula-salutes-sabalenka-and-takes-us-open-defeat-in-stride-6377696",
+          "published_at": "02:51"
         }
       ]
     },
     {
-      "id": "world-238",
-      "title": "Jimmy Kimmel says interview with rising Democratic star won’t air on ABC amid FCC threats",
-      "title_en": "Jimmy Kimmel says interview with rising Democratic star won’t air on ABC amid FCC threats",
+      "id": "world-151",
+      "title": "오스카상을 수상한 이스라엘 영화제작자들의 가자 전쟁 다큐멘터리가 베니스 영화제에서 초연됩니다.",
+      "title_en": "Oscar-winning Israeli filmmakers' documentary on Gaza war premieres at Venice Film Festival",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/arts-entertainment/tv/news/jimmy-kimmel-james-talarico-interview-fcc-b3047879.html",
-      "category": "미국",
+      "title_url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-james-wilson-hamas-italy-b3048128.html",
+      "category": "중동",
       "primary_source": "The Independent",
-      "excerpt": "ABC late-night talk show host Jimmy Kimmel said an interview with Democratic Senate candidate James Talarico on Thursday will air on YouTube and not during the network broadcast, citing threats from t",
-      "excerpt_en": "ABC late-night talk show host Jimmy Kimmel said an interview with Democratic Senate candidate James Talarico on Thursday will air on YouTube and not during the network broadcast, citing threats from t",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/kimmel-talarico-interview-fcc-abc-9.7339071?cmp=rss",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-10T11:31:26+09:00",
-      "latest_published_at": "2026-09-10T22:40:42+09:00",
-      "articles": [
-        {
-          "title": "Jimmy Kimmel blocked from airing James Talarico interview",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/jimmy-kimmel-blocked-from-airing-james-talarico-interview-20260911-p60wgu.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "22:40"
-        },
-        {
-          "title": "Kimmel says interview with Democratic candidate won't air on his network show, cites FCC threats",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/kimmel-talarico-interview-fcc-abc-9.7339071?cmp=rss",
-          "published_at": "18:32"
-        },
-        {
-          "title": "Jimmy Kimmel says interview with rising Democratic star won’t air on ABC amid FCC threats",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/jimmy-kimmel-james-talarico-interview-fcc-b3047879.html",
-          "published_at": "11:31"
-        }
-      ]
-    },
-    {
-      "id": "world-88",
-      "title": "Wall Street Journal publisher convicted in Hong Kong of deterring reporter from union role",
-      "title_en": "Wall Street Journal publisher convicted in Hong Kong of deterring reporter from union role",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/sep/10/wall-street-journal-selina-cheng-termination-lawsuit",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "Dow Jones convicted of one count of deterring Selina Cheng from role at Hong Kong Journalist Association but cleared of second charge A Hong Kong court has convicted the publisher of the Wall Street J",
-      "excerpt_en": "Dow Jones convicted of one count of deterring Selina Cheng from role at Hong Kong Journalist Association but cleared of second charge A Hong Kong court has convicted the publisher of the Wall Street J",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/10/wall-street-journal-selina-cheng-termination-lawsuit",
-      "translation_status": "failed",
+      "excerpt": "이스라엘의 AI 기반 가자 지구 민간인 대량 학살에 관한 오싹한 새 다큐멘터리가 오스카상을 수상한 두 명의 이스라엘 영화제작자가 베니스 영화제에서 초연하여 25분 동안 박수를 받았습니다.",
+      "excerpt_en": "A chilling new documentary about Israel’s AI-powered mass killing of civilians in Gaza from two Oscar-winning Israeli filmmakers received a 25-minute ovation at its premiere at the Venice Film Festiva",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367128/israeli-film-ai-backed-gaza-killings-gets-25-minute-venice-ovation?utm_source=rss_feed",
+      "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
         "article_score": 18,
@@ -899,215 +1052,113 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News",
+        "Al Jazeera",
         "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-10T16:06:53+09:00",
+      "latest_published_at": "2026-09-11T02:42:15+09:00",
+      "articles": [
+        {
+          "title": "Israeli film on AI-backed Gaza killings gets 25-minute Venice ovation",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367128/israeli-film-ai-backed-gaza-killings-gets-25-minute-venice-ovation?utm_source=rss_feed",
+          "published_at": "02:42"
+        },
+        {
+          "title": "Israeli film on Gaza receives 25-minute ovation at Venice premiere",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/11/israeli-film-on-gaza-receives-25-minute-ovation-at-venice-premiere?traffic_source=rss",
+          "published_at": "00:14"
+        },
+        {
+          "title": "Oscar-winning Israeli filmmakers' documentary on Gaza war premieres at Venice Film Festival",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-james-wilson-hamas-italy-b3048128.html",
+          "published_at": "16:06"
+        }
+      ]
+    },
+    {
+      "id": "world-209",
+      "title": "다이애나 왕세자비 '복수복' 수십년 만에 경매에 나와",
+      "title_en": "Princess Diana’s ‘revenge dress’ up for auction for first time in decades",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367110/princess-dianas-revenge-dress-be-auction-first-time-decades?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "1994년의 크리스티나 스탬볼리안(Christina Stambolian) 드레스는 패션의 전체 카테고리를 정의했으며 최대 £220,000에 팔릴 것으로 예상됩니다. 웨일스의 공주인 다이애나가 1994년 9월 어느 날 저녁에 입었던 드레스는",
+      "excerpt_en": "Christina Stambolian dress from 1994 has defined a whole category of fashion and is expected to fetch up to £220,000 The dress that Diana, Princess of Wales wore one September evening in 1994 would ha",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/uk-news/2026/sep/11/diana-revenge-dress-auction-sothebys-stambolian",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 51
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "SCMP",
+        "Sydney Morning Herald",
         "The Guardian"
       ],
-      "first_published_at": "2026-09-10T05:57:31+09:00",
-      "latest_published_at": "2026-09-10T12:15:51+09:00",
+      "first_published_at": "2026-09-10T22:39:41+09:00",
+      "latest_published_at": "2026-09-11T05:00:02+09:00",
       "articles": [
         {
-          "title": "Wall Street Journal publisher convicted for blocking reporter’s bid to lead union",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367085/wall-street-journal-publisher-convicted-blocking-reporters-bid-lead-union?utm_source=rss_feed",
-          "published_at": "12:15"
-        },
-        {
-          "title": "Hong Kong court convicts publisher of deterring reporter from taking union role",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/hong-kong-court-convicts-wall-street-journal-publisher-136326720",
-          "published_at": "10:50"
-        },
-        {
-          "title": "Wall Street Journal publisher convicted in Hong Kong of deterring reporter from union role",
+          "title": "Diana’s ‘revenge dress’, worn when Charles revealed infidelity, up for auction",
           "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/wall-street-journal-selina-cheng-termination-lawsuit",
-          "published_at": "05:57"
-        }
-      ]
-    },
-    {
-      "id": "world-166",
-      "title": "Yemen’s Houthis close in on strategic Bab el-Mandeb Strait in new threat to shipping",
-      "title_en": "Yemen’s Houthis close in on strategic Bab el-Mandeb Strait in new threat to shipping",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3367067/yemens-houthis-seize-port-city-mocha-closing-control-bab-el-mandeb-strait?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Yemen’s Iran-aligned Houthi militants have ⁠reached the Red Sea islands of Hanish after capturing the coastal city of Mocha, two Yemeni government sources said, in a dramatic strategic shift that coul",
-      "excerpt_en": "Yemen’s Iran-aligned Houthi militants have ⁠reached the Red Sea islands of Hanish after capturing the coastal city of Mocha, two Yemeni government sources said, in a dramatic strategic shift that coul",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367067/yemens-houthis-seize-port-city-mocha-closing-control-bab-el-mandeb-strait?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Euronews",
-        "Fox News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-10T10:30:26+09:00",
-      "latest_published_at": "2026-09-10T19:03:56+09:00",
-      "articles": [
-        {
-          "title": "Iran-backed terror group’s latest territorial grab threatens second global shipping chokepoint",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint",
-          "published_at": "19:03"
+          "url": "https://www.theguardian.com/uk-news/2026/sep/11/diana-revenge-dress-auction-sothebys-stambolian",
+          "published_at": "05:00"
         },
         {
-          "title": "Houthis blitz Yemen's Red Sea coastline in push to seize Bab el-Mandeb",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb",
-          "published_at": "15:59"
+          "title": "Diana’s risque ‘revenge dress’ is up for sale – and it’s grossly undervalued",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/diana-s-risqu-revenge-dress-is-up-for-sale-and-it-s-grossly-undervalued-20260911-p60wg6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "01:33"
         },
         {
-          "title": "Yemen’s Houthis close in on strategic Bab el-Mandeb Strait in new threat to shipping",
+          "title": "Diana's 'revenge dress' goes up for sale",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/dianas-revenge-dress-goes-up-for-sale-20260911-p60wif.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "00:15"
+        },
+        {
+          "title": "Princess Diana’s ‘revenge dress’ up for auction for first time in decades",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367067/yemens-houthis-seize-port-city-mocha-closing-control-bab-el-mandeb-strait?utm_source=rss_feed",
-          "published_at": "10:30"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367110/princess-dianas-revenge-dress-be-auction-first-time-decades?utm_source=rss_feed",
+          "published_at": "22:39"
         }
       ]
     },
     {
-      "id": "world-35",
-      "title": "More than a dozen children killed in fire in eastern DR Congo schools",
-      "title_en": "More than a dozen children killed in fire in eastern DR Congo schools",
+      "id": "world-91",
+      "title": "한국, 미국의 수십억 달러 투자 합의에 가까워져 트럼프의 승리",
+      "title_en": "South Korea nears agreement on billions in U.S. investments, a win for Trump",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/more-than-a-dozen-children-killed-in-fire-in-eastern-dr-congo-schools?traffic_source=rss",
-      "category": "기타",
-      "primary_source": "Al Jazeera",
-      "excerpt": "A deadly blaze left as least 26 students dead and dozens injured after a fire swept through two schools in the Democratic Republic of Congo (DRC).",
-      "excerpt_en": "A deadly blaze left as least 26 students dead and dozens injured after a fire swept through two schools in the Democratic Republic of Congo (DRC).",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/at-least-26-students-killed-after-fire-sweeps-through-two-schools-in-dr-congo-13584135",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 50
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Al Jazeera",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-10T17:45:19+09:00",
-      "latest_published_at": "2026-09-10T20:07:00+09:00",
-      "articles": [
-        {
-          "title": "At least 26 students dead after DR Congo school fire",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/at-least-26-students-killed-after-fire-sweeps-through-two-schools-in-dr-congo-13584135",
-          "published_at": "20:07"
-        },
-        {
-          "title": "Fire in eastern Congo kills at least 24 students at 2 schools",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fire-eastern-congo-kills-24-students-2-schools-136342073",
-          "published_at": "17:45"
-        },
-        {
-          "title": "More than a dozen children killed in fire in eastern DR Congo schools",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/more-than-a-dozen-children-killed-in-fire-in-eastern-dr-congo-schools?traffic_source=rss",
-          "published_at": "17:45"
-        }
-      ]
-    },
-    {
-      "id": "world-45",
-      "title": "Several killed in coach crash in eastern Switzerland",
-      "title_en": "Several killed in coach crash in eastern Switzerland",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "유럽",
-      "primary_source": "DW",
-      "excerpt": "Several people were killed and others injured in a tourist bush crash near the alpine village of Susch in Switzerland's eastern canton of Graubünden.",
-      "excerpt_en": "Several people were killed and others injured in a tourist bush crash near the alpine village of Susch in Switzerland's eastern canton of Graubünden.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 50
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "DW",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-10T19:10:00+09:00",
-      "latest_published_at": "2026-09-10T20:53:00+09:00",
-      "articles": [
-        {
-          "title": "Several killed and injured in Swiss Alps coach crash",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/several-killed-and-injured-as-dutch-tour-bus-overturns-in-swiss-alps-13584148",
-          "published_at": "20:53"
-        },
-        {
-          "title": "Several dead after tour bus overturns in Switzerland, police say",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/tour-bus-overturn-switzerland-9.7339330?cmp=rss",
-          "published_at": "20:27"
-        },
-        {
-          "title": "Several killed in coach crash in eastern Switzerland",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "19:10"
-        }
-      ]
-    },
-    {
-      "id": "world-29",
-      "title": "Day after 'warning', Pakistan says no military response ‘right now’ over Houthi attacks on Saudi",
-      "title_en": "Day after 'warning', Pakistan says no military response ‘right now’ over Houthi attacks on Saudi",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/pakistan-backtracks-after-warning-iran-says-no-military-response-right-now-over-houthi-attacks-on-saudi-101789044677981.html",
-      "category": "중동",
+      "title_url": "https://www.hindustantimes.com/world-news/south-korea-nears-agreement-on-billions-in-u-s-investments-a-win-for-trump-101789026660540.html",
+      "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "Pakistan spokesperson was responding to a question on how Islamabad planned to fulfil its obligations under pact signed with Turkey and Saudi Arabia.",
-      "excerpt_en": "Pakistan spokesperson was responding to a question on how Islamabad planned to fulfil its obligations under pact signed with Turkey and Saudi Arabia.",
+      "excerpt": "원자력에 대한 대규모 투자를 포함할 수 있는 잠재적인 거래는 지난해 한미 무역 협정의 일부입니다.",
+      "excerpt_en": "The potential deals, which could include large investments in nuclear energy, are part of last year’s U.S.-South Korea trade deal.",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/pakistan-backtracks-after-warning-iran-says-no-military-response-right-now-over-houthi-attacks-on-saudi-101789044677981.html",
-      "translation_status": "failed",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/south-korea-nears-agreement-on-billions-in-u-s-investments-a-win-for-trump-101789026660540.html",
+      "translation_status": "ok",
       "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
+        "breaking_score": 9,
+        "time_score": 1,
         "raw75": 47
       },
       "area_value": 2,
@@ -1115,93 +1166,140 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
+        "Hindustan Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-10T13:06:15+09:00",
-      "latest_published_at": "2026-09-10T20:06:04+09:00",
+      "first_published_at": "2026-09-10T12:31:03+09:00",
+      "latest_published_at": "2026-09-10T14:37:35+09:00",
       "articles": [
         {
-          "title": "Could Pakistan enter Yemen conflict under Mecca agreement?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-sv-pakistan-yemen-mecca-pk?traffic_source=rss",
-          "published_at": "20:06"
+          "title": "South Korea nears agreement worth over $100 billion in US investments, WSJ reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYXh3SHMxbzllUGJnclFIalRIbGYxdndyUDFocDk4d1RMdmFWaGRkNklsNmcwMHh6REZlMC1HbEVNMEJXbVJIT2FvOEhTNnVLWGtLc2NoMlNJNGZQUHlVdVc0aVB1RmtCc2tvWVdLREVmUDg1d3VnaVFSck82Umlra3ZjdnF5RGZINk5uMWZ3VDZ3Z1Q2UUplc0QxUDJsSGUwTjd6NFNQbGlYZGQzbUl4aGtrM0Nyem9Ma2tmaW0zSFdFWnlBX3Z0N256UlI?oc=5",
+          "published_at": "14:37"
         },
         {
-          "title": "Day after 'warning', Pakistan says no military response ‘right now’ over Houthi attacks on Saudi",
+          "title": "South Korea nears agreement on billions in U.S. investments, a win for Trump",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pakistan-backtracks-after-warning-iran-says-no-military-response-right-now-over-houthi-attacks-on-saudi-101789044677981.html",
-          "published_at": "13:06"
+          "url": "https://www.hindustantimes.com/world-news/south-korea-nears-agreement-on-billions-in-u-s-investments-a-win-for-trump-101789026660540.html",
+          "published_at": "12:31"
         }
       ]
     },
     {
-      "id": "world-101",
-      "title": "In their words: Israeli forces describe AI-backed Gaza killing in new film",
-      "title_en": "In their words: Israeli forces describe AI-backed Gaza killing in new film",
+      "id": "world-215",
+      "title": "공화당 중간 전당대회 둘째 날",
+      "title_en": "Day two of Republican midterm convention",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3317360/in-their-words-israeli-forces-describe-aibacked-gaza-killing-in-new-film",
+      "title_url": "https://www.smh.com.au/world/day-two-of-republican-midterm-convention-20260911-p60wfv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Testimony from Israeli military insiders involved in surveillance and remote killings features in documentary produced by the Guardian Testimony from 24 Israeli military insiders ​on the secret ​syste",
-      "excerpt_en": "Testimony from Israeli military insiders involved in surveillance and remote killings features in documentary produced by the Guardian Testimony from 24 Israeli military insiders ​on the secret ​syste",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "JD 밴스(JD Vance) 부통령은 목요일 밤 자신이 도널드 트럼프의 후계자가 되어야 한다는 점을 분명히 밝혔습니다.",
+      "excerpt_en": "Vice-president dog-whistled, exaggerated claims of success and echoed Trump talking points to excited audience JD Vance made a clear pitch that he should be the heir to Donald Trump on Thursday night,",
       "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/10/secret-systems-used-by-israel-in-mass-killings-of-gaza-civilians-revealed-in-new-film",
-      "translation_status": "failed",
-      "score": 61,
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/10/jd-vance-republican-midterm-convention",
+      "translation_status": "ok",
+      "score": 63,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 3,
+        "raw75": 47
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Bangkok Post",
+        "Sydney Morning Herald",
         "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-10T12:45:00+09:00",
-      "latest_published_at": "2026-09-10T16:06:53+09:00",
+      "first_published_at": "2026-09-10T20:12:41+09:00",
+      "latest_published_at": "2026-09-11T03:52:38+09:00",
       "articles": [
         {
-          "title": "Oscar-winning Israeli filmmakers' documentary on Gaza war premieres at Venice Film Festival",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-james-wilson-hamas-italy-b3048128.html",
-          "published_at": "16:06"
-        },
-        {
-          "title": "Secret systems used by Israel in mass killings of Gaza civilians revealed in new film",
+          "title": "JD Vance pitches himself as Trump’s political heir on day two of Republican midterm convention",
           "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/10/secret-systems-used-by-israel-in-mass-killings-of-gaza-civilians-revealed-in-new-film",
-          "published_at": "13:42"
+          "url": "https://www.theguardian.com/us-news/2026/sep/10/jd-vance-republican-midterm-convention",
+          "published_at": "03:52"
         },
         {
-          "title": "In their words: Israeli forces describe AI-backed Gaza killing in new film",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317360/in-their-words-israeli-forces-describe-aibacked-gaza-killing-in-new-film",
-          "published_at": "12:45"
+          "title": "JD Vance offers to buy protester who interrupted speech a plane ticket to Mexico: ‘Get your a** over there’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jd-vance-mexican-flag-protester-midterm-convention-b3048325.html",
+          "published_at": "02:50"
+        },
+        {
+          "title": "Day two of Republican midterm convention",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/day-two-of-republican-midterm-convention-20260911-p60wfv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:12"
         }
       ]
     },
     {
-      "id": "world-163",
-      "title": "China ready to help Trump meet North Korea’s Kim",
-      "title_en": "China ready to help Trump meet North Korea’s Kim",
+      "id": "world-16",
+      "title": "이스라엘은 레바논 알리 알 타헤르의 헤즈볼라 지하 단지를 파괴했다고 밝혔습니다.",
+      "title_en": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367047/china-ready-help-trump-meet-north-koreas-kim?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "North Korean leader Kim Jong-un’s daughter and apparent successor is believed to have a younger sibling, South Korea’s spy agency has said, offering a more detailed view of the ruling family’s line of",
-      "excerpt_en": "North Korean leader Kim Jong-un’s daughter and apparent successor is believed to have a younger sibling, South Korea’s spy agency has said, offering a more detailed view of the ruling family’s line of",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3367074/does-north-koreas-kim-ju-ae-have-younger-sibling-seoul-thinks-so?utm_source=rss_feed",
-      "translation_status": "failed",
+      "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblRzTlVuUWduRmFCWk1jclBzM0pMX2h0T1dUcjk2YXY5ZWEtU0tYbjJsa2R1TnhfY1ZudGlGazcwTUE4WklnTTlyTUdRZ0dHdXRVUE9yOFItQlplM0twb1I2M0xDTUtrMnhFd0N2a1ByRHVHQ1JUbWdBN1RaSnRfZE8zYWJtR3RUWkFoUzFGbjlIWG9sVWtjOXdJYVdWem9pWkdfWTk5alJjSGpZbmNwNzlYejJzSm8xUWJQRzNjZTd4Y3hYZDktS0FR?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "이스라엘의 공격은 전략적 능선에 대한 작전 통제권을 확립했다고 말한 지 일주일 만에 이루어졌습니다.",
+      "excerpt_en": "Israeli attacks come a week after it said to have established operational control over the strategic ridge.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/10/israel-says-it-destroyed-hezbollah-base-in-lebanons-ali-al-taher-ridge?traffic_source=rss",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-10T20:21:00+09:00",
+      "latest_published_at": "2026-09-10T22:33:41+09:00",
+      "articles": [
+        {
+          "title": "Israel says it destroyed Hezbollah base in Lebanon’s Ali al-Taher ridge",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/israel-says-it-destroyed-hezbollah-base-in-lebanons-ali-al-taher-ridge?traffic_source=rss",
+          "published_at": "22:33"
+        },
+        {
+          "title": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblRzTlVuUWduRmFCWk1jclBzM0pMX2h0T1dUcjk2YXY5ZWEtU0tYbjJsa2R1TnhfY1ZudGlGazcwTUE4WklnTTlyTUdRZ0dHdXRVUE9yOFItQlplM0twb1I2M0xDTUtrMnhFd0N2a1ByRHVHQ1JUbWdBN1RaSnRfZE8zYWJtR3RUWkFoUzFGbjlIWG9sVWtjOXdJYVdWem9pWkdfWTk5alJjSGpZbmNwNzlYejJzSm8xUWJQRzNjZTd4Y3hYZDktS0FR?oc=5",
+          "published_at": "20:21"
+        }
+      ]
+    },
+    {
+      "id": "world-35",
+      "title": "트럼프 행정부는 중간선거 전에 약 100만 명의 미국인에게 500달러의 오바마케어 환불을 지급할 예정이다.",
+      "title_en": "Trump administration to issue $500 Obamacare refunds for nearly 1 million Americans before midterm elections",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/trump-administration-to-issue-500-obamacare-refunds-for-nearly-1-million-americans-before-midterm-elections-101789056045692.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "트럼프 대통령의 500달러 오바마케어 환급금은 30개 주에서 자격을 갖춘 거의 100만 명의 미국인에게 전달될 것입니다. 수표는 10월부터 도착할 것으로 예상됩니다.",
+      "excerpt_en": "Trump's $500 Obamacare refund will go to nearly 1 million eligible Americans in 30 states. Checks are expected to start arriving in October.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-500-obamacare-payment-who-will-get-refunds-starting-in-october-101789062687725.html",
+      "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
         "article_score": 18,
@@ -1216,65 +1314,18 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-10T09:10:24+09:00",
-      "latest_published_at": "2026-09-10T11:18:14+09:00",
-      "articles": [
-        {
-          "title": "Does North Korea’s Kim Ju-ae have a younger sibling? Seoul thinks so",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3367074/does-north-koreas-kim-ju-ae-have-younger-sibling-seoul-thinks-so?utm_source=rss_feed",
-          "published_at": "11:18"
-        },
-        {
-          "title": "S. Korea trying to learn if Kim Jong Un has a son but daughter's status appears solid",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/south-korea-learn-kim-jong-son-daughters-status-136328521",
-          "published_at": "10:18"
-        },
-        {
-          "title": "China ready to help Trump meet North Korea’s Kim",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367047/china-ready-help-trump-meet-north-koreas-kim?utm_source=rss_feed",
-          "published_at": "09:10"
-        }
-      ]
-    },
-    {
-      "id": "world-219",
-      "title": "Trump’s $500 Obamacare rebate plan: 1 million Americans may get payments before midterms – who qualifies?",
-      "title_en": "Trump’s $500 Obamacare rebate plan: 1 million Americans may get payments before midterms – who qualifies?",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/trumps-500-obamacare-rebate-plan-1-million-americans-may-get-payments-before-midterms-who-qualifies-101789011367604.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Trump's $500 Obamacare refund will go to nearly 1 million eligible Americans in 30 states. Checks are expected to start arriving in October.",
-      "excerpt_en": "Trump's $500 Obamacare refund will go to nearly 1 million eligible Americans in 30 states. Checks are expected to start arriving in October.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-500-obamacare-payment-who-will-get-refunds-starting-in-october-101789062687725.html",
-      "translation_status": "failed",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 45
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
         "Hindustan Times",
-        "The Independent"
+        "Reuters"
       ],
-      "first_published_at": "2026-09-10T03:49:44+09:00",
-      "latest_published_at": "2026-09-10T17:55:08+09:00",
+      "first_published_at": "2026-09-10T17:18:04+09:00",
+      "latest_published_at": "2026-09-10T22:05:44+09:00",
       "articles": [
+        {
+          "title": "White House says it will send $500 Obamacare refunds to nearly a million Americans",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzF5MGFTdDhQYm1BcVVSODJISXc5b1FrV2dpWEZyTm54TlF4dWxXQzQ0M0VoSDBUYVRlVFFnRElHM2tWWFFoUGtmY0VIaFdhZVEzd0R5WmNSZEdtM2wtYkxXU3h0SnFQNU8zSG1fYnEyTXEzSE96akF5UUU5ekhJeUc1c1k1VXluaEhFQUxKX0doTkZnX3J4dndqTUw2QQ?oc=5",
+          "published_at": "22:05"
+        },
         {
           "title": "Trump $500 Obamacare payment: Who will get refunds starting in October?",
           "source_name": "Hindustan Times",
@@ -1286,42 +1337,77 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/trump-administration-to-issue-500-obamacare-refunds-for-nearly-1-million-americans-before-midterm-elections-101789056045692.html",
           "published_at": "17:18"
-        },
-        {
-          "title": "Trump follows up his $5,000 ‘dividend’ payment by announcing some Americans will be getting $500 Obamacare refunds",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dividend-americans-obamacare-refund-b3048091.html",
-          "published_at": "16:48"
-        },
-        {
-          "title": "Trump’s $500 Obamacare rebate plan: 1 million Americans may get payments before midterms – who qualifies?",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trumps-500-obamacare-rebate-plan-1-million-americans-may-get-payments-before-midterms-who-qualifies-101789011367604.html",
-          "published_at": "03:49"
         }
       ]
     },
     {
-      "id": "world-9",
-      "title": "25 dead after fire on board foreign-flagged cargo ship in China’s Qingdao",
-      "title_en": "25 dead after fire on board foreign-flagged cargo ship in China’s Qingdao",
+      "id": "world-92",
+      "title": "이스라엘의 공습으로 가자지구에서 부모와 자녀 2명이 사망했다고 의료진이 밝혔습니다.",
+      "title_en": "Israeli strike kills parents and two children in Gaza, medics say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/politics/article/3367049/heavy-casualties-after-foreign-cargo-ship-catches-fire-chinas-qingdao?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "25일 오전 중국 동부항 칭다오에서 외국 국적 화물선에서 화재가 발생해 25명이 숨졌다. 42명이 탑승한 선박은 수리 작업을 진행 중이었습니다.",
-      "excerpt_en": "Twenty-five people were killed after a fire broke out on Thursday morning aboard a foreign-flagged cargo ship at China’s eastern port of Qingdao. The vessel with 42 people on board was undergoing repa",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/politics/article/3367049/heavy-casualties-after-foreign-cargo-ship-catches-fire-chinas-qingdao?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 57,
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1BVbUJWZ3BnTEl4XzBYMjByVm0zb3dncFFidmQ4TWlrRVVOTkZYUGpzQllwVzQyUWZKUjBjQk12ZUxTM2FJTFRlb292d1JRZHZXMWREZ2Y4bVdMUGVXczRJa0NuYjZXQXd3dDJrajZFazAtcXNlQld6c0RjekV0N09RSU51Z3Fld1EwdFI5dm5tLU5aMERvTEVtcWlsOE5pS3BGQnRrZUt1U1FVSUZ1Xw?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "이스라엘의 공격으로 가자지구 북부에서 어린이 2명을 포함해 4명의 가족이 사망했다고 병원 관계자가 목요일 밝혔습니다. 이스라엘군은 이번 공격으로 무장세력 1명이 사망했다고 밝혔습니다.",
+      "excerpt_en": "An Israeli strike killed a family of four in northern Gaza, including two children, hospital officials said on Thursday. The Israeli military said the attack killed a militant.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/11/israeli-strike-in-gaza-kills-family-of-four-including-two-children",
+      "translation_status": "ok",
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 7,
         "time_score": 2,
-        "raw75": 43
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-10T13:29:09+09:00",
+      "latest_published_at": "2026-09-11T02:37:19+09:00",
+      "articles": [
+        {
+          "title": "Israeli strike in Gaza kills family of four, including two children",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/11/israeli-strike-in-gaza-kills-family-of-four-including-two-children",
+          "published_at": "02:37"
+        },
+        {
+          "title": "Israeli strike kills parents and two children in Gaza, medics say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1BVbUJWZ3BnTEl4XzBYMjByVm0zb3dncFFidmQ4TWlrRVVOTkZYUGpzQllwVzQyUWZKUjBjQk12ZUxTM2FJTFRlb292d1JRZHZXMWREZ2Y4bVdMUGVXczRJa0NuYjZXQXd3dDJrajZFazAtcXNlQld6c0RjekV0N09RSU51Z3Fld1EwdFI5dm5tLU5aMERvTEVtcWlsOE5pS3BGQnRrZUt1U1FVSUZ1Xw?oc=5",
+          "published_at": "13:29"
+        }
+      ]
+    },
+    {
+      "id": "world-130",
+      "title": "드론 디스플레이로 뉴욕시 쌍둥이 빌딩 재현",
+      "title_en": "Drone display recreates the Twin Towers over New York City",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/videos/cx2z7x57gjeo?at_medium=RSS&at_campaign=rss",
+      "category": "미국",
+      "primary_source": "BBC",
+      "excerpt": "9·11테러 25주년을 앞두고 뉴욕 쌍둥이 빌딩을 드론으로 재현했다.",
+      "excerpt_en": "A drone display has recreated the Twin Towers in New York City ahead of the 25th anniversary of the September 11 terror attacks.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/drone-display-honours-9-11-victims-20260911-p60wfn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1329,38 +1415,85 @@
       "source_count": 2,
       "sources": [
         "BBC",
-        "SCMP"
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-10T09:14:37+09:00",
-      "latest_published_at": "2026-09-10T12:24:54+09:00",
+      "first_published_at": "2026-09-10T14:19:26+09:00",
+      "latest_published_at": "2026-09-10T19:58:23+09:00",
       "articles": [
         {
-          "title": "Twenty-five dead after fire on cargo ship in eastern China",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss",
-          "published_at": "12:24"
+          "title": "Drone display honours 9/11 victims",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/drone-display-honours-9-11-victims-20260911-p60wfn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "19:58"
         },
         {
-          "title": "25 dead after fire on board foreign-flagged cargo ship in China’s Qingdao",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/politics/article/3367049/heavy-casualties-after-foreign-cargo-ship-catches-fire-chinas-qingdao?utm_source=rss_feed",
-          "published_at": "09:14"
+          "title": "Drone display recreates the Twin Towers over New York City",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cx2z7x57gjeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "14:19"
         }
       ]
     },
     {
-      "id": "world-73",
-      "title": "Morocco says not involved in Ceuta migrant influx",
-      "title_en": "Morocco says not involved in Ceuta migrant influx",
+      "id": "world-76",
+      "title": "파키스탄, 사우디아라비아에 대한 후티 반군 공격에 대한 메카 협정에 따라 군사적 대응 논의 없음",
+      "title_en": "Pakistan says no military response discussed under Mecca pact over Houthi attacks on Saudi Arabia",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3317799/morocco-says-not-involved-in-ceuta-migrant-influx",
+      "title_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRW1PVVFpV1gtVzExVGJtc3V2Vko1OS1aQlFsb0pRam82WER6dXQ5anVPSTRzTmVrSmNUSmFncENWYVZ5WU1CLTc0OVp4RGY4R0cyU29lZ0QxdzFCVWc2UVRwS0Fpbk5VcDQ3cC0wTW4yZktsdk55blg0VFRCZWg4S0RpVDFic0J0Ui1zbU83MG9ZS3RKX19QRkxfbE5sZ013dms1Y3UybVdJbVhuanc1V01QUlZhWHpQR0NPUGEwdU15Q0UyeGc?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "파키스탄 대변인은 이슬라마바드가 터키와 사우디아라비아와 체결한 협정에 따라 의무를 어떻게 이행할 계획인지에 대한 질문에 답했습니다.",
+      "excerpt_en": "Pakistan spokesperson was responding to a question on how Islamabad planned to fulfil its obligations under pact signed with Turkey and Saudi Arabia.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/pakistan-backtracks-after-warning-iran-says-no-military-response-right-now-over-houthi-attacks-on-saudi-101789044677981.html",
+      "translation_status": "ok",
+      "score": 60,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 45
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-10T09:15:10+09:00",
+      "latest_published_at": "2026-09-10T13:06:15+09:00",
+      "articles": [
+        {
+          "title": "Day after 'warning', Pakistan says no military response ‘right now’ over Houthi attacks on Saudi",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/pakistan-backtracks-after-warning-iran-says-no-military-response-right-now-over-houthi-attacks-on-saudi-101789044677981.html",
+          "published_at": "13:06"
+        },
+        {
+          "title": "Pakistan says no military response discussed under Mecca pact over Houthi attacks on Saudi Arabia",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRW1PVVFpV1gtVzExVGJtc3V2Vko1OS1aQlFsb0pRam82WER6dXQ5anVPSTRzTmVrSmNUSmFncENWYVZ5WU1CLTc0OVp4RGY4R0cyU29lZ0QxdzFCVWc2UVRwS0Fpbk5VcDQ3cC0wTW4yZktsdk55blg0VFRCZWg4S0RpVDFic0J0Ui1zbU83MG9ZS3RKX19QRkxfbE5sZ013dms1Y3UybVdJbVhuanc1V01QUlZhWHpQR0NPUGEwdU15Q0UyeGc?oc=5",
+          "published_at": "09:15"
+        }
+      ]
+    },
+    {
+      "id": "world-19",
+      "title": "스위스 동부에서 승용차 충돌로 여러 명이 사망",
+      "title_en": "Several killed in coach crash in eastern Switzerland",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-xml-mrss",
       "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Moroccan authorities said on Thursday there were \"no facts\" establishing its involvement in the migrant rush into Spain's North African exclave of Ceuta in July. It was the kingdom's first official re",
-      "excerpt_en": "Moroccan authorities said on Thursday there were \"no facts\" establishing its involvement in the migrant rush into Spain's North African exclave of Ceuta in July. It was the kingdom's first official re",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/europe/20260910-no-facts-morocco-denies-involvement-in-deadly-ceuta-migrant-rush",
-      "translation_status": "failed",
+      "primary_source": "DW",
+      "excerpt": "스위스 동부 그라우뷘덴(Graubünden) 주 수쉬(Susch) 고산 마을 근처에서 관광 숲이 충돌해 여러 명이 사망하고 다른 사람들이 부상을 입었습니다.",
+      "excerpt_en": "Several people were killed and others injured in a tourist bush crash near the alpine village of Susch in Switzerland's eastern canton of Graubünden.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
       "score": 57,
       "score_breakdown": {
         "article_score": 12,
@@ -1375,39 +1508,86 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Bangkok Post",
-        "France24"
+        "DW",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-10T18:45:00+09:00",
-      "latest_published_at": "2026-09-10T19:32:22+09:00",
+      "first_published_at": "2026-09-10T19:10:00+09:00",
+      "latest_published_at": "2026-09-10T21:26:28+09:00",
       "articles": [
         {
-          "title": "'No facts': Morocco denies involvement in deadly Ceuta migrant rush",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260910-no-facts-morocco-denies-involvement-in-deadly-ceuta-migrant-rush",
-          "published_at": "19:32"
+          "title": "Several killed in bus crash near Swiss Alpine village",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcC11dGVZOFhyS19xTy1ndTdoWklGeGNZcm80UXAwa3ZhRUk2emd5ejVqQlhmZzBFc3pfMC1uVkd2dXptaTBvS3F1TlhCS3B6bHBXd2dYemZpekpfTEpwUUFSeE1wNE1VWTRIcDdmTE81RV9aVkdwdFNSZEp6M0d2N0ZFVjFvVE1aNzhOOHJMOXcwSDZXYWQycGFB?oc=5",
+          "published_at": "21:26"
         },
         {
-          "title": "Morocco says not involved in Ceuta migrant influx",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317799/morocco-says-not-involved-in-ceuta-migrant-influx",
-          "published_at": "18:45"
+          "title": "Several killed in coach crash in eastern Switzerland",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "19:10"
         }
       ]
     },
     {
-      "id": "world-227",
-      "title": "Satellite images reveal surge in building activity at Iranian nuclear site after Trump’s bomb threat",
+      "id": "world-32",
+      "title": "페루, 루비오 방문 후 미국 마약퇴치연합 '미주방패' 합류",
+      "title_en": "Peru to join US anti-drug coalition 'Shield of the Americas' after Rubio visit",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGpBcGZ0UHNmcWI1UEVnMGtFNjlZUDNlR2lHZjFXLUx3dGlzeDNSSTJGSzRpN1c5eDU4OU1aQ3ZrWWNXRWRDS2FyaFB0S2o0T3I2S1BMcTB6TDR5ZkNrWnJRYlllNUVPUER5elc0eXc4ZDVOcnlYU0lTRUJMSll0bWV1b1dpZ0EtTVROMlU4Ym5Ba0NuaEFzc3V6d3RPaVk4ZzJR?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "마르코 루비오 미 국무장관은 목요일 페루에서 전략적 샹카이 메가항구 주변에서 중국의 입지가 점점 커지고 있는 것에 대응하기 위한 회담을 가졌고, 리마 주재 중국 대사관으로부터 날카로운 반응을 이끌어냈습니다.",
+      "excerpt_en": "US Secretary of State Marco Rubio held talks in Peru on Thursday on countering Beijing’s growing footprint around the strategic Chancay megaport, drawing a sharp response from China’s embassy in Lima,",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/us/article/3367108/china-rebuts-top-us-diplomat-marco-rubio-over-communist-party-backed-projects-peru?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-10T19:23:57+09:00",
+      "latest_published_at": "2026-09-10T21:40:04+09:00",
+      "articles": [
+        {
+          "title": "China rebuts top US diplomat Marco Rubio over ‘Communist Party-backed projects’ in Peru",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/us/article/3367108/china-rebuts-top-us-diplomat-marco-rubio-over-communist-party-backed-projects-peru?utm_source=rss_feed",
+          "published_at": "21:40"
+        },
+        {
+          "title": "Peru to join US anti-drug coalition 'Shield of the Americas' after Rubio visit",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGpBcGZ0UHNmcWI1UEVnMGtFNjlZUDNlR2lHZjFXLUx3dGlzeDNSSTJGSzRpN1c5eDU4OU1aQ3ZrWWNXRWRDS2FyaFB0S2o0T3I2S1BMcTB6TDR5ZkNrWnJRYlllNUVPUER5elc0eXc4ZDVOcnlYU0lTRUJMSll0bWV1b1dpZ0EtTVROMlU4Ym5Ba0NuaEFzc3V6d3RPaVk4ZzJR?oc=5",
+          "published_at": "19:23"
+        }
+      ]
+    },
+    {
+      "id": "world-330",
+      "title": "트럼프 대통령의 폭탄 위협 이후 이란 핵 시설의 건설 활동이 급증한 모습이 위성 이미지에 드러났다.",
       "title_en": "Satellite images reveal surge in building activity at Iranian nuclear site after Trump’s bomb threat",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/middle-east/satellite-image-iran-pickaxe-mountain-trump-bomb-b3048042.html",
       "category": "중동",
       "primary_source": "The Independent",
-      "excerpt": "The IAEA said it’s observed construction activity at Iran’s Pickaxe Mountain, a heavily-fortified site suspected of housing nuclear-related activities.",
+      "excerpt": "IAEA는 핵 관련 활동이 있는 것으로 의심되는 견고한 요새지인 이란의 곡괭이 산에서 건설 활동을 관찰했다고 말했습니다.",
       "excerpt_en": "The IAEA said it’s observed construction activity at Iran’s Pickaxe Mountain, a heavily-fortified site suspected of housing nuclear-related activities.",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/iaea-un-nuclear-watchdog-construction-activity-at-iran-s-suspected-nuclear-site-there-are-some-indications-that-101789052312499.html",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 57,
       "score_breakdown": {
         "article_score": 12,
@@ -1443,11 +1623,58 @@
       ]
     },
     {
-      "id": "world-197",
-      "title": "Lindsay Clancy 청문회가 잘못된 판결로 끝난 후 배심원들이 말한 5가지: '합리적 의심이 너무 많습니다'",
-      "title_en": "5 things jurors said after Lindsay Clancy hearing ended in mistrial: ‘Too much reasonable doubt’",
+      "id": "world-103",
+      "title": "중국 항구에서 화물선에 화재가 발생해 25명이 사망했다고 국영 언론이 밝혔습니다.",
+      "title_en": "25 dead after cargo ship catches fire in China’s port, state media says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/5-things-jurors-said-after-lindsay-clancy-hearing-ended-in-mistrial-too-much-reasonable-doubt-101789008117963.html",
+      "title_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORjdldnRvUmNNb3RqaEtnYWVMazltaHFkaTBrMTNROE4za3ZFOTVMQVV4Ry1WN1dueldhcXVMMG91amd4LVhjYXhmZE1sX3ZRdnFOZFJPZkdqMTk1VUhsQnNjU3NEMEZnYVFDTlYyYjZfVHNvNTEtNmxfMUh6V2pQeE1PVkVqdjJu?oc=5",
+      "category": "아시아",
+      "primary_source": "AP News",
+      "excerpt": "이 선박에는 총 42명이 타고 있었고, 이 중 17명이 안전하게 대피했다고 국영 언론이 보도했습니다.",
+      "excerpt_en": "A total of 42 people had been on the vessel, and 17 of them were safely evacuated, state media reported.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/10/heavy-casualties-reported-after-international-cargo-ship-docked-in-china-catches-fire",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Euronews"
+      ],
+      "first_published_at": "2026-09-10T12:58:00+09:00",
+      "latest_published_at": "2026-09-10T14:20:58+09:00",
+      "articles": [
+        {
+          "title": "25 killed after international cargo ship docked in China catches fire",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/10/heavy-casualties-reported-after-international-cargo-ship-docked-in-china-catches-fire",
+          "published_at": "14:20"
+        },
+        {
+          "title": "25 dead after cargo ship catches fire in China’s port, state media says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORjdldnRvUmNNb3RqaEtnYWVMazltaHFkaTBrMTNROE4za3ZFOTVMQVV4Ry1WN1dueldhcXVMMG91amd4LVhjYXhmZE1sX3ZRdnFOZFJPZkdqMTk1VUhsQnNjU3NEMEZnYVFDTlYyYjZfVHNvNTEtNmxfMUh6V2pQeE1PVkVqdjJu?oc=5",
+          "published_at": "12:58"
+        }
+      ]
+    },
+    {
+      "id": "world-303",
+      "title": "Lindsay Clancy 업데이트: Kevin Reddington의 새로운 발의로 재판 실패 후 두 번째 재판을 막을 수 있습니까? 우리가 아는 것",
+      "title_en": "Lindsay Clancy update: Can Kevin Reddington's new motion prevent a second trial after mistrial? What we know",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-update-can-kevin-reddingtons-new-motion-prevent-a-second-trial-after-mistrial-what-we-know-101789062679439.html",
       "category": "기타",
       "primary_source": "Hindustan Times",
       "excerpt": "배심원들이 만장일치 평결에 이르지 못한 후, 변호인 케빈 레딩턴(Kevin Reddington)이 린제이 클랜시(Lindsay Clancy) 사건에서 무죄 판결을 다시 요구했습니다.",
@@ -1472,9 +1699,15 @@
         "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-09-10T03:08:10+09:00",
-      "latest_published_at": "2026-09-10T20:34:28+09:00",
+      "first_published_at": "2026-09-10T19:52:07+09:00",
+      "latest_published_at": "2026-09-11T03:07:47+09:00",
       "articles": [
+        {
+          "title": "Who is Janette MacAusland? Massachusetts mom accused of killing two children seeks dismissal after Lindsay Clancy trial",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-janette-macausland-massachusetts-mom-accused-of-killing-two-children-seeks-dismissal-after-lindsay-clancy-trial-101789091847680.html",
+          "published_at": "03:07"
+        },
         {
           "title": "Lindsay Clancy’s attorney urges judge to acquit her to avoid a second trial",
           "source_name": "The Independent",
@@ -1486,36 +1719,77 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/lindsay-clancy-update-can-kevin-reddingtons-new-motion-prevent-a-second-trial-after-mistrial-what-we-know-101789062679439.html",
           "published_at": "19:52"
-        },
-        {
-          "title": "5 things jurors said after Lindsay Clancy hearing ended in mistrial: ‘Too much reasonable doubt’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/5-things-jurors-said-after-lindsay-clancy-hearing-ended-in-mistrial-too-much-reasonable-doubt-101789008117963.html",
-          "published_at": "03:08"
         }
       ]
     },
     {
-      "id": "world-339",
-      "title": "9·11 사태로 인해 미국은 25년간의 '막대한 대가를 치르고 실패한 전쟁'을 시작하게 되었습니다.",
-      "title_en": "September 11 led US to launch 25 years of ‘failed war at enormous cost’",
+      "id": "world-1",
+      "title": "오늘의 금 가격: 금이 미국 인플레이션 데이터보다 거의 4,400달러 앞서는 이유",
+      "title_en": "Gold price today: Why gold is near $4,400 ahead of US inflation data",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/september-11-led-us-to-launch-25-years-of-failed-war-at-enormous-cost-20260910-p60w5n.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "Twenty-five years after the September 11 terror attacks, Singapore and the region face a rapidly evolving landscape of terrorism and extremism threats, says RSIS’ Kumar Ramakrishna.",
-      "excerpt_en": "Twenty-five years after the September 11 terror attacks, Singapore and the region face a rapidly evolving landscape of terrorism and extremism threats, says RSIS’ Kumar Ramakrishna.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/commentary/911-september-11-terrorism-threat-singapore-asia-6375511",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/gold-price-today-why-gold-is-near-4-400-ahead-of-us-inflation-data-101789041183550.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "현재 금 가격은 연준 금리 기대에 영향을 미칠 수 있는 미국 인플레이션 데이터를 앞두고 미국 달러 약세가 금을 지지함에 따라 4,400달러에 가깝습니다.",
+      "excerpt_en": "Gold price today is near $4,400 as a weaker US dollar supports gold ahead of US inflation data that could affect Federal Reserve rate expectations.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/gold-price-today-why-gold-is-near-4-400-ahead-of-us-inflation-data-101789041183550.html",
       "translation_status": "ok",
-      "score": 56,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 42
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-10T12:22:58+09:00",
+      "latest_published_at": "2026-09-11T02:36:00+09:00",
+      "articles": [
+        {
+          "title": "⁠Gold on track for third weekly loss as US inflation data looms​‌",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk9xQnh0dkJvU0VUbjhfa0E5ZHhmb21sU1k4RWktNC0tdERMUlFyb05jamhUa0p0dUEwejVJbHlUaWp6VnZuUEJrc0ZmYzBMM1RwaUp0SUdWWXBiU2pRVUF4ZlRsQk1fVmY2MUlTcTFFV3RjSnQzSE5UUHdKWHJYcV9YaUVmZ01PVnVUWHI0MzU4dnJja25CTmpxc3N4STVOb1E?oc=5",
+          "published_at": "02:36"
+        },
+        {
+          "title": "Gold price today: Why gold is near $4,400 ahead of US inflation data",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/gold-price-today-why-gold-is-near-4-400-ahead-of-us-inflation-data-101789041183550.html",
+          "published_at": "12:22"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "Altman은 직원에게 OpenAI가 AI 개발 속도를 늦추는 데 열려 있다고 Bloomberg News가 보도했습니다.",
+      "title_en": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/altman-tells-staff-openai-open-slowing-ai-development-bloomberg-news-reports-6377661",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Altman은 직원에게 OpenAI가 AI 개발 속도를 늦추는 데 열려 있다고 Bloomberg News가 보도했습니다.",
+      "excerpt_en": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2FONXhOeTRKZVg5ZU5qa3JVQ2I4S1ZSX1V4YU1zelVDV19IczFXWWlGd1BfRjhfbVVNZ3R5ZW9VelJpT2k2TmVNUWk5UFdIcHJFMjdnMWVQbFdVMm53ckVfZEF5SnZqUjJvb0N3OXVKc19CNFd1Z2otY1Y4cmlBQ0VhaGZMbllrWHIyQUVLRU5JYTIzNm1jdTVTcmhQcHJmdWgzYzdwckp2c2NhcEttLUMycUh5OVA0NEVKZGZwRm04UQ?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1523,179 +1797,179 @@
       "source_count": 2,
       "sources": [
         "Channel News Asia",
-        "Sydney Morning Herald"
+        "Reuters"
       ],
-      "first_published_at": "2026-09-10T09:30:00+09:00",
-      "latest_published_at": "2026-09-10T22:00:00+09:00",
+      "first_published_at": "2026-09-11T02:32:54+09:00",
+      "latest_published_at": "2026-09-11T02:33:00+09:00",
       "articles": [
         {
-          "title": "Commentary: The changing face of terrorism 25 years after 9/11",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/commentary/911-september-11-terrorism-threat-singapore-asia-6375511",
-          "published_at": "22:00"
+          "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2FONXhOeTRKZVg5ZU5qa3JVQ2I4S1ZSX1V4YU1zelVDV19IczFXWWlGd1BfRjhfbVVNZ3R5ZW9VelJpT2k2TmVNUWk5UFdIcHJFMjdnMWVQbFdVMm53ckVfZEF5SnZqUjJvb0N3OXVKc19CNFd1Z2otY1Y4cmlBQ0VhaGZMbllrWHIyQUVLRU5JYTIzNm1jdTVTcmhQcHJmdWgzYzdwckp2c2NhcEttLUMycUh5OVA0NEVKZGZwRm04UQ?oc=5",
+          "published_at": "02:33"
         },
         {
-          "title": "September 11 led US to launch 25 years of ‘failed war at enormous cost’",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/september-11-led-us-to-launch-25-years-of-failed-war-at-enormous-cost-20260910-p60w5n.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "09:30"
+          "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/altman-tells-staff-openai-open-slowing-ai-development-bloomberg-news-reports-6377661",
+          "published_at": "02:32"
         }
       ]
     },
     {
-      "id": "world-21",
-      "title": "Lives ‘at serious risk’ as Gaza’s hospitals, homes battle fuel shortages",
-      "title_en": "Lives ‘at serious risk’ as Gaza’s hospitals, homes battle fuel shortages",
+      "id": "world-5",
+      "title": "중국 AI 칩 베팅 급증으로 Tencent가 지원하는 Enflame 트리플이 상하이 데뷔",
+      "title_en": "Tencent-backed Enflame triples in Shanghai debut as China AI chip bets surge",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3367095/lives-serious-risk-gazas-hospitals-homes-battle-fuel-shortages?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "As power cuts cascade through one of Gaza’s largest functioning hospitals and patients wait for treatment in sweltering wards, doctors warn that shortages of engine oil and spare parts are causing gen",
-      "excerpt_en": "As power cuts cascade through one of Gaza’s largest functioning hospitals and patients wait for treatment in sweltering wards, doctors warn that shortages of engine oil and spare parts are causing gen",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV1oyZUF1MXVHWmZZeDRoUTlDT0lORWoyNldHNGVlOFdOUlhjYUMyNEFXQzY1MjJGc0RCa3U2WG1DZ09vWVdCQzhqcnFSYkZqQU91NVBFeDZQMFc2aDNoRVh0NDhPWjYwSWs1TlA0NkNCZ1htNDN6VzJ1eVRMMHdvcEp1TWlYOG1zdllwNFZOc2dyVmtwX0hmZDhVUUVoanFGQWxFTnN3dVVVNHBLWkVoSVdaNWszOUY0SXBoUmE3QlJ1MUln?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "중국에서 Nvidia의 주요 도전자 중 하나인 Enflame Technology는 금요일 상하이 거래 데뷔에서 주가가 188% 급등하여 Tencent Holdings가 지원하는 인공 지능을 제공했습니다.",
+      "excerpt_en": "Enflame Technology, one of the major challengers to Nvidia in China, saw its share price surge 188 per cent in its Shanghai trading debut on Friday, giving the Tencent Holdings-backed artificial intel",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367095/lives-serious-risk-gazas-hospitals-homes-battle-fuel-shortages?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 55,
+      "excerpt_url": "https://www.scmp.com/tech/tech-trends/article/3367124/enflame-shares-soar-188-shanghai-debut-nvidia-challenger-taps-investor-fever-ai?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
+        "Reuters",
         "SCMP"
       ],
-      "first_published_at": "2026-09-10T13:42:41+09:00",
-      "latest_published_at": "2026-09-10T21:17:09+09:00",
+      "first_published_at": "2026-09-11T01:33:00+09:00",
+      "latest_published_at": "2026-09-11T01:45:56+09:00",
       "articles": [
         {
-          "title": "Gaza hospitals ration power as fuel shortages deepen",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/gaza-hospitals-ration-power-as-fuel-shortages-deepen?traffic_source=rss",
-          "published_at": "21:17"
-        },
-        {
-          "title": "Lives ‘at serious risk’ as Gaza’s hospitals, homes battle fuel shortages",
+          "title": "Enflame shares soar 188% on Shanghai debut as Nvidia challenger taps investor fever for AI",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367095/lives-serious-risk-gazas-hospitals-homes-battle-fuel-shortages?utm_source=rss_feed",
-          "published_at": "13:42"
-        }
-      ]
-    },
-    {
-      "id": "world-70",
-      "title": "Latin America could see fresh disinformation after Meta changes",
-      "title_en": "Latin America could see fresh disinformation after Meta changes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3317389/latin-america-could-see-fresh-disinformation-after-meta-changes",
-      "category": "미국",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Meta is expanding its shift away from professional fact-checking. The tech giant announced it's trialling it's crowdsourced \"Community Notes\" system across 16 countries in Latin America. Meta says the",
-      "excerpt_en": "Meta is expanding its shift away from professional fact-checking. The tech giant announced it's trialling it's crowdsourced \"Community Notes\" system across 16 countries in Latin America. Meta says the",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/meta-tests-out-putting-fact-checking-in-users-hands-across-latin-america-1",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "France24"
-      ],
-      "first_published_at": "2026-09-10T17:55:00+09:00",
-      "latest_published_at": "2026-09-10T20:11:31+09:00",
-      "articles": [
-        {
-          "title": "Meta tests out putting fact-checking in users’ hands across Latin America",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/meta-tests-out-putting-fact-checking-in-users-hands-across-latin-america-1",
-          "published_at": "20:11"
+          "url": "https://www.scmp.com/tech/tech-trends/article/3367124/enflame-shares-soar-188-shanghai-debut-nvidia-challenger-taps-investor-fever-ai?utm_source=rss_feed",
+          "published_at": "01:45"
         },
         {
-          "title": "Latin America could see fresh disinformation after Meta changes",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317389/latin-america-could-see-fresh-disinformation-after-meta-changes",
-          "published_at": "17:55"
+          "title": "Tencent-backed Enflame triples in Shanghai debut as China AI chip bets surge",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV1oyZUF1MXVHWmZZeDRoUTlDT0lORWoyNldHNGVlOFdOUlhjYUMyNEFXQzY1MjJGc0RCa3U2WG1DZ09vWVdCQzhqcnFSYkZqQU91NVBFeDZQMFc2aDNoRVh0NDhPWjYwSWs1TlA0NkNCZ1htNDN6VzJ1eVRMMHdvcEp1TWlYOG1zdllwNFZOc2dyVmtwX0hmZDhVUUVoanFGQWxFTnN3dVVVNHBLWkVoSVdaNWszOUY0SXBoUmE3QlJ1MUln?oc=5",
+          "published_at": "01:33"
         }
       ]
     },
     {
-      "id": "world-237",
-      "title": "Grandfather escapes trial after 16 ‘feral’ children rescued from Ohio house of horrors",
-      "title_en": "Grandfather escapes trial after 16 ‘feral’ children rescued from Ohio house of horrors",
+      "id": "world-23",
+      "title": "트럼프의 5,000달러 '배당금'은 어떻게 작동하며 합법적인가요?",
+      "title_en": "How will Trump’s $5,000 ‘dividend’ work – and is it legal?",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/gary-siders-ohio-child-endangerment-b3047867.html",
-      "category": "기타",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-5000-dividend-midterms-republicans-legal-b3047814.html",
+      "category": "미국",
       "primary_source": "The Independent",
-      "excerpt": "A man whose 16 grandchildren were discovered living in squalid conditions at a rural southern Ohio home is found mentally incompetent to stand trial.",
-      "excerpt_en": "A man whose 16 grandchildren were discovered living in squalid conditions at a rural southern Ohio home is found mentally incompetent to stand trial.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-11/grandfather-of-children-living-in-filth-mentally-incompetent/107141114",
-      "translation_status": "failed",
-      "score": 55,
+      "excerpt": "도널드 트럼프 대통령은 11월 중간고사에서 공화당 후보를 지지하면 유권자들에게 보상하겠다고 약속했지만 구체적인 내용은 거의 제시하지 않아 질문과 논란을 불러일으켰습니다.",
+      "excerpt_en": "President Donald Trump promises to reward voters if they back Republican candidates at November’s midterms but provides few specifics, inviting questions and controversy",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-5000-dividend-midterms-republicans-legal-b3047814.html",
+      "translation_status": "ok",
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
+        "Reuters",
         "The Independent"
       ],
-      "first_published_at": "2026-09-10T13:35:53+09:00",
-      "latest_published_at": "2026-09-10T21:14:16+09:00",
+      "first_published_at": "2026-09-10T11:30:58+09:00",
+      "latest_published_at": "2026-09-10T22:24:02+09:00",
       "articles": [
         {
-          "title": "Ohio grandfather of 16 children living in filth incompetent to stand trial",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/grandfather-of-children-living-in-filth-mentally-incompetent/107141114",
-          "published_at": "21:14"
+          "title": "Explainer: Is Trump's $5,000 'dividend' legal and how would it work?",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeU13MnNSZkJSaUhJNGZYY3o3ckVBZm5JYUR2Z0lHUzRBV1FTZWs3WmFzX2I5aS1xTDF6aDFyalVwQkEtbmNMOV94UzctaDlMcU0yVmVTYWpNNnNsbl83ZzVibi1lVlNCVDRlSklZT0NPVkRUaFJDWTdsLWduYlVzOXJ6UmpPZ21kQWRYMk1VdU1BRUdtYk1VZ3lHbGZ2SmMzUEE?oc=5",
+          "published_at": "22:24"
         },
         {
-          "title": "Grandfather escapes trial after 16 ‘feral’ children rescued from Ohio house of horrors",
+          "title": "How will Trump’s $5,000 ‘dividend’ work – and is it legal?",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/gary-siders-ohio-child-endangerment-b3047867.html",
-          "published_at": "13:35"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-5000-dividend-midterms-republicans-legal-b3047814.html",
+          "published_at": "11:30"
         }
       ]
     },
     {
-      "id": "world-48",
-      "title": "25 Years After 9/11, Al Qaeda Still Has a Home in Afghanistan",
-      "title_en": "25 Years After 9/11, Al Qaeda Still Has a Home in Afghanistan",
+      "id": "world-36",
+      "title": "미국 대법원은 공화당이 그린 미주리주 의회 지도를 차단했습니다.",
+      "title_en": "US Supreme Court blocks Republican-drawn congressional map in Missouri",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/10/world/asia/25-years-after-9-11-al-qaeda-still-has-a-home-in-afghanistan.html",
-      "category": "기타",
-      "primary_source": "New York Times",
-      "excerpt": "25 years after 9/11, the terrorist group al-Qaeda is no longer the global terrorist organization it once was. Its central leadership has been weakened, but offshoots remain strong across Africa and As",
-      "excerpt_en": "25 years after 9/11, the terrorist group al-Qaeda is no longer the global terrorist organization it once was. Its central leadership has been weakened, but offshoots remain strong across Africa and As",
+      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVzhNVFBiOTdvaDJwUXAzX3JOem1PQ1RhNmF5R0sxTjZtRXZSc1E1NWZzbGpmMlp6TEhyVk9JWUtRY3UtZ3FTSk1ZY3RoX3VFMnB4ZnZBY0RrbjZkNEFuY1BEWldvMmpOSExaWE01ZVA2UzhGS2E5UlNLYWlpa2tiVEpVei04ZWlPZUVhbDRhT1J5d3dRNi04bDdaN0JYbjNvb3JRTGE2NjNndGtxSnc?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "미주리주 정치 지도의 급격한 변화로 인해 유권자들은 자신이 어느 의회 선거구에 속할지 혼란스러워했습니다.",
+      "excerpt_en": "Rapid changes in Missouri's political map confused voters about which congressional district they would have been in",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/missouri-donald-trump-republican-kansas-city-moody-b3048308.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-10T19:12:40+09:00",
+      "latest_published_at": "2026-09-10T23:03:54+09:00",
+      "articles": [
+        {
+          "title": "Congressional map changes triggered frustration more than confusion for some Missouri voters",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/missouri-donald-trump-republican-kansas-city-moody-b3048308.html",
+          "published_at": "23:03"
+        },
+        {
+          "title": "US Supreme Court blocks Republican-drawn congressional map in Missouri",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVzhNVFBiOTdvaDJwUXAzX3JOem1PQ1RhNmF5R0sxTjZtRXZSc1E1NWZzbGpmMlp6TEhyVk9JWUtRY3UtZ3FTSk1ZY3RoX3VFMnB4ZnZBY0RrbjZkNEFuY1BEWldvMmpOSExaWE01ZVA2UzhGS2E5UlNLYWlpa2tiVEpVei04ZWlPZUVhbDRhT1J5d3dRNi04bDdaN0JYbjNvb3JRTGE2NjNndGtxSnc?oc=5",
+          "published_at": "19:12"
+        }
+      ]
+    },
+    {
+      "id": "world-51",
+      "title": "ECB, 인플레이션 급등 막기 위해 금리 인상",
+      "title_en": "ECB raises interest rates to fight off inflation jump",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/ecb-raises-interest-rates-to-fight-off-inflation-jump/a-79215209?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "유럽",
+      "primary_source": "DW",
+      "excerpt": "유럽중앙은행(ECB)은 차입 비용을 인상하고 인플레이션이 장기간 높은 수준을 유지할 수 있다고 경고했습니다. 에너지 시장과 지정학적 긴장은 여전히 ​​주요 관심사입니다.",
+      "excerpt_en": "The European Central Bank raised borrowing costs and warned that inflation could remain high for an extended period. Energy markets and geopolitical tensions are still major concerns.",
       "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/25-years-after-9-11-al-qaeda-weakened-but-not-gone/a-79202457?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
+      "excerpt_url": "https://www.dw.com/en/ecb-raises-interest-rates-to-fight-off-inflation-jump/a-79215209?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1711,38 +1985,38 @@
       "source_count": 2,
       "sources": [
         "DW",
-        "New York Times"
+        "Reuters"
       ],
-      "first_published_at": "2026-09-10T09:02:44+09:00",
-      "latest_published_at": "2026-09-10T18:05:00+09:00",
+      "first_published_at": "2026-09-10T13:39:00+09:00",
+      "latest_published_at": "2026-09-10T15:13:37+09:00",
       "articles": [
         {
-          "title": "25 years after 9/11: Al-Qaeda weakened but not gone",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/25-years-after-9-11-al-qaeda-weakened-but-not-gone/a-79202457?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "18:05"
+          "title": "ECB raises interest rates to fight off inflation jump",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRGdaa19kT2JiMm9NaWdRRnFjUlhvSDBlUF9IbjZQbjZ5dUFPOVdnMlRSSUFPcjRsdXRHdWFsZkxCSEZXSEc1SERmWWE3Q1JCOHZFZl9UU3NBdGhyZkhTcFFrR3BCYVd0XzNTNGFPcHFaLS1mWm5OajlZMDNSRzBoaXpDTXVCWmJtMGwxa1Zqazcwb0t4UUtIUTZvQQ?oc=5",
+          "published_at": "15:13"
         },
         {
-          "title": "25 Years After 9/11, Al Qaeda Still Has a Home in Afghanistan",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/10/world/asia/25-years-after-9-11-al-qaeda-still-has-a-home-in-afghanistan.html",
-          "published_at": "09:02"
+          "title": "ECB raises interest rates to fight off inflation jump",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/ecb-raises-interest-rates-to-fight-off-inflation-jump/a-79215209?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "13:39"
         }
       ]
     },
     {
-      "id": "world-215",
-      "title": "Zelenskyy visits Canada to seek further military support for Ukraine",
+      "id": "world-111",
+      "title": "젤렌스키, 우크라이나에 대한 추가 군사 지원 요청 위해 캐나다 방문",
       "title_en": "Zelenskyy visits Canada to seek further military support for Ukraine",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/zelenskyy-visits-canada-seek-military-support-ukraine-136328431",
       "category": "유럽",
       "primary_source": "ABC News",
-      "excerpt": "‘Ukrainians helped build this country,’ Carney said. ‘And Canada will help rebuild Ukraine when peace comes’",
-      "excerpt_en": "‘Ukrainians helped build this country,’ Carney said. ‘And Canada will help rebuild Ukraine when peace comes’",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/volodymyr-zelensky-canada-mark-carney-russia-war-b3048157.html",
-      "translation_status": "failed",
+      "excerpt": "볼로디미르 젤렌스키 우크라이나 대통령이 마크 카니 총리와 회담을 위해 캐나다를 방문 중이다.",
+      "excerpt_en": "Ukrainian President Volodymyr Zelenskyy is in Canada for talks with Prime Minister Mark Carney",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/zelenskyy-visits-canada-seek-military-support-ukraine-136328431",
+      "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1758,22 +2032,327 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "The Independent"
+        "AP News"
       ],
       "first_published_at": "2026-09-10T11:54:18+09:00",
-      "latest_published_at": "2026-09-10T17:33:36+09:00",
+      "latest_published_at": "2026-09-10T20:32:00+09:00",
       "articles": [
         {
-          "title": "Zelensky meets with Mark Carney in Canada seeking Ukrainian military support",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/volodymyr-zelensky-canada-mark-carney-russia-war-b3048157.html",
-          "published_at": "17:33"
+          "title": "Zelenskyy visits Canada to seek further military support for Ukraine",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaHJoci1DWE1jNkFQTUprejJCTGR1cWxtMjB0TVprVnN4VmRqZHpOZGV2LTlzUjI2dzVOaGxIOHY4enEzVV96QWc3aUliYnB4TkNLWW9FMXpORGwySmlJMnlZZWtWMmpYeFk0QzZXNXEweXRDVUNxTGw1bzB0MW5DX3N1d3VJaG1yYl9JRC1Sc0ZBd2Q0UWpqblpNbw?oc=5",
+          "published_at": "20:32"
         },
         {
           "title": "Zelenskyy visits Canada to seek further military support for Ukraine",
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/zelenskyy-visits-canada-seek-military-support-ukraine-136328431",
           "published_at": "11:54"
+        }
+      ]
+    },
+    {
+      "id": "world-146",
+      "title": "찰리 커크(Charlie Kirk) 동상 행: 타임스퀘어 주변에서 시위자들이 충돌합니다. 영상은 긴장된 순간을 포착합니다",
+      "title_en": "Charlie Kirk statue row: Protestors clash around Times Square; videos capture tense moments",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/charlie-kirk-statue-row-protestors-clash-around-times-square-videos-capture-tense-moments-101789082511773.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "찰리 커크 지지자들과 반대 시위자들은 뉴욕 타임스퀘어에서 기리는 동상이 공개되자 구호를 교환하고 잠시 충돌했습니다.",
+      "excerpt_en": "Supporters of Charlie Kirk and counter-protesters exchanged chants and briefly clashed in New York City's Times Square as a bronze statue honoring was unveiled.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/charlie-kirk-statue-row-protestors-clash-around-times-square-videos-capture-tense-moments-101789082511773.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-11T01:01:11+09:00",
+      "latest_published_at": "2026-09-11T01:24:27+09:00",
+      "articles": [
+        {
+          "title": "Unveiling of Charlie Kirk statue sparks chaos in Times Square",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/aje-onl-nf_charlie-kirk-statue-sparks-chaos-in-times-square-100926?traffic_source=rss",
+          "published_at": "01:24"
+        },
+        {
+          "title": "Charlie Kirk statue row: Protestors clash around Times Square; videos capture tense moments",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/charlie-kirk-statue-row-protestors-clash-around-times-square-videos-capture-tense-moments-101789082511773.html",
+          "published_at": "01:01"
+        }
+      ]
+    },
+    {
+      "id": "world-179",
+      "title": "이스라엘, 레바논 남부 헤즈볼라 주요 터널 파괴",
+      "title_en": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/israel-says-destroyed-key-hezbollah-tunnels-in-south-lebanon-101789067189276.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "이스라엘, 레바논 남부 헤즈볼라 주요 터널 파괴",
+      "excerpt_en": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/israel-says-destroyed-key-hezbollah-tunnels-in-south-lebanon-101789067189276.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-10T19:06:28+09:00",
+      "latest_published_at": "2026-09-10T20:12:47+09:00",
+      "articles": [
+        {
+          "title": "🔴 Live: Israel demolition of Hezbollah tunnels in south Lebanon caused 4.1-magnitude quake",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260910-middle-east-live-trump-warns-iran-not-to-get-cute-over-activity-at-pickaxe-mountain",
+          "published_at": "20:12"
+        },
+        {
+          "title": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/israel-says-destroyed-key-hezbollah-tunnels-in-south-lebanon-101789067189276.html",
+          "published_at": "19:06"
+        }
+      ]
+    },
+    {
+      "id": "world-67",
+      "title": "푸틴 대통령은 사기 진작을 위해 필사적으로 중세 전사의 뼈를 우크라이나 최전선에 보냈습니다.",
+      "title_en": "Putin sends bones of medieval warrior to Ukraine frontline in desperate bid to boost morale",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/russia-prince-dmitry-donskoy-bones-ukraine-b3047928.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "제2차 세계대전 당시 교회가 자금을 지원한 소련 탱크 기둥에 이름이 붙여진 돈스코이는 1988년에 성인으로 선포되었습니다.",
+      "excerpt_en": "Donskoy, whose name was given to a Soviet tank column funded by the church in World War Two, was declared a saint in 1988",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/russia-prince-dmitry-donskoy-bones-ukraine-b3047928.html",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-10T11:35:28+09:00",
+      "latest_published_at": "2026-09-10T12:26:26+09:00",
+      "articles": [
+        {
+          "title": "Russia sends bones of medieval warrior prince to Ukraine front to boost morale",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTHNrYzNHZmZuSE9lVTJZT1kyRHFpYlVPc3NFUEg3WmNNSkV0eWhMMVVfdG55MlVvRjZ5cGkySjN0V2o2VjBFdTFJcU5xNFBWV3o3QTN5ZkpUU1pHWkNQOGd3WnBxQmxXZTVGNHN1OUU2NWlsQnBVelF6SGlwODMxUlBlcGZZMXFMb2JZMEMxWGI3QXVlNnNJY0w1MEVETnRwT0ZUVXVNY0NrWWZTdC1MNjhDNmhTMVg3REE?oc=5",
+          "published_at": "12:26"
+        },
+        {
+          "title": "Putin sends bones of medieval warrior to Ukraine frontline in desperate bid to boost morale",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-prince-dmitry-donskoy-bones-ukraine-b3047928.html",
+          "published_at": "11:35"
+        }
+      ]
+    },
+    {
+      "id": "world-279",
+      "title": "홍콩 법원, 기자의 노조 활동을 방해한 출판사에 유죄 판결",
+      "title_en": "Hong Kong court convicts publisher of deterring reporter from taking union role",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/hong-kong-court-convicts-wall-street-journal-publisher-136326720",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "월스트리트저널(WSJ) 발행인이 전직 기자의 현지 언론사 회장 출마를 불법적으로 방해해 홍콩 노동법을 위반한 혐의로 유죄 판결을 받았다.",
+      "excerpt_en": "The publisher of the Wall Street Journal (WSJ) has been found guilty of violating Hong Kong’s labour laws by illegally preventing a former reporter from running for the chairmanship of a local press u",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367085/wall-street-journal-publisher-convicted-blocking-reporters-bid-lead-union?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-10T10:50:11+09:00",
+      "latest_published_at": "2026-09-10T12:15:51+09:00",
+      "articles": [
+        {
+          "title": "Wall Street Journal publisher convicted for blocking reporter’s bid to lead union",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367085/wall-street-journal-publisher-convicted-blocking-reporters-bid-lead-union?utm_source=rss_feed",
+          "published_at": "12:15"
+        },
+        {
+          "title": "Hong Kong court convicts publisher of deterring reporter from taking union role",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/hong-kong-court-convicts-wall-street-journal-publisher-136326720",
+          "published_at": "10:50"
+        }
+      ]
+    },
+    {
+      "id": "world-282",
+      "title": "콩고 동부에서 화재가 발생해 학교 2곳에서 학생 24명 이상이 사망했다.",
+      "title_en": "Fire in eastern Congo kills at least 24 students at 2 schools",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/fire-eastern-congo-kills-24-students-2-schools-136342073",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "콩고민주공화국(DRC)에서 두 학교에 화재가 발생해 최소 26명의 학생이 사망하고 수십 명이 부상을 입는 치명적인 화재가 발생했습니다.",
+      "excerpt_en": "A deadly blaze left as least 26 students dead and dozens injured after a fire swept through two schools in the Democratic Republic of Congo (DRC).",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/at-least-26-students-killed-after-fire-sweeps-through-two-schools-in-dr-congo-13584135",
+      "translation_status": "ok",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 38
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-10T17:45:55+09:00",
+      "latest_published_at": "2026-09-10T20:07:00+09:00",
+      "articles": [
+        {
+          "title": "At least 26 students dead after DR Congo school fire",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/at-least-26-students-killed-after-fire-sweeps-through-two-schools-in-dr-congo-13584135",
+          "published_at": "20:07"
+        },
+        {
+          "title": "Fire in eastern Congo kills at least 24 students at 2 schools",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/fire-eastern-congo-kills-24-students-2-schools-136342073",
+          "published_at": "17:45"
+        }
+      ]
+    },
+    {
+      "id": "world-398",
+      "title": "Trump와 JD Vance는 Dallas GOP 컨벤션에서 언제 다시 연설하게 됩니까? Karoline Leavitt에서 Ted Cruz로 - Day 2 라인업 확인",
+      "title_en": "What time will Trump and JD Vance speak again at Dallas GOP convention? Karoline Leavitt to Ted Cruz- check Day 2 lineup",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/what-time-will-trump-and-jd-vance-speak-again-at-dallas-gop-convention-karoline-leavitt-to-ted-cruz-check-day-2-lineup-101789073015796.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "JD Vance 부통령은 도널드 트럼프 대통령이 댈러스에서 열리는 RNC 중간 대회 둘째 날이자 마지막 날을 마치기 전에 기조 연설을 할 예정입니다.",
+      "excerpt_en": "Vice President JD Vance will deliver the keynote address before President Donald Trump closes the second and final day of the RNC midterm convention in Dallas.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/what-time-will-trump-and-jd-vance-speak-again-at-dallas-gop-convention-karoline-leavitt-to-ted-cruz-check-day-2-lineup-101789073015796.html",
+      "translation_status": "ok",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 4,
+        "major_score": 5,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 38
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 1,
+      "sources": [
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-10T21:38:30+09:00",
+      "latest_published_at": "2026-09-11T03:33:31+09:00",
+      "articles": [
+        {
+          "title": "Trump's midterms ‘cheating’ remark at RNC meet draws backlash: ‘America, are we hearing this?’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-oath-to-cheat-in-midterms-pledge-of-allegiance-sparks-backlash-rnc-meet-america-are-we-hearing-this-video-101789097108204.html",
+          "published_at": "03:33"
+        },
+        {
+          "title": "Erika Kirk with JD Vance at RNC convention on anniversary of Charlie Kirk's assassination? How TPUSA CEO is marking day",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/erika-kirk-with-jd-vance-at-rnc-convention-on-anniversary-of-charlie-kirks-assassination-how-tpusa-ceo-is-marking-day-101789093665188.html",
+          "published_at": "02:45"
+        },
+        {
+          "title": "Is Donald Trump Jr's wife Bettina Anderson attending RNC convention? President Trump's son's age, net worth in focus",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/is-donald-trump-jrs-wife-bettina-anderson-attending-rnc-convention-president-trumps-sons-age-net-worth-in-focus-101789089325291.html",
+          "published_at": "01:27"
+        },
+        {
+          "title": "Why are protesters disrupting Trump's RNC convention in Dallas? Videos show heavy police presence amid clashes",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/why-are-protesters-disrupting-trumps-rnc-convention-in-dallas-videos-show-heavy-police-presence-amid-clashes-101789079097587.html",
+          "published_at": "23:07"
+        },
+        {
+          "title": "Can JD Vance succeed Trump in 2028? ‘48' chants ahead of RNC Convention speech gets the ball rolling",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/can-jd-vance-succeed-trump-in-2028-48-chants-before-dallas-rnc-convention-speech-gets-the-ball-rolling-101789077014953.html",
+          "published_at": "22:38"
+        },
+        {
+          "title": "What time will Trump and JD Vance speak again at Dallas GOP convention? Karoline Leavitt to Ted Cruz- check Day 2 lineup",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-time-will-trump-and-jd-vance-speak-again-at-dallas-gop-convention-karoline-leavitt-to-ted-cruz-check-day-2-lineup-101789073015796.html",
+          "published_at": "21:38"
         }
       ]
     }
