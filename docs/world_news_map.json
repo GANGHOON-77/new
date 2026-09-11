@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,28 +8,28 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-12T02:57:13.455322+09:00",
+  "updated_at": "2026-09-12T07:51:44.198765+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 581,
-  "cluster_count_total": 486,
+  "article_count_total": 578,
+  "cluster_count_total": 481,
   "clusters": [
     {
-      "id": "world-176",
-      "title": "트럼프, 9·11테러 25주년 미 국방부서 기념행사",
+      "id": "world-168",
+      "title": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
       "title_en": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/donald-trump-american-melania-trump-jd-vance-pete-hegseth-b3048669.html",
       "category": "중동",
       "primary_source": "The Independent",
-      "excerpt": "9/11 기념일을 맞아 미국 전역의 지도자들은 희생자들을 추모하고 이 비극이 현재 외교 정책에 미친 영향에 대해 성찰했습니다. 트럼프 대통령은 국방부에서 연설하면서 돈을 지불했다.",
+      "excerpt": "On the anniversary of 9/11, leaders across the United States honored the victims and reflected on the impact of the tragedy on current foreign policy. Speaking at the Pentagon, President Trump paid ho",
       "excerpt_en": "On the anniversary of 9/11, leaders across the United States honored the victims and reflected on the impact of the tragedy on current foreign policy. Speaking at the Pentagon, President Trump paid ho",
       "excerpt_source": "Times of India",
       "excerpt_url": "https://timesofindia.indiatimes.com/world/us/we-will-never-ever-forget-trump-commemorates-25th-anniversary-of-9/11-terrorist-attacks/articleshow/134080822.cms",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 93,
       "score_breakdown": {
         "article_score": 25,
@@ -39,19 +39,26 @@
         "time_score": 3,
         "raw75": 70
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
+        "ABC News Australia",
         "Bangkok Post",
         "France24",
         "The Independent",
         "Times of India"
       ],
       "first_published_at": "2026-09-11T13:22:56+09:00",
-      "latest_published_at": "2026-09-11T17:19:51+09:00",
+      "latest_published_at": "2026-09-11T20:55:15+09:00",
       "articles": [
+        {
+          "title": "US marks 25th anniversary of 9/11 attacks",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-12/us-marks-25th-anniversary-of-9-11-attacks/107146166",
+          "published_at": "20:55"
+        },
         {
           "title": "'We will never, ever forget': Trump commemorates 25th anniversary of 9/11 terrorist attacks",
           "source_name": "Times of India",
@@ -91,105 +98,26 @@
       ]
     },
     {
-      "id": "world-295",
-      "title": "Trump와 JD Vance는 Dallas GOP 컨벤션에서 언제 다시 연설하게 됩니까? Karoline Leavitt에서 Ted Cruz로 - Day 2 라인업 확인",
-      "title_en": "What time will Trump and JD Vance speak again at Dallas GOP convention? Karoline Leavitt to Ted Cruz- check Day 2 lineup",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/what-time-will-trump-and-jd-vance-speak-again-at-dallas-gop-convention-karoline-leavitt-to-ted-cruz-check-day-2-lineup-101789073015796.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "도널드 트럼프 미국 대통령과 JD 밴스 부통령은 금요일 2001년 9·11 테러 현장을 방문할 예정이며, 트럼프 대통령은 국방부에서 연설할 예정이다.",
-      "excerpt_en": "US President Donald Trump and Vice President JD Vance are scheduled to visit the sites of the 11 September 2001 attacks on Friday, with Trump expected to deliver a speech at the Pentagon.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas",
-      "translation_status": "ok",
-      "score": 93,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 70
-      },
-      "area_value": 7,
-      "article_count": 7,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Euronews",
-        "Hindustan Times",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-10T21:38:30+09:00",
-      "latest_published_at": "2026-09-11T16:07:34+09:00",
-      "articles": [
-        {
-          "title": "With JD Vance seemingly ready to take the Trump mantle in 2028, Rubio admits he has no plans to run for president",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jd-vance-2028-trump-marco-rubio-b3048749.html",
-          "published_at": "16:07"
-        },
-        {
-          "title": "Day two of Republican midterm convention",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/day-two-of-republican-midterm-convention-20260911-p60wfv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:45"
-        },
-        {
-          "title": "Tributes paid to 9/11 victims at Republican midterm convention in Dallas",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas",
-          "published_at": "08:37"
-        },
-        {
-          "title": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-trump-charlie-kirk-rally-b3048453.html",
-          "published_at": "08:21"
-        },
-        {
-          "title": "Erika Kirk with JD Vance at RNC convention on anniversary of Charlie Kirk's assassination? How TPUSA CEO is marking day",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/erika-kirk-with-jd-vance-at-rnc-convention-on-anniversary-of-charlie-kirks-assassination-how-tpusa-ceo-is-marking-day-101789093665188.html",
-          "published_at": "02:45"
-        },
-        {
-          "title": "Can JD Vance succeed Trump in 2028? ‘48' chants ahead of RNC Convention speech gets the ball rolling",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/can-jd-vance-succeed-trump-in-2028-48-chants-before-dallas-rnc-convention-speech-gets-the-ball-rolling-101789077014953.html",
-          "published_at": "22:38"
-        },
-        {
-          "title": "What time will Trump and JD Vance speak again at Dallas GOP convention? Karoline Leavitt to Ted Cruz- check Day 2 lineup",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/what-time-will-trump-and-jd-vance-speak-again-at-dallas-gop-convention-karoline-leavitt-to-ted-cruz-check-day-2-lineup-101789073015796.html",
-          "published_at": "21:38"
-        }
-      ]
-    },
-    {
-      "id": "world-39",
-      "title": "소식통에 따르면 사우디 왕세자는 후티 반군과 함께 트럼프에게 미국의 군사적 지원을 요청했다고 한다.",
+      "id": "world-57",
+      "title": "Saudi crown prince sought US military help from Trump with Houthis, sources say",
       "title_en": "Saudi crown prince sought US military help from Trump with Houthis, sources say",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZnRRY3VzRTctZXFzVUl1VUg5NHlqeTFwdUR2NXJZcmNNTzdmSFBrbWJseno3d1hVUElZQ1ozUUYwVXJwX0paZmdFUk4tZGdyb0gzUzhRTzFiTXAxT3VMM0tLTTBiUHUtOXBTeUVmZzdyYWhtdWlHNmdLOGtMX3dUbTdwUTRadllYaVFhRFpZakpfWnJtNFFOLWdlY1JaY3U5YjQxMlhVcUktd3hHRms1MlFKWWY?oc=5",
       "category": "중동",
       "primary_source": "Reuters",
-      "excerpt": "무함마드 빈 살만 사우디 왕세자는 이란이 지원하는 후티 반군에 대해 군사적 조치를 취하라고 트럼프 대통령에게 개인적으로 압력을 가했다고 소식통이 CBS뉴스에 전했다.",
+      "excerpt": "Saudi Crown Prince Mohammed bin Salman has personally pressed President Trump to take military action against the Iran-backed Houthis, sources tell CBS News.",
       "excerpt_en": "Saudi Crown Prince Mohammed bin Salman has personally pressed President Trump to take military action against the Iran-backed Houthis, sources tell CBS News.",
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/saudi-arabia-mbs-trump-houthis-yemen/",
-      "translation_status": "ok",
-      "score": 89,
+      "translation_status": "failed",
+      "score": 88,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
       "area_value": 4,
       "article_count": 4,
@@ -231,280 +159,8 @@
       ]
     },
     {
-      "id": "world-191",
-      "title": "이스라엘, 헤즈볼라 터널 공습으로 지진 같은 진동 유발",
-      "title_en": "Israel strike on Hezbollah tunnel triggers earthquake-like tremor",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/41-magnitude-tremor-recorded-after-israel-destroys-hezbollah-tunnel-network-in-southern-lebanon-13584236",
-      "category": "중동",
-      "primary_source": "Sky News",
-      "excerpt": "이스라엘은 목요일 레바논 남부의 알리 알 타헤르 능선 아래에 이란의 지원을 받는 헤즈볼라 그룹이 건설한 주요 터널을 철거해 규모 4.1의 진동을 일으켰다고 밝혔습니다.",
-      "excerpt_en": "Israel said Thursday it demolished key tunnels built by the Iran-backed Hezbollah group beneath the strategic Ali al-Taher ridge in southern Lebanon, triggering a 4.1-magnitude tremor.",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260911-lebanon-tremor-recorded-as-israel-says-destroyed-key-hezbollah-tunnels",
-      "translation_status": "ok",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "France24",
-        "New York Times",
-        "Sky News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-11T06:40:00+09:00",
-      "latest_published_at": "2026-09-11T16:21:33+09:00",
-      "articles": [
-        {
-          "title": "Israel Destroys Underground Hezbollah Base in Southern Lebanon",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/blast-lebanon-israel-hezbollah-base.html",
-          "published_at": "16:21"
-        },
-        {
-          "title": "Lebanon: Tremor recorded as Israel says destroyed key Hezbollah tunnels",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260911-lebanon-tremor-recorded-as-israel-says-destroyed-key-hezbollah-tunnels",
-          "published_at": "14:14"
-        },
-        {
-          "title": "Israel destroys major underground Hezbollah complex in southern Lebanon",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/southern-lebanon-israel-hezbollah-b3048677.html",
-          "published_at": "14:01"
-        },
-        {
-          "title": "Israel strike on Hezbollah tunnel triggers earthquake-like tremor",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/41-magnitude-tremor-recorded-after-israel-destroys-hezbollah-tunnel-network-in-southern-lebanon-13584236",
-          "published_at": "06:40"
-        }
-      ]
-    },
-    {
-      "id": "world-2",
-      "title": "노르웨이 공주 아스트리드, 국왕 장례식 이틀 만에 94세로 사망",
-      "title_en": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjNHOXRmeHF4SFNSbWF3d2tvaGJ1RjhWUGE5Ulg5cDdUXzExS0xvY3Y5SjNJSDg0VE5HYl8wVXNwcTluQXVsNGtWNHlKa0dmcDNuaEtqbFoyR19mNUI1dlJFSElMQkMtZ0NOeVpCNTlwdTc0aUdJUjVWN1BUMUJ5ajNsVFZ0ZVJhY3RhcFZ4by1Kc1VhMzZLN0c4Y1J5Z3dqQnI2QjVrcXQ0aUE?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "노르웨이의 아스트리드 공주가 94세의 나이로 안타깝게도 세상을 떠났습니다. 그녀가 죽기 불과 이틀 전, 그녀는 동생 하랄드 5세 국왕의 국장을 치렀고, 많은 사람들이 참석하여 고인을 추모했습니다.",
-      "excerpt_en": "Princess Astrid of Norway has sadly passed away at the age of ninety-four. Just two days before her death, she graced her brother King Harald V's state funeral, attended by many who honored the late m",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/two-days-after-norway-king-haralds-funeral-his-sister-princess-astrid-passes-away/articleshow/134073516.cms",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News Australia",
-        "BBC",
-        "Reuters",
-        "Sky News",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-11T13:12:22+09:00",
-      "latest_published_at": "2026-09-11T16:00:59+09:00",
-      "articles": [
-        {
-          "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
-          "published_at": "16:00"
-        },
-        {
-          "title": "Sister of Norway’s King Harald dies just days after attending late monarch’s funeral",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/norway-princess-astrid-dead-harald-funeral-b3048705.html",
-          "published_at": "15:07"
-        },
-        {
-          "title": "Two days after Norway King Harald's funeral, his sister princess Astrid passes away",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/two-days-after-norway-king-haralds-funeral-his-sister-princess-astrid-passes-away/articleshow/134073516.cms",
-          "published_at": "14:41"
-        },
-        {
-          "title": "Norway's Princess Astrid dies aged 94 two days after King's funeral",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/norway-princess-astrid-dies-aged-94/107145428",
-          "published_at": "13:29"
-        },
-        {
-          "title": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
-          "published_at": "13:22"
-        },
-        {
-          "title": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjNHOXRmeHF4SFNSbWF3d2tvaGJ1RjhWUGE5Ulg5cDdUXzExS0xvY3Y5SjNJSDg0VE5HYl8wVXNwcTluQXVsNGtWNHlKa0dmcDNuaEtqbFoyR19mNUI1dlJFSElMQkMtZ0NOeVpCNTlwdTc0aUdJUjVWN1BUMUJ5ajNsVFZ0ZVJhY3RhcFZ4by1Kc1VhMzZLN0c4Y1J5Z3dqQnI2QjVrcXQ0aUE?oc=5",
-          "published_at": "13:12"
-        }
-      ]
-    },
-    {
-      "id": "world-226",
-      "title": "이탈리아 페미니스트 투사 엠마 보니노 사망",
-      "title_en": "Italian feminist fighter Emma Bonino dies",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3317994/italian-feminist-fighter-emma-bonino-dies",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Emma Bonino의 정치 생활은 범죄로 시작되었습니다. 1974년, 이탈리아에서 낙태가 불법이었을 때, 그녀는 계획되지 않은 임신을 중단하기 위해 피렌체에 있는 비밀 진료소로갔습니다. “코미",
-      "excerpt_en": "Emma Bonino’s life in politics began with a crime. In 1974, at a time when abortion was illegal in Italy, ⁠she travelled to a clandestine clinic in Florence ⁠to terminate an unplanned pregnancy. “Comi",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367210/emma-bonino-italian-politician-who-fought-abortion-rights-dies-aged-78?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "NBC News",
-        "New York Times",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-11T08:45:00+09:00",
-      "latest_published_at": "2026-09-11T15:50:16+09:00",
-      "articles": [
-        {
-          "title": "Emma Bonino, Italian Campaigner for Civil Rights, Dies at 78",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/11/world/europe/emma-bonino-italian-campaigner-dies.html",
-          "published_at": "15:50"
-        },
-        {
-          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/emma-bonino-leader-abortion-divorce-battles-changed-italy-136358233",
-          "published_at": "13:49"
-        },
-        {
-          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
-          "published_at": "13:04"
-        },
-        {
-          "title": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/emma-bonino-death-tribute-italy-b3048543.html",
-          "published_at": "10:19"
-        },
-        {
-          "title": "Emma Bonino, Italian politician who fought for abortion rights, dies aged 78",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367210/emma-bonino-italian-politician-who-fought-abortion-rights-dies-aged-78?utm_source=rss_feed",
-          "published_at": "09:30"
-        },
-        {
-          "title": "Italian feminist fighter Emma Bonino dies",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3317994/italian-feminist-fighter-emma-bonino-dies",
-          "published_at": "08:45"
-        }
-      ]
-    },
-    {
-      "id": "world-72",
-      "title": "필리핀 여객선 화재 사망자 35명으로 급증",
-      "title_en": "Philippine ferry fire death toll jumps to 35",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjYwdS1zMmhPSVdfcVp6SUhTdTZ3aGhhWHl1N284LWlaV1lRcnFJdkdzRFhUSlB4Y3R6R25DWnZzOFdaN1ZwanFnU1dyV0pfeGtoWXo3aHlWd1EweXdwY3o0clR2TXVqRjRNY2FXVm94WHpjRktDbVVROE52S3FCMklJLTk2MzBfX29fLVNocFpOT0o4UEJibldyUHF5d2gzMVdWRWt6V1ZWV2RaUWE4NkpTTm9TNjdJ?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "필리핀 구조대원들은 금요일에 불타버린 여객선에서 시신 30구를 수습해 화재로 인한 사망자 수가 35명으로 늘어났다고 당국은 밝혔습니다. 소방대원들이 진입 후 유해를 발견했습니다.",
-      "excerpt_en": "Philippine rescuers recovered ⁠30 bodies from a burned-out ferry on Friday, raising the death toll from the blaze to 35, authorities said. Firefighters found the remains after they gained access to th",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 84,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 63
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "CBS News",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-11T01:38:00+09:00",
-      "latest_published_at": "2026-09-11T14:23:00+09:00",
-      "articles": [
-        {
-          "title": "Death toll in Philippine ferry fire soars as more bodies are recovered",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
-          "published_at": "14:23"
-        },
-        {
-          "title": "Death toll in Philippine ferry fire rises to 35 as more bodies are recovered",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/philippine-firefighters-enter-charred-ferry-rescuers-search-84-136355920",
-          "published_at": "13:53"
-        },
-        {
-          "title": "Death toll from Philippine ferry fire jumps to 35",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
-          "published_at": "11:41"
-        },
-        {
-          "title": "Philippine ferry fire death toll jumps to 35",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMjYwdS1zMmhPSVdfcVp6SUhTdTZ3aGhhWHl1N284LWlaV1lRcnFJdkdzRFhUSlB4Y3R6R25DWnZzOFdaN1ZwanFnU1dyV0pfeGtoWXo3aHlWd1EweXdwY3o0clR2TXVqRjRNY2FXVm94WHpjRktDbVVROE52S3FCMklJLTk2MzBfX29fLVNocFpOT0o4UEJibldyUHF5d2gzMVdWRWt6V1ZWV2RaUWE4NkpTTm9TNjdJ?oc=5",
-          "published_at": "01:38"
-        }
-      ]
-    },
-    {
-      "id": "world-93",
-      "title": "스위스에서 네덜란드 관광버스가 전복돼 여러 명이 사망했다고 경찰이 밝혔다.",
+      "id": "world-86",
+      "title": "Dutch tour bus overturns in Switzerland, leaving several people dead, police say",
       "title_en": "Dutch tour bus overturns in Switzerland, leaving several people dead, police say",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOekZMUTh0Q1RldW0weVhXeXJGM2R4OG95UU1hOVh4MHlkNGVoR21WSE81VkR6el9wcWVfOXpyMkNvX0tLUFlvNTBJZ2EyLVpsVmJPQmloV245cm5lS0tiRFFPXzdVNDJVdTVKUHN2V28yLVg2dG5kaUI3OTlWUkhLSnNvV3JUdlVRby1fTXMxekdhSXQwcXowSHRYN2w?oc=5",
@@ -514,7 +170,7 @@
       "excerpt_en": "Police say five people have died and 40 others were injured after a Dutch tour bus slammed into a roadside crash barrier and overturned in eastern Switzerland",
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/police-5-dead-40-injured-tour-bus-crash-136358336",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 84,
       "score_breakdown": {
         "article_score": 22,
@@ -570,18 +226,79 @@
       ]
     },
     {
-      "id": "world-242",
-      "title": "스웨덴 선거에 드리워진 러시아의 그림자",
-      "title_en": "A Russian shadow flits over Sweden’s election",
+      "id": "world-240",
+      "title": "Nepal’s flash floods death toll rises to 1,385",
+      "title_en": "Nepal’s flash floods death toll rises to 1,385",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/a-russian-shadow-flits-over-sweden-s-election-101789116960886.html",
-      "category": "유럽",
+      "title_url": "https://www.hindustantimes.com/world-news/nepals-flash-floods-death-toll-rises-to-1385-101789112264404.html",
+      "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "스웨덴 정당 지도자들은 중도 좌파가 권력을 탈환하거나 처음으로 극우가 정권을 잡을 수 있는 치열한 선거 경쟁의 마지막 구간에서 금요일 캠페인을 벌였습니다. 오우",
-      "excerpt_en": "Sweden’s party leaders campaigned on Friday in the final stretch of a close election race that could see either the centre left take back power or the far-right enter government for the first time. Ou",
+      "excerpt": "Philippine rescuers recovered ⁠30 bodies from a burned-out ferry on Friday, raising the death toll from the blaze to 35, authorities said. Firefighters found the remains after they gained access to th",
+      "excerpt_en": "Philippine rescuers recovered ⁠30 bodies from a burned-out ferry on Friday, raising the death toll from the blaze to 35, authorities said. Firefighters found the remains after they gained access to th",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367260/sweden-heads-final-stretch-key-election?utm_source=rss_feed",
-      "translation_status": "ok",
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "CBS News",
+        "Hindustan Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-11T07:37:44+09:00",
+      "latest_published_at": "2026-09-11T14:23:00+09:00",
+      "articles": [
+        {
+          "title": "Death toll in Philippine ferry fire soars as more bodies are recovered",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
+          "published_at": "14:23"
+        },
+        {
+          "title": "Death toll in Philippine ferry fire rises to 35 as more bodies are recovered",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/philippine-firefighters-enter-charred-ferry-rescuers-search-84-136355920",
+          "published_at": "13:53"
+        },
+        {
+          "title": "Death toll from Philippine ferry fire jumps to 35",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
+          "published_at": "11:41"
+        },
+        {
+          "title": "Nepal’s flash floods death toll rises to 1,385",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/nepals-flash-floods-death-toll-rises-to-1385-101789112264404.html",
+          "published_at": "07:37"
+        }
+      ]
+    },
+    {
+      "id": "world-45",
+      "title": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say",
+      "title_en": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2lWMm91dVAwbnJaMk5iOVVVdnY2emU0a002dnNnbzJlMFR2VWtXSHRxVm5vbDRJcV83M0R2WEkzZmJHcDJNTDZPZ3U4dTlhWTRYT2pZbE1PaWh6Y2NLbjNLb2xoTEZPenNrbDJFTkRsM0tiOWlqV2k4RGpBOFBTTjZDaDMwZ3FYRHFVdGZSR1RvaXVxU1REcGdJalVueTJEMWpBYWxrWXFlY0E0VTZhZXhRODlzZnNaVDhXS0Y5SGFNZXND?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Yemen’s Iran-aligned Houthis reached the strategic island of Perim in the Bab el-Mandeb Strait on Friday, four Yemeni government sources told Reuters, moving to tighten their grip on a vital global sh",
+      "excerpt_en": "Yemen’s Iran-aligned Houthis reached the strategic island of Perim in the Bab el-Mandeb Strait on Friday, four Yemeni government sources told Reuters, moving to tighten their grip on a vital global sh",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
+      "translation_status": "failed",
       "score": 81,
       "score_breakdown": {
         "article_score": 22,
@@ -590,6 +307,263 @@
         "breaking_score": 1,
         "time_score": 3,
         "raw75": 61
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBS News",
+        "Euronews",
+        "Reuters",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T08:21:43+09:00",
+      "latest_published_at": "2026-09-11T22:08:14+09:00",
+      "articles": [
+        {
+          "title": "Houthis seize key Yemeni island in Bab el-Mandeb, taking control of the strait",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/12/houthis-seize-yemeni-island-in-bab-el-mandeb-taking-control-of-the-strait",
+          "published_at": "22:08"
+        },
+        {
+          "title": "Diesel hits record $6 a gallon as Iran-backed Houthis take key Red Sea territory",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
+          "published_at": "21:03"
+        },
+        {
+          "title": "Yemen’s Houthis reach strategic island in Bab el-Mandeb Strait",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
+          "published_at": "10:55"
+        },
+        {
+          "title": "Iran-US war latest: Crucial Saudi oil pipeline ‘on fire’ as Houthis capture island near key shipping route",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-red-sea-yemen-oil-b3048368.html",
+          "published_at": "10:53"
+        },
+        {
+          "title": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2lWMm91dVAwbnJaMk5iOVVVdnY2emU0a002dnNnbzJlMFR2VWtXSHRxVm5vbDRJcV83M0R2WEkzZmJHcDJNTDZPZ3U4dTlhWTRYT2pZbE1PaWh6Y2NLbjNLb2xoTEZPenNrbDJFTkRsM0tiOWlqV2k4RGpBOFBTTjZDaDMwZ3FYRHFVdGZSR1RvaXVxU1REcGdJalVueTJEMWpBYWxrWXFlY0E0VTZhZXhRODlzZnNaVDhXS0Y5SGFNZXND?oc=5",
+          "published_at": "08:21"
+        }
+      ]
+    },
+    {
+      "id": "world-303",
+      "title": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
+      "title_en": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-trump-charlie-kirk-rally-b3048453.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "US President Donald Trump and Vice President JD Vance are scheduled to visit the sites of the 11 September 2001 attacks on Friday, with Trump expected to deliver a speech at the Pentagon.",
+      "excerpt_en": "US President Donald Trump and Vice President JD Vance are scheduled to visit the sites of the 11 September 2001 attacks on Friday, with Trump expected to deliver a speech at the Pentagon.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Euronews",
+        "Sydney Morning Herald",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T08:21:45+09:00",
+      "latest_published_at": "2026-09-11T16:07:34+09:00",
+      "articles": [
+        {
+          "title": "With JD Vance seemingly ready to take the Trump mantle in 2028, Rubio admits he has no plans to run for president",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jd-vance-2028-trump-marco-rubio-b3048749.html",
+          "published_at": "16:07"
+        },
+        {
+          "title": "Day two of Republican midterm convention",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/day-two-of-republican-midterm-convention-20260911-p60wfv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "08:45"
+        },
+        {
+          "title": "Tributes paid to 9/11 victims at Republican midterm convention in Dallas",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas",
+          "published_at": "08:37"
+        },
+        {
+          "title": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-trump-charlie-kirk-rally-b3048453.html",
+          "published_at": "08:21"
+        }
+      ]
+    },
+    {
+      "id": "world-16",
+      "title": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
+      "title_en": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjNHOXRmeHF4SFNSbWF3d2tvaGJ1RjhWUGE5Ulg5cDdUXzExS0xvY3Y5SjNJSDg0VE5HYl8wVXNwcTluQXVsNGtWNHlKa0dmcDNuaEtqbFoyR19mNUI1dlJFSElMQkMtZ0NOeVpCNTlwdTc0aUdJUjVWN1BUMUJ5ajNsVFZ0ZVJhY3RhcFZ4by1Kc1VhMzZLN0c4Y1J5Z3dqQnI2QjVrcXQ0aUE?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Princess Astrid of Norway has sadly passed away at the age of ninety-four. Just two days before her death, she graced her brother King Harald V's state funeral, attended by many who honored the late m",
+      "excerpt_en": "Princess Astrid of Norway has sadly passed away at the age of ninety-four. Just two days before her death, she graced her brother King Harald V's state funeral, attended by many who honored the late m",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/two-days-after-norway-king-haralds-funeral-his-sister-princess-astrid-passes-away/articleshow/134073516.cms",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "BBC",
+        "Reuters",
+        "Sky News",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-11T13:12:22+09:00",
+      "latest_published_at": "2026-09-11T16:00:59+09:00",
+      "articles": [
+        {
+          "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "16:00"
+        },
+        {
+          "title": "Sister of Norway’s King Harald dies just days after attending late monarch’s funeral",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/norway-princess-astrid-dead-harald-funeral-b3048705.html",
+          "published_at": "15:07"
+        },
+        {
+          "title": "Two days after Norway King Harald's funeral, his sister princess Astrid passes away",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/two-days-after-norway-king-haralds-funeral-his-sister-princess-astrid-passes-away/articleshow/134073516.cms",
+          "published_at": "14:41"
+        },
+        {
+          "title": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
+          "published_at": "13:22"
+        },
+        {
+          "title": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjNHOXRmeHF4SFNSbWF3d2tvaGJ1RjhWUGE5Ulg5cDdUXzExS0xvY3Y5SjNJSDg0VE5HYl8wVXNwcTluQXVsNGtWNHlKa0dmcDNuaEtqbFoyR19mNUI1dlJFSElMQkMtZ0NOeVpCNTlwdTc0aUdJUjVWN1BUMUJ5ajNsVFZ0ZVJhY3RhcFZ4by1Kc1VhMzZLN0c4Y1J5Z3dqQnI2QjVrcXQ0aUE?oc=5",
+          "published_at": "13:12"
+        }
+      ]
+    },
+    {
+      "id": "world-89",
+      "title": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
+      "title_en": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/emma-bonino-death-tribute-italy-b3048543.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Emma Bonino, who rose to political prominence as a leader of campaigns by the Radical Party that legalized abortion and divorce in the 1970s in heavily Roman Catholic Italy, against the objections of ",
+      "excerpt_en": "Emma Bonino, who rose to political prominence as a leader of campaigns by the Radical Party that legalized abortion and divorce in the 1970s in heavily Roman Catholic Italy, against the objections of ",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "NBC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T10:19:26+09:00",
+      "latest_published_at": "2026-09-11T17:38:00+09:00",
+      "articles": [
+        {
+          "title": "Emma Bonino, leader of the abortion battle that changed Italy, dies at 78",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbGJNNnUzLU91WTE1ZG9iQ0V0bHd5NV90Ymg5SFRpQ3U1MWZDRjZFcG9tWndpWnllb1R5b25QX1Q3UUtnYkVTNU92Sk1TUG1zcnEyeDB6X1lXUll3ZWVCTlcyZFY2OGdNMW52Qm1MWnBtMGRRUVdkaWJNaHFZWF9lWVB6a1ZiNlVhUVNUQzAyZmFRaXh4Z0k1ZE5rVUxPTjhLWlF1emV3?oc=5",
+          "published_at": "17:38"
+        },
+        {
+          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/emma-bonino-leader-abortion-divorce-battles-changed-italy-136358233",
+          "published_at": "13:49"
+        },
+        {
+          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
+          "published_at": "13:04"
+        },
+        {
+          "title": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/emma-bonino-death-tribute-italy-b3048543.html",
+          "published_at": "10:19"
+        }
+      ]
+    },
+    {
+      "id": "world-229",
+      "title": "A Russian shadow flits over Sweden’s election",
+      "title_en": "A Russian shadow flits over Sweden’s election",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/a-russian-shadow-flits-over-sweden-s-election-101789116960886.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Sweden’s party leaders campaigned on Friday in the final stretch of a close election race that could see either the centre left take back power or the far-right enter government for the first time. Ou",
+      "excerpt_en": "Sweden’s party leaders campaigned on Friday in the final stretch of a close election race that could see either the centre left take back power or the far-right enter government for the first time. Ou",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367260/sweden-heads-final-stretch-key-election?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
       },
       "area_value": 4,
       "article_count": 4,
@@ -631,79 +605,72 @@
       ]
     },
     {
-      "id": "world-27",
-      "title": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say",
-      "title_en": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say",
+      "id": "world-0",
+      "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
+      "title_en": "Saudi pipeline that bypasses Hormuz shut after attacks",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2lWMm91dVAwbnJaMk5iOVVVdnY2emU0a002dnNnbzJlMFR2VWtXSHRxVm5vbDRJcV83M0R2WEkzZmJHcDJNTDZPZ3U4dTlhWTRYT2pZbE1PaWh6Y2NLbjNLb2xoTEZPenNrbDJFTkRsM0tiOWlqV2k4RGpBOFBTTjZDaDMwZ3FYRHFVdGZSR1RvaXVxU1REcGdJalVueTJEMWpBYWxrWXFlY0E0VTZhZXhRODlzZnNaVDhXS0Y5SGFNZXND?oc=5",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?utm_source=rss_feed",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "예멘의 이란과 제휴한 후티 반군이 금요일 바브엘만데브 해협의 전략적 섬인 페림에 도착했다고 예멘 정부 소식통 4명이 로이터 통신에 말했다.",
-      "excerpt_en": "Yemen’s Iran-aligned Houthis reached the strategic island of Perim in the Bab el-Mandeb Strait on Friday, four Yemeni government sources told Reuters, moving to tighten their grip on a vital global sh",
+      "primary_source": "SCMP",
+      "excerpt": "Saudi Arabia closed its East-West pipeline, a key alternative to the Strait of Hormuz for its oil exports, following multiple attacks on Thursday. The conduit was shut as a precautionary measure, the ",
+      "excerpt_en": "Saudi Arabia closed its East-West pipeline, a key alternative to the Strait of Hormuz for its oil exports, following multiple attacks on Thursday. The conduit was shut as a precautionary measure, the ",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 80,
+      "score": 77,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
-        "Euronews",
+        "Al Jazeera",
         "Reuters",
-        "SCMP",
-        "The Independent"
+        "SCMP"
       ],
-      "first_published_at": "2026-09-11T08:21:43+09:00",
-      "latest_published_at": "2026-09-11T13:41:46+09:00",
+      "first_published_at": "2026-09-11T20:24:55+09:00",
+      "latest_published_at": "2026-09-11T21:30:47+09:00",
       "articles": [
         {
-          "title": "Houthis seize key Yemeni island in Bab el-Mandeb, taking control of the strait",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/11/houthis-seize-yemeni-island-in-bab-el-mandeb-taking-control-of-the-strait",
-          "published_at": "13:41"
+          "title": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq?traffic_source=rss",
+          "published_at": "21:30"
         },
         {
-          "title": "Yemen’s Houthis reach strategic island in Bab el-Mandeb Strait",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
-          "published_at": "10:55"
-        },
-        {
-          "title": "Iran-US war latest: Crucial Saudi oil pipeline ‘on fire’ as Houthis capture island near key shipping route",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-red-sea-yemen-oil-b3048368.html",
-          "published_at": "10:53"
-        },
-        {
-          "title": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say",
+          "title": "Saudi Arabia says drones launched from Iraq hit East-West pipeline, holds off on retaliation",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2lWMm91dVAwbnJaMk5iOVVVdnY2emU0a002dnNnbzJlMFR2VWtXSHRxVm5vbDRJcV83M0R2WEkzZmJHcDJNTDZPZ3U4dTlhWTRYT2pZbE1PaWh6Y2NLbjNLb2xoTEZPenNrbDJFTkRsM0tiOWlqV2k4RGpBOFBTTjZDaDMwZ3FYRHFVdGZSR1RvaXVxU1REcGdJalVueTJEMWpBYWxrWXFlY0E0VTZhZXhRODlzZnNaVDhXS0Y5SGFNZXND?oc=5",
-          "published_at": "08:21"
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc09uNHhSUmdLUm1zelhoY1VxQUtabG9lNENtc0FRTV8yczUtOE9VT1EweEM5MDR5bGkwbEgzMy1mOTFKNS1nc2I3RUI2VGtPcVdheGpWWjYwWi1XVC1zLVRqVXJiOTZUNFR3SzBvWDNhRFp2WmpPblpUVEVuVDE1bHVfTmczdVE5YVg4LURnUUZycVZ0VVN5ZGJMQ3IzWmZiaHNqbkRqczZtcnBtZDU0NXRZTUFROHJmOFRpNE1rOW1TZUk?oc=5",
+          "published_at": "20:55"
+        },
+        {
+          "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?utm_source=rss_feed",
+          "published_at": "20:24"
         }
       ]
     },
     {
-      "id": "world-124",
-      "title": "영국 국회의원, 잉글랜드와 웨일스에서 조력 사망 합법화 법안 거부",
-      "title_en": "UK lawmakers reject bill to legalise assisted dying in England and Wales",
+      "id": "world-125",
+      "title": "Gulf states weigh first meeting with Iran since war began to discuss Strait of Hormuz: Report",
+      "title_en": "Gulf states weigh first meeting with Iran since war began to discuss Strait of Hormuz: Report",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "영국 국회의원들은 지난 금요일 잉글랜드와 웨일스의 불치병 성인들이 자신의 삶을 마감할 수 있도록 허용하는 법안을 부결시켰습니다. 말기 성인(임종) 법안에 286명의 의원이 반대했습니다.",
-      "excerpt_en": "UK lawmakers on Friday voted down legislation to allow terminally ill adults in England and Wales to choose to end their lives. The Terminally Ill Adults (End of Life) Bill was opposed by 286 members ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
-      "translation_status": "ok",
+      "title_url": "https://www.hindustantimes.com/world-news/gulf-states-weigh-first-meeting-with-iran-since-war-began-to-discuss-strait-of-hormuz-report-101789135120728.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The strait was free to transit before the war, but Iran now requires vessels to obtain permission and is considering a mechanism to impose service fees.",
+      "excerpt_en": "The strait was free to transit before the war, but Iran now requires vessels to obtain permission and is considering a mechanism to impose service fees.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/iran-says-discuss-hormuz-gulf-states-in-oman-monday-6379571",
+      "translation_status": "failed",
       "score": 69,
       "score_breakdown": {
         "article_score": 18,
@@ -712,6 +679,168 @@
         "breaking_score": 1,
         "time_score": 3,
         "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-11T14:34:30+09:00",
+      "latest_published_at": "2026-09-11T20:39:04+09:00",
+      "articles": [
+        {
+          "title": "Iran says to discuss Hormuz with Gulf states in Oman on Monday",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/iran-says-discuss-hormuz-gulf-states-in-oman-monday-6379571",
+          "published_at": "20:39"
+        },
+        {
+          "title": "Iran says will discuss Strait of Hormuz with Gulf states on Monday",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/11/iran-says-will-discuss-strait-of-hormuz-with-gulf-states-on-monday?traffic_source=rss",
+          "published_at": "18:33"
+        },
+        {
+          "title": "Gulf states weigh first meeting with Iran since war began to discuss Strait of Hormuz: Report",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/gulf-states-weigh-first-meeting-with-iran-since-war-began-to-discuss-strait-of-hormuz-report-101789135120728.html",
+          "published_at": "14:34"
+        }
+      ]
+    },
+    {
+      "id": "world-285",
+      "title": "Who is Anila Baby? Milpitas woman accused of murdering two best friends - 5 things to know amid arrest",
+      "title_en": "Who is Anila Baby? Milpitas woman accused of murdering two best friends - 5 things to know amid arrest",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-anila-baby-milpitas-woman-accused-of-murdering-two-best-friends-5-things-to-know-amid-arrest-san-jose-california-101789099120797.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The families of Ann Mary Mathew and Anjana Hari are seeking answers after prosecutors said the victims and accused killer were all best friends",
+      "excerpt_en": "The families of Ann Mary Mathew and Anjana Hari are seeking answers after prosecutors said the victims and accused killer were all best friends",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/california-woman-friend-murder-charge-b3048784.html",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-11T04:23:33+09:00",
+      "latest_published_at": "2026-09-11T19:40:13+09:00",
+      "articles": [
+        {
+          "title": "A California woman is accused of killing her two best friends miles apart. The motive remains a mystery",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/california-woman-friend-murder-charge-b3048784.html",
+          "published_at": "19:40"
+        },
+        {
+          "title": "Murders planned before: Indian-origin California woman Anila Baby, charged with killing two of her best friends in separate attacks, appears in court",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/murders-planned-before-indian-origin-california-woman-anila-baby-charged-with-killing-two-of-her-best-friends-in-separate-attacks-appears-in-court/articleshow/134073936.cms",
+          "published_at": "14:50"
+        },
+        {
+          "title": "Who is Anila Baby? Milpitas woman accused of murdering two best friends - 5 things to know amid arrest",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-anila-baby-milpitas-woman-accused-of-murdering-two-best-friends-5-things-to-know-amid-arrest-san-jose-california-101789099120797.html",
+          "published_at": "04:23"
+        }
+      ]
+    },
+    {
+      "id": "world-360",
+      "title": "Now recruiting: North Korea looks abroad for talent in its scheme to infiltrate U.S. companies",
+      "title_en": "Now recruiting: North Korea looks abroad for talent in its scheme to infiltrate U.S. companies",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nbcnews.com/tech/security/north-korea-worker-scheme-recruits-abroad-rcna596873",
+      "category": "중동",
+      "primary_source": "NBC News",
+      "excerpt": "North Korea’s surreptitious push to plant employees in U.S. companies has expanded to include remote workers from other countries, such as Iran and Lebanon, according to U.S. government and foreign ag",
+      "excerpt_en": "North Korea’s surreptitious push to plant employees in U.S. companies has expanded to include remote workers from other countries, such as Iran and Lebanon, according to U.S. government and foreign ag",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/tech/security/north-korea-worker-scheme-recruits-abroad-rcna596873",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Hindustan Times",
+        "NBC News"
+      ],
+      "first_published_at": "2026-09-11T17:18:07+09:00",
+      "latest_published_at": "2026-09-11T21:46:33+09:00",
+      "articles": [
+        {
+          "title": "North Korea launches unidentified projectile toward East Sea",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea-6379606",
+          "published_at": "21:46"
+        },
+        {
+          "title": "North Korea fires projectile toward sea: South Korea",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/north-korea-fires-projectile-toward-sea-south-korea-101789162291225.html",
+          "published_at": "21:31"
+        },
+        {
+          "title": "Now recruiting: North Korea looks abroad for talent in its scheme to infiltrate U.S. companies",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/security/north-korea-worker-scheme-recruits-abroad-rcna596873",
+          "published_at": "17:18"
+        }
+      ]
+    },
+    {
+      "id": "world-128",
+      "title": "UK lawmakers reject bill to legalise assisted dying in England and Wales",
+      "title_en": "UK lawmakers reject bill to legalise assisted dying in England and Wales",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "UK lawmakers on Friday voted down legislation to allow terminally ill adults in England and Wales to choose to end their lives. The Terminally Ill Adults (End of Life) Bill was opposed by 286 members ",
+      "excerpt_en": "UK lawmakers on Friday voted down legislation to allow terminally ill adults in England and Wales to choose to end their lives. The Terminally Ill Adults (End of Life) Bill was opposed by 286 members ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -746,72 +875,18 @@
       ]
     },
     {
-      "id": "world-174",
-      "title": "브라질의 플라비오 보우소나루, 부패 혐의로 조사 받고 있다",
-      "title_en": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "다음 달 대선에서 루이스 이나시오 룰라 다 실바 대통령에 맞서는 우파의 유력 경쟁자인 브라질 상원의원 플라비오 보우소나루가 부패와 돈세탁 혐의로 조사를 받고 있다.",
-      "excerpt_en": "Brazilian Senator Flavio Bolsonaro, the leading right-wing challenger to President Luiz Inacio Lula da Silva in next month’s election, is under investigation for alleged corruption and money launderin",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-11T15:45:55+09:00",
-      "latest_published_at": "2026-09-11T17:23:36+09:00",
-      "articles": [
-        {
-          "title": "'Nothing to hide': Brazil's presidential candidate Flavio Bolsonaro under corruption investigation",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-12/brazil-flavio-bolsonaro-corruption-investigation/107146062",
-          "published_at": "17:23"
-        },
-        {
-          "title": "Flavio Bolsonaro probed for corruption as Brazil election tightens",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260911-flavio-bolsonaro-probed-for-corruption-as-brazil-election-tightens",
-          "published_at": "16:21"
-        },
-        {
-          "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
-          "published_at": "15:45"
-        }
-      ]
-    },
-    {
-      "id": "world-169",
-      "title": "그들은 천안문 희생자들을 추모하는 집회를 주도했습니다. 이제 그들은 그로 인해 감옥에 갇히게 되었습니다.",
+      "id": "world-156",
+      "title": "They led vigils to victims of Tiananmen. Now they’re facing time in prison for it.",
       "title_en": "They led vigils to victims of Tiananmen. Now they’re facing time in prison for it.",
       "title_source": "earliest_pick",
       "title_url": "https://www.nbcnews.com/world/asia/organizers-hong-kong-tiananmen-vigils-sentenced-rcna596550",
       "category": "아시아",
       "primary_source": "NBC News",
-      "excerpt": "1989년 중국의 천안문 광장 진압 희생자들을 위한 연례 집회를 조직한 홍콩의 민주화 운동가 3명이 금요일 국가보안법에 따라 형을 선고받았다.",
+      "excerpt": "Three pro-democracy activists in Hong Kong who organized annual vigils for victims of China’s 1989 Tiananmen Square crackdown were sentenced Friday under a national security law that critics say has s",
       "excerpt_en": "Three pro-democracy activists in Hong Kong who organized annual vigils for victims of China’s 1989 Tiananmen Square crackdown were sentenced Friday under a national security law that critics say has s",
       "excerpt_source": "NBC News",
       "excerpt_url": "https://www.nbcnews.com/world/asia/organizers-hong-kong-tiananmen-vigils-sentenced-rcna596550",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 65,
       "score_breakdown": {
         "article_score": 18,
@@ -854,8 +929,102 @@
       ]
     },
     {
-      "id": "world-183",
-      "title": "재생: 트럼프는 9월 11일 국방부에서 열린 25주년 기념식에서 연설합니다.",
+      "id": "world-162",
+      "title": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
+      "title_en": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "Saudi Arabia shut the East-West oil pipeline after multiple attacks in Riyadh and Madinah injured several people, calling the closure a precautionary measure.",
+      "excerpt_en": "Saudi Arabia shut the East-West oil pipeline after multiple attacks in Riyadh and Madinah injured several people, calling the closure a precautionary measure.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/saudi-arabia-closes-east-west-oil-pipeline-after-attacks-in-riyadh-madinah-precautionary-measure-101789157559307.html",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-11T19:25:51+09:00",
+      "latest_published_at": "2026-09-11T20:24:17+09:00",
+      "articles": [
+        {
+          "title": "Saudi Arabia closes East-West oil pipeline after attacks in Riyadh, Madinah: ‘precautionary measure’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/saudi-arabia-closes-east-west-oil-pipeline-after-attacks-in-riyadh-madinah-precautionary-measure-101789157559307.html",
+          "published_at": "20:24"
+        },
+        {
+          "title": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
+          "published_at": "19:25"
+        }
+      ]
+    },
+    {
+      "id": "world-295",
+      "title": "Farmers struggling with record-breaking diesel prices ahead of harvest season",
+      "title_en": "Farmers struggling with record-breaking diesel prices ahead of harvest season",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/diesel-prices-farmer-gas-record-tractors-b3048836.html",
+      "category": "기타",
+      "primary_source": "The Independent",
+      "excerpt": "Farmers are embarking on the fourth largest winter harvest on record as the diesel price rises again.",
+      "excerpt_en": "Farmers are embarking on the fourth largest winter harvest on record as the diesel price rises again.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-12/australian-grain-harvest-underway-with-soaring-diesel-costs/107132406",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T17:29:57+09:00",
+      "latest_published_at": "2026-09-11T22:30:16+09:00",
+      "articles": [
+        {
+          "title": "Diesel price 'deja vu' for grain farmers nearing harvest",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-12/australian-grain-harvest-underway-with-soaring-diesel-costs/107132406",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Farmers struggling with record-breaking diesel prices ahead of harvest season",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/diesel-prices-farmer-gas-record-tractors-b3048836.html",
+          "published_at": "17:29"
+        }
+      ]
+    },
+    {
+      "id": "world-174",
+      "title": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
       "title_en": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
       "title_source": "earliest_pick",
       "title_url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
@@ -865,15 +1034,15 @@
       "excerpt_en": "President Donald Trump vowed Friday that the United States would never forget the September 11, 2001 attacks and would continue to \"fight,\" as he marked the 25th anniversary in a ceremony at the Penta",
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
-      "translation_status": "ok",
-      "score": 63,
+      "translation_status": "failed",
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -901,73 +1070,26 @@
       ]
     },
     {
-      "id": "world-194",
-      "title": "25년이 지난 9/11: '세상이 어떻게 흘러가는지에 대한 성찰의 시간'",
-      "title_en": "9/11, 25 years on: 'A time for reflection about the way the world has gone'",
+      "id": "world-211",
+      "title": "Italian feminist fighter Emma Bonino dies",
+      "title_en": "Italian feminist fighter Emma Bonino dies",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/video/20260911-9-11-25-years-on-a-time-for-reflection-about-the-way-the-world-has-gone",
+      "title_url": "https://www.bangkokpost.com/world/3317994/italian-feminist-fighter-emma-bonino-dies",
       "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "미국 땅에 대한 최악의 공격이 있은 지 25년 후, 미국인들은 금요일에 납치된 비행기가 세계 무역 센터인 펜타고에 충돌하여 사망한 거의 3,000명을 추모하기 위해 잠시 쉬었습니다.",
-      "excerpt_en": "Twenty-five years ⁠after the deadliest attack on US soil, Americans paused on Friday to commemorate the nearly 3,000 people killed when hijacked planes slammed into the World Trade Centre, the Pentago",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367265/americans-mark-25-years-9/11-attacks-amid-enduring-grief-reflection?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-11T14:11:46+09:00",
-      "latest_published_at": "2026-09-11T17:06:42+09:00",
-      "articles": [
-        {
-          "title": "Americans mark 25 years since 9/11 attacks amid enduring grief, reflection",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367265/americans-mark-25-years-9/11-attacks-amid-enduring-grief-reflection?utm_source=rss_feed",
-          "published_at": "17:06"
-        },
-        {
-          "title": "9/11, 25 years on: 'A time for reflection about the way the world has gone'",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260911-9-11-25-years-on-a-time-for-reflection-about-the-way-the-world-has-gone",
-          "published_at": "14:11"
-        }
-      ]
-    },
-    {
-      "id": "world-221",
-      "title": "후티 반군이 밥 알 만다브 지역을 '완전히 장악'했습니다.",
-      "title_en": "Houthis ‘complete takeover’ of Bab al-Mandab area",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3318029/houthis-complete-takeover-of-bab-almandab-area",
-      "category": "중동",
       "primary_source": "Bangkok Post",
-      "excerpt": "SANAA, 예멘 – 후티 반군은 금요일 바브 알만다브 해협 중앙에 있는 홍해의 주요 섬을 점령하여 사우디 석유 수출에 중요한 수로를 통제하려는 노력을 완료했습니다.",
-      "excerpt_en": "SANAA, Yemen - Houthi rebels on Friday seized a key Red Sea island in the middle of the Bab al-Mandab strait, completing a push to take control of a waterway crucial to Saudi oil exports, a local gove",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3318029/houthis-complete-takeover-of-bab-almandab-area",
-      "translation_status": "ok",
-      "score": 63,
+      "excerpt": "Emma Bonino의 정치 생활은 범죄로 시작되었습니다. 1974년, 이탈리아에서 낙태가 불법이었을 때, 그녀는 계획되지 않은 임신을 중단하기 위해 피렌체에 있는 비밀 진료소로갔습니다. “코미",
+      "excerpt_en": "Emma Bonino’s life in politics began with a crime. In 1974, at a time when abortion was illegal in Italy, ⁠she travelled to a clandestine clinic in Florence ⁠to terminate an unplanned pregnancy. “Comi",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367210/emma-bonino-italian-politician-who-fought-abortion-rights-dies-aged-78?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
@@ -975,92 +1097,45 @@
       "source_count": 3,
       "sources": [
         "Bangkok Post",
-        "Hindustan Times",
-        "New York Times"
+        "New York Times",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-11T09:45:00+09:00",
-      "latest_published_at": "2026-09-11T16:27:41+09:00",
+      "first_published_at": "2026-09-11T08:45:00+09:00",
+      "latest_published_at": "2026-09-11T19:47:07+09:00",
       "articles": [
         {
-          "title": "Houthis Seize a Key Red Sea Island, Threatening Yet Another Global Oil Route",
+          "title": "Emma Bonino, Italian Campaigner for Civil Rights, Dies at 78",
           "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-          "published_at": "16:27"
+          "url": "https://www.nytimes.com/2026/09/11/world/europe/emma-bonino-italian-campaigner-dies.html",
+          "published_at": "19:47"
         },
         {
-          "title": "Iran-backed Houthis seize Yemen's entire Red Sea coast, 3 strategic islands",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/iranbacked-houthis-seize-yemens-entire-red-sea-coast-3-strategic-islands-101789139898152.html",
-          "published_at": "15:36"
+          "title": "Emma Bonino, Italian politician who fought for abortion rights, dies aged 78",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3367210/emma-bonino-italian-politician-who-fought-abortion-rights-dies-aged-78?utm_source=rss_feed",
+          "published_at": "09:30"
         },
         {
-          "title": "Houthis ‘complete takeover’ of Bab al-Mandab area",
+          "title": "Italian feminist fighter Emma Bonino dies",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3318029/houthis-complete-takeover-of-bab-almandab-area",
-          "published_at": "09:45"
+          "url": "https://www.bangkokpost.com/world/3317994/italian-feminist-fighter-emma-bonino-dies",
+          "published_at": "08:45"
         }
       ]
     },
     {
-      "id": "world-94",
-      "title": "루비오, 최근 파업에도 불구하고 미국은 마약 밀매에 대해 일방적인 조치를 취하지 않을 것이라고 약속",
-      "title_en": "Rubio pledges US won’t take unilateral action against drug trafficking despite recent strikes",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdEVISVIwSVdPeVFreDZWNEhTQW1SeE51Mk5yUUJWWmFaNkZRTlZVbXozQVRlRHF4RnJBU1FCaGZTeGo4dnRVa1NETlZFYmxWbmVIUF9YR3Z0ZjM2dzY3R2xFZVFZLUV3dlF0WWVBR0xEMDVBUXY3WkNBSFAzb0V0b0NjUUhjcU85WHBvUXN6b0IwUVo3a2owbw?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "마르코 루비오 국무장관은 미국이 동맹국의 승인 없이는 라틴 아메리카 국가의 마약 밀매업자에 대해 군사적 조치를 취하지 않을 것이라고 약속했습니다.",
-      "excerpt_en": "Secretary of State Marco Rubio has pledged that the U.S. wouldn't take military action against drug traffickers in Latin American countries without the approval of its allies",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/rubio-pledges-us-unilateral-action-drug-trafficking-despite-136337738",
-      "translation_status": "ok",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-09-10T22:20:00+09:00",
-      "latest_published_at": "2026-09-11T06:42:13+09:00",
-      "articles": [
-        {
-          "title": "Rubio pledges US won't take unilateral action against drug trafficking despite recent strikes",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/rubio-pledges-us-unilateral-action-drug-trafficking-despite-136337738",
-          "published_at": "06:42"
-        },
-        {
-          "title": "Rubio pledges US won’t take unilateral action against drug trafficking despite recent strikes",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdEVISVIwSVdPeVFreDZWNEhTQW1SeE51Mk5yUUJWWmFaNkZRTlZVbXozQVRlRHF4RnJBU1FCaGZTeGo4dnRVa1NETlZFYmxWbmVIUF9YR3Z0ZjM2dzY3R2xFZVFZLUV3dlF0WWVBR0xEMDVBUXY3WkNBSFAzb0V0b0NjUUhjcU85WHBvUXN6b0IwUVo3a2owbw?oc=5",
-          "published_at": "22:20"
-        }
-      ]
-    },
-    {
-      "id": "world-277",
-      "title": "중국 학교, 학생들에게 수업 중 학기당 화장실 1번만 사용하도록 제한, 조사 시작",
+      "id": "world-266",
+      "title": "Chinese school restricts students to 1 bathroom break per term during class, sparks probe",
       "title_en": "Chinese school restricts students to 1 bathroom break per term during class, sparks probe",
       "title_source": "earliest_pick",
       "title_url": "https://www.scmp.com/news/people-culture/trending-china/article/3367155/chinese-school-restricts-students-1-bathroom-break-term-during-class-sparks-probe?utm_source=rss_feed",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "중국 남부의 한 중등학교는 학생들이 학기 내내 수업 중 한 번만 화장실을 사용하도록 제한하는 할당량을 시행한 이후 상당한 반발에 직면했습니다. 이번 화장실 정책",
+      "excerpt": "A secondary school in southern China has faced significant backlash since implementing a quota that restricts students to using the toilet only once during class for the entire term. This toilet polic",
       "excerpt_en": "A secondary school in southern China has faced significant backlash since implementing a quota that restricts students to using the toilet only once during class for the entire term. This toilet polic",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/people-culture/trending-china/article/3367155/chinese-school-restricts-students-1-bathroom-break-term-during-class-sparks-probe?utm_source=rss_feed",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 61,
       "score_breakdown": {
         "article_score": 12,
@@ -1096,18 +1171,71 @@
       ]
     },
     {
-      "id": "world-309",
-      "title": "600만 달러 중 100명의 미국 여성에게 구애한 가짜 연인 체포",
-      "title_en": "Fake lovers accused of wooing 100 American women out of $6M arrested",
+      "id": "world-284",
+      "title": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
+      "title_en": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "title_url": "https://www.cbc.ca/news/world/us-fda-cyclospora-outbreak-9.7340469?cmp=rss",
       "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "이들 개인은 2021년 케이프타운에서 체포됐으며 금요일에 연방수사국(Federal Bureau of Investigation) 요원에게 넘겨졌다.",
-      "excerpt_en": "The individuals were apprehended in Cape Town in 2021 and are being turned over to Federal Bureau of Investigation agents on Friday",
+      "primary_source": "CBC",
+      "excerpt": "While this year’s surge was dominated by an outbreak across 21 states linked to iceberg lettuce, thousands of other cyclosporiasis cases have not been linked to that outbreak",
+      "excerpt_en": "While this year’s surge was dominated by an outbreak across 21 states linked to iceberg lettuce, thousands of other cyclosporiasis cases have not been linked to that outbreak",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
-      "translation_status": "ok",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/cyclosporiasis-cyclospora-outbreak-cases-lettuce-b3048869.html",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T17:11:30+09:00",
+      "latest_published_at": "2026-09-11T19:49:12+09:00",
+      "articles": [
+        {
+          "title": "FDA reports salmonella outbreak linked to broccoli sprouts",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/fda-salmonella-outbreak-recall-broccoli-sprouts-b3048855.html",
+          "published_at": "19:49"
+        },
+        {
+          "title": "FDA declares cyclospora outbreak over but origin of 13,000 ‘diarrhea lettuce’ cases is still unknown",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/cyclosporiasis-cyclospora-outbreak-cases-lettuce-b3048869.html",
+          "published_at": "18:46"
+        },
+        {
+          "title": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/us-fda-cyclospora-outbreak-9.7340469?cmp=rss",
+          "published_at": "17:11"
+        }
+      ]
+    },
+    {
+      "id": "world-1",
+      "title": "At least 44 people injured after train derails in northern France",
+      "title_en": "At least 44 people injured after train derails in northern France",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "A derailed train in northern France left at least 44 people injured, officials said.",
+      "excerpt_en": "A derailed train in northern France left at least 44 people injured, officials said.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
+      "translation_status": "failed",
       "score": 59,
       "score_breakdown": {
         "article_score": 12,
@@ -1122,39 +1250,86 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
-        "The Independent"
+        "Reuters",
+        "Sky News"
       ],
-      "first_published_at": "2026-09-11T12:47:10+09:00",
-      "latest_published_at": "2026-09-11T16:24:25+09:00",
+      "first_published_at": "2026-09-11T15:02:00+09:00",
+      "latest_published_at": "2026-09-11T21:24:54+09:00",
       "articles": [
         {
-          "title": "Suspects in $6 million romance scam targeting women extradited to U.S.",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/romance-scam-suspects-extradited-to-us-south-africa/",
-          "published_at": "16:24"
+          "title": "Train derails in northern France, injuring 44 people",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRnJJYUZBT2xTV19JSy1IbWc1dG8xSlliS2FDQjFDUnExTklKWmI4bllmaWVjRGhjNzhQUTFuMTNBbXd1NUl0UWZnSXl4MjZ3VzZkSnFJMXdseERhNkpCc0xWVy1PNlcyeDdKWnp5aXJfQkhjLUpXa2J3eWM1bzdRV1VOY3BMSTktV0VDOU0yY1lvaG1tWV84QUg0cGRRQQ?oc=5",
+          "published_at": "21:24"
         },
         {
-          "title": "Fake lovers accused of wooing 100 American women out of $6M arrested",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
-          "published_at": "12:47"
+          "title": "At least 44 people injured after train derails in northern France",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
+          "published_at": "15:02"
         }
       ]
     },
     {
-      "id": "world-267",
-      "title": "대마초 밀반입하다 적발된 美여성 \"일본 공짜로 갈 수 있어\"",
+      "id": "world-223",
+      "title": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
+      "title_en": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
+      "category": "아시아",
+      "primary_source": "New York Times",
+      "excerpt": "필리핀 여객선에서 화재가 발생해 최소 35명이 사망하고 54명이 실종됐다.",
+      "excerpt_en": "A fire which broke out on a passenger ferry in the Philippines has killed at least 35 people, while 54 are still missing.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/deaths-in-philippines-ferry-fire-rises-to-at-least-35-with-54-still-missing-13584566",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "New York Times",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-11T17:00:10+09:00",
+      "latest_published_at": "2026-09-11T18:41:00+09:00",
+      "articles": [
+        {
+          "title": "Deaths in Philippines ferry fire rises to at least 35",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/deaths-in-philippines-ferry-fire-rises-to-at-least-35-with-54-still-missing-13584566",
+          "published_at": "18:41"
+        },
+        {
+          "title": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
+          "published_at": "17:00"
+        }
+      ]
+    },
+    {
+      "id": "world-256",
+      "title": "‘I could go to Japan for free’, says US woman caught with smuggled cannabis",
       "title_en": "‘I could go to Japan for free’, says US woman caught with smuggled cannabis",
       "title_source": "earliest_pick",
       "title_url": "https://www.scmp.com/news/asia/east-asia/article/3367184/i-could-go-japan-free-says-us-woman-caught-smuggled-cannabis?utm_source=rss_feed",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "도쿄 경찰은 미화 100만 달러 상당의 대마초를 밀수한 혐의로 미국 여성 2명을 체포했으며, 용의자 중 한 명은 그녀가 일본으로의 무료 여행을 동기로 삼았다고 주장했다고 ​​관계자와 언론 보도가 밝혔습니다.",
+      "excerpt": "Tokyo police arrested two American women for allegedly smuggling US$1 million worth of cannabis, with one suspect claiming she was motivated by a free trip to Japan, an official and media reports said",
       "excerpt_en": "Tokyo police arrested two American women for allegedly smuggling US$1 million worth of cannabis, with one suspect claiming she was motivated by a free trip to Japan, an official and media reports said",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3367184/i-could-go-japan-free-says-us-woman-caught-smuggled-cannabis?utm_source=rss_feed",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 57,
       "score_breakdown": {
         "article_score": 12,
@@ -1190,17 +1365,64 @@
       ]
     },
     {
-      "id": "world-218",
-      "title": "세계는 9/11 테러 이후 25주년을 맞이했습니다.",
-      "title_en": "The world marks 25 years since 9/11",
+      "id": "world-316",
+      "title": "600만 달러 중 100명의 미국 여성에게 구애한 가짜 연인 체포",
+      "title_en": "Fake lovers accused of wooing 100 American women out of $6M arrested",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/the-world-marks-25-years-since-9-11-20260911-p60wo1.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "추모와 추억은 2001년 9월 11일 거의 3,000명의 목숨을 앗아간 테러 이후 25주년을 기념합니다. 미국은 9/11 테러 이후 25주년이 됩니다. – 최신 업데이트 미국은 25주년을 맞이했습니다.",
-      "excerpt_en": "Memorials and remembrances mark the 25 years since the attacks that killed nearly 3,000 on 11 September 2001 US marks 25 years since 9/11 – latest updates The United States marked the 25th anniversary",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/11/september-11-commemorations",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "이들 개인은 2021년 케이프타운에서 체포됐으며 금요일에 연방수사국(Federal Bureau of Investigation) 요원에게 넘겨졌다.",
+      "excerpt_en": "The individuals were apprehended in Cape Town in 2021 and are being turned over to Federal Bureau of Investigation agents on Friday",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "translation_status": "ok",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T12:47:10+09:00",
+      "latest_published_at": "2026-09-11T16:24:00+09:00",
+      "articles": [
+        {
+          "title": "Suspects in $6 million romance scam targeting women extradited to U.S.",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/romance-scam-suspects-extradited-to-us-south-africa/",
+          "published_at": "16:24"
+        },
+        {
+          "title": "Fake lovers accused of wooing 100 American women out of $6M arrested",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+          "published_at": "12:47"
+        }
+      ]
+    },
+    {
+      "id": "world-161",
+      "title": "후티 반군이 전략적 섬을 점령하고 전투가 격화되면서 사우디는 파이프라인을 폐쇄했습니다.",
+      "title_en": "Houthis seize strategic island, Saudis close pipeline as fighting escalates",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/saudi-strikes-yemen-mokha-airport-houthis-island-9.7339979?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "Yemen's Iran-aligned Houthi rebels captured the strategic Perim Island in the Bab el-Mandeb Strait, located at the southern entrance to the Red Sea, officials said on Friday. The lightning move opens ",
+      "excerpt_en": "Yemen's Iran-aligned Houthi rebels captured the strategic Perim Island in the Bab el-Mandeb Strait, located at the southern entrance to the Red Sea, officials said on Friday. The lightning move opens ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
       "translation_status": "ok",
       "score": 56,
       "score_breakdown": {
@@ -1216,39 +1438,86 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Sydney Morning Herald",
+        "CBC",
+        "France24"
+      ],
+      "first_published_at": "2026-09-11T12:10:58+09:00",
+      "latest_published_at": "2026-09-11T20:09:31+09:00",
+      "articles": [
+        {
+          "title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
+          "published_at": "20:09"
+        },
+        {
+          "title": "Houthis seize strategic island, Saudis close pipeline as fighting escalates",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/saudi-strikes-yemen-mokha-airport-houthis-island-9.7339979?cmp=rss",
+          "published_at": "12:10"
+        }
+      ]
+    },
+    {
+      "id": "world-195",
+      "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
+      "title_en": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11-101789152790412.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "9·11테러 25주년을 맞아 대통령 브리핑 문서 기밀 해제 25주년인 금요일에 수십 개의 대통령 브리핑 문서가 기밀 해제됐다.",
+      "excerpt_en": "The presidential briefing documents were declassified on the 25th anniversary of the September 11 attacks Several dozen presidential briefing documents declassified on Friday, the 25th anniversary of ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/11/cia-releases-presidential-briefs-bin-laden-al-qaida",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
         "The Guardian"
       ],
-      "first_published_at": "2026-09-11T08:45:46+09:00",
-      "latest_published_at": "2026-09-11T16:16:37+09:00",
+      "first_published_at": "2026-09-11T18:53:09+09:00",
+      "latest_published_at": "2026-09-11T22:27:21+09:00",
       "articles": [
         {
-          "title": "Remembrance ceremonies held across the US to honor victims of 9/11",
+          "title": "CIA releases dozens of presidential daily briefs on Bin Laden and al-Qaida from before 9/11",
           "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/11/september-11-commemorations",
-          "published_at": "16:16"
+          "url": "https://www.theguardian.com/us-news/2026/sep/11/cia-releases-presidential-briefs-bin-laden-al-qaida",
+          "published_at": "22:27"
         },
         {
-          "title": "The world marks 25 years since 9/11",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/the-world-marks-25-years-since-9-11-20260911-p60wo1.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:45"
+          "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11-101789152790412.html",
+          "published_at": "18:53"
         }
       ]
     },
     {
-      "id": "world-449",
-      "title": "미국인들은 지속적인 슬픔과 반성 속에서 9·11 테러 이후 25주년을 맞이했습니다.",
-      "title_en": "Americans mark 25 years since Sep 11 attacks amid enduring grief, reflection",
+      "id": "world-206",
+      "title": "Houthis ‘complete takeover’ of Bab al-Mandab area",
+      "title_en": "Houthis ‘complete takeover’ of Bab al-Mandab area",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/us-sep-11-world-trade-center-twin-tower-attack-anniversary-6378566",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "2001년 이후 몇 달 동안 공기를 오염시킨 독성 먼지와 관련된 질병으로 사망한 수천 명의 사람들을 기리기 위해 처음으로 일곱 번째 침묵의 순간이 관찰될 것입니다.",
-      "excerpt_en": "For the first time, a seventh moment of silence will be observed to honour the thousands who have died since 2001 from illnesses tied to the toxic dust that poisoned the air for months afterward.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/us-sep-11-world-trade-center-twin-tower-attack-anniversary-6378566",
-      "translation_status": "ok",
+      "title_url": "https://www.bangkokpost.com/world/3318029/houthis-complete-takeover-of-bab-almandab-area",
+      "category": "중동",
+      "primary_source": "Bangkok Post",
+      "excerpt": "SANAA, Yemen - Houthi rebels on Friday seized a key Red Sea island in the middle of the Bab al-Mandab strait, completing a push to take control of a waterway crucial to Saudi oil exports, a local gove",
+      "excerpt_en": "SANAA, Yemen - Houthi rebels on Friday seized a key Red Sea island in the middle of the Bab al-Mandab strait, completing a push to take control of a waterway crucial to Saudi oil exports, a local gove",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3318029/houthis-complete-takeover-of-bab-almandab-area",
+      "translation_status": "failed",
       "score": 56,
       "score_breakdown": {
         "article_score": 12,
@@ -1263,39 +1532,86 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Sydney Morning Herald"
+        "Bangkok Post",
+        "New York Times"
       ],
-      "first_published_at": "2026-09-11T13:51:00+09:00",
-      "latest_published_at": "2026-09-11T16:51:14+09:00",
+      "first_published_at": "2026-09-11T09:45:00+09:00",
+      "latest_published_at": "2026-09-11T22:22:16+09:00",
       "articles": [
         {
-          "title": "‘These were people like you and me going to work’: America remembers 9/11 victims 25 years on",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/america-pauses-to-remember-victims-of-9-11-attacks-25-years-on-20260911-p60wpv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "16:51"
+          "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+          "published_at": "22:22"
         },
         {
-          "title": "Americans mark 25 years since Sep 11 attacks amid enduring grief, reflection",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-sep-11-world-trade-center-twin-tower-attack-anniversary-6378566",
-          "published_at": "13:51"
+          "title": "Houthis ‘complete takeover’ of Bab al-Mandab area",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318029/houthis-complete-takeover-of-bab-almandab-area",
+          "published_at": "09:45"
         }
       ]
     },
     {
-      "id": "world-5",
-      "title": "8월 미국 소비자물가 반등, 금리인상 가능성 높아져",
-      "title_en": "US consumer prices pick up in August, bolstering chances of interest rate increase",
+      "id": "world-218",
+      "title": "Rubio pledges US won't take unilateral action against drug trafficking despite recent strikes",
+      "title_en": "Rubio pledges US won't take unilateral action against drug trafficking despite recent strikes",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367254/us-consumer-prices-pick-august-bolstering-chances-interest-rate-increase?utm_source=rss_feed",
+      "title_url": "https://abcnews.com/International/wireStory/rubio-pledges-us-unilateral-action-drug-trafficking-despite-136337738",
       "category": "미국",
-      "primary_source": "SCMP",
-      "excerpt": "휘발유 가격이 두 달 연속 하락세를 보인 후 반등하면서 8월 미국 소비자 물가가 상승했고, 이는 연준이 금리를 인상할 수 있다는 금융 시장의 기대를 강화시켰습니다.",
-      "excerpt_en": "US consumer prices accelerated in August as the cost of petrol rebounded after two straight monthly declines, bolstering financial market expectations that the Federal Reserve could raise interest rat",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367254/us-consumer-prices-pick-august-bolstering-chances-interest-rate-increase?utm_source=rss_feed",
-      "translation_status": "ok",
+      "primary_source": "ABC News",
+      "excerpt": "Secretary of State Marco Rubio has pledged that the U.S. wouldn't take military action against drug traffickers in Latin American countries without the approval of its allies",
+      "excerpt_en": "Secretary of State Marco Rubio has pledged that the U.S. wouldn't take military action against drug traffickers in Latin American countries without the approval of its allies",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/rubio-pledges-us-unilateral-action-drug-trafficking-despite-136337738",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-09-11T06:42:13+09:00",
+      "latest_published_at": "2026-09-11T21:44:52+09:00",
+      "articles": [
+        {
+          "title": "Colombia to Start Aerial Spraying of Coca Crops Despite Health Worries",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/11/world/americas/colombia-aerial-spraying-coca-crops.html",
+          "published_at": "21:44"
+        },
+        {
+          "title": "Rubio pledges US won't take unilateral action against drug trafficking despite recent strikes",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/rubio-pledges-us-unilateral-action-drug-trafficking-despite-136337738",
+          "published_at": "06:42"
+        }
+      ]
+    },
+    {
+      "id": "world-24",
+      "title": "Lawyer cites fake witnesses in murder case and blames ChatGPT",
+      "title_en": "Lawyer cites fake witnesses in murder case and blames ChatGPT",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUmhINTM0ai1SSk9LTVNmUk1SUVRpeUF1bnRGQkRMTVE4RVBCM01KdFpHZ3VJN1ZvUmNUakFlZmNUYWdjakxERkNobmhSVmVZWWpTSVpyLTNLV1VMLXJQNU9EOGd3RE1MVTYydm10VHZLVWJGMU4tYjRZU1Awa19NOWpzWXhJbjNaTDAtaTUyVGczWkJTN05DRkljRGhmLVNPNVhCVkZpam9fcEQ0MGwxcXh3TGFwRTRaelo1eFhkQU9tWVNGN0pmYWJ0dGw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "State supreme court fined the attorney and held him in contempt for not verifying facts in a court filing.",
+      "excerpt_en": "State supreme court fined the attorney and held him in contempt for not verifying facts in a court filing.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/economy/2026/9/11/us-lawyer-cites-fake-witnesses-in-murder-case-blames-chatgpt?traffic_source=rss",
+      "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
@@ -1310,93 +1626,133 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "SCMP"
+        "Al Jazeera",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-11T14:00:29+09:00",
-      "latest_published_at": "2026-09-11T16:58:23+09:00",
+      "first_published_at": "2026-09-11T17:08:23+09:00",
+      "latest_published_at": "2026-09-11T20:42:05+09:00",
       "articles": [
         {
-          "title": "US consumer inflation picks up in August",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
-          "published_at": "16:58"
+          "title": "US lawyer cites fake witnesses in murder case, blames ChatGPT",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/11/us-lawyer-cites-fake-witnesses-in-murder-case-blames-chatgpt?traffic_source=rss",
+          "published_at": "20:42"
         },
         {
-          "title": "US consumer prices pick up in August, bolstering chances of interest rate increase",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367254/us-consumer-prices-pick-august-bolstering-chances-interest-rate-increase?utm_source=rss_feed",
-          "published_at": "14:00"
+          "title": "Lawyer cites fake witnesses in murder case and blames ChatGPT",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUmhINTM0ai1SSk9LTVNmUk1SUVRpeUF1bnRGQkRMTVE4RVBCM01KdFpHZ3VJN1ZvUmNUakFlZmNUYWdjakxERkNobmhSVmVZWWpTSVpyLTNLV1VMLXJQNU9EOGd3RE1MVTYydm10VHZLVWJGMU4tYjRZU1Awa19NOWpzWXhJbjNaTDAtaTUyVGczWkJTN05DRkljRGhmLVNPNVhCVkZpam9fcEQ0MGwxcXh3TGFwRTRaelo1eFhkQU9tWVNGN0pmYWJ0dGw?oc=5",
+          "published_at": "17:08"
         }
       ]
     },
     {
-      "id": "world-151",
-      "title": "이란 지원 후티 반군, 예멘 홍해 전략적 항구 점거",
-      "title_en": "Iran-backed Houthi rebels seize strategic Red Sea port in Yemen",
+      "id": "world-300",
+      "title": "Anti-Saudi Arabia rant on stage takes over reading of 9/11 victims names and draws applause from families",
+      "title_en": "Anti-Saudi Arabia rant on stage takes over reading of 9/11 victims names and draws applause from families",
       "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
+      "title_url": "https://www.independent.co.uk/news/world/americas/9-11-ceremony-saudi-arabia-rant-interruption-b3048675.html",
       "category": "중동",
-      "primary_source": "NPR",
-      "excerpt": "후티 반군은 금요일 예멘의 홍해 해안선을 장악하기 위한 신속한 작전을 효과적으로 완료하여 세계에서 가장 중요한 해운 경로 중 하나에 대한 장악력을 강화하고 초안을 전달했습니다.",
-      "excerpt_en": "Houthi rebels effectively completed a rapid push to take control of Yemen’s Red Sea coastline on Friday, tightening their grip on one of the world’s most important shipping routes and delivering a dra",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186",
-      "translation_status": "ok",
+      "primary_source": "The Independent",
+      "excerpt": "‘How can it be 25 years and we still have no justice?’ Terry Strada asked from the stage, addressing the US leaders present",
+      "excerpt_en": "‘How can it be 25 years and we still have no justice?’ Terry Strada asked from the stage, addressing the US leaders present",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/9-11-ceremony-saudi-arabia-rant-interruption-b3048675.html",
+      "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 5,
-        "breaking_score": 1,
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
         "time_score": 2,
         "raw75": 41
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "ABC News",
-        "NBC News",
-        "NPR"
+        "Hindustan Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-11T05:40:21+09:00",
-      "latest_published_at": "2026-09-11T11:18:15+09:00",
+      "first_published_at": "2026-09-11T16:43:42+09:00",
+      "latest_published_at": "2026-09-11T18:15:08+09:00",
       "articles": [
         {
-          "title": "Iran-backed Houthis seize Red Sea coastline, tightening grip on vital shipping lane",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186",
-          "published_at": "11:18"
+          "title": "What role did Saudi Arabia have in 9/11 attacks? Victim widow Terry Strada unleashes scathing criticism at NYC memorial",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-role-did-saudi-arabia-have-in-9-11-attacks-victim-widow-terry-strada-unleashes-scathing-criticism-at-nyc-memorial-101789149859927.html",
+          "published_at": "18:15"
         },
         {
-          "title": "Iran-backed Houthi rebels take strategic port city in Yemen, raising threat to Red Sea shipping",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/iran-backed-houthi-rebels-strategic-port-city-yemen-136336641",
-          "published_at": "06:42"
-        },
-        {
-          "title": "Iran-backed Houthi rebels seize strategic Red Sea port in Yemen",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
-          "published_at": "05:40"
+          "title": "Anti-Saudi Arabia rant on stage takes over reading of 9/11 victims names and draws applause from families",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/9-11-ceremony-saudi-arabia-rant-interruption-b3048675.html",
+          "published_at": "16:43"
         }
       ]
     },
     {
-      "id": "world-36",
-      "title": "우크라이나의 새로운 전쟁 '혁명'의 킬러 로봇 뒤에",
+      "id": "world-20",
+      "title": "US declares end of largest recorded cyclosporiasis outbreak",
+      "title_en": "US declares end of largest recorded cyclosporiasis outbreak",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR09VN1ZRWGprdy1ndG9qTEVXVVkxVXN0SE96eDZJU1BDVFF5T1RHR2I2TGU1Z3lsc1FIWU9vdTgtanZ5VlZOZkYtQWVubkNHMDFBR0F1SUwzbUxIMnJjUmFEU2xWQ3dIZEx6UlRhcmhkQXZhUEtucEk5dzlpV0dIUGZNemxzY0l4U1luTlpTRklTYjQ3X2VhQXRlaTV4UjAxYUVxblNodGduX2o0WExvSFdhQWxKNXJMZGRKR0NCVHZOR1FwYldr?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "The FDA says contaminated lettuce has been removed from the market after nearly 13,000 linked cases.",
+      "excerpt_en": "The FDA says contaminated lettuce has been removed from the market after nearly 13,000 linked cases.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/11/us-declares-end-of-largest-recorded-cyclosporiasis-outbreak?traffic_source=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-11T16:03:31+09:00",
+      "latest_published_at": "2026-09-11T17:35:36+09:00",
+      "articles": [
+        {
+          "title": "US declares end of largest recorded cyclosporiasis outbreak",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/11/us-declares-end-of-largest-recorded-cyclosporiasis-outbreak?traffic_source=rss",
+          "published_at": "17:35"
+        },
+        {
+          "title": "US declares end of largest recorded cyclosporiasis outbreak",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR09VN1ZRWGprdy1ndG9qTEVXVVkxVXN0SE96eDZJU1BDVFF5T1RHR2I2TGU1Z3lsc1FIWU9vdTgtanZ5VlZOZkYtQWVubkNHMDFBR0F1SUwzbUxIMnJjUmFEU2xWQ3dIZEx6UlRhcmhkQXZhUEtucEk5dzlpV0dIUGZNemxzY0l4U1luTlpTRklTYjQ3X2VhQXRlaTV4UjAxYUVxblNodGduX2o0WExvSFdhQWxKNXJMZGRKR0NCVHZOR1FwYldr?oc=5",
+          "published_at": "16:03"
+        }
+      ]
+    },
+    {
+      "id": "world-55",
+      "title": "Behind the killer robots of Ukraine's new warfare 'revolution'",
       "title_en": "Behind the killer robots of Ukraine's new warfare 'revolution'",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaW1nSnhZc3pjdUh3XzE1QkZvVU11YTZPa3hhbndTNkExa2Z1cnhKbXBNZlR0VlVFdGplNks4a1dILWswa2QyNUNfQjJVUFV1UmdSbmwyR1pzVFlOSmxQdV9ZczROOTA4aWhRQUFzc2tocS15czZ6RmpZbF9UbG9kbUMtYlFDVHBlY1dzUzBLWTc2UGt1eGZjRXp1NFFIck83Yk01RmRSTjQ5cGs2NFdYdC1mQ256QQ?oc=5",
       "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "우크라이나는 연말까지 최전선 병력의 약 3분의 1을 무인 지상 차량으로 교체하기를 원합니다.",
+      "excerpt": "Ukraine wants to replace around one third of its frontline troops with unmanned ground vehicles by the ​end of the year",
       "excerpt_en": "Ukraine wants to replace around one third of its frontline troops with unmanned ground vehicles by the ​end of the year",
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/europe/ukraine-killer-robots-russia-war-ai-b3048417.html",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1432,206 +1788,18 @@
       ]
     },
     {
-      "id": "world-40",
-      "title": "한·이란 외무장관, 호르무즈 해협 논의",
-      "title_en": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaWYyU1hhQWhiN21Nd2tXNGxEZjdKQmFhbWlpRDNiZVdLZk45YzM3T2NOcUd5ZVAtUVozN2tsak9aYzBIX1BFSndGM3Vsa255UktpTVhhS0JqVWI3U0JJSTlNRU51eVpHT3dwcC1QNnVkbUlGTm0zZUJ1UFBaWVpVazgwZXFKSXVUYVEzNGhxNDVLWXJVSHZPMHVqUHVCNUNPNWZFeW5veHMxb0tielkxZFRmclVocmdXOXVjNFlRNWQwSm94?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "오만은 월요일 오만 남부 도시 살랄라에서 걸프협력회의 외무장관과 이란 외무장관들을 한자리에 모으려 하고 있습니다.",
-      "excerpt_en": "Oman is seeking to bring together the foreign ministers of the Gulf Cooperation Council and Iran on Monday in Salalah, a city in southern Oman.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/gulf-states-weigh-first-meeting-with-iran-since-war-began-to-discuss-strait-of-hormuz-report-101789135120728.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-11T06:00:00+09:00",
-      "latest_published_at": "2026-09-11T14:34:30+09:00",
-      "articles": [
-        {
-          "title": "Gulf states weigh first meeting with Iran since war began to discuss Strait of Hormuz: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/gulf-states-weigh-first-meeting-with-iran-since-war-began-to-discuss-strait-of-hormuz-report-101789135120728.html",
-          "published_at": "14:34"
-        },
-        {
-          "title": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaWYyU1hhQWhiN21Nd2tXNGxEZjdKQmFhbWlpRDNiZVdLZk45YzM3T2NOcUd5ZVAtUVozN2tsak9aYzBIX1BFSndGM3Vsa255UktpTVhhS0JqVWI3U0JJSTlNRU51eVpHT3dwcC1QNnVkbUlGTm0zZUJ1UFBaWVpVazgwZXFKSXVUYVEzNGhxNDVLWXJVSHZPMHVqUHVCNUNPNWZFeW5veHMxb0tielkxZFRmclVocmdXOXVjNFlRNWQwSm94?oc=5",
-          "published_at": "06:00"
-        }
-      ]
-    },
-    {
-      "id": "world-45",
-      "title": "81년 된 소련 시대 영화를 소수의 관객에게 러시아에서 상영한 것이 대만을 놀라게 한 이유",
-      "title_en": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4zeGxWY1BlN2kwcnpTNHkxOFFnZzYyQ1BQTVUtb1ViVGg4SzhTNFdETnpwcS0ySWR6QVdxOHU1TTg5V09IMkdqOUp6bzE4eFlraVd5TGMxME1yZDE5VGFYMjVHXzNIczJHUzlOblpGc29CWUI2Rkp1OU9BSmd3dVMxNkd3YldCek12MmMyZUlnb0J1aFhnZlRLOGp4czJuMlNvMTB4b1l6eTZvSkJSUjByeGhDMjJCZjlXOVZ5Szlxdnp1?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "81년 된 소련 시대 영화를 소수의 관객에게 러시아에서 상영한 것이 대만을 놀라게 한 이유 Reuters",
-      "excerpt_en": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4zeGxWY1BlN2kwcnpTNHkxOFFnZzYyQ1BQTVUtb1ViVGg4SzhTNFdETnpwcS0ySWR6QVdxOHU1TTg5V09IMkdqOUp6bzE4eFlraVd5TGMxME1yZDE5VGFYMjVHXzNIczJHUzlOblpGc29CWUI2Rkp1OU9BSmd3dVMxNkd3YldCek12MmMyZUlnb0J1aFhnZlRLOGp4czJuMlNvMTB4b1l6eTZvSkJSUjByeGhDMjJCZjlXOVZ5Szlxdnp1?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-11T04:02:00+09:00",
-      "latest_published_at": "2026-09-11T07:20:58+09:00",
-      "articles": [
-        {
-          "title": "Why a Russian screening of an 81-year-old film has alarmed Taiwan",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/smashing-militarist-japan-russia-film-taiwan-b3048412.html",
-          "published_at": "07:20"
-        },
-        {
-          "title": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4zeGxWY1BlN2kwcnpTNHkxOFFnZzYyQ1BQTVUtb1ViVGg4SzhTNFdETnpwcS0ySWR6QVdxOHU1TTg5V09IMkdqOUp6bzE4eFlraVd5TGMxME1yZDE5VGFYMjVHXzNIczJHUzlOblpGc29CWUI2Rkp1OU9BSmd3dVMxNkd3YldCek12MmMyZUlnb0J1aFhnZlRLOGp4czJuMlNvMTB4b1l6eTZvSkJSUjByeGhDMjJCZjlXOVZ5Szlxdnp1?oc=5",
-          "published_at": "04:02"
-        }
-      ]
-    },
-    {
-      "id": "world-48",
-      "title": "말레이시아 국왕, 나집 라자크 전 총리 사면 결정 연기",
-      "title_en": "Malaysia's king postpones decision on ex-PM Najib Razak's pardon bid",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmd1X1M2d1g0c3ZkQlFGS1hoZDI5dThuUDF5ejFxbGI2TjdJaHJuNDBnV3IzRS1CQ2pGdEFjU2FZZmhzZ01wcWpRT1BoOU84Q2FENTZ1bkZzdFN4WkFhYUFLc281VEhIU2lZaVpZQ25GdzRoNERrWVFtczlEbGRNb2JlM3F5anpRLXp5TjhCVTVkcDd3OFAtRjEzQ2llRkxrRTRkRGRtZmROc0pybmR5enJqQXhiNVlPWWc?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "말레이시아 사면위원회는 불명예스러운 전 지도자 나지브 라자크(Najib Razak)의 사면 신청에 대한 논의를 연기했다.",
-      "excerpt_en": "Malaysia’s Pardons Board has postponed discussions on disgraced former leader Najib Razak’s pardon application, days after widespread public outrage over the possibility that he could walk free from h",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/week-asia/people/article/3367160/malaysia-pauses-najibs-pardon-decision-amid-public-backlash?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-11T04:17:00+09:00",
-      "latest_published_at": "2026-09-11T05:50:07+09:00",
-      "articles": [
-        {
-          "title": "Malaysia pauses Najib’s pardon decision amid public backlash",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/people/article/3367160/malaysia-pauses-najibs-pardon-decision-amid-public-backlash?utm_source=rss_feed",
-          "published_at": "05:50"
-        },
-        {
-          "title": "Malaysia's king postpones decision on ex-PM Najib Razak's pardon bid",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmd1X1M2d1g0c3ZkQlFGS1hoZDI5dThuUDF5ejFxbGI2TjdJaHJuNDBnV3IzRS1CQ2pGdEFjU2FZZmhzZ01wcWpRT1BoOU84Q2FENTZ1bkZzdFN4WkFhYUFLc281VEhIU2lZaVpZQ25GdzRoNERrWVFtczlEbGRNb2JlM3F5anpRLXp5TjhCVTVkcDd3OFAtRjEzQ2llRkxrRTRkRGRtZmROc0pybmR5enJqQXhiNVlPWWc?oc=5",
-          "published_at": "04:17"
-        }
-      ]
-    },
-    {
-      "id": "world-60",
-      "title": "달러는 미국 인플레이션 데이터 이후 스위스 프랑 대비 상승했습니다.",
-      "title_en": "Dollar edges higher against Swiss franc after US inflation data",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "달러는 미국 인플레이션 데이터 이후 스위스 프랑 대비 상승했습니다.",
-      "excerpt_en": "Dollar edges higher against Swiss franc after US inflation data Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-11T01:08:00+09:00",
-      "latest_published_at": "2026-09-11T13:06:15+09:00",
-      "articles": [
-        {
-          "title": "Dollar edges higher against Swiss franc after US inflation data",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/dollar-edges-higher-against-swiss-franc-after-us-inflation-data-6377536",
-          "published_at": "13:06"
-        },
-        {
-          "title": "Dollar edges higher against Swiss franc after US inflation data",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
-          "published_at": "01:08"
-        }
-      ]
-    },
-    {
-      "id": "world-87",
-      "title": "BRICS 지도자들은 전쟁과 경쟁으로 인해 확장된 블록이 긴장됨에 따라 뉴델리에 모였습니다.",
+      "id": "world-83",
+      "title": "BRICS leaders gather in New Delhi as wars and rivalries strain the expanded bloc",
       "title_en": "BRICS leaders gather in New Delhi as wars and rivalries strain the expanded bloc",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/china-new-delhi-india-ukraine-xi-jinping-b3048354.html",
       "category": "아시아",
       "primary_source": "The Independent",
-      "excerpt": "브릭스(BRICS) 지도자들은 이번 주말 뉴델리에서 회의를 가질 예정이다. 우크라이나와 중동 전쟁, 미중 긴장이 브릭스의 단결을 시험하고 있기 때문이다.",
+      "excerpt": "BRICS leaders are meeting in New Delhi this weekend as wars in Ukraine and the Middle East and U.S.-China tensions test the group's unity",
       "excerpt_en": "BRICS leaders are meeting in New Delhi this weekend as wars in Ukraine and the Middle East and U.S.-China tensions test the group's unity",
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/americas/china-new-delhi-india-ukraine-xi-jinping-b3048354.html",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1667,18 +1835,18 @@
       ]
     },
     {
-      "id": "world-90",
-      "title": "나토(NATO)의 새 회원국인 스웨덴이 선거를 치른다. 여기에 위험이 있습니다",
+      "id": "world-85",
+      "title": "Sweden, NATO’s newest member, is holding an election. Here’s what is at stake",
       "title_en": "Sweden, NATO’s newest member, is holding an election. Here’s what is at stake",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/europe/sweden-election-akesson-magdalena-andersson-b3048426.html",
       "category": "유럽",
       "primary_source": "The Independent",
-      "excerpt": "현재 중도우파 연합은 극우에 뿌리를 둔 반이민 정당인 스웨덴 민주당의 외부 지원에 의존하고 있습니다.",
+      "excerpt": "The current center-right coalition relies on outside support from the Sweden Democrats, an anti-immigration party with far-right roots",
       "excerpt_en": "The current center-right coalition relies on outside support from the Sweden Democrats, an anti-immigration party with far-right roots",
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/europe/sweden-election-akesson-magdalena-andersson-b3048426.html",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1714,18 +1882,18 @@
       ]
     },
     {
-      "id": "world-99",
-      "title": "미국이 호르무즈 해협 재개에 진전을 이루었지만 이란 전쟁은 아직 끝나지 않았다.",
-      "title_en": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
+      "id": "world-166",
+      "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
+      "title_en": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/iran-united-states-strait-of-hormuz-donald-trump-saudi-arabia-b3048381.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "미국은 호르무즈 해협에 대한 이란의 지배를 완화하는 데 성공하면서 이란의 자체 수출을 사실상 중단했다.",
-      "excerpt_en": "The United States has succeeded in loosening Iran's grip over the Strait of Hormuz while virtually shutting down Iran's own exports",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/iran-united-states-strait-of-hormuz-donald-trump-saudi-arabia-b3048381.html",
-      "translation_status": "ok",
+      "title_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Brazilian Senator Flavio Bolsonaro, the leading right-wing challenger to President Luiz Inacio Lula da Silva in next month’s election, is under investigation for alleged corruption and money launderin",
+      "excerpt_en": "Brazilian Senator Flavio Bolsonaro, the leading right-wing challenger to President Luiz Inacio Lula da Silva in next month’s election, is under investigation for alleged corruption and money launderin",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1740,39 +1908,39 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "The Independent"
+        "France24",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-11T06:01:34+09:00",
-      "latest_published_at": "2026-09-11T06:55:00+09:00",
+      "first_published_at": "2026-09-11T15:45:55+09:00",
+      "latest_published_at": "2026-09-11T16:21:38+09:00",
       "articles": [
         {
-          "title": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdkRFZzA4VW9Ub1dpSFN3X3lqSW5MdWhfTDQyLWxGeUFMZDNMa2dVYVVTLWxIVjFBQkp4ams0N3ZyMjhjelFQUjZ2S29MWk01WDZJUUNGRmFjYmtUcWdBV0JkVHFkSzg0MXFaTmtlcmlydUdWQXlvbFU1Q0xvdFJwTndJTVBkRTBSWnlvZ0k1V2FHRG02blZNZ2NldWphUWc?oc=5",
-          "published_at": "06:55"
+          "title": "Flavio Bolsonaro probed for corruption as Brazil election tightens",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260911-flavio-bolsonaro-probed-for-corruption-as-brazil-election-tightens",
+          "published_at": "16:21"
         },
         {
-          "title": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/iran-united-states-strait-of-hormuz-donald-trump-saudi-arabia-b3048381.html",
-          "published_at": "06:01"
+          "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+          "published_at": "15:45"
         }
       ]
     },
     {
-      "id": "world-261",
-      "title": "인도의 시, 은행 자본 투입, EU-중국 무역",
+      "id": "world-250",
+      "title": "Xi in India, bank capital injections, EU-China trade",
       "title_en": "Xi in India, bank capital injections, EU-China trade",
       "title_source": "earliest_pick",
       "title_url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367198/xi-india-bank-capital-injections-eu-china-trade?utm_source=rss_feed",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "시진핑(習近平) 중국 국가주석이 2019년 이후 처음으로 인도를 방문하고 수년 만에 가장 바쁜 해외 여행 기간을 보내며 미국 순방 계획을 마무리하고 있다. 시 참석할 것",
+      "excerpt": "Chinese President Xi Jinping is heading to India for the first time since 2019 and finalising plans for a US trip as he works through his busiest month of international travel in years. Xi will attend",
       "excerpt_en": "Chinese President Xi Jinping is heading to India for the first time since 2019 and finalising plans for a US trip as he works through his busiest month of international travel in years. Xi will attend",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367198/xi-india-bank-capital-injections-eu-china-trade?utm_source=rss_feed",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1808,18 +1976,18 @@
       ]
     },
     {
-      "id": "world-353",
-      "title": "미얀마의 민 아웅 흘라잉(Min Aung Hlaing)이 ASEAN 참여 회복을 위해 캄보디아를 방문했습니다.",
+      "id": "world-351",
+      "title": "Myanmar's Min Aung Hlaing visits Cambodia as he seeks to restore ASEAN engagement",
       "title_en": "Myanmar's Min Aung Hlaing visits Cambodia as he seeks to restore ASEAN engagement",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-visits-cambodia-seeks-restore-136354958",
       "category": "아시아",
       "primary_source": "ABC News",
-      "excerpt": "프놈펜 – 캄보디아는 지난 금요일 민간 대통령으로 변신한 미얀마의 쿠데타 지도자에게 레드카펫 환영 인사를 했다고 그의 사무실 이미지가 보여줬습니다.",
+      "excerpt": "PHNOM PENH — Cambodia gave Myanmar's coup leader turned civilian president a red-carpet welcome on Friday, images from his office showed, as another nation embraced the ex-junta chief back into the di",
       "excerpt_en": "PHNOM PENH — Cambodia gave Myanmar's coup leader turned civilian president a red-carpet welcome on Friday, images from his office showed, as another nation embraced the ex-junta chief back into the di",
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3318010/cambodia-gives-myanmar-postcoup-leader-redcarpet-reception",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1855,49 +2023,143 @@
       ]
     },
     {
-      "id": "world-458",
-      "title": "네팔 홍수 재건 비용은 48억 달러로 추산됩니다.",
-      "title_en": "Nepal flood reconstruction bill estimated at $4.8 billion",
+      "id": "world-64",
+      "title": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan",
+      "title_en": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3318049/nepal-flood-reconstruction-bill-estimated-at-48-billion",
-      "category": "기타",
-      "primary_source": "Bangkok Post",
-      "excerpt": "네팔은 8월 26일 발생한 치명적인 홍수로부터 복구하기 위해 거의 70억 달러가 필요하다고 말하면서 부유한 국가들은 기후 변화로 인한 재난을 \"공동 책임\"으로 처리해야 한다고 주장했습니다.",
-      "excerpt_en": "Nepal says nearly $7 billion is needed for it to recover from the deadly August 26 floods, arguing wealthier countries should treat the climate change-fuelled disaster as a \"shared responsibility\".",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-12/nepal-flood-reconstruction-cost-billions/107145518",
-      "translation_status": "ok",
-      "score": 51,
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4zeGxWY1BlN2kwcnpTNHkxOFFnZzYyQ1BQTVUtb1ViVGg4SzhTNFdETnpwcS0ySWR6QVdxOHU1TTg5V09IMkdqOUp6bzE4eFlraVd5TGMxME1yZDE5VGFYMjVHXzNIczJHUzlOblpGc29CWUI2Rkp1OU9BSmd3dVMxNkd3YldCek12MmMyZUlnb0J1aFhnZlRLOGp4czJuMlNvMTB4b1l6eTZvSkJSUjByeGhDMjJCZjlXOVZ5Szlxdnp1?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan Reuters",
+      "excerpt_en": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4zeGxWY1BlN2kwcnpTNHkxOFFnZzYyQ1BQTVUtb1ViVGg4SzhTNFdETnpwcS0ySWR6QVdxOHU1TTg5V09IMkdqOUp6bzE4eFlraVd5TGMxME1yZDE5VGFYMjVHXzNIczJHUzlOblpGc29CWUI2Rkp1OU9BSmd3dVMxNkd3YldCek12MmMyZUlnb0J1aFhnZlRLOGp4czJuMlNvMTB4b1l6eTZvSkJSUjByeGhDMjJCZjlXOVZ5Szlxdnp1?oc=5",
+      "translation_status": "failed",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "Bangkok Post"
+        "Reuters",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-11T11:45:00+09:00",
-      "latest_published_at": "2026-09-11T14:38:02+09:00",
+      "first_published_at": "2026-09-11T04:02:00+09:00",
+      "latest_published_at": "2026-09-11T07:20:58+09:00",
       "articles": [
         {
-          "title": "Nepal estimates reconstruction after deadly floods to cost nearly $7 billion",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-12/nepal-flood-reconstruction-cost-billions/107145518",
-          "published_at": "14:38"
+          "title": "Why a Russian screening of an 81-year-old film has alarmed Taiwan",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/smashing-militarist-japan-russia-film-taiwan-b3048412.html",
+          "published_at": "07:20"
         },
         {
-          "title": "Nepal flood reconstruction bill estimated at $4.8 billion",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3318049/nepal-flood-reconstruction-bill-estimated-at-48-billion",
-          "published_at": "11:45"
+          "title": "Why a Russian screening of an 81-year-old Soviet-era film to a tiny audience has alarmed Taiwan",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4zeGxWY1BlN2kwcnpTNHkxOFFnZzYyQ1BQTVUtb1ViVGg4SzhTNFdETnpwcS0ySWR6QVdxOHU1TTg5V09IMkdqOUp6bzE4eFlraVd5TGMxME1yZDE5VGFYMjVHXzNIczJHUzlOblpGc29CWUI2Rkp1OU9BSmd3dVMxNkd3YldCek12MmMyZUlnb0J1aFhnZlRLOGp4czJuMlNvMTB4b1l6eTZvSkJSUjByeGhDMjJCZjlXOVZ5Szlxdnp1?oc=5",
+          "published_at": "04:02"
+        }
+      ]
+    },
+    {
+      "id": "world-75",
+      "title": "Malaysia's king postpones decision on ex-PM Najib Razak's pardon bid",
+      "title_en": "Malaysia's king postpones decision on ex-PM Najib Razak's pardon bid",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmd1X1M2d1g0c3ZkQlFGS1hoZDI5dThuUDF5ejFxbGI2TjdJaHJuNDBnV3IzRS1CQ2pGdEFjU2FZZmhzZ01wcWpRT1BoOU84Q2FENTZ1bkZzdFN4WkFhYUFLc281VEhIU2lZaVpZQ25GdzRoNERrWVFtczlEbGRNb2JlM3F5anpRLXp5TjhCVTVkcDd3OFAtRjEzQ2llRkxrRTRkRGRtZmROc0pybmR5enJqQXhiNVlPWWc?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "Malaysia’s Pardons Board has postponed discussions on disgraced former leader Najib Razak’s pardon application, days after widespread public outrage over the possibility that he could walk free from h",
+      "excerpt_en": "Malaysia’s Pardons Board has postponed discussions on disgraced former leader Najib Razak’s pardon application, days after widespread public outrage over the possibility that he could walk free from h",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/week-asia/people/article/3367160/malaysia-pauses-najibs-pardon-decision-amid-public-backlash?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-11T04:17:00+09:00",
+      "latest_published_at": "2026-09-11T05:50:07+09:00",
+      "articles": [
+        {
+          "title": "Malaysia pauses Najib’s pardon decision amid public backlash",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/week-asia/people/article/3367160/malaysia-pauses-najibs-pardon-decision-amid-public-backlash?utm_source=rss_feed",
+          "published_at": "05:50"
+        },
+        {
+          "title": "Malaysia's king postpones decision on ex-PM Najib Razak's pardon bid",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmd1X1M2d1g0c3ZkQlFGS1hoZDI5dThuUDF5ejFxbGI2TjdJaHJuNDBnV3IzRS1CQ2pGdEFjU2FZZmhzZ01wcWpRT1BoOU84Q2FENTZ1bkZzdFN4WkFhYUFLc281VEhIU2lZaVpZQ25GdzRoNERrWVFtczlEbGRNb2JlM3F5anpRLXp5TjhCVTVkcDd3OFAtRjEzQ2llRkxrRTRkRGRtZmROc0pybmR5enJqQXhiNVlPWWc?oc=5",
+          "published_at": "04:17"
+        }
+      ]
+    },
+    {
+      "id": "world-88",
+      "title": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
+      "title_en": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/iran-united-states-strait-of-hormuz-donald-trump-saudi-arabia-b3048381.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "The United States has succeeded in loosening Iran's grip over the Strait of Hormuz while virtually shutting down Iran's own exports",
+      "excerpt_en": "The United States has succeeded in loosening Iran's grip over the Strait of Hormuz while virtually shutting down Iran's own exports",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/iran-united-states-strait-of-hormuz-donald-trump-saudi-arabia-b3048381.html",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T06:01:34+09:00",
+      "latest_published_at": "2026-09-11T06:55:00+09:00",
+      "articles": [
+        {
+          "title": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdkRFZzA4VW9Ub1dpSFN3X3lqSW5MdWhfTDQyLWxGeUFMZDNMa2dVYVVTLWxIVjFBQkp4ams0N3ZyMjhjelFQUjZ2S29MWk01WDZJUUNGRmFjYmtUcWdBV0JkVHFkSzg0MXFaTmtlcmlydUdWQXlvbFU1Q0xvdFJwTndJTVBkRTBSWnlvZ0k1V2FHRG02blZNZ2NldWphUWc?oc=5",
+          "published_at": "06:55"
+        },
+        {
+          "title": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/iran-united-states-strait-of-hormuz-donald-trump-saudi-arabia-b3048381.html",
+          "published_at": "06:01"
         }
       ]
     }
