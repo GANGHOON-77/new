@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "batch_time": "12:00",
+  "batch_time": "18:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,53 +8,57 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-12T14:14:51.836794+09:00",
+  "updated_at": "2026-09-12T18:27:26.854928+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 466,
-  "cluster_count_total": 371,
+  "article_count_total": 523,
+  "cluster_count_total": 410,
   "clusters": [
     {
-      "id": "world-65",
-      "title": "Yemen’s Houthis reach strategic island in Bab el-Mandeb Strait",
-      "title_en": "Yemen’s Houthis reach strategic island in Bab el-Mandeb Strait",
+      "id": "world-136",
+      "title": "이란의 지원을 받는 후티 반군, 중요한 Bab el-Mandeb 항로를 거의 장악",
+      "title_en": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
+      "title_url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
       "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Yemen’s Iran-aligned Houthis reached the strategic island of Perim in the Bab el-Mandeb Strait on Friday, four Yemeni government sources told Reuters, moving to tighten their grip on a vital global sh",
-      "excerpt_en": "Yemen’s Iran-aligned Houthis reached the strategic island of Perim in the Bab el-Mandeb Strait on Friday, four Yemeni government sources told Reuters, moving to tighten their grip on a vital global sh",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 93,
+      "primary_source": "France24",
+      "excerpt": "예멘의 이란과 제휴한 후티 반군이 홍해 남쪽 입구에 위치한 바브엘만데브 해협의 전략적 페림 섬을 점령했다고 관리들이 금요일 밝혔습니다. 번개 움직임이 열립니다",
+      "excerpt_en": "Yemen's Iran-aligned Houthi rebels captured the strategic Perim Island in the Bab el-Mandeb Strait, located at the southern entrance to the Red Sea, officials said on Friday. The lightning move opens ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
+      "translation_status": "ok",
+      "score": 89,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 70
+        "raw75": 67
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 5,
       "sources": [
-        "CBC",
         "CBS News",
         "Euronews",
         "France24",
-        "SCMP",
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-09-11T10:55:50+09:00",
-      "latest_published_at": "2026-09-12T03:09:39+09:00",
+      "first_published_at": "2026-09-11T20:09:31+09:00",
+      "latest_published_at": "2026-09-12T09:05:48+09:00",
       "articles": [
+        {
+          "title": "Iran-backed Houthis tighten grip on key oil shipping lane",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
+          "published_at": "09:05"
+        },
         {
           "title": "Iran-US war latest: Crucial Saudi oil pipeline ‘on fire’ as Houthis capture island near key shipping route",
           "source_name": "The Independent",
@@ -68,12 +72,6 @@
           "published_at": "01:20"
         },
         {
-          "title": "Diesel hits record $6 a gallon as Iran-backed Houthis take key Red Sea territory",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
-          "published_at": "23:48"
-        },
-        {
           "title": "Houthis seize key Yemeni island in Bab el-Mandeb, taking control of the strait",
           "source_name": "Euronews",
           "url": "https://www.euronews.com/2026/09/12/houthis-seize-yemeni-island-in-bab-el-mandeb-taking-control-of-the-strait",
@@ -84,195 +82,190 @@
           "source_name": "France24",
           "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
           "published_at": "20:09"
-        },
-        {
-          "title": "Houthis seize strategic island, Saudis close pipeline as fighting escalates",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/saudi-strikes-yemen-mokha-airport-houthis-island-9.7339979?cmp=rss",
-          "published_at": "12:10"
-        },
-        {
-          "title": "Yemen’s Houthis reach strategic island in Bab el-Mandeb Strait",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367232/yemens-houthis-reach-strategic-island-bab-el-mandeb-strait?utm_source=rss_feed",
-          "published_at": "10:55"
         }
       ]
     },
     {
-      "id": "world-72",
-      "title": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
-      "title_en": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
+      "id": "world-87",
+      "title": "Lil Durk 재판: 배심원 심의가 3일차에 접어들면서 오늘 Quando Rondo 사건에 대한 평결이 예상됩니다.",
+      "title_en": "Lil Durk trial: Verdict in Quando Rondo case expected today as jury deliberation enters Day 3",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/donald-trump-american-melania-trump-jd-vance-pete-hegseth-b3048669.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "On the anniversary of 9/11, leaders across the United States honored the victims and reflected on the impact of the tragedy on current foreign policy. Speaking at the Pentagon, President Trump paid ho",
-      "excerpt_en": "On the anniversary of 9/11, leaders across the United States honored the victims and reflected on the impact of the tragedy on current foreign policy. Speaking at the Pentagon, President Trump paid ho",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/we-will-never-ever-forget-trump-commemorates-25th-anniversary-of-9/11-terrorist-attacks/articleshow/134080822.cms",
-      "translation_status": "failed",
-      "score": 92,
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-verdict-in-quando-rondo-case-expected-today-as-jury-deliberation-enters-day-3-101789142830078.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Lil Durk는 Quando Rondo의 사촌을 총으로 쏜 살인 음모를 주도한 혐의로 기소된 후 모든 혐의에 대해 무죄를 선고 받았습니다.",
+      "excerpt_en": "Lil Durk has been acquitted of all charges after being accused of orchestrating a murder-for-hire plot which led to the shooting of Quando Rondo’s cousin.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-federal-racketeering-case-vicar-charges-explained-as-rapper-set-to-face-new-trial-on-october-5-101789176280808.html",
+      "translation_status": "ok",
+      "score": 87,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 65
+      },
+      "area_value": 15,
+      "article_count": 15,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "BBC",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T16:36:46+09:00",
+      "latest_published_at": "2026-09-12T08:04:16+09:00",
+      "articles": [
+        {
+          "title": "Grammy-winning US rapper Lil Durk acquitted in murder-for-hire trial",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1kx0jje18wo?at_medium=RSS&at_campaign=rss",
+          "published_at": "08:04"
+        },
+        {
+          "title": "Rapper Lil Durk acquitted in gas station murder-for-hire trial",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/lil-durk-kanye-west-trial-b3049011.html",
+          "published_at": "07:57"
+        },
+        {
+          "title": "Will Lil Durk be released from jail in 2026? Arrest date, new trial in focus after acquittal in Quando Rondo case",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/will-lil-durk-be-released-from-jail-in-2026-arrest-date-new-trial-in-focus-after-acquittal-in-quando-rondo-case-101789185051029.html",
+          "published_at": "04:09"
+        },
+        {
+          "title": "Lil Durk acquittal: G Herbo drops bombshell reaction; what to know about their relationship as video viral",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-acquittal-g-herbo-drops-bombshell-reaction-what-to-know-about-their-relationship-as-video-viral-watch-101789179818796.html",
+          "published_at": "02:53"
+        },
+        {
+          "title": "Who killed King Von? What to know as Lil Durk acquitted in Quando Rondo murder-for-hire trial",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-killed-king-von-what-to-know-as-lil-durk-is-acquitted-in-murder-for-hire-trial-against-quando-rondo-101789175255234.html",
+          "published_at": "02:18"
+        },
+        {
+          "title": "Lil Durk net worth: Rapper’s fortune in focus as murder-for-hire trial ends with not guilty verdict",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-net-worth-rapper-s-fortune-in-focus-as-murder-for-hire-trial-ends-with-not-guilty-verdict-101789176791364.html",
+          "published_at": "02:04"
+        },
+        {
+          "title": "Lil Durk verdict: Rapper ‘in tears’ after not guilty verdict as family celebrates acquittal",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-rapper-in-tears-after-not-guilty-verdict-as-family-celebrates-acquittal-101789174987031.html",
+          "published_at": "01:46"
+        },
+        {
+          "title": "Lil Durk federal racketeering case: VICAR charges explained as rapper set to face new trial on October 5",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-federal-racketeering-case-vicar-charges-explained-as-rapper-set-to-face-new-trial-on-october-5-101789176280808.html",
+          "published_at": "01:44"
+        },
+        {
+          "title": "Who is Brian Steel? Net worth, fees, salary of Lil Durk’s lawyer after rapper’s acquittal in murder-for-hire case",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-brian-steel-net-worth-fees-salary-of-lil-durk-s-lawyer-after-rapper-s-acquittal-in-murder-for-hire-case-101789173817372.html",
+          "published_at": "00:53"
+        },
+        {
+          "title": "Where is Quando Rondo now? All you need to know after Lil Durk's not guilty trial verdict",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/where-is-quando-rondo-now-all-you-need-to-know-after-lil-durks-not-guilty-trial-verdict-101789171547475.html",
+          "published_at": "00:51"
+        },
+        {
+          "title": "Lil Durk trial: How is King Von’s death linked to Quando Rondo plot? Case revisited amid not guilty verdict",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-how-is-king-von-s-death-linked-to-quando-rondo-plot-case-revisited-amid-not-guilty-verdict-101789173559736.html",
+          "published_at": "00:48"
+        },
+        {
+          "title": "Lil Durk trial: What happens after big Friday verdict? Outcomes of guilty and not guilty scenarios explained",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-what-happens-after-big-friday-verdict-outcomes-of-guilty-and-not-guilty-scenarios-explained-101789169774399.html",
+          "published_at": "00:01"
+        },
+        {
+          "title": "Lil Durk verdict: Major update from DJ Akademiks Kick stream as jury reaches decision",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-major-update-from-dj-akademiks-kick-stream-as-jury-reaches-decision-101789168678926.html",
+          "published_at": "23:54"
+        },
+        {
+          "title": "Lil Durk verdict: Jury decision made in rapper's murder-for-hire trial; Details amid ‘quiet’ day at LA courthouse",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-jury-decision-made-in-rappers-murder-for-hire-trial-details-amid-quiet-day-at-la-courthouse-101789163776074.html",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Lil Durk trial: Verdict in Quando Rondo case expected today as jury deliberation enters Day 3",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-verdict-in-quando-rondo-case-expected-today-as-jury-deliberation-enters-day-3-101789142830078.html",
+          "published_at": "16:36"
+        }
+      ]
+    },
+    {
+      "id": "world-22",
+      "title": "북한이 해상을 향해 단거리 탄도미사일 여러 발을 발사했다고 한국 정부가 밝혔습니다.",
+      "title_en": "North Korea fires several short-range ballistic missiles toward sea, South Korea says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHR3b1FNeDdMTGF3RWFsc0FTUy1ycHhRU0ZFNkpaQTJLbmFyMi1iR3dFUmRNV3IzNW11TTV3UnVVeXZvb1hLMEF6UXVuazlPbnJ4ZVlqcnM1akpzWFhyVC1zZjNualhmZ2NobGtfcUM0SURnM2tZN05Ka0hkLWQwVjJHejRjc3liNXRZeGkxVnA3MGlpN1hfam05MlJYcGdNbG8ySkVqdlRrSmdjeEZveG4tTGJZUXo3NXRCMFR4dWQ0VHp1QnV1aDFB?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "북한이 원산 일대에서 동해상을 향해 단거리 탄도미사일 여러 발을 발사했다고 합참이 토요일 밝혔다. 미사일이 발사됐다.",
+      "excerpt_en": "North Korea fired several short-range ballistic missiles ⁠from the Wonsan area towards the sea off its east coast, South Korea’s Joint Chiefs of Staff (JCS) said on Saturday. The missiles were launche",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3367271/north-korea-launches-missile-salvo-after-us-south-korea-japan-drills?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 85,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Bangkok Post",
-        "France24",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-11T13:22:56+09:00",
-      "latest_published_at": "2026-09-11T17:19:51+09:00",
-      "articles": [
-        {
-          "title": "'We will never, ever forget': Trump commemorates 25th anniversary of 9/11 terrorist attacks",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/we-will-never-ever-forget-trump-commemorates-25th-anniversary-of-9/11-terrorist-attacks/articleshow/134080822.cms",
-          "published_at": "17:19"
-        },
-        {
-          "title": "Trump delivers remarks at Pentagon ceremony to mark 25th anniversary of 9/11",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260911-trump-delivers-remarks-at-pentagon-ceremony-to-mark-25th-anniversary-of-9-11",
-          "published_at": "15:29"
-        },
-        {
-          "title": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260911-trump-commemorates-the-25th-anniversary-of-the-9-11-attacks-at-the-pentagon",
-          "published_at": "14:40"
-        },
-        {
-          "title": "New York marks 25th anniversary of 9/11 attacks",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3318055/new-york-marks-25th-anniversary-of-911-attacks",
-          "published_at": "13:45"
-        },
-        {
-          "title": "The Latest: Trump will commemorate 25 years since 9/11 attacks at the Pentagon",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/howard-lutnick-new-york-trump-pentagon-jd-vance-b3048670.html",
-          "published_at": "13:23"
-        },
-        {
-          "title": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-american-melania-trump-jd-vance-pete-hegseth-b3048669.html",
-          "published_at": "13:22"
-        }
-      ]
-    },
-    {
-      "id": "world-165",
-      "title": "Death toll from Philippine ferry fire jumps to 35",
-      "title_en": "Death toll from Philippine ferry fire jumps to 35",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Philippine rescuers recovered ⁠30 bodies from a burned-out ferry on Friday, raising the death toll from the blaze to 35, authorities said. Firefighters found the remains after they gained access to th",
-      "excerpt_en": "Philippine rescuers recovered ⁠30 bodies from a burned-out ferry on Friday, raising the death toll from the blaze to 35, authorities said. Firefighters found the remains after they gained access to th",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 1,
         "time_score": 3,
         "raw75": 64
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 7,
       "sources": [
         "ABC News",
-        "CBS News",
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-11T11:41:45+09:00",
-      "latest_published_at": "2026-09-12T03:55:00+09:00",
-      "articles": [
-        {
-          "title": "First bodies of Philippines ferry fire victims land as toll hits 35",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/philippine-ferry-fire-death-toll-palawan-6379931",
-          "published_at": "03:55"
-        },
-        {
-          "title": "Death toll in Philippine ferry fire soars as more bodies are recovered",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
-          "published_at": "14:23"
-        },
-        {
-          "title": "Death toll in Philippine ferry fire rises to 35 as more bodies are recovered",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/philippine-firefighters-enter-charred-ferry-rescuers-search-84-136355920",
-          "published_at": "13:53"
-        },
-        {
-          "title": "Death toll from Philippine ferry fire jumps to 35",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
-          "published_at": "11:41"
-        }
-      ]
-    },
-    {
-      "id": "world-20",
-      "title": "North Korea fires projectile toward sea: South Korea",
-      "title_en": "North Korea fires projectile toward sea: South Korea",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/north-korea-fires-projectile-toward-sea-south-korea-101789162291225.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "North Korea fired several short-range ballistic missiles ⁠from the Wonsan area towards the sea off its east coast, South Korea’s Joint Chiefs of Staff (JCS) said on Saturday. The missiles were launche",
-      "excerpt_en": "North Korea fired several short-range ballistic missiles ⁠from the Wonsan area towards the sea off its east coast, South Korea’s Joint Chiefs of Staff (JCS) said on Saturday. The missiles were launche",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3367271/north-korea-launches-missile-salvo-after-us-south-korea-japan-drills?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
+        "AP News",
         "Al Jazeera",
+        "DW",
         "Hindustan Times",
+        "Reuters",
         "SCMP"
       ],
-      "first_published_at": "2026-09-11T21:31:30+09:00",
-      "latest_published_at": "2026-09-12T02:25:59+09:00",
+      "first_published_at": "2026-09-11T20:49:00+09:00",
+      "latest_published_at": "2026-09-12T07:15:00+09:00",
       "articles": [
+        {
+          "title": "North Korea fires multiple ballistic missiles day after trilateral drills end",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/north-korea-fires-multiple-ballistic-missiles-day-after-trilateral-drills-end/a-79242070?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "07:15"
+        },
         {
           "title": "North Korea fires ballistic missiles off eastern coast, Seoul says",
           "source_name": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss",
           "published_at": "02:25"
+        },
+        {
+          "title": "North Korea fires ballistic missiles toward sea after rivals’ military drill it sees as provocation",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMGxfVEtRZ0lZUlBsS19yN1BQVTdfMTBGTm5EMHRQQS1pdEQ3NG1ubzdTS3F2Q3RmbjdwUXJWaXY3aTl4ZEw2YXZCem1PQldXdzR5SDZaSldZY3dCdWthTnFYTk1UeC00MjlNYzVKWlloQ3dMT0pJMjBEekl1WWpMOWllQVRqVUVYbkhIYjhOd25KV2RpMGRIZk13?oc=5",
+          "published_at": "01:36"
         },
         {
           "title": "North Korea launches missile salvo after US-South Korea-Japan drills",
@@ -291,22 +284,272 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/north-korea-fires-projectile-toward-sea-south-korea-101789162291225.html",
           "published_at": "21:31"
+        },
+        {
+          "title": "North Korea fires several short-range ballistic missiles toward sea, South Korea says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHR3b1FNeDdMTGF3RWFsc0FTUy1ycHhRU0ZFNkpaQTJLbmFyMi1iR3dFUmRNV3IzNW11TTV3UnVVeXZvb1hLMEF6UXVuazlPbnJ4ZVlqcnM1akpzWFhyVC1zZjNualhmZ2NobGtfcUM0SURnM2tZN05Ka0hkLWQwVjJHejRjc3liNXRZeGkxVnA3MGlpN1hfam05MlJYcGdNbG8ySkVqdlRrSmdjeEZveG4tTGJZUXo3NXRCMFR4dWQ0VHp1QnV1aDFB?oc=5",
+          "published_at": "20:49"
         }
       ]
     },
     {
-      "id": "world-92",
-      "title": "A Russian shadow flits over Sweden’s election",
-      "title_en": "A Russian shadow flits over Sweden’s election",
+      "id": "world-35",
+      "title": "미국, 기록상 최대 규모의 원포자충증 발병 종식 선언",
+      "title_en": "US declares end of largest recorded cyclosporiasis outbreak",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/a-russian-shadow-flits-over-sweden-s-election-101789116960886.html",
+      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR09VN1ZRWGprdy1ndG9qTEVXVVkxVXN0SE96eDZJU1BDVFF5T1RHR2I2TGU1Z3lsc1FIWU9vdTgtanZ5VlZOZkYtQWVubkNHMDFBR0F1SUwzbUxIMnJjUmFEU2xWQ3dIZEx6UlRhcmhkQXZhUEtucEk5dzlpV0dIUGZNemxzY0l4U1luTlpTRklTYjQ3X2VhQXRlaTV4UjAxYUVxblNodGduX2o0WExvSFdhQWxKNXJMZGRKR0NCVHZOR1FwYldr?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "금요일에 미국 보건 당국은 오염된 빙산 양상추로 인해 수천 명이 병에 걸린 후 미국 최대 규모의 원포자충증 발병이 끝났다고 선언했습니다. 그러나 식품의약국(FDA)(",
+      "excerpt_en": "US health authorities on Friday declared the ⁠nation’s largest recorded cyclosporiasis outbreak ⁠over, after contaminated iceberg lettuce sickened thousands, though ⁠the Food and Drug Administration (",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367272/us-declares-end-lettuce-parasite-outbreak-killed-2?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBC",
+        "Reuters",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T14:06:00+09:00",
+      "latest_published_at": "2026-09-12T02:02:16+09:00",
+      "articles": [
+        {
+          "title": "US declares end to lettuce parasite outbreak that killed 2",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367272/us-declares-end-lettuce-parasite-outbreak-killed-2?utm_source=rss_feed",
+          "published_at": "02:02"
+        },
+        {
+          "title": "FDA declares cyclospora outbreak over but origin of 13,000 ‘diarrhea lettuce’ cases is still unknown",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/cyclosporiasis-cyclospora-outbreak-cases-lettuce-b3048869.html",
+          "published_at": "18:46"
+        },
+        {
+          "title": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/us-fda-cyclospora-outbreak-9.7340469?cmp=rss",
+          "published_at": "17:11"
+        },
+        {
+          "title": "US declares end of largest recorded cyclosporiasis outbreak",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR09VN1ZRWGprdy1ndG9qTEVXVVkxVXN0SE96eDZJU1BDVFF5T1RHR2I2TGU1Z3lsc1FIWU9vdTgtanZ5VlZOZkYtQWVubkNHMDFBR0F1SUwzbUxIMnJjUmFEU2xWQ3dIZEx6UlRhcmhkQXZhUEtucEk5dzlpV0dIUGZNemxzY0l4U1luTlpTRklTYjQ3X2VhQXRlaTV4UjAxYUVxblNodGduX2o0WExvSFdhQWxKNXJMZGRKR0NCVHZOR1FwYldr?oc=5",
+          "published_at": "14:06"
+        }
+      ]
+    },
+    {
+      "id": "world-201",
+      "title": "필리핀 여객선 화재, 시신 수습 늘어나 사망자 35명으로 늘어",
+      "title_en": "Death toll in Philippine ferry fire rises to 35 as more bodies are recovered",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/philippine-firefighters-enter-charred-ferry-rescuers-search-84-136355920",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "필리핀 서부에서 여객선에서 화재가 발생해 수십 명이 실종되고 최소 5명이 사망했습니다. 설명되지 않은 물건에 대한 강렬하고 광범위한 수색이 이루어졌습니다.",
+      "excerpt_en": "A fire on a passenger ferry off the western Philippines left dozens of people missing and killed at least five. An intense and widespread search was on for the unaccounted for.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
+      "translation_status": "ok",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "CBS News",
+        "New York Times",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-11T13:53:02+09:00",
+      "latest_published_at": "2026-09-11T18:41:00+09:00",
+      "articles": [
+        {
+          "title": "Deaths in Philippines ferry fire rises to at least 35",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/deaths-in-philippines-ferry-fire-rises-to-at-least-35-with-54-still-missing-13584566",
+          "published_at": "18:41"
+        },
+        {
+          "title": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
+          "published_at": "17:00"
+        },
+        {
+          "title": "Death toll in Philippine ferry fire soars as more bodies are recovered",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ferry-fire-philippines-missing-search-rescues-dead/",
+          "published_at": "14:23"
+        },
+        {
+          "title": "Death toll in Philippine ferry fire rises to 35 as more bodies are recovered",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/philippine-firefighters-enter-charred-ferry-rescuers-search-84-136355920",
+          "published_at": "13:53"
+        }
+      ]
+    },
+    {
+      "id": "world-110",
+      "title": "푸틴, 시, 이란의 페제쉬키안은 글로벌 긴장이 고조되는 가운데 중요한 BRICS 정상회담을 위해 인도로 내려갑니다.",
+      "title_en": "Putin, Xi and Iran's Pezeshkian descend on India for high-stakes BRICS summit amid escalating global tensions",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.foxnews.com/world/putin-xi-irans-pezeshkian-descend-india-high-stakes-brics-summit-amid-escalating-global-tensions",
+      "category": "중동",
+      "primary_source": "Fox News",
+      "excerpt": "뉴델리 - 시진핑 중국 국가주석은 전쟁, 무역, 에너지가 분열된 그룹을 시험하는 가운데 인도, 러시아, 이란 지도자들과 함께 브릭스 정상회담을 위해 토요일 뉴델리에 도착했습니다.",
+      "excerpt_en": "NEW DELHI - Chinese President Xi Jinping arrived in New Delhi on Saturday for a Brics summit alongside leaders from India, Russia and Iran as wars, trade and energy test the divided grouping.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3318480/xi-jinping-lands-in-india-for-brics-summit",
+      "translation_status": "ok",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "Bangkok Post",
+        "Channel News Asia",
+        "Fox News"
+      ],
+      "first_published_at": "2026-09-11T12:25:59+09:00",
+      "latest_published_at": "2026-09-12T07:45:00+09:00",
+      "articles": [
+        {
+          "title": "Xi Jinping lands in India for Brics summit",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318480/xi-jinping-lands-in-india-for-brics-summit",
+          "published_at": "07:45"
+        },
+        {
+          "title": "China’s Xi lands in India for BRICS summit overshadowed by wars",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/chinas-xi-heads-to-india-for-brics-summit-overshadowed-by-wars?traffic_source=rss",
+          "published_at": "04:27"
+        },
+        {
+          "title": "Xi Jinping arrives in India for BRICS summit overshadowed by war",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/brics-china-xi-jinping-india-modi-war-6379866",
+          "published_at": "02:20"
+        },
+        {
+          "title": "Putin, Xi and Iran's Pezeshkian descend on India for high-stakes BRICS summit amid escalating global tensions",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/putin-xi-irans-pezeshkian-descend-india-high-stakes-brics-summit-amid-escalating-global-tensions",
+          "published_at": "12:25"
+        }
+      ]
+    },
+    {
+      "id": "world-120",
+      "title": "BRICS 지도자들은 전쟁과 미국의 긴장이 블록을 시험하는 가운데 인도에서 만납니다.",
+      "title_en": "BRICS leaders meet in India as wars and US tensions test the bloc",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/brics-india-vladimir-putin-narendra-modi-new-delhi-b3048996.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "BRICS 지도자들은 무역, 투자 및 글로벌 갈등을 논의하기 위해 토요일 뉴델리에서 회의를 가질 예정입니다. 이번 정상회담은 우크라이나와 중동 지역의 전쟁과 함께 미중 긴장이 고조되면서 이뤄졌습니다.",
+      "excerpt_en": "BRICS leaders are meeting in New Delhi on Saturday to discuss trade, investment and global conflicts. The summit comes as wars in Ukraine and the Middle East, along with rising US-China tensions, test",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran",
+      "translation_status": "ok",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "France24",
+        "NPR",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-12T04:18:51+09:00",
+      "latest_published_at": "2026-09-12T07:18:55+09:00",
+      "articles": [
+        {
+          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/12/g-s1-143054/brics-leaders-meet-in-india",
+          "published_at": "07:18"
+        },
+        {
+          "title": "BRICS leaders gather in India as wars and US tensions test unity",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran",
+          "published_at": "06:51"
+        },
+        {
+          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/brics-leaders-meet-india-wars-us-tensions-test-136384091",
+          "published_at": "05:59"
+        },
+        {
+          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/brics-india-vladimir-putin-narendra-modi-new-delhi-b3048996.html",
+          "published_at": "04:18"
+        }
+      ]
+    },
+    {
+      "id": "world-160",
+      "title": "퇴임하는 총리는 '스웨덴을 다시 위대하게 만들고 싶다'",
+      "title_en": "Outgoing PM wants to ‘make Sweden great again’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3318053/outgoing-pm-wants-to-make-sweden-great-again",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Latest poll shows 0.3-point gap between left and right blocs, with country’s reputation as global champion of human rights said to be at stake Sweden goes to the polls on Sunday in an extremely close ",
+      "primary_source": "Bangkok Post",
+      "excerpt": "최근 여론조사에서는 좌파와 우파 사이에 0.3포인트 차이가 나며, 세계 인권 옹호자로서의 국가의 명성이 위태로워질 것으로 알려졌습니다. 스웨덴이 일요일 여론조사에 매우 아슬아슬하게 치러졌습니다.",
       "excerpt_en": "Latest poll shows 0.3-point gap between left and right blocs, with country’s reputation as global champion of human rights said to be at stake Sweden goes to the polls on Sunday in an extremely close ",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/sep/12/sweden-extremely-close-election-could-see-far-right-enter-government",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 81,
       "score_breakdown": {
         "article_score": 22,
@@ -323,13 +566,19 @@
       "sources": [
         "Bangkok Post",
         "CBS News",
-        "Hindustan Times",
         "SCMP",
-        "The Guardian"
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-11T11:09:48+09:00",
-      "latest_published_at": "2026-09-12T05:00:30+09:00",
+      "first_published_at": "2026-09-11T12:45:00+09:00",
+      "latest_published_at": "2026-09-12T07:46:02+09:00",
       "articles": [
+        {
+          "title": "Sweden faces prospect of far right at heart of government – a week after AfD’s victory in Germany",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/sweden-election-democrats-far-right-polls-b3048403.html",
+          "published_at": "07:46"
+        },
         {
           "title": "Sweden’s extremely close election could see far right enter government",
           "source_name": "The Guardian",
@@ -353,36 +602,30 @@
           "source_name": "Bangkok Post",
           "url": "https://www.bangkokpost.com/world/3318053/outgoing-pm-wants-to-make-sweden-great-again",
           "published_at": "12:45"
-        },
-        {
-          "title": "A Russian shadow flits over Sweden’s election",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/a-russian-shadow-flits-over-sweden-s-election-101789116960886.html",
-          "published_at": "11:09"
         }
       ]
     },
     {
-      "id": "world-151",
-      "title": "15-year-old rescued after clinging to capsized boat for days in Alaska's Bering Sea",
+      "id": "world-229",
+      "title": "알래스카 베링해에서 전복된 보트에 며칠간 매달려 있다가 구조된 15세 소년",
       "title_en": "15-year-old rescued after clinging to capsized boat for days in Alaska's Bering Sea",
       "title_source": "earliest_pick",
       "title_url": "https://www.cbc.ca/news/canada/north/15-year-old-rescued-after-clinging-to-capsized-boat-for-days-in-alaska-s-bering-sea-9.7340817?cmp=rss",
       "category": "유럽",
       "primary_source": "CBC",
-      "excerpt": "A 15-year-old boy survived on top of an overturned skiff in Alaska’s frigid Bering Sea for roughly two days, losing his older brother and then his cousin to the ocean after the boat capsized while the",
+      "excerpt": "알래스카의 추운 베링해에서 15세 소년이 전복된 작은 배 위에서 약 이틀 동안 살아남았으며, 보트가 전복되는 동안 형과 사촌을 바다로 잃었습니다.",
       "excerpt_en": "A 15-year-old boy survived on top of an overturned skiff in Alaska’s frigid Bering Sea for roughly two days, losing his older brother and then his cousin to the ocean after the boat capsized while the",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367267/us-boy-15-rescued-after-clinging-capsized-boat-days-alaskas-bering-sea?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 81,
+      "translation_status": "ok",
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 60
       },
       "area_value": 5,
       "article_count": 5,
@@ -430,18 +673,79 @@
       ]
     },
     {
-      "id": "world-22",
-      "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
+      "id": "world-32",
+      "title": "노르웨이 공주 아스트리드, 국왕 장례식 이틀 만에 94세로 사망",
+      "title_en": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjNHOXRmeHF4SFNSbWF3d2tvaGJ1RjhWUGE5Ulg5cDdUXzExS0xvY3Y5SjNJSDg0VE5HYl8wVXNwcTluQXVsNGtWNHlKa0dmcDNuaEtqbFoyR19mNUI1dlJFSElMQkMtZ0NOeVpCNTlwdTc0aUdJUjVWN1BUMUJ5ajNsVFZ0ZVJhY3RhcFZ4by1Kc1VhMzZLN0c4Y1J5Z3dqQnI2QjVrcXQ0aUE?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "고 하랄드 국왕의 누나인 노르웨이의 아스트리드 공주가 지난 금요일 94세의 나이로 사망했다고 왕궁이 성명을 통해 밝혔습니다.",
+      "excerpt_en": "Norway's ‌Princess Astrid, an older sister ‌of the late King ​Harald, died on Friday at ​the ‌age of 94, the royal palace ​said in a statement.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
+      "translation_status": "ok",
+      "score": 79,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 59
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "BBC",
+        "Reuters",
+        "Sky News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T13:12:22+09:00",
+      "latest_published_at": "2026-09-11T16:00:59+09:00",
+      "articles": [
+        {
+          "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "16:00"
+        },
+        {
+          "title": "Sister of Norway’s King Harald dies just days after attending late monarch’s funeral",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/norway-princess-astrid-dead-harald-funeral-b3048705.html",
+          "published_at": "15:07"
+        },
+        {
+          "title": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
+          "published_at": "13:22"
+        },
+        {
+          "title": "Norway's Princess Astrid dies, aged 94, two days after king's funeral",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjNHOXRmeHF4SFNSbWF3d2tvaGJ1RjhWUGE5Ulg5cDdUXzExS0xvY3Y5SjNJSDg0VE5HYl8wVXNwcTluQXVsNGtWNHlKa0dmcDNuaEtqbFoyR19mNUI1dlJFSElMQkMtZ0NOeVpCNTlwdTc0aUdJUjVWN1BUMUJ5ajNsVFZ0ZVJhY3RhcFZ4by1Kc1VhMzZLN0c4Y1J5Z3dqQnI2QjVrcXQ0aUE?oc=5",
+          "published_at": "13:12"
+        }
+      ]
+    },
+    {
+      "id": "world-134",
+      "title": "사우디, 호르무즈 우회 파이프라인 공격 후 폐쇄",
       "title_en": "Saudi pipeline that bypasses Hormuz shut after attacks",
       "title_source": "earliest_pick",
       "title_url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?utm_source=rss_feed",
       "category": "중동",
       "primary_source": "SCMP",
-      "excerpt": "Saudi Arabia has shut down its East-West pipeline after the vital oil conduit came under aerial attack in the widening Middle East war. The world’s largest crude oil exporter temporarily closed the pi",
+      "excerpt": "사우디아라비아는 확대되는 중동 전쟁에서 중요한 석유 수송관이 공습을 받은 후 동서 파이프라인을 폐쇄했습니다. 세계 최대 원유 수출국이 일시적으로 파이를 폐쇄했다",
       "excerpt_en": "Saudi Arabia has shut down its East-West pipeline after the vital oil conduit came under aerial attack in the widening Middle East war. The world’s largest crude oil exporter temporarily closed the pi",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?utm_source=rss_feed",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 77,
       "score_breakdown": {
         "article_score": 18,
@@ -456,24 +760,24 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "Al Jazeera",
+        "Channel News Asia",
+        "France24",
         "SCMP"
       ],
       "first_published_at": "2026-09-11T20:24:55+09:00",
-      "latest_published_at": "2026-09-12T02:18:52+09:00",
+      "latest_published_at": "2026-09-12T07:48:00+09:00",
       "articles": [
         {
-          "title": "Satellite image shows critical Saudi pipeline damaged in drone attack",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss",
-          "published_at": "02:18"
+          "title": "Saudi Arabia shuts down pipeline as Houthis seize island, opening new front in Iran war",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/saudi-arabia-yemen-houthi-rebels-bab-el-mandeb-strait-iran-war-6379486",
+          "published_at": "07:48"
         },
         {
-          "title": "Saudi Arabia closes oil pipeline after drone attack launched from Iraq",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-12/drone-attack-on-saudi-oil-pipeline-from-iraq/107146218",
-          "published_at": "23:53"
+          "title": "Middle East live: Saudi Arabia shuts down critical oil pipeline after attacks",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq",
+          "published_at": "05:19"
         },
         {
           "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
@@ -484,72 +788,84 @@
       ]
     },
     {
-      "id": "world-141",
-      "title": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
-      "title_en": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
+      "id": "world-260",
+      "title": "새로 공개된 극비 문서에는 9/11 이전 몇 년 동안 미국에 대한 오사마 빈 라덴의 위협에 대한 경고가 나와 있습니다.",
+      "title_en": "Newly released Top Secret docs show warnings about Osama bin Laden threats to US in years before 9/11",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/us-fda-cyclospora-outbreak-9.7340469?cmp=rss",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/9-11-files-top-secret-osama-bin-laden-b3048862.html",
       "category": "미국",
-      "primary_source": "CBC",
-      "excerpt": "US health authorities on Friday declared the ⁠nation’s largest recorded cyclosporiasis outbreak ⁠over, after contaminated iceberg lettuce sickened thousands, though ⁠the Food and Drug Administration (",
-      "excerpt_en": "US health authorities on Friday declared the ⁠nation’s largest recorded cyclosporiasis outbreak ⁠over, after contaminated iceberg lettuce sickened thousands, though ⁠the Food and Drug Administration (",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367272/us-declares-end-lettuce-parasite-outbreak-killed-2?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 72,
+      "primary_source": "The Independent",
+      "excerpt": "1998년부터 2001년까지의 문서에는 거의 3000명의 목숨을 앗아가고 미국을 전복시킨 납치 사건에 앞서 미국 정부 관리들이 알카에다에 대해 수집한 정보가 자세히 나와 있습니다.",
+      "excerpt_en": "The documents dating from 1998 to 2001 detail intelligence that US government officials had gathered about al-Qaeda in the lead up to the hijackings that killed nearly 3000 people and upended American",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/may-fly-an-explosive-packed-airplane-into-a-us-city-cia-releases-pre-9-11-bin-laden-briefings-20260912-p60wqn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "ok",
+      "score": 76,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 57
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBC",
-        "SCMP",
+        "Hindustan Times",
+        "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-09-11T17:11:30+09:00",
-      "latest_published_at": "2026-09-12T02:02:16+09:00",
+      "first_published_at": "2026-09-11T19:52:35+09:00",
+      "latest_published_at": "2026-09-12T07:51:53+09:00",
       "articles": [
         {
-          "title": "US declares end to lettuce parasite outbreak that killed 2",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367272/us-declares-end-lettuce-parasite-outbreak-killed-2?utm_source=rss_feed",
-          "published_at": "02:02"
+          "title": "Pre-9/11 warnings about Osama Bin Laden: What CIA declassified files say",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/pre911-warnings-about-osama-bin-laden-what-cia-declassified-files-say-101789195599997.html",
+          "published_at": "07:51"
         },
         {
-          "title": "FDA declares cyclospora outbreak over but origin of 13,000 ‘diarrhea lettuce’ cases is still unknown",
+          "title": "What CIA warned about before 9/11 attacks: 5 key takeaways from newly declassified intelligence files",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/what-cia-warned-about-before-9-11-attacks-5-key-takeaways-from-newly-declassified-intelligence-files-101789196727286.html",
+          "published_at": "07:27"
+        },
+        {
+          "title": "‘May fly an explosive-packed airplane into a US city’: CIA releases pre-9/11 Bin Laden briefings",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/may-fly-an-explosive-packed-airplane-into-a-us-city-cia-releases-pre-9-11-bin-laden-briefings-20260912-p60wqn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "06:30"
+        },
+        {
+          "title": "Al-Qaeda releases video of Osama bin Laden's son on 9/11 anniversary, 7 years after reported death",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/alqaeda-releases-video-of-osama-bin-laden-son-on-9-11-anniversary-7-years-after-reported-death-hamza-bin-laden-101789179466099.html",
+          "published_at": "02:46"
+        },
+        {
+          "title": "Newly released Top Secret docs show warnings about Osama bin Laden threats to US in years before 9/11",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/cyclosporiasis-cyclospora-outbreak-cases-lettuce-b3048869.html",
-          "published_at": "18:46"
-        },
-        {
-          "title": "U.S. federal officials declare end to cyclospora outbreak that sickened thousands in 21 states",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/us-fda-cyclospora-outbreak-9.7340469?cmp=rss",
-          "published_at": "17:11"
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/9-11-files-top-secret-osama-bin-laden-b3048862.html",
+          "published_at": "19:52"
         }
       ]
     },
     {
-      "id": "world-140",
-      "title": "Trump set for Ireland visit amid backdrop of protests and meeting with long-standing critic",
-      "title_en": "Trump set for Ireland visit amid backdrop of protests and meeting with long-standing critic",
+      "id": "world-3",
+      "title": "트럼프, 골프대회 참가 전 아일랜드 방문",
+      "title_en": "Trump arrives in Ireland to meet leaders before attending golf tournament",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/trump-ireland-visit-itinerary-protests-connolly-martin-b3048919.html",
+      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmRVSmpKQ0dXUHlzSlpIUXNaU1FXR1B2ZGU0TU5BWHlqckFuYmR5ckdHYm1EYjRweG5RdHRNUXZWZFZENmdkTHItNmlXQWw4aUdpM2JjR1M2OWpBQ05VRXpzNDUxQmJaY1JGazdTVDk0M0hleWVGX0NFM19ORUtRbW41cUNGTFJiTVhrXzl1OUxoUURfYU1zcDZmZ2ZkTlh3ZmNnUWNB?oc=5",
       "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "US President Donald Trump lands in Ireland under tight security on Saturday for two days of diplomacy and golf, on a trip that again blurs the lines between his presidency and personal business intere",
-      "excerpt_en": "US President Donald Trump lands in Ireland under tight security on Saturday for two days of diplomacy and golf, on a trip that again blurs the lines between his presidency and personal business intere",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367273/ireland-deploys-snipers-and-4000-police-trump-visit?utm_source=rss_feed",
-      "translation_status": "failed",
+      "primary_source": "Reuters",
+      "excerpt": "도널드 트럼프 미국 대통령은 토요일 아일랜드에 도착해 아일랜드 정상들과 만나고 아일랜드 서해안에 있는 골프 클럽으로 여행을 떠날 예정입니다.",
+      "excerpt_en": "US President Donald Trump landed in Ireland Saturday, where he will meet with the country's leaders before traveling on to his golf club on the Irish west coast, in the latest example of how the US le",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/europe/20260912-trump-arrives-in-dublin-for-talks-with-ireland-s-leaders-before-attending-golf-tournament",
+      "translation_status": "ok",
       "score": 69,
       "score_breakdown": {
         "article_score": 18,
@@ -558,6 +874,60 @@
         "breaking_score": 1,
         "time_score": 3,
         "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "France24",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-12T05:04:00+09:00",
+      "latest_published_at": "2026-09-12T07:51:20+09:00",
+      "articles": [
+        {
+          "title": "Trump arrives in Dublin for talks with Ireland's leaders before attending golf tournament",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260912-trump-arrives-in-dublin-for-talks-with-ireland-s-leaders-before-attending-golf-tournament",
+          "published_at": "07:51"
+        },
+        {
+          "title": "Trump will meet with Ireland's leaders before heading to his golf club in Doonbeg",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/trump-meet-irelands-leaders-heading-golf-club-doonbeg-136383910",
+          "published_at": "05:59"
+        },
+        {
+          "title": "Trump arrives in Ireland to meet leaders before attending golf tournament",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmRVSmpKQ0dXUHlzSlpIUXNaU1FXR1B2ZGU0TU5BWHlqckFuYmR5ckdHYm1EYjRweG5RdHRNUXZWZFZENmdkTHItNmlXQWw4aUdpM2JjR1M2OWpBQ05VRXpzNDUxQmJaY1JGazdTVDk0M0hleWVGX0NFM19ORUtRbW41cUNGTFJiTVhrXzl1OUxoUURfYU1zcDZmZ2ZkTlh3ZmNnUWNB?oc=5",
+          "published_at": "05:04"
+        }
+      ]
+    },
+    {
+      "id": "world-220",
+      "title": "트럼프는 시위와 오랜 비평가와의 만남을 배경으로 아일랜드 방문을 준비했습니다.",
+      "title_en": "Trump set for Ireland visit amid backdrop of protests and meeting with long-standing critic",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/trump-ireland-visit-itinerary-protests-connolly-martin-b3048919.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "도널드 트럼프 미국 대통령이 이틀간 외교와 골프를 위해 삼엄한 보안 속에 아일랜드에 도착했다.",
+      "excerpt_en": "US President Donald Trump lands in Ireland under tight security on Saturday for two days of diplomacy and golf, on a trip that again blurs the lines between his presidency and personal business intere",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367273/ireland-deploys-snipers-and-4000-police-trump-visit?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -578,7 +948,7 @@
           "published_at": "02:47"
         },
         {
-          "title": "Trump due to arrive in Ireland as major security operation under way",
+          "title": "Trump in Ireland for two-day visit as major security operation under way",
           "source_name": "Sky News",
           "url": "https://news.sky.com/story/trump-due-to-arrive-in-ireland-as-major-security-operation-under-way-13584681",
           "published_at": "02:06"
@@ -592,26 +962,80 @@
       ]
     },
     {
-      "id": "world-70",
-      "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
-      "title_en": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
+      "id": "world-73",
+      "title": "이탈리아를 변화시킨 낙태 및 이혼 투쟁의 지도자 엠마 보니노(Emma Bonino)가 78세의 나이로 사망했습니다.",
+      "title_en": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+      "title_url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
       "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Brazilian Senator Flavio Bolsonaro, the leading right-wing challenger to President Luiz Inacio Lula da Silva in next month’s election, is under investigation for alleged corruption and money launderin",
-      "excerpt_en": "Brazilian Senator Flavio Bolsonaro, the leading right-wing challenger to President Luiz Inacio Lula da Silva in next month’s election, is under investigation for alleged corruption and money launderin",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 68,
+      "primary_source": "NBC News",
+      "excerpt": "엠마 보니노(Emma Bonino)는 1970년대 로마 카톨릭이 심한 이탈리아에서 낙태와 이혼을 합법화한 급진당의 캠페인을 주도하며 정치적 명성을 얻었습니다.",
+      "excerpt_en": "Emma Bonino, who rose to political prominence as a leader of campaigns by the Radical Party that legalized abortion and divorce in the 1970s in heavily Roman Catholic Italy, against the objections of ",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
+      "translation_status": "ok",
+      "score": 67,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "time_score": 1,
+        "raw75": 50
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "NBC News"
+      ],
+      "first_published_at": "2026-09-11T13:04:46+09:00",
+      "latest_published_at": "2026-09-11T17:38:00+09:00",
+      "articles": [
+        {
+          "title": "Emma Bonino, leader of the abortion battle that changed Italy, dies at 78",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbGJNNnUzLU91WTE1ZG9iQ0V0bHd5NV90Ymg5SFRpQ3U1MWZDRjZFcG9tWndpWnllb1R5b25QX1Q3UUtnYkVTNU92Sk1TUG1zcnEyeDB6X1lXUll3ZWVCTlcyZFY2OGdNMW52Qm1MWnBtMGRRUVdkaWJNaHFZWF9lWVB6a1ZiNlVhUVNUQzAyZmFRaXh4Z0k1ZE5rVUxPTjhLWlF1emV3?oc=5",
+          "published_at": "17:38"
+        },
+        {
+          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/emma-bonino-leader-abortion-divorce-battles-changed-italy-136358233",
+          "published_at": "13:49"
+        },
+        {
+          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
+          "published_at": "13:04"
+        }
+      ]
+    },
+    {
+      "id": "world-141",
+      "title": "브라질의 플라비오 보우소나루, 부패 혐의로 조사 받고 있다",
+      "title_en": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "다음 달 대선에서 루이스 이나시오 룰라 다 실바 대통령에 맞서는 우파의 유력 경쟁자인 브라질 상원의원 플라비오 보우소나루가 부패와 돈세탁 혐의로 조사를 받고 있다.",
+      "excerpt_en": "Brazilian Senator Flavio Bolsonaro, the leading right-wing challenger to President Luiz Inacio Lula da Silva in next month’s election, is under investigation for alleged corruption and money launderin",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 67,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 50
       },
       "area_value": 3,
       "article_count": 3,
@@ -646,134 +1070,26 @@
       ]
     },
     {
-      "id": "world-3",
-      "title": "At least 44 people injured after train derails in northern France",
-      "title_en": "At least 44 people injured after train derails in northern France",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
-      "category": "유럽",
-      "primary_source": "Sky News",
-      "excerpt": "France's transport minister says 180 passengers were on board the train operating the Rouen-Caen route in Normandy.",
-      "excerpt_en": "France's transport minister says 180 passengers were on board the train operating the Rouen-Caen route in Normandy.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 50
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Sky News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-11T15:02:00+09:00",
-      "latest_published_at": "2026-09-12T04:12:33+09:00",
-      "articles": [
-        {
-          "title": "At least 44 people injured after train derails in northern France",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-train-accident-rouen-caen-normandy-injuries-b3048993.html",
-          "published_at": "04:12"
-        },
-        {
-          "title": "Passenger train derails in France leaving at least 44 injured",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
-          "published_at": "21:25"
-        },
-        {
-          "title": "At least 44 people injured after train derails in northern France",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
-          "published_at": "15:02"
-        }
-      ]
-    },
-    {
-      "id": "world-233",
-      "title": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
-      "title_en": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/emma-bonino-death-tribute-italy-b3048543.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Emma Bonino, who rose to political prominence as a leader of campaigns by the Radical Party that legalized abortion and divorce in the 1970s in heavily Roman Catholic Italy, against the objections of ",
-      "excerpt_en": "Emma Bonino, who rose to political prominence as a leader of campaigns by the Radical Party that legalized abortion and divorce in the 1970s in heavily Roman Catholic Italy, against the objections of ",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 50
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "NBC News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-11T10:19:26+09:00",
-      "latest_published_at": "2026-09-11T13:49:12+09:00",
-      "articles": [
-        {
-          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/emma-bonino-leader-abortion-divorce-battles-changed-italy-136358233",
-          "published_at": "13:49"
-        },
-        {
-          "title": "Emma Bonino, leader of abortion and divorce battles that changed Italy, dies at 78",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/italy/emma-bonino-leader-abortion-divorce-battles-changed-italy-dies-rcna597204",
-          "published_at": "13:04"
-        },
-        {
-          "title": "Emma Bonino: Leader of abortion and divorce battles that changed Italy, dies aged 78",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/emma-bonino-death-tribute-italy-b3048543.html",
-          "published_at": "10:19"
-        }
-      ]
-    },
-    {
-      "id": "world-206",
-      "title": "Farmers struggling with record-breaking diesel prices ahead of harvest season",
+      "id": "world-272",
+      "title": "추수 시즌을 앞두고 기록적인 경유 가격으로 어려움을 겪는 농민들",
       "title_en": "Farmers struggling with record-breaking diesel prices ahead of harvest season",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/diesel-prices-farmer-gas-record-tractors-b3048836.html",
       "category": "중동",
       "primary_source": "The Independent",
-      "excerpt": "With diesel prices hitting unprecedented levels, US farmers are grappling with steep fuel expenses that have doubled. This dramatic rise is disrupting essential operations for corn and soybean harvest",
+      "excerpt": "디젤 가격이 전례 없는 수준으로 치솟으면서 미국 농민들은 두 배로 늘어난 연료비로 어려움을 겪고 있습니다. 이러한 극적인 증가로 인해 옥수수와 대두 수확에 필수적인 운영이 중단되고 있습니다.",
       "excerpt_en": "With diesel prices hitting unprecedented levels, US farmers are grappling with steep fuel expenses that have doubled. This dramatic rise is disrupting essential operations for corn and soybean harvest",
       "excerpt_source": "Times of India",
       "excerpt_url": "https://timesofindia.indiatimes.com/business/international-business/us-diesel-prices-at-record-6-american-farmers-feel-the-heat-as-harvest-season-begins/articleshow/134103442.cms",
-      "translation_status": "failed",
-      "score": 64,
+      "translation_status": "ok",
+      "score": 63,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 48
+        "time_score": 2,
+        "raw75": 47
       },
       "area_value": 3,
       "article_count": 3,
@@ -807,226 +1123,124 @@
       ]
     },
     {
-      "id": "world-17",
-      "title": "Putin, Xi and Iran's Pezeshkian descend on India for high-stakes BRICS summit amid escalating global tensions",
-      "title_en": "Putin, Xi and Iran's Pezeshkian descend on India for high-stakes BRICS summit amid escalating global tensions",
+      "id": "world-65",
+      "title": "예멘의 후티 반군이 해상 운송 및 기타 중동 발전을 위협하면서 홍해 섬을 점령했습니다.",
+      "title_en": "Yemen's Houthis capture a Red Sea island in a threat to shipping, and other Mideast developments",
       "title_source": "earliest_pick",
-      "title_url": "https://www.foxnews.com/world/putin-xi-irans-pezeshkian-descend-india-high-stakes-brics-summit-amid-escalating-global-tensions",
+      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVVrTHdGZGh4a2VWNHlfeWxkdlQtVkVJQzNaMUFpTTJwTWtfZlpUeVktX3g3NVBsYVFlbjdHOHZsaUZHTWhwQXo1eE9RaUowWnJYVlBJYXJWOTBYSHhCd0dJSWM5T2xJV0hJRWw5b0ZBZy1OSlcxY2VkTkszMUxGMl9fOS1MVldRajgtMFF1V0dYNTJJWHVN?oc=5",
       "category": "중동",
-      "primary_source": "Fox News",
-      "excerpt": "Conflicts in the Middle East and Ukraine, along with global trade turbulence and energy security, are expected to dominate the two-day meeting of the 11-nation bloc.",
-      "excerpt_en": "Conflicts in the Middle East and Ukraine, along with global trade turbulence and energy security, are expected to dominate the two-day meeting of the 11-nation bloc.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/asia/brics-china-xi-jinping-india-modi-war-6379866",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "Channel News Asia",
-        "Fox News"
-      ],
-      "first_published_at": "2026-09-11T12:25:59+09:00",
-      "latest_published_at": "2026-09-12T04:27:27+09:00",
-      "articles": [
-        {
-          "title": "China’s Xi heads to India for BRICS summit overshadowed by wars",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/12/chinas-xi-heads-to-india-for-brics-summit-overshadowed-by-wars?traffic_source=rss",
-          "published_at": "04:27"
-        },
-        {
-          "title": "Xi Jinping heads to India for BRICS summit overshadowed by war",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/brics-china-xi-jinping-india-modi-war-6379866",
-          "published_at": "02:20"
-        },
-        {
-          "title": "Putin, Xi and Iran's Pezeshkian descend on India for high-stakes BRICS summit amid escalating global tensions",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/putin-xi-irans-pezeshkian-descend-india-high-stakes-brics-summit-amid-escalating-global-tensions",
-          "published_at": "12:25"
-        }
-      ]
-    },
-    {
-      "id": "world-214",
-      "title": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
-      "title_en": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-trump-charlie-kirk-rally-b3048453.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "US President Donald Trump and Vice President JD Vance are scheduled to visit the sites of the 11 September 2001 attacks on Friday, with Trump expected to deliver a speech at the Pentagon.",
-      "excerpt_en": "US President Donald Trump and Vice President JD Vance are scheduled to visit the sites of the 11 September 2001 attacks on Friday, with Trump expected to deliver a speech at the Pentagon.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 47
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-11T08:21:45+09:00",
-      "latest_published_at": "2026-09-11T16:07:34+09:00",
-      "articles": [
-        {
-          "title": "With JD Vance seemingly ready to take the Trump mantle in 2028, Rubio admits he has no plans to run for president",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jd-vance-2028-trump-marco-rubio-b3048749.html",
-          "published_at": "16:07"
-        },
-        {
-          "title": "Tributes paid to 9/11 victims at Republican midterm convention in Dallas",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/11/tributes-paid-to-911-victims-at-republican-midterm-convention-in-dallas",
-          "published_at": "08:37"
-        },
-        {
-          "title": "JD Vance auditions to inherit Trump’s MAGA movement with 2028 on horizon",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-trump-charlie-kirk-rally-b3048453.html",
-          "published_at": "08:21"
-        }
-      ]
-    },
-    {
-      "id": "world-250",
-      "title": "High school stabbing in Croatia leaves 2 wounded and attacker detained",
-      "title_en": "High school stabbing in Croatia leaves 2 wounded and attacker detained",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/high-school-stabbing-croatia-leaves-2-wounded-attacker-136359139",
-      "category": "미국",
-      "primary_source": "ABC News",
-      "excerpt": "A shooting reportedly took place at the Manteca High School football game versus Chavez on September 11, in California.",
-      "excerpt_en": "A shooting reportedly took place at the Manteca High School football game versus Chavez on September 11, in California.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/manteca-shooting-update-high-school-football-game-versus-chavez-stalled-first-details-as-scary-videos-emerge-california-101789188687676.html",
-      "translation_status": "failed",
-      "score": 63,
+      "primary_source": "AP News",
+      "excerpt": "이란의 지원을 받는 예멘의 후티 반군이 바브엘만데브 해협의 전략 섬을 점령했습니다. 이러한 움직임은 주요 상업 경로를 통한 사우디 석유 수출을 위협합니다. 그리고 사우디아라비아는 문을 닫았다고 하더군요",
+      "excerpt_en": "Iranian-backed Houthi rebels in Yemen have captured a strategic island in the Bab el-Mandeb Strait. The move threatens Saudi oil exports through a key commercial lane. And Saudi Arabia said it shut do",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
+      "translation_status": "ok",
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "Hindustan Times"
+        "AP News",
+        "NPR"
       ],
-      "first_published_at": "2026-09-11T10:34:19+09:00",
-      "latest_published_at": "2026-09-12T04:56:20+09:00",
+      "first_published_at": "2026-09-12T03:29:00+09:00",
+      "latest_published_at": "2026-09-12T05:57:08+09:00",
       "articles": [
         {
-          "title": "Manteca shooting update: High School football game versus Chavez stalled; first details as scary videos emerge",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/manteca-shooting-update-high-school-football-game-versus-chavez-stalled-first-details-as-scary-videos-emerge-california-101789188687676.html",
-          "published_at": "04:56"
+          "title": "Yemen's Houthis capture a Red Sea island in threat to shipping",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
+          "published_at": "05:57"
         },
         {
-          "title": "High school stabbing in Croatia leaves 2 wounded and attacker detained",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/high-school-stabbing-croatia-leaves-2-wounded-attacker-136359139",
-          "published_at": "10:34"
+          "title": "Yemen's Houthis capture a Red Sea island in a threat to shipping, and other Mideast developments",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVVrTHdGZGh4a2VWNHlfeWxkdlQtVkVJQzNaMUFpTTJwTWtfZlpUeVktX3g3NVBsYVFlbjdHOHZsaUZHTWhwQXo1eE9RaUowWnJYVlBJYXJWOTBYSHhCd0dJSWM5T2xJV0hJRWw5b0ZBZy1OSlcxY2VkTkszMUxGMl9fOS1MVldRajgtMFF1V0dYNTJJWHVN?oc=5",
+          "published_at": "03:29"
         }
       ]
     },
     {
-      "id": "world-6",
-      "title": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
-      "title_en": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
+      "id": "world-105",
+      "title": "즈베레프, '무의미한' 출발에서 US 오픈 결승까지",
+      "title_en": "Zverev goes from 'pointless' start to US Open final",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
-      "category": "유럽",
-      "primary_source": "Sky News",
-      "excerpt": "Norway's ‌Princess Astrid, an older sister ‌of the late King ​Harald, died on Friday at ​the ‌age of 94, the royal palace ​said in a statement.",
-      "excerpt_en": "Norway's ‌Princess Astrid, an older sister ‌of the late King ​Harald, died on Friday at ​the ‌age of 94, the royal palace ​said in a statement.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
-      "translation_status": "failed",
+      "title_url": "https://www.channelnewsasia.com/sport/zverev-goes-pointless-start-us-open-final-6379796",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "일요일에 셸턴은 2003년 이후 그랜드 슬램 타이틀을 획득한 최초의 미국인이 되기 위해 도전할 예정입니다.",
+      "excerpt_en": "On Sunday, Shelton will bid to become to become the first American man to win a Grand Slam title since 2003.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/sports/2026/9/12/ben-shelton-us-open-final-2026-alexander-zverev-tennis?traffic_source=rss",
+      "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
+        "article_score": 22,
+        "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 2,
+        "time_score": 3,
         "raw75": 46
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "BBC",
-        "Sky News",
-        "The Independent"
+        "Al Jazeera",
+        "Channel News Asia"
       ],
-      "first_published_at": "2026-09-11T13:22:00+09:00",
-      "latest_published_at": "2026-09-11T16:00:59+09:00",
+      "first_published_at": "2026-09-12T00:00:26+09:00",
+      "latest_published_at": "2026-09-12T06:40:00+09:00",
       "articles": [
         {
-          "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
-          "published_at": "16:00"
+          "title": "Shelton advances to US Open 2026 men’s final for Zverev showdown",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/12/ben-shelton-us-open-final-2026-alexander-zverev-tennis?traffic_source=rss",
+          "published_at": "06:40"
         },
         {
-          "title": "Sister of Norway’s King Harald dies just days after attending late monarch’s funeral",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/norway-princess-astrid-dead-harald-funeral-b3048705.html",
-          "published_at": "15:07"
+          "title": "Shelton relishing challenge of first Grand Slam final against Zverev",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/shelton-relishing-challenge-first-grand-slam-final-against-zverev-6380056",
+          "published_at": "05:20"
         },
         {
-          "title": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
-          "published_at": "13:22"
+          "title": "Shelton advances to US Open final for Zverev showdown",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/shelton-advances-us-open-final-zverev-showdown-6379916",
+          "published_at": "03:16"
+        },
+        {
+          "title": "Zverev goes from 'pointless' start to US Open final",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/zverev-goes-pointless-start-us-open-final-6379796",
+          "published_at": "00:00"
         }
       ]
     },
     {
-      "id": "world-66",
-      "title": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
+      "id": "world-137",
+      "title": "🔴 라이브: 사우디는 여러 차례의 후티 공격 이후 동서 송유관을 폐쇄했습니다",
       "title_en": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
       "title_source": "earliest_pick",
       "title_url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
       "category": "중동",
       "primary_source": "France24",
-      "excerpt": "Saudi Arabia shut the East-West oil pipeline after multiple attacks in Riyadh and Madinah injured several people, calling the closure a precautionary measure.",
+      "excerpt": "사우디아라비아는 리야드와 메디나에서 여러 차례 공격을 받은 후 동서 송유관을 폐쇄했으며, 이는 예방적 조치라고 말했습니다.",
       "excerpt_en": "Saudi Arabia shut the East-West oil pipeline after multiple attacks in Riyadh and Madinah injured several people, calling the closure a precautionary measure.",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/saudi-arabia-closes-east-west-oil-pipeline-after-attacks-in-riyadh-madinah-precautionary-measure-101789157559307.html",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
         "article_score": 12,
@@ -1062,65 +1276,18 @@
       ]
     },
     {
-      "id": "world-78",
-      "title": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
-      "title_en": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
-      "category": "미국",
-      "primary_source": "France24",
-      "excerpt": "President Donald Trump vowed Friday that the United States would never forget the September 11, 2001 attacks and would continue to \"fight,\" as he marked the 25th anniversary in a ceremony at the Penta",
-      "excerpt_en": "President Donald Trump vowed Friday that the United States would never forget the September 11, 2001 attacks and would continue to \"fight,\" as he marked the 25th anniversary in a ceremony at the Penta",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-11T14:48:20+09:00",
-      "latest_published_at": "2026-09-11T17:24:56+09:00",
-      "articles": [
-        {
-          "title": "'We will never, ever forget': Donald Trump renews sacred oath on 25th anniversary of 9/11",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/we-will-never-ever-forget-donald-trump-renews-sacred-oath-on-25th-anniversary-of-911-101789147319499.html",
-          "published_at": "17:24"
-        },
-        {
-          "title": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
-          "published_at": "14:48"
-        }
-      ]
-    },
-    {
-      "id": "world-108",
-      "title": "OpenAI agents attacked software service months before Hugging Face hack",
+      "id": "world-176",
+      "title": "OpenAI 에이전트는 Hugging Face 해킹 몇 달 전에 소프트웨어 서비스를 공격했습니다.",
       "title_en": "OpenAI agents attacked software service months before Hugging Face hack",
       "title_source": "earliest_pick",
       "title_url": "https://www.abc.net.au/news/2026-09-12/openai-agents-rubygems-cyber-attack-before-hugging-face-hack/107146386",
       "category": "기타",
       "primary_source": "ABC News Australia",
-      "excerpt": "Two months before hacking Hugging Face, malicious packages authored by internal OpenAI agents were uploaded to RubyGems Agents being tested by OpenAI uploaded hundreds of malicious packages in a cyber",
+      "excerpt": "Hugging Face를 해킹하기 두 달 전, 내부 OpenAI 에이전트가 작성한 악성 패키지가 RubyGems에 업로드되었습니다. OpenAI가 테스트 중인 에이전트가 사이버 공간에 수백 개의 악성 패키지를 업로드했습니다.",
       "excerpt_en": "Two months before hacking Hugging Face, malicious packages authored by internal OpenAI agents were uploaded to RubyGems Agents being tested by OpenAI uploaded hundreds of malicious packages in a cyber",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages",
-      "translation_status": "failed",
+      "translation_status": "ok",
       "score": 61,
       "score_breakdown": {
         "article_score": 12,
@@ -1156,143 +1323,320 @@
       ]
     },
     {
-      "id": "world-288",
-      "title": "Lil Durk trial: How is King Von’s death linked to Quando Rondo plot? Case revisited amid not guilty verdict",
-      "title_en": "Lil Durk trial: How is King Von’s death linked to Quando Rondo plot? Case revisited amid not guilty verdict",
+      "id": "world-291",
+      "title": "트럼프, 9·11테러 25주년 미 국방부서 기념행사",
+      "title_en": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-how-is-king-von-s-death-linked-to-quando-rondo-plot-case-revisited-amid-not-guilty-verdict-101789173559736.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Lil Durk has been acquitted of all charges after being accused of orchestrating a murder-for-hire plot which led to the shooting of Quando Rondo’s cousin.",
-      "excerpt_en": "Lil Durk has been acquitted of all charges after being accused of orchestrating a murder-for-hire plot which led to the shooting of Quando Rondo’s cousin.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-federal-racketeering-case-vicar-charges-explained-as-rapper-set-to-face-new-trial-on-october-5-101789176280808.html",
-      "translation_status": "failed",
-      "score": 59,
+      "title_url": "https://www.independent.co.uk/news/world/americas/donald-trump-american-melania-trump-jd-vance-pete-hegseth-b3048669.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "뉴욕 – 뉴욕은 지난 금요일 도널드 트럼프 대통령의 부재와 우파 OU에 대한 논란으로 얼룩진 2001년 9월 11일 테러 25주년을 기념하는 행사를 열었습니다.",
+      "excerpt_en": "NEW YORK - New York commemorated the 25th anniversary of the devastating September 11, 2001 attacks Friday with a ceremony marked by controversy over President Donald Trump’s absence and right-wing ou",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3318055/new-york-marks-25th-anniversary-of-911-attacks",
+      "translation_status": "ok",
+      "score": 61,
       "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 4,
-        "major_score": 5,
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 1,
+        "raw75": 46
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "Hindustan Times"
+        "Bangkok Post",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-12T00:48:50+09:00",
-      "latest_published_at": "2026-09-12T04:09:52+09:00",
+      "first_published_at": "2026-09-11T13:22:56+09:00",
+      "latest_published_at": "2026-09-11T13:45:00+09:00",
       "articles": [
         {
-          "title": "Will Lil Durk be released from jail in 2026? Arrest date, new trial in focus after acquittal in Quando Rondo case",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/will-lil-durk-be-released-from-jail-in-2026-arrest-date-new-trial-in-focus-after-acquittal-in-quando-rondo-case-101789185051029.html",
-          "published_at": "04:09"
+          "title": "New York marks 25th anniversary of 9/11 attacks",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318055/new-york-marks-25th-anniversary-of-911-attacks",
+          "published_at": "13:45"
         },
         {
-          "title": "Lil Durk acquittal: G Herbo drops bombshell reaction; what to know about their relationship as video viral",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-acquittal-g-herbo-drops-bombshell-reaction-what-to-know-about-their-relationship-as-video-viral-watch-101789179818796.html",
-          "published_at": "02:53"
+          "title": "The Latest: Trump will commemorate 25 years since 9/11 attacks at the Pentagon",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/howard-lutnick-new-york-trump-pentagon-jd-vance-b3048670.html",
+          "published_at": "13:23"
         },
         {
-          "title": "Who killed King Von? What to know as Lil Durk acquitted in Quando Rondo murder-for-hire trial",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-killed-king-von-what-to-know-as-lil-durk-is-acquitted-in-murder-for-hire-trial-against-quando-rondo-101789175255234.html",
-          "published_at": "02:18"
-        },
-        {
-          "title": "Lil Durk federal racketeering case: VICAR charges explained as rapper set to face new trial on October 5",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-federal-racketeering-case-vicar-charges-explained-as-rapper-set-to-face-new-trial-on-october-5-101789176280808.html",
-          "published_at": "01:44"
-        },
-        {
-          "title": "Where is Quando Rondo now? All you need to know after Lil Durk's not guilty trial verdict",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/where-is-quando-rondo-now-all-you-need-to-know-after-lil-durks-not-guilty-trial-verdict-101789171547475.html",
-          "published_at": "00:51"
-        },
-        {
-          "title": "Lil Durk trial: How is King Von’s death linked to Quando Rondo plot? Case revisited amid not guilty verdict",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-how-is-king-von-s-death-linked-to-quando-rondo-plot-case-revisited-amid-not-guilty-verdict-101789173559736.html",
-          "published_at": "00:48"
+          "title": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-american-melania-trump-jd-vance-pete-hegseth-b3048669.html",
+          "published_at": "13:22"
         }
       ]
     },
     {
-      "id": "world-132",
-      "title": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
-      "title_en": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
+      "id": "world-310",
+      "title": "이란의 지원을 받는 후티 반군, 예멘의 홍해 연안 전체와 3개의 전략 섬을 점령",
+      "title_en": "Iran-backed Houthis seize Yemen's entire Red Sea coast, 3 strategic islands",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
-      "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "A fire which broke out on a passenger ferry in the Philippines has killed at least 35 people, while 54 are still missing.",
-      "excerpt_en": "A fire which broke out on a passenger ferry in the Philippines has killed at least 35 people, while 54 are still missing.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/deaths-in-philippines-ferry-fire-rises-to-at-least-35-with-54-still-missing-13584566",
-      "translation_status": "failed",
-      "score": 57,
+      "title_url": "https://www.hindustantimes.com/world-news/iranbacked-houthis-seize-yemens-entire-red-sea-coast-3-strategic-islands-101789139898152.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "이란의 지원을 받는 예멘 후티 반군이 전략적 홍해 해안선을 장악해 이 지역의 해상 항로를 더욱 복잡하게 만들고 있습니다. 동시에 사우디아라비아 내부의 파업으로 인해",
+      "excerpt_en": "The Iran-backed Houthi rebels in Yemen have taken control of a strategic Red Sea coastline, further complicating shipping routes in the region. At the same time, strikes inside Saudi Arabia forced the",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909",
+      "translation_status": "ok",
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 7,
         "time_score": 2,
-        "raw75": 43
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "New York Times",
-        "Sky News"
+        "Hindustan Times",
+        "NBC News"
       ],
-      "first_published_at": "2026-09-11T17:00:10+09:00",
-      "latest_published_at": "2026-09-11T18:41:00+09:00",
+      "first_published_at": "2026-09-11T15:36:58+09:00",
+      "latest_published_at": "2026-09-11T21:44:36+09:00",
       "articles": [
         {
-          "title": "Deaths in Philippines ferry fire rises to at least 35",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/deaths-in-philippines-ferry-fire-rises-to-at-least-35-with-54-still-missing-13584566",
-          "published_at": "18:41"
+          "title": "Iran-backed Houthis take control of Red Sea coastline in Yemen",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909",
+          "published_at": "21:44"
         },
         {
-          "title": "At Least 35 Dead, Dozens Missing After Ferry Fire in the Philippines",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/09/world/asia/philippines-ferry-fire-palawan.html",
-          "published_at": "17:00"
+          "title": "Iran-backed Houthis seize Yemen's entire Red Sea coast, 3 strategic islands",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/iranbacked-houthis-seize-yemens-entire-red-sea-coast-3-strategic-islands-101789139898152.html",
+          "published_at": "15:36"
         }
       ]
     },
     {
-      "id": "world-227",
-      "title": "Fake lovers accused of wooing 100 American women out of $6M arrested",
-      "title_en": "Fake lovers accused of wooing 100 American women out of $6M arrested",
+      "id": "world-149",
+      "title": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
+      "title_en": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "title_url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
       "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "The individuals were apprehended in Cape Town in 2021 and are being turned over to Federal Bureau of Investigation agents on Friday",
-      "excerpt_en": "The individuals were apprehended in Cape Town in 2021 and are being turned over to Federal Bureau of Investigation agents on Friday",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "primary_source": "France24",
+      "excerpt": "도널드 트럼프 미국 대통령은 금요일 펜타 호텔에서 열린 건국 25주년 기념식에서 미국은 2001년 9·11 테러를 결코 잊지 않을 것이며 계속해서 “싸울 것”이라고 다짐했습니다.",
+      "excerpt_en": "President Donald Trump vowed Friday that the United States would never forget the September 11, 2001 attacks and would continue to \"fight,\" as he marked the 25th anniversary in a ceremony at the Penta",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
       "translation_status": "failed",
-      "score": 57,
+      "score": 60,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 45
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-11T14:48:20+09:00",
+      "latest_published_at": "2026-09-11T17:24:56+09:00",
+      "articles": [
+        {
+          "title": "'We will never, ever forget': Donald Trump renews sacred oath on 25th anniversary of 9/11",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/we-will-never-ever-forget-donald-trump-renews-sacred-oath-on-25th-anniversary-of-911-101789147319499.html",
+          "published_at": "17:24"
+        },
+        {
+          "title": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
+          "published_at": "14:48"
+        }
+      ]
+    },
+    {
+      "id": "world-240",
+      "title": "54세 여성, 22년간 냉동배아로 딸 출산",
+      "title_en": "Woman, 54, gives birth to baby girl from embryo frozen for 22 years",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/greece-ivf-baby-frozen-embryo-b3048865.html",
+      "category": "기타",
+      "primary_source": "The Independent",
+      "excerpt": "그리스 여성이 54세에 아이를 출산했는데, 이는 정부가 22년 동안 냉동보관했던 배아 사용 기한을 초과한 것입니다.",
+      "excerpt_en": "A Greek woman has given birth aged 54, beating a government deadline to use one of her embryos, which had been frozen for 22 years.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/greek-woman-54-gives-birth-after-using-embryo-frozen-for-22-years-13584694",
+      "translation_status": "ok",
+      "score": 60,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 45
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Sky News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T18:27:43+09:00",
+      "latest_published_at": "2026-09-12T08:54:00+09:00",
+      "articles": [
+        {
+          "title": "Woman, 54, gives birth in Greece after using embryo frozen for 22 years",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/embryo-greece-birth-frozen-athens-b3049025.html",
+          "published_at": "08:54"
+        },
+        {
+          "title": "Woman, 54, gives birth after using embryo frozen for 22 years",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/greek-woman-54-gives-birth-after-using-embryo-frozen-for-22-years-13584694",
+          "published_at": "03:51"
+        },
+        {
+          "title": "Woman, 54, gives birth to baby girl from embryo frozen for 22 years",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/greece-ivf-baby-frozen-embryo-b3048865.html",
+          "published_at": "18:27"
+        }
+      ]
+    },
+    {
+      "id": "world-202",
+      "title": "Bodies from charred Philippine ferry arrive at port after fire that killed at least 35",
+      "title_en": "Bodies from charred Philippine ferry arrive at port after fire that killed at least 35",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/bodies-charred-philippine-ferry-arrive-port-after-fire-136384992",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "필리핀 서부에서 불탄 여객선 안에서 발견된 검게 탄 시신 30구가 선박 화재로 최소 35명이 사망하고 50여 명이 좌초된 후 신원 확인을 위해 토요일 항구에 도착했습니다.",
+      "excerpt_en": "Thirty charred bodies found inside a burned passenger ferry in the western Philippines arrived at a port Saturday for identification after a ship fire killed at least 35 people and left more than 50 o",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 59,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
+        "time_score": 3,
+        "raw75": 44
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-12T07:42:58+09:00",
+      "latest_published_at": "2026-09-12T09:22:43+09:00",
+      "articles": [
+        {
+          "title": "Bodies from Philippine ferry arrive at port after fire killed at least 35",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
+          "published_at": "09:22"
+        },
+        {
+          "title": "Bodies from charred Philippine ferry arrive at port after fire that killed at least 35",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/bodies-charred-philippine-ferry-arrive-port-after-fire-136384992",
+          "published_at": "07:42"
+        }
+      ]
+    },
+    {
+      "id": "world-164",
+      "title": "사우디아라비아, 이라크 드론 탓으로 송유관 폐쇄",
+      "title_en": "Saudi Arabia shuts down oil pipeline, blaming drones from Iraq",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+      "category": "중동",
+      "primary_source": "The Guardian",
+      "excerpt": "Riyadh has increased its use of the East-West pipeline since the start of the Middle East war to bypass the closure of the strait of Hormuz Saudi authorities said Friday drones launched from Iraq led ",
+      "excerpt_en": "Riyadh has increased its use of the East-West pipeline since the start of the Middle East war to bypass the closure of the strait of Hormuz Saudi authorities said Friday drones launched from Iraq led ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-12T05:22:01+09:00",
+      "latest_published_at": "2026-09-12T07:47:02+09:00",
+      "articles": [
+        {
+          "title": "Drones from Iraq attack and set pipeline on fire in Saudi Arabia",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/12/drones-from-iraq-attack-and-set-pipeline-on-fire-in-saudi-arabia",
+          "published_at": "07:47"
+        },
+        {
+          "title": "Saudi Arabia shuts down oil pipeline, blaming drones from Iraq",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+          "published_at": "05:22"
+        }
+      ]
+    },
+    {
+      "id": "world-294",
+      "title": "600만 달러 중 100명의 미국 여성에게 구애한 가짜 연인 체포",
+      "title_en": "Fake lovers accused of wooing 100 American women out of $6M arrested",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "이들 개인은 2021년 케이프타운에서 체포됐으며 금요일에 연방수사국(Federal Bureau of Investigation) 요원에게 넘겨졌다.",
+      "excerpt_en": "The individuals were apprehended in Cape Town in 2021 and are being turned over to Federal Bureau of Investigation agents on Friday",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/nigerian-black-axe-extradited-fbi-b3048648.html",
+      "translation_status": "ok",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
@@ -1320,61 +1664,61 @@
       ]
     },
     {
-      "id": "world-236",
-      "title": "Police say 5 dead, 40 injured in tour bus crash in eastern Switzerland",
-      "title_en": "Police say 5 dead, 40 injured in tour bus crash in eastern Switzerland",
+      "id": "world-74",
+      "title": "Trump is heading to Ireland for the Irish Open at his Doonbeg golf course",
+      "title_en": "Trump is heading to Ireland for the Irish Open at his Doonbeg golf course",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/police-5-dead-40-injured-tour-bus-crash-136358336",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "Police say five people have died and 40 others were injured after a Dutch tour bus slammed into a roadside crash barrier and overturned in eastern Switzerland",
-      "excerpt_en": "Police say five people have died and 40 others were injured after a Dutch tour bus slammed into a roadside crash barrier and overturned in eastern Switzerland",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/police-5-dead-40-injured-tour-bus-crash-136358336",
+      "title_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWnZRUkt4UnBjZU1GM1V0ZENaYVFRbjZEQXA1UnlDNnZFRmVycjdMUXdGNVVsOXVacUZtSVFWSnF2aWE5RE1mcTdmOThleGkyaUR2cGtTenBGZDQzUm1Mc1cwOVpMUTF0bGsxOUZVZ1FaWlM3ZzQ3VzZwN0JCTzFiR21lVE5mVUxvTWRkU3o4Zw?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "The visit mixes official talks with Irish leaders and an attendance of the Irish Open at a golf course which the president owns.",
+      "excerpt_en": "The visit mixes official talks with Irish leaders and an attendance of the Irish Open at a golf course which the president owns.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/trump-ireland-dublin-visit-irish-open-golf/",
       "translation_status": "failed",
-      "score": 56,
+      "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 42
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "The Independent"
+        "AP News",
+        "CBS News"
       ],
-      "first_published_at": "2026-09-11T09:14:35+09:00",
-      "latest_published_at": "2026-09-11T09:58:26+09:00",
+      "first_published_at": "2026-09-11T17:13:00+09:00",
+      "latest_published_at": "2026-09-12T08:57:43+09:00",
       "articles": [
         {
-          "title": "Tour bus crash in Swiss Alps leaves multiple people dead",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/dutch-bus-crash-switzerland-graubuenden-b3048391.html",
-          "published_at": "09:58"
+          "title": "Trump arrives in Ireland for talks and to watch the Irish Open",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-ireland-dublin-visit-irish-open-golf/",
+          "published_at": "08:57"
         },
         {
-          "title": "Police say 5 dead, 40 injured in tour bus crash in eastern Switzerland",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/police-5-dead-40-injured-tour-bus-crash-136358336",
-          "published_at": "09:14"
+          "title": "Trump is heading to Ireland for the Irish Open at his Doonbeg golf course",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWnZRUkt4UnBjZU1GM1V0ZENaYVFRbjZEQXA1UnlDNnZFRmVycjdMUXdGNVVsOXVacUZtSVFWSnF2aWE5RE1mcTdmOThleGkyaUR2cGtTenBGZDQzUm1Mc1cwOVpMUTF0bGsxOUZVZ1FaWlM3ZzQ3VzZwN0JCTzFiR21lVE5mVUxvTWRkU3o4Zw?oc=5",
+          "published_at": "17:13"
         }
       ]
     },
     {
-      "id": "world-100",
+      "id": "world-168",
       "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
       "title_en": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11-101789152790412.html",
       "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "The presidential briefing documents were declassified on the 25th anniversary of the September 11 attacks Several dozen presidential briefing documents declassified on Friday, the 25th anniversary of ",
+      "excerpt": "9·11테러 25주년을 맞아 대통령 브리핑 문서 기밀 해제 25주년인 금요일에 수십 개의 대통령 브리핑 문서가 기밀 해제됐다.",
       "excerpt_en": "The presidential briefing documents were declassified on the 25th anniversary of the September 11 attacks Several dozen presidential briefing documents declassified on Friday, the 25th anniversary of ",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/11/cia-releases-presidential-briefs-bin-laden-al-qaida",
@@ -1414,26 +1758,308 @@
       ]
     },
     {
-      "id": "world-211",
-      "title": "Anti-Saudi Arabia rant on stage takes over reading of 9/11 victims names and draws applause from families",
+      "id": "world-4",
+      "title": "시리아 민간 공항 계획은 집단 묘지와 토지 권리에 대한 항의를 촉발시켰습니다.",
+      "title_en": "Syrian private airport plans spark outcry over mass graves, land rights",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS1FmZGJEblBGQkx6eGwxV05zcWtpRXRVUlFTY2FHOGowNTdMLU5BazN1dVFIM0lhbzRtbTFyVmZndFExWmRUUFN1bE5Fdm5CZjZmZkxVVVRaNi1zVTdRcS1sNFU1NTd6OHhkZHBXNlFKdWVfMnN4R2JndDVXWXdiNzFNQmNic1c0SjNBNW10Y0RDWjM4Z0pNM2xlRnVsSkg3RDhmZkFpd0o5TjhOckRXcW16dkMyYTJoSEd0UzFvN21vQQ?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "시리아 정부는 다마스쿠스의 옛 군사 공항을 개인 제트기의 허브로 만들 계획을 세우고 있으며 재개발이 의심되는 mas를 방해할 수 있다고 말하는 권리 단체와 주민들 사이에 경고를 보내고 있습니다.",
+      "excerpt_en": "Syrian government plans to turn a former military airport in Damascus into a ⁠hub for private jets are raising alarm among rights groups and residents who say redevelopment could disturb suspected mas",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367282/alarm-syria-plans-private-jet-hub-former-torture-site?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-12T05:06:00+09:00",
+      "latest_published_at": "2026-09-12T06:08:05+09:00",
+      "articles": [
+        {
+          "title": "Alarm as Syria plans private jet hub on former torture site",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367282/alarm-syria-plans-private-jet-hub-former-torture-site?utm_source=rss_feed",
+          "published_at": "06:08"
+        },
+        {
+          "title": "Syrian private airport plans spark outcry over mass graves, land rights",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS1FmZGJEblBGQkx6eGwxV05zcWtpRXRVUlFTY2FHOGowNTdMLU5BazN1dVFIM0lhbzRtbTFyVmZndFExWmRUUFN1bE5Fdm5CZjZmZkxVVVRaNi1zVTdRcS1sNFU1NTd6OHhkZHBXNlFKdWVfMnN4R2JndDVXWXdiNzFNQmNic1c0SjNBNW10Y0RDWjM4Z0pNM2xlRnVsSkg3RDhmZkFpd0o5TjhOckRXcW16dkMyYTJoSEd0UzFvN21vQQ?oc=5",
+          "published_at": "05:06"
+        }
+      ]
+    },
+    {
+      "id": "world-15",
+      "title": "미국 판사, 구직자에 대한 트럼프 행정부의 '충성도' 질문 불허",
+      "title_en": "US judge blocks Trump administration's 'loyalty' question for job applicants",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-judge-blocks-trump-administration-s-loyalty-question-for-job-applicants-101789171609424.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "USA-TRUMP/JOBS-LAWSUIT: 미국 판사는 구직자에 대한 트럼프 행정부의 '충성도' 질문을 차단했습니다.",
+      "excerpt_en": "USA-TRUMP/JOBS-LAWSUIT:US judge blocks Trump administration's 'loyalty' question for job applicants",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-judge-blocks-trump-administration-s-loyalty-question-for-job-applicants-101789171609424.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-12T00:06:49+09:00",
+      "latest_published_at": "2026-09-12T00:08:00+09:00",
+      "articles": [
+        {
+          "title": "US judge blocks Trump administration's 'loyalty' question for job applicants",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUk5YQmhqNXdXVlktNlMwV0JDN3JYWFJxOEJDVHR3NUdVRVhQMEtRbWN1OE5LWU5SNjM3a2NRNzlDbjJZN3J1WHQwdUFnMG4wUnNvYjJEdEtBejZjZ3pvME9hMThWeWFQVDQzY2hBTW14cDV5Mkh1SXlrcmFNU05taU4tZHM1VEFBVF9nVDh2eWxtZmgxYnR5QmhhQnJ6c0hpWmg0Qzh6ZGNZM29fRENQaHA5alJoVkJOMDBZS2pvcw?oc=5",
+          "published_at": "00:08"
+        },
+        {
+          "title": "US judge blocks Trump administration's 'loyalty' question for job applicants",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-judge-blocks-trump-administration-s-loyalty-question-for-job-applicants-101789171609424.html",
+          "published_at": "00:06"
+        }
+      ]
+    },
+    {
+      "id": "world-19",
+      "title": "아프가니스탄 여성, 비밀 테러 법정 첫 이용으로 미국에서 추방",
+      "title_en": "Afghan woman deported from US in first use of secretive terrorism court",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMTRaZFNNc281SnBUaER0WFg5cGFreW9tbU54QlNaSXhwczgzXzQyZUZxeENyTFlUa2JVUXNkd05BWk9MY1gxWEUxenVYMThmQlBkcXNOeDlsZ1ZrR0JQdmlXZlQ2WWg0ZElnY2R1TlBrclV5b0MzaExRV3FTOGVpelpOcV9YQnlHLTN4ZTJRRXlscF9RUkxzcGxacjB5NnRHa1hEMjFMUENsUUp3QlFmTEtXaw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "아프가니스탄 여성, 비밀 테러 법원 첫 이용으로 미국에서 추방 - 최신",
+      "excerpt_en": "Afghan woman deported from US in first use of secretive terrorism court Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMTRaZFNNc281SnBUaER0WFg5cGFreW9tbU54QlNaSXhwczgzXzQyZUZxeENyTFlUa2JVUXNkd05BWk9MY1gxWEUxenVYMThmQlBkcXNOeDlsZ1ZrR0JQdmlXZlQ2WWg0ZElnY2R1TlBrclV5b0MzaExRV3FTOGVpelpOcV9YQnlHLTN4ZTJRRXlscF9RUkxzcGxacjB5NnRHa1hEMjFMUENsUUp3QlFmTEtXaw?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-11T19:45:43+09:00",
+      "latest_published_at": "2026-09-12T01:46:17+09:00",
+      "articles": [
+        {
+          "title": "Afghan woman in first case for anti-terror court deported",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/af-woman-in-first-case-for-anti-terror-court-deported/articleshow/134102133.cms",
+          "published_at": "01:46"
+        },
+        {
+          "title": "Afghan woman deported from US in first use of secretive terrorism court",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMTRaZFNNc281SnBUaER0WFg5cGFreW9tbU54QlNaSXhwczgzXzQyZUZxeENyTFlUa2JVUXNkd05BWk9MY1gxWEUxenVYMThmQlBkcXNOeDlsZ1ZrR0JQdmlXZlQ2WWg0ZElnY2R1TlBrclV5b0MzaExRV3FTOGVpelpOcV9YQnlHLTN4ZTJRRXlscF9RUkxzcGxacjB5NnRHa1hEMjFMUENsUUp3QlFmTEtXaw?oc=5",
+          "published_at": "19:45"
+        }
+      ]
+    },
+    {
+      "id": "world-55",
+      "title": "공사업체는 반사 수영장 손상이 수리로 인해 발생했다고 NYT가 보도했습니다.",
+      "title_en": "Contractor said Reflecting Pool damage stemmed from repairs, NYT reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1o3NVBoTFY2MHdabkxQenNZTnJMNkZaXzRRNXNkV0V1UXRpWDNsNlFQS0FyajN0aFVtXzI2RGVJdmlvdGFWcEhfelJIUkxfSTZnbEN3V251Y1d2U1NwYjdQVzlTTVRZOGhVY0lWYWZ5NDZPcDRpYjRUdUwwcDJlN2tTMGxzYmJiWF9QdDMtdkZFb3dfaFVteVZFT0prNVNQb0JfNzc5elVyRmhNZHVHcQ?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "보고서에 따르면 계약자는 '인간의 감독'과 호환되지 않는 화학 물질의 조합을 비난했습니다.",
+      "excerpt_en": "The contractor blamed ‘human oversight’ and the combination of incompatible chemicals, according to a report",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-reflecting-pool-problems-contractor-b3048888.html",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-11T20:03:43+09:00",
+      "latest_published_at": "2026-09-11T20:29:14+09:00",
+      "articles": [
+        {
+          "title": "Trump’s own contractor admits its shoddy work caused the problem at the Reflecting Pool - not vandals",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-reflecting-pool-problems-contractor-b3048888.html",
+          "published_at": "20:29"
+        },
+        {
+          "title": "Contractor said Reflecting Pool damage stemmed from repairs, NYT reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1o3NVBoTFY2MHdabkxQenNZTnJMNkZaXzRRNXNkV0V1UXRpWDNsNlFQS0FyajN0aFVtXzI2RGVJdmlvdGFWcEhfelJIUkxfSTZnbEN3V251Y1d2U1NwYjdQVzlTTVRZOGhVY0lWYWZ5NDZPcDRpYjRUdUwwcDJlN2tTMGxzYmJiWF9QdDMtdkZFb3dfaFVteVZFT0prNVNQb0JfNzc5elVyRmhNZHVHcQ?oc=5",
+          "published_at": "20:03"
+        }
+      ]
+    },
+    {
+      "id": "world-64",
+      "title": "AI 스타트업 Discovery Loop는 약 500억 달러의 가치 평가를 추구한다고 Business Insider는 보고합니다.",
+      "title_en": "AI startup Discovery Loop seeks around $50 billion valuation, Business Insider reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/ai-startup-discovery-loop-seeks-around-50-billion-valuation-business-insider-reports-6379771",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "AI 스타트업 Discovery Loop는 약 500억 달러의 가치 평가를 추구한다고 Business Insider는 로이터 통신을 통해 보도했습니다.",
+      "excerpt_en": "AI startup Discovery Loop seeks around $50 billion valuation, Business Insider reports Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd3lnc0dxM1pHVFpORTloY08tT2k2aFdDMkRJSHBTZkFSWGNGOGk0SnRrQi1uVTB3VHhoeVh5WGZpdk90ZzdyRjUzRDJCM3NuQ29UX1l6d2QxTUg5R1F5T1JiUjBJZm1NZlozelR1SElNdFc3ekVreC00ajJ6T3NTeWxMYmZwS21zNTFiYTZSUW5VLXNyMWlMRXFoTVlwbk1IRGxhbG50cmhpZmw4OXN3dHIxVUNhekh0Z3ctdmJ0TmZjZDhJUDFZN0lzNXk?oc=5",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-11T23:23:35+09:00",
+      "latest_published_at": "2026-09-11T23:28:43+09:00",
+      "articles": [
+        {
+          "title": "AI startup Discovery Loop seeks around $50 billion valuation, Business Insider reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd3lnc0dxM1pHVFpORTloY08tT2k2aFdDMkRJSHBTZkFSWGNGOGk0SnRrQi1uVTB3VHhoeVh5WGZpdk90ZzdyRjUzRDJCM3NuQ29UX1l6d2QxTUg5R1F5T1JiUjBJZm1NZlozelR1SElNdFc3ekVreC00ajJ6T3NTeWxMYmZwS21zNTFiYTZSUW5VLXNyMWlMRXFoTVlwbk1IRGxhbG50cmhpZmw4OXN3dHIxVUNhekh0Z3ctdmJ0TmZjZDhJUDFZN0lzNXk?oc=5",
+          "published_at": "23:28"
+        },
+        {
+          "title": "AI startup Discovery Loop seeks around $50 billion valuation, Business Insider reports",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/ai-startup-discovery-loop-seeks-around-50-billion-valuation-business-insider-reports-6379771",
+          "published_at": "23:23"
+        }
+      ]
+    },
+    {
+      "id": "world-213",
+      "title": "북한이 미국 기업에 침투하기 위해 해외에서 인재를 찾고 있다.",
+      "title_en": "North Korea looks abroad for talent in its scheme to infiltrate U.S. companies",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nbcnews.com/tech/security/north-korea-worker-scheme-recruits-abroad-rcna596873",
+      "category": "중동",
+      "primary_source": "NBC News",
+      "excerpt": "커피 바. 워터파크. 소매 치료. ⁠여가나 즐거움을 떠올리기 힘든 나라인 북한은 예상치 못한 즐거움의 발발을 경험하고 있습니다. 낯설지 않은 김정은 위원장",
+      "excerpt_en": "Coffee bars. Water parks. Retail therapy. ⁠North Korea – a country few would associate with leisure or pleasure – is experiencing an ⁠unlikely outbreak of fun. Leader Kim Jong-un, himself no stranger ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3367279/foie-gras-puppies-water-parks-north-korea-gets-glow?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "NBC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-11T17:18:07+09:00",
+      "latest_published_at": "2026-09-12T05:09:27+09:00",
+      "articles": [
+        {
+          "title": "Foie gras, puppies, water parks: North Korea gets a glow-up",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3367279/foie-gras-puppies-water-parks-north-korea-gets-glow?utm_source=rss_feed",
+          "published_at": "05:09"
+        },
+        {
+          "title": "North Korea looks abroad for talent in its scheme to infiltrate U.S. companies",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/tech/security/north-korea-worker-scheme-recruits-abroad-rcna596873",
+          "published_at": "17:18"
+        }
+      ]
+    },
+    {
+      "id": "world-277",
+      "title": "무대 위의 반사우디아라비아 폭언은 9/11 희생자 이름을 낭독하고 가족들로부터 박수를 받았습니다.",
       "title_en": "Anti-Saudi Arabia rant on stage takes over reading of 9/11 victims names and draws applause from families",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/9-11-ceremony-saudi-arabia-rant-interruption-b3048675.html",
       "category": "중동",
       "primary_source": "The Independent",
-      "excerpt": "‘How can it be 25 years and we still have no justice?’ Terry Strada asked from the stage, addressing the US leaders present",
+      "excerpt": "'어떻게 25년이 지났는데도 우리에게 아직 정의가 없나요?' 테리 스트라다가 무대에서 참석한 미국 지도자들에게 연설하면서 물었습니다.",
       "excerpt_en": "‘How can it be 25 years and we still have no justice?’ Terry Strada asked from the stage, addressing the US leaders present",
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/americas/9-11-ceremony-saudi-arabia-rant-interruption-b3048675.html",
-      "translation_status": "failed",
-      "score": 55,
+      "translation_status": "ok",
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
+        "time_score": 1,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1461,132 +2087,73 @@
       ]
     },
     {
-      "id": "world-332",
-      "title": "Zverev downs Khachanov to reach US Open final, closes in second major",
-      "title_en": "Zverev downs Khachanov to reach US Open final, closes in second major",
+      "id": "world-72",
+      "title": "프랑스 군용기, 전력 투사 및 동맹 강화 위해 40일간의 글로벌 비행 개시",
+      "title_en": "French military jets launch a 40-day global flight to project power and strengthen alliances",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/zverev-downs-khachanov-reach-us-open-final-closes-in-second-major-6379721",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "American Ben Shelton has the chance to end his country's long wait for another men's US Open champion when he meets top seed Alexander Zverev in the final.",
-      "excerpt_en": "American Ben Shelton has the chance to end his country's long wait for another men's US Open champion when he meets top seed Alexander Zverev in the final.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-12/us-open-tennis-alexander-zverev-through-to-final/107146314",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "Channel News Asia"
-      ],
-      "first_published_at": "2026-09-11T22:37:04+09:00",
-      "latest_published_at": "2026-09-12T03:16:02+09:00",
-      "articles": [
-        {
-          "title": "Shelton advances to US Open final for Zverev showdown",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/shelton-advances-us-open-final-zverev-showdown-6379916",
-          "published_at": "03:16"
-        },
-        {
-          "title": "Zverev goes from 'pointless' start to US Open final",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/zverev-goes-pointless-start-us-open-final-6379796",
-          "published_at": "00:00"
-        },
-        {
-          "title": "Shelton through to US Open final as he looks to end 23-year drought",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-12/us-open-tennis-alexander-zverev-through-to-final/107146314",
-          "published_at": "23:54"
-        },
-        {
-          "title": "Zverev downs Khachanov to reach US Open final, closes in second major",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/zverev-downs-khachanov-reach-us-open-final-closes-in-second-major-6379721",
-          "published_at": "22:37"
-        }
-      ]
-    },
-    {
-      "id": "world-36",
-      "title": "Lawyer’s ChatGPT use backfires as he’s held in contempt over error-ridden court filing",
-      "title_en": "Lawyer’s ChatGPT use backfires as he’s held in contempt over error-ridden court filing",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/lawyer-chatgpt-court-filing-contempt-b3048904.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "State supreme court fined the attorney and held him in contempt for not verifying facts in a court filing.",
-      "excerpt_en": "State supreme court fined the attorney and held him in contempt for not verifying facts in a court filing.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/economy/2026/9/11/us-lawyer-cites-fake-witnesses-in-murder-case-blames-chatgpt?traffic_source=rss",
-      "translation_status": "failed",
-      "score": 53,
+      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckZ2MkhKOFJzbDhDVzE2WVVMdVRYY3RIZG1iTDJQYmN4dmdESS1fR243X25jZ2RxcjFuc0dFNjRXZzRGMUYyNEl4SXRocDdfVHlOWWc5Tl90WVRQRXNLUDBqLUplNi1aVGJSNDJQd1RfdzBGNHZBYVRZdmdyd3NiMTFYYzVRbDlPNUlXdUJZd2l1a3M5Q1NMbS00eGd1N0d5Mk5HSkFjdW56RV9GeUtnVnlEem0?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "프랑스 전투기 4대가 프랑스의 군사력과 국제 협력을 과시하기 위해 40일간의 비행을 시작했습니다.",
+      "excerpt_en": "Four French fighter jets have embarked on a 40-day flight to showcase the country's military might and international cooperation",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/french-military-jets-launch-40-day-global-flight-136360944",
+      "translation_status": "ok",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "The Independent"
+        "ABC News",
+        "AP News"
       ],
-      "first_published_at": "2026-09-11T20:27:40+09:00",
-      "latest_published_at": "2026-09-11T20:42:05+09:00",
+      "first_published_at": "2026-09-11T12:26:47+09:00",
+      "latest_published_at": "2026-09-11T13:48:27+09:00",
       "articles": [
         {
-          "title": "US lawyer cites fake witnesses in murder case, blames ChatGPT",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/11/us-lawyer-cites-fake-witnesses-in-murder-case-blames-chatgpt?traffic_source=rss",
-          "published_at": "20:42"
+          "title": "French military jets launch a 40-day global flight to project power and strengthen alliances",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/french-military-jets-launch-40-day-global-flight-136360944",
+          "published_at": "13:48"
         },
         {
-          "title": "Lawyer’s ChatGPT use backfires as he’s held in contempt over error-ridden court filing",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/lawyer-chatgpt-court-filing-contempt-b3048904.html",
-          "published_at": "20:27"
+          "title": "French military jets launch a 40-day global flight to project power and strengthen alliances",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckZ2MkhKOFJzbDhDVzE2WVVMdVRYY3RIZG1iTDJQYmN4dmdESS1fR243X25jZ2RxcjFuc0dFNjRXZzRGMUYyNEl4SXRocDdfVHlOWWc5Tl90WVRQRXNLUDBqLUplNi1aVGJSNDJQd1RfdzBGNHZBYVRZdmdyd3NiMTFYYzVRbDlPNUlXdUJZd2l1a3M5Q1NMbS00eGd1N0d5Mk5HSkFjdW56RV9GeUtnVnlEem0?oc=5",
+          "published_at": "12:26"
         }
       ]
     },
     {
-      "id": "world-155",
-      "title": "UK lawmakers reject bill to legalise assisted dying in England and Wales",
+      "id": "world-232",
+      "title": "영국 국회의원, 잉글랜드와 웨일스에서 조력 사망 합법화 법안 거부",
       "title_en": "UK lawmakers reject bill to legalise assisted dying in England and Wales",
       "title_source": "earliest_pick",
       "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
       "category": "유럽",
       "primary_source": "SCMP",
-      "excerpt": "UK lawmakers on Friday voted down legislation to allow terminally ill adults in England and Wales to choose to end their lives. The Terminally Ill Adults (End of Life) Bill was opposed by 286 members ",
+      "excerpt": "영국 국회의원들은 지난 금요일 잉글랜드와 웨일스의 불치병 성인들이 자신의 삶을 마감할 수 있도록 허용하는 법안을 부결시켰습니다. 말기 성인(임종) 법안에 286명의 의원이 반대했습니다.",
       "excerpt_en": "UK lawmakers on Friday voted down legislation to allow terminally ill adults in England and Wales to choose to end their lives. The Terminally Ill Adults (End of Life) Bill was opposed by 286 members ",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
+      "translation_status": "ok",
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -1614,102 +2181,26 @@
       ]
     },
     {
-      "id": "world-293",
-      "title": "Lil Durk 재판: 배심원 심의가 3일차에 접어들면서 오늘 Quando Rondo 사건에 대한 평결이 예상됩니다.",
-      "title_en": "Lil Durk trial: Verdict in Quando Rondo case expected today as jury deliberation enters Day 3",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-verdict-in-quando-rondo-case-expected-today-as-jury-deliberation-enters-day-3-101789142830078.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Lil Durk의 고용 살인 재판의 배심원들은 이 사건에 대해 무죄 판결을 내렸습니다. 3일 간의 심의 끝에 판결이 나왔다.",
-      "excerpt_en": "The jury in Lil Durk's murder-for-hire trial has reached a not guilty verdict in the case. The verdict came after three days of deliberation.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-jury-decision-made-in-rappers-murder-for-hire-trial-details-amid-quiet-day-at-la-courthouse-101789163776074.html",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 4,
-        "major_score": 5,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 7,
-      "article_count": 7,
-      "syndicated_count": 0,
-      "source_count": 1,
-      "sources": [
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-11T16:36:46+09:00",
-      "latest_published_at": "2026-09-12T02:04:50+09:00",
-      "articles": [
-        {
-          "title": "Lil Durk net worth: Rapper’s fortune in focus as murder-for-hire trial ends with not guilty verdict",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-net-worth-rapper-s-fortune-in-focus-as-murder-for-hire-trial-ends-with-not-guilty-verdict-101789176791364.html",
-          "published_at": "02:04"
-        },
-        {
-          "title": "Lil Durk verdict: Rapper ‘in tears’ after not guilty verdict as family celebrates acquittal",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-rapper-in-tears-after-not-guilty-verdict-as-family-celebrates-acquittal-101789174987031.html",
-          "published_at": "01:46"
-        },
-        {
-          "title": "Who is Brian Steel? Net worth, fees, salary of Lil Durk’s lawyer after rapper’s acquittal in murder-for-hire case",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-brian-steel-net-worth-fees-salary-of-lil-durk-s-lawyer-after-rapper-s-acquittal-in-murder-for-hire-case-101789173817372.html",
-          "published_at": "00:53"
-        },
-        {
-          "title": "Lil Durk trial: What happens after big Friday verdict? Outcomes of guilty and not guilty scenarios explained",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-what-happens-after-big-friday-verdict-outcomes-of-guilty-and-not-guilty-scenarios-explained-101789169774399.html",
-          "published_at": "00:01"
-        },
-        {
-          "title": "Lil Durk verdict: Major update from DJ Akademiks Kick stream as jury reaches decision",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-major-update-from-dj-akademiks-kick-stream-as-jury-reaches-decision-101789168678926.html",
-          "published_at": "23:54"
-        },
-        {
-          "title": "Lil Durk verdict: Jury decision made in rapper's murder-for-hire trial; Details amid ‘quiet’ day at LA courthouse",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-verdict-jury-decision-made-in-rappers-murder-for-hire-trial-details-amid-quiet-day-at-la-courthouse-101789163776074.html",
-          "published_at": "22:30"
-        },
-        {
-          "title": "Lil Durk trial: Verdict in Quando Rondo case expected today as jury deliberation enters Day 3",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-trial-verdict-in-quando-rondo-case-expected-today-as-jury-deliberation-enters-day-3-101789142830078.html",
-          "published_at": "16:36"
-        }
-      ]
-    },
-    {
-      "id": "world-85",
+      "id": "world-152",
       "title": "필리핀 여객선 화재 사망자 35명 도달",
       "title_en": "Philippine ferry fire death toll reaches 35",
       "title_source": "earliest_pick",
       "title_url": "https://www.bangkokpost.com/world/3318464/philippine-ferry-fire-death-toll-reaches-35",
       "category": "아시아",
       "primary_source": "Bangkok Post",
-      "excerpt": "The deadly fire had begun in the ferry’s cargo hold, then tore through the ship within seconds The bodies of passengers killed in a ferry fire off the Philippines arrived at a port near the resort tow",
+      "excerpt": "페리 화물칸에서 치명적인 화재가 발생해 몇 초 만에 배를 찢었습니다. 필리핀에서 페리 화재로 사망한 승객들의 시신이 리조트 견인 근처 항구에 도착했습니다.",
       "excerpt_en": "The deadly fire had begun in the ferry’s cargo hold, then tore through the ship within seconds The bodies of passengers killed in a ferry fire off the Philippines arrived at a port near the resort tow",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/sep/12/death-toll-from-philippines-ferry-fire-rises-to-35-as-officials-warn-toll-will-grow",
       "translation_status": "ok",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
@@ -1737,49 +2228,49 @@
       ]
     },
     {
-      "id": "world-193",
-      "title": "새로 공개된 극비 문서에는 9/11 이전 몇 년 동안 미국에 대한 오사마 빈 라덴의 위협에 대한 경고가 나와 있습니다.",
-      "title_en": "Newly released Top Secret docs show warnings about Osama bin Laden threats to US in years before 9/11",
+      "id": "world-241",
+      "title": "프랑스 북부에서 열차 탈선으로 최소 44명 부상",
+      "title_en": "At least 44 people injured after train derails in northern France",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/9-11-files-top-secret-osama-bin-laden-b3048862.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Al-Qaeda has to date not acknowledged Hamza bin Laden's death or issued the customary funeral eulogy it usually does after its leaders are killed.",
-      "excerpt_en": "Al-Qaeda has to date not acknowledged Hamza bin Laden's death or issued the customary funeral eulogy it usually does after its leaders are killed.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/alqaeda-releases-video-of-osama-bin-laden-son-on-9-11-anniversary-7-years-after-reported-death-hamza-bin-laden-101789179466099.html",
+      "title_url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "경찰은 열차가 정체불명의 물체와 충돌한 후 루앙과 캉 사이의 선로에서 이탈했다고 밝혔습니다.",
+      "excerpt_en": "Police say train came off tracks between Rouen and Caen after striking unidentified object",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/france-train-accident-rouen-caen-normandy-injuries-b3048993.html",
       "translation_status": "ok",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
+        "Sky News",
         "The Independent"
       ],
-      "first_published_at": "2026-09-11T19:52:35+09:00",
-      "latest_published_at": "2026-09-12T02:46:02+09:00",
+      "first_published_at": "2026-09-11T15:02:00+09:00",
+      "latest_published_at": "2026-09-12T04:12:33+09:00",
       "articles": [
         {
-          "title": "Al-Qaeda releases video of Osama bin Laden's son on 9/11 anniversary, 7 years after reported death",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/alqaeda-releases-video-of-osama-bin-laden-son-on-9-11-anniversary-7-years-after-reported-death-hamza-bin-laden-101789179466099.html",
-          "published_at": "02:46"
+          "title": "At least 44 people injured after train derails in northern France",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-train-accident-rouen-caen-normandy-injuries-b3048993.html",
+          "published_at": "04:12"
         },
         {
-          "title": "Newly released Top Secret docs show warnings about Osama bin Laden threats to US in years before 9/11",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/9-11-files-top-secret-osama-bin-laden-b3048862.html",
-          "published_at": "19:52"
+          "title": "At least 44 people injured after train derails in northern France",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/twenty-people-injured-after-train-derails-in-northern-france-13584124",
+          "published_at": "15:02"
         }
       ]
     }
