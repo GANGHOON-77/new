@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,175 +8,185 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-13T07:54:34.246730+09:00",
+  "updated_at": "2026-09-13T14:25:13.167260+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 435,
-  "cluster_count_total": 348,
+  "article_count_total": 421,
+  "cluster_count_total": 338,
   "clusters": [
     {
-      "id": "world-38",
-      "title": "우크라이나-러시아 전쟁 최신: 푸틴 대통령은 유럽이 키예프 지원에 군대를 보내는 것은 모스크바와의 전쟁을 의미한다고 경고",
-      "title_en": "Ukraine-Russia war latest: Putin warns Europe sending troops to Kyiv’s aid means war with Moscow",
+      "id": "world-110",
+      "title": "Yemen government forces say hit Houthis in Red Sea city",
+      "title_en": "Yemen government forces say hit Houthis in Red Sea city",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-shopping-centre-attack-drones-b3048352.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "블라디미르 푸틴 러시아 대통령이 우크라이나에 유럽군을 파견하면 큰 일이 일어날 것이라고 경고한 후 러시아의 공습으로 우크라이나에서 민간인 3명이 사망하고 수십 명이 부상했다고 현지 관리들이 토요일 밝혔습니다.",
-      "excerpt_en": "Russian strikes killed three civilians and wounded dozens in Ukraine, local officials said Saturday, after Russian President Vladimir Putin warned that sending European troops into Ukraine would amoun",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/russia-ukraine-strikes-putin-warning-9.7341677?cmp=rss",
-      "translation_status": "ok",
-      "score": 89,
+      "title_url": "https://www.bangkokpost.com/world/3318805/yemen-government-forces-say-hit-houthis-in-red-sea-city",
+      "category": "중동",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Iran-allied Houthis say drones and missiles used in attack that targeted ‘weapons depots and command and control centres’ in southern Saudi Arabia Houthi fighters on Sunday said they used drones and m",
+      "excerpt_en": "Iran-allied Houthis say drones and missiles used in attack that targeted ‘weapons depots and command and control centres’ in southern Saudi Arabia Houthi fighters on Sunday said they used drones and m",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/13/houthis-claim-attack-on-saudi-base-as-fighting-flares-with-yemeni-forces",
+      "translation_status": "failed",
+      "score": 93,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 70
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 6,
       "sources": [
-        "AP News",
-        "CBC",
-        "CBS News",
-        "The Independent"
+        "ABC News Australia",
+        "Bangkok Post",
+        "France24",
+        "Hindustan Times",
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-09-12T07:41:49+09:00",
-      "latest_published_at": "2026-09-12T21:54:10+09:00",
+      "first_published_at": "2026-09-12T18:45:00+09:00",
+      "latest_published_at": "2026-09-13T05:11:17+09:00",
       "articles": [
         {
-          "title": "Putin warns Europe against sending troops to Ukraine",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/putin-warns-europe-sending-troops-ukraine/",
-          "published_at": "21:54"
+          "title": "Middle East live: Houthis say hit Saudi base after renewed fighting with Yemeni forces",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260913-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces",
+          "published_at": "05:11"
         },
         {
-          "title": "8 killed in Russian strikes on Ukraine as Putin warns Europe against sending troops",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTXFjaTAzbzF5OENhS0txZjFxd1dGYXJkT1h2V3ZnR3EtMi11Zk45YWZ0eXFhWmo2NmticUpJM3lqdnZ3WWtwcE51NEF0c2J2VzNuMmVONGxGVVNCbUU1b0hsNTlDYWctb1NlU1dRdFhKb2hPb2UxenZUZFMwNkxzRDF2SmtMYXpxRy1FdWthUkkzWkJRaXc?oc=5",
-          "published_at": "15:41"
+          "title": "Houthis claim attack on Saudi base as fighting flares with Yemeni forces",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/13/houthis-claim-attack-on-saudi-base-as-fighting-flares-with-yemeni-forces",
+          "published_at": "01:27"
         },
         {
-          "title": "Deadly Russian strikes hit Ukraine after Putin's warning to European leaders",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/russia-ukraine-strikes-putin-warning-9.7341677?cmp=rss",
-          "published_at": "12:16"
+          "title": "Trump takes call from Saudi crown prince amid renewed fighting in Yemen",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-13/houthis-hit-saudi-base-amid-renewed-fighting-with-yemen/107147690",
+          "published_at": "01:13"
         },
         {
-          "title": "3 killed in Russian strikes on Ukraine as Putin warns Europe against sending troops",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-vladimir-putin-europe-kyiv-moscow-b3049032.html",
-          "published_at": "09:14"
+          "title": "Houthis hit Saudi base amid renewed fighting with Yemen government forces",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367329/houthis-hit-saudi-base-after-renewed-fighting-yemen-government-forces?utm_source=rss_feed",
+          "published_at": "23:46"
         },
         {
-          "title": "Ukraine-Russia war latest: Putin warns Europe sending troops to Kyiv’s aid means war with Moscow",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-shopping-centre-attack-drones-b3048352.html",
-          "published_at": "07:41"
+          "title": "Houthis say hit Saudi base after renewed fighting with Yemeni govt forces",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-govt-forces-101789255825963.html",
+          "published_at": "23:30"
+        },
+        {
+          "title": "Yemen government forces say hit Houthis in Red Sea city",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318805/yemen-government-forces-say-hit-houthis-in-red-sea-city",
+          "published_at": "18:45"
         }
       ]
     },
     {
-      "id": "world-29",
-      "title": "누가 폰왕을 죽였나요? Lil Durk가 Quando Rondo 고용 살인 재판에서 무죄 판결을 받았을 때 알아야 할 사항",
-      "title_en": "Who killed King Von? What to know as Lil Durk acquitted in Quando Rondo murder-for-hire trial",
+      "id": "world-134",
+      "title": "Missing Indonesian passenger ship found, 103 people rescued",
+      "title_en": "Missing Indonesian passenger ship found, 103 people rescued",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-killed-king-von-what-to-know-as-lil-durk-is-acquitted-in-murder-for-hire-trial-against-quando-rondo-101789175255234.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "시카고 래퍼인 그는 2024년에 체포되어 라이벌 래퍼 콴도 론도(Quando Rondo)의 사촌을 살해한 총격 사건에 연루된 혐의로 기소되었습니다.",
-      "excerpt_en": "The Chicago rapper was arrested in 2024 and accused of involvement in a shooting that killed the cousin of rival rapper Quando Rondo.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/c1kx0jje18wo?at_medium=RSS&at_campaign=rss",
-      "translation_status": "ok",
-      "score": 88,
+      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "More than 100 others on board were evacuated from the Virgo ⁠Transport 8 ship, including one who died Indonesian rescuers were searching on Sunday for 140 people from a ⁠passenger ship that was earlie",
+      "excerpt_en": "More than 100 others on board were evacuated from the Virgo ⁠Transport 8 ship, including one who died Indonesian rescuers were searching on Sunday for 140 people from a ⁠passenger ship that was earlie",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather",
+      "translation_status": "failed",
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 70
       },
       "area_value": 7,
       "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 7,
       "sources": [
-        "AP News",
-        "BBC",
-        "Hindustan Times",
-        "Reuters",
-        "The Independent"
+        "ABC News",
+        "CBS News",
+        "Channel News Asia",
+        "Fox News",
+        "SCMP",
+        "Sky News",
+        "The Guardian"
       ],
-      "first_published_at": "2026-09-12T02:18:48+09:00",
-      "latest_published_at": "2026-09-12T15:15:23+09:00",
+      "first_published_at": "2026-09-13T03:29:38+09:00",
+      "latest_published_at": "2026-09-13T05:10:38+09:00",
       "articles": [
         {
-          "title": "Rapper Lil Durk acquitted of murder-for-hire at Los Angeles trial",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb0lZWFFuN2FhME9DaGpYdmhKTzNjR3dEUEQ1dmc2X2hXem5DT0tkS0dSU0I0V2k2em5TVWZwbXBISmlOU2hkblZYdS1FTHZNOEhWM2FyVko1ZldyVEZkSGZuTjJIWTNyY3U0U0xnRFhDYVVkVW82WUZZd29XRjljZ3VuVG5WS1FkOGpqeXVn?oc=5",
-          "published_at": "15:15"
+          "title": "Indonesian rescue crews searching for 140 people after ferry hit bad weather",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather",
+          "published_at": "05:10"
         },
         {
-          "title": "Grammy-winning US rapper Lil Durk acquitted in murder-for-hire trial",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c1kx0jje18wo?at_medium=RSS&at_campaign=rss",
-          "published_at": "08:04"
+          "title": "Search underway for Indonesian passenger ship carrying 240 people after it loses contact",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/search-indonesia-passenger-ship-loses-contact-6381016",
+          "published_at": "04:37"
         },
         {
-          "title": "Rapper Lil Durk acquitted in gas station murder-for-hire trial",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/lil-durk-kanye-west-trial-b3049011.html",
-          "published_at": "07:57"
+          "title": "Search underway after Indonesian passenger ship carrying hundreds loses contact",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/search-underway-indonesian-passenger-ship-carrying-240-people-136398224",
+          "published_at": "04:14"
         },
         {
-          "title": "Will Lil Durk be released from jail in 2026? Arrest date, new trial in focus after acquittal in Quando Rondo case",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/will-lil-durk-be-released-from-jail-in-2026-arrest-date-new-trial-in-focus-after-acquittal-in-quando-rondo-case-101789185051029.html",
-          "published_at": "04:09"
+          "title": "Search underway after Indonesian passenger ship loses contact",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/indonesian-passenger-ship-missing-search-underway/",
+          "published_at": "03:56"
         },
         {
-          "title": "Grammy-winning rapper Lil Durk acquitted in murder-for-hire trial",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUFRcUtVTXdSckJaM3JraGRQbGFWUzJMSGhqUDRxeW1ORmpfdkJneWNqSnNxUDVoeVhQNV84bmxQY084VWVvZFRJd2pHZmNCaFl2NGxhUjRHZ0dwYzI0ekRYZzE3RGpHQ2pLZFZJSUlIYldwSmpyeHJ1ZUVwYXgtTERRaG9iQXN4TlhEUVRucEw1YS1oOXFvRlQ5b3hDYVBvUE53Q0llOF9iVEJ5b3JVZnMybHhDUQ?oc=5",
-          "published_at": "03:30"
+          "title": "Indonesian passenger ship carrying 240 people loses contact in Java Sea, search underway",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/indonesian-passenger-ship-carrying-240-people-loses-contact-java-sea-search-underway",
+          "published_at": "03:55"
         },
         {
-          "title": "Lil Durk acquittal: G Herbo drops bombshell reaction; what to know about their relationship as video viral",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/lil-durk-acquittal-g-herbo-drops-bombshell-reaction-what-to-know-about-their-relationship-as-video-viral-watch-101789179818796.html",
-          "published_at": "02:53"
+          "title": "Search for 140 people missing from Indonesian passenger ship",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/indonesia-search-for-140-people-missing-from-passenger-ship-13585242",
+          "published_at": "03:34"
         },
         {
-          "title": "Who killed King Von? What to know as Lil Durk acquitted in Quando Rondo murder-for-hire trial",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-killed-king-von-what-to-know-as-lil-durk-is-acquitted-in-murder-for-hire-trial-against-quando-rondo-101789175255234.html",
-          "published_at": "02:18"
+          "title": "Missing Indonesian passenger ship found, 103 people rescued",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
+          "published_at": "03:29"
         }
       ]
     },
     {
-      "id": "world-118",
-      "title": "프랑스 북부에서 열차 탈선으로 최소 44명 부상",
-      "title_en": "At least 44 people injured after train derails in northern France",
+      "id": "world-120",
+      "title": "French police suspect train derailment was sabotage",
+      "title_en": "French police suspect train derailment was sabotage",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/france-train-accident-rouen-caen-normandy-injuries-b3048993.html",
+      "title_url": "https://www.bangkokpost.com/world/3318495/french-police-suspect-train-derailment-was-sabotage",
       "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "수사관들은 프랑스 북서부에서 44명이 중상을 입은 열차 탈선이 사보타주의 결과라고 의심하고 있다고 경찰 소식통이 토요일 밝혔습니다. 철로 파편이 선로에서 발견되었습니다",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Investigators suspect that a train derailment in northwest France which injured 44, one gravely, was the result of sabotage, a police source said on Saturday. A fragment of rail was found on the track",
       "excerpt_en": "Investigators suspect that a train derailment in northwest France which injured 44, one gravely, was the result of sabotage, a police source said on Saturday. A fragment of rail was found on the track",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367310/french-police-probe-if-sabotage-derailed-train-and-injured-44?utm_source=rss_feed",
-      "translation_status": "ok",
+      "translation_status": "failed",
       "score": 88,
       "score_breakdown": {
         "article_score": 25,
@@ -186,8 +196,8 @@
         "time_score": 2,
         "raw75": 66
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
       "source_count": 6,
       "sources": [
@@ -198,7 +208,7 @@
         "SCMP",
         "The Independent"
       ],
-      "first_published_at": "2026-09-12T04:12:33+09:00",
+      "first_published_at": "2026-09-12T10:15:00+09:00",
       "latest_published_at": "2026-09-12T16:10:56+09:00",
       "articles": [
         {
@@ -236,28 +246,83 @@
           "source_name": "Bangkok Post",
           "url": "https://www.bangkokpost.com/world/3318495/french-police-suspect-train-derailment-was-sabotage",
           "published_at": "10:15"
-        },
-        {
-          "title": "At least 44 people injured after train derails in northern France",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-train-accident-rouen-caen-normandy-injuries-b3048993.html",
-          "published_at": "04:12"
         }
       ]
     },
     {
-      "id": "world-20",
-      "title": "트럼프 “아일랜드 통일은 환상적일 것”",
-      "title_en": "Trump says Irish unification would be ‘a  fantastic thing’",
+      "id": "world-30",
+      "title": "One dead, more than 30 missing after Vanuatu ferry sinks, PM's office says",
+      "title_en": "One dead, more than 30 missing after Vanuatu ferry sinks, PM's office says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3367273/ireland-deploys-snipers-and-4000-police-trump-visit?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "도널드 트럼프 미국 대통령은 토요일 이틀 간의 아일랜드 방문을 시작하면서 정치적으로 민감한 주제를 다루면서 통일된 아일랜드를 \"보고 싶다\"고 말했습니다.",
-      "excerpt_en": "US President Donald Trump said on Saturday he would “love to see” a united Ireland, wading into a politically sensitive subject as he embarked on a two-day Irish visit that blurs the lines between his",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNWZJdUE0MHNsWlY5d0NZQllOQ2pKajVVSE9odGRlVEdxMkI3dmRRaWdyMjZEMUNaNWJuTkFDcjljN1FDbWlseXN2b2hReXJmZkU5ZW5oUzRrM3NTYlV3c2RlLThkUWNZUkJqaEo0ekhVaXh3cmVZVFZ3ZGFLR1Z4aE9wMEs3c2hubW5yUGMzZUItMHhudjZ4TXhRRElBUlREYnFIQnc0RFhPNWstOXM2Vmw2RmZoS2ZvUFA0R3lkUnZaVm5w?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "Rescuers continue searching for survivors as the government scales back operations in open waters.",
+      "excerpt_en": "Rescuers continue searching for survivors as the government scales back operations in open waters.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
+      "translation_status": "failed",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "Reuters",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-13T02:03:00+09:00",
+      "latest_published_at": "2026-09-13T03:41:14+09:00",
+      "articles": [
+        {
+          "title": "One dead, more than 30 missing after Vanuatu ferry sinks, PM’s office says",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
+          "published_at": "03:41"
+        },
+        {
+          "title": "One person dead and 30 missing after ferry sinks in Vanuatu",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-ferry-sinks-deaths-latest-b3049271.html",
+          "published_at": "03:38"
+        },
+        {
+          "title": "Vanuatu ferry sinks in bad weather; one dead, more than 30 missing",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/vanuatu-ferry-sinks-in-bad-weather-one-dead-more-than-30-missing/articleshow/134172836.cms",
+          "published_at": "02:36"
+        },
+        {
+          "title": "One dead, more than 30 missing after Vanuatu ferry sinks, PM's office says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNWZJdUE0MHNsWlY5d0NZQllOQ2pKajVVSE9odGRlVEdxMkI3dmRRaWdyMjZEMUNaNWJuTkFDcjljN1FDbWlseXN2b2hReXJmZkU5ZW5oUzRrM3NTYlV3c2RlLThkUWNZUkJqaEo0ekhVaXh3cmVZVFZ3ZGFLR1Z4aE9wMEs3c2hubW5yUGMzZUItMHhudjZ4TXhRRElBUlREYnFIQnc0RFhPNWstOXM2Vmw2RmZoS2ZvUFA0R3lkUnZaVm5w?oc=5",
+          "published_at": "02:03"
+        }
+      ]
+    },
+    {
+      "id": "world-122",
+      "title": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
+      "title_en": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/technology/20260912-anthropic-boss-calls-for-ai-slowdown-altman-and-musk-agree",
+      "category": "미국",
+      "primary_source": "France24",
+      "excerpt": "Anthropic CEO Dario Amodei on Saturday called on artificial intelligence firms to slow down the development of the powerful technology, amid mounting worries over the risks of “superintelligent” compu",
+      "excerpt_en": "Anthropic CEO Dario Amodei on Saturday called on artificial intelligence firms to slow down the development of the powerful technology, amid mounting worries over the risks of “superintelligent” compu",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367273/ireland-deploys-snipers-and-4000-police-trump-visit?utm_source=rss_feed",
-      "translation_status": "ok",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367325/anthropic-boss-calls-ai-slowdown-after-researchers-superintelligence-warning?utm_source=rss_feed",
+      "translation_status": "failed",
       "score": 85,
       "score_breakdown": {
         "article_score": 25,
@@ -267,33 +332,112 @@
         "time_score": 3,
         "raw75": 64
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 5,
       "sources": [
+        "Bangkok Post",
+        "France24",
+        "Hindustan Times",
+        "SCMP",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-12T15:29:10+09:00",
+      "latest_published_at": "2026-09-13T05:02:24+09:00",
+      "articles": [
+        {
+          "title": "After Musk and Altman, Google DeepMind founder backs Anthropic CEO Dario Amodei amid alarm over AI",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/after-musk-and-altman-google-deepmind-founder-backs-anthropic-ceo-dario-amodei-amid-alarm-over-ai-101789271487807.html",
+          "published_at": "05:02"
+        },
+        {
+          "title": "AI development needs to slow down: Dario, Altman & Musk",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/ai-development-needs-to-slow-down-dario-altman-musk/articleshow/134164439.cms",
+          "published_at": "23:09"
+        },
+        {
+          "title": "Sam Altman, Elon Musk back Anthropic CEO Dario Amodei’s warning to slow AI development",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/sam-altman-elon-musk-back-anthropic-ceo-dario-amodei-s-warning-to-slow-ai-development-101789237991169.html",
+          "published_at": "19:32"
+        },
+        {
+          "title": "Anthropic CEO Dario Amodei warns against racing ahead on AI models: ‘We must slow the pace’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/anthropic-ceo-dario-amodei-warns-against-racing-ahead-on-ai-models-we-must-slow-the-pace-101789229614365.html",
+          "published_at": "17:02"
+        },
+        {
+          "title": "Anthropic boss Amodei calls for AI slowdown, Altman and Musk agree",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367325/anthropic-boss-calls-ai-slowdown-after-researchers-superintelligence-warning?utm_source=rss_feed",
+          "published_at": "16:57"
+        },
+        {
+          "title": "Anthropic boss calls for slowing pace of AI development",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318510/anthropic-boss-calls-for-slowing-pace-of-ai-development",
+          "published_at": "15:48"
+        },
+        {
+          "title": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/technology/20260912-anthropic-boss-calls-for-ai-slowdown-altman-and-musk-agree",
+          "published_at": "15:29"
+        }
+      ]
+    },
+    {
+      "id": "world-25",
+      "title": "Trump calls for Irish reunification - and claims 'it will happen eventually'",
+      "title_en": "Trump calls for Irish reunification - and claims 'it will happen eventually'",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/trump-would-love-to-see-irish-reunification-and-claims-it-will-happen-eventually-13584741",
+      "category": "중동",
+      "primary_source": "Sky News",
+      "excerpt": "US president says on visit to republic that unification will happen eventually so ‘may as well happen now’ Donald Trump has said he would “love” to see a united Ireland and that it “may as well happen",
+      "excerpt_en": "US president says on visit to republic that unification will happen eventually so ‘may as well happen now’ Donald Trump has said he would “love” to see a united Ireland and that it “may as well happen",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/12/donald-trump-says-he-would-love-to-see-united-ireland",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 7,
+      "article_count": 7,
+      "syndicated_count": 0,
+      "source_count": 6,
+      "sources": [
+        "Al Jazeera",
         "CBC",
         "CBS News",
-        "Channel News Asia",
         "Reuters",
-        "SCMP",
         "Sky News",
         "The Guardian"
       ],
-      "first_published_at": "2026-09-12T02:47:04+09:00",
-      "latest_published_at": "2026-09-12T20:21:21+09:00",
+      "first_published_at": "2026-09-12T09:57:00+09:00",
+      "latest_published_at": "2026-09-13T00:43:48+09:00",
       "articles": [
+        {
+          "title": "Trump says he would ‘love to see’ a united Ireland during Irish visit",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/12-09-sv-trump-for-united-ireland-ir?traffic_source=rss",
+          "published_at": "00:43"
+        },
         {
           "title": "Trump says he would \"love\" a unified Ireland as he kicks off visit",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/trump-ireland-dublin-visit-irish-open-golf/",
           "published_at": "20:21"
-        },
-        {
-          "title": "Trump says he would 'love' to see a united Ireland",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/trump-says-he-would-love-see-united-ireland-6380186",
-          "published_at": "17:58"
         },
         {
           "title": "Trump's call for united Ireland draws swift rejection from pro-British unionists",
@@ -324,109 +468,83 @@
           "source_name": "Sky News",
           "url": "https://news.sky.com/story/trump-would-love-to-see-irish-reunification-and-claims-it-will-happen-eventually-13584741",
           "published_at": "09:57"
-        },
-        {
-          "title": "Trump says he would 'love' to see a united Ireland",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmRVSmpKQ0dXUHlzSlpIUXNaU1FXR1B2ZGU0TU5BWHlqckFuYmR5ckdHYm1EYjRweG5RdHRNUXZWZFZENmdkTHItNmlXQWw4aUdpM2JjR1M2OWpBQ05VRXpzNDUxQmJaY1JGazdTVDk0M0hleWVGX0NFM19ORUtRbW41cUNGTFJiTVhrXzl1OUxoUURfYU1zcDZmZ2ZkTlh3ZmNnUWNB?oc=5",
-          "published_at": "05:04"
-        },
-        {
-          "title": "Trump says Irish unification would be ‘a  fantastic thing’",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367273/ireland-deploys-snipers-and-4000-police-trump-visit?utm_source=rss_feed",
-          "published_at": "02:47"
         }
       ]
     },
     {
-      "id": "world-120",
-      "title": "인류 보스는 AI 속도 저하를 요구하고 Altman과 Musk는 동의합니다.",
-      "title_en": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
+      "id": "world-29",
+      "title": "Bodies from Philippine ferry arrive at port after fire killed at least 76",
+      "title_en": "Bodies from Philippine ferry arrive at port after fire killed at least 76",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/technology/20260912-anthropic-boss-calls-for-ai-slowdown-altman-and-musk-agree",
-      "category": "미국",
-      "primary_source": "France24",
-      "excerpt": "Anthropic CEO Dario Amodei는 토요일 \"초지능\" 컴퓨팅의 위험에 대한 우려가 커지는 가운데 인공지능 회사들에게 강력한 기술의 개발을 늦추라고 촉구했습니다.",
-      "excerpt_en": "Anthropic CEO Dario Amodei on Saturday called on artificial intelligence firms to slow down the development of the powerful technology, amid mounting worries over the risks of “superintelligent” compu",
+      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "Rescuers retrieved more remains from a passenger ferry in the Philippines that was gutted by fire, bringing the death toll on Saturday to 76 with 13 missing. Forty-three people survived the fire on We",
+      "excerpt_en": "Rescuers retrieved more remains from a passenger ferry in the Philippines that was gutted by fire, bringing the death toll on Saturday to 76 with 13 missing. Forty-three people survived the fire on We",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367325/anthropic-boss-calls-ai-slowdown-after-researchers-superintelligence-warning?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 85,
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 84,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 6,
+      "source_count": 4,
       "sources": [
-        "ABC News Australia",
-        "Bangkok Post",
-        "Channel News Asia",
-        "France24",
-        "Hindustan Times",
-        "SCMP"
+        "Al Jazeera",
+        "Reuters",
+        "SCMP",
+        "Times of India"
       ],
-      "first_published_at": "2026-09-12T15:29:10+09:00",
-      "latest_published_at": "2026-09-12T20:23:08+09:00",
+      "first_published_at": "2026-09-12T09:22:43+09:00",
+      "latest_published_at": "2026-09-13T00:34:37+09:00",
       "articles": [
         {
-          "title": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-13/anthropic-ceo-calls-for-slower-ai-development/107147650",
-          "published_at": "20:23"
+          "title": "Toll in Philippines ferry fire rises to 76; 13 missing",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/toll-in-philippines-ferry-fire-rises-to-76-13-missing/articleshow/134167941.cms",
+          "published_at": "00:34"
         },
         {
-          "title": "Sam Altman, Elon Musk back Anthropic CEO Dario Amodei’s warning to slow AI development",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/sam-altman-elon-musk-back-anthropic-ceo-dario-amodei-s-warning-to-slow-ai-development-101789237991169.html",
-          "published_at": "19:32"
+          "title": "Death toll from Philippine ferry fire rises to 76",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/death-toll-from-philippine-ferry-fire-rises-to-76?traffic_source=rss",
+          "published_at": "23:50"
         },
         {
-          "title": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/anthropic-boss-calls-ai-slowdown-altman-and-musk-agree-6380651",
-          "published_at": "19:04"
+          "title": "Death toll in Philippine ferry fire rises to 76 as rescuers recover more remains",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSGNNcUNqS2lYaWJSM0pnc1RXQVZIQW1VbnBzQ1BXOW1mZml2cGdvRVBnUHA2LXRmbmEyS01Ga3dtWkZGel9KVEVUZ21GRkIwVzhITkI4QTRWc0ZCbmJtU1BMazMtSEtRZTNjZWRhcVI2OFRsX0UxbGZfZ1AyR2dfRmt6MTFBclczV18yT04xbjJuUHJvX0NZVktMMURhOW1zLTBfQVAzVTRINS1LbEhoTkgwUUc4dmZ0M1dsbDd3cG9vWXc?oc=5",
+          "published_at": "14:08"
         },
         {
-          "title": "Anthropic boss Amodei calls for AI slowdown, Altman and Musk agree",
+          "title": "Bodies from Philippine ferry arrive at port after fire killed at least 76",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367325/anthropic-boss-calls-ai-slowdown-after-researchers-superintelligence-warning?utm_source=rss_feed",
-          "published_at": "16:57"
-        },
-        {
-          "title": "Anthropic boss calls for slowing pace of AI development",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3318510/anthropic-boss-calls-for-slowing-pace-of-ai-development",
-          "published_at": "15:48"
-        },
-        {
-          "title": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/technology/20260912-anthropic-boss-calls-for-ai-slowdown-altman-and-musk-agree",
-          "published_at": "15:29"
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
+          "published_at": "09:22"
         }
       ]
     },
     {
-      "id": "world-94",
-      "title": "BRICS 지도자들은 전쟁과 미국의 긴장이 블록을 시험하는 가운데 인도에서 만납니다.",
-      "title_en": "BRICS leaders meet in India as wars and US tensions test the bloc",
+      "id": "world-112",
+      "title": "Céline Dion makes historic Paris comeback, six years after last tour",
+      "title_en": "Céline Dion makes historic Paris comeback, six years after last tour",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/brics-india-vladimir-putin-narendra-modi-new-delhi-b3048996.html",
-      "category": "아시아",
-      "primary_source": "The Independent",
-      "excerpt": "BRICS 국가 지도자들은 무역, 투자 및 글로벌 갈등에 초점을 맞춘 정상회담을 위해 토요일 뉴델리에서 회의를 가질 예정입니다.",
-      "excerpt_en": "Leaders of the BRICS nations are meeting in New Delhi on Saturday for a summit focused on trade, investment and global conflicts, as the bloc seeks a bigger role in shaping the global agenda for emerg",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc",
-      "translation_status": "ok",
+      "title_url": "https://www.france24.com/en/culture/20260912-c%C3%A9line-dion-makes-historic-comeback-in-paris-six-years-after-last-tour",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "Celine Dion wept tears of joy on Saturday as she fulfilled her dream of returning to the stage after years battling a rare neurological disorder, with a sell-out concert in Paris. The 58-year-old Fren",
+      "excerpt_en": "Celine Dion wept tears of joy on Saturday as she fulfilled her dream of returning to the stage after years battling a rare neurological disorder, with a sell-out concert in Paris. The 58-year-old Fren",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
+      "translation_status": "failed",
       "score": 80,
       "score_breakdown": {
         "article_score": 22,
@@ -441,97 +559,151 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "ABC News",
+        "CBS News",
         "France24",
-        "NPR",
-        "The Independent"
+        "SCMP",
+        "Sky News"
       ],
-      "first_published_at": "2026-09-12T04:18:51+09:00",
-      "latest_published_at": "2026-09-12T10:29:26+09:00",
+      "first_published_at": "2026-09-12T20:05:53+09:00",
+      "latest_published_at": "2026-09-12T22:54:39+09:00",
       "articles": [
         {
-          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+          "title": "Celine Dion overcomes rare neurological disorder to perform first concert in 6 years",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/celine-dion-first-concert-in-6-years-rare-neurological-disorder-stiff-person-syndrome/",
+          "published_at": "22:54"
+        },
+        {
+          "title": "Celine Dion in tears during comeback concert after health battle",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/i-made-a-promise-celine-dion-moved-to-tears-during-paris-comeback-concert-13585222",
+          "published_at": "22:35"
+        },
+        {
+          "title": "Celine Dion makes long-awaited return to stage in Paris",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
+          "published_at": "22:05"
+        },
+        {
+          "title": "Céline Dion makes historic Paris comeback, six years after last tour",
           "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc",
-          "published_at": "10:29"
-        },
-        {
-          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/12/g-s1-143054/brics-leaders-meet-in-india",
-          "published_at": "07:18"
-        },
-        {
-          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brics-leaders-meet-india-wars-us-tensions-test-136384091",
-          "published_at": "05:59"
-        },
-        {
-          "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/brics-india-vladimir-putin-narendra-modi-new-delhi-b3048996.html",
-          "published_at": "04:18"
+          "url": "https://www.france24.com/en/culture/20260912-c%C3%A9line-dion-makes-historic-comeback-in-paris-six-years-after-last-tour",
+          "published_at": "20:05"
         }
       ]
     },
     {
-      "id": "world-39",
-      "title": "이라크, 사우디 파이프라인에 대한 공격이 이라크 영토 및 기타 중동 뉴스에서 시작되었음을 확인",
-      "title_en": "Iraq confirms attacks on Saudi pipeline originated from Iraqi territory and other Mideast news",
+      "id": "world-102",
+      "title": "푸틴 대통령, 유럽에 군대 파병 경고하자 러시아, 우크라이나 공습으로 3명 사망",
+      "title_en": "3 killed in Russian strikes on Ukraine as Putin warns Europe against sending troops",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/iraq-confirms-attacks-saudi-pipeline-originated-iraqi-territory-136385214",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "이라크 정부는 이란의 지원을 받는 현지 민병대가 사우디의 핵심 파이프라인을 공격하고 폐쇄한 혐의로 토요일 낙진을 억제하기 위해 경주하고 있었습니다.",
-      "excerpt_en": "Iraq’s government was racing Saturday to contain the fallout after local Iran-backed militias were accused of attacking and shuttering a key Saudi pipeline.",
+      "title_url": "https://www.independent.co.uk/news/world/europe/ukraine-vladimir-putin-europe-kyiv-moscow-b3049032.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Russian strikes killed three civilians and wounded dozens in Ukraine, local officials said Saturday, after Russian President Vladimir Putin warned that sending European troops into Ukraine would amoun",
+      "excerpt_en": "Russian strikes killed three civilians and wounded dozens in Ukraine, local officials said Saturday, after Russian President Vladimir Putin warned that sending European troops into Ukraine would amoun",
       "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/iraq-saudi-pipeline-9.7341679?cmp=rss",
+      "excerpt_url": "https://www.cbc.ca/news/world/russia-ukraine-strikes-putin-warning-9.7341677?cmp=rss",
       "translation_status": "ok",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News",
-        "AP News",
-        "CBC"
+        "CBC",
+        "DW",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-12T07:42:57+09:00",
-      "latest_published_at": "2026-09-12T21:47:00+09:00",
+      "first_published_at": "2026-09-12T09:14:39+09:00",
+      "latest_published_at": "2026-09-12T15:01:00+09:00",
       "articles": [
         {
-          "title": "Iraq says Saudi pipeline attack originated from its territory, and other Mideast news",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONEdJUjhTN0ZoaHN2R1U0eEZvV2pOb2tOTGVjX2NxbjF6RTg5SDFyLXRhVlF2enBCV2ctSXFjVEZaeXdqTjNSeXVjcEszem9kUTRxaFR1T0pUQ3M4aEVaT2NwMjl3WC1mbi01bTVIZmRMWXJSUml4X3QyM0tYamRXbDc2T3h3dG9JbGtZZHVyZVBRMTVvaHFSdGhCci1jLXBMTnRnYWlZNHRnTzRjTGMw?oc=5",
-          "published_at": "21:47"
+          "title": "Ukraine: Several killed in series of Russian strikes",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/ukraine-several-killed-in-series-of-russian-strikes/a-79245980?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "15:01"
         },
         {
-          "title": "Iraq scrambles to address fallout from alleged militia attack on Saudi oil pipeline",
+          "title": "Deadly Russian strikes hit Ukraine after Putin's warning to European leaders",
           "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/iraq-saudi-pipeline-9.7341679?cmp=rss",
-          "published_at": "12:40"
+          "url": "https://www.cbc.ca/news/world/russia-ukraine-strikes-putin-warning-9.7341677?cmp=rss",
+          "published_at": "12:16"
         },
         {
-          "title": "Iraq confirms attacks on Saudi pipeline originated from Iraqi territory and other Mideast news",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/iraq-confirms-attacks-saudi-pipeline-originated-iraqi-territory-136385214",
-          "published_at": "07:42"
+          "title": "3 killed in Russian strikes on Ukraine as Putin warns Europe against sending troops",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-vladimir-putin-europe-kyiv-moscow-b3049032.html",
+          "published_at": "09:14"
         }
       ]
     },
     {
-      "id": "world-55",
-      "title": "칠레 요양원에서 화재 16명 사망",
+      "id": "world-44",
+      "title": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
+      "title_en": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/mississippi-police-jackson-black-kentucky-b3049151.html",
+      "category": "기타",
+      "primary_source": "The Independent",
+      "excerpt": "Officials still investigating death of Tasia Fortune, a Black woman, a day after man’s arrest in relation to killing Mississippi police said on Saturday they were still investigating the death of Tasi",
+      "excerpt_en": "Officials still investigating death of Tasia Fortune, a Black woman, a day after man’s arrest in relation to killing Mississippi police said on Saturday they were still investigating the death of Tasi",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/12/mississippi-police-arrests-tasia-fortune-death-tree",
+      "translation_status": "failed",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-12T16:47:19+09:00",
+      "latest_published_at": "2026-09-12T19:12:00+09:00",
+      "articles": [
+        {
+          "title": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVR3b1BXNVU0SWQtUmJOckxHb3cxb3djTnRzSFFtYVZaREFvNV92aEx0RC02eTBnLVRCdmlWeExqUW93OUFFNS1zZ2RETEQ4bnF4REFRbC1Lb1BXczdodWhUSC1SOTNZRGp1MXFZcGg4dU5ISmtobDJwanBvZnA0emoxZWxCVERXempaSUhuNGx4aXBkTmQ5SG1SX2IzRlZrR0l6UGtJcU5iSFFF?oc=5",
+          "published_at": "19:12"
+        },
+        {
+          "title": "Mississippi police say more arrests to come in death of woman found hanging from tree",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/12/mississippi-police-arrests-tasia-fortune-death-tree",
+          "published_at": "17:16"
+        },
+        {
+          "title": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/mississippi-police-jackson-black-kentucky-b3049151.html",
+          "published_at": "16:47"
+        }
+      ]
+    },
+    {
+      "id": "world-59",
+      "title": "Fire at nursing home in Chile kills 16",
       "title_en": "Fire at nursing home in Chile kills 16",
       "title_source": "earliest_pick",
       "title_url": "https://www.bangkokpost.com/world/3318810/fire-at-nursing-home-in-chile-kills-16",
@@ -541,15 +713,15 @@
       "excerpt_en": "SANTIAGO (CHILE) - A fire at a nursing home in Chile that had previously violated regulations has killed 16 elderly residents and left others hospitalized, authorities said Saturday.",
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3318810/fire-at-nursing-home-in-chile-kills-16",
-      "translation_status": "ok",
-      "score": 73,
+      "translation_status": "failed",
+      "score": 72,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
+        "time_score": 2,
+        "raw75": 54
       },
       "area_value": 3,
       "article_count": 3,
@@ -584,179 +756,17 @@
       ]
     },
     {
-      "id": "world-28",
-      "title": "최소 35명이 사망한 화재로 불탄 필리핀 여객선의 시신이 항구에 도착",
-      "title_en": "Bodies from charred Philippine ferry arrive at port after fire that killed at least 35",
+      "id": "world-79",
+      "title": "추운 바다에서 3일 동안 표류한 십대가 구조되는 순간",
+      "title_en": "Moment teen is rescued after three days adrift in frigid waters",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/bodies-charred-philippine-ferry-arrive-port-after-fire-136384992",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "구조대원들은 화재로 전소된 필리핀 여객선에서 더 많은 유해를 회수해 토요일 사망자 수는 76명, 실종자 13명으로 늘어났습니다. We호 화재에서 43명이 살아남았습니다.",
-      "excerpt_en": "Rescuers retrieved more remains from a passenger ferry in the Philippines that was gutted by fire, bringing the death toll on Saturday to 76 with 13 missing. Forty-three people survived the fire on We",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-12T07:42:58+09:00",
-      "latest_published_at": "2026-09-12T14:08:53+09:00",
-      "articles": [
-        {
-          "title": "Death toll in Philippine ferry fire rises to 76 as rescuers recover more remains",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSGNNcUNqS2lYaWJSM0pnc1RXQVZIQW1VbnBzQ1BXOW1mZml2cGdvRVBnUHA2LXRmbmEyS01Ga3dtWkZGel9KVEVUZ21GRkIwVzhITkI4QTRWc0ZCbmJtU1BMazMtSEtRZTNjZWRhcVI2OFRsX0UxbGZfZ1AyR2dfRmt6MTFBclczV18yT04xbjJuUHJvX0NZVktMMURhOW1zLTBfQVAzVTRINS1LbEhoTkgwUUc4dmZ0M1dsbDd3cG9vWXc?oc=5",
-          "published_at": "14:08"
-        },
-        {
-          "title": "Bodies from Philippine ferry arrive at port after fire killed at least 76",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367295/bodies-philippine-ferry-arrive-port-after-fire-killed-least-35?utm_source=rss_feed",
-          "published_at": "09:22"
-        },
-        {
-          "title": "Bodies from charred Philippine ferry arrive at port after fire that killed at least 35",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/bodies-charred-philippine-ferry-arrive-port-after-fire-136384992",
-          "published_at": "07:42"
-        }
-      ]
-    },
-    {
-      "id": "world-81",
-      "title": "경찰은 나무에 매달린 채 발견된 미시시피 여성의 사망으로 추가 체포가 있을 것이라고 밝혔습니다.",
-      "title_en": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/mississippi-police-jackson-black-kentucky-b3049151.html",
+      "title_url": "https://www.euronews.com/video/2026/09/12/moment-teen-is-rescued-after-three-days-adrift-in-frigid-waters",
       "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "흑인 여성 타시 포춘(Tasia Fortune)의 사망을 수사 중인 관리들은 미시시피주 경찰 살해와 관련해 남성이 체포된 지 하루 만에 타시(Tasia Fortune)의 죽음에 대해 여전히 조사 중이라고 밝혔다.",
-      "excerpt_en": "Officials still investigating death of Tasia Fortune, a Black woman, a day after man’s arrest in relation to killing Mississippi police said on Saturday they were still investigating the death of Tasi",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/12/mississippi-police-arrests-tasia-fortune-death-tree",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-12T16:47:19+09:00",
-      "latest_published_at": "2026-09-12T17:16:41+09:00",
-      "articles": [
-        {
-          "title": "Mississippi police say more arrests to come in death of woman found hanging from tree",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/12/mississippi-police-arrests-tasia-fortune-death-tree",
-          "published_at": "17:16"
-        },
-        {
-          "title": "Man arrested over killing of Tasia Fortune, found hanging from tree",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-sv-tasia-fortune-murder?traffic_source=rss",
-          "published_at": "17:15"
-        },
-        {
-          "title": "Police say more arrests coming in death of Mississippi woman found hanging from tree",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/mississippi-police-jackson-black-kentucky-b3049151.html",
-          "published_at": "16:47"
-        }
-      ]
-    },
-    {
-      "id": "world-82",
-      "title": "54세 여성, 22년간 냉동배아 이용해 출산",
-      "title_en": "Woman, 54, gives birth after using embryo frozen for 22 years",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/greek-woman-54-gives-birth-after-using-embryo-frozen-for-22-years-13584694",
-      "category": "기타",
-      "primary_source": "Sky News",
-      "excerpt": "그리스 여성이 54세에 아이를 출산했는데, 이는 정부가 22년 동안 냉동보관했던 배아 사용 기한을 초과한 것입니다.",
-      "excerpt_en": "A Greek woman has given birth aged 54, beating a government deadline to use one of her embryos, which had been frozen for 22 years.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/greek-woman-54-gives-birth-after-using-embryo-frozen-for-22-years-13584694",
-      "translation_status": "ok",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "Sky News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-12T03:51:00+09:00",
-      "latest_published_at": "2026-09-12T17:14:46+09:00",
-      "articles": [
-        {
-          "title": "Couple welcomes child from embryo frozen for 22 years",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/couple-welcomes-child-from-embryo-frozen-for-22-years?traffic_source=rss",
-          "published_at": "17:14"
-        },
-        {
-          "title": "Woman, 54, gives birth in Greece after using embryo frozen for 22 years",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/embryo-greece-birth-frozen-athens-b3049025.html",
-          "published_at": "08:54"
-        },
-        {
-          "title": "Woman, 54, gives birth after using embryo frozen for 22 years",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/greek-woman-54-gives-birth-after-using-embryo-frozen-for-22-years-13584694",
-          "published_at": "03:51"
-        }
-      ]
-    },
-    {
-      "id": "world-33",
-      "title": "Farage의 Reform UK는 48시간 만에 두 번째로 3,600만 파운드 기부 기록을 세웠습니다.",
-      "title_en": "Farage's Reform UK lands second record £36 million donation in 48 hours",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUTNpQUZmemxkOGh4bEtlV0pYb3NlR2lwYTlUMWs0emtlNTJiZUdFZDBFa0pscEd4dVRKRDd0YVp6VUFrdXVqX2pTRHBBMkVEcDFzZVlIcjRrdDc5cUM0UFBvS0V5cGdGcTBKSlF6d3p2Z1p0dkJGdmU4SDdqcGp4VC1SU3ZSMFpMVzlWeDE0bzlVbFRNVmJVaHhjbjZPdmpNZEctTklTSkFacFF3Z1pOZTZNSU9oWkFw?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "암호화폐 억만장자 크리스토퍼 하버네(Christopher Harbourne)는 토요일 영국의 반이민 개혁 영국(Reform UK)에 3,600만 파운드(미화 4,900만 달러)를 기부했다고 밝혔습니다. 이는 이미 기록적인 기부금인 Nigel Fa와 일치합니다.",
-      "excerpt_en": "Cryptocurrency billionaire Christopher Harborne said on Saturday he had donated £36 million (US$49 million) to Britain’s anti-immigration Reform UK, matching an already record contribution to Nigel Fa",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367321/farages-reform-uk-gets-second-record-ps36-million-donation-48-hours?utm_source=rss_feed",
+      "primary_source": "Euronews",
+      "excerpt": "알래스카 앞바다의 추운 베링해에서 전복된 배에 거의 3일 동안 매달려 있던 15세 소년이 구조됐다.",
+      "excerpt_en": "A 15-year-old boy was rescued after clinging to an overturned boat for nearly three days in the frigid Bering Sea off Alaska.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/video/2026/09/12/moment-teen-is-rescued-after-three-days-adrift-in-frigid-waters",
       "translation_status": "ok",
       "score": 68,
       "score_breakdown": {
@@ -772,54 +782,54 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "Reuters",
-        "SCMP"
+        "Al Jazeera",
+        "Euronews",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-12T13:59:46+09:00",
-      "latest_published_at": "2026-09-12T19:46:33+09:00",
+      "first_published_at": "2026-09-12T10:54:00+09:00",
+      "latest_published_at": "2026-09-12T23:56:58+09:00",
       "articles": [
         {
-          "title": "Second crypto billionaire says donated record £36 million to Reform UK",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/second-crypto-billionaire-says-donated-record-ps36-million-reform-uk-6380681",
-          "published_at": "19:46"
+          "title": "Teen rescued after clinging to boat for two days off Alaska",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/teen-rescued-after-clinging-to-boat-for-two-days-off-alaska?traffic_source=rss",
+          "published_at": "23:56"
         },
         {
-          "title": "Farage’s Reform UK gets second record £36 million donation in 48 hours",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367321/farages-reform-uk-gets-second-record-ps36-million-donation-48-hours?utm_source=rss_feed",
-          "published_at": "14:24"
+          "title": "Teenage boy rescued off Alaska days after fishing boat capsized and his brother and cousin died",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/alaska-anchorage-united-states-russia-b3048883.html",
+          "published_at": "14:27"
         },
         {
-          "title": "Farage's Reform UK lands second record £36 million donation in 48 hours",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUTNpQUZmemxkOGh4bEtlV0pYb3NlR2lwYTlUMWs0emtlNTJiZUdFZDBFa0pscEd4dVRKRDd0YVp6VUFrdXVqX2pTRHBBMkVEcDFzZVlIcjRrdDc5cUM0UFBvS0V5cGdGcTBKSlF6d3p2Z1p0dkJGdmU4SDdqcGp4VC1SU3ZSMFpMVzlWeDE0bzlVbFRNVmJVaHhjbjZPdmpNZEctTklTSkFacFF3Z1pOZTZNSU9oWkFw?oc=5",
-          "published_at": "13:59"
+          "title": "Moment teen is rescued after three days adrift in frigid waters",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/09/12/moment-teen-is-rescued-after-three-days-adrift-in-frigid-waters",
+          "published_at": "10:54"
         }
       ]
     },
     {
-      "id": "world-100",
+      "id": "world-105",
       "title": "'소년 왕' 오요 님바(Oyo Nyimba)의 죽음 이후 후계 싸움이 우간다를 뒤흔들다",
       "title_en": "Succession battle rocks Uganda after death of ‘boy king’ Oyo Nyimba",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/africa/uganda-king-oyo-nyimba-royal-family-b3049040.html",
       "category": "기타",
       "primary_source": "The Independent",
-      "excerpt": "우간다는 1995년 투로 왕국에서 불과 3세의 나이로 즉위했던 오요 님바(Oyo Nyimba) 국왕을 묻었습니다. 그의 죽음이 34세의 나이로 후계자를 두고 논쟁을 불러일으켰습니다.",
+      "excerpt": "Uganda has buried King Oyo Nyimba, who was crowned in the Tooro Kingdom in 1995 aged just 3. His death at 34 has triggered a dispute over a successor, as rumors abound of possible heirs born out of we",
       "excerpt_en": "Uganda has buried King Oyo Nyimba, who was crowned in the Tooro Kingdom in 1995 aged just 3. His death at 34 has triggered a dispute over a successor, as rumors abound of possible heirs born out of we",
       "excerpt_source": "DW",
       "excerpt_url": "https://www.dw.com/en/uganda-lays-boy-king-oyo-to-rest-amid-succession-row/a-79243428?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "ok",
-      "score": 68,
+      "score": 67,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "time_score": 1,
+        "raw75": 50
       },
       "area_value": 3,
       "article_count": 3,
@@ -854,371 +864,225 @@
       ]
     },
     {
-      "id": "world-219",
-      "title": "'터프한 아이': 알래스카 앞바다에서 전복된 보트에 매달린 채 며칠 만에 발견된 15세 소년",
-      "title_en": "‘One tough kid’: Boy, 15, found after days clinging to capsized boat in frigid water off Alaska",
+      "id": "world-1",
+      "title": "호르무즈 해협 공격에 대한 새로운 보고서, 석유 공급 위협에 대한 팬들의 우려",
+      "title_en": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/one-tough-kid-boy-15-found-after-days-clinging-to-capsized-boat-in-frigid-water-off-alaska-20260912-p60wqm.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "기타",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "데릭 파커 아그나앙가(Derek Parker Aghnaanga)는 알래스카의 얼음 베링 해에서 어선이 뒤집힌 후 형과 사촌을 바다로 잃은 유일한 생존자였습니다.",
-      "excerpt_en": "Derek Parker Aghnaanga was the lone survivor, losing his older brother and then his cousin to the ocean after their fishing boat flipped in Alaska’s icy Bering Sea.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/north-america/one-tough-kid-boy-15-found-after-days-clinging-to-capsized-boat-in-frigid-water-off-alaska-20260912-p60wqm.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Iran's Foreign Ministry announced that Iran will attend a meeting with Gulf Arab states in Oman, at which the future of the Strait of Hormuz will be discussed.",
+      "excerpt_en": "Iran's Foreign Ministry announced that Iran will attend a meeting with Gulf Arab states in Oman, at which the future of the Strait of Hormuz will be discussed.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-101789267543904.html",
       "translation_status": "ok",
-      "score": 68,
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-13T02:22:00+09:00",
+      "latest_published_at": "2026-09-13T03:04:30+09:00",
+      "articles": [
+        {
+          "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-101789267543904.html",
+          "published_at": "03:04"
+        },
+        {
+          "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+          "published_at": "02:22"
+        }
+      ]
+    },
+    {
+      "id": "world-215",
+      "title": "트럼프, 골프와 외교 목적으로 아일랜드 방문",
+      "title_en": "Trump lands in Ireland for golf and diplomacy",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3318488/trump-lands-in-ireland-for-golf-and-diplomacy",
+      "category": "미국",
+      "primary_source": "Bangkok Post",
+      "excerpt": "더블린 – 도널드 트럼프는 이틀 간의 외교와 골프 여행을 위해 토요일 삼엄한 보안 하에 아일랜드에 상륙했습니다. 이는 그의 대통령직과 개인적인 사업 이익 사이의 경계를 다시 모호하게 만드는 여행입니다.",
+      "excerpt_en": "DUBLIN - Donald Trump landed in Ireland under tight security Saturday for two days of diplomacy and golf, on a trip that again blurs the lines between his presidency and personal business interests.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3318488/trump-lands-in-ireland-for-golf-and-diplomacy",
+      "translation_status": "ok",
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 15,
+        "major_score": 10,
         "breaking_score": 1,
         "time_score": 2,
-        "raw75": 51
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Euronews",
-        "Sydney Morning Herald",
+        "Bangkok Post",
+        "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-09-12T03:05:48+09:00",
-      "latest_published_at": "2026-09-12T14:27:15+09:00",
+      "first_published_at": "2026-09-12T08:45:00+09:00",
+      "latest_published_at": "2026-09-12T17:25:38+09:00",
       "articles": [
         {
-          "title": "Teenage boy rescued off Alaska days after fishing boat capsized and his brother and cousin died",
+          "title": "President Donald Trump’s childhood home sells for $2 million",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/alaska-anchorage-united-states-russia-b3048883.html",
-          "published_at": "14:27"
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-fred-trump-new-york-queens-airbnb-b3049163.html",
+          "published_at": "17:25"
         },
         {
-          "title": "Moment teen is rescued after three days adrift in frigid waters",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/09/12/moment-teen-is-rescued-after-three-days-adrift-in-frigid-waters",
-          "published_at": "10:54"
+          "title": "Why didn't Melania Trump join POTUS and family for Ireland trip? Donald Trump says ‘Maybe I’m not that…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/why-didnt-melania-trump-join-potus-and-family-for-ireland-trip-donald-trump-says-maybe-i-m-not-that-101789231360689.html",
+          "published_at": "16:59"
         },
         {
-          "title": "‘One tough kid’: Boy, 15, found after days clinging to capsized boat in frigid water off Alaska",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/one-tough-kid-boy-15-found-after-days-clinging-to-capsized-boat-in-frigid-water-off-alaska-20260912-p60wqm.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "03:05"
+          "title": "Trump lands in Ireland for golf and diplomacy",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318488/trump-lands-in-ireland-for-golf-and-diplomacy",
+          "published_at": "08:45"
         }
       ]
     },
     {
-      "id": "world-8",
-      "title": "러시아의 공격으로 우크라이나에서 6명이 사망하고 수십명이 부상당했다고 모스크바는 선박과 식물을 공격했다고 밝혔습니다.",
-      "title_en": "Russian attacks kill six, injure dozens in Ukraine, Moscow says it hits ships, plants",
+      "id": "world-251",
+      "title": "젤렌스키, 마이애미 G20서 푸틴 만날 의향 있어",
+      "title_en": "Zelensky willing to meet Putin at G20 in Miami",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/asia/russian-attacks-kill-six-injure-dozens-in-ukraine-moscow-says-it-hits-ships-plants-6380511",
+      "title_url": "https://www.bangkokpost.com/world/3318490/zelensky-willing-to-meet-putin-at-g20-in-miami",
       "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "러시아의 공격으로 우크라이나에서 10명이 사망하고 수십명이 부상당했습니다. 러시아는 선박에 타격을 가하고 식물을 심었다고 밝혔습니다 - 최신",
-      "excerpt_en": "Russian attacks kill 10, injure dozens in Ukraine; Russia says it hits ships, plants Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcjF5NXdIeXlKQWY5RXRJTmlfVjFfWlNwZm9TOVNOREUxcmUwTk9MRmFUbWZzQnhNZTY1V3d2R2hBZGhlU1ZOT1licGJRdzUwcXhEbmJGTEdkNi1xRUlQUGJ0VnN0MjFLMWJGem1Ta0hGZ21ILXQybi1nS0xuUGo0Wjkta0dzZjhNOUVGTFZNcWJqTURPRzI2bngtdjg1dnZSVUZ4WjZLeF9DWU91M1ZlQjRUZ1FaMjNBc0pEMUhTMnR2Mnh1b0dZ?oc=5",
+      "primary_source": "Bangkok Post",
+      "excerpt": "베를린 – 볼로디미르 젤렌스키 우크라이나 대통령은 토요일 공개된 인터뷰에서 12월 G20 정상회담에서 블라디미르 푸틴 러시아 대통령을 만날 의향이 있다고 말했습니다.",
+      "excerpt_en": "BERLIN - Ukrainian President Volodymyr Zelensky said he would be willing to meet Russian President Vladimir Putin at a G20 summit in December, in an interview released on Saturday, as efforts intensif",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3318490/zelensky-willing-to-meet-putin-at-g20-in-miami",
       "translation_status": "ok",
-      "score": 63,
+      "score": 55,
       "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 5,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 41
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "Bangkok Post",
+        "Hindustan Times",
+        "Times of India"
       ],
-      "first_published_at": "2026-09-12T20:32:36+09:00",
-      "latest_published_at": "2026-09-12T22:09:58+09:00",
+      "first_published_at": "2026-09-12T09:45:00+09:00",
+      "latest_published_at": "2026-09-13T00:25:16+09:00",
       "articles": [
         {
-          "title": "Russian attacks kill 10, injure dozens in Ukraine; Russia says it hits ships, plants",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcjF5NXdIeXlKQWY5RXRJTmlfVjFfWlNwZm9TOVNOREUxcmUwTk9MRmFUbWZzQnhNZTY1V3d2R2hBZGhlU1ZOT1licGJRdzUwcXhEbmJGTEdkNi1xRUlQUGJ0VnN0MjFLMWJGem1Ta0hGZ21ILXQybi1nS0xuUGo0Wjkta0dzZjhNOUVGTFZNcWJqTURPRzI2bngtdjg1dnZSVUZ4WjZLeF9DWU91M1ZlQjRUZ1FaMjNBc0pEMUhTMnR2Mnh1b0dZ?oc=5",
-          "published_at": "22:09"
+          "title": "Zelensky ready to meet Putin at G20",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/zelensky-ready-to-meet-putin-at-g20/articleshow/134167553.cms",
+          "published_at": "00:25"
         },
         {
-          "title": "Russian attacks kill six, injure dozens in Ukraine, Moscow says it hits ships, plants",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/russian-attacks-kill-six-injure-dozens-in-ukraine-moscow-says-it-hits-ships-plants-6380511",
-          "published_at": "20:32"
+          "title": "Amid Ukraine-Russia crisis, Zelensky proposes meeting with Putin at G20 in Miami",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/amid-ukraine-russia-crisis-zelensky-proposes-meeting-with-putin-at-g20-in-miami-101789205394204.html",
+          "published_at": "10:12"
+        },
+        {
+          "title": "Zelensky willing to meet Putin at G20 in Miami",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3318490/zelensky-willing-to-meet-putin-at-g20-in-miami",
+          "published_at": "09:45"
         }
       ]
     },
     {
-      "id": "world-268",
-      "title": "사우디는 후티 반군이 홍해 해상 운송에 대한 통제를 강화함에 따라 송유관을 폐쇄했습니다.",
-      "title_en": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+      "id": "world-325",
+      "title": "호주 여성, 발리 절벽에서 떨어져 사망",
+      "title_en": "Australian woman dies after falling from popular cliff in Bali",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-6380641",
-      "category": "중동",
-      "primary_source": "Channel News Asia",
-      "excerpt": "세계 최대 원유 수출국은 이란의 지원을 받는 무장세력이 활동하고 있는 이라크에서 발생한 드론 공격 이후 예방 조치로 파이프라인을 일시적으로 폐쇄했다고 밝혔습니다.",
-      "excerpt_en": "The world’s largest crude oil exporter said it temporarily closed the pipeline as a precaution after a drone attack originating from Iraq, where Iran-backed militants operate.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-6380641",
+      "title_url": "https://www.smh.com.au/world/australian-woman-dies-after-falling-from-popular-cliff-in-bali-20260913-p60wuj.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "아시아",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "한 젊은 여성이 유명한 관광 명소인 켈링킹 해변에서 80m 아래로 뛰어내려 동남아시아에서 가장 사진이 많이 찍히는 랜드마크 중 하나에서 힘든 복구 임무를 촉발했습니다.",
+      "excerpt_en": "A young woman plunged 80 metres from a famous tourist spot at Kelingking Beach, triggering a gruelling recovery mission at one of South-East Asia’s most photographed landmarks.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/asia/australian-tourist-dies-after-falling-from-cliff-at-kelingking-beach-near-bali-20260913-p60wu9.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "ok",
-      "score": 63,
+      "score": 55,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 10,
-        "breaking_score": 7,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 47
+        "raw75": 41
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-12T18:47:00+09:00",
-      "latest_published_at": "2026-09-12T19:33:04+09:00",
-      "articles": [
-        {
-          "title": "Saudis shut down oil pipeline as Houthis tighten grip",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-101789241584767.html",
-          "published_at": "19:33"
-        },
-        {
-          "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping-101789241584297.html",
-          "published_at": "19:33"
-        },
-        {
-          "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-6380641",
-          "published_at": "18:47"
-        }
-      ]
-    },
-    {
-      "id": "world-40",
-      "title": "예멘의 후티 반군이 해상 운송 및 기타 중동 개발을 위협하면서 홍해 섬을 점령했습니다.",
-      "title_en": "Yemen's Houthis capture a Red Sea island in a threat to shipping, and other Mideast developments",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVVrTHdGZGh4a2VWNHlfeWxkdlQtVkVJQzNaMUFpTTJwTWtfZlpUeVktX3g3NVBsYVFlbjdHOHZsaUZHTWhwQXo1eE9RaUowWnJYVlBJYXJWOTBYSHhCd0dJSWM5T2xJV0hJRWw5b0ZBZy1OSlcxY2VkTkszMUxGMl9fOS1MVldRajgtMFF1V0dYNTJJWHVN?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "이란의 지원을 받는 예멘의 후티 반군이 바브엘만데브 해협의 전략 섬을 점령했습니다. 이러한 움직임은 주요 상업 경로를 통한 사우디 석유 수출을 위협합니다. 그리고 사우디아라비아는 문을 닫았다고 하더군요",
-      "excerpt_en": "Iranian-backed Houthi rebels in Yemen have captured a strategic island in the Bab el-Mandeb Strait. The move threatens Saudi oil exports through a key commercial lane. And Saudi Arabia said it shut do",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
-      "translation_status": "ok",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "NPR"
-      ],
-      "first_published_at": "2026-09-12T03:29:00+09:00",
-      "latest_published_at": "2026-09-12T05:57:08+09:00",
-      "articles": [
-        {
-          "title": "Yemen's Houthis capture a Red Sea island in threat to shipping",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
-          "published_at": "05:57"
-        },
-        {
-          "title": "Yemen's Houthis capture a Red Sea island in a threat to shipping, and other Mideast developments",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVVrTHdGZGh4a2VWNHlfeWxkdlQtVkVJQzNaMUFpTTJwTWtfZlpUeVktX3g3NVBsYVFlbjdHOHZsaUZHTWhwQXo1eE9RaUowWnJYVlBJYXJWOTBYSHhCd0dJSWM5T2xJV0hJRWw5b0ZBZy1OSlcxY2VkTkszMUxGMl9fOS1MVldRajgtMFF1V0dYNTJJWHVN?oc=5",
-          "published_at": "03:29"
-        }
-      ]
-    },
-    {
-      "id": "world-288",
-      "title": "알카에다, 사망 7년 만에 9·11 테러 추모식에 오사마 빈 라덴 아들 영상 공개",
-      "title_en": "Al-Qaeda releases video of Osama bin Laden's son on 9/11 anniversary, 7 years after reported death",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/alqaeda-releases-video-of-osama-bin-laden-son-on-9-11-anniversary-7-years-after-reported-death-hamza-bin-laden-101789179466099.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "1998년부터 2001년까지의 문서에는 거의 3000명의 목숨을 앗아가고 미국을 전복시킨 납치 사건에 앞서 미국 정부 관리들이 알카에다에 대해 수집한 정보가 자세히 나와 있습니다.",
-      "excerpt_en": "The documents dating from 1998 to 2001 detail intelligence that US government officials had gathered about al-Qaeda in the lead up to the hijackings that killed nearly 3000 people and upended American",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/north-america/may-fly-an-explosive-packed-airplane-into-a-us-city-cia-releases-pre-9-11-bin-laden-briefings-20260912-p60wqn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "ok",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
+        "ABC News Australia",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-12T02:46:02+09:00",
-      "latest_published_at": "2026-09-12T07:51:53+09:00",
+      "first_published_at": "2026-09-12T21:22:10+09:00",
+      "latest_published_at": "2026-09-13T00:46:38+09:00",
       "articles": [
         {
-          "title": "Pre-9/11 warnings about Osama Bin Laden: What CIA declassified files say",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/pre911-warnings-about-osama-bin-laden-what-cia-declassified-files-say-101789195599997.html",
-          "published_at": "07:51"
-        },
-        {
-          "title": "What CIA warned about before 9/11 attacks: 5 key takeaways from newly declassified intelligence files",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/what-cia-warned-about-before-9-11-attacks-5-key-takeaways-from-newly-declassified-intelligence-files-101789196727286.html",
-          "published_at": "07:27"
-        },
-        {
-          "title": "‘May fly an explosive-packed airplane into a US city’: CIA releases pre-9/11 Bin Laden briefings",
+          "title": "Australian tourist dies after falling from cliff at iconic beach near Bali",
           "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/may-fly-an-explosive-packed-airplane-into-a-us-city-cia-releases-pre-9-11-bin-laden-briefings-20260912-p60wqn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "06:30"
+          "url": "https://www.smh.com.au/world/asia/australian-tourist-dies-after-falling-from-cliff-at-kelingking-beach-near-bali-20260913-p60wu9.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "00:46"
         },
         {
-          "title": "Al-Qaeda releases video of Osama bin Laden's son on 9/11 anniversary, 7 years after reported death",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/alqaeda-releases-video-of-osama-bin-laden-son-on-9-11-anniversary-7-years-after-reported-death-hamza-bin-laden-101789179466099.html",
-          "published_at": "02:46"
+          "title": "Australian tourist dies after falling from beach cliff on island near Bali",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-13/australian-woman-dies-at-nusa-penida-near-bali/107147704",
+          "published_at": "00:06"
+        },
+        {
+          "title": "Australian woman dies after falling from popular cliff in Bali",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/australian-woman-dies-after-falling-from-popular-cliff-in-bali-20260913-p60wuj.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "21:22"
         }
       ]
     },
     {
-      "id": "world-0",
-      "title": "OpenAI IPO는 AI 안전 우려로 인해 2026년에는 일어나지 않을 것이라고 Altman은 말했습니다.",
-      "title_en": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says",
+      "id": "world-3",
+      "title": "무자비한 Rybakina, Sabalenka를 물리치고 첫 US Open 왕관 획득",
+      "title_en": "Ruthless Rybakina dethrones Sabalenka to capture first US Open crown",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/openai-ipo-will-not-happen-in-2026-amid-ai-safety-fears-altman-says-6380731",
-      "category": "기타",
+      "title_url": "https://www.channelnewsasia.com/sport/ruthless-rybakina-dethrones-sabalenka-capture-first-us-open-crown-6380836",
+      "category": "미국",
       "primary_source": "Channel News Asia",
-      "excerpt": "OpenAI IPO는 AI 안전 우려로 인해 2026년에는 일어나지 않을 것이라고 Altman은 말했습니다.",
-      "excerpt_en": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says Reuters",
+      "excerpt": "무자비한 Rybakina, Sabalenka를 물리치고 최초의 US Open 왕관 획득 - 최신",
+      "excerpt_en": "Ruthless Rybakina dethrones Sabalenka to capture first US Open crown Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkNHUFFrUlZCVWVKZ2dpVVkxSzBmcy16aFFHVTJDV25PZ0YzMjBLVlFQZ0pJcU5EVWJlUW13azNiV1BwOENLcTFVOFpZYVVlT0haaXI2ZkFaOUZxTGp2eE1kaGZCb2pXV1dBQy1XcjQ2NmNXMFA3Nnk5ZnA3MU5wWGZCV0ktTWZad2o0LVBmeW1BclBndWRfWEJScFduQklEZUFEX0NteFBhNDYxRG5keUdiUml3dVYz?oc=5",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-12T20:38:16+09:00",
-      "latest_published_at": "2026-09-12T20:46:43+09:00",
-      "articles": [
-        {
-          "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkNHUFFrUlZCVWVKZ2dpVVkxSzBmcy16aFFHVTJDV25PZ0YzMjBLVlFQZ0pJcU5EVWJlUW13azNiV1BwOENLcTFVOFpZYVVlT0haaXI2ZkFaOUZxTGp2eE1kaGZCb2pXV1dBQy1XcjQ2NmNXMFA3Nnk5ZnA3MU5wWGZCV0ktTWZad2o0LVBmeW1BclBndWRfWEJScFduQklEZUFEX0NteFBhNDYxRG5keUdiUml3dVYz?oc=5",
-          "published_at": "20:46"
-        },
-        {
-          "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/openai-ipo-will-not-happen-in-2026-amid-ai-safety-fears-altman-says-6380731",
-          "published_at": "20:38"
-        }
-      ]
-    },
-    {
-      "id": "world-110",
-      "title": "Céline Dion, 지난 투어 이후 6년 만에 역사적인 파리 복귀",
-      "title_en": "Céline Dion makes historic Paris comeback, six years after last tour",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/culture/20260912-c%C3%A9line-dion-makes-historic-comeback-in-paris-six-years-after-last-tour",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "셀린 디온(Celine Dion)은 지난 토요일 파리에서 열린 콘서트가 매진되면서 희귀 신경 질환과 투병한 지 몇 년 만에 무대로 복귀하겠다는 꿈을 이루며 기쁨의 눈물을 흘렸습니다. 58세의 프렌",
-      "excerpt_en": "Celine Dion wept tears of joy on Saturday as she fulfilled her dream of returning to the stage after years battling a rare neurological disorder, with a sell-out concert in Paris. The 58-year-old Fren",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
-      "translation_status": "ok",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-12T20:05:53+09:00",
-      "latest_published_at": "2026-09-12T22:05:19+09:00",
-      "articles": [
-        {
-          "title": "Celine Dion makes long-awaited return to stage in Paris",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
-          "published_at": "22:05"
-        },
-        {
-          "title": "Céline Dion makes historic Paris comeback, six years after last tour",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/culture/20260912-c%C3%A9line-dion-makes-historic-comeback-in-paris-six-years-after-last-tour",
-          "published_at": "20:05"
-        }
-      ]
-    },
-    {
-      "id": "world-4",
-      "title": "래리 엘리슨, 오라클 주식 매각 계획 취소",
-      "title_en": "Larry Ellison cancels plan to sell Oracle stock",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/larry-ellison-cancels-plan-sell-oracle-stock-6380631",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "래리 엘리슨, 오라클 주식 매각 계획 취소 - 최신",
-      "excerpt_en": "Larry Ellison cancels plan to sell Oracle stock Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDN2Q1FMZWstUm9pbTEyaFJBcmxMY2FiV0g2RFF2bGNISTEwVGE4RV9nZW1LcHBKU0luVjR2a0FUVGh2OElMdl92d2FjREhPbW1oMUlSRm5Mc19kR2xzclVHRnJaM21lR2N2NkNhSlpwN1ZZS1VPRjVmYThyb1dNV1JxQlIySG52dzJkcEpaTE12M1k?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY2NLWnJ3ZlBiNVBUM0dMWlFRNDBUeE94YzJtYXgwVXNTQ3NBVTc1bURzMTNqQVp5NlpBeVFZanU3ajhBUzByUlJXMkhRbUYwNmFjSWdzMlRLWVZIYnMzS2o4dFdVeEdxZEhSMUxrQ01wdmdER2xtbThucGxqS2NlNVNGTk54OFBtbmc0cUxBZGxJRDQzc1JaajdB?oc=5",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1237,36 +1101,36 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-12T18:38:16+09:00",
-      "latest_published_at": "2026-09-12T18:38:45+09:00",
+      "first_published_at": "2026-09-12T22:42:54+09:00",
+      "latest_published_at": "2026-09-12T22:43:00+09:00",
       "articles": [
         {
-          "title": "Larry Ellison cancels plan to sell Oracle stock",
+          "title": "Ruthless Rybakina dethrones Sabalenka to capture first US Open crown",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSDN2Q1FMZWstUm9pbTEyaFJBcmxMY2FiV0g2RFF2bGNISTEwVGE4RV9nZW1LcHBKU0luVjR2a0FUVGh2OElMdl92d2FjREhPbW1oMUlSRm5Mc19kR2xzclVHRnJaM21lR2N2NkNhSlpwN1ZZS1VPRjVmYThyb1dNV1JxQlIySG52dzJkcEpaTE12M1k?oc=5",
-          "published_at": "18:38"
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY2NLWnJ3ZlBiNVBUM0dMWlFRNDBUeE94YzJtYXgwVXNTQ3NBVTc1bURzMTNqQVp5NlpBeVFZanU3ajhBUzByUlJXMkhRbUYwNmFjSWdzMlRLWVZIYnMzS2o4dFdVeEdxZEhSMUxrQ01wdmdER2xtbThucGxqS2NlNVNGTk54OFBtbmc0cUxBZGxJRDQzc1JaajdB?oc=5",
+          "published_at": "22:43"
         },
         {
-          "title": "Larry Ellison cancels plan to sell Oracle stock",
+          "title": "Ruthless Rybakina dethrones Sabalenka to capture first US Open crown",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/larry-ellison-cancels-plan-sell-oracle-stock-6380631",
-          "published_at": "18:38"
+          "url": "https://www.channelnewsasia.com/sport/ruthless-rybakina-dethrones-sabalenka-capture-first-us-open-crown-6380836",
+          "published_at": "22:42"
         }
       ]
     },
     {
-      "id": "world-16",
-      "title": "경찰, 멕시코 산 속에 숨겨진 카르텔 암호화폐 농장 발견",
-      "title_en": "Police find cartel crypto farm hidden in Mexican mountains",
+      "id": "world-6",
+      "title": "Hyundai Motor to roll out in-house driver-assist system in 2029",
+      "title_en": "Hyundai Motor to roll out in-house driver-assist system in 2029",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crypto-mining-mexico-cartel-police-b3049057.html",
+      "title_url": "https://www.channelnewsasia.com/business/hyundai-motor-roll-out-in-house-driver-assist-system-in-2029-6380911",
       "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "멕시코 산에 숨겨진 암호화 농장, 카르텔 자금 조달에 주목 - 최신",
-      "excerpt_en": "Hidden crypto farm in Mexican mountains puts spotlight on cartel funding Reuters",
+      "primary_source": "Channel News Asia",
+      "excerpt": "현대차, 2029년 자체 운전자 보조 시스템 출시 - 로이터",
+      "excerpt_en": "Hyundai Motor to roll out in-house driver-assist system in 2029 Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3JWY0h1VnVaSWl6MW5nYnlmcktHNS1uTVM0WHNnYnVPREdhalFjSnRNWUpsV3pXdGVCWjltLUttTW5qbXZLZjZQaDZwVENpY3JkbjhRSEZCRXZjOHpURjdsVmZLbEZoaHVLYXdXemE1QlpCWG5kc0lDWWVNem84ZjRWOVM4ZEZaeHRfMFFCeDVlWjhSN185U0ZaR2N6cVBxb0tiT0swU0xBRDczU2x2cWR2R0poQjRi?oc=5",
-      "translation_status": "ok",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQVhXVEpKMlIzcFp1cW5CS3VMQVZ4OE9NMWFJbnJ5V29Sdk1nZ1NTbXFhZGpFM0dfN2NKQ1l4aTdDUFVUb2tYaExkbVZiSFRZSVdfMm1sNzJLT1JlckY2TVROWHVlcFNzc1VybXp0SjZUWmkxV3pIQlo2QWxnTjNUOERpWEE1Ym1rTXBpNXZnaEFIbkN4cFV1SWpvLTZraDliTmdoeUZrRzVMSmVRU19mUW05UngwNDl6LTNOaXF3SUI?oc=5",
+      "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
@@ -1281,35 +1145,35 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "The Independent"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-12T11:20:59+09:00",
-      "latest_published_at": "2026-09-12T12:20:22+09:00",
+      "first_published_at": "2026-09-13T00:01:42+09:00",
+      "latest_published_at": "2026-09-13T00:13:41+09:00",
       "articles": [
         {
-          "title": "Hidden crypto farm in Mexican mountains puts spotlight on cartel funding",
+          "title": "Hyundai Motor to roll out in-house driver-assist system in 2029",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3JWY0h1VnVaSWl6MW5nYnlmcktHNS1uTVM0WHNnYnVPREdhalFjSnRNWUpsV3pXdGVCWjltLUttTW5qbXZLZjZQaDZwVENpY3JkbjhRSEZCRXZjOHpURjdsVmZLbEZoaHVLYXdXemE1QlpCWG5kc0lDWWVNem84ZjRWOVM4ZEZaeHRfMFFCeDVlWjhSN185U0ZaR2N6cVBxb0tiT0swU0xBRDczU2x2cWR2R0poQjRi?oc=5",
-          "published_at": "12:20"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQVhXVEpKMlIzcFp1cW5CS3VMQVZ4OE9NMWFJbnJ5V29Sdk1nZ1NTbXFhZGpFM0dfN2NKQ1l4aTdDUFVUb2tYaExkbVZiSFRZSVdfMm1sNzJLT1JlckY2TVROWHVlcFNzc1VybXp0SjZUWmkxV3pIQlo2QWxnTjNUOERpWEE1Ym1rTXBpNXZnaEFIbkN4cFV1SWpvLTZraDliTmdoeUZrRzVMSmVRU19mUW05UngwNDl6LTNOaXF3SUI?oc=5",
+          "published_at": "00:13"
         },
         {
-          "title": "Police find cartel crypto farm hidden in Mexican mountains",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crypto-mining-mexico-cartel-police-b3049057.html",
-          "published_at": "11:20"
+          "title": "Hyundai Motor to roll out in-house driver-assist system in 2029",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/hyundai-motor-roll-out-in-house-driver-assist-system-in-2029-6380911",
+          "published_at": "00:01"
         }
       ]
     },
     {
-      "id": "world-21",
+      "id": "world-26",
       "title": "이란 대통령, UAE 왕세자, 브릭스 측에서 만나 서아시아 전쟁 자제 촉구 공동성명 발표",
       "title_en": "Iran President, UAE Crown Prince meet on BRICS sidelines, back joint statement urging restraint in West Asia war",
       "title_source": "earliest_pick",
       "title_url": "https://www.hindustantimes.com/world-news/iran-president-meets-uae-crown-prince-on-brics-sidelines-back-joint-statement-urging-restraint-in-west-asia-war-101789226727137.html",
       "category": "중동",
       "primary_source": "Hindustan Times",
-      "excerpt": "두 정상은 지역 및 국제 문제, 긴장 완화, 안정, 지역 평화와 발전 촉진 노력에 대해 논의했습니다.",
+      "excerpt": "The two leaders discussed regional and international issues, de-escalation, stability, and efforts to promote regional peace and development.",
       "excerpt_en": "The two leaders discussed regional and international issues, de-escalation, stability, and efforts to promote regional peace and development.",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/iran-president-meets-uae-crown-prince-on-brics-sidelines-back-joint-statement-urging-restraint-in-west-asia-war-101789226727137.html",
@@ -1349,17 +1213,17 @@
       ]
     },
     {
-      "id": "world-26",
-      "title": "인도의 Modi와 중국의 Xi는 관계가 회복되면서 비즈니스 관계와 국경 평화를 추진합니다.",
-      "title_en": "India's Modi and China's Xi push business links, border peace as ties revive",
+      "id": "world-34",
+      "title": "Farage의 Reform UK는 48시간 만에 두 번째로 3,600만 파운드 기부 기록을 세웠습니다.",
+      "title_en": "Farage's Reform UK lands second record £36 million donation in 48 hours",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaFlybEpEZWtDbThQdk9OMFR0bFA0dmZtcUZLSEo2a0djT2xmanVSRlFRWVBRelg3dEUxTUJ1VW5zSWpFZDhGVzJHQWtxS2JkNm9XQUFFSUVTZjRDVTZ4RWd2YzZZZmZYNVAzOGdLWE9ZUzFBb0VKMXRTVXVtdjIyRFlORkZvaUc0ODBxcWRuVDhOTjc0WmdWamtZcmRPQmZoUi1jTmYxa0o4UUtD?oc=5",
-      "category": "아시아",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUTNpQUZmemxkOGh4bEtlV0pYb3NlR2lwYTlUMWs0emtlNTJiZUdFZDBFa0pscEd4dVRKRDd0YVp6VUFrdXVqX2pTRHBBMkVEcDFzZVlIcjRrdDc5cUM0UFBvS0V5cGdGcTBKSlF6d3p2Z1p0dkJGdmU4SDdqcGp4VC1SU3ZSMFpMVzlWeDE0bzlVbFRNVmJVaHhjbjZPdmpNZEctTklTSkFacFF3Z1pOZTZNSU9oWkFw?oc=5",
+      "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "인도의 Modi와 중국의 Xi는 관계가 부활하면서 비즈니스 관계와 국경 평화를 추진합니다.",
-      "excerpt_en": "India's Modi and China's Xi push business links, border peace as ties revive Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaFlybEpEZWtDbThQdk9OMFR0bFA0dmZtcUZLSEo2a0djT2xmanVSRlFRWVBRelg3dEUxTUJ1VW5zSWpFZDhGVzJHQWtxS2JkNm9XQUFFSUVTZjRDVTZ4RWd2YzZZZmZYNVAzOGdLWE9ZUzFBb0VKMXRTVXVtdjIyRFlORkZvaUc0ODBxcWRuVDhOTjc0WmdWamtZcmRPQmZoUi1jTmYxa0o4UUtD?oc=5",
+      "excerpt": "암호화폐 억만장자 크리스토퍼 하버네(Christopher Harbourne)는 토요일 영국의 반이민 개혁 영국(Reform UK)에 3,600만 파운드(미화 4,900만 달러)를 기부했다고 밝혔습니다. 이는 이미 기록적인 기부금인 Nigel Fa와 일치합니다.",
+      "excerpt_en": "Cryptocurrency billionaire Christopher Harborne said on Saturday he had donated £36 million (US$49 million) to Britain’s anti-immigration Reform UK, matching an already record contribution to Nigel Fa",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367321/farages-reform-uk-gets-second-record-ps36-million-donation-48-hours?utm_source=rss_feed",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1375,28 +1239,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "Reuters"
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-12T06:15:00+09:00",
-      "latest_published_at": "2026-09-12T18:02:34+09:00",
+      "first_published_at": "2026-09-12T13:59:46+09:00",
+      "latest_published_at": "2026-09-12T14:24:25+09:00",
       "articles": [
         {
-          "title": "India's Modi and China's Xi seek to reset ties on BRICS sidelines",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/indias-modi-chinas-xi-seek-reset-ties-brics-136389249",
-          "published_at": "18:02"
+          "title": "Farage’s Reform UK gets second record £36 million donation in 48 hours",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3367321/farages-reform-uk-gets-second-record-ps36-million-donation-48-hours?utm_source=rss_feed",
+          "published_at": "14:24"
         },
         {
-          "title": "India's Modi and China's Xi push business links, border peace as ties revive",
+          "title": "Farage's Reform UK lands second record £36 million donation in 48 hours",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaFlybEpEZWtDbThQdk9OMFR0bFA0dmZtcUZLSEo2a0djT2xmanVSRlFRWVBRelg3dEUxTUJ1VW5zSWpFZDhGVzJHQWtxS2JkNm9XQUFFSUVTZjRDVTZ4RWd2YzZZZmZYNVAzOGdLWE9ZUzFBb0VKMXRTVXVtdjIyRFlORkZvaUc0ODBxcWRuVDhOTjc0WmdWamtZcmRPQmZoUi1jTmYxa0o4UUtD?oc=5",
-          "published_at": "06:15"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUTNpQUZmemxkOGh4bEtlV0pYb3NlR2lwYTlUMWs0emtlNTJiZUdFZDBFa0pscEd4dVRKRDd0YVp6VUFrdXVqX2pTRHBBMkVEcDFzZVlIcjRrdDc5cUM0UFBvS0V5cGdGcTBKSlF6d3p2Z1p0dkJGdmU4SDdqcGp4VC1SU3ZSMFpMVzlWeDE0bzlVbFRNVmJVaHhjbjZPdmpNZEctTklTSkFacFF3Z1pOZTZNSU9oWkFw?oc=5",
+          "published_at": "13:59"
         }
       ]
     },
     {
-      "id": "world-44",
+      "id": "world-47",
       "title": "대서양 허리케인은 다 어디로 갔나요? 엘니뇨는 기록적인 느린 폭풍 시즌을 가져올 수 있습니다",
       "title_en": "Where have all the Atlantic hurricanes gone? El Nino might bring record slow storm season",
       "title_source": "earliest_pick",
@@ -1443,61 +1307,14 @@
       ]
     },
     {
-      "id": "world-46",
-      "title": "사우디아라비아는 이란과 그 동맹국들의 증가하는 위협에 직면해 선택의 여지가 거의 없다",
-      "title_en": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/saudi-arabia-options-faces-mounting-threats-iran-allies-136384544",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "사우디아라비아는 이란과 그 동맹국들의 증가하는 위협에 직면해 선택의 여지가 거의 없다.",
-      "excerpt_en": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUJiN1dOV3FIZXZvbVNWRXlnYXhiT01xMGV4VERWd095cldKWVR6MzBvWEtoVno3S214Y0VDSTVUZ0FXTHl2RjhkTzh4aHRBdktkOEJRd0Rhc2d2MFdwdUFJWDVoY215MTEyTk13d3FOd0laTThYM00yUkhHdG1YLTR0N0VoUWk0Tm9vMHNLeVlhU2gwb214ZklSQQ?oc=5",
-      "translation_status": "ok",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-09-12T05:59:20+09:00",
-      "latest_published_at": "2026-09-12T19:46:00+09:00",
-      "articles": [
-        {
-          "title": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUJiN1dOV3FIZXZvbVNWRXlnYXhiT01xMGV4VERWd095cldKWVR6MzBvWEtoVno3S214Y0VDSTVUZ0FXTHl2RjhkTzh4aHRBdktkOEJRd0Rhc2d2MFdwdUFJWDVoY215MTEyTk13d3FOd0laTThYM00yUkhHdG1YLTR0N0VoUWk0Tm9vMHNLeVlhU2gwb214ZklSQQ?oc=5",
-          "published_at": "19:46"
-        },
-        {
-          "title": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/saudi-arabia-options-faces-mounting-threats-iran-allies-136384544",
-          "published_at": "05:59"
-        }
-      ]
-    },
-    {
-      "id": "world-47",
+      "id": "world-48",
       "title": "트럼프, 아일랜드 방문 중 통일은 '환상적'일 것이라며 신경전",
       "title_en": "Trump touches a nerve while in Ireland by saying reunification would be ‘fantastic’",
       "title_source": "earliest_pick",
       "title_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3hLMTAtQkxDU19GS1NxaHlZWDlyOUhodmM5emszYWc3TXBKU29UcHpQcEpWMGF2M0tsSkd6STJoV0l6MGtZUDBZTlUxVWpYRGt5RUtCcHltYWdGYjNvRU41Y29OQzhTNTRhY003OHFkS1hFR3hJZC1KcHhTbC1TNHNVczM3YXpkM2IyM0NDRQ?oc=5",
       "category": "미국",
       "primary_source": "AP News",
-      "excerpt": "도널드 트럼프 대통령은 아일랜드 통일이 “환상적”일 것이라고 말하며 정치적 신경을 건드렸다.",
+      "excerpt": "도널드 트럼프 대통령은 아일랜드 통일이 “환상적”일 것이라고 말하며 정치적인 신경을 건드렸다.",
       "excerpt_en": "President Donald Trump has touched a political nerve by saying a unified Ireland would be “fantastic.”",
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/trump-meet-irelands-leaders-heading-golf-club-doonbeg-136383910",
@@ -1537,17 +1354,17 @@
       ]
     },
     {
-      "id": "world-51",
-      "title": "트럼프는 스미소니언 박물관이 조지 워싱턴 동상을 설치하고 전시하기를 원합니다.",
-      "title_en": "Trump wants the Smithsonian Institution to install George Washington statues and exhibit",
+      "id": "world-50",
+      "title": "신세계랭킹 1위 리바키나, US오픈 결승서 사발렌카 제압",
+      "title_en": "New world number one Rybakina dethrones Sabalenka in US Open final",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSUpYUUlad1c2MWpiMUZxZjdhOVhtSEhBRVFyWG03a3Vfd2ZQRnlxLWtaT0FuVUwyWm5oT2NiMWlUM0FjRlYyUi1PZ29xbEJzZWZDLXQyZ043UG5raVJqSV9Rd25OMS1CbjJXcE1oM1FIMXd3WGNETms1bkdsQVVOSktlWU03YklGVVNDQnd6WHNaZ1JJSlFpOWs5bXkzTGExMFByRXdaN3U1QUlEV2c?oc=5",
+      "title_url": "https://www.abc.net.au/news/2026-09-13/us-open-women-s-final-aryna-sabalenka-elena-rybakina/107135066",
       "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "트럼프, 다시 박물관 큐레이팅 시도 \"워싱턴 탄생 300주년 기념으로 전시회는 2032년까지 유지될 것\"",
-      "excerpt_en": "Trump, again trying to curate museum, says exhibit would stay until 2032 for 300th anniversary of Washington’s birth Donald Trump asked the Smithsonian Institution to install a 30ft “Colossus statue” ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/12/trump-smithsonian-george-washington-statue-exhibit",
+      "primary_source": "ABC News Australia",
+      "excerpt": "Elena Rybakina는 이미 Aryna Sabalenka의 세계 1위를 차지했으며 이제 US 오픈 타이틀도 차지했습니다.",
+      "excerpt_en": "Elena Rybakina already took Aryna Sabalenka's world number one ranking, now she takes her US Open title as well.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-13/us-open-women-s-final-aryna-sabalenka-elena-rybakina/107135066",
       "translation_status": "ok",
       "score": 53,
       "score_breakdown": {
@@ -1563,38 +1380,179 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "The Guardian"
+        "ABC News Australia",
+        "AP News"
       ],
-      "first_published_at": "2026-09-12T16:57:00+09:00",
-      "latest_published_at": "2026-09-12T19:32:32+09:00",
+      "first_published_at": "2026-09-12T22:39:29+09:00",
+      "latest_published_at": "2026-09-13T01:08:00+09:00",
       "articles": [
         {
-          "title": "Trump asks Smithsonian to install ‘Colossus statue’ of George Washington with exhibit",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/12/trump-smithsonian-george-washington-statue-exhibit",
-          "published_at": "19:32"
+          "title": "Elena Rybakina beats Aryna Sabalenka to win the US Open title and punctuate her rise to No. 1",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeC1fLVdudjJRczJCRVhESkJzR1V2bjQtZjBpR2xYNXBCcVF4QjdPR0pWeDZjZ2l0eDRXQUtvcWNYSk51QUF0RV9wOVlkaHZ1WUptTlJHODJpOHVoSlFlUExGQnEwQXBjQnQ0Q3NTRzRBRXp6ZDhFbkN4cjlycTZmM2FYS1BKMWVScnUwVlBUZnowbDBGNjQxckFlRld0dW9k?oc=5",
+          "published_at": "01:08"
         },
         {
-          "title": "Trump wants the Smithsonian Institution to install George Washington statues and exhibit",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSUpYUUlad1c2MWpiMUZxZjdhOVhtSEhBRVFyWG03a3Vfd2ZQRnlxLWtaT0FuVUwyWm5oT2NiMWlUM0FjRlYyUi1PZ29xbEJzZWZDLXQyZ043UG5raVJqSV9Rd25OMS1CbjJXcE1oM1FIMXd3WGNETms1bkdsQVVOSktlWU03YklGVVNDQnd6WHNaZ1JJSlFpOWs5bXkzTGExMFByRXdaN3U1QUlEV2c?oc=5",
-          "published_at": "16:57"
+          "title": "New world number one Rybakina dethrones Sabalenka in US Open final",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-13/us-open-women-s-final-aryna-sabalenka-elena-rybakina/107135066",
+          "published_at": "22:39"
         }
       ]
     },
     {
-      "id": "world-31",
-      "title": "시리아 민간 공항 계획은 대규모 묘지와 토지권에 대한 항의를 촉발시켰습니다.",
-      "title_en": "Syrian private airport plans spark outcry over mass graves, land rights",
+      "id": "world-108",
+      "title": "브라질: 플라비오 보우소나루, 선거 몇 주 앞두고 부패 조사에 직면",
+      "title_en": "Brazil: Flavio Bolsonaro faces corruption probe weeks before election",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS1FmZGJEblBGQkx6eGwxV05zcWtpRXRVUlFTY2FHOGowNTdMLU5BazN1dVFIM0lhbzRtbTFyVmZndFExWmRUUFN1bE5Fdm5CZjZmZkxVVVRaNi1zVTdRcS1sNFU1NTd6OHhkZHBXNlFKdWVfMnN4R2JndDVXWXdiNzFNQmNic1c0SjNBNW10Y0RDWjM4Z0pNM2xlRnVsSkg3RDhmZkFpd0o5TjhOckRXcW16dkMyYTJoSEd0UzFvN21vQQ?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "시리아 정부는 다마스쿠스의 옛 군사 공항을 개인 제트기의 허브로 만들 계획을 세우고 있으며 재개발이 의심되는 mas를 방해할 수 있다고 말하는 권리 단체와 주민들 사이에 경고를 보내고 있습니다.",
-      "excerpt_en": "Syrian government plans to turn a former military airport in Damascus into a ⁠hub for private jets are raising alarm among rights groups and residents who say redevelopment could disturb suspected mas",
+      "title_url": "https://www.dw.com/en/brazil-flavio-bolsonaro-faces-corruption-probe-weeks-before-election/a-79242561?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "아시아",
+      "primary_source": "DW",
+      "excerpt": "다음 달 브라질 대선에서 우파 선두 주자인 플라비오 보우소나루가 소유한 캠페인 문서에는 워싱턴에 희토류 공급망이 제공됐다.",
+      "excerpt_en": "A campaign document belonging to Flavio Bolsonaro, the right-wing front-runner in the presidential election to be held in Brazil next month, offered Washington a rare earths supply chain designed to w",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367282/alarm-syria-plans-private-jet-hub-former-torture-site?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3367328/jd-vance-network-courted-brazils-flavio-bolsonaro-over-anti-china-mineral-deal-report?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-12T09:37:00+09:00",
+      "latest_published_at": "2026-09-12T22:55:23+09:00",
+      "articles": [
+        {
+          "title": "J.D. Vance group courted Brazil’s Flavio Bolsonaro over anti-China rare earth deal: report",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3367328/jd-vance-network-courted-brazils-flavio-bolsonaro-over-anti-china-mineral-deal-report?utm_source=rss_feed",
+          "published_at": "22:55"
+        },
+        {
+          "title": "Brazil: Flavio Bolsonaro faces corruption probe weeks before election",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/brazil-flavio-bolsonaro-faces-corruption-probe-weeks-before-election/a-79242561?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:37"
+        }
+      ]
+    },
+    {
+      "id": "world-113",
+      "title": "덴마크 제2차 세계대전 드라마, 베니스 영화제 황금사자상 수상",
+      "title_en": "Danish WWII drama wins Golden Lion at Venice Film Festival",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/culture/20260912-danish-wwii-drama-wins-golden-lion-at-venice-film-festival",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "덴마크 영화제작자 메이 엘 투키(May el-Toukhy)의 전후 드라마 <우먼 언노운(Woman Unknown)>은 토요일 베니스 영화제에서 황금사자상을 수상했으며, 주연인 마틸데 아르셀(Mathilde Arcel)도 드물게 여우주연상을 수상했습니다.",
+      "excerpt_en": "Danish filmmaker May el-Toukhy’s post-war drama Woman Unknown ⁠won the Golden Lion at the Venice Film Festival on Saturday, with its star Mathilde Arcel also taking best actress honours in a rare doub",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367326/woman-unknown-wins-gold-lion-venice-film-festival?utm_source=rss_feed",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-12T19:15:14+09:00",
+      "latest_published_at": "2026-09-12T20:05:28+09:00",
+      "articles": [
+        {
+          "title": "‘Woman Unknown’ wins Gold Lion at Venice Film Festival",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3367326/woman-unknown-wins-gold-lion-venice-film-festival?utm_source=rss_feed",
+          "published_at": "20:05"
+        },
+        {
+          "title": "Danish WWII drama wins Golden Lion at Venice Film Festival",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/culture/20260912-danish-wwii-drama-wins-golden-lion-at-venice-film-festival",
+          "published_at": "19:15"
+        }
+      ]
+    },
+    {
+      "id": "world-115",
+      "title": "독일 극우 정당인 AfD에 반대하는 수만 명 시위",
+      "title_en": "Tens of thousands protest against far-right AfD party in Germany",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/europe/20260912-tens-of-thousands-of-people-protest-in-germany-against-far-right-afd",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "독일 에르푸르트에서는 시위대가 AfD의 연례 회의에 대한 접근을 적극적으로 차단하여 극우 정당의 의제에 대한 강력한 반대를 보여주는 대규모 투표율이 나타났습니다. AfD가 전국 선두를 달리고 있다.",
+      "excerpt_en": "A massive turnout in Erfurt, Germany saw protesters actively blocking access to the AfD's annual conference, showcasing a strong opposition to the far-right party's agenda. The AfD's lead in national ",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/mass-protests-erupt-in-germany-as-afd-eyes-breakthrough-in-eastern-states/articleshow/134171697.cms",
+      "translation_status": "ok",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-12T17:12:10+09:00",
+      "latest_published_at": "2026-09-13T02:14:55+09:00",
+      "articles": [
+        {
+          "title": "Mass protests erupt in Germany as AfD eyes breakthrough in eastern states",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/mass-protests-erupt-in-germany-as-afd-eyes-breakthrough-in-eastern-states/articleshow/134171697.cms",
+          "published_at": "02:14"
+        },
+        {
+          "title": "Tens of thousands protest against far-right AfD party in Germany",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260912-tens-of-thousands-of-people-protest-in-germany-against-far-right-afd",
+          "published_at": "17:12"
+        }
+      ]
+    },
+    {
+      "id": "world-21",
+      "title": "경찰, 멕시코 산 속에 숨겨진 카르텔 암호화폐 농장 발견",
+      "title_en": "Police find cartel crypto farm hidden in Mexican mountains",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crypto-mining-mexico-cartel-police-b3049057.html",
+      "category": "기타",
+      "primary_source": "The Independent",
+      "excerpt": "멕시코 산에 숨겨진 암호화 농장, 카르텔 자금 조달에 주목 - 최신",
+      "excerpt_en": "Hidden crypto farm in Mexican mountains puts spotlight on cartel funding Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3JWY0h1VnVaSWl6MW5nYnlmcktHNS1uTVM0WHNnYnVPREdhalFjSnRNWUpsV3pXdGVCWjltLUttTW5qbXZLZjZQaDZwVENpY3JkbjhRSEZCRXZjOHpURjdsVmZLbEZoaHVLYXdXemE1QlpCWG5kc0lDWWVNem84ZjRWOVM4ZEZaeHRfMFFCeDVlWjhSN185U0ZaR2N6cVBxb0tiT0swU0xBRDczU2x2cWR2R0poQjRi?oc=5",
       "translation_status": "ok",
       "score": 52,
       "score_breakdown": {
@@ -1611,69 +1569,22 @@
       "source_count": 2,
       "sources": [
         "Reuters",
-        "SCMP"
+        "The Independent"
       ],
-      "first_published_at": "2026-09-12T05:06:00+09:00",
-      "latest_published_at": "2026-09-12T06:08:05+09:00",
+      "first_published_at": "2026-09-12T11:20:59+09:00",
+      "latest_published_at": "2026-09-12T12:20:22+09:00",
       "articles": [
         {
-          "title": "Alarm as Syria plans private jet hub on former torture site",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367282/alarm-syria-plans-private-jet-hub-former-torture-site?utm_source=rss_feed",
-          "published_at": "06:08"
-        },
-        {
-          "title": "Syrian private airport plans spark outcry over mass graves, land rights",
+          "title": "Hidden crypto farm in Mexican mountains puts spotlight on cartel funding",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS1FmZGJEblBGQkx6eGwxV05zcWtpRXRVUlFTY2FHOGowNTdMLU5BazN1dVFIM0lhbzRtbTFyVmZndFExWmRUUFN1bE5Fdm5CZjZmZkxVVVRaNi1zVTdRcS1sNFU1NTd6OHhkZHBXNlFKdWVfMnN4R2JndDVXWXdiNzFNQmNic1c0SjNBNW10Y0RDWjM4Z0pNM2xlRnVsSkg3RDhmZkFpd0o5TjhOckRXcW16dkMyYTJoSEd0UzFvN21vQQ?oc=5",
-          "published_at": "05:06"
-        }
-      ]
-    },
-    {
-      "id": "world-88",
-      "title": "시리아 북부 마을에서 교도소 폭동과 화재로 최소 7명이 사망",
-      "title_en": "Prison riot and fire in northern Syrian town kill at least 7",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/prison-riot-fire-northern-syrian-town-kills-7-136385827",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "국영 언론은 전 쿠르드족 전사 살해에 대해 코바네 시에서 시위가 벌어지자 수감자들이 폭동을 일으켰다고 보도했습니다.",
-      "excerpt_en": "Inmates rioted following protests in the city of Kobane over the killing of former Kurdish fighter, state media reports.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/9/12/at-least-seven-killed-in-fire-at-prison-in-northern-syria?traffic_source=rss",
-      "translation_status": "ok",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Al Jazeera"
-      ],
-      "first_published_at": "2026-09-12T10:34:23+09:00",
-      "latest_published_at": "2026-09-12T15:26:48+09:00",
-      "articles": [
-        {
-          "title": "At least seven killed in fire at prison in northern Syria",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/12/at-least-seven-killed-in-fire-at-prison-in-northern-syria?traffic_source=rss",
-          "published_at": "15:26"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU3JWY0h1VnVaSWl6MW5nYnlmcktHNS1uTVM0WHNnYnVPREdhalFjSnRNWUpsV3pXdGVCWjltLUttTW5qbXZLZjZQaDZwVENpY3JkbjhRSEZCRXZjOHpURjdsVmZLbEZoaHVLYXdXemE1QlpCWG5kc0lDWWVNem84ZjRWOVM4ZEZaeHRfMFFCeDVlWjhSN185U0ZaR2N6cVBxb0tiT0swU0xBRDczU2x2cWR2R0poQjRi?oc=5",
+          "published_at": "12:20"
         },
         {
-          "title": "Prison riot and fire in northern Syrian town kill at least 7",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/prison-riot-fire-northern-syrian-town-kills-7-136385827",
-          "published_at": "10:34"
+          "title": "Police find cartel crypto farm hidden in Mexican mountains",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crypto-mining-mexico-cartel-police-b3049057.html",
+          "published_at": "11:20"
         }
       ]
     }
