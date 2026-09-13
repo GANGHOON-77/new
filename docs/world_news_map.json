@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,51 +8,73 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-14T02:41:37.660190+09:00",
+  "updated_at": "2026-09-14T06:51:57.599645+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 429,
-  "cluster_count_total": 341,
+  "article_count_total": 444,
+  "cluster_count_total": 354,
   "clusters": [
     {
-      "id": "world-91",
-      "title": "Six dead and search under way for 130 missing from Indonesian passenger ship",
-      "title_en": "Six dead and search under way for 130 missing from Indonesian passenger ship",
+      "id": "world-28",
+      "title": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
+      "title_en": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/indonesia-search-for-140-people-missing-from-passenger-ship-13585242",
+      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
       "category": "아시아",
-      "primary_source": "Sky News",
-      "excerpt": "At least six people have died and 130 people are still missing after a passenger ship in Indonesia carrying more than 240 people lost contact in the Java Sea during bad weather, officials say.",
-      "excerpt_en": "At least six people have died and 130 people are still missing after a passenger ship in Indonesia carrying more than 240 people lost contact in the Java Sea during bad weather, officials say.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/indonesia-search-for-140-people-missing-from-passenger-ship-13585242",
+      "primary_source": "SCMP",
+      "excerpt": "Indonesian rescuers say about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday. At least 107 people were rescued and the bo",
+      "excerpt_en": "Indonesian rescuers say about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday. At least 107 people were rescued and the bo",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 88,
+      "score": 93,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
+        "time_score": 3,
+        "raw75": 70
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 9,
+      "article_count": 9,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 9,
       "sources": [
+        "Al Jazeera",
+        "CBC",
         "CBS News",
-        "DW",
         "Fox News",
+        "NPR",
+        "Reuters",
+        "SCMP",
         "Sky News",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-13T03:34:00+09:00",
-      "latest_published_at": "2026-09-13T11:18:56+09:00",
+      "first_published_at": "2026-09-13T03:29:38+09:00",
+      "latest_published_at": "2026-09-13T20:28:55+09:00",
       "articles": [
+        {
+          "title": "Bodies recovered as rescuers search for more than 100 missing from capsized Indonesian ferry",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/asia/rescuers-searching-for-140-people-from-indonesian-passenger-ship-20260913-p60wxk.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:28"
+        },
+        {
+          "title": "Six killed, 130 missing after Indonesian passenger ship capsizes",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss",
+          "published_at": "15:50"
+        },
+        {
+          "title": "Search underway for about 130 people after Indonesian ferry overturns",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/indonesia-ferry-overturned-search-underway-9.7342154?cmp=rss",
+          "published_at": "12:36"
+        },
         {
           "title": "Search underway for 130 people after Indonesian passenger ship overturns",
           "source_name": "CBS News",
@@ -60,16 +82,10 @@
           "published_at": "11:18"
         },
         {
-          "title": "Indonesia rescuers search for 130 people after ferry sinks",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/indonesia-rescuers-search-for-130-people-after-ferry-sinks/a-79248600?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "09:42"
-        },
-        {
-          "title": "Rescuers searching for 140 people from Indonesian passenger ship",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/rescuers-searching-for-140-people-from-indonesian-passenger-ship-20260913-p60wxk.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "06:18"
+          "title": "Indonesian passenger ship overturns, sparking search for at least 129 missing",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/13/g-s1-143114/about-130-missing-after-indonesian-passenger-ship-overturns",
+          "published_at": "10:31"
         },
         {
           "title": "Indonesian passenger ship carrying 240 people loses contact in Java Sea, search underway",
@@ -82,84 +98,210 @@
           "source_name": "Sky News",
           "url": "https://news.sky.com/story/indonesia-search-for-140-people-missing-from-passenger-ship-13585242",
           "published_at": "03:34"
+        },
+        {
+          "title": "At least 129 missing after Indonesian passenger ship capsizes",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeG1Da244T0lHMENCalZmSktXZjd2UU1DLVFJdlktZjNTU0NHRVR4OHI2YnFPU2VwWFUzOHRDOTdTYmVBeFYwZC0wVERfcmUzSFdlcG1yMWdycDVyWDhZT1dpN1VCWEFReDQ2VWFnalQ1dGY3cjI0ZWYzd0pPTF9yRTBuNXRmTjN4cDk2YWlWNWRGYlpTaWdVdWItcmVUR2hiZEZWQXhFZ0FQLUNvQlRQNHBaU3ZqTVhIZkdSakctZTJfcDZMR2JZ?oc=5",
+          "published_at": "03:33"
+        },
+        {
+          "title": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
+          "published_at": "03:29"
         }
       ]
     },
     {
-      "id": "world-139",
-      "title": "Houma stabbings: 4 dead, juvenile critically injured in series of attacks in Louisiana; sheriff’s office shares details",
-      "title_en": "Houma stabbings: 4 dead, juvenile critically injured in series of attacks in Louisiana; sheriff’s office shares details",
+      "id": "world-10",
+      "title": "Haaland strike gives 10-man Man City contentious 1-0 derby win over Man United",
+      "title_en": "Haaland strike gives 10-man Man City contentious 1-0 derby win over Man United",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/houma-stabbings-4-dead-juvenile-critically-injured-in-series-of-attacks-in-louisiana-sheriff-s-office-shares-details-101789271296748.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Kaegan Jude Solet, 47, taken into custody after stabbings in Houma leave four dead and one wounded, authorities say Police arrested a person of interest after a series of stabbings in Houma, Louisiana",
-      "excerpt_en": "Kaegan Jude Solet, 47, taken into custody after stabbings in Houma leave four dead and one wounded, authorities say Police arrested a person of interest after a series of stabbings in Houma, Louisiana",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/13/louisiana-stabbing-spree-deaths",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWUZwU1lRVnQtMEpmcXlLYTJpM054OUtxcUd5RFliTnFKSXNFZHc1Sy1Xdy1YT2E0T0xGMHozc1RGXzlZVU1Ha2xnOFpIa0t1ek1SLU90X0gwR0YwVFVvVU9obU5UX1FxeWJjTEhnMnFJTk80S29YWGFmSEJ0UjlxSTdlTU9MYTFoellHalN3b0ZxZGR6YlNlNmJCdWJhdmFoRFFUeHc4NHRrR1dlbG12cklFbF9YQnpiNlRWZERMZGg1dw?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "Phil Foden is sent off for City, but Erling Haaland's controversial goal settles Manchester derby 1-0 at United.",
+      "excerpt_en": "Phil Foden is sent off for City, but Erling Haaland's controversial goal settles Manchester derby 1-0 at United.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/sports/2026/9/13/haaland-goal-sees-10-men-city-beat-united-in-controversial-manchester-derby?traffic_source=rss",
       "translation_status": "failed",
-      "score": 87,
+      "score": 83,
       "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 10,
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 65
+        "raw75": 62
       },
-      "area_value": 6,
-      "article_count": 6,
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-13T18:33:00+09:00",
+      "latest_published_at": "2026-09-13T19:42:06+09:00",
+      "articles": [
+        {
+          "title": "VAR in focus as Haaland goal gives Man City controversial derby win",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYnE3Rnd6Y0c3c3VNa0pQUzRNd01UQ2p5T1lqSDg3d0o1SFltc0dfZnllckxHQVZCYUpMQjE5b25HeXNGY01ZSTgzcElnem1NblExV2MzWHFlQWJPTENGU1FQTVI3d0hUWFBSQ1NHMDdCY0RPZXc5TURQeU5naVhYcXd5LXdocmR5bGp3OW5BaXdkbDJQU3E1Z1JvQUlsYXdrMVlqOUNiRFBYOF9IZTBpRA?oc=5",
+          "published_at": "19:42"
+        },
+        {
+          "title": "VAR in focus as Haaland goal gives Man City controversial derby win",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/var-in-focus-haaland-goal-gives-man-city-controversial-derby-win-6381696",
+          "published_at": "18:42"
+        },
+        {
+          "title": "Haaland goal sees 10-man City beat United in controversial Manchester derby",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/13/haaland-goal-sees-10-men-city-beat-united-in-controversial-manchester-derby?traffic_source=rss",
+          "published_at": "18:39"
+        },
+        {
+          "title": "Haaland strike gives 10-man Man City contentious 1-0 derby win over Man United",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWUZwU1lRVnQtMEpmcXlLYTJpM054OUtxcUd5RFliTnFKSXNFZHc1Sy1Xdy1YT2E0T0xGMHozc1RGXzlZVU1Ha2xnOFpIa0t1ek1SLU90X0gwR0YwVFVvVU9obU5UX1FxeWJjTEhnMnFJTk80S29YWGFmSEJ0UjlxSTdlTU9MYTFoellHalN3b0ZxZGR6YlNlNmJCdWJhdmFoRFFUeHc4NHRrR1dlbG12cklFbF9YQnpiNlRWZERMZGg1dw?oc=5",
+          "published_at": "18:33"
+        }
+      ]
+    },
+    {
+      "id": "world-224",
+      "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+      "title_en": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-101789267543904.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "State-run IRNA news agency quoted the Qeshm governor as blaming a \"terrorist enemy\" for an attack on a cargo ship near the Strait of Hormuz. The governor also said the person killed was among the vess",
+      "excerpt_en": "State-run IRNA news agency quoted the Qeshm governor as blaming a \"terrorist enemy\" for an attack on a cargo ship near the Strait of Hormuz. The governor also said the person killed was among the vess",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/iranian-commercial-ship-struck-near-strait-of-hormuz-9.7342136?cmp=rss",
+      "translation_status": "failed",
+      "score": 83,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 62
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBC",
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-13T03:04:30+09:00",
+      "latest_published_at": "2026-09-13T19:31:28+09:00",
+      "articles": [
+        {
+          "title": "Strike on Iranian cargo ship in the Strait of Hormuz kills 1, Iranian media say",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/strike-on-iranian-cargo-ship-in-the-strait-of-hormuz-kills-1-iranian-media-say-101789327888668.html",
+          "published_at": "19:31"
+        },
+        {
+          "title": "Iran claims one killed in US attack on Iranian commercial ship in Hormuz",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/13/one-person-killed-after-ship-struck-in-the-strait-of-hormuz-iranian-authorities-say",
+          "published_at": "11:09"
+        },
+        {
+          "title": "Tehran postpones regional talks; Iran media says cargo ship struck near Strait of Hormuz",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/iranian-commercial-ship-struck-near-strait-of-hormuz-9.7342136?cmp=rss",
+          "published_at": "09:08"
+        },
+        {
+          "title": "Iran says one dead, three injured after ship struck in Strait of Hormuz",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/iran-says-one-dead-three-injured-after-ship-struck-in-strait-of-hormuz-101789279275817.html",
+          "published_at": "06:04"
+        },
+        {
+          "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/new-report-of-attack-on-strait-of-hormuz-shipping-fans-fears-of-threats-to-oil-supplies-101789267543904.html",
+          "published_at": "03:04"
+        }
+      ]
+    },
+    {
+      "id": "world-12",
+      "title": "Trump slams AI critics after Anthropic CEO, OpenAI chief raise alarm: ‘Negative forces’",
+      "title_en": "Trump slams AI critics after Anthropic CEO, OpenAI chief raise alarm: ‘Negative forces’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/trump-slams-ai-critics-after-anthropic-ceo-openai-chief-elon-musk-raise-alarm-doomsday-negative-forces-101789307326182.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "U.S. President Donald Trump on Sunday likened critics of ‌artificial intelligence (AI) to \"very negative forces\" bringing up scenarios that won't happen, and said he wants to make sure the U.S. remain",
+      "excerpt_en": "U.S. President Donald Trump on Sunday likened critics of ‌artificial intelligence (AI) to \"very negative forces\" bringing up scenarios that won't happen, and said he wants to make sure the U.S. remain",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/trump-decries-ai-critics-9.7342353?cmp=rss",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
+        "CBC",
         "Hindustan Times",
-        "The Guardian",
-        "The Independent",
-        "Times of India"
+        "Reuters",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-13T03:53:25+09:00",
-      "latest_published_at": "2026-09-13T17:32:34+09:00",
+      "first_published_at": "2026-09-13T13:56:37+09:00",
+      "latest_published_at": "2026-09-13T19:10:30+09:00",
       "articles": [
         {
-          "title": "Manhunt ends with arrest after 4 killed and child wounded in Louisiana stabbing spree",
+          "title": "Trump dismisses AI safety fears to keep America ahead of China",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/manhunt-person-of-interest-louisiana-stabbing-spree-b3049395.html",
-          "published_at": "17:32"
+          "url": "https://www.independent.co.uk/news/world/americas/trump-ai-safety-us-china-b3049484.html",
+          "published_at": "19:10"
         },
         {
-          "title": "Four dead in Louisiana stabbing spree as police arrest person of interest",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/13/louisiana-stabbing-spree-deaths",
-          "published_at": "16:34"
+          "title": "Trump decries critics of AI, saying they're 'negative forces' with exaggerated concerns",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/trump-decries-ai-critics-9.7342353?cmp=rss",
+          "published_at": "19:00"
         },
         {
-          "title": "4 killed, child critically injured in Louisiana stabbing spree; search on for person of interest",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/4-killed-child-critically-injured-in-louisiana-stabbing-spree-search-on-for-person-of-interest/articleshow/134205588.cms",
-          "published_at": "14:13"
+          "title": "Trump says 'very negative forces' raising exaggerated concerns over AI",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObThfSFpBRlQ0d1ZsVDV4SnZQdlJkYWZnRTlQRlpKWmRud283dWJQclhHQUUxM1dHSzVJakIxVnVBc2pYU0R2TmdUT01PSkJiY3I3WFRHUGNZNUh5RVdtRGk4QUppT1hVV0dHbDdwdGQzc0ZyZlRxeTUzNjg1UUY3RHpiR0JUOUpCdlV4b2xNd01FaEluMXhZZTA4eV9Gd0gxYW02eWprV05hRUREYWVGZUZLcHZWZWpa?oc=5",
+          "published_at": "16:58"
         },
         {
-          "title": "Kaegan Jude Solet: Violent past of ‘person of interest’ in Houma stabbings unveiled – 5 things to know",
+          "title": "Trump slams AI critics after Anthropic CEO, OpenAI chief raise alarm: ‘Negative forces’",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/kaegan-jude-solet-violent-past-of-person-of-interest-in-houma-stabbings-unveiled-5-things-to-know-101789295641829.html",
-          "published_at": "10:41"
-        },
-        {
-          "title": "Who is Kaegan Jude Solet? Search underway for ‘person of interest’ in Houma, Louisiana stabbings that left 4 dead",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-kaegan-jude-solet-person-of-interest-identified-in-houma-louisiana-stabbings-that-left-4-dead-101789277723144.html",
-          "published_at": "05:39"
-        },
-        {
-          "title": "Houma stabbings: 4 dead, juvenile critically injured in series of attacks in Louisiana; sheriff’s office shares details",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/houma-stabbings-4-dead-juvenile-critically-injured-in-series-of-attacks-in-louisiana-sheriff-s-office-shares-details-101789271296748.html",
-          "published_at": "03:53"
+          "url": "https://www.hindustantimes.com/world-news/trump-slams-ai-critics-after-anthropic-ceo-openai-chief-elon-musk-raise-alarm-doomsday-negative-forces-101789307326182.html",
+          "published_at": "13:56"
         }
       ]
     },
     {
-      "id": "world-7",
+      "id": "world-18",
       "title": "Drone alert over Lithuania turns out to be flock of birds - as NATO jet scrambled",
       "title_en": "Drone alert over Lithuania turns out to be flock of birds - as NATO jet scrambled",
       "title_source": "earliest_pick",
@@ -171,14 +313,14 @@
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/lithuania-airport-closed-possible-drone-9.7342142?cmp=rss",
       "translation_status": "failed",
-      "score": 81,
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 60
       },
       "area_value": 4,
       "article_count": 4,
@@ -220,258 +362,61 @@
       ]
     },
     {
-      "id": "world-18",
-      "title": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
-      "title_en": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
+      "id": "world-200",
+      "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
+      "title_en": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Indonesian rescuers say about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday. At least 107 people were rescued and the bo",
-      "excerpt_en": "Indonesian rescuers say about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday. At least 107 people were rescued and the bo",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "AP News",
-        "CBC",
-        "NPR",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-13T03:29:38+09:00",
-      "latest_published_at": "2026-09-13T14:53:00+09:00",
-      "articles": [
-        {
-          "title": "Indonesia continues search for at least 129 missing after ferry capsizes, 6 bodies recovered",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUHc5VVA1ZE8yZnB0VWlLbS1MdlM3UEhHaDhzYWJuZG11eW82eDRpdjVNYWF5aE1hQzVmZ21WMG5LZl95Y3BxTFc1OW5maGdCNHJTOEFrZHBVNkplV3R6UXM2T2RLYnFnSDZ3R0VsVjQzUXhDaDR1U1JLbG9mTHg2TmVCMElDNzFYUGx0WkdZcTJCV3l3UUVjWA?oc=5",
-          "published_at": "14:53"
-        },
-        {
-          "title": "Search underway for about 130 people after Indonesian ferry overturns",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/indonesia-ferry-overturned-search-underway-9.7342154?cmp=rss",
-          "published_at": "12:36"
-        },
-        {
-          "title": "Indonesian passenger ship overturns, sparking search for at least 129 missing",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/13/g-s1-143114/about-130-missing-after-indonesian-passenger-ship-overturns",
-          "published_at": "10:31"
-        },
-        {
-          "title": "At least 129 missing after Indonesian passenger ship capsizes",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeG1Da244T0lHMENCalZmSktXZjd2UU1DLVFJdlktZjNTU0NHRVR4OHI2YnFPU2VwWFUzOHRDOTdTYmVBeFYwZC0wVERfcmUzSFdlcG1yMWdycDVyWDhZT1dpN1VCWEFReDQ2VWFnalQ1dGY3cjI0ZWYzd0pPTF9yRTBuNXRmTjN4cDk2YWlWNWRGYlpTaWdVdWItcmVUR2hiZEZWQXhFZ0FQLUNvQlRQNHBaU3ZqTVhIZkdSakctZTJfcDZMR2JZ?oc=5",
-          "published_at": "03:33"
-        },
-        {
-          "title": "Indonesia searches for 130 passengers after ship sinks in Java Sea",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367333/indonesian-ship-240-passengers-aboard-loses-contact-java-sea?utm_source=rss_feed",
-          "published_at": "03:29"
-        }
-      ]
-    },
-    {
-      "id": "world-53",
-      "title": "Is Tom Tiffany okay? 5 things to know about ‘horrifying’ Lake Wausau Plane incident; 911 call released",
-      "title_en": "Is Tom Tiffany okay? 5 things to know about ‘horrifying’ Lake Wausau Plane incident; 911 call released",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/tom-tiffany-wisconsin-congressman-suffers-injuries-after-emergency-plane-landing-in-lake-wausau-911-call-released-101789295013177.html",
+      "title_url": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Republican gubernatorial candidate Tom Tiffany and pilot swim to safety after plane made emergency landing in lake A Republican congressman said he had to swim to safety after a plane he was traveling",
-      "excerpt_en": "Republican gubernatorial candidate Tom Tiffany and pilot swim to safety after plane made emergency landing in lake A Republican congressman said he had to swim to safety after a plane he was traveling",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/13/wisconsin-congressman-plane-emergency-landing-lake",
+      "primary_source": "Sky News",
+      "excerpt": "Boris Johnson has been caught up in a security scare in Ukraine after a train behind the one he was travelling in was hit by a Russian drone, reports say.",
+      "excerpt_en": "Boris Johnson has been caught up in a security scare in Ukraine after a train behind the one he was travelling in was hit by a Russian drone, reports say.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
       "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "BBC",
-        "Hindustan Times",
-        "The Guardian",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-13T11:01:09+09:00",
-      "latest_published_at": "2026-09-13T16:04:49+09:00",
-      "articles": [
-        {
-          "title": "Wisconsin congressman swims to safety after plane makes emergency landing in lake",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/13/wisconsin-congressman-plane-emergency-landing-lake",
-          "published_at": "16:04"
-        },
-        {
-          "title": "US congressman swims to safety after his plane is forced to land on a lake",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c5y5d87x72zo?at_medium=RSS&at_campaign=rss",
-          "published_at": "15:30"
-        },
-        {
-          "title": "US Republican governor candidate escapes plane crash, swims to safety after emergency lake landing",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-republican-governor-candidate-escapes-plane-crash-swims-to-safety-after-emergency-lake-landing/articleshow/134201719.cms",
-          "published_at": "12:58"
-        },
-        {
-          "title": "Wisconsin Congressman Tom Tiffany in hospital after plane forced to make emergency landing on lake",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/tom-tiffany-plane-lake-wausau-b3049369.html",
-          "published_at": "12:42"
-        },
-        {
-          "title": "Is Tom Tiffany okay? 5 things to know about ‘horrifying’ Lake Wausau Plane incident; 911 call released",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/tom-tiffany-wisconsin-congressman-suffers-injuries-after-emergency-plane-landing-in-lake-wausau-911-call-released-101789295013177.html",
-          "published_at": "11:01"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "Swedes vote in election that could usher far right into government or banish them",
-      "title_en": "Swedes vote in election that could usher far right into government or banish them",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZnVER1ZkMGJZRERjcmI4MDdhUE4tX29PYlEzTkt4cHFmOHpMVktaOXhQVVNsd21oNkplc2JUOWxaS3NmTmFJTVNpWW5ydnRVTll5dzljNlZPOVQtVHNzVmpmMVNPMTFBYVJCdFVwYW54RXd1ckJEVHlWcEQ1NHoyMWJDdHp6QmVPLWx4OElKVG44RVpfRVZhRG8zVng1V1BxOF9Nd3k1SmdsY2t0WFlYaXR3?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Swedes were voting in a closely fought election on Sunday that will either bring a far-right party into government for the first time or shift the country back towards the liberalism that has long def",
-      "excerpt_en": "Swedes were voting in a closely fought election on Sunday that will either bring a far-right party into government for the first time or shift the country back towards the liberalism that has long def",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367356/sweden-votes-over-immigration-right-wing-bloc-gains-traction?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "France24",
-        "Reuters",
-        "SCMP",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-13T00:04:00+09:00",
-      "latest_published_at": "2026-09-13T10:59:05+09:00",
-      "articles": [
-        {
-          "title": "Sweden votes over immigration as right-wing bloc gains traction",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367356/sweden-votes-over-immigration-right-wing-bloc-gains-traction?utm_source=rss_feed",
-          "published_at": "10:59"
-        },
-        {
-          "title": "Sweden votes in tight election that could see far-right party enter government",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/sweden-votes-in-tight-election-that-could-see-far-right-party-enter-government-13585281",
-          "published_at": "09:01"
-        },
-        {
-          "title": "Swedes vote in close general election that could usher far right into government",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260913-swedes-vote-in-close-general-election-that-could-usher-far-right-into-government",
-          "published_at": "06:16"
-        },
-        {
-          "title": "Swedes vote in election that could usher far right into government or banish them",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZnVER1ZkMGJZRERjcmI4MDdhUE4tX29PYlEzTkt4cHFmOHpMVktaOXhQVVNsd21oNkplc2JUOWxaS3NmTmFJTVNpWW5ydnRVTll5dzljNlZPOVQtVHNzVmpmMVNPMTFBYVJCdFVwYW54RXd1ckJEVHlWcEQ1NHoyMWJDdHp6QmVPLWx4OElKVG44RVpfRVZhRG8zVng1V1BxOF9Nd3k1SmdsY2t0WFlYaXR3?oc=5",
-          "published_at": "00:04"
-        }
-      ]
-    },
-    {
-      "id": "world-5",
-      "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
-      "title_en": "Saudi pipeline outage threatens loss of 4% of global oil supply",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/saudi-pipeline-houthis-global-oil-6381366",
-      "category": "중동",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Saudi Arabia's East-West pipeline, which has been used to reroute around 4 million barrels per day to the port of Yanbu on the Red Sea, was shut on Friday following drone attacks.",
-      "excerpt_en": "Saudi Arabia's East-West pipeline, which has been used to reroute around 4 million barrels per day to the port of Yanbu on the Red Sea, was shut on Friday following drone attacks.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/saudi-pipeline-houthis-global-oil-6381366",
-      "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
         "Hindustan Times",
-        "Reuters"
+        "Sky News",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-13T12:40:00+09:00",
-      "latest_published_at": "2026-09-13T14:49:28+09:00",
+      "first_published_at": "2026-09-13T15:22:00+09:00",
+      "latest_published_at": "2026-09-13T17:27:31+09:00",
       "articles": [
         {
-          "title": "4% of global oil supply at risk as Saudi shuts major pipeline amid Houthis' attacks. What it means for India",
+          "title": "Boris Johnson hits out at Putin after near miss with Russian drone",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/boris-johnson-train-putin-ukraine-russia-war-b3049428.html",
+          "published_at": "17:27"
+        },
+        {
+          "title": "‘Senseless attack’: Boris Johnson's close shave as train behind his' struck by Russian drone near Poland border",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/4-percent-of-global-oil-supply-at-risk-as-saudi-shuts-major-pipeline-amid-houthis-attacks-what-it-means-for-india-101789307408014.html",
-          "published_at": "14:49"
+          "url": "https://www.hindustantimes.com/world-news/senseless-attack-ex-uk-pm-boris-johnsons-close-shave-as-train-behind-his-struck-by-russian-drone-near-poland-border-101789317205907.html",
+          "published_at": "17:14"
         },
         {
-          "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3FTbnBqRHlWOWIwM29yRVE2dmJnTlJOcVY0RV9oMFdYRm1WcXhCZThObGp5d1lHdE9GQVBkM080dlhZT0VleG1BUm1kOHpWbEJPZUcwTnNIaEJ2ZnpsZWJyd0RpWjdMcUpGMFotNnRmQ3lMeFRpMC1mUnlxbm1nVlFMSGdMWC1LU3lBMGZlOGoyN21QZWh3dU0yM3hVUU1pMDQ2RDdWRUJFcy0t?oc=5",
-          "published_at": "12:54"
-        },
-        {
-          "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/saudi-pipeline-houthis-global-oil-6381366",
-          "published_at": "12:40"
+          "title": "Boris Johnson in Ukraine security scare after train hit by Russian drone",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/boris-johnson-in-ukraine-security-scare-after-train-hit-by-russian-drone-reports-13585471",
+          "published_at": "15:22"
         }
       ]
     },
     {
-      "id": "world-204",
+      "id": "world-215",
       "title": "Pope Leo commemorates 9/11 attacks, calls for renewed commitment to peace",
       "title_en": "Pope Leo commemorates 9/11 attacks, calls for renewed commitment to peace",
       "title_source": "earliest_pick",
@@ -483,14 +428,14 @@
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/pope-leo-9-11-attacks-angelus-prayer-vatican/",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -525,169 +470,67 @@
       ]
     },
     {
-      "id": "world-118",
-      "title": "Houthis say hit Saudi base after renewed fighting with Yemeni govt forces",
-      "title_en": "Houthis say hit Saudi base after renewed fighting with Yemeni govt forces",
+      "id": "world-62",
+      "title": "Is Tom Tiffany okay? 5 things to know about ‘horrifying’ Lake Wausau Plane incident; 911 call released",
+      "title_en": "Is Tom Tiffany okay? 5 things to know about ‘horrifying’ Lake Wausau Plane incident; 911 call released",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-govt-forces-101789255825963.html",
-      "category": "중동",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/tom-tiffany-wisconsin-congressman-suffers-injuries-after-emergency-plane-landing-in-lake-wausau-911-call-released-101789295013177.html",
+      "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "Houthi fighters on Sunday said they used drones and missiles to attack a military base in southern Saudi Arabia as renewed fighting with Yemen’s government forces forced growing numbers of civilians t",
-      "excerpt_en": "Houthi fighters on Sunday said they used drones and missiles to attack a military base in southern Saudi Arabia as renewed fighting with Yemen’s government forces forced growing numbers of civilians t",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367329/houthis-hit-saudi-base-after-renewed-fighting-yemen-government-forces?utm_source=rss_feed",
+      "excerpt": "A Republican congressman from Wisconsin says he had to swim to safety after a plane he was traveling in made an emergency landing in a lake late Saturday",
+      "excerpt_en": "A Republican congressman from Wisconsin says he had to swim to safety after a plane he was traveling in made an emergency landing in a lake late Saturday",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/tiffany-federal-aviation-administration-wisconsin-gop-donald-trump-b3049489.html",
       "translation_status": "failed",
-      "score": 76,
+      "score": 75,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 56
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "France24",
+        "BBC",
         "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-12T23:30:25+09:00",
-      "latest_published_at": "2026-09-13T05:11:17+09:00",
-      "articles": [
-        {
-          "title": "Middle East live: Houthis say hit Saudi base after renewed fighting with Yemeni forces",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260913-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces",
-          "published_at": "05:11"
-        },
-        {
-          "title": "Houthis hit Saudi base amid renewed fighting with Yemen government forces",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367329/houthis-hit-saudi-base-after-renewed-fighting-yemen-government-forces?utm_source=rss_feed",
-          "published_at": "23:46"
-        },
-        {
-          "title": "Houthis say hit Saudi base after renewed fighting with Yemeni govt forces",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-govt-forces-101789255825963.html",
-          "published_at": "23:30"
-        }
-      ]
-    },
-    {
-      "id": "world-36",
-      "title": "One dead, more than 30 missing after Vanuatu ferry sinks, PM's office says",
-      "title_en": "One dead, more than 30 missing after Vanuatu ferry sinks, PM's office says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNWZJdUE0MHNsWlY5d0NZQllOQ2pKajVVSE9odGRlVEdxMkI3dmRRaWdyMjZEMUNaNWJuTkFDcjljN1FDbWlseXN2b2hReXJmZkU5ZW5oUzRrM3NTYlV3c2RlLThkUWNZUkJqaEo0ekhVaXh3cmVZVFZ3ZGFLR1Z4aE9wMEs3c2hubW5yUGMzZUItMHhudjZ4TXhRRElBUlREYnFIQnc0RFhPNWstOXM2Vmw2RmZoS2ZvUFA0R3lkUnZaVm5w?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Prime minister’s office tells families of those missing ‘the nation stands with you’ as search and rescue efforts continue One person has died and more than 30 are missing after a ferry sank off the c",
-      "excerpt_en": "Prime minister’s office tells families of those missing ‘the nation stands with you’ as search and rescue efforts continue One person has died and more than 30 are missing after a ferry sank off the c",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
-      "translation_status": "failed",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Reuters",
-        "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-13T02:03:00+09:00",
-      "latest_published_at": "2026-09-13T03:38:03+09:00",
+      "first_published_at": "2026-09-13T11:01:09+09:00",
+      "latest_published_at": "2026-09-13T19:28:40+09:00",
       "articles": [
         {
-          "title": "One person dead and 30 missing after ferry sinks in Vanuatu",
+          "title": "GOP congressman from Wisconsin swims to safety after plane makes emergency landing in a lake",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-ferry-sinks-deaths-latest-b3049271.html",
-          "published_at": "03:38"
+          "url": "https://www.independent.co.uk/news/world/americas/tiffany-federal-aviation-administration-wisconsin-gop-donald-trump-b3049489.html",
+          "published_at": "19:28"
         },
         {
-          "title": "One dead and more than 30 missing after ferry sinks off Vanuatu coast in rough seas",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
-          "published_at": "02:39"
+          "title": "US congressman swims to safety after his plane is forced to land on a lake",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c5y5d87x72zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "15:30"
         },
         {
-          "title": "One dead, more than 30 missing after Vanuatu ferry sinks, PM's office says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNWZJdUE0MHNsWlY5d0NZQllOQ2pKajVVSE9odGRlVEdxMkI3dmRRaWdyMjZEMUNaNWJuTkFDcjljN1FDbWlseXN2b2hReXJmZkU5ZW5oUzRrM3NTYlV3c2RlLThkUWNZUkJqaEo0ekhVaXh3cmVZVFZ3ZGFLR1Z4aE9wMEs3c2hubW5yUGMzZUItMHhudjZ4TXhRRElBUlREYnFIQnc0RFhPNWstOXM2Vmw2RmZoS2ZvUFA0R3lkUnZaVm5w?oc=5",
-          "published_at": "02:03"
+          "title": "Wisconsin Congressman Tom Tiffany in hospital after plane forced to make emergency landing on lake",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/tom-tiffany-plane-lake-wausau-b3049369.html",
+          "published_at": "12:42"
+        },
+        {
+          "title": "Is Tom Tiffany okay? 5 things to know about ‘horrifying’ Lake Wausau Plane incident; 911 call released",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/tom-tiffany-wisconsin-congressman-suffers-injuries-after-emergency-plane-landing-in-lake-wausau-911-call-released-101789295013177.html",
+          "published_at": "11:01"
         }
       ]
     },
     {
-      "id": "world-119",
-      "title": "'Second life': Nepal hydropower tunnel survivor recalls ordeal",
-      "title_en": "'Second life': Nepal hydropower tunnel survivor recalls ordeal",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/asia-pacific/20260913-second-life-nepal-hydropower-tunnel-survivor-recalls-ordeal",
-      "category": "아시아",
-      "primary_source": "France24",
-      "excerpt": "For 10 days, Nepali hydropower worker Sanjay Sah survived in darkness inside a flooded tunnel, drinking muddy water and losing all sense of time as he desperately prayed for rescue. When a disaster re",
-      "excerpt_en": "For 10 days, Nepali hydropower worker Sanjay Sah survived in darkness inside a flooded tunnel, drinking muddy water and losing all sense of time as he desperately prayed for rescue. When a disaster re",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3367346/nepal-flood-survivor-says-rescue-efforts-must-continue?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Channel News Asia",
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-13T04:17:14+09:00",
-      "latest_published_at": "2026-09-13T08:56:30+09:00",
-      "articles": [
-        {
-          "title": "Nepal flood survivor says rescue efforts must continue",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3367346/nepal-flood-survivor-says-rescue-efforts-must-continue?utm_source=rss_feed",
-          "published_at": "08:56"
-        },
-        {
-          "title": "'Second life': Nepal tunnel survivor recalls ordeal",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/nepal-china-disaster-tunnel-survivor-ordeal-6381081",
-          "published_at": "05:59"
-        },
-        {
-          "title": "'Second life': Nepal hydropower tunnel survivor recalls ordeal",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20260913-second-life-nepal-hydropower-tunnel-survivor-recalls-ordeal",
-          "published_at": "04:17"
-        }
-      ]
-    },
-    {
-      "id": "world-103",
+      "id": "world-111",
       "title": "Iran-backed Houthis in Yemen claim new attacks on Saudi Arabia",
       "title_en": "Iran-backed Houthis in Yemen claim new attacks on Saudi Arabia",
       "title_source": "earliest_pick",
@@ -718,13 +561,13 @@
         "France24"
       ],
       "first_published_at": "2026-09-13T11:30:21+09:00",
-      "latest_published_at": "2026-09-13T14:47:18+09:00",
+      "latest_published_at": "2026-09-13T20:00:31+09:00",
       "articles": [
         {
           "title": "Iranian vessel in Hormuz hit, while Houthis expand control of shipping lane",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
-          "published_at": "14:47"
+          "published_at": "20:00"
         },
         {
           "title": "Yemen: Fighting escalates around the Bab el-Mandeb Strait",
@@ -741,7 +584,7 @@
       ]
     },
     {
-      "id": "world-215",
+      "id": "world-223",
       "title": "UAE and Iran leaders meet at the BRICS summit for the first time since the war",
       "title_en": "UAE and Iran leaders meet at the BRICS summit for the first time since the war",
       "title_source": "earliest_pick",
@@ -753,14 +596,14 @@
       "excerpt_source": "Euronews",
       "excerpt_url": "https://www.euronews.com/2026/09/13/uae-and-iran-leaders-meet-at-the-brics-summit-for-the-first-time-since-the-war",
       "translation_status": "failed",
-      "score": 71,
+      "score": 69,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 53
+        "time_score": 2,
+        "raw75": 52
       },
       "area_value": 3,
       "article_count": 3,
@@ -794,115 +637,7 @@
       ]
     },
     {
-      "id": "world-6",
-      "title": "Canada explores ‘associate member’ status with EU amid US trade tensions",
-      "title_en": "Canada explores ‘associate member’ status with EU amid US trade tensions",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/europe/canada-explores-eu-associate-membership-as-carney-seeks-closer-ties-with-europe-amid-us-trade-war/articleshow/134200193.cms",
-      "category": "유럽",
-      "primary_source": "Times of India",
-      "excerpt": "Canada’s Prime ⁠Minister Mark Carney wants a closer ⁠relationship with the European Union and is ⁠exploring whether his country could become an “associate member” of the bloc, the Wall Street Journal ",
-      "excerpt_en": "Canada’s Prime ⁠Minister Mark Carney wants a closer ⁠relationship with the European Union and is ⁠exploring whether his country could become an “associate member” of the bloc, the Wall Street Journal ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367369/carney-pushes-idea-making-canada-associate-member-eu-reports?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Reuters",
-        "SCMP",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-13T12:36:03+09:00",
-      "latest_published_at": "2026-09-13T16:48:55+09:00",
-      "articles": [
-        {
-          "title": "Carney pushes idea of making Canada an ‘associate member’ of the EU: reports",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367369/carney-pushes-idea-making-canada-associate-member-eu-reports?utm_source=rss_feed",
-          "published_at": "16:48"
-        },
-        {
-          "title": "Carney pushes idea of making Canada 'associate member' of EU, WSJ reports",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Y5U2xFbGpBM1ppYU9rcmhrdVk5b2hKTkNNZHdyakV6Y0UzS2lJenNKS0s2SjFZdVY0cDBDUm42MnNib1BlYzZLWENheHpobzhOanc1LXVnblVHNFo1MDNtUEFjcE93T0ZIOW85VmcwWk1zOEMtcGh4NXpOSk94dVowaVlya1IzWkJxX2NOcDhtZWhVRURzeGRCWUhHV1FuNGRzSUI0bS1ERVZ3TUdhbUZGOWpwZw?oc=5",
-          "published_at": "14:42"
-        },
-        {
-          "title": "Canada explores ‘associate member’ status with EU amid US trade tensions",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/canada-explores-eu-associate-membership-as-carney-seeks-closer-ties-with-europe-amid-us-trade-war/articleshow/134200193.cms",
-          "published_at": "12:36"
-        }
-      ]
-    },
-    {
-      "id": "world-195",
-      "title": "Celine Dion makes long-awaited return to stage in Paris",
-      "title_en": "Celine Dion makes long-awaited return to stage in Paris",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Celine Dion wept tears of joy on Saturday as she fulfilled her dream of returning to the stage after years battling a rare neurological disorder, with a sell-out concert in Paris. The 58-year-old Fren",
-      "excerpt_en": "Celine Dion wept tears of joy on Saturday as she fulfilled her dream of returning to the stage after years battling a rare neurological disorder, with a sell-out concert in Paris. The 58-year-old Fren",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 50
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "SCMP",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-12T22:05:19+09:00",
-      "latest_published_at": "2026-09-12T22:54:00+09:00",
-      "articles": [
-        {
-          "title": "Celine Dion overcomes rare neurological disorder to perform first concert in 6 years",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/celine-dion-first-concert-in-6-years-rare-neurological-disorder-stiff-person-syndrome/",
-          "published_at": "22:54"
-        },
-        {
-          "title": "Celine Dion in tears during comeback concert after health battle",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/i-made-a-promise-celine-dion-moved-to-tears-during-paris-comeback-concert-13585222",
-          "published_at": "22:35"
-        },
-        {
-          "title": "Celine Dion makes long-awaited return to stage in Paris",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367327/celine-dion-makes-long-awaited-return-stage-paris?utm_source=rss_feed",
-          "published_at": "22:05"
-        }
-      ]
-    },
-    {
-      "id": "world-14",
+      "id": "world-25",
       "title": "Russia says Ukraine attacked trucks supplying fuel to Zaporizhzhia nuclear plant",
       "title_en": "Russia says Ukraine attacked trucks supplying fuel to Zaporizhzhia nuclear plant",
       "title_source": "earliest_pick",
@@ -914,14 +649,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3367343/russia-says-ukraine-attacked-trucks-supplying-fuel-zaporizhzhia-nuclear-plant?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 65,
+      "score": 64,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
+        "time_score": 2,
+        "raw75": 48
       },
       "area_value": 2,
       "article_count": 2,
@@ -932,13 +667,13 @@
         "SCMP"
       ],
       "first_published_at": "2026-09-13T07:49:37+09:00",
-      "latest_published_at": "2026-09-13T15:14:19+09:00",
+      "latest_published_at": "2026-09-13T17:26:28+09:00",
       "articles": [
         {
           "title": "Russian nuclear head says Ukraine attacked fuel trucks, endangered Zaporizhzhia plant",
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSFYySWw1NWJ0UTM5Nk9pckRNeE5Ka3JIcHVuN0JFZEtmTUJKekZyT2NXSlBVdTJPeUZrc1Q5R0o3V0hPS3dlbkZHNUpxckFJZEQ3VWVQNFVnMVYwN0dXR0lBNXpkcEdJTlVoZG9yVi1aUmoyUDdrN3VDWmxkRnF6TDZNdm9TLUhha3d3R1cySFpWd0lBMmlPcTAxZktuZFVOc1cxZExwUFBLVHNRaG1YLWZkS0JWalU0V0JJWkE1T2xDOXR4Z3p4LTR3?oc=5",
-          "published_at": "15:14"
+          "published_at": "17:26"
         },
         {
           "title": "Russia says Ukraine attacked trucks supplying fuel to Zaporizhzhia nuclear plant",
@@ -949,17 +684,17 @@
       ]
     },
     {
-      "id": "world-223",
-      "title": "2 killed in Russian city as Ukraine, Russia exchange drone strikes",
-      "title_en": "2 killed in Russian city as Ukraine, Russia exchange drone strikes",
+      "id": "world-31",
+      "title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+      "title_en": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/europe/2-killed-in-russian-city-as-ukraine-russia-exchange-drone-strikes/articleshow/134199913.cms",
-      "category": "유럽",
-      "primary_source": "Times of India",
-      "excerpt": "Civilians were killed and injured overnight into Sunday as both Russia and Ukraine kept up large-scale drone strikes.",
-      "excerpt_en": "Civilians were killed and injured overnight into Sunday as both Russia and Ukraine kept up large-scale drone strikes.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/trump-ukraine-russia-strikes-refineries/",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "New strikes on Saudi Arabia and on ships in the Gulf tested nerves ⁠in the Middle East on Sunday, after an attack on a Saudi oil pipeline and an advance by Yemen’s Houthis threatened to worsen the war",
+      "excerpt_en": "New strikes on Saudi Arabia and on ships in the Gulf tested nerves ⁠in the Middle East on Sunday, after an attack on a Saudi oil pipeline and an advance by Yemen’s Houthis threatened to worsen the war",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367372/iran-set-unveil-temporary-hormuz-agreement-gulf-nations-monday?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 63,
       "score_breakdown": {
@@ -975,38 +710,146 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
-        "Times of India"
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-13T12:23:48+09:00",
-      "latest_published_at": "2026-09-13T17:20:24+09:00",
+      "first_published_at": "2026-09-13T02:22:00+09:00",
+      "latest_published_at": "2026-09-13T18:57:50+09:00",
       "articles": [
         {
-          "title": "Trump says Ukraine needs to stop targeting Russian refineries",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/trump-ukraine-russia-strikes-refineries/",
-          "published_at": "17:20"
+          "title": "New attacks in Hormuz and Saudi Arabia test nerves as war’s spread worsens oil disruption",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367372/iran-set-unveil-temporary-hormuz-agreement-gulf-nations-monday?utm_source=rss_feed",
+          "published_at": "18:57"
         },
         {
-          "title": "2 killed in Russian city as Ukraine, Russia exchange drone strikes",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/2-killed-in-russian-city-as-ukraine-russia-exchange-drone-strikes/articleshow/134199913.cms",
-          "published_at": "12:23"
+          "title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+          "published_at": "02:22"
         }
       ]
     },
     {
-      "id": "world-20",
-      "title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
-      "title_en": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+      "id": "world-66",
+      "title": "US beats spirited France to win 12th women's basketball World Cup",
+      "title_en": "US beats spirited France to win 12th women's basketball World Cup",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
-      "category": "중동",
+      "title_url": "https://www.france24.com/en/sport/20260913-us-beats-spirited-france-to-win-12th-women-s-basketball-world-cup",
+      "category": "유럽",
+      "primary_source": "France24",
+      "excerpt": "The United States defeated a spirited France 97-79 in the 12th women's basketball World Cup final in Berlin on Sunday, winning for a record-extending 12th time. Playing in their first ever World Cup f",
+      "excerpt_en": "The United States defeated a spirited France 97-79 in the 12th women's basketball World Cup final in Berlin on Sunday, winning for a record-extending 12th time. Playing in their first ever World Cup f",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/sport/20260913-us-beats-spirited-france-to-win-12th-women-s-basketball-world-cup",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia",
+        "France24"
+      ],
+      "first_published_at": "2026-09-13T16:29:10+09:00",
+      "latest_published_at": "2026-09-13T21:12:11+09:00",
+      "articles": [
+        {
+          "title": "USA defeat France to win 12th FIBA Women’s Basketball World Cup",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/13/usa-defeat-france-to-win-12th-fiba-womens-basketball-world-cup?traffic_source=rss",
+          "published_at": "21:12"
+        },
+        {
+          "title": "USA overcome 14-point deficit, beat France 97-79 to win Women's World Cup",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/usa-overcome-14-point-deficit-beat-france-97-79-win-womens-world-cup-6381771",
+          "published_at": "20:04"
+        },
+        {
+          "title": "US beats spirited France to win 12th women's basketball World Cup",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/sport/20260913-us-beats-spirited-france-to-win-12th-women-s-basketball-world-cup",
+          "published_at": "16:29"
+        }
+      ]
+    },
+    {
+      "id": "world-74",
+      "title": "Sweden votes in tight election that could see far-right party enter government",
+      "title_en": "Sweden votes in tight election that could see far-right party enter government",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/sweden-votes-in-tight-election-that-could-see-far-right-party-enter-government-13585281",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "Swedes are voting in a closely fought general election that could see the far-right Sweden Democrats enter government for the first time. With immigration, crime and the economy dominating the campaig",
+      "excerpt_en": "Swedes are voting in a closely fought general election that could see the far-right Sweden Democrats enter government for the first time. With immigration, crime and the economy dominating the campaig",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/sweden-tight-election-puts-all-eyes-on-the-far-right",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "France24",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-13T09:01:00+09:00",
+      "latest_published_at": "2026-09-13T19:58:11+09:00",
+      "articles": [
+        {
+          "title": "Swedes vote in election that could see far-right in government",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/swedes-vote-in-election-that-could-see-far-right-in-government?traffic_source=rss",
+          "published_at": "19:58"
+        },
+        {
+          "title": "Sweden: Tight election puts all eyes on the far right",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/sweden-tight-election-puts-all-eyes-on-the-far-right",
+          "published_at": "15:55"
+        },
+        {
+          "title": "Sweden votes in tight election that could see far-right party enter government",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/sweden-votes-in-tight-election-that-could-see-far-right-party-enter-government-13585281",
+          "published_at": "09:01"
+        }
+      ]
+    },
+    {
+      "id": "world-11",
+      "title": "Trump tells Ukraine's Zelenskiy to stop hitting Russian diesel",
+      "title_en": "Trump tells Ukraine's Zelenskiy to stop hitting Russian diesel",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN1o5cTJrWHRkQWxRa1JJbWp5SXc1bENTNS1MU3JJMHlGOWhtUnlaZEhqcG5MNE5MZHBhaE56OW9aNm81SWpYcmVaaFY4QS1Dc25OZXdrS3VYdnRiTnFLN05NTUFoemdCQjFxZ1NaUWlzQ3A5bmhWbzdTWGpJXzRSdFMyTGYzeTBuc21pS0kzbldZQ1plNDRsNDlPYjBGN01La0xwc0I2Z1lBU1lILUJv?oc=5",
+      "category": "유럽",
       "primary_source": "Reuters",
-      "excerpt": "In the latest incidents in the Gulf, the British maritime security agency ‌UKMTO said on Sunday that a vessel had been struck by a projectile as it moved through the Strait of Hormuz, causing a fire a",
-      "excerpt_en": "In the latest incidents in the Gulf, the British maritime security agency ‌UKMTO said on Sunday that a vessel had been struck by a projectile as it moved through the Strait of Hormuz, causing a fire a",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/attack-strait-hormuz-shipping-oil-6381001",
+      "excerpt": "The US president says Ukraine's attacks on Russian diesel infrastructure are contributing to global fuel shortages.",
+      "excerpt_en": "The US president says Ukraine's attacks on Russian diesel infrastructure are contributing to global fuel shortages.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/economy/2026/9/13/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-supplies?traffic_source=rss",
       "translation_status": "failed",
       "score": 61,
       "score_breakdown": {
@@ -1022,94 +865,94 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Al Jazeera",
         "Reuters"
       ],
-      "first_published_at": "2026-09-13T02:22:00+09:00",
-      "latest_published_at": "2026-09-13T08:17:00+09:00",
+      "first_published_at": "2026-09-13T17:12:06+09:00",
+      "latest_published_at": "2026-09-13T18:15:12+09:00",
       "articles": [
         {
-          "title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/attack-strait-hormuz-shipping-oil-6381001",
-          "published_at": "08:17"
+          "title": "Trump tells Zelenskyy to stop hitting Russian diesel supplies",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/13/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-supplies?traffic_source=rss",
+          "published_at": "18:15"
         },
         {
-          "title": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+          "title": "Trump tells Ukraine's Zelenskiy to stop hitting Russian diesel",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
-          "published_at": "02:22"
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN1o5cTJrWHRkQWxRa1JJbWp5SXc1bENTNS1MU3JJMHlGOWhtUnlaZEhqcG5MNE5MZHBhaE56OW9aNm81SWpYcmVaaFY4QS1Dc25OZXdrS3VYdnRiTnFLN05NTUFoemdCQjFxZ1NaUWlzQ3A5bmhWbzdTWGpJXzRSdFMyTGYzeTBuc21pS0kzbldZQ1plNDRsNDlPYjBGN01La0xwc0I2Z1lBU1lILUJv?oc=5",
+          "published_at": "17:12"
         }
       ]
     },
     {
-      "id": "world-3",
-      "title": "Trump says 'very negative forces' raising exaggerated concerns over AI",
-      "title_en": "Trump says 'very negative forces' raising exaggerated concerns over AI",
+      "id": "world-15",
+      "title": "4% of global oil supply at risk as Saudi shuts major pipeline amid Houthis' attacks. What it means for India",
+      "title_en": "4% of global oil supply at risk as Saudi shuts major pipeline amid Houthis' attacks. What it means for India",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/trump-ai-concerns-negative-forces-6381456",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "The public debate about AI has heated up in the US after two Anthropic researchers issued warnings that the rapidly progressing technology could lead to the extinction of the human race ‌in the not-to",
-      "excerpt_en": "The public debate about AI has heated up in the US after two Anthropic researchers issued warnings that the rapidly progressing technology could lead to the extinction of the human race ‌in the not-to",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/trump-ai-concerns-negative-forces-6381456",
+      "title_url": "https://www.hindustantimes.com/world-news/4-percent-of-global-oil-supply-at-risk-as-saudi-shuts-major-pipeline-amid-houthis-attacks-what-it-means-for-india-101789307408014.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Houthis’ Red Sea gains could disrupt Saudi oil exports, threatening global supply and pushing crude prices higher again.",
+      "excerpt_en": "Houthis’ Red Sea gains could disrupt Saudi oil exports, threatening global supply and pushing crude prices higher again.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/4-percent-of-global-oil-supply-at-risk-as-saudi-shuts-major-pipeline-amid-houthis-attacks-what-it-means-for-india-101789307408014.html",
       "translation_status": "failed",
-      "score": 55,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-09-13T15:42:00+09:00",
-      "latest_published_at": "2026-09-13T16:58:17+09:00",
+      "first_published_at": "2026-09-13T14:49:28+09:00",
+      "latest_published_at": "2026-09-13T17:09:24+09:00",
       "articles": [
         {
-          "title": "Trump says 'very negative forces' raising exaggerated concerns over AI",
+          "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObThfSFpBRlQ0d1ZsVDV4SnZQdlJkYWZnRTlQRlpKWmRud283dWJQclhHQUUxM1dHSzVJakIxVnVBc2pYU0R2TmdUT01PSkJiY3I3WFRHUGNZNUh5RVdtRGk4QUppT1hVV0dHbDdwdGQzc0ZyZlRxeTUzNjg1UUY3RHpiR0JUOUpCdlV4b2xNd01FaEluMXhZZTA4eV9Gd0gxYW02eWprV05hRUREYWVGZUZLcHZWZWpa?oc=5",
-          "published_at": "16:58"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3FTbnBqRHlWOWIwM29yRVE2dmJnTlJOcVY0RV9oMFdYRm1WcXhCZThObGp5d1lHdE9GQVBkM080dlhZT0VleG1BUm1kOHpWbEJPZUcwTnNIaEJ2ZnpsZWJyd0RpWjdMcUpGMFotNnRmQ3lMeFRpMC1mUnlxbm1nVlFMSGdMWC1LU3lBMGZlOGoyN21QZWh3dU0yM3hVUU1pMDQ2RDdWRUJFcy0t?oc=5",
+          "published_at": "17:09"
         },
         {
-          "title": "Trump says 'very negative forces' raising exaggerated concerns over AI",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/trump-ai-concerns-negative-forces-6381456",
-          "published_at": "15:42"
+          "title": "4% of global oil supply at risk as Saudi shuts major pipeline amid Houthis' attacks. What it means for India",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/4-percent-of-global-oil-supply-at-risk-as-saudi-shuts-major-pipeline-amid-houthis-attacks-what-it-means-for-india-101789307408014.html",
+          "published_at": "14:49"
         }
       ]
     },
     {
-      "id": "world-22",
-      "title": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists",
-      "title_en": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists",
+      "id": "world-48",
+      "title": "Trump calls on Zelenskyy to halt Ukraine strikes on Russian diesel, saying attacks are causing a shortage",
+      "title_en": "Trump calls on Zelenskyy to halt Ukraine strikes on Russian diesel, saying attacks are causing a shortage",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUJlelpFdUZqRVRxdDJ6c3ZhQzE5RmNXTmp2ME8tWG80WWxPcGhDU194V2lyM2tNXzhxY1c5clo4dUZOdmItRk5jTGdMRXlwR3dNS25uZk5pejNDVGFTbzlRc2V3Y0ZQSDlYRUcyaFA4OGhMOVMzcXlSUlhSMlZCeThPX0ozTVhWQW1lYmpHMWJmejB2YVN0T1BLV0s?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists Reuters",
-      "excerpt_en": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUJlelpFdUZqRVRxdDJ6c3ZhQzE5RmNXTmp2ME8tWG80WWxPcGhDU194V2lyM2tNXzhxY1c5clo4dUZOdmItRk5jTGdMRXlwR3dNS25uZk5pejNDVGFTbzlRc2V3Y0ZQSDlYRUcyaFA4OGhMOVMzcXlSUlhSMlZCeThPX0ozTVhWQW1lYmpHMWJmejB2YVN0T1BLV0s?oc=5",
+      "title_url": "https://abcnews.com/International/wireStory/trump-calls-zelenskyy-halt-ukraine-strikes-russian-diesel-136402455",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "Trump calls on Zelenskyy to halt Ukraine strikes on Russian diesel, saying attacks are causing a shortage",
+      "excerpt_en": "Trump calls on Zelenskyy to halt Ukraine strikes on Russian diesel, saying attacks are causing a shortage",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/trump-calls-zelenskyy-halt-ukraine-strikes-russian-diesel-136402455",
       "translation_status": "failed",
-      "score": 55,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1117,27 +960,356 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "Reuters"
+        "AP News"
       ],
-      "first_published_at": "2026-09-13T14:15:12+09:00",
-      "latest_published_at": "2026-09-13T15:36:48+09:00",
+      "first_published_at": "2026-09-13T15:37:21+09:00",
+      "latest_published_at": "2026-09-13T17:04:00+09:00",
       "articles": [
         {
-          "title": "Kosovo gets new government but political impasse persists",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/kosovo-gets-new-government-political-impasse-persists-136404108",
-          "published_at": "15:36"
+          "title": "Trump calls on Ukraine to halt strikes on Russian diesel fuel, saying attacks causing a shortage",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLS1ZV0kyb2w5c2szWC15SGgxZGVsMXM4dDNiVkdTdmRPcV9kQ001dnpkODMya0xkTWQtLWhoYzZsdlFUVFV5SnJaVGpUbUNaaW4xNEN0VTVGdDlRempoRzhMYV9PcGo0UWhjUkhlZnJMRHVVVzB6WDBybXVMY1dfM181b3JYXzZIclJpU0xHbjRPdVpmUUJpbHFvdTYwdHFOWUVVYmp2M3hsN1hhcGJSbGRSV1Vqak0?oc=5",
+          "published_at": "17:04"
         },
         {
-          "title": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUJlelpFdUZqRVRxdDJ6c3ZhQzE5RmNXTmp2ME8tWG80WWxPcGhDU194V2lyM2tNXzhxY1c5clo4dUZOdmItRk5jTGdMRXlwR3dNS25uZk5pejNDVGFTbzlRc2V3Y0ZQSDlYRUcyaFA4OGhMOVMzcXlSUlhSMlZCeThPX0ozTVhWQW1lYmpHMWJmejB2YVN0T1BLV0s?oc=5",
-          "published_at": "14:15"
+          "title": "Trump calls on Zelenskyy to halt Ukraine strikes on Russian diesel, saying attacks are causing a shortage",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/trump-calls-zelenskyy-halt-ukraine-strikes-russian-diesel-136402455",
+          "published_at": "15:37"
         }
       ]
     },
     {
-      "id": "world-109",
+      "id": "world-102",
+      "title": "Senior Western figures at Ukraine station before Russia train strike, rail operator says",
+      "title_en": "Senior Western figures at Ukraine station before Russia train strike, rail operator says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3367370/senior-western-figures-ukraine-station-russia-train-strike-rail-operator-says?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Ukraine’s state railway operator said top Western figures – including former UK prime minister Boris Johnson and ex-CIA director David Petraeus – were at a west Ukrainian railway station just before R",
+      "excerpt_en": "Ukraine’s state railway operator said top Western figures – including former UK prime minister Boris Johnson and ex-CIA director David Petraeus – were at a west Ukrainian railway station just before R",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3367370/senior-western-figures-ukraine-station-russia-train-strike-rail-operator-says?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-13T17:35:57+09:00",
+      "latest_published_at": "2026-09-13T17:59:11+09:00",
+      "articles": [
+        {
+          "title": "Ukraine, Poland condemn Russia after drone strikes train near border",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20260913-poland-ukraine-slam-russian-strikes-near-border-as-escalation",
+          "published_at": "17:59"
+        },
+        {
+          "title": "Senior Western figures at Ukraine station before Russia train strike, rail operator says",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3367370/senior-western-figures-ukraine-station-russia-train-strike-rail-operator-says?utm_source=rss_feed",
+          "published_at": "17:35"
+        }
+      ]
+    },
+    {
+      "id": "world-0",
+      "title": "Memorial statue of conservative activist Charlie Kirk vandalized",
+      "title_en": "Memorial statue of conservative activist Charlie Kirk vandalized",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaTBGV2pRTnJFY0VoQXZqRnBIZjVCd0ZDQTVudF9DNjZ4aEhlV1U3dUpPOWpFUlFpZmlYSUZkMW9Cb0Vjc29scFF6UURFNkZwX0dtNjNqY3RYUGE3eGxzc1lxWGtBNkRVejZ6TjVsR2RIQ0dpbVphNTYxVXROT2d3cnhFam5lMDhDYkM5OGVfR3FCR1c2TzhZY20wQ0RpNmU3b2ExRUxlTmZ4UQ?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "The 8ft statue, installed in Phoenix last week to mark one year since Kirk’s killing, was found painted red A newly unveiled statue of the rightwing activist Charlie Kirk was vandalized at the Turning",
+      "excerpt_en": "The 8ft statue, installed in Phoenix last week to mark one year since Kirk’s killing, was found painted red A newly unveiled statue of the rightwing activist Charlie Kirk was vandalized at the Turning",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/13/charlie-kirk-statue-vandalized-tpusa-arizona",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-13T19:40:26+09:00",
+      "latest_published_at": "2026-09-13T20:51:48+09:00",
+      "articles": [
+        {
+          "title": "New Charlie Kirk statue vandalized at Turning Point USA headquarters",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/13/charlie-kirk-statue-vandalized-tpusa-arizona",
+          "published_at": "20:51"
+        },
+        {
+          "title": "Memorial statue of conservative activist Charlie Kirk vandalized",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaTBGV2pRTnJFY0VoQXZqRnBIZjVCd0ZDQTVudF9DNjZ4aEhlV1U3dUpPOWpFUlFpZmlYSUZkMW9Cb0Vjc29scFF6UURFNkZwX0dtNjNqY3RYUGE3eGxzc1lxWGtBNkRVejZ6TjVsR2RIQ0dpbVphNTYxVXROT2d3cnhFam5lMDhDYkM5OGVfR3FCR1c2TzhZY20wQ0RpNmU3b2ExRUxlTmZ4UQ?oc=5",
+          "published_at": "19:40"
+        }
+      ]
+    },
+    {
+      "id": "world-6",
+      "title": "Trump says he will consider request to release more 9/11 records",
+      "title_en": "Trump says he will consider request to release more 9/11 records",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYVpvSjF5YkNleDZJaTA3TkVFZ2gtSUQ2TEVWWnBqOE5iUjRwRzNtSTdTbFBYUnR6YkhqdU0wQV9aZUNrSXAzTG1GTnM1dnNUZHRxbTdTZ0lWd1BROEo4Rjg4d3NvREJUTDloQUJzLVJmU3NzUHBnMjFtU0NlNTQtQ19XMkhLc0ZDRU5QS2dmSWRXNlBudjdtVXRHUWtNaDhGVlhrMQ?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "Trump says he will consider request to release more 9/11 records Reuters",
+      "excerpt_en": "Trump says he will consider request to release more 9/11 records Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYVpvSjF5YkNleDZJaTA3TkVFZ2gtSUQ2TEVWWnBqOE5iUjRwRzNtSTdTbFBYUnR6YkhqdU0wQV9aZUNrSXAzTG1GTnM1dnNUZHRxbTdTZ0lWd1BROEo4Rjg4d3NvREJUTDloQUJzLVJmU3NzUHBnMjFtU0NlNTQtQ19XMkhLc0ZDRU5QS2dmSWRXNlBudjdtVXRHUWtNaDhGVlhrMQ?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-13T20:32:56+09:00",
+      "latest_published_at": "2026-09-13T21:35:00+09:00",
+      "articles": [
+        {
+          "title": "Trump says he will consider request to release more 9/11 records",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-says-he-will-consider-request-release-more-911-records-6381901",
+          "published_at": "21:35"
+        },
+        {
+          "title": "Trump says he will consider request to release more 9/11 records",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYVpvSjF5YkNleDZJaTA3TkVFZ2gtSUQ2TEVWWnBqOE5iUjRwRzNtSTdTbFBYUnR6YkhqdU0wQV9aZUNrSXAzTG1GTnM1dnNUZHRxbTdTZ0lWd1BROEo4Rjg4d3NvREJUTDloQUJzLVJmU3NzUHBnMjFtU0NlNTQtQ19XMkhLc0ZDRU5QS2dmSWRXNlBudjdtVXRHUWtNaDhGVlhrMQ?oc=5",
+          "published_at": "20:32"
+        }
+      ]
+    },
+    {
+      "id": "world-9",
+      "title": "Trump says US could stay in Iran and keep oil, like Venezuela deal",
+      "title_en": "Trump says US could stay in Iran and keep oil, like Venezuela deal",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Trump says US could stay in Iran and keep oil, like Venezuela deal Reuters",
+      "excerpt_en": "Trump says US could stay in Iran and keep oil, like Venezuela deal Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-13T15:28:53+09:00",
+      "latest_published_at": "2026-09-13T21:21:00+09:00",
+      "articles": [
+        {
+          "title": "Trump says US could stay in Iran and keep oil, like Venezuela deal",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-says-us-could-stay-in-iran-and-keep-oil-venezuela-deal-6381856",
+          "published_at": "21:21"
+        },
+        {
+          "title": "Trump says US could stay in Iran and keep oil, like Venezuela deal",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+          "published_at": "15:28"
+        }
+      ]
+    },
+    {
+      "id": "world-49",
+      "title": "Trump says he plans to remove a 10% tariff on Irish whiskey",
+      "title_en": "Trump says he plans to remove a 10% tariff on Irish whiskey",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-says-he-plans-to-remove-a-10-tariff-on-irish-whiskey-101789325643857.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Trump says he's lifting a 10% tariff on Irish whiskey because 'everybody's been bugging me' about it AP News",
+      "excerpt_en": "Trump says he's lifting a 10% tariff on Irish whiskey because 'everybody's been bugging me' about it AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbGxnLXB4NGxDZEpHdHRsSGVZaTlqTTJZYkRJc3NSLVFkQmJRNUxDTmxfSC1lR2FIWW5RRUlkckN1OExobThVWkdxLVZGU3FwblBxci1qWFVyR3NxOHFBZVJxbFRZVjcwSGx4MjJla0VySTlPWmVWdkNLbkdGUkYwTmNIMk0wX2VvWDl5dGwtdUk?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-13T18:54:03+09:00",
+      "latest_published_at": "2026-09-13T21:24:00+09:00",
+      "articles": [
+        {
+          "title": "Trump says he's lifting a 10% tariff on Irish whiskey because 'everybody's been bugging me' about it",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbGxnLXB4NGxDZEpHdHRsSGVZaTlqTTJZYkRJc3NSLVFkQmJRNUxDTmxfSC1lR2FIWW5RRUlkckN1OExobThVWkdxLVZGU3FwblBxci1qWFVyR3NxOHFBZVJxbFRZVjcwSGx4MjJla0VySTlPWmVWdkNLbkdGUkYwTmNIMk0wX2VvWDl5dGwtdUk?oc=5",
+          "published_at": "21:24"
+        },
+        {
+          "title": "Trump says he plans to remove a 10% tariff on Irish whiskey",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-says-he-plans-to-remove-a-10-tariff-on-irish-whiskey-101789325643857.html",
+          "published_at": "18:54"
+        }
+      ]
+    },
+    {
+      "id": "world-51",
+      "title": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
+      "title_en": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "US President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he worried about ceding America’s edge over China in a globa",
+      "excerpt_en": "US President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he worried about ceding America’s edge over China in a globa",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-13T19:27:47+09:00",
+      "latest_published_at": "2026-09-13T20:26:00+09:00",
+      "articles": [
+        {
+          "title": "Trump downplays the need to check AI development and says he doesn't want to cede edge to China",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOamh3ZzlxNlU2NTItT2hQNnladG9CS1I0QlZHMm9YcnE1X2RPTERiMS1oME9wc1UzUHloY3JDNDFLa3VQSEcybzlMUG1xVG5xV1BGS0V2Ym1ScGoyd1BaVlZwdGl4c1lzNDUxZkpzaXFOSDl5ZHhoUklLQ3drWG5QenVlRUk5amRfWjBPRHVfSUNxaUJ2aUwxS25CZ3JUQ1RxNkEzN3VYdThBX1RsdEpTa3d1N2JwUFZwblpjajFCOEpvQQ?oc=5",
+          "published_at": "20:26"
+        },
+        {
+          "title": "Trump downplays need to check AI development, says he is unwilling to cede edge to China",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367374/trump-downplays-need-check-ai-development-says-he-unwilling-cede-edge-china?utm_source=rss_feed",
+          "published_at": "19:27"
+        }
+      ]
+    },
+    {
+      "id": "world-78",
+      "title": "Centre-left opposition parties have narrow lead in Swedish vote, poll shows",
+      "title_en": "Centre-left opposition parties have narrow lead in Swedish vote, poll shows",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3367356/sweden-votes-over-immigration-right-wing-bloc-gains-traction?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Sweden’s centre-left parties, which back Social Democrat leader Magdalena Andersson for prime minister, held an early lead at 51.3 per cent in a parliamentary election on Sunday, an exit poll by broad",
+      "excerpt_en": "Sweden’s centre-left parties, which back Social Democrat leader Magdalena Andersson for prime minister, held an early lead at 51.3 per cent in a parliamentary election on Sunday, an exit poll by broad",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367356/sweden-votes-over-immigration-right-wing-bloc-gains-traction?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-13T10:59:05+09:00",
+      "latest_published_at": "2026-09-13T19:25:59+09:00",
+      "articles": [
+        {
+          "title": "Centre-left opposition bloc leads in Swedish vote, poll shows",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/centre-left-opposition-bloc-leads-in-swedish-vote-poll-shows?traffic_source=rss",
+          "published_at": "19:25"
+        },
+        {
+          "title": "Centre-left opposition parties have narrow lead in Swedish vote, poll shows",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3367356/sweden-votes-over-immigration-right-wing-bloc-gains-traction?utm_source=rss_feed",
+          "published_at": "10:59"
+        }
+      ]
+    },
+    {
+      "id": "world-117",
       "title": "‘This is our home’: German minorities defy far-right AfD’s culture of fear after election win",
       "title_en": "‘This is our home’: German minorities defy far-right AfD’s culture of fear after election win",
       "title_source": "earliest_pick",
@@ -1184,54 +1356,154 @@
       ]
     },
     {
-      "id": "world-216",
-      "title": "1 dead after Iranian commercial ship struck near Strait of Hormuz, Iranian media say",
-      "title_en": "1 dead after Iranian commercial ship struck near Strait of Hormuz, Iranian media say",
+      "id": "world-206",
+      "title": "Trump $5,000 dividend: Will Americans get checks before 2026 midterm elections?",
+      "title_en": "Trump $5,000 dividend: Will Americans get checks before 2026 midterm elections?",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/iranian-commercial-ship-struck-near-strait-of-hormuz-9.7342136?cmp=rss",
-      "category": "중동",
-      "primary_source": "CBC",
-      "excerpt": "State-run IRNA news agency quoted the Qeshm governor as blaming a \"terrorist enemy.\" He also said the person killed was among the cargo vessel's 10-member crew, and that authorities had not yet identi",
-      "excerpt_en": "State-run IRNA news agency quoted the Qeshm governor as blaming a \"terrorist enemy.\" He also said the person killed was among the cargo vessel's 10-member crew, and that authorities had not yet identi",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/iranian-commercial-ship-struck-near-strait-of-hormuz-9.7342136?cmp=rss",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-5-000-dividend-will-americans-get-checks-before-2026-midterm-elections-101789295001846.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Mike Johnson won't guarantee Trump's $5,000 checks as Congress must approve the plan, raising questions about funding, eligibility and the 2026 midterms.",
+      "excerpt_en": "Mike Johnson won't guarantee Trump's $5,000 checks as Congress must approve the plan, raising questions about funding, eligibility and the 2026 midterms.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/mike-johnson-won-t-guarantee-trump-s-5-000-checks-will-americans-get-the-money-101789323075675.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
-        "article_score": 12,
+        "article_score": 18,
         "diversity_score": 10,
         "major_score": 10,
-        "breaking_score": 7,
+        "breaking_score": 1,
         "time_score": 2,
         "raw75": 41
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-13T11:04:53+09:00",
+      "latest_published_at": "2026-09-13T18:46:08+09:00",
+      "articles": [
+        {
+          "title": "Mike Johnson won’t guarantee Trump’s $5,000 checks — Will Americans get the money?",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mike-johnson-won-t-guarantee-trump-s-5-000-checks-will-americans-get-the-money-101789323075675.html",
+          "published_at": "18:46"
+        },
+        {
+          "title": "Mike Johnson leads Republicans in skeptical response to Trump’s $5,000 election ‘bribe’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/mike-johnson-trump-dividend-midterms-b3049448.html",
+          "published_at": "17:43"
+        },
+        {
+          "title": "Trump $5,000 dividend: Will Americans get checks before 2026 midterm elections?",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-5-000-dividend-will-americans-get-checks-before-2026-midterm-elections-101789295001846.html",
+          "published_at": "11:04"
+        }
+      ]
+    },
+    {
+      "id": "world-17",
+      "title": "Carney pushes idea of making Canada 'associate member' of EU, WSJ reports",
+      "title_en": "Carney pushes idea of making Canada 'associate member' of EU, WSJ reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Y5U2xFbGpBM1ppYU9rcmhrdVk5b2hKTkNNZHdyakV6Y0UzS2lJenNKS0s2SjFZdVY0cDBDUm42MnNib1BlYzZLWENheHpobzhOanc1LXVnblVHNFo1MDNtUEFjcE93T0ZIOW85VmcwWk1zOEMtcGh4NXpOSk94dVowaVlya1IzWkJxX2NOcDhtZWhVRURzeGRCWUhHV1FuNGRzSUI0bS1ERVZ3TUdhbUZGOWpwZw?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Canada’s Prime ⁠Minister Mark Carney wants a closer ⁠relationship with the European Union and is ⁠exploring whether his country could become an “associate member” of the bloc, the Wall Street Journal ",
+      "excerpt_en": "Canada’s Prime ⁠Minister Mark Carney wants a closer ⁠relationship with the European Union and is ⁠exploring whether his country could become an “associate member” of the bloc, the Wall Street Journal ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367369/carney-pushes-idea-making-canada-associate-member-eu-reports?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBC",
-        "Euronews"
+        "Reuters",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-13T09:08:16+09:00",
-      "latest_published_at": "2026-09-13T11:09:00+09:00",
+      "first_published_at": "2026-09-13T16:22:21+09:00",
+      "latest_published_at": "2026-09-13T16:48:55+09:00",
       "articles": [
         {
-          "title": "Iran claims one killed in US attack on Iranian commercial ship in Hormuz",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/13/one-person-killed-after-ship-struck-in-the-strait-of-hormuz-iranian-authorities-say",
-          "published_at": "11:09"
+          "title": "Carney pushes idea of making Canada an ‘associate member’ of the EU: reports",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367369/carney-pushes-idea-making-canada-associate-member-eu-reports?utm_source=rss_feed",
+          "published_at": "16:48"
         },
         {
-          "title": "1 dead after Iranian commercial ship struck near Strait of Hormuz, Iranian media say",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/iranian-commercial-ship-struck-near-strait-of-hormuz-9.7342136?cmp=rss",
-          "published_at": "09:08"
+          "title": "Carney pushes idea of making Canada 'associate member' of EU, WSJ reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Y5U2xFbGpBM1ppYU9rcmhrdVk5b2hKTkNNZHdyakV6Y0UzS2lJenNKS0s2SjFZdVY0cDBDUm42MnNib1BlYzZLWENheHpobzhOanc1LXVnblVHNFo1MDNtUEFjcE93T0ZIOW85VmcwWk1zOEMtcGh4NXpOSk94dVowaVlya1IzWkJxX2NOcDhtZWhVRURzeGRCWUhHV1FuNGRzSUI0bS1ERVZ3TUdhbUZGOWpwZw?oc=5",
+          "published_at": "16:22"
         }
       ]
     },
     {
-      "id": "world-10",
+      "id": "world-19",
+      "title": "Lowry delights home fans and cheering Trump with Irish Open win",
+      "title_en": "Lowry delights home fans and cheering Trump with Irish Open win",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/sport/lowry-delights-home-fans-and-cheering-trump-irish-open-win-6381681",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Golf Lowry delights home fans and cheering Trump with Irish Open win Reuters",
+      "excerpt_en": "Golf Lowry delights home fans and cheering Trump with Irish Open win Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVVaVXBRU3gyUjBZc2FWc185OEllS1BMcWtaNkpwMW9wcTdCSTYtbGlqWHNrTUdqMjRVcWlkMHFxcXZZc0ZOWGROeTd4TFZMSzFTR1p2RFNYVGNXYXA4b1BBRHpLTXktSjQyQWMxb1pHMXpuUGFHSzdfQzl5X2g3b2JXRDdJU3hxRWthdEU5V3FTUFhyUHRjZU5JV2w5NmZUaExnaXcwRW1tQ1RpN2VCY0lB?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-13T18:32:10+09:00",
+      "latest_published_at": "2026-09-13T18:32:56+09:00",
+      "articles": [
+        {
+          "title": "Golf Lowry delights home fans and cheering Trump with Irish Open win",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVVaVXBRU3gyUjBZc2FWc185OEllS1BMcWtaNkpwMW9wcTdCSTYtbGlqWHNrTUdqMjRVcWlkMHFxcXZZc0ZOWGROeTd4TFZMSzFTR1p2RFNYVGNXYXA4b1BBRHpLTXktSjQyQWMxb1pHMXpuUGFHSzdfQzl5X2g3b2JXRDdJU3hxRWthdEU5V3FTUFhyUHRjZU5JV2w5NmZUaExnaXcwRW1tQ1RpN2VCY0lB?oc=5",
+          "published_at": "18:32"
+        },
+        {
+          "title": "Lowry delights home fans and cheering Trump with Irish Open win",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/lowry-delights-home-fans-and-cheering-trump-irish-open-win-6381681",
+          "published_at": "18:32"
+        }
+      ]
+    },
+    {
+      "id": "world-21",
       "title": "Turkey detains 26 people in latest raids targeting LGBTQ+ groups",
       "title_en": "Turkey detains 26 people in latest raids targeting LGBTQ+ groups",
       "title_source": "earliest_pick",
@@ -1278,7 +1550,7 @@
       ]
     },
     {
-      "id": "world-11",
+      "id": "world-24",
       "title": "Drugs marked with Gaddafi's face seized in Libya",
       "title_en": "Drugs marked with Gaddafi's face seized in Libya",
       "title_source": "earliest_pick",
@@ -1325,17 +1597,17 @@
       ]
     },
     {
-      "id": "world-29",
-      "title": "Obama voices caution on AI, urges Democrats to tackle it, NYT says",
-      "title_en": "Obama voices caution on AI, urges Democrats to tackle it, NYT says",
+      "id": "world-35",
+      "title": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists",
+      "title_en": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2lvbFRfNmtTMXkzMlE0RVpXbzdzSmRLdjkyMzcweEM3TXZXM09tWENaVXNBelc5NWtGcm5WUG9jc1dkM1hRZzRtakdoR2EzWEZURy13NDhZcHpEczBJLTVLY3BDSXY5ZmhrTGUtYjdpUjFxaEhYNEthMS1OSF91NkRoSzFna0JpSlBRWnFZaWZ5MFpuMzZTNGNPTTdqVVNjVUQ1ZExRdkUwRllZd1lsMQ?oc=5",
-      "category": "미국",
+      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUJlelpFdUZqRVRxdDJ6c3ZhQzE5RmNXTmp2ME8tWG80WWxPcGhDU194V2lyM2tNXzhxY1c5clo4dUZOdmItRk5jTGdMRXlwR3dNS25uZk5pejNDVGFTbzlRc2V3Y0ZQSDlYRUcyaFA4OGhMOVMzcXlSUlhSMlZCeThPX0ozTVhWQW1lYmpHMWJmejB2YVN0T1BLV0s?oc=5",
+      "category": "기타",
       "primary_source": "Reuters",
-      "excerpt": "Obama voices caution on AI, urges Democrats to tackle it, NYT says Reuters",
-      "excerpt_en": "Obama voices caution on AI, urges Democrats to tackle it, NYT says Reuters",
+      "excerpt": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists Reuters",
+      "excerpt_en": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2lvbFRfNmtTMXkzMlE0RVpXbzdzSmRLdjkyMzcweEM3TXZXM09tWENaVXNBelc5NWtGcm5WUG9jc1dkM1hRZzRtakdoR2EzWEZURy13NDhZcHpEczBJLTVLY3BDSXY5ZmhrTGUtYjdpUjFxaEhYNEthMS1OSF91NkRoSzFna0JpSlBRWnFZaWZ5MFpuMzZTNGNPTTdqVVNjVUQ1ZExRdkUwRllZd1lsMQ?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUJlelpFdUZqRVRxdDJ6c3ZhQzE5RmNXTmp2ME8tWG80WWxPcGhDU194V2lyM2tNXzhxY1c5clo4dUZOdmItRk5jTGdMRXlwR3dNS25uZk5pejNDVGFTbzlRc2V3Y0ZQSDlYRUcyaFA4OGhMOVMzcXlSUlhSMlZCeThPX0ozTVhWQW1lYmpHMWJmejB2YVN0T1BLV0s?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1351,28 +1623,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "ABC News",
         "Reuters"
       ],
-      "first_published_at": "2026-09-13T05:27:00+09:00",
-      "latest_published_at": "2026-09-13T05:27:13+09:00",
+      "first_published_at": "2026-09-13T14:15:12+09:00",
+      "latest_published_at": "2026-09-13T15:36:48+09:00",
       "articles": [
         {
-          "title": "Obama voices caution on AI, urges Democrats to tackle it, NYT says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/obama-voices-caution-ai-urges-democrats-tackle-it-nyt-says-6381111",
-          "published_at": "05:27"
+          "title": "Kosovo gets new government but political impasse persists",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/kosovo-gets-new-government-political-impasse-persists-136404108",
+          "published_at": "15:36"
         },
         {
-          "title": "Obama voices caution on AI, urges Democrats to tackle it, NYT says",
+          "title": "Kosovo parliament re-elects Albin Kurti as prime minister, political crisis persists",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2lvbFRfNmtTMXkzMlE0RVpXbzdzSmRLdjkyMzcweEM3TXZXM09tWENaVXNBelc5NWtGcm5WUG9jc1dkM1hRZzRtakdoR2EzWEZURy13NDhZcHpEczBJLTVLY3BDSXY5ZmhrTGUtYjdpUjFxaEhYNEthMS1OSF91NkRoSzFna0JpSlBRWnFZaWZ5MFpuMzZTNGNPTTdqVVNjVUQ1ZExRdkUwRllZd1lsMQ?oc=5",
-          "published_at": "05:27"
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUJlelpFdUZqRVRxdDJ6c3ZhQzE5RmNXTmp2ME8tWG80WWxPcGhDU194V2lyM2tNXzhxY1c5clo4dUZOdmItRk5jTGdMRXlwR3dNS25uZk5pejNDVGFTbzlRc2V3Y0ZQSDlYRUcyaFA4OGhMOVMzcXlSUlhSMlZCeThPX0ozTVhWQW1lYmpHMWJmejB2YVN0T1BLV0s?oc=5",
+          "published_at": "14:15"
         }
       ]
     },
     {
-      "id": "world-40",
+      "id": "world-45",
       "title": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
       "title_en": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
       "title_source": "earliest_pick",
@@ -1419,17 +1691,17 @@
       ]
     },
     {
-      "id": "world-43",
-      "title": "Swedish voters go to polls to choose a new parliament as hard right bids for role in government",
-      "title_en": "Swedish voters go to polls to choose a new parliament as hard right bids for role in government",
+      "id": "world-52",
+      "title": "Rescuers pull more bodies from burned Philippine ferry as death toll hits 76",
+      "title_en": "Rescuers pull more bodies from burned Philippine ferry as death toll hits 76",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOanNaU2dOb0c3MzZHbjdEeTc5ODdNOWhXOXJzNU5aNm56elRKSlo5UmRwdndlaTdKSkkySmxDVmdtaXJ3cmNzYzNIX0xrOHRNVmRwWHI0ZmM2SFlVMWQ1UVFkTVNjeUpEVnBMaXVuV1BMSDh3ZWxyTzBIRndTUDJmSlFOa0F1Y2RrbWtmc1ppWU9qSDZ3ZkRtX2dUWWdzcF9tTEJoVXp2TQ?oc=5",
-      "category": "유럽",
+      "title_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazJXYmR0Y0VnSTJfVUdoOEUxX211NFMtYmFiT19NOEVnV1lGMkU3UjRBSzI2ZTZwMWNodm9KdTRicm51ZnE2WHdUU2lnZTVBX3BoZndvQktFOHpaWmRfWUhOMXZtTWg5UGh6UV9TTWV5TERobUJpUVB5Wnd4WHpFeGFLMURXWG45NFRXTmM1SGVCeFVrdkpQQ254WnRkV3NSQURHelN1TQ?oc=5",
+      "category": "아시아",
       "primary_source": "AP News",
-      "excerpt": "Voters in Sweden are heading to the polls to decide if the conservative leader stays in power or if the center-left returns",
-      "excerpt_en": "Voters in Sweden are heading to the polls to decide if the conservative leader stays in power or if the center-left returns",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/swedish-voters-polls-choose-new-parliament-hard-bids-136400161",
+      "excerpt": "CORON, Philippines - The bodies of 41 victims of the worst Philippine ferry disaster in over a decade made their way through the blue waters of a resort area on Sunday, bound for a dock where forensic",
+      "excerpt_en": "CORON, Philippines - The bodies of 41 victims of the worst Philippine ferry disaster in over a decade made their way through the blue waters of a resort area on Sunday, bound for a dock where forensic",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3318885/philippine-rescuers-pull-41-more-bodies-from-burned-ferry",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1445,122 +1717,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "AP News"
+        "AP News",
+        "Bangkok Post"
       ],
-      "first_published_at": "2026-09-13T07:21:26+09:00",
-      "latest_published_at": "2026-09-13T11:14:22+09:00",
+      "first_published_at": "2026-09-13T04:48:00+09:00",
+      "latest_published_at": "2026-09-13T07:45:00+09:00",
       "articles": [
         {
-          "title": "Swedish voters go to polls to choose a new parliament as hard right bids for role in government",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/swedish-voters-polls-choose-new-parliament-hard-bids-136400161",
-          "published_at": "11:14"
-        },
-        {
-          "title": "Swedish voters go to polls to choose a new parliament as hard right bids for role in government",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOanNaU2dOb0c3MzZHbjdEeTc5ODdNOWhXOXJzNU5aNm56elRKSlo5UmRwdndlaTdKSkkySmxDVmdtaXJ3cmNzYzNIX0xrOHRNVmRwWHI0ZmM2SFlVMWQ1UVFkTVNjeUpEVnBMaXVuV1BMSDh3ZWxyTzBIRndTUDJmSlFOa0F1Y2RrbWtmc1ppWU9qSDZ3ZkRtX2dUWWdzcF9tTEJoVXp2TQ?oc=5",
-          "published_at": "07:21"
-        }
-      ]
-    },
-    {
-      "id": "world-112",
-      "title": "Macron, Carney to visit North Atlantic French islands after Trump's map post",
-      "title_en": "Macron, Carney to visit North Atlantic French islands after Trump's map post",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/americas/20260913-macron-carney-to-visit-french-islands-after-trump-s-map-post",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "French President Emmanuel Macron and Canadian Prime Minister Mark Carney will reaffirm the “sovereignty of nations” on a visit on September 20 to Saint-Pierre-et-Miquelon, a French territory in the No",
-      "excerpt_en": "French President Emmanuel Macron and Canadian Prime Minister Mark Carney will reaffirm the “sovereignty of nations” on a visit on September 20 to Saint-Pierre-et-Miquelon, a French territory in the No",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/americas/20260913-macron-carney-to-visit-french-islands-after-trump-s-map-post",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "France24"
-      ],
-      "first_published_at": "2026-09-13T09:25:16+09:00",
-      "latest_published_at": "2026-09-13T09:45:00+09:00",
-      "articles": [
-        {
-          "title": "Macron, Carney to visit French islands after Trump's map post",
+          "title": "Philippine rescuers pull 41 more bodies from burned ferry",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3318919/macron-carney-to-visit-french-islands-after-trumps-map-post",
-          "published_at": "09:45"
+          "url": "https://www.bangkokpost.com/world/3318885/philippine-rescuers-pull-41-more-bodies-from-burned-ferry",
+          "published_at": "07:45"
         },
         {
-          "title": "Macron, Carney to visit North Atlantic French islands after Trump's map post",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260913-macron-carney-to-visit-french-islands-after-trump-s-map-post",
-          "published_at": "09:25"
+          "title": "Rescuers pull more bodies from burned Philippine ferry as death toll hits 76",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazJXYmR0Y0VnSTJfVUdoOEUxX211NFMtYmFiT19NOEVnV1lGMkU3UjRBSzI2ZTZwMWNodm9KdTRicm51ZnE2WHdUU2lnZTVBX3BoZndvQktFOHpaWmRfWUhOMXZtTWg5UGh6UV9TTWV5TERobUJpUVB5Wnd4WHpFeGFLMURXWG45NFRXTmM1SGVCeFVrdkpQQ254WnRkV3NSQURHelN1TQ?oc=5",
+          "published_at": "04:48"
         }
       ]
     },
     {
-      "id": "world-114",
-      "title": "France apologises for criticising US’ human rights record after backlash",
-      "title_en": "France apologises for criticising US’ human rights record after backlash",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3367336/france-apologises-criticising-us-human-rights-record-after-backlash?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "The French UN mission said it regretted an online post criticising how the United States voted during a UN General Assembly meeting, with US officials saying on Saturday that Washington appreciated th",
-      "excerpt_en": "The French UN mission said it regretted an online post criticising how the United States voted during a UN General Assembly meeting, with US officials saying on Saturday that Washington appreciated th",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367336/france-apologises-criticising-us-human-rights-record-after-backlash?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-13T05:03:29+09:00",
-      "latest_published_at": "2026-09-13T09:01:17+09:00",
-      "articles": [
-        {
-          "title": "France apologises for diplomatic spat with US to lift block on new ambassador to Washington",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/france/20260913-france-apologises-for-diplomatic-spat-with-us-to-lift-block-on-new-ambassador-to-washington",
-          "published_at": "09:01"
-        },
-        {
-          "title": "France apologises for criticising US’ human rights record after backlash",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367336/france-apologises-criticising-us-human-rights-record-after-backlash?utm_source=rss_feed",
-          "published_at": "05:03"
-        }
-      ]
-    },
-    {
-      "id": "world-163",
+      "id": "world-169",
       "title": "What to know as a Philippine region with a history of conflict holds its first parliamentary polls",
       "title_en": "What to know as a Philippine region with a history of conflict holds its first parliamentary polls",
       "title_source": "earliest_pick",
@@ -1607,26 +1785,26 @@
       ]
     },
     {
-      "id": "world-252",
-      "title": "Six dead, 129 missing after Indonesian ferry hits bad weather",
-      "title_en": "Six dead, 129 missing after Indonesian ferry hits bad weather",
+      "id": "world-284",
+      "title": "Kyle Bickham: 5 things to know about man pushed to death from CTA train as 15-year-old girl charged",
+      "title_en": "Kyle Bickham: 5 things to know about man pushed to death from CTA train as 15-year-old girl charged",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
-      "category": "아시아",
-      "primary_source": "ABC News Australia",
-      "excerpt": "The passenger ship, carrying 243 people, had departed from Surabaya, Indonesia's second-largest city in East Java, and was bound for Banjarmasin in Kalimantan.",
-      "excerpt_en": "The passenger ship, carrying 243 people, had departed from Surabaya, Indonesia's second-largest city in East Java, and was bound for Banjarmasin in Kalimantan.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/kyle-bickham-5-things-to-know-about-man-pushed-to-death-from-cta-train-as-15-year-old-girl-charged-101789290476329.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A 15-year-old girl, who was one of three people who allegedly pushed 29-year-old Kyle Bickham to his death from a moving CTA Red Line train, has been charged.",
+      "excerpt_en": "A 15-year-old girl, who was one of three people who allegedly pushed 29-year-old Kyle Bickham to his death from a moving CTA Red Line train, has been charged.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/kyle-bickham-5-things-to-know-about-man-pushed-to-death-from-cta-train-as-15-year-old-girl-charged-101789290476329.html",
       "translation_status": "failed",
-      "score": 51,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
+        "time_score": 3,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -1636,20 +1814,20 @@
         "ABC News Australia",
         "Hindustan Times"
       ],
-      "first_published_at": "2026-09-13T05:46:46+09:00",
-      "latest_published_at": "2026-09-13T14:38:07+09:00",
+      "first_published_at": "2026-09-13T09:16:10+09:00",
+      "latest_published_at": "2026-09-13T19:59:12+09:00",
       "articles": [
         {
-          "title": "Capsized Indonesian ferry kills six people with 130 missing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/indonesia-ferry-capsize-death-toll-missing-persons-km-virgo-transport-8-surabaya-banjarmarsin-borno-101789309902084.html",
-          "published_at": "14:38"
+          "title": "Ballarat girl in child protection system found dead in squat house",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-14/victorian-girl-dies-in-state-care/107080104",
+          "published_at": "19:59"
         },
         {
-          "title": "Six dead, 129 missing after Indonesian ferry hits bad weather",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
-          "published_at": "05:46"
+          "title": "Kyle Bickham: 5 things to know about man pushed to death from CTA train as 15-year-old girl charged",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/kyle-bickham-5-things-to-know-about-man-pushed-to-death-from-cta-train-as-15-year-old-girl-charged-101789290476329.html",
+          "published_at": "09:16"
         }
       ]
     }
