@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,27 +8,27 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-17T03:47:52.204768+09:00",
+  "updated_at": "2026-09-17T06:48:53.858233+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 654,
-  "cluster_count_total": 492,
+  "article_count_total": 681,
+  "cluster_count_total": 519,
   "clusters": [
     {
-      "id": "world-21",
-      "title": "EU chief says she wants Canada to become the bloc's 1st associate member",
-      "title_en": "EU chief says she wants Canada to become the bloc's 1st associate member",
+      "id": "world-236",
+      "title": "US Federal Reserve meeting today: When and where to watch Kevin Warsh's Speech? Here's what to expect",
+      "title_en": "US Federal Reserve meeting today: When and where to watch Kevin Warsh's Speech? Here's what to expect",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/politics/eu-canada-associate-member-9.7345827?cmp=rss",
-      "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "Commission president says EU must ‘urgently reimagine our partnerships’ as she makes unprecedented offer Canada has been invited to become the first “associate member” of the EU by the European Commis",
-      "excerpt_en": "Commission president says EU must ‘urgently reimagine our partnerships’ as she makes unprecedented offer Canada has been invited to become the first “associate member” of the EU by the European Commis",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-federal-reserve-meeting-today-when-and-where-to-watch-kevin-warshs-speech-heres-what-to-expect-fomc-101789574898034.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Trump urges lower rates after central bank agrees increase by quarter-percentage point to range of 3.75% to 4% Federal Reserve raises interest rates – live The US Federal Reserve voted to raise intere",
+      "excerpt_en": "Trump urges lower rates after central bank agrees increase by quarter-percentage point to range of 3.75% to 4% Federal Reserve raises interest rates – live The US Federal Reserve voted to raise intere",
       "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
+      "excerpt_url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
       "translation_status": "failed",
       "score": 93,
       "score_breakdown": {
@@ -39,28 +39,193 @@
         "time_score": 3,
         "raw75": 70
       },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "ABC News Australia",
+        "Channel News Asia",
+        "Hindustan Times",
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-16T16:25:28+09:00",
+      "latest_published_at": "2026-09-16T21:41:37+09:00",
+      "articles": [
+        {
+          "title": "Live: US policymakers expect Fed to raise rates again this year",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-17/asx-markets-business-live-news-september-19-2026/107162296",
+          "published_at": "21:41"
+        },
+        {
+          "title": "Trump blasts interest rate uptick and claims US is doing so well that rates ‘should be 1%, or less’ – live",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/sep/16/donald-trump-iran-russia-midterms-north-carolina-latest-news-updates",
+          "published_at": "21:29"
+        },
+        {
+          "title": "US Federal Reserve raises interest rates for the first time since 2023",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
+          "published_at": "21:01"
+        },
+        {
+          "title": "US Fed raises rates to tackle 'too high' inflation, irking Trump",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/us-fed-rate-decision-inflation-warsh-trump-6390046",
+          "published_at": "18:47"
+        },
+        {
+          "title": "US Federal Reserve raises interest rates for first time in 3 years, risking Trump’s ire",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367774/us-federal-reserve-raises-interest-rates-first-time-3-years-risking-trumps-ire?utm_source=rss_feed",
+          "published_at": "18:15"
+        },
+        {
+          "title": "US Federal Reserve meeting today: When and where to watch Kevin Warsh's Speech? Here's what to expect",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-federal-reserve-meeting-today-when-and-where-to-watch-kevin-warshs-speech-heres-what-to-expect-fomc-101789574898034.html",
+          "published_at": "16:25"
+        }
+      ]
+    },
+    {
+      "id": "world-57",
+      "title": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
+      "title_en": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/at-least-20-killed-and-dozens-trapped-after-war-damaged-building-in-gaza-collapses-13588536",
+      "category": "중동",
+      "primary_source": "Sky News",
+      "excerpt": "Health officials in Gaza say a building damaged months ago by an Israeli strike has collapsed, killing people from 6 displaced families who had taken shelter inside.",
+      "excerpt_en": "Health officials in Gaza say a building damaged months ago by an Israeli strike has collapsed, killing people from 6 displaced families who had taken shelter inside.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/israel-hamas-gaza-war-building-collapse-palestinian-deaths-al-sinaa/",
+      "translation_status": "failed",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBS News",
+        "Hindustan Times",
+        "Reuters",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-16T10:18:00+09:00",
+      "latest_published_at": "2026-09-16T14:39:44+09:00",
+      "articles": [
+        {
+          "title": "War-damaged Gaza building collapses, killing 20 people sheltering inside",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajdBSGppODJmQklfVWJDc0xQcGkzOHlBbEV1NnJ1TkNBZmtsWFN4NHhXN3JXLUNZZjdFUVZ2ZHVRLXRwRVBlNVpweUl4YVl1eWNqZ2NueEI5RURlVTQ5X04zV0xoMEtFRzdVS2liZElfYVR4WlNuTlIxWWVqUjNmLUpMQ3VHOHZvVGtXcHYxanNMSVFjU3I0TFpKcnhEMkowcVFpUTlMa1ZzRE9HTTJ4czlReUsxb09oU3ZQWjZiYlpBMXAxWG02UUhB?oc=5",
+          "published_at": "14:39"
+        },
+        {
+          "title": "20 killed as war-damaged Gaza building collapses, nearly 100 feared trapped under rubble",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/20-killed-as-gaza-building-collapses-100-feared-trapped-under-rubble-101789565075864.html",
+          "published_at": "14:15"
+        },
+        {
+          "title": "War-damaged Gaza building collapses, killing at least 20 people",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/israel-hamas-gaza-war-building-collapse-palestinian-deaths-al-sinaa/",
+          "published_at": "10:36"
+        },
+        {
+          "title": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/at-least-20-killed-and-dozens-trapped-after-war-damaged-building-in-gaza-collapses-13588536",
+          "published_at": "10:18"
+        }
+      ]
+    },
+    {
+      "id": "world-24",
+      "title": "EU chief says she wants Canada to become the bloc's 1st associate member",
+      "title_en": "EU chief says she wants Canada to become the bloc's 1st associate member",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/politics/eu-canada-associate-member-9.7345827?cmp=rss",
+      "category": "유럽",
+      "primary_source": "CBC",
+      "excerpt": "Andy Burnham was for years a staunch opponent of Brexit and a vocal supporter of rejoining the European Union. When he became Britain’s new prime minister in July, this seemed to augur well for UK-EU ",
+      "excerpt_en": "Andy Burnham was for years a staunch opponent of Brexit and a vocal supporter of rejoining the European Union. When he became Britain’s new prime minister in July, this seemed to augur well for UK-EU ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367771/eu-cosies-canada-burnhams-brexit-britain-feels-sidelined?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
       "area_value": 17,
       "article_count": 17,
       "syndicated_count": 0,
       "source_count": 13,
       "sources": [
-        "ABC News Australia",
         "AP News",
-        "BBC",
         "Bangkok Post",
         "CBC",
         "Euronews",
         "France24",
+        "Hindustan Times",
         "NPR",
         "New York Times",
         "Reuters",
         "SCMP",
+        "Sydney Morning Herald",
         "The Guardian",
         "The Independent"
       ],
       "first_published_at": "2026-09-16T08:49:19+09:00",
-      "latest_published_at": "2026-09-16T17:54:35+09:00",
+      "latest_published_at": "2026-09-16T20:58:03+09:00",
       "articles": [
+        {
+          "title": "EU chief wants Canada to become an 'associate member'. What does that mean?",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYkN2VVBPTnB4ZS0zYmRGMzA3VVREbVE5LUQ1Qkdka2NUenpnUzVPc3NMWWlBWGJfR3oxOHdiVkptUzNzcWJjVjJNejQwQkhOV3N6TTdFY1Z6LTM3RDBoUXc5ZmhCOTlDVF80blRFdm1wYnVqeFN1aG94Mk8tdFo0LVVmWWE5VG9kTWk3a2R6WWg5NVI5cWptaFcydTJDMGVCTF9FUWF6aVZOR3pESkpR?oc=5",
+          "published_at": "20:58"
+        },
+        {
+          "title": "EU chief wants Canada to become an 'associate member'. What does that mean?",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/eu-chief-wants-canada-to-become-an-associate-member-what-does-that-mean-101789591948522.html",
+          "published_at": "20:52"
+        },
+        {
+          "title": "EU invites Canada as first associate",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/eu-invites-canada-as-first-associate-20260917-p60y1p.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:12"
+        },
+        {
+          "title": "EU rolls out red carpet to Canada to become its first 'associate member'",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/16/nx-s1-5971043/eu-canada-carney-tariffs-trump",
+          "published_at": "20:08"
+        },
+        {
+          "title": "Is EU’s offer to Canada a blueprint for Britain – or a reminder it is out in the cold?",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/16/eu-offer-canada-blueprint-britain-brexit",
+          "published_at": "18:57"
+        },
         {
           "title": "EU's von der Leyen wants Canada to become bloc's first associate member",
           "source_name": "Reuters",
@@ -92,12 +257,6 @@
           "published_at": "15:13"
         },
         {
-          "title": "Von der Leyen pitches 'associate member' status for Canada: What does it mean for EU-US ties?",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/video/20260916-von-der-leyen-pitches-associate-member-status-for-canada-what-does-it-mean-for-eu-us-ties",
-          "published_at": "14:55"
-        },
-        {
           "title": "EU - Canada: Standing ovation for Mark Carney at European Parliament",
           "source_name": "Euronews",
           "url": "https://www.euronews.com/video/2026/09/16/eu-canada-standing-ovation-for-mark-carney-at-european-parliament",
@@ -110,34 +269,10 @@
           "published_at": "14:19"
         },
         {
-          "title": "European Union invites Canada to become first ever ‘associate member’",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
-          "published_at": "13:48"
-        },
-        {
-          "title": "EU chief wants Canada to become an 'associate member.' What does that mean?",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYkN2VVBPTnB4ZS0zYmRGMzA3VVREbVE5LUQ1Qkdka2NUenpnUzVPc3NMWWlBWGJfR3oxOHdiVkptUzNzcWJjVjJNejQwQkhOV3N6TTdFY1Z6LTM3RDBoUXc5ZmhCOTlDVF80blRFdm1wYnVqeFN1aG94Mk8tdFo0LVVmWWE5VG9kTWk3a2R6WWg5NVI5cWptaFcydTJDMGVCTF9FUWF6aVZOR3pESkpR?oc=5",
-          "published_at": "13:38"
-        },
-        {
           "title": "EU chief Ursula von der Leyen says she wants Canada to become the bloc's 1st associate member",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWR4THFwSEZWZWEzV1RCLWh1bFZieGlkR0VGMmNKNm15RE8zMnI1YzlqQmFFYjhvWWU5UDJIWVFWOXU3RF9zZEFIUUZUWnRqQTJUQkRBdWx2NWl2c2pOS3hSYkw5aFlMUVhkSHNtdzA0ZE9reFd6RGVDQ1Z3QUN1cTFFREJFWnFsT2V2Skw4WDEyRFpHTzEyRWxsZjZOUQ?oc=5",
           "published_at": "12:53"
-        },
-        {
-          "title": "EU chief backs plan for Canada to become 'associate member'",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-          "published_at": "12:36"
-        },
-        {
-          "title": "EU opens door to Canada becoming 'associate member' as bloc charts future",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/state-of-the-european-union-von-der-leyen-canada-associate-eu/107161710",
-          "published_at": "12:05"
         },
         {
           "title": "EU's Ursula von der Leyen says she wants Canada to become an associate member",
@@ -154,251 +289,45 @@
       ]
     },
     {
-      "id": "world-95",
-      "title": "Saudi-led coalition says it destroys Houthi drone south of Mecca",
-      "title_en": "Saudi-led coalition says it destroys Houthi drone south of Mecca",
+      "id": "world-100",
+      "title": "Kosovo's former president jailed for 25 years over war crimes",
+      "title_en": "Kosovo's former president jailed for 25 years over war crimes",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "Iran-aligned group rejects claim it targeted Mecca, while Organisation of Islamic Cooperation condemns attack Saudi Arabia has claimed its air defences intercepted and destroyed a ⁠Houthi drone attemp",
-      "excerpt_en": "Iran-aligned group rejects claim it targeted Mecca, while Organisation of Islamic Cooperation condemns attack Saudi Arabia has claimed its air defences intercepted and destroyed a ⁠Houthi drone attemp",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
-      "translation_status": "failed",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "BBC",
-        "Hindustan Times",
-        "Reuters",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-16T00:29:00+09:00",
-      "latest_published_at": "2026-09-16T08:39:55+09:00",
-      "articles": [
-        {
-          "title": "Houthi rebels accused of targeting Mecca with drone as Saudi Arabia warns of ‘red line’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-mecca-yemen-houthis-b3050963.html",
-          "published_at": "08:39"
-        },
-        {
-          "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
-          "published_at": "08:36"
-        },
-        {
-          "title": "Saudi Arabia highlights: Houthis say they attacked Saudi's Aramco facilities in Yanbu",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/saudi-houthi-conflict-attack-live-updates-yemen-rebel-group-drone-mecca-us-travel-advisory-iran-war-jeddah-riyadh-israel-101789526731020.html",
-          "published_at": "03:16"
-        },
-        {
-          "title": "Saudi Arabia warns of ‘red line’ after Houthi drone intercepted close to holy city of Mecca",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
-          "published_at": "02:56"
-        },
-        {
-          "title": "Saudi claims Houthi drone destroyed near Mecca, Yemeni group dismisses 'lies'",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/saudi-claims-houthi-drone-destroyed-near-mecca-warns-of-red-line-over-holy-sites-101789525544635.html",
-          "published_at": "02:29"
-        },
-        {
-          "title": "Saudi-led coalition says it destroys Houthi drone south of Mecca",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5",
-          "published_at": "00:29"
-        }
-      ]
-    },
-    {
-      "id": "world-49",
-      "title": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
-      "title_en": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/at-least-20-killed-and-dozens-trapped-after-war-damaged-building-in-gaza-collapses-13588536",
-      "category": "중동",
-      "primary_source": "Sky News",
-      "excerpt": "Health officials in Gaza say a building damaged months ago by an Israeli strike has collapsed, killing people from 6 displaced families who had taken shelter inside.",
-      "excerpt_en": "Health officials in Gaza say a building damaged months ago by an Israeli strike has collapsed, killing people from 6 displaced families who had taken shelter inside.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/israel-hamas-gaza-war-building-collapse-palestinian-deaths-al-sinaa/",
-      "translation_status": "failed",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News Australia",
-        "CBS News",
-        "Hindustan Times",
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-16T10:18:00+09:00",
-      "latest_published_at": "2026-09-16T16:45:48+09:00",
-      "articles": [
-        {
-          "title": "At least 20 dead, including children, as war-damaged building collapses in Gaza",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-17/gaza-building-collapse/107162100",
-          "published_at": "16:45"
-        },
-        {
-          "title": "War-damaged Gaza building collapses, killing 20 people sheltering inside",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajdBSGppODJmQklfVWJDc0xQcGkzOHlBbEV1NnJ1TkNBZmtsWFN4NHhXN3JXLUNZZjdFUVZ2ZHVRLXRwRVBlNVpweUl4YVl1eWNqZ2NueEI5RURlVTQ5X04zV0xoMEtFRzdVS2liZElfYVR4WlNuTlIxWWVqUjNmLUpMQ3VHOHZvVGtXcHYxanNMSVFjU3I0TFpKcnhEMkowcVFpUTlMa1ZzRE9HTTJ4czlReUsxb09oU3ZQWjZiYlpBMXAxWG02UUhB?oc=5",
-          "published_at": "14:39"
-        },
-        {
-          "title": "20 killed as war-damaged Gaza building collapses, nearly 100 feared trapped under rubble",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/20-killed-as-gaza-building-collapses-100-feared-trapped-under-rubble-101789565075864.html",
-          "published_at": "14:15"
-        },
-        {
-          "title": "War-damaged Gaza building collapses, killing at least 20 people",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/israel-hamas-gaza-war-building-collapse-palestinian-deaths-al-sinaa/",
-          "published_at": "10:36"
-        },
-        {
-          "title": "At least 21 killed and dozens trapped after war-damaged Gaza building collapses",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/at-least-20-killed-and-dozens-trapped-after-war-damaged-building-in-gaza-collapses-13588536",
-          "published_at": "10:18"
-        }
-      ]
-    },
-    {
-      "id": "world-110",
-      "title": "Saudi Arabia calls attempted attack on Mecca a 'red line' as Iran-backed Houthis deny they did it",
-      "title_en": "Saudi Arabia calls attempted attack on Mecca a 'red line' as Iran-backed Houthis deny they did it",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkFPWXV5ejJIcnZYZEdJUHRDSVRIZk5Tbzd6SWlNSS1IOGc3MGVCMkNhdFZXU3RlcWxLa3ljMkt6M0hJWlpXSmlFQjU5cDV2S284bVN6ZXd3X2dEOWVhclRLVW5YT2tQRXFiMV96Q19HRDM1bGZhNzlJc0Rxak00eVVTRnN3SVU0aXY1Wm93QWtwN0dBdzU4V1RRZnlkczRva2NrYg?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "Saudi Arabia accused Yemen's Iran-backed Houthi rebels overnight of trying to attack Islam's holiest city, prompting condemnation from countries in the region but no sign of military support.",
-      "excerpt_en": "Saudi Arabia accused Yemen's Iran-backed Houthi rebels overnight of trying to attack Islam's holiest city, prompting condemnation from countries in the region but no sign of military support.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/09/16/g-s1-143554/saudi-arabia-attempted-mecca-attack",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "AP News",
-        "NBC News",
-        "NPR",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-16T08:48:36+09:00",
-      "latest_published_at": "2026-09-16T10:41:21+09:00",
-      "articles": [
-        {
-          "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-mecca-houthis-drone-iran-war-trump-oil-gas-prices-rcna598075",
-          "published_at": "10:41"
-        },
-        {
-          "title": "Saudi Arabia calls attempted attack on Mecca a 'red line' as Iran-backed Houthis deny they did it",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/houthis-saudi-arabia-iran-yemen-red-sea-b3051124.html",
-          "published_at": "10:25"
-        },
-        {
-          "title": "Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/16/g-s1-143554/saudi-arabia-attempted-mecca-attack",
-          "published_at": "09:04"
-        },
-        {
-          "title": "Saudi Arabia calls attempted attack on Mecca a 'red line' as Iran-backed Houthis deny they did it",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkFPWXV5ejJIcnZYZEdJUHRDSVRIZk5Tbzd6SWlNSS1IOGc3MGVCMkNhdFZXU3RlcWxLa3ljMkt6M0hJWlpXSmlFQjU5cDV2S284bVN6ZXd3X2dEOWVhclRLVW5YT2tQRXFiMV96Q19HRDM1bGZhNzlJc0Rxak00eVVTRnN3SVU0aXY1Wm93QWtwN0dBdzU4V1RRZnlkczRva2NrYg?oc=5",
-          "published_at": "08:48"
-        }
-      ]
-    },
-    {
-      "id": "world-92",
-      "title": "Former Kosovo president Thaci sentenced to 25 years for war crimes",
-      "title_en": "Former Kosovo president Thaci sentenced to 25 years for war crimes",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMWhPd1ZYa3JRR2g2VU15ZDZILWFONnZUeFkzWkY5aGpIS0g5R0tDUVpiVUVXS29feXpKaFlnVV90OE9ZWWFieUxicDk0djRldXVoQ1RURlhaUU5tN0dMMEdpMy1pTU5HY1FxM0pNanYzSDdYc1RTdERsWGxMbmU2dUg3MTZvaDdlck9scXBIcHFqNVJiQ2J5akV2bnZ1cDg?oc=5",
+      "title_url": "https://news.sky.com/story/kosovos-former-president-jailed-for-25-years-over-war-crimes-13588497",
       "category": "유럽",
-      "primary_source": "Reuters",
+      "primary_source": "Sky News",
       "excerpt": "Former Kosovo president Hashim Thaci was found guilty of ‌war crimes including murder, torture and illegal detention by the Kosovo war crimes tribunal on Wednesday. Thaci, 58, was sentenced to 25 year",
       "excerpt_en": "Former Kosovo president Hashim Thaci was found guilty of ‌war crimes including murder, torture and illegal detention by the Kosovo war crimes tribunal on Wednesday. Thaci, 58, was sentenced to 25 year",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367725/former-kosovo-president-thaci-gets-25-years-prison-war-crimes?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 16,
-      "article_count": 16,
+      "area_value": 12,
+      "article_count": 12,
       "syndicated_count": 0,
-      "source_count": 14,
+      "source_count": 11,
       "sources": [
         "ABC News",
-        "ABC News Australia",
         "AP News",
-        "Al Jazeera",
         "Bangkok Post",
         "CBC",
         "DW",
         "Euronews",
         "NPR",
         "New York Times",
-        "Reuters",
         "SCMP",
         "Sky News",
         "The Independent"
       ],
-      "first_published_at": "2026-09-16T01:05:00+09:00",
+      "first_published_at": "2026-09-16T08:23:00+09:00",
       "latest_published_at": "2026-09-16T17:41:00+09:00",
       "articles": [
         {
@@ -408,22 +337,10 @@
           "published_at": "17:41"
         },
         {
-          "title": "Kosovo’s former president guilty of war crimes",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/kosovos-former-president-guilty-of-war-crimes?traffic_source=rss",
-          "published_at": "17:20"
-        },
-        {
           "title": "Kosovo war crimes court jails ex-president Hashim Thaçi for 25 years, sparking mass protests",
           "source_name": "Euronews",
           "url": "https://www.euronews.com/video/2026/09/16/kosovo-war-crimes-court-jails-ex-president-hashim-thaci-for-25-years-sparking-mass-protest",
           "published_at": "16:32"
-        },
-        {
-          "title": "Shock in Kosovo as Hague convicts former President Thaci",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "15:59"
         },
         {
           "title": "Kosovo’s Former Leader Is Sentenced to 25 Years in War Crimes Case",
@@ -448,12 +365,6 @@
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/hague-sentence-former-kosovo-president-thaci-9.7345862?cmp=rss",
           "published_at": "11:55"
-        },
-        {
-          "title": "Former Kosovo president Thaci sentenced to 25 years' prison for war crimes",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/former-kosovo-president-sentenced-for-war-crimes/107161848",
-          "published_at": "11:36"
         },
         {
           "title": "Former Kosovo president Hashim Thaci jailed for 25 years for war crimes",
@@ -494,7 +405,7 @@
       ]
     },
     {
-      "id": "world-106",
+      "id": "world-107",
       "title": "Charlie Kirk’s family says security failures by Utah officials led to his assassination",
       "title_en": "Charlie Kirk’s family says security failures by Utah officials led to his assassination",
       "title_source": "earliest_pick",
@@ -506,14 +417,14 @@
       "excerpt_source": "BBC",
       "excerpt_url": "https://www.bbc.co.uk/news/articles/cwzrz4xmknjgo?at_medium=RSS&at_campaign=rss",
       "translation_status": "failed",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
       "area_value": 5,
       "article_count": 5,
@@ -561,25 +472,25 @@
       ]
     },
     {
-      "id": "world-116",
-      "title": "Trump administration plans to send powerful bombs to Israel in $2.8 billion weapons sale",
-      "title_en": "Trump administration plans to send powerful bombs to Israel in $2.8 billion weapons sale",
+      "id": "world-229",
+      "title": "Saudi claims Houthi drone destroyed near Mecca, Yemeni group dismisses 'lies'",
+      "title_en": "Saudi claims Houthi drone destroyed near Mecca, Yemeni group dismisses 'lies'",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOFBWUVQ5cm1kakRwVU9tWUZCRGxHNlRRSEFlNzZKRXlJMFd2S1FZamJIRmVxQnhrdzdJTkhQNjV0WW5ZZkdwUkNubVVEZkVrcHFnb25DWUFLQmVZZUVMTlI4WG55R3hXRU9UNmVDdV9BMm9CRU1KeDV0aElhb0VUVjZfaFp3M09SWlRsRkw3NVlpSkJXaHc?oc=5",
+      "title_url": "https://www.hindustantimes.com/world-news/saudi-claims-houthi-drone-destroyed-near-mecca-warns-of-red-line-over-holy-sites-101789525544635.html",
       "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "The Trump administration is planning to deliver powerful 2,000-pound bombs to Israel as part of an upcoming arms deal, weapons that prompted such concerns about the possibility of mass casualties in G",
-      "excerpt_en": "The Trump administration is planning to deliver powerful 2,000-pound bombs to Israel as part of an upcoming arms deal, weapons that prompted such concerns about the possibility of mass casualties in G",
-      "excerpt_source": "France24",
-      "excerpt_url": "http://www.france24.com/en/video/20260916-trump-administration-plans-to-send-powerful-bombs-to-israel-in-2-8-billion-weapons-sale",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Iran-backed militants have offered Trump administration assurances over safety of Red Sea shipping Officials from the US met Houthi leaders over the weekend at the country’s embassy in Muscat, Oman, i",
+      "excerpt_en": "Iran-backed militants have offered Trump administration assurances over safety of Red Sea shipping Officials from the US met Houthi leaders over the weekend at the country’s embassy in Muscat, Oman, i",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
       "translation_status": "failed",
       "score": 81,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
         "raw75": 61
       },
       "area_value": 4,
@@ -587,37 +498,37 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "AP News",
-        "Euronews",
-        "France24",
+        "Hindustan Times",
+        "SCMP",
+        "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-16T00:18:00+09:00",
-      "latest_published_at": "2026-09-16T15:45:44+09:00",
+      "first_published_at": "2026-09-16T02:29:13+09:00",
+      "latest_published_at": "2026-09-16T14:56:40+09:00",
       "articles": [
         {
-          "title": "Trump administration plans to send powerful bombs to Israel in $2.8 billion weapons sale",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/video/20260916-trump-administration-plans-to-send-powerful-bombs-to-israel-in-2-8-billion-weapons-sale",
-          "published_at": "15:45"
+          "title": "US opts not to back Saudi Arabia in Yemen after meeting Houthi leaders",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
+          "published_at": "14:56"
         },
         {
-          "title": "Trump pushes $2.8bn Israel weapons deal for bombs once halted over Gaza fears",
+          "title": "Who is Abdul Malik al-Houthi, the elusive Yemeni commander behind Red Sea-Saudi blitz?",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367764/who-abdul-malik-al-houthi-elusive-yemeni-commander-behind-red-sea-saudi-blitz?utm_source=rss_feed",
+          "published_at": "14:32"
+        },
+        {
+          "title": "Houthi rebels accused of targeting Mecca with drone as Saudi Arabia warns of ‘red line’",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-israel-heavy-bombs-gaza-b3051100.html",
-          "published_at": "10:05"
+          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-mecca-yemen-houthis-b3050963.html",
+          "published_at": "08:39"
         },
         {
-          "title": "US plans to send bombs to Israel in $2.8 billion weapons deal",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/16/us-plans-to-send-bombs-to-israel-in-28-billion-weapons-sale",
-          "published_at": "06:20"
-        },
-        {
-          "title": "Trump administration plans to send powerful bombs to Israel in $2.8 billion weapons sale",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOFBWUVQ5cm1kakRwVU9tWUZCRGxHNlRRSEFlNzZKRXlJMFd2S1FZamJIRmVxQnhrdzdJTkhQNjV0WW5ZZkdwUkNubVVEZkVrcHFnb25DWUFLQmVZZUVMTlI4WG55R3hXRU9UNmVDdV9BMm9CRU1KeDV0aElhb0VUVjZfaFp3M09SWlRsRkw3NVlpSkJXaHc?oc=5",
-          "published_at": "00:18"
+          "title": "Saudi claims Houthi drone destroyed near Mecca, Yemeni group dismisses 'lies'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/saudi-claims-houthi-drone-destroyed-near-mecca-warns-of-red-line-over-holy-sites-101789525544635.html",
+          "published_at": "02:29"
         }
       ]
     },
@@ -683,17 +594,17 @@
       ]
     },
     {
-      "id": "world-85",
-      "title": "Saudis pound Yemen, Houthis fire at Saudi, as Middle East war spreads",
-      "title_en": "Saudis pound Yemen, Houthis fire at Saudi, as Middle East war spreads",
+      "id": "world-334",
+      "title": "Gaza: Building collapse kills 21, including 11 children as perilous conditions persist for Palestinians",
+      "title_en": "Gaza: Building collapse kills 21, including 11 children as perilous conditions persist for Palestinians",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5",
+      "title_url": "https://www.euronews.com/2026/09/16/gaza-building-collapse-kills-21-including-11-children-as-perilous-conditions-persist-for-p",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "Saudi warplanes pounded Yemen, the Houthis said on Wednesday, as the Iran-backed fighters solidified their gains after a lightning advance that has extended Tehran's reach in the Middle East war and f",
-      "excerpt_en": "Saudi warplanes pounded Yemen, the Houthis said on Wednesday, as the Iran-backed fighters solidified their gains after a lightning advance that has extended Tehran's reach in the Middle East war and f",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/saudi-yemen-houthis-strikes-9.7346040?cmp=rss",
+      "primary_source": "Euronews",
+      "excerpt": "At least 21 people, including 11 children, have died and dozens more are missing after an apartment building collapsed in Gaza from damage sustained in earlier Israeli strikes.",
+      "excerpt_en": "At least 21 people, including 11 children, have died and dozens more are missing after an apartment building collapsed in Gaza from damage sustained in earlier Israeli strikes.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/16/gaza-building-collapse-kills-21-including-11-children-as-perilous-conditions-persist-for-p",
       "translation_status": "failed",
       "score": 77,
       "score_breakdown": {
@@ -709,95 +620,89 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "CBC",
-        "Reuters"
+        "Euronews",
+        "Sydney Morning Herald",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-16T02:04:00+09:00",
-      "latest_published_at": "2026-09-16T16:16:14+09:00",
+      "first_published_at": "2026-09-16T15:03:31+09:00",
+      "latest_published_at": "2026-09-16T20:10:12+09:00",
       "articles": [
         {
-          "title": "Saudis pound Yemen as Houthis fire back, further widening Middle East war",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-17/saudi-yemen-houthi-iran/107162054",
-          "published_at": "16:16"
+          "title": "Dozens dead after Gaza unit collapse",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/dozens-dead-after-gaza-unit-collapse-20260917-p60y1q.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:10"
         },
         {
-          "title": "Saudis pound Yemen as Houthis solidify gains in new Middle East war front",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/saudi-yemen-houthis-strikes-9.7346040?cmp=rss",
-          "published_at": "13:33"
+          "title": "Building collapse in Gaza kills at least 21 people including eight children seeking shelter",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/gaza-building-collapse-israel-war-b3051339.html",
+          "published_at": "15:12"
         },
         {
-          "title": "Saudis pound Yemen, Houthis fire at Saudi, as Middle East war spreads",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5",
-          "published_at": "02:04"
+          "title": "Gaza: Building collapse kills 21, including 11 children as perilous conditions persist for Palestinians",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/gaza-building-collapse-kills-21-including-11-children-as-perilous-conditions-persist-for-p",
+          "published_at": "15:03"
         }
       ]
     },
     {
-      "id": "world-365",
-      "title": "Three killed after news chopper crashes in Los Angeles",
-      "title_en": "Three killed after news chopper crashes in Los Angeles",
+      "id": "world-168",
+      "title": "Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it",
+      "title_en": "Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/three-killed-after-news-chopper-crashes-in-los-angeles-20260916-p60xwn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "A local NBC News helicopter crashed in a Los Angeles neighbourhood on Tuesday and burst into flames, killing at least three people while reporters were covering the nearby crash of an SUV and a city b",
-      "excerpt_en": "A local NBC News helicopter crashed in a Los Angeles neighbourhood on Tuesday and burst into flames, killing at least three people while reporters were covering the nearby crash of an SUV and a city b",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/news-helicopter-crash-bus-9.7345805?cmp=rss",
+      "title_url": "https://www.npr.org/2026/09/16/g-s1-143554/saudi-arabia-attempted-mecca-attack",
+      "category": "중동",
+      "primary_source": "NPR",
+      "excerpt": "Saudi Arabia accused Yemen's Iran-backed Houthi rebels overnight of trying to attack Islam's holiest city, prompting condemnation from countries in the region but no sign of military support.",
+      "excerpt_en": "Saudi Arabia accused Yemen's Iran-backed Houthi rebels overnight of trying to attack Islam's holiest city, prompting condemnation from countries in the region but no sign of military support.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/09/16/g-s1-143554/saudi-arabia-attempted-mecca-attack",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 7,
         "time_score": 2,
-        "raw75": 58
+        "raw75": 57
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBC",
-        "Euronews",
-        "Sydney Morning Herald"
+        "NBC News",
+        "NPR",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-16T04:20:06+09:00",
-      "latest_published_at": "2026-09-16T08:53:32+09:00",
+      "first_published_at": "2026-09-16T09:04:27+09:00",
+      "latest_published_at": "2026-09-16T10:41:21+09:00",
       "articles": [
         {
-          "title": "3 people killed when L.A. news helicopter crashes while covering fatal bus accident",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/news-helicopter-crash-bus-9.7345805?cmp=rss",
-          "published_at": "08:53"
+          "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-mecca-houthis-drone-iran-war-trump-oil-gas-prices-rcna598075",
+          "published_at": "10:41"
         },
         {
-          "title": "Deadly chopper crash in LA",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/deadly-chopper-crash-in-la-20260916-p60xz0.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:45"
+          "title": "Saudi Arabia calls attempted attack on Mecca a 'red line' as Iran-backed Houthis deny they did it",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/houthis-saudi-arabia-iran-yemen-red-sea-b3051124.html",
+          "published_at": "10:25"
         },
         {
-          "title": "NBC news helicopter crash kills at least three in Los Angeles while reporters covered car accident",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/16/helicopter-crash-kills-at-least-3-people-in-los-angeles",
-          "published_at": "04:22"
-        },
-        {
-          "title": "Three killed after news chopper crashes in Los Angeles",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/three-killed-after-news-chopper-crashes-in-los-angeles-20260916-p60xwn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "04:20"
+          "title": "Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/16/g-s1-143554/saudi-arabia-attempted-mecca-attack",
+          "published_at": "09:04"
         }
       ]
     },
     {
-      "id": "world-257",
+      "id": "world-265",
       "title": "Hong Kong’s first five-year plan seeks to boost innovation",
       "title_en": "Hong Kong’s first five-year plan seeks to boost innovation",
       "title_source": "earliest_pick",
@@ -818,8 +723,8 @@
         "time_score": 2,
         "raw75": 56
       },
-      "area_value": 11,
-      "article_count": 11,
+      "area_value": 12,
+      "article_count": 12,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
@@ -846,6 +751,12 @@
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/hong-kong/politics/article/3367766/hong-kong-leader-vows-support-medias-global-reach-review-tv-practice-code?utm_source=rss_feed",
           "published_at": "14:55"
+        },
+        {
+          "title": "Hong Kong targets film tourism boom and higher-level tennis tournaments",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367759/hong-kong-targets-film-tourism-boom-and-higher-level-tennis-tournaments?utm_source=rss_feed",
+          "published_at": "13:57"
         },
         {
           "title": "Hong Kong leader pledges building maintenance reforms after fatal Tai Po fire",
@@ -898,15 +809,15 @@
       ]
     },
     {
-      "id": "world-122",
+      "id": "world-114",
       "title": "Gold mine collapse has killed at least 67 people in a remote area in Sudan",
       "title_en": "Gold mine collapse has killed at least 67 people in a remote area in Sudan",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/gold-mine-collapse-killed-67-people-remote-area-136488522",
       "category": "기타",
       "primary_source": "ABC News",
-      "excerpt": "Dozens more are missing after shafts collapsed on Sunday, according to a charity, which said that the chances of rescuing those trapped were “limited.”",
-      "excerpt_en": "Dozens more are missing after shafts collapsed on Sunday, according to a charity, which said that the chances of rescuing those trapped were “limited.”",
+      "excerpt": "Dozens more are missing after shafts collapsed on Sunday, according to a charity, which said that the chances of rescuing those trapped were “limited” because of a lack of specialized equipment.",
+      "excerpt_en": "Dozens more are missing after shafts collapsed on Sunday, according to a charity, which said that the chances of rescuing those trapped were “limited” because of a lack of specialized equipment.",
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/09/16/world/africa/sudan-gold-mine-collapse.html",
       "translation_status": "failed",
@@ -929,19 +840,19 @@
         "New York Times"
       ],
       "first_published_at": "2026-09-16T12:42:57+09:00",
-      "latest_published_at": "2026-09-16T18:28:55+09:00",
+      "latest_published_at": "2026-09-16T18:49:34+09:00",
       "articles": [
         {
           "title": "Gold Mine Collapse in Sudan Kills at Least 70",
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/09/16/world/africa/sudan-gold-mine-collapse.html",
-          "published_at": "18:28"
+          "published_at": "18:49"
         },
         {
           "title": "Sudan gold mine collapse kills at least 82 people with many more missing",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUmE3YmJpVWNXOTVtQmJ0ak9CNVE1MkM1NWJJMF9USVh6RGJLUDZnZXpHNFg1ZmtfYnRTaU9qdExKRTRBMmk3VE9zSjlYbzVsa1VySTFZRTBJMzJhOTRUNXNOMlRnM0xXZHhzOF82VEVLWmlJRUxva29lVEpiN2tSX2wweWt4eDQ3MTRjYg?oc=5",
-          "published_at": "17:24"
+          "published_at": "18:48"
         },
         {
           "title": "Gold mine collapse has killed at least 67 people in a remote area in Sudan",
@@ -952,98 +863,105 @@
       ]
     },
     {
-      "id": "world-47",
-      "title": "At least 60 dead after gold mine collapses in Sudan",
-      "title_en": "At least 60 dead after gold mine collapses in Sudan",
+      "id": "world-130",
+      "title": "US travel bans for South African officials alleged to be behind anti-white discrimination",
+      "title_en": "US travel bans for South African officials alleged to be behind anti-white discrimination",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/09/16/at-least-60-dead-after-gold-mine-collapses-in-sudan",
-      "category": "기타",
-      "primary_source": "Euronews",
-      "excerpt": "A catastrophic collapse at a gold mine in Sudan's West Kordofan region has resulted in the tragic loss of at least sixty lives, with many others still unaccounted for and feared trapped under debris. ",
-      "excerpt_en": "A catastrophic collapse at a gold mine in Sudan's West Kordofan region has resulted in the tragic loss of at least sixty lives, with many others still unaccounted for and feared trapped under debris. ",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/rest-of-world/gold-mine-collapses-in-sudan-at-least-60-workers-killed-many-more-feared-trapped/articleshow/134284631.cms",
+      "title_url": "https://news.sky.com/story/us-travel-bans-for-south-african-officials-alleged-to-be-behind-anti-white-discrimination-13588523",
+      "category": "미국",
+      "primary_source": "Sky News",
+      "excerpt": "The Trump administration has announced that it will impose travel bans on officials it claims are responsible for discrimination against White people and other minority groups in South Africa.",
+      "excerpt_en": "The Trump administration has announced that it will impose travel bans on officials it claims are responsible for discrimination against White people and other minority groups in South Africa.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/us-south-africa-new-sanctions-discrimination-white-people/",
       "translation_status": "failed",
-      "score": 72,
+      "score": 73,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 10,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 54
+        "raw75": 55
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
-        "Euronews",
-        "Reuters",
-        "Times of India"
+        "ABC News",
+        "BBC",
+        "CBS News",
+        "Sky News"
       ],
-      "first_published_at": "2026-09-16T09:12:52+09:00",
-      "latest_published_at": "2026-09-16T11:09:01+09:00",
+      "first_published_at": "2026-09-16T09:36:00+09:00",
+      "latest_published_at": "2026-09-16T13:57:03+09:00",
       "articles": [
         {
-          "title": "At least 60 killed in gold mine collapse in Sudan's West Kordofan, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRVVqc05CcEI1emtZaGY3ZFVidllBRG5OaTVTbHhqMHZjb0dRZ0RCYnZTcDg5c3BaRExCNmVCU04tLTF0NFJNbFJuM1NxeTJiUXJDb3M2UkFVYW1rYVdEcXQxSTdlVlRoSF9CaVRkbXowZHY4QVRYeHo4dmJ5d3JJbjdHcW53MERtNDBmcllrTERleHNCdGhONUV0dnMxa1NsYkhzWXM1Tl9NcEYzaWlETGhnSVotXzQ?oc=5",
-          "published_at": "11:09"
+          "title": "US limits visas for South African officials over alleged anti-white discrimination",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqy0z5y7wnp2o?at_medium=RSS&at_campaign=rss",
+          "published_at": "13:57"
         },
         {
-          "title": "Gold mine collapses in Sudan: At least 82 workers killed, many more feared trapped",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/gold-mine-collapses-in-sudan-at-least-60-workers-killed-many-more-feared-trapped/articleshow/134284631.cms",
-          "published_at": "10:33"
+          "title": "U.S. adds sanctions on South Africa, alleging discrimination against White people",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/us-south-africa-new-sanctions-discrimination-white-people/",
+          "published_at": "11:48"
         },
         {
-          "title": "At least 60 dead after gold mine collapses in Sudan",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/16/at-least-60-dead-after-gold-mine-collapses-in-sudan",
-          "published_at": "09:12"
+          "title": "Trump administration hits South Africa with new sanctions over alleged discrimination against whites",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/trump-administration-hits-south-africa-new-sanctions-alleged-136487689",
+          "published_at": "11:21"
+        },
+        {
+          "title": "US travel bans for South African officials alleged to be behind anti-white discrimination",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/us-travel-bans-for-south-african-officials-alleged-to-be-behind-anti-white-discrimination-13588523",
+          "published_at": "09:36"
         }
       ]
     },
     {
-      "id": "world-157",
+      "id": "world-194",
       "title": "Amnesty report says Iranian authorities committed crimes against humanity in bloody 2022 protest crackdown",
       "title_en": "Amnesty report says Iranian authorities committed crimes against humanity in bloody 2022 protest crackdown",
       "title_source": "earliest_pick",
       "title_url": "https://www.cbc.ca/news/world/mahsa-amini-freedom-protests-2022-amnesty-report-9.7344843?cmp=rss",
       "category": "중동",
       "primary_source": "CBC",
-      "excerpt": "PARIS - Iranian authorities committed crimes against humanity in the crackdown on 2022 protests that left hundreds dead, Amnesty International said Wednesday, adding Tehran’s suppression of new demons",
-      "excerpt_en": "PARIS - Iranian authorities committed crimes against humanity in the crackdown on 2022 protests that left hundreds dead, Amnesty International said Wednesday, adding Tehran’s suppression of new demons",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3320684/amnesty-documents-crimes-against-humanity-by-iran-in-2022",
+      "excerpt": "Iranian authorities committed crimes against humanity in the crackdown on 2022 protests that left hundreds dead, Amnesty International said Wednesday, adding Tehran's suppression of new demonstrations",
+      "excerpt_en": "Iranian authorities committed crimes against humanity in the crackdown on 2022 protests that left hundreds dead, Amnesty International said Wednesday, adding Tehran's suppression of new demonstrations",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/amnesty-says-iran-committed-crimes-against-humanity-in-protests-crackdown",
       "translation_status": "failed",
-      "score": 72,
+      "score": 73,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "time_score": 3,
+        "raw75": 55
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
         "Bangkok Post",
-        "CBC"
+        "CBC",
+        "France24"
       ],
       "first_published_at": "2026-09-16T09:00:00+09:00",
-      "latest_published_at": "2026-09-16T14:18:54+09:00",
+      "latest_published_at": "2026-09-16T20:09:08+09:00",
       "articles": [
         {
-          "title": "Mahsa Amini death four years on: Iranians reflect on ‘Woman, Life, Freedom’",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/16/four-years-on-iranians-reflect-on-impact-of-woman-life?traffic_source=rss",
-          "published_at": "14:18"
+          "title": "Amnesty says Iran committed 'crimes against humanity' in protests crackdown",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/amnesty-says-iran-committed-crimes-against-humanity-in-protests-crackdown",
+          "published_at": "20:09"
         },
         {
           "title": "Amnesty documents ‘crimes against humanity’ by Iran in 2022",
@@ -1060,7 +978,384 @@
       ]
     },
     {
-      "id": "world-18",
+      "id": "world-35",
+      "title": "Weeks after Nepal flood, thousands still missing and most recovered bodies unidentified",
+      "title_en": "Weeks after Nepal flood, thousands still missing and most recovered bodies unidentified",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWmJqTzNsamdEdXJaMF9WeDlEVVN4dUR1X1dsRUFvZnVNU3c4TEpRak15OWNkMkpMRmFVeVVXRFVCeDJFdFA4bWFTTEZ3MEtNUkNPZFdaM0VpbTdYUEtXblBkMkNkX21WTEdRbFpKbXRmVDhvWmYyOEhaU0J1ay1sTGd0dEZJbkNWNlJmRzBHMlR4M1RZUWRQbnVpM3owVmg0X0ZTeTZQTXhJTm55dW4yRUJheTVOMm5GY3FkN2NjQ3FSTDRH?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "The combined toll from the deadly glacial mountain collapse on the Nepal-China border from both nations now stands at 1,446 people dead and at least 6,669 missing.",
+      "excerpt_en": "The combined toll from the deadly glacial mountain collapse on the Nepal-China border from both nations now stands at 1,446 people dead and at least 6,669 missing.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/nepal-flood-missing-people-toll-rise-6389726",
+      "translation_status": "failed",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T11:51:40+09:00",
+      "latest_published_at": "2026-09-16T16:12:08+09:00",
+      "articles": [
+        {
+          "title": "Nepal raises flood missing toll by nearly 1,000 people to 6,150",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/nepal-flood-missing-people-toll-rise-6389726",
+          "published_at": "16:12"
+        },
+        {
+          "title": "Nepal flood death toll crosses 1,400; over 6,000 still missing",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/nepal-flood-death-toll-crosses-1400-over-6000-still-missing-police-flash-floods-101789573201135.html",
+          "published_at": "15:46"
+        },
+        {
+          "title": "Weeks after Nepal flood, thousands still missing and most recovered bodies unidentified",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWmJqTzNsamdEdXJaMF9WeDlEVVN4dUR1X1dsRUFvZnVNU3c4TEpRak15OWNkMkpMRmFVeVVXRFVCeDJFdFA4bWFTTEZ3MEtNUkNPZFdaM0VpbTdYUEtXblBkMkNkX21WTEdRbFpKbXRmVDhvWmYyOEhaU0J1ay1sTGd0dEZJbkNWNlJmRzBHMlR4M1RZUWRQbnVpM3owVmg0X0ZTeTZQTXhJTm55dW4yRUJheTVOMm5GY3FkN2NjQ3FSTDRH?oc=5",
+          "published_at": "11:51"
+        }
+      ]
+    },
+    {
+      "id": "world-104",
+      "title": "Philippines’ ex-leader Duterte makes first appearance at ICC",
+      "title_en": "Philippines’ ex-leader Duterte makes first appearance at ICC",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Former Philippine President Rodrigo Duterte has attended a hearing at the International Criminal Court, where he faces charges of crimes against humanity, including murder and attempted murder, relate",
+      "excerpt_en": "Former Philippine President Rodrigo Duterte has attended a hearing at the International Criminal Court, where he faces charges of crimes against humanity, including murder and attempted murder, relate",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/former-philippine-president-rodrigo-duterte-expected-court-hague-136484626",
+      "translation_status": "failed",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "Bangkok Post"
+      ],
+      "first_published_at": "2026-09-16T09:08:00+09:00",
+      "latest_published_at": "2026-09-16T15:22:00+09:00",
+      "articles": [
+        {
+          "title": "Former Philippine President Rodrigo Duterte appears in court in The Hague",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTW5OVGkyaUJyQ3ZpODNKNU9ISGtEazRWS29fak1XdkdSbzJzQlVaU25uZThCQjVJV2xIS3BaOXFtZVQ0TFdFLWN6WHkzQ0RrMkRZa1gtUGZHRXA5cHZpb0JZM2xpeDVlalRzdGFHZHBwbGVJT2ZQemRmZXJIMkN6X29QTG9aREtzOVRrdElfb05jNUItbnJHc2kyNA?oc=5",
+          "published_at": "15:22"
+        },
+        {
+          "title": "Former Philippine President Rodrigo Duterte is expected in court in The Hague",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/former-philippine-president-rodrigo-duterte-expected-court-hague-136484626",
+          "published_at": "12:42"
+        },
+        {
+          "title": "Philippines’ ex-leader Duterte makes first appearance at ICC",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
+          "published_at": "09:08"
+        }
+      ]
+    },
+    {
+      "id": "world-195",
+      "title": "Saudi Arabia highlights: Houthis say they attacked Saudi's Aramco facilities in Yanbu",
+      "title_en": "Saudi Arabia highlights: Houthis say they attacked Saudi's Aramco facilities in Yanbu",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/saudi-houthi-conflict-attack-live-updates-yemen-rebel-group-drone-mecca-us-travel-advisory-iran-war-jeddah-riyadh-israel-101789526731020.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Saudi Arabia accused Yemen's Houthis on Wednesday of launching a \"cowardly\" attack targeting Islam's holy city of Mecca, sparking outrage across the Muslim world. The Houthis swiftly rejected as a \"li",
+      "excerpt_en": "Saudi Arabia accused Yemen's Houthis on Wednesday of launching a \"cowardly\" attack targeting Islam's holy city of Mecca, sparking outrage across the Muslim world. The Houthis swiftly rejected as a \"li",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/saudi-arabia-accuses-houthis-of-targeting-mecca-warns-of-red-line",
+      "translation_status": "failed",
+      "score": 71,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 53
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-16T03:16:58+09:00",
+      "latest_published_at": "2026-09-16T20:08:24+09:00",
+      "articles": [
+        {
+          "title": "Saudi Arabia accuses Houthis of targeting Mecca, calls it a 'red line'",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/middle-east/20260916-saudi-arabia-accuses-houthis-of-targeting-mecca-calling-it-a-red-line",
+          "published_at": "20:08"
+        },
+        {
+          "title": "Saudi Arabia accuses Houthis of targeting Mecca, warns of 'red line'",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/saudi-arabia-accuses-houthis-of-targeting-mecca-warns-of-red-line",
+          "published_at": "19:13"
+        },
+        {
+          "title": "Saudi Arabia highlights: Houthis say they attacked Saudi's Aramco facilities in Yanbu",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/saudi-houthi-conflict-attack-live-updates-yemen-rebel-group-drone-mecca-us-travel-advisory-iran-war-jeddah-riyadh-israel-101789526731020.html",
+          "published_at": "03:16"
+        }
+      ]
+    },
+    {
+      "id": "world-48",
+      "title": "Russia touts candidates who fought in Ukraine for its wartime parliamentary election",
+      "title_en": "Russia touts candidates who fought in Ukraine for its wartime parliamentary election",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/russia-touts-candidates-fought-ukraine-wartime-parliamentary-election-136483924",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "Russian President Vladimir ⁠Putin on Wednesday described voter turnout in the upcoming parliamentary election as a barometer of public support for Russia’s war against Ukraine and urged voters to go t",
+      "excerpt_en": "Russian President Vladimir ⁠Putin on Wednesday described voter turnout in the upcoming parliamentary election as a barometer of public support for Russia’s war against Ukraine and urged voters to go t",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/europe/20260916-putin-urges-russians-to-vote-in-parliamentary-election-as-show-of-support-for-ukraine-war",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "France24",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T07:22:18+09:00",
+      "latest_published_at": "2026-09-16T19:47:03+09:00",
+      "articles": [
+        {
+          "title": "Putin urges Russians to vote in parliamentary election as show of support for Ukraine war",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/europe/20260916-putin-urges-russians-to-vote-in-parliamentary-election-as-show-of-support-for-ukraine-war",
+          "published_at": "19:47"
+        },
+        {
+          "title": "Putin casts parliamentary election as barometer of support for war, urges Russians to vote",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUVY0a01pWE9hTGN3d2wwVmtEVWxTc25SZlI3Q2dnc1pPZUctTXAxODMwQ3o5ZGJrOFc3RjNEN1E4SXBQOGxzUVZOcWx5N3F4b2xnc0lXZmNEZVpXNkZNQnJUd21TQ3RuczBMUDBrU19DMFA0azJIcjNObU54aEpBQklVOVFLSk5UTVpNenBLMmh5VzhXdWJaaW90T2x4QnZDOWFybGRqdkgxMU9GQ1BqWlljVXd0a2lKUUE?oc=5",
+          "published_at": "15:15"
+        },
+        {
+          "title": "Russia touts candidates who fought in Ukraine for its wartime parliamentary election",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russia-touts-candidates-fought-ukraine-wartime-parliamentary-election-136483924",
+          "published_at": "07:22"
+        }
+      ]
+    },
+    {
+      "id": "world-99",
+      "title": "Federal Reserve hikes key interest rate for first time in 3 years despite Trump’s demands for a cut",
+      "title_en": "Federal Reserve hikes key interest rate for first time in 3 years despite Trump’s demands for a cut",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/fed-interest-rate-decision-announcement-trump-b3051444.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "The Federal Reserve said it cut rates to help bring inflation back to the central bank's two per cent target. It's the first policy shift under the new Fed chief, who took office in late May after bei",
+      "excerpt_en": "The Federal Reserve said it cut rates to help bring inflation back to the central bank's two per cent target. It's the first policy shift under the new Fed chief, who took office in late May after bei",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/business/us-interest-rate-hike-sept-2026-9.7346557?cmp=rss",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "CBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-16T18:16:58+09:00",
+      "latest_published_at": "2026-09-16T21:29:00+09:00",
+      "articles": [
+        {
+          "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVlB2TmNqY1dILUtfRTFBQ0JPSk53elRnU1QzdmhIQ3VvTWlkelRTd3haWHJ4bmxiY2ZOcGhvd09wMTllVkVLQzk5NkdKZzNPeHpaZTRHQ242Ynd2Q1ZIUU50cUp1N2JYd1lCQndZQlhMUTZFekFZWWNueUxNbmRiUHdBZ2dWbDgzNlhmejZneHptaFhGbDI1M0JPbk8zZw?oc=5",
+          "published_at": "21:29"
+        },
+        {
+          "title": "U.S. Federal Reserve raises interest rates for 1st time in 3 years",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/business/us-interest-rate-hike-sept-2026-9.7346557?cmp=rss",
+          "published_at": "19:00"
+        },
+        {
+          "title": "Federal Reserve hikes key interest rate for first time in 3 years despite Trump’s demands for a cut",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fed-interest-rate-decision-announcement-trump-b3051444.html",
+          "published_at": "18:16"
+        }
+      ]
+    },
+    {
+      "id": "world-101",
+      "title": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
+      "title_en": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0VZLU5QYjdHVUd4UW5OQUNTV1V3YlQ1YkMyTG1ldExKVktqcEtpX0JLbzk3bFVfdVpvTlI5UGhDMEstbWFOVlFZbVQ2WWgyaTR6THFob1NaLV91ZW1jZllqNmRvVzg2bmMxWFgzMlFZUTFtblFiYjR1UzNMbTJVX0NQY0F2dHBOYV95VlZ5ZDJKTWFrRVVEUmpTYw?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "Rapper, who was dropped from tour after his speech in support of Palestine, challenges Robert Kraft to do the same Macklemore has announced that he will donate the $1m salary he was paid as an opening",
+      "excerpt_en": "Rapper, who was dropped from tour after his speech in support of Palestine, challenges Robert Kraft to do the same Macklemore has announced that he will donate the $1m salary he was paid as an opening",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-16T02:23:00+09:00",
+      "latest_published_at": "2026-09-16T21:26:53+09:00",
+      "articles": [
+        {
+          "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
+          "published_at": "21:26"
+        },
+        {
+          "title": "What to know about Ed Sheeran's tour after Macklemore was cut and artists dropped out",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/ed-sheeran-macklemore-robert-kraft-artists-irish-b3051363.html",
+          "published_at": "15:29"
+        },
+        {
+          "title": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0VZLU5QYjdHVUd4UW5OQUNTV1V3YlQ1YkMyTG1ldExKVktqcEtpX0JLbzk3bFVfdVpvTlI5UGhDMEstbWFOVlFZbVQ2WWgyaTR6THFob1NaLV91ZW1jZllqNmRvVzg2bmMxWFgzMlFZUTFtblFiYjR1UzNMbTJVX0NQY0F2dHBOYV95VlZ5ZDJKTWFrRVVEUmpTYw?oc=5",
+          "published_at": "02:23"
+        }
+      ]
+    },
+    {
+      "id": "world-118",
+      "title": "US troops must prepare to fight around the moon, Trump’s top military adviser says",
+      "title_en": "US troops must prepare to fight around the moon, Trump’s top military adviser says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZUtPSlhUMGRwX3RyZW5lbVpEUE52Q0lDVDJnM1NaZWlKTDY2dnZWRVZMdWpDbHk2STRNVzZLc0xiem9pcDdJVXRTaURhclRkWXNYak1WS1hVbTMyeVlKZG8ySFhCTENyVFloYkRPdHEtTEFTZU9kQU1IOGxwSENpZ1F2dmhGYzFFS1E3UzhobVBSZnlG?oc=5",
+      "category": "아시아",
+      "primary_source": "AP News",
+      "excerpt": "Gen Dan Caine comments at Washington summit come after US revealed it has deployed weapons in space American troops need to prepare for combat not only in Earth’s orbit but around the moon, Donald Tru",
+      "excerpt_en": "Gen Dan Caine comments at Washington summit come after US revealed it has deployed weapons in space American troops need to prepare for combat not only in Earth’s orbit but around the moon, Donald Tru",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/science/2026/sep/16/us-space-moon-military-combagt",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-16T20:42:00+09:00",
+      "latest_published_at": "2026-09-16T21:30:56+09:00",
+      "articles": [
+        {
+          "title": "US troops must be ready for space combat around moon, Trump’s top military adviser says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/troops-space-combat-moon-dan-caine-b3051525.html",
+          "published_at": "21:30"
+        },
+        {
+          "title": "Top Trump military adviser says US must prepare to fight around moon",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/science/2026/sep/16/us-space-moon-military-combagt",
+          "published_at": "21:19"
+        },
+        {
+          "title": "US troops must prepare to fight around the moon, Trump’s top military adviser says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZUtPSlhUMGRwX3RyZW5lbVpEUE52Q0lDVDJnM1NaZWlKTDY2dnZWRVZMdWpDbHk2STRNVzZLc0xiem9pcDdJVXRTaURhclRkWXNYak1WS1hVbTMyeVlKZG8ySFhCTENyVFloYkRPdHEtTEFTZU9kQU1IOGxwSENpZ1F2dmhGYzFFS1E3UzhobVBSZnlG?oc=5",
+          "published_at": "20:42"
+        }
+      ]
+    },
+    {
+      "id": "world-37",
       "title": "Sweden expels Iran embassy official",
       "title_en": "Sweden expels Iran embassy official",
       "title_source": "earliest_pick",
@@ -1072,14 +1367,14 @@
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3320728/sweden-expels-iran-embassy-staffer-for-antijewish-threats",
       "translation_status": "failed",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -1114,7 +1409,7 @@
       ]
     },
     {
-      "id": "world-148",
+      "id": "world-162",
       "title": "Malaysia to invite Myanmar’s Min Aung Hlaing for Rohingya repatriation talks",
       "title_en": "Malaysia to invite Myanmar’s Min Aung Hlaing for Rohingya repatriation talks",
       "title_source": "earliest_pick",
@@ -1126,14 +1421,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/week-asia/politics/article/3367762/malaysia-invite-myanmars-min-aung-hlaing-rohingya-repatriation-talks?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -1168,7 +1463,7 @@
       ]
     },
     {
-      "id": "world-252",
+      "id": "world-259",
       "title": "Rising Fuel Prices Set Off Anger and Protests Around the World",
       "title_en": "Rising Fuel Prices Set Off Anger and Protests Around the World",
       "title_source": "earliest_pick",
@@ -1180,14 +1475,14 @@
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3320733/fuel-prices-stirring-unrest-around-the-world",
       "translation_status": "failed",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -1222,121 +1517,7 @@
       ]
     },
     {
-      "id": "world-369",
-      "title": "English village votes to ‘secede’ over asylum centre plan",
-      "title_en": "English village votes to ‘secede’ over asylum centre plan",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3320629/english-village-votes-to-secede-over-asylum-centre-plan",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "LONDON - An English village of around 350 people announced on Wednesday that a vast majority of residents had voted to exit the UK in an “independence referendum” in protest at plans to house over 1,2",
-      "excerpt_en": "LONDON - An English village of around 350 people announced on Wednesday that a vast majority of residents had voted to exit the UK in an “independence referendum” in protest at plans to house over 1,2",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3320629/english-village-votes-to-secede-over-asylum-centre-plan",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "CBS News"
-      ],
-      "first_published_at": "2026-09-16T11:45:00+09:00",
-      "latest_published_at": "2026-09-16T18:14:38+09:00",
-      "articles": [
-        {
-          "title": "Village votes to leave U.K. in symbolic protest of plan to house asylum seekers",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/piddington-village-vote-leave-uk-asylum-seekers/",
-          "published_at": "18:14"
-        },
-        {
-          "title": "English village votes to leave the UK over migrant housing plan",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/english-village-votes-leave-uk-migrant-housing-plan-136490394",
-          "published_at": "12:42"
-        },
-        {
-          "title": "English village votes to ‘secede’ over asylum centre plan",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3320629/english-village-votes-to-secede-over-asylum-centre-plan",
-          "published_at": "11:45"
-        }
-      ]
-    },
-    {
-      "id": "world-232",
-      "title": "US Federal Reserve raises interest rates for first time in 3 years, risking Trump’s ire",
-      "title_en": "US Federal Reserve raises interest rates for first time in 3 years, risking Trump’s ire",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367774/us-federal-reserve-raises-interest-rates-first-time-3-years-risking-trumps-ire?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Kevin Warsh, Donald Trump’s pick for Fed chair, raises rates despite intense pressure from president Kay Haigh, global head and CIO of Fixed Income and Liquidity Solutions at Goldman Sachs Asset Manag",
-      "excerpt_en": "Kevin Warsh, Donald Trump’s pick for Fed chair, raises rates despite intense pressure from president Kay Haigh, global head and CIO of Fixed Income and Liquidity Solutions at Goldman Sachs Asset Manag",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/business/live/2026/sep/16/federal-reserve-interest-rate-increase-live-updates",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 51
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "SCMP",
-        "Sydney Morning Herald",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-16T18:15:10+09:00",
-      "latest_published_at": "2026-09-16T18:32:58+09:00",
-      "articles": [
-        {
-          "title": "Federal Reserve raises interest rates for first time since July 2023 – live",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/business/live/2026/sep/16/federal-reserve-interest-rate-increase-live-updates",
-          "published_at": "18:32"
-        },
-        {
-          "title": "US Federal Reserve raises interest rates for the first time since 2023",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
-          "published_at": "18:28"
-        },
-        {
-          "title": "Fed defies Trump, raises US interest rates for first time in three years",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/us-federal-reserve-raises-interest-rates-for-first-time-in-three-years-20260917-p60y14.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "18:20"
-        },
-        {
-          "title": "US Federal Reserve raises interest rates for first time in 3 years, risking Trump’s ire",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367774/us-federal-reserve-raises-interest-rates-first-time-3-years-risking-trumps-ire?utm_source=rss_feed",
-          "published_at": "18:15"
-        }
-      ]
-    },
-    {
-      "id": "world-333",
+      "id": "world-351",
       "title": "Chatsworth Los Angeles metro bus crash videos: Chilling visuals as 2 killed, many hurt after SUV ploughs into vehicle",
       "title_en": "Chatsworth Los Angeles metro bus crash videos: Chilling visuals as 2 killed, many hurt after SUV ploughs into vehicle",
       "title_source": "earliest_pick",
@@ -1425,7 +1606,61 @@
       ]
     },
     {
-      "id": "world-55",
+      "id": "world-385",
+      "title": "English village votes to ‘secede’ over asylum centre plan",
+      "title_en": "English village votes to ‘secede’ over asylum centre plan",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3320629/english-village-votes-to-secede-over-asylum-centre-plan",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "LONDON - An English village of around 350 people announced on Wednesday that a vast majority of residents had voted to exit the UK in an “independence referendum” in protest at plans to house over 1,2",
+      "excerpt_en": "LONDON - An English village of around 350 people announced on Wednesday that a vast majority of residents had voted to exit the UK in an “independence referendum” in protest at plans to house over 1,2",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3320629/english-village-votes-to-secede-over-asylum-centre-plan",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "CBS News"
+      ],
+      "first_published_at": "2026-09-16T11:45:00+09:00",
+      "latest_published_at": "2026-09-16T18:14:38+09:00",
+      "articles": [
+        {
+          "title": "Village votes to leave U.K. in symbolic protest of plan to house asylum seekers",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/piddington-village-vote-leave-uk-asylum-seekers/",
+          "published_at": "18:14"
+        },
+        {
+          "title": "English village votes to leave the UK over migrant housing plan",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/english-village-votes-leave-uk-migrant-housing-plan-136490394",
+          "published_at": "12:42"
+        },
+        {
+          "title": "English village votes to ‘secede’ over asylum centre plan",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3320629/english-village-votes-to-secede-over-asylum-centre-plan",
+          "published_at": "11:45"
+        }
+      ]
+    },
+    {
+      "id": "world-69",
       "title": "Russian drones hit Ukrainian bus and train, killing five, officials say",
       "title_en": "Russian drones hit Ukrainian bus and train, killing five, officials say",
       "title_source": "earliest_pick",
@@ -1437,14 +1672,14 @@
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/news/world/russia-drone-attack-ukraine-9.7346436?cmp=rss",
       "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1472,61 +1707,61 @@
       ]
     },
     {
-      "id": "world-143",
-      "title": "Trump administration hits South Africa with new sanctions over alleged discrimination against whites",
-      "title_en": "Trump administration hits South Africa with new sanctions over alleged discrimination against whites",
+      "id": "world-202",
+      "title": "US plans to send bombs to Israel in $2.8 billion weapons deal",
+      "title_en": "US plans to send bombs to Israel in $2.8 billion weapons deal",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/trump-administration-hits-south-africa-new-sanctions-alleged-136487689",
-      "category": "미국",
-      "primary_source": "ABC News",
-      "excerpt": "The Trump administration has announced that it will impose travel bans on officials it claims are responsible for discrimination against White people and other minority groups in South Africa.",
-      "excerpt_en": "The Trump administration has announced that it will impose travel bans on officials it claims are responsible for discrimination against White people and other minority groups in South Africa.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/us-south-africa-new-sanctions-discrimination-white-people/",
+      "title_url": "https://www.euronews.com/2026/09/16/us-plans-to-send-bombs-to-israel-in-28-billion-weapons-sale",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "The Trump administration is planning to deliver powerful 2,000-pound bombs to Israel as part of an upcoming arms deal, weapons that prompted such concerns about the possibility of mass casualties in G",
+      "excerpt_en": "The Trump administration is planning to deliver powerful 2,000-pound bombs to Israel as part of an upcoming arms deal, weapons that prompted such concerns about the possibility of mass casualties in G",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/video/20260916-trump-administration-plans-to-send-powerful-bombs-to-israel-in-2-8-billion-weapons-sale",
       "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News",
-        "Al Jazeera",
-        "CBS News"
+        "Euronews",
+        "France24",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-16T11:21:03+09:00",
-      "latest_published_at": "2026-09-16T17:13:06+09:00",
+      "first_published_at": "2026-09-16T06:20:49+09:00",
+      "latest_published_at": "2026-09-16T15:45:44+09:00",
       "articles": [
         {
-          "title": "South Africa slams planned US sanctions over alleged racial discrimination",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/16/south-africa-slam-planned-us-sanctions-over-alleged-racial-discrimination?traffic_source=rss",
-          "published_at": "17:13"
+          "title": "Trump administration plans to send powerful bombs to Israel in $2.8 billion weapons sale",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/video/20260916-trump-administration-plans-to-send-powerful-bombs-to-israel-in-2-8-billion-weapons-sale",
+          "published_at": "15:45"
         },
         {
-          "title": "U.S. adds sanctions on South Africa, alleging discrimination against White people",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/us-south-africa-new-sanctions-discrimination-white-people/",
-          "published_at": "11:48"
+          "title": "Trump pushes $2.8bn Israel weapons deal for bombs once halted over Gaza fears",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-israel-heavy-bombs-gaza-b3051100.html",
+          "published_at": "10:05"
         },
         {
-          "title": "Trump administration hits South Africa with new sanctions over alleged discrimination against whites",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/trump-administration-hits-south-africa-new-sanctions-alleged-136487689",
-          "published_at": "11:21"
+          "title": "US plans to send bombs to Israel in $2.8 billion weapons deal",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/us-plans-to-send-bombs-to-israel-in-28-billion-weapons-sale",
+          "published_at": "06:20"
         }
       ]
     },
     {
-      "id": "world-209",
+      "id": "world-214",
       "title": "Trump admin tightens visa rules for some South Africans: Who could face restrictions and what the new policy says",
       "title_en": "Trump admin tightens visa rules for some South Africans: Who could face restrictions and what the new policy says",
       "title_source": "earliest_pick",
@@ -1580,9 +1815,56 @@
       ]
     },
     {
-      "id": "world-224",
-      "title": "At least 21 killed, including children, as unstable Gaza building collapses",
-      "title_en": "At least 21 killed, including children, as unstable Gaza building collapses",
+      "id": "world-64",
+      "title": "At least 60 dead after gold mine collapses in Sudan",
+      "title_en": "At least 60 dead after gold mine collapses in Sudan",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/09/16/at-least-60-dead-after-gold-mine-collapses-in-sudan",
+      "category": "기타",
+      "primary_source": "Euronews",
+      "excerpt": "The Al-Zaraa mine is near El-Nahud in Sudan’s West Kordofan region. The mine began to collapse on Tuesday after tunnels were dug very close together",
+      "excerpt_en": "The Al-Zaraa mine is near El-Nahud in Sudan’s West Kordofan region. The mine began to collapse on Tuesday after tunnels were dug very close together",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/16/at-least-60-dead-after-gold-mine-collapses-in-sudan",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T09:12:52+09:00",
+      "latest_published_at": "2026-09-16T11:09:01+09:00",
+      "articles": [
+        {
+          "title": "At least 60 killed in gold mine collapse in Sudan's West Kordofan, sources say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRVVqc05CcEI1emtZaGY3ZFVidllBRG5OaTVTbHhqMHZjb0dRZ0RCYnZTcDg5c3BaRExCNmVCU04tLTF0NFJNbFJuM1NxeTJiUXJDb3M2UkFVYW1rYVdEcXQxSTdlVlRoSF9CaVRkbXowZHY4QVRYeHo4dmJ5d3JJbjdHcW53MERtNDBmcllrTERleHNCdGhONUV0dnMxa1NsYkhzWXM1Tl9NcEYzaWlETGhnSVotXzQ?oc=5",
+          "published_at": "11:09"
+        },
+        {
+          "title": "At least 60 dead after gold mine collapses in Sudan",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/at-least-60-dead-after-gold-mine-collapses-in-sudan",
+          "published_at": "09:12"
+        }
+      ]
+    },
+    {
+      "id": "world-228",
+      "title": "At least 21 killed in Gaza, including many children, as unstable building collapses",
+      "title_en": "At least 21 killed in Gaza, including many children, as unstable building collapses",
       "title_source": "earliest_pick",
       "title_url": "https://www.cbc.ca/news/world/gaza-building-collapse-9.7345835?cmp=rss",
       "category": "중동",
@@ -1592,14 +1874,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/sep/16/building-gaza-city-damaged-israeli-strikes-collapses-killed",
       "translation_status": "failed",
-      "score": 59,
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1619,7 +1901,7 @@
           "published_at": "16:36"
         },
         {
-          "title": "At least 21 killed, including children, as unstable Gaza building collapses",
+          "title": "At least 21 killed in Gaza, including many children, as unstable building collapses",
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/gaza-building-collapse-9.7345835?cmp=rss",
           "published_at": "10:34"
@@ -1627,64 +1909,64 @@
       ]
     },
     {
-      "id": "world-131",
-      "title": "Philippines’ ex-leader Duterte makes first appearance at ICC",
-      "title_en": "Philippines’ ex-leader Duterte makes first appearance at ICC",
+      "id": "world-91",
+      "title": "News helicopter crashes in Los Angeles, killing three",
+      "title_en": "News helicopter crashes in Los Angeles, killing three",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
-      "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "THE HAGUE - Former Philippines president Rodrigo Duterte appeared in person at the International Criminal Court for the first time Wednesday, as he faces charges over his “war on drugs” that killed th",
-      "excerpt_en": "THE HAGUE - Former Philippines president Rodrigo Duterte appeared in person at the International Criminal Court for the first time Wednesday, as he faces charges over his “war on drugs” that killed th",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
+      "title_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnBCcExub2NSdkEteUtWTkd5ZmZseTMxdjhPb3hSQ3VRSlRDMUVJTElPWDY4ZHhZYnN6SkN0elJ0bkh2QVhfMENlUHZBVUEzNjlXdXBVdUpuSS1MUmJPV3ZvazdBYll0dXdua0hKMi1famNuOXpSWWlQa1hYdVlVcm9RUlEtTWJkRWVDazVWaGp3SEZ3SmhBREpUd2xzTDR4ZFZ3MnY3YlN1aWFkNTRtRQ?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "Three people have been killed after a news helicopter crashed while it was leaving the scene of a deadly bus accident in Los Angeles. California.",
+      "excerpt_en": "Three people have been killed after a news helicopter crashed while it was leaving the scene of a deadly bus accident in Los Angeles. California.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/three-killed-after-news-chopper-crashes-in-los-angeles-20260916-p60xwn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "failed",
-      "score": 57,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
+        "time_score": 1,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "BBC",
-        "Bangkok Post"
+        "Reuters",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-09-16T09:08:00+09:00",
-      "latest_published_at": "2026-09-16T11:50:09+09:00",
+      "first_published_at": "2026-09-16T03:13:00+09:00",
+      "latest_published_at": "2026-09-16T04:20:06+09:00",
       "articles": [
         {
-          "title": "Philippines' Duterte seen in person at International Criminal Court for first time",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cq986j7x1nd3o?at_medium=RSS&at_campaign=rss",
-          "published_at": "11:50"
+          "title": "Three killed after news chopper crashes in Los Angeles",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/three-killed-after-news-chopper-crashes-in-los-angeles-20260916-p60xwn.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "04:20"
         },
         {
-          "title": "Philippines’ ex-leader Duterte makes first appearance at ICC",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
-          "published_at": "09:08"
+          "title": "News helicopter crashes in Los Angeles, killing three",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnBCcExub2NSdkEteUtWTkd5ZmZseTMxdjhPb3hSQ3VRSlRDMUVJTElPWDY4ZHhZYnN6SkN0elJ0bkh2QVhfMENlUHZBVUEzNjlXdXBVdUpuSS1MUmJPV3ZvazdBYll0dXdua0hKMi1famNuOXpSWWlQa1hYdVlVcm9RUlEtTWJkRWVDazVWaGp3SEZ3SmhBREpUd2xzTDR4ZFZ3MnY3YlN1aWFkNTRtRQ?oc=5",
+          "published_at": "03:13"
         }
       ]
     },
     {
-      "id": "world-190",
-      "title": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
-      "title_en": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
+      "id": "world-144",
+      "title": "Yemen's Houthis claim they shot down Saudi fighter jet, deny targeting Mecca",
+      "title_en": "Yemen's Houthis claim they shot down Saudi fighter jet, deny targeting Mecca",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "A Russian drone struck a passenger bus in southern Ukraine early Wednesday, killing five people and wounding at least seven. President Volodymyr Zelenskyy described the attack, the latest in a series ",
-      "excerpt_en": "A Russian drone struck a passenger bus in southern Ukraine early Wednesday, killing five people and wounding at least seven. President Volodymyr Zelenskyy described the attack, the latest in a series ",
-      "excerpt_source": "France24",
-      "excerpt_url": "http://www.france24.com/en/video/20260916-russian-drone-strike-on-a-passenger-bus-in-ukraine-kills-5-people-and-wounds-at-least-7-others",
+      "title_url": "https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "Saudi Arabia vowed it would not hesitate to take \"deterrent measures\" against the Houthis after alerts were issued over possible drone attacks near Islam's holiest site, the first such alerts since th",
+      "excerpt_en": "Saudi Arabia vowed it would not hesitate to take \"deterrent measures\" against the Houthis after alerts were issued over possible drone attacks near Islam's holiest site, the first such alerts since th",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca",
       "translation_status": "failed",
       "score": 56,
       "score_breakdown": {
@@ -1700,38 +1982,85 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "France24"
+        "Al Jazeera",
+        "Euronews"
       ],
-      "first_published_at": "2026-09-16T11:27:52+09:00",
-      "latest_published_at": "2026-09-16T16:17:22+09:00",
+      "first_published_at": "2026-09-16T09:20:47+09:00",
+      "latest_published_at": "2026-09-16T20:12:25+09:00",
       "articles": [
         {
-          "title": "Russian drone strike on a passenger bus in Ukraine kills 5 people and wounds at least 7 others",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/video/20260916-russian-drone-strike-on-a-passenger-bus-in-ukraine-kills-5-people-and-wounds-at-least-7-others",
-          "published_at": "16:17"
+          "title": "New video claims to show Saudi fighter jet Houthis say they shot down",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/new-video-claims-to-show-saudi-fighter-jet-houthis-say-they-shot-down?traffic_source=rss",
+          "published_at": "20:12"
         },
         {
-          "title": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519",
-          "published_at": "11:27"
+          "title": "Yemen's Houthis claim they shot down Saudi fighter jet, deny targeting Mecca",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca",
+          "published_at": "09:20"
         }
       ]
     },
     {
-      "id": "world-2",
-      "title": "Calls to slow AI benefit US sector leaders, says French finance minister",
-      "title_en": "Calls to slow AI benefit US sector leaders, says French finance minister",
+      "id": "world-380",
+      "title": "Chatsworth helicopter crash: NBC chopper crashes in Los Angeles during road mishap coverage, anchor confirms",
+      "title_en": "Chatsworth helicopter crash: NBC chopper crashes in Los Angeles during road mishap coverage, anchor confirms",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/calls-slow-ai-benefit-us-sector-leaders-says-french-finance-minister-6389686",
-      "category": "유럽",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/nbc-anchor-colleen-williams-confirms-it-was-newschopper-4-that-crashed-in-los-angeles-videos-chatsworth-dead-injured-101789532089376.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The helicopter crashed near a storage building in the San Fernando Valley, as news crews were covering a car accident that left at least two dead and six others injured",
+      "excerpt_en": "The helicopter crashed near a storage building in the San Fernando Valley, as news crews were covering a car accident that left at least two dead and six others injured",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/16/helicopter-crash-kills-at-least-3-people-in-los-angeles",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-16T04:16:05+09:00",
+      "latest_published_at": "2026-09-16T04:22:29+09:00",
+      "articles": [
+        {
+          "title": "NBC news helicopter crash kills at least three in Los Angeles while reporters covered car accident",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/helicopter-crash-kills-at-least-3-people-in-los-angeles",
+          "published_at": "04:22"
+        },
+        {
+          "title": "Chatsworth helicopter crash: NBC chopper crashes in Los Angeles during road mishap coverage, anchor confirms",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nbc-anchor-colleen-williams-confirms-it-was-newschopper-4-that-crashed-in-los-angeles-videos-chatsworth-dead-injured-101789532089376.html",
+          "published_at": "04:16"
+        }
+      ]
+    },
+    {
+      "id": "world-3",
+      "title": "Revolut says no direct demand received over alleged data breach",
+      "title_en": "Revolut says no direct demand received over alleged data breach",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/revolut-says-no-direct-demand-received-over-alleged-data-breach-6389996",
+      "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Calls to slow AI benefit US sector leaders, says French finance minister Reuters",
-      "excerpt_en": "Calls to slow AI benefit US sector leaders, says French finance minister Reuters",
+      "excerpt": "Revolut says no direct demand received over alleged data breach Reuters",
+      "excerpt_en": "Revolut says no direct demand received over alleged data breach Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYnRUUTFmUnVOYlVxNXJZUXJyYkwwT2gwZTAzazE5Q1NWUTE4WXlpc2Q5UjNYakdfMU9ndkJJTnNSeGR0a0dBeXRpYnFXY2ZkT2VqVXg4WTFzZnBwNGR6aUlYeWpDdUw0MXRXazdQTHpsU05JSVkxRVI5U0tSbl9ZbkJQci1GWWhLRzVmY3RlRDk4RWgtTGZGQ3Z3VWxmY3IyX05FcHllYUtlMl8zdEdiYm16R2NxaEI3N1g1REY1LWhNbGQxeGVlN2JCQzYyZw?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaE5teWViRVcxc1pSRzV0Mk1TMG1HbE03cEU2SG5scjBaYUhtdl80SEw4VFNsYXk1RmRQeERqRVlxU0s3WGtmTENiMGxVcUktS1RFSTVHNzBoRUg4TVA2WUNjZlB0ZHRJQV9PSk56TE11WVRlWlhVeUg4eFRTRTltWlJkMDlwNThSY0JCbnRhSS1HX3k3d0NDU3BfLWZXanRVdTdhN1RB?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1750,35 +2079,35 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-16T15:21:35+09:00",
-      "latest_published_at": "2026-09-16T16:34:43+09:00",
+      "first_published_at": "2026-09-16T18:10:13+09:00",
+      "latest_published_at": "2026-09-16T20:05:20+09:00",
       "articles": [
         {
-          "title": "Calls to slow AI benefit US sector leaders, says French finance minister",
+          "title": "Revolut says no direct demand received over alleged data breach",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYnRUUTFmUnVOYlVxNXJZUXJyYkwwT2gwZTAzazE5Q1NWUTE4WXlpc2Q5UjNYakdfMU9ndkJJTnNSeGR0a0dBeXRpYnFXY2ZkT2VqVXg4WTFzZnBwNGR6aUlYeWpDdUw0MXRXazdQTHpsU05JSVkxRVI5U0tSbl9ZbkJQci1GWWhLRzVmY3RlRDk4RWgtTGZGQ3Z3VWxmY3IyX05FcHllYUtlMl8zdEdiYm16R2NxaEI3N1g1REY1LWhNbGQxeGVlN2JCQzYyZw?oc=5",
-          "published_at": "16:34"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaE5teWViRVcxc1pSRzV0Mk1TMG1HbE03cEU2SG5scjBaYUhtdl80SEw4VFNsYXk1RmRQeERqRVlxU0s3WGtmTENiMGxVcUktS1RFSTVHNzBoRUg4TVA2WUNjZlB0ZHRJQV9PSk56TE11WVRlWlhVeUg4eFRTRTltWlJkMDlwNThSY0JCbnRhSS1HX3k3d0NDU3BfLWZXanRVdTdhN1RB?oc=5",
+          "published_at": "20:05"
         },
         {
-          "title": "Calls to slow AI benefit US sector leaders, says French finance minister",
+          "title": "Revolut says no direct demand received over alleged data breach",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/calls-slow-ai-benefit-us-sector-leaders-says-french-finance-minister-6389686",
-          "published_at": "15:21"
+          "url": "https://www.channelnewsasia.com/business/revolut-says-no-direct-demand-received-over-alleged-data-breach-6389996",
+          "published_at": "18:10"
         }
       ]
     },
     {
       "id": "world-4",
-      "title": "Microsoft AI chief calls out Anthropic's approach to AI consciousness",
-      "title_en": "Microsoft AI chief calls out Anthropic's approach to AI consciousness",
+      "title": "Trading Day: Lift off!",
+      "title_en": "Trading Day: Lift off!",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-6389491",
+      "title_url": "https://www.channelnewsasia.com/business/trading-day-lift-6390266",
       "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Microsoft AI chief calls out Anthropic's approach to AI consciousness Reuters",
-      "excerpt_en": "Microsoft AI chief calls out Anthropic's approach to AI consciousness Reuters",
+      "excerpt": "COMMENTARY: TRADING DAY Lift off! Reuters",
+      "excerpt_en": "COMMENTARY: TRADING DAY Lift off! Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcXVwcmwwcUVVMFVOeHFOZHdJQlJHMlhwdGNYUl9FeEhKVFZjWWNDV0pGUnh3dVNQZi1BSDhHZUszWmtpbVpYdGNLWU01clRZTngtT2VpQ1lPVkFhSkVwVGVVR1N6T2RaczBvX2NJTmc0aU5GWEhZTVBIYmIwbnVEc0hSRWxzeUF2d0hQQUZCcVl3cEw2MVBVdmU1MDNTbUhwQ0loRzFPSXJBY1lweWlV?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnVEVW9JZ2tKNmNES3RWYUlXTjJhOVFad0JhMjJXM1JsbHJwTVpUNmltQ3l3Z1dLclFEOTkwNXQwVG1mZjFwRE1lcjZDWl90VF83YkllMElYRU1aNXhWYVQyZWlENERVa2xRNmNLR1pOMmx5ZnZfUVNqSTBXT0VYdm9ocEtESEVPRHpsVFoyVVJaMnVTYlpBMm1RdkdDZ2VkQ2htYmpB?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1797,35 +2126,35 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-16T14:02:27+09:00",
-      "latest_published_at": "2026-09-16T18:21:45+09:00",
+      "first_published_at": "2026-09-16T21:06:07+09:00",
+      "latest_published_at": "2026-09-16T21:07:29+09:00",
       "articles": [
         {
-          "title": "Microsoft AI chief calls out Anthropic's approach to AI consciousness",
+          "title": "COMMENTARY: TRADING DAY Lift off!",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcXVwcmwwcUVVMFVOeHFOZHdJQlJHMlhwdGNYUl9FeEhKVFZjWWNDV0pGUnh3dVNQZi1BSDhHZUszWmtpbVpYdGNLWU01clRZTngtT2VpQ1lPVkFhSkVwVGVVR1N6T2RaczBvX2NJTmc0aU5GWEhZTVBIYmIwbnVEc0hSRWxzeUF2d0hQQUZCcVl3cEw2MVBVdmU1MDNTbUhwQ0loRzFPSXJBY1lweWlV?oc=5",
-          "published_at": "18:21"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnVEVW9JZ2tKNmNES3RWYUlXTjJhOVFad0JhMjJXM1JsbHJwTVpUNmltQ3l3Z1dLclFEOTkwNXQwVG1mZjFwRE1lcjZDWl90VF83YkllMElYRU1aNXhWYVQyZWlENERVa2xRNmNLR1pOMmx5ZnZfUVNqSTBXT0VYdm9ocEtESEVPRHpsVFoyVVJaMnVTYlpBMm1RdkdDZ2VkQ2htYmpB?oc=5",
+          "published_at": "21:07"
         },
         {
-          "title": "Microsoft AI chief calls out Anthropic's approach to AI consciousness",
+          "title": "Trading Day: Lift off!",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-6389491",
-          "published_at": "14:02"
+          "url": "https://www.channelnewsasia.com/business/trading-day-lift-6390266",
+          "published_at": "21:06"
         }
       ]
     },
     {
-      "id": "world-20",
-      "title": "Analysis:Crypto bill's defeat shows limits of industry's political machine",
-      "title_en": "Analysis:Crypto bill's defeat shows limits of industry's political machine",
+      "id": "world-6",
+      "title": "Sweden's centre-left opposition wins election, SVT says",
+      "title_en": "Sweden's centre-left opposition wins election, SVT says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/analysiscrypto-bills-defeat-shows-limits-industrys-political-machine-6389526",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Crypto bill's defeat shows limits of industry's political machine Reuters",
-      "excerpt_en": "Crypto bill's defeat shows limits of industry's political machine Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWHphX25vNHpSYXNOQVlwZDdwc1ZxbW81RkN1V0hTdzRoeGx5MGY2b3k0alhVRkVtYjN0ZHBLWEFZVDdZUGs0NWJ3dkVUUk9qc3hvbFpoY3F1WUdLc0tzd25ySWNCeHlWZFlYd0piek41a3ZBUGtnaFI3bVV4RTM2OEtJREZYN2FJclRvTXViQ0hXOUlwWDJtLVotWXRzSm1KeHB4cjZwbUw2bUwtQ0p4UHlOTTRjbWc?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU1dDeUQ3Vl9LOW9OMDd6MG1TWFhnQ0IweFk5X0oxZXlzSVBORlF2QWhJbGJRMDRrTjlTRTBvOExiSjFpRlpIMUdsM1gxa2otWTVfcGpMa0dHTWRZRnljdVZQM0hpMTM0TWJQNGlKbzRBVVhSRXlvd2R1SFROU2ZKNWttU3Z2cUo3UWo3V1BaZ3hiN3MxM3RCeU9rR1lZdnViT0I4S3VvV0xpQVB4RG1wakdR?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Sweden's centre-left opposition has defeated the incumbent right-wing governing bloc by the slimmest of margins, public broadcaster ​SVT ‌said on Wednesday, after 99% ⁠of the votes in Sunday's parliam",
+      "excerpt_en": "Sweden's centre-left opposition has defeated the incumbent right-wing governing bloc by the slimmest of margins, public broadcaster ​SVT ‌said on Wednesday, after 99% ⁠of the votes in Sunday's parliam",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/sweden-s-centre-left-opposition-wins-election-svt-says",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1841,38 +2170,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "France24",
         "Reuters"
       ],
-      "first_published_at": "2026-09-16T14:30:22+09:00",
-      "latest_published_at": "2026-09-16T16:29:09+09:00",
+      "first_published_at": "2026-09-16T18:27:09+09:00",
+      "latest_published_at": "2026-09-16T19:21:05+09:00",
       "articles": [
         {
-          "title": "Crypto bill's defeat shows limits of industry's political machine",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWHphX25vNHpSYXNOQVlwZDdwc1ZxbW81RkN1V0hTdzRoeGx5MGY2b3k0alhVRkVtYjN0ZHBLWEFZVDdZUGs0NWJ3dkVUUk9qc3hvbFpoY3F1WUdLc0tzd25ySWNCeHlWZFlYd0piek41a3ZBUGtnaFI3bVV4RTM2OEtJREZYN2FJclRvTXViQ0hXOUlwWDJtLVotWXRzSm1KeHB4cjZwbUw2bUwtQ0p4UHlOTTRjbWc?oc=5",
-          "published_at": "16:29"
+          "title": "Sweden's centre-left opposition wins election, SVT says",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/sweden-s-centre-left-opposition-wins-election-svt-says",
+          "published_at": "19:21"
         },
         {
-          "title": "Analysis:Crypto bill's defeat shows limits of industry's political machine",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/analysiscrypto-bills-defeat-shows-limits-industrys-political-machine-6389526",
-          "published_at": "14:30"
+          "title": "Sweden's centre-left opposition wins election, SVT says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU1dDeUQ3Vl9LOW9OMDd6MG1TWFhnQ0IweFk5X0oxZXlzSVBORlF2QWhJbGJRMDRrTjlTRTBvOExiSjFpRlpIMUdsM1gxa2otWTVfcGpMa0dHTWRZRnljdVZQM0hpMTM0TWJQNGlKbzRBVVhSRXlvd2R1SFROU2ZKNWttU3Z2cUo3UWo3V1BaZ3hiN3MxM3RCeU9rR1lZdnViT0I4S3VvV0xpQVB4RG1wakdR?oc=5",
+          "published_at": "18:27"
         }
       ]
     },
     {
-      "id": "world-62",
-      "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
-      "title_en": "Anthropic to fold Claude AI features into one interface, launches document tools",
+      "id": "world-53",
+      "title": "Real Madrid defend players' freedom of expression after Mbappe and Vinicius' shirt stance",
+      "title_en": "Real Madrid defend players' freedom of expression after Mbappe and Vinicius' shirt stance",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/anthropic-fold-claude-ai-features-one-interface-launches-document-tools-6389836",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Anthropic to fold Claude AI features into one interface, launches document tools Reuters",
-      "excerpt_en": "Anthropic to fold Claude AI features into one interface, launches document tools Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZy04cUpKZ1lLWHB3Zmp5N19XeEEwdi13bjBZYllISzltVk5HaDdlUnJqOEJFZUlYVjBxNzhZbUc5NDhDeWdISkUzLWw3b25ZZTYxZG4tZUFjLXU5T3F2YlZ2M1QtNDdZcDZ1anZlTVFGZzlmY2dYNGRLelY5TjRTMDU4d1QxaDRYY0JvNXBIZ0FQUWxiMVJzQlc3V0plQTd2M19oWWRVUjV3aXdvOHhXREJ0STBfdW9LZkw1QnV0Mk5MQkhRaldlQ1NsSDJHcTkt?oc=5",
+      "title_url": "https://news.sky.com/story/real-madrid-defend-players-freedom-of-expression-after-mbappe-and-vinicius-ceuta-shirt-stance-13588628",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "Real Madrid have defended their players' right to have differing views after Kylian Mbappe and Vinicius Junior became embroiled in a debate in Spain about migration.",
+      "excerpt_en": "Real Madrid have defended their players' right to have differing views after Kylian Mbappe and Vinicius Junior became embroiled in a debate in Spain about migration.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/real-madrid-defend-players-freedom-of-expression-after-mbappe-and-vinicius-ceuta-shirt-stance-13588628",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1888,38 +2217,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "Reuters",
+        "Sky News"
       ],
-      "first_published_at": "2026-09-16T16:42:27+09:00",
-      "latest_published_at": "2026-09-16T16:43:43+09:00",
+      "first_published_at": "2026-09-16T14:50:00+09:00",
+      "latest_published_at": "2026-09-16T20:37:44+09:00",
       "articles": [
         {
-          "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
+          "title": "Real defend players' freedom of expression after Mbappe, Vinicius cover message of support for Ceuta",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZy04cUpKZ1lLWHB3Zmp5N19XeEEwdi13bjBZYllISzltVk5HaDdlUnJqOEJFZUlYVjBxNzhZbUc5NDhDeWdISkUzLWw3b25ZZTYxZG4tZUFjLXU5T3F2YlZ2M1QtNDdZcDZ1anZlTVFGZzlmY2dYNGRLelY5TjRTMDU4d1QxaDRYY0JvNXBIZ0FQUWxiMVJzQlc3V0plQTd2M19oWWRVUjV3aXdvOHhXREJ0STBfdW9LZkw1QnV0Mk5MQkhRaldlQ1NsSDJHcTkt?oc=5",
-          "published_at": "16:43"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSWZXZ1RTR1VDRDdDcmQ5N0xxSHVPVzIxU1NHOEhlSEJVNGlVZS1RZVlYRmdiMFlNczBmdTFQQ0daMUFFa0s3QXNwVk1kaHFqNDBRSjJOU05GV21FR292RUIwdGJlVmhTcFFCQWs0RktSUFZJeEo3QmRVbVllV3IyazVqTDZQZmtId3owZnA4Nm12MXlPRnc3SFJfcWQyN3YxVXAxNmlEMFZYdzR6RzQ2VDN6QUt4ZWJOSXdkcnpuNG9fUQ?oc=5",
+          "published_at": "20:37"
         },
         {
-          "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/anthropic-fold-claude-ai-features-one-interface-launches-document-tools-6389836",
-          "published_at": "16:42"
+          "title": "Real Madrid defend players' freedom of expression after Mbappe and Vinicius' shirt stance",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/real-madrid-defend-players-freedom-of-expression-after-mbappe-and-vinicius-ceuta-shirt-stance-13588628",
+          "published_at": "14:50"
         }
       ]
     },
     {
-      "id": "world-104",
-      "title": "Federal Reserve hikes key interest rate for first time in 3 years despite Trump’s demands for a cut",
-      "title_en": "Federal Reserve hikes key interest rate for first time in 3 years despite Trump’s demands for a cut",
+      "id": "world-108",
+      "title": "Saudis seek allies’ help as missile defenses run low in fight with Houthis, officials say",
+      "title_en": "Saudis seek allies’ help as missile defenses run low in fight with Houthis, officials say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/fed-interest-rate-decision-announcement-trump-b3051444.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "It's the first policy shift under the new Fed chief, who took office in late May after being selected by Trump with an expectation that he would cut rates",
-      "excerpt_en": "It's the first policy shift under the new Fed chief, who took office in late May after being selected by Trump with an expectation that he would cut rates",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/fed-interest-rate-decision-announcement-trump-b3051444.html",
+      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkFPWXV5ejJIcnZYZEdJUHRDSVRIZk5Tbzd6SWlNSS1IOGc3MGVCMkNhdFZXU3RlcWxLa3ljMkt6M0hJWlpXSmlFQjU5cDV2S284bVN6ZXd3X2dEOWVhclRLVW5YT2tQRXFiMV96Q19HRDM1bGZhNzlJc0Rxak00eVVTRnN3SVU0aXY1Wm93QWtwN0dBdzU4V1RRZnlkczRva2NrYg?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "Saudi Arabia is running low on missile interceptors and has turned to regional and Western allies for help as its stand-off with Houthi rebels in Yemen drags on, two regional officials said on Wednesd",
+      "excerpt_en": "Saudi Arabia is running low on missile interceptors and has turned to regional and Western allies for help as its stand-off with Houthi rebels in Yemen drags on, two regional officials said on Wednesd",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3367777/saudis-seek-allies-help-missile-defences-run-low-fight-houthis?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1936,27 +2265,74 @@
       "source_count": 2,
       "sources": [
         "AP News",
-        "The Independent"
+        "SCMP"
       ],
-      "first_published_at": "2026-09-16T18:16:58+09:00",
-      "latest_published_at": "2026-09-16T18:27:00+09:00",
+      "first_published_at": "2026-09-16T19:55:00+09:00",
+      "latest_published_at": "2026-09-16T19:55:51+09:00",
       "articles": [
         {
-          "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVlB2TmNqY1dILUtfRTFBQ0JPSk53elRnU1QzdmhIQ3VvTWlkelRTd3haWHJ4bmxiY2ZOcGhvd09wMTllVkVLQzk5NkdKZzNPeHpaZTRHQ242Ynd2Q1ZIUU50cUp1N2JYd1lCQndZQlhMUTZFekFZWWNueUxNbmRiUHdBZ2dWbDgzNlhmejZneHptaFhGbDI1M0JPbk8zZw?oc=5",
-          "published_at": "18:27"
+          "title": "Saudis seek allies’ help as missile defences run low in fight with Houthis",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367777/saudis-seek-allies-help-missile-defences-run-low-fight-houthis?utm_source=rss_feed",
+          "published_at": "19:55"
         },
         {
-          "title": "Federal Reserve hikes key interest rate for first time in 3 years despite Trump’s demands for a cut",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fed-interest-rate-decision-announcement-trump-b3051444.html",
-          "published_at": "18:16"
+          "title": "Saudis seek allies’ help as missile defenses run low in fight with Houthis, officials say",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkFPWXV5ejJIcnZYZEdJUHRDSVRIZk5Tbzd6SWlNSS1IOGc3MGVCMkNhdFZXU3RlcWxLa3ljMkt6M0hJWlpXSmlFQjU5cDV2S284bVN6ZXd3X2dEOWVhclRLVW5YT2tQRXFiMV96Q19HRDM1bGZhNzlJc0Rxak00eVVTRnN3SVU0aXY1Wm93QWtwN0dBdzU4V1RRZnlkczRva2NrYg?oc=5",
+          "published_at": "19:55"
         }
       ]
     },
     {
-      "id": "world-141",
+      "id": "world-113",
+      "title": "House votes for a third time to end the Iran war as conflict drags on",
+      "title_en": "House votes for a third time to end the Iran war as conflict drags on",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNnlkd1Y1cDB2MGdmcngydWZDR1JnXzY4aTliNFJCdzU5dHFWSzJSVzdtemF6STMwZGJSczRnUHBFOW5BU21jQk5GdzctbExET044UXg4dkZEcDQ3TkpZVTUyc2o1R0ZJY050MC1Ec0VrVE9QSWpKOVdjNWRtR2dqWmZKQ3lKX2NEd0dKb1o2RQ?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "For a third time, the US House has voted to end the war in Iran, approving a war powers resolution that would halt President Donald Trump’s ability to continue military action without congressional ap",
+      "excerpt_en": "For a third time, the US House has voted to end the war in Iran, approving a war powers resolution that would halt President Donald Trump’s ability to continue military action without congressional ap",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/16/us-house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Euronews"
+      ],
+      "first_published_at": "2026-09-16T03:18:00+09:00",
+      "latest_published_at": "2026-09-16T20:20:17+09:00",
+      "articles": [
+        {
+          "title": "US House votes for a third time to end the Iran war as conflict drags on",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/us-house-votes-for-a-third-time-to-end-the-iran-war-as-conflict-drags-on",
+          "published_at": "20:20"
+        },
+        {
+          "title": "House votes for a third time to end the Iran war as conflict drags on",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNnlkd1Y1cDB2MGdmcngydWZDR1JnXzY4aTliNFJCdzU5dHFWSzJSVzdtemF6STMwZGJSczRnUHBFOW5BU21jQk5GdzctbExET044UXg4dkZEcDQ3TkpZVTUyc2o1R0ZJY050MC1Ec0VrVE9QSWpKOVdjNWRtR2dqWmZKQ3lKX2NEd0dKb1o2RQ?oc=5",
+          "published_at": "03:18"
+        }
+      ]
+    },
+    {
+      "id": "world-154",
       "title": "Belarus frees 25 political prisoners in return for US sanctions relief",
       "title_en": "Belarus frees 25 political prisoners in return for US sanctions relief",
       "title_source": "earliest_pick",
@@ -1986,13 +2362,13 @@
         "New York Times"
       ],
       "first_published_at": "2026-09-16T17:38:09+09:00",
-      "latest_published_at": "2026-09-16T18:08:25+09:00",
+      "latest_published_at": "2026-09-16T19:25:40+09:00",
       "articles": [
         {
           "title": "Belarus Frees 25 Political Prisoners in Exchange for U.S. Sanctions Relief",
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/09/16/world/europe/belarus-political-prisoner-release-us-sanctions.html",
-          "published_at": "18:08"
+          "published_at": "19:25"
         },
         {
           "title": "Belarus frees 25 political prisoners in return for US sanctions relief",
@@ -2003,17 +2379,17 @@
       ]
     },
     {
-      "id": "world-147",
-      "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
-      "title_en": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
+      "id": "world-196",
+      "title": "Turkish courts jail LGBTQ activists as crackdown widens",
+      "title_en": "Turkish courts jail LGBTQ activists as crackdown widens",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/democrats-virginia-americans-university-of-chicago-arlington-b3051056.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "New poll finds over half of Americans fear AI-driven data centers will hike electricity costs and strain water supplies.",
-      "excerpt_en": "New poll finds over half of Americans fear AI-driven data centers will hike electricity costs and strain water supplies.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/9/16/poll-shows-americans-are-increasingly-alarmed-by-ais-ecological-footprint?traffic_source=rss",
+      "title_url": "https://www.bangkokpost.com/world/3320695/turkish-courts-jail-lgbtq-activists-as-crackdown-widens",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Turkish courts have jailed more LGBTQ activists and supporters, raising to 62 the number remanded in custody following a weekend crackdown, a legal rights group said on Wednesday. Speaking with FRANCE",
+      "excerpt_en": "Turkish courts have jailed more LGBTQ activists and supporters, raising to 62 the number remanded in custody following a weekend crackdown, a legal rights group said on Wednesday. Speaking with FRANCE",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/lgbtq-a-threat-to-erdogan-s-ideal-of-a-strong-masculine-state-expert-says",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -2029,181 +2405,310 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "The Independent"
+        "Bangkok Post",
+        "France24"
       ],
-      "first_published_at": "2026-09-16T09:05:24+09:00",
-      "latest_published_at": "2026-09-16T16:45:04+09:00",
+      "first_published_at": "2026-09-16T10:45:00+09:00",
+      "latest_published_at": "2026-09-16T19:39:46+09:00",
       "articles": [
         {
-          "title": "Poll shows Americans are increasingly alarmed by AI’s ecological footprint",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/16/poll-shows-americans-are-increasingly-alarmed-by-ais-ecological-footprint?traffic_source=rss",
-          "published_at": "16:45"
+          "title": "LGBTQ 'a threat to Erdogan's ideal of a strong, masculine state', expert says",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/lgbtq-a-threat-to-erdogan-s-ideal-of-a-strong-masculine-state-expert-says",
+          "published_at": "19:39"
         },
         {
-          "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/democrats-virginia-americans-university-of-chicago-arlington-b3051056.html",
-          "published_at": "09:05"
+          "title": "Turkish courts jail LGBTQ activists as crackdown widens",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3320695/turkish-courts-jail-lgbtq-activists-as-crackdown-widens",
+          "published_at": "10:45"
         }
       ]
     },
     {
-      "id": "world-225",
-      "title": "Who is Abdul Malik al-Houthi, the elusive Yemeni commander behind Red Sea-Saudi blitz?",
-      "title_en": "Who is Abdul Malik al-Houthi, the elusive Yemeni commander behind Red Sea-Saudi blitz?",
+      "id": "world-200",
+      "title": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
+      "title_en": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3367764/who-abdul-malik-al-houthi-elusive-yemeni-commander-behind-red-sea-saudi-blitz?utm_source=rss_feed",
+      "title_url": "https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "A Russian drone struck a passenger bus in southern Ukraine early Wednesday, killing five people and wounding at least seven. President Volodymyr Zelenskyy described the attack, the latest in a series ",
+      "excerpt_en": "A Russian drone struck a passenger bus in southern Ukraine early Wednesday, killing five people and wounding at least seven. President Volodymyr Zelenskyy described the attack, the latest in a series ",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/video/20260916-russian-drone-strike-on-a-passenger-bus-in-ukraine-kills-5-people-and-wounds-at-least-7-others",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "France24"
+      ],
+      "first_published_at": "2026-09-16T11:27:52+09:00",
+      "latest_published_at": "2026-09-16T16:17:22+09:00",
+      "articles": [
+        {
+          "title": "Russian drone strike on a passenger bus in Ukraine kills 5 people and wounds at least 7 others",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/video/20260916-russian-drone-strike-on-a-passenger-bus-in-ukraine-kills-5-people-and-wounds-at-least-7-others",
+          "published_at": "16:17"
+        },
+        {
+          "title": "Russian drone strike kills 5 and injures at least 7 on passenger bus in Ukraine",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russian-drone-strike-kills-5-injures-7-passenger-136488519",
+          "published_at": "11:27"
+        }
+      ]
+    },
+    {
+      "id": "world-226",
+      "title": "Top Dem on foreign affairs committee opposes Trump-proposed $2.8B arms sale to Israel",
+      "title_en": "Top Dem on foreign affairs committee opposes Trump-proposed $2.8B arms sale to Israel",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/arms-sale-israel-trump-9.7346747?cmp=rss",
       "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Iran-backed militants have offered Trump administration assurances over safety of Red Sea shipping Officials from the US met Houthi leaders over the weekend at the country’s embassy in Muscat, Oman, i",
-      "excerpt_en": "Iran-backed militants have offered Trump administration assurances over safety of Red Sea shipping Officials from the US met Houthi leaders over the weekend at the country’s embassy in Muscat, Oman, i",
+      "primary_source": "CBC",
+      "excerpt": "Pro-Israel Gregory Meeks raises concerns over threat to civilian lives from package of 40,000 one-ton bombs ‘An antidote to Trumpism’: Our politics team answered your questions on Democrats’ midterms ",
+      "excerpt_en": "Pro-Israel Gregory Meeks raises concerns over threat to civilian lives from package of 40,000 one-ton bombs ‘An antidote to Trumpism’: Our politics team answered your questions on Democrats’ midterms ",
       "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/16/us-arms-sale-israel-gregory-meeks",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-16T14:32:02+09:00",
-      "latest_published_at": "2026-09-16T14:56:40+09:00",
-      "articles": [
-        {
-          "title": "US opts not to back Saudi Arabia in Yemen after meeting Houthi leaders",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/16/us-officials-decide-against-backing-saudi-arabia-yemen-meeting-houthi-leaders",
-          "published_at": "14:56"
-        },
-        {
-          "title": "Who is Abdul Malik al-Houthi, the elusive Yemeni commander behind Red Sea-Saudi blitz?",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3367764/who-abdul-malik-al-houthi-elusive-yemeni-commander-behind-red-sea-saudi-blitz?utm_source=rss_feed",
-          "published_at": "14:32"
-        }
-      ]
-    },
-    {
-      "id": "world-316",
-      "title": "Gaza: Building collapse kills 21, including 11 children as perilous conditions persist for Palestinians",
-      "title_en": "Gaza: Building collapse kills 21, including 11 children as perilous conditions persist for Palestinians",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/09/16/gaza-building-collapse-kills-21-including-11-children-as-perilous-conditions-persist-for-p",
-      "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "At least 21 people, including 11 children, have died and dozens more are missing after an apartment building collapsed in Gaza from damage sustained in earlier Israeli strikes.",
-      "excerpt_en": "At least 21 people, including 11 children, have died and dozens more are missing after an apartment building collapsed in Gaza from damage sustained in earlier Israeli strikes.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/16/gaza-building-collapse-kills-21-including-11-children-as-perilous-conditions-persist-for-p",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-16T15:03:31+09:00",
-      "latest_published_at": "2026-09-16T15:12:45+09:00",
-      "articles": [
-        {
-          "title": "Building collapse in Gaza kills at least 21 people including eight children seeking shelter",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/gaza-building-collapse-israel-war-b3051339.html",
-          "published_at": "15:12"
-        },
-        {
-          "title": "Gaza: Building collapse kills 21, including 11 children as perilous conditions persist for Palestinians",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/16/gaza-building-collapse-kills-21-including-11-children-as-perilous-conditions-persist-for-p",
-          "published_at": "15:03"
-        }
-      ]
-    },
-    {
-      "id": "world-401",
-      "title": "Trump admin cuts $177 billion in federal grants across all 50 US states: Report",
-      "title_en": "Trump admin cuts $177 billion in federal grants across all 50 US states: Report",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/trump-admin-cuts-177-billion-in-federal-grants-across-all-50-us-states-report/articleshow/134289558.cms",
-      "category": "미국",
-      "primary_source": "Times of India",
-      "excerpt": "Trump administration grant cuts disrupted up to $177 billion in federal funding across all US states, with California, Texas and NY among the most affected.",
-      "excerpt_en": "Trump administration grant cuts disrupted up to $177 billion in federal funding across all US states, with California, Texas and NY among the most affected.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-grant-cuts-how-much-federal-funding-was-frozen-or-cut-in-your-state-101789572661699.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 5,
+        "major_score": 15,
         "breaking_score": 1,
         "time_score": 3,
         "raw75": 41
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "Times of India"
+        "CBC",
+        "The Guardian"
       ],
-      "first_published_at": "2026-09-16T13:52:05+09:00",
-      "latest_published_at": "2026-09-16T17:41:13+09:00",
+      "first_published_at": "2026-09-16T19:45:00+09:00",
+      "latest_published_at": "2026-09-16T20:20:28+09:00",
       "articles": [
         {
-          "title": "Trump admin paid $9.5 billion to federal workers to stay home in 2025: Report",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/trump-admin-paid-9-5-billion-to-federal-workers-to-stay-home-in-2025-report/articleshow/134293631.cms",
-          "published_at": "17:41"
+          "title": "Key House Democrat refuses to clear Trump’s $2.8bn arms sale to Israel",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/16/us-arms-sale-israel-gregory-meeks",
+          "published_at": "20:20"
         },
         {
-          "title": "Trump administration paid employees $9.5 billion not to work in 2025: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-paid-employees-9-5-billion-not-to-work-in-2025-doge-101789573227184.html",
-          "published_at": "16:04"
-        },
-        {
-          "title": "Trump grant cuts: How much federal funding was frozen or cut in your state?",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-grant-cuts-how-much-federal-funding-was-frozen-or-cut-in-your-state-101789572661699.html",
-          "published_at": "16:02"
-        },
-        {
-          "title": "Trump admin cuts $177 billion in federal grants across all 50 US states: Report",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/trump-admin-cuts-177-billion-in-federal-grants-across-all-50-us-states-report/articleshow/134289558.cms",
-          "published_at": "13:52"
+          "title": "Top Dem on foreign affairs committee opposes Trump-proposed $2.8B arms sale to Israel",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/arms-sale-israel-trump-9.7346747?cmp=rss",
+          "published_at": "19:45"
         }
       ]
     },
     {
-      "id": "world-35",
+      "id": "world-263",
+      "title": "T. rex was warm-blooded and had body temperature close to ours, study finds",
+      "title_en": "T. rex was warm-blooded and had body temperature close to ours, study finds",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367775/t-rex-was-warm-blooded-and-had-body-temperature-close-ours-study-finds?utm_source=rss_feed",
+      "category": "기타",
+      "primary_source": "SCMP",
+      "excerpt": "Using fossilised teeth, scientists have finally taken the T. rex’s temperature – and it wasn’t too different from our own. Researchers once thought that dinosaurs were sluggish, cold-blooded creatures",
+      "excerpt_en": "Using fossilised teeth, scientists have finally taken the T. rex’s temperature – and it wasn’t too different from our own. Researchers once thought that dinosaurs were sluggish, cold-blooded creatures",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367775/t-rex-was-warm-blooded-and-had-body-temperature-close-ours-study-finds?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-16T18:53:14+09:00",
+      "latest_published_at": "2026-09-16T19:46:33+09:00",
+      "articles": [
+        {
+          "title": "How do you take T. rex's temperature? These scientists did it",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/science/t-rex-warmblooded-9.7346527?cmp=rss",
+          "published_at": "19:46"
+        },
+        {
+          "title": "T. rex was warm-blooded and had body temperature close to ours, study finds",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367775/t-rex-was-warm-blooded-and-had-body-temperature-close-ours-study-finds?utm_source=rss_feed",
+          "published_at": "18:53"
+        }
+      ]
+    },
+    {
+      "id": "world-301",
+      "title": "Families of Jimmy Lai, Min Zin plead in Washington for their release ahead of Xi’s visit",
+      "title_en": "Families of Jimmy Lai, Min Zin plead in Washington for their release ahead of Xi’s visit",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/xi-jinping-families-trump-washington-hong-kong-b3051507.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "Sebastien Lai has appealed for the release of his father, former Hong Kong media mogul Jimmy Lai, at a congressional hearing in Washington",
+      "excerpt_en": "Sebastien Lai has appealed for the release of his father, former Hong Kong media mogul Jimmy Lai, at a congressional hearing in Washington",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/xi-jinping-families-trump-washington-hong-kong-b3051507.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-16T20:40:19+09:00",
+      "latest_published_at": "2026-09-16T21:29:25+09:00",
+      "articles": [
+        {
+          "title": "Ahead of Xi US visit, Jimmy Lai son urges release of media mogul",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/jimmy-lai-son-release-jinping-visit-6390276",
+          "published_at": "21:29"
+        },
+        {
+          "title": "Families of Jimmy Lai, Min Zin plead in Washington for their release ahead of Xi’s visit",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/xi-jinping-families-trump-washington-hong-kong-b3051507.html",
+          "published_at": "20:40"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "Texas abortion ban caused pregnant woman's death, lawsuit claims",
+      "title_en": "Texas abortion ban caused pregnant woman's death, lawsuit claims",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRjE1eGdGRGxfNXZoUl9sV2pqa3A5RDhEc3Z5cW5yQlB4d29aVGQ1djZvMXdZXzY4N09kTVk1SjE3TDRjSV91LURxTGh2N3M3cWdUM1FDVzNKa09BU2xHTWkzU1J3OHB5YlZBTHMybzJMT3JTNHgwNkFxVlpkMkNncUhtU3Z0SUxvaEVWQXEtSXJfMERfOEZqN005ckN4NmFyallTRFk1R1p2NUlFSjh0SmdqRzlfdw?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "The 37-year-old Texan was 20 weeks pregnant when she passed away in December 2024, two days after her final hospital visit for symptoms of preeclampsia",
+      "excerpt_en": "The 37-year-old Texan was 20 weeks pregnant when she passed away in December 2024, two days after her final hospital visit for symptoms of preeclampsia",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/tierra-walker-texas-abortion-ban-preeclampsia-lawsuit-b3051448.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-16T17:23:21+09:00",
+      "latest_published_at": "2026-09-16T18:07:22+09:00",
+      "articles": [
+        {
+          "title": "Family blames ‘merciless’ Texas abortion ban for woman’s death in new lawsuit",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/tierra-walker-texas-abortion-ban-preeclampsia-lawsuit-b3051448.html",
+          "published_at": "18:07"
+        },
+        {
+          "title": "Texas abortion ban caused pregnant woman's death, lawsuit claims",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRjE1eGdGRGxfNXZoUl9sV2pqa3A5RDhEc3Z5cW5yQlB4d29aVGQ1djZvMXdZXzY4N09kTVk1SjE3TDRjSV91LURxTGh2N3M3cWdUM1FDVzNKa09BU2xHTWkzU1J3OHB5YlZBTHMybzJMT3JTNHgwNkFxVlpkMkNncUhtU3Z0SUxvaEVWQXEtSXJfMERfOEZqN005ckN4NmFyallTRFk1R1p2NUlFSjh0SmdqRzlfdw?oc=5",
+          "published_at": "17:23"
+        }
+      ]
+    },
+    {
+      "id": "world-15",
+      "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
+      "title_en": "Anthropic to fold Claude AI features into one interface, launches document tools",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/anthropic-fold-claude-ai-features-one-interface-launches-document-tools-6389836",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Anthropic to fold Claude AI features into one interface, launches document tools Reuters",
+      "excerpt_en": "Anthropic to fold Claude AI features into one interface, launches document tools Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZy04cUpKZ1lLWHB3Zmp5N19XeEEwdi13bjBZYllISzltVk5HaDdlUnJqOEJFZUlYVjBxNzhZbUc5NDhDeWdISkUzLWw3b25ZZTYxZG4tZUFjLXU5T3F2YlZ2M1QtNDdZcDZ1anZlTVFGZzlmY2dYNGRLelY5TjRTMDU4d1QxaDRYY0JvNXBIZ0FQUWxiMVJzQlc3V0plQTd2M19oWWRVUjV3aXdvOHhXREJ0STBfdW9LZkw1QnV0Mk5MQkhRaldlQ1NsSDJHcTkt?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T16:42:27+09:00",
+      "latest_published_at": "2026-09-16T16:43:43+09:00",
+      "articles": [
+        {
+          "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZy04cUpKZ1lLWHB3Zmp5N19XeEEwdi13bjBZYllISzltVk5HaDdlUnJqOEJFZUlYVjBxNzhZbUc5NDhDeWdISkUzLWw3b25ZZTYxZG4tZUFjLXU5T3F2YlZ2M1QtNDdZcDZ1anZlTVFGZzlmY2dYNGRLelY5TjRTMDU4d1QxaDRYY0JvNXBIZ0FQUWxiMVJzQlc3V0plQTd2M19oWWRVUjV3aXdvOHhXREJ0STBfdW9LZkw1QnV0Mk5MQkhRaldlQ1NsSDJHcTkt?oc=5",
+          "published_at": "16:43"
+        },
+        {
+          "title": "Anthropic to fold Claude AI features into one interface, launches document tools",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/anthropic-fold-claude-ai-features-one-interface-launches-document-tools-6389836",
+          "published_at": "16:42"
+        }
+      ]
+    },
+    {
+      "id": "world-46",
       "title": "Rights abuses persist in Venezuela despite Maduro's removal, UN experts say",
       "title_en": "Rights abuses persist in Venezuela despite Maduro's removal, UN experts say",
       "title_source": "earliest_pick",
@@ -2250,17 +2755,64 @@
       ]
     },
     {
-      "id": "world-36",
-      "title": "China's top diplomat urges Iran, US to show restraint, revive talks",
-      "title_en": "China's top diplomat urges Iran, US to show restraint, revive talks",
+      "id": "world-49",
+      "title": "Satellite data shows major ice losses for Greenland and Antarctica",
+      "title_en": "Satellite data shows major ice losses for Greenland and Antarctica",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeURxZkdzcC1ZX3IxSWM5TTBLc3dZYXZrYlZhcXc4LXVDU3BKeEx5Y0xRWi04dUk3TE9LN0VGbjNLRlN6UXExckR0b1BZZGh6cEFiOEE0VlExSHh6Q29lcFlYX01ZaWlOT1E4Wl9aYnhORHRZcHFKZkJSWDZSd0NtOVhtMnU5dUpROW1aTkdYMVFWQmFIWUlZQ0dPVlhIZzU0dkktSXVzelAzU1BfR3c?oc=5",
+      "title_url": "https://www.channelnewsasia.com/business/satellite-data-shows-major-ice-losses-greenland-and-antarctica-6389896",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Satellite data shows major ice losses for Greenland and Antarctica Reuters",
+      "excerpt_en": "Satellite data shows major ice losses for Greenland and Antarctica Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkk2RVNZTTJ4R283OEdLX1dXcUxzQmVsdGZPYlRBbWVkc3VvZWJjN0VOVlY3SGJBek1ZbnJpbVFMM1NPV28tVm1SSkhVcVd1RXBWSUxSMUpONWFxd2FTdVVObEh1SU5FcDRUSlZibTA0c3dqTTZVZmZuTFdsdlVmNGlJdGt2eVpXd0QzUlR6dUphVklkTzNmQkRTcnVFS1p4QzBFcG1yeExFMFRzMmNCM1dncw?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T17:11:54+09:00",
+      "latest_published_at": "2026-09-16T17:17:52+09:00",
+      "articles": [
+        {
+          "title": "Satellite data shows major ice losses for Greenland and Antarctica",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkk2RVNZTTJ4R283OEdLX1dXcUxzQmVsdGZPYlRBbWVkc3VvZWJjN0VOVlY3SGJBek1ZbnJpbVFMM1NPV28tVm1SSkhVcVd1RXBWSUxSMUpONWFxd2FTdVVObEh1SU5FcDRUSlZibTA0c3dqTTZVZmZuTFdsdlVmNGlJdGt2eVpXd0QzUlR6dUphVklkTzNmQkRTcnVFS1p4QzBFcG1yeExFMFRzMmNCM1dncw?oc=5",
+          "published_at": "17:17"
+        },
+        {
+          "title": "Satellite data shows major ice losses for Greenland and Antarctica",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/satellite-data-shows-major-ice-losses-greenland-and-antarctica-6389896",
+          "published_at": "17:11"
+        }
+      ]
+    },
+    {
+      "id": "world-95",
+      "title": "Saudis pound Yemen, Houthis fire at Saudi, as Middle East war spreads",
+      "title_en": "Saudis pound Yemen, Houthis fire at Saudi, as Middle East war spreads",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5",
       "category": "중동",
       "primary_source": "Reuters",
-      "excerpt": "\"We urge all parties to take effective measures to reopen the Strait of Hormuz at an early date\", said Chinese Foreign Minister Wang Yi.",
-      "excerpt_en": "\"We urge all parties to take effective measures to reopen the Strait of Hormuz at an early date\", said Chinese Foreign Minister Wang Yi.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/asia/china-iran-us-war-talks-wang-yi-6388751",
+      "excerpt": "Saudi warplanes pounded Yemen, the Houthis said on Wednesday, as the Iran-backed fighters solidified their gains after a lightning advance that has extended Tehran's reach in the Middle East war and f",
+      "excerpt_en": "Saudi warplanes pounded Yemen, the Houthis said on Wednesday, as the Iran-backed fighters solidified their gains after a lightning advance that has extended Tehran's reach in the Middle East war and f",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/saudi-yemen-houthis-strikes-9.7346040?cmp=rss",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2276,216 +2828,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "CBC",
         "Reuters"
       ],
-      "first_published_at": "2026-09-16T13:34:05+09:00",
-      "latest_published_at": "2026-09-16T14:11:00+09:00",
+      "first_published_at": "2026-09-16T02:04:00+09:00",
+      "latest_published_at": "2026-09-16T13:33:22+09:00",
       "articles": [
         {
-          "title": "China's top diplomat urges Iran, US to show restraint, revive talks",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/china-iran-us-war-talks-wang-yi-6388751",
-          "published_at": "14:11"
+          "title": "Saudis pound Yemen as Houthis solidify gains in new Middle East war front",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/saudi-yemen-houthis-strikes-9.7346040?cmp=rss",
+          "published_at": "13:33"
         },
         {
-          "title": "China's top diplomat urges Iran, US to show restraint, revive talks",
+          "title": "Saudis pound Yemen, Houthis fire at Saudi, as Middle East war spreads",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeURxZkdzcC1ZX3IxSWM5TTBLc3dZYXZrYlZhcXc4LXVDU3BKeEx5Y0xRWi04dUk3TE9LN0VGbjNLRlN6UXExckR0b1BZZGh6cEFiOEE0VlExSHh6Q29lcFlYX01ZaWlOT1E4Wl9aYnhORHRZcHFKZkJSWDZSd0NtOVhtMnU5dUpROW1aTkdYMVFWQmFIWUlZQ0dPVlhIZzU0dkktSXVzelAzU1BfR3c?oc=5",
-          "published_at": "13:34"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5",
+          "published_at": "02:04"
         }
       ]
     },
     {
-      "id": "world-43",
-      "title": "Real defend players' freedom of expression after Mbappe, Vinicius cover message of support for Ceuta",
-      "title_en": "Real defend players' freedom of expression after Mbappe, Vinicius cover message of support for Ceuta",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSWZXZ1RTR1VDRDdDcmQ5N0xxSHVPVzIxU1NHOEhlSEJVNGlVZS1RZVlYRmdiMFlNczBmdTFQQ0daMUFFa0s3QXNwVk1kaHFqNDBRSjJOU05GV21FR292RUIwdGJlVmhTcFFCQWs0RktSUFZJeEo3QmRVbVllV3IyazVqTDZQZmtId3owZnA4Nm12MXlPRnc3SFJfcWQyN3YxVXAxNmlEMFZYdzR6RzQ2VDN6QUt4ZWJOSXdkcnpuNG9fUQ?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Real Madrid have defended their players' right to have differing views after Kylian Mbappe and Vinicius Junior became embroiled in a debate in Spain about migration.",
-      "excerpt_en": "Real Madrid have defended their players' right to have differing views after Kylian Mbappe and Vinicius Junior became embroiled in a debate in Spain about migration.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/real-madrid-defend-players-freedom-of-expression-after-mbappe-and-vinicius-ceuta-shirt-stance-13588628",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-16T10:13:44+09:00",
-      "latest_published_at": "2026-09-16T14:50:00+09:00",
-      "articles": [
-        {
-          "title": "Real Madrid defend players' freedom of expression after Mbappe and Vinicius' shirt stance",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/real-madrid-defend-players-freedom-of-expression-after-mbappe-and-vinicius-ceuta-shirt-stance-13588628",
-          "published_at": "14:50"
-        },
-        {
-          "title": "Real defend players' freedom of expression after Mbappe, Vinicius cover message of support for Ceuta",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSWZXZ1RTR1VDRDdDcmQ5N0xxSHVPVzIxU1NHOEhlSEJVNGlVZS1RZVlYRmdiMFlNczBmdTFQQ0daMUFFa0s3QXNwVk1kaHFqNDBRSjJOU05GV21FR292RUIwdGJlVmhTcFFCQWs0RktSUFZJeEo3QmRVbVllV3IyazVqTDZQZmtId3owZnA4Nm12MXlPRnc3SFJfcWQyN3YxVXAxNmlEMFZYdzR6RzQ2VDN6QUt4ZWJOSXdkcnpuNG9fUQ?oc=5",
-          "published_at": "10:13"
-        }
-      ]
-    },
-    {
-      "id": "world-58",
-      "title": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers",
-      "title_en": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/amazon-raises-minimum-hourly-pay-1-20-us-operations-workers-6389466",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers Reuters",
-      "excerpt_en": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmQ5cVZTWUtBSWl0WElYRFFweGw5Y1ZhNHl3ZW82cjhKdzA0ZjliOVpmYXBaMWc4dmpfSWJjZFdhU3dXd1daYmplSDlXbEhmMWw1Qm50S053SjhOWHkwRHJPZWtHWFJ2QVFGWWJvdEx0MHVRa3pGMzdCU3ozemZMOEVWekwyMGJDa2ZYRzU5T1UwczVncFIzQy1jUFpmTjVJQ3Z5ZkI4eE9ZTlhFUklJT2d6RGZhZw?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-16T13:39:25+09:00",
-      "latest_published_at": "2026-09-16T14:17:12+09:00",
-      "articles": [
-        {
-          "title": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUmQ5cVZTWUtBSWl0WElYRFFweGw5Y1ZhNHl3ZW82cjhKdzA0ZjliOVpmYXBaMWc4dmpfSWJjZFdhU3dXd1daYmplSDlXbEhmMWw1Qm50S053SjhOWHkwRHJPZWtHWFJ2QVFGWWJvdEx0MHVRa3pGMzdCU3ozemZMOEVWekwyMGJDa2ZYRzU5T1UwczVncFIzQy1jUFpmTjVJQ3Z5ZkI4eE9ZTlhFUklJT2d6RGZhZw?oc=5",
-          "published_at": "14:17"
-        },
-        {
-          "title": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/amazon-raises-minimum-hourly-pay-1-20-us-operations-workers-6389466",
-          "published_at": "13:39"
-        }
-      ]
-    },
-    {
-      "id": "world-100",
-      "title": "Kennedy Center will close for renovations after judge blocks returning Trump's name to building",
-      "title_en": "Kennedy Center will close for renovations after judge blocks returning Trump's name to building",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEljNzZHRXBiT0xvOGtWcjJlUVg3WkJGVXRleUhVb0FQLXYzYi1vV2Jvb3ppaWJETk9EZ2FJNmJaamVWMEhIaGRKVXY3dGl2YXJOTUxfZ24taDRmRHhNSDd6R29UXzFqTnZFbEFmYTZjUFp0WGo0WVJGMGxHWnlUNTEwZHFuSzVsYTYyOVpEVV81N2dER0p0a1BwU3pIUVlTbmZ3?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "The Trump-aligned Kennedy Center board voted Tuesday to close most of the iconic performing arts venue just hours after a federal judge blocked the institution from returning President Donald Trump's ",
-      "excerpt_en": "The Trump-aligned Kennedy Center board voted Tuesday to close most of the iconic performing arts venue just hours after a federal judge blocked the institution from returning President Donald Trump's ",
-      "excerpt_source": "France24",
-      "excerpt_url": "http://www.france24.com/en/video/20260916-kennedy-center-will-close-for-renovations-after-judge-blocks-returning-trump-s-name-to-building",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "France24"
-      ],
-      "first_published_at": "2026-09-15T23:02:00+09:00",
-      "latest_published_at": "2026-09-16T15:07:18+09:00",
-      "articles": [
-        {
-          "title": "Kennedy Center will close for renovations after judge blocks returning Trump's name to building",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/video/20260916-kennedy-center-will-close-for-renovations-after-judge-blocks-returning-trump-s-name-to-building",
-          "published_at": "15:07"
-        },
-        {
-          "title": "Kennedy Center will close for renovations after judge blocks returning Trump's name to building",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEljNzZHRXBiT0xvOGtWcjJlUVg3WkJGVXRleUhVb0FQLXYzYi1vV2Jvb3ppaWJETk9EZ2FJNmJaamVWMEhIaGRKVXY3dGl2YXJOTUxfZ24taDRmRHhNSDd6R29UXzFqTnZFbEFmYTZjUFp0WGo0WVJGMGxHWnlUNTEwZHFuSzVsYTYyOVpEVV81N2dER0p0a1BwU3pIUVlTbmZ3?oc=5",
-          "published_at": "23:02"
-        }
-      ]
-    },
-    {
-      "id": "world-112",
-      "title": "Pentagon confirms US has deployed weapons in space",
-      "title_en": "Pentagon confirms US has deployed weapons in space",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "The chief of space operations said the US would build its combat advantage to “outfight any adversary”.",
-      "excerpt_en": "The chief of space operations said the US would build its combat advantage to “outfight any adversary”.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-15T22:41:14+09:00",
-      "latest_published_at": "2026-09-16T07:16:00+09:00",
-      "articles": [
-        {
-          "title": "US acknowledges for the first time that it has deployed weapons in space",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTA1b21Gd0FmOUU2Z0pROU1nZGlhTlgwZmJ3eHBTWjZzRUh0bmd1UC1xdFpGLVdWTjFJOS1RMzBFbFdIREVqbUNZOWJTb0NyaUUtSEc5MGVSbTNHQWlmY3owNHhXUENhamZYZ2I1aFBqUDhoanh3bTBPb29ReURHRENFRW10QW5xOVpF?oc=5",
-          "published_at": "07:16"
-        },
-        {
-          "title": "Pentagon confirms US has deployed weapons in space",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "22:41"
-        }
-      ]
-    },
-    {
-      "id": "world-118",
+      "id": "world-117",
       "title": "Satellites show Earth lost more than 12 trillion tons of ice from Greenland, Antarctica in 47 years",
       "title_en": "Satellites show Earth lost more than 12 trillion tons of ice from Greenland, Antarctica in 47 years",
       "title_source": "earliest_pick",
@@ -2532,17 +2896,17 @@
       ]
     },
     {
-      "id": "world-154",
-      "title": "From bravado to busted bases: Hidden cost of US-Iran war revealed",
-      "title_en": "From bravado to busted bases: Hidden cost of US-Iran war revealed",
+      "id": "world-161",
+      "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
+      "title_en": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/from-bravado-to-busted-bases-hidden-cost-of-us-iran-war-revealed/articleshow/134290064.cms",
-      "category": "중동",
-      "primary_source": "Times of India",
-      "excerpt": "High energy costs at the pump and strategic setback for US in the Iran war will likely cost Trump in the midterms.",
-      "excerpt_en": "High energy costs at the pump and strategic setback for US in the Iran war will likely cost Trump in the midterms.",
+      "title_url": "https://www.independent.co.uk/news/world/americas/democrats-virginia-americans-university-of-chicago-arlington-b3051056.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "New poll finds over half of Americans fear AI-driven data centers will hike electricity costs and strain water supplies.",
+      "excerpt_en": "New poll finds over half of Americans fear AI-driven data centers will hike electricity costs and strain water supplies.",
       "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/9/16/iran-war-has-cost-the-us-38bn-how-is-it-impacting-us-economy-politics?traffic_source=rss",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/16/poll-shows-americans-are-increasingly-alarmed-by-ais-ecological-footprint?traffic_source=rss",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2559,225 +2923,37 @@
       "source_count": 2,
       "sources": [
         "Al Jazeera",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-16T14:16:48+09:00",
-      "latest_published_at": "2026-09-16T14:53:51+09:00",
-      "articles": [
-        {
-          "title": "Iran war has cost the US $38bn: How will it impact US economy, politics?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/16/iran-war-has-cost-the-us-38bn-how-is-it-impacting-us-economy-politics?traffic_source=rss",
-          "published_at": "14:53"
-        },
-        {
-          "title": "From bravado to busted bases: Hidden cost of US-Iran war revealed",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/from-bravado-to-busted-bases-hidden-cost-of-us-iran-war-revealed/articleshow/134290064.cms",
-          "published_at": "14:16"
-        }
-      ]
-    },
-    {
-      "id": "world-186",
-      "title": "Global Gender Gap Report: Women's hard-won gains 'fragile'",
-      "title_en": "Global Gender Gap Report: Women's hard-won gains 'fragile'",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/global-gender-gap-report-women-s-hard-won-gains-fragile/a-79280086?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "유럽",
-      "primary_source": "DW",
-      "excerpt": "Two decades of progress toward gender parity is at risk as women's political representation declines, according to a new World Economic Forum report. At the current pace, the remaining gap could take ",
-      "excerpt_en": "Two decades of progress toward gender parity is at risk as women's political representation declines, according to a new World Economic Forum report. At the current pace, the remaining gap could take ",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/global-gender-gap-report-women-s-hard-won-gains-fragile/a-79280086?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-16T10:05:00+09:00",
-      "latest_published_at": "2026-09-16T14:19:48+09:00",
-      "articles": [
-        {
-          "title": "Gender parity still 120 years away despite narrowing gap: WEF report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/gender-parity-still-120-years-away-despite-narrowing-gap-world-economic-forum-report-101789566491338.html",
-          "published_at": "14:19"
-        },
-        {
-          "title": "Global Gender Gap Report: Women's hard-won gains 'fragile'",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/global-gender-gap-report-women-s-hard-won-gains-fragile/a-79280086?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "10:05"
-        }
-      ]
-    },
-    {
-      "id": "world-204",
-      "title": "Japan Reaches a Unique Milestone, With More Than 100,000 People Aged 100 or Over",
-      "title_en": "Japan Reaches a Unique Milestone, With More Than 100,000 People Aged 100 or Over",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/16/world/asia/japan-age-100.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "Flaring fighting between government forces and Iran-backed Houthis in Yemen has displaced more than 100,000 people inside the country, while thousands more have fled abroad, the United Nations said Tu",
-      "excerpt_en": "Flaring fighting between government forces and Iran-backed Houthis in Yemen has displaced more than 100,000 people inside the country, while thousands more have fled abroad, the United Nations said Tu",
-      "excerpt_source": "France24",
-      "excerpt_url": "http://www.france24.com/en/video/20260916-more-than-100-000-flee-fighting-in-yemen-un",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "New York Times"
-      ],
-      "first_published_at": "2026-09-16T10:12:43+09:00",
-      "latest_published_at": "2026-09-16T15:00:13+09:00",
-      "articles": [
-        {
-          "title": "More than 100,000 flee fighting in Yemen: UN",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/video/20260916-more-than-100-000-flee-fighting-in-yemen-un",
-          "published_at": "15:00"
-        },
-        {
-          "title": "Japan Reaches a Unique Milestone, With More Than 100,000 People Aged 100 or Over",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/16/world/asia/japan-age-100.html",
-          "published_at": "10:12"
-        }
-      ]
-    },
-    {
-      "id": "world-105",
-      "title": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
-      "title_en": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhiNkVYX09MQWl5SmM2ZjBITllaOUUtdEFLRDlYZlkxREFDVk80RmI2eC0xSTFES2tMdkdadHdxNXRnSzBRR2daemNpbVY5REEzemU3TnoxYU5jel9QS1lBeUUyR1hnN0JLZ3lwQ0JZVXFBVzZUXzRXTDNHX2xVTkVFTlFKUlppcklEbHdwaDhkS3MzYlZTOUFxNA?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know AP News",
-      "excerpt_en": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhiNkVYX09MQWl5SmM2ZjBITllaOUUtdEFLRDlYZlkxREFDVk80RmI2eC0xSTFES2tMdkdadHdxNXRnSzBRR2daemNpbVY5REEzemU3TnoxYU5jel9QS1lBeUUyR1hnN0JLZ3lwQ0JZVXFBVzZUXzRXTDNHX2xVTkVFTlFKUlppcklEbHdwaDhkS3MzYlZTOUFxNA?oc=5",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-09-16T00:38:00+09:00",
-      "latest_published_at": "2026-09-16T01:38:14+09:00",
-      "articles": [
-        {
-          "title": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/crisis-shaking-brazils-supreme-court-heres-136452524",
-          "published_at": "01:38"
-        },
-        {
-          "title": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhiNkVYX09MQWl5SmM2ZjBITllaOUUtdEFLRDlYZlkxREFDVk80RmI2eC0xSTFES2tMdkdadHdxNXRnSzBRR2daemNpbVY5REEzemU3TnoxYU5jel9QS1lBeUUyR1hnN0JLZ3lwQ0JZVXFBVzZUXzRXTDNHX2xVTkVFTlFKUlppcklEbHdwaDhkS3MzYlZTOUFxNA?oc=5",
-          "published_at": "00:38"
-        }
-      ]
-    },
-    {
-      "id": "world-115",
-      "title": "Aw shucks: Dolly Parton corn mazes crop up in fields nationwide",
-      "title_en": "Aw shucks: Dolly Parton corn mazes crop up in fields nationwide",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/dolly-parton-canada-nashville-one-tennessee-b3050844.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Dolly Parton’s megawatt smile and big wavy locks are gracing cornfields across the U.S. and in Canada this fall",
-      "excerpt_en": "Dolly Parton’s megawatt smile and big wavy locks are gracing cornfields across the U.S. and in Canada this fall",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/dolly-parton-canada-nashville-one-tennessee-b3050844.html",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
         "The Independent"
       ],
-      "first_published_at": "2026-09-15T22:00:56+09:00",
-      "latest_published_at": "2026-09-15T23:20:00+09:00",
+      "first_published_at": "2026-09-16T09:05:24+09:00",
+      "latest_published_at": "2026-09-16T16:45:04+09:00",
       "articles": [
         {
-          "title": "Aw shucks: Dolly Parton corn mazes crop up in fields nationwide",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcGswZ2xKcFZ4ME1QbXR0aWFMeWt4M2xIOW91MzlRNlZESklyV0JiX1dzWk1OTzhJY2xXR1FQS0FUeHhLSkFmYy1LSVpkVF9lOHJ6b2V0dlhpb1ZqWEYzb0ZOMkxRbzk3NlU0cWtTTldUNFBjXzZUZUNGRDF4am5CcGNMdDNKVW5MZjRiOFE3YUY2R2hGcHp0OU9Bdw?oc=5",
-          "published_at": "23:20"
+          "title": "Poll shows Americans are increasingly alarmed by AI’s ecological footprint",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/poll-shows-americans-are-increasingly-alarmed-by-ais-ecological-footprint?traffic_source=rss",
+          "published_at": "16:45"
         },
         {
-          "title": "Aw shucks: Dolly Parton corn mazes crop up in fields nationwide",
+          "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/dolly-parton-canada-nashville-one-tennessee-b3050844.html",
-          "published_at": "22:00"
+          "url": "https://www.independent.co.uk/news/world/americas/democrats-virginia-americans-university-of-chicago-arlington-b3051056.html",
+          "published_at": "09:05"
         }
       ]
     },
     {
-      "id": "world-421",
-      "title": "Nepal flood death toll crosses 1,400; over 6,000 still missing",
-      "title_en": "Nepal flood death toll crosses 1,400; over 6,000 still missing",
+      "id": "world-394",
+      "title": "Humpback whale seen grieving dead calf in rare footage",
+      "title_en": "Humpback whale seen grieving dead calf in rare footage",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/nepal-flood-death-toll-crosses-1400-over-6000-still-missing-police-flash-floods-101789573201135.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "The combined toll from the deadly glacial mountain collapse on the Nepal-China border from both nations now stands at 1,446 people dead and at least 6,669 missing.",
-      "excerpt_en": "The combined toll from the deadly glacial mountain collapse on the Nepal-China border from both nations now stands at 1,446 people dead and at least 6,669 missing.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/nepal-flood-missing-people-toll-rise-6389726",
+      "title_url": "https://www.cbsnews.com/news/humpback-whale-grieves-dead-calf-rare-footage-research/",
+      "category": "기타",
+      "primary_source": "CBS News",
+      "excerpt": "The footage shows a female humpback whale staying close to the dead calf as it lies motionless on the seafloor, touching it with its head and fin.",
+      "excerpt_en": "The footage shows a female humpback whale staying close to the dead calf as it lies motionless on the seafloor, touching it with its head and fin.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/humpback-whale-grieves-dead-calf-rare-footage-research/",
       "translation_status": "failed",
       "score": 52,
       "score_breakdown": {
@@ -2793,28 +2969,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Hindustan Times"
+        "ABC News Australia",
+        "CBS News"
       ],
-      "first_published_at": "2026-09-16T15:46:41+09:00",
-      "latest_published_at": "2026-09-16T16:12:08+09:00",
+      "first_published_at": "2026-09-16T17:55:00+09:00",
+      "latest_published_at": "2026-09-16T19:37:23+09:00",
       "articles": [
         {
-          "title": "Nepal raises flood missing toll by nearly 1,000 people to 6,150",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/nepal-flood-missing-people-toll-rise-6389726",
-          "published_at": "16:12"
+          "title": "'Pretty emotional': Rare video shows humpback whale with stillborn calf",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-17/humpback-whale-video-with-calf-reveals-grieving-behaviour/107156326",
+          "published_at": "19:37"
         },
         {
-          "title": "Nepal flood death toll crosses 1,400; over 6,000 still missing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/nepal-flood-death-toll-crosses-1400-over-6000-still-missing-police-flash-floods-101789573201135.html",
-          "published_at": "15:46"
+          "title": "Humpback whale seen grieving dead calf in rare footage",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/humpback-whale-grieves-dead-calf-rare-footage-research/",
+          "published_at": "17:55"
         }
       ]
     },
     {
-      "id": "world-338",
+      "id": "world-356",
       "title": "Kevin Reddington vs Nancy Mace: Lindsay Clancy's lawyer and congresswoman clash over ‘public execution’ comment",
       "title_en": "Kevin Reddington vs Nancy Mace: Lindsay Clancy's lawyer and congresswoman clash over ‘public execution’ comment",
       "title_source": "earliest_pick",
