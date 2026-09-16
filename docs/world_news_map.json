@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "batch_time": "12:00",
+  "batch_time": "18:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,23 +8,23 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-16T14:17:59.744209+09:00",
+  "updated_at": "2026-09-16T19:04:56.346861+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 609,
-  "cluster_count_total": 483,
+  "article_count_total": 616,
+  "cluster_count_total": 481,
   "clusters": [
     {
-      "id": "world-1",
-      "title": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
-      "title_en": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
+      "id": "world-18",
+      "title": "Saudi-led coalition says it destroys Houthi drone south of Mecca",
+      "title_en": "Saudi-led coalition says it destroys Houthi drone south of Mecca",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/liveblog/2026/9/16/iran-war-live-irans-top-diplomat-heads-to-china-as-war-drags-on?traffic_source=rss",
+      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5",
       "category": "중동",
-      "primary_source": "Al Jazeera",
+      "primary_source": "Reuters",
       "excerpt": "The Iran-aligned militant group rejected the suggestion it had targeted Mecca, while the Organisation of Islamic Cooperation condemned the attack Saudi Arabia’s air defences intercepted and destroyed ",
       "excerpt_en": "The Iran-aligned militant group rejected the suggestion it had targeted Mecca, while the Organisation of Islamic Cooperation condemned the attack Saudi Arabia’s air defences intercepted and destroyed ",
       "excerpt_source": "The Guardian",
@@ -39,27 +39,73 @@
         "time_score": 3,
         "raw75": 70
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 13,
+      "article_count": 13,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 11,
       "sources": [
-        "ABC News Australia",
         "Al Jazeera",
-        "Channel News Asia",
-        "France24",
+        "BBC",
+        "Bangkok Post",
+        "DW",
+        "Euronews",
         "Hindustan Times",
+        "New York Times",
         "Reuters",
-        "The Guardian"
+        "SCMP",
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-16T00:00:00+09:00",
-      "latest_published_at": "2026-09-16T04:46:00+09:00",
+      "first_published_at": "2026-09-16T00:29:00+09:00",
+      "latest_published_at": "2026-09-16T09:20:47+09:00",
       "articles": [
         {
+          "title": "Yemen's Houthis claim they shot down Saudi fighter jet, deny targeting Mecca",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca",
+          "published_at": "09:20"
+        },
+        {
+          "title": "Saudi Arabia says Houthis target Mecca, warns of 'red line'",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/saudi-arabia-says-houthis-target-mecca-warns-of-red-line/a-79285099?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:10"
+        },
+        {
+          "title": "Houthi rebels accused of targeting Mecca with drone as Saudi Arabia warns of ‘red line’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-arabia-mecca-yemen-houthis-b3050963.html",
+          "published_at": "08:39"
+        },
+        {
+          "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
+          "published_at": "08:36"
+        },
+        {
+          "title": "Houthis Say They Downed a Saudi Fighter Jet and Deny Targeting Mecca",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/16/world/middleeast/saudi-arabia-houthi-fighter-jet-mecca-drone.html",
+          "published_at": "08:25"
+        },
+        {
+          "title": "‘Red line’: Saudi coalition accuses Houthis of targeting Mecca with drone",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367663/red-line-saudi-coalition-accuses-houthis-targeting-mecca-drone?utm_source=rss_feed",
+          "published_at": "04:06"
+        },
+        {
           "title": "Saudi says Houthis target Mecca, warn of 'red line'",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-target-mecca-6388146",
-          "published_at": "04:46"
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3320553/saudi-says-houthis-target-mecca-warn-of-red-line",
+          "published_at": "03:45"
+        },
+        {
+          "title": "Saudi Arabia LIVE updates: US warns citizens against travel to Saudi-Yemen border over missile threat in new advisory",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/saudi-houthi-conflict-attack-live-updates-yemen-rebel-group-drone-mecca-us-travel-advisory-iran-war-jeddah-riyadh-israel-101789526731020.html",
+          "published_at": "03:16"
         },
         {
           "title": "Saudi Arabia warns of ‘red line’ after Houthi drone intercepted close to holy city of Mecca",
@@ -68,22 +114,10 @@
           "published_at": "02:56"
         },
         {
-          "title": "Houthi drone shot down near Mecca, Saudi-led coalition says",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/houthi-drone-attack-intercepted-near-mecca-saudi-arabia-says/107158928",
-          "published_at": "02:56"
-        },
-        {
           "title": "Saudi claims Houthi drone destroyed near Mecca, Yemeni group dismisses 'lies'",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/saudi-claims-houthi-drone-destroyed-near-mecca-warns-of-red-line-over-holy-sites-101789525544635.html",
           "published_at": "02:29"
-        },
-        {
-          "title": "Middle East live: Saudi Arabia accuses Houthi rebels of launching a drone strike on Mecca",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/middle-east/20260916-middle-east-live-saudi-arabia-accuses-houthi-rebels-of-launching-a-drone-strike-on-mecca",
-          "published_at": "02:14"
         },
         {
           "title": "Saudi coalition says Houthi drone destroyed near Mecca",
@@ -102,17 +136,11 @@
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5",
           "published_at": "00:29"
-        },
-        {
-          "title": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/9/16/iran-war-live-irans-top-diplomat-heads-to-china-as-war-drags-on?traffic_source=rss",
-          "published_at": "00:00"
         }
       ]
     },
     {
-      "id": "world-0",
+      "id": "world-11",
       "title": "Chatsworth Los Angeles metro bus crash videos: Chilling visuals as 2 killed, many hurt after SUV ploughs into vehicle",
       "title_en": "Chatsworth Los Angeles metro bus crash videos: Chilling visuals as 2 killed, many hurt after SUV ploughs into vehicle",
       "title_source": "earliest_pick",
@@ -133,25 +161,60 @@
         "time_score": 3,
         "raw75": 67
       },
-      "area_value": 10,
-      "article_count": 10,
+      "area_value": 13,
+      "article_count": 13,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 10,
       "sources": [
+        "Al Jazeera",
+        "CBC",
         "Euronews",
+        "France24",
         "Hindustan Times",
         "Reuters",
+        "SCMP",
         "Sydney Morning Herald",
-        "The Guardian"
+        "The Guardian",
+        "The Independent"
       ],
       "first_published_at": "2026-09-16T02:00:48+09:00",
-      "latest_published_at": "2026-09-16T05:10:22+09:00",
+      "latest_published_at": "2026-09-16T08:53:32+09:00",
       "articles": [
         {
-          "title": "KNBC news anchor tearfully confirms news station's chopper crash",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/knbc-news-anchor-tearfully-confirms-news-stations-chopper-crash-20260916-p60xxh.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "05:10"
+          "title": "3 people killed when L.A. news helicopter crashes while covering fatal bus accident",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/news-helicopter-crash-bus-9.7345805?cmp=rss",
+          "published_at": "08:53"
+        },
+        {
+          "title": "Three dead after NBC News helicopter crashes in Los Angeles while covering bus accident",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/la-helicopter-crash-chatsworth-los-angeles-latest-b3050911.html",
+          "published_at": "08:46"
+        },
+        {
+          "title": "Los Angeles: News helicopter crashes, killing three",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/video/20260916-los-angeles-news-helicopter-crashes-killing-three",
+          "published_at": "08:42"
+        },
+        {
+          "title": "News helicopter crash in Los Angeles kills three, injures one",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/news-helicopter-crash-in-los-angeles-kills-three-injures-one?traffic_source=rss",
+          "published_at": "05:07"
+        },
+        {
+          "title": "News helicopter crashes in Los Angeles, killing 3",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367672/news-helicopter-crashes-los-angeles-killing-3?utm_source=rss_feed",
+          "published_at": "05:01"
+        },
+        {
+          "title": "NBC news helicopter crashes in LA while covering bus collision, killing three",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/americas/20260916-media-helicopter-crashes-in-la-while-covering-bus-collision-killing-three",
+          "published_at": "04:47"
         },
         {
           "title": "NBC helicopter crash in LA kills at least three people with others injured",
@@ -160,7 +223,7 @@
           "published_at": "04:32"
         },
         {
-          "title": "Helicopter crash kills at least 3 people in Los Angeles",
+          "title": "NBC news helicopter crash kills at least three in Los Angeles while reporters covered car accident",
           "source_name": "Euronews",
           "url": "https://www.euronews.com/2026/09/16/helicopter-crash-kills-at-least-3-people-in-los-angeles",
           "published_at": "04:22"
@@ -178,19 +241,7 @@
           "published_at": "04:16"
         },
         {
-          "title": "‘You can't pull up?’: Chilling audio as video shows exact moment NBC Los Angeles helicopter crashed",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/cant-you-pull-up-chilling-audio-as-video-shows-exact-moment-nbc-los-angeles-helicopter-crashed-101789530071023.html",
-          "published_at": "03:52"
-        },
-        {
-          "title": "Who is Eliana Moreno? NBCLA's NewsChopper 4 aerial reporter covering Los Angeles from above",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-eliana-moreno-nbclas-newschopper-4-aerial-reporter-covering-los-angeles-from-above-101789527240284.html",
-          "published_at": "03:15"
-        },
-        {
-          "title": "Three dead after helicopter crash in Los Angeles, fire department says",
+          "title": "News helicopter crashes in Los Angeles, killing three",
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnBCcExub2NSdkEteUtWTkd5ZmZseTMxdjhPb3hSQ3VRSlRDMUVJTElPWDY4ZHhZYnN6SkN0elJ0bkh2QVhfMENlUHZBVUEzNjlXdXBVdUpuSS1MUmJPV3ZvazdBYll0dXdua0hKMi1famNuOXpSWWlQa1hYdVlVcm9RUlEtTWJkRWVDazVWaGp3SEZ3SmhBREpUd2xzTDR4ZFZ3MnY3YlN1aWFkNTRtRQ?oc=5",
           "published_at": "03:13"
@@ -210,54 +261,40 @@
       ]
     },
     {
-      "id": "world-71",
+      "id": "world-111",
       "title": "Trump insists Kennedy Center ‘collapse’ left guard ‘60 seconds from death’ in rant after losing name change",
       "title_en": "Trump insists Kennedy Center ‘collapse’ left guard ‘60 seconds from death’ in rant after losing name change",
       "title_source": "earliest_pick",
       "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-rant-kennedy-center-name-change-b3050690.html",
       "category": "미국",
       "primary_source": "The Independent",
-      "excerpt": "Trump has said the $257 million (around €222.72) allocated by Congress for the repairs would only be released if the renaming was permitted to proceed — a condition federal courts have twice ruled can",
-      "excerpt_en": "Trump has said the $257 million (around €222.72) allocated by Congress for the repairs would only be released if the renaming was permitted to proceed — a condition federal courts have twice ruled can",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/16/kennedy-center-to-close-for-renovations-after-judge-blocks-returning-trumps-name-to-landma",
+      "excerpt": "The board of the Kennedy Center voted on Tuesday to close over financial issues and a dispute over putting President Donald Trump's name on the iconic performing arts venue, the president confirmed on",
+      "excerpt_en": "The board of the Kennedy Center voted on Tuesday to close over financial issues and a dispute over putting President Donald Trump's name on the iconic performing arts venue, the president confirmed on",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/kennedy-center-trump-name-ruling-9.7344949?cmp=rss",
       "translation_status": "failed",
-      "score": 89,
+      "score": 88,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 6,
+      "source_count": 4,
       "sources": [
         "AP News",
         "CBC",
-        "Channel News Asia",
-        "Euronews",
-        "Reuters",
+        "CBS News",
         "The Independent"
       ],
       "first_published_at": "2026-09-15T16:31:44+09:00",
-      "latest_published_at": "2026-09-16T04:14:04+09:00",
+      "latest_published_at": "2026-09-15T23:02:00+09:00",
       "articles": [
-        {
-          "title": "Kennedy Center to close for renovations after judge blocks returning Trump’s name to landmark venue",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/16/kennedy-center-to-close-for-renovations-after-judge-blocks-returning-trumps-name-to-landma",
-          "published_at": "04:14"
-        },
-        {
-          "title": "Kennedy Center board votes to close for renovations after judge blocks Trump's name from facade",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/trump-kennedy-center-name-change-renovations-us-6387201",
-          "published_at": "02:58"
-        },
         {
           "title": "Kennedy Center will close for renovations after judge blocks returning Trump's name to building",
           "source_name": "AP News",
@@ -265,10 +302,10 @@
           "published_at": "23:02"
         },
         {
-          "title": "Kennedy Center board votes to close for renovations after judge blocks Trump's name from facade",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDJyQ1NEc2ljdldCNFQ2NGlmZ1hKTWRGTG9UcldVaXRYUjR3QkgtQ0xNRUZ3eFJyZndkcDJVTkt2SGNQY2FONDlyRk1rbFBmOGZWSGZhS2RjZkhVSHRmcDJ3YTNidVZ5NmZsZkZna2VabEZDTXBFTFBLZVZkdkFVODI0M2JBbDd1ZFduZGNUdWMtUXAwdjRMTDUtWmNLb2lJMHkwZGlRd3Z1WmRkSjB3aUhvbUN0WG5xTkE?oc=5",
-          "published_at": "21:18"
+          "title": "9/15: CBS Evening News",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/091526-cbs-evening-news/",
+          "published_at": "22:30"
         },
         {
           "title": "Kennedy Center board votes to close after being told they can’t add Trump name as president vows to cancel repairs",
@@ -291,207 +328,17 @@
       ]
     },
     {
-      "id": "world-183",
-      "title": "Breaking: At least three dead in LA news helicopter crash near fatal bus accident",
-      "title_en": "Breaking: At least three dead in LA news helicopter crash near fatal bus accident",
+      "id": "world-0",
+      "title": "EU chief calls for creation of ‘European Security Council’, backs partnership with Canada",
+      "title_en": "EU chief calls for creation of ‘European Security Council’, backs partnership with Canada",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-09-16/helicopter-crashes-in-los-angeles-near-fatal-bus-crash/107159552",
-      "category": "미국",
-      "primary_source": "ABC News Australia",
-      "excerpt": "Three people were killed Tuesday in a fiery crash when a US news media helicopter covering a deadly bus crash came down in a Los Angeles neighbourhood. Media in the city had scrambled to cover a deadl",
-      "excerpt_en": "Three people were killed Tuesday in a fiery crash when a US news media helicopter covering a deadly bus crash came down in a Los Angeles neighbourhood. Media in the city had scrambled to cover a deadl",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367672/news-helicopter-crashes-los-angeles-killing-3?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "France24",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-16T03:49:41+09:00",
-      "latest_published_at": "2026-09-16T05:01:26+09:00",
-      "articles": [
-        {
-          "title": "News helicopter crashes in Los Angeles, killing 3",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367672/news-helicopter-crashes-los-angeles-killing-3?utm_source=rss_feed",
-          "published_at": "05:01"
-        },
-        {
-          "title": "Media helicopter crashes in LA while covering bus collision, killing three",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/americas/20260916-media-helicopter-crashes-in-la-while-covering-bus-collision-killing-three",
-          "published_at": "04:47"
-        },
-        {
-          "title": "Three dead after news helicopter covering bus accident crashes in Los Angeles",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/la-helicopter-crash-chatsworth-los-angeles-latest-b3050911.html",
-          "published_at": "04:29"
-        },
-        {
-          "title": "Breaking: At least three dead in LA news helicopter crash near fatal bus accident",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/helicopter-crashes-in-los-angeles-near-fatal-bus-crash/107159552",
-          "published_at": "03:49"
-        }
-      ]
-    },
-    {
-      "id": "world-104",
-      "title": "NATO fighter jet shoots down drone over Lithuania",
-      "title_en": "NATO fighter jet shoots down drone over Lithuania",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/nato-response-lithuania-drone-9.7344227?cmp=rss",
+      "title_url": "http://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address",
       "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "Ursula von der Leyen says incidents ‘part of broader pattern of Russian aggression and provocation against Europe’ A Russian warship fired two emergency flares at a Danish helicopter in the Baltic Sea",
-      "excerpt_en": "Ursula von der Leyen says incidents ‘part of broader pattern of Russian aggression and provocation against Europe’ A Russian warship fired two emergency flares at a Danish helicopter in the Baltic Sea",
+      "primary_source": "France24",
+      "excerpt": "Commission president says partnership will create ‘common prosperity’ based on shared democratic values Europe live – latest updates The European Commission president, Ursula von der Leyen, told the C",
+      "excerpt_en": "Commission president says partnership will create ‘common prosperity’ based on shared democratic values Europe live – latest updates The European Commission president, Ursula von der Leyen, told the C",
       "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/15/nato-jets-shoot-down-drone-violating-lithuania-airspace-kaunas",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "AP News",
-        "CBC",
-        "Fox News",
-        "France24",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-15T10:07:12+09:00",
-      "latest_published_at": "2026-09-15T20:26:27+09:00",
-      "articles": [
-        {
-          "title": "NATO jets down drone over Lithuania as Russian ship fires flares at Danish helicopter",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/europe/20260915-nato-jets-down-drone-over-lithuania-as-russian-ship-fires-flares-at-danish-helicopter",
-          "published_at": "20:26"
-        },
-        {
-          "title": "Russian warship fires flares at Danish helicopter as Nato jets shoot down drone over Lithuania",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/15/nato-jets-shoot-down-drone-violating-lithuania-airspace-kaunas",
-          "published_at": "15:18"
-        },
-        {
-          "title": "NATO jets shoot down drone over Lithuania and Russian ship fires flares at Danish helicopter",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG9fSlBNMF83anJ5cU1odGllV2JVS3BENUxkaTZrSlo5MF9HLW5KaTF0UWxnM2REYWRSX21NaklvVGMxVER2aTJBZ3BuRmNzdGg4STFTOVhpQ1VCMjMycUl0elRnaHlmSEJzRXFKSTljSDE2YWxzajZEY1dxdWUxalppNktfVXNfMFc5cGRaeTJOclVobDJFS3FuMzRQOGNyN3JTQXdDeFJOQQ?oc=5",
-          "published_at": "14:51"
-        },
-        {
-          "title": "NATO jets shoot down drone in Lithuanian airspace as Russia grows 'increasingly reckless,' Rutte says",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/nato-jets-shoot-down-drone-lithuanian-airspace-russia-grows-increasingly-reckless-rutte-says",
-          "published_at": "12:56"
-        },
-        {
-          "title": "NATO fighter jet shoots down drone over Lithuania",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/nato-response-lithuania-drone-9.7344227?cmp=rss",
-          "published_at": "10:07"
-        }
-      ]
-    },
-    {
-      "id": "world-227",
-      "title": "FBI boss Kash Patel faces intense scrutiny in Senate Judiciary Oversight hearing",
-      "title_en": "FBI boss Kash Patel faces intense scrutiny in Senate Judiciary Oversight hearing",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/fbi-boss-kash-patel-faces-intense-scrutiny-in-senate-judiciary-oversight-hearing-101789480334731.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "This live blog is now closed. Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he ",
-      "excerpt_en": "This live blog is now closed. Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "Hindustan Times",
-        "Sydney Morning Herald",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-15T13:55:32+09:00",
-      "latest_published_at": "2026-09-16T02:03:49+09:00",
-      "articles": [
-        {
-          "title": "Six green card holders in Texas charged in federal crackdown on illegal voting – as it happened",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates",
-          "published_at": "02:03"
-        },
-        {
-          "title": "Kash Patel loosened rules to allow 'bestiality victims' into FBI",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/kash-patel-loosened-rules-to-allow-bestiality-victims-into-fbi-20260916-p60xtj.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "01:24"
-        },
-        {
-          "title": "FBI director grilled for nearly five hours by US Senate",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/kash-patel-grilled-in-senate-over-fbi-epstein/107157692",
-          "published_at": "23:18"
-        },
-        {
-          "title": "FBI boss Kash Patel faces intense scrutiny in Senate Judiciary Oversight hearing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/fbi-boss-kash-patel-faces-intense-scrutiny-in-senate-judiciary-oversight-hearing-101789480334731.html",
-          "published_at": "13:55"
-        }
-      ]
-    },
-    {
-      "id": "world-90",
-      "title": "Alex Saab, Venezuelan Tied to Maduro, Pleads Guilty in Florida",
-      "title_en": "Alex Saab, Venezuelan Tied to Maduro, Pleads Guilty in Florida",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/14/us/alex-saab-maduro-money-laundering-plea.html",
-      "category": "미국",
-      "primary_source": "New York Times",
-      "excerpt": "WASHINGTON (UNITED STATES) - Alex Saab, a former Venezuelan minister and close ally of ousted president Nicolas Maduro, pleaded guilty on Tuesday to money laundering under a deal with US prosecutors, ",
-      "excerpt_en": "WASHINGTON (UNITED STATES) - Alex Saab, a former Venezuelan minister and close ally of ousted president Nicolas Maduro, pleaded guilty on Tuesday to money laundering under a deal with US prosecutors, ",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3320495/maduro-ally-pleads-guilty-to-us-money-laundering-charges",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
       "translation_status": "failed",
       "score": 85,
       "score_breakdown": {
@@ -502,68 +349,164 @@
         "time_score": 3,
         "raw75": 64
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 10,
+      "article_count": 10,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 10,
       "sources": [
         "AP News",
-        "Al Jazeera",
-        "Bangkok Post",
+        "BBC",
+        "CBC",
+        "Channel News Asia",
+        "DW",
         "Euronews",
-        "Hindustan Times",
-        "New York Times",
-        "Reuters"
+        "France24",
+        "Reuters",
+        "The Guardian",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-15T17:43:22+09:00",
-      "latest_published_at": "2026-09-16T04:46:33+09:00",
+      "first_published_at": "2026-09-16T05:20:56+09:00",
+      "latest_published_at": "2026-09-16T09:56:24+09:00",
       "articles": [
         {
-          "title": "Maduro ally Alex Saab pleads guilty to money laundering in US court",
+          "title": "EU opens door for Canada to become first associate member",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/eu-canada-first-associate-member-6388506",
+          "published_at": "09:56"
+        },
+        {
+          "title": "EU chief opens door for Canada to become 'associate member'",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
+          "published_at": "09:34"
+        },
+        {
+          "title": "European Union opens door for Canada to become its first associate member",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/canada-eu-associate-member-membership-b3051050.html",
+          "published_at": "09:23"
+        },
+        {
+          "title": "Canada invited to become first 'associate member' of the EU",
           "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/16/maduro-ally-alex-saab-pleads-guilty-to-money-laundering-in-us-court",
-          "published_at": "04:46"
+          "url": "https://www.euronews.com/my-europe/2026/09/16/canada-to-become-first-associate-member-of-the-eu",
+          "published_at": "09:18"
         },
         {
-          "title": "Maduro ally Alex Saab pleads guilty to money laundering, fraud",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/16/former-maduro-ally-pleads-guilty-to-money-laundering-and-fraud?traffic_source=rss",
-          "published_at": "00:36"
+          "title": "Von der Leyen eyes Canada as EU's first 'associate member'",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/von-der-leyen-eyes-canada-as-eu-s-first-associate-member/a-79286148?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:18"
         },
         {
-          "title": "Maduro ally pleads guilty to US money laundering charges",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3320495/maduro-ally-pleads-guilty-to-us-money-laundering-charges",
-          "published_at": "20:45"
-        },
-        {
-          "title": "Maduro ally Alex Saab pleads guilty in a $195M money laundering case, agrees to cooperate",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFpMZGMxcURMYmZYSF9CYjdtbmlwWnVMRTlFVGJKcWc0SnY3cTY1RXdRanQ4aWJ1TGM0WXlQZFpENUhHWjI5MG9Wbk1SYXhpOGdIdlVlRkpGeVVxQjFJT1lVTlA5NDF6c3Y0OW9qakRlLXIzWmRULVdra1JfZWJ5MG5EZ3VCWS1ZUE10SEJFVUw?oc=5",
-          "published_at": "19:35"
-        },
-        {
-          "title": "Alex Saab, ally of Venezuela's Maduro, pleads guilty in US corruption case",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/alex-saab-ally-of-venezuela-s-maduro-pleads-guilty-in-us-corruption-case-101789497538218.html",
-          "published_at": "18:38"
-        },
-        {
-          "title": "Alex Saab, ally of Venezuela's Maduro, pleads guilty in US corruption case",
+          "title": "EU opens door for Canada to become its first associate member, von der Leyen says",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY2JCelIxd0V5SUpxemNIWFJqbFVmTkJYTWJocmxheV9BWTNWTXhyUjBFU3NXYmRrZzE2YjdoYVo2TThXcXlMWGMtTmVsU2l3T3ZkYTB4WjJ5UFpHYU9KalFZNFpyc1pBV2p5NGdaU1VtckRDOUJQMmh6bTBwXzB4QmF5WVV6X0M4c0VlNlc1bUd2SEthVUZPaEcyeFZuZE9CTnRqRWtCOUlRUTdNUzJ4WkVBMkpBc28?oc=5",
-          "published_at": "18:37"
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdDFWcUdmR2RJTzZXM3ZMQ2ZqVTI4Z2JBVmRfUnpuZEk4c2lfbU5iY3hCaHdwcTFZd0JEdDBaREdQSWlhUTVaTUFvaUxabjRpTFVjTjJEcl95Y1cwb01hOWZOUGpoWTE1NnJfU1RPZ2Z3SlRZSkg1eGwyaU9kMTd3UkpQNF9KT1lKRm81c0dHNC1YbjFUWjgwdXZpX2FkR0lXQTUxWFVCS1FSY01aZF9jVl9Md3FXUGxhM3NsYmRB?oc=5",
+          "published_at": "09:05"
         },
         {
-          "title": "Alex Saab, Venezuelan Tied to Maduro, Pleads Guilty in Florida",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/14/us/alex-saab-maduro-money-laundering-plea.html",
-          "published_at": "17:43"
+          "title": "EU chief Ursula von der Leyen says she wants Canada to become the bloc's 1st associate member",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/eu-canada-associate-member-9.7345827?cmp=rss",
+          "published_at": "08:49"
+        },
+        {
+          "title": "European Union opens door for Canada to become first associate member",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
+          "published_at": "08:38"
+        },
+        {
+          "title": "EU chief Ursula von der Leyen says she wants Canada to become the bloc's 1st associate member",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWR4THFwSEZWZWEzV1RCLWh1bFZieGlkR0VGMmNKNm15RE8zMnI1YzlqQmFFYjhvWWU5UDJIWVFWOXU3RF9zZEFIUUZUWnRqQTJUQkRBdWx2NWl2c2pOS3hSYkw5aFlMUVhkSHNtdzA0ZE9reFd6RGVDQ1Z3QUN1cTFFREJFWnFsT2V2Skw4WDEyRFpHTzEyRWxsZjZOUQ?oc=5",
+          "published_at": "08:10"
+        },
+        {
+          "title": "EU chief calls for creation of ‘European Security Council’, backs partnership with Canada",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address",
+          "published_at": "05:20"
         }
       ]
     },
     {
-      "id": "world-161",
+      "id": "world-35",
+      "title": "Kosovo ex-president Thaci faces war crimes verdict in The Hague",
+      "title_en": "Kosovo ex-president Thaci faces war crimes verdict in The Hague",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMWhPd1ZYa3JRR2g2VU15ZDZILWFONnZUeFkzWkY5aGpIS0g5R0tDUVpiVUVXS29feXpKaFlnVV90OE9ZWWFieUxicDk0djRldXVoQ1RURlhaUU5tN0dMMEdpMy1pTU5HY1FxM0pNanYzSDdYc1RTdERsWGxMbmU2dUg3MTZvaDdlck9scXBIcHFqNVJiQ2J5akV2bnZ1cDg?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "A European Union-backed court convicted former Kosovo President Hashim Thaci of war crimes committed during his country's war for independence from Serbia and sentenced him to 25 years in prison.",
+      "excerpt_en": "A European Union-backed court convicted former Kosovo President Hashim Thaci of war crimes committed during his country's war for independence from Serbia and sentenced him to 25 years in prison.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+      "translation_status": "failed",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 6,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "DW",
+        "NPR",
+        "Reuters",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-16T01:05:00+09:00",
+      "latest_published_at": "2026-09-16T09:58:00+09:00",
+      "articles": [
+        {
+          "title": "Kosovo ex-president Thaci sentenced to 25 years for war crimes",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/kosovo-ex-president-thaci-sentenced-to-25-years-for-war-crimes/a-79286344?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "09:58"
+        },
+        {
+          "title": "Kosovo's ex-President Thaci convicted of war crimes, sentenced to 25 years in prison",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+          "published_at": "09:57"
+        },
+        {
+          "title": "Kosovo's former president jailed for 25 years over war crimes",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/kosovos-former-president-jailed-for-25-years-over-war-crimes-13588497",
+          "published_at": "08:23"
+        },
+        {
+          "title": "Former Kosovo President Hashim Thaci faces verdict for alleged war crimes",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-faces-verdict-for-alleged-war-crimes?traffic_source=rss",
+          "published_at": "07:49"
+        },
+        {
+          "title": "Hague court to deliver verdict in war crimes trial of Kosovo’s former President Thaci",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/hague-court-deliver-verdict-war-crimes-trial-kosovos-136484817",
+          "published_at": "05:54"
+        },
+        {
+          "title": "Kosovo ex-president Thaci faces war crimes verdict in The Hague",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMWhPd1ZYa3JRR2g2VU15ZDZILWFONnZUeFkzWkY5aGpIS0g5R0tDUVpiVUVXS29feXpKaFlnVV90OE9ZWWFieUxicDk0djRldXVoQ1RURlhaUU5tN0dMMEdpMy1pTU5HY1FxM0pNanYzSDdYc1RTdERsWGxMbmU2dUg3MTZvaDdlck9scXBIcHFqNVJiQ2J5akV2bnZ1cDg?oc=5",
+          "published_at": "01:05"
+        }
+      ]
+    },
+    {
+      "id": "world-95",
       "title": "Remaining supporting acts quit Ed Sheeran tour amid backlash over Macklemore ousting",
       "title_en": "Remaining supporting acts quit Ed Sheeran tour amid backlash over Macklemore ousting",
       "title_source": "earliest_pick",
@@ -590,32 +533,32 @@
       "source_count": 6,
       "sources": [
         "ABC News Australia",
+        "AP News",
         "CBC",
-        "Channel News Asia",
-        "DW",
+        "France24",
         "Hindustan Times",
         "SCMP"
       ],
       "first_published_at": "2026-09-15T20:02:21+09:00",
-      "latest_published_at": "2026-09-16T01:16:00+09:00",
+      "latest_published_at": "2026-09-16T06:54:21+09:00",
       "articles": [
         {
-          "title": "Ed Sheeran's tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/entertainment/ed-sheeran-tour-finneas-opening-acts-drop-out-macklemore-6387096",
-          "published_at": "01:16"
+          "title": "Ed Sheeran's tour in trouble after Pro-Palestine acts drop out",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/americas/20260916-ed-sheeran-s-tour-in-trouble-after-pro-palestine-acts-drop-out",
+          "published_at": "06:54"
         },
         {
-          "title": "Supporting acts pull out of Ed Sheeran's tour over dropping Macklemore",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/supporting-acts-pull-out-of-ed-sheeran-s-tour-over-dropping-macklemore/a-79284880?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "00:34"
-        },
-        {
-          "title": "Ed Sheeran's support acts quit US tour after Macklemore dropped",
+          "title": "Unpacking the 12 days that threw Ed Sheeran's tour into chaos",
           "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/ed-sheerans-tour-in-trouble-after-opening-acts-drop-out/107157812",
-          "published_at": "23:43"
+          "url": "https://www.abc.net.au/news/2026-09-16/free-palestine-macklemore-and-ed-sheeran-tour-controversy/107157914",
+          "published_at": "06:09"
+        },
+        {
+          "title": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0VZLU5QYjdHVUd4UW5OQUNTV1V3YlQ1YkMyTG1ldExKVktqcEtpX0JLbzk3bFVfdVpvTlI5UGhDMEstbWFOVlFZbVQ2WWgyaTR6THFob1NaLV91ZW1jZllqNmRvVzg2bmMxWFgzMlFZUTFtblFiYjR1UzNMbTJVX0NQY0F2dHBOYV95VlZ5ZDJKTWFrRVVEUmpTYw?oc=5",
+          "published_at": "02:23"
         },
         {
           "title": "Ed Sheeran tour in trouble as support acts quit over pro-Palestinian speech fallout",
@@ -638,7 +581,68 @@
       ]
     },
     {
-      "id": "world-9",
+      "id": "world-108",
+      "title": "DA announces death penalty decision in Nick Reiner murder trial",
+      "title_en": "DA announces death penalty decision in Nick Reiner murder trial",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nick-reiner-death-penalty-update-murder-trial-b3050665.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "The son of Hollywood icon Rob Reiner will not face the death penalty when he stands trial over the killings of his parents, Los Angeles County’s top prosecutor said on Tuesday. Nick Reiner, who turned",
+      "excerpt_en": "The son of Hollywood icon Rob Reiner will not face the death penalty when he stands trial over the killings of his parents, Los Angeles County’s top prosecutor said on Tuesday. Nick Reiner, who turned",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367646/rob-reiners-son-nick-wont-face-death-penalty-trial-parents-killing?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "AP News",
+        "Hindustan Times",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-15T16:12:29+09:00",
+      "latest_published_at": "2026-09-15T22:57:42+09:00",
+      "articles": [
+        {
+          "title": "Rob Reiner’s son Nick won’t face death penalty in trial for parents’ killing",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367646/rob-reiners-son-nick-wont-face-death-penalty-trial-parents-killing?utm_source=rss_feed",
+          "published_at": "22:57"
+        },
+        {
+          "title": "Nick Reiner avoids death penalty over his parents’ killings but still faces life in prison",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQak1QUHVSeENKNGhfYkczM3VxSFcxQ043NURtWDJNX0hvRFlGQWtaSDl6b2FhR0c4c3VuVzF3aVFNNXRlbU1HQWhJLUdmaTBlZllscm5GRndCOFk2VTdpXzc1UG5UVjVxdERvbjFyQkREOXdOWUVtQlpncGFSaE1XQ29lMFZldkh1a0FSWkZvTEs2bzdMdjRlZkN3UU1CVkRBYlFiTFNhRQ?oc=5",
+          "published_at": "19:03"
+        },
+        {
+          "title": "Nick Reiner avoids death penalty over his parents, Rob and Michele Renier's killings but still faces life in prison",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nick-reiner-avoids-death-penalty-over-his-parents-killings-but-still-faces-life-in-prison-101789497597807.html",
+          "published_at": "18:39"
+        },
+        {
+          "title": "DA announces death penalty decision in Nick Reiner murder trial",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/nick-reiner-death-penalty-update-murder-trial-b3050665.html",
+          "published_at": "16:12"
+        }
+      ]
+    },
+    {
+      "id": "world-38",
       "title": "South Korean court orders North Korea to pay damages over 2020 liaison office demolition, media reports",
       "title_en": "South Korean court orders North Korea to pay damages over 2020 liaison office demolition, media reports",
       "title_source": "earliest_pick",
@@ -659,37 +663,30 @@
         "time_score": 3,
         "raw75": 61
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
         "ABC News",
-        "Bangkok Post",
-        "Channel News Asia",
+        "Al Jazeera",
         "Reuters",
         "SCMP"
       ],
       "first_published_at": "2026-09-16T01:09:00+09:00",
-      "latest_published_at": "2026-09-16T05:11:03+09:00",
+      "latest_published_at": "2026-09-16T07:22:22+09:00",
       "articles": [
         {
           "title": "South Korean court orders North Korea to pay $32.5 million for blowing up joint liaison office",
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/south-korean-court-orders-north-korea-pay-325-136482853",
-          "published_at": "05:11"
+          "published_at": "07:22"
         },
         {
-          "title": "South Korean court orders North Korea to pay damages over 2020 liaison office demolition",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3320549/south-korean-court-orders-north-korea-to-pay-damages-over-2020-liaison-office-demolition-media-reports",
-          "published_at": "03:02"
-        },
-        {
-          "title": "Court orders North Korea pay Seoul US$32.5 million for blowing up office",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/court-orders-north-korea-pay-south-korea-blowing-up-office-6387841",
-          "published_at": "02:47"
+          "title": "Seoul court orders North Korea to pay $32.5m for blowing up office",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/seoul-court-orders-north-korea-to-pay-32-5m-for-blowing-up-office?traffic_source=rss",
+          "published_at": "05:31"
         },
         {
           "title": "South Korean court orders Pyongyang to pay US$32.5m for destroying border office",
@@ -706,17 +703,17 @@
       ]
     },
     {
-      "id": "world-216",
-      "title": "Who is Umar Kremlev? The Russian oligarch who helped bankroll Donald Trump Jr’s wedding",
-      "title_en": "Who is Umar Kremlev? The Russian oligarch who helped bankroll Donald Trump Jr’s wedding",
+      "id": "world-113",
+      "title": "Alex Saab, Venezuelan Tied to Maduro, Pleads Guilty in Florida",
+      "title_en": "Alex Saab, Venezuelan Tied to Maduro, Pleads Guilty in Florida",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/umar-kremlev-donald-trump-jr-wedding-russian-b3050331.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "Robert Garcia expresses concern over ‘any possible foreign entanglement’ between White House and Umar Kremlev Robert Garcia, the top Democrat on the House oversight committee, is investigating potenti",
-      "excerpt_en": "Robert Garcia expresses concern over ‘any possible foreign entanglement’ between White House and Umar Kremlev Robert Garcia, the top Democrat on the House oversight committee, is investigating potenti",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/15/democrat-investigation-trump-jr-wedding-russian-oligarch",
+      "title_url": "https://www.nytimes.com/2026/09/14/us/alex-saab-maduro-money-laundering-plea.html",
+      "category": "미국",
+      "primary_source": "New York Times",
+      "excerpt": "As part of the plea agreement, Saab agreed to cooperate with ongoing federal investigations in the United States and to hand over 195 million dollars (some €168.9 million) derived from the corruption ",
+      "excerpt_en": "As part of the plea agreement, Saab agreed to cooperate with ongoing federal investigations in the United States and to hand over 195 million dollars (some €168.9 million) derived from the corruption ",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/16/maduro-ally-alex-saab-pleads-guilty-to-money-laundering-in-us-court",
       "translation_status": "failed",
       "score": 80,
       "score_breakdown": {
@@ -732,109 +729,228 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "ABC News Australia",
+        "AP News",
+        "Euronews",
         "Hindustan Times",
-        "The Guardian",
-        "The Independent"
+        "New York Times"
       ],
-      "first_published_at": "2026-09-15T11:10:50+09:00",
-      "latest_published_at": "2026-09-16T00:17:01+09:00",
+      "first_published_at": "2026-09-15T17:43:22+09:00",
+      "latest_published_at": "2026-09-16T04:46:33+09:00",
       "articles": [
         {
-          "title": "Democrats probe Russian-funded wedding parties for Donald Trump's son",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-16/donald-trump-junior-wedding-parties-russian-oligarch-probe-/107157956",
-          "published_at": "00:17"
+          "title": "Maduro ally Alex Saab pleads guilty to money laundering in US court",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/maduro-ally-alex-saab-pleads-guilty-to-money-laundering-in-us-court",
+          "published_at": "04:46"
         },
         {
-          "title": "Top Democrat on House oversight panel investigating Trump Jr wedding party bankrolled by Russian oligarch",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/15/democrat-investigation-trump-jr-wedding-russian-oligarch",
-          "published_at": "17:05"
-        },
-        {
-          "title": "Kremlin-linked Russian businessman paid for Trump Jr's wedding after-party in Bahamas: Report",
+          "title": "Alex Saab, ally of Venezuela's Maduro, pleads guilty in US corruption case",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/kremlin-linked-russian-businessman-paid-for-trump-jrs-wedding-after-party-in-bahamas-report-101789470186844.html",
-          "published_at": "13:28"
+          "url": "https://www.hindustantimes.com/world-news/us-news/alex-saab-ally-of-venezuela-s-maduro-pleads-guilty-in-us-corruption-case-101789497538218.html",
+          "published_at": "18:38"
         },
         {
-          "title": "Who is Umar Kremlev? The Russian oligarch who helped bankroll Donald Trump Jr’s wedding",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/umar-kremlev-donald-trump-jr-wedding-russian-b3050331.html",
-          "published_at": "11:10"
+          "title": "Maduro ally Alex Saab pleads guilty in a $195M money laundering case, agrees to cooperate",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaFpMZGMxcURMYmZYSF9CYjdtbmlwWnVMRTlFVGJKcWc0SnY3cTY1RXdRanQ4aWJ1TGM0WXlQZFpENUhHWjI5MG9Wbk1SYXhpOGdIdlVlRkpGeVVxQjFJT1lVTlA5NDF6c3Y0OW9qakRlLXIzWmRULVdra1JfZWJ5MG5EZ3VCWS1ZUE10SEJFVUw?oc=5",
+          "published_at": "17:51"
+        },
+        {
+          "title": "Alex Saab, Venezuelan Tied to Maduro, Pleads Guilty in Florida",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/14/us/alex-saab-maduro-money-laundering-plea.html",
+          "published_at": "17:43"
         }
       ]
     },
     {
-      "id": "world-317",
-      "title": "Supreme Court deals humiliating blow to Trump by throwing out mail ballot ban",
-      "title_en": "Supreme Court deals humiliating blow to Trump by throwing out mail ballot ban",
+      "id": "world-179",
+      "title": "Hong Kong policy address to unveil bold youth housing and mediation initiatives",
+      "title_en": "Hong Kong policy address to unveil bold youth housing and mediation initiatives",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-supreme-court-mail-in-ballot-midterms-b3050387.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "The court’s decision to block changes to mail-in voting ahead of the midterms leaves the president’s plans in tatters, and fuming over what he sees as disloyalty by his appointees to the bench.",
-      "excerpt_en": "The court’s decision to block changes to mail-in voting ahead of the midterms leaves the president’s plans in tatters, and fuming over what he sees as disloyalty by his appointees to the bench.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/north-america/not-the-people-i-interviewed-trump-lashes-supreme-court-after-election-ruling-20260916-p60xor.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367625/hong-kong-policy-address-unveil-bold-youth-housing-and-mediation-initiatives?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "Hong Kong’s leader will unveil two bold initiatives on housing and mediation in his policy address, the South China Morning Post has learned, with the government planning to boost home ownership rates",
+      "excerpt_en": "Hong Kong’s leader will unveil two bold initiatives on housing and mediation in his policy address, the South China Morning Post has learned, with the government planning to boost home ownership rates",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367625/hong-kong-policy-address-unveil-bold-youth-housing-and-mediation-initiatives?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 80,
+      "score": 79,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 25,
+        "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "time_score": 3,
+        "raw75": 59
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
-        "CBS News",
-        "Euronews",
-        "Sydney Morning Herald",
-        "The Independent"
+        "ABC News",
+        "France24",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-15T09:31:35+09:00",
-      "latest_published_at": "2026-09-15T21:00:00+09:00",
+      "first_published_at": "2026-09-16T00:30:05+09:00",
+      "latest_published_at": "2026-09-16T09:37:58+09:00",
       "articles": [
         {
-          "title": "9/15: The Takeout with Major Garrett",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/091526-the-takeout-with-major-garrett/",
-          "published_at": "21:00"
+          "title": "14 key takeaways from John Lee’s policy address, Hong Kong’s first 5-year plan",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/politics/article/3367706/14-key-takeaways-john-lees-policy-address-hong-kongs-first-5-year-plan?utm_source=rss_feed",
+          "published_at": "09:37"
         },
         {
-          "title": "‘Not the people I interviewed’: Trump lashes Supreme Court after election ruling",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/not-the-people-i-interviewed-trump-lashes-supreme-court-after-election-ruling-20260916-p60xor.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "16:55"
+          "title": "Hong Kong’s first five-year plan seeks to boost innovation",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/plus/news/hong-kong/politics/article/3367711/hong-kongs-first-five-year-plan-seeks-boost-innovation?utm_source=rss_feed",
+          "published_at": "09:24"
         },
         {
-          "title": "Trump blasts Supreme Court over mail-in ballot ruling",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/15/trump-blasts-supreme-court-over-mail-in-ballot-ruling",
-          "published_at": "15:38"
+          "title": "Hong Kong unveils first 5-year plan to broaden the city's identity beyond finance",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/hong-kong-unveils-5-year-plan-broaden-citys-136485372",
+          "published_at": "07:27"
         },
         {
-          "title": "Trump erupts at Supreme Court for being ‘bullied by the Radical Left’ after mail-in ballot ruling",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-supreme-court-mail-in-ballots-b3050554.html",
-          "published_at": "13:52"
+          "title": "Hong Kong unveils first five-year plan to cement position as global financial hub",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/asia-pacific/20260916-hong-kong-unveils-first-five-year-plan-to-cement-position-as-global-financial-hub",
+          "published_at": "05:54"
         },
         {
-          "title": "Supreme Court deals humiliating blow to Trump by throwing out mail ballot ban",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-supreme-court-mail-in-ballot-midterms-b3050387.html",
-          "published_at": "09:31"
+          "title": "Need for accountability if binding targets in 5-year plan not met, John Lee says",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/article/3367652/historic-moment-hong-kong-john-lee-set-deliver-citys-first-ever-5-year-plan?utm_source=rss_feed",
+          "published_at": "02:46"
+        },
+        {
+          "title": "Hong Kong policy address to unveil bold youth housing and mediation initiatives",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367625/hong-kong-policy-address-unveil-bold-youth-housing-and-mediation-initiatives?utm_source=rss_feed",
+          "published_at": "00:30"
         }
       ]
     },
     {
-      "id": "world-56",
+      "id": "world-30",
+      "title": "China, Russia disapprove of US' space weapons: ‘Turning it into battlefield’",
+      "title_en": "China, Russia disapprove of US' space weapons: ‘Turning it into battlefield’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/china-russia-disapprove-of-us-space-weapons-turning-it-into-battlefield-101789478494107.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The US admission that the Pentagon has weapons in orbit is a milestone in the militarisation of space. What comes next could tip the global strategic balance and set off a dangerous new arms race.",
+      "excerpt_en": "The US admission that the Pentagon has weapons in orbit is a milestone in the militarisation of space. What comes next could tip the global strategic balance and set off a dangerous new arms race.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/a-global-race-to-put-weapons-in-space-is-under-way-how-concerned-should-we-be-20260916-p60xs8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 58
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "Reuters",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-15T15:27:01+09:00",
+      "latest_published_at": "2026-09-16T05:57:58+09:00",
+      "articles": [
+        {
+          "title": "A global race to put weapons in space is under way. How concerned should we be?",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/a-global-race-to-put-weapons-in-space-is-under-way-how-concerned-should-we-be-20260916-p60xs8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "05:57"
+        },
+        {
+          "title": "China warns US space weapons could fuel arms race",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcjRYR1FBVkNoeU9oRzM4dlozU1owdjViN3hjZ1lIR1VfTnZFUDBDUnZ4aDFYelNqeVItcklZZU83WmtUYUtpbk9ndEZ6ejVSQ2JhVkRkRXczM0lyQlNmMzJIQW44cmNsMnNXSy13LVRTQS1CcTJHWXFRUzd3NmNZT0tyMGVXVE1QcWNyMHpZMlZQeG4xLTFyN05xaUxFSWl4V2xVemV3TjZDT1FSWmpiSVpB?oc=5",
+          "published_at": "05:19"
+        },
+        {
+          "title": "US confirms it deployed space weapons",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/us-confirms-it-deployed-space-weapons-20260916-p60xpo.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:50"
+        },
+        {
+          "title": "China, Russia disapprove of US' space weapons: ‘Turning it into battlefield’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/china-russia-disapprove-of-us-space-weapons-turning-it-into-battlefield-101789478494107.html",
+          "published_at": "15:27"
+        }
+      ]
+    },
+    {
+      "id": "world-145",
+      "title": "At least 10 dead, dozens missing in Gaza building collapse",
+      "title_en": "At least 10 dead, dozens missing in Gaza building collapse",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "A devastating incident occurred overnight in Gaza City, where a six-storey apartment building crumbled, leaving at least ten Palestinians, including young children, dead. The aftermath has led to fear",
+      "excerpt_en": "A devastating incident occurred overnight in Gaza City, where a six-storey apartment building crumbled, leaving at least ten Palestinians, including young children, dead. The aftermath has led to fear",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/middle-east/10-dead-dozens-missing-after-war-damaged-apartment-block-collapses-in-gaza/articleshow/134283054.cms",
+      "translation_status": "failed",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Euronews",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-16T05:06:52+09:00",
+      "latest_published_at": "2026-09-16T09:09:00+09:00",
+      "articles": [
+        {
+          "title": "At least 12 dead and dozens missing after building collapse in Gaza City",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/09/16/at-least-12-dead-and-dozens-missing-after-building-collapse-in-gaza-city",
+          "published_at": "09:09"
+        },
+        {
+          "title": "10 dead, dozens missing after war-damaged apartment block collapses in Gaza",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/10-dead-dozens-missing-after-war-damaged-apartment-block-collapses-in-gaza/articleshow/134283054.cms",
+          "published_at": "08:51"
+        },
+        {
+          "title": "At least 10 dead, dozens missing in Gaza building collapse",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss",
+          "published_at": "05:06"
+        }
+      ]
+    },
+    {
+      "id": "world-87",
       "title": "Israeli strikes in Gaza kill three people, medics say",
       "title_en": "Israeli strikes in Gaza kill three people, medics say",
       "title_source": "earliest_pick",
@@ -846,14 +962,14 @@
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/09/15/world/middleeast/gaza-strikes-israel.html",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -888,169 +1004,67 @@
       ]
     },
     {
-      "id": "world-218",
-      "title": "US House votes for third time to end Iran war after $38bn cost is revealed",
-      "title_en": "US House votes for third time to end Iran war after $38bn cost is revealed",
+      "id": "world-116",
+      "title": "Iran war has cost the US more than $38B, budget office says",
+      "title_en": "Iran war has cost the US more than $38B, budget office says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
+      "title_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlVudVlJaVNXS1VsYmhrcERoX0RMS3hueWJDektSZXlfVW5YRUdUSm5HUS1WVElHUEc1SjgyOUhyQm5MSVpxOXFOVnFhUEVnZkdkenE0bDAtV29OS1lFNG5iZl9wTENjQUZkOURzeHV3LXRRejYySEZVM1pxcVI0WkcwTDIwTThK?oc=5",
       "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "Damaging budget report estimates cost will grow by $3bn per month and stockpiles of weapons could take five years to rebuild The US House of Representatives has voted for a third time to end the war i",
-      "excerpt_en": "Damaging budget report estimates cost will grow by $3bn per month and stockpiles of weapons could take five years to rebuild The US House of Representatives has voted for a third time to end the war i",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
+      "primary_source": "AP News",
+      "excerpt": "The Iran war has cost the U.S. military at least $33.4 billion — most of it on munitions — and not including hundreds of millions more spent by other agencies, the Pentagon says.",
+      "excerpt_en": "The Iran war has cost the U.S. military at least $33.4 billion — most of it on munitions — and not including hundreds of millions more spent by other agencies, the Pentagon says.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-oil-strait-of-hormuz/",
       "translation_status": "failed",
-      "score": 77,
+      "score": 75,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 1,
         "time_score": 3,
-        "raw75": 58
+        "raw75": 56
       },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-15T21:47:39+09:00",
-      "latest_published_at": "2026-09-16T05:03:35+09:00",
-      "articles": [
-        {
-          "title": "Iran-US war latest: Saudi Arabia says it downed drone near Mecca as US House votes to rein in Trump’s powers",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-oil-saudi-houthis-news-b3050908.html",
-          "published_at": "05:03"
-        },
-        {
-          "title": "House votes to limit Trump's power to strike Iran for 3rd time",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/house-approves-limiting-trump-on-iran-for-third-time/",
-          "published_at": "02:46"
-        },
-        {
-          "title": "US House votes for third time to end Iran war after $38bn cost is revealed",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
-          "published_at": "21:47"
-        }
-      ]
-    },
-    {
-      "id": "world-99",
-      "title": "US acknowledges for the first time that it has deployed weapons in space",
-      "title_en": "US acknowledges for the first time that it has deployed weapons in space",
-      "title_source": "earliest_pick",
-      "title_url": "http://www.france24.com/en/us-acknowledges-for-the-first-time-that-it-has-deployed-weapons-in-space",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "The United States has confirmed for the first time that it has deployed weapons in space, a remarkable revelation after previous warnings about countries such as Russia possibly weaponizing a global f",
-      "excerpt_en": "The United States has confirmed for the first time that it has deployed weapons in space, a remarkable revelation after previous warnings about countries such as Russia possibly weaponizing a global f",
-      "excerpt_source": "France24",
-      "excerpt_url": "http://www.france24.com/en/us-acknowledges-for-the-first-time-that-it-has-deployed-weapons-in-space",
-      "translation_status": "failed",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
         "AP News",
-        "France24",
-        "Sydney Morning Herald"
+        "CBS News",
+        "Euronews"
       ],
-      "first_published_at": "2026-09-15T18:34:46+09:00",
-      "latest_published_at": "2026-09-16T01:42:00+09:00",
+      "first_published_at": "2026-09-15T18:57:00+09:00",
+      "latest_published_at": "2026-09-16T07:40:45+09:00",
       "articles": [
         {
-          "title": "US acknowledges for the first time that it has deployed weapons in space",
+          "title": "Iran war has cost the US more than $38 billion so far, says Congressional Budget Office",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/iran-war-has-cost-the-us-more-than-38-billion-so-far-says-congressional-budget-office",
+          "published_at": "07:40"
+        },
+        {
+          "title": "White House backs Hegseth as new details come out about Iran war's cost",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-oil-strait-of-hormuz/",
+          "published_at": "07:18"
+        },
+        {
+          "title": "Iran war could cost $2 billion per month, Congressional Budget Office estimates",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/iran-war-cost-2-billion-per-month-congressional-budget-office/",
+          "published_at": "20:15"
+        },
+        {
+          "title": "Iran war has cost the US more than $38B, budget office says",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTA1b21Gd0FmOUU2Z0pROU1nZGlhTlgwZmJ3eHBTWjZzRUh0bmd1UC1xdFpGLVdWTjFJOS1RMzBFbFdIREVqbUNZOWJTb0NyaUUtSEc5MGVSbTNHQWlmY3owNHhXUENhamZYZ2I1aFBqUDhoanh3bTBPb29ReURHRENFRW10QW5xOVpF?oc=5",
-          "published_at": "01:42"
-        },
-        {
-          "title": "Pentagon confirms US has deployed weapons in space",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "22:41"
-        },
-        {
-          "title": "US acknowledges for the first time that it has deployed weapons in space",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/us-acknowledges-for-the-first-time-that-it-has-deployed-weapons-in-space",
-          "published_at": "18:34"
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlVudVlJaVNXS1VsYmhrcERoX0RMS3hueWJDektSZXlfVW5YRUdUSm5HUS1WVElHUEc1SjgyOUhyQm5MSVpxOXFOVnFhUEVnZkdkenE0bDAtV29OS1lFNG5iZl9wTENjQUZkOURzeHV3LXRRejYySEZVM1pxcVI0WkcwTDIwTThK?oc=5",
+          "published_at": "18:57"
         }
       ]
     },
     {
-      "id": "world-179",
-      "title": "US confirms it has weapons in space",
-      "title_en": "US confirms it has weapons in space",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/us-confirms-it-has-weapons-in-space/a-79268894?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "아시아",
-      "primary_source": "DW",
-      "excerpt": "The Space Force justified the weapons deployment by citing the US's two biggest geopolitical rivals: Russia and China. Beijing responded by urging Washington to \"stop preparing for war\" in outer space",
-      "excerpt_en": "The Space Force justified the weapons deployment by citing the US's two biggest geopolitical rivals: Russia and China. Beijing responded by urging Washington to \"stop preparing for war\" in outer space",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/us-confirms-it-has-weapons-in-space/a-79268894?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "DW",
-        "Hindustan Times",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-15T11:04:00+09:00",
-      "latest_published_at": "2026-09-15T20:50:21+09:00",
-      "articles": [
-        {
-          "title": "US confirms it deployed space weapons",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/us-confirms-it-deployed-space-weapons-20260916-p60xpo.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "20:50"
-        },
-        {
-          "title": "China, Russia disapprove of US' space weapons: ‘Turning it into battlefield’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/china-russia-disapprove-of-us-space-weapons-turning-it-into-battlefield-101789478494107.html",
-          "published_at": "15:27"
-        },
-        {
-          "title": "US confirms it has weapons in space",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/us-confirms-it-has-weapons-in-space/a-79268894?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "11:04"
-        }
-      ]
-    },
-    {
-      "id": "world-324",
+      "id": "world-330",
       "title": "Serial killer fears grow as seven women found dead near major city",
       "title_en": "Serial killer fears grow as seven women found dead near major city",
       "title_source": "earliest_pick",
@@ -1104,71 +1118,17 @@
       ]
     },
     {
-      "id": "world-117",
-      "title": "Denmark says Russian warship fired flares at military helicopter",
-      "title_en": "Denmark says Russian warship fired flares at military helicopter",
+      "id": "world-100",
+      "title": "NATO jets shoot down drone over Lithuania and Russian ship fires flares at Danish helicopter",
+      "title_en": "NATO jets shoot down drone over Lithuania and Russian ship fires flares at Danish helicopter",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG9fSlBNMF83anJ5cU1odGllV2JVS3BENUxkaTZrSlo5MF9HLW5KaTF0UWxnM2REYWRSX21NaklvVGMxVER2aTJBZ3BuRmNzdGg4STFTOVhpQ1VCMjMycUl0elRnaHlmSEJzRXFKSTljSDE2YWxzajZEY1dxdWUxalppNktfVXNfMFc5cGRaeTJOclVobDJFS3FuMzRQOGNyN3JTQXdDeFJOQQ?oc=5",
       "category": "유럽",
-      "primary_source": "BBC",
-      "excerpt": "Denmark and Russia were at a war of words on Tuesday after Danish authorities accused a Russian frigate of firing flares at a Danish military helicopter. The armed forces said in a statement late on M",
-      "excerpt_en": "Denmark and Russia were at a war of words on Tuesday after Danish authorities accused a Russian frigate of firing flares at a Danish military helicopter. The armed forces said in a statement late on M",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367621/denmark-says-russian-frigate-fired-flares-helicopter?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "New York Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-15T11:40:00+09:00",
-      "latest_published_at": "2026-09-16T04:02:38+09:00",
-      "articles": [
-        {
-          "title": "Denmark Says Russian Warship Fired Flares at Military Helicopter",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/15/world/europe/denmark-russia-flares-helicopter.html",
-          "published_at": "04:02"
-        },
-        {
-          "title": "Denmark says Russian frigate fired flares at helicopter",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367621/denmark-says-russian-frigate-fired-flares-helicopter?utm_source=rss_feed",
-          "published_at": "11:49"
-        },
-        {
-          "title": "Denmark says Russian warship fired flares at military helicopter",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
-          "published_at": "11:40"
-        }
-      ]
-    },
-    {
-      "id": "world-122",
-      "title": "Dutch rail network hit by major disruption, company suspects sabotage",
-      "title_en": "Dutch rail network hit by major disruption, company suspects sabotage",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/dutch-rail-network-hit-by-major-disruption-company-suspects-sabotage-prorail-101789465238152.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Rail travel in large parts of the Netherlands ground to a standstill on Tuesday, after what authorities suspect were coordinated acts of sabotage with tubes attached to train tracks in multiple locati",
-      "excerpt_en": "Rail travel in large parts of the Netherlands ground to a standstill on Tuesday, after what authorities suspect were coordinated acts of sabotage with tubes attached to train tracks in multiple locati",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3367641/dutch-rail-network-crippled-suspected-sabotage?utm_source=rss_feed",
+      "primary_source": "AP News",
+      "excerpt": "NATO fighter jets shot down a drone that entered Lithuanian airspace and Denmark accused a Russian frigate of firing flares at a Danish military helicopter on Tuesday, in incidents that heightened ten",
+      "excerpt_en": "NATO fighter jets shot down a drone that entered Lithuanian airspace and Denmark accused a Russian frigate of firing flares at a Danish military helicopter on Tuesday, in incidents that heightened ten",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/europe/20260915-nato-jets-down-drone-over-lithuania-as-russian-ship-fires-flares-at-danish-helicopter",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -1184,35 +1144,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "BBC",
-        "Hindustan Times",
-        "SCMP"
+        "ABC News",
+        "AP News",
+        "France24"
       ],
-      "first_published_at": "2026-09-15T11:17:41+09:00",
-      "latest_published_at": "2026-09-15T18:26:39+09:00",
+      "first_published_at": "2026-09-15T14:51:00+09:00",
+      "latest_published_at": "2026-09-16T06:05:55+09:00",
       "articles": [
         {
-          "title": "Dutch rail network crippled by suspected sabotage",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3367641/dutch-rail-network-crippled-suspected-sabotage?utm_source=rss_feed",
-          "published_at": "18:26"
+          "title": "NATO jets shoot down drone over Lithuania and Russian ship fires flares at Danish helicopter",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/nato-jets-shoot-drone-lithuania-russian-ship-fires-136454318",
+          "published_at": "06:05"
         },
         {
-          "title": "Suspected sabotage causes major Netherlands rail disruption",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss",
-          "published_at": "16:55"
+          "title": "NATO jets down drone over Lithuania as Russian ship fires flares at Danish helicopter",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/europe/20260915-nato-jets-down-drone-over-lithuania-as-russian-ship-fires-flares-at-danish-helicopter",
+          "published_at": "20:26"
         },
         {
-          "title": "Dutch rail network hit by major disruption, company suspects sabotage",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/dutch-rail-network-hit-by-major-disruption-company-suspects-sabotage-prorail-101789465238152.html",
-          "published_at": "11:17"
+          "title": "NATO jets shoot down drone over Lithuania and Russian ship fires flares at Danish helicopter",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTG9fSlBNMF83anJ5cU1odGllV2JVS3BENUxkaTZrSlo5MF9HLW5KaTF0UWxnM2REYWRSX21NaklvVGMxVER2aTJBZ3BuRmNzdGg4STFTOVhpQ1VCMjMycUl0elRnaHlmSEJzRXFKSTljSDE2YWxzajZEY1dxdWUxalppNktfVXNfMFc5cGRaeTJOclVobDJFS3FuMzRQOGNyN3JTQXdDeFJOQQ?oc=5",
+          "published_at": "14:51"
         }
       ]
     },
     {
-      "id": "world-234",
+      "id": "world-224",
       "title": "Canada still a crucial partner for US in 'many key areas,' PM Carney says",
       "title_en": "Canada still a crucial partner for US in 'many key areas,' PM Carney says",
       "title_source": "earliest_pick",
@@ -1266,17 +1226,224 @@
       ]
     },
     {
-      "id": "world-220",
-      "title": "‘This should be condemned by any thinking human’: film industry rallies behind NAZA directors",
-      "title_en": "‘This should be condemned by any thinking human’: film industry rallies behind NAZA directors",
+      "id": "world-323",
+      "title": "Trump erupts at Supreme Court for being ‘bullied by the Radical Left’ after mail-in ballot ruling",
+      "title_en": "Trump erupts at Supreme Court for being ‘bullied by the Radical Left’ after mail-in ballot ruling",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/film/2026/sep/15/naza-directors-yuval-abraham-rachel-szor-film-industry-support",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-supreme-court-mail-in-ballots-b3050554.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "The court’s decision to block changes to mail-in voting ahead of the midterms leaves the president’s plans in tatters, and fuming over what he sees as disloyalty by his appointees to the bench.",
+      "excerpt_en": "The court’s decision to block changes to mail-in voting ahead of the midterms leaves the president’s plans in tatters, and fuming over what he sees as disloyalty by his appointees to the bench.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/not-the-people-i-interviewed-trump-lashes-supreme-court-after-election-ruling-20260916-p60xor.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 67,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 50
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Euronews",
+        "Sydney Morning Herald",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-15T13:52:12+09:00",
+      "latest_published_at": "2026-09-15T16:55:35+09:00",
+      "articles": [
+        {
+          "title": "‘Not the people I interviewed’: Trump lashes Supreme Court after election ruling",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/not-the-people-i-interviewed-trump-lashes-supreme-court-after-election-ruling-20260916-p60xor.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "16:55"
+        },
+        {
+          "title": "Trump blasts Supreme Court over mail-in ballot ruling",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/15/trump-blasts-supreme-court-over-mail-in-ballot-ruling",
+          "published_at": "15:38"
+        },
+        {
+          "title": "Trump erupts at Supreme Court for being ‘bullied by the Radical Left’ after mail-in ballot ruling",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-supreme-court-mail-in-ballots-b3050554.html",
+          "published_at": "13:52"
+        }
+      ]
+    },
+    {
+      "id": "world-280",
+      "title": "Who was Eliana Moreno? NBCLA's NewsChopper 4 aerial reporter confirmed dead in helicopter crash",
+      "title_en": "Who was Eliana Moreno? NBCLA's NewsChopper 4 aerial reporter confirmed dead in helicopter crash",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-eliana-moreno-nbclas-newschopper-4-aerial-reporter-covering-los-angeles-from-above-101789527240284.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Roland Sprewell, who covers the news in NewsChopper 4 for NBC Los Angeles confirmed Eliana Moreno and George Marciniw had been killed in the helicopter crash.",
+      "excerpt_en": "Roland Sprewell, who covers the news in NewsChopper 4 for NBC Los Angeles confirmed Eliana Moreno and George Marciniw had been killed in the helicopter crash.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/eliana-moreno-and-george-marciniw-killed-in-nbc-los-angeles-helicopter-crash-colleagues-pay-touching-tributes-101789538580631.html",
+      "translation_status": "failed",
+      "score": 65,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 49
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-16T03:15:03+09:00",
+      "latest_published_at": "2026-09-16T09:49:27+09:00",
+      "articles": [
+        {
+          "title": "NBC reporter Eliana Moreno among three killed in helicopter crash in Los Angeles",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/eliana-moreno-george-marciniw-helicopter-crash-b3051010.html",
+          "published_at": "09:49"
+        },
+        {
+          "title": "Eliana Moreno and George Marciniw killed in NBC Los Angeles helicopter crash; colleagues pay touching tributes",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/eliana-moreno-and-george-marciniw-killed-in-nbc-los-angeles-helicopter-crash-colleagues-pay-touching-tributes-101789538580631.html",
+          "published_at": "06:29"
+        },
+        {
+          "title": "Who was George Marciniw? Veteran helicopter pilot and NewsChopper 4 flyer for NBCLA killed in crash",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-george-marciniw-veteran-helicopter-pilot-and-newschopper-4-flyer-for-nbcla-101789530953743.html",
+          "published_at": "04:15"
+        },
+        {
+          "title": "Who was Eliana Moreno? NBCLA's NewsChopper 4 aerial reporter confirmed dead in helicopter crash",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-eliana-moreno-nbclas-newschopper-4-aerial-reporter-covering-los-angeles-from-above-101789527240284.html",
+          "published_at": "03:15"
+        }
+      ]
+    },
+    {
+      "id": "world-6",
+      "title": "Russian drone attack on bus kills five in Ukraine's southeast, governor says",
+      "title_en": "Russian drone attack on bus kills five in Ukraine's southeast, governor says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDNXZ2lkM0J6Q3h2bTlrR2xaeWNKbTUxOUgya1lMOUlubXItalZ6eWxkb2hBYW5SOS1RdElHRkRZZWQ0MjdDZm56ODYyTU5kN3JyalNXdmdheDU3VjNQMXZxQVBHdVJseC0tNktZS3k2Z1ZOaWNoQ2QzTkRfOVJkb0lTS1dSMXlUWDVIT1RiWXBaanBjRzRHaElUWG9SV2U3dGt6Zm5JU2NKbEY1azYtY1VNUlRGdEN4?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Five people were killed and at least seven more were injured in a Russian drone attack on a passenger bus near the frontline in Ukraine's southeast on Wednesday, the regional governor said.",
+      "excerpt_en": "Five people were killed and at least seven more were injured in a Russian drone attack on a passenger bus near the frontline in Ukraine's southeast on Wednesday, the regional governor said.",
+      "excerpt_source": "France24",
+      "excerpt_url": "http://www.france24.com/en/europe/20260916-russian-drone-attack-on-bus-kills-five-in-ukraine-s-southeast",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T06:57:00+09:00",
+      "latest_published_at": "2026-09-16T07:37:46+09:00",
+      "articles": [
+        {
+          "title": "Russian drone attack on bus kills five in Ukraine's southeast",
+          "source_name": "France24",
+          "url": "http://www.france24.com/en/europe/20260916-russian-drone-attack-on-bus-kills-five-in-ukraine-s-southeast",
+          "published_at": "07:37"
+        },
+        {
+          "title": "Russian drone attack on bus kills five in Ukraine's southeast, governor says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDNXZ2lkM0J6Q3h2bTlrR2xaeWNKbTUxOUgya1lMOUlubXItalZ6eWxkb2hBYW5SOS1RdElHRkRZZWQ0MjdDZm56ODYyTU5kN3JyalNXdmdheDU3VjNQMXZxQVBHdVJseC0tNktZS3k2Z1ZOaWNoQ2QzTkRfOVJkb0lTS1dSMXlUWDVIT1RiWXBaanBjRzRHaElUWG9SV2U3dGt6Zm5JU2NKbEY1azYtY1VNUlRGdEN4?oc=5",
+          "published_at": "06:57"
+        }
+      ]
+    },
+    {
+      "id": "world-89",
+      "title": "US Coast Guard boarded a Texas-bound oil tanker to investigate a cyberattack, Bloomberg News reports",
+      "title_en": "US Coast Guard boarded a Texas-bound oil tanker to investigate a cyberattack, Bloomberg News reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ21WNTZrOXplZkFRZzRlWUVtSzlOOC1fOWFqQ0NkOW4tSXNPQnZyaGdDWVlsakZtNXRlMGtaN0dMWklld3A0cUE3MGlEbmtaNGJnWEE0Wk1ocUh6Smc0b1otY1dGcHZBdEpjS0cySHhEV1hSV2JqS3lJR0dmOGVXT05idWl6RXdfd1FHMFR0UnVhYjlxNk45SVZocGtvdkNMOWVZM3J0eDlMSG45S0R0YjVNclRMdnN3eUFjMVFNa1NHUQ?oc=5",
       "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "Backing comes after Yuval Abraham and Rachel Szor were threatened with having their citizenship revoked and accused of treason Film industry heavyweights across the globe have expressed solidarity wit",
-      "excerpt_en": "Backing comes after Yuval Abraham and Rachel Szor were threatened with having their citizenship revoked and accused of treason Film industry heavyweights across the globe have expressed solidarity wit",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/film/2026/sep/15/naza-directors-yuval-abraham-rachel-szor-film-industry-support",
+      "primary_source": "Reuters",
+      "excerpt": "The U.S. has so far not attributed the potential breach to a specific actor, but Iranian state media amplified the story in the weeks following the attack.",
+      "excerpt_en": "The U.S. has so far not attributed the potential breach to a specific actor, but Iranian state media amplified the story in the weeks following the attack.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/coast-guard-fbi-board-oil-tanker-texas/",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-15T23:33:21+09:00",
+      "latest_published_at": "2026-09-16T08:53:13+09:00",
+      "articles": [
+        {
+          "title": "Coast Guard, FBI boarded Texas-bound oil tanker to investigate cyberattack",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/coast-guard-fbi-board-oil-tanker-texas/",
+          "published_at": "08:53"
+        },
+        {
+          "title": "US Coast Guard boarded a Texas-bound oil tanker to investigate a cyberattack, Bloomberg News reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ21WNTZrOXplZkFRZzRlWUVtSzlOOC1fOWFqQ0NkOW4tSXNPQnZyaGdDWVlsakZtNXRlMGtaN0dMWklld3A0cUE3MGlEbmtaNGJnWEE0Wk1ocUh6Smc0b1otY1dGcHZBdEpjS0cySHhEV1hSV2JqS3lJR0dmOGVXT05idWl6RXdfd1FHMFR0UnVhYjlxNk45SVZocGtvdkNMOWVZM3J0eDlMSG45S0R0YjVNclRMdnN3eUFjMVFNa1NHUQ?oc=5",
+          "published_at": "23:33"
+        }
+      ]
+    },
+    {
+      "id": "world-15",
+      "title": "US charges 5 people in alleged Russian-backed murder plots",
+      "title_en": "US charges 5 people in alleged Russian-backed murder plots",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGw0eGlLUnRlTFlJOXlkaldSWjhoc3l4MU45amZlMTJseTQ4OWQ5cFQxcmxqeFY1bVdPR3BhaXNPY2VyeXp3NldVcUlCelBUSk93Uk0wamJTMXNaUGJvc1Y0S3JLVnYtV21jaUZDTVRUWnFQYXdPT3ZkZ1FtNUdDM3lVQWt4SFB4YUZFd1hHY1NQRk94SDRNSm1SUlRGU1ZBa1l3dHUxdWVCSkNK?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Prosecutors said that the group worked on behalf of Russian intelligence services to carry out attacks and murders.",
+      "excerpt_en": "Prosecutors said that the group worked on behalf of Russian intelligence services to carry out attacks and murders.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots?traffic_source=rss",
       "translation_status": "failed",
       "score": 61,
       "score_breakdown": {
@@ -1292,28 +1459,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "NBC News",
-        "The Guardian"
+        "Al Jazeera",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-15T16:44:12+09:00",
-      "latest_published_at": "2026-09-15T19:13:07+09:00",
+      "first_published_at": "2026-09-16T03:30:00+09:00",
+      "latest_published_at": "2026-09-16T06:57:10+09:00",
       "articles": [
         {
-          "title": "Israeli directors talk about controversial ‘NAZA’ documentary",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/-naza-directors-talk-about-controversial-testimonies-of-civilian-killings-in-gaza-269898821537",
-          "published_at": "19:13"
+          "title": "US charges five people over alleged Russian plots",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots?traffic_source=rss",
+          "published_at": "06:57"
         },
         {
-          "title": "‘This should be condemned by any thinking human’: film industry rallies behind NAZA directors",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/film/2026/sep/15/naza-directors-yuval-abraham-rachel-szor-film-industry-support",
-          "published_at": "16:44"
+          "title": "US charges 5 people in alleged Russian-backed murder plots",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGw0eGlLUnRlTFlJOXlkaldSWjhoc3l4MU45amZlMTJseTQ4OWQ5cFQxcmxqeFY1bVdPR3BhaXNPY2VyeXp3NldVcUlCelBUSk93Uk0wamJTMXNaUGJvc1Y0S3JLVnYtV21jaUZDTVRUWnFQYXdPT3ZkZ1FtNUdDM3lVQWt4SFB4YUZFd1hHY1NQRk94SDRNSm1SUlRGU1ZBa1l3dHUxdWVCSkNK?oc=5",
+          "published_at": "03:30"
         }
       ]
     },
     {
-      "id": "world-295",
+      "id": "world-114",
+      "title": "Saudi crown prince goes to Egypt for support against Houthi strikes, and other Mideast developments",
+      "title_en": "Saudi crown prince goes to Egypt for support against Houthi strikes, and other Mideast developments",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNmhBTVJCOWN1MkF2Z1pLRDEybEtVcm5fbnRWVl9ERF9NQ1VqZnltZmp5dVU5RnFvbjV6TmxuMkFEb3FMTXBsay15VlRjVGxBVnpheHJjbE1qSnFqa1FNU2NRcnlNMHpkaDVxNTZwZGtqTVZFQXhOS0E4bnJyYW9tMVdLWFVNb09FdHgyRGNrMjNlRl9iSDEzVHNhTWZxN3JzVjVDOVQ3Znl2X1VWalE?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "Saudi Arabia’s crown prince is reaching out to Egypt for support against Yemen’s Houthi rebels who have disrupted key avenues of commerce, contributing to a spike in the global cost of oil",
+      "excerpt_en": "Saudi Arabia’s crown prince is reaching out to Egypt for support against Yemen’s Houthi rebels who have disrupted key avenues of commerce, contributing to a spike in the global cost of oil",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/houthi-official-saudi-airstrikes-leave-3-dead-mideast-136454908",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-09-16T03:58:00+09:00",
+      "latest_published_at": "2026-09-16T04:10:15+09:00",
+      "articles": [
+        {
+          "title": "Houthi official says Saudi airstrikes leave 3 dead, and other Mideast developments",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/houthi-official-saudi-airstrikes-leave-3-dead-mideast-136454908",
+          "published_at": "04:10"
+        },
+        {
+          "title": "Saudi crown prince goes to Egypt for support against Houthi strikes, and other Mideast developments",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNmhBTVJCOWN1MkF2Z1pLRDEybEtVcm5fbnRWVl9ERF9NQ1VqZnltZmp5dVU5RnFvbjV6TmxuMkFEb3FMTXBsay15VlRjVGxBVnpheHJjbE1qSnFqa1FNU2NRcnlNMHpkaDVxNTZwZGtqTVZFQXhOS0E4bnJyYW9tMVdLWFVNb09FdHgyRGNrMjNlRl9iSDEzVHNhTWZxN3JzVjVDOVQ3Znl2X1VWalE?oc=5",
+          "published_at": "03:58"
+        }
+      ]
+    },
+    {
+      "id": "world-302",
       "title": "Pete Hegseth impeachment vote update: Why does Thomas Massie want Trump's Defense Secretary removed?",
       "title_en": "Pete Hegseth impeachment vote update: Why does Thomas Massie want Trump's Defense Secretary removed?",
       "title_source": "earliest_pick",
@@ -1367,58 +1581,11 @@
       ]
     },
     {
-      "id": "world-84",
-      "title": "UN rights chief says uncovered remains in Gaza raise concerns of war crimes",
-      "title_en": "UN rights chief says uncovered remains in Gaza raise concerns of war crimes",
+      "id": "world-285",
+      "title": "Trump to pardon Lindsay Clancy? POTUS reacts to lawyer Kevin Reddington's plea, ‘I hope they can…’",
+      "title_en": "Trump to pardon Lindsay Clancy? POTUS reacts to lawyer Kevin Reddington's plea, ‘I hope they can…’",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVldILVBQT0Z1c2VpTXBsVy1XdU52S1h4UU10b3NXMDAtdFZEWTdpeE5fNmJBbWg2MmFjd1J6dDJXczdxcHFhZ0dCN1FBVXY4NlJKaTdpb1JoaGpMT3I2TkVkQ1R1TENmdS1QTjg0Vm5iUGJPM3Yzb3U1MkU2di1vUUNKVzZIRzd3M1FaS3pLVWlZdUY0QWJ1LURXYnhHMS1CQVNDTlFRc1ZHTV9zb3daVHh5X0pTZ20zMmp5TG9YSzc?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "The recovery of hundreds of bodies from the rubble of buildings destroyed by Israeli strikes in Gaza during the war that began nearly three years ago has raised fresh concerns about possible war crime",
-      "excerpt_en": "The recovery of hundreds of bodies from the rubble of buildings destroyed by Israeli strikes in Gaza during the war that began nearly three years ago has raised fresh concerns about possible war crime",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/united-nations-bodies-recovered-gaza-9.7344274?cmp=rss",
-      "translation_status": "failed",
-      "score": 60,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-15T11:52:13+09:00",
-      "latest_published_at": "2026-09-15T12:01:26+09:00",
-      "articles": [
-        {
-          "title": "UN rights chief says uncovered remains in Gaza raise concerns of war crimes",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/united-nations-bodies-recovered-gaza-9.7344274?cmp=rss",
-          "published_at": "12:01"
-        },
-        {
-          "title": "UN rights chief says uncovered remains in Gaza raise concerns of war crimes",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVldILVBQT0Z1c2VpTXBsVy1XdU52S1h4UU10b3NXMDAtdFZEWTdpeE5fNmJBbWg2MmFjd1J6dDJXczdxcHFhZ0dCN1FBVXY4NlJKaTdpb1JoaGpMT3I2TkVkQ1R1TENmdS1QTjg0Vm5iUGJPM3Yzb3U1MkU2di1vUUNKVzZIRzd3M1FaS3pLVWlZdUY0QWJ1LURXYnhHMS1CQVNDTlFRc1ZHTV9zb3daVHh5X0pTZ20zMmp5TG9YSzc?oc=5",
-          "published_at": "11:52"
-        }
-      ]
-    },
-    {
-      "id": "world-316",
-      "title": "Nancy Mace calls for public execution of Lindsay Clancy: ‘It could be by firearm, it could be electric chair…’",
-      "title_en": "Nancy Mace calls for public execution of Lindsay Clancy: ‘It could be by firearm, it could be electric chair…’",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/nancy-clancy-calls-for-public-execution-of-lindsay-clancy-it-could-be-by-firearm-it-could-be-electric-chair-101789463602445.html",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-to-pardon-lindsay-clancy-potus-reacts-to-lawyer-kevin-reddingtons-plea-i-hope-they-can-101789478594389.html",
       "category": "미국",
       "primary_source": "Hindustan Times",
       "excerpt": "Lindsay Clancy’s lawyer Kevin Reddington and Rep. Nancy Mace are clashing after the latter said the Massachusetts mom should be publicly executed.",
@@ -1426,14 +1593,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/kevin-reddington-vs-nancy-mace-lindsay-clancys-lawyer-and-congresswoman-clash-over-public-execution-comment-101789520564532.html",
       "translation_status": "failed",
-      "score": 59,
+      "score": 60,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 44
+        "time_score": 3,
+        "raw75": 45
       },
       "area_value": 3,
       "article_count": 3,
@@ -1443,9 +1610,15 @@
         "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-09-15T09:23:46+09:00",
-      "latest_published_at": "2026-09-16T01:11:34+09:00",
+      "first_published_at": "2026-09-15T13:50:44+09:00",
+      "latest_published_at": "2026-09-16T09:17:14+09:00",
       "articles": [
+        {
+          "title": "Nancy Mace wants to see Lindsay Clancy publicly executed",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/nancy-mace-lindsay-clancy-publicly-executed-b3050600.html",
+          "published_at": "09:17"
+        },
         {
           "title": "Kevin Reddington vs Nancy Mace: Lindsay Clancy's lawyer and congresswoman clash over ‘public execution’ comment",
           "source_name": "Hindustan Times",
@@ -1453,31 +1626,25 @@
           "published_at": "01:11"
         },
         {
-          "title": "Nancy Mace wants to see Lindsay Clancy publicly executed",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/nancy-mace-lindsay-clancy-publicly-executed-b3050600.html",
-          "published_at": "15:54"
-        },
-        {
-          "title": "Nancy Mace calls for public execution of Lindsay Clancy: ‘It could be by firearm, it could be electric chair…’",
+          "title": "Trump to pardon Lindsay Clancy? POTUS reacts to lawyer Kevin Reddington's plea, ‘I hope they can…’",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/nancy-clancy-calls-for-public-execution-of-lindsay-clancy-it-could-be-by-firearm-it-could-be-electric-chair-101789463602445.html",
-          "published_at": "09:23"
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-to-pardon-lindsay-clancy-potus-reacts-to-lawyer-kevin-reddingtons-plea-i-hope-they-can-101789478594389.html",
+          "published_at": "13:50"
         }
       ]
     },
     {
-      "id": "world-38",
-      "title": "Scott Bessent confirms weekend meeting with He Lifeng days before Xi’s US visit",
-      "title_en": "Scott Bessent confirms weekend meeting with He Lifeng days before Xi’s US visit",
+      "id": "world-267",
+      "title": "Rodrigo Duterte appears in ICC courtroom for pretrial proceedings",
+      "title_en": "Rodrigo Duterte appears in ICC courtroom for pretrial proceedings",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/diplomacy/article/3367638/scott-bessent-confirms-weekend-meeting-he-lifeng-days-xis-us-visit?utm_source=rss_feed",
+      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367653/malingering-or-memory-loss-duterte-appear-icc-courtroom-assessment?utm_source=rss_feed",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "US Treasury Secretary Scott Bessent on Tuesday confirmed that he will meet Chinese Vice Premier He Lifeng this weekend for the final preparatory talks between the two sides, less than a week before Ch",
-      "excerpt_en": "US Treasury Secretary Scott Bessent on Tuesday confirmed that he will meet Chinese Vice Premier He Lifeng this weekend for the final preparatory talks between the two sides, less than a week before Ch",
+      "excerpt": "Former Philippine president Rodrigo Duterte appeared in person at the International Criminal Court for the first time on Wednesday as he faces charges over his “war on drugs” that killed thousands. Th",
+      "excerpt_en": "Former Philippine president Rodrigo Duterte appeared in person at the International Criminal Court for the first time on Wednesday as he faces charges over his “war on drugs” that killed thousands. Th",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3367638/scott-bessent-confirms-weekend-meeting-he-lifeng-days-xis-us-visit?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3367653/malingering-or-memory-loss-duterte-appear-icc-courtroom-assessment?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 57,
       "score_breakdown": {
@@ -1493,91 +1660,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
+        "ABC News",
         "SCMP"
       ],
-      "first_published_at": "2026-09-15T16:36:03+09:00",
-      "latest_published_at": "2026-09-15T16:52:02+09:00",
+      "first_published_at": "2026-09-16T01:58:29+09:00",
+      "latest_published_at": "2026-09-16T05:54:29+09:00",
       "articles": [
         {
-          "title": "US Treasury's Bessent will meet with China's He Lifeng this weekend",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5",
-          "published_at": "16:52"
+          "title": "Former Philippine President Rodrigo Duterte is expected in court in The Hague",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/former-philippine-president-rodrigo-duterte-expected-court-hague-136484626",
+          "published_at": "05:54"
         },
         {
-          "title": "Scott Bessent confirms weekend meeting with He Lifeng days before Xi’s US visit",
+          "title": "Rodrigo Duterte appears in ICC courtroom for pretrial proceedings",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3367638/scott-bessent-confirms-weekend-meeting-he-lifeng-days-xis-us-visit?utm_source=rss_feed",
-          "published_at": "16:36"
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367653/malingering-or-memory-loss-duterte-appear-icc-courtroom-assessment?utm_source=rss_feed",
+          "published_at": "01:58"
         }
       ]
     },
     {
-      "id": "world-254",
-      "title": "Fragility and cooperation: the takeaways from Dong Jun’s Xiangshan Forum speech",
-      "title_en": "Fragility and cooperation: the takeaways from Dong Jun’s Xiangshan Forum speech",
+      "id": "world-2",
+      "title": "War-damaged Gaza building collapses killing 12 people seeking shelter inside",
+      "title_en": "War-damaged Gaza building collapses killing 12 people seeking shelter inside",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/military/article/3367654/fragility-and-cooperation-takeaways-dong-juns-xiangshan-forum-speech?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Chinese Defence Minister Dong Jun’s address to a defence gathering in Beijing on Wednesday carried a message for Washington but it was delivered in a notably softer, less critical tone, according to a",
-      "excerpt_en": "Chinese Defence Minister Dong Jun’s address to a defence gathering in Beijing on Wednesday carried a message for Washington but it was delivered in a notably softer, less critical tone, according to a",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/military/article/3367657/dong-jun-adopts-softer-stance-us-xiangshan-forum-xi-prepares-trump-summit?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-16T02:12:11+09:00",
-      "latest_published_at": "2026-09-16T04:34:48+09:00",
-      "articles": [
-        {
-          "title": "Greater dialogue as AI, outer space rivalries grow; bigger security role by major powers: China's defence chief",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/east-asia/china-xiangshan-forum-dong-jun-ai-space-6366876",
-          "published_at": "04:34"
-        },
-        {
-          "title": "Dong Jun takes softer line on US at Xiangshan Forum as Xi prepares for Trump summit",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/military/article/3367657/dong-jun-adopts-softer-stance-us-xiangshan-forum-xi-prepares-trump-summit?utm_source=rss_feed",
-          "published_at": "02:45"
-        },
-        {
-          "title": "Fragility and cooperation: the takeaways from Dong Jun’s Xiangshan Forum speech",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/military/article/3367654/fragility-and-cooperation-takeaways-dong-juns-xiangshan-forum-speech?utm_source=rss_feed",
-          "published_at": "02:12"
-        }
-      ]
-    },
-    {
-      "id": "world-20",
-      "title": "Boeing, Korean Air finalize order for 103 aircraft",
-      "title_en": "Boeing, Korean Air finalize order for 103 aircraft",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
-      "category": "아시아",
+      "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajdBSGppODJmQklfVWJDc0xQcGkzOHlBbEV1NnJ1TkNBZmtsWFN4NHhXN3JXLUNZZjdFUVZ2ZHVRLXRwRVBlNVpweUl4YVl1eWNqZ2NueEI5RURlVTQ5X04zV0xoMEtFRzdVS2liZElfYVR4WlNuTlIxWWVqUjNmLUpMQ3VHOHZvVGtXcHYxanNMSVFjU3I0TFpKcnhEMkowcVFpUTlMa1ZzRE9HTTJ4czlReUsxb09oU3ZQWjZiYlpBMXAxWG02UUhB?oc=5",
+      "category": "중동",
       "primary_source": "Reuters",
-      "excerpt": "Boeing, Korean Air finalize order for 103 aircraft Reuters",
-      "excerpt_en": "Boeing, Korean Air finalize order for 103 aircraft Reuters",
+      "excerpt": "War-damaged Gaza building collapses killing 12 people seeking shelter inside Reuters",
+      "excerpt_en": "War-damaged Gaza building collapses killing 12 people seeking shelter inside Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajdBSGppODJmQklfVWJDc0xQcGkzOHlBbEV1NnJ1TkNBZmtsWFN4NHhXN3JXLUNZZjdFUVZ2ZHVRLXRwRVBlNVpweUl4YVl1eWNqZ2NueEI5RURlVTQ5X04zV0xoMEtFRzdVS2liZElfYVR4WlNuTlIxWWVqUjNmLUpMQ3VHOHZvVGtXcHYxanNMSVFjU3I0TFpKcnhEMkowcVFpUTlMa1ZzRE9HTTJ4czlReUsxb09oU3ZQWjZiYlpBMXAxWG02UUhB?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1596,25 +1710,307 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-16T02:20:00+09:00",
-      "latest_published_at": "2026-09-16T02:22:26+09:00",
+      "first_published_at": "2026-09-16T07:23:43+09:00",
+      "latest_published_at": "2026-09-16T08:20:00+09:00",
       "articles": [
         {
-          "title": "Boeing, Korean Air finalize order for 103 aircraft",
+          "title": "War-damaged Gaza building collapses killing 12 people seeking shelter inside",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/boeing-korean-air-finalize-order-103-aircraft-6387791",
-          "published_at": "02:22"
+          "url": "https://www.channelnewsasia.com/world/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside-6388446",
+          "published_at": "08:20"
         },
         {
-          "title": "Boeing, Korean Air finalize order for 103 aircraft",
+          "title": "War-damaged Gaza building collapses killing 12 people seeking shelter inside",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
-          "published_at": "02:20"
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPajdBSGppODJmQklfVWJDc0xQcGkzOHlBbEV1NnJ1TkNBZmtsWFN4NHhXN3JXLUNZZjdFUVZ2ZHVRLXRwRVBlNVpweUl4YVl1eWNqZ2NueEI5RURlVTQ5X04zV0xoMEtFRzdVS2liZElfYVR4WlNuTlIxWWVqUjNmLUpMQ3VHOHZvVGtXcHYxanNMSVFjU3I0TFpKcnhEMkowcVFpUTlMa1ZzRE9HTTJ4czlReUsxb09oU3ZQWjZiYlpBMXAxWG02UUhB?oc=5",
+          "published_at": "07:23"
         }
       ]
     },
     {
-      "id": "world-29",
+      "id": "world-28",
+      "title": "EU's von der Leyen backs partnership with Canada in 'openly hostile world'",
+      "title_en": "EU's von der Leyen backs partnership with Canada in 'openly hostile world'",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3NNS0lVWUJaRWx0UWh5Y0tyWHloOS1zQW55RzdQR1kxN3diNUxrcU1aSkIxYjgzV0hBWUlHak5fdFZ3TUNTYkZlb1NrVlBoRnZ4cC1jOGFaTXhyT2F1dVE5OFRqTEE1ckZGbjBsaWk4a05DclRTVkNaa2UzY1hhLVlDZVpHLWdJU1BsdGtIVmRpVHZRWVMtZ2ktTUdGSHhldnR2SExEVmpfNXA4LXYwaWVSa2RNNmth?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "EU's von der Leyen backs partnership with Canada in 'openly hostile world' Reuters",
+      "excerpt_en": "EU's von der Leyen backs partnership with Canada in 'openly hostile world' Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3NNS0lVWUJaRWx0UWh5Y0tyWHloOS1zQW55RzdQR1kxN3diNUxrcU1aSkIxYjgzV0hBWUlHak5fdFZ3TUNTYkZlb1NrVlBoRnZ4cC1jOGFaTXhyT2F1dVE5OFRqTEE1ckZGbjBsaWk4a05DclRTVkNaa2UzY1hhLVlDZVpHLWdJU1BsdGtIVmRpVHZRWVMtZ2ktTUdGSHhldnR2SExEVmpfNXA4LXYwaWVSa2RNNmth?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T04:11:00+09:00",
+      "latest_published_at": "2026-09-16T07:47:20+09:00",
+      "articles": [
+        {
+          "title": "EU's von der Leyen backs AI slowdown, to invite frontier labs for talks",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/eus-von-der-leyen-backs-ai-slowdown-invite-frontier-labs-talks-6388496",
+          "published_at": "07:47"
+        },
+        {
+          "title": "EU's von der Leyen backs partnership with Canada in 'openly hostile world'",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3NNS0lVWUJaRWx0UWh5Y0tyWHloOS1zQW55RzdQR1kxN3diNUxrcU1aSkIxYjgzV0hBWUlHak5fdFZ3TUNTYkZlb1NrVlBoRnZ4cC1jOGFaTXhyT2F1dVE5OFRqTEE1ckZGbjBsaWk4a05DclRTVkNaa2UzY1hhLVlDZVpHLWdJU1BsdGtIVmRpVHZRWVMtZ2ktTUdGSHhldnR2SExEVmpfNXA4LXYwaWVSa2RNNmth?oc=5",
+          "published_at": "04:11"
+        }
+      ]
+    },
+    {
+      "id": "world-103",
+      "title": "Pentagon confirms US has deployed weapons in space",
+      "title_en": "Pentagon confirms US has deployed weapons in space",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "미국",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "The chief of space operations said the US would build its combat advantage to “outfight any adversary”.",
+      "excerpt_en": "The chief of space operations said the US would build its combat advantage to “outfight any adversary”.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-15T22:41:14+09:00",
+      "latest_published_at": "2026-09-16T07:16:00+09:00",
+      "articles": [
+        {
+          "title": "US acknowledges for the first time that it has deployed weapons in space",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTA1b21Gd0FmOUU2Z0pROU1nZGlhTlgwZmJ3eHBTWjZzRUh0bmd1UC1xdFpGLVdWTjFJOS1RMzBFbFdIREVqbUNZOWJTb0NyaUUtSEc5MGVSbTNHQWlmY3owNHhXUENhamZYZ2I1aFBqUDhoanh3bTBPb29ReURHRENFRW10QW5xOVpF?oc=5",
+          "published_at": "07:16"
+        },
+        {
+          "title": "Pentagon confirms US has deployed weapons in space",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/pentagon-confirms-us-has-deployed-weapons-in-space-20260916-p60xqp.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "22:41"
+        }
+      ]
+    },
+    {
+      "id": "world-143",
+      "title": "What’s the Pinglu Canal, China’s new gateway to Southeast Asia?",
+      "title_en": "What’s the Pinglu Canal, China’s new gateway to Southeast Asia?",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/2026/9/16/whats-the-pinglu-canal-chinas-new-gateway-to-southeast-asia?traffic_source=rss",
+      "category": "아시아",
+      "primary_source": "Al Jazeera",
+      "excerpt": "The opening of the canal has led China to seek to deepen its ties with ASEAN countries in the wake of the rising tensions in the West Asia region.",
+      "excerpt_en": "The opening of the canal has led China to seek to deepen its ties with ASEAN countries in the wake of the rising tensions in the West Asia region.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/china-pinglu-canal-to-link-landlocked-regions-with-southeast-asia-asean-nations-all-about-the-trade-shortcut-101789546308466.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-16T05:24:50+09:00",
+      "latest_published_at": "2026-09-16T09:07:53+09:00",
+      "articles": [
+        {
+          "title": "China's Pinglu Canal to link landlocked regions with Southeast Asia  | All about the trade shortcut",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/china-pinglu-canal-to-link-landlocked-regions-with-southeast-asia-asean-nations-all-about-the-trade-shortcut-101789546308466.html",
+          "published_at": "09:07"
+        },
+        {
+          "title": "What’s the Pinglu Canal, China’s new gateway to Southeast Asia?",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/whats-the-pinglu-canal-chinas-new-gateway-to-southeast-asia?traffic_source=rss",
+          "published_at": "05:24"
+        }
+      ]
+    },
+    {
+      "id": "world-150",
+      "title": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
+      "title_en": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "Built in the 1980s to bypass the Strait of Hormuz, the East-West pipeline has become a crucial route for Saudi oil exports. With the pipeline now out of action after drone attacks, a prolonged outage ",
+      "excerpt_en": "Built in the 1980s to bypass the Strait of Hormuz, the East-West pipeline has become a crucial route for Saudi oil exports. With the pipeline now out of action after drone attacks, a prolonged outage ",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/saudi-arabia-east-west-pipeline-oil-crude-exports-houthis-red-sea-6382731",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia"
+      ],
+      "first_published_at": "2026-09-16T01:53:27+09:00",
+      "latest_published_at": "2026-09-16T06:39:00+09:00",
+      "articles": [
+        {
+          "title": "CNA Explains: Saudi Arabia's East-West pipeline is down. Why its oil 'insurance policy' matters",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/saudi-arabia-east-west-pipeline-oil-crude-exports-houthis-red-sea-6382731",
+          "published_at": "06:39"
+        },
+        {
+          "title": "Saudi Arabia cancels oil to Europe over East-West pipeline blast",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss",
+          "published_at": "01:53"
+        }
+      ]
+    },
+    {
+      "id": "world-219",
+      "title": "FBI boss Kash Patel faces intense scrutiny in Senate Judiciary Oversight hearing",
+      "title_en": "FBI boss Kash Patel faces intense scrutiny in Senate Judiciary Oversight hearing",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/fbi-boss-kash-patel-faces-intense-scrutiny-in-senate-judiciary-oversight-hearing-101789480334731.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "This live blog is now closed. Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he ",
+      "excerpt_en": "This live blog is now closed. Sign up for US Breaking News emails Kash Patel , the FBI director, is now testifying before lawmakers on the Senate judiciary committee. A reminder that the last time he ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-15T13:55:32+09:00",
+      "latest_published_at": "2026-09-16T02:03:49+09:00",
+      "articles": [
+        {
+          "title": "Six green card holders in Texas charged in federal crackdown on illegal voting – as it happened",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/sep/15/supreme-court-mail-ballot-restrictions-midterm-elections-trump-ai-politics-latest-news-updates",
+          "published_at": "02:03"
+        },
+        {
+          "title": "FBI boss Kash Patel faces intense scrutiny in Senate Judiciary Oversight hearing",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/fbi-boss-kash-patel-faces-intense-scrutiny-in-senate-judiciary-oversight-hearing-101789480334731.html",
+          "published_at": "13:55"
+        }
+      ]
+    },
+    {
+      "id": "world-21",
+      "title": "Anthropic signs first Australia data centre agreement",
+      "title_en": "Anthropic signs first Australia data centre agreement",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEhGaHJBc1VaTTFUb2VvQ1h0X0NWNVJwVl9sc0pCU1dEcmxkS2pHZnlGNUlyNmEzby1uUDBqb1draWJqNHV3c1RRVWx1T0tNMjVweXk1REJXaVNJUEtiTUVkbVlpMy1fZUZZMnBGOXNGVmNrLVYtdXZydmdnbGxRcWNPTmJRVnAyVjMyVldtLWRhcnVSQ0xRRHZ0ek9PV09SZV8zdjVLcF9BeEFp?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "A $32 billion data centre proposed for a site west of Brisbane will be used by AI giant Anthropic.",
+      "excerpt_en": "A $32 billion data centre proposed for a site west of Brisbane will be used by AI giant Anthropic.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-16T03:49:00+09:00",
+      "latest_published_at": "2026-09-16T06:18:02+09:00",
+      "articles": [
+        {
+          "title": "Anthropic inks Queensland data centre deal worth five times Olympics budget",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640",
+          "published_at": "06:18"
+        },
+        {
+          "title": "Anthropic signs first Australia data centre agreement",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSEhGaHJBc1VaTTFUb2VvQ1h0X0NWNVJwVl9sc0pCU1dEcmxkS2pHZnlGNUlyNmEzby1uUDBqb1draWJqNHV3c1RRVWx1T0tNMjVweXk1REJXaVNJUEtiTUVkbVlpMy1fZUZZMnBGOXNGVmNrLVYtdXZydmdnbGxRcWNPTmJRVnAyVjMyVldtLWRhcnVSQ0xRRHZ0ek9PV09SZV8zdjVLcF9BeEFp?oc=5",
+          "published_at": "03:49"
+        }
+      ]
+    },
+    {
+      "id": "world-58",
       "title": "Trump administration plans $2.8 billion munitions sale to Israel, sources say",
       "title_en": "Trump administration plans $2.8 billion munitions sale to Israel, sources say",
       "title_source": "earliest_pick",
@@ -1626,14 +2022,14 @@
       "excerpt_source": "Al Jazeera",
       "excerpt_url": "https://www.aljazeera.com/news/2026/9/16/trump-administration-plans-2-8bn-sale-of-2000-pound-bombs-to-israel?traffic_source=rss",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1661,311 +2057,17 @@
       ]
     },
     {
-      "id": "world-31",
-      "title": "Rubio announces US visa curbs for some foreign nationals from South Africa",
-      "title_en": "Rubio announces US visa curbs for some foreign nationals from South Africa",
+      "id": "world-84",
+      "title": "India's UPI ends free era with fee on large merchant payments",
+      "title_en": "India's UPI ends free era with fee on large merchant payments",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdW1mUXJ6RkhIZzVuQWxrYXZFbGFIbnpyZHhzaWloRzlvaFloR0RnRnlLX1dMSjE4LXdIdWg2MDNidUgyY1Q4TVVqNEMxeFYyQmVNOEZESmU1dV9pY1J4RjZhZS1jRkRMMm9GZXUwZHNld2Y0OWlXYzJlanB2OTV2amRrbWJzSG45ZG5TY3h5TXhweHRiM2JTb1pLM2ZITG5FeGgydUNaVXQzaXVk?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "The US has implemented a visa restriction policy for foreign nationals linked to land seizures and racial discrimination in South Africa.",
-      "excerpt_en": "The US has implemented a visa restriction policy for foreign nationals linked to land seizures and racial discrimination in South Africa.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-admin-tightens-visa-rules-for-some-south-africans-who-could-face-restrictions-and-what-the-new-policy-says-101789522725810.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-15T22:40:16+09:00",
-      "latest_published_at": "2026-09-16T02:25:16+09:00",
-      "articles": [
-        {
-          "title": "Trump admin tightens visa rules for some South Africans: Who could face restrictions and what the new policy says",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-admin-tightens-visa-rules-for-some-south-africans-who-could-face-restrictions-and-what-the-new-policy-says-101789522725810.html",
-          "published_at": "02:25"
-        },
-        {
-          "title": "Rubio announces US visa curbs for some foreign nationals from South Africa",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdW1mUXJ6RkhIZzVuQWxrYXZFbGFIbnpyZHhzaWloRzlvaFloR0RnRnlLX1dMSjE4LXdIdWg2MDNidUgyY1Q4TVVqNEMxeFYyQmVNOEZESmU1dV9pY1J4RjZhZS1jRkRMMm9GZXUwZHNld2Y0OWlXYzJlanB2OTV2amRrbWJzSG45ZG5TY3h5TXhweHRiM2JTb1pLM2ZITG5FeGgydUNaVXQzaXVk?oc=5",
-          "published_at": "22:40"
-        }
-      ]
-    },
-    {
-      "id": "world-102",
-      "title": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
-      "title_en": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV1diM0piQ1BnZkF1dW9mM0w3ZnQ5eDBoV3BKLXFvLXA4Si1wT0pYLU91RDF1X2lEZ0JvcnZ1SzJLYXc4eVhhVUVSdE1jYjBvZktkQkRwd0FYUWxFRXFkMWtDaGthRjRQLUJzNnVFdTJGMlpHY2NjRzBiUDdTSGlUeE1EMnVjY2NTbkE3SG1MdnBPX3o5VG40?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "The FBI revised its hiring standards last year to remove prostitution, bestiality and certain other conduct from the list of automatic disqualifications.",
-      "excerpt_en": "The FBI revised its hiring standards last year to remove prostitution, bestiality and certain other conduct from the list of automatic disqualifications.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/fbi-relaxes-hiring-standards-on-bestiality-prostitution-kash-patel-defends-move-we-are-not-into-it-but-101789525437407.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-15T21:29:00+09:00",
-      "latest_published_at": "2026-09-16T03:38:17+09:00",
-      "articles": [
-        {
-          "title": "FBI relaxes hiring standards on bestiality, prostitution, Kash Patel defends move: ‘We are not into it, but…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/fbi-relaxes-hiring-standards-on-bestiality-prostitution-kash-patel-defends-move-we-are-not-into-it-but-101789525437407.html",
-          "published_at": "03:38"
-        },
-        {
-          "title": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV1diM0piQ1BnZkF1dW9mM0w3ZnQ5eDBoV3BKLXFvLXA4Si1wT0pYLU91RDF1X2lEZ0JvcnZ1SzJLYXc4eVhhVUVSdE1jYjBvZktkQkRwd0FYUWxFRXFkMWtDaGthRjRQLUJzNnVFdTJGMlpHY2NjRzBiUDdTSGlUeE1EMnVjY2NTbkE3SG1MdnBPX3o5VG40?oc=5",
-          "published_at": "21:29"
-        }
-      ]
-    },
-    {
-      "id": "world-156",
-      "title": "SCOTUS rejects Trump's mail voting limits. And, the Kennedy Center financial crisis",
-      "title_en": "SCOTUS rejects Trump's mail voting limits. And, the Kennedy Center financial crisis",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/09/15/g-s1-143294/up-first-newsletter-bernie-sanders-steve-bannon-ai-mail-in-ballots-kennedy-center-emmys",
-      "category": "미국",
-      "primary_source": "NPR",
-      "excerpt": "The Supreme Court has rejected Trump's mail-in voting restrictions ahead of the midterm elections. And, the Kennedy Center says it is on the brink of bankruptcy and could close soon.",
-      "excerpt_en": "The Supreme Court has rejected Trump's mail-in voting restrictions ahead of the midterm elections. And, the Kennedy Center says it is on the brink of bankruptcy and could close soon.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/09/15/g-s1-143294/up-first-newsletter-bernie-sanders-steve-bannon-ai-mail-in-ballots-kennedy-center-emmys",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "NPR",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-15T11:35:49+09:00",
-      "latest_published_at": "2026-09-16T02:18:20+09:00",
-      "articles": [
-        {
-          "title": "SCOTUS rejects Trump's mail-in ballot curbs for Nov midterms",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/scotus-rejects-trumps-mail-in-ballot-curbs-for-nov-midterms/articleshow/134276357.cms",
-          "published_at": "02:18"
-        },
-        {
-          "title": "SCOTUS rejects Trump's mail voting limits. And, the Kennedy Center financial crisis",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/15/g-s1-143294/up-first-newsletter-bernie-sanders-steve-bannon-ai-mail-in-ballots-kennedy-center-emmys",
-          "published_at": "11:35"
-        }
-      ]
-    },
-    {
-      "id": "world-243",
-      "title": "Harry and Meghan change their children’s school over security concerns",
-      "title_en": "Harry and Meghan change their children’s school over security concerns",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-children-change-schools-security-concerns-archie-lilibet-rcna597862",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "Prince Harry and Meghan, Duchess of Sussex, have transferred their children to another school shortly after they moved back to the U.K., over security concerns. The news comes as the couple await a ve",
-      "excerpt_en": "Prince Harry and Meghan, Duchess of Sussex, have transferred their children to another school shortly after they moved back to the U.K., over security concerns. The news comes as the couple await a ve",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/video/harry-and-meghan-change-kids-school-over-security-concerns-269918789712",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "NBC News",
-        "New York Times"
-      ],
-      "first_published_at": "2026-09-15T10:31:21+09:00",
-      "latest_published_at": "2026-09-15T22:58:30+09:00",
-      "articles": [
-        {
-          "title": "Harry and Meghan change kids' school over security concerns",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/harry-and-meghan-change-kids-school-over-security-concerns-269918789712",
-          "published_at": "22:58"
-        },
-        {
-          "title": "Harry and Meghan Change Children’s School After Talks With Security Team",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/15/world/europe/prince-harry-meghan-children-schools-security.html",
-          "published_at": "17:28"
-        },
-        {
-          "title": "Harry and Meghan change their children’s school over security concerns",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-children-change-schools-security-concerns-archie-lilibet-rcna597862",
-          "published_at": "10:31"
-        }
-      ]
-    },
-    {
-      "id": "world-277",
-      "title": "Mainland Chinese joint venture launches new electric taxi in Hong Kong",
-      "title_en": "Mainland Chinese joint venture launches new electric taxi in Hong Kong",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367619/mainland-chinese-joint-venture-launches-new-electric-taxi-hong-kong?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2tEdUtZclJBdVBxelU0S0UwRWc3NUtTaVpJRVM1UjY1a2VkYnI4c24wT3ppWmotaUNScndBNlUzVFp4d0JsMEszMHRWMnRQbDd0czJtVFRCcHFucjQ2b3Btd1pKTEJGb1dfMDZaLU1nTHNERDdpcWRJZXVfQkxRbjA5VlVmekZhNnNmOW5aemJsclRRVXlTYWFmQlY2RzlZaDA5RlZzQTg4RG1HMml6bEp3R01YRS1uSWVBbHZCUFByUQ?oc=5",
       "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Securities regulators in Hong Kong and mainland China are doubling down on efforts to raise the quality of Hong Kong initial public offerings (IPOs), which could slow the flow of new listings but woul",
-      "excerpt_en": "Securities regulators in Hong Kong and mainland China are doubling down on efforts to raise the quality of Hong Kong initial public offerings (IPOs), which could slow the flow of new listings but woul",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/business/banking-finance/article/3367616/tighter-scrutiny-hong-kong-ipos-could-slow-deal-flow-analysts-say?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-15T11:18:51+09:00",
-      "latest_published_at": "2026-09-16T01:25:00+09:00",
-      "articles": [
-        {
-          "title": "They did it again: Rosewood Hong Kong holds onto its crown in The 50 Best Hotels 2026",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/experiences/worlds-50-best-hotels-2026-rosewood-hong-kong-6387646",
-          "published_at": "01:25"
-        },
-        {
-          "title": "Tighter scrutiny of Hong Kong IPOs could slow deal flow, analysts say",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/business/banking-finance/article/3367616/tighter-scrutiny-hong-kong-ipos-could-slow-deal-flow-analysts-say?utm_source=rss_feed",
-          "published_at": "13:00"
-        },
-        {
-          "title": "Mainland Chinese joint venture launches new electric taxi in Hong Kong",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367619/mainland-chinese-joint-venture-launches-new-electric-taxi-hong-kong?utm_source=rss_feed",
-          "published_at": "11:18"
-        }
-      ]
-    },
-    {
-      "id": "world-287",
-      "title": "Pentagon inspector general says Iran war has caused weapons shortages",
-      "title_en": "Pentagon inspector general says Iran war has caused weapons shortages",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/us-iran-war-ammunition-munition-shortage-shortfall-spending/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "President Donald Trump’s ‘Operation Epic Fury’ assault on Iran has cost $33.4 billion and has resulted in a strategic missile shortage, the Department of Defense’s inspector general finds",
-      "excerpt_en": "President Donald Trump’s ‘Operation Epic Fury’ assault on Iran has cost $33.4 billion and has resulted in a strategic missile shortage, the Department of Defense’s inspector general finds",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-cost-weapons-missiles-shortage-b3050924.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-15T10:10:25+09:00",
-      "latest_published_at": "2026-09-16T05:06:50+09:00",
-      "articles": [
-        {
-          "title": "US defense chiefs warn of munitions shortfall as Iran war costs hit $33bn",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-cost-weapons-missiles-shortage-b3050924.html",
-          "published_at": "05:06"
-        },
-        {
-          "title": "Pentagon inspector general says Iran war has caused weapons shortages",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/us-iran-war-ammunition-munition-shortage-shortfall-spending/",
-          "published_at": "10:10"
-        }
-      ]
-    },
-    {
-      "id": "world-5",
-      "title": "Oil falls as US crude inventories rise despite Saudi supply concerns",
-      "title_en": "Oil falls as US crude inventories rise despite Saudi supply concerns",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-6387586",
-      "category": "중동",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Oil falls as US crude inventories rise despite Saudi supply concerns Reuters",
-      "excerpt_en": "Oil falls as US crude inventories rise despite Saudi supply concerns Reuters",
+      "primary_source": "Reuters",
+      "excerpt": "India's UPI ends free era with fee on large merchant payments Reuters",
+      "excerpt_en": "India's UPI ends free era with fee on large merchant payments Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUw2WF9wc1NsbDZJRTlsTzlIOFYzZWtQMEJUS0tNT3VPUEhJUnhIZTZBTlJTcG50M0IxOXNLYTFSQVZRb2VIWllBT2ZzNC14RnAwUkhWYW91MlJrVm5TX3BZR3RSeVU3dUtjZmJuWm1hZWNyd29LLUUyY3BIekxROHllS0xoME02UUNDWnJlakRUU3hnOFg2aUV3X0FVVWd3SUpkRkZUTjdoX3VTRm95UE5CTWQxVXk1?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2tEdUtZclJBdVBxelU0S0UwRWc3NUtTaVpJRVM1UjY1a2VkYnI4c24wT3ppWmotaUNScndBNlUzVFp4d0JsMEszMHRWMnRQbDd0czJtVFRCcHFucjQ2b3Btd1pKTEJGb1dfMDZaLU1nTHNERDdpcWRJZXVfQkxRbjA5VlVmekZhNnNmOW5aemJsclRRVXlTYWFmQlY2RzlZaDA5RlZzQTg4RG1HMml6bEp3R01YRS1uSWVBbHZCUFByUQ?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1984,119 +2086,25 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-16T00:40:42+09:00",
-      "latest_published_at": "2026-09-16T00:41:00+09:00",
+      "first_published_at": "2026-09-15T13:27:00+09:00",
+      "latest_published_at": "2026-09-16T06:39:19+09:00",
       "articles": [
         {
-          "title": "Oil falls as US crude inventories rise despite Saudi supply concerns",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUw2WF9wc1NsbDZJRTlsTzlIOFYzZWtQMEJUS0tNT3VPUEhJUnhIZTZBTlJTcG50M0IxOXNLYTFSQVZRb2VIWllBT2ZzNC14RnAwUkhWYW91MlJrVm5TX3BZR3RSeVU3dUtjZmJuWm1hZWNyd29LLUUyY3BIekxROHllS0xoME02UUNDWnJlakRUU3hnOFg2aUV3X0FVVWd3SUpkRkZUTjdoX3VTRm95UE5CTWQxVXk1?oc=5",
-          "published_at": "00:41"
-        },
-        {
-          "title": "Oil falls as US crude inventories rise despite Saudi supply concerns",
+          "title": "Explainer-India's UPI fee shake-up: What changes and why it matters",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-6387586",
-          "published_at": "00:40"
-        }
-      ]
-    },
-    {
-      "id": "world-106",
-      "title": "Nick Reiner avoids death penalty over his parents, Rob and Michele Renier's killings but still faces life in prison",
-      "title_en": "Nick Reiner avoids death penalty over his parents, Rob and Michele Renier's killings but still faces life in prison",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/nick-reiner-avoids-death-penalty-over-his-parents-killings-but-still-faces-life-in-prison-101789497597807.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Nick Reiner is currently facing a trial over the killing of his parents, Hollywood filmmaker Rob Reiner and photographer Michele Reiner.",
-      "excerpt_en": "Nick Reiner is currently facing a trial over the killing of his parents, Hollywood filmmaker Rob Reiner and photographer Michele Reiner.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/nick-reiner-avoids-death-penalty-over-his-parents-killings-but-still-faces-life-in-prison-101789497597807.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-15T18:39:57+09:00",
-      "latest_published_at": "2026-09-15T19:03:00+09:00",
-      "articles": [
-        {
-          "title": "Nick Reiner avoids death penalty over his parents’ killings but still faces life in prison",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQak1QUHVSeENKNGhfYkczM3VxSFcxQ043NURtWDJNX0hvRFlGQWtaSDl6b2FhR0c4c3VuVzF3aVFNNXRlbU1HQWhJLUdmaTBlZllscm5GRndCOFk2VTdpXzc1UG5UVjVxdERvbjFyQkREOXdOWUVtQlpncGFSaE1XQ29lMFZldkh1a0FSWkZvTEs2bzdMdjRlZkN3UU1CVkRBYlFiTFNhRQ?oc=5",
-          "published_at": "19:03"
+          "url": "https://www.channelnewsasia.com/business/explainer-indias-upi-fee-shake-up-what-changes-and-why-it-matters-6388381",
+          "published_at": "06:39"
         },
         {
-          "title": "Nick Reiner avoids death penalty over his parents, Rob and Michele Renier's killings but still faces life in prison",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/nick-reiner-avoids-death-penalty-over-his-parents-killings-but-still-faces-life-in-prison-101789497597807.html",
-          "published_at": "18:39"
-        }
-      ]
-    },
-    {
-      "id": "world-109",
-      "title": "Hospital could have prevented some of nurse's baby killings, judge says",
-      "title_en": "Hospital could have prevented some of nurse's baby killings, judge says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/lucy-letby-baby-murders-uk-judge-thirwall-inquiry/",
-      "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "British nurse Lucy Letby, convicted of murdering seven babies, was enabled by a \"complete failure\" to protect them at the hospital where she worked, the chair of an inquiry said.",
-      "excerpt_en": "British nurse Lucy Letby, convicted of murdering seven babies, was enabled by a \"complete failure\" to protect them at the hospital where she worked, the chair of an inquiry said.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/lucy-letby-baby-murders-uk-judge-thirwall-inquiry/",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "CBS News"
-      ],
-      "first_published_at": "2026-09-15T13:27:42+09:00",
-      "latest_published_at": "2026-09-15T21:50:00+09:00",
-      "articles": [
-        {
-          "title": "Inquiry blasts hospital for failure to protect babies after nurse Lucy Letby convicted of 7 murders",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNTlsSjF5UHIxbEtVbnVIMEt0b1VUajloWmxBSDlKMThiVUQtOUhVUW1SelRyajF1dEJORUZ3U0h6VlVtV0tkYzhVTllfaHI1QnozVGw1Y1d6c0FBTHpFWXkwSTBTM3huZndiVENXb0NmQWpGZ0FDX3UyV3UwRUZYNFZpdkJpRUhYOWY3bmlzR01PSDdiVE5MMVM5eFRkQV9oc2NOUDdmay1uUEE?oc=5",
-          "published_at": "21:50"
-        },
-        {
-          "title": "Hospital could have prevented some of nurse's baby killings, judge says",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/lucy-letby-baby-murders-uk-judge-thirwall-inquiry/",
+          "title": "India's UPI ends free era with fee on large merchant payments",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2tEdUtZclJBdVBxelU0S0UwRWc3NUtTaVpJRVM1UjY1a2VkYnI4c24wT3ppWmotaUNScndBNlUzVFp4d0JsMEszMHRWMnRQbDd0czJtVFRCcHFucjQ2b3Btd1pKTEJGb1dfMDZaLU1nTHNERDdpcWRJZXVfQkxRbjA5VlVmekZhNnNmOW5aemJsclRRVXlTYWFmQlY2RzlZaDA5RlZzQTg4RG1HMml6bEp3R01YRS1uSWVBbHZCUFByUQ?oc=5",
           "published_at": "13:27"
         }
       ]
     },
     {
-      "id": "world-111",
+      "id": "world-98",
       "title": "US military says it destroyed 2 small Iranian boats trying to steal a sea drone",
       "title_en": "US military says it destroyed 2 small Iranian boats trying to steal a sea drone",
       "title_source": "earliest_pick",
@@ -2143,17 +2151,111 @@
       ]
     },
     {
-      "id": "world-113",
-      "title": "Iran war has cost the US more than $38B, budget office says",
-      "title_en": "Iran war has cost the US more than $38B, budget office says",
+      "id": "world-102",
+      "title": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
+      "title_en": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlVudVlJaVNXS1VsYmhrcERoX0RMS3hueWJDektSZXlfVW5YRUdUSm5HUS1WVElHUEc1SjgyOUhyQm5MSVpxOXFOVnFhUEVnZkdkenE0bDAtV29OS1lFNG5iZl9wTENjQUZkOURzeHV3LXRRejYySEZVM1pxcVI0WkcwTDIwTThK?oc=5",
-      "category": "중동",
+      "title_url": "https://abcnews.com/International/wireStory/crisis-shaking-brazils-supreme-court-heres-136452524",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know AP News",
+      "excerpt_en": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhiNkVYX09MQWl5SmM2ZjBITllaOUUtdEFLRDlYZlkxREFDVk80RmI2eC0xSTFES2tMdkdadHdxNXRnSzBRR2daemNpbVY5REEzemU3TnoxYU5jel9QS1lBeUUyR1hnN0JLZ3lwQ0JZVXFBVzZUXzRXTDNHX2xVTkVFTlFKUlppcklEbHdwaDhkS3MzYlZTOUFxNA?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-09-16T01:38:14+09:00",
+      "latest_published_at": "2026-09-16T03:05:53+09:00",
+      "articles": [
+        {
+          "title": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhiNkVYX09MQWl5SmM2ZjBITllaOUUtdEFLRDlYZlkxREFDVk80RmI2eC0xSTFES2tMdkdadHdxNXRnSzBRR2daemNpbVY5REEzemU3TnoxYU5jel9QS1lBeUUyR1hnN0JLZ3lwQ0JZVXFBVzZUXzRXTDNHX2xVTkVFTlFKUlppcklEbHdwaDhkS3MzYlZTOUFxNA?oc=5",
+          "published_at": "03:05"
+        },
+        {
+          "title": "A crisis is shaking Brazil’s Supreme Court. Here’s what to know",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/crisis-shaking-brazils-supreme-court-heres-136452524",
+          "published_at": "01:38"
+        }
+      ]
+    },
+    {
+      "id": "world-106",
+      "title": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
+      "title_en": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV1diM0piQ1BnZkF1dW9mM0w3ZnQ5eDBoV3BKLXFvLXA4Si1wT0pYLU91RDF1X2lEZ0JvcnZ1SzJLYXc4eVhhVUVSdE1jYjBvZktkQkRwd0FYUWxFRXFkMWtDaGthRjRQLUJzNnVFdTJGMlpHY2NjRzBiUDdTSGlUeE1EMnVjY2NTbkE3SG1MdnBPX3o5VG40?oc=5",
+      "category": "기타",
       "primary_source": "AP News",
-      "excerpt": "The Congressional Budget Office estimated the war between Feb. 28 and Aug. 1 has directly cost the U.S. about $38 billion.",
-      "excerpt_en": "The Congressional Budget Office estimated the war between Feb. 28 and Aug. 1 has directly cost the U.S. about $38 billion.",
+      "excerpt": "The FBI revised its hiring standards last year to remove prostitution, bestiality and certain other conduct from the list of automatic disqualifications.",
+      "excerpt_en": "The FBI revised its hiring standards last year to remove prostitution, bestiality and certain other conduct from the list of automatic disqualifications.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/fbi-relaxes-hiring-standards-on-bestiality-prostitution-kash-patel-defends-move-we-are-not-into-it-but-101789525437407.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-15T21:29:00+09:00",
+      "latest_published_at": "2026-09-16T03:38:17+09:00",
+      "articles": [
+        {
+          "title": "FBI relaxes hiring standards on bestiality, prostitution, Kash Patel defends move: ‘We are not into it, but…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/fbi-relaxes-hiring-standards-on-bestiality-prostitution-kash-patel-defends-move-we-are-not-into-it-but-101789525437407.html",
+          "published_at": "03:38"
+        },
+        {
+          "title": "FBI chief Kash Patel defends hiring policy changes on prostitution, bestiality at fiery hearing",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV1diM0piQ1BnZkF1dW9mM0w3ZnQ5eDBoV3BKLXFvLXA4Si1wT0pYLU91RDF1X2lEZ0JvcnZ1SzJLYXc4eVhhVUVSdE1jYjBvZktkQkRwd0FYUWxFRXFkMWtDaGthRjRQLUJzNnVFdTJGMlpHY2NjRzBiUDdTSGlUeE1EMnVjY2NTbkE3SG1MdnBPX3o5VG40?oc=5",
+          "published_at": "21:29"
+        }
+      ]
+    },
+    {
+      "id": "world-110",
+      "title": "Hospital could have prevented some of nurse's baby killings, judge says",
+      "title_en": "Hospital could have prevented some of nurse's baby killings, judge says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/lucy-letby-baby-murders-uk-judge-thirwall-inquiry/",
+      "category": "유럽",
+      "primary_source": "CBS News",
+      "excerpt": "British nurse Lucy Letby, convicted of murdering seven babies, was enabled by a \"complete failure\" to protect them at the hospital where she worked, the chair of an inquiry said.",
+      "excerpt_en": "British nurse Lucy Letby, convicted of murdering seven babies, was enabled by a \"complete failure\" to protect them at the hospital where she worked, the chair of an inquiry said.",
       "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/iran-war-cost-2-billion-per-month-congressional-budget-office/",
+      "excerpt_url": "https://www.cbsnews.com/news/lucy-letby-baby-murders-uk-judge-thirwall-inquiry/",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2172,185 +2274,44 @@
         "AP News",
         "CBS News"
       ],
-      "first_published_at": "2026-09-15T18:57:00+09:00",
-      "latest_published_at": "2026-09-15T20:15:00+09:00",
+      "first_published_at": "2026-09-15T13:27:42+09:00",
+      "latest_published_at": "2026-09-15T21:50:00+09:00",
       "articles": [
         {
-          "title": "Iran war could cost $2 billion per month, Congressional Budget Office estimates",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/iran-war-cost-2-billion-per-month-congressional-budget-office/",
-          "published_at": "20:15"
-        },
-        {
-          "title": "Iran war has cost the US more than $38B, budget office says",
+          "title": "Inquiry blasts hospital for failure to protect babies after nurse Lucy Letby convicted of 7 murders",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlVudVlJaVNXS1VsYmhrcERoX0RMS3hueWJDektSZXlfVW5YRUdUSm5HUS1WVElHUEc1SjgyOUhyQm5MSVpxOXFOVnFhUEVnZkdkenE0bDAtV29OS1lFNG5iZl9wTENjQUZkOURzeHV3LXRRejYySEZVM1pxcVI0WkcwTDIwTThK?oc=5",
-          "published_at": "18:57"
-        }
-      ]
-    },
-    {
-      "id": "world-131",
-      "title": "US admits weapons are in orbit — Why China is warning of a new space arms race",
-      "title_en": "US admits weapons are in orbit — Why China is warning of a new space arms race",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-admits-weapons-are-in-orbit-why-china-is-warning-of-a-new-space-arms-race-101789466859897.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "The BBC's defence correspondent Jonathan Beale explains what an arms race in space might look like - and what it could mean for us on the ground.",
-      "excerpt_en": "The BBC's defence correspondent Jonathan Beale explains what an arms race in space might look like - and what it could mean for us on the ground.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/videos/cmn07yjqg5rwo?at_medium=RSS&at_campaign=rss",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-15T10:34:59+09:00",
-      "latest_published_at": "2026-09-15T17:35:02+09:00",
-      "articles": [
-        {
-          "title": "Warning of space arms race as US confirms weapons in Earth's orbit",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/cmn07yjqg5rwo?at_medium=RSS&at_campaign=rss",
-          "published_at": "17:35"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNTlsSjF5UHIxbEtVbnVIMEt0b1VUajloWmxBSDlKMThiVUQtOUhVUW1SelRyajF1dEJORUZ3U0h6VlVtV0tkYzhVTllfaHI1QnozVGw1Y1d6c0FBTHpFWXkwSTBTM3huZndiVENXb0NmQWpGZ0FDX3UyV3UwRUZYNFZpdkJpRUhYOWY3bmlzR01PSDdiVE5MMVM5eFRkQV9oc2NOUDdmay1uUEE?oc=5",
+          "published_at": "21:50"
         },
         {
-          "title": "US admits weapons are in orbit — Why China is warning of a new space arms race",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-admits-weapons-are-in-orbit-why-china-is-warning-of-a-new-space-arms-race-101789466859897.html",
-          "published_at": "10:34"
+          "title": "Hospital could have prevented some of nurse's baby killings, judge says",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/lucy-letby-baby-murders-uk-judge-thirwall-inquiry/",
+          "published_at": "13:27"
         }
       ]
     },
     {
-      "id": "world-198",
-      "title": "OpenAI, Anthropic and Google in talks to create a standards body as AI fears rise",
-      "title_en": "OpenAI, Anthropic and Google in talks to create a standards body as AI fears rise",
+      "id": "world-117",
+      "title": "US House votes for third time to end Iran war after $38bn cost is revealed",
+      "title_en": "US House votes for third time to end Iran war after $38bn cost is revealed",
       "title_source": "earliest_pick",
-      "title_url": "http://www.france24.com/en/technology/20260915-openai-anthropic-and-google-in-talks-to-create-a-standards-body-as-ai-fears-rise",
-      "category": "미국",
-      "primary_source": "France24",
-      "excerpt": "The world’s biggest AI companies are working to create a new industry standards body, OpenAI said on Tuesday, as rising concerns over the risks of artificial intelligence fuel pressure for greater ove",
-      "excerpt_en": "The world’s biggest AI companies are working to create a new industry standards body, OpenAI said on Tuesday, as rising concerns over the risks of artificial intelligence fuel pressure for greater ove",
-      "excerpt_source": "France24",
-      "excerpt_url": "http://www.france24.com/en/technology/20260915-openai-anthropic-and-google-in-talks-to-create-a-standards-body-as-ai-fears-rise",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "France24"
-      ],
-      "first_published_at": "2026-09-15T17:03:25+09:00",
-      "latest_published_at": "2026-09-16T02:12:00+09:00",
-      "articles": [
-        {
-          "title": "AI giants pursue self-regulation as safety fears mount",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3320513/ai-giants-pursue-selfregulation-as-safety-fears-mount",
-          "published_at": "02:12"
-        },
-        {
-          "title": "OpenAI, Anthropic and Google in talks to create a standards body as AI fears rise",
-          "source_name": "France24",
-          "url": "http://www.france24.com/en/technology/20260915-openai-anthropic-and-google-in-talks-to-create-a-standards-body-as-ai-fears-rise",
-          "published_at": "17:03"
-        }
-      ]
-    },
-    {
-      "id": "world-70",
-      "title": "Amazon's AWS is unable to restore access to Bahrain, one UAE cloud data zone after war damage",
-      "title_en": "Amazon's AWS is unable to restore access to Bahrain, one UAE cloud data zone after war damage",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcGhFMHZVNGthdVl1bjYza3ZOWVpRY3ZMS1JmZkgxVnJTWGRhZFdFS3JfYk1nX2Y1Nzl3RlZDN21lWFA3b0xUU1E3UkdZR0hPQXNXdG5seEhsQ0hUR1gxVnZCWHFpTXdQdGhGQkFKTFd0cW80QUNBdnpXYzdOX25zZEJpN2lkOW1IWVlnc0RZNDk0cGgzSTlNYXFaMS1EcUJTM0ZUUjlhS0FLV0NrbGtsM3BKOVlFOWdFUi1sbGQtWmRqX3ZsODdPczRYRUw?oc=5",
+      "title_url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "AWS said damage during the Iran war affected its Bahrain facility and one UAE data zone, forcing customers to shift workloads to other regions.",
-      "excerpt_en": "AWS said damage during the Iran war affected its Bahrain facility and one UAE data zone, forcing customers to shift workloads to other regions.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/amazon-aws-bahrain-uae-cloud-data-centre-damage-iran-war-availability-zones-service-disruption-101789471218165.html",
+      "primary_source": "The Guardian",
+      "excerpt": "Damaging budget report estimates cost will grow by $3bn per month and stockpiles of weapons could take five years to rebuild The US House of Representatives has voted for a third time to end the war i",
+      "excerpt_en": "Damaging budget report estimates cost will grow by $3bn per month and stockpiles of weapons could take five years to rebuild The US House of Representatives has voted for a third time to end the war i",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
       "translation_status": "failed",
-      "score": 52,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-15T11:58:52+09:00",
-      "latest_published_at": "2026-09-15T12:05:33+09:00",
-      "articles": [
-        {
-          "title": "Amazon's AWS unable to restore Bahrain cloud facility, one UAE data zone after Iran war damage",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/amazon-aws-bahrain-uae-cloud-data-centre-damage-iran-war-availability-zones-service-disruption-101789471218165.html",
-          "published_at": "12:05"
-        },
-        {
-          "title": "Amazon's AWS is unable to restore access to Bahrain, one UAE cloud data zone after war damage",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcGhFMHZVNGthdVl1bjYza3ZOWVpRY3ZMS1JmZkgxVnJTWGRhZFdFS3JfYk1nX2Y1Nzl3RlZDN21lWFA3b0xUU1E3UkdZR0hPQXNXdG5seEhsQ0hUR1gxVnZCWHFpTXdQdGhGQkFKTFd0cW80QUNBdnpXYzdOX25zZEJpN2lkOW1IWVlnc0RZNDk0cGgzSTlNYXFaMS1EcUJTM0ZUUjlhS0FLV0NrbGtsM3BKOVlFOWdFUi1sbGQtWmRqX3ZsODdPczRYRUw?oc=5",
-          "published_at": "11:58"
-        }
-      ]
-    },
-    {
-      "id": "world-96",
-      "title": "Suspected sabotage to trains during Dutch rush hour",
-      "title_en": "Suspected sabotage to trains during Dutch rush hour",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/suspected-sabotage-to-trains-during-dutch-rush-hour-after-pipes-left-on-track-13586084",
-      "category": "기타",
-      "primary_source": "Sky News",
-      "excerpt": "Thousands of rail passengers have faced delays and cancellations after suspected saboteurs disrupted train services in the Netherlands during Tuesday morning's rush hour.",
-      "excerpt_en": "Thousands of rail passengers have faced delays and cancellations after suspected saboteurs disrupted train services in the Netherlands during Tuesday morning's rush hour.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/suspected-sabotage-to-trains-during-dutch-rush-hour-after-pipes-left-on-track-13586084",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -2358,45 +2319,92 @@
       "source_count": 2,
       "sources": [
         "AP News",
-        "Sky News"
+        "The Guardian"
       ],
-      "first_published_at": "2026-09-15T09:14:00+09:00",
-      "latest_published_at": "2026-09-15T13:37:00+09:00",
+      "first_published_at": "2026-09-15T21:47:39+09:00",
+      "latest_published_at": "2026-09-16T03:18:00+09:00",
       "articles": [
         {
-          "title": "Suspected sabotage triggers a major Dutch rail outage during rush hour",
+          "title": "House votes for a third time to end the Iran war as conflict drags on",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1lmY1J6LUwzRVdITkttdl9JYW8yLTZIZExhZUEySG1sNkJpRmEzMmFmUU9qbjU3MGI5UTFtTFRzem16LU1UcXpZa1JRZFNZTzhqMzZRQXRhY3RHdTF0RmJyNGlOZ1otRllWbVpOMWs1Nl9qeXZnM0g1b2RuRm9oZFg1eTRLa3B1RzdEczM0M1pMd21TUlFvSTBCVUtVTE5vb3BN?oc=5",
-          "published_at": "13:37"
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNnlkd1Y1cDB2MGdmcngydWZDR1JnXzY4aTliNFJCdzU5dHFWSzJSVzdtemF6STMwZGJSczRnUHBFOW5BU21jQk5GdzctbExET044UXg4dkZEcDQ3TkpZVTUyc2o1R0ZJY050MC1Ec0VrVE9QSWpKOVdjNWRtR2dqWmZKQ3lKX2NEd0dKb1o2RQ?oc=5",
+          "published_at": "03:18"
         },
         {
-          "title": "Suspected sabotage to trains during Dutch rush hour",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/suspected-sabotage-to-trains-during-dutch-rush-hour-after-pipes-left-on-track-13586084",
-          "published_at": "09:14"
+          "title": "US House votes for third time to end Iran war after $38bn cost is revealed",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report",
+          "published_at": "21:47"
         }
       ]
     },
     {
-      "id": "world-276",
-      "title": "South Africa on alert after seventh woman’s body found near capital",
-      "title_en": "South Africa on alert after seventh woman’s body found near capital",
+      "id": "world-277",
+      "title": "Trump threatens to keep Kennedy Centre closed for good after name ruling",
+      "title_en": "Trump threatens to keep Kennedy Centre closed for good after name ruling",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/africa/article/3367629/south-africa-alert-after-7th-womans-body-found-near-capital?utm_source=rss_feed",
-      "category": "기타",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3367643/kennedy-centre-board-votes-close-renovations-judge-blocks-trumps-name-again?utm_source=rss_feed",
+      "category": "미국",
       "primary_source": "SCMP",
-      "excerpt": "A woman’s body was found on Tuesday in the same area east of Johannesburg in South Africa where the discovery of several other victims in the past two months has sparked fear of a potential serial kil",
-      "excerpt_en": "A woman’s body was found on Tuesday in the same area east of Johannesburg in South Africa where the discovery of several other victims in the past two months has sparked fear of a potential serial kil",
+      "excerpt": "US President Donald Trump threatened Tuesday to keep the Kennedy Centre closed for good after a judge ruled his name cannot be added onto the famed arts institution’s facade. Trump said his hand-picke",
+      "excerpt_en": "US President Donald Trump threatened Tuesday to keep the Kennedy Centre closed for good after a judge ruled his name cannot be added onto the famed arts institution’s facade. Trump said his hand-picke",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3367629/south-africa-alert-after-7th-womans-body-found-near-capital?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367643/kennedy-centre-board-votes-close-renovations-judge-blocks-trumps-name-again?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 52,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-15T19:46:46+09:00",
+      "latest_published_at": "2026-09-16T04:14:04+09:00",
+      "articles": [
+        {
+          "title": "Trump threatens to keep Kennedy Centre closed over name change row",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/16/kennedy-center-to-close-for-renovations-after-judge-blocks-returning-trumps-name-to-landma",
+          "published_at": "04:14"
+        },
+        {
+          "title": "Trump threatens to keep Kennedy Centre closed for good after name ruling",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367643/kennedy-centre-board-votes-close-renovations-judge-blocks-trumps-name-again?utm_source=rss_feed",
+          "published_at": "19:46"
+        }
+      ]
+    },
+    {
+      "id": "world-247",
+      "title": "Mapped: Sweden’s right and left blocs neck-and-neck in critical general election",
+      "title_en": "Mapped: Sweden’s right and left blocs neck-and-neck in critical general election",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/sweden-general-election-2026-mapped-b3049774.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "Sweden found itself in political uncertainty this week, as its parliamentary election on Sunday turned out to be extremely tight. With 95 per cent of the votes counted, the opposition left-wing bloc h",
+      "excerpt_en": "Sweden found itself in political uncertainty this week, as its parliamentary election on Sunday turned out to be extremely tight. With 95 per cent of the votes counted, the opposition left-wing bloc h",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/economy/global-economy/article/3367705/swedens-long-election-night-ends-without-answers-caution-china-seems-certain?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
         "raw75": 39
       },
       "area_value": 2,
@@ -2404,28 +2412,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "SCMP"
+        "SCMP",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-15T13:12:42+09:00",
-      "latest_published_at": "2026-09-15T13:29:03+09:00",
+      "first_published_at": "2026-09-15T17:45:52+09:00",
+      "latest_published_at": "2026-09-16T09:00:06+09:00",
       "articles": [
         {
-          "title": "South African police issue alert after seventh woman's body found near Johannesburg",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/south-african-police-issue-alert-after-seventh-womans-136459444",
-          "published_at": "13:29"
+          "title": "Sweden’s long election night ends without answers – but caution on China seems certain",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/economy/global-economy/article/3367705/swedens-long-election-night-ends-without-answers-caution-china-seems-certain?utm_source=rss_feed",
+          "published_at": "09:00"
         },
         {
-          "title": "South Africa on alert after seventh woman’s body found near capital",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3367629/south-africa-alert-after-7th-womans-body-found-near-capital?utm_source=rss_feed",
-          "published_at": "13:12"
+          "title": "Mapped: Sweden’s right and left blocs neck-and-neck in critical general election",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/sweden-general-election-2026-mapped-b3049774.html",
+          "published_at": "17:45"
         }
       ]
     },
     {
-      "id": "world-327",
+      "id": "world-333",
       "title": "2 U.S. government workers accidentally shot by soldiers in Africa",
       "title_en": "2 U.S. government workers accidentally shot by soldiers in Africa",
       "title_source": "earliest_pick",
@@ -2472,96 +2480,49 @@
       ]
     },
     {
-      "id": "world-151",
-      "title": "Romanian farmers clash with police in Bucharest over EU livestock ban",
-      "title_en": "Romanian farmers clash with police in Bucharest over EU livestock ban",
+      "id": "world-433",
+      "title": "Philippines’ ex-leader Duterte makes first appearance at ICC",
+      "title_en": "Philippines’ ex-leader Duterte makes first appearance at ICC",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/video/2026/09/15/romanian-farmers-clash-with-police-in-bucharest-over-eu-livestock-ban",
-      "category": "기타",
-      "primary_source": "Euronews",
-      "excerpt": "Romanian farmers clashed with security forces in Bucharest on Tuesday, 15 September, as an agricultural protest outside the government headquarters descended into disorder.",
-      "excerpt_en": "Romanian farmers clashed with security forces in Bucharest on Tuesday, 15 September, as an agricultural protest outside the government headquarters descended into disorder.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/video/2026/09/15/romanian-farmers-clash-with-police-in-bucharest-over-eu-livestock-ban",
+      "title_url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
+      "category": "아시아",
+      "primary_source": "Bangkok Post",
+      "excerpt": "MANILA — Former Philippines president Rodrigo Duterte appeared in person at the International Criminal Court (ICC) for the first time Wednesday, as he faces charges over his \"war on drugs\" that killed",
+      "excerpt_en": "MANILA — Former Philippines president Rodrigo Duterte appeared in person at the International Criminal Court (ICC) for the first time Wednesday, as he faces charges over his \"war on drugs\" that killed",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
       "translation_status": "failed",
-      "score": 51,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
+        "time_score": 3,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Euronews"
+        "Bangkok Post",
+        "Channel News Asia"
       ],
-      "first_published_at": "2026-09-15T13:51:32+09:00",
-      "latest_published_at": "2026-09-15T20:40:05+09:00",
+      "first_published_at": "2026-09-16T09:08:00+09:00",
+      "latest_published_at": "2026-09-16T09:14:00+09:00",
       "articles": [
         {
-          "title": "Romanian farmers clash with police over livestock export ban",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/15/romanian-shepards-and-farmers-clash-with-police?traffic_source=rss",
-          "published_at": "20:40"
+          "title": "Philippines ex-leader Duterte makes first appearance at ICC",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/duterte-philippines-icc-first-appearance-6388696",
+          "published_at": "09:14"
         },
         {
-          "title": "Romanian farmers clash with police in Bucharest over EU livestock ban",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/09/15/romanian-farmers-clash-with-police-in-bucharest-over-eu-livestock-ban",
-          "published_at": "13:51"
-        }
-      ]
-    },
-    {
-      "id": "world-264",
-      "title": "DA announces death penalty decision in Nick Reiner murder trial",
-      "title_en": "DA announces death penalty decision in Nick Reiner murder trial",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nick-reiner-death-penalty-update-murder-trial-b3050665.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "The son of Hollywood icon Rob Reiner will not face the death penalty when he stands trial over the killings of his parents, Los Angeles County’s top prosecutor said on Tuesday. Nick Reiner, who turned",
-      "excerpt_en": "The son of Hollywood icon Rob Reiner will not face the death penalty when he stands trial over the killings of his parents, Los Angeles County’s top prosecutor said on Tuesday. Nick Reiner, who turned",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3367646/rob-reiners-son-nick-wont-face-death-penalty-trial-parents-killing?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-15T16:12:29+09:00",
-      "latest_published_at": "2026-09-15T22:57:42+09:00",
-      "articles": [
-        {
-          "title": "Rob Reiner’s son Nick won’t face death penalty in trial for parents’ killing",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367646/rob-reiners-son-nick-wont-face-death-penalty-trial-parents-killing?utm_source=rss_feed",
-          "published_at": "22:57"
-        },
-        {
-          "title": "DA announces death penalty decision in Nick Reiner murder trial",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/nick-reiner-death-penalty-update-murder-trial-b3050665.html",
-          "published_at": "16:12"
+          "title": "Philippines’ ex-leader Duterte makes first appearance at ICC",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3320650/philippines-exleader-duterte-makes-first-appearance-at-icc",
+          "published_at": "09:08"
         }
       ]
     }
