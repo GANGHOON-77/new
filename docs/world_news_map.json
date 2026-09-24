@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,27 +8,27 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-25T03:38:01.359339+09:00",
+  "updated_at": "2026-09-25T06:50:16.021453+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 612,
-  "cluster_count_total": 483,
+  "article_count_total": 646,
+  "cluster_count_total": 504,
   "clusters": [
     {
-      "id": "world-109",
-      "title": "White House reporters from outlets banned by Trump regain access after hours-long delay",
-      "title_en": "White House reporters from outlets banned by Trump regain access after hours-long delay",
+      "id": "world-1",
+      "title": "At UN, Netanyahu defends Israel as delegates walk out",
+      "title_en": "At UN, Netanyahu defends Israel as delegates walk out",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/judge-blocks-trumps-white-house-media-ban-9.7356339?cmp=rss",
-      "category": "아시아",
-      "primary_source": "CBC",
-      "excerpt": "The outlets had requested an emergency hearing after the White House initially seemed to flout a judge’s order US politics live – latest updates Journalists for CNN, MS Now and Politico were finally g",
-      "excerpt_en": "The outlets had requested an emergency hearing after the White House initially seemed to flout a judge’s order US politics live – latest updates Journalists for CNN, MS Now and Politico were finally g",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR21xaG03TDh6WUlBZVQ0RkhicmlGOFZkbTluZWh2b3E1UFJ5d2RiaFBRY0xtWkl2NjE0SHBqUWhYbElRZmFRMWU5UVExZHlCMHZZRGJKSDZsa3k5eUdJWTJvV3NMakNhdEdyaE9sQ1JLMlEta0pEMzVNbWJ6VkxqZ3lOWjliekcwa280eXl1aHFMekNVSklsTGdjNEc0dEVIcHl4TGFVakNaS1h1STRwZFFjd2NadGhQNmZ4Nl9uN0VnZw?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Speaking to scores of empty chairs after a mass walkout, Benjamin Netanyahu uses his UN speech to lavish praise on Donald Trump, savage Zohran Mamdani and predict Iran's population will topple its rul",
+      "excerpt_en": "Speaking to scores of empty chairs after a mass walkout, Benjamin Netanyahu uses his UN speech to lavish praise on Donald Trump, savage Zohran Mamdani and predict Iran's population will topple its rul",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-25/israel-pm-netanyahu-addresses-united-nations-general-assembly/107190144",
       "translation_status": "failed",
       "score": 93,
       "score_breakdown": {
@@ -44,39 +44,110 @@
       "syndicated_count": 0,
       "source_count": 6,
       "sources": [
+        "ABC News Australia",
+        "Al Jazeera",
         "BBC",
+        "Hindustan Times",
+        "Reuters",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-24T05:04:00+09:00",
+      "latest_published_at": "2026-09-24T21:34:07+09:00",
+      "articles": [
+        {
+          "title": "Delegates walk out as Netanyahu enters UN General Assembly",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/delegates-walk-out-as-netanyahu-enters-un-general-assembly-20260925-p610ei.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "21:34"
+        },
+        {
+          "title": "UN delegates walk out as Netanyahu attacks Israel's critics",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-25/israel-pm-netanyahu-addresses-united-nations-general-assembly/107190144",
+          "published_at": "21:26"
+        },
+        {
+          "title": "Dozens of delegates walk out of UN hall at start of Netanyahu speech",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPekk0eU1sNTF4VFZQZ0diQ1d2R05UZVN3a011d1JBeDJRemY1SGU2eHQwemxHcnNQa0JkLXpReklrN0FZR19pcW80NkFCMU1JTmptX3Y0UUVzWWI4YTlhMklyQ2dzbFZEaDRodUk2NTNPYVB6ZF84TkxJa3VMcUduOEtMdkdaa3ZUTS02QVFlWmhwYi1ubEtDbFRHa19Xc0hHREp2SHU5dTVyaHFxeTgw?oc=5",
+          "published_at": "19:23"
+        },
+        {
+          "title": "Delegates walk out of Netanyahu’s UN speech",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss",
+          "published_at": "19:18"
+        },
+        {
+          "title": "Delegates walk out as Netanyahu addresses UN, and other Mideast developments",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/delegates-walk-out-as-netanyahu-addresses-un-and-other-mideast-developments-101790274655708.html",
+          "published_at": "18:30"
+        },
+        {
+          "title": "Watch: UN delegates walk out of Netanyahu speech",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "18:29"
+        },
+        {
+          "title": "At UN, Netanyahu defends Israel as delegates walk out",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR21xaG03TDh6WUlBZVQ0RkhicmlGOFZkbTluZWh2b3E1UFJ5d2RiaFBRY0xtWkl2NjE0SHBqUWhYbElRZmFRMWU5UVExZHlCMHZZRGJKSDZsa3k5eUdJWTJvV3NMakNhdEdyaE9sQ1JLMlEta0pEMzVNbWJ6VkxqZ3lOWjliekcwa280eXl1aHFMekNVSklsTGdjNEc0dEVIcHl4TGFVakNaS1h1STRwZFFjd2NadGhQNmZ4Nl9uN0VnZw?oc=5",
+          "published_at": "05:04"
+        }
+      ]
+    },
+    {
+      "id": "world-19",
+      "title": "US judge blocks Trump's media ban, asks him to restore White House access for CNN, MS NOW, Politico journalists",
+      "title_en": "US judge blocks Trump's media ban, asks him to restore White House access for CNN, MS NOW, Politico journalists",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-judge-blocks-donald-trump-media-ban-restore-white-house-access-for-cnn-ms-now-politico-journalists-101790226906714.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A federal judge had ruled Trump administration must immediately return the outlets’ press passes and said ban likely unconstitutional Sign up for US Breaking News emails Lawyers for the news outlets P",
+      "excerpt_en": "A federal judge had ruled Trump administration must immediately return the outlets’ press passes and said ban likely unconstitutional Sign up for US Breaking News emails Lawyers for the news outlets P",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/live/2026/sep/24/white-house-press-xi-jinping-netanyahu-trump-latest-news-updates",
+      "translation_status": "failed",
+      "score": 93,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 70
+      },
+      "area_value": 9,
+      "article_count": 9,
+      "syndicated_count": 0,
+      "source_count": 8,
+      "sources": [
         "CBC",
         "Channel News Asia",
+        "DW",
+        "Hindustan Times",
         "NBC News",
+        "Reuters",
         "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-24T08:48:27+09:00",
-      "latest_published_at": "2026-09-24T18:13:34+09:00",
+      "first_published_at": "2026-09-24T05:17:21+09:00",
+      "latest_published_at": "2026-09-24T21:32:57+09:00",
       "articles": [
         {
           "title": "Journalists from CNN, Politico, and MS Now belatedly regain access to White House after judge ruling – live",
           "source_name": "The Guardian",
           "url": "https://www.theguardian.com/us-news/live/2026/sep/24/white-house-press-xi-jinping-netanyahu-trump-latest-news-updates",
-          "published_at": "18:13"
-        },
-        {
-          "title": "Journalists for CNN, MS Now and Politico allowed back into the White House after judge’s ruling",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
-          "published_at": "17:51"
-        },
-        {
-          "title": "White House restores access to media outlets banned by Trump after judge's order",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
-          "published_at": "17:49"
+          "published_at": "21:32"
         },
         {
           "title": "Trump team reluctantly lets CNN and MS NOW back in White House after denying them entry against judge’s order",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-access-white-house-ban-b3055751.html",
-          "published_at": "17:25"
+          "published_at": "18:38"
         },
         {
           "title": "CNN, MS NOW, Politico allowed back in White House after judge's order",
@@ -85,21 +156,180 @@
           "published_at": "16:43"
         },
         {
+          "title": "CNN, MS NOW, Politico regain access to White House",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/cnn-ms-now-politico-regain-access-to-white-house/a-79405693?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "16:41"
+        },
+        {
+          "title": "MS NOW and CNN says they have been granted access to White House",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalFGTFRpbncxTmxyaFA0M1FwbF9CNHJEbTNLNzlfOFVYN1h2MXB3ZnA2ZEpCSGFtS3RVVlduWGl4dk9kVTI4RFJLRFFaeC15TXcyc3dXQ0xQUmRDOE5peUtwS3hpYWtzV2Nwcl85T2ZHS1lYREs5ekh4UlFhcHNwVmdIcnVOVXNHRHB3MDZPR2gyU0ZGdEI4QkhHQUx0dTB1blFfOUN5ZUh5SXBSTi0zaWdJRmRwbVU?oc=5",
+          "published_at": "16:14"
+        },
+        {
           "title": "White House still turning away some media outlets despite order",
           "source_name": "NBC News",
           "url": "https://www.nbcnews.com/video/white-house-still-turning-away-some-media-outlets-despite-order-270444613581",
           "published_at": "14:36"
         },
         {
+          "title": "CNN, MS NOW, Politico seek immediate court hearing as White House access remains blocked",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/cnn-ms-now-politico-seek-immediate-hearing-as-white-house-access-remains-blocked-donald-trump-us-101790259082151.html",
+          "published_at": "14:17"
+        },
+        {
           "title": "White House reporters from outlets banned by Trump regain access after hours-long delay",
           "source_name": "CBC",
           "url": "https://www.cbc.ca/news/world/judge-blocks-trumps-white-house-media-ban-9.7356339?cmp=rss",
           "published_at": "08:48"
+        },
+        {
+          "title": "US judge blocks Trump's media ban, asks him to restore White House access for CNN, MS NOW, Politico journalists",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-judge-blocks-donald-trump-media-ban-restore-white-house-access-for-cnn-ms-now-politico-journalists-101790226906714.html",
+          "published_at": "05:17"
         }
       ]
     },
     {
-      "id": "world-313",
+      "id": "world-179",
+      "title": "Netanyahu defends Iran war, calls Gaza genocide accusations a lie in defiant U.N. address",
+      "title_en": "Netanyahu defends Iran war, calls Gaza genocide accusations a lie in defiant U.N. address",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nbcnews.com/world/israel/israel-netanyahu-united-nations-general-assembly-gaza-iran-war-rcna599576",
+      "category": "중동",
+      "primary_source": "NBC News",
+      "excerpt": "Allegations of Israeli genocide in Gaza are not only false but “the biggest lie of the century”, Prime Minister Benjamin Netanyahu told world leaders on Thursday in a defiant speech that asserted his ",
+      "excerpt_en": "Allegations of Israeli genocide in Gaza are not only false but “the biggest lie of the century”, Prime Minister Benjamin Netanyahu told world leaders on Thursday in a defiant speech that asserted his ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3368717/abbas-accuses-israel-waging-genocidal-war-gaza-pre-recorded-un-speech?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 93,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 70
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBC",
+        "France24",
+        "Hindustan Times",
+        "NBC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-24T12:03:32+09:00",
+      "latest_published_at": "2026-09-24T19:31:41+09:00",
+      "articles": [
+        {
+          "title": "Israeli PM Netanyahu calls Gaza genocide allegations ‘biggest lie of the century’",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260924-israel-must-win-because-we-ve-got-no-other-choice-pm-netanyahu-tells-un",
+          "published_at": "19:31"
+        },
+        {
+          "title": "‘Biggest lie of the century’: Benjamin Netanyahu rejects Gaza genocide allegations in UNGA speech",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/biggest-lie-of-the-century-benjamin-netanyahu-rejects-gaza-genocide-allegations-in-unga-speech-101790277097379.html",
+          "published_at": "19:27"
+        },
+        {
+          "title": "Israel's Netanyahu, at UN, calls accusations of genocide in Gaza as 'the biggest lie of the century'",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/israels-netanyahu-at-un-calls-accusations-of-genocide-in-gaza-as-the-biggest-lie-of-the-century-101790275540072.html",
+          "published_at": "18:45"
+        },
+        {
+          "title": "Netanyahu, at UN, calls accusations of genocide in Gaza ‘the biggest lie of the century’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368717/abbas-accuses-israel-waging-genocidal-war-gaza-pre-recorded-un-speech?utm_source=rss_feed",
+          "published_at": "17:40"
+        },
+        {
+          "title": "Netanyahu rejects genocide allegations in Gaza after mass walkout at his UN speech",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/mahmoud-abbas-united-nations-general-assembly-9.7356711?cmp=rss",
+          "published_at": "15:18"
+        },
+        {
+          "title": "Netanyahu defends Iran war, calls Gaza genocide accusations a lie in defiant U.N. address",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/israel/israel-netanyahu-united-nations-general-assembly-gaza-iran-war-rcna599576",
+          "published_at": "12:03"
+        }
+      ]
+    },
+    {
+      "id": "world-286",
+      "title": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
+      "title_en": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3368667/8-killed-russian-strikes-ukraine-maternity-clinic-damaged?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Russian drone and missile strikes on Ukraine’s capital Kyiv and its northeast killed eight people on Thursday in attacks that included a maternity hospital and a farm, officials said. Moscow has stepp",
+      "excerpt_en": "Russian drone and missile strikes on Ukraine’s capital Kyiv and its northeast killed eight people on Thursday in attacks that included a maternity hospital and a farm, officials said. Moscow has stepp",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3368667/8-killed-russian-strikes-ukraine-maternity-clinic-damaged?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "Hindustan Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-24T10:08:42+09:00",
+      "latest_published_at": "2026-09-24T19:19:36+09:00",
+      "articles": [
+        {
+          "title": "Russian strikes kill eight in Ukraine, damage maternity clinic",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/russian-strikes-kill-eight-in-ukraine-damage-maternity-clinic-101790277577512.html",
+          "published_at": "19:19"
+        },
+        {
+          "title": "Russian strikes kill 8 in Ukraine as the UN debates how to end the war",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russian-strikes-kill-8-ukraine-debates-end-war-136711744",
+          "published_at": "13:30"
+        },
+        {
+          "title": "Eight killed in wave of Russian strikes on Ukraine",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3325418/eight-killed-in-wave-of-russian-strikes-on-ukraine",
+          "published_at": "10:45"
+        },
+        {
+          "title": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3368667/8-killed-russian-strikes-ukraine-maternity-clinic-damaged?utm_source=rss_feed",
+          "published_at": "10:08"
+        }
+      ]
+    },
+    {
+      "id": "world-334",
       "title": "Fire in San Jose? Santa Clara residents complain of smoke too as Angel Island vegetation burn impacts Bay Area",
       "title_en": "Fire in San Jose? Santa Clara residents complain of smoke too as Angel Island vegetation burn impacts Bay Area",
       "title_source": "earliest_pick",
@@ -120,8 +350,8 @@
         "time_score": 3,
         "raw75": 67
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
@@ -131,8 +361,14 @@
         "Times of India"
       ],
       "first_published_at": "2026-09-24T01:24:26+09:00",
-      "latest_published_at": "2026-09-24T15:54:58+09:00",
+      "latest_published_at": "2026-09-24T19:20:00+09:00",
       "articles": [
+        {
+          "title": "After 59 years, Ripley’s San Francisco museum and mirror maze are closing by year-end",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/after-59-years-at-san-franciscos-fishermans-wharf-ripleys-believe-it-or-not-is-closing-its-400-artifact-museum-and-2000-sq-ft-mirror-maze-by-year-end-and-plans-to-sell-several-unusual-city-linked-exhibits/articleshow/134454758.cms",
+          "published_at": "19:20"
+        },
         {
           "title": "San Francisco woman who narrowly survived dog attack relives the horror: ‘kept hearing the crunching sound’",
           "source_name": "The Independent",
@@ -160,15 +396,82 @@
       ]
     },
     {
-      "id": "world-221",
+      "id": "world-2",
+      "title": "Senate rejects resolution calling to end the Iran war, as most Republicans stick with Trump",
+      "title_en": "Senate rejects resolution calling to end the Iran war, as most Republicans stick with Trump",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nbcnews.com/politics/congress/senate-rejects-resolution-calling-end-iran-war-republicans-stick-trump-rcna599624",
+      "category": "중동",
+      "primary_source": "NBC News",
+      "excerpt": "GOP stymies House-passed war powers resolution as conflict passes 200-day mark with 19 US service members killed Senate Republicans on Thursday blocked a Democratic effort to end the US war with Iran,",
+      "excerpt_en": "GOP stymies House-passed war powers resolution as conflict passes 200-day mark with 19 US service members killed Senate Republicans on Thursday blocked a Democratic effort to end the US war with Iran,",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/24/senate-war-powers-vote-fail",
+      "translation_status": "failed",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "NBC News",
+        "Reuters",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T18:40:16+09:00",
+      "latest_published_at": "2026-09-24T20:34:36+09:00",
+      "articles": [
+        {
+          "title": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMU45a3FvODBzSXpndWg1QUVuQzlqUmVJWjZEWUFXNWltVUx0Sm4zbDE1X3lFSnFYd2hQeGotT1YtejB1NU9lZDJKcnJjeEZqNkJtZkQ0anhFUG92V3pWLXlyQzhIalFwTzRuVnVvd3BGQ2tfYTJ3RUxMRlhlWTdTUFE3MnAzMUxmallxcE9SZU5ldmxJeE1fYnhyT0c5eG9lVXVydVg2TFhnbnFJYUFsOE56U194eTltTnc2bGFR?oc=5",
+          "published_at": "20:34"
+        },
+        {
+          "title": "Senate Republicans block Democratic effort to end US war with Iran",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/senate-war-powers-vote-fail",
+          "published_at": "20:11"
+        },
+        {
+          "title": "Senate narrowly rejects bill to curb Trump’s Iran war powers",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/senate-rejects-limiting-trump-iran-war-power-b3056000.html",
+          "published_at": "19:07"
+        },
+        {
+          "title": "US Senate rejects resolution curbing Trump's Iran war powers",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNODVQSjliMlBWTFZPaHV3aXY5Y3hMVGl0dWc0bTRDdGxOU1NhOXZJVmx1eWh2Q3VmX0h3UWZnOVZlODRXcEU1LVNtWHpVSDNVOGpmU3BWVVNzUzd1T1d5UlRLcktuVENkeGpMem1FcmJkUWVoR1dpMFY0QnZ1ZDZZV0pHczRpOWI4ZnZtRS1CdGUzQlZMUlRzazU5dk9yZUl6NjdlMlNFSQ?oc=5",
+          "published_at": "18:51"
+        },
+        {
+          "title": "Senate rejects resolution calling to end the Iran war, as most Republicans stick with Trump",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/politics/congress/senate-rejects-resolution-calling-end-iran-war-republicans-stick-trump-rcna599624",
+          "published_at": "18:40"
+        }
+      ]
+    },
+    {
+      "id": "world-220",
       "title": "Far-right UK activist arrested after migrant dinghy slashed in the English Channel",
       "title_en": "Far-right UK activist arrested after migrant dinghy slashed in the English Channel",
       "title_source": "earliest_pick",
       "title_url": "https://abcnews.com/International/wireStory/uk-activist-arrested-after-migrant-dinghy-slashed-english-136710974",
       "category": "유럽",
       "primary_source": "ABC News",
-      "excerpt": "Thirty-seven-year-old in custody on suspicion of crimes including criminal damage with intent to endanger life The far-right agitator and anti-migrant activist Daniel Thomas has been arrested on suspi",
-      "excerpt_en": "Thirty-seven-year-old in custody on suspicion of crimes including criminal damage with intent to endanger life The far-right agitator and anti-migrant activist Daniel Thomas has been arrested on suspi",
+      "excerpt": "Thirty-seven-year-old charged with one count of criminal damage and failing to disclose his phone pin to police The far-right agitator and anti-migrant activist Daniel Thomas has been charged with cri",
+      "excerpt_en": "Thirty-seven-year-old charged with one count of criminal damage and failing to disclose his phone pin to police The far-right agitator and anti-migrant activist Daniel Thomas has been charged with cri",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/uk-news/2026/sep/24/police-arrest-far-right-activist-daniel-thomas-after-dinghy-slashed-channel",
       "translation_status": "failed",
@@ -187,37 +490,37 @@
       "source_count": 5,
       "sources": [
         "ABC News",
-        "ABC News Australia",
+        "Hindustan Times",
         "New York Times",
         "SCMP",
         "The Guardian"
       ],
       "first_published_at": "2026-09-24T10:24:56+09:00",
-      "latest_published_at": "2026-09-24T18:06:01+09:00",
+      "latest_published_at": "2026-09-24T21:20:36+09:00",
       "articles": [
         {
-          "title": "Police arrest far-right activist Daniel Thomas after ‘dinghy slashed in Channel’",
+          "title": "Far-right activist Daniel Thomas charged over alleged dinghy slashing in Channel",
           "source_name": "The Guardian",
           "url": "https://www.theguardian.com/uk-news/2026/sep/24/police-arrest-far-right-activist-daniel-thomas-after-dinghy-slashed-channel",
-          "published_at": "18:06"
+          "published_at": "21:20"
+        },
+        {
+          "title": "UK far-right activist charged over Channel incident",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/uk-far-right-activist-charged-over-channel-incident-101790283874203.html",
+          "published_at": "21:04"
         },
         {
           "title": "Far-Right Activist Danny Tommo Arrested After Slashing Dinghy in English Channel",
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/09/24/world/europe/danny-tommo-arrested-uk-migrants-far-right.html",
-          "published_at": "14:29"
+          "published_at": "18:59"
         },
         {
           "title": "UK far-right activist arrested after migrant boat slashed in English Channel",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/europe/article/3368701/uk-far-right-activist-arrested-after-migrant-boat-slashed-english-channel?utm_source=rss_feed",
           "published_at": "13:11"
-        },
-        {
-          "title": "Far-right UK activist arrested after 'slashing migrant boat' at sea",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-24/daniel-thomas-arrested-in-uk-after-slashing-migrant-boat/107193606",
-          "published_at": "11:32"
         },
         {
           "title": "Far-right UK activist arrested after migrant dinghy slashed in the English Channel",
@@ -228,11 +531,11 @@
       ]
     },
     {
-      "id": "world-265",
-      "title": "Trump rolls out the red carpet as China's Xi Jinping lands in US for 3-day state visit; Video",
-      "title_en": "Trump rolls out the red carpet as China's Xi Jinping lands in US for 3-day state visit; Video",
+      "id": "world-272",
+      "title": "Trump-Xi Jinping meeting LIVE: Trump takes Xi inside presidential helicopter, says they had a 'great meeting'",
+      "title_en": "Trump-Xi Jinping meeting LIVE: Trump takes Xi inside presidential helicopter, says they had a 'great meeting'",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-melania-rolls-out-the-red-carpet-as-chinas-xi-jinping-lands-in-us-for-3-day-state-visit-video-101790201312333.html",
+      "title_url": "https://www.hindustantimes.com/world-news/trump-xi-jinping-live-updates-china-us-for-3-day-visit-airport-washington-agenda-latest-news-trade-ai-taiwan-key-issues-101790219680229.html",
       "category": "아시아",
       "primary_source": "Hindustan Times",
       "excerpt": "Chinese President Xi Jinping’s visit to the US is his first to the country since 2023 and his eighth face-to-face meeting with Donald Trump. From informal walk-and-talks to a state dinner, Xi’s meetin",
@@ -252,24 +555,41 @@
       "area_value": 11,
       "article_count": 11,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 6,
       "sources": [
-        "CBC",
+        "CBS News",
         "Euronews",
         "Hindustan Times",
-        "NBC News",
         "SCMP",
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-09-23T22:13:49+09:00",
-      "latest_published_at": "2026-09-24T16:14:01+09:00",
+      "first_published_at": "2026-09-24T03:37:07+09:00",
+      "latest_published_at": "2026-09-24T20:55:27+09:00",
       "articles": [
+        {
+          "title": "Donald Trump hosts China president at White House",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/donald-trump-hosts-china-president-at-white-house-20260925-p610e9.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:55"
+        },
+        {
+          "title": "Trump-Xi summit: Chinese reporters ‘clash’ with Secret Service before Xi Jinping’s White House welcome; video",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trumpxi-summit-chinese-reporters-clash-with-secret-service-before-xi-jinping-s-white-house-welcome-video-101790276588177.html",
+          "published_at": "19:16"
+        },
         {
           "title": "Watch in full: Donald Trump welcomes Xi Jinping to Washington in historic state visit",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-white-house-meeting-livestream-b3055890.html",
           "published_at": "16:14"
+        },
+        {
+          "title": "What to expect from Trump-Xi summit at White House",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/what-to-expect-from-trump-xi-summit-at-white-house/",
+          "published_at": "13:20"
         },
         {
           "title": "Chinese CEOs fly to US on own, await invites to Trump’s state dinner for Xi Jinping",
@@ -312,330 +632,56 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/trump-xi-jinping-live-updates-china-us-for-3-day-visit-airport-washington-agenda-latest-news-trade-ai-taiwan-key-issues-101790219680229.html",
           "published_at": "03:37"
-        },
-        {
-          "title": "Trump greets Xi on tarmac as Chinese leader arrives for state visit",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-xi-washington-state-visit-9.7355956?cmp=rss",
-          "published_at": "22:46"
-        },
-        {
-          "title": "U.S. says China trade truce extended by 2 months",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/business/economy/us-china-extend-trade-truce-trump-rcna599525",
-          "published_at": "22:20"
-        },
-        {
-          "title": "Trump rolls out the red carpet as China's Xi Jinping lands in US for 3-day state visit; Video",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-melania-rolls-out-the-red-carpet-as-chinas-xi-jinping-lands-in-us-for-3-day-state-visit-video-101790201312333.html",
-          "published_at": "22:13"
         }
       ]
     },
     {
-      "id": "world-177",
-      "title": "OpenAI agent hacked Australia government website in June: PM Anthony Albanese",
-      "title_en": "OpenAI agent hacked Australia government website in June: PM Anthony Albanese",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/openai-agent-hacked-australia-government-website-in-june-pm-anthony-albanese-101790199374891.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Prime Minister Anthony Albanese slammed OpenAI after revealing the technology company's AI agent hacked into an Australian government website. Jo Ling Kent has more.",
-      "excerpt_en": "Prime Minister Anthony Albanese slammed OpenAI after revealing the technology company's AI agent hacked into an Australian government website. Jo Ling Kent has more.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/australias-prime-minister-slams-openai-after-its-agent-hacked-government-website/",
-      "translation_status": "failed",
-      "score": 84,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 63
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBS News",
-        "DW",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-23T21:43:09+09:00",
-      "latest_published_at": "2026-09-24T13:41:20+09:00",
-      "articles": [
-        {
-          "title": "Australia's prime minister slams OpenAI after its agent hacked government website",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/australias-prime-minister-slams-openai-after-its-agent-hacked-government-website/",
-          "published_at": "13:41"
-        },
-        {
-          "title": "Australia says OpenAI agent breached Medicare health data portal",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/australia-says-openai-agent-breached-medicare-health-data-portal-101790245349094.html",
-          "published_at": "10:53"
-        },
-        {
-          "title": "First-ever known AI hack of govt system: Australia says OpenAI agent ‘infiltrated’ Medicare, govt data earlier this year",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/first-ever-known-ai-hack-of-govt-system-australia-says-openai-agent-infiltrated-medicare-govt-data-earlier-this-year-101790234236564.html",
-          "published_at": "08:27"
-        },
-        {
-          "title": "OpenAI agent hacks into Australian health data in ‘world-first’ AI breach of government body",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/openai-hack-australia-medicare-health-data-b3055463.html",
-          "published_at": "07:23"
-        },
-        {
-          "title": "OpenAI agent hacked Australia government portal: PM Albanese",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/openai-agent-hacked-australia-government-portal-pm-albanese/a-79405371?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "04:42"
-        },
-        {
-          "title": "OpenAI agent hacked Australia government website in June: PM Anthony Albanese",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/openai-agent-hacked-australia-government-website-in-june-pm-anthony-albanese-101790199374891.html",
-          "published_at": "21:43"
-        }
-      ]
-    },
-    {
-      "id": "world-78",
-      "title": "Ukraine sent two captured North Korean soldiers to South Korea, Zelenskiy says",
-      "title_en": "Ukraine sent two captured North Korean soldiers to South Korea, Zelenskiy says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeWx4T1cxV2RLaEVfOE5zUEt2WjBfNDVkVjFobF9LTE8xYTREM2ozWE4xaVNnd1I1YTJBcENIS2Z0eDVwcXJ1M3NzY3Z1Zk9lM2FzZUFpNDhBZFNCRnBNWFR2b0NZODE2REtXWDhSVUdSaEM0ckxLNVR6OFBNV29EUEN0cUpBTnlxcE9kb3QtU0tsMHFlMlhndnNGUjJrTGZkX3l6bWFscEl4Q0xFX1hlVnhqRmJsTVlZTGpWUVFySUJ2dl9QV3k4YlVuN0xlSUdtWUxv?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "President Volodymyr Zelensky of Ukraine said one soldier tried to kill himself when he was captured. “This is how they raise people in the North,” he said.",
-      "excerpt_en": "President Volodymyr Zelensky of Ukraine said one soldier tried to kill himself when he was captured. “This is how they raise people in the North,” he said.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/09/23/world/asia/ukraine-north-south-korea-pow-zelensky.html",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "New York Times",
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-23T23:30:00+09:00",
-      "latest_published_at": "2026-09-24T16:40:45+09:00",
-      "articles": [
-        {
-          "title": "​Ukraine Sent Two North Korean P.O.W.s to South Korea, Zelensky Says",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/23/world/asia/ukraine-north-south-korea-pow-zelensky.html",
-          "published_at": "16:40"
-        },
-        {
-          "title": "Zelenskyy says Ukraine sent 2 North Korean prisoners of war to South Korea",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/zelenskyy-ukraine-2-north-korean-prisoners-war-south-136706303",
-          "published_at": "07:42"
-        },
-        {
-          "title": "Two North Korean soldiers captured by Ukraine sent to South Korea, Zelensky says",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/asia/east-asia/ukraine-north-korea-soldiers-russia-south-korea-b3055460.html",
-          "published_at": "05:53"
-        },
-        {
-          "title": "Ukraine sent two captured North Korean soldiers to South Korea, Zelenskiy says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeWx4T1cxV2RLaEVfOE5zUEt2WjBfNDVkVjFobF9LTE8xYTREM2ozWE4xaVNnd1I1YTJBcENIS2Z0eDVwcXJ1M3NzY3Z1Zk9lM2FzZUFpNDhBZFNCRnBNWFR2b0NZODE2REtXWDhSVUdSaEM0ckxLNVR6OFBNV29EUEN0cUpBTnlxcE9kb3QtU0tsMHFlMlhndnNGUjJrTGZkX3l6bWFscEl4Q0xFX1hlVnhqRmJsTVlZTGpWUVFySUJ2dl9QV3k4YlVuN0xlSUdtWUxv?oc=5",
-          "published_at": "23:30"
-        }
-      ]
-    },
-    {
-      "id": "world-218",
-      "title": "Benjamin Netanyahu to deliver defiant UN speech while facing protests and political isolation",
-      "title_en": "Benjamin Netanyahu to deliver defiant UN speech while facing protests and political isolation",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
-      "category": "중동",
-      "primary_source": "The Guardian",
-      "excerpt": "Prime minister will ‘highlight Israel’s achievements’ as he heads towards his toughest re-election challenge When he takes the stage at the UN on Thursday, Benjamin Netanyahu will deliver a familiar m",
-      "excerpt_en": "Prime minister will ‘highlight Israel’s achievements’ as he heads towards his toughest re-election challenge When he takes the stage at the UN on Thursday, Benjamin Netanyahu will deliver a familiar m",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBS News",
-        "NBC News",
-        "New York Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-24T08:00:12+09:00",
-      "latest_published_at": "2026-09-24T18:19:00+09:00",
-      "articles": [
-        {
-          "title": "Israel's Netanyahu addresses U.N. as many leaders walk out",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/netanyahu-un-speech-israel-criticism-mamdani-protests/",
-          "published_at": "18:19"
-        },
-        {
-          "title": "Beleaguered at Home, a Bellicose Netanyahu Heads to the U.N.",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/netanyahu-unga-israel-election.html",
-          "published_at": "14:40"
-        },
-        {
-          "title": "Netanyahu takes the U.N. stage facing global isolation and a fight for his political future",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/israel/israel-netanyahu-united-nations-general-assembly-gaza-iran-war-rcna599576",
-          "published_at": "12:03"
-        },
-        {
-          "title": "Benjamin Netanyahu to deliver defiant UN speech while facing protests and political isolation",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
-          "published_at": "08:00"
-        }
-      ]
-    },
-    {
-      "id": "world-189",
-      "title": "CNN, Politico and MS NOW say reporters were turned away from White House despite court ruling",
-      "title_en": "CNN, Politico and MS NOW say reporters were turned away from White House despite court ruling",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/09/24/judge-orders-trump-to-restore-cnn-politico-and-ms-nows-access-to-white-house",
-      "category": "미국",
-      "primary_source": "Euronews",
-      "excerpt": "Trump justified the ban in a social media post on Friday, accusing the outlets of publishing \"fake news\" and warning that other news organizations could face similar treatment.",
-      "excerpt_en": "Trump justified the ban in a social media post on Friday, accusing the outlets of publishing \"fake news\" and warning that other news organizations could face similar treatment.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/24/judge-orders-trump-to-restore-cnn-politico-and-ms-nows-access-to-white-house",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Euronews",
-        "France24",
-        "Hindustan Times",
-        "Times of India"
-      ],
-      "first_published_at": "2026-09-24T05:38:59+09:00",
-      "latest_published_at": "2026-09-24T14:53:13+09:00",
-      "articles": [
-        {
-          "title": "CNN, MS NOW, Politico seek emergency hearing after White House denies access despite court order",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/cnn-ms-now-politico-seek-emergency-hearing-after-white-house-denies-access-despite-court-order/articleshow/134465180.cms",
-          "published_at": "14:53"
-        },
-        {
-          "title": "CNN, MS NOW, Politico seek immediate court hearing as White House access remains blocked",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/cnn-ms-now-politico-seek-immediate-hearing-as-white-house-access-remains-blocked-donald-trump-us-101790259082151.html",
-          "published_at": "14:17"
-        },
-        {
-          "title": "🔴 CNN, MS NOW, Politico still barred from White House despite court ruling",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20260924-us-judge-lifts-trump-s-white-house-ban-on-cnn-ms-now-politico",
-          "published_at": "13:24"
-        },
-        {
-          "title": "CNN, Politico and MS NOW say reporters were turned away from White House despite court ruling",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/24/judge-orders-trump-to-restore-cnn-politico-and-ms-nows-access-to-white-house",
-          "published_at": "05:38"
-        }
-      ]
-    },
-    {
-      "id": "world-149",
+      "id": "world-302",
       "title": "Hurricane Polo brings powerful waves to Mexico's Pacific coast",
       "title_en": "Hurricane Polo brings powerful waves to Mexico's Pacific coast",
       "title_source": "earliest_pick",
       "title_url": "https://www.euronews.com/video/2026/09/24/hurricane-polo-brings-powerful-waves-to-mexicos-pacific-coast",
-      "category": "미국",
+      "category": "기타",
       "primary_source": "Euronews",
       "excerpt": "Hurricane Polo's intensity fluctuated between Category 4 and Category 5 — the strongest on the hurricane scale — off Mexico's southwestern coast. Here's the latest on its path.",
       "excerpt_en": "Hurricane Polo's intensity fluctuated between Category 4 and Category 5 — the strongest on the hurricane scale — off Mexico's southwestern coast. Here's the latest on its path.",
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
       "translation_status": "failed",
-      "score": 79,
+      "score": 85,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
-        "major_score": 10,
+        "major_score": 15,
         "breaking_score": 1,
         "time_score": 3,
-        "raw75": 59
+        "raw75": 64
       },
       "area_value": 6,
       "article_count": 6,
       "syndicated_count": 0,
       "source_count": 5,
       "sources": [
-        "Al Jazeera",
         "CBS News",
         "Euronews",
+        "Hindustan Times",
         "NBC News",
         "Sky News"
       ],
       "first_published_at": "2026-09-24T07:20:11+09:00",
-      "latest_published_at": "2026-09-24T17:29:34+09:00",
+      "latest_published_at": "2026-09-24T21:28:05+09:00",
       "articles": [
         {
           "title": "Hurricane Polo is a powerful Category 4 storm off Mexico. See its path.",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
-          "published_at": "17:29"
+          "published_at": "21:28"
         },
         {
-          "title": "Hurricane Polo brings fears of heavy rain and landslides in Mexico",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/24/hurricane-polo-hits-mexicos-coast-as-tropical-storm-nolo-approaches-hawaii?traffic_source=rss",
-          "published_at": "13:02"
+          "title": "Heavy rains hit Mexico as Hurricane Polo tracks offshore, expected to make landfall on Sunday night",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/heavy-rains-hit-mexico-as-hurricane-polo-tracks-offshore-expected-to-make-landfall-on-sunday-night-101790277013897.html",
+          "published_at": "19:10"
         },
         {
           "title": "People battle huge waves to save boat in Acapulco during Hurricane Polo",
@@ -664,7 +710,194 @@
       ]
     },
     {
-      "id": "world-17",
+      "id": "world-365",
+      "title": "China holding F-35 jet parts diverted to Hong Kong after leaving Australia",
+      "title_en": "China holding F-35 jet parts diverted to Hong Kong after leaving Australia",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "아시아",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "UPS was shipping a cockpit canopy and weapons-bay door from an Australian F-35 to the US for inspection and possible repair or disposal.",
+      "excerpt_en": "UPS was shipping a cockpit canopy and weapons-bay door from an Australian F-35 to the US for inspection and possible repair or disposal.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBS News",
+        "Hindustan Times",
+        "Sydney Morning Herald",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T04:52:54+09:00",
+      "latest_published_at": "2026-09-24T21:30:49+09:00",
+      "articles": [
+        {
+          "title": "Pentagon probing how shipment of F-35 fighter jet parts was diverted",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/pentagon-f-35-fighter-jet-parts/",
+          "published_at": "21:30"
+        },
+        {
+          "title": "Did F-35 parts headed for US land in Chinese possession? Big jet mystery looms ahead of Trump-Xi talks",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/f35-jet-parts-headed-for-us-in-chinese-possession-mystery-looms-ahead-of-donald-trump-xi-jinping-talks-washington-101790232693239.html",
+          "published_at": "07:59"
+        },
+        {
+          "title": "F-35 stealth jet parts diverted to Hong Kong in major security blunder",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/f-35-stealth-parts-hong-kong-china-b3055535.html",
+          "published_at": "07:45"
+        },
+        {
+          "title": "China holding F-35 jet parts diverted to Hong Kong after leaving Australia",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "04:52"
+        }
+      ]
+    },
+    {
+      "id": "world-227",
+      "title": "Netanyahu calls Israel’s war in Gaza ‘opposite of genocide’ in UN speech",
+      "title_en": "Netanyahu calls Israel’s war in Gaza ‘opposite of genocide’ in UN speech",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
+      "category": "중동",
+      "primary_source": "The Guardian",
+      "excerpt": "Israeli PM attacks critics and calls New York mayor Zohran Mamdani ‘antisemitic’ in inflammatory address Benjamin Netanyahu delivered an inflammatory address to the United Nations on Thursday, decryin",
+      "excerpt_en": "Israeli PM attacks critics and calls New York mayor Zohran Mamdani ‘antisemitic’ in inflammatory address Benjamin Netanyahu delivered an inflammatory address to the United Nations on Thursday, decryin",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 60
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "New York Times",
+        "The Guardian",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T19:28:08+09:00",
+      "latest_published_at": "2026-09-24T21:21:06+09:00",
+      "articles": [
+        {
+          "title": "Netanyahu Lashes Out at Foes in U.N. Speech, Including Mamdani",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/netanyahu-speech-un-general-assembly.html",
+          "published_at": "21:21"
+        },
+        {
+          "title": "Mamdani Accuses Netanyahu of Spreading ‘Baseless Lies’ After U.N. Speech",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/nyregion/netanyahu-mamdani-un-speech.html",
+          "published_at": "21:09"
+        },
+        {
+          "title": "Netanyahu, Addressing U.N., Denounces Israel’s Critics as ‘Moral Cowards’",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/netanyahu-israel-un.html",
+          "published_at": "20:48"
+        },
+        {
+          "title": "UN delegates walk out of Netanyahu speech as he labels them ‘moral cowards’ and defends Israel’s actions",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/netanyahu-un-speech-walkout-zohran-mamdani-b3056010.html",
+          "published_at": "20:25"
+        },
+        {
+          "title": "Netanyahu uses UN speech to blast NYC Mayor Zohran Mamdani: ‘You can’t silence me’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/netanyahu-zohran-mamdani-un-speech-b3056018.html",
+          "published_at": "19:57"
+        },
+        {
+          "title": "Netanyahu calls Israel’s war in Gaza ‘opposite of genocide’ in UN speech",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
+          "published_at": "19:28"
+        }
+      ]
+    },
+    {
+      "id": "world-74",
+      "title": "Pakistan air strikes kill 4 civilians in Afghanistan, Kabul says",
+      "title_en": "Pakistan air strikes kill 4 civilians in Afghanistan, Kabul says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX3F0QnAzZUcxYnJNRGtIQ21Sc0FXekU5NERyWjVqalpmVUpVdTJFWXJNLTVfc3dWd1B0WHFrZ3N4ODBSNXNpeUdPa01meDlLai1iNFV3UWNYYzg5N2JHMGs5Tnd2WnhISGJJd05NRzhaeWhFdFd5a0F2UXR1SkcyOXNjUkhtRTM3NHZCNDZ6bS05VHZSSXZGUHZKRVg5ZEs1bnRqZDczb0lyVWJWVlRyTFB5QzJOc2pEaVJsT3hCbWU?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "Afghanistan’s Taliban government said Pakistani airstrikes killed four civilians, while Pakistan said it had targeted militant sites.",
+      "excerpt_en": "Afghanistan’s Taliban government said Pakistani airstrikes killed four civilians, while Pakistan said it had targeted militant sites.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/pakistan-afghanistan-strikes-four-killed-6409336",
+      "translation_status": "failed",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Reuters",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-24T04:11:00+09:00",
+      "latest_published_at": "2026-09-24T20:54:39+09:00",
+      "articles": [
+        {
+          "title": "Pakistani air strikes kill four in Afghanistan",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/pakistani-air-strikes-kill-four-in-afghanistan-20260925-p610ea.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:54"
+        },
+        {
+          "title": "Taliban govt says Pakistan strikes kill 4 civilians in Afghanistan",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/pakistan-afghanistan-strikes-four-killed-6409336",
+          "published_at": "20:54"
+        },
+        {
+          "title": "Pakistan air strikes kill 4 civilians in Afghanistan, Kabul says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX3F0QnAzZUcxYnJNRGtIQ21Sc0FXekU5NERyWjVqalpmVUpVdTJFWXJNLTVfc3dWd1B0WHFrZ3N4ODBSNXNpeUdPa01meDlLai1iNFV3UWNYYzg5N2JHMGs5Tnd2WnhISGJJd05NRzhaeWhFdFd5a0F2UXR1SkcyOXNjUkhtRTM3NHZCNDZ6bS05VHZSSXZGUHZKRVg5ZEs1bnRqZDczb0lyVWJWVlRyTFB5QzJOc2pEaVJsT3hCbWU?oc=5",
+          "published_at": "04:11"
+        }
+      ]
+    },
+    {
+      "id": "world-38",
       "title": "Priest killed and four wounded after stabbing rampage at Polish abbey",
       "title_en": "Priest killed and four wounded after stabbing rampage at Polish abbey",
       "title_source": "earliest_pick",
@@ -676,14 +909,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368718/knifeman-kills-priest-injures-4-attack-polish-abbey?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -718,61 +951,7 @@
       ]
     },
     {
-      "id": "world-31",
-      "title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis",
-      "title_en": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/9/24/saudi-led-coalition-says-shot-down-6-ballistic-missiles-launched-by-houthis?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "The Iran-backed militia in Yemen fired six ballistic missiles at Saudi cities, a military spokesman said. It was a major cross-border attack.",
-      "excerpt_en": "The Iran-backed militia in Yemen fired six ballistic missiles at Saudi cities, a military spokesman said. It was a major cross-border attack.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/09/24/world/middleeast/saudi-arabia-houthi-missile-attack-yemen-war.html",
-      "translation_status": "failed",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "New York Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T14:56:00+09:00",
-      "latest_published_at": "2026-09-24T17:05:06+09:00",
-      "articles": [
-        {
-          "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/saudi-arabia-houthi-missile-attack-yemen-war.html",
-          "published_at": "17:05"
-        },
-        {
-          "title": "Saudi Arabia thwarts Houthi ballistic missiles, Yemen's Saudi-led coalition says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
-          "published_at": "15:42"
-        },
-        {
-          "title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/24/saudi-led-coalition-says-shot-down-6-ballistic-missiles-launched-by-houthis?traffic_source=rss",
-          "published_at": "14:56"
-        }
-      ]
-    },
-    {
-      "id": "world-232",
+      "id": "world-234",
       "title": "Israel's US envoy says son fighting for life",
       "title_en": "Israel's US envoy says son fighting for life",
       "title_source": "earliest_pick",
@@ -784,14 +963,14 @@
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3325425/israels-us-envoy-says-son-fighting-for-life",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -826,115 +1005,68 @@
       ]
     },
     {
-      "id": "world-279",
-      "title": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
-      "title_en": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
+      "id": "world-115",
+      "title": "Macklemore announces Free Palestine Tour after Ed Sheeran controversy",
+      "title_en": "Macklemore announces Free Palestine Tour after Ed Sheeran controversy",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3368667/8-killed-russian-strikes-ukraine-maternity-clinic-damaged?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Russian drone and missile strikes on Ukraine’s capital Kyiv and its northeast killed eight people on Thursday in attacks that included a maternity hospital and a farm, officials said. Moscow has stepp",
-      "excerpt_en": "Russian drone and missile strikes on Ukraine’s capital Kyiv and its northeast killed eight people on Thursday in attacks that included a maternity hospital and a farm, officials said. Moscow has stepp",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3368667/8-killed-russian-strikes-ukraine-maternity-clinic-damaged?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-24T10:08:42+09:00",
-      "latest_published_at": "2026-09-24T13:30:29+09:00",
-      "articles": [
-        {
-          "title": "Russian strikes kill 8 in Ukraine as the UN debates how to end the war",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russian-strikes-kill-8-ukraine-debates-end-war-136711744",
-          "published_at": "13:30"
-        },
-        {
-          "title": "Eight killed in wave of Russian strikes on Ukraine",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3325418/eight-killed-in-wave-of-russian-strikes-on-ukraine",
-          "published_at": "10:45"
-        },
-        {
-          "title": "8 killed in Russian strikes on Ukraine, maternity clinic damaged",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3368667/8-killed-russian-strikes-ukraine-maternity-clinic-damaged?utm_source=rss_feed",
-          "published_at": "10:08"
-        }
-      ]
-    },
-    {
-      "id": "world-379",
-      "title": "8 attempted suicides by sailors in USS Lincoln strike group during deployment, navy letter says",
-      "title_en": "8 attempted suicides by sailors in USS Lincoln strike group during deployment, navy letter says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/8-attempted-suicides-by-sailors-in-uss-lincoln-strike-group-during-deployment-navy-letter-says/",
+      "title_url": "https://news.sky.com/story/macklemore-announces-free-palestine-tour-after-ed-sheeran-controversy-13591502",
       "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "According to a letter from the acting Navy secretary, there were eight attempted suicides by sailors in the USS Lincoln strike group during the vessel's 10-month deployment. Charlie D'Agata has more.",
-      "excerpt_en": "According to a letter from the acting Navy secretary, there were eight attempted suicides by sailors in the USS Lincoln strike group during the vessel's 10-month deployment. Charlie D'Agata has more.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/8-attempted-suicides-by-sailors-in-uss-lincoln-strike-group-during-deployment-navy-letter-says/",
+      "primary_source": "Sky News",
+      "excerpt": "US rapper Macklemore announced his own “Free Palestine Tour”, with all proceeds going to organisations supporting Palestinians, after being dropped from Ed Sheeran’s US tour following pro-Palestinian ",
+      "excerpt_en": "US rapper Macklemore announced his own “Free Palestine Tour”, with all proceeds going to organisations supporting Palestinians, after being dropped from Ed Sheeran’s US tour following pro-Palestinian ",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/macklemore-free-palestine-tour-ed-sheeran-6409411",
       "translation_status": "failed",
-      "score": 76,
+      "score": 75,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 56
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
-        "CBS News",
-        "Hindustan Times",
-        "Sydney Morning Herald"
+        "Al Jazeera",
+        "BBC",
+        "Channel News Asia",
+        "Sky News"
       ],
-      "first_published_at": "2026-09-23T23:44:49+09:00",
-      "latest_published_at": "2026-09-24T05:30:00+09:00",
+      "first_published_at": "2026-09-24T15:48:00+09:00",
+      "latest_published_at": "2026-09-24T21:23:05+09:00",
       "articles": [
         {
-          "title": "Eight sailors in USS Lincoln strike group attempted suicide, US Navy says",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/eight-sailors-in-uss-lincoln-strike-group-attempted-suicide-us-navy-says-20260924-p6106w.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "05:30"
+          "title": "Macklemore hits back with 'Free Palestine Tour' after Sheeran split",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/macklemore-free-palestine-tour-ed-sheeran-6409411",
+          "published_at": "21:23"
         },
         {
-          "title": "8 suicide bids on USS Abraham Lincoln amid Iran deployment scrutiny, Navy confirms",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/uss-abraham-lincoln-iran-us-war-suicides-mental-health-donald-trump-101790214461971.html",
-          "published_at": "01:54"
+          "title": "US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/us-rapper-macklemore-announces-free-palestine-tour-after-ed-sheeran-fallout?traffic_source=rss",
+          "published_at": "19:22"
         },
         {
-          "title": "8 attempted suicides by sailors in USS Lincoln strike group during deployment, navy letter says",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/8-attempted-suicides-by-sailors-in-uss-lincoln-strike-group-during-deployment-navy-letter-says/",
-          "published_at": "23:44"
+          "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss",
+          "published_at": "17:55"
+        },
+        {
+          "title": "Macklemore announces Free Palestine Tour after Ed Sheeran controversy",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/macklemore-announces-free-palestine-tour-after-ed-sheeran-controversy-13591502",
+          "published_at": "15:48"
         }
       ]
     },
     {
-      "id": "world-2",
+      "id": "world-13",
       "title": "UAE suspends all Iranian airline flights amid US sanctions: Report",
       "title_en": "UAE suspends all Iranian airline flights amid US sanctions: Report",
       "title_source": "earliest_pick",
@@ -946,14 +1078,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/iranian-airlines-international-flights-continue-amid-us-sanctions-deadline-101790245815631.html",
       "translation_status": "failed",
-      "score": 75,
+      "score": 73,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 56
+        "time_score": 2,
+        "raw75": 55
       },
       "area_value": 4,
       "article_count": 4,
@@ -994,67 +1126,7 @@
       ]
     },
     {
-      "id": "world-105",
-      "title": "Judge says Trump did not follow ‘process’ with White House press ban but keeps CNN, MS NOW in limbo",
-      "title_en": "Judge says Trump did not follow ‘process’ with White House press ban but keeps CNN, MS NOW in limbo",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-ban-court-hearing-judge-tim-kelly-b3055337.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "US district judge Timothy Kelly issued the order on Thursday in a lawsuit brought by the three media organisations after the White House revoked their access.",
-      "excerpt_en": "US district judge Timothy Kelly issued the order on Thursday in a lawsuit brought by the three media organisations after the White House revoked their access.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-judge-blocks-donald-trump-media-ban-restore-white-house-access-for-cnn-ms-now-politico-journalists-101790226906714.html",
-      "translation_status": "failed",
-      "score": 75,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 56
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-23T23:39:21+09:00",
-      "latest_published_at": "2026-09-24T17:50:00+09:00",
-      "articles": [
-        {
-          "title": "CNN, MS NOW and Politico back at the White House after judge ordered Trump to lift ban",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
-          "published_at": "17:50"
-        },
-        {
-          "title": "Judge orders Trump to lift White House media ban on CNN, MS NOW and Politico",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-ban-judge-cnn-politico-b3055482.html",
-          "published_at": "06:16"
-        },
-        {
-          "title": "US judge blocks Trump's media ban, asks him to restore White House access for CNN, MS NOW, Politico journalists",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-judge-blocks-donald-trump-media-ban-restore-white-house-access-for-cnn-ms-now-politico-journalists-101790226906714.html",
-          "published_at": "05:17"
-        },
-        {
-          "title": "Judge says Trump did not follow ‘process’ with White House press ban but keeps CNN, MS NOW in limbo",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-ban-court-hearing-judge-tim-kelly-b3055337.html",
-          "published_at": "23:39"
-        }
-      ]
-    },
-    {
-      "id": "world-239",
+      "id": "world-246",
       "title": "Panda diplomacy: Xi announces 2 giant pandas for Atlanta zoo in US",
       "title_en": "Panda diplomacy: Xi announces 2 giant pandas for Atlanta zoo in US",
       "title_source": "earliest_pick",
@@ -1066,14 +1138,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/envoy-of-friendship-xi-jinping-announces-two-pandas-for-atlanta-zoo-as-trump-hails-great-friendship-101790268948807.html",
       "translation_status": "failed",
-      "score": 75,
+      "score": 73,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 56
+        "time_score": 2,
+        "raw75": 55
       },
       "area_value": 4,
       "article_count": 4,
@@ -1086,7 +1158,7 @@
         "Times of India"
       ],
       "first_published_at": "2026-09-24T16:19:32+09:00",
-      "latest_published_at": "2026-09-24T17:44:00+09:00",
+      "latest_published_at": "2026-09-24T17:44:01+09:00",
       "articles": [
         {
           "title": "China to Send Pandas to Zoo Atlanta, Xi Says",
@@ -1115,304 +1187,17 @@
       ]
     },
     {
-      "id": "world-107",
-      "title": "ICE agents leave bloody US citizen on sidewalk after mistaking him for a fugitive",
-      "title_en": "ICE agents leave bloody US citizen on sidewalk after mistaking him for a fugitive",
+      "id": "world-102",
+      "title": "Congo is running short of health workers as Ebola remains out of control, WHO says",
+      "title_en": "Congo is running short of health workers as Ebola remains out of control, WHO says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/evanston-ice-agents-injure-citizen-b3055634.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Man left bloodied and hurt after immigration enforcement agents tried to arrest him in Evanston, a Chicago suburb An eyewitness has described how two federal immigration agents allegedly beat and badl",
-      "excerpt_en": "Man left bloodied and hurt after immigration enforcement agents tried to arrest him in Evanston, a Chicago suburb An eyewitness has described how two federal immigration agents allegedly beat and badl",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/24/citizen-injured-ice-mistaken-fugitive-arrest",
-      "translation_status": "failed",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-24T14:51:05+09:00",
-      "latest_published_at": "2026-09-24T17:01:00+09:00",
-      "articles": [
-        {
-          "title": "US citizen injured in Illinois after ICE agents mistook him for fugitive and tried to arrest him",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkdpUFRoWUZvQThZQnlBWU80bUo5emZfdUpTOHFESjRNZHU5TU1QWGxNQlhhb2lxa01IdkswR2x1OFBFRzZqRUhGME41M2sycHpWdVBwdGNsN0NtRHA1VlpiQ3ZJc2N2YS1GaWpUY1BzbzQzOFg2RXhFWmhHTW5ONDkyRXk2T014T3JFRVUwb3c0aGFDM1RpdzVoV2EzZ0lDdjdFYjJMbjQtR09wWHBOTlluT001Zw?oc=5",
-          "published_at": "17:01"
-        },
-        {
-          "title": "US citizen injured after ICE agents reportedly mistook him for fugitive",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/24/citizen-injured-ice-mistaken-fugitive-arrest",
-          "published_at": "16:41"
-        },
-        {
-          "title": "ICE agents leave bloody US citizen on sidewalk after mistaking him for a fugitive",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/evanston-ice-agents-injure-citizen-b3055634.html",
-          "published_at": "14:51"
-        }
-      ]
-    },
-    {
-      "id": "world-261",
-      "title": "‘Partners, not rivals’: Xi Jinping lands in Washington with Trump waiting on the tarmac",
-      "title_en": "‘Partners, not rivals’: Xi Jinping lands in Washington with Trump waiting on the tarmac",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/xi-jinping-lands-in-washington-with-trump-waiting-on-the-tarmac-20260924-p61024.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "This live article is freely available to our registered users. Please log in or create an account. Unrivalled Xi-Trump summit analysis: get real-time updates and exclusive boots-on-the-ground reportin",
-      "excerpt_en": "This live article is freely available to our registered users. Please log in or create an account. Unrivalled Xi-Trump summit analysis: get real-time updates and exclusive boots-on-the-ground reportin",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3368706/xi-begins-first-full-day-us-visit-meet-trump-white-house-ceremony?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 55
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "SCMP",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-24T00:21:01+09:00",
-      "latest_published_at": "2026-09-24T13:53:20+09:00",
-      "articles": [
-        {
-          "title": "Xi stresses Beijing’s Taiwan position to Trump in White House meeting",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3368706/xi-begins-first-full-day-us-visit-meet-trump-white-house-ceremony?utm_source=rss_feed",
-          "published_at": "13:53"
-        },
-        {
-          "title": "What to expect from Trump-Xi summit at White House",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/what-to-expect-from-trump-xi-summit-at-white-house/",
-          "published_at": "13:20"
-        },
-        {
-          "title": "First lady Peng Liyuan’s English takes the spotlight in exchange with Melania Trump",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3368672/first-lady-peng-liyuans-english-takes-spotlight-exchange-melania-trump?utm_source=rss_feed",
-          "published_at": "10:43"
-        },
-        {
-          "title": "Why did Trump wear gloves to greet China’s Xi Jinping at Joint Base Andrews?",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3368619/why-did-trump-wear-gloves-greet-chinas-xi-jinping-joint-base-andrews?utm_source=rss_feed",
-          "published_at": "07:29"
-        },
-        {
-          "title": "‘Partners, not rivals’: Xi Jinping lands in Washington with Trump waiting on the tarmac",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/xi-jinping-lands-in-washington-with-trump-waiting-on-the-tarmac-20260924-p61024.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "00:21"
-        }
-      ]
-    },
-    {
-      "id": "world-226",
-      "title": "Abbas accuses Israel of waging ‘genocidal war’ in Gaza, in pre-recorded UN address",
-      "title_en": "Abbas accuses Israel of waging ‘genocidal war’ in Gaza, in pre-recorded UN address",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3368717/abbas-accuses-israel-waging-genocidal-war-gaza-pre-recorded-un-speech?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Palestinian leader gives video address after being denied US visa and tells world: ‘Do not allow another Nakba’ Benjamin Netanyahu is set to deliver a controversial address to the United Nations on Th",
-      "excerpt_en": "Palestinian leader gives video address after being denied US visa and tells world: ‘Do not allow another Nakba’ Benjamin Netanyahu is set to deliver a controversial address to the United Nations on Th",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
-      "translation_status": "failed",
-      "score": 71,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 53
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "New York Times",
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-24T17:40:03+09:00",
-      "latest_published_at": "2026-09-24T18:32:44+09:00",
-      "articles": [
-        {
-          "title": "U.N. Live Updates: Netanyahu, Under Scrutiny at Home and Abroad, Seeks to Underscore Threats to Israel",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
-          "published_at": "18:32"
-        },
-        {
-          "title": "Abbas condemns Israel’s ‘malicious colonial plan’ ahead of Netanyahu UN speech",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/24/netanyahu-un-speech-mahmoud-abbas",
-          "published_at": "17:50"
-        },
-        {
-          "title": "Abbas accuses Israel of waging ‘genocidal war’ in Gaza, in pre-recorded UN address",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368717/abbas-accuses-israel-waging-genocidal-war-gaza-pre-recorded-un-speech?utm_source=rss_feed",
-          "published_at": "17:40"
-        }
-      ]
-    },
-    {
-      "id": "world-228",
-      "title": "Carney Says Risk of an A.I. Catastrophe Is ‘Above Zero’",
-      "title_en": "Carney Says Risk of an A.I. Catastrophe Is ‘Above Zero’",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/23/world/canada/carney-ai-risk.html",
-      "category": "미국",
-      "primary_source": "New York Times",
-      "excerpt": "In contrast to President Trump’s calls for an unfettered A.I. industry, Prime Minister Mark Carney of Canada called for international coordination on regulations.",
-      "excerpt_en": "In contrast to President Trump’s calls for an unfettered A.I. industry, Prime Minister Mark Carney of Canada called for international coordination on regulations.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/09/23/world/canada/carney-ai-risk.html",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-23T23:22:05+09:00",
-      "latest_published_at": "2026-09-24T17:28:12+09:00",
-      "articles": [
-        {
-          "title": "Carney’s Big Challenge: Time",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/24/world/canada/carney-economy-trade-war.html",
-          "published_at": "17:28"
-        },
-        {
-          "title": "Canada made plans on what to do if Trump invaded, Mark Carney reveals",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-trump-invasion-plans-carney-b3055811.html",
-          "published_at": "15:54"
-        },
-        {
-          "title": "Mark Carney Interview: Canada’s Leader Lays Out Vision for Breaking Reliance on U.S.",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/23/world/canada/mark-carney-canada-us-trump-tariffs.html",
-          "published_at": "12:30"
-        },
-        {
-          "title": "Carney Says Risk of an A.I. Catastrophe Is ‘Above Zero’",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/23/world/canada/carney-ai-risk.html",
-          "published_at": "23:22"
-        }
-      ]
-    },
-    {
-      "id": "world-351",
-      "title": "Navy admits there were 8 suicide attempts aboard the USS Lincoln during Iran war deployment",
-      "title_en": "Navy admits there were 8 suicide attempts aboard the USS Lincoln during Iran war deployment",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/us-navy-uss-abraham-lincoln-suicide-attempts-b3055424.html",
-      "category": "중동",
-      "primary_source": "The Independent",
-      "excerpt": "The deployment kept sailors at sea for more than 250 consecutive days without port visits, setting a modern Navy record during months of combat operations in the Middle East",
-      "excerpt_en": "The deployment kept sailors at sea for more than 250 consecutive days without port visits, setting a modern Navy record during months of combat operations in the Middle East",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/us-navy-uss-abraham-lincoln-suicide-attempts-b3055424.html",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Euronews",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-24T02:07:06+09:00",
-      "latest_published_at": "2026-09-24T16:36:33+09:00",
-      "articles": [
-        {
-          "title": "8 US personnel attempted suicide aboard USS Lincoln during extended mission at sea amid Iran war",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/8-us-personnel-attempted-suicide-aboard-uss-lincoln-during-extended-mission-at-sea-amid-iran-war-101790265387358.html",
-          "published_at": "16:36"
-        },
-        {
-          "title": "US admits there were eight suicide attempts on US aircraft carrier during record Middle East deployment",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/24/us-admits-there-were-eight-suicide-attempts-on-us-aircraft-carrier-during-record-middle-ea",
-          "published_at": "08:38"
-        },
-        {
-          "title": "Navy admits there were 8 suicide attempts aboard the USS Lincoln during Iran war deployment",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-navy-uss-abraham-lincoln-suicide-attempts-b3055424.html",
-          "published_at": "02:07"
-        }
-      ]
-    },
-    {
-      "id": "world-76",
-      "title": "Iowa judge dismisses Trump’s lawsuit against Des Moines Register and pollster",
-      "title_en": "Iowa judge dismisses Trump’s lawsuit against Des Moines Register and pollster",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdEhlUzVLcF9GRUdVbzlVVENZcTB0NTVIdmJ4MTRHTm96TXFCUHZ4RnJQejlUSGhSZzNZX2FGbW1Mb1gxdzZjRnNpZHN4bUNQZS1jOWJpOFY2N21PSnFoTzkyOTlfd3JzYU0wUnl5R2x2Yk9zcUdURTVyMjRNUjVidEdMa1ZEd0VNcU5QWmJzOVhXUQ?oc=5",
-      "category": "미국",
+      "title_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUzFyZGVSR2RjcUhRcV9nSWV6bl93QkJwZ0hhb3RoUlFaZTNMTUZpUXJyaVBKWl8zcFI4TVBaQmJYelFqRndUUldaOEFmOTZzYnRUTFNwRHJ1bUMtYkU2bmxLc1BjUG5oMEEtVUpsWmU5R0dkbG81UzNkbE1jOGJ1VHh1VUFoYTd6ZG82Yko0OW9zVy1IcGMtdFd1c0lOdw?oc=5",
+      "category": "기타",
       "primary_source": "AP News",
-      "excerpt": "A judge on Wednesday dismissed Donald Trump’s lawsuit accusing The Des Moines Register and its former pollster of misrepresenting the state of the 2024 presidential race",
-      "excerpt_en": "A judge on Wednesday dismissed Donald Trump’s lawsuit accusing The Des Moines Register and its former pollster of misrepresenting the state of the 2024 presidential race",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iowa-selzer-poll-lawsuit-b3055556.html",
+      "excerpt": "The Democratic Republic of Congo (DRC) is experiencing history's fastest-growing Ebola outbreak, but the World Health Organization (WHO) has warned the country is short of staff needed for treatment c",
+      "excerpt_en": "The Democratic Republic of Congo (DRC) is experiencing history's fastest-growing Ebola outbreak, but the World Health Organization (WHO) has warned the country is short of staff needed for treatment c",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/dr-congo-short-of-health-workers-as-it-battles-out-of-control-ebola-outbreak-13591372",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -1428,35 +1213,89 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
+        "ABC News",
         "AP News",
-        "Reuters",
-        "The Independent"
+        "Sky News"
       ],
-      "first_published_at": "2026-09-23T23:08:00+09:00",
-      "latest_published_at": "2026-09-24T08:14:29+09:00",
+      "first_published_at": "2026-09-24T08:46:00+09:00",
+      "latest_published_at": "2026-09-24T10:31:00+09:00",
       "articles": [
         {
-          "title": "Trump loses big in Iowa court after trying to sue pollster for wrong election call",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iowa-selzer-poll-lawsuit-b3055556.html",
-          "published_at": "08:14"
+          "title": "DR Congo short of health workers as it battles 'out-of-control' Ebola outbreak",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/dr-congo-short-of-health-workers-as-it-battles-out-of-control-ebola-outbreak-13591372",
+          "published_at": "10:31"
         },
         {
-          "title": "Judge dismisses Trump lawsuit against Iowa newspaper and pollster",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVEpPdUJ5TC1yOUdFakpUQ0FTcGprR05VaVdZR1RxdnNBa215dlFic3l5MzlMTmdnclpEbUUxMjdwazE3Nk1UbkdBbWc2NmpLWDBYVThheW1jNGlob0FIaVFubUREOUtNbUg5NGVULU1BOFp6eXZzdXdWRDNWR2JpR1pFSkYxMDNkdXVVRVcxWUd3bGJ0SHBnMFgtME8xLTF4dGI2VE1rVThFeGZHTFVfTWh1Y1c?oc=5",
-          "published_at": "23:31"
+          "title": "Congo is running short of health workers as Ebola remains out of control, WHO says",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/congo-running-short-health-workers-ebola-remains-control-136687041",
+          "published_at": "09:30"
         },
         {
-          "title": "Iowa judge dismisses Trump’s lawsuit against Des Moines Register and pollster",
+          "title": "Congo is running short of health workers as Ebola remains out of control, WHO says",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdEhlUzVLcF9GRUdVbzlVVENZcTB0NTVIdmJ4MTRHTm96TXFCUHZ4RnJQejlUSGhSZzNZX2FGbW1Mb1gxdzZjRnNpZHN4bUNQZS1jOWJpOFY2N21PSnFoTzkyOTlfd3JzYU0wUnl5R2x2Yk9zcUdURTVyMjRNUjVidEdMa1ZEd0VNcU5QWmJzOVhXUQ?oc=5",
-          "published_at": "23:08"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUzFyZGVSR2RjcUhRcV9nSWV6bl93QkJwZ0hhb3RoUlFaZTNMTUZpUXJyaVBKWl8zcFI4TVBaQmJYelFqRndUUldaOEFmOTZzYnRUTFNwRHJ1bUMtYkU2bmxLc1BjUG5oMEEtVUpsWmU5R0dkbG81UzNkbE1jOGJ1VHh1VUFoYTd6ZG82Yko0OW9zVy1IcGMtdFd1c0lOdw?oc=5",
+          "published_at": "08:46"
         }
       ]
     },
     {
-      "id": "world-273",
+      "id": "world-240",
+      "title": "Two North Korean soldiers captured by Ukraine sent to South Korea, Zelensky says",
+      "title_en": "Two North Korean soldiers captured by Ukraine sent to South Korea, Zelensky says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/asia/east-asia/ukraine-north-korea-soldiers-russia-south-korea-b3055460.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "President Volodymyr Zelensky of Ukraine said one soldier tried to kill himself when he was captured. “This is how they raise people in the North,” he said.",
+      "excerpt_en": "President Volodymyr Zelensky of Ukraine said one soldier tried to kill himself when he was captured. “This is how they raise people in the North,” he said.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/09/23/world/asia/ukraine-north-south-korea-pow-zelensky.html",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "New York Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T05:53:52+09:00",
+      "latest_published_at": "2026-09-24T16:40:45+09:00",
+      "articles": [
+        {
+          "title": "​Ukraine Sent Two North Korean P.O.W.s to South Korea, Zelensky Says",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/23/world/asia/ukraine-north-south-korea-pow-zelensky.html",
+          "published_at": "16:40"
+        },
+        {
+          "title": "Zelenskyy says Ukraine sent 2 North Korean prisoners of war to South Korea",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/zelenskyy-ukraine-2-north-korean-prisoners-war-south-136706303",
+          "published_at": "07:42"
+        },
+        {
+          "title": "Two North Korean soldiers captured by Ukraine sent to South Korea, Zelensky says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/asia/east-asia/ukraine-north-korea-soldiers-russia-south-korea-b3055460.html",
+          "published_at": "05:53"
+        }
+      ]
+    },
+    {
+      "id": "world-279",
       "title": "Gulf nations keep oil flowing despite Iran war as costs mount",
       "title_en": "Gulf nations keep oil flowing despite Iran war as costs mount",
       "title_source": "earliest_pick",
@@ -1510,26 +1349,127 @@
       ]
     },
     {
-      "id": "world-118",
-      "title": "Trump’s Board of Peace Lays Out 6-Month Plan for Gaza That Faces Roadblocks",
-      "title_en": "Trump’s Board of Peace Lays Out 6-Month Plan for Gaza That Faces Roadblocks",
+      "id": "world-373",
+      "title": "Navy admits there were 8 suicide attempts aboard the USS Lincoln during Iran war deployment",
+      "title_en": "Navy admits there were 8 suicide attempts aboard the USS Lincoln during Iran war deployment",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/23/world/board-of-peace-gaza-6-month-plan.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/us-navy-uss-abraham-lincoln-suicide-attempts-b3055424.html",
       "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "The board briefed donors on the sidelines of the U.N. General Assembly, where some world leaders have criticized Israel’s continued attacks and restrictions on humanitarian access in the Palestinian e",
-      "excerpt_en": "The board briefed donors on the sidelines of the U.N. General Assembly, where some world leaders have criticized Israel’s continued attacks and restrictions on humanitarian access in the Palestinian e",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/09/23/world/board-of-peace-gaza-6-month-plan.html",
+      "primary_source": "The Independent",
+      "excerpt": "The deployment kept sailors at sea for more than 250 consecutive days without port visits, setting a modern Navy record during months of combat operations in the Middle East",
+      "excerpt_en": "The deployment kept sailors at sea for more than 250 consecutive days without port visits, setting a modern Navy record during months of combat operations in the Middle East",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/us-navy-uss-abraham-lincoln-suicide-attempts-b3055424.html",
       "translation_status": "failed",
-      "score": 61,
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Euronews",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T02:07:06+09:00",
+      "latest_published_at": "2026-09-24T16:36:33+09:00",
+      "articles": [
+        {
+          "title": "8 US personnel attempted suicide aboard USS Lincoln during extended mission at sea amid Iran war",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/8-us-personnel-attempted-suicide-aboard-uss-lincoln-during-extended-mission-at-sea-amid-iran-war-101790265387358.html",
+          "published_at": "16:36"
+        },
+        {
+          "title": "US admits there were eight suicide attempts on US aircraft carrier during record Middle East deployment",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/24/us-admits-there-were-eight-suicide-attempts-on-us-aircraft-carrier-during-record-middle-ea",
+          "published_at": "08:38"
+        },
+        {
+          "title": "Navy admits there were 8 suicide attempts aboard the USS Lincoln during Iran war deployment",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-navy-uss-abraham-lincoln-suicide-attempts-b3055424.html",
+          "published_at": "02:07"
+        }
+      ]
+    },
+    {
+      "id": "world-251",
+      "title": "Families Urge Trump to Press Xi to Free Americans Detained in China",
+      "title_en": "Families Urge Trump to Press Xi to Free Americans Detained in China",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/09/24/world/asia/china-xi-trump-detained-americans.html",
+      "category": "아시아",
+      "primary_source": "New York Times",
+      "excerpt": "The Americans being held in China are U Min Zin, a scholar who studied Myanmar, and Youlin Chen, a seismologist who researched North Korean nuclear tests.",
+      "excerpt_en": "The Americans being held in China are U Min Zin, a scholar who studied Myanmar, and Youlin Chen, a seismologist who researched North Korean nuclear tests.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/09/24/world/asia/china-xi-trump-detained-americans.html",
+      "translation_status": "failed",
+      "score": 65,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 49
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "New York Times"
+      ],
+      "first_published_at": "2026-09-24T09:54:05+09:00",
+      "latest_published_at": "2026-09-24T20:21:45+09:00",
+      "articles": [
+        {
+          "title": "North Korea rejects call to halt nuclear tests",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/north-korea-nuclear-test-ban-reject-6409251",
+          "published_at": "20:21"
+        },
+        {
+          "title": "Families Urge Trump to Press Xi to Free Americans Detained in China",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/asia/china-xi-trump-detained-americans.html",
+          "published_at": "09:54"
+        }
+      ]
+    },
+    {
+      "id": "world-109",
+      "title": "Netanyahu defends Israeli military actions in Middle East in UN speech",
+      "title_en": "Netanyahu defends Israeli military actions in Middle East in UN speech",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+      "category": "중동",
+      "primary_source": "BBC",
+      "excerpt": "In a combative speech, the prime minister defended Israeli military action across the Middle East, and attacked Mayor Zohran Mamdani of New York. Dozens of delegates walked out of the hall as he took ",
+      "excerpt_en": "In a combative speech, the prime minister defended Israeli military action across the Middle East, and attacked Mayor Zohran Mamdani of New York. Dozens of delegates walked out of the hall as he took ",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
+      "translation_status": "failed",
+      "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 3,
+        "raw75": 47
       },
       "area_value": 2,
       "article_count": 2,
@@ -1539,82 +1479,188 @@
         "BBC",
         "New York Times"
       ],
-      "first_published_at": "2026-09-23T21:52:30+09:00",
-      "latest_published_at": "2026-09-24T10:11:15+09:00",
+      "first_published_at": "2026-09-24T21:21:47+09:00",
+      "latest_published_at": "2026-09-24T21:38:24+09:00",
       "articles": [
         {
-          "title": "Trump's Board of Peace unveils $2.45bn Gaza recovery plan",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
-          "published_at": "10:11"
+          "title": "U.N. Live Updates: Netanyahu Lashes Out at Critics and Underscores Threats to Israel",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
+          "published_at": "21:38"
         },
         {
-          "title": "Trump’s Board of Peace Lays Out 6-Month Plan for Gaza That Faces Roadblocks",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/23/world/board-of-peace-gaza-6-month-plan.html",
-          "published_at": "21:52"
+          "title": "Netanyahu defends Israeli military actions in Middle East in UN speech",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "21:21"
         }
       ]
     },
     {
-      "id": "world-209",
-      "title": "Boy, 11, dies days after being shot in the head at Sydney home",
-      "title_en": "Boy, 11, dies days after being shot in the head at Sydney home",
+      "id": "world-178",
+      "title": "Tigray rebels in ‘full-blown war’ with Ethiopian forces",
+      "title_en": "Tigray rebels in ‘full-blown war’ with Ethiopian forces",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-09-24/11-year-old-boy-shot-in-head-at-sydney-norwest-home-dies/107184260",
-      "category": "아시아",
-      "primary_source": "ABC News Australia",
-      "excerpt": "The 11-year-old died at Westmead children’s hospital three days after incident at a unit in Norwest Get our breaking news email , free app or daily news podcast A young boy who was allegedly shot at a",
-      "excerpt_en": "The 11-year-old died at Westmead children’s hospital three days after incident at a unit in Norwest Get our breaking news email , free app or daily news podcast A young boy who was allegedly shot at a",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/sep/24/boy-11-shot-face-and-neck-sydney-dies-from-his-injuries-ntwnfb",
+      "title_url": "https://www.bangkokpost.com/world/3325405/tigray-rebels-in-fullblown-war-with-ethiopian-forces",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "In tonight's edition, Tigrayans in northern Ethiopia start panic buying supplies in the rush to stock up amidst fears that months of tensions have finally tipped over into full-blown conflict. Also, p",
+      "excerpt_en": "In tonight's edition, Tigrayans in northern Ethiopia start panic buying supplies in the rush to stock up amidst fears that months of tensions have finally tipped over into full-blown conflict. Also, p",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/tigray-rebels-in-full-blown-war-with-government",
       "translation_status": "failed",
-      "score": 61,
+      "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 3,
+        "raw75": 47
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "The Guardian"
+        "Bangkok Post",
+        "France24"
       ],
-      "first_published_at": "2026-09-24T12:03:31+09:00",
-      "latest_published_at": "2026-09-24T12:15:56+09:00",
+      "first_published_at": "2026-09-24T09:45:00+09:00",
+      "latest_published_at": "2026-09-24T20:23:08+09:00",
       "articles": [
         {
-          "title": "Boy, 11, shot in the face and neck in Sydney dies from his injuries",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/24/boy-11-shot-face-and-neck-sydney-dies-from-his-injuries-ntwnfb",
-          "published_at": "12:15"
+          "title": "Tigray rebels in 'full-blown' war with government",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/tigray-rebels-in-full-blown-war-with-government",
+          "published_at": "20:23"
         },
         {
-          "title": "Boy, 11, dies days after being shot in the head at Sydney home",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-24/11-year-old-boy-shot-in-head-at-sydney-norwest-home-dies/107184260",
-          "published_at": "12:03"
+          "title": "Tigray rebels in ‘full-blown war’ with Ethiopian forces",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3325405/tigray-rebels-in-fullblown-war-with-ethiopian-forces",
+          "published_at": "09:45"
         }
       ]
     },
     {
-      "id": "world-344",
-      "title": "China holding F-35 jet parts diverted to Hong Kong after leaving Australia",
-      "title_en": "China holding F-35 jet parts diverted to Hong Kong after leaving Australia",
+      "id": "world-229",
+      "title": "Mark Carney Interview: Canada’s Leader Lays Out Vision for Breaking Reliance on U.S.",
+      "title_en": "Mark Carney Interview: Canada’s Leader Lays Out Vision for Breaking Reliance on U.S.",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "UPS was shipping a cockpit canopy and weapons-bay door from an Australian F-35 to the US for inspection and possible repair or disposal.",
-      "excerpt_en": "UPS was shipping a cockpit canopy and weapons-bay door from an Australian F-35 to the US for inspection and possible repair or disposal.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://www.nytimes.com/2026/09/23/world/canada/mark-carney-canada-us-trump-tariffs.html",
+      "category": "미국",
+      "primary_source": "New York Times",
+      "excerpt": "As he tries to break Canada’s dependence on the United States, Prime Minister Mark Carney said he knows Canadians will feel pain from the trade war.",
+      "excerpt_en": "As he tries to break Canada’s dependence on the United States, Prime Minister Mark Carney said he knows Canadians will feel pain from the trade war.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/09/24/world/canada/carney-economy-trade-war.html",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "New York Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T12:30:05+09:00",
+      "latest_published_at": "2026-09-24T17:28:12+09:00",
+      "articles": [
+        {
+          "title": "Carney Says He Would Consider a Second Term, Depending on State of U.S.-Canada Relations",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/canada/carney-economy-trade-war.html",
+          "published_at": "17:28"
+        },
+        {
+          "title": "Canada made plans on what to do if Trump invaded, Mark Carney reveals",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-trump-invasion-plans-carney-b3055811.html",
+          "published_at": "15:54"
+        },
+        {
+          "title": "Mark Carney Interview: Canada’s Leader Lays Out Vision for Breaking Reliance on U.S.",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/23/world/canada/mark-carney-canada-us-trump-tariffs.html",
+          "published_at": "12:30"
+        }
+      ]
+    },
+    {
+      "id": "world-186",
+      "title": "REPLAY: Palestinian president Abbas addresses UN General Assembly",
+      "title_en": "REPLAY: Palestinian president Abbas addresses UN General Assembly",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/video/20260924-replay-palestinian-president-abbas-addresses-un-general-assembly",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "Palestinian President Mahmoud Abbas addressed the UN General Assembly on Thursday, delivering prerecorded remarks from his office in Ramallah after the United States denied him and other top Palestini",
+      "excerpt_en": "Palestinian President Mahmoud Abbas addressed the UN General Assembly on Thursday, delivering prerecorded remarks from his office in Ramallah after the United States denied him and other top Palestini",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20260924-threat-to-life-and-existence-major-takeaways-from-palestinian-president-s-un-speech",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "France24"
+      ],
+      "first_published_at": "2026-09-24T15:06:58+09:00",
+      "latest_published_at": "2026-09-24T18:45:00+09:00",
+      "articles": [
+        {
+          "title": "Israel policies threaten 'life and existence' of Palestinians, Abbas says",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3325845/israel-policies-threaten-life-and-existence-of-palestinians-abbas-says",
+          "published_at": "18:45"
+        },
+        {
+          "title": "Threat to 'life and existence': Major takeaways from Palestinian president's UN speech",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260924-threat-to-life-and-existence-major-takeaways-from-palestinian-president-s-un-speech",
+          "published_at": "15:09"
+        },
+        {
+          "title": "REPLAY: Palestinian president Abbas addresses UN General Assembly",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/video/20260924-replay-palestinian-president-abbas-addresses-un-general-assembly",
+          "published_at": "15:06"
+        }
+      ]
+    },
+    {
+      "id": "world-232",
+      "title": "Eviction of pensioner puts Spain housing crisis in spotlight",
+      "title_en": "Eviction of pensioner puts Spain housing crisis in spotlight",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3325440/eviction-of-pensioner-puts-spain-housing-crisis-in-spotlight",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "The eviction of an 87-year-old from her Madrid home has highlighted a political paralysis that has thwarted efforts to resolve Spain’s chronic housing crisis, fuelling debate before next year’s electi",
+      "excerpt_en": "The eviction of an 87-year-old from her Madrid home has highlighted a political paralysis that has thwarted efforts to resolve Spain’s chronic housing crisis, fuelling debate before next year’s electi",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368712/spains-housing-crisis-spotlight-eviction-pensioner-87?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 61,
       "score_breakdown": {
@@ -1630,35 +1676,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Hindustan Times",
-        "Sydney Morning Herald",
-        "The Independent"
+        "Bangkok Post",
+        "New York Times",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-24T04:52:54+09:00",
-      "latest_published_at": "2026-09-24T07:59:07+09:00",
+      "first_published_at": "2026-09-24T14:45:00+09:00",
+      "latest_published_at": "2026-09-24T16:13:34+09:00",
       "articles": [
         {
-          "title": "Did F-35 parts headed for US land in Chinese possession? Big jet mystery looms ahead of Trump-Xi talks",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/f35-jet-parts-headed-for-us-in-chinese-possession-mystery-looms-ahead-of-donald-trump-xi-jinping-talks-washington-101790232693239.html",
-          "published_at": "07:59"
+          "title": "Forced Eviction of 87-Year-Old Woman Spurs Outrage in Spain",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/europe/spain-eviction-sanchez.html",
+          "published_at": "16:13"
         },
         {
-          "title": "F-35 stealth jet parts diverted to Hong Kong in major security blunder",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/f-35-stealth-parts-hong-kong-china-b3055535.html",
-          "published_at": "07:45"
+          "title": "Spain’s housing crisis in spotlight with eviction of pensioner, 87",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3368712/spains-housing-crisis-spotlight-eviction-pensioner-87?utm_source=rss_feed",
+          "published_at": "14:56"
         },
         {
-          "title": "China holding F-35 jet parts diverted to Hong Kong after leaving Australia",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "04:52"
+          "title": "Eviction of pensioner puts Spain housing crisis in spotlight",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3325440/eviction-of-pensioner-puts-spain-housing-crisis-in-spotlight",
+          "published_at": "14:45"
         }
       ]
     },
     {
-      "id": "world-386",
+      "id": "world-410",
       "title": "Pak says it struck 10 Afghanistan sites allegedly used to launch drone attacks",
       "title_en": "Pak says it struck 10 Afghanistan sites allegedly used to launch drone attacks",
       "title_source": "earliest_pick",
@@ -1705,24 +1751,24 @@
       ]
     },
     {
-      "id": "world-247",
-      "title": "'Send in the Clowns' plays as Marco Rubio enters ceremony",
-      "title_en": "'Send in the Clowns' plays as Marco Rubio enters ceremony",
+      "id": "world-104",
+      "title": "ICE agents leave bloody US citizen on sidewalk after mistaking him for a fugitive",
+      "title_en": "ICE agents leave bloody US citizen on sidewalk after mistaking him for a fugitive",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/send-in-the-clowns-plays-as-marco-rubio-enters-ceremony-20260924-p6104g.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "중동",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "Secretary of State Marco Rubio said that U.S. negotiators had restarted conversations about Iran’s nuclear program, but that there were no breakthroughs.",
-      "excerpt_en": "Secretary of State Marco Rubio said that U.S. negotiators had restarted conversations about Iran’s nuclear program, but that there were no breakthroughs.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/09/23/us/politics/trump-aides-iran-talks.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/evanston-ice-agents-injure-citizen-b3055634.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "US citizen injured in Illinois after ICE agents mistook him for fugitive and tried to arrest him apnews.com",
+      "excerpt_en": "US citizen injured in Illinois after ICE agents mistook him for fugitive and tried to arrest him apnews.com",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkdpUFRoWUZvQThZQnlBWU80bUo5emZfdUpTOHFESjRNZHU5TU1QWGxNQlhhb2lxa01IdkswR2x1OFBFRzZqRUhGME41M2sycHpWdVBwdGNsN0NtRHA1VlpiQ3ZJc2N2YS1GaWpUY1BzbzQzOFg2RXhFWmhHTW5ONDkyRXk2T014T3JFRVUwb3c0aGFDM1RpdzVoV2EzZ0lDdjdFYjJMbjQtR09wWHBOTlluT001Zw?oc=5",
       "translation_status": "failed",
       "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 9,
+        "major_score": 15,
+        "breaking_score": 4,
         "time_score": 2,
         "raw75": 43
       },
@@ -1731,28 +1777,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "New York Times",
-        "Sydney Morning Herald"
+        "AP News",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-24T00:11:22+09:00",
-      "latest_published_at": "2026-09-24T10:48:56+09:00",
+      "first_published_at": "2026-09-24T14:51:05+09:00",
+      "latest_published_at": "2026-09-24T17:01:00+09:00",
       "articles": [
         {
-          "title": "Trump Aides Seek to Jump-Start Diplomacy With Iran as Crisis Widens",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/23/us/politics/trump-aides-iran-talks.html",
-          "published_at": "10:48"
+          "title": "US citizen injured in Illinois after ICE agents mistook him for fugitive and tried to arrest him",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkdpUFRoWUZvQThZQnlBWU80bUo5emZfdUpTOHFESjRNZHU5TU1QWGxNQlhhb2lxa01IdkswR2x1OFBFRzZqRUhGME41M2sycHpWdVBwdGNsN0NtRHA1VlpiQ3ZJc2N2YS1GaWpUY1BzbzQzOFg2RXhFWmhHTW5ONDkyRXk2T014T3JFRVUwb3c0aGFDM1RpdzVoV2EzZ0lDdjdFYjJMbjQtR09wWHBOTlluT001Zw?oc=5",
+          "published_at": "17:01"
         },
         {
-          "title": "'Send in the Clowns' plays as Marco Rubio enters ceremony",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/send-in-the-clowns-plays-as-marco-rubio-enters-ceremony-20260924-p6104g.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "00:11"
+          "title": "ICE agents leave bloody US citizen on sidewalk after mistaking him for a fugitive",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/evanston-ice-agents-injure-citizen-b3055634.html",
+          "published_at": "14:51"
         }
       ]
     },
     {
-      "id": "world-334",
+      "id": "world-135",
+      "title": "Tigrayan Forces Mobilize Against the Central Government in Ethiopia",
+      "title_en": "Tigrayan Forces Mobilize Against the Central Government in Ethiopia",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
+      "category": "기타",
+      "primary_source": "New York Times",
+      "excerpt": "Tigray People’s Liberation Front seized a key airport in the city of Mekelle, as fears grow of a possible return to a full-scale war.",
+      "excerpt_en": "Tigray People’s Liberation Front seized a key airport in the city of Mekelle, as fears grow of a possible return to a full-scale war.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "New York Times"
+      ],
+      "first_published_at": "2026-09-24T07:30:03+09:00",
+      "latest_published_at": "2026-09-24T18:19:03+09:00",
+      "articles": [
+        {
+          "title": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates?traffic_source=rss",
+          "published_at": "18:19"
+        },
+        {
+          "title": "Tigrayan Forces Mobilize Against the Central Government in Ethiopia",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
+          "published_at": "07:30"
+        }
+      ]
+    },
+    {
+      "id": "world-353",
       "title": "One dead and four wounded after stabbing at Catholic convent in Poland",
       "title_en": "One dead and four wounded after stabbing at Catholic convent in Poland",
       "title_source": "earliest_pick",
@@ -1799,17 +1892,64 @@
       ]
     },
     {
-      "id": "world-181",
-      "title": "REPLAY: Palestinian president Abbas addresses UN General Assembly",
-      "title_en": "REPLAY: Palestinian president Abbas addresses UN General Assembly",
+      "id": "world-231",
+      "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
+      "title_en": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/video/20260924-replay-palestinian-president-abbas-addresses-un-general-assembly",
+      "title_url": "https://www.nytimes.com/2026/09/24/world/middleeast/saudi-arabia-houthi-missile-attack-yemen-war.html",
       "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "Palestinian President Mahmoud Abbas addressed the UN General Assembly on Thursday, delivering prerecorded remarks from his office in Ramallah after the United States denied him and other top Palestini",
-      "excerpt_en": "Palestinian President Mahmoud Abbas addressed the UN General Assembly on Thursday, delivering prerecorded remarks from his office in Ramallah after the United States denied him and other top Palestini",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20260924-threat-to-life-and-existence-major-takeaways-from-palestinian-president-s-un-speech",
+      "primary_source": "New York Times",
+      "excerpt": "Saudi Arabia intercepted six Houthi ballistic missiles as Prince Faisal bin Farhan Al Saud urged global action to protect Red Sea shipping routes.",
+      "excerpt_en": "Saudi Arabia intercepted six Houthi ballistic missiles as Prince Faisal bin Farhan Al Saud urged global action to protect Red Sea shipping routes.",
+      "excerpt_source": "Fox News",
+      "excerpt_url": "https://www.foxnews.com/world/saudi-foreign-minister-warns-houthi-threat-goes-global-trump-holds-fire",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Fox News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-09-24T17:05:06+09:00",
+      "latest_published_at": "2026-09-24T20:51:53+09:00",
+      "articles": [
+        {
+          "title": "Saudi foreign minister warns Houthi threat goes global as Trump holds fire",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/saudi-foreign-minister-warns-houthi-threat-goes-global-trump-holds-fire",
+          "published_at": "20:51"
+        },
+        {
+          "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/saudi-arabia-houthi-missile-attack-yemen-war.html",
+          "published_at": "17:05"
+        }
+      ]
+    },
+    {
+      "id": "world-361",
+      "title": "‘Let’s not call him a man…’: Nolan Wells' mom speaks out amid plans to release cellphone report",
+      "title_en": "‘Let’s not call him a man…’: Nolan Wells' mom speaks out amid plans to release cellphone report",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/lets-not-call-him-a-man-nolan-wells-mom-speaks-out-after-grand-jury-decision-as-ben-crump-plans-release-of-cellphon-101790237424795.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The family of Nolan Wells is continuing to release pieces of their independent investigation, as they push for transparency from local investigators and for federal authorities to investigate",
+      "excerpt_en": "The family of Nolan Wells is continuing to release pieces of their independent investigation, as they push for transparency from local investigators and for federal authorities to investigate",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/ben-crump-nolan-wells-mississippi-grand-jury-autopsy-b3055581.html",
       "translation_status": "failed",
       "score": 56,
       "score_breakdown": {
@@ -1825,138 +1965,44 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
+        "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-09-24T15:06:58+09:00",
-      "latest_published_at": "2026-09-24T16:21:26+09:00",
+      "first_published_at": "2026-09-24T08:16:41+09:00",
+      "latest_published_at": "2026-09-24T21:01:10+09:00",
       "articles": [
         {
-          "title": "Iran-US war latest: Israel created ‘human catastrophe’ Palestinian president tells UN ahead of Netanyahu speech",
+          "title": "Nolan Wells case update: New autopsy detail disputes 'drowning' claim; phone data raises new questions",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nolan-wells-case-update-new-autopsy-detail-disputes-drowning-claim-phone-data-raises-new-questions-101790280372904.html",
+          "published_at": "21:01"
+        },
+        {
+          "title": "Nolan Wells death cover-up claims grow as family demands Trump’s DOJ step in",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-threats-un-speech-hormuz-strikes-b3055449.html",
-          "published_at": "16:21"
+          "url": "https://www.independent.co.uk/news/world/americas/crime/ben-crump-nolan-wells-mississippi-grand-jury-autopsy-b3055581.html",
+          "published_at": "08:47"
         },
         {
-          "title": "Threat to 'life and existence': Major takeaways from Palestinian president's UN speech",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260924-threat-to-life-and-existence-major-takeaways-from-palestinian-president-s-un-speech",
-          "published_at": "15:09"
-        },
-        {
-          "title": "REPLAY: Palestinian president Abbas addresses UN General Assembly",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20260924-replay-palestinian-president-abbas-addresses-un-general-assembly",
-          "published_at": "15:06"
+          "title": "‘Let’s not call him a man…’: Nolan Wells' mom speaks out amid plans to release cellphone report",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/lets-not-call-him-a-man-nolan-wells-mom-speaks-out-after-grand-jury-decision-as-ben-crump-plans-release-of-cellphon-101790237424795.html",
+          "published_at": "08:16"
         }
       ]
     },
     {
-      "id": "world-1",
-      "title": "MS NOW and CNN says they have been granted access to White House",
-      "title_en": "MS NOW and CNN says they have been granted access to White House",
+      "id": "world-0",
+      "title": "Anthropic signs $11.6 billion cloud deal with Akamai, gets warrant for up to 5% stake",
+      "title_en": "Anthropic signs $11.6 billion cloud deal with Akamai, gets warrant for up to 5% stake",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalFGTFRpbncxTmxyaFA0M1FwbF9CNHJEbTNLNzlfOFVYN1h2MXB3ZnA2ZEpCSGFtS3RVVlduWGl4dk9kVTI4RFJLRFFaeC15TXcyc3dXQ0xQUmRDOE5peUtwS3hpYWtzV2Nwcl85T2ZHS1lYREs5ekh4UlFhcHNwVmdIcnVOVXNHRHB3MDZPR2gyU0ZGdEI4QkhHQUx0dTB1blFfOUN5ZUh5SXBSTi0zaWdJRmRwbVU?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "A federal judge has ordered President Trump to restore White House access to CNN, MS NOW and Politico after he banned the media outlets from the premises. Hours later, the media announced they had bee",
-      "excerpt_en": "A federal judge has ordered President Trump to restore White House access to CNN, MS NOW and Politico after he banned the media outlets from the premises. Hours later, the media announced they had bee",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/cnn-ms-now-politico-regain-access-to-white-house/a-79405693?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T16:14:51+09:00",
-      "latest_published_at": "2026-09-24T16:41:00+09:00",
-      "articles": [
-        {
-          "title": "CNN, MS NOW, Politico regain access to White House",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/cnn-ms-now-politico-regain-access-to-white-house/a-79405693?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "16:41"
-        },
-        {
-          "title": "MS NOW and CNN says they have been granted access to White House",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalFGTFRpbncxTmxyaFA0M1FwbF9CNHJEbTNLNzlfOFVYN1h2MXB3ZnA2ZEpCSGFtS3RVVlduWGl4dk9kVTI4RFJLRFFaeC15TXcyc3dXQ0xQUmRDOE5peUtwS3hpYWtzV2Nwcl85T2ZHS1lYREs5ekh4UlFhcHNwVmdIcnVOVXNHRHB3MDZPR2gyU0ZGdEI4QkhHQUx0dTB1blFfOUN5ZUh5SXBSTi0zaWdJRmRwbVU?oc=5",
-          "published_at": "16:14"
-        }
-      ]
-    },
-    {
-      "id": "world-11",
-      "title": "White House reinstates access for US media following judge's order",
-      "title_en": "White House reinstates access for US media following judge's order",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-09-25/reporters-still-barred-from-house/107193740",
-      "category": "미국",
-      "primary_source": "ABC News Australia",
-      "excerpt": "The White House has reinstated journalists from CNN, MS Now and Politico after a federal judge deemed Donald Trump's ban of the outlets was likely unconstitutional and ordered access to be immediately",
-      "excerpt_en": "The White House has reinstated journalists from CNN, MS Now and Politico after a federal judge deemed Donald Trump's ban of the outlets was likely unconstitutional and ordered access to be immediately",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-25/reporters-still-barred-from-house/107193740",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T14:10:18+09:00",
-      "latest_published_at": "2026-09-24T17:48:17+09:00",
-      "articles": [
-        {
-          "title": "White House reinstates access to CNN, MS NOW and Politico following judge's order",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGZDelJBRHdvcFBwNGNlTGwxdVNHNnk1UmhJeDZUZWd2Y3o4ZGw4QTVaM2VrT21MQWt2eUUyR2c5cnR3ckdadDZNS0RSdUpLX1FVMHpqU1B3aWVyeGs3aGp0RE44R2JoRG55QlhiUWRQOWRhUGtoZ1ZoMlhydDJOQlRPU2JkbldsaDB4UUc3TVJxU2xwMFVvbHlMNG1UOHNPWUUzSmVaVHFCR1Y0SmJvRmFSNFVDU3JyNHdhTkp0a1RuQmEzWjNrcw?oc=5",
-          "published_at": "17:48"
-        },
-        {
-          "title": "White House reinstates access for US media following judge's order",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-25/reporters-still-barred-from-house/107193740",
-          "published_at": "14:10"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "Oracle cites 'force majeure' to shield itself on data center, Bloomberg News reports",
-      "title_en": "Oracle cites 'force majeure' to shield itself on data center, Bloomberg News reports",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/oracle-cites-force-majeure-shield-itself-data-center-bloomberg-news-reports-6408541",
+      "title_url": "https://www.channelnewsasia.com/business/anthropic-signs-116-billion-cloud-deal-akamai-gets-warrant-up-5-stake-6409301",
       "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Oracle cites 'force majeure' to shield itself on data center, Bloomberg News reports Reuters",
-      "excerpt_en": "Oracle cites 'force majeure' to shield itself on data center, Bloomberg News reports Reuters",
+      "excerpt": "Akamai, Anthropic sign $11.6 billion cloud services deal Reuters",
+      "excerpt_en": "Akamai, Anthropic sign $11.6 billion cloud services deal Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanVpUjFYbXpXWHdEU1NlRFlfZnI5a0Y2OVlzYUkya2tBR3hOY05ZTk05ZVZrWUZqcmttYjV3b2x6d01iTUFIZ095a1lQbkFCbTZFVGJzd2tUM1NkcWtOV3B2X1VpMGpkSVlGOW13ZU0xd3BjUm1paldVNHpYVllpN0UwQ3ZkUGk0R3AtaWx3SDJFaXdEUkdmeHRlT3M0Tk10LWc?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1975,25 +2021,307 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-09-24T12:48:13+09:00",
-      "latest_published_at": "2026-09-24T16:23:08+09:00",
+      "first_published_at": "2026-09-24T20:11:04+09:00",
+      "latest_published_at": "2026-09-24T20:11:23+09:00",
       "articles": [
         {
-          "title": "Oracle cites 'force majeure' to shield itself on data center, Bloomberg News reports",
+          "title": "Akamai, Anthropic sign $11.6 billion cloud services deal",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWZqSDVjdjZZaURFZ3VZNzlrRzdIZzE1MDRPNkNlQjRsbmlzLWdzUTRqTEFVdnNCS1czRkNrbVZTbzFHa1B2Nm51ZWRKSUUxMm41M05DWWw5WlQwZWhsR0duLVMzS1lXekZ1enFyS0VpcHRUTTduUVZtVnhXRDZRTVpHN0ZfUnhjUVVCbkNMeTAtZHdmOVpwUXpyZDNDY00zRVVyM1dyVG5fMTJ6RzE5XzBFTHU2YTNtMDdmdjh3?oc=5",
-          "published_at": "16:23"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanVpUjFYbXpXWHdEU1NlRFlfZnI5a0Y2OVlzYUkya2tBR3hOY05ZTk05ZVZrWUZqcmttYjV3b2x6d01iTUFIZ095a1lQbkFCbTZFVGJzd2tUM1NkcWtOV3B2X1VpMGpkSVlGOW13ZU0xd3BjUm1paldVNHpYVllpN0UwQ3ZkUGk0R3AtaWx3SDJFaXdEUkdmeHRlT3M0Tk10LWc?oc=5",
+          "published_at": "20:11"
         },
         {
-          "title": "Oracle cites 'force majeure' to shield itself on data center, Bloomberg News reports",
+          "title": "Anthropic signs $11.6 billion cloud deal with Akamai, gets warrant for up to 5% stake",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/oracle-cites-force-majeure-shield-itself-data-center-bloomberg-news-reports-6408541",
-          "published_at": "12:48"
+          "url": "https://www.channelnewsasia.com/business/anthropic-signs-116-billion-cloud-deal-akamai-gets-warrant-up-5-stake-6409301",
+          "published_at": "20:11"
         }
       ]
     },
     {
-      "id": "world-37",
+      "id": "world-10",
+      "title": "US senators delay effort to permanently ban Chinese cars",
+      "title_en": "US senators delay effort to permanently ban Chinese cars",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaENSMVJIRkFMV2ZDN01WR3R6SjZwY1BnQzhndHp6NlhLMEtORUliZUVBYmI0SWJiMlY5ckg3Z1c4a1lmYlhLUm13dy05Q2RfaDZPeHFhUElUeUNIYkZpTGExLWhaMHRlTWtIZFBOSnI4bXNESmZmN3cxR1ZqUHpPUFFRZ1diNkJyR1YtYWFGaUdvRWtWZ28tQ2dYNnpwTVY2NUNHRQ?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "The two US senators backing a permanent legislative ban on Chinese cars in the United States agreed on Thursday to delay their plan to use a fast track procedure to win Senate approval until next week",
+      "excerpt_en": "The two US senators backing a permanent legislative ban on Chinese cars in the United States agreed on Thursday to delay their plan to use a fast track procedure to win Senate approval until next week",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/us/economy-trade-business/article/3368721/us-senators-delay-effort-permanently-ban-chinese-cars?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-24T18:22:00+09:00",
+      "latest_published_at": "2026-09-24T20:30:27+09:00",
+      "articles": [
+        {
+          "title": "US senators delay effort to permanently ban Chinese cars",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/us/economy-trade-business/article/3368721/us-senators-delay-effort-permanently-ban-chinese-cars?utm_source=rss_feed",
+          "published_at": "20:30"
+        },
+        {
+          "title": "US senators delay effort to permanently ban Chinese cars",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaENSMVJIRkFMV2ZDN01WR3R6SjZwY1BnQzhndHp6NlhLMEtORUliZUVBYmI0SWJiMlY5ckg3Z1c4a1lmYlhLUm13dy05Q2RfaDZPeHFhUElUeUNIYkZpTGExLWhaMHRlTWtIZFBOSnI4bXNESmZmN3cxR1ZqUHpPUFFRZ1diNkJyR1YtYWFGaUdvRWtWZ28tQ2dYNnpwTVY2NUNHRQ?oc=5",
+          "published_at": "18:22"
+        }
+      ]
+    },
+    {
+      "id": "world-20",
+      "title": "New York files lawsuit against Polymarket, calling it an illegal gambling operation",
+      "title_en": "New York files lawsuit against Polymarket, calling it an illegal gambling operation",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/polymarket-new-york-lawsuit-illegal-gambling-b3056035.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "‘Polymarket was founded in a tiny NYC apartment and now has more than 350 employees here,’ Polymarket’s chief legal officer said",
+      "excerpt_en": "‘Polymarket was founded in a tiny NYC apartment and now has more than 350 employees here,’ Polymarket’s chief legal officer said",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/polymarket-new-york-lawsuit-illegal-gambling-b3056035.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T20:28:56+09:00",
+      "latest_published_at": "2026-09-24T20:32:17+09:00",
+      "articles": [
+        {
+          "title": "New York lawsuit says Polymarket's prediction markets are illegal gambling",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHBKRzNuRV9UcDlISEg4M2tsZURmLThPQW1ZbDMtRG91aDVLeWJJT2xsenpqbi11dENjOVp6TmpXWllXNTVmT1FFczRmY1U5YkVXVUZ6bTRIVUlSRWk5MnNDWWJobnoyU2dqSHAzR1pMaTJyR2NQa1QwQlBmX2pnUEx1ZG9oTGo2U3FDekFDYlJrVVltVG9TMmVleXNaNk5aLVVVS0VBSHk?oc=5",
+          "published_at": "20:32"
+        },
+        {
+          "title": "New York files lawsuit against Polymarket, calling it an illegal gambling operation",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/polymarket-new-york-lawsuit-illegal-gambling-b3056035.html",
+          "published_at": "20:28"
+        }
+      ]
+    },
+    {
+      "id": "world-66",
+      "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations",
+      "title_en": "Trump-Xi summit in Washington begins with great fanfare but low expectations",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFBtV0xyRTZ6QjVMdWVrcU5qb294UkxGZU9LTldydjd4UldJdlZxdjBOS29ucEt1emVQcWwzVjhUM2lXQlBobEJSOTRFNVpRaXhwRnVXNXFSZzI0Y1Q4NDRXLVQyTzJ5NVhGZ2h2V2FSNUdRemZ5blp3NGJ6eTlyVzhvZ3BpTEpRUHVzOW5HZ0s2TmFDU0VYNjFB?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "“We had a great meeting,” US President Donald Trump said after a bilateral meeting with Chinese President Xi Jinping, earlier hailing a “truly great friendship” with the Chinese leader.",
+      "excerpt_en": "“We had a great meeting,” US President Donald Trump said after a bilateral meeting with Chinese President Xi Jinping, earlier hailing a “truly great friendship” with the Chinese leader.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/trump-xi-jinping-meeting-summit-iran-taiwan-ai-6409161",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-24T05:02:00+09:00",
+      "latest_published_at": "2026-09-24T19:04:29+09:00",
+      "articles": [
+        {
+          "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-xi-jinping-meeting-summit-iran-taiwan-ai-6409161",
+          "published_at": "19:04"
+        },
+        {
+          "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFBtV0xyRTZ6QjVMdWVrcU5qb294UkxGZU9LTldydjd4UldJdlZxdjBOS29ucEt1emVQcWwzVjhUM2lXQlBobEJSOTRFNVpRaXhwRnVXNXFSZzI0Y1Q4NDRXLVQyTzJ5NVhGZ2h2V2FSNUdRemZ5blp3NGJ6eTlyVzhvZ3BpTEpRUHVzOW5HZ0s2TmFDU0VYNjFB?oc=5",
+          "published_at": "05:02"
+        }
+      ]
+    },
+    {
+      "id": "world-91",
+      "title": "Judge orders Trump to lift White House media ban on CNN, MS NOW and Politico",
+      "title_en": "Judge orders Trump to lift White House media ban on CNN, MS NOW and Politico",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-ban-judge-cnn-politico-b3055482.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "A US District judge has blocked the Trump administration from enforcing the ban for 14 days",
+      "excerpt_en": "A US District judge has blocked the Trump administration from enforcing the ban for 14 days",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-ban-judge-cnn-politico-b3055482.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-24T06:16:33+09:00",
+      "latest_published_at": "2026-09-24T21:29:00+09:00",
+      "articles": [
+        {
+          "title": "3 US news outlets return to White House after judge orders Trump to lift ban",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
+          "published_at": "21:29"
+        },
+        {
+          "title": "Judge orders Trump to lift White House media ban on CNN, MS NOW and Politico",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-media-ban-judge-cnn-politico-b3055482.html",
+          "published_at": "06:16"
+        }
+      ]
+    },
+    {
+      "id": "world-211",
+      "title": "Russia could attack a Nato country within months, Danish intelligence says",
+      "title_en": "Russia could attack a Nato country within months, Danish intelligence says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/world/2026/sep/24/russia-could-attack-a-nato-country-within-months-danish-intelligence-says",
+      "category": "유럽",
+      "primary_source": "The Guardian",
+      "excerpt": "Warning comes hours after Poland says fire at Starlink satellite station was ‘act of sabotage’ Russia could launch a limited military attack against a Nato country in the coming months, Danish intelli",
+      "excerpt_en": "Warning comes hours after Poland says fire at Starlink satellite station was ‘act of sabotage’ Russia could launch a limited military attack against a Nato country in the coming months, Danish intelli",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/24/russia-could-attack-a-nato-country-within-months-danish-intelligence-says",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Sky News",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-24T16:05:44+09:00",
+      "latest_published_at": "2026-09-24T17:08:00+09:00",
+      "articles": [
+        {
+          "title": "Russia could attack a NATO country within months, Danish intelligence warns",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/russia-likely-to-ramp-up-hybrid-warfare-against-the-west-in-coming-months-denmark-says-13591539",
+          "published_at": "17:08"
+        },
+        {
+          "title": "Russia could attack a Nato country within months, Danish intelligence says",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/24/russia-could-attack-a-nato-country-within-months-danish-intelligence-says",
+          "published_at": "16:05"
+        }
+      ]
+    },
+    {
+      "id": "world-3",
+      "title": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports",
+      "title_en": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/white-house-asks-openai-anthropic-hold-models-british-testers-politico-reports-6409141",
+      "category": "유럽",
+      "primary_source": "Channel News Asia",
+      "excerpt": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports Reuters",
+      "excerpt_en": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTGtLMFdBNFUtNmZrdmFoakY5SE1CNUFBRWt3TXVhTlZ1c0lLTGRQU3N1SzYzQ090dU9sNXBxVTZ5MUp0X21rY2tjd01xOGpRLWRDbmxSQ08weElDcG5ERU9yQ0ZJZXVWd2MzNGVHMi1xLThIWkhnWkdSc09XNEk5ZG05aG84U1ZuTTVsMnY3N2NLSTlYX3V0cm05UFAxZ2JUazV5c0tobk1kZnExSVRBMnZTdHhVMmd5WDRkTw?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-24T17:46:18+09:00",
+      "latest_published_at": "2026-09-24T18:10:04+09:00",
+      "articles": [
+        {
+          "title": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTGtLMFdBNFUtNmZrdmFoakY5SE1CNUFBRWt3TXVhTlZ1c0lLTGRQU3N1SzYzQ090dU9sNXBxVTZ5MUp0X21rY2tjd01xOGpRLWRDbmxSQ08weElDcG5ERU9yQ0ZJZXVWd2MzNGVHMi1xLThIWkhnWkdSc09XNEk5ZG05aG84U1ZuTTVsMnY3N2NLSTlYX3V0cm05UFAxZ2JUazV5c0tobk1kZnExSVRBMnZTdHhVMmd5WDRkTw?oc=5",
+          "published_at": "18:10"
+        },
+        {
+          "title": "White House asks OpenAI, Anthropic to hold models from British testers, Politico reports",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/white-house-asks-openai-anthropic-hold-models-british-testers-politico-reports-6409141",
+          "published_at": "17:46"
+        }
+      ]
+    },
+    {
+      "id": "world-45",
       "title": "BNP Paribas to keep sensitive data off public cloud despite Google deal",
       "title_en": "BNP Paribas to keep sensitive data off public cloud despite Google deal",
       "title_source": "earliest_pick",
@@ -2005,14 +2333,14 @@
       "excerpt_source": "Reuters",
       "excerpt_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS0tpcVVSV3JvbTJyTnVPbmdVMVplN1FBU3BadlRyTjgyN3FZQTdzZm5wUTRKVndNWEZnQjY1OFJXTzRvd1AzWUZyM0gtakJ3ck1sMHB6bFpBTklKTWZ4aTdDUXhObnFDc2pfZkZ5ak9HU29MSDJGYjhGVWJjYzgzQzlEbC1vLWlEWUJyWTVFMzNPenJDOFIwNGpCX0lxcWRpLWdIcWRpTTg4MC1EbV8wUi1KREFJRHJXRmJ0dVlB?oc=5",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -2040,289 +2368,7 @@
       ]
     },
     {
-      "id": "world-71",
-      "title": "Yields elevated as inflation fears keep markets on edge",
-      "title_en": "Yields elevated as inflation fears keep markets on edge",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Yields elevated as inflation fears keep markets on edge Reuters",
-      "excerpt_en": "Yields elevated as inflation fears keep markets on edge Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T01:48:00+09:00",
-      "latest_published_at": "2026-09-24T15:55:38+09:00",
-      "articles": [
-        {
-          "title": "Yields elevated as inflation fears keep markets on edge",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/yields-elevated-inflation-fears-keep-markets-edge-6408651",
-          "published_at": "15:55"
-        },
-        {
-          "title": "Yields elevated as inflation fears keep markets on edge",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
-          "published_at": "01:48"
-        }
-      ]
-    },
-    {
-      "id": "world-6",
-      "title": "Google plans first test of AI chips in space under Project Suncatcher",
-      "title_en": "Google plans first test of AI chips in space under Project Suncatcher",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/google-plans-first-test-ai-chips-in-space-under-project-suncatcher-6408686",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Google plans first test of AI chips in space under Project Suncatcher Reuters",
-      "excerpt_en": "Google plans first test of AI chips in space under Project Suncatcher Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmNaNWFQQUxEalIzZUJfLUMwcTFVUmw3c0hGMDJ5NllYa0RuZ0VyeFhiV0JWOTVvMk54ZmVXLWNjcFhhby1DM0g0U3gzc0VFRlJzTG13WmN3U2VZMTdDU3BhMkk2MDJGWHExQk5nQ1Z3YjJNdXRkcktQb1A2QXduMDJQcDZ1ZFhlT2VySzBrMEpDQVFJTE9GY0l5VHNVemoySU83Tm5Ma3pfNG5vNlY0MjBzUUFEaFoxaVJDWmRTbw?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T13:55:20+09:00",
-      "latest_published_at": "2026-09-24T14:11:34+09:00",
-      "articles": [
-        {
-          "title": "Google plans first test of AI chips in space under Project Suncatcher",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmNaNWFQQUxEalIzZUJfLUMwcTFVUmw3c0hGMDJ5NllYa0RuZ0VyeFhiV0JWOTVvMk54ZmVXLWNjcFhhby1DM0g0U3gzc0VFRlJzTG13WmN3U2VZMTdDU3BhMkk2MDJGWHExQk5nQ1Z3YjJNdXRkcktQb1A2QXduMDJQcDZ1ZFhlT2VySzBrMEpDQVFJTE9GY0l5VHNVemoySU83Tm5Ma3pfNG5vNlY0MjBzUUFEaFoxaVJDWmRTbw?oc=5",
-          "published_at": "14:11"
-        },
-        {
-          "title": "Google plans first test of AI chips in space under Project Suncatcher",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/google-plans-first-test-ai-chips-in-space-under-project-suncatcher-6408686",
-          "published_at": "13:55"
-        }
-      ]
-    },
-    {
-      "id": "world-12",
-      "title": "Morgan Stanley Asia deals leaked in missent email attachment",
-      "title_en": "Morgan Stanley Asia deals leaked in missent email attachment",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/morgan-stanley-deals-leaked-missent-email-6408671",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "A senior Morgan Stanley banker covering financial sponsors in Asia leaked the deals by accident via an email he sent to clients.",
-      "excerpt_en": "A senior Morgan Stanley banker covering financial sponsors in Asia leaked the deals by accident via an email he sent to clients.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/business/morgan-stanley-deals-leaked-missent-email-6408671",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T13:48:00+09:00",
-      "latest_published_at": "2026-09-24T15:19:09+09:00",
-      "articles": [
-        {
-          "title": "Morgan Stanley Asia deals leaked in missent email attachment",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSlFJZXJZckJCM3Bob0VyRjMwdE9zREZUUURfck9TVmIwM3NZZ2RzQjljbFE4dndKWFdjNEVjNmtfNWxCbUlnN3JJRlVWVHJ6Tll5eE5XdmJ0d0I4M1FoUW1UeVFBeHRCNENKSFNGeFFkd21lTTVFb0NLNFpaNkEzemhzTjFTdDl5Um1HbWZnLTFacFdGSkowM2tBN3VaUDhvSXlSQWt1RkZpRUpCalhTSWl0TQ?oc=5",
-          "published_at": "15:19"
-        },
-        {
-          "title": "Morgan Stanley Asia deals leaked in missent email attachment",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/morgan-stanley-deals-leaked-missent-email-6408671",
-          "published_at": "13:48"
-        }
-      ]
-    },
-    {
-      "id": "world-20",
-      "title": "Infantino looks set to stay, but FIFA faces a new war over power",
-      "title_en": "Infantino looks set to stay, but FIFA faces a new war over power",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/infantino-looks-set-stay-fifa-faces-new-war-over-power-6408596",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Infantino looks set to stay, but FIFA faces a new war over power Reuters",
-      "excerpt_en": "Infantino looks set to stay, but FIFA faces a new war over power Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ004UTM5QzNmUXhUZGRRcTZpQVRPYzltSXJaRHFlYWpLb3AyUFd6OUdxREFjRW1UcXVuaHhkRjQxc2cxX05qTDBLWXRnY1hGbEU0TG9JelZyUEpPVFpWQk00RWdNX1hjX09EZkhWMUYwb25RTkNoVGkxNXV4MFpYRlNqY3BWUUItZk15WHJjUHY4ZDZmYktyMVNKR0ZvMC1oMUlJOHJJbw?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-24T13:19:03+09:00",
-      "latest_published_at": "2026-09-24T14:27:39+09:00",
-      "articles": [
-        {
-          "title": "Infantino looks set to stay, but FIFA faces a new war over power",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ004UTM5QzNmUXhUZGRRcTZpQVRPYzltSXJaRHFlYWpLb3AyUFd6OUdxREFjRW1UcXVuaHhkRjQxc2cxX05qTDBLWXRnY1hGbEU0TG9JelZyUEpPVFpWQk00RWdNX1hjX09EZkhWMUYwb25RTkNoVGkxNXV4MFpYRlNqY3BWUUItZk15WHJjUHY4ZDZmYktyMVNKR0ZvMC1oMUlJOHJJbw?oc=5",
-          "published_at": "14:27"
-        },
-        {
-          "title": "Infantino looks set to stay, but FIFA faces a new war over power",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/infantino-looks-set-stay-fifa-faces-new-war-over-power-6408596",
-          "published_at": "13:19"
-        }
-      ]
-    },
-    {
-      "id": "world-48",
-      "title": "Judge blocks Trump's White House media ban, orders access to be restored",
-      "title_en": "Judge blocks Trump's White House media ban, orders access to be restored",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2V0SEZGX1dfSmIwdGdRLU4zTlFsdVlDa3dXeS1EVnczQV9yUzJIXzN3NVhvR2gzcVBMTFBkY0g2Qk1xWGladm51WVQ1ZkN6Q19MTDAySThlMjhYSzNKaFJYeXFaUnpZNUZ3SkRBcTRVaGFORElVUkdHZG16UXQxcUVuTjROUFFycnNuQi11VDNHdlVtcWZnNTk3bDE?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "A federal judge said Donald Trump’s ban on CNN, MS NOW and Politico was likely to be unconstitutional.",
-      "excerpt_en": "A federal judge said Donald Trump’s ban on CNN, MS NOW and Politico was likely to be unconstitutional.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/north-america/judge-temporarily-blocks-trump-s-white-house-media-ban-orders-access-to-be-restored-20260924-p610al.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-09-24T05:07:00+09:00",
-      "latest_published_at": "2026-09-24T06:13:01+09:00",
-      "articles": [
-        {
-          "title": "Judge temporarily blocks Trump’s White House media ban, orders access to be restored",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/judge-temporarily-blocks-trump-s-white-house-media-ban-orders-access-to-be-restored-20260924-p610al.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "06:13"
-        },
-        {
-          "title": "Judge blocks Trump's White House media ban, orders access to be restored",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2V0SEZGX1dfSmIwdGdRLU4zTlFsdVlDa3dXeS1EVnczQV9yUzJIXzN3NVhvR2gzcVBMTFBkY0g2Qk1xWGladm51WVQ1ZkN6Q19MTDAySThlMjhYSzNKaFJYeXFaUnpZNUZ3SkRBcTRVaGFORElVUkdHZG16UXQxcUVuTjROUFFycnNuQi11VDNHdlVtcWZnNTk3bDE?oc=5",
-          "published_at": "05:07"
-        }
-      ]
-    },
-    {
-      "id": "world-94",
-      "title": "US diplomats told to say ‘super intelligence’ — not ‘artificial intelligence’ — after Trump’s call",
-      "title_en": "US diplomats told to say ‘super intelligence’ — not ‘artificial intelligence’ — after Trump’s call",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWDBXSVlKYjVLV1hzNnphbmpRampOMGcxUDBCVDdfanV2QmNUWk5fTW5PMFJ1SzB1VUZUQ25GUG55YXgycE13eU5jSlNiUGk5MUZTSFhHQU9pSlJXX1g3Uk82QXc4YktHdVUycnF4OEplZWRyY2txSVZEQTBHMHU3VHhHSW9NUW9HdnUwelBYdHFFSWlhWnJyUVdTUWI4dE5IODNGY2NDZC0?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "The State Department is ordering diplomats in its international organizations bureau to use the term “super intelligence”",
-      "excerpt_en": "The State Department is ordering diplomats in its international organizations bureau to use the term “super intelligence”",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-state-department-super-intelligence-b3055544.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-23T23:45:00+09:00",
-      "latest_published_at": "2026-09-24T07:55:20+09:00",
-      "articles": [
-        {
-          "title": "Trump orders diplomats worldwide to start referring to AI as ‘super intelligence’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-state-department-super-intelligence-b3055544.html",
-          "published_at": "07:55"
-        },
-        {
-          "title": "US diplomats told to say ‘super intelligence’ — not ‘artificial intelligence’ — after Trump’s call",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWDBXSVlKYjVLV1hzNnphbmpRampOMGcxUDBCVDdfanV2QmNUWk5fTW5PMFJ1SzB1VUZUQ25GUG55YXgycE13eU5jSlNiUGk5MUZTSFhHQU9pSlJXX1g3Uk82QXc4YktHdVUycnF4OEplZWRyY2txSVZEQTBHMHU3VHhHSW9NUW9HdnUwelBYdHFFSWlhWnJyUVdTUWI4dE5IODNGY2NDZC0?oc=5",
-          "published_at": "23:45"
-        }
-      ]
-    },
-    {
-      "id": "world-100",
+      "id": "world-95",
       "title": "Venezuela's acting leader promises elections at the 'right moment'",
       "title_en": "Venezuela's acting leader promises elections at the 'right moment'",
       "title_source": "earliest_pick",
@@ -2369,54 +2415,7 @@
       ]
     },
     {
-      "id": "world-101",
-      "title": "Trump welcomes China's Xi to Washington with planeside ceremony and extension of trade truce",
-      "title_en": "Trump welcomes China's Xi to Washington with planeside ceremony and extension of trade truce",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR0RkaG5qaGdHbDlPcmdKVDdEMG5mdTlRa0tIQ3llODRmeGtlY0xuWmV1U1Jxd3lHQzI3ZjlFMHVLSzF1ODc2YmIzcjE5aDVDTHpUUTFiYU95Unh4Z01tc29pN21Kcm1JTGRxdE9PUWlrdTFiV0hVS1dQb3VuakxyV24wNWQySlBwUFBCbEc3V3d6VnVLTFpCX05Cc1NfcGJU?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "Trump welcomes China's Xi to Washington with planeside ceremony and extension of trade truce AP News",
-      "excerpt_en": "Trump welcomes China's Xi to Washington with planeside ceremony and extension of trade truce AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR0RkaG5qaGdHbDlPcmdKVDdEMG5mdTlRa0tIQ3llODRmeGtlY0xuWmV1U1Jxd3lHQzI3ZjlFMHVLSzF1ODc2YmIzcjE5aDVDTHpUUTFiYU95Unh4Z01tc29pN21Kcm1JTGRxdE9PUWlrdTFiV0hVS1dQb3VuakxyV24wNWQySlBwUFBCbEc3V3d6VnVLTFpCX05Cc1NfcGJU?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Al Jazeera"
-      ],
-      "first_published_at": "2026-09-24T00:41:00+09:00",
-      "latest_published_at": "2026-09-24T15:27:45+09:00",
-      "articles": [
-        {
-          "title": "Trump welcomes China’s Xi Jinping to White House",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-welcomes-chinas-xi-jinping-to-white-house?traffic_source=rss",
-          "published_at": "15:27"
-        },
-        {
-          "title": "Trump welcomes China's Xi to Washington with planeside ceremony and extension of trade truce",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR0RkaG5qaGdHbDlPcmdKVDdEMG5mdTlRa0tIQ3llODRmeGtlY0xuWmV1U1Jxd3lHQzI3ZjlFMHVLSzF1ODc2YmIzcjE5aDVDTHpUUTFiYU95Unh4Z01tc29pN21Kcm1JTGRxdE9PUWlrdTFiV0hVS1dQb3VuakxyV24wNWQySlBwUFBCbEc3V3d6VnVLTFpCX05Cc1NfcGJU?oc=5",
-          "published_at": "00:41"
-        }
-      ]
-    },
-    {
-      "id": "world-106",
+      "id": "world-100",
       "title": "Turkey will hand over key base in Iraq in a gradual troop withdrawal deal",
       "title_en": "Turkey will hand over key base in Iraq in a gradual troop withdrawal deal",
       "title_source": "earliest_pick",
@@ -2463,7 +2462,7 @@
       ]
     },
     {
-      "id": "world-214",
+      "id": "world-212",
       "title": "Accused Nazi POW camp guard, 105, being investigated in Germany",
       "title_en": "Accused Nazi POW camp guard, 105, being investigated in Germany",
       "title_source": "earliest_pick",
@@ -2510,54 +2509,7 @@
       ]
     },
     {
-      "id": "world-292",
-      "title": "Indonesia commissions first aircraft carrier, bolstering sea defence",
-      "title_en": "Indonesia commissions first aircraft carrier, bolstering sea defence",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3368625/indonesia-commissions-first-aircraft-carrier-bolstering-sea-defence?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Indonesia’s navy commissioned its first aircraft carrier on Thursday after acquiring the former Italian vessel to strengthen its maritime defences and disaster response. The Italian flag on the former",
-      "excerpt_en": "Indonesia’s navy commissioned its first aircraft carrier on Thursday after acquiring the former Italian vessel to strengthen its maritime defences and disaster response. The Italian flag on the former",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3368625/indonesia-commissions-first-aircraft-carrier-bolstering-sea-defence?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-24T07:52:49+09:00",
-      "latest_published_at": "2026-09-24T10:29:07+09:00",
-      "articles": [
-        {
-          "title": "Indonesia reflags a former Italian warship as its first aircraft carrier",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/indonesia-reflags-former-italian-warship-aircraft-carrier-136709810",
-          "published_at": "10:29"
-        },
-        {
-          "title": "Indonesia commissions first aircraft carrier, bolstering sea defence",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3368625/indonesia-commissions-first-aircraft-carrier-bolstering-sea-defence?utm_source=rss_feed",
-          "published_at": "07:52"
-        }
-      ]
-    },
-    {
-      "id": "world-343",
+      "id": "world-362",
       "title": "Lourdes: What to know about one of Catholicism’s most famous pilgrimage sites",
       "title_en": "Lourdes: What to know about one of Catholicism’s most famous pilgrimage sites",
       "title_source": "earliest_pick",
@@ -2604,17 +2556,111 @@
       ]
     },
     {
-      "id": "world-307",
-      "title": "Jim Copenhaver death: Man injured in Trump's Butler assassination attempt dies amid struggle with injuries",
-      "title_en": "Jim Copenhaver death: Man injured in Trump's Butler assassination attempt dies amid struggle with injuries",
+      "id": "world-64",
+      "title": "Judge blocks Trump's White House media ban, orders access to be restored",
+      "title_en": "Judge blocks Trump's White House media ban, orders access to be restored",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/james-jim-copenhaver-death-man-injured-in-trump-butler-assassination-attempt-dies-struggle-with-injuries-cause-101790269351405.html",
+      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2V0SEZGX1dfSmIwdGdRLU4zTlFsdVlDa3dXeS1EVnczQV9yUzJIXzN3NVhvR2gzcVBMTFBkY0g2Qk1xWGladm51WVQ1ZkN6Q19MTDAySThlMjhYSzNKaFJYeXFaUnpZNUZ3SkRBcTRVaGFORElVUkdHZG16UXQxcUVuTjROUFFycnNuQi11VDNHdlVtcWZnNTk3bDE?oc=5",
       "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "James \"Jim\" Copenhaver, 76, injured in the July 2024 Trump assassination attempt in Butler, PA, has died amid permanent injuries. No cause was announced.",
-      "excerpt_en": "James \"Jim\" Copenhaver, 76, injured in the July 2024 Trump assassination attempt in Butler, PA, has died amid permanent injuries. No cause was announced.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/james-jim-copenhaver-death-man-injured-in-trump-butler-assassination-attempt-dies-struggle-with-injuries-cause-101790269351405.html",
+      "primary_source": "Reuters",
+      "excerpt": "A federal judge said Donald Trump’s ban on CNN, MS NOW and Politico was likely to be unconstitutional.",
+      "excerpt_en": "A federal judge said Donald Trump’s ban on CNN, MS NOW and Politico was likely to be unconstitutional.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/judge-temporarily-blocks-trump-s-white-house-media-ban-orders-access-to-be-restored-20260924-p610al.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-24T05:07:00+09:00",
+      "latest_published_at": "2026-09-24T06:13:01+09:00",
+      "articles": [
+        {
+          "title": "Judge temporarily blocks Trump’s White House media ban, orders access to be restored",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/judge-temporarily-blocks-trump-s-white-house-media-ban-orders-access-to-be-restored-20260924-p610al.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "06:13"
+        },
+        {
+          "title": "Judge blocks Trump's White House media ban, orders access to be restored",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2V0SEZGX1dfSmIwdGdRLU4zTlFsdVlDa3dXeS1EVnczQV9yUzJIXzN3NVhvR2gzcVBMTFBkY0g2Qk1xWGladm51WVQ1ZkN6Q19MTDAySThlMjhYSzNKaFJYeXFaUnpZNUZ3SkRBcTRVaGFORElVUkdHZG16UXQxcUVuTjROUFFycnNuQi11VDNHdlVtcWZnNTk3bDE?oc=5",
+          "published_at": "05:07"
+        }
+      ]
+    },
+    {
+      "id": "world-106",
+      "title": "What to know about the agreement signed by President Trump and the leaders of Denmark and Greenland",
+      "title_en": "What to know about the agreement signed by President Trump and the leaders of Denmark and Greenland",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWjctdkJnWHFsSmQwdUlvVXJ6UlF1MFdzR2tYZUdDVFV6QmpxZU1ZVnFEZ2VJMU9RdG1WcWVGUFNQWFYtT3pCNTZfOFlJaXhRbXhWRzRjZThnLWxiREN4VnFPLTU0eUVjeEJnZHI1YmNmekJmc1lRWEdReDk0SzBUSlBfRDVMakZVTS1YcGdBNEkzOUt4XzkyZkFqZkZ2VWg1anc?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "U.S. President Donald Trump and the leaders of Denmark and Greenland have signed an agreement about Greenland's status",
+      "excerpt_en": "U.S. President Donald Trump and the leaders of Denmark and Greenland have signed an agreement about Greenland's status",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/agreement-signed-president-trump-leaders-denmark-greenland-136678876",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-09-24T02:19:00+09:00",
+      "latest_published_at": "2026-09-24T02:58:15+09:00",
+      "articles": [
+        {
+          "title": "What to know about the agreement signed by President Trump and the leaders of Denmark and Greenland",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/agreement-signed-president-trump-leaders-denmark-greenland-136678876",
+          "published_at": "02:58"
+        },
+        {
+          "title": "What to know about the agreement signed by President Trump and the leaders of Denmark and Greenland",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWjctdkJnWHFsSmQwdUlvVXJ6UlF1MFdzR2tYZUdDVFV6QmpxZU1ZVnFEZ2VJMU9RdG1WcWVGUFNQWFYtT3pCNTZfOFlJaXhRbXhWRzRjZThnLWxiREN4VnFPLTU0eUVjeEJnZHI1YmNmekJmc1lRWEdReDk0SzBUSlBfRDVMakZVTS1YcGdBNEkzOUt4XzkyZkFqZkZ2VWg1anc?oc=5",
+          "published_at": "02:19"
+        }
+      ]
+    },
+    {
+      "id": "world-126",
+      "title": "Actors Susan Sarandon, Hannah Einbinder among detained protestors outside Netanyahu's UN speech",
+      "title_en": "Actors Susan Sarandon, Hannah Einbinder among detained protestors outside Netanyahu's UN speech",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/entertainment/benjamin-netanyahu-un-speech-celebrities-detained-new-york-city-9.7357238?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "Actors Susan Sarandon and Hannah Einbinder were among the protestors detained in New York City on Thursday as Israel Prime Minister Benjamin Netanyahu delivered a speech to the United Nations General ",
+      "excerpt_en": "Actors Susan Sarandon and Hannah Einbinder were among the protestors detained in New York City on Thursday as Israel Prime Minister Benjamin Netanyahu delivered a speech to the United Nations General ",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/entertainment/benjamin-netanyahu-un-speech-celebrities-detained-new-york-city-9.7357238?cmp=rss",
       "translation_status": "failed",
       "score": 52,
       "score_breakdown": {
@@ -2630,17 +2676,64 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
+        "Al Jazeera",
+        "CBC"
+      ],
+      "first_published_at": "2026-09-24T19:45:02+09:00",
+      "latest_published_at": "2026-09-24T21:15:56+09:00",
+      "articles": [
+        {
+          "title": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
+          "published_at": "21:15"
+        },
+        {
+          "title": "Actors Susan Sarandon, Hannah Einbinder among detained protestors outside Netanyahu's UN speech",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/entertainment/benjamin-netanyahu-un-speech-celebrities-detained-new-york-city-9.7357238?cmp=rss",
+          "published_at": "19:45"
+        }
+      ]
+    },
+    {
+      "id": "world-323",
+      "title": "Jim Copenhaver death: Man injured in Trump's Butler assassination attempt dies amid struggle with injuries",
+      "title_en": "Jim Copenhaver death: Man injured in Trump's Butler assassination attempt dies amid struggle with injuries",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/james-jim-copenhaver-death-man-injured-in-trump-butler-assassination-attempt-dies-struggle-with-injuries-cause-101790269351405.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "James \"Jim\" Copenhaver, 76, injured in the July 2024 Trump assassination attempt in Butler, PA, has died amid permanent injuries. No cause was announced.",
+      "excerpt_en": "James \"Jim\" Copenhaver, 76, injured in the July 2024 Trump assassination attempt in Butler, PA, has died amid permanent injuries. No cause was announced.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/james-jim-copenhaver-death-man-injured-in-trump-butler-assassination-attempt-dies-struggle-with-injuries-cause-101790269351405.html",
+      "translation_status": "failed",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 38
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
         "Hindustan Times",
         "The Independent"
       ],
       "first_published_at": "2026-09-24T17:19:01+09:00",
-      "latest_published_at": "2026-09-24T17:28:20+09:00",
+      "latest_published_at": "2026-09-24T18:30:19+09:00",
       "articles": [
         {
           "title": "Spectator wounded during Trump assassination attempt in Butler has died, Republicans say",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-butler-victim-jim-copenhaver-b3055944.html",
-          "published_at": "17:28"
+          "published_at": "18:30"
         },
         {
           "title": "Jim Copenhaver death: Man injured in Trump's Butler assassination attempt dies amid struggle with injuries",
