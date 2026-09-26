@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "batch_time": "12:00",
+  "batch_time": "18:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,222 +8,152 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-26T14:59:55.363265+09:00",
+  "updated_at": "2026-09-26T20:04:02.148384+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 583,
-  "cluster_count_total": 463,
+  "article_count_total": 534,
+  "cluster_count_total": 432,
   "clusters": [
     {
-      "id": "world-130",
-      "title": "Iran Proposes 7-Day Plan to End War",
-      "title_en": "Iran Proposes 7-Day Plan to End War",
+      "id": "world-1",
+      "title": "Two dead and four missing in Athens after explosion rocks tourist hotspot",
+      "title_en": "Two dead and four missing in Athens after explosion rocks tourist hotspot",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "Iran’s foreign minister has proposed a seven-day roadmap to Washington by which Iran would reopen the Strait of Hormuz within seven days if the US lifts its naval blockade, together with other conditi",
-      "excerpt_en": "Iran’s foreign minister has proposed a seven-day roadmap to Washington by which Iran would reopen the Strait of Hormuz within seven days if the US lifts its naval blockade, together with other conditi",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
+      "title_url": "https://www.independent.co.uk/news/world/europe/athens-explosion-location-acropolis-building-b3056507.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Two people ⁠have died and another four ⁠are missing after a residential building collapsed following an explosion in a tourist area of central Athens, a Greek fire brigade official said on Saturday. T",
+      "excerpt_en": "Two people ⁠have died and another four ⁠are missing after a residential building collapsed following an explosion in a tourist area of central Athens, a Greek fire brigade official said on Saturday. T",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 96,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 9,
+        "breaking_score": 7,
         "time_score": 3,
-        "raw75": 72
+        "raw75": 70
       },
-      "area_value": 8,
-      "article_count": 8,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 6,
       "sources": [
-        "Al Jazeera",
+        "BBC",
         "Bangkok Post",
         "CBS News",
-        "Euronews",
-        "New York Times",
-        "Sky News",
+        "Reuters",
+        "SCMP",
         "The Independent"
       ],
-      "first_published_at": "2026-09-25T15:35:22+09:00",
-      "latest_published_at": "2026-09-26T05:40:48+09:00",
+      "first_published_at": "2026-09-25T14:54:53+09:00",
+      "latest_published_at": "2026-09-26T10:51:29+09:00",
       "articles": [
         {
-          "title": "Iran proposes a 7-day plan to reopen the Strait of Hormuz",
+          "title": "2 American tourists dead after building explosion in Greece",
           "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
-          "published_at": "05:40"
+          "url": "https://www.cbsnews.com/news/americans-greece-athens-building-explosion-collapse/",
+          "published_at": "10:51"
         },
         {
-          "title": "Iran-US war latest: Trump ‘rejects’ Tehran’s seven-day plan to reopen Strait of Hormuz and prepares to restart bombing",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-un-israel-hormuz-oil-b3056135.html",
-          "published_at": "03:29"
+          "title": "At least two dead after explosion destroys building close to Acropolis in Athens",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+          "published_at": "10:18"
         },
         {
-          "title": "Iran proposes Hormuz plan, Trump reportedly refuses",
+          "title": "2 dead, 4 missing after explosion destroys building in Athens",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?utm_source=rss_feed",
+          "published_at": "10:15"
+        },
+        {
+          "title": "Two dead, 4 missing after explosion destroys building in Athens",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbTJpdXZYT3MyX1dFU1pNMW5raW40eUpoZWNKZFZnY3U1SFJiZjB4OVdhQ3JBN3R1eFFFaUFnUFFHZXh2R2J1ZldkVkotZW1ab1VEeFZNLVhHTnAxaXhmQnAxZ2ItOUc0U0l5TDE0ZW9OMTNUa0hGTjNWSTdoN2IxVGFINU0xVGlVdzBXSXVMYnozVHRhRWF2ZXlZMWxIN0NsSW04?oc=5",
+          "published_at": "09:52"
+        },
+        {
+          "title": "Six missing after building blast in historic Athens district",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326520/iran-proposes-hormuz-plan-trump-reportedly-refuses",
-          "published_at": "02:45"
+          "url": "https://www.bangkokpost.com/world/3326103/six-missing-after-building-blast-in-historic-athens-district",
+          "published_at": "19:45"
         },
         {
-          "title": "Iran says it awaits US response on seven-day roadmap to end war",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss",
-          "published_at": "23:52"
-        },
-        {
-          "title": "Iran to reopen Strait of Hormuz within a week if US agrees to plan",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-to-reopen-strait-of-hormuz-within-a-week-if-us-agrees-to-plan?traffic_source=rss",
-          "published_at": "22:33"
-        },
-        {
-          "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
-          "published_at": "20:36"
-        },
-        {
-          "title": "Iran proposes plan to US to reopen Hormuz in seven days and end the war",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
-          "published_at": "17:33"
-        },
-        {
-          "title": "Iran Proposes 7-Day Plan to End War",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
-          "published_at": "15:35"
+          "title": "Two dead and four missing in Athens after explosion rocks tourist hotspot",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/athens-explosion-location-acropolis-building-b3056507.html",
+          "published_at": "14:54"
         }
       ]
     },
     {
-      "id": "world-75",
-      "title": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
-      "title_en": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
+      "id": "world-69",
+      "title": "White House bans CNN from Air Force One for Trump trip to Tennessee",
+      "title_en": "White House bans CNN from Air Force One for Trump trip to Tennessee",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/pope-heads-secular-france-appeal-respect-dignity-human-136743766",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "Pope Leo XIV warned Friday that a \"paradise of machines\" risked undermining humanity as he opened a trip to France by posing fundamental questions about what it means to be human in the age of artific",
-      "excerpt_en": "Pope Leo XIV warned Friday that a \"paradise of machines\" risked undermining humanity as he opened a trip to France by posing fundamental questions about what it means to be human in the age of artific",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/pope-leo-ai-france-visit-9.7357996?cmp=rss",
-      "translation_status": "failed",
-      "score": 91,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 68
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Al Jazeera",
-        "CBC",
-        "NPR"
-      ],
-      "first_published_at": "2026-09-25T11:48:53+09:00",
-      "latest_published_at": "2026-09-25T23:21:52+09:00",
-      "articles": [
-        {
-          "title": "Pope Leo XIV warns AI could undermine humanity during France visit",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit?traffic_source=rss",
-          "published_at": "23:21"
-        },
-        {
-          "title": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY0JDWkxQellXWFhSUEQ1QnBGOXkyQ1pHTkptZlAtYzhWbXZtMjJPSzRvRGd6MU01NF9MRE9Ya08wRmlPZEFzdW50TGJUMU9XQ0JBZGNxVVZQVnItaGNIQXVJMld0anFha1M2Z3paWFF0OXVpX1lYSWY5WTRaV1FlREp1T3I?oc=5",
-          "published_at": "19:57"
-        },
-        {
-          "title": "Pope Leo warns a 'paradise of machines' could undermine humanity on his France visit",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/25/nx-s1-5981140/pope-leo-france",
-          "published_at": "14:55"
-        },
-        {
-          "title": "AI's 'paradise of machines' a threat to humanity, Pope Leo says",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/pope-leo-ai-france-visit-9.7357996?cmp=rss",
-          "published_at": "13:48"
-        },
-        {
-          "title": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/pope-heads-secular-france-appeal-respect-dignity-human-136743766",
-          "published_at": "11:48"
-        }
-      ]
-    },
-    {
-      "id": "world-95",
-      "title": "White House blocks CNN from Air Force One in latest escalation with news media",
-      "title_en": "White House blocks CNN from Air Force One in latest escalation with news media",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-cnn-air-force-one",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-ban-trump-air-force-one-b3056736.html",
       "category": "미국",
-      "primary_source": "The Guardian",
-      "excerpt": "Outlet had been scheduled to fly with Donald Trump to Tennessee for a college football game, network said Friday The White House has blocked CNN from traveling aboard Air Force One on Saturday, impedi",
-      "excerpt_en": "Outlet had been scheduled to fly with Donald Trump to Tennessee for a college football game, network said Friday The White House has blocked CNN from traveling aboard Air Force One on Saturday, impedi",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-cnn-air-force-one",
+      "primary_source": "The Independent",
+      "excerpt": "The White House signalled on Friday night that CNN would be left off Air Force One for President Donald Trump’s Saturday trip, the latest media restriction from the administration in an ongoing disput",
+      "excerpt_en": "The White House signalled on Friday night that CNN would be left off Air Force One for President Donald Trump’s Saturday trip, the latest media restriction from the administration in an ongoing disput",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/us/politics/article/3368881/cnn-blocked-trumps-trip-white-house-signals-new-media-curb?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 89,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 7,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 70
       },
       "area_value": 9,
       "article_count": 9,
       "syndicated_count": 0,
-      "source_count": 9,
+      "source_count": 8,
       "sources": [
+        "ABC News Australia",
+        "AP News",
         "Al Jazeera",
-        "BBC",
-        "DW",
         "Hindustan Times",
         "SCMP",
         "Sydney Morning Herald",
-        "The Guardian",
         "The Independent",
         "Times of India"
       ],
-      "first_published_at": "2026-09-26T01:31:05+09:00",
-      "latest_published_at": "2026-09-26T05:36:15+09:00",
+      "first_published_at": "2026-09-26T01:36:16+09:00",
+      "latest_published_at": "2026-09-26T10:20:56+09:00",
       "articles": [
+        {
+          "title": "CNN barred from Trump’s Air Force One trip to Tennessee despite court order restoring White House access",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/cnn-barred-from-trumps-air-force-one-trip-to-tennessee-despite-court-order-restoring-white-house-access/articleshow/134502110.cms",
+          "published_at": "10:20"
+        },
+        {
+          "title": "CNN barred from Trump trip after judge strikes down White House ban",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
+          "published_at": "08:57"
+        },
+        {
+          "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWdFdkVpT2tLTXhmMkNXSUlSZlBSak8xcU42NlRaMjdHU29VTkFVay10LWtTckN5WWtkMmJwWS1XUEZYOXBRZ3BxSzkxckk1ajZTb3VKTVlDQmd1QkdfSjIybXY3eFdEbGhZRDhmZkVYS2JNU0djLVR4aDFlNHk0SjRfbldwYUdBOGV2bUFEOGh6NEtMeVFsZS1lNlJnb0U?oc=5",
+          "published_at": "05:43"
+        },
         {
           "title": "CNN left off Air Force One press pool for Trump’s Tennessee trip",
           "source_name": "Times of India",
           "url": "https://timesofindia.indiatimes.com/world/us/white-house-bars-cnn-from-air-force-one-press-pool-for-trumps-upcoming-trip/articleshow/134497800.cms",
           "published_at": "05:36"
-        },
-        {
-          "title": "White House bars CNN from travelling with Trump on Air Force One",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
-          "published_at": "05:09"
         },
         {
           "title": "White House bars CNN from Air Force One for Trump’s upcoming trip",
@@ -236,12 +166,6 @@
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/north-america/trump-s-media-feud-takes-another-turn-with-cnn-left-off-air-force-one-trip-20260926-p610pa.html?ref=rss&utm_medium=rss&utm_source=rss_world",
           "published_at": "03:53"
-        },
-        {
-          "title": "White House bars CNN from covering upcoming Trump trip, broadcaster says",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/white-house-bars-cnn-from-covering-upcoming-trump-trip-broadcaster-says/a-79440241?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "03:52"
         },
         {
           "title": "CNN blocked from Trump’s trip as White House signals new media curb",
@@ -260,139 +184,228 @@
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-ban-trump-air-force-one-b3056736.html",
           "published_at": "01:36"
-        },
-        {
-          "title": "White House blocks CNN from Air Force One in latest escalation with news media",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-cnn-air-force-one",
-          "published_at": "01:31"
         }
       ]
     },
     {
-      "id": "world-88",
-      "title": "An explosion near the Acropolis in Greece injures at least three people",
-      "title_en": "An explosion near the Acropolis in Greece injures at least three people",
+      "id": "world-160",
+      "title": "Iran proposes plan to US to reopen Hormuz in seven days and end the war",
+      "title_en": "Iran proposes plan to US to reopen Hormuz in seven days and end the war",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/video/an-explosion-near-the-acropolis-in-greece-injures-at-least-three-people-270514245665",
-      "category": "기타",
-      "primary_source": "NBC News",
-      "excerpt": "A powerful explosion in Athens’ historic Plaka district brought down a two-storey building near the Acropolis on Friday 25 September 2026, injuring at least two people. The cause remains under investi",
-      "excerpt_en": "A powerful explosion in Athens’ historic Plaka district brought down a two-storey building near the Acropolis on Friday 25 September 2026, injuring at least two people. The cause remains under investi",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/video/2026/09/25/explosion-near-acropolis-collapses-building-in-athens-plaka-injuring-two",
+      "title_url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "Iran’s Foreign Minister Abbas Araghchi said on Friday that Tehran had offered Washington a plan that would see the Strait of Hormuz reopened to maritime navigation within seven days once agreed. Aragh",
+      "excerpt_en": "Iran’s Foreign Minister Abbas Araghchi said on Friday that Tehran had offered Washington a plan that would see the Strait of Hormuz reopened to maritime navigation within seven days once agreed. Aragh",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 88,
+      "score": 85,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 7,
       "sources": [
-        "ABC News",
-        "AP News",
+        "ABC News Australia",
         "Euronews",
-        "NBC News"
+        "France24",
+        "NBC News",
+        "SCMP",
+        "Sky News",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-25T10:04:23+09:00",
-      "latest_published_at": "2026-09-25T17:57:44+09:00",
+      "first_published_at": "2026-09-25T17:33:54+09:00",
+      "latest_published_at": "2026-09-26T10:46:43+09:00",
       "articles": [
         {
-          "title": "Blast near Acropolis in Greece injures 2, collapses a building. Local media say gas leak suspected",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHpYeFRfTzkwWnNjOVNuZHY5SndUSXAtMXdFZjhQSkZ6MUUxV1NCX01TYUVRTV9kb1N1d2NPVjJqd2d4aDNnQm9CdnQtX1Yza0lJOXJpOTNmMmZscXVvcFpZdkk2TVRaTUVLRGJkQ2h5YnBUNlJVNV91RkpaVHdOeE5EU2d5dUE5T2l1eklHbWgwUVZiWXJSenp6OUdwcEZ5?oc=5",
-          "published_at": "17:57"
+          "title": "Iran offers deal to US to reopen Strait of Hormuz",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
+          "published_at": "10:46"
         },
         {
-          "title": "Explosion near Acropolis collapses building in Athens’ Plaka, injuring two",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/09/25/explosion-near-acropolis-collapses-building-in-athens-plaka-injuring-two",
-          "published_at": "12:48"
-        },
-        {
-          "title": "Explosion near Acropolis in Greece injures at least 2 people and collapses a building",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/explosion-acropolis-greece-injures-2-people-collapses-building-136744794",
-          "published_at": "11:56"
-        },
-        {
-          "title": "An explosion near the Acropolis in Greece injures at least three people",
+          "title": "Iran says choice on reopening Hormuz ‘rests with the United States’ after deal offer",
           "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/an-explosion-near-the-acropolis-in-greece-injures-at-least-three-people-270514245665",
-          "published_at": "10:04"
+          "url": "https://www.nbcnews.com/world/iran/iran-says-choice-reopening-hormuz-rests-united-states-offer-rcna599956",
+          "published_at": "09:35"
+        },
+        {
+          "title": "Iran-US war latest: Trump ‘renames’ Strait of Hormuz after Tehran proposes seven-day plan to reopen key waterway",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-un-israel-hormuz-oil-b3056135.html",
+          "published_at": "06:50"
+        },
+        {
+          "title": "Trump reportedly rejects Iran’s seven-day plan to reopen Strait of Hormuz",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+          "published_at": "02:06"
+        },
+        {
+          "title": "Iran offers US plan to reopen Hormuz within 7 days",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
+          "published_at": "21:03"
+        },
+        {
+          "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
+          "published_at": "20:36"
+        },
+        {
+          "title": "Iran proposes plan to US to reopen Hormuz in seven days and end the war",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
+          "published_at": "17:33"
         }
       ]
     },
     {
-      "id": "world-125",
-      "title": "TikTok settles with Alabama ahead of first state trial over claims of teen harms",
-      "title_en": "TikTok settles with Alabama ahead of first state trial over claims of teen harms",
+      "id": "world-158",
+      "title": "US TV networks to resume Trump coverage after CNN access restored",
+      "title_en": "US TV networks to resume Trump coverage after CNN access restored",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/tiktok-settles-alabama-ahead-first-state-trial-over-claims-teen-harms-6412081",
+      "title_url": "https://www.hindustantimes.com/world-news/us-media-tv-networks-to-resume-trump-coverage-after-cnn-access-restored-ms-now-politico-white-house-101790344332542.html",
       "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Trial had been set for Monday over claims by Alabama that TikTok misled parents about tools meant to shield children from harmful content TikTok has agreed to pay Alabama at least $100m and enact time",
-      "excerpt_en": "Trial had been set for Monday over claims by Alabama that TikTok misled parents about tools meant to shield children from harmful content TikTok has agreed to pay Alabama at least $100m and enact time",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/technology/2026/sep/26/tiktok-alabama-pay-100m-teenage-limits-restrictions",
+      "primary_source": "Hindustan Times",
+      "excerpt": "US television networks resumed coverage of President Donald Trump’s White House events on Friday, providing the first live pool access for Chinese President Xi Jinping’s visit, as a legal battle conti",
+      "excerpt_en": "US television networks resumed coverage of President Donald Trump’s White House events on Friday, providing the first live pool access for Chinese President Xi Jinping’s visit, as a legal battle conti",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3368868/us-tv-networks-back-white-house-trump-praises-fair-coverage-xi-visit?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 81,
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 60
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "Al Jazeera",
-        "Channel News Asia",
+        "France24",
+        "Hindustan Times",
         "SCMP",
-        "The Guardian"
+        "The Independent"
       ],
-      "first_published_at": "2026-09-25T22:38:25+09:00",
-      "latest_published_at": "2026-09-26T04:19:20+09:00",
+      "first_published_at": "2026-09-25T14:02:48+09:00",
+      "latest_published_at": "2026-09-26T05:56:01+09:00",
       "articles": [
         {
-          "title": "TikTok to pay Alabama $100m and limit teenage use in first state settlement",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/sep/26/tiktok-alabama-pay-100m-teenage-limits-restrictions",
-          "published_at": "04:19"
+          "title": "CNN removed from Trump press pool despite judge order to reinstate White House access",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260926-cnn-removed-from-trump-press-pool-despite-judge-order-to-reinstate-white-house-access",
+          "published_at": "05:56"
         },
         {
-          "title": "TikTok to pay $100 million to Alabama in teen addiction settlement",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/tiktok-to-pay-100-million-to-alabama-in-teen-addiction-settlement?traffic_source=rss",
-          "published_at": "02:09"
+          "title": "A White House press ban was lifted this week. But the tensions and legal battle aren't over yet",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-white-house-cnn-politico-fourth-estate-b3056703.html",
+          "published_at": "21:34"
         },
         {
-          "title": "TikTok settles lawsuit with Alabama for at least US$100m, to apply safety steps",
+          "title": "US TV networks back at White House, as Trump praises ‘fair’ coverage of Xi visit",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/economy-trade-business/article/3368877/tiktok-settles-lawsuit-alabama-least-us100m-apply-safety-steps?utm_source=rss_feed",
-          "published_at": "01:38"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368868/us-tv-networks-back-white-house-trump-praises-fair-coverage-xi-visit?utm_source=rss_feed",
+          "published_at": "17:07"
         },
         {
-          "title": "TikTok settles with Alabama ahead of first state trial over claims of teen harms",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/tiktok-settles-alabama-ahead-first-state-trial-over-claims-teen-harms-6412081",
-          "published_at": "22:38"
+          "title": "Trump’s scowl says it all as CNN and MS NOW return to White House for XI’s final day",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-china-cnn-white-house-b3056522.html",
+          "published_at": "16:34"
+        },
+        {
+          "title": "US TV networks to resume Trump coverage after CNN access restored",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-media-tv-networks-to-resume-trump-coverage-after-cnn-access-restored-ms-now-politico-white-house-101790344332542.html",
+          "published_at": "14:02"
         }
       ]
     },
     {
-      "id": "world-79",
+      "id": "world-236",
+      "title": "Trump and Xi declare harmony, no confrontation, as US state visit ends",
+      "title_en": "Trump and Xi declare harmony, no confrontation, as US state visit ends",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/09/25/trump-and-xi-declare-harmony-no-confrontation-as-us-state-visit-ends",
+      "category": "아시아",
+      "primary_source": "Euronews",
+      "excerpt": "Chinese President Xi Jinping has completed a whirlwind 43-hour trip to the United States, his first state visit to the country in more than a decade, with US President Donald Trump pulling out all the",
+      "excerpt_en": "Chinese President Xi Jinping has completed a whirlwind 43-hour trip to the United States, his first state visit to the country in more than a decade, with US President Donald Trump pulling out all the",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3368870/trade-deliverables-taiwan-push-and-strategic-stability-key-xi-trump-takeaways-overall?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "Bangkok Post",
+        "CBS News",
+        "Euronews",
+        "SCMP",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-25T16:12:08+09:00",
+      "latest_published_at": "2026-09-25T23:33:32+09:00",
+      "articles": [
+        {
+          "title": "Trump and Xi to meet two more times before end of year as they wrap state visit",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/trump-and-xi-to-meet-two-more-times-before-end-of-year-as-they-wrap-state-visit/",
+          "published_at": "23:33"
+        },
+        {
+          "title": "Trade deliverables, Taiwan push and ‘strategic stability’: key Xi-Trump takeaways overall",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368870/trade-deliverables-taiwan-push-and-strategic-stability-key-xi-trump-takeaways-overall?utm_source=rss_feed",
+          "published_at": "19:47"
+        },
+        {
+          "title": "Trump-Xi bonhomie set to continue, leaders announce two more meetings",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/trump-xi-bonhomie-set-to-continue-leaders-announce-two-more-meetings/articleshow/134490297.cms",
+          "published_at": "17:40"
+        },
+        {
+          "title": "Trump, Xi inspect founding documents of US democracy to close summit",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326093/trump-xi-inspect-founding-documents-of-us-democracy-to-close-summit",
+          "published_at": "17:30"
+        },
+        {
+          "title": "Trump and Xi declare harmony, no confrontation, as US state visit ends",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/25/trump-and-xi-declare-harmony-no-confrontation-as-us-state-visit-ends",
+          "published_at": "16:12"
+        }
+      ]
+    },
+    {
+      "id": "world-74",
       "title": "Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
       "title_en": "Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
       "title_source": "earliest_pick",
@@ -404,14 +417,14 @@
       "excerpt_source": "NBC News",
       "excerpt_url": "https://www.nbcnews.com/nightly-news/video/iran-s-new-proposal-to-re-open-strait-of-hormuz-270565957609",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -446,115 +459,114 @@
       ]
     },
     {
-      "id": "world-328",
-      "title": "Ukraine: Russian drone barrage on Kyiv kills teenage boy and wounds 20 residents",
-      "title_en": "Ukraine: Russian drone barrage on Kyiv kills teenage boy and wounds 20 residents",
+      "id": "world-155",
+      "title": "OpenAI says its AI agents posted user images online in error",
+      "title_en": "OpenAI says its AI agents posted user images online in error",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/video/2026/09/25/ukraine-russian-drone-barrage-on-kyiv-kills-teenage-boy-and-wounds-20-residents",
-      "category": "유럽",
-      "primary_source": "Euronews",
-      "excerpt": "Steelmaker ArcelorMittal said it was shutting production at Ukraine's largest steel plant, underscoring the growing economic toll of Russia's airstrikes that on ‌Friday killed seven people in Kyiv inc",
-      "excerpt_en": "Steelmaker ArcelorMittal said it was shutting production at Ukraine's largest steel plant, underscoring the growing economic toll of Russia's airstrikes that on ‌Friday killed seven people in Kyiv inc",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/ukraine-steel-arcelormittal-shutdown-9.7359241?cmp=rss",
+      "title_url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
+      "category": "미국",
+      "primary_source": "SCMP",
+      "excerpt": "OpenAI acknowledged on Friday that its artificial intelligence tools had posted images from ChatGPT users onto online sites without the company’s knowledge, the latest example of AI agents operating o",
+      "excerpt_en": "OpenAI acknowledged on Friday that its artificial intelligence tools had posted images from ChatGPT users onto online sites without the company’s knowledge, the latest example of AI agents operating o",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 76,
+      "score": 73,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 55
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Bangkok Post",
-        "CBC",
-        "Euronews"
+        "Channel News Asia",
+        "France24",
+        "SCMP"
       ],
-      "first_published_at": "2026-09-25T13:50:33+09:00",
-      "latest_published_at": "2026-09-25T23:27:16+09:00",
+      "first_published_at": "2026-09-26T04:48:13+09:00",
+      "latest_published_at": "2026-09-26T08:35:02+09:00",
       "articles": [
         {
-          "title": "Ukraine's largest steel plant to shutter amid recurring Russian strikes",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/ukraine-steel-arcelormittal-shutdown-9.7359241?cmp=rss",
-          "published_at": "23:27"
+          "title": "ChatGPT says its rogue AI agents posted users’ images online, entered federal website",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/technology/20260926-chatgpt-says-its-rogue-ai-agents-posted-users-images-online-entered-federal-website",
+          "published_at": "08:35"
         },
         {
-          "title": "Daytime Russian attacks kill seven in Kyiv",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326489/daytime-russian-attacks-kill-seven-in-kyiv",
-          "published_at": "20:40"
+          "title": "OpenAI says its AI agents posted user images online in error",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/openai-agents-post-user-images-online-error-6412516",
+          "published_at": "08:29"
         },
         {
-          "title": "Ukraine: Russian drone barrage on Kyiv kills teenage boy and wounds 20 residents",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/09/25/ukraine-russian-drone-barrage-on-kyiv-kills-teenage-boy-and-wounds-20-residents",
-          "published_at": "13:50"
+          "title": "OpenAI says its AI agents posted user images online in error",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
+          "published_at": "04:48"
         }
       ]
     },
     {
-      "id": "world-30",
-      "title": "Dale Caldwell girlfriend: NJ lieutenant governor misconduct investigation reveals bombshell details",
-      "title_en": "Dale Caldwell girlfriend: NJ lieutenant governor misconduct investigation reveals bombshell details",
+      "id": "world-63",
+      "title": "Pope Leo warns a 'paradise of machines' could undermine humanity on his France visit",
+      "title_en": "Pope Leo warns a 'paradise of machines' could undermine humanity on his France visit",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/dale-caldwell-girlfriend-nj-lieutenant-governor-misconduct-investigation-reveals-bombshell-details-101790365596512.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "New Jersey's Lieutenant Governor Dale Caldwell resigned after an investigation revealed he tried to get a promotion for his girlfriend.",
-      "excerpt_en": "New Jersey's Lieutenant Governor Dale Caldwell resigned after an investigation revealed he tried to get a promotion for his girlfriend.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/dale-caldwell-girlfriend-nj-lieutenant-governor-misconduct-investigation-reveals-bombshell-details-101790365596512.html",
+      "title_url": "https://www.npr.org/2026/09/25/nx-s1-5981140/pope-leo-france",
+      "category": "유럽",
+      "primary_source": "NPR",
+      "excerpt": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
+      "excerpt_en": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
       "translation_status": "failed",
       "score": 72,
       "score_breakdown": {
         "article_score": 18,
-        "diversity_score": 15,
+        "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 9,
         "time_score": 2,
         "raw75": 54
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         "AP News",
-        "Hindustan Times",
-        "Reuters"
+        "NPR"
       ],
-      "first_published_at": "2026-09-25T19:53:16+09:00",
-      "latest_published_at": "2026-09-25T22:24:00+09:00",
+      "first_published_at": "2026-09-25T14:55:12+09:00",
+      "latest_published_at": "2026-09-26T06:59:45+09:00",
       "articles": [
         {
-          "title": "New Jersey’s lieutenant governor resigns after sexual harassment and ethics complaints",
+          "title": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
+          "published_at": "06:59"
+        },
+        {
+          "title": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3l2WjBBaEtWMmxnS0xMa3hYVTVReXVabFhGRkJtWk1aSG1IZjM5YjQwSHRhY1dJNm5sYzNyOFh5NVBzUlZsdDZONjBYNEZGVnFSczR4aVFSbmZBejAxazVFX0NFMnR3cTE1blI5dXVNVndSdG4zeF95MndjMl8taDZJb3BNWGdPblN0bTFZbWgyM3pqb29ET05oYjQ1ZzJk?oc=5",
-          "published_at": "22:24"
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY0JDWkxQellXWFhSUEQ1QnBGOXkyQ1pHTkptZlAtYzhWbXZtMjJPSzRvRGd6MU01NF9MRE9Ya08wRmlPZEFzdW50TGJUMU9XQ0JBZGNxVVZQVnItaGNIQXVJMld0anFha1M2Z3paWFF0OXVpX1lYSWY5WTRaV1FlREp1T3I?oc=5",
+          "published_at": "06:21"
         },
         {
-          "title": "New Jersey's lieutenant governor resigns amid sexual harassment findings",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2IxcFJfb29mYjNtYWdBWlM1eXlNNTJBcXNPU09WWUJGRTQ3dDZSd01BSXNVdHk4dkVQNXM5Z0hqa2pDQ3kzTTRiYlhScUdkVjdpNm5Tc2VLTlY4azBNQWZNNFFKbXVVNHRiMnQ2Wkdfdkdib0ZHSkRxeUxNeEIxZlFXdHpoREo0Vm5TT3ZXSzRjSFlDZ1hLb2l5RVdPbjJ0QWVwZllydnZFc191TEZRQjNHcW0wbzg?oc=5",
-          "published_at": "20:35"
-        },
-        {
-          "title": "Dale Caldwell girlfriend: NJ lieutenant governor misconduct investigation reveals bombshell details",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/dale-caldwell-girlfriend-nj-lieutenant-governor-misconduct-investigation-reveals-bombshell-details-101790365596512.html",
-          "published_at": "19:53"
+          "title": "Pope Leo warns a 'paradise of machines' could undermine humanity on his France visit",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/09/25/nx-s1-5981140/pope-leo-france",
+          "published_at": "14:55"
         }
       ]
     },
     {
-      "id": "world-96",
+      "id": "world-84",
       "title": "Black woman Tasia Fortune’s hanging was ‘staged’ after her death, Mississippi police say",
       "title_en": "Black woman Tasia Fortune’s hanging was ‘staged’ after her death, Mississippi police say",
       "title_source": "earliest_pick",
@@ -608,25 +620,25 @@
       ]
     },
     {
-      "id": "world-217",
-      "title": "Five missing in Athens after explosion rocks tourist hotspot",
-      "title_en": "Five missing in Athens after explosion rocks tourist hotspot",
+      "id": "world-149",
+      "title": "A month after Nepal flash flood tragedy, thousands still missing; families face a long recovery",
+      "title_en": "A month after Nepal flash flood tragedy, thousands still missing; families face a long recovery",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/athens-explosion-location-acropolis-building-b3056507.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "ATHENS - Six people including three tourists were missing after an explosion early Friday in a building in Athens' historic Plaka district located just below the Acropolis.",
-      "excerpt_en": "ATHENS - Six people including three tourists were missing after an explosion early Friday in a building in Athens' historic Plaka district located just below the Acropolis.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3326103/six-missing-after-building-blast-in-historic-athens-district",
+      "title_url": "https://www.hindustantimes.com/world-news/a-month-after-nepal-flash-flood-tragedy-thousands-still-missing-families-face-a-long-recovery-101790399971598.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The disaster has left the government facing a long and costly recovery, with families confronting the loss of loved ones, homes and livelihoods.",
+      "excerpt_en": "The disaster has left the government facing a long and costly recovery, with families confronting the loss of loved ones, homes and livelihoods.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/a-month-after-nepal-flash-flood-tragedy-thousands-still-missing-families-face-a-long-recovery-101790399971598.html",
       "translation_status": "failed",
       "score": 69,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
         "raw75": 52
       },
       "area_value": 3,
@@ -634,89 +646,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Bangkok Post",
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T14:54:53+09:00",
-      "latest_published_at": "2026-09-25T20:23:42+09:00",
-      "articles": [
-        {
-          "title": "6 People Are Missing After Explosion in Athens Tourist District",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/25/world/europe/athens-tourists-explosion.html",
-          "published_at": "20:23"
-        },
-        {
-          "title": "Six missing after building blast in historic Athens district",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326103/six-missing-after-building-blast-in-historic-athens-district",
-          "published_at": "19:45"
-        },
-        {
-          "title": "Five missing in Athens after explosion rocks tourist hotspot",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/athens-explosion-location-acropolis-building-b3056507.html",
-          "published_at": "14:54"
-        }
-      ]
-    },
-    {
-      "id": "world-3",
-      "title": "Brazil's Lula bans online betting, unveils debt relief plan as reelection race tightens",
-      "title_en": "Brazil's Lula bans online betting, unveils debt relief plan as reelection race tightens",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYnNWTkRFTmhMWF9BQTl3aTFRaDRuR2hqZF9YcHdRSlpHdUFoanQ1NmJTV0RHa1g0SUxtdHJpSV9ubTdLSk1MLVl2cXNHaHJGRGtKOVJGcXJFUGZxU3J0WFhEOVFkanU4dVdKNWhZS0o4OTFINjlrMHd5UnNnWHlTcm5vTkU1NGxkbzZ5bUtTMmxTSGxRTmlpaXRfdi15X0JSclZqeGdRZENTSnh0YTc3dXVZRVVjclhUbm9r?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "SAO PAULO — Brazil's President Luiz Inacio Lula da Silva on Friday banned sports betting sites, the biggest sponsor of the country's football clubs, just days before a nailbiter election in which he i",
-      "excerpt_en": "SAO PAULO — Brazil's President Luiz Inacio Lula da Silva on Friday banned sports betting sites, the biggest sponsor of the country's football clubs, just days before a nailbiter election in which he i",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3326490/lula-bans-sports-betting-days-ahead-of-brazils-election",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
         "ABC News",
-        "Bangkok Post",
-        "Reuters"
+        "France24",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-09-25T23:31:19+09:00",
-      "latest_published_at": "2026-09-26T01:03:36+09:00",
+      "first_published_at": "2026-09-26T06:23:57+09:00",
+      "latest_published_at": "2026-09-26T09:40:58+09:00",
       "articles": [
         {
-          "title": "Brazil's President Lula bans online betting ahead of presidential election",
+          "title": "A month after, thousands are still missing and families face a long recovery",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/a-month-after-thousands-are-still-missing-and-families-face-a-long-recovery",
+          "published_at": "09:40"
+        },
+        {
+          "title": "A month after Nepal floods, thousands still missing and families face a long recovery",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazils-president-lula-bans-online-betting-ahead-presidential-136770762",
-          "published_at": "01:03"
+          "url": "https://abcnews.com/International/wireStory/month-after-nepal-floods-thousands-missing-families-face-136775003",
+          "published_at": "07:28"
         },
         {
-          "title": "Lula bans sports betting days ahead of Brazil's election",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326490/lula-bans-sports-betting-days-ahead-of-brazils-election",
-          "published_at": "23:45"
-        },
-        {
-          "title": "Brazil's Lula bans online betting, unveils debt relief plan as reelection race tightens",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYnNWTkRFTmhMWF9BQTl3aTFRaDRuR2hqZF9YcHdRSlpHdUFoanQ1NmJTV0RHa1g0SUxtdHJpSV9ubTdLSk1MLVl2cXNHaHJGRGtKOVJGcXJFUGZxU3J0WFhEOVFkanU4dVdKNWhZS0o4OTFINjlrMHd5UnNnWHlTcm5vTkU1NGxkbzZ5bUtTMmxTSGxRTmlpaXRfdi15X0JSclZqeGdRZENTSnh0YTc3dXVZRVVjclhUbm9r?oc=5",
-          "published_at": "23:31"
+          "title": "A month after Nepal flash flood tragedy, thousands still missing; families face a long recovery",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/a-month-after-nepal-flash-flood-tragedy-thousands-still-missing-families-face-a-long-recovery-101790399971598.html",
+          "published_at": "06:23"
         }
       ]
     },
     {
-      "id": "world-16",
+      "id": "world-19",
       "title": "Meta suffers another legal loss after jury finds Facebook liable for deceiving users",
       "title_en": "Meta suffers another legal loss after jury finds Facebook liable for deceiving users",
       "title_source": "earliest_pick",
@@ -770,169 +728,73 @@
       ]
     },
     {
-      "id": "world-33",
-      "title": "UN expands list of companies linked to Israeli settlements",
-      "title_en": "UN expands list of companies linked to Israeli settlements",
+      "id": "world-112",
+      "title": "11-year-old Japanese player Yuki Kurihara wins esports gold medal at the Asian Games",
+      "title_en": "11-year-old Japanese player Yuki Kurihara wins esports gold medal at the Asian Games",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUdzWEtGVmZTbFBmNGhwVFpWNWV0SUpuWG1CYThwUWlfWDh6OGZKd3VpUDVHZDJhREMwWnVYOEszVXhNeE1acnN0NTZmLVlwTEx6X0hOMHJaRDJySzh5OXNKMnI5YUlMZERaZTFIeFJfTFFGLVIyM1VFUmlVUlVyaXVLX3dfbnR5ZE9nUDhZMmdQZTdrU0NFYUY0a2c2RXd0LUlvUFpwTkRPZw?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "The U.N. human rights office has added 61 more companies to a blacklist for alleged involvement in violating Palestinian rights through business ties to Israeli settlements in the West Bank",
-      "excerpt_en": "The U.N. human rights office has added 61 more companies to a blacklist for alleged involvement in violating Palestinian rights through business ties to Israeli settlements in the West Bank",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/adds-61-companies-settlements-blacklist-alleged-palestinian-rights-136758208",
+      "title_url": "https://abcnews.com/International/wireStory/11-year-japanese-player-yuki-kurihara-wins-esports-136775823",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "Gold medallist Yuki Kurihara, a primary school student, is youngest athlete in host country Japan's Asian Games history.",
+      "excerpt_en": "Gold medallist Yuki Kurihara, a primary school student, is youngest athlete in host country Japan's Asian Games history.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/sports/2026/9/26/yuki-kurihara-esports-gold-medal-japan-asian-games-2026-aichi-nagoya?traffic_source=rss",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 22,
         "diversity_score": 15,
-        "major_score": 15,
+        "major_score": 10,
         "breaking_score": 1,
-        "time_score": 2,
+        "time_score": 3,
         "raw75": 51
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
         "ABC News",
-        "New York Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-25T15:07:02+09:00",
-      "latest_published_at": "2026-09-25T19:55:36+09:00",
-      "articles": [
-        {
-          "title": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/25/world/middleeast/un-companies-westbank-settlements.html",
-          "published_at": "19:55"
-        },
-        {
-          "title": "UN adds 61 companies to settlements blacklist over alleged Palestinian rights violations",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/adds-61-companies-settlements-blacklist-alleged-palestinian-rights-136758208",
-          "published_at": "18:16"
-        },
-        {
-          "title": "UN expands list of companies linked to Israeli settlements",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUdzWEtGVmZTbFBmNGhwVFpWNWV0SUpuWG1CYThwUWlfWDh6OGZKd3VpUDVHZDJhREMwWnVYOEszVXhNeE1acnN0NTZmLVlwTEx6X0hOMHJaRDJySzh5OXNKMnI5YUlMZERaZTFIeFJfTFFGLVIyM1VFUmlVUlVyaXVLX3dfbnR5ZE9nUDhZMmdQZTdrU0NFYUY0a2c2RXd0LUlvUFpwTkRPZw?oc=5",
-          "published_at": "15:07"
-        }
-      ]
-    },
-    {
-      "id": "world-76",
-      "title": "In win for Trump, U.S. Supreme Court lets states use revamped voter verification system",
-      "title_en": "In win for Trump, U.S. Supreme Court lets states use revamped voter verification system",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/supreme-court-trump-federal-voter-database-save-noncitizens-9.7358440?cmp=rss",
-      "category": "미국",
-      "primary_source": "CBC",
-      "excerpt": "The U.S. Supreme Court has lifted restrictions on a controversial federal voter database before November's elections, granting President Donald Trump a temporary win in his aggressive campaign against",
-      "excerpt_en": "The U.S. Supreme Court has lifted restrictions on a controversial federal voter database before November's elections, granting President Donald Trump a temporary win in his aggressive campaign against",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/supreme-court-trump-federal-voter-database-save-noncitizens-9.7358440?cmp=rss",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "CBC",
+        "Al Jazeera",
         "Channel News Asia"
       ],
-      "first_published_at": "2026-09-25T17:16:47+09:00",
-      "latest_published_at": "2026-09-25T23:33:00+09:00",
+      "first_published_at": "2026-09-26T07:30:11+09:00",
+      "latest_published_at": "2026-09-26T09:59:00+09:00",
       "articles": [
         {
-          "title": "Supreme Court lets Trump administration use revamped federal voter eligibility database for now",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTjdiQ0dkQkV2V1J1Z19HdURxN0pmMlI3d1dRN2N6QmZpUjFRbUZYd1hMM1JuN0tnaW9Fd1kzRFVwUFh4SGdCVzFpZHJkZDgtV0pRVHd5NzNpZUtGa0xTcnc3VlNwVVZabDZWVDVvU1h2a2luY2NMNkFpWUluMWJHTlhpZXdJUUFTTXFwTTRqS3hvTGI4SFJ2WmxUeGt1cHA0bGVEQXlUbmtNeGZpdmlzeQ?oc=5",
-          "published_at": "23:33"
-        },
-        {
-          "title": "Top court grants Trump bid to use federal database to verify voter rolls",
+          "title": "'I felt embarrassed': Japan esports whizz-kid, 11, wins Games gold",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/trump-supreme-court-elections-database-6411921",
-          "published_at": "20:44"
+          "url": "https://www.channelnewsasia.com/sport/japan-esports-asian-games-gold-yuki-kurihara-6412576",
+          "published_at": "09:59"
         },
         {
-          "title": "In win for Trump, U.S. Supreme Court lets states use revamped voter verification system",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/supreme-court-trump-federal-voter-database-save-noncitizens-9.7358440?cmp=rss",
-          "published_at": "17:16"
-        }
-      ]
-    },
-    {
-      "id": "world-84",
-      "title": "Exclusive: Board of Peace quietly met with UNRWA, ex-agency chief says",
-      "title_en": "Exclusive: Board of Peace quietly met with UNRWA, ex-agency chief says",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/board-peace-met-unrwa-despite-gaza-role-agencys-136744594",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "UNRWA remains the primary aid distributor in Gaza, maintaining an essential role in delivering health and educational services",
-      "excerpt_en": "UNRWA remains the primary aid distributor in Gaza, maintaining an essential role in delivering health and educational services",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/board-of-peace-unrwa-trump-gaza-b3056520.html",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T11:54:27+09:00",
-      "latest_published_at": "2026-09-25T15:03:54+09:00",
-      "articles": [
-        {
-          "title": "Board of Peace secretly met with UNRWA despite public disavowal, ex-agency chief says",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/board-of-peace-unrwa-trump-gaza-b3056520.html",
-          "published_at": "15:03"
+          "title": "Japan organisers 'not satisfied' as empty seats blight Asian Games",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/japan-asian-games-empty-seats-not-satisfied-6412526",
+          "published_at": "08:50"
         },
         {
-          "title": "Exclusive: Board of Peace quietly met with UNRWA, ex-agency chief says",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcGplQ0xCNXg0TUFIQ0o1TVFITTZ6TmZwbkVRSjBNX3FGcmc0RHJrMFFWMG5TeWVGdWFUNW51eGE0Xzh3aFlqUEx4WkJQaGRqM3JHTE1sTFN6UUhyS0k4Z1M2eHdhZVpudm54VnJOMm5jQy1iZjlyVXl6YXdubHJUWGR0cGNrUzJBSFdJemhnQVNWVDYyTThVLXJqa0xDcEFocjRwVkRqemxkdw?oc=5",
-          "published_at": "13:09"
+          "title": "Games-Organiser says sorry for logistical headaches at Asian Games",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/games-organiser-says-sorry-logistical-headaches-asian-games-6412481",
+          "published_at": "07:53"
         },
         {
-          "title": "Exclusive: Board of Peace quietly met with UNRWA, ex-agency chief says",
+          "title": "Yuki Kurihara, Japan’s 11-year-old e-sports prodigy, wins Asian Games gold",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/9/26/yuki-kurihara-esports-gold-medal-japan-asian-games-2026-aichi-nagoya?traffic_source=rss",
+          "published_at": "07:33"
+        },
+        {
+          "title": "11-year-old Japanese player Yuki Kurihara wins esports gold medal at the Asian Games",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/board-peace-met-unrwa-despite-gaza-role-agencys-136744594",
-          "published_at": "11:54"
+          "url": "https://abcnews.com/International/wireStory/11-year-japanese-player-yuki-kurihara-wins-esports-136775823",
+          "published_at": "07:30"
         }
       ]
     },
     {
-      "id": "world-201",
+      "id": "world-190",
       "title": "Trump uses contested power to cut nearly $1B US in Congress-approved spending",
       "title_en": "Trump uses contested power to cut nearly $1B US in Congress-approved spending",
       "title_source": "earliest_pick",
@@ -986,175 +848,7 @@
       ]
     },
     {
-      "id": "world-209",
-      "title": "France welcomes Leo XIV at Orly Airport as bells sound nationwide",
-      "title_en": "France welcomes Leo XIV at Orly Airport as bells sound nationwide",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/video/2026/09/25/france-welcomes-leo-xiv-at-orly-airport-as-bells-sound-nationwide",
-      "category": "유럽",
-      "primary_source": "Euronews",
-      "excerpt": "After visiting Africa, Pope Leo’s four-day trip to France shows how he is seeking to appeal to Roman Catholicism’s original heartlands as well as to the church’s newest strongholds.",
-      "excerpt_en": "After visiting Africa, Pope Leo’s four-day trip to France shows how he is seeking to appeal to Roman Catholicism’s original heartlands as well as to the church’s newest strongholds.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-france-visit.html",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Euronews",
-        "Fox News",
-        "New York Times"
-      ],
-      "first_published_at": "2026-09-25T10:20:29+09:00",
-      "latest_published_at": "2026-09-25T15:38:35+09:00",
-      "articles": [
-        {
-          "title": "Leo XIV, Trying to Be Everyone’s Pope, Tours Secular France",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-france-visit.html",
-          "published_at": "15:38"
-        },
-        {
-          "title": "Pope Leo XIV begins historic 4-day visit to France",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/pope-leo-xiv-begins-historic-4-day-visit-france",
-          "published_at": "10:30"
-        },
-        {
-          "title": "France welcomes Leo XIV at Orly Airport as bells sound nationwide",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/09/25/france-welcomes-leo-xiv-at-orly-airport-as-bells-sound-nationwide",
-          "published_at": "10:20"
-        }
-      ]
-    },
-    {
-      "id": "world-220",
-      "title": "Pope Leo takes another shot at Trump this time over his media ban",
-      "title_en": "Pope Leo takes another shot at Trump this time over his media ban",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/pope-leo-trump-cnn-france-b3056278.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Pope Leo XIV told reporters they were welcome to cover him as he responded a question about the Trump administration’s attempt to bar U.S. media from the White House by affirming the importance of jou",
-      "excerpt_en": "Pope Leo XIV told reporters they were welcome to cover him as he responded a question about the Trump administration’s attempt to bar U.S. media from the White House by affirming the importance of jou",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/pope-leo-trump-cnn-france-b3056278.html",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "NBC News",
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T11:22:32+09:00",
-      "latest_published_at": "2026-09-25T15:08:46+09:00",
-      "articles": [
-        {
-          "title": "Pope Leo champions free press, dodges White Sox miracle question",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-champions-free-press-rcna599810",
-          "published_at": "15:08"
-        },
-        {
-          "title": "Pope Leo Signals Support for Journalists Targeted by Trump",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-media-trump.html",
-          "published_at": "13:44"
-        },
-        {
-          "title": "Pope Leo takes another shot at Trump this time over his media ban",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/pope-leo-trump-cnn-france-b3056278.html",
-          "published_at": "11:22"
-        }
-      ]
-    },
-    {
-      "id": "world-245",
-      "title": "US TV networks to resume Trump coverage after CNN access restored",
-      "title_en": "US TV networks to resume Trump coverage after CNN access restored",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-media-tv-networks-to-resume-trump-coverage-after-cnn-access-restored-ms-now-politico-white-house-101790344332542.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "US television networks resumed coverage of President Donald Trump’s White House events on Friday, providing the first live pool access for Chinese President Xi Jinping’s visit, as a legal battle conti",
-      "excerpt_en": "US television networks resumed coverage of President Donald Trump’s White House events on Friday, providing the first live pool access for Chinese President Xi Jinping’s visit, as a legal battle conti",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3368868/us-tv-networks-back-white-house-trump-praises-fair-coverage-xi-visit?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 50
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T14:02:48+09:00",
-      "latest_published_at": "2026-09-25T21:34:45+09:00",
-      "articles": [
-        {
-          "title": "A White House press ban was lifted this week. But the tensions and legal battle aren't over yet",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-white-house-cnn-politico-fourth-estate-b3056703.html",
-          "published_at": "21:34"
-        },
-        {
-          "title": "US TV networks back at White House, as Trump praises ‘fair’ coverage of Xi visit",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368868/us-tv-networks-back-white-house-trump-praises-fair-coverage-xi-visit?utm_source=rss_feed",
-          "published_at": "17:07"
-        },
-        {
-          "title": "Trump’s scowl says it all as CNN and MS NOW return to White House for XI’s final day",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-china-cnn-white-house-b3056522.html",
-          "published_at": "16:34"
-        },
-        {
-          "title": "US TV networks to resume Trump coverage after CNN access restored",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-media-tv-networks-to-resume-trump-coverage-after-cnn-access-restored-ms-now-politico-white-house-101790344332542.html",
-          "published_at": "14:02"
-        }
-      ]
-    },
-    {
-      "id": "world-18",
+      "id": "world-21",
       "title": "Iran will make no nuclear concessions, Iranian official says",
       "title_en": "Iran will make no nuclear concessions, Iranian official says",
       "title_source": "earliest_pick",
@@ -1166,14 +860,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/iran-us-war-nuclear-deal-peace-plan-latest-news-donald-trump-101790388628203.html",
       "translation_status": "failed",
-      "score": 65,
+      "score": 64,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
+        "time_score": 2,
+        "raw75": 48
       },
       "area_value": 2,
       "article_count": 2,
@@ -1187,7 +881,7 @@
       "latest_published_at": "2026-09-26T04:26:38+09:00",
       "articles": [
         {
-          "title": "iran us war nuclear deal peace plan latest news donald trump",
+          "title": "Iran won't budge on nuclear program, even if US accepts peace deal: Report",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/iran-us-war-nuclear-deal-peace-plan-latest-news-donald-trump-101790388628203.html",
           "published_at": "04:26"
@@ -1201,185 +895,98 @@
       ]
     },
     {
-      "id": "world-216",
-      "title": "Stuck on the Battlefield, Russia Wages ‘Total War’ on Ukraine’s Economy",
-      "title_en": "Stuck on the Battlefield, Russia Wages ‘Total War’ on Ukraine’s Economy",
+      "id": "world-213",
+      "title": "Security Council condemns Houthi attacks on Saudi Arabia",
+      "title_en": "Security Council condemns Houthi attacks on Saudi Arabia",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/25/world/europe/ukraine-russia-economy.html",
-      "category": "유럽",
-      "primary_source": "New York Times",
-      "excerpt": "Russia's recruitment drive targeting Belarusians has become a key tool to boost manpower on the battlefield and exploits economic hardship and isolation.",
-      "excerpt_en": "Russia's recruitment drive targeting Belarusians has become a key tool to boost manpower on the battlefield and exploits economic hardship and isolation.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/26/how-russia-recruits-belarusians-for-war-in-ukraine-methods-and-consequences",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "New York Times"
-      ],
-      "first_published_at": "2026-09-25T09:02:55+09:00",
-      "latest_published_at": "2026-09-26T05:30:38+09:00",
-      "articles": [
-        {
-          "title": "How Russia recruits Belarusians for war in Ukraine: Methods and consequences",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/26/how-russia-recruits-belarusians-for-war-in-ukraine-methods-and-consequences",
-          "published_at": "05:30"
-        },
-        {
-          "title": "Stuck on the Battlefield, Russia Wages ‘Total War’ on Ukraine’s Economy",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/25/world/europe/ukraine-russia-economy.html",
-          "published_at": "09:02"
-        }
-      ]
-    },
-    {
-      "id": "world-1",
-      "title": "ShinyHunters hackers expanded attacks on Oracle's PeopleSoft, Google says",
-      "title_en": "ShinyHunters hackers expanded attacks on Oracle's PeopleSoft, Google says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/shinyhunters-hackers-expanded-attacks-oracles-peoplesoft-google-says-6412246",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "ShinyHunters hackers expanded attacks on Oracle's PeopleSoft, Google says Reuters",
-      "excerpt_en": "ShinyHunters hackers expanded attacks on Oracle's PeopleSoft, Google says Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc0kwNk9oLVg5bWdrdkJfUXVSNkFYT2o5ODZpU3RaMjJpM0pKb19QTnM0Zlk4d2xURlJZZVF6blp1ZEk5T1ZnMEM3RmN1STc1RnFTZXpDSGRuWWpBY2NwZGZUVzJET29UY0lLYzFxU0NOQjNTV25lRUpkSzRPQTgtQlVkMVRSLWJ1TkROb0ZqaU9sa0ZtSGJ4ZWNtak9pQTQ3dUtmZXdXdWpFSGZHNlpJdGQ4QU1SNm9mYlhwd2t3?oc=5",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T02:05:48+09:00",
-      "latest_published_at": "2026-09-26T02:06:36+09:00",
-      "articles": [
-        {
-          "title": "ShinyHunters hackers expanded attacks on Oracle's PeopleSoft, Google says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc0kwNk9oLVg5bWdrdkJfUXVSNkFYT2o5ODZpU3RaMjJpM0pKb19QTnM0Zlk4d2xURlJZZVF6blp1ZEk5T1ZnMEM3RmN1STc1RnFTZXpDSGRuWWpBY2NwZGZUVzJET29UY0lLYzFxU0NOQjNTV25lRUpkSzRPQTgtQlVkMVRSLWJ1TkROb0ZqaU9sa0ZtSGJ4ZWNtak9pQTQ3dUtmZXdXdWpFSGZHNlpJdGQ4QU1SNm9mYlhwd2t3?oc=5",
-          "published_at": "02:06"
-        },
-        {
-          "title": "ShinyHunters hackers expanded attacks on Oracle's PeopleSoft, Google says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/shinyhunters-hackers-expanded-attacks-oracles-peoplesoft-google-says-6412246",
-          "published_at": "02:05"
-        }
-      ]
-    },
-    {
-      "id": "world-165",
-      "title": "EU to release US$7.5 billion linked to Ukraine military aid",
-      "title_en": "EU to release US$7.5 billion linked to Ukraine military aid",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3368849/eu-release-us75-billion-linked-ukraine-military-aid?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "European Union member countries ⁠have agreed a ⁠deal to release €6.6 billion (US$7.5 billion) in EU funds linked to military aid for Ukraine, EU foreign policy chief Kaja Kallas said on Friday. The mo",
-      "excerpt_en": "European Union member countries ⁠have agreed a ⁠deal to release €6.6 billion (US$7.5 billion) in EU funds linked to military aid for Ukraine, EU foreign policy chief Kaja Kallas said on Friday. The mo",
+      "title_url": "https://www.bangkokpost.com/world/3326084/security-council-condemns-houthi-attacks-on-saudi-arabia",
+      "category": "중동",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Just a month after Saudi Arabia signed a regional mutual defence deal with Pakistan and Turkey, attacks by Yemen’s Houthis against the kingdom’s energy infrastructure and military sites are testing th",
+      "excerpt_en": "Just a month after Saudi Arabia signed a regional mutual defence deal with Pakistan and Turkey, attacks by Yemen’s Houthis against the kingdom’s energy infrastructure and military sites are testing th",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368849/eu-release-us75-billion-linked-ukraine-military-aid?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3368857/houthi-attacks-saudi-arabia-test-limits-mecca-regional-security-pact?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-25T12:57:47+09:00",
-      "latest_published_at": "2026-09-25T17:09:55+09:00",
-      "articles": [
-        {
-          "title": "EU releases €6.6 billion for members arming Ukraine as seven killed in Kyiv",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260925-eu-releases-%E2%82%AC6-6-billion-for-members-arming-ukraine-as-five-killed-in-kyiv",
-          "published_at": "17:09"
-        },
-        {
-          "title": "EU to release US$7.5 billion linked to Ukraine military aid",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3368849/eu-release-us75-billion-linked-ukraine-military-aid?utm_source=rss_feed",
-          "published_at": "12:57"
-        }
-      ]
-    },
-    {
-      "id": "world-179",
-      "title": "CEO loses job over viral photo of family in ‘Lake America’ sweatshirts",
-      "title_en": "CEO loses job over viral photo of family in ‘Lake America’ sweatshirts",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/bank-ceo-lake-america-picture-loses-job-b3056626.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Jane Smith reportedly used ChatGPT to edit photo to show name Trump ordered US agencies to use for Lake Ontario amid trade war with Canada The CEO of a Michigan credit union is no longer employed ther",
-      "excerpt_en": "Jane Smith reportedly used ChatGPT to edit photo to show name Trump ordered US agencies to use for Lake Ontario amid trade war with Canada The CEO of a Michigan credit union is no longer employed ther",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
-      "translation_status": "failed",
-      "score": 61,
+      "score": 64,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
+        "major_score": 5,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 48
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "The Guardian",
+        "Bangkok Post",
+        "Hindustan Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-25T14:45:00+09:00",
+      "latest_published_at": "2026-09-26T10:00:06+09:00",
+      "articles": [
+        {
+          "title": "Houthi attacks on Saudi Arabia test limits of Mecca regional security pact",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368857/houthi-attacks-saudi-arabia-test-limits-mecca-regional-security-pact?utm_source=rss_feed",
+          "published_at": "10:00"
+        },
+        {
+          "title": "Pakistan, Turkey reaffirm Mecca commitment as Houthis renew attacks on Saudi Arabia",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/pakistan-turkey-reaffirm-commitment-to-mecca-pact-as-houthis-renew-attacks-on-saudi-arabia-101790394546446.html",
+          "published_at": "06:53"
+        },
+        {
+          "title": "Security Council condemns Houthi attacks on Saudi Arabia",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326084/security-council-condemns-houthi-attacks-on-saudi-arabia",
+          "published_at": "14:45"
+        }
+      ]
+    },
+    {
+      "id": "world-268",
+      "title": "CEO loses job over viral photo of family in ‘Lake America’ sweatshirts",
+      "title_en": "CEO loses job over viral photo of family in ‘Lake America’ sweatshirts",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/bank-ceo-lake-america-picture-loses-job-b3056626.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Family First Credit Union in Michigan has terminated its CEO, Jane Smith, after her controversial social media post.",
+      "excerpt_en": "Family First Credit Union in Michigan has terminated its CEO, Jane Smith, after her controversial social media post.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-is-jane-smith-michigan-ceo-loses-job-over-family-viral-ai-photo-in-lake-america-sweatshirts-101790416854686.html",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
         "The Independent",
         "Times of India"
       ],
       "first_published_at": "2026-09-25T18:44:46+09:00",
-      "latest_published_at": "2026-09-25T22:21:15+09:00",
+      "latest_published_at": "2026-09-26T10:31:00+09:00",
       "articles": [
         {
-          "title": "Michigan CEO loses job after posting AI-made image of her family in ‘Lake America’ sweaters",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
-          "published_at": "22:21"
+          "title": "Who is Jane Smith? Michigan CEO loses job over family's AI photo in ‘Lake America' sweatshirts",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-jane-smith-michigan-ceo-loses-job-over-family-viral-ai-photo-in-lake-america-sweatshirts-101790416854686.html",
+          "published_at": "10:31"
         },
         {
           "title": "Michigan CEO who posted AI photo of family members wearing ‘Lake America’ sweatshirts loses job; she says it was just for fun, not a political message",
@@ -1396,7 +1003,242 @@
       ]
     },
     {
-      "id": "world-120",
+      "id": "world-327",
+      "title": "Daytime Russian attacks kill seven in Kyiv",
+      "title_en": "Daytime Russian attacks kill seven in Kyiv",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3326489/daytime-russian-attacks-kill-seven-in-kyiv",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Steelmaker ArcelorMittal said it was shutting production at Ukraine's largest steel plant, underscoring the growing economic toll of Russia's airstrikes that on ‌Friday killed seven people in Kyiv inc",
+      "excerpt_en": "Steelmaker ArcelorMittal said it was shutting production at Ukraine's largest steel plant, underscoring the growing economic toll of Russia's airstrikes that on ‌Friday killed seven people in Kyiv inc",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/ukraine-steel-arcelormittal-shutdown-9.7359241?cmp=rss",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "CBC"
+      ],
+      "first_published_at": "2026-09-25T20:40:00+09:00",
+      "latest_published_at": "2026-09-25T23:27:16+09:00",
+      "articles": [
+        {
+          "title": "Ukraine's largest steel plant to shutter amid recurring Russian strikes",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/ukraine-steel-arcelormittal-shutdown-9.7359241?cmp=rss",
+          "published_at": "23:27"
+        },
+        {
+          "title": "Daytime Russian attacks kill seven in Kyiv",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326489/daytime-russian-attacks-kill-seven-in-kyiv",
+          "published_at": "20:40"
+        }
+      ]
+    },
+    {
+      "id": "world-208",
+      "title": "Iran Proposes 7-Day Plan to End War",
+      "title_en": "Iran Proposes 7-Day Plan to End War",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
+      "category": "중동",
+      "primary_source": "New York Times",
+      "excerpt": "Iran's president says Tehran wants a deal with the U.S. before November's midterm elections, as the regime puts an offer on the table.",
+      "excerpt_en": "Iran's president says Tehran wants a deal with the U.S. before November's midterm elections, as the regime puts an offer on the table.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+      "translation_status": "failed",
+      "score": 59,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 44
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-09-25T15:35:22+09:00",
+      "latest_published_at": "2026-09-26T09:35:10+09:00",
+      "articles": [
+        {
+          "title": "Iran proposes a 7-day plan to reopen the Strait of Hormuz",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+          "published_at": "09:35"
+        },
+        {
+          "title": "Iran Proposes 7-Day Plan to End War",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
+          "published_at": "15:35"
+        }
+      ]
+    },
+    {
+      "id": "world-56",
+      "title": "Dale Caldwell girlfriend: NJ lieutenant governor misconduct investigation reveals bombshell details",
+      "title_en": "Dale Caldwell girlfriend: NJ lieutenant governor misconduct investigation reveals bombshell details",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/dale-caldwell-girlfriend-nj-lieutenant-governor-misconduct-investigation-reveals-bombshell-details-101790365596512.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "New Jersey's Lieutenant Governor Dale Caldwell resigned after an investigation revealed he tried to get a promotion for his girlfriend.",
+      "excerpt_en": "New Jersey's Lieutenant Governor Dale Caldwell resigned after an investigation revealed he tried to get a promotion for his girlfriend.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/dale-caldwell-girlfriend-nj-lieutenant-governor-misconduct-investigation-reveals-bombshell-details-101790365596512.html",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-25T19:53:16+09:00",
+      "latest_published_at": "2026-09-25T20:35:00+09:00",
+      "articles": [
+        {
+          "title": "New Jersey's lieutenant governor resigns amid sexual harassment findings",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR2IxcFJfb29mYjNtYWdBWlM1eXlNNTJBcXNPU09WWUJGRTQ3dDZSd01BSXNVdHk4dkVQNXM5Z0hqa2pDQ3kzTTRiYlhScUdkVjdpNm5Tc2VLTlY4azBNQWZNNFFKbXVVNHRiMnQ2Wkdfdkdib0ZHSkRxeUxNeEIxZlFXdHpoREo0Vm5TT3ZXSzRjSFlDZ1hLb2l5RVdPbjJ0QWVwZllydnZFc191TEZRQjNHcW0wbzg?oc=5",
+          "published_at": "20:35"
+        },
+        {
+          "title": "Dale Caldwell girlfriend: NJ lieutenant governor misconduct investigation reveals bombshell details",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/dale-caldwell-girlfriend-nj-lieutenant-governor-misconduct-investigation-reveals-bombshell-details-101790365596512.html",
+          "published_at": "19:53"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "Six big takeaways from a turbulent week of UN diplomacy",
+      "title_en": "Six big takeaways from a turbulent week of UN diplomacy",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "While no breakthroughs were reached on the world's most intractable conflicts, talks on the Iran and Ukraine wars inched forward and global powers used the venue to debate AI risks with industry leade",
+      "excerpt_en": "While no breakthroughs were reached on the world's most intractable conflicts, talks on the Iran and Ukraine wars inched forward and global powers used the venue to debate AI risks with industry leade",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/un-diplomacy-takeaways-6412411",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-26T05:09:00+09:00",
+      "latest_published_at": "2026-09-26T10:13:49+09:00",
+      "articles": [
+        {
+          "title": "Six big takeaways from a turbulent week of UN diplomacy",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/un-diplomacy-takeaways-6412411",
+          "published_at": "10:13"
+        },
+        {
+          "title": "Six big takeaways from a turbulent week of UN diplomacy",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
+          "published_at": "05:09"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "Iran awaits US move after WSJ report says Trump rejects peace plan",
+      "title_en": "Iran awaits US move after WSJ report says Trump rejects peace plan",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Donald Trump is privately sceptical that Iran will meet his demands and has told his staff that he sees a renewed bombing campaign as likely after the November US midterm elections, the Wall Street Jo",
+      "excerpt_en": "Donald Trump is privately sceptical that Iran will meet his demands and has told his staff that he sees a renewed bombing campaign as likely after the November US midterm elections, the Wall Street Jo",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/iran-us-trump-reject-peace-plan-wsj-report-6412236",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-26T07:27:15+09:00",
+      "latest_published_at": "2026-09-26T08:24:00+09:00",
+      "articles": [
+        {
+          "title": "Iran awaits US move after WSJ report says Trump rejects peace plan",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/iran-us-trump-reject-peace-plan-wsj-report-6412236",
+          "published_at": "08:24"
+        },
+        {
+          "title": "Iran awaits US move after WSJ report says Trump rejects peace plan",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+          "published_at": "07:27"
+        }
+      ]
+    },
+    {
+      "id": "world-119",
       "title": "🔴 Live: Yemen's president calls on his people to mobilise against Iran-backed Houthis",
       "title_en": "🔴 Live: Yemen's president calls on his people to mobilise against Iran-backed Houthis",
       "title_source": "earliest_pick",
@@ -1408,14 +1250,14 @@
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/middle-east/20260925-yemen-president-calls-on-his-people-to-mobilise-against-iran-backed-houthis",
       "translation_status": "failed",
-      "score": 56,
+      "score": 55,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 42
+        "time_score": 2,
+        "raw75": 41
       },
       "area_value": 3,
       "article_count": 3,
@@ -1449,123 +1291,111 @@
       ]
     },
     {
-      "id": "world-233",
-      "title": "Two Singapore chefs are putting homegrown flavours on the menu in Hong Kong",
-      "title_en": "Two Singapore chefs are putting homegrown flavours on the menu in Hong Kong",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/experiences/singapore-chefs-barry-quek-keith-teo-whey-hong-kong-6401426",
-      "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Hong Kong’s economic transformation is at a critical juncture, and the private sector must adapt along with it, as Chief Executive John Lee Ka-chiu has noted. In the first of a two-part series, Ambros",
-      "excerpt_en": "Hong Kong’s economic transformation is at a critical juncture, and the private sector must adapt along with it, as Chief Executive John Lee Ka-chiu has noted. In the first of a two-part series, Ambros",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3368853/how-hong-kong-firms-are-future-proofing-business-challenging-times?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-25T22:58:00+09:00",
-      "latest_published_at": "2026-09-26T03:08:22+09:00",
-      "articles": [
-        {
-          "title": "How Hong Kong companies are evolving with the times",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/series/3368879/how-hong-kong-companies-are-evolving-times?utm_source=rss_feed",
-          "published_at": "03:08"
-        },
-        {
-          "title": "How Hong Kong firms are future-proofing business in challenging times",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3368853/how-hong-kong-firms-are-future-proofing-business-challenging-times?utm_source=rss_feed",
-          "published_at": "01:00"
-        },
-        {
-          "title": "Two Singapore chefs are putting homegrown flavours on the menu in Hong Kong",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/experiences/singapore-chefs-barry-quek-keith-teo-whey-hong-kong-6401426",
-          "published_at": "22:58"
-        }
-      ]
-    },
-    {
       "id": "world-147",
-      "title": "Trump to take Xi inside National Archives for glimpse of America’s greatest treasures",
-      "title_en": "Trump to take Xi inside National Archives for glimpse of America’s greatest treasures",
+      "title": "Pope preaches ‘dignity and peace’ in Paris",
+      "title_en": "Pope preaches ‘dignity and peace’ in Paris",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-summit-national-archives-b3056322.html",
-      "category": "아시아",
-      "primary_source": "The Independent",
-      "excerpt": "President Donald Trump will take Chinese President Xi Jinping to visit the National Archives, showing off the sacred texts of U.S. democracy to the leader of the world’s most powerful communist countr",
-      "excerpt_en": "President Donald Trump will take Chinese President Xi Jinping to visit the National Archives, showing off the sacred texts of U.S. democracy to the leader of the world’s most powerful communist countr",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/xi-jinping-donald-trump-chinese-washington-white-house-b3056413.html",
+      "title_url": "https://www.bangkokpost.com/world/3326584/pope-preaches-dignity-and-peace-in-paris",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "PARIS - Pope Leo XIV said on Saturday it was possible to “live together in dignity and peace” as he met migrants in Paris, ahead of a giant open-air mass expected to gather hundreds of thousands of pe",
+      "excerpt_en": "PARIS - Pope Leo XIV said on Saturday it was possible to “live together in dignity and peace” as he met migrants in Paris, ahead of a giant open-air mass expected to gather hundreds of thousands of pe",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3326584/pope-preaches-dignity-and-peace-in-paris",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
+        "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
+        "time_score": 3,
         "raw75": 41
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "DW",
-        "The Independent"
+        "Bangkok Post",
+        "France24"
       ],
-      "first_published_at": "2026-09-25T10:01:57+09:00",
-      "latest_published_at": "2026-09-25T14:59:00+09:00",
+      "first_published_at": "2026-09-26T08:45:00+09:00",
+      "latest_published_at": "2026-09-26T09:57:25+09:00",
       "articles": [
         {
-          "title": "Xi wraps up US visit with trip to National Archives",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/xi-wraps-up-us-visit-with-trip-to-national-archives/live-79404511?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "14:59"
+          "title": "Leo XIV says in Paris it is possible 'to live together in dignity and peace'",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/leo-xiv-says-in-paris-it-is-possible-to-live-together-in-dignity-and-peace",
+          "published_at": "09:57"
         },
         {
-          "title": "The Latest: Xi wraps up Washington visit with a trip to see the Constitution and Bill of Rights",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/xi-jinping-donald-trump-chinese-washington-white-house-b3056413.html",
-          "published_at": "12:32"
-        },
-        {
-          "title": "Trump to take Xi inside National Archives for glimpse of America’s greatest treasures",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-summit-national-archives-b3056322.html",
-          "published_at": "10:01"
+          "title": "Pope preaches ‘dignity and peace’ in Paris",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326584/pope-preaches-dignity-and-peace-in-paris",
+          "published_at": "08:45"
         }
       ]
     },
     {
-      "id": "world-190",
-      "title": "In Paris, Pope warns against losing humanity in ‘paradise of machines’",
-      "title_en": "In Paris, Pope warns against losing humanity in ‘paradise of machines’",
+      "id": "world-151",
+      "title": "Iran proposes Hormuz plan, Trump reportedly refuses",
+      "title_en": "Iran proposes Hormuz plan, Trump reportedly refuses",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3368852/paris-pope-warns-against-losing-humanity-paradise-machines?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Pontiff says artificial intelligence must remain at service of people in first official papal visit to country in 18 years Pope Leo has warned against losing humanity in a “paradise of machines” as he",
-      "excerpt_en": "Pontiff says artificial intelligence must remain at service of people in first official papal visit to country in 18 years Pope Leo has warned against losing humanity in a “paradise of machines” as he",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
+      "title_url": "https://www.bangkokpost.com/world/3326520/iran-proposes-hormuz-plan-trump-reportedly-refuses",
+      "category": "중동",
+      "primary_source": "Bangkok Post",
+      "excerpt": "The United States had yet to publicly respond on Saturday after Iran offered a plan to reopen the strategic Strait of Hormuz, though reports indicated that President Donald Trump had rejected the prop",
+      "excerpt_en": "The United States had yet to publicly respond on Saturday after Iran offered a plan to reopen the strategic Strait of Hormuz, though reports indicated that President Donald Trump had rejected the prop",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east-iran-proposes-hormuz-plan-donald-trump-reportedly-refuses",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "France24"
+      ],
+      "first_published_at": "2026-09-26T02:45:00+09:00",
+      "latest_published_at": "2026-09-26T09:35:15+09:00",
+      "articles": [
+        {
+          "title": "Middle-East: Iran proposes Hormuz plan, Donald Trump reportedly refuses",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east-iran-proposes-hormuz-plan-donald-trump-reportedly-refuses",
+          "published_at": "09:35"
+        },
+        {
+          "title": "Iran proposes Hormuz plan, Trump reportedly refuses",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326520/iran-proposes-hormuz-plan-trump-reportedly-refuses",
+          "published_at": "02:45"
+        }
+      ]
+    },
+    {
+      "id": "world-251",
+      "title": "Saudi coalition says it intercepted Houthi drones and missiles bound for Saudi Arabia",
+      "title_en": "Saudi coalition says it intercepted Houthi drones and missiles bound for Saudi Arabia",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-and-missiles-bound-for-saudi-arabia",
+      "category": "중동",
+      "primary_source": "Euronews",
+      "excerpt": "The Houthis declared a naval blockade of Saudi Arabia in July and have since been launching increasing attacks on Saudi cities and shipping, further heightening tensions in the Middle East.",
+      "excerpt_en": "The Houthis declared a naval blockade of Saudi Arabia in July and have since been launching increasing attacks on Saudi cities and shipping, further heightening tensions in the Middle East.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-and-missiles-bound-for-saudi-arabia",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1581,38 +1411,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "SCMP",
-        "The Guardian"
+        "Euronews",
+        "The Independent"
       ],
-      "first_published_at": "2026-09-25T13:14:40+09:00",
-      "latest_published_at": "2026-09-25T16:01:10+09:00",
+      "first_published_at": "2026-09-26T06:00:36+09:00",
+      "latest_published_at": "2026-09-26T06:04:58+09:00",
       "articles": [
         {
-          "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
-          "published_at": "16:01"
+          "title": "Saudi Arabia says it intercepts another Houthi-launched missile, and other Mideast developments",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/saudi-arabia-iran-houthi-west-bank-yemen-b3056771.html",
+          "published_at": "06:04"
         },
         {
-          "title": "In Paris, Pope warns against losing humanity in ‘paradise of machines’",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3368852/paris-pope-warns-against-losing-humanity-paradise-machines?utm_source=rss_feed",
-          "published_at": "13:14"
+          "title": "Saudi coalition says it intercepted Houthi drones and missiles bound for Saudi Arabia",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-and-missiles-bound-for-saudi-arabia",
+          "published_at": "06:00"
         }
       ]
     },
     {
-      "id": "world-270",
-      "title": "Nor'easter tracker: Coastal flood warnings issued - Here's what NJ, Delaware, NY and Maryland residents need to know",
-      "title_en": "Nor'easter tracker: Coastal flood warnings issued - Here's what NJ, Delaware, NY and Maryland residents need to know",
+      "id": "world-258",
+      "title": "Ed Sheeran cancels New England concerts as Nor'easter looms",
+      "title_en": "Ed Sheeran cancels New England concerts as Nor'easter looms",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/noreaster-tracker-coastal-flood-warnings-issued-heres-what-nj-delaware-ny-and-maryland-residents-need-to-know-101790332391293.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/ed-sheeran-new-england-macklemore-mass-english-b3056586.html",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "A severe Nor'easter is impacting New Jersey and Delaware coasts with strong winds and tidal flooding, prompting a First Alert.",
-      "excerpt_en": "A severe Nor'easter is impacting New Jersey and Delaware coasts with strong winds and tidal flooding, prompting a First Alert.",
+      "primary_source": "The Independent",
+      "excerpt": "The Global Citizen Festival in New York’s Central Park has been cancelled because of a powerful nor’easter expected to hit the city over the weekend.",
+      "excerpt_en": "The Global Citizen Festival in New York’s Central Park has been cancelled because of a powerful nor’easter expected to hit the city over the weekend.",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/noreaster-tracker-coastal-flood-warnings-issued-heres-what-nj-delaware-ny-and-maryland-residents-need-to-know-101790332391293.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/why-was-nycs-global-citizen-festival-2026-canceled-saturdays-noreaster-weather-forecast-101790358491529.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1631,7 +1461,7 @@
         "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-09-25T11:10:53+09:00",
+      "first_published_at": "2026-09-25T16:44:20+09:00",
       "latest_published_at": "2026-09-25T21:53:05+09:00",
       "articles": [
         {
@@ -1641,185 +1471,237 @@
           "published_at": "21:53"
         },
         {
+          "title": "Why was NYC's Global Citizen Festival 2026 canceled? Saturday's nor'easter weather forecast",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/why-was-nycs-global-citizen-festival-2026-canceled-saturdays-noreaster-weather-forecast-101790358491529.html",
+          "published_at": "17:55"
+        },
+        {
           "title": "Ed Sheeran cancels New England concerts as Nor'easter looms",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/ed-sheeran-new-england-macklemore-mass-english-b3056586.html",
           "published_at": "16:44"
+        }
+      ]
+    },
+    {
+      "id": "world-303",
+      "title": "Bangkok declared disaster zone as torrential rain floods city, leaves vehicles, shops submerged: Video",
+      "title_en": "Bangkok declared disaster zone as torrential rain floods city, leaves vehicles, shops submerged: Video",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/bangkok-floods-disaster-zone-declared-after-torrential-rain-vehicles-shops-flights-hit-thailand-photos-video-101790415110260.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The rain began on Thursday afternoon and continued through Saturday, disrupting traffic and forcing hundreds of people to evacuate.",
+      "excerpt_en": "The rain began on Thursday afternoon and continued through Saturday, disrupting traffic and forcing hundreds of people to evacuate.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/bangkok-floods-disaster-zone-declared-after-torrential-rain-vehicles-shops-flights-hit-thailand-photos-video-101790415110260.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-26T09:42:20+09:00",
+      "latest_published_at": "2026-09-26T10:35:08+09:00",
+      "articles": [
+        {
+          "title": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/heavy-rain-flooding-bangkok-disrupts-traffic-prompts-evacuations-136775006",
+          "published_at": "10:35"
         },
         {
-          "title": "Nor'easter tracker: Coastal flood warnings issued - Here's what NJ, Delaware, NY and Maryland residents need to know",
+          "title": "Bangkok declared disaster zone as torrential rain floods city, leaves vehicles, shops submerged: Video",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/noreaster-tracker-coastal-flood-warnings-issued-heres-what-nj-delaware-ny-and-maryland-residents-need-to-know-101790332391293.html",
-          "published_at": "11:10"
+          "url": "https://www.hindustantimes.com/world-news/bangkok-floods-disaster-zone-declared-after-torrential-rain-vehicles-shops-flights-hit-thailand-photos-video-101790415110260.html",
+          "published_at": "09:42"
         }
       ]
     },
     {
       "id": "world-311",
-      "title": "The critical infrastructure Europe - and Nato - needs to protect from Russia",
-      "title_en": "The critical infrastructure Europe - and Nato - needs to protect from Russia",
+      "title": "'Trump Strait': US President shares Hormuz map, relabels key waterway amid Iran tensions",
+      "title_en": "'Trump Strait': US President shares Hormuz map, relabels key waterway amid Iran tensions",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/will-russia-attack-uk-europe-nato-russia-putin-b3056331.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "SAINT PETERSBURG - Russia is not preparing for \"any kind\" of conflict with Europe, President Vladimir Putin said Friday, following warnings from some European NATO members of potential Russian attacks",
-      "excerpt_en": "SAINT PETERSBURG - Russia is not preparing for \"any kind\" of conflict with Europe, President Vladimir Putin said Friday, following warnings from some European NATO members of potential Russian attacks",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3326488/russia-not-preparing-for-conflict-with-europe-putin-says",
+      "title_url": "https://www.hindustantimes.com/world-news/us-iran-war-strait-of-hormuz-oil-donald-trump-latest-news-101790406513908.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "US President Donald Trump posted an image of the Strait of Hormuz labeled “Trump Strait”. Check top developments from Middle East war.",
+      "excerpt_en": "US President Donald Trump posted an image of the Strait of Hormuz labeled “Trump Strait”. Check top developments from Middle East war.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-iran-war-strait-of-hormuz-oil-donald-trump-latest-news-101790406513908.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
         "raw75": 41
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T13:22:05+09:00",
-      "latest_published_at": "2026-09-25T18:45:00+09:00",
-      "articles": [
-        {
-          "title": "Russia not preparing for conflict with Europe, Putin says",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326488/russia-not-preparing-for-conflict-with-europe-putin-says",
-          "published_at": "18:45"
-        },
-        {
-          "title": "The critical infrastructure Europe - and Nato - needs to protect from Russia",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/will-russia-attack-uk-europe-nato-russia-putin-b3056331.html",
-          "published_at": "13:22"
-        }
-      ]
-    },
-    {
-      "id": "world-326",
-      "title": "U.S. military sets up for potential action in Cuba",
-      "title_en": "U.S. military sets up for potential action in Cuba",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/us-military-sets-up-for-potential-action-in-cuba/",
-      "category": "미국",
-      "primary_source": "CBS News",
-      "excerpt": "The U.S. Army Reserve is reviewing a request to move resources to the military's Southern Command over the next four months, according to an internal message. Multiple U.S. officials say the request i",
-      "excerpt_en": "The U.S. Army Reserve is reviewing a request to move resources to the military's Southern Command over the next four months, according to an internal message. Multiple U.S. officials say the request i",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/us-military-sets-up-for-potential-action-in-cuba/",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Euronews"
-      ],
-      "first_published_at": "2026-09-25T13:26:31+09:00",
-      "latest_published_at": "2026-09-25T23:46:14+09:00",
-      "articles": [
-        {
-          "title": "U.S. military lays groundwork for potential action around Cuba",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/u-s-groundwork-potential-action-cuba-trump/",
-          "published_at": "23:46"
-        },
-        {
-          "title": "The US lays groundwork for possible military action in Cuba, according to 'CBS News'",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/25/the-us-lays-groundwork-for-possible-military-action-in-cuba-according-to-cbs-news",
-          "published_at": "19:11"
-        },
-        {
-          "title": "U.S. military sets up for potential action in Cuba",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/us-military-sets-up-for-potential-action-in-cuba/",
-          "published_at": "13:26"
-        }
-      ]
-    },
-    {
-      "id": "world-342",
-      "title": "In China, the Xi-Trump summit is seen as projecting image of the country’s rise",
-      "title_en": "In China, the Xi-Trump summit is seen as projecting image of the country’s rise",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/china-xi-trump-summit-projecting-image-countrys-rise-136745988",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "U.S. President Donald Trump's summit with his Chinese counterpart, Xi Jinping, was more about pageantry than policy, says analyst Michael Kovrig. Nevertheless, he says that in cozying up to Xi, Trump ",
-      "excerpt_en": "U.S. President Donald Trump's summit with his Chinese counterpart, Xi Jinping, was more about pageantry than policy, says analyst Michael Kovrig. Nevertheless, he says that in cozying up to Xi, Trump ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/radio/asithappens/donald-trump-xi-jinping-michael-kovrig-9.7358957?cmp=rss",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 5,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
       "sources": [
         "ABC News",
-        "CBC",
-        "CBS News"
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-09-25T10:50:57+09:00",
-      "latest_published_at": "2026-09-25T21:04:04+09:00",
+      "first_published_at": "2026-09-26T08:17:14+09:00",
+      "latest_published_at": "2026-09-26T10:34:56+09:00",
       "articles": [
         {
-          "title": "Trump cozying up to Xi Jinping could spell trouble for Canada, says Michael Kovrig",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/radio/asithappens/donald-trump-xi-jinping-michael-kovrig-9.7358957?cmp=rss",
-          "published_at": "21:04"
-        },
-        {
-          "title": "9/25: The Takeout with Major Garrett",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/092526-the-takeout-with-major-garrett/",
-          "published_at": "21:00"
-        },
-        {
-          "title": "In China, the Xi-Trump summit is seen as projecting image of the country’s rise",
+          "title": "Trump posts map showing 'Trump Strait' off Iran, and other Mideast developments",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/china-xi-trump-summit-projecting-image-countrys-rise-136745988",
-          "published_at": "10:50"
+          "url": "https://abcnews.com/International/wireStory/trump-posts-map-showing-trump-strait-off-iran-136776098",
+          "published_at": "10:34"
+        },
+        {
+          "title": "'Trump Strait': US President shares Hormuz map, relabels key waterway amid Iran tensions",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-iran-war-strait-of-hormuz-oil-donald-trump-latest-news-101790406513908.html",
+          "published_at": "08:17"
         }
       ]
     },
     {
-      "id": "world-5",
-      "title": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
-      "title_en": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
+      "id": "world-332",
+      "title": "Justice Department under Trump asks EU to scrap $137M US fine for Elon Musk's X",
+      "title_en": "Justice Department under Trump asks EU to scrap $137M US fine for Elon Musk's X",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3ZERzdwNHhFVVVqTDBCVF82eHRrdXpSZDNuQl92TWdZRzVKUHZsQm82dUI4MFhaN1BLRHlzTml2ODNrTEdnaWxkY0VKLUY0M3J0VGVWeDZ2RU1TZmdPV2VzTk80VGRrckdybk5za2xuZU9UUEV1dUE5dUUyYTBtVnRmOEk4NFNkaTJhVFFyb1BJOVRSeW55cTZfSWN5Q1FoWDRWTUE0b2h6ZXJTYXU1TDVmRkxrZXNH?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports Reuters",
-      "excerpt_en": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3ZERzdwNHhFVVVqTDBCVF82eHRrdXpSZDNuQl92TWdZRzVKUHZsQm82dUI4MFhaN1BLRHlzTml2ODNrTEdnaWxkY0VKLUY0M3J0VGVWeDZ2RU1TZmdPV2VzTk80VGRrckdybk5za2xuZU9UUEV1dUE5dUUyYTBtVnRmOEk4NFNkaTJhVFFyb1BJOVRSeW55cTZfSWN5Q1FoWDRWTUE0b2h6ZXJTYXU1TDVmRkxrZXNH?oc=5",
+      "title_url": "https://www.cbc.ca/news/world/us-justice-dept-musk-x-eu-9.7358411?cmp=rss",
+      "category": "유럽",
+      "primary_source": "CBC",
+      "excerpt": "Elon Musk underscores the significance of productivity during meetings, urging team members to exit if they feel unable to contribute. He views long meetings as a hindrance and advocates for shorter, ",
+      "excerpt_en": "Elon Musk underscores the significance of productivity during meetings, urging team members to exit if they feel unable to contribute. He views long meetings as a hindrance and advocates for shorter, ",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/just-get-up-and-walk-out-elon-musks-unusual-meeting-rule-for-tesla-employees-and-why-he-called-staying-when-you-add-no-value-rude/articleshow/134500283.cms",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "Times of India"
+      ],
+      "first_published_at": "2026-09-25T16:57:15+09:00",
+      "latest_published_at": "2026-09-26T08:06:29+09:00",
+      "articles": [
+        {
+          "title": "\"Just get up and walk out\": Elon Musk’s unusual meeting rule for Tesla employees",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/just-get-up-and-walk-out-elon-musks-unusual-meeting-rule-for-tesla-employees-and-why-he-called-staying-when-you-add-no-value-rude/articleshow/134500283.cms",
+          "published_at": "08:06"
+        },
+        {
+          "title": "Justice Department under Trump asks EU to scrap $137M US fine for Elon Musk's X",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/us-justice-dept-musk-x-eu-9.7358411?cmp=rss",
+          "published_at": "16:57"
+        }
+      ]
+    },
+    {
+      "id": "world-400",
+      "title": "Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+      "title_en": "Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-live-blog/107196404",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "The AFL grand final has never felt so raw as in the five ballistic minutes that elevated the Brisbane Lions to legends and delivered Fremantle the most crushing defeat imaginable.",
+      "excerpt_en": "The AFL grand final has never felt so raw as in the five ballistic minutes that elevated the Brisbane Lions to legends and delivered Fremantle the most crushing defeat imaginable.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-brisbane-belief-sparks-cruel-fremantle-collapse/107199152",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 10,
+        "major_score": 5,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "Channel News Asia"
+      ],
+      "first_published_at": "2026-09-26T01:57:19+09:00",
+      "latest_published_at": "2026-09-26T08:46:44+09:00",
+      "articles": [
+        {
+          "title": "In the greatest and cruellest of grand finals, only the Lions believed",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-brisbane-belief-sparks-cruel-fremantle-collapse/107199152",
+          "published_at": "08:46"
+        },
+        {
+          "title": "Surprised Docker wins Norm Smith Medal in losing grand final team",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-dockers-lions-shai-bolton-norm-smith-medal/107199694",
+          "published_at": "08:34"
+        },
+        {
+          "title": "Australian Rules-Brisbane deny Fremantle in Grand Final thriller to win third straight AFL premiership",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/australian-rules-brisbane-deny-fremantle-in-grand-final-thriller-win-third-straight-afl-premiership-6412476",
+          "published_at": "07:44"
+        },
+        {
+          "title": "The biggest moments of Kylie Minogue's AFL grand final show",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-26/kylie-minogue-afl-grand-final-show-performance-which-songs/107199212",
+          "published_at": "06:12"
+        },
+        {
+          "title": "Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-live-blog/107196404",
+          "published_at": "01:57"
+        }
+      ]
+    },
+    {
+      "id": "world-8",
+      "title": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
+      "title_en": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-summit-101790390462457.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Xi told Trump in Washington on Thursday that he hoped the US would adhere to the \"correct position\" of opposing Taiwan independence.",
+      "excerpt_en": "Xi told Trump in Washington on Thursday that he hoped the US would adhere to the \"correct position\" of opposing Taiwan independence.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-summit-101790390462457.html",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1835,38 +1717,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-09-26T00:29:00+09:00",
-      "latest_published_at": "2026-09-26T00:31:26+09:00",
+      "first_published_at": "2026-09-26T02:55:37+09:00",
+      "latest_published_at": "2026-09-26T03:11:21+09:00",
       "articles": [
         {
-          "title": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/openais-models-accessed-public-us-census-sec-data-bloomberg-news-reports-6412186",
-          "published_at": "00:31"
+          "title": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmxPT01ncFNMX1E2V2FuRWpFUk0tXzR6WWJVYUl6TlRHM3QxYndiMTAyWlN0bV9qRlJMdmxiem9OQzJUZHBlMnJuZzBTUjFxbVZpN1QtOThvRTZTMEZrRHJSNG4zbnNJRU9lVWdpQmdveV84NHo1R1R0WHJSRmhUdWdYWVJka2t4RWtSVld5TDV2SVpScE80UnJXdkdsOFQ2dlFxeHJMdEFvODlHdnVPVGMyMnhVWWl3cHZWRDN6Yw?oc=5",
+          "published_at": "03:11"
         },
         {
-          "title": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3ZERzdwNHhFVVVqTDBCVF82eHRrdXpSZDNuQl92TWdZRzVKUHZsQm82dUI4MFhaN1BLRHlzTml2ODNrTEdnaWxkY0VKLUY0M3J0VGVWeDZ2RU1TZmdPV2VzTk80VGRrckdybk5za2xuZU9UUEV1dUE5dUUyYTBtVnRmOEk4NFNkaTJhVFFyb1BJOVRSeW55cTZfSWN5Q1FoWDRWTUE0b2h6ZXJTYXU1TDVmRkxrZXNH?oc=5",
-          "published_at": "00:29"
+          "title": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-summit-101790390462457.html",
+          "published_at": "02:55"
         }
       ]
     },
     {
-      "id": "world-6",
-      "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges",
-      "title_en": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges",
+      "id": "world-26",
+      "title": "Congo military plane crash kills 13, including three officers, official says",
+      "title_en": "Congo military plane crash kills 13, including three officers, official says",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTHJjb3RiN29zTDRDXzV3MVowb0UybFNleDlucEF5ZFZqc3pTNXA0NUlSRXFqSkE2bk5CSTNTeGR5c2NiNU1BaUVzY0ZCOHNvck9Dend2dFFMQkcxLXRzMW1qY0wtbFpyLVNZTDFmUFJxQmVmSEVDWkVHU1RpOHNMVmFWNkgtVWRfTWxtUVdfeDNXLVhFa2FYWDY4Mks0NmZiY1M2aXVKLXZGeTlYNWk4UnFCN2ptbmdtZ2pTYlFLeTY?oc=5",
       "category": "기타",
       "primary_source": "Reuters",
-      "excerpt": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges Reuters",
-      "excerpt_en": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+      "excerpt": "At least 14 people have died in a plane crash in Congo, including two senior military officials, according to the Congolese military",
+      "excerpt_en": "At least 14 people have died in a plane crash in Congo, including two senior military officials, according to the Congolese military",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/congo-plane-crash-kills-14-including-2-senior-136769427",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1882,117 +1764,23 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "ABC News",
         "Reuters"
       ],
-      "first_published_at": "2026-09-25T20:37:00+09:00",
-      "latest_published_at": "2026-09-25T20:37:56+09:00",
+      "first_published_at": "2026-09-25T16:37:11+09:00",
+      "latest_published_at": "2026-09-25T23:04:07+09:00",
       "articles": [
         {
-          "title": "Exclusive-OpenAI works to understand full scope of agent activity as user data leak emerges",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/exclusive-openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-6411996",
-          "published_at": "20:37"
+          "title": "Congo plane crash kills 14, including 2 senior military officials",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/congo-plane-crash-kills-14-including-2-senior-136769427",
+          "published_at": "23:04"
         },
         {
-          "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges",
+          "title": "Congo military plane crash kills 13, including three officers, official says",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
-          "published_at": "20:37"
-        }
-      ]
-    },
-    {
-      "id": "world-25",
-      "title": "Supreme Court restores Trump administration’s mass voter verification database",
-      "title_en": "Supreme Court restores Trump administration’s mass voter verification database",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/supreme-court-voter-database-trump-b3056588.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Legal representatives for the plaintiffs characterized the decision as ‘profoundly disappointing,’ warning that it leaves ‘millions of Americans at risk’",
-      "excerpt_en": "Legal representatives for the plaintiffs characterized the decision as ‘profoundly disappointing,’ warning that it leaves ‘millions of Americans at risk’",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/supreme-court-voter-database-trump-b3056588.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T16:54:17+09:00",
-      "latest_published_at": "2026-09-25T19:46:34+09:00",
-      "articles": [
-        {
-          "title": "Supreme Court restores Trump's mass voter verification system",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUJNR0o2X0F6cklkVHU5T1RDYTB3WFhsWXkxT3gxRE9NbHZSbEtMZTU4UU54eURxd1VxdGJzYkVxMk43dER3a2FvSVhaeTc4UlNNdVFzV0tOMWxPeWFma0N6bzFzcFA3aGJCdXhKczJXVWh2c1A0TVlOcDlJMlJNdXZmR18xR2ZjV29ISXNuT3I0SEk4YUgxMG9WNWFRYnRqQ3FpQg?oc=5",
-          "published_at": "19:46"
-        },
-        {
-          "title": "Supreme Court restores Trump administration’s mass voter verification database",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/supreme-court-voter-database-trump-b3056588.html",
-          "published_at": "16:54"
-        }
-      ]
-    },
-    {
-      "id": "world-28",
-      "title": "US appeals court rules against Kalshi, says states can regulate prediction markets",
-      "title_en": "US appeals court rules against Kalshi, says states can regulate prediction markets",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQWZXVWk2TzhjZzVySHppeGZuYlJOd3FjeHc0dnZ3Zk1NcnZYc3JZSTRiNTlRazZyR1FrWlh2UmI4VmFhaXhVS2RrcDlTNW05enVRbmNMaDRLSy1UWjc1b2Jkc0Fud2UxY2JleVRYWld1cjN1VU1yY0UtSVN6TjBBaTRvRkpFY3BkaU9ERjFHN3BfWWRNNC1ReFI2bFR6bXFxRzJxWi15RjRLVFNrMjI5M2t2VS1qOTBxT0J6R1d0LWxZOERK?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "US appeals courts have varied on regulation of prediction markets, opening the door to US Supreme Court debate.",
-      "excerpt_en": "US appeals courts have varied on regulation of prediction markets, opening the door to US Supreme Court debate.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets?traffic_source=rss",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-25T23:31:55+09:00",
-      "latest_published_at": "2026-09-25T23:56:46+09:00",
-      "articles": [
-        {
-          "title": "US court rules against Kalshi, says states can regulate prediction markets",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets?traffic_source=rss",
-          "published_at": "23:56"
-        },
-        {
-          "title": "US appeals court rules against Kalshi, says states can regulate prediction markets",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQWZXVWk2TzhjZzVySHppeGZuYlJOd3FjeHc0dnZ3Zk1NcnZYc3JZSTRiNTlRazZyR1FrWlh2UmI4VmFhaXhVS2RrcDlTNW05enVRbmNMaDRLSy1UWjc1b2Jkc0Fud2UxY2JleVRYWld1cjN1VU1yY0UtSVN6TjBBaTRvRkpFY3BkaU9ERjFHN3BfWWRNNC1ReFI2bFR6bXFxRzJxWi15RjRLVFNrMjI5M2t2VS1qOTBxT0J6R1d0LWxZOERK?oc=5",
-          "published_at": "23:31"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTHJjb3RiN29zTDRDXzV3MVowb0UybFNleDlucEF5ZFZqc3pTNXA0NUlSRXFqSkE2bk5CSTNTeGR5c2NiNU1BaUVzY0ZCOHNvck9Dend2dFFMQkcxLXRzMW1qY0wtbFpyLVNZTDFmUFJxQmVmSEVDWkVHU1RpOHNMVmFWNkgtVWRfTWxtUVdfeDNXLVhFa2FYWDY4Mks0NmZiY1M2aXVKLXZGeTlYNWk4UnFCN2ptbmdtZ2pTYlFLeTY?oc=5",
+          "published_at": "16:37"
         }
       ]
     },
@@ -2044,7 +1832,242 @@
       ]
     },
     {
-      "id": "world-87",
+      "id": "world-65",
+      "title": "In win for Trump, U.S. Supreme Court lets states use revamped voter verification system",
+      "title_en": "In win for Trump, U.S. Supreme Court lets states use revamped voter verification system",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/supreme-court-trump-federal-voter-database-save-noncitizens-9.7358440?cmp=rss",
+      "category": "미국",
+      "primary_source": "CBC",
+      "excerpt": "The U.S. Supreme Court has lifted restrictions on a controversial federal voter database before November's elections, granting President Donald Trump a temporary win in his aggressive campaign against",
+      "excerpt_en": "The U.S. Supreme Court has lifted restrictions on a controversial federal voter database before November's elections, granting President Donald Trump a temporary win in his aggressive campaign against",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/supreme-court-trump-federal-voter-database-save-noncitizens-9.7358440?cmp=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "CBC"
+      ],
+      "first_published_at": "2026-09-25T17:16:47+09:00",
+      "latest_published_at": "2026-09-25T23:33:00+09:00",
+      "articles": [
+        {
+          "title": "Supreme Court lets Trump administration use revamped federal voter eligibility database for now",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTjdiQ0dkQkV2V1J1Z19HdURxN0pmMlI3d1dRN2N6QmZpUjFRbUZYd1hMM1JuN0tnaW9Fd1kzRFVwUFh4SGdCVzFpZHJkZDgtV0pRVHd5NzNpZUtGa0xTcnc3VlNwVVZabDZWVDVvU1h2a2luY2NMNkFpWUluMWJHTlhpZXdJUUFTTXFwTTRqS3hvTGI4SFJ2WmxUeGt1cHA0bGVEQXlUbmtNeGZpdmlzeQ?oc=5",
+          "published_at": "23:33"
+        },
+        {
+          "title": "In win for Trump, U.S. Supreme Court lets states use revamped voter verification system",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/supreme-court-trump-federal-voter-database-save-noncitizens-9.7358440?cmp=rss",
+          "published_at": "17:16"
+        }
+      ]
+    },
+    {
+      "id": "world-78",
+      "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure",
+      "title_en": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXotYUJaRDhtSE9salVqcGVWdUlOR1V4dnVMQzd0OXJKZEdnWWNUTG1TNXZIcG9Pb1RmSmxqeXlMajItSGZZQWpWSXRhajRuNVd0TzNsSjA4Y1FtQXhtekdlRmZsU1c2cTI1RDlXd2lBeTNIVml2Q045aF9OalZXTFgwaUpGbEM4Qm9PbDF2aTRkeGNNVTY4MkRB?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "OpenAI models accessed data on two US government websites and carried out an unsuccessful hack on a Department of Education site, according to new investigations.",
+      "excerpt_en": "OpenAI models accessed data on two US government websites and carried out an unsuccessful hack on a Department of Education site, according to new investigations.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/openai-models-accessed-us-government-data-and-tried-to-hack-education-site-13591998",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Sky News"
+      ],
+      "first_published_at": "2026-09-26T03:42:00+09:00",
+      "latest_published_at": "2026-09-26T07:56:00+09:00",
+      "articles": [
+        {
+          "title": "OpenAI models accessed US government data and 'tried to hack another site'",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/openai-models-accessed-us-government-data-and-tried-to-hack-education-site-13591998",
+          "published_at": "07:56"
+        },
+        {
+          "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXotYUJaRDhtSE9salVqcGVWdUlOR1V4dnVMQzd0OXJKZEdnWWNUTG1TNXZIcG9Pb1RmSmxqeXlMajItSGZZQWpWSXRhajRuNVd0TzNsSjA4Y1FtQXhtekdlRmZsU1c2cTI1RDlXd2lBeTNIVml2Q045aF9OalZXTFgwaUpGbEM4Qm9PbDF2aTRkeGNNVTY4MkRB?oc=5",
+          "published_at": "03:42"
+        }
+      ]
+    },
+    {
+      "id": "world-166",
+      "title": "Brazil's President Lula bans online betting ahead of presidential election",
+      "title_en": "Brazil's President Lula bans online betting ahead of presidential election",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/brazils-president-lula-bans-online-betting-ahead-presidential-136770762",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "President’s ‘hard, drastic and necessary measure’, likely to attract widespread public support, polls suggest The Brazilian president, Luiz Inácio Lula da Silva, has signed an order banning fixed-odds",
+      "excerpt_en": "President’s ‘hard, drastic and necessary measure’, likely to attract widespread public support, polls suggest The Brazilian president, Luiz Inácio Lula da Silva, has signed an order banning fixed-odds",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-09-26T01:03:36+09:00",
+      "latest_published_at": "2026-09-26T07:58:05+09:00",
+      "articles": [
+        {
+          "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+          "published_at": "07:58"
+        },
+        {
+          "title": "Brazil's President Lula bans online betting ahead of presidential election",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/brazils-president-lula-bans-online-betting-ahead-presidential-136770762",
+          "published_at": "01:03"
+        }
+      ]
+    },
+    {
+      "id": "world-27",
+      "title": "Supreme Court restores Trump administration’s mass voter verification database",
+      "title_en": "Supreme Court restores Trump administration’s mass voter verification database",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/supreme-court-voter-database-trump-b3056588.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Legal representatives for the plaintiffs characterized the decision as ‘profoundly disappointing,’ warning that it leaves ‘millions of Americans at risk’",
+      "excerpt_en": "Legal representatives for the plaintiffs characterized the decision as ‘profoundly disappointing,’ warning that it leaves ‘millions of Americans at risk’",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/supreme-court-voter-database-trump-b3056588.html",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-25T16:54:17+09:00",
+      "latest_published_at": "2026-09-25T19:46:34+09:00",
+      "articles": [
+        {
+          "title": "Supreme Court restores Trump's mass voter verification system",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUJNR0o2X0F6cklkVHU5T1RDYTB3WFhsWXkxT3gxRE9NbHZSbEtMZTU4UU54eURxd1VxdGJzYkVxMk43dER3a2FvSVhaeTc4UlNNdVFzV0tOMWxPeWFma0N6bzFzcFA3aGJCdXhKczJXVWh2c1A0TVlOcDlJMlJNdXZmR18xR2ZjV29ISXNuT3I0SEk4YUgxMG9WNWFRYnRqQ3FpQg?oc=5",
+          "published_at": "19:46"
+        },
+        {
+          "title": "Supreme Court restores Trump administration’s mass voter verification database",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/supreme-court-voter-database-trump-b3056588.html",
+          "published_at": "16:54"
+        }
+      ]
+    },
+    {
+      "id": "world-54",
+      "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+      "title_en": "Oil prices slide about 2% as US, Iran explore path out of war",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "GLOBAL-OIL:Oil prices slide about 2% as US, Iran explore path out of war",
+      "excerpt_en": "GLOBAL-OIL:Oil prices slide about 2% as US, Iran explore path out of war",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-101790364615998.html",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-25T19:28:52+09:00",
+      "latest_published_at": "2026-09-25T19:30:15+09:00",
+      "articles": [
+        {
+          "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-101790364615998.html",
+          "published_at": "19:30"
+        },
+        {
+          "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+          "published_at": "19:28"
+        }
+      ]
+    },
+    {
+      "id": "world-76",
       "title": "Former VP Al Gore: A clean Earth is within world's grasp even as climate dangers accelerate",
       "title_en": "Former VP Al Gore: A clean Earth is within world's grasp even as climate dangers accelerate",
       "title_source": "earliest_pick",
@@ -2056,14 +2079,14 @@
       "excerpt_source": "AP News",
       "excerpt_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3BxUTR0TUlSck5rbFhmUlVyZklzTC1hSGVWdDh5Sk1DNjVGQVRIR2xqRS1IbHNUOWdMZHVlOEMyN2dKdlNRM1hQZ1JkRE5PWTZuUk96TmtxYXR2TW1FdGxJLVZfcllFNXFfTDdTY1QteUdXOGJXOVFXU3BRaHNkUTl6SHhfWkZuU2ZGZEZvcmFkUEJTaUZMbUVTenlralJoQmhybVNpaFVBSnM?oc=5",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2091,195 +2114,54 @@
       ]
     },
     {
-      "id": "world-104",
-      "title": "Jay-Z rape accuser says her allegation was false",
-      "title_en": "Jay-Z rape accuser says her allegation was false",
+      "id": "world-105",
+      "title": "China, US to open AI 'communication channel' after summit",
+      "title_en": "China, US to open AI 'communication channel' after summit",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/cm4g53547wygo?at_medium=RSS&at_campaign=rss",
-      "category": "기타",
-      "primary_source": "BBC",
-      "excerpt": "A woman who accused Jay-Z of sexual assault at 13 has withdrawn her allegations, stating they were false.",
-      "excerpt_en": "A woman who accused Jay-Z of sexual assault at 13 has withdrawn her allegations, stating they were false.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/jayz-sexual-assault-accuser-withdraws-rape-allegations-there-is-no-truth-to-101790353283063.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-25T10:51:28+09:00",
-      "latest_published_at": "2026-09-25T16:28:14+09:00",
-      "articles": [
-        {
-          "title": "Jay-Z's accuser withdraws bombshell rape allegations: ‘There is no truth to…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/jayz-sexual-assault-accuser-withdraws-rape-allegations-there-is-no-truth-to-101790353283063.html",
-          "published_at": "16:28"
-        },
-        {
-          "title": "Jay-Z rape accuser says her allegation was false",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cm4g53547wygo?at_medium=RSS&at_campaign=rss",
-          "published_at": "10:51"
-        }
-      ]
-    },
-    {
-      "id": "world-159",
-      "title": "Iran offers US plan to reopen Hormuz within 7 days",
-      "title_en": "Iran offers US plan to reopen Hormuz within 7 days",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Iran’s Foreign Minister Abbas Araghchi said on Friday that Tehran had offered Washington a plan that would see the Strait of Hormuz reopened to maritime navigation within seven days once agreed. Aragh",
-      "excerpt_en": "Iran’s Foreign Minister Abbas Araghchi said on Friday that Tehran had offered Washington a plan that would see the Strait of Hormuz reopened to maritime navigation within seven days once agreed. Aragh",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-25T21:03:29+09:00",
-      "latest_published_at": "2026-09-26T02:06:07+09:00",
-      "articles": [
-        {
-          "title": "Trump reportedly rejects Iran’s 7-day plan to reopen Strait of Hormuz",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
-          "published_at": "02:06"
-        },
-        {
-          "title": "Iran offers US plan to reopen Hormuz within 7 days",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
-          "published_at": "21:03"
-        }
-      ]
-    },
-    {
-      "id": "world-181",
-      "title": "Hurricane Polo barrels towards Baja California region of Mexico",
-      "title_en": "Hurricane Polo barrels towards Baja California region of Mexico",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/sep/25/weather-tracker-hurricane-polo-baja-california-mexico",
-      "category": "미국",
-      "primary_source": "The Guardian",
-      "excerpt": "Area’s second-most intense hurricane on record being fuelled by exceptionally warm Pacific waters Hurricane Polo is barreling towards the Baja California region of Mexico, the latest system in a Pacif",
-      "excerpt_en": "Area’s second-most intense hurricane on record being fuelled by exceptionally warm Pacific waters Hurricane Polo is barreling towards the Baja California region of Mexico, the latest system in a Pacif",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/25/weather-tracker-hurricane-polo-baja-california-mexico",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-25T10:28:45+09:00",
-      "latest_published_at": "2026-09-25T23:43:24+09:00",
-      "articles": [
-        {
-          "title": "Hurricane Polo is a powerful Category 5 storm off Mexico. See its path.",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
-          "published_at": "23:43"
-        },
-        {
-          "title": "Hurricane Polo barrels towards Baja California region of Mexico",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/25/weather-tracker-hurricane-polo-baja-california-mexico",
-          "published_at": "10:28"
-        }
-      ]
-    },
-    {
-      "id": "world-214",
-      "title": "OpenAI Agents Hacked Into an Australian Government Website. Who’s Responsible?",
-      "title_en": "OpenAI Agents Hacked Into an Australian Government Website. Who’s Responsible?",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/09/25/world/australia/openai-hack-australia.html",
+      "title_url": "https://www.channelnewsasia.com/world/united-states-china-ai-communication-channel-6412426",
       "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "OpenAI says dozens more third parties were affected by rogue agents bypassing website security controls, as new traces reveal days of attempts to access Australian health data.",
-      "excerpt_en": "OpenAI says dozens more third parties were affected by rogue agents bypassing website security controls, as new traces reveal days of attempts to access Australian health data.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
+      "primary_source": "Channel News Asia",
+      "excerpt": "US President Donald Trump and Chinese President Xi Jinping confirmed that they would meet a third and fourth time this year at international summits in China and the United States.",
+      "excerpt_en": "US President Donald Trump and Chinese President Xi Jinping confirmed that they would meet a third and fourth time this year at international summits in China and the United States.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/united-states-china-ai-communication-channel-6412426",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "New York Times"
+        "Al Jazeera",
+        "Channel News Asia"
       ],
-      "first_published_at": "2026-09-25T12:20:52+09:00",
-      "latest_published_at": "2026-09-26T02:05:48+09:00",
+      "first_published_at": "2026-09-26T05:59:00+09:00",
+      "latest_published_at": "2026-09-26T09:02:10+09:00",
       "articles": [
         {
-          "title": "Australia not alone as OpenAI agents hacked other websites",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
-          "published_at": "02:05"
+          "title": "China, US to open AI ‘communication channel’ after summit, White House says",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says?traffic_source=rss",
+          "published_at": "09:02"
         },
         {
-          "title": "OpenAI Agents Hacked Into an Australian Government Website. Who’s Responsible?",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/25/world/australia/openai-hack-australia.html",
-          "published_at": "12:20"
+          "title": "China, US to open AI 'communication channel' after summit",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/united-states-china-ai-communication-channel-6412426",
+          "published_at": "05:59"
         }
       ]
     },
     {
-      "id": "world-288",
+      "id": "world-276",
       "title": "Ethiopia is at risk of a wider war. Here’s what you need to know",
       "title_en": "Ethiopia is at risk of a wider war. Here’s what you need to know",
       "title_source": "earliest_pick",
@@ -2291,14 +2173,14 @@
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/africa/ethiopia-war-sudan-tigray-eritrea-b3056557.html",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2326,54 +2208,7 @@
       ]
     },
     {
-      "id": "world-340",
-      "title": "Violence displaced members of more than half a million Mexican households in past 5 years",
-      "title_en": "Violence displaced members of more than half a million Mexican households in past 5 years",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/violence-displaced-members-of-more-than-half-a-million-mexican-households-in-past-5-years-101790362313783.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "New figures from Mexico's national statistics agency reveal that violence has forced people from more than half a million households in Mexico to flee their homes in the past five years",
-      "excerpt_en": "New figures from Mexico's national statistics agency reveal that violence has forced people from more than half a million households in Mexico to flee their homes in the past five years",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/violence-displaced-members-half-million-mexican-households-past-136763786",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-25T18:51:53+09:00",
-      "latest_published_at": "2026-09-25T18:58:42+09:00",
-      "articles": [
-        {
-          "title": "Violence displaced members of more than half a million Mexican households in past 5 years",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/violence-displaced-members-half-million-mexican-households-past-136763786",
-          "published_at": "18:58"
-        },
-        {
-          "title": "Violence displaced members of more than half a million Mexican households in past 5 years",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/violence-displaced-members-of-more-than-half-a-million-mexican-households-in-past-5-years-101790362313783.html",
-          "published_at": "18:51"
-        }
-      ]
-    },
-    {
-      "id": "world-341",
+      "id": "world-304",
       "title": "Protests against war crimes verdicts add pressure on Kosovo's government",
       "title_en": "Protests against war crimes verdicts add pressure on Kosovo's government",
       "title_source": "earliest_pick",
@@ -2385,14 +2220,14 @@
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/protests-war-crimes-verdicts-add-pressure-kosovos-government-136761249",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2420,72 +2255,25 @@
       ]
     },
     {
-      "id": "world-353",
-      "title": "Oil prices back up as U.S. and Iran trade threats to expand 7-month war",
-      "title_en": "Oil prices back up as U.S. and Iran trade threats to expand 7-month war",
+      "id": "world-306",
+      "title": "Violence displaced members of more than half a million Mexican households in past 5 years",
+      "title_en": "Violence displaced members of more than half a million Mexican households in past 5 years",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "As Iran responds to Trump's threat of annihilation with its own warning of a possible \"new front\" in the war, global oil prices are rising again.",
-      "excerpt_en": "As Iran responds to Trump's threat of annihilation with its own warning of a possible \"new front\" in the war, global oil prices are rising again.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-25T11:16:25+09:00",
-      "latest_published_at": "2026-09-25T19:30:15+09:00",
-      "articles": [
-        {
-          "title": "Oil prices slide about 2% as US, Iran explore path out of war",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-101790364615998.html",
-          "published_at": "19:30"
-        },
-        {
-          "title": "Oil prices back up as U.S. and Iran trade threats to expand 7-month war",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
-          "published_at": "11:16"
-        }
-      ]
-    },
-    {
-      "id": "world-202",
-      "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-      "title_en": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-      "category": "미국",
-      "primary_source": "The Guardian",
-      "excerpt": "Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents Two ⁠months after OpenAI disclosed the accidenta",
-      "excerpt_en": "Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents Two ⁠months after OpenAI disclosed the accidenta",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/violence-displaced-members-of-more-than-half-a-million-mexican-households-in-past-5-years-101790362313783.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "New figures from Mexico's national statistics agency reveal that violence has forced people from more than half a million households in Mexico to flee their homes in the past five years",
+      "excerpt_en": "New figures from Mexico's national statistics agency reveal that violence has forced people from more than half a million households in Mexico to flee their homes in the past five years",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/violence-displaced-members-half-million-mexican-households-past-136763786",
       "translation_status": "failed",
       "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
         "raw75": 39
       },
       "area_value": 2,
@@ -2493,117 +2281,23 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-26T00:24:43+09:00",
-      "latest_published_at": "2026-09-26T04:48:13+09:00",
-      "articles": [
-        {
-          "title": "OpenAI says its AI agents posted user images online in error",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
-          "published_at": "04:48"
-        },
-        {
-          "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
-          "published_at": "00:24"
-        }
-      ]
-    },
-    {
-      "id": "world-126",
-      "title": "Congo plane crash kills 14, including 2 senior military officials",
-      "title_en": "Congo plane crash kills 14, including 2 senior military officials",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/congo-plane-crash-kills-14-including-2-senior-136769427",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "At least 14 people have died in a plane crash in Congo, including two senior military officials, according to the Congolese military",
-      "excerpt_en": "At least 14 people have died in a plane crash in Congo, including two senior military officials, according to the Congolese military",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/congo-plane-crash-kills-14-including-2-senior-136769427",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
         "ABC News",
-        "Al Jazeera"
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-09-25T23:04:07+09:00",
-      "latest_published_at": "2026-09-26T01:32:36+09:00",
+      "first_published_at": "2026-09-25T18:51:53+09:00",
+      "latest_published_at": "2026-09-25T18:58:42+09:00",
       "articles": [
         {
-          "title": "Plane crash in DR Congo kills more than a dozen",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss",
-          "published_at": "01:32"
-        },
-        {
-          "title": "Congo plane crash kills 14, including 2 senior military officials",
+          "title": "Violence displaced members of more than half a million Mexican households in past 5 years",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/congo-plane-crash-kills-14-including-2-senior-136769427",
-          "published_at": "23:04"
-        }
-      ]
-    },
-    {
-      "id": "world-279",
-      "title": "Report finds many security deficiencies at Utah university where Charlie Kirk was killed",
-      "title_en": "Report finds many security deficiencies at Utah university where Charlie Kirk was killed",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/report-finds-many-security-deficiencies-at-utah-university-where-charlie-kirk-was-killed-101790361699949.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Some university officials expressed reservations about holding the event in an outdoor space with tall buildings around, but ultimately allowed the event to proceed",
-      "excerpt_en": "Some university officials expressed reservations about holding the event in an outdoor space with tall buildings around, but ultimately allowed the event to proceed",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/charlie-kirk-utah-valley-university-report-b3056649.html",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-25T18:41:39+09:00",
-      "latest_published_at": "2026-09-25T19:42:32+09:00",
-      "articles": [
-        {
-          "title": "Independent review of Charlie Kirk’s assassination released by Utah University",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/charlie-kirk-utah-valley-university-report-b3056649.html",
-          "published_at": "19:42"
+          "url": "https://abcnews.com/International/wireStory/violence-displaced-members-half-million-mexican-households-past-136763786",
+          "published_at": "18:58"
         },
         {
-          "title": "Report finds many security deficiencies at Utah university where Charlie Kirk was killed",
+          "title": "Violence displaced members of more than half a million Mexican households in past 5 years",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/report-finds-many-security-deficiencies-at-utah-university-where-charlie-kirk-was-killed-101790361699949.html",
-          "published_at": "18:41"
+          "url": "https://www.hindustantimes.com/world-news/us-news/violence-displaced-members-of-more-than-half-a-million-mexican-households-in-past-5-years-101790362313783.html",
+          "published_at": "18:51"
         }
       ]
     }
