@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,27 +8,27 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-09-27T06:29:20.486515+09:00",
+  "updated_at": "2026-09-27T16:45:37.181058+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 431,
-  "cluster_count_total": 332,
+  "article_count_total": 387,
+  "cluster_count_total": 297,
   "clusters": [
     {
-      "id": "world-69",
-      "title": "Iran proposes Hormuz plan, Trump reportedly refuses",
-      "title_en": "Iran proposes Hormuz plan, Trump reportedly refuses",
+      "id": "world-40",
+      "title": "US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
+      "title_en": "US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3326520/iran-proposes-hormuz-plan-trump-reportedly-refuses",
+      "title_url": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
       "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "US president is said to expect renewed strikes after midterms US president Donald Trump has said he has rejected an Iranian proposal to reopen the strait of Hormuz within a week and resume nuclear tal",
-      "excerpt_en": "US president is said to expect renewed strikes after midterms US president Donald Trump has said he has rejected an Iranian proposal to reopen the strait of Hormuz within a week and resume nuclear tal",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+      "primary_source": "Euronews",
+      "excerpt": "Iran on Sunday insisted that only diplomacy can solve its conflict with the United States and Israel after US President Donald Trump said he rejected an Iranian proposal to reopen the Strait of Hormuz",
+      "excerpt_en": "Iran on Sunday insisted that only diplomacy can solve its conflict with the United States and Israel after US President Donald Trump said he rejected an Iranian proposal to reopen the Strait of Hormuz",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3368917/trump-rejects-iran-proposal-deal-reopen-hormuz?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 96,
       "score_breakdown": {
@@ -42,23 +42,60 @@
       "area_value": 12,
       "article_count": 12,
       "syndicated_count": 0,
-      "source_count": 11,
+      "source_count": 12,
       "sources": [
-        "ABC News Australia",
-        "Al Jazeera",
-        "Bangkok Post",
+        "AP News",
+        "CBC",
         "CBS News",
         "DW",
         "Euronews",
-        "NBC News",
-        "NPR",
+        "Hindustan Times",
         "New York Times",
+        "SCMP",
+        "Sky News",
+        "Sydney Morning Herald",
         "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-26T02:45:00+09:00",
-      "latest_published_at": "2026-09-26T21:02:42+09:00",
+      "first_published_at": "2026-09-26T14:10:20+09:00",
+      "latest_published_at": "2026-09-27T07:01:05+09:00",
       "articles": [
+        {
+          "title": "Iran-US war latest: Tehran says it still awaits official US response to proposal to reopen Strait of Hormuz",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-un-israel-hormuz-oil-b3056135.html",
+          "published_at": "07:01"
+        },
+        {
+          "title": "Trump rejects Iran’s seven-day peace deal to reopen strait of Hormuz",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
+          "published_at": "06:34"
+        },
+        {
+          "title": "‘They have no money coming in, dying’: Donald Trump claims Iran ready to reopen Strait of Hormuz",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/they-have-no-money-coming-in-donald-trump-says-iran-ready-to-reopen-strait-of-hormuz-us-war-101790476424801.html",
+          "published_at": "04:28"
+        },
+        {
+          "title": "Only diplomacy ​can solve conflict, says Iran after Trump rejects peace plan",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/only-diplomacy-can-solve-conflict-says-iran-after-trump-rejects-peace-plan-13592323",
+          "published_at": "03:45"
+        },
+        {
+          "title": "Trump rejects Iran’s Hormuz deal as Houthis target Riyadh",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/iran-insists-on-diplomatic-solution-after-trump-rejects-peace-plan-20260927-p610s2.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "22:54"
+        },
+        {
+          "title": "Trump rejects Iran’s proposal to reopen the Strait of Hormuz and other Mideast news",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3FURU1ld09YM0czSERoLWEtWEQwR1FSZm96NmpURkowVXNHQkRna0gzZEJXTWlKLUE5QW51U24tRFVHX2JDNUpvWVFyNWdGYVhaYThBVmJZMndzM1Z2eDVkVVViRG00M1k3YUpYdDE2azVBcmo4SmlhNDRSLW9Ra0taSTY1V0w3ektQdFpzQXhjTzNBNmxSalgxT0xGbC1y?oc=5",
+          "published_at": "21:30"
+        },
         {
           "title": "Trump Rejects Iran’s Cease-Fire Proposal to Reopen Strait of Hormuz",
           "source_name": "New York Times",
@@ -66,28 +103,10 @@
           "published_at": "21:02"
         },
         {
-          "title": "Trump calls Iranian plan to reopen Strait of Hormuz not 'acceptable'",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz",
-          "published_at": "20:08"
-        },
-        {
-          "title": "Trump rejects Iranian offer to reopen Strait of Hormuz",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
-          "published_at": "18:00"
-        },
-        {
-          "title": "Trump rejects 7-day plan to reopen Strait of Hormuz",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
-          "published_at": "17:50"
-        },
-        {
-          "title": "Iran-US war latest: Trump rejects Tehran’s proposal to reopen Strait of Hormuz with claim ‘we’re winning tremendously’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-un-israel-hormuz-oil-b3056135.html",
-          "published_at": "17:21"
+          "title": "Iran says only diplomacy can end Hormuz crisis after Trump rejects deal",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3368917/trump-rejects-iran-proposal-deal-reopen-hormuz?utm_source=rss_feed",
+          "published_at": "17:02"
         },
         {
           "title": "Trump rejects Iran proposal to reopen Strait of Hormuz",
@@ -102,466 +121,21 @@
           "published_at": "16:13"
         },
         {
+          "title": "Trump rejects Iranian proposal to open Strait of Hormuz and end fighting",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/trump-rejects-iran-proposal-open-strait-of-hormuz-9.7359743?cmp=rss",
+          "published_at": "16:00"
+        },
+        {
           "title": "US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
           "source_name": "Euronews",
           "url": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
           "published_at": "14:10"
-        },
-        {
-          "title": "Trump rejects Iran’s seven-day peace deal to reopen strait of Hormuz",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
-          "published_at": "12:38"
-        },
-        {
-          "title": "'Trump Strait' post follows Iran offer to reopen peace discussions",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
-          "published_at": "10:46"
-        },
-        {
-          "title": "Trump says he has rejected Iranian proposal to reopen Strait of Hormuz",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/iran/iran-says-choice-reopening-hormuz-rests-united-states-offer-rcna599956",
-          "published_at": "09:35"
-        },
-        {
-          "title": "Iran proposes Hormuz plan, Trump reportedly refuses",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326520/iran-proposes-hormuz-plan-trump-reportedly-refuses",
-          "published_at": "02:45"
         }
       ]
     },
     {
-      "id": "world-33",
-      "title": "White House bans CNN from Air Force One for Trump trip to Tennessee",
-      "title_en": "White House bans CNN from Air Force One for Trump trip to Tennessee",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-ban-trump-air-force-one-b3056736.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "The White House signalled on Friday night that CNN would be left off Air Force One for President Donald Trump’s Saturday trip, the latest media restriction from the administration in an ongoing disput",
-      "excerpt_en": "The White House signalled on Friday night that CNN would be left off Air Force One for President Donald Trump’s Saturday trip, the latest media restriction from the administration in an ongoing disput",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/politics/article/3368881/cnn-blocked-trumps-trip-white-house-signals-new-media-curb?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 8,
-      "article_count": 8,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News Australia",
-        "AP News",
-        "Hindustan Times",
-        "SCMP",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-26T01:36:16+09:00",
-      "latest_published_at": "2026-09-26T16:04:01+09:00",
-      "articles": [
-        {
-          "title": "CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/cnn-donald-trump-the-white-house-politico-tennessee-b3056921.html",
-          "published_at": "16:04"
-        },
-        {
-          "title": "Trump has Truth Social tantrum over press coverage again after replacing CNN with LindellTV",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cnn-lindell-press-ban-b3056860.html",
-          "published_at": "14:05"
-        },
-        {
-          "title": "CNN barred from Trump trip after judge strikes down White House ban",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
-          "published_at": "08:57"
-        },
-        {
-          "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWdFdkVpT2tLTXhmMkNXSUlSZlBSak8xcU42NlRaMjdHU29VTkFVay10LWtTckN5WWtkMmJwWS1XUEZYOXBRZ3BxSzkxckk1ajZTb3VKTVlDQmd1QkdfSjIybXY3eFdEbGhZRDhmZkVYS2JNU0djLVR4aDFlNHk0SjRfbldwYUdBOGV2bUFEOGh6NEtMeVFsZS1lNlJnb0U?oc=5",
-          "published_at": "05:43"
-        },
-        {
-          "title": "Trump’s media feud takes another turn with CNN left off Air Force One trip",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/trump-s-media-feud-takes-another-turn-with-cnn-left-off-air-force-one-trip-20260926-p610pa.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "03:53"
-        },
-        {
-          "title": "CNN blocked from Trump’s trip as White House signals new media curb",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/politics/article/3368881/cnn-blocked-trumps-trip-white-house-signals-new-media-curb?utm_source=rss_feed",
-          "published_at": "03:26"
-        },
-        {
-          "title": "Trump White House bars CNN from Air Force One again, disrupting TV press pool coverage of President’s Tennessee trip",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-white-house-bars-cnn-from-air-force-one-again-disrupting-tv-press-pool-coverage-of-president-s-tennessee-trip-101790386317951.html",
-          "published_at": "02:02"
-        },
-        {
-          "title": "White House bans CNN from Air Force One for Trump trip to Tennessee",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-ban-trump-air-force-one-b3056736.html",
-          "published_at": "01:36"
-        }
-      ]
-    },
-    {
-      "id": "world-41",
-      "title": "Anger grows across Spain after elderly woman evicted from her home of 70 years",
-      "title_en": "Anger grows across Spain after elderly woman evicted from her home of 70 years",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/spain/anger-grows-spain-elderly-woman-evicted-home-70-years-rcna599808",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "Thousands of people marched through Madrid on Saturday to protest the eviction earlier this week of an 87-year-old woman from her lifelong home, calling for greater protection for tenants. Images of M",
-      "excerpt_en": "Thousands of people marched through Madrid on Saturday to protest the eviction earlier this week of an 87-year-old woman from her lifelong home, calling for greater protection for tenants. Images of M",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368920/thousands-march-spain-over-eviction-87-year-old-woman-maricarmen-abascal?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 8,
-      "article_count": 8,
-      "syndicated_count": 0,
-      "source_count": 8,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Bangkok Post",
-        "Channel News Asia",
-        "France24",
-        "Hindustan Times",
-        "NBC News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-26T14:25:26+09:00",
-      "latest_published_at": "2026-09-26T20:52:50+09:00",
-      "articles": [
-        {
-          "title": "Thousands march in Madrid to protest Spain's housing crisis after eviction of 87-year-old woman",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/thousands-march-madrid-protest-spains-housing-crisis-after-136786342",
-          "published_at": "20:52"
-        },
-        {
-          "title": "Thousands march in Spain over eviction of 87-year-old woman Maricarmen Abascal",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3368920/thousands-march-spain-over-eviction-87-year-old-woman-maricarmen-abascal?utm_source=rss_feed",
-          "published_at": "20:18"
-        },
-        {
-          "title": "Thousands march in Madrid to protest Spain's housing crisis after eviction of 87-year-old woman",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/madrid-protest-eviction-87-year-old-woman-6413036",
-          "published_at": "20:02"
-        },
-        {
-          "title": "Thousands march in Madrid over eviction of 87-year-old woman",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326924/thousands-march-in-madrid-over-eviction-of-87yearold-woman",
-          "published_at": "19:45"
-        },
-        {
-          "title": "Thousands march in Madrid to protest Spain's housing crisis after eviction of 87-year-old woman",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/thousands-march-in-madrid-to-protest-spain-s-housing-crisis-after-eviction-of-87-year-old-woman-101790449919514.html",
-          "published_at": "19:11"
-        },
-        {
-          "title": "Thousands march in Madrid to protest Spain's housing crisis after eviction of 87-year-old woman",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
-          "published_at": "19:10"
-        },
-        {
-          "title": "Thousands march in Madrid to protest eviction of 87-year-old woman",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20260926-thousands-march-in-madrid-to-protest-eviction-of-87-year-old-woman",
-          "published_at": "17:04"
-        },
-        {
-          "title": "Anger grows across Spain after elderly woman evicted from her home of 70 years",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/spain/anger-grows-spain-elderly-woman-evicted-home-70-years-rcna599808",
-          "published_at": "14:25"
-        }
-      ]
-    },
-    {
-      "id": "world-5",
-      "title": "China pushes back against U.S. on Iran, Cuba in UN speech",
-      "title_en": "China pushes back against U.S. on Iran, Cuba in UN speech",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/china-pushes-back-us-cuba-iran-un-general-assembly-speech-9.7359723?cmp=rss",
-      "category": "중동",
-      "primary_source": "CBC",
-      "excerpt": "China pushed back against the United States in its speech at the UN General Assembly on Saturday, saying sovereignty of countries in the Gulf should be respected and urging the \"relevant country\" to s",
-      "excerpt_en": "China pushed back against the United States in its speech at the UN General Assembly on Saturday, saying sovereignty of countries in the Gulf should be respected and urging the \"relevant country\" to s",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/china-pushes-back-us-cuba-iran-un-general-assembly-speech-9.7359723?cmp=rss",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBC",
-        "Channel News Asia",
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T15:11:51+09:00",
-      "latest_published_at": "2026-09-26T19:14:37+09:00",
-      "articles": [
-        {
-          "title": "China pushes back against US on Iran and Cuba in UN speech",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
-          "published_at": "19:14"
-        },
-        {
-          "title": "China pushes back against US on Iran and Cuba in UN speech",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/china-us-iran-cuba-un-speech-6412806",
-          "published_at": "17:23"
-        },
-        {
-          "title": "‘Respect sovereignty, security of Gulf countries’: China pushes back against US at UNGA",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/china-un-general-assembly-us-pushback-respect-sovereignty-of-gulf-countries-cuba-blockade-han-zheng-trump-xi-unga-101790433462428.html",
-          "published_at": "15:20"
-        },
-        {
-          "title": "China pushes back against U.S. on Iran, Cuba in UN speech",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/china-pushes-back-us-cuba-iran-un-general-assembly-speech-9.7359723?cmp=rss",
-          "published_at": "15:11"
-        }
-      ]
-    },
-    {
-      "id": "world-14",
-      "title": "China and US agree on $30bn tariff cuts, Beijing says",
-      "title_en": "China and US agree on $30bn tariff cuts, Beijing says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3326613/china-and-us-agree-on-30bn-tariff-cuts-beijing-says",
-      "category": "아시아",
-      "primary_source": "Bangkok Post",
-      "excerpt": "SHANGHAI - China said on ​Saturday it had agreed with the United States on a $30-billion ​reciprocal tariff-reduction arrangement and on launching ‌a dialogue on artificial intelligence, under an eigh",
-      "excerpt_en": "SHANGHAI - China said on ​Saturday it had agreed with the United States on a $30-billion ​reciprocal tariff-reduction arrangement and on launching ‌a dialogue on artificial intelligence, under an eigh",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3326613/china-and-us-agree-on-30bn-tariff-cuts-beijing-says",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News Australia",
-        "Bangkok Post",
-        "CBC",
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T11:41:00+09:00",
-      "latest_published_at": "2026-09-26T20:33:49+09:00",
-      "articles": [
-        {
-          "title": "China, US agree to AI dialogue, $42b in tariff cuts during state visit",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-09-27/president-donald-trump-xi-jinping-washington-summit-tariffs-ai/107200436",
-          "published_at": "20:33"
-        },
-        {
-          "title": "China, U.S. agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/china-united-states-tariff-cuts-9.7359852?cmp=rss",
-          "published_at": "20:09"
-        },
-        {
-          "title": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
-          "published_at": "19:59"
-        },
-        {
-          "title": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/china-us-ai-tariff-cuts-xi-6413066",
-          "published_at": "19:45"
-        },
-        {
-          "title": "China and US agree on $30bn tariff cuts, Beijing says",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326613/china-and-us-agree-on-30bn-tariff-cuts-beijing-says",
-          "published_at": "11:41"
-        }
-      ]
-    },
-    {
-      "id": "world-89",
-      "title": "US, China to set up 'communication channel' for AI incidents after Trump-Xi meet",
-      "title_en": "US, China to set up 'communication channel' for AI incidents after Trump-Xi meet",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-china-to-set-up-communication-channel-for-ai-incidents-after-donald-trump-xi-jinping-meet-101790399642769.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Following the summit between US President Donald Trump and Chinese President Xi Jinping, the two superpowers pledged to set up a \"communication channel\" for AI incidents and boost coordination on mili",
-      "excerpt_en": "Following the summit between US President Donald Trump and Chinese President Xi Jinping, the two superpowers pledged to set up a \"communication channel\" for AI incidents and boost coordination on mili",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "CBS News",
-        "DW",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-26T06:26:42+09:00",
-      "latest_published_at": "2026-09-26T19:26:53+09:00",
-      "articles": [
-        {
-          "title": "Trump and Xi to set up AI safety channel as military, trade talks continue",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/trump-xi-us-china-ai-trade-summit/",
-          "published_at": "19:26"
-        },
-        {
-          "title": "China, US agree to set up channel for AI safety incidents",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "16:26"
-        },
-        {
-          "title": "China and the US agree to set up a new AI safety channel, and to keep talking on trade, military",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/china-us-agree-set-new-ai-safety-channel-136777768",
-          "published_at": "11:16"
-        },
-        {
-          "title": "US, China to set up 'communication channel' for AI incidents after Trump-Xi meet",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-china-to-set-up-communication-channel-for-ai-incidents-after-donald-trump-xi-jinping-meet-101790399642769.html",
-          "published_at": "06:26"
-        }
-      ]
-    },
-    {
-      "id": "world-130",
-      "title": "Pope Leo attracts 700,000 people as he parades through Paris before outdoor Mass",
-      "title_en": "Pope Leo attracts 700,000 people as he parades through Paris before outdoor Mass",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/pope-leo-paris-champselysees-b3056854.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Crowds line Place de la Concorde on second day of pontiff’s first official papal visit to France in 18 years Hundreds of thousands of people lined the Avenue des Champs-Élysées in ⁠Paris on Saturday t",
-      "excerpt_en": "Crowds line Place de la Concorde on second day of pontiff’s first official papal visit to France in 18 years Hundreds of thousands of people lined the Avenue des Champs-Élysées in ⁠Paris on Saturday t",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/26/pope-leo-celebrates-open-air-mass-before-700000-people-in-paris",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "CBS News",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-09-26T14:21:36+09:00",
-      "latest_published_at": "2026-09-26T20:39:41+09:00",
-      "articles": [
-        {
-          "title": "Massive crowd of worshippers in France attend Mass during Pope Leo visit",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/pope-leo-france-visit-paris-mass/",
-          "published_at": "20:39"
-        },
-        {
-          "title": "Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/pope-encourages-catholics-deeply-secular-france-persevere-paris-136777307",
-          "published_at": "20:26"
-        },
-        {
-          "title": "Pope Leo celebrates open-air mass before 700,000 people in Paris",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/26/pope-leo-celebrates-open-air-mass-before-700000-people-in-paris",
-          "published_at": "15:50"
-        },
-        {
-          "title": "Pope Leo attracts 700,000 people as he parades through Paris before outdoor Mass",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/pope-leo-paris-champselysees-b3056854.html",
-          "published_at": "14:21"
-        }
-      ]
-    },
-    {
-      "id": "world-160",
+      "id": "world-177",
       "title": "Suicide bombing at police checkpoint in Pakistan kills at least 11",
       "title_en": "Suicide bombing at police checkpoint in Pakistan kills at least 11",
       "title_source": "earliest_pick",
@@ -573,27 +147,34 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3368910/suicide-bombing-police-checkpoint-pakistan-kills-least-11?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 76,
+      "score": 89,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
+        "article_score": 22,
+        "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "time_score": 3,
+        "raw75": 67
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "sources": [
         "ABC News",
+        "Channel News Asia",
         "Hindustan Times",
         "SCMP"
       ],
       "first_published_at": "2026-09-26T13:18:29+09:00",
-      "latest_published_at": "2026-09-26T17:15:14+09:00",
+      "latest_published_at": "2026-09-27T05:00:11+09:00",
       "articles": [
+        {
+          "title": "Gunmen target ambulance in Pakistan after suicide bombing at checkpoint killed 12",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/pakistan-suicide-bombing-police-checkpoint-ambulance-6412666",
+          "published_at": "05:00"
+        },
         {
           "title": "Gunmen target ambulance in Pakistan after suicide bombing at checkpoint killed 12",
           "source_name": "ABC News",
@@ -615,233 +196,430 @@
       ]
     },
     {
-      "id": "world-216",
-      "title": "Saudi coalition says it intercepted Houthi drones and missiles bound for Saudi Arabia",
-      "title_en": "Saudi coalition says it intercepted Houthi drones and missiles bound for Saudi Arabia",
+      "id": "world-66",
+      "title": "Pope Leo attracts 700,000 people as he parades through Paris before outdoor Mass",
+      "title_en": "Pope Leo attracts 700,000 people as he parades through Paris before outdoor Mass",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-and-missiles-bound-for-saudi-arabia",
-      "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "The Houthis declared a naval blockade of Saudi Arabia in July and have since been launching increasing attacks on Saudi cities and shipping, further heightening tensions in the Middle East.",
-      "excerpt_en": "The Houthis declared a naval blockade of Saudi Arabia in July and have since been launching increasing attacks on Saudi cities and shipping, further heightening tensions in the Middle East.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-and-missiles-bound-for-saudi-arabia",
+      "title_url": "https://www.independent.co.uk/news/world/europe/pope-leo-paris-champselysees-b3056854.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Pope Leo on Saturday celebrated an open-air mass in front of hundreds of thousands of faithful in Paris after riding in the Popemobile along the iconic Champs Elysees to the cheers of huge crowds clut",
+      "excerpt_en": "Pope Leo on Saturday celebrated an open-air mass in front of hundreds of thousands of faithful in Paris after riding in the Popemobile along the iconic Champs Elysees to the cheers of huge crowds clut",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368916/pope-celebrates-giant-paris-mass-landmark-visit?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 76,
+      "score": 85,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
+        "article_score": 25,
+        "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 13,
+      "article_count": 13,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 11,
       "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "CBS News",
+        "DW",
         "Euronews",
-        "Hindustan Times",
+        "Fox News",
+        "France24",
+        "SCMP",
+        "The Guardian",
         "The Independent"
       ],
-      "first_published_at": "2026-09-26T06:00:36+09:00",
-      "latest_published_at": "2026-09-26T06:53:20+09:00",
+      "first_published_at": "2026-09-26T14:21:36+09:00",
+      "latest_published_at": "2026-09-27T05:09:01+09:00",
       "articles": [
         {
-          "title": "Pakistan, Turkey reaffirm Mecca commitment as Houthis renew attacks on Saudi Arabia",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pakistan-turkey-reaffirm-commitment-to-mecca-pact-as-houthis-renew-attacks-on-saudi-arabia-101790394546446.html",
-          "published_at": "06:53"
+          "title": "Huge crowds cheer Pope Leo as he leads open-air Mass in Paris",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/huge-crowds-cheer-pope-leo-as-he-leads-open-air-mass-in-paris?traffic_source=rss",
+          "published_at": "05:09"
         },
         {
-          "title": "Saudi Arabia says it intercepts another Houthi-launched missile, and other Mideast developments",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/saudi-arabia-iran-houthi-west-bank-yemen-b3056771.html",
-          "published_at": "06:04"
+          "title": "Pope Leo draws staggering 800,000 faithful to heart of Paris for massive outdoor Mass",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/pope-leo-draws-staggering-800000-faithful-heart-paris-massive-outdoor-mass",
+          "published_at": "23:25"
         },
         {
-          "title": "Saudi coalition says it intercepted Houthi drones and missiles bound for Saudi Arabia",
+          "title": "Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/pope-encourages-catholics-deeply-secular-france-persevere-paris-136777307",
+          "published_at": "22:58"
+        },
+        {
+          "title": "Pope Leo XIV draws 800,000 faithful to Paris before emotional Lourdes pilgrimage",
           "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/09/26/saudi-coalition-says-it-intercepted-houthi-drones-and-missiles-bound-for-saudi-arabia",
-          "published_at": "06:00"
+          "url": "https://www.euronews.com/video/2026/09/26/pope-leo-xiv-draws-800000-faithful-to-paris-before-emotional-lourdes-pilgrimage",
+          "published_at": "21:48"
+        },
+        {
+          "title": "Massive crowd of worshippers in France attend Mass during Pope Leo visit",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/pope-leo-france-visit-paris-mass/",
+          "published_at": "20:39"
+        },
+        {
+          "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
+          "published_at": "20:28"
+        },
+        {
+          "title": "'A once-in-a-lifetime event': Faithful and curious flock to Pope Leo XIV's Mass in Paris",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/france/20260926-a-once-in-a-lifetime-event-faithful-and-curious-flock-to-pope-leo-xiv-s-mass-in-paris",
+          "published_at": "16:24"
+        },
+        {
+          "title": "Paris: Pope Leo XIV celebrates Mass before huge crowd",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/paris-pope-leo-xiv-celebrates-mass-before-huge-crowd/a-79442864?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "16:13"
+        },
+        {
+          "title": "Pope Leo celebrates open-air mass before 700,000 people in Paris",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/26/pope-leo-celebrates-open-air-mass-before-700000-people-in-paris",
+          "published_at": "15:50"
+        },
+        {
+          "title": "Pope celebrates giant Paris mass in landmark visit",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3368916/pope-celebrates-giant-paris-mass-landmark-visit?utm_source=rss_feed",
+          "published_at": "15:15"
+        },
+        {
+          "title": "Giant statue of Pope Leo XIV takes shape in Peru workshop",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326638/giant-statue-of-pope-leo-xiv-takes-shape-in-peru-workshop",
+          "published_at": "14:45"
+        },
+        {
+          "title": "Pope Leo visits France, Notre-Dame Cathedral",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/pope-leo-visits-france-notre-dame-cathedral/",
+          "published_at": "14:24"
+        },
+        {
+          "title": "Pope Leo attracts 700,000 people as he parades through Paris before outdoor Mass",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/pope-leo-paris-champselysees-b3056854.html",
+          "published_at": "14:21"
         }
       ]
     },
     {
-      "id": "world-47",
-      "title": "British man and Greek wife 'killed in Athens gas leak explosion'",
-      "title_en": "British man and Greek wife 'killed in Athens gas leak explosion'",
+      "id": "world-71",
+      "title": "Anger grows across Spain after elderly woman evicted from her home of 70 years",
+      "title_en": "Anger grows across Spain after elderly woman evicted from her home of 70 years",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/british-man-and-greek-wife-killed-in-athens-building-collapse-13591977",
+      "title_url": "https://www.nbcnews.com/world/spain/anger-grows-spain-elderly-woman-evicted-home-70-years-rcna599808",
       "category": "유럽",
-      "primary_source": "Sky News",
-      "excerpt": "A British man and his Greek wife are believed to be among those killed in a building collapse caused by an explosion from a gas leak in Athens, along with four Americans.",
-      "excerpt_en": "A British man and his Greek wife are believed to be among those killed in a building collapse caused by an explosion from a gas leak in Athens, along with four Americans.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/british-man-and-greek-wife-killed-in-athens-building-collapse-13591977",
+      "primary_source": "NBC News",
+      "excerpt": "Thousands of people marched through Madrid on Saturday to protest the eviction earlier this week of an 87-year-old woman from her lifelong home, calling for greater protection for tenants. Images of M",
+      "excerpt_en": "Thousands of people marched through Madrid on Saturday to protest the eviction earlier this week of an 87-year-old woman from her lifelong home, calling for greater protection for tenants. Images of M",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3368920/thousands-march-spain-over-eviction-87-year-old-woman-maricarmen-abascal?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 71,
+      "score": 84,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 53
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 6,
       "sources": [
-        "BBC",
-        "CBS News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "Hindustan Times",
+        "NBC News",
+        "SCMP",
         "Sky News"
       ],
-      "first_published_at": "2026-09-26T05:12:00+09:00",
-      "latest_published_at": "2026-09-26T19:15:29+09:00",
+      "first_published_at": "2026-09-26T14:25:26+09:00",
+      "latest_published_at": "2026-09-27T03:17:52+09:00",
       "articles": [
         {
-          "title": "4 American tourists dead after building explosion in Greece",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/americans-greece-athens-building-explosion-collapse/",
-          "published_at": "19:15"
+          "title": "Thousands protest in Madrid against Spain’s housing crisis",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/thousands-protest-in-madrid-against-spains-housing-crisis?traffic_source=rss",
+          "published_at": "03:17"
         },
         {
-          "title": "British national among six dead in building explosion close to Acropolis in Athens",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
-          "published_at": "12:47"
-        },
-        {
-          "title": "British man and Greek wife 'killed in Athens gas leak explosion'",
+          "title": "Spain housing crisis protest after 87-year-old woman evicted",
           "source_name": "Sky News",
-          "url": "https://news.sky.com/story/british-man-and-greek-wife-killed-in-athens-building-collapse-13591977",
-          "published_at": "05:12"
-        }
-      ]
-    },
-    {
-      "id": "world-9",
-      "title": "Hurricane Polo is a strong Category 4 storm off Mexico. See its path.",
-      "title_en": "Hurricane Polo is a strong Category 4 storm off Mexico. See its path.",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
-      "category": "기타",
-      "primary_source": "CBS News",
-      "excerpt": "Hurricane Polo was downgraded to Category 4 status Saturday as its intensity fluctuated off Mexico's southwestern coast. The storm is expected to slowly weaken over the weekend, the hurricane center s",
-      "excerpt_en": "Hurricane Polo was downgraded to Category 4 status Saturday as its intensity fluctuated off Mexico's southwestern coast. The storm is expected to slowly weaken over the weekend, the hurricane center s",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T17:49:18+09:00",
-      "latest_published_at": "2026-09-26T18:36:33+09:00",
-      "articles": [
+          "url": "https://news.sky.com/story/spain-housing-crisis-protest-after-87-year-old-woman-evicted-13592322",
+          "published_at": "02:25"
+        },
         {
-          "title": "Category 4 Hurricane Polo threatens Mexico’s coast, landfall expected Monday",
+          "title": "Thousands march in Spain over eviction of 87-year-old woman Maricarmen Abascal",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3368920/thousands-march-spain-over-eviction-87-year-old-woman-maricarmen-abascal?utm_source=rss_feed",
+          "published_at": "20:18"
+        },
+        {
+          "title": "Thousands march in Madrid over eviction of 87-year-old woman",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3326924/thousands-march-in-madrid-over-eviction-of-87yearold-woman",
+          "published_at": "19:45"
+        },
+        {
+          "title": "Thousands march in Madrid to protest Spain's housing crisis after eviction of 87-year-old woman",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/category-4-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday-101790447793978.html",
-          "published_at": "18:36"
+          "url": "https://www.hindustantimes.com/world-news/us-news/thousands-march-in-madrid-to-protest-spain-s-housing-crisis-after-eviction-of-87-year-old-woman-101790449919514.html",
+          "published_at": "19:11"
         },
         {
-          "title": "Category 4 Hurricane Polo threatens Mexico’s coast, landfall expected Monday",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX3FKRlF5WEJudldBNU5uNWpXOTJ6NWQxaFFkNDRZUFZyR2V6bWYzQmJJUlZDN015RlRPTUxOUHFDQ2VKN1lVeHRhc0dFV2t5RnB6S205U0NHbHFicUZfUjhGcTJhdjhsWkVGY29Yc2ZUM2dfeVJOc0poVXctLXRLNGVjaHBIZkRMTWl2bkpGbkFpODNCYlY3M0xMbjVScmFHWnhUbk5yeVVlNC1wM0RmeDZZdktsMmxHYWdTR3VDYVlZc0dIVTFoZVdfSQ?oc=5",
-          "published_at": "18:35"
-        },
-        {
-          "title": "Hurricane Polo is a strong Category 4 storm off Mexico. See its path.",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
-          "published_at": "17:49"
+          "title": "Anger grows across Spain after elderly woman evicted from her home of 70 years",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/spain/anger-grows-spain-elderly-woman-evicted-home-70-years-rcna599808",
+          "published_at": "14:25"
         }
       ]
     },
     {
-      "id": "world-42",
-      "title": "Ireland players vote to go ahead with games against Israel, will wear black armbands",
-      "title_en": "Ireland players vote to go ahead with games against Israel, will wear black armbands",
+      "id": "world-48",
+      "title": "Helicopter crash near Canadian city of Montreal leaves 4 dead, police say",
+      "title_en": "Helicopter crash near Canadian city of Montreal leaves 4 dead, police say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/ireland-players-vote-to-go-ahead-with-games-against-israel-will-wear-black-armbands-101790449192834.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
-      "excerpt_en": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "title_url": "https://abcnews.com/International/wireStory/helicopter-crash-canadian-city-montreal-leaves-4-dead-136788687",
+      "category": "미국",
+      "primary_source": "ABC News",
+      "excerpt": "Police say a helicopter has crashed southeast of the Canadian city of Montreal, killing all four people on board",
+      "excerpt_en": "Police say a helicopter has crashed southeast of the Canadian city of Montreal, killing all four people on board",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/helicopter-crash-canadian-city-montreal-leaves-4-dead-136788687",
       "translation_status": "failed",
-      "score": 69,
+      "score": 73,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
+        "breaking_score": 4,
         "time_score": 3,
-        "raw75": 52
+        "raw75": 55
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "AP News",
+        "ABC News",
         "BBC",
-        "Hindustan Times"
+        "The Independent"
       ],
-      "first_published_at": "2026-09-26T18:59:52+09:00",
-      "latest_published_at": "2026-09-26T19:59:00+09:00",
+      "first_published_at": "2026-09-26T22:16:56+09:00",
+      "latest_published_at": "2026-09-27T05:23:33+09:00",
       "articles": [
         {
-          "title": "Republic of Ireland to wear black armbands for Israel game",
+          "title": "Private helicopter crashes near Montreal killing all four people on board",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/canada-private-helicopter-crash-montreal-b3057025.html",
+          "published_at": "05:23"
+        },
+        {
+          "title": "Four killed in helicopter crash near Montreal",
           "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
-          "published_at": "19:59"
+          "url": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo?at_medium=RSS&at_campaign=rss",
+          "published_at": "02:43"
         },
         {
-          "title": "Ireland players vote to play contentious games against Israel, intend to wear black armbands",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXRmeWs4VHM3bDNMejdJMjdFMDdGM2sxX29yRmhMdTlJdHVrZTBmSFpzZ09TbkJOX1lGNGkwR0N2T2xqUmRBbnJ1WHBhcS1MUjI2X1JYMEFvUUtsQXN6UkFZdUNjY3lSNXUtZk80dU5qY1BlemxYS05vTFRUYkZEc241VUJMcU9iMEQzWFoxejJiTWU0ZlIzY1BnQ3lpcmc?oc=5",
-          "published_at": "19:48"
-        },
-        {
-          "title": "Ireland players vote to go ahead with games against Israel, will wear black armbands",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/ireland-players-vote-to-go-ahead-with-games-against-israel-will-wear-black-armbands-101790449192834.html",
-          "published_at": "18:59"
+          "title": "Helicopter crash near Canadian city of Montreal leaves 4 dead, police say",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/helicopter-crash-canadian-city-montreal-leaves-4-dead-136788687",
+          "published_at": "22:16"
         }
       ]
     },
     {
-      "id": "world-24",
-      "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
-      "title_en": "Trump rejects Iranian proposal to open Hormuz and end fighting",
+      "id": "world-111",
+      "title": "Unusually powerful storm pummels northeast US with heavy rain, high winds",
+      "title_en": "Unusually powerful storm pummels northeast US with heavy rain, high winds",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
+      "title_url": "https://www.france24.com/en/americas/20260926-unusually-powerful-storm-pummels-northeast-us-with-heavy-rain-high-winds",
+      "category": "미국",
+      "primary_source": "France24",
+      "excerpt": "Heavy rain and strong winds battered the northeastern US on Saturday as an unusually powerful autumn storm intensified, forcing the cancellation of hundreds of flights and leaving tens of thousands of",
+      "excerpt_en": "Heavy rain and strong winds battered the northeastern US on Saturday as an unusually powerful autumn storm intensified, forcing the cancellation of hundreds of flights and leaving tens of thousands of",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3368922/powerful-storm-pummels-northeast-us-rain-and-high-winds?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "France24",
+        "Hindustan Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-09-26T15:08:07+09:00",
+      "latest_published_at": "2026-09-26T22:17:40+09:00",
+      "articles": [
+        {
+          "title": "Powerful storm pummels northeast US with rain and high winds",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368922/powerful-storm-pummels-northeast-us-rain-and-high-winds?utm_source=rss_feed",
+          "published_at": "22:17"
+        },
+        {
+          "title": "Powerful storm pummels northeast US with rain, high winds",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/powerful-storm-pummels-northeast-us-with-rain-high-winds-101790456947697.html",
+          "published_at": "21:09"
+        },
+        {
+          "title": "Unusually powerful storm pummels northeast US with heavy rain, high winds",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20260926-unusually-powerful-storm-pummels-northeast-us-with-heavy-rain-high-winds",
+          "published_at": "15:08"
+        }
+      ]
+    },
+    {
+      "id": "world-205",
+      "title": "11-year-old esports prodigy wins gold and rival’s praise at the Asian Games",
+      "title_en": "11-year-old esports prodigy wins gold and rival’s praise at the Asian Games",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/asia/yuki-kurihara-puyo-puyo-gold-medal-asian-games-b3056863.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "Yuki Kurihara trains eight hours a day and still keeps up his grades in school, according to Japanese media",
+      "excerpt_en": "Yuki Kurihara trains eight hours a day and still keeps up his grades in school, according to Japanese media",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/asia/yuki-kurihara-puyo-puyo-gold-medal-asian-games-b3056863.html",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Channel News Asia",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-26T13:36:48+09:00",
+      "latest_published_at": "2026-09-27T05:42:00+09:00",
+      "articles": [
+        {
+          "title": "Singapore's Loh Kean Yew beats world number 1 Christie, guaranteed historic Asian Games medal",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/loh-kean-yew-asian-games-badminton-6413311",
+          "published_at": "05:42"
+        },
+        {
+          "title": "11-year-old Japanese player Yuki Kurihara wins esports gold medal at the Asian Games",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/11-year-japanese-player-yuki-kurihara-wins-esports-136775823",
+          "published_at": "17:06"
+        },
+        {
+          "title": "11-year-old esports prodigy wins gold and rival’s praise at the Asian Games",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/asia/yuki-kurihara-puyo-puyo-gold-medal-asian-games-b3056863.html",
+          "published_at": "13:36"
+        }
+      ]
+    },
+    {
+      "id": "world-214",
+      "title": "As three countries move to quit UK, a Brexit reversal might be its only hope",
+      "title_en": "As three countries move to quit UK, a Brexit reversal might be its only hope",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.smh.com.au/world/europe/as-three-countries-move-to-quit-uk-a-brexit-reversal-might-be-its-only-hope-20260927-p610rv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "유럽",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "LIVERPOOL - Britain's ruling Labour Party gathers Sunday for its first annual conference under Andy Burnham's leadership, heartened by his start as prime minister but now looking for concrete plans to",
+      "excerpt_en": "LIVERPOOL - Britain's ruling Labour Party gathers Sunday for its first annual conference under Andy Burnham's leadership, heartened by his start as prime minister but now looking for concrete plans to",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3327023/uk-labour-party-meets-buoyed-by-burnham-but-eager-for-concrete-plans",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-27T03:30:00+09:00",
+      "latest_published_at": "2026-09-27T06:45:00+09:00",
+      "articles": [
+        {
+          "title": "UK Labour party meets buoyed by Burnham but eager for concrete plans",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3327023/uk-labour-party-meets-buoyed-by-burnham-but-eager-for-concrete-plans",
+          "published_at": "06:45"
+        },
+        {
+          "title": "Andy Burnham brings good vibes to Labour’s annual conference but tough choices are coming",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/andy-burnham-brings-good-vibes-labours-annual-conference-136791914",
+          "published_at": "05:23"
+        },
+        {
+          "title": "As three countries move to quit UK, a Brexit reversal might be its only hope",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/as-three-countries-move-to-quit-uk-a-brexit-reversal-might-be-its-only-hope-20260927-p610rv.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "03:30"
+        }
+      ]
+    },
+    {
+      "id": "world-10",
+      "title": "China pushes back against U.S. on Iran, Cuba in UN speech",
+      "title_en": "China pushes back against U.S. on Iran, Cuba in UN speech",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/china-pushes-back-us-cuba-iran-un-general-assembly-speech-9.7359723?cmp=rss",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "U.S. President Donald Trump said on Saturday he had rejected an Iranian proposal to reopen the Strait of Hormuz and end fighting in the Middle East.",
-      "excerpt_en": "U.S. President Donald Trump said on Saturday he had rejected an Iranian proposal to reopen the Strait of Hormuz and end fighting in the Middle East.",
+      "primary_source": "CBC",
+      "excerpt": "China pushed back against the United States in its speech at the UN General Assembly on Saturday, saying sovereignty of countries in the Gulf should be respected and urging the \"relevant country\" to s",
+      "excerpt_en": "China pushed back against the United States in its speech at the UN General Assembly on Saturday, saying sovereignty of countries in the Gulf should be respected and urging the \"relevant country\" to s",
       "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/trump-rejects-iran-proposal-open-strait-of-hormuz-9.7359743?cmp=rss",
+      "excerpt_url": "https://www.cbc.ca/news/world/china-pushes-back-us-cuba-iran-un-general-assembly-speech-9.7359723?cmp=rss",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -858,29 +636,137 @@
       "source_count": 3,
       "sources": [
         "CBC",
-        "Channel News Asia",
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-09-26T15:15:54+09:00",
-      "latest_published_at": "2026-09-26T16:00:15+09:00",
+      "first_published_at": "2026-09-26T15:11:51+09:00",
+      "latest_published_at": "2026-09-26T19:14:37+09:00",
       "articles": [
         {
-          "title": "Trump rejects Iranian proposal to open Strait of Hormuz and end fighting",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-rejects-iran-proposal-open-strait-of-hormuz-9.7359743?cmp=rss",
-          "published_at": "16:00"
-        },
-        {
-          "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/trump-rejects-iran-proposal-strait-hormuz-6412896",
-          "published_at": "15:40"
-        },
-        {
-          "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
+          "title": "China pushes back against US on Iran and Cuba in UN speech",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTlYWmNvWG9uODA3NXdWTTQ0d1EtNnFKczBKYThkcFExSmZGWjlqb2xmc0ZsUDNsYWxUWjhLNm1ocTRCcmJDMGdhUmZ1NC1WdjVJdWFxNDRzLTA0Mk11dUN6WHkyUUVpcFMxV1A1d2RFUXljR0xlY293UldHb2ZoUDAzT294ZmVUWVdCZUEzUTlGSkp4cEhTLTVqTllkU3lDNDREeXFqVlQzSUU1VGpnXzZYZ1ZSMXZ3dmU0Tg?oc=5",
-          "published_at": "15:15"
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmFyYk05dGVubEpsSTJ2dGwxcWtFNEx0ZDNybVVaMndCOUpzOTV5SHNjdmw0eHFCQzlsSHZONU91bHVjeU9lQ1RjSTJSM0pZRDhzUUNENHl1b1daMUxkajZ2QklCNTY5bXUxV0dEczRhZTJmU0VKWHhUeWN0OG5OYWRXdWRYUHJOaFJWbjlySGpEdUQtaDdDWThfTWk?oc=5",
+          "published_at": "19:14"
+        },
+        {
+          "title": "‘Respect sovereignty, security of Gulf countries’: China pushes back against US at UNGA",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/china-un-general-assembly-us-pushback-respect-sovereignty-of-gulf-countries-cuba-blockade-han-zheng-trump-xi-unga-101790433462428.html",
+          "published_at": "15:20"
+        },
+        {
+          "title": "China pushes back against U.S. on Iran, Cuba in UN speech",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/china-pushes-back-us-cuba-iran-un-general-assembly-speech-9.7359723?cmp=rss",
+          "published_at": "15:11"
+        }
+      ]
+    },
+    {
+      "id": "world-14",
+      "title": "Category 4 Hurricane Polo threatens Mexico’s coast, landfall expected Monday",
+      "title_en": "Category 4 Hurricane Polo threatens Mexico’s coast, landfall expected Monday",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/category-4-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday-101790447793978.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Hurricane Polo was downgraded to Category 3 status Saturday as its intensity fluctuated off Mexico's southwestern coast, but it was forecast to make landfall in Baja California on Monday.",
+      "excerpt_en": "Hurricane Polo was downgraded to Category 3 status Saturday as its intensity fluctuated off Mexico's southwestern coast, but it was forecast to make landfall in Baja California on Monday.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBS News",
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-26T18:36:33+09:00",
+      "latest_published_at": "2026-09-27T03:20:53+09:00",
+      "articles": [
+        {
+          "title": "Hurricane Polo is a strong Category 3 storm off Mexico. See its path.",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/hurricane-polo-category-5-mexico-life-threatening-flooding/",
+          "published_at": "03:20"
+        },
+        {
+          "title": "Category 4 Hurricane Polo threatens Mexico’s coast, landfall expected Monday",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX3FKRlF5WEJudldBNU5uNWpXOTJ6NWQxaFFkNDRZUFZyR2V6bWYzQmJJUlZDN015RlRPTUxOUHFDQ2VKN1lVeHRhc0dFV2t5RnB6S205U0NHbHFicUZfUjhGcTJhdjhsWkVGY29Yc2ZUM2dfeVJOc0poVXctLXRLNGVjaHBIZkRMTWl2bkpGbkFpODNCYlY3M0xMbjVScmFHWnhUbk5yeVVlNC1wM0RmeDZZdktsMmxHYWdTR3VDYVlZc0dIVTFoZVdfSQ?oc=5",
+          "published_at": "22:49"
+        },
+        {
+          "title": "Category 4 Hurricane Polo threatens Mexico’s coast, landfall expected Monday",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/category-4-hurricane-polo-threatens-mexico-s-coast-landfall-expected-monday-101790447793978.html",
+          "published_at": "18:36"
+        }
+      ]
+    },
+    {
+      "id": "world-42",
+      "title": "87-year-old's eviction becomes a rallying cry for protest of Spain's housing crisis",
+      "title_en": "87-year-old's eviction becomes a rallying cry for protest of Spain's housing crisis",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/thousands-march-madrid-protest-spains-housing-crisis-after-136786342",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "Tens of thousands of people have marched in Madrid to protest against Spain’s housing crisis and ask for protective measures for tenants, anti-fraud measures, and a ban on evictions without alternativ",
+      "excerpt_en": "Tens of thousands of people have marched in Madrid to protest against Spain’s housing crisis and ask for protective measures for tenants, anti-fraud measures, and a ban on evictions without alternativ",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/thousands-march-madrid-protest-spains-housing-crisis-after-136786342",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "ABC News Australia",
+        "AP News"
+      ],
+      "first_published_at": "2026-09-26T22:58:17+09:00",
+      "latest_published_at": "2026-09-27T01:36:23+09:00",
+      "articles": [
+        {
+          "title": "Thousands rally against Spain's housing crisis after 87yo's eviction",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-27/spain-housing-protest/107200740",
+          "published_at": "01:36"
+        },
+        {
+          "title": "87-year-old’s eviction becomes a rallying cry for protest of Spain’s housing crisis",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
+          "published_at": "00:58"
+        },
+        {
+          "title": "87-year-old's eviction becomes a rallying cry for protest of Spain's housing crisis",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/thousands-march-madrid-protest-spains-housing-crisis-after-136786342",
+          "published_at": "22:58"
         }
       ]
     },
@@ -897,14 +783,14 @@
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/body-10th-woman-found-south-africa-killings-investigation-136781872",
       "translation_status": "failed",
-      "score": 68,
+      "score": 67,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "time_score": 1,
+        "raw75": 50
       },
       "area_value": 3,
       "article_count": 3,
@@ -939,115 +825,7 @@
       ]
     },
     {
-      "id": "world-118",
-      "title": "Brazil's President Lula bans online betting ahead of presidential election",
-      "title_en": "Brazil's President Lula bans online betting ahead of presidential election",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/brazils-president-lula-bans-online-betting-ahead-presidential-136770762",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "President’s ‘hard, drastic and necessary measure’, likely to attract widespread public support, polls suggest The Brazilian president, Luiz Inácio Lula da Silva, has signed an order banning fixed-odds",
-      "excerpt_en": "President’s ‘hard, drastic and necessary measure’, likely to attract widespread public support, polls suggest The Brazilian president, Luiz Inácio Lula da Silva, has signed an order banning fixed-odds",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "France24",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-09-26T01:03:36+09:00",
-      "latest_published_at": "2026-09-26T12:36:01+09:00",
-      "articles": [
-        {
-          "title": "Brazil's President Lula bans online betting ahead of presidential election",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/brazil-s-president-lula-bans-online-betting-ahead-of-presidential-election",
-          "published_at": "12:36"
-        },
-        {
-          "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
-          "published_at": "07:58"
-        },
-        {
-          "title": "Brazil's President Lula bans online betting ahead of presidential election",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazils-president-lula-bans-online-betting-ahead-presidential-136770762",
-          "published_at": "01:03"
-        }
-      ]
-    },
-    {
-      "id": "world-34",
-      "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
-      "title_en": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWFvZGl3dnM3QXZvYy1LZFYtS3JYcGROcHZtRDN3eFg2Z241SWFSSTBpUHVONW9Pb2FnVTJQakdZNW5NMDZzSFE1dXhoMU5JS2J0UDZrZlVMcmwtYzdodElTeFdsZG9KQkZXUHNjZXMzV3NSeXpoSVF6c0N1QXVFU2tKYzhlQ1NXTGlVMXdn?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "U.S. President Donald Trump is cancelling nearly $1 billion US in spending approved by Congress, the White House announced on Friday, using a rare and contested power to axe funding for immigrant serv",
-      "excerpt_en": "U.S. President Donald Trump is cancelling nearly $1 billion US in spending approved by Congress, the White House announced on Friday, using a rare and contested power to axe funding for immigrant serv",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/trump-pocket-rescission-spending-cuts-9.7359457?cmp=rss",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 50
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "CBC",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-26T00:43:00+09:00",
-      "latest_published_at": "2026-09-26T00:56:50+09:00",
-      "articles": [
-        {
-          "title": "President Trump moves to cut nearly $1 billion in ‘wasteful’ spending tied to immigrants, migrant services and more",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/president-trump-moves-to-cut-nearly-1-billion-in-wasteful-spending-tied-to-immigrants-migrant-services-and-more-101790382873590.html",
-          "published_at": "00:56"
-        },
-        {
-          "title": "Trump uses contested power to cut nearly $1B US in Congress-approved spending",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-pocket-rescission-spending-cuts-9.7359457?cmp=rss",
-          "published_at": "00:50"
-        },
-        {
-          "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWFvZGl3dnM3QXZvYy1LZFYtS3JYcGROcHZtRDN3eFg2Z241SWFSSTBpUHVONW9Pb2FnVTJQakdZNW5NMDZzSFE1dXhoMU5JS2J0UDZrZlVMcmwtYzdodElTeFdsZG9KQkZXUHNjZXMzV3NSeXpoSVF6c0N1QXVFU2tKYzhlQ1NXTGlVMXdn?oc=5",
-          "published_at": "00:43"
-        }
-      ]
-    },
-    {
-      "id": "world-233",
+      "id": "world-216",
       "title": "Russia accuses Europe of seeking to thwart Ukraine talks",
       "title_en": "Russia accuses Europe of seeking to thwart Ukraine talks",
       "title_source": "earliest_pick",
@@ -1059,14 +837,14 @@
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3326643/russia-accuses-europe-of-seeking-to-thwart-ukraine-talks",
       "translation_status": "failed",
-      "score": 65,
+      "score": 64,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
+        "time_score": 2,
+        "raw75": 48
       },
       "area_value": 2,
       "article_count": 2,
@@ -1095,100 +873,107 @@
     },
     {
       "id": "world-37",
-      "title": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
-      "title_en": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
+      "title": "Russian and Ukrainian strikes leave 10 dead as Trump calls on Zelenskyy to 'settle with Putin'",
+      "title_en": "Russian and Ukrainian strikes leave 10 dead as Trump calls on Zelenskyy to 'settle with Putin'",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY0JDWkxQellXWFhSUEQ1QnBGOXkyQ1pHTkptZlAtYzhWbXZtMjJPSzRvRGd6MU01NF9MRE9Ya08wRmlPZEFzdW50TGJUMU9XQ0JBZGNxVVZQVnItaGNIQXVJMld0anFha1M2Z3paWFF0OXVpX1lYSWY5WTRaV1FlREp1T3I?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNDNsMG0xZTVncEU0MmMwRkdBUEVLNTZSM2V5cEdxMzROUUdIV0M3YmxFTnNiYjdCTVl4c0JaNFRLenhHTmFndWpjNWVWSl9qV0xGNWt1OUVCZHpSYzBCNFZldkhXdG5Oazl5RVlCTFdwNWY3X0JLbTc1TUtQX2VXTmVmYVhnTldZM19JVkpUaV9UZDV2eE5r?oc=5",
       "category": "유럽",
       "primary_source": "AP News",
-      "excerpt": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
-      "excerpt_en": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
+      "excerpt": "Russian and Ukrainian strikes leave 10 dead as Trump calls on Zelenskyy to 'settle with Putin' AP News",
+      "excerpt_en": "Russian and Ukrainian strikes leave 10 dead as Trump calls on Zelenskyy to 'settle with Putin' AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNDNsMG0xZTVncEU0MmMwRkdBUEVLNTZSM2V5cEdxMzROUUdIV0M3YmxFTnNiYjdCTVl4c0JaNFRLenhHTmFndWpjNWVWSl9qV0xGNWt1OUVCZHpSYzBCNFZldkhXdG5Oazl5RVlCTFdwNWY3X0JLbTc1TUtQX2VXTmVmYVhnTldZM19JVkpUaV9UZDV2eE5r?oc=5",
       "translation_status": "failed",
-      "score": 64,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 48
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "NPR"
-      ],
-      "first_published_at": "2026-09-26T06:21:00+09:00",
-      "latest_published_at": "2026-09-26T06:59:45+09:00",
-      "articles": [
-        {
-          "title": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
-          "published_at": "06:59"
-        },
-        {
-          "title": "Pope warns a ‘paradise of machines’ could undermine humanity as he opens France trip",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY0JDWkxQellXWFhSUEQ1QnBGOXkyQ1pHTkptZlAtYzhWbXZtMjJPSzRvRGd6MU01NF9MRE9Ya08wRmlPZEFzdW50TGJUMU9XQ0JBZGNxVVZQVnItaGNIQXVJMld0anFha1M2Z3paWFF0OXVpX1lYSWY5WTRaV1FlREp1T3I?oc=5",
-          "published_at": "06:21"
-        }
-      ]
-    },
-    {
-      "id": "world-6",
-      "title": "Trump predicts Cuba and US will make a deal",
-      "title_en": "Trump predicts Cuba and US will make a deal",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSFFrWkRIRC00VjdRZEg1UnBac2Vsb09XY1BTTUhaRVlnQU5OS1dCSVFLRFRNTkt2cmhSWWdoUF9yNWprb0NGMHRYd21sRHU3YVNYd0NxTGtTX3dtSjR0NzVMblZIM3FMNm9MWXJrODZSb09VZVZISExCQmtjVFJqOTRtbS1LMFp1SXBrSk10bjRQZw?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "Fuel shortages and blackouts grip Cuba as Donald Trump says the US can strike a deal with Havana without military action.",
-      "excerpt_en": "Fuel shortages and blackouts grip Cuba as Donald Trump says the US can strike a deal with Havana without military action.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/trump-cuba-us-will-deal-6412811",
-      "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "ABC News",
+        "AP News"
       ],
-      "first_published_at": "2026-09-26T16:19:13+09:00",
-      "latest_published_at": "2026-09-26T19:19:00+09:00",
+      "first_published_at": "2026-09-26T18:23:00+09:00",
+      "latest_published_at": "2026-09-26T19:30:21+09:00",
       "articles": [
         {
-          "title": "Trump predicts Cuba and US will make a deal",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/trump-cuba-us-will-deal-6412811",
-          "published_at": "19:19"
+          "title": "Trump calls on Zelenskyy to 'settle with Putin' as new strikes kill 10",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/russian-ukrainian-strikes-leave-10-dead-trump-calls-136777763",
+          "published_at": "19:30"
         },
         {
-          "title": "Trump predicts Cuba and US will make a deal",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSFFrWkRIRC00VjdRZEg1UnBac2Vsb09XY1BTTUhaRVlnQU5OS1dCSVFLRFRNTkt2cmhSWWdoUF9yNWprb0NGMHRYd21sRHU3YVNYd0NxTGtTX3dtSjR0NzVMblZIM3FMNm9MWXJrODZSb09VZVZISExCQmtjVFJqOTRtbS1LMFp1SXBrSk10bjRQZw?oc=5",
-          "published_at": "16:19"
+          "title": "Russian and Ukrainian strikes leave 10 dead as Trump calls on Zelenskyy to 'settle with Putin'",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNDNsMG0xZTVncEU0MmMwRkdBUEVLNTZSM2V5cEdxMzROUUdIV0M3YmxFTnNiYjdCTVl4c0JaNFRLenhHTmFndWpjNWVWSl9qV0xGNWt1OUVCZHpSYzBCNFZldkhXdG5Oazl5RVlCTFdwNWY3X0JLbTc1TUtQX2VXTmVmYVhnTldZM19JVkpUaV9UZDV2eE5r?oc=5",
+          "published_at": "18:23"
         }
       ]
     },
     {
-      "id": "world-109",
+      "id": "world-95",
+      "title": "China and the US agree to set up a new AI safety channel, and to keep talking on trade, military",
+      "title_en": "China and the US agree to set up a new AI safety channel, and to keep talking on trade, military",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/china-us-agree-set-new-ai-safety-channel-136777768",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "Following the summit between US President Donald Trump and Chinese President Xi Jinping, the two superpowers pledged to set up a \"communication channel\" for AI incidents and boost coordination on mili",
+      "excerpt_en": "Following the summit between US President Donald Trump and Chinese President Xi Jinping, the two superpowers pledged to set up a \"communication channel\" for AI incidents and boost coordination on mili",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "CBS News",
+        "DW"
+      ],
+      "first_published_at": "2026-09-26T11:16:28+09:00",
+      "latest_published_at": "2026-09-26T19:26:53+09:00",
+      "articles": [
+        {
+          "title": "Trump and Xi to set up AI safety channel as military, trade talks continue",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-xi-us-china-ai-trade-summit/",
+          "published_at": "19:26"
+        },
+        {
+          "title": "China, US agree to set up channel for AI safety incidents",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "16:26"
+        },
+        {
+          "title": "China and the US agree to set up a new AI safety channel, and to keep talking on trade, military",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/china-us-agree-set-new-ai-safety-channel-136777768",
+          "published_at": "11:16"
+        }
+      ]
+    },
+    {
+      "id": "world-107",
       "title": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
       "title_en": "At least 16 people killed as Russia and Ukraine trade deadly air strikes",
       "title_source": "earliest_pick",
@@ -1200,14 +985,14 @@
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/europe/20260926-at-least-16-people-killed-as-russia-and-ukraine-trade-deadly-air-strikes",
       "translation_status": "failed",
-      "score": 61,
+      "score": 60,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
@@ -1235,7 +1020,7 @@
       ]
     },
     {
-      "id": "world-221",
+      "id": "world-209",
       "title": "11 killed in suicide bombing in Pakistan's Khyber Pakhtunkhwa; Pakistani Taliban claims responsibility",
       "title_en": "11 killed in suicide bombing in Pakistan's Khyber Pakhtunkhwa; Pakistani Taliban claims responsibility",
       "title_source": "earliest_pick",
@@ -1247,14 +1032,14 @@
       "excerpt_source": "Euronews",
       "excerpt_url": "https://www.euronews.com/2026/09/26/at-least-11-dead-following-suicide-bomb-attack-in-northwestern-pakistan",
       "translation_status": "failed",
-      "score": 61,
+      "score": 60,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
@@ -1282,17 +1067,17 @@
       ]
     },
     {
-      "id": "world-226",
-      "title": "Who is Juan Valenzuela-Silva? Wichita, Kansas, shooting suspect identified as search continues",
-      "title_en": "Who is Juan Valenzuela-Silva? Wichita, Kansas, shooting suspect identified as search continues",
+      "id": "world-1",
+      "title": "South Africa police launch manhunt after 17 killed in tavern shooting",
+      "title_en": "South Africa police launch manhunt after 17 killed in tavern shooting",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-juan-valenzuela-silva-wichita-kansas-shooting-suspect-identified-as-search-continues-101790446883432.html",
+      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2EyakRfYnN4VnV2MFRsWmF1MXRHQXBObVl0c29NMEJoRUFoS0JCUVlWaEF5T1dqb3VHRHNLOWsyVXFoa2ZfcGpSdE8xRWVZNmJoWGhWVUVsbWEzRF9Tb01sQmgzaHVfTFAwLWtXMWRRWGtvdUlFYlFET2Y0eHJJT2c3cUJJcU1VYnZmMEpKc2dJYlVuaEk0UnFhYzA0dDg5WTY5bFJBNVhhOEttNThlTE93Y0VLQQ?oc=5",
       "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Wichita police are searching for armed suspect Juan Valenzuela-Silva after a shooting left three people dead on September 26.",
-      "excerpt_en": "Wichita police are searching for armed suspect Juan Valenzuela-Silva after a shooting left three people dead on September 26.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-is-juan-valenzuela-silva-wichita-kansas-shooting-suspect-identified-as-search-continues-101790446883432.html",
+      "primary_source": "Reuters",
+      "excerpt": "South Africa police launch manhunt after 17 killed in tavern shooting reuters.com",
+      "excerpt_en": "South Africa police launch manhunt after 17 killed in tavern shooting reuters.com",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2EyakRfYnN4VnV2MFRsWmF1MXRHQXBObVl0c29NMEJoRUFoS0JCUVlWaEF5T1dqb3VHRHNLOWsyVXFoa2ZfcGpSdE8xRWVZNmJoWGhWVUVsbWEzRF9Tb01sQmgzaHVfTFAwLWtXMWRRWGtvdUlFYlFET2Y0eHJJT2c3cUJJcU1VYnZmMEpKc2dJYlVuaEk0UnFhYzA0dDg5WTY5bFJBNVhhOEttNThlTE93Y0VLQQ?oc=5",
       "translation_status": "failed",
       "score": 59,
       "score_breakdown": {
@@ -1308,85 +1093,179 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "Hindustan Times"
+        "Reuters",
+        "Times of India"
       ],
-      "first_published_at": "2026-09-26T18:32:13+09:00",
-      "latest_published_at": "2026-09-26T20:42:24+09:00",
+      "first_published_at": "2026-09-27T05:50:00+09:00",
+      "latest_published_at": "2026-09-27T06:33:24+09:00",
       "articles": [
         {
-          "title": "Shooting leaves 4 dead in Caribbean nation known for luxury tourism, police say",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/shooting-leaves-4-dead-caribbean-nation-luxury-tourism-136787812",
-          "published_at": "20:42"
+          "title": "17 killed, 15 wounded in South Africa mass shooting",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/27-killed-in-two-separate-mass-shootings-near-south-africas-biggest-cities/articleshow/134515864.cms",
+          "published_at": "06:33"
         },
         {
-          "title": "Who is Juan Valenzuela-Silva? Wichita, Kansas, shooting suspect identified as search continues",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-juan-valenzuela-silva-wichita-kansas-shooting-suspect-identified-as-search-continues-101790446883432.html",
-          "published_at": "18:32"
+          "title": "South Africa police launch manhunt after 17 killed in tavern shooting",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR2EyakRfYnN4VnV2MFRsWmF1MXRHQXBObVl0c29NMEJoRUFoS0JCUVlWaEF5T1dqb3VHRHNLOWsyVXFoa2ZfcGpSdE8xRWVZNmJoWGhWVUVsbWEzRF9Tb01sQmgzaHVfTFAwLWtXMWRRWGtvdUlFYlFET2Y0eHJJT2c3cUJJcU1VYnZmMEpKc2dJYlVuaEk0UnFhYzA0dDg5WTY5bFJBNVhhOEttNThlTE93Y0VLQQ?oc=5",
+          "published_at": "05:50"
         }
       ]
     },
     {
-      "id": "world-100",
-      "title": "OpenAI says its AI agents posted user images online in error",
-      "title_en": "OpenAI says its AI agents posted user images online in error",
+      "id": "world-4",
+      "title": "Iran insists on diplomatic solution after Trump rejects peace plan",
+      "title_en": "Iran insists on diplomatic solution after Trump rejects peace plan",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
-      "category": "미국",
-      "primary_source": "SCMP",
-      "excerpt": "OpenAI acknowledged on Friday that its artificial intelligence tools had posted images from ChatGPT users onto online sites without the company’s knowledge, the latest example of AI agents operating o",
-      "excerpt_en": "OpenAI acknowledged on Friday that its artificial intelligence tools had posted images from ChatGPT users onto online sites without the company’s knowledge, the latest example of AI agents operating o",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVF9ZM3dkR3ZQUWpnUVNzR0lsd0tkTTZkZ1AwN1RnZzVzQXo3WjZWY0VTNVo4dU9PM3ZfUnBKWUZuTWtRa01jNUxtVHhyZW1TakhIWlhCdl9UV0gxc3BWMUdTZ2x2Z2czNEVNV3JVYkJGOEYzSU5MREtHYldqdXZDXy1jdWlsTVZKR3pZTy1qS01IT1FpZDlkZVBLUHEzTXVDSDFlRWhva1Vsdld3cVhnUXZiYnNxTUhtb2c?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Iran announced a peace proposal at the United Nations General Assembly last week.",
+      "excerpt_en": "Iran announced a peace proposal at the United Nations General Assembly last week.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/only-negotiated-solution-can-end-deadlock-iran-calls-for-talks-trump-rejects-peace-plan-us-iran-war-middle-east-news-101790479521473.html",
       "translation_status": "failed",
-      "score": 56,
+      "score": 59,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 42
+        "time_score": 3,
+        "raw75": 44
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "DW",
-        "SCMP"
+        "Hindustan Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-26T04:48:13+09:00",
-      "latest_published_at": "2026-09-26T05:58:00+09:00",
+      "first_published_at": "2026-09-26T22:36:00+09:00",
+      "latest_published_at": "2026-09-27T05:28:00+09:00",
       "articles": [
         {
-          "title": "OpenAI tools post user images from ChatGPT online",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/openai-tools-post-user-images-from-chatgpt-online/a-79440406?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "05:58"
+          "title": "'Only negotiated solution can end deadlock': Iran as Trump rejects peace plan",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/only-negotiated-solution-can-end-deadlock-iran-calls-for-talks-trump-rejects-peace-plan-us-iran-war-middle-east-news-101790479521473.html",
+          "published_at": "05:28"
         },
         {
-          "title": "OpenAI says its AI agents posted user images online in error",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/science-technology/article/3368883/openai-says-its-ai-agents-posted-user-images-online-error?utm_source=rss_feed",
-          "published_at": "04:48"
+          "title": "Iran insists on diplomatic solution after Trump rejects peace plan",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVF9ZM3dkR3ZQUWpnUVNzR0lsd0tkTTZkZ1AwN1RnZzVzQXo3WjZWY0VTNVo4dU9PM3ZfUnBKWUZuTWtRa01jNUxtVHhyZW1TakhIWlhCdl9UV0gxc3BWMUdTZ2x2Z2czNEVNV3JVYkJGOEYzSU5MREtHYldqdXZDXy1jdWlsTVZKR3pZTy1qS01IT1FpZDlkZVBLUHEzTXVDSDFlRWhva1Vsdld3cVhnUXZiYnNxTUhtb2c?oc=5",
+          "published_at": "22:36"
         }
       ]
     },
     {
-      "id": "world-0",
-      "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature, WSJ reports",
-      "title_en": "Boeing flags 737 MAX software glitch affecting landing navigation feature, WSJ reports",
+      "id": "world-8",
+      "title": "Nor'easter brings flooding, power outages across US Northeast, over 400 flights canceled",
+      "title_en": "Nor'easter brings flooding, power outages across US Northeast, over 400 flights canceled",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY19kcWVrRFgwYVV3YUthaWNIMWxkdHNVbWs0d2ZRTjZPOS1pRzlYVTJUeG43WnZ1Nnd0N3NfMlZ4RkJ4a1E4TXcyQ2RXQVBYOWExYXVRTkRSdXFxRkJFSzNvRjA4VFp1WGdocjVwUDdRWVJiVldMa1JnRklDYTlLLXF6SEN4RFFqdTVfUkh2RkNVV3JuVnNUZmtIdlNOeElrNE10bGpSOFNiRkI2RUVaVVhIcEhaQnY0UFhQd05kQjFzd0dzMFNZajZFWTQ2VS1rRldmN1dyUQ?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdFhmWmpFYkY5RG1sM1JjN0ZPcUVCc3gyaVRpUVNXRnJUcEc5eGlfX2F6NVFwczZlR1MwU1ZaRnVIbUtUME9xRVlBU21mWllMdi1tQ0ptTHFLakl3bEs4U0w0aDhram5RYjRhemxaSl9iSkk5SjJxVEUzMjczX2g2c1FfS2plQ083WV9GOVRPandhbHZPSm5yR1l4QmtUeXJFcnktWjE3amF4SGczNzVzX05Pa2pLOUt2MVBVYm94UnRHMlowNkhnTVNyTQ?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "Nor'easter leads to the cancellation of more than 400 flights and power outages affecting 73,000 homes and businesses.",
+      "excerpt_en": "Nor'easter leads to the cancellation of more than 400 flights and power outages affecting 73,000 homes and businesses.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states?traffic_source=rss",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-26T17:49:00+09:00",
+      "latest_published_at": "2026-09-26T22:51:57+09:00",
+      "articles": [
+        {
+          "title": "One dead as powerful storm brings flooding, power cuts to northeastern US",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states?traffic_source=rss",
+          "published_at": "22:51"
+        },
+        {
+          "title": "Nor'easter brings flooding, power outages across US Northeast, over 400 flights canceled",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdFhmWmpFYkY5RG1sM1JjN0ZPcUVCc3gyaVRpUVNXRnJUcEc5eGlfX2F6NVFwczZlR1MwU1ZaRnVIbUtUME9xRVlBU21mWllMdi1tQ0ptTHFLakl3bEs4U0w0aDhram5RYjRhemxaSl9iSkk5SjJxVEUzMjczX2g2c1FfS2plQ083WV9GOVRPandhbHZPSm5yR1l4QmtUeXJFcnktWjE3amF4SGczNzVzX05Pa2pLOUt2MVBVYm94UnRHMlowNkhnTVNyTQ?oc=5",
+          "published_at": "17:49"
+        }
+      ]
+    },
+    {
+      "id": "world-54",
+      "title": "Was Tasia Fortune’s hanging staged? Chilling details out after Black woman found dead in Mississippi",
+      "title_en": "Was Tasia Fortune’s hanging staged? Chilling details out after Black woman found dead in Mississippi",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/was-tasia-fortune-hanging-staged-chilling-details-out-after-black-woman-found-dead-in-mississippi-101790445515784.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Christy Spivey tells the BBC she only has more questions now police think Tasia Fortune's body was put in the tree after her death.",
+      "excerpt_en": "Christy Spivey tells the BBC she only has more questions now police think Tasia Fortune's body was put in the tree after her death.",
+      "excerpt_source": "BBC",
+      "excerpt_url": "https://www.bbc.co.uk/news/articles/cq4gmmdl52rgo?at_medium=RSS&at_campaign=rss",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-26T18:26:52+09:00",
+      "latest_published_at": "2026-09-26T21:13:13+09:00",
+      "articles": [
+        {
+          "title": "Mother of woman found hanging in tree shocked as police say body was staged",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cq4gmmdl52rgo?at_medium=RSS&at_campaign=rss",
+          "published_at": "21:13"
+        },
+        {
+          "title": "Was Tasia Fortune’s hanging staged? Chilling details out after Black woman found dead in Mississippi",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/was-tasia-fortune-hanging-staged-chilling-details-out-after-black-woman-found-dead-in-mississippi-101790445515784.html",
+          "published_at": "18:26"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "Northern Ireland court allows Protestant march in Catholic area",
+      "title_en": "Northern Ireland court allows Protestant march in Catholic area",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZUVMdUFVSXdCeFZhamlaeklBVGctWmdKX3pfSmVuYkJVSFVuZ0p3SFVJT3NJaC1JRW9tLW5sVHlyWktLZ1F4NWZMVHE2cWhqSkYwRVQ1ampsTVFXUHQxb1NPb1QxSTc0Zi1faVZrV1Z5aUZqRXZCSThWZkVuT1VUSHBUaDdXMlVaMU9BX2xVbThLSUliVmc4aUowejhlaXdLVEJVWktvUjg3QXF5bDlzdm4wZ3gwOUR3?oc=5",
       "category": "기타",
       "primary_source": "Reuters",
-      "excerpt": "A Boeing 737 MAX software glitch could knock out automated flight guidance during landing after a missed approach, adding fresh scrutiny to the jetmaker.",
-      "excerpt_en": "A Boeing 737 MAX software glitch could knock out automated flight guidance during landing after a missed approach, adding fresh scrutiny to the jetmaker.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/boeing-737-max-glitch-landing-wsj-reports-6413071",
+      "excerpt": "Crowd gathers on Garvaghy Road early on Sunday morning to protest against the ruling allowing the march.",
+      "excerpt_en": "Crowd gathers on Garvaghy Road early on Sunday morning to protest against the ruling allowing the march.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/27/northern-ireland-court-allows-orange-order-march-through-catholic-area?traffic_source=rss",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1402,28 +1281,222 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Al Jazeera",
         "Reuters"
       ],
-      "first_published_at": "2026-09-26T19:41:46+09:00",
-      "latest_published_at": "2026-09-26T21:20:48+09:00",
+      "first_published_at": "2026-09-27T02:39:07+09:00",
+      "latest_published_at": "2026-09-27T06:53:31+09:00",
       "articles": [
         {
-          "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature, WSJ reports",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/boeing-737-max-glitch-landing-wsj-reports-6413071",
-          "published_at": "21:20"
+          "title": "Northern Ireland court allows Orange Order march through Catholic area",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/27/northern-ireland-court-allows-orange-order-march-through-catholic-area?traffic_source=rss",
+          "published_at": "06:53"
         },
         {
-          "title": "Boeing flags 737 MAX software glitch affecting landing navigation feature, WSJ reports",
+          "title": "Northern Ireland court allows Protestant march in Catholic area",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY19kcWVrRFgwYVV3YUthaWNIMWxkdHNVbWs0d2ZRTjZPOS1pRzlYVTJUeG43WnZ1Nnd0N3NfMlZ4RkJ4a1E4TXcyQ2RXQVBYOWExYXVRTkRSdXFxRkJFSzNvRjA4VFp1WGdocjVwUDdRWVJiVldMa1JnRklDYTlLLXF6SEN4RFFqdTVfUkh2RkNVV3JuVnNUZmtIdlNOeElrNE10bGpSOFNiRkI2RUVaVVhIcEhaQnY0UFhQd05kQjFzd0dzMFNZajZFWTQ2VS1rRldmN1dyUQ?oc=5",
-          "published_at": "19:41"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZUVMdUFVSXdCeFZhamlaeklBVGctWmdKX3pfSmVuYkJVSFVuZ0p3SFVJT3NJaC1JRW9tLW5sVHlyWktLZ1F4NWZMVHE2cWhqSkYwRVQ1ampsTVFXUHQxb1NPb1QxSTc0Zi1faVZrV1Z5aUZqRXZCSThWZkVuT1VUSHBUaDdXMlVaMU9BX2xVbThLSUliVmc4aUowejhlaXdLVEJVWktvUjg3QXF5bDlzdm4wZ3gwOUR3?oc=5",
+          "published_at": "02:39"
         }
       ]
     },
     {
-      "id": "world-3",
+      "id": "world-50",
+      "title": "British national among six dead in building explosion close to Acropolis in Athens",
+      "title_en": "British national among six dead in building explosion close to Acropolis in Athens",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+      "category": "유럽",
+      "primary_source": "BBC",
+      "excerpt": "The bodies of four US citizens, a British man and his Greek wife have been recovered after a suspected gas explosion in the Greek capital, according to local authorities.",
+      "excerpt_en": "The bodies of four US citizens, a British man and his Greek wife have been recovered after a suspected gas explosion in the Greek capital, according to local authorities.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-09-27/six-bodies-recovered-from-athens-explosion-building/107200742",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "BBC"
+      ],
+      "first_published_at": "2026-09-26T12:47:25+09:00",
+      "latest_published_at": "2026-09-27T00:49:57+09:00",
+      "articles": [
+        {
+          "title": "Six bodies recovered from rubble of Athens building after explosion",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-27/six-bodies-recovered-from-athens-explosion-building/107200742",
+          "published_at": "00:49"
+        },
+        {
+          "title": "British national among six dead in building explosion close to Acropolis in Athens",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+          "published_at": "12:47"
+        }
+      ]
+    },
+    {
+      "id": "world-59",
+      "title": "Trump has Truth Social tantrum over press coverage again after replacing CNN with LindellTV",
+      "title_en": "Trump has Truth Social tantrum over press coverage again after replacing CNN with LindellTV",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cnn-lindell-press-ban-b3056860.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Trump barred CNN from Air Force One Saturday and replaced the outlet with LindellTV for his trip to Knoxville, Tennessee, to attend a college football game",
+      "excerpt_en": "Trump barred CNN from Air Force One Saturday and replaced the outlet with LindellTV for his trip to Knoxville, Tennessee, to attend a college football game",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cnn-lindell-press-ban-b3056860.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-09-26T14:05:30+09:00",
+      "latest_published_at": "2026-09-26T19:16:14+09:00",
+      "articles": [
+        {
+          "title": "White House bars CNN from travelling with Trump on Air Force One",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+          "published_at": "19:16"
+        },
+        {
+          "title": "CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/cnn-donald-trump-the-white-house-politico-tennessee-b3056921.html",
+          "published_at": "16:04"
+        },
+        {
+          "title": "Trump has Truth Social tantrum over press coverage again after replacing CNN with LindellTV",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cnn-lindell-press-ban-b3056860.html",
+          "published_at": "14:05"
+        }
+      ]
+    },
+    {
+      "id": "world-213",
+      "title": "Voters in Switzerland decide on right-wing party's proposal to tighten neutrality rules",
+      "title_en": "Voters in Switzerland decide on right-wing party's proposal to tighten neutrality rules",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/voters-switzerland-decide-wing-partys-proposal-tighten-neutrality-136792739",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "GENEVA - The Swiss are voting Sunday on a much-debated proposal to tighten their country's cherished neutrality, with polls indicating most will reject the initiative championed by the hard-right and ",
+      "excerpt_en": "GENEVA - The Swiss are voting Sunday on a much-debated proposal to tighten their country's cherished neutrality, with polls indicating most will reject the initiative championed by the hard-right and ",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3327028/swiss-vote-on-what-it-means-to-be-neutral",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Bangkok Post"
+      ],
+      "first_published_at": "2026-09-27T06:37:26+09:00",
+      "latest_published_at": "2026-09-27T06:45:00+09:00",
+      "articles": [
+        {
+          "title": "Swiss vote on what it means to be neutral",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3327028/swiss-vote-on-what-it-means-to-be-neutral",
+          "published_at": "06:45"
+        },
+        {
+          "title": "Voters in Switzerland decide on right-wing party's proposal to tighten neutrality rules",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/voters-switzerland-decide-wing-partys-proposal-tighten-neutrality-136792739",
+          "published_at": "06:37"
+        }
+      ]
+    },
+    {
+      "id": "world-2",
+      "title": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+      "title_en": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/openai-anthropic-ceos-called-appear-australian-ai-probe-6413341",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "OpenAI, Anthropic CEOs called to appear at Australian AI probe reuters.com",
+      "excerpt_en": "OpenAI, Anthropic CEOs called to appear at Australian AI probe reuters.com",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMkgwZG5VR01rUjNsZkNPUkw1TFNEYTY1TGtCa010MUlRVzE2Vy1qaTBMNnJiYXliYlY1MkJONXpValJTRTdQLVNjazhJbGc1RDNVMDdTNU9WZXd3elhRVVBZNEFZLTBER2VfVkdxUW13YXprcnJKc1NjcmFwS0FYRlZYTWtZZWNQQ0pJV3JjVWFkUDZHZDNOT01FSVJOaDZLUU1wa1BFdDZpU2hZ?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-27T04:26:50+09:00",
+      "latest_published_at": "2026-09-27T04:27:00+09:00",
+      "articles": [
+        {
+          "title": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMkgwZG5VR01rUjNsZkNPUkw1TFNEYTY1TGtCa010MUlRVzE2Vy1qaTBMNnJiYXliYlY1MkJONXpValJTRTdQLVNjazhJbGc1RDNVMDdTNU9WZXd3elhRVVBZNEFZLTBER2VfVkdxUW13YXprcnJKc1NjcmFwS0FYRlZYTWtZZWNQQ0pJV3JjVWFkUDZHZDNOT01FSVJOaDZLUU1wa1BFdDZpU2hZ?oc=5",
+          "published_at": "04:27"
+        },
+        {
+          "title": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/openai-anthropic-ceos-called-appear-australian-ai-probe-6413341",
+          "published_at": "04:26"
+        }
+      ]
+    },
+    {
+      "id": "world-9",
       "title": "At UN, Russia and Germany's top diplomats hold first talks since 2022",
       "title_en": "At UN, Russia and Germany's top diplomats hold first talks since 2022",
       "title_source": "earliest_pick",
@@ -1435,14 +1508,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/at-un-russia-and-germany-s-top-diplomats-hold-first-talks-since-2022-101790454140573.html",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1470,54 +1543,242 @@
       ]
     },
     {
-      "id": "world-97",
-      "title": "Deadly blast rips through Athens building, near Acropolis",
-      "title_en": "Deadly blast rips through Athens building, near Acropolis",
+      "id": "world-18",
+      "title": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
+      "title_en": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
       "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/deadly-blast-rips-through-athens-building-near-acropolis/a-79441931?maca=en-rss-en-all-1573-xml-mrss",
-      "category": "기타",
-      "primary_source": "DW",
-      "excerpt": "Several foreign tourists remain missing after an explosion brought down a building in Athens' tourist area of Plaka, with the city's mayor calling it an \"incredible disaster.\"",
-      "excerpt_en": "Several foreign tourists remain missing after an explosion brought down a building in Athens' tourist area of Plaka, with the city's mayor calling it an \"incredible disaster.\"",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/deadly-blast-rips-through-athens-building-near-acropolis/a-79441931?maca=en-rss-en-all-1573-xml-mrss",
+      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "The United States and China have agreed to reduce tariffs on $30 billion US of goods and launch a dialogue on AI, both countries said following President Xi Jinping's visit to Washington.",
+      "excerpt_en": "The United States and China have agreed to reduce tariffs on $30 billion US of goods and launch a dialogue on AI, both countries said following President Xi Jinping's visit to Washington.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/china-united-states-tariff-cuts-9.7359852?cmp=rss",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
+        "major_score": 15,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 41
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "DW"
+        "CBC",
+        "Reuters"
       ],
-      "first_published_at": "2026-09-26T09:12:00+09:00",
-      "latest_published_at": "2026-09-26T10:34:43+09:00",
+      "first_published_at": "2026-09-26T19:59:32+09:00",
+      "latest_published_at": "2026-09-26T20:09:51+09:00",
       "articles": [
         {
-          "title": "Rescuers pull 2 unconscious from collapsed building near the Acropolis in Greece",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/rescuers-pull-2-unconscious-collapsed-building-acropolis-greece-136777217",
-          "published_at": "10:34"
+          "title": "China, U.S. agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/china-united-states-tariff-cuts-9.7359852?cmp=rss",
+          "published_at": "20:09"
         },
         {
-          "title": "Deadly blast rips through Athens building, near Acropolis",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/deadly-blast-rips-through-athens-building-near-acropolis/a-79441931?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "09:12"
+          "title": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT2FRVWRwSDZuWUZPYTRXcmNuNTFDR0hrQkVUZnpSdV9RdGhpUjV5R0hwN2V6MUNUS2hiTHpENFhwUFVDODBIeDhBSm5SdUJOeU1qSUhjekl2RzBDd0VBYi0tdmNDblQwV1RMTF9QMGFHdlFRcDRmalE3dWlhX0l6aUJjSGtsVjlsZXNnbmZWY3JzMEtwY3hxNEZHT3JjWXJEQlVRSFpSM0haSUROOUFRaWJB?oc=5",
+          "published_at": "19:59"
         }
       ]
     },
     {
-      "id": "world-140",
+      "id": "world-20",
+      "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
+      "title_en": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGRIQjdWZjBoYmtjQnVTTkN2Z3h3NWstMHRzYlJJaHY4THJVWlVYZ1prbURoS0VHQTd3ZERGMWxLZi1GR1ZJZ0dCLXlhcVNfeUctOHlJbDZQSEhpTHNHWjlRanFLdnA1N0pfUTlSNFJjQ1pocjZWVERDNThtZUFCUTZQNExrRm1ZdWZJZkxrbnpUXy1ubGFHLVkwWlo3Tm9yLUs5TjhNc3JJdw?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Chants of “Leo, Leo” and “Long live the Pope” echoed down the Champs-Elysees in Paris as Pope Leo urged Catholics to find happiness in faith, not material things.",
+      "excerpt_en": "Chants of “Leo, Leo” and “Long live the Pope” echoed down the Champs-Elysees in Paris as Pope Leo urged Catholics to find happiness in faith, not material things.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/europe/hundreds-of-thousands-in-paris-cheer-pope-leo-in-largest-event-of-french-tour-20260927-p610s6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-09-26T16:48:39+09:00",
+      "latest_published_at": "2026-09-26T23:11:26+09:00",
+      "articles": [
+        {
+          "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/hundreds-of-thousands-in-paris-cheer-pope-leo-in-largest-event-of-french-tour-20260927-p610s6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:11"
+        },
+        {
+          "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGRIQjdWZjBoYmtjQnVTTkN2Z3h3NWstMHRzYlJJaHY4THJVWlVYZ1prbURoS0VHQTd3ZERGMWxLZi1GR1ZJZ0dCLXlhcVNfeUctOHlJbDZQSEhpTHNHWjlRanFLdnA1N0pfUTlSNFJjQ1pocjZWVERDNThtZUFCUTZQNExrRm1ZdWZJZkxrbnpUXy1ubGFHLVkwWlo3Tm9yLUs5TjhNc3JJdw?oc=5",
+          "published_at": "16:48"
+        }
+      ]
+    },
+    {
+      "id": "world-28",
+      "title": "Gordon's goal continues debate over England's footballing identity",
+      "title_en": "Gordon's goal continues debate over England's footballing identity",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/sport/gordons-goal-continues-debate-over-englands-footballing-identity-6413146",
+      "category": "유럽",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Gordon's goal continues debate over England's footballing identity reuters.com",
+      "excerpt_en": "Gordon's goal continues debate over England's footballing identity reuters.com",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcWFqMWd4eHdpeXBheExsbThxeG0xY3NmQndmZzVOSDFoUU0zRFM5eTZjY1EzRk5ReHRzUFpZOE0xSUQ1RGxhT0p1b3hucDdORG14cFRiRHRnVWNMZnVFUk1SYk5vNDlCRmUzLWhhdnFwMEdGb1FfZ2ljME1ycm15SEtVYU5UTGNFTEhUYW5iZ1Z0UF9qUnVFdEhjOUNhMksycnpUQ3owS1hJY3dnUGJkai1ySjU?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-09-26T22:16:59+09:00",
+      "latest_published_at": "2026-09-26T22:19:45+09:00",
+      "articles": [
+        {
+          "title": "Gordon's goal continues debate over England's footballing identity",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcWFqMWd4eHdpeXBheExsbThxeG0xY3NmQndmZzVOSDFoUU0zRFM5eTZjY1EzRk5ReHRzUFpZOE0xSUQ1RGxhT0p1b3hucDdORG14cFRiRHRnVWNMZnVFUk1SYk5vNDlCRmUzLWhhdnFwMEdGb1FfZ2ljME1ycm15SEtVYU5UTGNFTEhUYW5iZ1Z0UF9qUnVFdEhjOUNhMksycnpUQ3owS1hJY3dnUGJkai1ySjU?oc=5",
+          "published_at": "22:19"
+        },
+        {
+          "title": "Gordon's goal continues debate over England's footballing identity",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/gordons-goal-continues-debate-over-englands-footballing-identity-6413146",
+          "published_at": "22:16"
+        }
+      ]
+    },
+    {
+      "id": "world-44",
+      "title": "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity",
+      "title_en": "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/openai-rogue-us-sites-activity-9.7359673?cmp=rss",
+      "category": "미국",
+      "primary_source": "CBC",
+      "excerpt": "OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company’s mode",
+      "excerpt_en": "OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company’s mode",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/openai-rogue-us-sites-activity-9.7359673?cmp=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "CBC"
+      ],
+      "first_published_at": "2026-09-26T14:38:18+09:00",
+      "latest_published_at": "2026-09-26T23:18:00+09:00",
+      "articles": [
+        {
+          "title": "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWx0bFpIWjhrWmo5ODhSTzZ2U3hyYXhuLTQ3eEVFWk9vdGJZWC1nNHNoS1B3NVVKTUJBWjZRWnhiU2hNbnd2M1lpeG8zdHJjd05uQXlaQTJ2OGJiVHdqY2JKd0VTUEVNMWZhQlN6eHVMVF9RUDB2SW1vTE0teHlFaC1PaDBQY3NjUEs5aGhyT1ZNV3FjMG1XcUV1V2d4QQ?oc=5",
+          "published_at": "23:18"
+        },
+        {
+          "title": "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/openai-rogue-us-sites-activity-9.7359673?cmp=rss",
+          "published_at": "14:38"
+        }
+      ]
+    },
+    {
+      "id": "world-53",
+      "title": "Ireland players vote to go ahead with games against Israel, will wear black armbands",
+      "title_en": "Ireland players vote to go ahead with games against Israel, will wear black armbands",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/ireland-players-vote-to-go-ahead-with-games-against-israel-will-wear-black-armbands-101790449192834.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
+      "excerpt_en": "Republic of Ireland players intend to wear black armbands \"in recognition of all lives lost in the [Gaza] conflict\" for match against Israel.",
+      "excerpt_source": "BBC",
+      "excerpt_url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-09-26T18:59:52+09:00",
+      "latest_published_at": "2026-09-26T19:59:00+09:00",
+      "articles": [
+        {
+          "title": "Republic of Ireland to wear black armbands for Israel game",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "19:59"
+        },
+        {
+          "title": "Ireland players vote to go ahead with games against Israel, will wear black armbands",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/ireland-players-vote-to-go-ahead-with-games-against-israel-will-wear-black-armbands-101790449192834.html",
+          "published_at": "18:59"
+        }
+      ]
+    },
+    {
+      "id": "world-137",
       "title": "Powerful storm causes widespread flooding, outages in northeast U.S.",
       "title_en": "Powerful storm causes widespread flooding, outages in northeast U.S.",
       "title_source": "earliest_pick",
@@ -1529,14 +1790,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/sep/26/noreaster-north-east-us",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1564,64 +1825,17 @@
       ]
     },
     {
-      "id": "world-8",
-      "title": "Man City chairman rallies fans after reports club found guilty of 114 charges",
-      "title_en": "Man City chairman rallies fans after reports club found guilty of 114 charges",
+      "id": "world-186",
+      "title": "Taylor Swift breaks two Spotify records for 2026 with The Life of a Showgirl: The Encore",
+      "title_en": "Taylor Swift breaks two Spotify records for 2026 with The Life of a Showgirl: The Encore",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/man-city-chairman-rallies-fans-after-reports-club-found-guilty-114-charges-6412856",
+      "title_url": "https://www.channelnewsasia.com/entertainment/taylor-swift-life-showgirl-encore-spotify-records-6413296",
       "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Man City chairman rallies fans after reports club found guilty of 114 charges Reuters",
-      "excerpt_en": "Man City chairman rallies fans after reports club found guilty of 114 charges Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNkxrTVEtSGgtSHZ5NTduNGRXYXlMY2FhUWU1OGc2dlRvOWdDVlp6b1pPREhTSVZ1VDhtWUxRTHp1R3NyNVprUnFKblZxWF9WTXpOa0U4SUlpSGZvc3ZzU3NkTHJ3TVJHUmVwWE5INzcxWWVXU2FkS3c0YVZTTGt5aHM3WnNxT1Jidk1PcVRublpNSkNOZlVoQUJEOXc2T3pjWDFSS0JKVTIxUUU5ZUVKd3lOc1k3RVdPbktiV0NMTDQzdw?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T15:01:11+09:00",
-      "latest_published_at": "2026-09-26T15:43:18+09:00",
-      "articles": [
-        {
-          "title": "Man City chairman rallies fans after reports club found guilty of 114 charges",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNkxrTVEtSGgtSHZ5NTduNGRXYXlMY2FhUWU1OGc2dlRvOWdDVlp6b1pPREhTSVZ1VDhtWUxRTHp1R3NyNVprUnFKblZxWF9WTXpOa0U4SUlpSGZvc3ZzU3NkTHJ3TVJHUmVwWE5INzcxWWVXU2FkS3c0YVZTTGt5aHM3WnNxT1Jidk1PcVRublpNSkNOZlVoQUJEOXc2T3pjWDFSS0JKVTIxUUU5ZUVKd3lOc1k3RVdPbktiV0NMTDQzdw?oc=5",
-          "published_at": "15:43"
-        },
-        {
-          "title": "Man City chairman rallies fans after reports club found guilty of 114 charges",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/man-city-chairman-rallies-fans-after-reports-club-found-guilty-114-charges-6412856",
-          "published_at": "15:01"
-        }
-      ]
-    },
-    {
-      "id": "world-13",
-      "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
-      "title_en": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGRIQjdWZjBoYmtjQnVTTkN2Z3h3NWstMHRzYlJJaHY4THJVWlVYZ1prbURoS0VHQTd3ZERGMWxLZi1GR1ZJZ0dCLXlhcVNfeUctOHlJbDZQSEhpTHNHWjlRanFLdnA1N0pfUTlSNFJjQ1pocjZWVERDNThtZUFCUTZQNExrRm1ZdWZJZkxrbnpUXy1ubGFHLVkwWlo3Tm9yLUs5TjhNc3JJdw?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "An estimated 800,000 people pack the Champs-Élysées as Pope Leo tells Catholics faith, not material things, brings true happiness.",
-      "excerpt_en": "An estimated 800,000 people pack the Champs-Élysées as Pope Leo tells Catholics faith, not material things, brings true happiness.",
+      "excerpt": "The expanded edition features four new songs, including Cleveland!, in which Swift calls husband Travis Kelce the “love of my life”.",
+      "excerpt_en": "The expanded edition features four new songs, including Cleveland!, in which Swift calls husband Travis Kelce the “love of my life”.",
       "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/pope-leo-hundreds-thousands-paris-event-6412851",
+      "excerpt_url": "https://www.channelnewsasia.com/entertainment/taylor-swift-life-showgirl-encore-spotify-records-6413296",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1638,225 +1852,37 @@
       "source_count": 2,
       "sources": [
         "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T16:48:39+09:00",
-      "latest_published_at": "2026-09-26T17:45:10+09:00",
-      "articles": [
-        {
-          "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/pope-leo-hundreds-thousands-paris-event-6412851",
-          "published_at": "17:45"
-        },
-        {
-          "title": "Hundreds of thousands in Paris cheer Pope Leo in largest event of French tour",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGRIQjdWZjBoYmtjQnVTTkN2Z3h3NWstMHRzYlJJaHY4THJVWlVYZ1prbURoS0VHQTd3ZERGMWxLZi1GR1ZJZ0dCLXlhcVNfeUctOHlJbDZQSEhpTHNHWjlRanFLdnA1N0pfUTlSNFJjQ1pocjZWVERDNThtZUFCUTZQNExrRm1ZdWZJZkxrbnpUXy1ubGFHLVkwWlo3Tm9yLUs5TjhNc3JJdw?oc=5",
-          "published_at": "16:48"
-        }
-      ]
-    },
-    {
-      "id": "world-19",
-      "title": "Scientists sound the alarm over disappearing kelp, lobster and crayfish as marine heatwaves worsen",
-      "title_en": "Scientists sound the alarm over disappearing kelp, lobster and crayfish as marine heatwaves worsen",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/marine-heatwave-fisheries-kelp-lobster-crayfish-b3056875.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "The shifting conditions are altering aquatic ecosystems with devastating impacts on certain European fisheries and coastal livelihoods",
-      "excerpt_en": "The shifting conditions are altering aquatic ecosystems with devastating impacts on certain European fisheries and coastal livelihoods",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/marine-heatwave-fisheries-kelp-lobster-crayfish-b3056875.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
         "The Independent"
       ],
-      "first_published_at": "2026-09-26T14:13:28+09:00",
-      "latest_published_at": "2026-09-26T16:46:18+09:00",
+      "first_published_at": "2026-09-27T03:41:56+09:00",
+      "latest_published_at": "2026-09-27T04:06:32+09:00",
       "articles": [
         {
-          "title": "How Europe’s intensifying marine heatwaves threaten its fisheries",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOazRBRDJfTmZvQW52RkYtOWpyLXhvYzcyVmdBSDk4aDlMUWJVNTBGcEdDM1l4ZjY2NzRlVFFSVHhQYlQzVWxySlVqc19wWVVoal9ySkdKUFIxX0d3MUc0d3FoMUt6ckxKakdaSWdyczctWFVMY3hYOWhZYWZ3SFF0Znk4SW5OT1VCMFltMVRjLUtydklCM25VUFhjMmtWdGV3b3VKSjQ3SXloU3hNSGh4T2FXSQ?oc=5",
-          "published_at": "16:46"
-        },
-        {
-          "title": "Scientists sound the alarm over disappearing kelp, lobster and crayfish as marine heatwaves worsen",
+          "title": "The MTV VMAs are here with Taylor Swift making history and Madonna leading the nods: How to watch",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/marine-heatwave-fisheries-kelp-lobster-crayfish-b3056875.html",
-          "published_at": "14:13"
-        }
-      ]
-    },
-    {
-      "id": "world-21",
-      "title": "Thai capital Bangkok declared disaster zone amid flooding",
-      "title_en": "Thai capital Bangkok declared disaster zone amid flooding",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdzRhalF6S2pIWVFyVjA1b3hpS1EtVVJ5Z1Y4R2dHbDJNVjdzTDYxMkJzeS0wNnRNQmpXNWgzZDBlUHZwa2s4cmhxM2hqR2l6NzU3a2NORUJmQVZTcEY1YWE1UE1CVWlOLWVicVBFWU1HVTRwOU5ablJFelpoNi1Vd0JTV0F2X0lwRURlSDFIdS1aWkxfS3BrSmk5c1RlZlI2T1ZMT1I0b2xRU0JWeWFtZldzNlQ?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "Bangkok has been declared a disaster zone after parts of the Thai capital saw more than 30cm (12 inches) of rain in 48 hours, causing flooding across much of the city.",
-      "excerpt_en": "Bangkok has been declared a disaster zone after parts of the Thai capital saw more than 30cm (12 inches) of rain in 48 hours, causing flooding across much of the city.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/bangkok-declared-disaster-zone-after-more-than-30cm-of-rain-in-48-hours-13592027",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-26T04:22:00+09:00",
-      "latest_published_at": "2026-09-26T10:15:00+09:00",
-      "articles": [
-        {
-          "title": "Bangkok declared disaster zone after more than 30cm of rain in 48 hours",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/bangkok-declared-disaster-zone-after-more-than-30cm-of-rain-in-48-hours-13592027",
-          "published_at": "10:15"
+          "url": "https://www.independent.co.uk/news/world/americas/mtv-vmas-eminem-swifties-new-york-snoop-dogg-b3057026.html",
+          "published_at": "04:06"
         },
         {
-          "title": "Thai capital Bangkok declared disaster zone amid flooding",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdzRhalF6S2pIWVFyVjA1b3hpS1EtVVJ5Z1Y4R2dHbDJNVjdzTDYxMkJzeS0wNnRNQmpXNWgzZDBlUHZwa2s4cmhxM2hqR2l6NzU3a2NORUJmQVZTcEY1YWE1UE1CVWlOLWVicVBFWU1HVTRwOU5ablJFelpoNi1Vd0JTV0F2X0lwRURlSDFIdS1aWkxfS3BrSmk5c1RlZlI2T1ZMT1I0b2xRU0JWeWFtZldzNlQ?oc=5",
-          "published_at": "04:22"
-        }
-      ]
-    },
-    {
-      "id": "world-30",
-      "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
-      "title_en": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/mbappe-knee-hyperextension-real-madrid-6413011",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Kylian Mbappe leaves the France squad after tests confirm a left knee hyperextension, following his goal and early exit in the 1-0 Nations League win over Turkey.",
-      "excerpt_en": "Kylian Mbappe leaves the France squad after tests confirm a left knee hyperextension, following his goal and early exit in the 1-0 Nations League win over Turkey.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/sport/mbappe-knee-hyperextension-real-madrid-6413011",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T18:03:00+09:00",
-      "latest_published_at": "2026-09-26T18:05:43+09:00",
-      "articles": [
-        {
-          "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGF6eVFxZ1Fia2ZGWFJVZXVvMlpmZGRwSG9TLUF4dGNmRk1rellRaTVLb1dFdUstOFd5amx2eUtiaDNSci00VC12eWdaRFIzM2ZtMWlIckxsOFRmOFg0blV1WkJjS0hUZWF5VTBtNklvWDVNM25aTmpJcXpGekk5VUJ5RVRUWGNQZEtkdThWbTJSWkxqUzdMOXJKNjQ2cnZJSG02Ri15R2laMUU?oc=5",
-          "published_at": "18:05"
-        },
-        {
-          "title": "Mbappe diagnosed with knee hyperextension, say Real Madrid",
+          "title": "Taylor Swift breaks two Spotify records for 2026 with The Life of a Showgirl: The Encore",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/mbappe-knee-hyperextension-real-madrid-6413011",
-          "published_at": "18:03"
+          "url": "https://www.channelnewsasia.com/entertainment/taylor-swift-life-showgirl-encore-spotify-records-6413296",
+          "published_at": "03:41"
         }
       ]
     },
     {
-      "id": "world-31",
-      "title": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
-      "title_en": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
+      "id": "world-215",
+      "title": "Venezuela releases more political prisoners after opposition talks",
+      "title_en": "Venezuela releases more political prisoners after opposition talks",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3ZERzdwNHhFVVVqTDBCVF82eHRrdXpSZDNuQl92TWdZRzVKUHZsQm82dUI4MFhaN1BLRHlzTml2ODNrTEdnaWxkY0VKLUY0M3J0VGVWeDZ2RU1TZmdPV2VzTk80VGRrckdybk5za2xuZU9UUEV1dUE5dUUyYTBtVnRmOEk4NFNkaTJhVFFyb1BJOVRSeW55cTZfSWN5Q1FoWDRWTUE0b2h6ZXJTYXU1TDVmRkxrZXNH?oc=5",
+      "title_url": "https://www.bangkokpost.com/world/3326949/venezuela-releases-more-political-prisoners-after-opposition-talks",
       "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "OpenAI models accessed data on two US government websites and carried out an unsuccessful hack on a Department of Education site, according to new investigations.",
-      "excerpt_en": "OpenAI models accessed data on two US government websites and carried out an unsuccessful hack on a Department of Education site, according to new investigations.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/openai-models-accessed-us-government-data-and-tried-to-hack-education-site-13591998",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-09-26T00:29:00+09:00",
-      "latest_published_at": "2026-09-26T07:56:00+09:00",
-      "articles": [
-        {
-          "title": "OpenAI models accessed US government data and 'tried to hack another site'",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/openai-models-accessed-us-government-data-and-tried-to-hack-education-site-13591998",
-          "published_at": "07:56"
-        },
-        {
-          "title": "OpenAI's models accessed public US Census, SEC data, Bloomberg News reports",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3ZERzdwNHhFVVVqTDBCVF82eHRrdXpSZDNuQl92TWdZRzVKUHZsQm82dUI4MFhaN1BLRHlzTml2ODNrTEdnaWxkY0VKLUY0M3J0VGVWeDZ2RU1TZmdPV2VzTk80VGRrckdybk5za2xuZU9UUEV1dUE5dUUyYTBtVnRmOEk4NFNkaTJhVFFyb1BJOVRSeW55cTZfSWN5Q1FoWDRWTUE0b2h6ZXJTYXU1TDVmRkxrZXNH?oc=5",
-          "published_at": "00:29"
-        }
-      ]
-    },
-    {
-      "id": "world-209",
-      "title": "11-year-old esports prodigy wins gold and rival’s praise at the Asian Games",
-      "title_en": "11-year-old esports prodigy wins gold and rival’s praise at the Asian Games",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/asia/yuki-kurihara-puyo-puyo-gold-medal-asian-games-b3056863.html",
-      "category": "아시아",
-      "primary_source": "The Independent",
-      "excerpt": "Yuki Kurihara trains eight hours a day and still keeps up his grades in school, according to Japanese media",
-      "excerpt_en": "Yuki Kurihara trains eight hours a day and still keeps up his grades in school, according to Japanese media",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/asia/yuki-kurihara-puyo-puyo-gold-medal-asian-games-b3056863.html",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Human rights groups in Venezuela said that significant numbers of political prisoners were released in the South American country on Saturday, though a total number of those released has still not bee",
+      "excerpt_en": "Human rights groups in Venezuela said that significant numbers of political prisoners were released in the South American country on Saturday, though a total number of those released has still not bee",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/venezuela-releases-dozens-prisoners-meeting-trump-interim-leader-136790060",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1873,384 +1899,138 @@
       "source_count": 2,
       "sources": [
         "ABC News",
-        "The Independent"
+        "Bangkok Post"
       ],
-      "first_published_at": "2026-09-26T13:36:48+09:00",
-      "latest_published_at": "2026-09-26T17:06:17+09:00",
+      "first_published_at": "2026-09-27T00:12:00+09:00",
+      "latest_published_at": "2026-09-27T00:55:53+09:00",
       "articles": [
         {
-          "title": "11-year-old Japanese player Yuki Kurihara wins esports gold medal at the Asian Games",
+          "title": "Venezuela releases dozens of prisoners following meeting between Trump and interim leader",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/11-year-japanese-player-yuki-kurihara-wins-esports-136775823",
-          "published_at": "17:06"
+          "url": "https://abcnews.com/International/wireStory/venezuela-releases-dozens-prisoners-meeting-trump-interim-leader-136790060",
+          "published_at": "00:55"
         },
         {
-          "title": "11-year-old esports prodigy wins gold and rival’s praise at the Asian Games",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/asia/yuki-kurihara-puyo-puyo-gold-medal-asian-games-b3056863.html",
-          "published_at": "13:36"
-        }
-      ]
-    },
-    {
-      "id": "world-229",
-      "title": "'Trump Strait': US President shares Hormuz map, relabels key waterway amid Iran tensions",
-      "title_en": "'Trump Strait': US President shares Hormuz map, relabels key waterway amid Iran tensions",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-iran-war-strait-of-hormuz-oil-donald-trump-latest-news-101790406513908.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "US President Donald Trump posted an image of the Strait of Hormuz labeled “Trump Strait”. Check top developments from Middle East war.",
-      "excerpt_en": "US President Donald Trump posted an image of the Strait of Hormuz labeled “Trump Strait”. Check top developments from Middle East war.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-iran-war-strait-of-hormuz-oil-donald-trump-latest-news-101790406513908.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-26T08:17:14+09:00",
-      "latest_published_at": "2026-09-26T10:34:56+09:00",
-      "articles": [
-        {
-          "title": "Trump posts map showing 'Trump Strait' off Iran, and other Mideast developments",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/trump-posts-map-showing-trump-strait-off-iran-136776098",
-          "published_at": "10:34"
-        },
-        {
-          "title": "'Trump Strait': US President shares Hormuz map, relabels key waterway amid Iran tensions",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-iran-war-strait-of-hormuz-oil-donald-trump-latest-news-101790406513908.html",
-          "published_at": "08:17"
-        }
-      ]
-    },
-    {
-      "id": "world-231",
-      "title": "Bangkok declared disaster zone as torrential rain floods city, leaves vehicles, shops submerged: Video",
-      "title_en": "Bangkok declared disaster zone as torrential rain floods city, leaves vehicles, shops submerged: Video",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/bangkok-floods-disaster-zone-declared-after-torrential-rain-vehicles-shops-flights-hit-thailand-photos-video-101790415110260.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "The rain began on Thursday afternoon and continued through Saturday, disrupting traffic and forcing hundreds of people to evacuate.",
-      "excerpt_en": "The rain began on Thursday afternoon and continued through Saturday, disrupting traffic and forcing hundreds of people to evacuate.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/bangkok-floods-disaster-zone-declared-after-torrential-rain-vehicles-shops-flights-hit-thailand-photos-video-101790415110260.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-26T09:42:20+09:00",
-      "latest_published_at": "2026-09-26T10:35:08+09:00",
-      "articles": [
-        {
-          "title": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/heavy-rain-flooding-bangkok-disrupts-traffic-prompts-evacuations-136775006",
-          "published_at": "10:35"
-        },
-        {
-          "title": "Bangkok declared disaster zone as torrential rain floods city, leaves vehicles, shops submerged: Video",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/bangkok-floods-disaster-zone-declared-after-torrential-rain-vehicles-shops-flights-hit-thailand-photos-video-101790415110260.html",
-          "published_at": "09:42"
-        }
-      ]
-    },
-    {
-      "id": "world-232",
-      "title": "A month after Nepal flash flood tragedy, thousands still missing; families face a long recovery",
-      "title_en": "A month after Nepal flash flood tragedy, thousands still missing; families face a long recovery",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/a-month-after-nepal-flash-flood-tragedy-thousands-still-missing-families-face-a-long-recovery-101790399971598.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "The disaster has left the government facing a long and costly recovery, with families confronting the loss of loved ones, homes and livelihoods.",
-      "excerpt_en": "The disaster has left the government facing a long and costly recovery, with families confronting the loss of loved ones, homes and livelihoods.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/a-month-after-nepal-flash-flood-tragedy-thousands-still-missing-families-face-a-long-recovery-101790399971598.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-09-26T06:23:57+09:00",
-      "latest_published_at": "2026-09-26T07:28:28+09:00",
-      "articles": [
-        {
-          "title": "A month after Nepal floods, thousands still missing and families face a long recovery",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/month-after-nepal-floods-thousands-missing-families-face-136775003",
-          "published_at": "07:28"
-        },
-        {
-          "title": "A month after Nepal flash flood tragedy, thousands still missing; families face a long recovery",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/a-month-after-nepal-flash-flood-tragedy-thousands-still-missing-families-face-a-long-recovery-101790399971598.html",
-          "published_at": "06:23"
-        }
-      ]
-    },
-    {
-      "id": "world-235",
-      "title": "Pope Leo visits France, Notre-Dame Cathedral",
-      "title_en": "Pope Leo visits France, Notre-Dame Cathedral",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/pope-leo-visits-france-notre-dame-cathedral/",
-      "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "LIMA - A giant clay sculpture of Pope Leo XIV's head takes shape in a workshop in Peru's capital, as the Andean nation prepares for the pontiff's visit in November.",
-      "excerpt_en": "LIMA - A giant clay sculpture of Pope Leo XIV's head takes shape in a workshop in Peru's capital, as the Andean nation prepares for the pontiff's visit in November.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3326638/giant-statue-of-pope-leo-xiv-takes-shape-in-peru-workshop",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "CBS News"
-      ],
-      "first_published_at": "2026-09-26T14:24:02+09:00",
-      "latest_published_at": "2026-09-26T14:45:00+09:00",
-      "articles": [
-        {
-          "title": "Giant statue of Pope Leo XIV takes shape in Peru workshop",
+          "title": "Venezuela releases more political prisoners after opposition talks",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3326638/giant-statue-of-pope-leo-xiv-takes-shape-in-peru-workshop",
-          "published_at": "14:45"
-        },
-        {
-          "title": "Pope Leo visits France, Notre-Dame Cathedral",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/pope-leo-visits-france-notre-dame-cathedral/",
-          "published_at": "14:24"
+          "url": "https://www.bangkokpost.com/world/3326949/venezuela-releases-more-political-prisoners-after-opposition-talks",
+          "published_at": "00:12"
         }
       ]
     },
     {
-      "id": "world-271",
-      "title": "Caleb Flynn family: All about father, mother, two kids and their ages amid Ashley Flynn murder trial",
-      "title_en": "Caleb Flynn family: All about father, mother, two kids and their ages amid Ashley Flynn murder trial",
+      "id": "world-222",
+      "title": "Jaishankar UNGA address highlights: ‘Friendship and goodwill cannot coexist with terrorism’, says EAM in UN speech",
+      "title_en": "Jaishankar UNGA address highlights: ‘Friendship and goodwill cannot coexist with terrorism’, says EAM in UN speech",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/caleb-flynn-family-all-about-father-mother-two-kids-and-their-ages-amid-ashley-flynn-murder-trial-alleigha-botner-101790387210756.html",
+      "title_url": "https://www.hindustantimes.com/world-news/un-general-assembly-2026-live-updates-jaishankar-speech-unga-india-pakistan-uae-saudi-arabia-china-canada-oman-address-101790413086800.html",
       "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "Caleb Flynn, the former American Idol performer, is on trial for the alleged murder of his wife Ashley Flynn, putting focus on the family of the accused.",
-      "excerpt_en": "Caleb Flynn, the former American Idol performer, is on trial for the alleged murder of his wife Ashley Flynn, putting focus on the family of the accused.",
+      "excerpt": "Jaishankar UNGA address: External affairs minister S Jaishankar on Saturday addressed the 81st session of the United Nations General Assembly (UNGA).",
+      "excerpt_en": "Jaishankar UNGA address: External affairs minister S Jaishankar on Saturday addressed the 81st session of the United Nations General Assembly (UNGA).",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/caleb-flynn-family-all-about-father-mother-two-kids-and-their-ages-amid-ashley-flynn-murder-trial-alleigha-botner-101790387210756.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/un-general-assembly-2026-live-updates-jaishankar-speech-unga-india-pakistan-uae-saudi-arabia-china-canada-oman-address-101790413086800.html",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 4,
-        "major_score": 5,
-        "breaking_score": 7,
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
         "time_score": 2,
         "raw75": 40
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
+        "CBC",
         "Hindustan Times"
       ],
-      "first_published_at": "2026-09-26T02:18:49+09:00",
-      "latest_published_at": "2026-09-26T14:47:57+09:00",
+      "first_published_at": "2026-09-26T10:47:51+09:00",
+      "latest_published_at": "2026-09-26T22:48:15+09:00",
       "articles": [
         {
-          "title": "Caleb Flynn and Alleigha Botner affair timeline: Stunning details revealed about matching tattoos",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/caleb-flynn-and-alleigha-botner-affair-timeline-stunning-details-revealed-about-matching-tattoos-101790432706587.html",
-          "published_at": "14:47"
+          "title": "In UN address, Anand takes jab at 'great powers' disrupting global order",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/anand-un-assembly-9.7359897?cmp=rss",
+          "published_at": "22:48"
         },
         {
-          "title": "Did Caleb Flynn's mistress visit his wife Ashley Flynn’s parents after murder? All we know about Todd and Jill Smith",
+          "title": "Jaishankar UNGA address highlights: ‘Friendship and goodwill cannot coexist with terrorism’, says EAM in UN speech",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/did-caleb-flynn-mistress-visit-his-wife-ashley-flynn-parents-after-murder-all-we-know-about-todd-and-jill-smith-101790425133056.html",
-          "published_at": "12:35"
-        },
-        {
-          "title": "Caleb Flynn daughters asked heartbreaking question when they learned about affair after mom's death: ‘Why did Daddy…’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/caleb-flynn-trial-american-idol-alum-daughters-asked-heartbreaking-question-when-they-learned-about-dads-affair-101790421260751.html",
-          "published_at": "11:40"
-        },
-        {
-          "title": "Caleb Flynn family: All about father, mother, two kids and their ages amid Ashley Flynn murder trial",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/caleb-flynn-family-all-about-father-mother-two-kids-and-their-ages-amid-ashley-flynn-murder-trial-alleigha-botner-101790387210756.html",
-          "published_at": "02:18"
+          "url": "https://www.hindustantimes.com/world-news/un-general-assembly-2026-live-updates-jaishankar-speech-unga-india-pakistan-uae-saudi-arabia-china-canada-oman-address-101790413086800.html",
+          "published_at": "10:47"
         }
       ]
     },
     {
-      "id": "world-29",
-      "title": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
-      "title_en": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
+      "id": "world-80",
+      "title": "Shooting leaves 4 dead in Caribbean luxury tourism destination",
+      "title_en": "Shooting leaves 4 dead in Caribbean luxury tourism destination",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmxPT01ncFNMX1E2V2FuRWpFUk0tXzR6WWJVYUl6TlRHM3QxYndiMTAyWlN0bV9qRlJMdmxiem9OQzJUZHBlMnJuZzBTUjFxbVZpN1QtOThvRTZTMEZrRHJSNG4zbnNJRU9lVWdpQmdveV84NHo1R1R0WHJSRmhUdWdYWVJka2t4RWtSVld5TDV2SVpScE80UnJXdkdsOFQ2dlFxeHJMdEFvODlHdnVPVGMyMnhVWWl3cHZWRDN6Yw?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "Xi told Trump in Washington on Thursday that he hoped the US would adhere to the \"correct position\" of opposing Taiwan independence.",
-      "excerpt_en": "Xi told Trump in Washington on Thursday that he hoped the US would adhere to the \"correct position\" of opposing Taiwan independence.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-summit-101790390462457.html",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-09-26T02:08:00+09:00",
-      "latest_published_at": "2026-09-26T02:55:37+09:00",
-      "articles": [
-        {
-          "title": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/arming-taiwan-an-important-us-interest-taipei-official-says-after-trump-xi-summit-101790390462457.html",
-          "published_at": "02:55"
-        },
-        {
-          "title": "Arming Taiwan an important US interest, Taipei official says after Trump-Xi summit",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmxPT01ncFNMX1E2V2FuRWpFUk0tXzR6WWJVYUl6TlRHM3QxYndiMTAyWlN0bV9qRlJMdmxiem9OQzJUZHBlMnJuZzBTUjFxbVZpN1QtOThvRTZTMEZrRHJSNG4zbnNJRU9lVWdpQmdveV84NHo1R1R0WHJSRmhUdWdYWVJka2t4RWtSVld5TDV2SVpScE80UnJXdkdsOFQ2dlFxeHJMdEFvODlHdnVPVGMyMnhVWWl3cHZWRDN6Yw?oc=5",
-          "published_at": "02:08"
-        }
-      ]
-    },
-    {
-      "id": "world-102",
-      "title": "TikTok settles lawsuit with Alabama for at least US$100m, to apply safety steps",
-      "title_en": "TikTok settles lawsuit with Alabama for at least US$100m, to apply safety steps",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/us/economy-trade-business/article/3368877/tiktok-settles-lawsuit-alabama-least-us100m-apply-safety-steps?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Alabama said on Friday it had reached a settlement with TikTok and its Chinese parent company, ByteDance, that required the social media platform to impose new usage limits and enhanced age-verificati",
-      "excerpt_en": "Alabama said on Friday it had reached a settlement with TikTok and its Chinese parent company, ByteDance, that required the social media platform to impose new usage limits and enhanced age-verificati",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/us/economy-trade-business/article/3368877/tiktok-settles-lawsuit-alabama-least-us100m-apply-safety-steps?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "SCMP"
-      ],
-      "first_published_at": "2026-09-26T01:38:08+09:00",
-      "latest_published_at": "2026-09-26T03:09:00+09:00",
-      "articles": [
-        {
-          "title": "TikTok agrees to settle with Alabama state over teen safety",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/tiktok-agrees-to-settle-with-alabama-state-over-teen-safety/a-79440240?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "03:09"
-        },
-        {
-          "title": "TikTok settles lawsuit with Alabama for at least US$100m, to apply safety steps",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/us/economy-trade-business/article/3368877/tiktok-settles-lawsuit-alabama-least-us100m-apply-safety-steps?utm_source=rss_feed",
-          "published_at": "01:38"
-        }
-      ]
-    },
-    {
-      "id": "world-262",
-      "title": "'I am King Tutankhamun': Pittsburgh doctor murder suspect Elijah Hemingway told police he was not a 'physical being' during bizarre Florida incident in past",
-      "title_en": "'I am King Tutankhamun': Pittsburgh doctor murder suspect Elijah Hemingway told police he was not a 'physical being' during bizarre Florida incident in past",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/i-am-king-tutankhamun-pittsburgh-doctor-murder-suspect-elijah-hemingway-told-police-he-was-not-a-physical-being-during-bizarre-florida-incident-in-past/articleshow/134505860.cms",
+      "title_url": "https://abcnews.com/International/wireStory/shooting-leaves-4-dead-caribbean-nation-luxury-tourism-136787812",
       "category": "기타",
-      "primary_source": "Times of India",
-      "excerpt": "Elijah Hemingway, accused of fatally stabbing Dr. Idris Evans during a home invasion, previously claimed to be King Tut.",
-      "excerpt_en": "Elijah Hemingway, accused of fatally stabbing Dr. Idris Evans during a home invasion, previously claimed to be King Tut.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/i-am-king-tutankhamun-pittsburgh-doctor-idris-evans-murder-suspects-bizarre-declaration-to-cops-101790434889431.html",
+      "primary_source": "ABC News",
+      "excerpt": "Four people were killed and four wounded near the capital of Kingstown on the islands, known as a tourism destination.",
+      "excerpt_en": "Four people were killed and four wounded near the capital of Kingstown on the islands, known as a tourism destination.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/9/26/deadly-shooting-hits-caribbean-islands-of-saint-vincent-and-the-grenadines?traffic_source=rss",
       "translation_status": "failed",
       "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 9,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 38
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Al Jazeera"
+      ],
+      "first_published_at": "2026-09-26T21:43:25+09:00",
+      "latest_published_at": "2026-09-26T22:38:01+09:00",
+      "articles": [
+        {
+          "title": "Deadly shooting hits Caribbean islands of Saint Vincent and the Grenadines",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/deadly-shooting-hits-caribbean-islands-of-saint-vincent-and-the-grenadines?traffic_source=rss",
+          "published_at": "22:38"
+        },
+        {
+          "title": "Shooting leaves 4 dead in Caribbean luxury tourism destination",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/shooting-leaves-4-dead-caribbean-nation-luxury-tourism-136787812",
+          "published_at": "21:43"
+        }
+      ]
+    },
+    {
+      "id": "world-188",
+      "title": "Who is Juan Valenzuela-Silva? Wichita, Kansas, shooting suspect identified as search continues",
+      "title_en": "Who is Juan Valenzuela-Silva? Wichita, Kansas, shooting suspect identified as search continues",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-juan-valenzuela-silva-wichita-kansas-shooting-suspect-identified-as-search-continues-101790446883432.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Wichita police are searching for armed suspect Juan Valenzuela-Silva after a shooting left three people dead on September 26.",
+      "excerpt_en": "Wichita police are searching for armed suspect Juan Valenzuela-Silva after a shooting left three people dead on September 26.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-is-juan-valenzuela-silva-wichita-kansas-shooting-suspect-identified-as-search-continues-101790446883432.html",
+      "translation_status": "failed",
+      "score": 51,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
         "time_score": 2,
         "raw75": 38
       },
@@ -2260,22 +2040,22 @@
       "source_count": 2,
       "sources": [
         "Hindustan Times",
-        "Times of India"
+        "The Independent"
       ],
-      "first_published_at": "2026-09-26T14:01:21+09:00",
-      "latest_published_at": "2026-09-26T15:34:40+09:00",
+      "first_published_at": "2026-09-26T18:32:13+09:00",
+      "latest_published_at": "2026-09-26T21:19:52+09:00",
       "articles": [
         {
-          "title": "'I am King Tutankhamun': Pittsburgh doctor Idris Evans murder suspect's bizarre declaration to cops",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/i-am-king-tutankhamun-pittsburgh-doctor-idris-evans-murder-suspects-bizarre-declaration-to-cops-101790434889431.html",
-          "published_at": "15:34"
+          "title": "Armed suspect bites off piece of police dog’s ear during arrest in California",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/california-suspect-bites-dog-ear-arrest-b3056981.html",
+          "published_at": "21:19"
         },
         {
-          "title": "'I am King Tutankhamun': Pittsburgh doctor murder suspect Elijah Hemingway told police he was not a 'physical being' during bizarre Florida incident in past",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/i-am-king-tutankhamun-pittsburgh-doctor-murder-suspect-elijah-hemingway-told-police-he-was-not-a-physical-being-during-bizarre-florida-incident-in-past/articleshow/134505860.cms",
-          "published_at": "14:01"
+          "title": "Who is Juan Valenzuela-Silva? Wichita, Kansas, shooting suspect identified as search continues",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-juan-valenzuela-silva-wichita-kansas-shooting-suspect-identified-as-search-continues-101790446883432.html",
+          "published_at": "18:32"
         }
       ]
     }
