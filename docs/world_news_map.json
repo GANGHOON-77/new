@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,23 +8,23 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-10-03T08:07:00.211396+09:00",
+  "updated_at": "2026-10-03T16:48:09.354473+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 595,
-  "cluster_count_total": 463,
+  "article_count_total": 454,
+  "cluster_count_total": 353,
   "clusters": [
     {
-      "id": "world-147",
-      "title": "Cornell University gang rape allegations: case sparks debate among US students",
-      "title_en": "Cornell University gang rape allegations: case sparks debate among US students",
+      "id": "world-56",
+      "title": "DA is removed from alleged Cornell gang rape case as NY governor says he ‘undercut the public’s faith’",
+      "title_en": "DA is removed from alleged Cornell gang rape case as NY governor says he ‘undercut the public’s faith’",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/10/02/cornell-university-gang-rape-allegations-case-sparks-debate-among-us-students",
+      "title_url": "https://www.independent.co.uk/news/world/americas/cornell-rape-investigation-governor-letitia-james-b3060156.html",
       "category": "미국",
-      "primary_source": "Euronews",
+      "primary_source": "The Independent",
       "excerpt": "New York Governor Kathy Hochul on Friday faulted police and prosecutors for failing to fully investigate an alleged gang rape in 2024 at Cornell University, saying she was “deeply disturbed” by how th",
       "excerpt_en": "New York Governor Kathy Hochul on Friday faulted police and prosecutors for failing to fully investigate an alleged gang rape in 2024 at Cornell University, saying she was “deeply disturbed” by how th",
       "excerpt_source": "SCMP",
@@ -39,21 +39,28 @@
         "time_score": 3,
         "raw75": 70
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 8,
+      "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 6,
+      "source_count": 7,
       "sources": [
-        "ABC News Australia",
-        "Channel News Asia",
+        "Bangkok Post",
+        "CBC",
         "DW",
-        "Euronews",
+        "Hindustan Times",
         "SCMP",
-        "The Independent"
+        "The Independent",
+        "Times of India"
       ],
-      "first_published_at": "2026-10-02T10:01:05+09:00",
-      "latest_published_at": "2026-10-02T22:45:15+09:00",
+      "first_published_at": "2026-10-02T12:01:19+09:00",
+      "latest_published_at": "2026-10-03T06:31:04+09:00",
       "articles": [
+        {
+          "title": "Cornell rape victim ‘failed’ by people bound to protect her: New York governor",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/cornell-rape-victim-failed-by-people-bound-to-protect-her-new-york-governor/articleshow/134653620.cms",
+          "published_at": "06:31"
+        },
         {
           "title": "University of Oregon receives 5 sexual assault reports in first week of classes amid Cornell ‘gang rape’ fallout",
           "source_name": "The Independent",
@@ -61,10 +68,10 @@
           "published_at": "22:45"
         },
         {
-          "title": "NY governor slams handling of Cornell 'gang-rape' case",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-03/ny-governor-slams-handling-of-cornell-gang-rape-allegation/107224330",
-          "published_at": "20:12"
+          "title": "Cornell rape case exposes sexual violence at US colleges",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3330684/cornell-rape-case-exposes-sexual-violence-at-us-colleges",
+          "published_at": "21:45"
         },
         {
           "title": "New York governor condemns handling of Cornell rape case",
@@ -73,75 +80,98 @@
           "published_at": "19:09"
         },
         {
-          "title": "New York governor vows to close loophole after alleged Cornell gang rape",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-cases-hochul-6428071",
-          "published_at": "19:07"
-        },
-        {
           "title": "New York governor attacks handling of Cornell gang rape case, appoints special prosecutor",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3369632/new-york-governor-attacks-handling-cornell-gang-rape-case-appoints-special-prosecutor?utm_source=rss_feed",
           "published_at": "17:10"
         },
         {
+          "title": "Cornell rape case: NY governor hands probe to special prosecutor, removes DA Houten, ‘It has undercut my faith’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/cornell-rape-case-new-york-governor-hands-probe-to-special-prosecutor-removes-da-houten-101790948264114.html",
+          "published_at": "14:04"
+        },
+        {
+          "title": "Cornell 7: Governor vows to change N.Y. rape law that makes reporting hard when intoxication present",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/cornell-investigation-special-prosecutor-9.7366592?cmp=rss",
+          "published_at": "12:20"
+        },
+        {
           "title": "DA is removed from alleged Cornell gang rape case as NY governor says he ‘undercut the public’s faith’",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/cornell-rape-investigation-governor-letitia-james-b3060156.html",
           "published_at": "12:01"
-        },
-        {
-          "title": "Cornell University gang rape allegations: case sparks debate among US students",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/cornell-university-gang-rape-allegations-case-sparks-debate-among-us-students",
-          "published_at": "10:01"
         }
       ]
     },
     {
-      "id": "world-92",
-      "title": "'I was fighting for my life': FlyDubai captain recalls cockpit attack",
-      "title_en": "'I was fighting for my life': FlyDubai captain recalls cockpit attack",
+      "id": "world-122",
+      "title": "‘I was fighting for my life’: Pilot hailed as hero recalls FlyDubai cockpit attack",
+      "title_en": "‘I was fighting for my life’: Pilot hailed as hero recalls FlyDubai cockpit attack",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/10/02/i-was-fighting-for-my-life-flydubai-captain-recalls-cockpit-attack",
+      "title_url": "https://abcnews.com/International/wireStory/fighting-life-indian-pilot-hailed-hero-recalls-flydubai-136942539",
       "category": "중동",
-      "primary_source": "Euronews",
-      "excerpt": "Smit Machchhar says in video call with Indian PM that he realised if he did not get up ‘passengers would lose their lives’ The Indian pilot who helped thwart an apparent attempt to crash a flydubai fl",
-      "excerpt_en": "Smit Machchhar says in video call with Indian PM that he realised if he did not get up ‘passengers would lose their lives’ The Indian pilot who helped thwart an apparent attempt to crash a flydubai fl",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
+      "primary_source": "ABC News",
+      "excerpt": "The Indian airline captain who helped thwart an apparent attempt to crash a Flydubai flight described on Friday how he fought for his life in the minutes after his co-pilot stabbed him and the plane b",
+      "excerpt_en": "The Indian airline captain who helped thwart an apparent attempt to crash a Flydubai flight described on Friday how he fought for his life in the minutes after his co-pilot stabbed him and the plane b",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3369612/indian-pilot-hailed-hero-recalls-flydubai-cockpit-attack?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 92,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
+        "time_score": 3,
+        "raw75": 70
       },
       "area_value": 8,
       "article_count": 8,
       "syndicated_count": 0,
-      "source_count": 8,
+      "source_count": 7,
       "sources": [
         "ABC News",
-        "AP News",
-        "CBC",
-        "Euronews",
+        "CBS News",
         "Fox News",
+        "Hindustan Times",
+        "New York Times",
         "SCMP",
-        "Sydney Morning Herald",
-        "The Guardian"
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-10-02T07:50:29+09:00",
-      "latest_published_at": "2026-10-02T13:52:45+09:00",
+      "first_published_at": "2026-10-02T10:58:13+09:00",
+      "latest_published_at": "2026-10-03T06:29:00+09:00",
       "articles": [
+        {
+          "title": "How a 6-year-old's washroom trip with mom helped raise alarm on flydubai flight",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/how-a-6-year-old-washroom-trip-with-mom-helped-raise-alarm-on-flydubai-flight-smit-machchhar-101790999023206.html",
+          "published_at": "06:29"
+        },
+        {
+          "title": "‘I can't let anyone die’, flydubai pilot tells India PM Modi",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/i-cant-let-anyone-die-flydubai-pilot-tells-india-pm-modi-20261003-p612jg.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "23:52"
+        },
         {
           "title": "Hero FlyDubai pilot says he was 'fighting for my life' as plane plunged after copilot attack",
           "source_name": "Fox News",
           "url": "https://www.foxnews.com/world/hero-flydubai-pilot-fighting-life-plane-plunged-copilot-attack",
           "published_at": "13:52"
+        },
+        {
+          "title": "FlyDubai captain shares how \"one last push\" kept the plane in the air after he was stabbed",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/flydubai-captain-shares-how-one-last-push-kept-the-plane-in-the-air-after-he-was-stabbed/",
+          "published_at": "13:37"
+        },
+        {
+          "title": "Indian Pilot Stabbed on FlyDubai Flight Recalls Sudden Attack",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
+          "published_at": "12:16"
         },
         {
           "title": "Indian pilot hailed as hero recalls Flydubai cockpit attack",
@@ -150,55 +180,31 @@
           "published_at": "12:14"
         },
         {
+          "title": "What is the ‘10-7-3’ theory around flydubai hijack scare? Social media links it to October 7 Hamas attack",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/what-is-the-10-7-3-theory-around-flydubai-hijack-scare-social-media-links-it-to-october-7-hamas-attack-101790936462425.html",
+          "published_at": "11:19"
+        },
+        {
           "title": "‘I was fighting for my life’: Pilot hailed as hero recalls FlyDubai cockpit attack",
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/fighting-life-indian-pilot-hailed-hero-recalls-flydubai-136942539",
           "published_at": "10:58"
-        },
-        {
-          "title": "‘I was fighting for my life’: Indian pilot hailed as hero recalls FlyDubai cockpit attack",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbFdrbWVhOWp4REk0N1VXUm5LRWxRQ3NLUG9pMFhXd0h0aVg0UlQ5SGVQeTVPY0FDUFNYQ1dnTTA2X2pjYjAtR2ZtMUx0aXY3NFJDdlkwb1RsazNSSFpYbU40THcyT0tqMXNEYlhlOWFrMnNtUGE0ak5uY21sd1ZSRXRqdjNrVFBSVHB4V0c3c013bmZIOVhEUThQSmVaNTljUWRBdXk4VEliSkk?oc=5",
-          "published_at": "10:19"
-        },
-        {
-          "title": "'I was fighting for my life': Indian pilot hailed as hero recalls FlyDubai cockpit attack",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/flydubai-pilot-interview-hospital-9.7366522?cmp=rss",
-          "published_at": "09:36"
-        },
-        {
-          "title": "‘I was fighting for my life’: Indian pilot hailed as hero recalls flydubai cockpit attack",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/02/indian-pilot-smit-machchhar-recalls-flydubai-cockpit-attack",
-          "published_at": "08:39"
-        },
-        {
-          "title": "‘I was fighting for my life’: Indian pilot hailed as hero recalls flydubai cockpit attack",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/middle-east/i-was-fighting-for-my-life-indian-pilot-hailed-as-hero-recalls-flydubai-cockpit-attack-20261002-p612hh.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:31"
-        },
-        {
-          "title": "'I was fighting for my life': FlyDubai captain recalls cockpit attack",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/i-was-fighting-for-my-life-flydubai-captain-recalls-cockpit-attack",
-          "published_at": "07:50"
         }
       ]
     },
     {
-      "id": "world-0",
-      "title": "Christa Pike in critical condition after Tennessee botched execution, lawyer says",
-      "title_en": "Christa Pike in critical condition after Tennessee botched execution, lawyer says",
+      "id": "world-35",
+      "title": "North Korea fires ballistic missile into sea, Seoul says",
+      "title_en": "North Korea fires ballistic missile into sea, Seoul says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/10/02/christa-pike-in-critical-condition-after-tennessee-botched-execution-lawyer-says",
-      "category": "기타",
-      "primary_source": "Euronews",
-      "excerpt": "Christa Pike, convicted of killing a classmate in 1995 when she was 18, is receiving breathing assistance from a ventilator after Tennessee's attempt to execute her by lethal injection failed earlier ",
-      "excerpt_en": "Christa Pike, convicted of killing a classmate in 1995 when she was 18, is receiving breathing assistance from a ventilator after Tennessee's attempt to execute her by lethal injection failed earlier ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/christa-pike-ventilator-tennessee-execution-9.7367500?cmp=rss",
+      "title_url": "https://www.dw.com/en/north-korea-fires-ballistic-missile-into-sea-seoul-says/a-79526243?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "아시아",
+      "primary_source": "DW",
+      "excerpt": "Pyongyang fires towards sea a day after Kim Jong-un sister denounces South Korea for claiming North’s mines wounded South’s soldiers in DMZ North Korea fired a ballistic missile towards the sea on Sat",
+      "excerpt_en": "Pyongyang fires towards sea a day after Kim Jong-un sister denounces South Korea for claiming North’s mines wounded South’s soldiers in DMZ North Korea fired a ballistic missile towards the sea on Sat",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/03/north-korea-launches-ballistic-missile-after-seoul-demands-apology-over-wounded-soldiers",
       "translation_status": "failed",
       "score": 89,
       "score_breakdown": {
@@ -209,34 +215,613 @@
         "time_score": 3,
         "raw75": 67
       },
-      "area_value": 9,
-      "article_count": 9,
+      "area_value": 7,
+      "article_count": 7,
       "syndicated_count": 0,
-      "source_count": 8,
+      "source_count": 7,
       "sources": [
-        "AP News",
-        "CBC",
+        "ABC News",
+        "Al Jazeera",
+        "Bangkok Post",
+        "Channel News Asia",
+        "DW",
+        "France24",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-02T22:06:00+09:00",
+      "latest_published_at": "2026-10-03T05:31:08+09:00",
+      "articles": [
+        {
+          "title": "North Korea launches ballistic missile after Seoul demands apology over wounded soldiers",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/03/north-korea-launches-ballistic-missile-after-seoul-demands-apology-over-wounded-soldiers",
+          "published_at": "05:31"
+        },
+        {
+          "title": "North Korea fires missile after Seoul’s apology demand",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3330710/north-korea-fires-missile-after-seouls-apology-demand",
+          "published_at": "04:07"
+        },
+        {
+          "title": "North Korea launches ballistic missile as tensions with Seoul grow over border mine blasts",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261003-north-korea-fires-ballistic-missile-after-seoul-s-apology-demand",
+          "published_at": "02:40"
+        },
+        {
+          "title": "North Korea fires ballistic missile toward sea, say South Korea and Japan",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/north-korea-south-korea-japan-missile-6428521",
+          "published_at": "01:11"
+        },
+        {
+          "title": "South Korea’s military says North Korea fired projectile toward its eastern waters",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/south-koreas-military-north-korea-fired-projectile-eastern-136962514",
+          "published_at": "01:06"
+        },
+        {
+          "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss",
+          "published_at": "23:55"
+        },
+        {
+          "title": "North Korea fires ballistic missile into sea, Seoul says",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/north-korea-fires-ballistic-missile-into-sea-seoul-says/a-79526243?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "22:06"
+        }
+      ]
+    },
+    {
+      "id": "world-102",
+      "title": "FlyDubai co-pilot accused of cockpit attack was grounded by Oman Air before joining airline: report",
+      "title_en": "FlyDubai co-pilot accused of cockpit attack was grounded by Oman Air before joining airline: report",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.foxnews.com/world/flydubai-copilot-accused-cockpit-attack-grounded-oman-air-joining-airline-report",
+      "category": "중동",
+      "primary_source": "Fox News",
+      "excerpt": "Attorney general says ‘terrorist attack’ was attempted by suspect who is said to have been barred from flying by Oman because of extremist views The co-pilot of flydubai flight FZ1073 used a crash axe",
+      "excerpt_en": "Attorney general says ‘terrorist attack’ was attempted by suspect who is said to have been barred from flying by Oman because of extremist views The co-pilot of flydubai flight FZ1073 used a crash axe",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+      "translation_status": "failed",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBS News",
+        "Fox News",
+        "SCMP",
+        "Sky News",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-02T21:20:15+09:00",
+      "latest_published_at": "2026-10-03T07:01:17+09:00",
+      "articles": [
+        {
+          "title": "Flydubai co-pilot used crash axe to attack captain, says UAE",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+          "published_at": "07:01"
+        },
+        {
+          "title": "Flydubai co-pilot 'attacked pilot with axe in suspected terrorist attack', UAE says",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/flydubai-co-pilot-attacked-pilot-with-axe-in-suspected-terrorist-attack-uae-says-13594565",
+          "published_at": "06:07"
+        },
+        {
+          "title": "Flydubai plane attack: co-pilot previously barred from flying by Oman over extremist views",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3369644/flydubai-plane-attack-co-pilot-previously-barred-flying-oman-over-extremist-views?utm_source=rss_feed",
+          "published_at": "04:53"
+        },
+        {
+          "title": "More details emerge about FlyDubai co-pilot who tried to crash plane",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/flydubai-plane-attempted-crash-hijacking-israel-dubai-what-to-know/",
+          "published_at": "01:51"
+        },
+        {
+          "title": "FlyDubai co-pilot accused of cockpit attack was grounded by Oman Air before joining airline: report",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/flydubai-copilot-accused-cockpit-attack-grounded-oman-air-joining-airline-report",
+          "published_at": "21:20"
+        }
+      ]
+    },
+    {
+      "id": "world-131",
+      "title": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community in England",
+      "title_en": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community in England",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nbcnews.com/world/united-kingdom/two-iranian-nationals-charged-alleged-terrorism-plot-targeting-jewish-rcna601207",
+      "category": "중동",
+      "primary_source": "NBC News",
+      "excerpt": "In a grave development, two Iranian nationals, Rahman Salehi and Salam Ahmadyan, face charges in the UK over an alleged terror conspiracy targeting Manchester's Jewish community during Yom Kippur. The",
+      "excerpt_en": "In a grave development, two Iranian nationals, Rahman Salehi and Salam Ahmadyan, face charges in the UK over an alleged terror conspiracy targeting Manchester's Jewish community during Yom Kippur. The",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/uk/two-iranians-in-uk-charged-over-terror-plot-targeting-manchesters-jewish-community/articleshow/134654011.cms",
+      "translation_status": "failed",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "CBS News",
+        "NBC News",
+        "New York Times",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-02T19:59:22+09:00",
+      "latest_published_at": "2026-10-03T07:04:43+09:00",
+      "articles": [
+        {
+          "title": "Two Iranians in UK charged over terror plot targeting Manchester’s Jewish community",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/uk/two-iranians-in-uk-charged-over-terror-plot-targeting-manchesters-jewish-community/articleshow/134654011.cms",
+          "published_at": "07:04"
+        },
+        {
+          "title": "U.K. police accuse 2 Iranian men of planning terror attack on Jewish community",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/2-iranians-charged-planning-terror-attack-manchester-jewish-community-uk/",
+          "published_at": "02:04"
+        },
+        {
+          "title": "2 Iranian Men Charged in U.K. Over Suspected Plot to Target Jews",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/02/world/europe/uk-manchester-terror-plot-iranians-jews.html",
+          "published_at": "21:54"
+        },
+        {
+          "title": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community in England",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/united-kingdom/two-iranian-nationals-charged-alleged-terrorism-plot-targeting-jewish-rcna601207",
+          "published_at": "19:59"
+        }
+      ]
+    },
+    {
+      "id": "world-15",
+      "title": "‘It’s him, dude’: New bodycam footage shows moments before Luigi Mangione was arrested",
+      "title_en": "‘It’s him, dude’: New bodycam footage shows moments before Luigi Mangione was arrested",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/its-him-dude-new-bodycam-footage-shows-moments-before-luigi-mangione-was-arrested-101790952985082.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The footage captures the moment an officer found a firearm inside the bag, which prosecutors have identified as the weapon used in Thompson’s killing.",
+      "excerpt_en": "The footage captures the moment an officer found a firearm inside the bag, which prosecutors have identified as the weapon used in Thompson’s killing.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/its-him-dude-new-bodycam-footage-shows-moments-before-luigi-mangione-was-arrested-101790952985082.html",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC",
+        "CBS News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-02T15:35:56+09:00",
+      "latest_published_at": "2026-10-02T22:30:00+09:00",
+      "articles": [
+        {
+          "title": "10/2: CBS Evening News",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/100226-cbs-evening-news/",
+          "published_at": "22:30"
+        },
+        {
+          "title": "Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald’s",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/police-bodycam-shows-luigi-mangione-arrest-at-pennsylvania?traffic_source=rss",
+          "published_at": "21:59"
+        },
+        {
+          "title": "Newly released video shows Luigi Mangione’s arrest",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/cmewelkydwwyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "20:37"
+        },
+        {
+          "title": "‘It’s him, dude’: New bodycam footage shows moments before Luigi Mangione was arrested",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/its-him-dude-new-bodycam-footage-shows-moments-before-luigi-mangione-was-arrested-101790952985082.html",
+          "published_at": "15:35"
+        }
+      ]
+    },
+    {
+      "id": "world-26",
+      "title": "Car crashes into crowd in Australia, ten injured",
+      "title_en": "Car crashes into crowd in Australia, ten injured",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/car-crashes-crowd-sydney-australia-6428581",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "The driver has been identified as an 18-year-old man who is said to have been \"revving\" when he lost control of his car.",
+      "excerpt_en": "The driver has been identified as an 18-year-old man who is said to have been \"revving\" when he lost control of his car.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/australia-car-crashes-into-rugby-fans-10-injured/a-79526643?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia",
+        "DW",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-03T01:51:00+09:00",
+      "latest_published_at": "2026-10-03T04:29:23+09:00",
+      "articles": [
+        {
+          "title": "10 injured after car crashes into rugby supporters in Australia",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/3/10-injured-after-car-crashes-into-rugby-supporters-in-australia?traffic_source=rss",
+          "published_at": "04:29"
+        },
+        {
+          "title": "Australia: Car crashes into rugby fans, 10 injured",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/australia-car-crashes-into-rugby-fans-10-injured/a-79526643?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "04:27"
+        },
+        {
+          "title": "Children among 10 injured as car crashes into rugby fans in Australia",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/australia-car-crash-newcastle-knights-rugby-league-b3060713.html",
+          "published_at": "04:22"
+        },
+        {
+          "title": "10 injured as car rams crowd of rugby fans in Australia, driver likely lost control",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/car-drives-into-large-crowd-cheering-newcastle-knights-rugby-team-in-australia-sydney-dead-injured-toll-101790994781985.html",
+          "published_at": "02:33"
+        },
+        {
+          "title": "Car crashes into crowd in Australia, ten injured",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/car-crashes-crowd-sydney-australia-6428581",
+          "published_at": "01:51"
+        }
+      ]
+    },
+    {
+      "id": "world-189",
+      "title": "Omani co-pilot linked to Flydubai cockpit attack identified",
+      "title_en": "Omani co-pilot linked to Flydubai cockpit attack identified",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/omani-co-pilot-linked-to-flydubai-cockpit-attack-identified-101790983773042.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The co-pilot suspected of stabbing the captain on an Israel-bound FlyDubai flight has been identified as an Omani national named Hamam al-Hammami",
+      "excerpt_en": "The co-pilot suspected of stabbing the captain on an Israel-bound FlyDubai flight has been identified as an Omani national named Hamam al-Hammami",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/pilot-flydubai-incident-identified-omani-national-named-hamam-136967542",
+      "translation_status": "failed",
+      "score": 83,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 62
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-02T23:36:04+09:00",
+      "latest_published_at": "2026-10-03T07:15:12+09:00",
+      "articles": [
+        {
+          "title": "Co-pilot in FlyDubai attack is identified, and other Mideast developments",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/pilot-flydubai-attack-identified-mideast-developments-136968085",
+          "published_at": "07:15"
+        },
+        {
+          "title": "Co-pilot in FlyDubai attack identified as Omani national Hamam al-Hammami – reports",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-flydubai-co-pilot-oman-hamam-al-hammami-b3060726.html",
+          "published_at": "06:57"
+        },
+        {
+          "title": "Co-pilot in FlyDubai incident is identified as Omani national named Hamam al-Hammami",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/pilot-flydubai-incident-identified-omani-national-named-hamam-136967542",
+          "published_at": "06:16"
+        },
+        {
+          "title": "Omani co-pilot linked to Flydubai cockpit attack identified",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/omani-co-pilot-linked-to-flydubai-cockpit-attack-identified-101790983773042.html",
+          "published_at": "23:36"
+        }
+      ]
+    },
+    {
+      "id": "world-121",
+      "title": "Tear gas and fires on French streets as student protests turn violent",
+      "title_en": "Tear gas and fires on French streets as student protests turn violent",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/tear-gas-and-fires-on-french-streets-as-student-protests-turn-violent-13594370",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "Demonstrators across France are clashing with police as protests continue over what some students claims are teacher shortages and poor classroom conditions. NBC News’ Richard Engel reports.",
+      "excerpt_en": "Demonstrators across France are clashing with police as protests continue over what some students claims are teacher shortages and poor classroom conditions. NBC News’ Richard Engel reports.",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/video/student-protests-in-france-take-violent-turn-270950981926",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "NBC News",
+        "New York Times",
+        "Sky News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-02T11:40:00+09:00",
+      "latest_published_at": "2026-10-03T07:00:40+09:00",
+      "articles": [
+        {
+          "title": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/02/world/europe/france-schools-protests-unrest.html",
+          "published_at": "07:00"
+        },
+        {
+          "title": "Student protests in France take violent turn",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/student-protests-in-france-take-violent-turn-270950981926",
+          "published_at": "00:47"
+        },
+        {
+          "title": "What to know as France school protests morph into unrest and the streets are seething",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-emmanuel-macron-paris-government-jeanluc-melenchon-b3060402.html",
+          "published_at": "12:33"
+        },
+        {
+          "title": "Tear gas and fires on French streets as student protests turn violent",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/tear-gas-and-fires-on-french-streets-as-student-protests-turn-violent-13594370",
+          "published_at": "11:40"
+        }
+      ]
+    },
+    {
+      "id": "world-195",
+      "title": "Flydubai co-pilot was banned by Oman over radical views, terrorist images found on social media: Reports",
+      "title_en": "Flydubai co-pilot was banned by Oman over radical views, terrorist images found on social media: Reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/flydubai-co-pilot-was-previously-flagged-as-security-risk-and-banned-from-flying-by-oman-over-radical-views-report-101790976273576.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The Wall Street Journal reports the co-pilot who tried to fly a plane bound for Israel into the ground had been banned from flying by his home country, Oman, over his radical views. Plus, an Israeli o",
+      "excerpt_en": "The Wall Street Journal reports the co-pilot who tried to fly a plane bound for Israel into the ground had been banned from flying by his home country, Oman, over his radical views. Plus, an Israeli o",
+      "excerpt_source": "NBC News",
+      "excerpt_url": "https://www.nbcnews.com/nightly-news/video/co-pilot-attacker-had-been-banned-from-flying-over-his-radical-views-270947909947",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "NBC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-02T21:38:17+09:00",
+      "latest_published_at": "2026-10-03T02:22:51+09:00",
+      "articles": [
+        {
+          "title": "Flying ban in Oman, spent time in Syria, held ‘radical views’: What we know about flydubai co-pilot",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/flying-ban-in-oman-spent-time-in-syria-held-radical-views-what-we-know-about-flydubai-copilot-101790991742652.html",
+          "published_at": "02:22"
+        },
+        {
+          "title": "Co-pilot attacker had been banned from flying over his radical views",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/nightly-news/video/co-pilot-attacker-had-been-banned-from-flying-over-his-radical-views-270947909947",
+          "published_at": "23:29"
+        },
+        {
+          "title": "Israel plane attacker was banned from flying by Oman over suspected radicalisation - report",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-flight-flydubai-hijacking-pilot-oman-b3060684.html",
+          "published_at": "22:20"
+        },
+        {
+          "title": "Flydubai co-pilot was banned by Oman over radical views, terrorist images found on social media: Reports",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/flydubai-co-pilot-was-previously-flagged-as-security-risk-and-banned-from-flying-by-oman-over-radical-views-report-101790976273576.html",
+          "published_at": "21:38"
+        }
+      ]
+    },
+    {
+      "id": "world-53",
+      "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
+      "title_en": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
+      "category": "아시아",
+      "primary_source": "Euronews",
+      "excerpt": "President Luiz Inacio Lula da Silva and rival Flavio Bolsonaro are pulling no punches in a last-ditch effort to win voters ahead of Sunday's election in Brazil, where the US and Australia suspended co",
+      "excerpt_en": "President Luiz Inacio Lula da Silva and rival Flavio Bolsonaro are pulling no punches in a last-ditch effort to win voters ahead of Sunday's election in Brazil, where the US and Australia suspended co",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
         "DW",
         "Euronews",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-02T20:40:14+09:00",
+      "latest_published_at": "2026-10-03T02:24:00+09:00",
+      "articles": [
+        {
+          "title": "US, Australia suspend consular services in Brazil",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/us-australia-suspend-consular-services-in-brazil/a-79526311?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "02:24"
+        },
+        {
+          "title": "US, Australia suspend consular services in Brazil ahead of election",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/us-australia-suspend-consular-services-brazil-ahead-election-136961836",
+          "published_at": "22:26"
+        },
+        {
+          "title": "US and Australia suspend consular services in Brazil ahead of election citing security concerns",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/brazil-police-australia-rio-de-janeiro-donald-trump-b3060676.html",
+          "published_at": "21:16"
+        },
+        {
+          "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
+          "published_at": "20:40"
+        }
+      ]
+    },
+    {
+      "id": "world-54",
+      "title": "Christa Pike health update: Tennessee death row inmate remains unconscious and on ventilator after botched execution attempt",
+      "title_en": "Christa Pike health update: Tennessee death row inmate remains unconscious and on ventilator after botched execution attempt",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/christa-pike-health-update-tennessee-death-row-inmate-remains-unconscious-and-on-ventilator-after-botched-execution-attempt-101790971500189.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Christa Pike, convicted of killing a classmate in 1995 when she was 18, is receiving breathing assistance from a ventilator after Tennessee's attempt to execute her by lethal injection failed earlier ",
+      "excerpt_en": "Christa Pike, convicted of killing a classmate in 1995 when she was 18, is receiving breathing assistance from a ventilator after Tennessee's attempt to execute her by lethal injection failed earlier ",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/christa-pike-ventilator-tennessee-execution-9.7367500?cmp=rss",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "CBC",
+        "DW",
         "Hindustan Times",
-        "Reuters",
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-10-02T07:48:27+09:00",
-      "latest_published_at": "2026-10-02T22:52:00+09:00",
+      "first_published_at": "2026-10-02T20:49:02+09:00",
+      "latest_published_at": "2026-10-03T01:13:45+09:00",
       "articles": [
+        {
+          "title": "Christa Pike ‘on a ventilator and unconscious’ after failed execution",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/christa-pike-on-a-ventilator-and-unconscious-after-failed-execution-20261003-p612ik.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "01:13"
+        },
         {
           "title": "Christa Pike unconscious after failed execution — attorneys",
           "source_name": "DW",
           "url": "https://www.dw.com/en/christa-pike-unconscious-after-failed-execution-attorneys/a-79526118?maca=en-rss-en-all-1573-xml-mrss",
           "published_at": "22:52"
-        },
-        {
-          "title": "Christa Pike on a ventilator and unconscious after failed Tennessee execution, attorneys say",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVGpLQ0VhZXBlWUhoRWNOTUZSVjN1eHhKS0VqYUxGbzBibGtGT3FKNTNDSk84N05WRnNxdVhPTWNuVWZGMXBYeXFMcGRQUmNITlFuVUo3cHhzMkxJR1p0NUJYWnp3ejkyLV9NcV9VZzdhOEJfQzFFeU1lVHdzaWFiVzAzRHFFQ2FEbTlEVVdqX3JOdDdMYTlYOEIxZEoybG9pUHViVGR3YTljWWNtclRr?oc=5",
-          "published_at": "21:50"
         },
         {
           "title": "Christa Pike is on life support after ‘IV issue’ led to failed execution, attorneys say",
@@ -255,39 +840,76 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/christa-pike-health-update-tennessee-death-row-inmate-remains-unconscious-and-on-ventilator-after-botched-execution-attempt-101790971500189.html",
           "published_at": "20:49"
-        },
-        {
-          "title": "Tennessee execution survivor Christa Pike on ventilator, attorneys say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONnFfS0lLc2lUUFMtVFFYcE9waEdOU2lRMXZwWHRpNzVjcXQzRnplTDI0a2h2bW1CRFFGdUJ4VkpmVnRNZGdDVElHd0EzaHVVQW1vNFdxdWdjUWZUTXR6TVdpQkl1V1NVWlUyLVRIQTgwck5VZUUyY1UzMnVvZm1JLTdqWmNDa2lZWFFsWmJUNURRQUp3dDhWYVh1TGVMSlNhZmVhOXdPakJXR1c5cUdWTG9qNlN1dmptdGE4?oc=5",
-          "published_at": "20:00"
-        },
-        {
-          "title": "Christa Pike ‘on a ventilator and unconscious’ after failed execution",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/christa-pike-on-a-ventilator-and-unconscious-after-failed-execution-20261003-p612ik.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "19:20"
-        },
-        {
-          "title": "Christa Pike: Who are Randy Spivey and Stephen Ferrell? Tennessee woman's lawyers speak out after botched execution",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/christa-pike-who-are-randy-spivey-and-stephen-ferrell-tennessee-womans-lawyers-speak-out-after-botched-execution-101790935061106.html",
-          "published_at": "10:28"
-        },
-        {
-          "title": "Christa Pike in critical condition after Tennessee botched execution, lawyer says",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/christa-pike-in-critical-condition-after-tennessee-botched-execution-lawyer-says",
-          "published_at": "07:48"
         }
       ]
     },
     {
-      "id": "world-212",
-      "title": "Gypsy Rose Blanchard's past boyfriends and social media accounts in focus amid Ken Urker's death: All about Ryan Scott Anderson and Nicholas Godejohn",
-      "title_en": "Gypsy Rose Blanchard's past boyfriends and social media accounts in focus amid Ken Urker's death: All about Ryan Scott Anderson and Nicholas Godejohn",
+      "id": "world-238",
+      "title": "Ebola death toll in Congo tops 4,000 in fastest-growing outbreak on record",
+      "title_en": "Ebola death toll in Congo tops 4,000 in fastest-growing outbreak on record",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/gypsy-rose-blanchards-past-boyfriends-and-social-media-accounts-in-focus-amid-ken-urkers-death-all-about-ryan-scott-anderson-and-nicholas-godejohn-101790910121650.html",
+      "title_url": "https://www.cbsnews.com/news/ebola-deaths-congo-4000-fastest-growing-outbreak-history/",
+      "category": "기타",
+      "primary_source": "CBS News",
+      "excerpt": "The worst ever Ebola outbreak in the Democratic Republic of Congo has now killed more than 4,000 people out of more than 8,000 confirmed cases, Congolese officials said on Friday.",
+      "excerpt_en": "The worst ever Ebola outbreak in the Democratic Republic of Congo has now killed more than 4,000 people out of more than 8,000 confirmed cases, Congolese officials said on Friday.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/10/02/dr-congo-ebola-outbreak-killed-more-than-4000-official-figures",
+      "translation_status": "failed",
+      "score": 79,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 59
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "CBC",
+        "CBS News",
+        "Euronews"
+      ],
+      "first_published_at": "2026-10-02T11:24:59+09:00",
+      "latest_published_at": "2026-10-03T06:17:00+09:00",
+      "articles": [
+        {
+          "title": "Inside the study for a remedy to fight Congo's deadliest Ebola outbreak",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/inside-study-remedy-fight-congos-deadliest-ebola-outbreak-136967362",
+          "published_at": "06:17"
+        },
+        {
+          "title": "DR Congo Ebola outbreak killed more than 4,000: official figures",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/02/dr-congo-ebola-outbreak-killed-more-than-4000-official-figures",
+          "published_at": "16:40"
+        },
+        {
+          "title": "Congo's Ebola outbreak surpasses 4,000 deaths amid violence and mistrust",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/congo-outbreak-death-toll-treatment-centre-beating-9.7366690?cmp=rss",
+          "published_at": "14:15"
+        },
+        {
+          "title": "Ebola death toll in Congo tops 4,000 in fastest-growing outbreak on record",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ebola-deaths-congo-4000-fastest-growing-outbreak-history/",
+          "published_at": "11:24"
+        }
+      ]
+    },
+    {
+      "id": "world-112",
+      "title": "Ken Urker death: Sister suspects foul play, blasts ‘vile human being’ Gypsy Rose",
+      "title_en": "Ken Urker death: Sister suspects foul play, blasts ‘vile human being’ Gypsy Rose",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/ken-urker-sister-suspects-foul-play-after-his-death-blasts-gypsy-rose-as-vile-human-being-101790944540386.html",
       "category": "유럽",
       "primary_source": "Hindustan Times",
       "excerpt": "Kenan ‘Ken’ Urker, 34, who died of apparent drug overdose, was partner of woman convicted of murder of mother The on-and-off partner of Gypsy Rose Blanchard , who spent time in prison for her role in ",
@@ -295,17 +917,17 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/us-news/2026/oct/02/gypsy-rose-blanchard-ken-urker-dead",
       "translation_status": "failed",
-      "score": 87,
+      "score": 77,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 65
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 58
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
@@ -313,14 +935,14 @@
         "Hindustan Times",
         "The Guardian"
       ],
-      "first_published_at": "2026-10-02T03:35:30+09:00",
-      "latest_published_at": "2026-10-02T22:24:33+09:00",
+      "first_published_at": "2026-10-02T13:13:03+09:00",
+      "latest_published_at": "2026-10-02T23:53:14+09:00",
       "articles": [
         {
           "title": "Partner of Gypsy Rose Blanchard found dead in Louisiana home",
           "source_name": "The Guardian",
           "url": "https://www.theguardian.com/us-news/2026/oct/02/gypsy-rose-blanchard-ken-urker-dead",
-          "published_at": "22:24"
+          "published_at": "23:53"
         },
         {
           "title": "Ken Urker death: Did Gypsy Rose Blanchard’s ex-fiance die by suicide? Cops share chilling ‘gun, syringe, drug’ details",
@@ -339,66 +961,95 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/ken-urker-sister-suspects-foul-play-after-his-death-blasts-gypsy-rose-as-vile-human-being-101790944540386.html",
           "published_at": "13:13"
-        },
-        {
-          "title": "Gypsy Rose Blanchard gives heartbreaking first reaction after Ken Urker's death: ‘Screamed until my throat burns’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/gypsy-rose-blanchard-gives-heartbreaking-first-reaction-after-ken-urkers-death-screamed-until-my-throat-burns-101790925639977.html",
-          "published_at": "07:59"
-        },
-        {
-          "title": "Gypsy Rose Blanchard's brother: Who is Dylan, where is he now? Ken Urker's death puts focus on family",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/gypsy-rose-blanchards-brother-who-is-dylan-where-is-he-now-ken-urkers-death-puts-focus-on-family-101790913929582.html",
-          "published_at": "04:34"
-        },
-        {
-          "title": "Gypsy Rose Blanchard's past boyfriends and social media accounts in focus amid Ken Urker's death: All about Ryan Scott Anderson and Nicholas Godejohn",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/gypsy-rose-blanchards-past-boyfriends-and-social-media-accounts-in-focus-amid-ken-urkers-death-all-about-ryan-scott-anderson-and-nicholas-godejohn-101790910121650.html",
-          "published_at": "03:35"
         }
       ]
     },
     {
-      "id": "world-19",
-      "title": "G7 members will release 100 million barrels of diesel after US threatens export ban",
-      "title_en": "G7 members will release 100 million barrels of diesel after US threatens export ban",
+      "id": "world-55",
+      "title": "Widdecombe murder suspect charged with planning terror acts against Farage",
+      "title_en": "Widdecombe murder suspect charged with planning terror acts against Farage",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
-      "category": "중동",
-      "primary_source": "France24",
-      "excerpt": "Group ⁠of Seven countries agreed on Friday to release 100 million barrels of diesel and crude oil from emergency reserves and pledged to refrain from energy export restrictions after pressure from US ",
-      "excerpt_en": "Group ⁠of Seven countries agreed on Friday to release 100 million barrels of diesel and crude oil from emergency reserves and pledged to refrain from energy export restrictions after pressure from US ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
+      "title_url": "https://www.smh.com.au/world/europe/widdecombe-murder-suspect-charged-with-planning-terror-acts-against-farage-20261003-p612io.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "유럽",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "Police said Joshua Kerry, 28, had been charged with engaging in conduct in preparation of terrorist acts, saying that these related in part to the leader of the Reform UK party.",
+      "excerpt_en": "Police said Joshua Kerry, 28, had been charged with engaging in conduct in preparation of terrorist acts, saying that these related in part to the leader of the Reform UK party.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/europe/widdecombe-murder-suspect-charged-with-planning-terror-acts-against-farage-20261003-p612io.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "failed",
-      "score": 85,
+      "score": 76,
       "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
       },
-      "area_value": 10,
-      "article_count": 10,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 10,
+      "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "CBC",
-        "France24",
-        "Hindustan Times",
-        "NBC News",
-        "NPR",
-        "New York Times",
-        "Reuters",
-        "SCMP",
+        "DW",
+        "Fox News",
         "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-10-02T11:15:16+09:00",
+      "first_published_at": "2026-10-02T20:33:37+09:00",
+      "latest_published_at": "2026-10-02T21:07:09+09:00",
+      "articles": [
+        {
+          "title": "UK man accused of planning terrorism acts against Nigel Farage also charged in murder of another politician",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/uk-man-accused-planning-terrorism-acts-against-nigel-farage-also-charged-murder-another-politician",
+          "published_at": "21:07"
+        },
+        {
+          "title": "UK: Man charged with planning to attack Nigel Farage",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/uk-man-charged-with-planning-to-attack-nigel-farage/a-79526078?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "20:38"
+        },
+        {
+          "title": "Widdecombe murder suspect charged with planning terror acts against Farage",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/widdecombe-murder-suspect-charged-with-planning-terror-acts-against-farage-20261003-p612io.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:33"
+        }
+      ]
+    },
+    {
+      "id": "world-44",
+      "title": "G7 nations will release 100 million barrels of oil and diesel fuel as fuel prices soar",
+      "title_en": "G7 nations will release 100 million barrels of oil and diesel fuel as fuel prices soar",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/g7-nations-will-release-100-million-barrels-of-oil-and-diesel-fuel-as-fuel-prices-soar-101790960802624.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "After increased pressure from Washington, the G7 held an emergency meeting on energy. The world's wealthiest nations say they will release 100 million barrels of oil and diesel fuel in their reserves.",
+      "excerpt_en": "After increased pressure from Washington, the G7 held an emergency meeting on energy. The world's wealthiest nations say they will release 100 million barrels of oil and diesel fuel in their reserves.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/10/02/nx-s1-5989397/the-g7-will-release-100-million-reserve-barrels-of-diesel-fuel-over-the-next-4-months",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "NPR",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-10-02T17:11:50+09:00",
       "latest_published_at": "2026-10-02T20:23:49+09:00",
       "articles": [
         {
@@ -406,18 +1057,6 @@
           "source_name": "NPR",
           "url": "https://www.npr.org/2026/10/02/nx-s1-5989397/the-g7-will-release-100-million-reserve-barrels-of-diesel-fuel-over-the-next-4-months",
           "published_at": "20:23"
-        },
-        {
-          "title": "G7 to release 100 million barrels of oil in bid to curb soaring prices",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-03/g7-to-release-100m-barrels-oil-in-bid-to-curb-soaring-prices/107224282",
-          "published_at": "19:50"
-        },
-        {
-          "title": "U.S. and Allies Agree to Release Diesel Reserves as Prices Soar",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/business/diesel-reserves-g7.html",
-          "published_at": "18:28"
         },
         {
           "title": "G7 to release 100 million barrels of oil to combat soaring fuel prices",
@@ -430,81 +1069,42 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/g7-nations-will-release-100-million-barrels-of-oil-and-diesel-fuel-as-fuel-prices-soar-101790960802624.html",
           "published_at": "17:11"
-        },
-        {
-          "title": "G7 to release 100 million barrels of diesel and other reserves through IEA",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb19pQnVCc2dwWWN3NlFDRl9LSTJvQVRYQlpDNDRxM2lhcm9kQzNkOGE5Y1c4eGFQcEFaSHZfUTlydnhfZ25hbFdWSUlBMy1IMVM1S1hOYnA1SEJWby0tZnNzY25jek44MGY1UGprN2lHT25qN3hqLTMxazdES2s0QUczSTBzcUVpTmRRc0pqcG1wd19yR1FidVJka3otVWx5SkF1dm9TaHdzN2hzLW92M1lLdVlqSVk?oc=5",
-          "published_at": "16:49"
-        },
-        {
-          "title": "G7 nations agree to release 100 million barrels of oil, including diesel, amid energy crunch",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/business/g7-trump-diesel-reserve-release-9.7366871?cmp=rss",
-          "published_at": "15:21"
-        },
-        {
-          "title": "G7 nations agree to release diesel and oil stocks after Trump pressure",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
-          "published_at": "14:51"
-        },
-        {
-          "title": "G7 countries to release up to 100 million barrels of diesel and crude oil reserves",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/business/energy/g-7-diesel-crude-release-trump-macron-rcna601132",
-          "published_at": "14:22"
-        },
-        {
-          "title": "G7 members will release 100 million barrels of diesel after US threatens export ban",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
-          "published_at": "11:15"
         }
       ]
     },
     {
-      "id": "world-218",
-      "title": "400 schools to remain closed in France on Friday as student protests turn violent",
-      "title_en": "400 schools to remain closed in France on Friday as student protests turn violent",
+      "id": "world-229",
+      "title": "Teacher doused in petrol and schools set on fire as student riots in France dramatically escalate",
+      "title_en": "Teacher doused in petrol and schools set on fire as student riots in France dramatically escalate",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/france-education-school-protests-edouard-geffray-sebastien-lecornu-la-france-insoumise-marseille-paris-101790921653267.html",
+      "title_url": "https://www.independent.co.uk/news/world/europe/france-student-riots-teachers-doused-petrol-b3059944.html",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
+      "primary_source": "The Independent",
       "excerpt": "French high school students light fires, clash with police as protests over school conditions leave more than 200 people wounded, force hundreds of schools to close.",
       "excerpt_en": "French high school students light fires, clash with police as protests over school conditions leave more than 200 people wounded, force hundreds of schools to close.",
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/france-student-protests-riots-paris-violence-schools-closed/",
       "translation_status": "failed",
-      "score": 85,
+      "score": 68,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 18,
+        "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 51
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 2,
       "sources": [
         "CBS News",
-        "Hindustan Times",
-        "New York Times",
-        "Sky News",
         "The Independent"
       ],
-      "first_published_at": "2026-10-02T06:49:37+09:00",
-      "latest_published_at": "2026-10-02T20:49:59+09:00",
+      "first_published_at": "2026-10-02T12:18:42+09:00",
+      "latest_published_at": "2026-10-02T13:41:14+09:00",
       "articles": [
-        {
-          "title": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/europe/france-schools-protests-unrest.html",
-          "published_at": "20:49"
-        },
         {
           "title": "Hundreds of schools closed as fiery French student protests spread",
           "source_name": "CBS News",
@@ -512,1127 +1112,127 @@
           "published_at": "13:41"
         },
         {
-          "title": "What to know as France school protests morph into unrest and the streets are seething",
+          "title": "Thousands of arrests, hundreds of schools closed and dozens of teachers attacked as French student riots escalate",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-emmanuel-macron-paris-government-jeanluc-melenchon-b3060402.html",
-          "published_at": "12:33"
+          "url": "https://www.independent.co.uk/news/world/europe/france-schools-protest-paris-riots-b3060383.html",
+          "published_at": "13:10"
         },
         {
-          "title": "Tear gas and fires on French streets as student protests turn violent",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/tear-gas-and-fires-on-french-streets-as-student-protests-turn-violent-13594370",
-          "published_at": "11:40"
-        },
-        {
-          "title": "400 schools to remain closed in France on Friday as student protests turn violent",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/france-education-school-protests-edouard-geffray-sebastien-lecornu-la-france-insoumise-marseille-paris-101790921653267.html",
-          "published_at": "06:49"
+          "title": "Teacher doused in petrol and schools set on fire as student riots in France dramatically escalate",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-student-riots-teachers-doused-petrol-b3059944.html",
+          "published_at": "12:18"
         }
       ]
     },
     {
-      "id": "world-66",
-      "title": "More than 4,000 deaths recorded in DR Congo Ebola outbreak",
-      "title_en": "More than 4,000 deaths recorded in DR Congo Ebola outbreak",
+      "id": "world-185",
+      "title": "P-plater in custody as witness recounts moment BMW hit Knights supporters",
+      "title_en": "P-plater in custody as witness recounts moment BMW hit Knights supporters",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/more-than-4000-deaths-recorded-in-dr-congo-ebola-outbreak-13594285",
-      "category": "기타",
-      "primary_source": "Sky News",
-      "excerpt": "The worst ever Ebola outbreak in the Democratic Republic of Congo has now killed more than 4,000 people out of more than 8,000 confirmed cases, Congolese officials said on Friday.",
-      "excerpt_en": "The worst ever Ebola outbreak in the Democratic Republic of Congo has now killed more than 4,000 people out of more than 8,000 confirmed cases, Congolese officials said on Friday.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/10/02/dr-congo-ebola-outbreak-killed-more-than-4000-official-figures",
+      "title_url": "https://www.abc.net.au/news/2026-10-03/newcastle-knights-car-crash-wallsend-injuries/107224666",
+      "category": "아시아",
+      "primary_source": "ABC News Australia",
+      "excerpt": "A car has crashed into a crowd of Newcastle Knights supporters as they lined the streets to cheer on the team bus as it travelled to Sydney ahead of Sunday's NRL grand final.",
+      "excerpt_en": "A car has crashed into a crowd of Newcastle Knights supporters as they lined the streets to cheer on the team bus as it travelled to Sydney ahead of Sunday's NRL grand final.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-10-03/newcastle-crash-wallsend-knights/107224796",
       "translation_status": "failed",
-      "score": 84,
+      "score": 65,
       "score_breakdown": {
         "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
+        "diversity_score": 10,
+        "major_score": 10,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 63
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "CBC",
-        "CBS News",
-        "Euronews",
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-10-02T09:14:00+09:00",
-      "latest_published_at": "2026-10-02T16:40:42+09:00",
-      "articles": [
-        {
-          "title": "DR Congo Ebola outbreak killed more than 4,000: official figures",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/dr-congo-ebola-outbreak-killed-more-than-4000-official-figures",
-          "published_at": "16:40"
-        },
-        {
-          "title": "Congo's Ebola outbreak surpasses 4,000 deaths amid violence and mistrust",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/congo-outbreak-death-toll-treatment-centre-beating-9.7366690?cmp=rss",
-          "published_at": "14:15"
-        },
-        {
-          "title": "Ebola death toll in Congo tops 4,000 in fastest-growing outbreak on record",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ebola-deaths-congo-4000-fastest-growing-outbreak-history/",
-          "published_at": "11:24"
-        },
-        {
-          "title": "Congo's Ebola outbreak has killed more than 4,000, government data shows",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOelI0VFdhRVVCYlFqVHYyOTZYQTQ4ejBlWm9NQjYzY2prcF9QYV9mY0c4YWdpS0JWaDY3TDBzamVzb1o5dUt2LVBaZHBtQ0VyRkxHbjFQR0FEVkJTdktzSGpqdWV0T0dHZHcydEhSN0tKU09XOThMTUUxRjhFazF6ZGNScXY5Z0Q2UzVLTER2ZHZobjdJSzlENGRQRjZtOXM5RDFsU1czMGFHcTlqOC02ZDYtZVJYaHZZN3hGMi1kenlqQQ?oc=5",
-          "published_at": "09:43"
-        },
-        {
-          "title": "More than 4,000 deaths recorded in DR Congo Ebola outbreak",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/more-than-4000-deaths-recorded-in-dr-congo-ebola-outbreak-13594285",
-          "published_at": "09:14"
-        }
-      ]
-    },
-    {
-      "id": "world-113",
-      "title": "‘There’s an extra pilot’, ‘sit down!’ Videos capture flydubai flight chaos after cockpit stabbing",
-      "title_en": "‘There’s an extra pilot’, ‘sit down!’ Videos capture flydubai flight chaos after cockpit stabbing",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/theres-an-extra-pilot-sit-down-videos-capture-flydubai-flight-chaos-after-cockpit-stabbing-smit-machcchar-101790908773857.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Capt. Smit Machchhar, who was stabbed by his co-pilot midair between Dubai and Tel Aviv, said he “had to act” to prevent a crash despite serious injuries.",
-      "excerpt_en": "Capt. Smit Machchhar, who was stabbed by his co-pilot midair between Dubai and Tel Aviv, said he “had to act” to prevent a crash despite serious injuries.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 61
+        "time_score": 3,
+        "raw75": 49
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "BBC",
-        "Hindustan Times",
-        "New York Times"
+        "ABC News Australia",
+        "Sky News"
       ],
-      "first_published_at": "2026-10-02T03:50:08+09:00",
-      "latest_published_at": "2026-10-02T12:16:54+09:00",
+      "first_published_at": "2026-10-03T00:23:10+09:00",
+      "latest_published_at": "2026-10-03T05:36:02+09:00",
       "articles": [
         {
-          "title": "Indian Pilot Stabbed on FlyDubai Flight Recalls Sudden Attack",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
-          "published_at": "12:16"
+          "title": "Grand final send-off became 'absolute tragedy'",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-03/everything-we-know-newcastle-knights-crash-wallsend/107224830",
+          "published_at": "05:36"
         },
         {
-          "title": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
-          "published_at": "11:52"
+          "title": "Ten injured as car hits crowd in Australia in 'horrible incident'",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/horrible-incident-at-least-nine-injured-as-car-hits-crowd-in-australia-13594555",
+          "published_at": "03:34"
         },
         {
-          "title": "What is the ‘10-7-3’ theory around flydubai hijack scare? Social media links it to October 7 Hamas attack",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/what-is-the-10-7-3-theory-around-flydubai-hijack-scare-social-media-links-it-to-october-7-hamas-attack-101790936462425.html",
-          "published_at": "11:19"
+          "title": "Live: Young girl critical as car hits grand final gathering, injuring 10",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-03/newcastle-crash-wallsend-knights/107224796",
+          "published_at": "01:53"
         },
         {
-          "title": "‘There’s an extra pilot’, ‘sit down!’ Videos capture flydubai flight chaos after cockpit stabbing",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/theres-an-extra-pilot-sit-down-videos-capture-flydubai-flight-chaos-after-cockpit-stabbing-smit-machcchar-101790908773857.html",
-          "published_at": "03:50"
+          "title": "P-plater in custody as witness recounts moment BMW hit Knights supporters",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-03/newcastle-knights-car-crash-wallsend-injuries/107224666",
+          "published_at": "00:23"
         }
       ]
     },
     {
-      "id": "world-205",
-      "title": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage",
-      "title_en": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage",
+      "id": "world-68",
+      "title": "UAE presidential adviser says flydubai attack a 'terrorist act', praises Indian pilot Smit Machchhar",
+      "title_en": "UAE presidential adviser says flydubai attack a 'terrorist act', praises Indian pilot Smit Machchhar",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
-      "category": "유럽",
-      "primary_source": "The Guardian",
-      "excerpt": "Joshua Kerry, 28, of Rotherham in South Yorkshire, charged with one count of preparation of terrorist acts, say police The man accused of murdering Ann Widdecombe has been charged with engaging in con",
-      "excerpt_en": "Joshua Kerry, 28, of Rotherham in South Yorkshire, charged with one count of preparation of terrorist acts, say police The man accused of murdering Ann Widdecombe has been charged with engaging in con",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
+      "title_url": "https://www.hindustantimes.com/world-news/uae-president-adviser-says-flydubai-attack-a-terrorist-act-praises-indian-pilot-captain-smit-machhar-101790939409077.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The advisor to the UAE president said Machchhar deserved appreciation for confronting a serious terrorist act and bravely facing a potential disaster.",
+      "excerpt_en": "The advisor to the UAE president said Machchhar deserved appreciation for confronting a serious terrorist act and bravely facing a potential disaster.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/uae-president-adviser-says-flydubai-attack-a-terrorist-act-praises-indian-pilot-captain-smit-machhar-101790939409077.html",
       "translation_status": "failed",
-      "score": 81,
+      "score": 63,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 12,
+        "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 1,
+        "breaking_score": 7,
         "time_score": 3,
-        "raw75": 61
+        "raw75": 47
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "Fox News",
-        "New York Times",
-        "Sydney Morning Herald",
-        "The Guardian"
+        "France24",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-10-02T19:15:01+09:00",
-      "latest_published_at": "2026-10-02T21:15:50+09:00",
+      "first_published_at": "2026-10-02T11:11:40+09:00",
+      "latest_published_at": "2026-10-03T07:14:58+09:00",
       "articles": [
         {
-          "title": "Widdecombe Murder Suspect Charged With Preparing Acts of Terrorism, Including Against Farage",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/europe/uk-terrorism-nigel-farage.html",
-          "published_at": "21:15"
+          "title": "🔴 UAE investigators say Flydubai co-pilot was planning 'terrorist act'",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261003-co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman-for-holding-extremist-views",
+          "published_at": "07:14"
         },
         {
-          "title": "UK man accused of planning terrorism acts against Nigel Farage also charged in murder of another politician",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/uk-man-accused-planning-terrorism-acts-against-nigel-farage-also-charged-murder-another-politician",
-          "published_at": "21:07"
-        },
-        {
-          "title": "Man charged with preparing terrorist acts against Nigel Farage",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-03/nigel-farage-ann-widdecombe-murder-joshua-kerry-terrorism-charge/107224414",
-          "published_at": "20:45"
-        },
-        {
-          "title": "Widdecombe murder suspect charged with planning terror acts against Farage",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/widdecombe-murder-suspect-charged-with-planning-terror-acts-against-farage-20261003-p612io.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "20:33"
-        },
-        {
-          "title": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
-          "published_at": "19:15"
+          "title": "UAE presidential adviser says flydubai attack a 'terrorist act', praises Indian pilot Smit Machchhar",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/uae-president-adviser-says-flydubai-attack-a-terrorist-act-praises-indian-pilot-captain-smit-machhar-101790939409077.html",
+          "published_at": "11:11"
         }
       ]
     },
     {
       "id": "world-231",
-      "title": "U.S. Suspends Consular Services in Brazil on Eve of Elections",
-      "title_en": "U.S. Suspends Consular Services in Brazil on Eve of Elections",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/10/02/world/americas/brazil-us-consulate-elections.html",
-      "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "President Luiz Inacio Lula da Silva and rival Flavio Bolsonaro are pulling no punches in a last-ditch effort to win voters ahead of Sunday's election in Brazil, where the US and Australia suspended co",
-      "excerpt_en": "President Luiz Inacio Lula da Silva and rival Flavio Bolsonaro are pulling no punches in a last-ditch effort to win voters ahead of Sunday's election in Brazil, where the US and Australia suspended co",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Channel News Asia",
-        "Euronews",
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-02T15:37:53+09:00",
-      "latest_published_at": "2026-10-02T21:16:57+09:00",
-      "articles": [
-        {
-          "title": "US and Australia suspend consular services in Brazil ahead of election citing security concerns",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/brazil-police-australia-rio-de-janeiro-donald-trump-b3060676.html",
-          "published_at": "21:16"
-        },
-        {
-          "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election",
-          "published_at": "20:40"
-        },
-        {
-          "title": "Lula, Bolsonaro trade blows in final scramble for votes in Brazil",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/lula-bolsonaro-trade-blows-in-final-scramble-votes-in-brazil-6428181",
-          "published_at": "20:32"
-        },
-        {
-          "title": "U.S. Suspends Consular Services in Brazil on Eve of Elections",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/americas/brazil-us-consulate-elections.html",
-          "published_at": "15:37"
-        }
-      ]
-    },
-    {
-      "id": "world-204",
-      "title": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community in England",
-      "title_en": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community in England",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/united-kingdom/two-iranian-nationals-charged-alleged-terrorism-plot-targeting-jewish-rcna601207",
-      "category": "중동",
-      "primary_source": "NBC News",
-      "excerpt": "Man, most likely in Iran, was in contact with men arrested on the eve of Yom Kippur, police say ​Police say a man, most likely in Iran, was in contact with two Iranian nationals in Britain as part of ",
-      "excerpt_en": "Man, most likely in Iran, was in contact with men arrested on the eve of Yom Kippur, police say ​Police say a man, most likely in Iran, was in contact with two Iranian nationals in Britain as part of ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
-      "translation_status": "failed",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "NBC News",
-        "New York Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-02T19:59:22+09:00",
-      "latest_published_at": "2026-10-02T22:52:01+09:00",
-      "articles": [
-        {
-          "title": "Two Iranian men charged over alleged terror plot targeting Manchester’s Jewish community",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
-          "published_at": "22:52"
-        },
-        {
-          "title": "2 Iranian Men Charged in U.K. Over Suspected Plot to Target Jews",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/europe/uk-manchester-terror-plot-iranians-jews.html",
-          "published_at": "21:54"
-        },
-        {
-          "title": "Two Iranian nationals charged over alleged terrorism plot targeting Jewish community in England",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/two-iranian-nationals-charged-alleged-terrorism-plot-targeting-jewish-rcna601207",
-          "published_at": "19:59"
-        }
-      ]
-    },
-    {
-      "id": "world-72",
-      "title": "Students and police clash as France struggles to quell school protests",
-      "title_en": "Students and police clash as France struggles to quell school protests",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFQyTU1FaVBENkY3X1RkbTlmMkE5LVBkTjF3X1lMMExZb1M5anM2THFGOHVTYmJzdWFCQ0VUNU0zN2xYNUI3ZDF6aEl4WXNUcnd1MkJsQmhLako0c2NqNW5Yb3JIbjkyVHN6MWFQNjBQMm15QjA0WDlheUVnSDAxdDRGd2NKQVRyX1lxSlhSa2FuMk55RUp3QUV4RFlfLXdXU1pEQXBLU0Y0OFdG?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Riot police clashed with high school ​students in cities across France on Friday, as President Emmanuel Macron's government battled to contain increasingly violent protests over classroom conditions a",
-      "excerpt_en": "Riot police clashed with high school ​students in cities across France on Friday, as President Emmanuel Macron's government battled to contain increasingly violent protests over classroom conditions a",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261002-students-and-police-clash-as-france-struggles-to-quell-school-protests",
-      "translation_status": "failed",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBC",
-        "France24",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T05:21:00+09:00",
-      "latest_published_at": "2026-10-02T13:40:56+09:00",
-      "articles": [
-        {
-          "title": "Students and police clash as France struggles to quell school protests",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261002-students-and-police-clash-as-france-struggles-to-quell-school-protests",
-          "published_at": "13:40"
-        },
-        {
-          "title": "Macron government struggles to quell protests as riot police clash with high schoolers",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/france-school-protests-9.7366549?cmp=rss",
-          "published_at": "11:02"
-        },
-        {
-          "title": "Students and police clash as France struggles to quell school protests",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFQyTU1FaVBENkY3X1RkbTlmMkE5LVBkTjF3X1lMMExZb1M5anM2THFGOHVTYmJzdWFCQ0VUNU0zN2xYNUI3ZDF6aEl4WXNUcnd1MkJsQmhLako0c2NqNW5Yb3JIbjkyVHN6MWFQNjBQMm15QjA0WDlheUVnSDAxdDRGd2NKQVRyX1lxSlhSa2FuMk55RUp3QUV4RFlfLXdXU1pEQXBLU0Y0OFdG?oc=5",
-          "published_at": "05:21"
-        }
-      ]
-    },
-    {
-      "id": "world-103",
-      "title": "Russia ‘tearing Kyiv apart’, mayor says",
-      "title_en": "Russia ‘tearing Kyiv apart’, mayor says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3330335/russia-tearing-kyiv-apart-mayor-says",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "KYIV - Russian attacks on key infrastructure were “tearing Kyiv apart”, the city’s mayor said Friday, as strikes on a bridge linking the capital’s east and west brought traffic to a standstill.",
-      "excerpt_en": "KYIV - Russian attacks on key infrastructure were “tearing Kyiv apart”, the city’s mayor said Friday, as strikes on a bridge linking the capital’s east and west brought traffic to a standstill.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3330335/russia-tearing-kyiv-apart-mayor-says",
-      "translation_status": "failed",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "BBC",
-        "Bangkok Post",
-        "Channel News Asia"
-      ],
-      "first_published_at": "2026-10-02T14:45:00+09:00",
-      "latest_published_at": "2026-10-02T15:26:37+09:00",
-      "articles": [
-        {
-          "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
-          "published_at": "15:26"
-        },
-        {
-          "title": "Russia 'tearing Kyiv apart', mayor says, as strikes paralyse traffic",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/russia-tearing-kyiv-apart-mayor-says-strikes-paralyse-traffic-6426761",
-          "published_at": "14:49"
-        },
-        {
-          "title": "Russia ‘tearing Kyiv apart’, mayor says",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3330335/russia-tearing-kyiv-apart-mayor-says",
-          "published_at": "14:45"
-        }
-      ]
-    },
-    {
-      "id": "world-117",
-      "title": "‘It’s him, dude’: New bodycam footage shows moments before Luigi Mangione was arrested",
-      "title_en": "‘It’s him, dude’: New bodycam footage shows moments before Luigi Mangione was arrested",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/its-him-dude-new-bodycam-footage-shows-moments-before-luigi-mangione-was-arrested-101790952985082.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Judge unseals bodycam footage from officers who responded to 911 from McDonald’s in Pennsylvania Police bodycam footage released Friday shows the moment officers located and arrested Luigi Mangione at",
-      "excerpt_en": "Judge unseals bodycam footage from officers who responded to 911 from McDonald’s in Pennsylvania Police bodycam footage released Friday shows the moment officers located and arrested Luigi Mangione at",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/oct/02/luigi-mangione-police-bodycam-video",
-      "translation_status": "failed",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-02T15:35:56+09:00",
-      "latest_published_at": "2026-10-02T22:20:24+09:00",
-      "articles": [
-        {
-          "title": "‘That’s 100% him’: new video shows police arrest of Luigi Mangione",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/02/luigi-mangione-police-bodycam-video",
-          "published_at": "22:20"
-        },
-        {
-          "title": "Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald’s",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/police-bodycam-shows-luigi-mangione-arrest-at-pennsylvania?traffic_source=rss",
-          "published_at": "21:59"
-        },
-        {
-          "title": "‘It’s him, dude’: New bodycam footage shows moments before Luigi Mangione was arrested",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/its-him-dude-new-bodycam-footage-shows-moments-before-luigi-mangione-was-arrested-101790952985082.html",
-          "published_at": "15:35"
-        }
-      ]
-    },
-    {
-      "id": "world-8",
-      "title": "Former US congressman sentenced to 10 years for secretly lobbying for Venezuela",
-      "title_en": "Former US congressman sentenced to 10 years for secretly lobbying for Venezuela",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZzVJX09GUERxa1lSRjljOFJYU016bU53RXQxVkNMbjU0RHJpemlQdldUdHkxMW12Qk5YYWFpaWhSMkRfcFRZUVNIOGdacE1aUzhDaGpDSlRibDVrdFZmRmMySUpRTURxSUxLNTFOUlVuVXdFTk1BVC1qanN4OExHaDN0V2xaTVEtR2taYzJ4RGxhaXdYeWNoVjhoeVFIaGhpWjZvVWUyVlJxUXgtLUx2MU13ZWlhQ0ZDeWpncVVR?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "‘This is a classic money laundering case,’ the judge said Friday in rejecting Rivera’s motion to lower the federal guidelines range",
-      "excerpt_en": "‘This is a classic money laundering case,’ the judge said Friday in rejecting Rivera’s motion to lower the federal guidelines range",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/david-rivera-rubio-miami-venezuela-lobbying-b3060666.html",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-02T19:15:43+09:00",
-      "latest_published_at": "2026-10-02T20:56:18+09:00",
-      "articles": [
-        {
-          "title": "GOP Rep. and longtime ally of Marco Rubio gets 10-year sentence for secret Venezuela lobbying",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/david-rivera-rubio-miami-venezuela-lobbying-b3060666.html",
-          "published_at": "20:56"
-        },
-        {
-          "title": "Former GOP Rep. David Rivera sentenced to 10 years for secret Venezuela lobbying",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTDJHQVpfRUJjeFFnWm9ySHViTkYzWTNnWllhYWYyWnQwYzlQYjA0RF81T2RMSEFZNVJWQldFUHBlRnJWZlktc0dPMzFJZXFUNWdVSDVwNkdQdnIxbTJQa091SUNsVk12T1dFNWdjXzl0akRqTk1OVXhKM0FEUW9OUDBmN3hkU0RuUEhGRUlQaXlDTGNta1JsWnpGN1JmYWw3SzB6MHh5SQ?oc=5",
-          "published_at": "20:31"
-        },
-        {
-          "title": "Former US congressman sentenced to 10 years for secretly lobbying for Venezuela",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZzVJX09GUERxa1lSRjljOFJYU016bU53RXQxVkNMbjU0RHJpemlQdldUdHkxMW12Qk5YYWFpaWhSMkRfcFRZUVNIOGdacE1aUzhDaGpDSlRibDVrdFZmRmMySUpRTURxSUxLNTFOUlVuVXdFTk1BVC1qanN4OExHaDN0V2xaTVEtR2taYzJ4RGxhaXdYeWNoVjhoeVFIaGhpWjZvVWUyVlJxUXgtLUx2MU13ZWlhQ0ZDeWpncVVR?oc=5",
-          "published_at": "19:15"
-        }
-      ]
-    },
-    {
-      "id": "world-28",
-      "title": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
-      "title_en": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOVdpUmRIWHB4RTJyblAwYnVUV2d4VVBaV0pFNUx0TXBLeV9rMDJONlpnTDJPdXVRNEhkWUU5cjVFNEI1Q0ZSTTNhMFJIcTZnY2M3SnFTNzROVDlqeENyN2pQV2d4RnJ2bVlVMUhrcl9RbmoweWp6VkEyRUJjMHl1QmdqN1d0TElTc1hkVURIQURJZmxiWllrV0R1TWh2M1psNlBBN1dIckNIa3BsbDE0VVNua1h5UE5LbDVCSjMtTVJkLVk?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "US says ship thought to be using common ‘dark fleet’ tactics was boarded and taken to Mexico as embargo continues The US Coast ⁠Guard has announced that it intercepted a large cargo ship carrying fuel",
-      "excerpt_en": "US says ship thought to be using common ‘dark fleet’ tactics was boarded and taken to Mexico as embargo continues The US Coast ⁠Guard has announced that it intercepted a large cargo ship carrying fuel",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "New York Times",
-        "Reuters",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-02T14:20:35+09:00",
-      "latest_published_at": "2026-10-02T20:32:05+09:00",
-      "articles": [
-        {
-          "title": "Coast Guard Says It Stopped Ships Carrying Fuel to Cuba",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/americas/coast-guard-cuba-ships-oil.html",
-          "published_at": "20:32"
-        },
-        {
-          "title": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/02/us-coast-guard-says-it-has-intercepted-ship-carrying-fuel-to-cuba",
-          "published_at": "15:13"
-        },
-        {
-          "title": "US Coast Guard says it intercepted ship carrying fuel to Cuba",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOVdpUmRIWHB4RTJyblAwYnVUV2d4VVBaV0pFNUx0TXBLeV9rMDJONlpnTDJPdXVRNEhkWUU5cjVFNEI1Q0ZSTTNhMFJIcTZnY2M3SnFTNzROVDlqeENyN2pQV2d4RnJ2bVlVMUhrcl9RbmoweWp6VkEyRUJjMHl1QmdqN1d0TElTc1hkVURIQURJZmxiWllrV0R1TWh2M1psNlBBN1dIckNIa3BsbDE0VVNua1h5UE5LbDVCSjMtTVJkLVk?oc=5",
-          "published_at": "14:20"
-        }
-      ]
-    },
-    {
-      "id": "world-63",
-      "title": "Trump is set to give his spy chief Jay Clayton another job: ‘AI czar’",
-      "title_en": "Trump is set to give his spy chief Jay Clayton another job: ‘AI czar’",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jay-clayton-ai-czar-spy-chief-dni-b3060553.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "US ⁠President Donald Trump is expected to name Director of National Intelligence Jay Clayton to be his top adviser on AI, a position the president has called “AI tsar” in ‌the past, according to a sou",
-      "excerpt_en": "US ⁠President Donald Trump is expected to name Director of National Intelligence Jay Clayton to be his top adviser on AI, a position the president has called “AI tsar” in ‌the past, according to a sou",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3369639/trump-expected-name-jay-clayton-ai-tsar?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Reuters",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-02T16:47:21+09:00",
-      "latest_published_at": "2026-10-02T22:41:49+09:00",
-      "articles": [
-        {
-          "title": "Trump expected to name Jay Clayton as AI tsar",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3369639/trump-expected-name-jay-clayton-ai-tsar?utm_source=rss_feed",
-          "published_at": "22:41"
-        },
-        {
-          "title": "Trump expected to name Jay Clayton as AI czar",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX1YtcTVTVVkxcjFJU2xzeXBjNlBrbDBveDJKa0taREVldjdkTWlVeFJXRHEzbE5lM1ZEaFVoTVRKMWNKQjRwRlZ5OTc2anRMNkhPMGVtSk5MdUR5ZWxNVzgyUXNNbTMtSDZtR0NWRkVBZlNDOUR1a0txd0wzLXJ0Mm1Gb0pVQk5qeU1jdE1nakdUQmw3c2REOGtaM3k?oc=5",
-          "published_at": "20:10"
-        },
-        {
-          "title": "Trump is set to give his spy chief Jay Clayton another job: ‘AI czar’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jay-clayton-ai-czar-spy-chief-dni-b3060553.html",
-          "published_at": "16:47"
-        }
-      ]
-    },
-    {
-      "id": "world-214",
-      "title": "Debt-saddled Argentina pitches 'golden passport' scheme to woo wealthy foreigners",
-      "title_en": "Debt-saddled Argentina pitches 'golden passport' scheme to woo wealthy foreigners",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/10/02/debt-saddled-argentina-pitches-golden-passport-scheme-to-woo-wealthy-foreigners",
-      "category": "기타",
-      "primary_source": "Euronews",
-      "excerpt": "Argentina on Friday announced plans to offer citizenship to wealthy foreigners in exchange for cash contributions or investments in government bonds, as libertarian President Javier Milei seeks new so",
-      "excerpt_en": "Argentina on Friday announced plans to offer citizenship to wealthy foreigners in exchange for cash contributions or investments in government bonds, as libertarian President Javier Milei seeks new so",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/10/02/debt-saddled-argentina-pitches-golden-passport-scheme-to-woo-wealthy-foreigners",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "Euronews",
-        "New York Times"
-      ],
-      "first_published_at": "2026-10-02T17:35:42+09:00",
-      "latest_published_at": "2026-10-02T20:17:54+09:00",
-      "articles": [
-        {
-          "title": "Argentina’s ‘Golden Passport’ Program Offers Citizenship in Exchange for Foreign Cash",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/02/world/americas/argentina-citizenship-golden-passport-money.html",
-          "published_at": "20:17"
-        },
-        {
-          "title": "Argentina unveils passports-for-investment scheme",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3330358/argentina-unveils-passportsforinvestment-scheme",
-          "published_at": "17:45"
-        },
-        {
-          "title": "Debt-saddled Argentina pitches 'golden passport' scheme to woo wealthy foreigners",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/debt-saddled-argentina-pitches-golden-passport-scheme-to-woo-wealthy-foreigners",
-          "published_at": "17:35"
-        }
-      ]
-    },
-    {
-      "id": "world-77",
-      "title": "US job growth expected to slow in September; unemployment rate likely steady",
-      "title_en": "US job growth expected to slow in September; unemployment rate likely steady",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmpBVFdqekt5WEJQeF8zZkEzQ0prUUdiY3lzNVM3TUVXSndIazJYSmNOajZNWGViZ1ZGaUszb1JEaF92cjlDdUN3aGVyQXQ5d1VseFFINzZxMTJYbURVOFJFYmlfN29kbFItakZhczNLc3dJZks1Q1hqZ3ZwNUhucEc3ZmxCd0kxbEJFZWlHRkZVdFM1M09iUnZ4bHRLYnJBUllhOTZYNnhhVXdRM1lGbTgtc2M?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "US job growth slowed more than expected in September, but that likely does not signal a material shift in the labour market, with the weakness likely related to a calendar quirk. Nonfarm payrolls incr",
-      "excerpt_en": "US job growth slowed more than expected in September, but that likely does not signal a material shift in the labour market, with the weakness likely related to a calendar quirk. Nonfarm payrolls incr",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3369622/us-job-growth-slows-sharply-september-unemployment-rises?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-02T04:01:00+09:00",
-      "latest_published_at": "2026-10-02T14:12:40+09:00",
-      "articles": [
-        {
-          "title": "US job growth slows sharply in September; unemployment rate rises to 4.2% - Key highlights here",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-job-growth-slows-sharply-in-september-unemployment-rate-rises-to-4-2-key-highlights-here-101790950055186.html",
-          "published_at": "14:12"
-        },
-        {
-          "title": "US job growth slows sharply in September, unemployment rises",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3369622/us-job-growth-slows-sharply-september-unemployment-rises?utm_source=rss_feed",
-          "published_at": "13:14"
-        },
-        {
-          "title": "US job growth expected to slow in September; unemployment rate likely steady",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmpBVFdqekt5WEJQeF8zZkEzQ0prUUdiY3lzNVM3TUVXSndIazJYSmNOajZNWGViZ1ZGaUszb1JEaF92cjlDdUN3aGVyQXQ5d1VseFFINzZxMTJYbURVOFJFYmlfN29kbFItakZhczNLc3dJZks1Q1hqZ3ZwNUhucEc3ZmxCd0kxbEJFZWlHRkZVdFM1M09iUnZ4bHRLYnJBUllhOTZYNnhhVXdRM1lGbTgtc2M?oc=5",
-          "published_at": "04:01"
-        }
-      ]
-    },
-    {
-      "id": "world-93",
-      "title": "New York's governor removes DA in Cornell rape allegations, appoints AG Letitia James to take over",
-      "title_en": "New York's governor removes DA in Cornell rape allegations, appoints AG Letitia James to take over",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSUloWXRtQklqSW5VMDFybmQxS2o1RzRwd3RZOXZ1TTNDdnRPRFZxaUlGTzhvSVF1VUxsb1dCX2w1UkRSajRMRlQtcFU4SjJQelF3MDQ3UmZ3STJ5WHNkU09lYjlZV1pxRnlKYTZ4U3o3U0JMeVJqMTkwcjBiTGdsd1dhT2lmcG1FSFNlM3lTSF9KdjFRT19vQVVJWkphMFpzR0FZN3hMX0RkOXM?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "New York Governor Kathy Hochul expressed a lack of confidence in District Attorney Matthew Van Houten regarding the Cornell sexual assault case.",
-      "excerpt_en": "New York Governor Kathy Hochul expressed a lack of confidence in District Attorney Matthew Van Houten regarding the Cornell sexual assault case.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/cornell-rape-case-new-york-governor-hands-probe-to-special-prosecutor-removes-da-houten-101790948264114.html",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "Hindustan Times",
-        "Times of India"
-      ],
-      "first_published_at": "2026-10-02T02:37:00+09:00",
-      "latest_published_at": "2026-10-02T15:02:33+09:00",
-      "articles": [
-        {
-          "title": "NY governor removes DA probing Cornell rape case, says she ‘lost faith’ in him; appoints special prosecutor",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/ny-governor-removes-da-probing-cornell-rape-case-says-she-lost-faith-in-him-appoints-special-prosecutor/articleshow/134642252.cms",
-          "published_at": "15:02"
-        },
-        {
-          "title": "Cornell rape case: NY governor hands probe to special prosecutor, removes DA Houten, ‘It has undercut my faith’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/cornell-rape-case-new-york-governor-hands-probe-to-special-prosecutor-removes-da-houten-101790948264114.html",
-          "published_at": "14:04"
-        },
-        {
-          "title": "New York's governor removes DA in Cornell rape allegations, appoints AG Letitia James to take over",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSUloWXRtQklqSW5VMDFybmQxS2o1RzRwd3RZOXZ1TTNDdnRPRFZxaUlGTzhvSVF1VUxsb1dCX2w1UkRSajRMRlQtcFU4SjJQelF3MDQ3UmZ3STJ5WHNkU09lYjlZV1pxRnlKYTZ4U3o3U0JMeVJqMTkwcjBiTGdsd1dhT2lmcG1FSFNlM3lTSF9KdjFRT19vQVVJWkphMFpzR0FZN3hMX0RkOXM?oc=5",
-          "published_at": "02:37"
-        }
-      ]
-    },
-    {
-      "id": "world-203",
-      "title": "India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties",
-      "title_en": "India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Thousands gather in Mumbai with heavy police presence as concerns mount that millions will be denied voting rights India’s youth-led Cockroach movement kicked off more nationwide protests on Friday as",
-      "excerpt_en": "Thousands gather in Mumbai with heavy police presence as concerns mount that millions will be denied voting rights India’s youth-led Cockroach movement kicked off more nationwide protests on Friday as",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/02/india-cockroach-movement-protests-mumbai-changes-voter-roll",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-02T11:02:05+09:00",
-      "latest_published_at": "2026-10-02T15:31:08+09:00",
-      "articles": [
-        {
-          "title": "'Cockroach' protesters demand India's election chief resign over voter list changes",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/cockroach-protesters-demand-indias-election-chief-resign-voter-136942017",
-          "published_at": "15:31"
-        },
-        {
-          "title": "India’s Cockroach movement launches new protests over changes to voter roll",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/02/india-cockroach-movement-protests-mumbai-changes-voter-roll",
-          "published_at": "14:42"
-        },
-        {
-          "title": "India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
-          "published_at": "11:02"
-        }
-      ]
-    },
-    {
-      "id": "world-327",
-      "title": "Mother of Christa Pike’s victim says she wanted to finish killer off herself after botched execution",
-      "title_en": "Mother of Christa Pike’s victim says she wanted to finish killer off herself after botched execution",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-execution-colleen-slemmer-mother-b3060237.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Convicted killer Christa Pike remains in hospital receiving emergency treatment after surviving two doses of the lethal injection drug pentobarbital.",
-      "excerpt_en": "Convicted killer Christa Pike remains in hospital receiving emergency treatment after surviving two doses of the lethal injection drug pentobarbital.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-03/christa-pike-botched-execution-timeline/107221564",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-02T08:56:50+09:00",
-      "latest_published_at": "2026-10-02T19:27:50+09:00",
-      "articles": [
-        {
-          "title": "A 'bent' syringe and a closed curtain: Inside Christa Pike's botched US execution",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-03/christa-pike-botched-execution-timeline/107221564",
-          "published_at": "19:27"
-        },
-        {
-          "title": "US prisoner fighting for life after surviving two lethal injections",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/us-prisoner-fighting-for-life-after-surviving-two-lethal-injections-20261002-p612gr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "09:38"
-        },
-        {
-          "title": "Mother of Christa Pike’s victim says she wanted to finish killer off herself after botched execution",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-execution-colleen-slemmer-mother-b3060237.html",
-          "published_at": "08:56"
-        }
-      ]
-    },
-    {
-      "id": "world-56",
-      "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-      "title_en": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-      "category": "중동",
-      "primary_source": "BBC",
-      "excerpt": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-      "excerpt_en": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T09:08:06+09:00",
-      "latest_published_at": "2026-10-02T20:22:53+09:00",
-      "articles": [
-        {
-          "title": "Indian pilot tells PM Modi he opened flydubai cockpit door during attack",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYW1JN1lJT0NhMWxSTm4xY1NJWHg4UGp5SzQtUlV2UjB6ZHgzdExsbXRIckJkWWpGWW1aY3dHX2ZBLTh5LS1yME1WaWJPQXdkTVluRVpCOTU2WjVhMm9wb1VVUEdsaG5xWlFYQUdPSndwYmhYN1VzMnBBMFJkdzVMTmJrc3R4cWxlcHBRdE5lWFBVc2NMLTJDSnRGazFDeXJXbW13Vzh0Q0QySjFTVVV3VXZiOHg?oc=5",
-          "published_at": "20:22"
-        },
-        {
-          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-          "published_at": "09:08"
-        }
-      ]
-    },
-    {
-      "id": "world-365",
-      "title": "FlyDubai co-pilot accused of cockpit attack was grounded by Oman Air before joining airline: report",
-      "title_en": "FlyDubai co-pilot accused of cockpit attack was grounded by Oman Air before joining airline: report",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.foxnews.com/world/flydubai-copilot-accused-cockpit-attack-grounded-oman-air-joining-airline-report",
-      "category": "중동",
-      "primary_source": "Fox News",
-      "excerpt": "The FlyDubai co-pilot was reportedly grounded by Oman Air in 2024 over visits to radical Islamic websites before being hired without a background check.",
-      "excerpt_en": "The FlyDubai co-pilot was reportedly grounded by Oman Air in 2024 over visits to radical Islamic websites before being hired without a background check.",
-      "excerpt_source": "Fox News",
-      "excerpt_url": "https://www.foxnews.com/world/flydubai-copilot-accused-cockpit-attack-grounded-oman-air-joining-airline-report",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Fox News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-02T21:20:15+09:00",
-      "latest_published_at": "2026-10-02T21:38:17+09:00",
-      "articles": [
-        {
-          "title": "Flydubai co-pilot was previously flagged as security risk and banned from flying by Oman over radical views: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/flydubai-co-pilot-was-previously-flagged-as-security-risk-and-banned-from-flying-by-oman-over-radical-views-report-101790976273576.html",
-          "published_at": "21:38"
-        },
-        {
-          "title": "FlyDubai co-pilot accused of cockpit attack was grounded by Oman Air before joining airline: report",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/flydubai-copilot-accused-cockpit-attack-grounded-oman-air-joining-airline-report",
-          "published_at": "21:20"
-        }
-      ]
-    },
-    {
-      "id": "world-76",
-      "title": "Russian airstrikes choke bridges across Dnipro River in Kyiv",
-      "title_en": "Russian airstrikes choke bridges across Dnipro River in Kyiv",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSk5TTks5OXBwTG8wMk1WQ0hCaUxRenlXMnBVZlBNVklSZHBDQmg5SmNTRWE5dkFwb1VpM21IUlljMThNTkpveEZlNlJvemhSMDBuOUJRcldyRThMNUoybnE5dW51LThsNW5tODlZWUd0ZlgxcFhTb01ITVRUT05zbVpwaVJ0dnB1VU40cFVLUVlPM2VBMk8zUFpTUXEzVXg1VUdWc1EtY1ZnWlpMWkJJ?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Russian aerial attacks have forced the partial closure of three bridges over the Dnipro River in Kyiv, causing traffic chaos",
-      "excerpt_en": "Russian aerial attacks have forced the partial closure of three bridges over the Dnipro River in Kyiv, causing traffic chaos",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/russian-aerial-strikes-snarl-traffic-3-kyiv-bridges-136944164",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T04:32:00+09:00",
-      "latest_published_at": "2026-10-02T16:02:23+09:00",
-      "articles": [
-        {
-          "title": "Russian aerial strikes snarl traffic on 3 Kyiv bridges in a new disruption tactic",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/russian-aerial-strikes-snarl-traffic-3-kyiv-bridges-136944164",
-          "published_at": "16:02"
-        },
-        {
-          "title": "Russian airstrikes choke bridges across Dnipro River in Kyiv",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSk5TTks5OXBwTG8wMk1WQ0hCaUxRenlXMnBVZlBNVklSZHBDQmg5SmNTRWE5dkFwb1VpM21IUlljMThNTkpveEZlNlJvemhSMDBuOUJRcldyRThMNUoybnE5dW51LThsNW5tODlZWUd0ZlgxcFhTb01ITVRUT05zbVpwaVJ0dnB1VU40cFVLUVlPM2VBMk8zUFpTUXEzVXg1VUdWc1EtY1ZnWlpMWkJJ?oc=5",
-          "published_at": "04:32"
-        }
-      ]
-    },
-    {
-      "id": "world-206",
-      "title": "King Charles to acknowledge ‘darkest days’ of colonial rule on Caribbean tour",
-      "title_en": "King Charles to acknowledge ‘darkest days’ of colonial rule on Caribbean tour",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3369633/king-charles-acknowledge-darkest-days-colonial-rule-caribbean-tour?utm_source=rss_feed",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "Buckingham Palace say the king will not ‘shy away’ from Britain’s role in slavery when he visits Commonwealth nations later this month King Charles III will acknowledge the “darkest days” of colonial ",
-      "excerpt_en": "Buckingham Palace say the king will not ‘shy away’ from Britain’s role in slavery when he visits Commonwealth nations later this month King Charles III will acknowledge the “darkest days” of colonial ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-02T18:11:53+09:00",
-      "latest_published_at": "2026-10-02T19:02:56+09:00",
-      "articles": [
-        {
-          "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
-          "published_at": "19:02"
-        },
-        {
-          "title": "King Charles to evoke colonial 'darkest days' on Caribbean tour",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3330353/king-charles-to-evoke-colonial-darkest-days-on-caribbean-tour",
-          "published_at": "18:30"
-        },
-        {
-          "title": "King Charles to acknowledge ‘darkest days’ of colonial rule on Caribbean tour",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3369633/king-charles-acknowledge-darkest-days-colonial-rule-caribbean-tour?utm_source=rss_feed",
-          "published_at": "18:11"
-        }
-      ]
-    },
-    {
-      "id": "world-320",
       "title": "Trump sending 9,000 more troops to Middle East after threatening new strikes on Iran",
       "title_en": "Trump sending 9,000 more troops to Middle East after threatening new strikes on Iran",
       "title_source": "earliest_pick",
@@ -1662,13 +1262,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-10-02T12:23:18+09:00",
-      "latest_published_at": "2026-10-02T19:33:14+09:00",
+      "latest_published_at": "2026-10-03T03:43:36+09:00",
       "articles": [
         {
           "title": "Trump vows Iran war to end \"very quickly\" as more troops head to Mideast",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment/",
-          "published_at": "19:33"
+          "published_at": "03:43"
         },
         {
           "title": "Trump sending 9,000 more troops to Middle East after threatening new strikes on Iran",
@@ -1679,7 +1279,7 @@
       ]
     },
     {
-      "id": "world-341",
+      "id": "world-242",
       "title": "US sends third carrier strike group to Middle East in biggest buildup since 2003",
       "title_en": "US sends third carrier strike group to Middle East in biggest buildup since 2003",
       "title_source": "earliest_pick",
@@ -1691,14 +1291,14 @@
       "excerpt_source": "Euronews",
       "excerpt_url": "https://www.euronews.com/2026/10/02/us-sends-third-carrier-strike-group-to-middle-east-in-biggest-buildup-since-2003",
       "translation_status": "failed",
-      "score": 61,
+      "score": 60,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
@@ -1726,119 +1326,119 @@
       ]
     },
     {
-      "id": "world-345",
-      "title": "Saudi coalition accuses Houthis of drone attack at power station for Prophet's Mosque in Medina",
-      "title_en": "Saudi coalition accuses Houthis of drone attack at power station for Prophet's Mosque in Medina",
+      "id": "world-318",
+      "title": "Suspect in flydubai attack was barred from flying in Oman: Reports",
+      "title_en": "Suspect in flydubai attack was barred from flying in Oman: Reports",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/saudi-coalition-accuses-houthis-of-drone-attack-at-power-station-for-prophets-mosque-in-medina-101790914904256.html",
+      "title_url": "https://www.channelnewsasia.com/world/flydubai-pilot-barred-flying-oman-6428741",
       "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "The Saudi-led coalition said a drone hit the Taibah electricity distribution station, which supplies power to the Prophet's Mosque, one of Islam's holiest sites. The Houthis denied the claim, stating ",
-      "excerpt_en": "The Saudi-led coalition said a drone hit the Taibah electricity distribution station, which supplies power to the Prophet's Mosque, one of Islam's holiest sites. The Houthis denied the claim, stating ",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/10/02/houthis-deny-saudi-accusations-of-targeting-medinas-holy-sites",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Meanwhile, the captain has revealed how he fought for his life while helping thwart the apparent attempt to crash the plane.",
+      "excerpt_en": "Meanwhile, the captain has revealed how he fought for his life while helping thwart the apparent attempt to crash the plane.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/middle-east/i-was-fighting-for-my-life-indian-pilot-hailed-as-hero-recalls-flydubai-cockpit-attack-20261002-p612hh.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "failed",
-      "score": 61,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-10-03T05:04:00+09:00",
+      "latest_published_at": "2026-10-03T06:55:00+09:00",
+      "articles": [
+        {
+          "title": "Flydubai attack suspect was banned from flying by Oman over extremism concerns",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/middle-east/i-was-fighting-for-my-life-indian-pilot-hailed-as-hero-recalls-flydubai-cockpit-attack-20261002-p612hh.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "06:55"
+        },
+        {
+          "title": "Suspect in flydubai attack was barred from flying in Oman: Reports",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/flydubai-pilot-barred-flying-oman-6428741",
+          "published_at": "05:04"
+        }
+      ]
+    },
+    {
+      "id": "world-32",
+      "title": "France: 400 schools closed as student protests continue",
+      "title_en": "France: 400 schools closed as student protests continue",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/france-400-schools-closed-as-student-protests-continue/a-79512732?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "유럽",
+      "primary_source": "DW",
+      "excerpt": "Police have made around 2,000 arrests and dozens of people have been injured as student protests spread across France. Ministers have called for a \"day of dialogue\" but students have called for furthe",
+      "excerpt_en": "Police have made around 2,000 arrests and dozens of people have been injured as student protests spread across France. Ministers have called for a \"day of dialogue\" but students have called for furthe",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/france-400-schools-closed-as-student-protests-continue/a-79512732?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
         "breaking_score": 7,
         "time_score": 2,
-        "raw75": 46
+        "raw75": 41
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Euronews",
-        "Hindustan Times"
+        "Al Jazeera",
+        "DW"
       ],
-      "first_published_at": "2026-10-02T04:28:14+09:00",
-      "latest_published_at": "2026-10-02T08:32:15+09:00",
+      "first_published_at": "2026-10-02T17:46:00+09:00",
+      "latest_published_at": "2026-10-03T01:46:10+09:00",
       "articles": [
         {
-          "title": "Houthis deny Saudi accusations of targeting Medina's holy sites",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/houthis-deny-saudi-accusations-of-targeting-medinas-holy-sites",
-          "published_at": "08:32"
+          "title": "Schools ablaze as student protests spread across France",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/schools-ablaze-as-student-protests-spread-across-france?traffic_source=rss",
+          "published_at": "01:46"
         },
         {
-          "title": "Saudi coalition accuses Houthis of drone attack at power station for Prophet's Mosque in Medina",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/saudi-coalition-accuses-houthis-of-drone-attack-at-power-station-for-prophets-mosque-in-medina-101790914904256.html",
-          "published_at": "04:28"
+          "title": "France: 400 schools closed as student protests continue",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/france-400-schools-closed-as-student-protests-continue/a-79512732?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "17:46"
         }
       ]
     },
     {
-      "id": "world-64",
-      "title": "Nepal plans to drain four glacial lakes after deadly floods",
-      "title_en": "Nepal plans to drain four glacial lakes after deadly floods",
+      "id": "world-251",
+      "title": "'It breaks you': Friend of stabbed pilot speaks out",
+      "title_en": "'It breaks you': Friend of stabbed pilot speaks out",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWm1uVHVkcWF4WS1tUm14dDBUd29CYUdCMUhaYW5mQVVidmV6bENpdnNLSHJYb2RVbDU2RkpvZUFLckFNVmRRZjBOTnhqM09zLXd2N1lDc2lBdkFCNXNhaHZUNXI3Qjl0cEVjZEZFZ1pNb0o2SFowdkIybzlGX2U0cWxkTUNvWFlkUW95MzZST2F1UDcyQ0pQX3ZVZ21ramlqWm42Yzd6Q1dISXZrNURUcTl2WQ?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Nepal is set to begin draining four high-altitude glacial lakes in an effort to reduce flood risks, as the country recovers from the recent catastrophic deadly flood that killed more than 1,400 people",
-      "excerpt_en": "Nepal is set to begin draining four high-altitude glacial lakes in an effort to reduce flood risks, as the country recovers from the recent catastrophic deadly flood that killed more than 1,400 people",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/nepal-plans-to-drain-four-dangerous-glacial-lakes-after-deadly-flash-flood-13594475",
+      "title_url": "https://www.abc.net.au/news/2026-10-03/captain-smit-machchhar-friend-pilot-tells-of-shock-and-relief/107223014",
+      "category": "중동",
+      "primary_source": "ABC News Australia",
+      "excerpt": "A pilot and close friend of the Indian flydubai captain who was attacked during a flight to Israel recalls his shock upon first seeing footage of the incident online.",
+      "excerpt_en": "A pilot and close friend of the Indian flydubai captain who was attacked during a flight to Israel recalls his shock upon first seeing footage of the incident online.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-10-03/captain-smit-machchhar-friend-pilot-tells-of-shock-and-relief/107223014",
       "translation_status": "failed",
-      "score": 57,
+      "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
+        "major_score": 10,
+        "breaking_score": 7,
         "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Sky News"
-      ],
-      "first_published_at": "2026-10-02T15:59:43+09:00",
-      "latest_published_at": "2026-10-02T16:34:00+09:00",
-      "articles": [
-        {
-          "title": "Nepal plans to drain four dangerous glacial lakes after deadly flood",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/nepal-plans-to-drain-four-dangerous-glacial-lakes-after-deadly-flash-flood-13594475",
-          "published_at": "16:34"
-        },
-        {
-          "title": "Nepal plans to drain four glacial lakes after deadly floods",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWm1uVHVkcWF4WS1tUm14dDBUd29CYUdCMUhaYW5mQVVidmV6bENpdnNLSHJYb2RVbDU2RkpvZUFLckFNVmRRZjBOTnhqM09zLXd2N1lDc2lBdkFCNXNhaHZUNXI3Qjl0cEVjZEZFZ1pNb0o2SFowdkIybzlGX2U0cWxkTUNvWFlkUW95MzZST2F1UDcyQ0pQX3ZVZ21ramlqWm42Yzd6Q1dISXZrNURUcTl2WQ?oc=5",
-          "published_at": "15:59"
-        }
-      ]
-    },
-    {
-      "id": "world-1",
-      "title": "What do we know about flydubai flight 1073?",
-      "title_en": "What do we know about flydubai flight 1073?",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "More on army, less on schools: What we know about Russia's 2027 budget",
-      "excerpt_en": "More on army, less on schools: What we know about Russia's 2027 budget",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/more-on-army-less-on-schools-what-we-know-about-russia-s-2027-budget-101790975505510.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
         "raw75": 41
       },
       "area_value": 2,
@@ -1846,188 +1446,47 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "Reuters"
+        "ABC News Australia",
+        "CBS News"
       ],
-      "first_published_at": "2026-10-02T20:53:24+09:00",
-      "latest_published_at": "2026-10-02T21:11:45+09:00",
+      "first_published_at": "2026-10-02T23:27:22+09:00",
+      "latest_published_at": "2026-10-02T23:50:08+09:00",
       "articles": [
         {
-          "title": "More on army, less on schools: What we know about Russia's 2027 budget",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/more-on-army-less-on-schools-what-we-know-about-russia-s-2027-budget-101790975505510.html",
-          "published_at": "21:11"
+          "title": "FlyDubai captain stabbed mid-flight by \"radicalized\" co-pilot speaks out",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/flydubai-captain-stabbed-mid-flight-by-radicalized-co-pilot-speaks-out/",
+          "published_at": "23:50"
         },
         {
-          "title": "What do we know about flydubai flight 1073?",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVlJGRkhlVDNVaGt3ekU3cFNoQzExQVRHTkFZc0lPWkhrQXFaWXFDMGJTdzNKMmF4T0JMcHRTQkxYRGhMbTZJNWt5WVZPNFM5MElvUGlYaHNLMU1kUVd1N2xkR3RaS0ppYll2a3hFZ1Y2N1k3bnpGUXI5T0JNclZpb0Mwdy11TTI1NzR5Ni1lS0ZZcl9IczM4LWExaG4?oc=5",
-          "published_at": "20:53"
+          "title": "'It breaks you': Friend of stabbed pilot speaks out",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-03/captain-smit-machchhar-friend-pilot-tells-of-shock-and-relief/107223014",
+          "published_at": "23:27"
         }
       ]
     },
     {
-      "id": "world-12",
-      "title": "Israeli officials to question co-pilot of flydubai flight, source says",
-      "title_en": "Israeli officials to question co-pilot of flydubai flight, source says",
+      "id": "world-6",
+      "title": "Women given shorts at Oktoberfest to prevent upskirting",
+      "title_en": "Women given shorts at Oktoberfest to prevent upskirting",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/flydubai-flight-israel-co-pilot-question-6427416",
-      "category": "중동",
-      "primary_source": "Channel News Asia",
-      "excerpt": "“It is important that we allow this process to establish the facts,” said flydubai CEO Ghaith Al Ghaith.",
-      "excerpt_en": "“It is important that we allow this process to establish the facts,” said flydubai CEO Ghaith Al Ghaith.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/flydubai-flight-israel-co-pilot-question-6427416",
+      "title_url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+      "category": "기타",
+      "primary_source": "BBC",
+      "excerpt": "At least 32,000 videos featuring women on the Teufelsrad have been circulated, according to Munich daily Süddeutsche Zeitung. Some have apparently been watched millions of times. The videos often show",
+      "excerpt_en": "At least 32,000 videos featuring women on the Teufelsrad have been circulated, according to Munich daily Süddeutsche Zeitung. Some have apparently been watched millions of times. The videos often show",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/munich-oktoberfest-ride-gives-women-free-shorts-amid-thousands-of-upskirting-videos/articleshow/134651034.cms",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T17:23:00+09:00",
-      "latest_published_at": "2026-10-02T20:20:50+09:00",
-      "articles": [
-        {
-          "title": "Israeli officials to question co-pilot of flydubai flight, source says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGxxTlpqUHE0NEg5VG14WnhFcU54UVJnSjV4SUdEdGxUVXlUSTVUMkNRQWtDand4UmUxdWtONDlfU2Z5QW5kSVc5NTJrekxscVdoQ0hvT2UyaWdFNHA0dnozZHVHcVViZkJxZmdhTE1zMDAyQlpXOERLMm1NU2pHckFpakUwRWR0V1NfTXRfSTlaQlBjSHNJdXVueGgzd2hUSUl3ZUtSZVA2ZDJ2QzBNdTdMeXdoUDVI?oc=5",
-          "published_at": "20:20"
-        },
-        {
-          "title": "Israeli officials to question co-pilot of flydubai flight, source says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/flydubai-flight-israel-co-pilot-question-6427416",
-          "published_at": "17:23"
-        }
-      ]
-    },
-    {
-      "id": "world-23",
-      "title": "US FAA says Boeing 737 MAX software glitch poses no safety issue",
-      "title_en": "US FAA says Boeing 737 MAX software glitch poses no safety issue",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/us-faa-says-boeing-737-max-software-glitch-poses-no-safety-issue-6428111",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "US FAA says Boeing 737 MAX software glitch poses no safety issue Reuters",
-      "excerpt_en": "US FAA says Boeing 737 MAX software glitch poses no safety issue Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQalBOaTNCb2FPaDg1T2c0Tkw3cUpTaUJXY01UYUl3VHh0RXEwSHU4ZUNzX2FLbXRjLW1tX2RxMjltTThYNFdaQ19JZV93SnhvRWw3Nlh2MzRhb0dsUGh0ME45RkpmQ1JOdmpJMGJZd0VpNk11THZtcUx3cGpwWkh2ZURrdExSVlR5UzdFU1ZocFVBb2VoR01STnc3Q2tmdEc2SGNlanl3bFE1aldoUDdIT0xn?oc=5",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T18:50:20+09:00",
-      "latest_published_at": "2026-10-02T21:42:28+09:00",
-      "articles": [
-        {
-          "title": "US FAA says Boeing 737 MAX software glitch poses no safety issue",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQalBOaTNCb2FPaDg1T2c0Tkw3cUpTaUJXY01UYUl3VHh0RXEwSHU4ZUNzX2FLbXRjLW1tX2RxMjltTThYNFdaQ19JZV93SnhvRWw3Nlh2MzRhb0dsUGh0ME45RkpmQ1JOdmpJMGJZd0VpNk11THZtcUx3cGpwWkh2ZURrdExSVlR5UzdFU1ZocFVBb2VoR01STnc3Q2tmdEc2SGNlanl3bFE1aldoUDdIT0xn?oc=5",
-          "published_at": "21:42"
-        },
-        {
-          "title": "US FAA says Boeing 737 MAX software glitch poses no safety issue",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/us-faa-says-boeing-737-max-software-glitch-poses-no-safety-issue-6428111",
-          "published_at": "18:50"
-        }
-      ]
-    },
-    {
-      "id": "world-85",
-      "title": "Stocks climb after weak US jobs data, but bonds resume selling",
-      "title_en": "Stocks climb after weak US jobs data, but bonds resume selling",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xaEpXc3pMdGRXalZlcHdvWThBeklWRlpfRDd4cUZLbXNGS2s0YVF4Sm42YUpqaFNTbVkyWmIyanN6WmxtSG5yME8zTml3Z1N3a0NabmktSy1YYWp0SFlOM2NQZEN6WmFnX096dUREY1pHTFJ0NzlrUW54cw?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "Stocks climb after weak US jobs data, but bonds resume selling Reuters",
-      "excerpt_en": "Stocks climb after weak US jobs data, but bonds resume selling Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xaEpXc3pMdGRXalZlcHdvWThBeklWRlpfRDd4cUZLbXNGS2s0YVF4Sm42YUpqaFNTbVkyWmIyanN6WmxtSG5yME8zTml3Z1N3a0NabmktSy1YYWp0SFlOM2NQZEN6WmFnX096dUREY1pHTFJ0NzlrUW54cw?oc=5",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T02:10:00+09:00",
-      "latest_published_at": "2026-10-02T21:43:05+09:00",
-      "articles": [
-        {
-          "title": "US jobs data boosts stocks as oil prices dip",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-jobs-data-boosts-stocks-oil-prices-dip-6428296",
-          "published_at": "21:43"
-        },
-        {
-          "title": "Stocks climb after weak US jobs data, but bonds resume selling",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xaEpXc3pMdGRXalZlcHdvWThBeklWRlpfRDd4cUZLbXNGS2s0YVF4Sm42YUpqaFNTbVkyWmIyanN6WmxtSG5yME8zTml3Z1N3a0NabmktSy1YYWp0SFlOM2NQZEN6WmFnX096dUREY1pHTFJ0NzlrUW54cw?oc=5",
-          "published_at": "02:10"
-        }
-      ]
-    },
-    {
-      "id": "world-99",
-      "title": "Trump’s Threat to Ban Diesel Exports Sets Off Global Alarms",
-      "title_en": "Trump’s Threat to Ban Diesel Exports Sets Off Global Alarms",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/10/01/business/diesel-prices-us-exports.html",
-      "category": "미국",
-      "primary_source": "New York Times",
-      "excerpt": "A reduction in refineries has already driven the price of diesel to record highs, threatening economies. An U.S. export ban would be “tremendous shock and blow.”",
-      "excerpt_en": "A reduction in refineries has already driven the price of diesel to record highs, threatening economies. An U.S. export ban would be “tremendous shock and blow.”",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/10/01/business/diesel-prices-us-exports.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -2035,366 +1494,37 @@
       "source_count": 2,
       "sources": [
         "BBC",
-        "New York Times"
+        "Times of India"
       ],
-      "first_published_at": "2026-10-02T12:36:10+09:00",
-      "latest_published_at": "2026-10-02T20:25:19+09:00",
+      "first_published_at": "2026-10-02T23:16:03+09:00",
+      "latest_published_at": "2026-10-03T03:06:37+09:00",
       "articles": [
         {
-          "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+          "title": "Women in Munich Oktoberfest given free shorts to prevent upskirting",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/munich-oktoberfest-ride-gives-women-free-shorts-amid-thousands-of-upskirting-videos/articleshow/134651034.cms",
+          "published_at": "03:06"
+        },
+        {
+          "title": "Women given shorts at Oktoberfest to prevent upskirting",
           "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-          "published_at": "20:25"
-        },
-        {
-          "title": "Trump’s Threat to Ban Diesel Exports Sets Off Global Alarms",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/01/business/diesel-prices-us-exports.html",
-          "published_at": "12:36"
+          "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "23:16"
         }
       ]
     },
     {
-      "id": "world-11",
-      "title": "Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns",
-      "title_en": "Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns",
+      "id": "world-29",
+      "title": "G7 nations agree to release diesel and oil stocks after Trump pressure",
+      "title_en": "G7 nations agree to release diesel and oil stocks after Trump pressure",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/dutch-eyewear-chain-hans-anders-halts-sale-meta-glasses-citing-privacy-concerns-6427331",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns Reuters",
-      "excerpt_en": "Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOTZJbGZnVk93R1htYkJ4QkpMX2NzaU0xT1ZyWDFxcDFQN180MDZSaGZPRXhHUkdPN3UwMDFlZjhZaHhENEtGVGIzd20xTy1jVUNhMExEc2lTcGZVMGNrWXRyMFczVGNMOHg4QnRWR3FQVlFNVklJSnVUQUtHTWJvRlVFQjRqbWRUbk1iUHpSbUF3STBWYzlwN2hRb3c3OVVldEJJUFdnUHBfMlRSeXdVRkpidW5xckF1LVJJLURJQ1hsY1dXcGdnUnN3?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T15:14:00+09:00",
-      "latest_published_at": "2026-10-02T18:49:42+09:00",
-      "articles": [
-        {
-          "title": "Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOTZJbGZnVk93R1htYkJ4QkpMX2NzaU0xT1ZyWDFxcDFQN180MDZSaGZPRXhHUkdPN3UwMDFlZjhZaHhENEtGVGIzd20xTy1jVUNhMExEc2lTcGZVMGNrWXRyMFczVGNMOHg4QnRWR3FQVlFNVklJSnVUQUtHTWJvRlVFQjRqbWRUbk1iUHpSbUF3STBWYzlwN2hRb3c3OVVldEJJUFdnUHBfMlRSeXdVRkpidW5xckF1LVJJLURJQ1hsY1dXcGdnUnN3?oc=5",
-          "published_at": "18:49"
-        },
-        {
-          "title": "Dutch eyewear chain Hans Anders halts sale of Meta glasses, citing privacy concerns",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/dutch-eyewear-chain-hans-anders-halts-sale-meta-glasses-citing-privacy-concerns-6427331",
-          "published_at": "15:14"
-        }
-      ]
-    },
-    {
-      "id": "world-22",
-      "title": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis",
-      "title_en": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWExYaGpkaTdfbjMzM1pEc1EzVFA4emhFbVFYbEpteVNRMU94cG1lOG9WclVRQjdiaHJoSjlwcFU1M2Qxcnl1VndaM0h0c3pvZDdtOHEzQjNvLWhOYVM2a2tSZUw1MzRTV01Wb0hRVWMyVnNIbHdTY282MGFsWURpSGJfcUhuRDJHRjBpMU5xVzVOT1F6UFkwTnN1NFo4ckxNc3hWbzllUFZBYWItNGJRZEdITnFZV3A4aHh6RllfR0NXZw?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "Pakistan says Iran has suggested political talks with Yemen’s Houthis, which Saudi Arabia, Türkiye and Pakistan will discuss at an emergency meeting.",
-      "excerpt_en": "Pakistan says Iran has suggested political talks with Yemen’s Houthis, which Saudi Arabia, Türkiye and Pakistan will discuss at an emergency meeting.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/pakistan-mecca-defence-pact-houthis-6427571",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T14:11:44+09:00",
-      "latest_published_at": "2026-10-02T18:15:58+09:00",
-      "articles": [
-        {
-          "title": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/pakistan-mecca-defence-pact-houthis-6427571",
-          "published_at": "18:15"
-        },
-        {
-          "title": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWExYaGpkaTdfbjMzM1pEc1EzVFA4emhFbVFYbEpteVNRMU94cG1lOG9WclVRQjdiaHJoSjlwcFU1M2Qxcnl1VndaM0h0c3pvZDdtOHEzQjNvLWhOYVM2a2tSZUw1MzRTV01Wb0hRVWMyVnNIbHdTY282MGFsWURpSGJfcUhuRDJHRjBpMU5xVzVOT1F6UFkwTnN1NFo4ckxNc3hWbzllUFZBYWItNGJRZEdITnFZV3A4aHh6RllfR0NXZw?oc=5",
-          "published_at": "14:11"
-        }
-      ]
-    },
-    {
-      "id": "world-60",
-      "title": "Amazon to invest $1 billion over five years in US data center communities",
-      "title_en": "Amazon to invest $1 billion over five years in US data center communities",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQenJEMWNZMUk5S2w0dUZiNzdpeTVhdXhCNWpjeWFWR1ZQUDJkTTlBczF5SWw2dk9TQ05kMVF3b3V2czEzYnJOa0JhX0V3WHRMbE8xVlUzR0lJa3RjS3JrWjlHY2o5cktzdWJQa05GZkdlZ3dTZVpsRHlBRDh6ZUczcmhza1JZUXVncDhNaHVtUnc3aEVOWnF6QmItMVJJREQ4MWpfOERMcW1WVkZsZW5GZEJTYWhyQmhSNUx6bDNaa3lUNlhHdWc?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "An Amazon executive warned against the spread of what he believes is misinformation about data centers' impact and cited over 100 moratoriums being considered across the country",
-      "excerpt_en": "An Amazon executive warned against the spread of what he believes is misinformation about data centers' impact and cited over 100 moratoriums being considered across the country",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/amazon-data-center-ndas-investment-communities-b3060443.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-02T09:05:01+09:00",
-      "latest_published_at": "2026-10-02T14:03:19+09:00",
-      "articles": [
-        {
-          "title": "Amazon will ditch data center NDAs and invest $1 billion in host communities as backlash grows",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/amazon-data-center-ndas-investment-communities-b3060443.html",
-          "published_at": "14:03"
-        },
-        {
-          "title": "Amazon to invest $1 billion over five years in US data center communities",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQenJEMWNZMUk5S2w0dUZiNzdpeTVhdXhCNWpjeWFWR1ZQUDJkTTlBczF5SWw2dk9TQ05kMVF3b3V2czEzYnJOa0JhX0V3WHRMbE8xVlUzR0lJa3RjS3JrWjlHY2o5cktzdWJQa05GZkdlZ3dTZVpsRHlBRDh6ZUczcmhza1JZUXVncDhNaHVtUnc3aEVOWnF6QmItMVJJREQ4MWpfOERMcW1WVkZsZW5GZEJTYWhyQmhSNUx6bDNaa3lUNlhHdWc?oc=5",
-          "published_at": "09:05"
-        }
-      ]
-    },
-    {
-      "id": "world-62",
-      "title": "Swedish Company Uses A.I. Likeness of Greta Garbo in Ad",
-      "title_en": "Swedish Company Uses A.I. Likeness of Greta Garbo in Ad",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/10/01/world/europe/ai-garbo-ad-sweden-skf.html",
-      "category": "아시아",
-      "primary_source": "New York Times",
-      "excerpt": "The Swedish American actress, who died in 1990, was brought back in a A.I.-generated ad for a manufacturing company.",
-      "excerpt_en": "The Swedish American actress, who died in 1990, was brought back in a A.I.-generated ad for a manufacturing company.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/10/01/world/europe/ai-garbo-ad-sweden-skf.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "New York Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-02T09:35:43+09:00",
-      "latest_published_at": "2026-10-02T12:51:39+09:00",
-      "articles": [
-        {
-          "title": "Swedish ball-bearing ad revives Greta Garbo with US, Chinese AI",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON0h4dGNpV1NFa21mdnRuVmVWaHZfSXh2RFlOMmNoUFN2M05DMFc3ZzhTWTQybTQzRXBQRTItUzBjM1RVckgzMXpDY3dXMHlzaWJrTVMwU1IxaG9FOUpobzg2YkFDOTloZkl6RXp1c2duRzl2LW1vTEJDQ01icjh6SFllREZ3c0VkVkpLT3Z1Wm5tSDh3T1N0ZVczelBuS2JMRXJiTUJQdl8yU2NDd0hVWDNRTkNxNWN4dVlmVUFB?oc=5",
-          "published_at": "12:51"
-        },
-        {
-          "title": "Swedish Company Uses A.I. Likeness of Greta Garbo in Ad",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/01/world/europe/ai-garbo-ad-sweden-skf.html",
-          "published_at": "09:35"
-        }
-      ]
-    },
-    {
-      "id": "world-95",
-      "title": "Households will pay more for energy because of federal policy changes, think tank says",
-      "title_en": "Households will pay more for energy because of federal policy changes, think tank says",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmNxeDQ3VW1wQWJaRWpWWlpCZ0pQYzg0OWpoSWo0a0hrU3g3REZMakxlQWxrenBxY0lsc0JQT3lDaHA1bkFFMUo3MkZZWXFRalUyaXM3Nl9NSjlXeDNCZF8zTTMtT1BFQ0kyd2kxY1ZwWHBqbFhNamZPejBFRE9yT1dKcjJtZ2N5T1d5MlVwVVNxaEFjSlg5TmxtMGRWUXhlbG84VWU3Tkx5a2pxR2kwUnl3?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "Households in the contiguous United States will pay thousands of dollars more for energy through 2040 because of federal policy changes since President Donald Trump returned to office, such as canceli",
-      "excerpt_en": "Households in the contiguous United States will pay thousands of dollars more for energy through 2040 because of federal policy changes since President Donald Trump returned to office, such as canceli",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/donald-trump-united-states-households-oregon-white-house-b3060474.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-02T14:35:00+09:00",
-      "latest_published_at": "2026-10-02T14:35:30+09:00",
-      "articles": [
-        {
-          "title": "Households will pay more for energy because of federal policy changes, think tank says",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-united-states-households-oregon-white-house-b3060474.html",
-          "published_at": "14:35"
-        },
-        {
-          "title": "Households will pay more for energy because of federal policy changes, think tank says",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmNxeDQ3VW1wQWJaRWpWWlpCZ0pQYzg0OWpoSWo0a0hrU3g3REZMakxlQWxrenBxY0lsc0JQT3lDaHA1bkFFMUo3MkZZWXFRalUyaXM3Nl9NSjlXeDNCZF8zTTMtT1BFQ0kyd2kxY1ZwWHBqbFhNamZPejBFRE9yT1dKcjJtZ2N5T1d5MlVwVVNxaEFjSlg5TmxtMGRWUXhlbG84VWU3Tkx5a2pxR2kwUnl3?oc=5",
-          "published_at": "14:35"
-        }
-      ]
-    },
-    {
-      "id": "world-97",
-      "title": "CBS Sports describes Tony Romo's permanent exit as mutual parting",
-      "title_en": "CBS Sports describes Tony Romo's permanent exit as mutual parting",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/sports/football/nfl/tony-romo-cbs-sports-mutual-parting-arrest-dwi-9.7367127?cmp=rss",
-      "category": "기타",
-      "primary_source": "CBC",
-      "excerpt": "CBS Sports and Tony Romo have officially parted ways, one month after the former Dallas Cowboys quarterback pleaded no contest to charges of operating a vehicle while intoxicated.",
-      "excerpt_en": "CBS Sports and Tony Romo have officially parted ways, one month after the former Dallas Cowboys quarterback pleaded no contest to charges of operating a vehicle while intoxicated.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/sports/football/nfl/tony-romo-cbs-sports-mutual-parting-arrest-dwi-9.7367127?cmp=rss",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "CBC"
-      ],
-      "first_published_at": "2026-10-02T17:08:07+09:00",
-      "latest_published_at": "2026-10-02T17:27:00+09:00",
-      "articles": [
-        {
-          "title": "CBS announces Tony Romo's permanent exit following arrest for operating a vehicle while intoxicated",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZW5OemxrbTNYLTlaWFdMaU1pUmtrQ3M0bWQzelBraUFmMGtzZnRDRUwwZXJpU2lXbng5QzRtMFNBeDY1a1FPakVyaldNZFFFbV9kRU9pYkdnc1hJN3NuT0xrRGlETmZYMkw1NUN4eVZRenVpcklST1o3d3lvWktDek05NFdyUk0?oc=5",
-          "published_at": "17:27"
-        },
-        {
-          "title": "CBS Sports describes Tony Romo's permanent exit as mutual parting",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/sports/football/nfl/tony-romo-cbs-sports-mutual-parting-arrest-dwi-9.7367127?cmp=rss",
-          "published_at": "17:08"
-        }
-      ]
-    },
-    {
-      "id": "world-98",
-      "title": "Brazil's leading presidential candidates snub TV debate ahead of Sunday's election",
-      "title_en": "Brazil's leading presidential candidates snub TV debate ahead of Sunday's election",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/brazils-leading-presidential-candidates-snub-tv-debate-ahead-136939403",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "Brazil’s President Luiz Inácio Lula da Silva and opposition candidate Flávio Bolsonaro have snubbed a final chance to debate ahead of the election",
-      "excerpt_en": "Brazil’s President Luiz Inácio Lula da Silva and opposition candidate Flávio Bolsonaro have snubbed a final chance to debate ahead of the election",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/brazils-leading-presidential-candidates-snub-tv-debate-ahead-136939403",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-10-02T03:25:39+09:00",
-      "latest_published_at": "2026-10-02T08:23:09+09:00",
-      "articles": [
-        {
-          "title": "Brazil’s leading presidential candidates snub TV debate ahead of Sunday’s election",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcDZQTTFIb3lzUVdOMGdwVVQtTjJZTFM1S2JYdEZRZjVobUdvTWIyY21xM2RrblFSd3hXUFkxWjBnNXRvMWx1bXlUM09NVGlvQUpwVndZaHdvWU1TaXl5cS1rQlFwZWlELUZzNlRQSXhFam9DUEY2TUpsX1ZqRXRvMmFUdW00ODVONkpDdE5HalJLZTBIem9HTXBXbTBfaUVMbmxEYkFTbWNDb2M?oc=5",
-          "published_at": "08:23"
-        },
-        {
-          "title": "Brazil's leading presidential candidates snub TV debate ahead of Sunday's election",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazils-leading-presidential-candidates-snub-tv-debate-ahead-136939403",
-          "published_at": "03:25"
-        }
-      ]
-    },
-    {
-      "id": "world-135",
-      "title": "Taiwan Coast Guard confronts Chinese fishing boats in Dongsha waters",
-      "title_en": "Taiwan Coast Guard confronts Chinese fishing boats in Dongsha waters",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_taiwan-coast-guard-fires-water-cannon-on-chinese-021026?traffic_source=rss",
-      "category": "아시아",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Taiwan’s Coast Guard Administration (CGA) used water cannons to expel a mainland Chinese fishing vessel near Dongsha Island, authorities said on Friday. The incident occurred on October 1, 27 nautical",
-      "excerpt_en": "Taiwan’s Coast Guard Administration (CGA) used water cannons to expel a mainland Chinese fishing vessel near Dongsha Island, authorities said on Friday. The incident occurred on October 1, 27 nautical",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Group ⁠of Seven countries agreed on Friday to release 100 million barrels of diesel and crude oil from emergency reserves and pledged to refrain from energy export restrictions after pressure from US ",
+      "excerpt_en": "Group ⁠of Seven countries agreed on Friday to release 100 million barrels of diesel and crude oil from emergency reserves and pledged to refrain from energy export restrictions after pressure from US ",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/politics/article/3369634/taiwan-coastguard-uses-water-cannons-warn-mainland-chinese-fishing-vessel?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2413,43 +1543,43 @@
         "Al Jazeera",
         "SCMP"
       ],
-      "first_published_at": "2026-10-02T16:23:02+09:00",
-      "latest_published_at": "2026-10-02T18:33:28+09:00",
+      "first_published_at": "2026-10-02T14:51:04+09:00",
+      "latest_published_at": "2026-10-03T03:54:58+09:00",
       "articles": [
         {
-          "title": "Taiwan coastguard uses water cannons to warn off mainland Chinese fishing vessel",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/politics/article/3369634/taiwan-coastguard-uses-water-cannons-warn-mainland-chinese-fishing-vessel?utm_source=rss_feed",
-          "published_at": "18:33"
+          "title": "G7 nations bow to US pressure and avoid crippling diesel ban",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/g7-nations-bow-to-us-pressure-and-avoid-crippling-diesel-ban?traffic_source=rss",
+          "published_at": "03:54"
         },
         {
-          "title": "Taiwan Coast Guard confronts Chinese fishing boats in Dongsha waters",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_taiwan-coast-guard-fires-water-cannon-on-chinese-021026?traffic_source=rss",
-          "published_at": "16:23"
+          "title": "G7 nations agree to release diesel and oil stocks after Trump pressure",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
+          "published_at": "14:51"
         }
       ]
     },
     {
-      "id": "world-182",
-      "title": "Hundreds of French high schools shut as new violence erupts",
-      "title_en": "Hundreds of French high schools shut as new violence erupts",
+      "id": "world-85",
+      "title": "Macron government struggles to quell protests as riot police clash with high schoolers",
+      "title_en": "Macron government struggles to quell protests as riot police clash with high schoolers",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3369582/hundreds-french-high-schools-shut-new-violence-erupts?utm_source=rss_feed",
+      "title_url": "https://www.cbc.ca/news/world/france-school-protests-9.7366549?cmp=rss",
       "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "French high school students lit fires outside schools and faced off with police on Friday as a protest movement that has forced the closure of some 400 establishments showed no sign of abating. The mo",
-      "excerpt_en": "French high school students lit fires outside schools and faced off with police on Friday as a protest movement that has forced the closure of some 400 establishments showed no sign of abating. The mo",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3369582/hundreds-french-high-schools-shut-new-violence-erupts?utm_source=rss_feed",
+      "primary_source": "CBC",
+      "excerpt": "Riot police clashed with high school ​students in cities across France on Friday, as President Emmanuel Macron's government battled to contain increasingly violent protests over classroom conditions a",
+      "excerpt_en": "Riot police clashed with high school ​students in cities across France on Friday, as President Emmanuel Macron's government battled to contain increasingly violent protests over classroom conditions a",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/video/20261002-students-and-police-clash-as-france-struggles-to-quell-school-protests",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 1,
         "raw75": 40
       },
       "area_value": 2,
@@ -2457,38 +1587,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
-        "SCMP"
+        "CBC",
+        "France24"
       ],
-      "first_published_at": "2026-10-02T09:50:26+09:00",
-      "latest_published_at": "2026-10-02T12:55:57+09:00",
+      "first_published_at": "2026-10-02T11:02:33+09:00",
+      "latest_published_at": "2026-10-02T13:40:56+09:00",
       "articles": [
         {
-          "title": "France school protests 'rapidly becoming out of control'",
+          "title": "Students and police clash as France struggles to quell school protests",
           "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261002-france-school-protests-rapidly-becoming-out-of-control",
-          "published_at": "12:55"
+          "url": "https://www.france24.com/en/video/20261002-students-and-police-clash-as-france-struggles-to-quell-school-protests",
+          "published_at": "13:40"
         },
         {
-          "title": "Hundreds of French high schools shut as new violence erupts",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3369582/hundreds-french-high-schools-shut-new-violence-erupts?utm_source=rss_feed",
-          "published_at": "09:50"
+          "title": "Macron government struggles to quell protests as riot police clash with high schoolers",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/france-school-protests-9.7366549?cmp=rss",
+          "published_at": "11:02"
         }
       ]
     },
     {
-      "id": "world-183",
-      "title": "Spain housing reform vote pending as protests mount",
-      "title_en": "Spain housing reform vote pending as protests mount",
+      "id": "world-237",
+      "title": "Debt-saddled Argentina pitches 'golden passport' scheme to woo wealthy foreigners",
+      "title_en": "Debt-saddled Argentina pitches 'golden passport' scheme to woo wealthy foreigners",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3330295/spain-housing-reform-vote-pending-as-protests-mount",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Spanish lawmakers are due to vote on Friday on two government housing decrees drawn up after an outcry over the eviction of an 87-year-old woman, with their passage in doubt. Several hundred people he",
-      "excerpt_en": "Spanish lawmakers are due to vote on Friday on two government housing decrees drawn up after an outcry over the eviction of an 87-year-old woman, with their passage in doubt. Several hundred people he",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261002-spain-housing-protests-rage-ahead-of-key-government-vote",
+      "title_url": "https://www.euronews.com/2026/10/02/debt-saddled-argentina-pitches-golden-passport-scheme-to-woo-wealthy-foreigners",
+      "category": "기타",
+      "primary_source": "Euronews",
+      "excerpt": "Argentina on Friday announced plans to offer citizenship to wealthy foreigners in exchange for cash contributions or investments in government bonds, as libertarian President Javier Milei seeks new so",
+      "excerpt_en": "Argentina on Friday announced plans to offer citizenship to wealthy foreigners in exchange for cash contributions or investments in government bonds, as libertarian President Javier Milei seeks new so",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/2026/10/02/debt-saddled-argentina-pitches-golden-passport-scheme-to-woo-wealthy-foreigners",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2505,131 +1635,37 @@
       "source_count": 2,
       "sources": [
         "Bangkok Post",
-        "France24"
+        "Euronews"
       ],
-      "first_published_at": "2026-10-02T11:45:00+09:00",
-      "latest_published_at": "2026-10-02T12:54:02+09:00",
+      "first_published_at": "2026-10-02T17:35:42+09:00",
+      "latest_published_at": "2026-10-02T17:45:00+09:00",
       "articles": [
         {
-          "title": "Spain housing protests rage ahead of key government vote",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261002-spain-housing-protests-rage-ahead-of-key-government-vote",
-          "published_at": "12:54"
+          "title": "Argentina unveils passports-for-investment scheme",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3330358/argentina-unveils-passportsforinvestment-scheme",
+          "published_at": "17:45"
         },
         {
-          "title": "Spain housing reform vote pending as protests mount",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3330295/spain-housing-reform-vote-pending-as-protests-mount",
-          "published_at": "11:45"
+          "title": "Debt-saddled Argentina pitches 'golden passport' scheme to woo wealthy foreigners",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/02/debt-saddled-argentina-pitches-golden-passport-scheme-to-woo-wealthy-foreigners",
+          "published_at": "17:35"
         }
       ]
     },
     {
-      "id": "world-261",
-      "title": "Taiwan hails F-16V delivery as sign US support holds after Xi-Trump summit",
-      "title_en": "Taiwan hails F-16V delivery as sign US support holds after Xi-Trump summit",
+      "id": "world-184",
+      "title": "India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties",
+      "title_en": "India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/military/article/3369584/taiwan-hails-f-16v-delivery-sign-us-support-holds-after-xi-trump-summit?utm_source=rss_feed",
+      "title_url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "Taiwan has hailed the much-delayed arrival of two F-16V fighter jets as a demonstration of continuing American military support, despite a US presidential hold put on a separate multibilllion-dollar a",
-      "excerpt_en": "Taiwan has hailed the much-delayed arrival of two F-16V fighter jets as a demonstration of continuing American military support, despite a US presidential hold put on a separate multibilllion-dollar a",
+      "excerpt": "India’s opposition parties and the youth-led “cockroach” movement took to the streets on Friday, demanding action over alleged irregularities in voter rolls and calling for the resignation of the coun",
+      "excerpt_en": "India’s opposition parties and the youth-led “cockroach” movement took to the streets on Friday, demanding action over alleged irregularities in voter rolls and calling for the resignation of the coun",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/military/article/3369584/taiwan-hails-f-16v-delivery-sign-us-support-holds-after-xi-trump-summit?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-02T10:00:48+09:00",
-      "latest_published_at": "2026-10-02T13:14:26+09:00",
-      "articles": [
-        {
-          "title": "Taiwan receives 2 long-delayed US F-16Vs and awaits additional fighter jets",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/taiwan-receives-2-long-delayed-us-16vs-awaits-136944549",
-          "published_at": "13:14"
-        },
-        {
-          "title": "Taiwan hails F-16V delivery as sign US support holds after Xi-Trump summit",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/military/article/3369584/taiwan-hails-f-16v-delivery-sign-us-support-holds-after-xi-trump-summit?utm_source=rss_feed",
-          "published_at": "10:00"
-        }
-      ]
-    },
-    {
-      "id": "world-344",
-      "title": "'Spits in face of Constitution': Pete Hegseth slammed for setting up Office of Religious Affairs at Pentagon",
-      "title_en": "'Spits in face of Constitution': Pete Hegseth slammed for setting up Office of Religious Affairs at Pentagon",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/spits-in-face-of-constitution-pete-hegseth-slammed-for-setting-up-office-of-religious-affairs-at-pentagon-101790929984496.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Hegseth has infused his evangelical Christianity into his leadership of the Pentagon, hosting worship services for employees and often speaking of the United States as a Christian nation.",
-      "excerpt_en": "Hegseth has infused his evangelical Christianity into his leadership of the Pentagon, hosting worship services for employees and often speaking of the United States as a Christian nation.",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/10/02/pete-hegseth-creates-pentagon-office-of-religious-affairs-reporting-directly-to-him",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-02T08:47:11+09:00",
-      "latest_published_at": "2026-10-02T08:51:33+09:00",
-      "articles": [
-        {
-          "title": "Pete Hegseth creates Pentagon Office of Religious Affairs reporting directly to him",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/02/pete-hegseth-creates-pentagon-office-of-religious-affairs-reporting-directly-to-him",
-          "published_at": "08:51"
-        },
-        {
-          "title": "'Spits in face of Constitution': Pete Hegseth slammed for setting up Office of Religious Affairs at Pentagon",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/spits-in-face-of-constitution-pete-hegseth-slammed-for-setting-up-office-of-religious-affairs-at-pentagon-101790929984496.html",
-          "published_at": "08:47"
-        }
-      ]
-    },
-    {
-      "id": "world-74",
-      "title": "US congressman demands Starbucks close its first stores in China's Xinjiang",
-      "title_en": "US congressman demands Starbucks close its first stores in China's Xinjiang",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObmV6NUtNZTNfS2E3ZXQ2VHlxZk1XQ3d3djZTQVVwZ1ZORnlhSWkyY1puamgxLUxyeW44c3ptV2V6ekl2TWhyeGFFclBGaGVrT2stNW9DM3U5eFVZQ1l2cXVJOEFtRDExUWIzWGVtM0UxQmpyMzA2VlVuSDFIY1VqNEQ4dFlxWWhLNW9fdEgzSFlHaThRNzZKc3ZZaHE5RHF3Sk5henhnY3QtQUV6bkxPaUtmZzFweG8?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "China denies widespread accusations about abuses of the Uyghurs, a mainly Muslim people.",
-      "excerpt_en": "China denies widespread accusations about abuses of the Uyghurs, a mainly Muslim people.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/china-xinjiang-starucks-uyghurs-us-lawmaker-john-moolenaar-101790921631196.html",
+      "excerpt_url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 52,
       "score_breakdown": {
@@ -2645,23 +1681,23 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "Reuters"
+        "ABC News",
+        "SCMP"
       ],
-      "first_published_at": "2026-10-02T05:34:00+09:00",
-      "latest_published_at": "2026-10-02T07:04:25+09:00",
+      "first_published_at": "2026-10-02T11:02:05+09:00",
+      "latest_published_at": "2026-10-02T15:31:08+09:00",
       "articles": [
         {
-          "title": "US lawmaker calls on Starbucks to close new stores in China's Xinjiang in light of Uyghur repression",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/china-xinjiang-starucks-uyghurs-us-lawmaker-john-moolenaar-101790921631196.html",
-          "published_at": "07:04"
+          "title": "'Cockroach' protesters demand India's election chief resign over voter list changes",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/cockroach-protesters-demand-indias-election-chief-resign-voter-136942017",
+          "published_at": "15:31"
         },
         {
-          "title": "US congressman demands Starbucks close its first stores in China's Xinjiang",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObmV6NUtNZTNfS2E3ZXQ2VHlxZk1XQ3d3djZTQVVwZ1ZORnlhSWkyY1puamgxLUxyeW44c3ptV2V6ekl2TWhyeGFFclBGaGVrT2stNW9DM3U5eFVZQ1l2cXVJOEFtRDExUWIzWGVtM0UxQmpyMzA2VlVuSDFIY1VqNEQ4dFlxWWhLNW9fdEgzSFlHaThRNzZKc3ZZaHE5RHF3Sk5henhnY3QtQUV6bkxPaUtmZzFweG8?oc=5",
-          "published_at": "05:34"
+          "title": "India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
+          "published_at": "11:02"
         }
       ]
     }
