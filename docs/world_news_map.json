@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,27 +8,116 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-10-16T03:38:04.882639+09:00",
+  "updated_at": "2026-10-16T06:49:01.907513+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 613,
-  "cluster_count_total": 493,
+  "article_count_total": 635,
+  "cluster_count_total": 491,
   "clusters": [
     {
-      "id": "world-190",
-      "title": "‘We’re done’: Ukraine resumes Russian refinery strikes, defying Trump",
-      "title_en": "‘We’re done’: Ukraine resumes Russian refinery strikes, defying Trump",
+      "id": "world-222",
+      "title": "School owner arrested after dozens of children killed in roof collapse",
+      "title_en": "School owner arrested after dozens of children killed in roof collapse",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3370993/were-done-ukraine-resumes-russian-refinery-strikes-zelensky-defies-trump?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Delano D'Souza is pleased to welcome Peter Zalmayev, Founder and Director of the Eurasia Democracy Initiative, LIVE from Kyiv. As Zelensky declares Ukraine \"done\" with Trump's self-declared energy cea",
-      "excerpt_en": "Delano D'Souza is pleased to welcome Peter Zalmayev, Founder and Director of the Eurasia Democracy Initiative, LIVE from Kyiv. As Zelensky declares Ukraine \"done\" with Trump's self-declared energy cea",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261015-we-re-done-ukraine-resumes-strikes-on-russian-oil-refineries-as-only-leverage-for-peace-talks-1",
+      "title_url": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
+      "category": "아시아",
+      "primary_source": "Sky News",
+      "excerpt": "Another three pupils from al-Khair school in Peshawar in critical condition after search for survivors At least 34 schoolchildren and a female teacher have died after the roof of a school collapsed du",
+      "excerpt_en": "Another three pupils from al-Khair school in Peshawar in critical condition after search for survivors At least 34 schoolchildren and a female teacher have died after the roof of a school collapsed du",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
+      "translation_status": "failed",
+      "score": 89,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 67
+      },
+      "area_value": 8,
+      "article_count": 8,
+      "syndicated_count": 0,
+      "source_count": 8,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "CBS News",
+        "Euronews",
+        "NBC News",
+        "Sky News",
+        "Sydney Morning Herald",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-15T06:21:00+09:00",
+      "latest_published_at": "2026-10-15T19:29:38+09:00",
+      "articles": [
+        {
+          "title": "‘As if the sky had fallen’: School roof collapse kills at least 34 children and a teacher",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/asia/at-least-27-students-killed-in-school-roof-collapse-in-pakistan-20261015-p615z4.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "19:29"
+        },
+        {
+          "title": "Pakistan: Classrooms reduced to rubble in deadly school disaster, at leat 32 pupils killed",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/15/pakistan-classrooms-reduced-to-rubble-in-deadly-school-disaster-at-leat-32-pupils-killed",
+          "published_at": "13:03"
+        },
+        {
+          "title": "School roof collapse kills at least 28 people in Pakistan",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/school-roof-collapse-kills-10-children-injures-2-137278356",
+          "published_at": "11:14"
+        },
+        {
+          "title": "Pakistan school collapse kills almost 30 students and a teacher",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/pakistan-school-collapse-peshawar-student-teacher-deaths/",
+          "published_at": "10:10"
+        },
+        {
+          "title": "School roof collapse in Pakistan kills at least 27 students",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/video/school-roof-collapse-in-pakistan-kills-at-least-27-students-271610437719",
+          "published_at": "09:27"
+        },
+        {
+          "title": "School roof collapse kills 28 people in Pakistan",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3337613/school-roof-collapse-kills-28-people-in-pakistan",
+          "published_at": "08:45"
+        },
+        {
+          "title": "Pakistan school roof collapse kills at least 34 children and teacher",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
+          "published_at": "08:25"
+        },
+        {
+          "title": "School owner arrested after dozens of children killed in roof collapse",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
+          "published_at": "06:21"
+        }
+      ]
+    },
+    {
+      "id": "world-235",
+      "title": "Yemen claims over 700 Houthis killed after 1,250 strikes rained within 24 hours",
+      "title_en": "Yemen claims over 700 Houthis killed after 1,250 strikes rained within 24 hours",
+      "title_source": "earliest_pick",
+      "title_url": "https://timesofindia.indiatimes.com/world/middle-east/yemen-says-1250-strikes-rained-on-houthis-within-24-hours-claims-over-700-houthis-killed/articleshow/134973857.cms",
+      "category": "중동",
+      "primary_source": "Times of India",
+      "excerpt": "The Houthis launched a deadly missile attack on Thursday on the presidential palace in the Yemeni government’s interim capital of Aden, as Saudi Arabia blamed Iran for the recent dramatic escalation i",
+      "excerpt_en": "The Houthis launched a deadly missile attack on Thursday on the presidential palace in the Yemeni government’s interim capital of Aden, as Saudi Arabia blamed Iran for the recent dramatic escalation i",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3371065/houthis-launch-deadly-attack-presidential-palace-yemens-aden?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 89,
       "score_breakdown": {
@@ -39,37 +128,98 @@
         "time_score": 3,
         "raw75": 67
       },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Channel News Asia",
+        "New York Times",
+        "SCMP",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-15T17:54:13+09:00",
+      "latest_published_at": "2026-10-15T20:10:45+09:00",
+      "articles": [
+        {
+          "title": "Houthis launch deadly attack on presidential palace in Yemen's Aden",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/houthis-yemen-aden-presidential-palace-strikes-iran-6463881",
+          "published_at": "20:10"
+        },
+        {
+          "title": "Iran-Backed Houthis Strike Presidential Palace, Yemen Says",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/15/world/middleeast/yemen-strike-aden-palace.html",
+          "published_at": "19:05"
+        },
+        {
+          "title": "Houthis launch deadly attack on presidential palace in Yemen’s Aden",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3371065/houthis-launch-deadly-attack-presidential-palace-yemens-aden?utm_source=rss_feed",
+          "published_at": "18:41"
+        },
+        {
+          "title": "Yemen claims over 700 Houthis killed after 1,250 strikes rained within 24 hours",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/yemen-says-1250-strikes-rained-on-houthis-within-24-hours-claims-over-700-houthis-killed/articleshow/134973857.cms",
+          "published_at": "17:54"
+        }
+      ]
+    },
+    {
+      "id": "world-174",
+      "title": "‘We’re done’: Ukraine resumes Russian refinery strikes, defying Trump",
+      "title_en": "‘We’re done’: Ukraine resumes Russian refinery strikes, defying Trump",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3370993/were-done-ukraine-resumes-russian-refinery-strikes-zelensky-defies-trump?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Ukraine struck ⁠a Russian oil refinery on Thursday, after President Volodymyr Zelensky said Kyiv was “done” supporting a ceasefire on energy targets announced by US President Donald Trump and ignored ",
+      "excerpt_en": "Ukraine struck ⁠a Russian oil refinery on Thursday, after President Volodymyr Zelensky said Kyiv was “done” supporting a ceasefire on energy targets announced by US President Donald Trump and ignored ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3370993/were-done-ukraine-resumes-russian-refinery-strikes-zelensky-defies-trump?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
       "area_value": 5,
       "article_count": 5,
       "syndicated_count": 0,
       "source_count": 5,
       "sources": [
-        "ABC News Australia",
-        "France24",
+        "Bangkok Post",
+        "CBC",
+        "DW",
         "NBC News",
-        "SCMP",
-        "The Guardian"
+        "SCMP"
       ],
       "first_published_at": "2026-10-15T08:08:11+09:00",
-      "latest_published_at": "2026-10-15T16:14:25+09:00",
+      "latest_published_at": "2026-10-15T14:51:00+09:00",
       "articles": [
         {
-          "title": "'We're done': Ukraine resumes strikes on Russian oil refineries as 'only leverage' for peace talks",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261015-we-re-done-ukraine-resumes-strikes-on-russian-oil-refineries-as-only-leverage-for-peace-talks-1",
-          "published_at": "16:14"
+          "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "14:51"
         },
         {
-          "title": "Russia and Ukraine trade strikes as Trump ‘energy ceasefire’ collapses",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
-          "published_at": "15:01"
+          "title": "Zelensky defies Trump with Russian refinery strikes",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3337665/zelensky-defies-trump-with-russian-refinery-strikes",
+          "published_at": "11:45"
         },
         {
-          "title": "Zelenskyy 'done' with US-made energy ceasefire that Moscow ignored",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-16/zelenskyy-done-with-energy-ceasefire/107272922",
-          "published_at": "14:28"
+          "title": "Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S.",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475?cmp=rss",
+          "published_at": "11:11"
         },
         {
           "title": "‘We’re done’: Ukraine resumes strikes on Russian oil refineries as anger at Trump mounts",
@@ -86,41 +236,424 @@
       ]
     },
     {
-      "id": "world-199",
-      "title": "I was in Florida when Ted Bundy was on trial. My mother was right about his, and every, execution",
-      "title_en": "I was in Florida when Ted Bundy was on trial. My mother was right about his, and every, execution",
+      "id": "world-40",
+      "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
+      "title_en": "Prince Harry and Meghan to make first joint appearances since returning to UK",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/north-america/i-was-in-florida-when-ted-bundy-was-on-trial-my-mother-was-right-about-his-and-every-execution-20261015-p61529.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "미국",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "US President Donald Trump on Thursday cancelled plans to livestream the execution of Fort Hood shooter Nidal Malik Hasan, reversing a Pentagon initiative that drew political and religious criticism. T",
-      "excerpt_en": "US President Donald Trump on Thursday cancelled plans to livestream the execution of Fort Hood shooter Nidal Malik Hasan, reversing a Pentagon initiative that drew political and religious criticism. T",
+      "title_url": "https://www.independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Britain’s Prince Harry and his wife on Thursday carried out their first joint engagement since their surprise move back to the UK in August, with Meghan telling well-wishers: “It’s great to be back.” ",
+      "excerpt_en": "Britain’s Prince Harry and his wife on Thursday carried out their first joint engagement since their surprise move back to the UK in August, with Meghan telling well-wishers: “It’s great to be back.” ",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3371056/trump-cancels-planned-pentagon-live-stream-fort-hood-shooters-firing-squad-execution?utm_source=rss_feed",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371063/prince-harry-and-meghan-first-joint-outing-uk-return-great-be-back?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 89,
+      "score": 85,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 4,
+        "breaking_score": 1,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 64
       },
       "area_value": 8,
       "article_count": 8,
       "syndicated_count": 0,
       "source_count": 7,
       "sources": [
+        "ABC News",
+        "Euronews",
+        "NBC News",
+        "Reuters",
+        "SCMP",
+        "Sydney Morning Herald",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T04:15:53+09:00",
+      "latest_published_at": "2026-10-15T20:40:49+09:00",
+      "articles": [
+        {
+          "title": "Harry and Meghan return to the UK",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/harry-and-meghan-return-to-the-uk-20261016-p6161o.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "20:40"
+        },
+        {
+          "title": "‘It’s wonderful to be back’: Harry and Meghan on first outing since UK return",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/it-s-wonderful-to-be-back-harry-and-meghan-on-first-outing-since-uk-return-20261016-p6160i.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "18:54"
+        },
+        {
+          "title": "Prince Harry and Meghan in first joint outing since UK return: ‘great to be back!’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3371063/prince-harry-and-meghan-first-joint-outing-uk-return-great-be-back?utm_source=rss_feed",
+          "published_at": "17:26"
+        },
+        {
+          "title": "UK: Harry and Meghan make high-profile comeback six years after royal exit",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/15/uk-harry-and-meghan-make-high-profile-comeback-six-years-after-royal-exit",
+          "published_at": "15:43"
+        },
+        {
+          "title": "Prince Harry and wife Meghan make first joint appearance since UK return",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWWRpS29iTXprM2w3Z19wY0xITWVabHJwYi1qclpkU085VHQ3eGhlM0xscWRTVVNLLUJuN1pxazRiS05HM25oTThUXzE5eEV1RkZVcllpRHVpcVg2QjY3MWI1QXYySnI4ZjdzQWJoWlFxQk9SSTFTRFJmN21YWHFtc0UwV0ZmYUtxbFB4OW5QbGNoTTRoOXNmMzRZeHBlWUJ0MHhyeW1kUXE2RW5PM216THJOaw?oc=5",
+          "published_at": "15:05"
+        },
+        {
+          "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/prince-harry-meghan-make-joint-appearances-returning-uk-137278143",
+          "published_at": "11:06"
+        },
+        {
+          "title": "Harry and Meghan cheered on first joint appearance since returning to U.K.",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-make-first-joint-appearance-returning-uk-rcna603646",
+          "published_at": "09:43"
+        },
+        {
+          "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
+          "published_at": "04:15"
+        }
+      ]
+    },
+    {
+      "id": "world-51",
+      "title": "Venezuela's Nicolas Maduro and his wife appear in court on new torture charges",
+      "title_en": "Venezuela's Nicolas Maduro and his wife appear in court on new torture charges",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nicolas-maduro-court-torture-charges-wife-venezuela-b3067590.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Ousted Venezuelan president Nicolas Maduro and his wife Cilia Flores pleaded not guilty on Thursday to new torture charges brought against them by US authorities, calling them “false allegations\". The",
+      "excerpt_en": "Ousted Venezuelan president Nicolas Maduro and his wife Cilia Flores pleaded not guilty on Thursday to new torture charges brought against them by US authorities, calling them “false allegations\". The",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/americas/20261015-venezuela-s-nicolas-maduro-and-wife-cilia-flores-deny-us-torture-charges-as-false-accusations",
+      "translation_status": "failed",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 6,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia",
+        "DW",
+        "France24",
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T15:58:27+09:00",
+      "latest_published_at": "2026-10-15T21:21:17+09:00",
+      "articles": [
+        {
+          "title": "Venezuela's Maduro denies US torture charges as 'false accusations'",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/maduro-wife-flores-venezuela-torture-charges-6464071",
+          "published_at": "21:21"
+        },
+        {
+          "title": "Venezuela's Nicolas Maduro pleads not guilty to torture charges",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/venezuela-s-nicolas-maduro-pleads-not-guilty-to-torture-charges/a-79673496?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "18:55"
+        },
+        {
+          "title": "Venezuela's Nicolas Maduro and wife Cilia Flores deny US torture charges as 'false accusations'",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20261015-venezuela-s-nicolas-maduro-and-wife-cilia-flores-deny-us-torture-charges-as-false-accusations",
+          "published_at": "18:11"
+        },
+        {
+          "title": "Venezuela's Maduro and wife plead not guilty to US torture charges",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVZ3VzZsQTJMSnlVV1QwemJZSjRBY0JrWTdBbGg4VmhMbG8tZzRDOHhRU01NOWJCV25Iem05S1BqanZjbDdray1rNUFYOTBKZS0xT2R5UTVUeHE3N0FvVmppUU5Dem5SUXZQb3hYYXhNekdPRjVMVEdEMFpMUGk1MjZJZGZtNlUwSzgtN25FM0ZtRG9NVzJUWGtWU0djQTBiYkY1Q20xSzA?oc=5",
+          "published_at": "16:18"
+        },
+        {
+          "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges?traffic_source=rss",
+          "published_at": "16:04"
+        },
+        {
+          "title": "Venezuela's Nicolas Maduro and his wife appear in court on new torture charges",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/nicolas-maduro-court-torture-charges-wife-venezuela-b3067590.html",
+          "published_at": "15:58"
+        }
+      ]
+    },
+    {
+      "id": "world-243",
+      "title": "South Americans pray for Pope Leo’s recovery as uncertainty hangs over his visit",
+      "title_en": "South Americans pray for Pope Leo’s recovery as uncertainty hangs over his visit",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/south-americans-pray-pope-leos-recovery-uncertainty-hangs-137266695",
+      "category": "미국",
+      "primary_source": "ABC News",
+      "excerpt": "Pope Leo XIV was diagnosed with a common form of lung cancer. The Vatican said that he had celebrated Mass at the hospital and resumed working “at a restrained pace” after an operation to remove a can",
+      "excerpt_en": "Pope Leo XIV was diagnosed with a common form of lung cancer. The Vatican said that he had celebrated Mass at the hospital and resumed working “at a restrained pace” after an operation to remove a can",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
+      "translation_status": "failed",
+      "score": 85,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 64
+      },
+      "area_value": 7,
+      "article_count": 7,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "ABC News",
+        "Bangkok Post",
+        "CBS News",
+        "Fox News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-10-15T01:38:40+09:00",
+      "latest_published_at": "2026-10-15T20:02:54+09:00",
+      "articles": [
+        {
+          "title": "Pope Leo Is Recovering After Cancer Surgery, Vatican Says: What to Know",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
+          "published_at": "20:02"
+        },
+        {
+          "title": "Pope Leo resumes some papal duties after surgery, Vatican says",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/pope-leo-resumes-duties-lung-cancer-surgery/",
+          "published_at": "16:00"
+        },
+        {
+          "title": "While Pope Leo Recovers From Lung Surgery, the Vatican Runs on Autopilot",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/15/world/europe/pope-leo-cancer-surgery-vatican.html",
+          "published_at": "13:01"
+        },
+        {
+          "title": "Pope's cancer operation already reshaping papacy",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3337675/popes-cancer-operation-already-reshaping-papacy",
+          "published_at": "12:45"
+        },
+        {
+          "title": "Pope has ‘good night’ in hospital, Vatican says",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3337618/pope-has-good-night-in-hospital-vatican-says",
+          "published_at": "08:45"
+        },
+        {
+          "title": "Trump wishes Pope Leo speedy recovery after lung cancer diagnosis, speaks highly of pontiff's brother",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/trump-wishes-pope-leo-speedy-recovery-after-lung-cancer-diagnosis-speaks-highly-pontiffs-brother",
+          "published_at": "03:38"
+        },
+        {
+          "title": "South Americans pray for Pope Leo’s recovery as uncertainty hangs over his visit",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/south-americans-pray-pope-leos-recovery-uncertainty-hangs-137266695",
+          "published_at": "01:38"
+        }
+      ]
+    },
+    {
+      "id": "world-111",
+      "title": "School roof collapse kills teacher and at least 32 children in northwest Pakistan",
+      "title_en": "School roof collapse kills teacher and at least 32 children in northwest Pakistan",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/10/15/school-roof-collapse-kills-teacher-and-at-least-17-children-in-northwest-pakistan",
+      "category": "아시아",
+      "primary_source": "Euronews",
+      "excerpt": "The roof of a private school collapsed in the northwestern Pakistani city of Peshawar on Thursday, killing at least 28 children and a teacher and injuring more than 50 other people, authorities and a ",
+      "excerpt_en": "The roof of a private school collapsed in the northwestern Pakistani city of Peshawar on Thursday, killing at least 28 children and a teacher and injuring more than 50 other people, authorities and a ",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/school-pakistan-roof-collapse-fatalities-9.7381454?cmp=rss",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "AP News",
         "CBC",
+        "DW",
+        "Euronews",
+        "NPR"
+      ],
+      "first_published_at": "2026-10-15T06:58:39+09:00",
+      "latest_published_at": "2026-10-15T16:23:00+09:00",
+      "articles": [
+        {
+          "title": "School roof collapse in Pakistan kills at least 35 and injures more than 50",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSk03U2RteGtaLTl1SXhmZXUxeTRDTzc5UnJSM1RRVWx3a1hWeU51UGszTGJIMHQ3U3l6NWkwUUxURENCOFVJbXdCekxRclZsQlRTNnU2eFdnXzBGOEt3S2ZlcW9QcXdVd2JJTDBScVhqa0FzOENDdFR1VG9iZTVQdGFRT0xoMXJIbGVHUlBMN3lGSlVIZjk1QXBrTkJlQ3M?oc=5",
+          "published_at": "16:23"
+        },
+        {
+          "title": "School roof collapse in Pakistan's Peshawar kills dozens of students and one teacher",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-dozens-of-students-and-one-teacher/a-79666091?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "10:20"
+        },
+        {
+          "title": "School roof collapses in Pakistan, killing at least 28 children and teacher",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/school-pakistan-roof-collapse-fatalities-9.7381454?cmp=rss",
+          "published_at": "08:46"
+        },
+        {
+          "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
+          "published_at": "08:22"
+        },
+        {
+          "title": "School roof collapse kills teacher and at least 32 children in northwest Pakistan",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/15/school-roof-collapse-kills-teacher-and-at-least-17-children-in-northwest-pakistan",
+          "published_at": "06:58"
+        }
+      ]
+    },
+    {
+      "id": "world-133",
+      "title": "New four-lane bridge between China and North Korea opens after a decade of delay",
+      "title_en": "New four-lane bridge between China and North Korea opens after a decade of delay",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/10/15/new-four-lane-bridge-between-china-and-north-korea-opens-after-a-decade-of-delay",
+      "category": "아시아",
+      "primary_source": "Euronews",
+      "excerpt": "China’s premier has reaffirmed his country’s support for North Korea and its leader during the much-delayed opening of a new bridge between the neighbours. In a taped speech to the opening ceremony on",
+      "excerpt_en": "China’s premier has reaffirmed his country’s support for North Korea and its leader during the much-delayed opening of a new bridge between the neighbours. In a taped speech to the opening ceremony on",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "ABC News",
+        "BBC",
+        "Euronews",
+        "New York Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-15T05:23:28+09:00",
+      "latest_published_at": "2026-10-15T11:06:14+09:00",
+      "articles": [
+        {
+          "title": "New China-North Korea bridge opens after more than a decade of delay",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/new-china-north-korea-bridge-opens-after-decade-137277411",
+          "published_at": "11:06"
+        },
+        {
+          "title": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
+          "published_at": "10:00"
+        },
+        {
+          "title": "North Korea and China Open Their Biggest Border Bridge",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
+          "published_at": "08:49"
+        },
+        {
+          "title": "China and North Korea open New Yalu River Bridge after 12-year delay",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/15/china-and-north-korea-open-new-yalu-river-bridge-after-12-year-delay",
+          "published_at": "08:13"
+        },
+        {
+          "title": "North Korea and China open new bridge after 12-year delay",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
+          "published_at": "06:24"
+        },
+        {
+          "title": "New four-lane bridge between China and North Korea opens after a decade of delay",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/15/new-four-lane-bridge-between-china-and-north-korea-opens-after-a-decade-of-delay",
+          "published_at": "05:23"
+        }
+      ]
+    },
+    {
+      "id": "world-208",
+      "title": "Trump makes decision on livestreaming Fort Hood shooter’s firing squad execution",
+      "title_en": "Trump makes decision on livestreaming Fort Hood shooter’s firing squad execution",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-fort-hood-execution-livestream-b3067495.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "US President Donald Trump on Thursday cancelled plans to livestream the execution of Fort Hood shooter Nidal Malik Hasan, reversing a Pentagon initiative that drew political and religious criticism. T",
+      "excerpt_en": "US President Donald Trump on Thursday cancelled plans to livestream the execution of Fort Hood shooter Nidal Malik Hasan, reversing a Pentagon initiative that drew political and religious criticism. T",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3371056/trump-cancels-planned-pentagon-live-stream-fort-hood-shooters-firing-squad-execution?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
         "France24",
         "Hindustan Times",
         "SCMP",
         "Sydney Morning Herald",
-        "The Independent",
-        "Times of India"
+        "The Independent"
       ],
-      "first_published_at": "2026-10-15T00:30:00+09:00",
+      "first_published_at": "2026-10-15T14:46:09+09:00",
       "latest_published_at": "2026-10-15T17:46:20+09:00",
       "articles": [
         {
@@ -152,352 +685,11 @@
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-fort-hood-execution-livestream-b3067495.html",
           "published_at": "14:46"
-        },
-        {
-          "title": "US not to livestream execution of Fort Hood gunman Nidal Hasan",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/victims-families-may-witness-in-person-us-not-to-livestream-execution-of-fort-hood-gunman-nidal-hasan/articleshow/134970388.cms",
-          "published_at": "14:38"
-        },
-        {
-          "title": "Pentagon will not livestream execution of Fort Hood shooter: Trump",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/execution-fort-hood-shooter-trump-9.7381733?cmp=rss",
-          "published_at": "14:28"
-        },
-        {
-          "title": "I was in Florida when Ted Bundy was on trial. My mother was right about his, and every, execution",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/i-was-in-florida-when-ted-bundy-was-on-trial-my-mother-was-right-about-his-and-every-execution-20261015-p61529.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "00:30"
         }
       ]
     },
     {
-      "id": "world-111",
-      "title": "School roof collapse kills teacher and at least 32 children in northwest Pakistan",
-      "title_en": "School roof collapse kills teacher and at least 32 children in northwest Pakistan",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/10/15/school-roof-collapse-kills-teacher-and-at-least-17-children-in-northwest-pakistan",
-      "category": "아시아",
-      "primary_source": "Euronews",
-      "excerpt": "The roof of a private school collapsed in the northwestern Pakistani city of Peshawar on Thursday, killing at least 28 children and a teacher and injuring more than 50 other people, authorities and a ",
-      "excerpt_en": "The roof of a private school collapsed in the northwestern Pakistani city of Peshawar on Thursday, killing at least 28 children and a teacher and injuring more than 50 other people, authorities and a ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/school-pakistan-roof-collapse-fatalities-9.7381454?cmp=rss",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 7,
-      "article_count": 7,
-      "syndicated_count": 0,
-      "source_count": 7,
-      "sources": [
-        "AP News",
-        "CBC",
-        "DW",
-        "Euronews",
-        "NBC News",
-        "NPR",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-10-15T06:58:39+09:00",
-      "latest_published_at": "2026-10-15T10:20:00+09:00",
-      "articles": [
-        {
-          "title": "School roof collapse in Pakistan's Peshawar kills dozens of students and one teacher",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-dozens-of-students-and-one-teacher/a-79666091?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "10:20"
-        },
-        {
-          "title": "School roof collapse in Pakistan kills at least 27 students",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/school-roof-collapse-in-pakistan-kills-at-least-27-students-271610437719",
-          "published_at": "09:27"
-        },
-        {
-          "title": "School roof collapses in Pakistan, killing at least 28 children and teacher",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/school-pakistan-roof-collapse-fatalities-9.7381454?cmp=rss",
-          "published_at": "08:46"
-        },
-        {
-          "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
-          "published_at": "08:22"
-        },
-        {
-          "title": "School roof collapse in Pakistan kills at least 35 and injures more than 50",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSk03U2RteGtaLTl1SXhmZXUxeTRDTzc5UnJSM1RRVWx3a1hWeU51UGszTGJIMHQ3U3l6NWkwUUxURENCOFVJbXdCekxRclZsQlRTNnU2eFdnXzBGOEt3S2ZlcW9QcXdVd2JJTDBScVhqa0FzOENDdFR1VG9iZTVQdGFRT0xoMXJIbGVHUlBMN3lGSlVIZjk1QXBrTkJlQ3M?oc=5",
-          "published_at": "07:42"
-        },
-        {
-          "title": "At least 28 students killed in school roof collapse in Pakistan",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/at-least-27-students-killed-in-school-roof-collapse-in-pakistan-20261015-p615z4.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "07:37"
-        },
-        {
-          "title": "School roof collapse kills teacher and at least 32 children in northwest Pakistan",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/15/school-roof-collapse-kills-teacher-and-at-least-17-children-in-northwest-pakistan",
-          "published_at": "06:58"
-        }
-      ]
-    },
-    {
-      "id": "world-223",
-      "title": "School owner arrested after dozens of children killed in roof collapse",
-      "title_en": "School owner arrested after dozens of children killed in roof collapse",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
-      "category": "아시아",
-      "primary_source": "Sky News",
-      "excerpt": "Another three pupils from al-Khair school in Peshawar in critical condition after search for survivors At least 34 schoolchildren and a female teacher have died after the roof of a school collapsed du",
-      "excerpt_en": "Another three pupils from al-Khair school in Peshawar in critical condition after search for survivors At least 34 schoolchildren and a female teacher have died after the roof of a school collapsed du",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "ABC News Australia",
-        "Bangkok Post",
-        "CBS News",
-        "Euronews",
-        "Sky News",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-15T06:21:00+09:00",
-      "latest_published_at": "2026-10-15T13:03:19+09:00",
-      "articles": [
-        {
-          "title": "Pakistan: Classrooms reduced to rubble in deadly school disaster, at leat 32 pupils killed",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/10/15/pakistan-classrooms-reduced-to-rubble-in-deadly-school-disaster-at-leat-32-pupils-killed",
-          "published_at": "13:03"
-        },
-        {
-          "title": "Pakistan school collapse kills almost 30 students and a teacher",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/pakistan-school-collapse-peshawar-student-teacher-deaths/",
-          "published_at": "10:10"
-        },
-        {
-          "title": "School roof collapse kills 28 people in Pakistan",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3337613/school-roof-collapse-kills-28-people-in-pakistan",
-          "published_at": "08:45"
-        },
-        {
-          "title": "Pakistan school roof collapse kills at least 34 children and teacher",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
-          "published_at": "08:25"
-        },
-        {
-          "title": "Thousands mourn 34 children killed in Pakistan school roof collapse",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-15/students-and-teacher-dead-in-pakistan-roof-collapse/107272300",
-          "published_at": "07:30"
-        },
-        {
-          "title": "School owner arrested after dozens of children killed in roof collapse",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
-          "published_at": "06:21"
-        }
-      ]
-    },
-    {
-      "id": "world-22",
-      "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
-      "title_en": "Prince Harry and Meghan to make first joint appearances since returning to UK",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Britain’s Prince Harry and his wife on Thursday carried out their first joint engagement since their surprise move back to the UK in August, with Meghan telling well-wishers: “It’s great to be back.” ",
-      "excerpt_en": "Britain’s Prince Harry and his wife on Thursday carried out their first joint engagement since their surprise move back to the UK in August, with Meghan telling well-wishers: “It’s great to be back.” ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371063/prince-harry-and-meghan-first-joint-outing-uk-return-great-be-back?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 6,
-      "article_count": 6,
-      "syndicated_count": 0,
-      "source_count": 6,
-      "sources": [
-        "Euronews",
-        "NBC News",
-        "Reuters",
-        "SCMP",
-        "Sydney Morning Herald",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-15T04:15:53+09:00",
-      "latest_published_at": "2026-10-15T17:26:00+09:00",
-      "articles": [
-        {
-          "title": "Prince Harry and Meghan in first joint outing since UK return: ‘great to be back!’",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3371063/prince-harry-and-meghan-first-joint-outing-uk-return-great-be-back?utm_source=rss_feed",
-          "published_at": "17:26"
-        },
-        {
-          "title": "‘It’s wonderful to be back’: Harry and Meghan on first outing since UK return",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/it-s-wonderful-to-be-back-harry-and-meghan-on-first-outing-since-uk-return-20261016-p6160i.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "17:00"
-        },
-        {
-          "title": "UK: Harry and Meghan make high-profile comeback six years after royal exit",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/10/15/uk-harry-and-meghan-make-high-profile-comeback-six-years-after-royal-exit",
-          "published_at": "15:43"
-        },
-        {
-          "title": "Prince Harry and wife Meghan make first joint appearance since UK return",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWWRpS29iTXprM2w3Z19wY0xITWVabHJwYi1qclpkU085VHQ3eGhlM0xscWRTVVNLLUJuN1pxazRiS05HM25oTThUXzE5eEV1RkZVcllpRHVpcVg2QjY3MWI1QXYySnI4ZjdzQWJoWlFxQk9SSTFTRFJmN21YWHFtc0UwV0ZmYUtxbFB4OW5QbGNoTTRoOXNmMzRZeHBlWUJ0MHhyeW1kUXE2RW5PM216THJOaw?oc=5",
-          "published_at": "15:05"
-        },
-        {
-          "title": "Harry and Meghan cheered on first joint appearance since returning to U.K.",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-make-first-joint-appearance-returning-uk-rcna603646",
-          "published_at": "09:43"
-        },
-        {
-          "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
-          "published_at": "04:15"
-        }
-      ]
-    },
-    {
-      "id": "world-244",
-      "title": "10/14: CBS Evening News",
-      "title_en": "10/14: CBS Evening News",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/101426-cbs-evening-news/",
-      "category": "미국",
-      "primary_source": "CBS News",
-      "excerpt": "Pope Leo XIV was diagnosed with a common form of lung cancer. The Vatican said that he had celebrated Mass at the hospital and resumed working “at a restrained pace” after an operation to remove a can",
-      "excerpt_en": "Pope Leo XIV was diagnosed with a common form of lung cancer. The Vatican said that he had celebrated Mass at the hospital and resumed working “at a restrained pace” after an operation to remove a can",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
-      "translation_status": "failed",
-      "score": 85,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
-      },
-      "area_value": 9,
-      "article_count": 9,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Bangkok Post",
-        "CBS News",
-        "Fox News",
-        "New York Times"
-      ],
-      "first_published_at": "2026-10-14T22:30:00+09:00",
-      "latest_published_at": "2026-10-15T16:00:10+09:00",
-      "articles": [
-        {
-          "title": "Pope Leo resumes some papal duties after surgery, Vatican says",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/pope-leo-resumes-duties-lung-cancer-surgery/",
-          "published_at": "16:00"
-        },
-        {
-          "title": "Pope Leo Is Recovering After Cancer Surgery, Vatican Says: What to Know",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
-          "published_at": "14:13"
-        },
-        {
-          "title": "While Pope Leo Recovers From Lung Surgery, the Vatican Runs on Autopilot",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/15/world/europe/pope-leo-cancer-surgery-vatican.html",
-          "published_at": "13:01"
-        },
-        {
-          "title": "Pope's cancer operation already reshaping papacy",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3337675/popes-cancer-operation-already-reshaping-papacy",
-          "published_at": "12:45"
-        },
-        {
-          "title": "Pope has ‘good night’ in hospital, Vatican says",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3337618/pope-has-good-night-in-hospital-vatican-says",
-          "published_at": "08:45"
-        },
-        {
-          "title": "Trump wishes Pope Leo speedy recovery after lung cancer diagnosis, speaks highly of pontiff's brother",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/trump-wishes-pope-leo-speedy-recovery-after-lung-cancer-diagnosis-speaks-highly-pontiffs-brother",
-          "published_at": "03:38"
-        },
-        {
-          "title": "Pope's cancer prognosis may depend on these factors, doctors say",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/pope-leo-lung-cancer-prognosis-doctors/",
-          "published_at": "00:34"
-        },
-        {
-          "title": "Trump, Chicagoans show outpouring of support for Pope Leo amid cancer diagnosis",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/trump-chicagoans-support-pope-leo-cancer-diagnosis/",
-          "published_at": "23:44"
-        },
-        {
-          "title": "10/14: CBS Evening News",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/101426-cbs-evening-news/",
-          "published_at": "22:30"
-        }
-      ]
-    },
-    {
-      "id": "world-210",
+      "id": "world-220",
       "title": "Embattled Albanian PM tours protest aftermath",
       "title_en": "Embattled Albanian PM tours protest aftermath",
       "title_source": "earliest_pick",
@@ -524,13 +716,19 @@
       "source_count": 4,
       "sources": [
         "Bangkok Post",
+        "Euronews",
         "Fox News",
-        "France24",
         "The Guardian"
       ],
       "first_published_at": "2026-10-15T10:45:00+09:00",
-      "latest_published_at": "2026-10-15T17:52:49+09:00",
+      "latest_published_at": "2026-10-15T21:34:56+09:00",
       "articles": [
+        {
+          "title": "Albania: Violent protests rock Tirana for third straight day",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/15/albania-violent-protests-rock-tirana-for-third-straight-day",
+          "published_at": "21:34"
+        },
         {
           "title": "Albania’s prime minister vows not to resign over student-led protests",
           "source_name": "The Guardian",
@@ -550,12 +748,6 @@
           "published_at": "12:45"
         },
         {
-          "title": "Student protests spread in Albania as demonstrators call for PM resignation",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20261015-student-protests-escalate-in-albania-as-demonstrators-call-for-pm-resignation",
-          "published_at": "12:27"
-        },
-        {
           "title": "Embattled Albanian PM tours protest aftermath",
           "source_name": "Bangkok Post",
           "url": "https://www.bangkokpost.com/world/3337644/embattled-albanian-pm-tours-protest-aftermath",
@@ -564,17 +756,17 @@
       ]
     },
     {
-      "id": "world-302",
-      "title": "New White House press secretary Katie Zacharia faces mounting questions about resume",
-      "title_en": "New White House press secretary Katie Zacharia faces mounting questions about resume",
+      "id": "world-314",
+      "title": "Katie Zacharia’s legal credentials under scrutiny after report claims she did not pass California bar exam",
+      "title_en": "Katie Zacharia’s legal credentials under scrutiny after report claims she did not pass California bar exam",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/katie-zacharia-resume-questions-9.7381095?cmp=rss",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/katie-zacharia-s-legal-credentials-under-scrutiny-as-california-bar-complaint-targets-trump-s-new-press-secretary-101792034065794.html",
       "category": "미국",
-      "primary_source": "CBC",
-      "excerpt": "The new White House press secretary is facing mounting questions about her background and resume as she transitions into her role as the public face of the Trump administration.",
-      "excerpt_en": "The new White House press secretary is facing mounting questions about her background and resume as she transitions into her role as the public face of the Trump administration.",
+      "primary_source": "Hindustan Times",
+      "excerpt": "New White House press secretary Katie Zacharia defended her legal background and justified her truncated inaugural briefing as she navigates a rocky first week as the president's chief spokeswoman.",
+      "excerpt_en": "New White House press secretary Katie Zacharia defended her legal background and justified her truncated inaugural briefing as she navigates a rocky first week as the president's chief spokeswoman.",
       "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/katie-zacharia-resume-questions-9.7381095?cmp=rss",
+      "excerpt_url": "https://www.cbc.ca/news/world/katie-zacharia-interview-press-secretary-role-9.7382401?cmp=rss",
       "translation_status": "failed",
       "score": 81,
       "score_breakdown": {
@@ -595,9 +787,15 @@
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-10-15T00:02:03+09:00",
-      "latest_published_at": "2026-10-15T18:25:50+09:00",
+      "first_published_at": "2026-10-15T04:10:50+09:00",
+      "latest_published_at": "2026-10-15T21:25:00+09:00",
       "articles": [
+        {
+          "title": "New White House press secretary Katie Zacharia didn't pass the bar exam",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/katie-zacharia-interview-press-secretary-role-9.7382401?cmp=rss",
+          "published_at": "21:25"
+        },
         {
           "title": "Katie Zacharia now says she misheard question about where she passed the bar exam",
           "source_name": "The Independent",
@@ -615,84 +813,65 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/katie-zacharia-s-legal-credentials-under-scrutiny-as-california-bar-complaint-targets-trump-s-new-press-secretary-101792034065794.html",
           "published_at": "04:10"
-        },
-        {
-          "title": "New White House press secretary Katie Zacharia faces mounting questions about resume",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/katie-zacharia-resume-questions-9.7381095?cmp=rss",
-          "published_at": "00:02"
         }
       ]
     },
     {
-      "id": "world-97",
-      "title": "China, North Korea open long-delayed border bridge to boost trade",
-      "title_en": "China, North Korea open long-delayed border bridge to boost trade",
+      "id": "world-13",
+      "title": "Yemen's Houthis attack presidential palace in Aden, key Saudi infrastructure",
+      "title_en": "Yemen's Houthis attack presidential palace in Aden, key Saudi infrastructure",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "China’s premier has reaffirmed his country’s support for North Korea and its leader during the much-delayed opening of a new bridge between the neighbours. In a taped speech to the opening ceremony on",
-      "excerpt_en": "China’s premier has reaffirmed his country’s support for North Korea and its leader during the much-delayed opening of a new bridge between the neighbours. In a taped speech to the opening ceremony on",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
+      "title_url": "https://www.cbc.ca/news/world/yemen-houthis-attack-presidential-palace-9.7382188?cmp=rss",
+      "category": "중동",
+      "primary_source": "CBC",
+      "excerpt": "Yemen's Houthis fired missiles at the presidential palace complex in the southern city of Aden on Thursday, killing five people, the government said, while the Saudi-led coalition in Yemen detailed do",
+      "excerpt_en": "Yemen's Houthis fired missiles at the presidential palace complex in the southern city of Aden on Thursday, killing five people, the government said, while the Saudi-led coalition in Yemen detailed do",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/yemen-houthis-attack-presidential-palace-9.7382188?cmp=rss",
       "translation_status": "failed",
-      "score": 80,
+      "score": 77,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 3,
       "sources": [
-        "Euronews",
-        "New York Times",
-        "Reuters",
-        "SCMP"
+        "ABC News Australia",
+        "CBC",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-15T02:43:00+09:00",
-      "latest_published_at": "2026-10-15T10:00:13+09:00",
+      "first_published_at": "2026-10-15T18:59:30+09:00",
+      "latest_published_at": "2026-10-15T21:24:37+09:00",
       "articles": [
         {
-          "title": "China keen to strengthen North Korea trade ties with New Yalu River Bridge opening",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
-          "published_at": "10:00"
+          "title": "Five killed in Houthi strike on presidential palace in Aden",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-16/houthis-attack-aden-killing-five-and-wounding-16/107268204",
+          "published_at": "21:24"
         },
         {
-          "title": "North Korea and China Open Their Biggest Border Bridge",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
-          "published_at": "08:49"
-        },
-        {
-          "title": "China and North Korea open New Yalu River Bridge after 12-year delay",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/10/15/china-and-north-korea-open-new-yalu-river-bridge-after-12-year-delay",
-          "published_at": "08:13"
-        },
-        {
-          "title": "New four-lane bridge between China and North Korea opens after a decade of delay",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/15/new-four-lane-bridge-between-china-and-north-korea-opens-after-a-decade-of-delay",
-          "published_at": "05:23"
-        },
-        {
-          "title": "China, North Korea open long-delayed border bridge to boost trade",
+          "title": "Yemen's Houthis hit palace in Aden, coalition details attacks on Saudi infrastructure",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGlQcWxfQUVCbGVHc0taT3dSX1FaNkFNVFVHVU01U0QzYUJLUmJ4MF9CUWZWM3MwZ1BQeXBIdHBEMUdKSDd1ZGZFQnJJZmh6MVVqSE1rZVJGQzZoY0o1cjhsLVRXSzlSV19uQzdCYUtfLWJtU3pNM0NiR01ENFpySUpMUVJKSzB5ZTM3a3dzZVg0YmtWWW80TUtHc2xXZTYzWVFXVUYxbjdpQWhVNDZrWDJZdUZCU0lrS0FjVXRqVld5QQ?oc=5",
-          "published_at": "02:43"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQODZXb0UtbHJiTHdmLTZhUENYcXNNeVptZDFGV1pUUEpuS3A0RzROVlBWSGw2V2tvdjNabmlnX1llVmh1Tno5TW5jUjhLWm5BY3VOREdYTnd5Q2RpdmdyVnVzR0lFTlp4SDV4a3JzNWo0US1xdER1eUkybkRtOHlBT2U4RE43NFI2dGVnb29fSmdPVmVPaDY3NG5fNXRabFR5dkJBU0pwNDFZSkN0NkxaU2lEd2c1Mk9HbUNUYTROV3BJUnh3TEE?oc=5",
+          "published_at": "20:43"
+        },
+        {
+          "title": "Yemen's Houthis attack presidential palace in Aden, key Saudi infrastructure",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/yemen-houthis-attack-presidential-palace-9.7382188?cmp=rss",
+          "published_at": "18:59"
         }
       ]
     },
     {
-      "id": "world-47",
+      "id": "world-73",
       "title": "Seven sailors missing after tanker fire off Romania's coast amid Russian drone fears",
       "title_en": "Seven sailors missing after tanker fire off Romania's coast amid Russian drone fears",
       "title_source": "earliest_pick",
@@ -704,14 +883,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/oct/15/sailors-missing-drone-strike-tankers-romania-black-sea-coast",
       "translation_status": "failed",
-      "score": 77,
+      "score": 76,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
+        "time_score": 2,
+        "raw75": 57
       },
       "area_value": 3,
       "article_count": 3,
@@ -746,60 +925,6 @@
       ]
     },
     {
-      "id": "world-209",
-      "title": "Zelensky defies Trump with Russian refinery strikes",
-      "title_en": "Zelensky defies Trump with Russian refinery strikes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3337665/zelensky-defies-trump-with-russian-refinery-strikes",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Ukraine will no longer abide by US President Donald Trump's demands not to strike Russian oil refineries, President Volodymyr Zelensky said in remarks published Thursday, amid deepening tensions betwe",
-      "excerpt_en": "Ukraine will no longer abide by US President Donald Trump's demands not to strike Russian oil refineries, President Volodymyr Zelensky said in remarks published Thursday, amid deepening tensions betwe",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261015-ukraine-s-zelensky-defies-trump-with-russian-refinery-strikes",
-      "translation_status": "failed",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "France24",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-15T11:45:00+09:00",
-      "latest_published_at": "2026-10-15T17:30:31+09:00",
-      "articles": [
-        {
-          "title": "'We're done': Ukraine's Zelensky says won't follow Trump's demand of no strike on Russian refineries",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/were-done-ukraines-zelensky-says-wont-follow-trumps-demand-of-no-strike-on-russian-refineries-101792081664395.html",
-          "published_at": "17:30"
-        },
-        {
-          "title": "Ukraine's Zelensky defies Trump with Russian refinery strikes",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261015-ukraine-s-zelensky-defies-trump-with-russian-refinery-strikes",
-          "published_at": "12:34"
-        },
-        {
-          "title": "Zelensky defies Trump with Russian refinery strikes",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3337665/zelensky-defies-trump-with-russian-refinery-strikes",
-          "published_at": "11:45"
-        }
-      ]
-    },
-    {
       "id": "world-224",
       "title": "'I couldn't breathe', Russell Brand's alleged rape victim says",
       "title_en": "'I couldn't breathe', Russell Brand's alleged rape victim says",
@@ -807,43 +932,43 @@
       "title_url": "https://www.bangkokpost.com/world/3337685/i-couldnt-breathe-russell-brands-alleged-rape-victim-says",
       "category": "유럽",
       "primary_source": "Bangkok Post",
-      "excerpt": "Woman claims comedian ‘pranced around like an ostrich’ before forcing himself on her in hotel room attack Russell Brand transformed into a “monster” when he allegedly forced a woman to take half-naked",
-      "excerpt_en": "Woman claims comedian ‘pranced around like an ostrich’ before forcing himself on her in hotel room attack Russell Brand transformed into a “monster” when he allegedly forced a woman to take half-naked",
+      "excerpt": "Woman claims comedian ‘pranced around like an ostrich’ before forcing himself on her in hotel room attack Russell Brand transformed into a “monster” when he allegedly made a woman take half-naked phot",
+      "excerpt_en": "Woman claims comedian ‘pranced around like an ostrich’ before forcing himself on her in hotel room attack Russell Brand transformed into a “monster” when he allegedly made a woman take half-naked phot",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/15/russell-brand-jury-alleged-rape-woman-1999-crown-court",
       "translation_status": "failed",
-      "score": 77,
+      "score": 71,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 15,
+        "major_score": 10,
         "breaking_score": 7,
         "time_score": 3,
-        "raw75": 58
+        "raw75": 53
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
         "Bangkok Post",
+        "Sydney Morning Herald",
         "The Guardian"
       ],
       "first_published_at": "2026-10-15T12:45:00+09:00",
-      "latest_published_at": "2026-10-15T18:01:27+09:00",
+      "latest_published_at": "2026-10-15T19:45:05+09:00",
       "articles": [
         {
-          "title": "Russell Brand forced alleged rape victim to take photos of him half naked, trial told",
+          "title": "‘Monster-like’: Woman alleges Russell Brand posed for photos moments before sudden rape",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/monster-like-woman-alleges-russell-brand-posed-for-photos-moments-before-sudden-rape-20261016-p6160m.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "19:45"
+        },
+        {
+          "title": "Russell Brand made alleged rape victim take photos of him half naked, trial told",
           "source_name": "The Guardian",
           "url": "https://www.theguardian.com/uk-news/2026/oct/15/russell-brand-jury-alleged-rape-woman-1999-crown-court",
           "published_at": "18:01"
-        },
-        {
-          "title": "Court shown photos of Russell Brand shirtless in hotel before alleged rape",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-16/russell-brand-rape-trial-continues-court-shown-photos-from-1999/107272908",
-          "published_at": "16:16"
         },
         {
           "title": "'I couldn't breathe', Russell Brand's alleged rape victim says",
@@ -854,17 +979,17 @@
       ]
     },
     {
-      "id": "world-33",
-      "title": "Venezuela's Nicolas Maduro and his wife appear in court on new torture charges",
-      "title_en": "Venezuela's Nicolas Maduro and his wife appear in court on new torture charges",
+      "id": "world-69",
+      "title": "Ex-leader of N. Ireland’s largest unionist party sentenced to 15 years for sex abuse",
+      "title_en": "Ex-leader of N. Ireland’s largest unionist party sentenced to 15 years for sex abuse",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/crime/nicolas-maduro-court-torture-charges-wife-venezuela-b3067590.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "Prosecutors say Maduro directed officials to torture politicians and military personnel accused of plotting against him",
-      "excerpt_en": "Prosecutors say Maduro directed officials to torture politicians and military personnel accused of plotting against him",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/nicolas-maduro-court-torture-charges-wife-venezuela-b3067590.html",
+      "title_url": "https://abcnews.com/International/wireStory/leader-northern-irelands-largest-unionist-party-sentenced-15-137281102",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "The former leader of Northern Ireland’s largest unionist party has been on Thursday to 15 years in prison for the rape and sex abuse of two girls decades ago",
+      "excerpt_en": "The former leader of Northern Ireland’s largest unionist party has been on Thursday to 15 years in prison for the rape and sex abuse of two girls decades ago",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/leader-northern-irelands-largest-unionist-party-sentenced-15-137281102",
       "translation_status": "failed",
       "score": 69,
       "score_breakdown": {
@@ -880,88 +1005,89 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
+        "ABC News",
         "Al Jazeera",
-        "Reuters",
-        "The Independent"
+        "Reuters"
       ],
-      "first_published_at": "2026-10-15T15:58:27+09:00",
-      "latest_published_at": "2026-10-15T16:18:39+09:00",
+      "first_published_at": "2026-10-15T11:36:23+09:00",
+      "latest_published_at": "2026-10-15T20:12:27+09:00",
       "articles": [
         {
-          "title": "Venezuela's Maduro and wife plead not guilty to US torture charges",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVZ3VzZsQTJMSnlVV1QwemJZSjRBY0JrWTdBbGg4VmhMbG8tZzRDOHhRU01NOWJCV25Iem05S1BqanZjbDdray1rNUFYOTBKZS0xT2R5UTVUeHE3N0FvVmppUU5Dem5SUXZQb3hYYXhNekdPRjVMVEdEMFpMUGk1MjZJZGZtNlUwSzgtN25FM0ZtRG9NVzJUWGtWU0djQTBiYkY1Q20xSzA?oc=5",
-          "published_at": "16:18"
-        },
-        {
-          "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
+          "title": "Northern Ireland ex-DUP leader Donaldson sentenced to 15 years for child sex crimes",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges?traffic_source=rss",
-          "published_at": "16:04"
+          "url": "https://www.aljazeera.com/news/2026/10/15/northern-ireland-ex-dup-leader-donaldson-sentenced-to-15-years-for-child-sex-crimes?traffic_source=rss",
+          "published_at": "20:12"
         },
         {
-          "title": "Venezuela's Nicolas Maduro and his wife appear in court on new torture charges",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/nicolas-maduro-court-torture-charges-wife-venezuela-b3067590.html",
-          "published_at": "15:58"
+          "title": "Northern Ireland's Donaldson sentenced to 15 years in jail for child sex offences",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcVlXZTlLLWxVZDFyZmtyeGtTZHpmRDRHUVNIYl9IOEdvOHVnT2REY1AxTVZ6aVk1Z3lYV0VXQTRpa0w3bFpReWN3VWhKX2hxNk5GNmJQYjFWZVM2eWdVZ2dGTWtxZ0dvOWhzNUpKenpXd3ZjdWk5eW1sTFp2UnRVZlREbW9JVGQ1aTZZTlNmZEF5RTZZQ1NrZzZEQjFvSXNqMXBmSFFGVXVYNTA?oc=5",
+          "published_at": "16:38"
+        },
+        {
+          "title": "Ex-leader of N. Ireland’s largest unionist party sentenced to 15 years for sex abuse",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/leader-northern-irelands-largest-unionist-party-sentenced-15-137281102",
+          "published_at": "11:36"
         }
       ]
     },
     {
-      "id": "world-158",
-      "title": "How US teen’s Hindu temple attack plot was foiled: Rifle jam, online search, call to co-worker",
-      "title_en": "How US teen’s Hindu temple attack plot was foiled: Rifle jam, online search, call to co-worker",
+      "id": "world-108",
+      "title": "Pentagon will not livestream execution of Fort Hood shooter: Trump",
+      "title_en": "Pentagon will not livestream execution of Fort Hood shooter: Trump",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/how-us-teen-hindu-temple-attack-illinois-plot-was-foiled-rifle-jam-online-search-call-to-co-worker-101792043270726.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Alexandros Paporakis openly identified as a white supremacist at work and told his co-workers that he couldn’t wait to kill Indian people.",
-      "excerpt_en": "Alexandros Paporakis openly identified as a white supremacist at work and told his co-workers that he couldn’t wait to kill Indian people.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/couldnt-wait-to-kill-indian-people-us-teen-alexandros-paporakis-taco-bell-co-workers-hindu-temple-mass-shooting-aurora-illinois-palatine-101792069638702.html",
+      "title_url": "https://www.cbc.ca/news/world/execution-fort-hood-shooter-trump-9.7381733?cmp=rss",
+      "category": "미국",
+      "primary_source": "CBC",
+      "excerpt": "Trump said the execution of Nidal Malik Hasan can be viewed in person by families of the victims if they wish. The decision comes after bipartisan backlash regarding the Pentagon's plans to livestream",
+      "excerpt_en": "Trump said the execution of Nidal Malik Hasan can be viewed in person by families of the victims if they wish. The decision comes after bipartisan backlash regarding the Pentagon's plans to livestream",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "failed",
       "score": 69,
       "score_breakdown": {
         "article_score": 18,
-        "diversity_score": 10,
+        "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
+        "breaking_score": 1,
+        "time_score": 3,
         "raw75": 52
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
+        "AP News",
+        "CBC",
+        "DW"
       ],
-      "first_published_at": "2026-10-15T06:59:43+09:00",
-      "latest_published_at": "2026-10-15T14:47:19+09:00",
+      "first_published_at": "2026-10-15T14:28:05+09:00",
+      "latest_published_at": "2026-10-15T20:11:00+09:00",
       "articles": [
         {
-          "title": "‘Couldn’t wait to kill Indians’: What US teen told co-workers before his foiled temple mass shooting bid",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/couldnt-wait-to-kill-indian-people-us-teen-alexandros-paporakis-taco-bell-co-workers-hindu-temple-mass-shooting-aurora-illinois-palatine-101792069638702.html",
-          "published_at": "14:47"
+          "title": "Trump, after bipartisan backlash, says Pentagon won't livestream execution of Fort Hood shooter",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRzNuVjFfdUxtUEJVU1J2MVVFNmRGTDBCM0E5a2ZwWk03bVNSMndsSHFySWtKUkdDdWtNdlRKQ1lWYW1sVlNQTzBwd043dDVlTEJUQ3dHT3pUVVVFVC1Mc0wwLWFjeHM1U24wXzZzYWR0WEY3ZThpOWRvOU1ENElFakNMZ2lmRy1obVpLYkN3?oc=5",
+          "published_at": "20:11"
         },
         {
-          "title": "US teen held over Hindu temple attack plot: Is anti-Indian racism rising?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/us-teen-held-over-hindu-temple-attack-plot-is-anti-indian-racism-rising?traffic_source=rss",
-          "published_at": "14:38"
+          "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "15:36"
         },
         {
-          "title": "How US teen’s Hindu temple attack plot was foiled: Rifle jam, online search, call to co-worker",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/how-us-teen-hindu-temple-attack-illinois-plot-was-foiled-rifle-jam-online-search-call-to-co-worker-101792043270726.html",
-          "published_at": "06:59"
+          "title": "Pentagon will not livestream execution of Fort Hood shooter: Trump",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/execution-fort-hood-shooter-trump-9.7381733?cmp=rss",
+          "published_at": "14:28"
         }
       ]
     },
     {
-      "id": "world-54",
+      "id": "world-76",
       "title": "Actor Imran Khan ordered to leave India after participating in protest",
       "title_en": "Actor Imran Khan ordered to leave India after participating in protest",
       "title_source": "earliest_pick",
@@ -1015,61 +1141,168 @@
       ]
     },
     {
-      "id": "world-163",
-      "title": "Starlink restrictions would hamper Ukraine's war effort. But the country can adapt, experts say",
-      "title_en": "Starlink restrictions would hamper Ukraine's war effort. But the country can adapt, experts say",
+      "id": "world-308",
+      "title": "Marco Rubio sends an ethics warning to State Department staff after Kimberly Guilfoyle’s ouster – what to know",
+      "title_en": "Marco Rubio sends an ethics warning to State Department staff after Kimberly Guilfoyle’s ouster – what to know",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/ukraine-starlink-elon-musk-9.7380594?cmp=rss",
-      "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "Starlink and the military-grade version known as Starshield have been integral to Ukraine's war effort against Russia. But earlier this week, according to Ukrainian officials, the military lost some a",
-      "excerpt_en": "Starlink and the military-grade version known as Starshield have been integral to Ukraine's war effort against Russia. But earlier this week, according to Ukrainian officials, the military lost some a",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/ukraine-starlink-elon-musk-9.7380594?cmp=rss",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/marco-rubio-sends-an-ethics-warning-to-state-department-staff-after-kimberly-guilfoyle-s-ouster-what-to-know-101792027478344.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Kimberly Guilfoyle has been removed from her role as US ambassador to Greece after reports linked her to an alleged request for $100,000 from a Trump donor.",
+      "excerpt_en": "Kimberly Guilfoyle has been removed from her role as US ambassador to Greece after reports linked her to an alleged request for $100,000 from a Trump donor.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-breaks-silence-on-kimberly-guilfoyle-resignation-as-us-ambassador-to-greece-she-dated-my-son-we-didn-t-like-101792074432870.html",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 51
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "The Independent",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-15T02:42:08+09:00",
+      "latest_published_at": "2026-10-15T20:17:55+09:00",
+      "articles": [
+        {
+          "title": "Kimberly Guilfoyle gets snubbed in Greece too, no farewell planned for her; Greek leaders believe she's so brazen that she may force one send-off",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/kimberly-guilfoyle-gets-snubbed-in-greece-too-no-farewell-planned-for-her-greek-leaders-believe-shes-so-brazen-that-she-may-force-one-send-off/articleshow/134976417.cms",
+          "published_at": "20:17"
+        },
+        {
+          "title": "Greece’s President snubs Kimberly Guilfoyle of traditional honor as she leaves ambassador role",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/kimberly-guilfoyle-greece-president-honor-konstantinos-tasoulas-b3067724.html",
+          "published_at": "19:37"
+        },
+        {
+          "title": "Trump breaks silence on Kimberly Guilfoyle's resignation as US ambassador to Greece, ‘She dated my son, we didn’t like…’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-breaks-silence-on-kimberly-guilfoyle-resignation-as-us-ambassador-to-greece-she-dated-my-son-we-didn-t-like-101792074432870.html",
+          "published_at": "14:51"
+        },
+        {
+          "title": "Marco Rubio sends an ethics warning to State Department staff after Kimberly Guilfoyle’s ouster – what to know",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/marco-rubio-sends-an-ethics-warning-to-state-department-staff-after-kimberly-guilfoyle-s-ouster-what-to-know-101792027478344.html",
+          "published_at": "02:42"
+        }
+      ]
+    },
+    {
+      "id": "world-297",
+      "title": "Three dead as heavy rainfall and floods hit Istanbul",
+      "title_en": "Three dead as heavy rainfall and floods hit Istanbul",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/three-dead-and-2700-evacuated-as-heavy-rainfall-and-floods-shut-down-istanbul-13599536",
+      "category": "유럽",
+      "primary_source": "Sky News",
+      "excerpt": "At least three people are dead following heavy rains in Istanbul on Wednesday that flooded homes and businesses, and inundated roads and underpasses in Turkey's largest city.",
+      "excerpt_en": "At least three people are dead following heavy rains in Istanbul on Wednesday that flooded homes and businesses, and inundated roads and underpasses in Turkey's largest city.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/istanbul-flooding-scroller-9.7381591?cmp=rss",
+      "translation_status": "failed",
+      "score": 65,
+      "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
+        "major_score": 10,
+        "breaking_score": 4,
         "time_score": 2,
-        "raw75": 51
+        "raw75": 49
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
+        "ABC News",
         "CBC",
-        "The Independent"
+        "Sky News"
       ],
-      "first_published_at": "2026-10-15T08:00:00+09:00",
-      "latest_published_at": "2026-10-15T13:32:16+09:00",
+      "first_published_at": "2026-10-15T10:46:00+09:00",
+      "latest_published_at": "2026-10-15T14:10:31+09:00",
       "articles": [
         {
-          "title": "What is Starshield, and who limited Ukraine’s access to it?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/what-is-starshield-and-who-limited-ukraines-access-to-it?traffic_source=rss",
-          "published_at": "13:32"
-        },
-        {
-          "title": "What is Starlink and why is it so important for Ukraine?",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/starlink-ukraine-russia-donald-trump-zelensky-b3067280.html",
-          "published_at": "12:27"
-        },
-        {
-          "title": "Starlink restrictions would hamper Ukraine's war effort. But the country can adapt, experts say",
+          "title": "IN PHOTOS | Heavy rain floods homes, streets in Istanbul, killing 3",
           "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/ukraine-starlink-elon-musk-9.7380594?cmp=rss",
-          "published_at": "08:00"
+          "url": "https://www.cbc.ca/news/world/istanbul-flooding-scroller-9.7381591?cmp=rss",
+          "published_at": "14:10"
+        },
+        {
+          "title": "Heavy rain shuts down Istanbul, causing flooding and 3 deaths",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/heavy-rain-shuts-istanbul-causing-flooding-2-deaths-137278654",
+          "published_at": "11:32"
+        },
+        {
+          "title": "Three dead as heavy rainfall and floods hit Istanbul",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/three-dead-and-2700-evacuated-as-heavy-rainfall-and-floods-shut-down-istanbul-13599536",
+          "published_at": "10:46"
         }
       ]
     },
     {
-      "id": "world-79",
+      "id": "world-0",
+      "title": "Nineteen hurt after minibus hits train at French channel tunnel terminal",
+      "title_en": "Nineteen hurt after minibus hits train at French channel tunnel terminal",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ3VYQmxYV1FHM0VFR0M0LTVYT05uRDdkSFA2cVdPNl9vdy1RNEE0ekdTYTlQejA0N3p5aGxmbnBIdXd3Y1laUTFOenZDeGFVMEV4b0dFMVJkM2lNX204TmJCZVZEMmRYWFhGTWgtSVExbG9yQkhnVXN4TUdaT2pfemlsUlpzalpzblJrSHhzYTlEaUJXaFBpbVZWWVpoc3FvTndnMHdvY0JTVkd5UUV2eWJmOA?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Nineteen hurt after minibus hits train at French channel tunnel terminal Reuters",
+      "excerpt_en": "Nineteen hurt after minibus hits train at French channel tunnel terminal Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ3VYQmxYV1FHM0VFR0M0LTVYT05uRDdkSFA2cVdPNl9vdy1RNEE0ekdTYTlQejA0N3p5aGxmbnBIdXd3Y1laUTFOenZDeGFVMEV4b0dFMVJkM2lNX204TmJCZVZEMmRYWFhGTWgtSVExbG9yQkhnVXN4TUdaT2pfemlsUlpzalpzblJrSHhzYTlEaUJXaFBpbVZWWVpoc3FvTndnMHdvY0JTVkd5UUV2eWJmOA?oc=5",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T20:05:14+09:00",
+      "latest_published_at": "2026-10-15T21:03:43+09:00",
+      "articles": [
+        {
+          "title": "Channel Tunnel crash live updates: At least 19 people injured after minibus hits train at terminal",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/channel-tunnel-crash-updates-france-bus-train-b3067744.html",
+          "published_at": "21:03"
+        },
+        {
+          "title": "Nineteen hurt after minibus hits train at French channel tunnel terminal",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ3VYQmxYV1FHM0VFR0M0LTVYT05uRDdkSFA2cVdPNl9vdy1RNEE0ekdTYTlQejA0N3p5aGxmbnBIdXd3Y1laUTFOenZDeGFVMEV4b0dFMVJkM2lNX204TmJCZVZEMmRYWFhGTWgtSVExbG9yQkhnVXN4TUdaT2pfemlsUlpzalpzblJrSHhzYTlEaUJXaFBpbVZWWVpoc3FvTndnMHdvY0JTVkd5UUV2eWJmOA?oc=5",
+          "published_at": "20:05"
+        }
+      ]
+    },
+    {
+      "id": "world-97",
       "title": "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says",
       "title_en": "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says",
       "title_source": "earliest_pick",
@@ -1081,14 +1314,14 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-military-mother-of-all-bombs-iran-strikes-gbu-43-b-massive-ordnance-air-blast-bomb-trump-tehran-war-news-101792041121080.html",
       "translation_status": "failed",
-      "score": 64,
+      "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 48
+        "time_score": 1,
+        "raw75": 47
       },
       "area_value": 2,
       "article_count": 2,
@@ -1116,17 +1349,17 @@
       ]
     },
     {
-      "id": "world-146",
-      "title": "Houthis target Yemen’s presidential palace in Aden with missiles",
-      "title_en": "Houthis target Yemen’s presidential palace in Aden with missiles",
+      "id": "world-113",
+      "title": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments",
+      "title_en": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpCTWlhR21RaWFXLXJlVTA2Ym5CcVlfZlJqcHZycC11QkN5UEtieS0xTEZBVlZEeHJ1TzM5NmhlNGUtTk5vYWEyVU50ZVIxbDdjVkxfeHFCZnh5UV9ZaTJsbWdrWFJNYlRSNFpjRmtkRWtZdHNOTE1EVkIxX0J3djZ6N0VBNDJ6NGpvRlZ4ZFVDRWIzdVozV0pudllQOFIybE1qdlhWZkJoeWJy?oc=5",
       "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Yemen armed forces reported conducting 1,250 targeting operations against Houthis in one day. These strikes coincided with Houthi attacks on Aden’s presidential palace, resulting in casualties. Houthi",
-      "excerpt_en": "Yemen armed forces reported conducting 1,250 targeting operations against Houthis in one day. These strikes coincided with Houthi attacks on Aden’s presidential palace, resulting in casualties. Houthi",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/middle-east/yemen-says-1250-strikes-rained-on-houthis-within-24-hours-claims-over-700-houthis-killed/articleshow/134973857.cms",
+      "primary_source": "AP News",
+      "excerpt": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments AP News",
+      "excerpt_en": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpCTWlhR21RaWFXLXJlVTA2Ym5CcVlfZlJqcHZycC11QkN5UEtieS0xTEZBVlZEeHJ1TzM5NmhlNGUtTk5vYWEyVU50ZVIxbDdjVkxfeHFCZnh5UV9ZaTJsbWdrWFJNYlRSNFpjRmtkRWtZdHNOTE1EVkIxX0J3djZ6N0VBNDJ6NGpvRlZ4ZFVDRWIzdVozV0pudllQOFIybE1qdlhWZkJoeWJy?oc=5",
       "translation_status": "failed",
       "score": 63,
       "score_breakdown": {
@@ -1142,136 +1375,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Times of India"
+        "AP News",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-10-15T16:50:42+09:00",
-      "latest_published_at": "2026-10-15T17:54:13+09:00",
+      "first_published_at": "2026-10-15T01:28:00+09:00",
+      "latest_published_at": "2026-10-15T20:20:48+09:00",
       "articles": [
         {
-          "title": "Yemen claims over 700 Houthis killed after 1,250 strikes rained within 24 hours",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/yemen-says-1250-strikes-rained-on-houthis-within-24-hours-claims-over-700-houthis-killed/articleshow/134973857.cms",
-          "published_at": "17:54"
+          "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/saudi-arabia-says-it-thwarted-a-missile-strike-on-medina-and-other-middle-east-developments-101792095648947.html",
+          "published_at": "20:20"
         },
         {
-          "title": "Houthis target Yemen’s presidential palace in Aden with missiles",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
-          "published_at": "16:50"
+          "title": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpCTWlhR21RaWFXLXJlVTA2Ym5CcVlfZlJqcHZycC11QkN5UEtieS0xTEZBVlZEeHJ1TzM5NmhlNGUtTk5vYWEyVU50ZVIxbDdjVkxfeHFCZnh5UV9ZaTJsbWdrWFJNYlRSNFpjRmtkRWtZdHNOTE1EVkIxX0J3djZ6N0VBNDJ6NGpvRlZ4ZFVDRWIzdVozV0pudllQOFIybE1qdlhWZkJoeWJy?oc=5",
+          "published_at": "01:28"
         }
       ]
     },
     {
-      "id": "world-212",
-      "title": "Venezuela’s Maduro says new US torture allegations are ‘false’",
-      "title_en": "Venezuela’s Maduro says new US torture allegations are ‘false’",
+      "id": "world-22",
+      "title": "Video report: Why are Yemen’s Houthis attacking Saudi Arabia?",
+      "title_en": "Video report: Why are Yemen’s Houthis attacking Saudi Arabia?",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/americas/article/3371060/venezuelas-maduro-says-new-us-torture-allegations-are-false?utm_source=rss_feed",
-      "category": "미국",
-      "primary_source": "SCMP",
-      "excerpt": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture alleg",
-      "excerpt_en": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture alleg",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+      "title_url": "https://www.independent.co.uk/tv/news/yemen-houthi-saudi-arabia-riyadh-airport-video-b3066823.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "At least 13 people were killed and hundreds injured in a strike on Riyadh’s international airport.",
+      "excerpt_en": "At least 13 people were killed and hundreds injured in a strike on Riyadh’s international airport.",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/tv/news/yemen-houthi-saudi-arabia-riyadh-airport-video-b3066823.html",
       "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "SCMP",
-        "The Guardian",
-        "Times of India"
-      ],
-      "first_published_at": "2026-10-15T16:32:27+09:00",
-      "latest_published_at": "2026-10-15T17:25:57+09:00",
-      "articles": [
-        {
-          "title": "‘False accusations’: Maduro, wife rejects fresh torture allegations in New York court",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/false-accusations-maduro-wife-rejects-fresh-torture-allegations-in-new-york-court/articleshow/134973301.cms",
-          "published_at": "17:25"
-        },
-        {
-          "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
-          "published_at": "16:38"
-        },
-        {
-          "title": "Venezuela’s Maduro says new US torture allegations are ‘false’",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3371060/venezuelas-maduro-says-new-us-torture-allegations-are-false?utm_source=rss_feed",
-          "published_at": "16:32"
-        }
-      ]
-    },
-    {
-      "id": "world-233",
-      "title": "FBI probes ‘suspicious letters’ with white powder sent to election offices in multiple states",
-      "title_en": "FBI probes ‘suspicious letters’ with white powder sent to election offices in multiple states",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/fbi-probes-suspicious-letters-with-white-powder-sent-to-election-offices-in-multiple-states-101792078478494.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Election officers in Louisiana and Oklahoma receive a powdery substance, prompting evacuations The FBI and the US Postal Inspection Service are investigating letters sent to state officials and electi",
-      "excerpt_en": "Election officers in Louisiana and Oklahoma receive a powdery substance, prompting evacuations The FBI and the US Postal Inspection Service are investigating letters sent to state officials and electi",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/us-news/2026/oct/15/fbi-usps-letters-unknown-substance-election",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "The Guardian",
+        "Reuters",
         "The Independent"
       ],
-      "first_published_at": "2026-10-15T15:56:49+09:00",
-      "latest_published_at": "2026-10-15T17:06:53+09:00",
+      "first_published_at": "2026-10-15T05:55:26+09:00",
+      "latest_published_at": "2026-10-15T16:13:44+09:00",
       "articles": [
         {
-          "title": "FBI investigates letters with ‘unknown substance’ sent to US election officials",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/15/fbi-usps-letters-unknown-substance-election",
-          "published_at": "17:06"
+          "title": "How are Yemen’s Houthis attacking Saudi Arabia so effectively?",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZWFHTEc0MTZnaUdvM3VtaW8zVFgyc2tmemRfV2l0N3VhaDVCc2hCb3N5UEtJZE84Qi1fTWFadXZfNm1WS092aW1heFM1YVlVQnp3aTd2dHQ4T2stMWVoTTJNMmRtcnNxbGdxMG9kNTV2QTFkeXFfcjhTVUxhTkVVNHBxTTBrSlA2QkpHcHVqUFNQNXp5UmlJb1JzQXBZZFlhSUNfTzRyS19zYXZNczJPUWhETDc?oc=5",
+          "published_at": "16:13"
         },
         {
-          "title": "FBI investigating after letters with 'suspicious substances' are sent to congressional and election offices",
+          "title": "Video report: Why are Yemen’s Houthis attacking Saudi Arabia?",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-letters-suspicious-substance-congressional-election-offices-b3067578.html",
-          "published_at": "16:16"
-        },
-        {
-          "title": "FBI probes ‘suspicious letters’ with white powder sent to election offices in multiple states",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/fbi-probes-suspicious-letters-with-white-powder-sent-to-election-offices-in-multiple-states-101792078478494.html",
-          "published_at": "15:56"
+          "url": "https://www.independent.co.uk/tv/news/yemen-houthi-saudi-arabia-riyadh-airport-video-b3066823.html",
+          "published_at": "05:55"
         }
       ]
     },
     {
-      "id": "world-21",
+      "id": "world-44",
       "title": "EU and Gulf states postpone summit due in Saudi Arabia",
       "title_en": "EU and Gulf states postpone summit due in Saudi Arabia",
       "title_source": "earliest_pick",
@@ -1365,7 +1537,61 @@
       ]
     },
     {
-      "id": "world-243",
+      "id": "world-210",
+      "title": "Venezuela’s Maduro says new US torture allegations are ‘false’",
+      "title_en": "Venezuela’s Maduro says new US torture allegations are ‘false’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/americas/article/3371060/venezuelas-maduro-says-new-us-torture-allegations-are-false?utm_source=rss_feed",
+      "category": "미국",
+      "primary_source": "SCMP",
+      "excerpt": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture alleg",
+      "excerpt_en": "Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture alleg",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "SCMP",
+        "The Guardian",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-15T16:32:27+09:00",
+      "latest_published_at": "2026-10-15T17:25:57+09:00",
+      "articles": [
+        {
+          "title": "‘False accusations’: Maduro, wife rejects fresh torture allegations in New York court",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/false-accusations-maduro-wife-rejects-fresh-torture-allegations-in-new-york-court/articleshow/134973301.cms",
+          "published_at": "17:25"
+        },
+        {
+          "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+          "published_at": "16:38"
+        },
+        {
+          "title": "Venezuela’s Maduro says new US torture allegations are ‘false’",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3371060/venezuelas-maduro-says-new-us-torture-allegations-are-false?utm_source=rss_feed",
+          "published_at": "16:32"
+        }
+      ]
+    },
+    {
+      "id": "world-242",
       "title": "29 killed after private school's roof collapses in Pakistan's Peshawar; owner arrested",
       "title_en": "29 killed after private school's roof collapses in Pakistan's Peshawar; owner arrested",
       "title_source": "earliest_pick",
@@ -1418,7 +1644,54 @@
       ]
     },
     {
-      "id": "world-104",
+      "id": "world-100",
+      "title": "Rubio urges restraint over Ethiopia-Eritrea tensions as rights group reports civilians killed",
+      "title_en": "Rubio urges restraint over Ethiopia-Eritrea tensions as rights group reports civilians killed",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON25rcm95ekRQd1NFbWpDRDJ5NWNpMnBuTVNCbXd4M0IycnlSMEpOeENmN2dpSVJQcm1CV1BIUU10Wi1fSTBZUkVvMEtEZHZsV3R6TjhWcFFZeThNXzNiTEIzRkN3R1dxNkxoWEJxNTEyT2NndVdybHJubXB2c3AxVDNPMk9zcy1OWmNLYTF6elMwb3c?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "U.S. Secretary of State Marco Rubio is calling for de-escalation in the Horn of Africa amid renewed fighting in northern Ethiopia",
+      "excerpt_en": "U.S. Secretary of State Marco Rubio is calling for de-escalation in the Horn of Africa amid renewed fighting in northern Ethiopia",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/rubio-urges-restraint-ethiopia-eritrea-tensions-rights-group-137280105",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-10-15T09:29:00+09:00",
+      "latest_published_at": "2026-10-15T11:33:57+09:00",
+      "articles": [
+        {
+          "title": "Rubio urges restraint over Ethiopia-Eritrea tensions, civilians killed",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/rubio-urges-restraint-ethiopia-eritrea-tensions-rights-group-137280105",
+          "published_at": "11:33"
+        },
+        {
+          "title": "Rubio urges restraint over Ethiopia-Eritrea tensions as rights group reports civilians killed",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON25rcm95ekRQd1NFbWpDRDJ5NWNpMnBuTVNCbXd4M0IycnlSMEpOeENmN2dpSVJQcm1CV1BIUU10Wi1fSTBZUkVvMEtEZHZsV3R6TjhWcFFZeThNXzNiTEIzRkN3R1dxNkxoWEJxNTEyT2NndVdybHJubXB2c3AxVDNPMk9zcy1OWmNLYTF6elMwb3c?oc=5",
+          "published_at": "09:29"
+        }
+      ]
+    },
+    {
+      "id": "world-103",
       "title": "Tokyo protests Russia’s arrest of Japanese journalist on suspicion of spying",
       "title_en": "Tokyo protests Russia’s arrest of Japanese journalist on suspicion of spying",
       "title_source": "earliest_pick",
@@ -1430,14 +1703,14 @@
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/10/14/world/asia/japan-protest-russia-detention-journalist.html",
       "translation_status": "failed",
-      "score": 57,
+      "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
+        "time_score": 1,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
@@ -1465,17 +1738,111 @@
       ]
     },
     {
-      "id": "world-40",
-      "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports",
-      "title_en": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports",
+      "id": "world-145",
+      "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+      "title_en": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/nvidia-apple-each-gave-25-million-trumps-ballroom-washington-post-reports-6463121",
-      "category": "미국",
+      "title_url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "유럽",
+      "primary_source": "DW",
+      "excerpt": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace.",
+      "excerpt_en": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW"
+      ],
+      "first_published_at": "2026-10-15T14:34:00+09:00",
+      "latest_published_at": "2026-10-15T20:29:52+09:00",
+      "articles": [
+        {
+          "title": "At least 7 crew members missing after drone attacks on ships in Black Sea",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/at-least-7-crew-members-missing-after-drone-attacks-on-ships-in-black-sea?traffic_source=rss",
+          "published_at": "20:29"
+        },
+        {
+          "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "14:34"
+        }
+      ]
+    },
+    {
+      "id": "world-192",
+      "title": "Houthi attack on palace used by Yemen government in Aden kills five",
+      "title_en": "Houthi attack on palace used by Yemen government in Aden kills five",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.france24.com/en/middle-east/20261015-houthi-attack-on-palace-used-by-yemen-government-in-aden-kills-five",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "Witnesses report at least six explosions near palace used by Yemen's internationally recognized government At least six explosions struck on Thursday near the palace used by Yemen ’s internationally r",
+      "excerpt_en": "Witnesses report at least six explosions near palace used by Yemen's internationally recognized government At least six explosions struck on Thursday near the palace used by Yemen ’s internationally r",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/15/houthi-missiles-strike-aden-yemen",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-15T19:57:48+09:00",
+      "latest_published_at": "2026-10-15T20:00:36+09:00",
+      "articles": [
+        {
+          "title": "Houthi missiles strike Saudi-led forces HQ at presidential palace in Aden",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/15/houthi-missiles-strike-aden-yemen",
+          "published_at": "20:00"
+        },
+        {
+          "title": "Houthi attack on palace used by Yemen government in Aden kills five",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261015-houthi-attack-on-palace-used-by-yemen-government-in-aden-kills-five",
+          "published_at": "19:57"
+        }
+      ]
+    },
+    {
+      "id": "world-1",
+      "title": "Exclusive-Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+      "title_en": "Exclusive-Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/exclusive-investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-6464056",
+      "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports Reuters",
-      "excerpt_en": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports Reuters",
+      "excerpt": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say Reuters",
+      "excerpt_en": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd1poWEFKa01FenF2THNycHFFMFNaeklhc2JGSVJqa21nTGo1cFpyMFR5cGFwMHN1cVdjdWM5NjhiaU9Zakg2ZUJDVG1aeVBPRHVNYm95NEItUlFGNndZQnhVQUE3bE1rZE52bHgxM3Jmd1RCVm9FNy1LNFlFb1RXQ0ZXRG9CRXNUUE9PUG1rbHdqSE5XT3FOSzBlUFdoTUoxZmwxbUFoY01ZMG85cG5INDg2ZmdycTdUaHc?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1494,80 +1861,33 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-10-15T15:41:38+09:00",
-      "latest_published_at": "2026-10-15T16:09:23+09:00",
+      "first_published_at": "2026-10-15T21:00:07+09:00",
+      "latest_published_at": "2026-10-15T21:15:18+09:00",
       "articles": [
         {
-          "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports",
+          "title": "EXCLUSIVE: Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd1poWEFKa01FenF2THNycHFFMFNaeklhc2JGSVJqa21nTGo1cFpyMFR5cGFwMHN1cVdjdWM5NjhiaU9Zakg2ZUJDVG1aeVBPRHVNYm95NEItUlFGNndZQnhVQUE3bE1rZE52bHgxM3Jmd1RCVm9FNy1LNFlFb1RXQ0ZXRG9CRXNUUE9PUG1rbHdqSE5XT3FOSzBlUFdoTUoxZmwxbUFoY01ZMG85cG5INDg2ZmdycTdUaHc?oc=5",
-          "published_at": "16:09"
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
+          "published_at": "21:15"
         },
         {
-          "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports",
+          "title": "Exclusive-Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/nvidia-apple-each-gave-25-million-trumps-ballroom-washington-post-reports-6463121",
-          "published_at": "15:41"
+          "url": "https://www.channelnewsasia.com/business/exclusive-investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-6464056",
+          "published_at": "21:00"
         }
       ]
     },
     {
-      "id": "world-43",
-      "title": "Northern Ireland politician jailed for child sex offences",
-      "title_en": "Northern Ireland politician jailed for child sex offences",
+      "id": "world-3",
+      "title": "CNN, Axios and other publishers join Google's AI news program",
+      "title_en": "CNN, Axios and other publishers join Google's AI news program",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-10-15/northern-ireland-jeffrey-donaldson-jailed-child-sex-offences/107272790",
-      "category": "기타",
-      "primary_source": "ABC News Australia",
-      "excerpt": "Jeffrey Donaldson, the former leader of Northern Ireland’s largest unionist party, was sentenced on Thursday.",
-      "excerpt_en": "Jeffrey Donaldson, the former leader of Northern Ireland’s largest unionist party, was sentenced on Thursday.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-15/northern-ireland-jeffrey-donaldson-jailed-child-sex-offences/107272790",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-15T11:50:26+09:00",
-      "latest_published_at": "2026-10-15T16:38:13+09:00",
-      "articles": [
-        {
-          "title": "Northern Ireland's Donaldson sentenced to 15 years in jail for child sex offences",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcVlXZTlLLWxVZDFyZmtyeGtTZHpmRDRHUVNIYl9IOEdvOHVnT2REY1AxTVZ6aVk1Z3lYV0VXQTRpa0w3bFpReWN3VWhKX2hxNk5GNmJQYjFWZVM2eWdVZ2dGTWtxZ0dvOWhzNUpKenpXd3ZjdWk5eW1sTFp2UnRVZlREbW9JVGQ1aTZZTlNmZEF5RTZZQ1NrZzZEQjFvSXNqMXBmSFFGVXVYNTA?oc=5",
-          "published_at": "16:38"
-        },
-        {
-          "title": "Northern Ireland politician jailed for child sex offences",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-15/northern-ireland-jeffrey-donaldson-jailed-child-sex-offences/107272790",
-          "published_at": "11:50"
-        }
-      ]
-    },
-    {
-      "id": "world-77",
-      "title": "CNN signs multi-year AI partnership with Google",
-      "title_en": "CNN signs multi-year AI partnership with Google",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/cnn-signs-multi-year-ai-partnership-google-6463246",
+      "title_url": "https://www.channelnewsasia.com/business/cnn-axios-and-other-publishers-join-googles-ai-news-program-6463246",
       "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "CNN signs multi-year AI partnership with Google Reuters",
-      "excerpt_en": "CNN signs multi-year AI partnership with Google Reuters",
+      "excerpt": "CNN, Axios and other publishers join Google's AI news program Reuters",
+      "excerpt_en": "CNN, Axios and other publishers join Google's AI news program Reuters",
       "excerpt_source": "Reuters",
       "excerpt_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnM2QWR6ZVFBcTRKb1MxbGgwXzBYMkt5aldWd2Q0UHRBbklWZTBYQVdEeFE4QnRDY09rR1hnX1BSam41NVRRS0d6dTdaSkU3c3NsbFMyYS1sN1pqRnA1dl94bXRxdk01WTJaNnFWVVJzRk5xUjdTRDBocnlzbkVxZWdNaUwxRExrU1RrVkd3ZXJpM3djTVFBSGZZRE0wRWVKaHpGRER4d2hXUQ?oc=5",
       "translation_status": "failed",
@@ -1589,34 +1909,34 @@
         "Reuters"
       ],
       "first_published_at": "2026-10-15T17:06:04+09:00",
-      "latest_published_at": "2026-10-15T17:09:44+09:00",
+      "latest_published_at": "2026-10-15T19:31:47+09:00",
       "articles": [
         {
-          "title": "CNN signs multi-year AI partnership with Google",
+          "title": "CNN, Axios and other publishers join Google's AI news program",
           "source_name": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnM2QWR6ZVFBcTRKb1MxbGgwXzBYMkt5aldWd2Q0UHRBbklWZTBYQVdEeFE4QnRDY09rR1hnX1BSam41NVRRS0d6dTdaSkU3c3NsbFMyYS1sN1pqRnA1dl94bXRxdk01WTJaNnFWVVJzRk5xUjdTRDBocnlzbkVxZWdNaUwxRExrU1RrVkd3ZXJpM3djTVFBSGZZRE0wRWVKaHpGRER4d2hXUQ?oc=5",
-          "published_at": "17:09"
+          "published_at": "19:31"
         },
         {
-          "title": "CNN signs multi-year AI partnership with Google",
+          "title": "CNN, Axios and other publishers join Google's AI news program",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/cnn-signs-multi-year-ai-partnership-google-6463246",
+          "url": "https://www.channelnewsasia.com/business/cnn-axios-and-other-publishers-join-googles-ai-news-program-6463246",
           "published_at": "17:06"
         }
       ]
     },
     {
-      "id": "world-150",
-      "title": "Eight US states sue OpenAI, alleging ChatGPT exposes young users to dangerous behavior",
-      "title_en": "Eight US states sue OpenAI, alleging ChatGPT exposes young users to dangerous behavior",
+      "id": "world-14",
+      "title": "Amazon launches two new portable AI listening devices",
+      "title_en": "Amazon launches two new portable AI listening devices",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/eight-us-states-sue-openai-alleging-chatgpt-exposes-young-users-to-dangerous-behavior-101792013634745.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Eight US states have sued OpenAI, alleging ChatGPT harms users, including teenagers, and seeking safety changes, penalties and damages.",
-      "excerpt_en": "Eight US states have sued OpenAI, alleging ChatGPT harms users, including teenagers, and seeking safety changes, penalties and damages.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/eight-us-states-sue-openai-alleging-chatgpt-exposes-young-users-to-dangerous-behavior-101792013634745.html",
+      "title_url": "https://www.channelnewsasia.com/business/amazon-launches-two-new-portable-ai-listening-devices-6463321",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Amazon launches two new portable AI listening devices Reuters",
+      "excerpt_en": "Amazon launches two new portable AI listening devices Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0c4SGNGOWZtd0Y4cUZFbDlZdXdZbmZEMmZrVGNpbU1BdkNWUUtlTjBXRGN4dlVDaWJrUENJcEh0VzVEY09oNHVJbDBkQ2FRV1hqeTFuc3dZaURjTHNuQ2RmS25xNm9KVS1OaXFja2kwSFZPQVV2MG9XNmdKOTBBSERzUVNJYUUxUXNOYTYxSkpNU3VkamZpT21lTlBmeFJ3QVE?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1632,38 +1952,226 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-14T21:44:01+09:00",
-      "latest_published_at": "2026-10-15T16:28:44+09:00",
+      "first_published_at": "2026-10-15T17:43:44+09:00",
+      "latest_published_at": "2026-10-15T19:15:34+09:00",
       "articles": [
         {
-          "title": "Why are eight US states suing OpenAI?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/15/why-are-eight-us-states-suing-openai?traffic_source=rss",
-          "published_at": "16:28"
+          "title": "Amazon launches two new portable AI listening devices",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0c4SGNGOWZtd0Y4cUZFbDlZdXdZbmZEMmZrVGNpbU1BdkNWUUtlTjBXRGN4dlVDaWJrUENJcEh0VzVEY09oNHVJbDBkQ2FRV1hqeTFuc3dZaURjTHNuQ2RmS25xNm9KVS1OaXFja2kwSFZPQVV2MG9XNmdKOTBBSERzUVNJYUUxUXNOYTYxSkpNU3VkamZpT21lTlBmeFJ3QVE?oc=5",
+          "published_at": "19:15"
         },
         {
-          "title": "Eight US states sue OpenAI, alleging ChatGPT exposes young users to dangerous behavior",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/eight-us-states-sue-openai-alleging-chatgpt-exposes-young-users-to-dangerous-behavior-101792013634745.html",
-          "published_at": "21:44"
+          "title": "Amazon launches two new portable AI listening devices",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/amazon-launches-two-new-portable-ai-listening-devices-6463321",
+          "published_at": "17:43"
         }
       ]
     },
     {
-      "id": "world-173",
-      "title": "Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S.",
-      "title_en": "Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S.",
+      "id": "world-46",
+      "title": "Albania's leader defies calls to resign as student protesters rampage in capital",
+      "title_en": "Albania's leader defies calls to resign as student protesters rampage in capital",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475?cmp=rss",
+      "title_url": "https://www.france24.com/en/albania-s-leader-defies-calls-to-resign-as-student-protesters-rampage-in-capital",
       "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "Ukraine has resumed ‌its attacks on Russian refineries with a strike at an installation in the Ryazan region, the regional governor said Thursday, after Ukrainian President Volodymyr Zelenskyy voiced ",
-      "excerpt_en": "Ukraine has resumed ‌its attacks on Russian refineries with a strike at an installation in the Ryazan region, the regional governor said Thursday, after Ukrainian President Volodymyr Zelenskyy voiced ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475?cmp=rss",
+      "primary_source": "France24",
+      "excerpt": "​Albanian Prime Minister Edi Rama on Thursday rejected calls to resign as thousands of student-led protesters smashed windows and fought running battles with riot police firing water cannon and tear g",
+      "excerpt_en": "​Albanian Prime Minister Edi Rama on Thursday rejected calls to resign as thousands of student-led protesters smashed windows and fought running battles with riot police firing water cannon and tear g",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/albania-s-leader-defies-calls-to-resign-as-student-protesters-rampage-in-capital",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "France24",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-15T19:02:14+09:00",
+      "latest_published_at": "2026-10-15T19:53:35+09:00",
+      "articles": [
+        {
+          "title": "Albania's leader defies calls to resign as student protesters rampage in capital",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzR2R3ctV19YUFlJRy1QM3RoT0wyV2d1dTlfZHVEanNDcDFJMzZjM2Zyck45b3NMTktPWVVLYl9NUFBmZmRYRGw5YnI0Z3RLbDQ5MVZKck1PNF8yRTAtdlhFUWF5N0R5Z1psX0ZGN2k5ZUZ0RjFtWU9Sblg0MTZmbGxkcjFUeHlHdDd3em44UlY3cGRuUmdjOUtJQmstNFVCX3c?oc=5",
+          "published_at": "19:53"
+        },
+        {
+          "title": "Albania's leader defies calls to resign as student protesters rampage in capital",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/albania-s-leader-defies-calls-to-resign-as-student-protesters-rampage-in-capital",
+          "published_at": "19:02"
+        }
+      ]
+    },
+    {
+      "id": "world-75",
+      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+      "title_en": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/anthropic-grants-outside-evaluator-metr-employee-level-access-in-ai-safety-push-6463306",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Anthropic grants outside evaluator METR employee-level access in AI safety push Reuters",
+      "excerpt_en": "Anthropic grants outside evaluator METR employee-level access in AI safety push Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbERjb3RFVUdmYXZ6ZktrZ0tiVUlEck5vRGtxd2dXTnA4UGFoSF9QNEU5Y3FfVUxZOHp1cEt3UktQUXZicnI5UDByaW5hTDdhanhtb2JsVTZsRkxYSjRsd2VZZUx2Yy1lZzNhWGdJSWxOalZoZGJNU0g1NGFkUEFkZHNob2RXaVVqb3BxTkZGVFJaUHg4cVNTTXJMcnFtSGZTZDZ1TVVBOWxSSGhjZ0Z6SFpB?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-15T17:35:15+09:00",
+      "latest_published_at": "2026-10-15T19:51:22+09:00",
+      "articles": [
+        {
+          "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbERjb3RFVUdmYXZ6ZktrZ0tiVUlEck5vRGtxd2dXTnA4UGFoSF9QNEU5Y3FfVUxZOHp1cEt3UktQUXZicnI5UDByaW5hTDdhanhtb2JsVTZsRkxYSjRsd2VZZUx2Yy1lZzNhWGdJSWxOalZoZGJNU0g1NGFkUEFkZHNob2RXaVVqb3BxTkZGVFJaUHg4cVNTTXJMcnFtSGZTZDZ1TVVBOWxSSGhjZ0Z6SFpB?oc=5",
+          "published_at": "19:51"
+        },
+        {
+          "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/anthropic-grants-outside-evaluator-metr-employee-level-access-in-ai-safety-push-6463306",
+          "published_at": "17:35"
+        }
+      ]
+    },
+    {
+      "id": "world-82",
+      "title": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal",
+      "title_en": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/thoma-bravos-proofpoint-buy-varonis-systems-in-63-billion-all-cash-deal-6463991",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal Reuters",
+      "excerpt_en": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQl9UYUpXclBGS0xwOG95WXBEYmVNM2Y1Q1NGX3FfbDBiNEdSdXJHb0stcl9HV3RiZVJpSzVZTW9wMnBpMnJHQU05SVdLVHlmNFBXTm9Vb2xJZE9qR1VKTmpGRTlNbVNnM3Y3eGxMNWF3QUtrdGRlQldObk9ZMDRIRkV4OEUtY1psT1AzbFlUdHpld0pOWGVYOGlQZW9mMExodmxIQXVsNTJDS1FlaUVFUw?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-15T20:22:34+09:00",
+      "latest_published_at": "2026-10-15T20:33:02+09:00",
+      "articles": [
+        {
+          "title": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQl9UYUpXclBGS0xwOG95WXBEYmVNM2Y1Q1NGX3FfbDBiNEdSdXJHb0stcl9HV3RiZVJpSzVZTW9wMnBpMnJHQU05SVdLVHlmNFBXTm9Vb2xJZE9qR1VKTmpGRTlNbVNnM3Y3eGxMNWF3QUtrdGRlQldObk9ZMDRIRkV4OEUtY1psT1AzbFlUdHpld0pOWGVYOGlQZW9mMExodmxIQXVsNTJDS1FlaUVFUw?oc=5",
+          "published_at": "20:33"
+        },
+        {
+          "title": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/thoma-bravos-proofpoint-buy-varonis-systems-in-63-billion-all-cash-deal-6463991",
+          "published_at": "20:22"
+        }
+      ]
+    },
+    {
+      "id": "world-99",
+      "title": "Rep. Ilhan Omar's phone seized and relatives subpoenaed in criminal probe, AP source says",
+      "title_en": "Rep. Ilhan Omar's phone seized and relatives subpoenaed in criminal probe, AP source says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3daXzEwS2UxTFYyZnJZalNfOVk2SlFONG11bFA0VThwWjBmTktHdEhpWl9zc3lPZDBrT21Sc2N2WG9jWlBZWWhBeFlLeVJDd2RPckFtbXB2U2RIOW95bXB1VEozR2tZMFBKMXBfNm1vUXE5N0NuVUE3Y3EwQ0FlYTlVNA?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "Trump’s Homeland Security Secretary has suggested that authorities are examining potential crimes related to her family’s immigration paperwork",
+      "excerpt_en": "Trump’s Homeland Security Secretary has suggested that authorities are examining potential crimes related to her family’s immigration paperwork",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/ilhan-omar-criminal-probe-subpoenas-phone-seized-b3067773.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T12:31:00+09:00",
+      "latest_published_at": "2026-10-15T21:04:36+09:00",
+      "articles": [
+        {
+          "title": "Rep. Ilhan Omar's phone seized and relatives subpoenaed in criminal probe, report says",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/ilhan-omar-criminal-probe-subpoenas-phone-seized-b3067773.html",
+          "published_at": "21:04"
+        },
+        {
+          "title": "Rep. Ilhan Omar's phone seized and relatives subpoenaed in criminal probe, AP source says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3daXzEwS2UxTFYyZnJZalNfOVk2SlFONG11bFA0VThwWjBmTktHdEhpWl9zc3lPZDBrT21Sc2N2WG9jWlBZWWhBeFlLeVJDd2RPckFtbXB2U2RIOW95bXB1VEozR2tZMFBKMXBfNm1vUXE5N0NuVUE3Y3EwQ0FlYTlVNA?oc=5",
+          "published_at": "12:31"
+        }
+      ]
+    },
+    {
+      "id": "world-132",
+      "title": "Australian woman charged with lacing colleague's curry with snail poison",
+      "title_en": "Australian woman charged with lacing colleague's curry with snail poison",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/articles/cmp3gnep35gko?at_medium=RSS&at_campaign=rss",
+      "category": "아시아",
+      "primary_source": "BBC",
+      "excerpt": "Western Australian police say woman ‘experienced numbness to her tongue’ after tasting the curry at her workplace in Perth Get our breaking news email , free app or daily news podcast A woman has been",
+      "excerpt_en": "Western Australian police say woman ‘experienced numbness to her tongue’ after tasting the curry at her workplace in Perth Get our breaking news email , free app or daily news podcast A woman has been",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/australia-news/2026/oct/15/woman-charged-after-allegedly-poisoning-colleagues-curry-lunch-with-snail-pellets-ntwnfb",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1672,6 +2180,53 @@
         "major_score": 10,
         "breaking_score": 7,
         "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "BBC",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-15T04:17:45+09:00",
+      "latest_published_at": "2026-10-15T07:47:40+09:00",
+      "articles": [
+        {
+          "title": "Woman charged after allegedly poisoning colleague’s curry lunch with snail pellets",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/15/woman-charged-after-allegedly-poisoning-colleagues-curry-lunch-with-snail-pellets-ntwnfb",
+          "published_at": "07:47"
+        },
+        {
+          "title": "Australian woman charged with lacing colleague's curry with snail poison",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3gnep35gko?at_medium=RSS&at_campaign=rss",
+          "published_at": "04:17"
+        }
+      ]
+    },
+    {
+      "id": "world-264",
+      "title": "Canada, Singapore reaffirm China trade ties amid global push for self-sufficiency",
+      "title_en": "Canada, Singapore reaffirm China trade ties amid global push for self-sufficiency",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/economy/global-economy/article/3370999/canada-singapore-reaffirm-china-trade-ties-amid-global-push-self-sufficiency?utm_source=rss_feed",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "Canada and Singapore are among the countries that remain committed to strengthening trade ties with China, despite growing global fragmentation and a push by governments towards greater self-sufficien",
+      "excerpt_en": "Canada and Singapore are among the countries that remain committed to strengthening trade ties with China, despite growing global fragmentation and a push by governments towards greater self-sufficien",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/economy/global-economy/article/3370999/canada-singapore-reaffirm-china-trade-ties-amid-global-push-self-sufficiency?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
         "raw75": 41
       },
       "area_value": 2,
@@ -1680,84 +2235,37 @@
       "source_count": 2,
       "sources": [
         "CBC",
-        "DW"
+        "SCMP"
       ],
-      "first_published_at": "2026-10-15T11:11:36+09:00",
-      "latest_published_at": "2026-10-15T14:51:00+09:00",
+      "first_published_at": "2026-10-15T12:30:13+09:00",
+      "latest_published_at": "2026-10-15T20:10:02+09:00",
       "articles": [
         {
-          "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "14:51"
-        },
-        {
-          "title": "Ukraine resumes attacks on Russian refineries, as Zelenskyy expresses frustration with U.S.",
+          "title": "Canada courting Indian business partnerships in race to seal trade deal",
           "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/russia-ukraine-war-day-1695-9.7381475?cmp=rss",
-          "published_at": "11:11"
-        }
-      ]
-    },
-    {
-      "id": "world-254",
-      "title": "U.S. may have withheld warnings to Ukraine on deadly Kyiv strikes",
-      "title_en": "U.S. may have withheld warnings to Ukraine on deadly Kyiv strikes",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/us-ukraine-intelligence-russia-war-missile-strikes-kyiv-power-outages/",
-      "category": "유럽",
-      "primary_source": "CBS News",
-      "excerpt": "The Trump administration may have withheld intelligence warnings to Ukraine about Russian strikes that killed 6 and cut power to 600,000 people, sources say.",
-      "excerpt_en": "The Trump administration may have withheld intelligence warnings to Ukraine about Russian strikes that killed 6 and cut power to 600,000 people, sources say.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/us-ukraine-intelligence-russia-war-missile-strikes-kyiv-power-outages/",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "New York Times"
-      ],
-      "first_published_at": "2026-10-14T23:56:23+09:00",
-      "latest_published_at": "2026-10-15T13:08:54+09:00",
-      "articles": [
-        {
-          "title": "Ukraine’s Exposure Grows as Satellite Use Is Restricted and Russia Escalates",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html",
-          "published_at": "13:08"
+          "url": "https://www.cbc.ca/news/world/canada-courting-indian-business-partnerships-in-race-to-seal-trade-deal-9.7381810?cmp=rss",
+          "published_at": "20:10"
         },
         {
-          "title": "U.S. may have withheld warnings to Ukraine on deadly Kyiv strikes",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/us-ukraine-intelligence-russia-war-missile-strikes-kyiv-power-outages/",
-          "published_at": "23:56"
+          "title": "Canada, Singapore reaffirm China trade ties amid global push for self-sufficiency",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/economy/global-economy/article/3370999/canada-singapore-reaffirm-china-trade-ties-amid-global-push-self-sufficiency?utm_source=rss_feed",
+          "published_at": "12:30"
         }
       ]
     },
     {
-      "id": "world-348",
-      "title": "US teen, who described Indians as ‘subhumans’, arrested for plotting to attack Hindu temple",
-      "title_en": "US teen, who described Indians as ‘subhumans’, arrested for plotting to attack Hindu temple",
+      "id": "world-329",
+      "title": "Zelensky defies Trump and resumes strikes on Russian refineries after accusing US of ‘betraying’ Ukraine",
+      "title_en": "Zelensky defies Trump and resumes strikes on Russian refineries after accusing US of ‘betraying’ Ukraine",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-teen-alexandros-paporakis-who-described-indians-as-subhumans-arrested-for-plotting-to-attack-hindu-temple-gun-jam-prevents-101792031447237.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Alexandros Paporakis, a Taco Bell cashier from Palatine, Illinois, faces felony charges of making a terrorist threat and unlawfully possessing weapons",
-      "excerpt_en": "Alexandros Paporakis, a Taco Bell cashier from Palatine, Illinois, faces felony charges of making a terrorist threat and unlawfully possessing weapons",
+      "title_url": "https://www.independent.co.uk/news/world/europe/musk-starlink-ukraine-trump-russia-b3067137.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Ukrainian forces had their access to the technology restricted this week after Trump announced a new diesel deal with Russia",
+      "excerpt_en": "Ukrainian forces had their access to the technology restricted this week after Trump announced a new diesel deal with Russia",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/musk-starlink-ukraine-trump-russia-b3067137.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1776,43 +2284,43 @@
         "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-10-15T02:56:10+09:00",
-      "latest_published_at": "2026-10-15T04:27:51+09:00",
+      "first_published_at": "2026-10-15T06:23:59+09:00",
+      "latest_published_at": "2026-10-15T17:30:31+09:00",
       "articles": [
         {
-          "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
-          "published_at": "04:27"
+          "title": "'We're done': Ukraine's Zelensky says won't follow Trump's demand of no strike on Russian refineries",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/were-done-ukraines-zelensky-says-wont-follow-trumps-demand-of-no-strike-on-russian-refineries-101792081664395.html",
+          "published_at": "17:30"
         },
         {
-          "title": "US teen, who described Indians as ‘subhumans’, arrested for plotting to attack Hindu temple",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-teen-alexandros-paporakis-who-described-indians-as-subhumans-arrested-for-plotting-to-attack-hindu-temple-gun-jam-prevents-101792031447237.html",
-          "published_at": "02:56"
+          "title": "Zelensky defies Trump and resumes strikes on Russian refineries after accusing US of ‘betraying’ Ukraine",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/musk-starlink-ukraine-trump-russia-b3067137.html",
+          "published_at": "06:23"
         }
       ]
     },
     {
-      "id": "world-370",
-      "title": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
-      "title_en": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
+      "id": "world-336",
+      "title": "‘Leakers should be shot,’ says Trump in escalation of attacks on news-gathering",
+      "title_en": "‘Leakers should be shot,’ says Trump in escalation of attacks on news-gathering",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/egypt-farmer-stone-statues-ancient-king/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "A farmer in Behbeit El Hagar, Egypt stumbled upon a remarkable royal statue of Ramses II while tilling his land. In a swift response, local antiquities officials began an excavation to retrieve the st",
-      "excerpt_en": "A farmer in Behbeit El Hagar, Egypt stumbled upon a remarkable royal statue of Ramses II while tilling his land. In a swift response, local antiquities officials began an excavation to retrieve the st",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/science/archaeology/egyptian-farmer-tilling-the-land-discovered-28-foot-statue-of-biblical-pharaoh-who-enslaved-israelis-allegedly-challenged-moses-in-bible/articleshow/134965090.cms",
+      "title_url": "https://www.smh.com.au/world/north-america/trump-says-those-who-leak-military-plans-should-be-shot-20261015-p615vf.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "category": "미국",
+      "primary_source": "Sydney Morning Herald",
+      "excerpt": "The US president, who was shot in the ear during a 2024 assassination attempt in Pennsylvania, says that in the ‘old days we used to shoot leakers’",
+      "excerpt_en": "The US president, who was shot in the ear during a 2024 assassination attempt in Pennsylvania, says that in the ‘old days we used to shoot leakers’",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-murder-speech-arizona-maga-supporters-b3067387.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
         "raw75": 41
       },
       "area_value": 2,
@@ -1820,75 +2328,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBS News",
-        "Times of India"
+        "Sydney Morning Herald",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-15T16:51:08+09:00",
-      "latest_published_at": "2026-10-15T17:29:00+09:00",
+      "first_published_at": "2026-10-15T04:30:00+09:00",
+      "latest_published_at": "2026-10-15T13:34:54+09:00",
       "articles": [
         {
-          "title": "28-foot statue of biblical pharaoh who enslaved Israelis discovered by Egyptian farmer",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/science/archaeology/egyptian-farmer-tilling-the-land-discovered-28-foot-statue-of-biblical-pharaoh-who-enslaved-israelis-allegedly-challenged-moses-in-bible/articleshow/134965090.cms",
-          "published_at": "17:29"
+          "title": "Trump boasts he could ‘murder someone’ and not lose MAGA faithful after saying leakers ‘should be shot’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-murder-speech-arizona-maga-supporters-b3067387.html",
+          "published_at": "13:34"
         },
         {
-          "title": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/egypt-farmer-stone-statues-ancient-king/",
-          "published_at": "16:51"
+          "title": "‘Leakers should be shot,’ says Trump in escalation of attacks on news-gathering",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/trump-says-those-who-leak-military-plans-should-be-shot-20261015-p615vf.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "04:30"
         }
       ]
     },
     {
-      "id": "world-6",
-      "title": "US chip stocks set to wipe out $2 trillion after latest selloff",
-      "title_en": "US chip stocks set to wipe out $2 trillion after latest selloff",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/us-chip-stocks-set-wipe-out-2-trillion-after-latest-selloff-6462771",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "US chip stocks set to wipe out $2 trillion after latest selloff Reuters",
-      "excerpt_en": "US chip stocks set to wipe out $2 trillion after latest selloff Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDZEYU5ySFdLYUlmY29XeGxBbzZ1Nk92dHprTE44dzd5V19Yd09NdmUxUFpXMHhxdzYwenJiUjJQRFhPOXhBcHptTW9rY2J2Y01kM1loR3VQMVBXRG9mR2hQbkdWVnNGQVpCN01KelozT1h4aGx0RjRYeUZHRVRCYnlLWlpXWmpwbFRmRG4tSFR1RkNpRHNTb0lueU1VdWlpSjVFVGljZw?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-15T13:54:56+09:00",
-      "latest_published_at": "2026-10-15T14:02:41+09:00",
-      "articles": [
-        {
-          "title": "US chip stocks set to wipe out $2 trillion after latest selloff",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDZEYU5ySFdLYUlmY29XeGxBbzZ1Nk92dHprTE44dzd5V19Yd09NdmUxUFpXMHhxdzYwenJiUjJQRFhPOXhBcHptTW9rY2J2Y01kM1loR3VQMVBXRG9mR2hQbkdWVnNGQVpCN01KelozT1h4aGx0RjRYeUZHRVRCYnlLWlpXWmpwbFRmRG4tSFR1RkNpRHNTb0lueU1VdWlpSjVFVGljZw?oc=5",
-          "published_at": "14:02"
-        },
-        {
-          "title": "US chip stocks set to wipe out $2 trillion after latest selloff",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/us-chip-stocks-set-wipe-out-2-trillion-after-latest-selloff-6462771",
-          "published_at": "13:54"
-        }
-      ]
-    },
-    {
-      "id": "world-31",
+      "id": "world-48",
       "title": "Tesla set to unveil next generation Roadster sports EV after years of delay",
       "title_en": "Tesla set to unveil next generation Roadster sports EV after years of delay",
       "title_source": "earliest_pick",
@@ -1935,7 +2396,7 @@
       ]
     },
     {
-      "id": "world-51",
+      "id": "world-74",
       "title": "Oil shipping costs spike, lifting prices from pump to grocery",
       "title_en": "Oil shipping costs spike, lifting prices from pump to grocery",
       "title_source": "earliest_pick",
@@ -1982,7 +2443,7 @@
       ]
     },
     {
-      "id": "world-53",
+      "id": "world-84",
       "title": "US FTC subpoenas OpenAI and Anthropic over consumer harms, Axios reports",
       "title_en": "US FTC subpoenas OpenAI and Anthropic over consumer harms, Axios reports",
       "title_source": "earliest_pick",
@@ -2029,54 +2490,7 @@
       ]
     },
     {
-      "id": "world-99",
-      "title": "Rep Ilhan Omar's phone seized, relatives subpoenaed amid criminal probe ahead of midterms",
-      "title_en": "Rep Ilhan Omar's phone seized, relatives subpoenaed amid criminal probe ahead of midterms",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/rep-ilhan-omars-phone-seized-relatives-subpoenaed-amid-criminal-probe-ahead-of-midterms-101792011832422.html",
-      "category": "기타",
-      "primary_source": "Hindustan Times",
-      "excerpt": "A Minnesota grand jury has issued subpoenas as part of a federal probe into possible irregularities in Ilhan Omar’s immigration documents.",
-      "excerpt_en": "A Minnesota grand jury has issued subpoenas as part of a federal probe into possible irregularities in Ilhan Omar’s immigration documents.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/rep-ilhan-omars-phone-seized-relatives-subpoenaed-amid-criminal-probe-ahead-of-midterms-101792011832422.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-14T21:47:07+09:00",
-      "latest_published_at": "2026-10-15T12:31:00+09:00",
-      "articles": [
-        {
-          "title": "Rep. Ilhan Omar's phone seized and relatives subpoenaed in criminal probe, AP source says",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3daXzEwS2UxTFYyZnJZalNfOVk2SlFONG11bFA0VThwWjBmTktHdEhpWl9zc3lPZDBrT21Sc2N2WG9jWlBZWWhBeFlLeVJDd2RPckFtbXB2U2RIOW95bXB1VEozR2tZMFBKMXBfNm1vUXE5N0NuVUE3Y3EwQ0FlYTlVNA?oc=5",
-          "published_at": "12:31"
-        },
-        {
-          "title": "Rep Ilhan Omar's phone seized, relatives subpoenaed amid criminal probe ahead of midterms",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/rep-ilhan-omars-phone-seized-relatives-subpoenaed-amid-criminal-probe-ahead-of-midterms-101792011832422.html",
-          "published_at": "21:47"
-        }
-      ]
-    },
-    {
-      "id": "world-108",
+      "id": "world-110",
       "title": "Sen. Roger Marshall sought funding to address a water shortage. The project could benefit his ranch",
       "title_en": "Sen. Roger Marshall sought funding to address a water shortage. The project could benefit his ranch",
       "title_source": "earliest_pick",
@@ -2123,17 +2537,17 @@
       ]
     },
     {
-      "id": "world-116",
-      "title": "German police seize robot that allegedly groped teenage girl on livestream",
-      "title_en": "German police seize robot that allegedly groped teenage girl on livestream",
+      "id": "world-164",
+      "title": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
+      "title_en": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/video/german-police-investigating-after-robot-allegedly-gropes-teen-girl-271596101962",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "Police in Germany are investigating after a livestream captured a robot allegedly groping a 16-year-old girl. The robot's teenage owner and his companion are now being investigated on suspicion of sex",
-      "excerpt_en": "Police in Germany are investigating after a livestream captured a robot allegedly groping a 16-year-old girl. The robot's teenage owner and his companion are now being investigated on suspicion of sex",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/video/german-police-investigating-after-robot-allegedly-gropes-teen-girl-271596101962",
+      "title_url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia",
+      "category": "기타",
+      "primary_source": "NPR",
+      "excerpt": "Social Security benefits are set to get a boost to offset rising consumer prices. And, streamer Hasan Piker says the GOP's \"guilt-by-association politics\" won't drag Democrats down in the midterms.",
+      "excerpt_en": "Social Security benefits are set to get a boost to offset rising consumer prices. And, streamer Hasan Piker says the GOP's \"guilt-by-association politics\" won't drag Democrats down in the midterms.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2149,28 +2563,263 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "NBC News"
+        "Hindustan Times",
+        "NPR"
       ],
-      "first_published_at": "2026-10-14T23:42:13+09:00",
-      "latest_published_at": "2026-10-15T12:06:00+09:00",
+      "first_published_at": "2026-10-15T11:31:25+09:00",
+      "latest_published_at": "2026-10-15T18:40:21+09:00",
       "articles": [
         {
-          "title": "Police seize robot that groped 16-year-old girl, investigate whether young men were at the controls",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc1VNdWRPZEZJT1pVUlp2RHhDb0ZYd2hDaGpDd2ZZQnNJMUhzZnNNeXAtWlhjQVY1UldISXd4MG9CT2p4M3BlSVB3Sms1VDZpRTdha2Vzcm81S1RHSXVmSlIwc05KOUZ6Z3V1NW1oMFJxWVVaOS01V0VDRWVJMFV2VFNvOHBMSjQxMzNrWXVxZk01dnpoR3FqeVctaTY?oc=5",
-          "published_at": "12:06"
+          "title": "Social Security warning: Retirees face 22% benefit cuts in 2032 despite 3.6% COLA boost in 2027",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/social-security-warning-retirees-face-22-benefit-cuts-in-2032-despite-3-6-cola-boost-in-2027-101792087917984.html",
+          "published_at": "18:40"
         },
         {
-          "title": "German police seize robot that allegedly groped teenage girl on livestream",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/video/german-police-investigating-after-robot-allegedly-gropes-teen-girl-271596101962",
-          "published_at": "23:42"
+          "title": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia",
+          "published_at": "11:31"
+        }
+      ]
+    },
+    {
+      "id": "world-318",
+      "title": "Japan's Takaichi says chores and makeup add hours to her workday, sparking debate on gender roles",
+      "title_en": "Japan's Takaichi says chores and makeup add hours to her workday, sparking debate on gender roles",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/sanae-takaichi-japan-tokyo-britain-germany-b3067641.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "Being a prime minister is tough, with daily schedule packed with meetings and hourslong parliamentary sessions",
+      "excerpt_en": "Being a prime minister is tough, with daily schedule packed with meetings and hourslong parliamentary sessions",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/sanae-takaichi-japan-tokyo-britain-germany-b3067641.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T16:47:10+09:00",
+      "latest_published_at": "2026-10-15T16:52:10+09:00",
+      "articles": [
+        {
+          "title": "Japan's Takaichi says chores and makeup add hours to her workday, sparking debate on gender roles",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/japans-takaichi-chores-makeup-add-hours-workday-sparking-137294535",
+          "published_at": "16:52"
+        },
+        {
+          "title": "Japan's Takaichi says chores and makeup add hours to her workday, sparking debate on gender roles",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/sanae-takaichi-japan-tokyo-britain-germany-b3067641.html",
+          "published_at": "16:47"
+        }
+      ]
+    },
+    {
+      "id": "world-323",
+      "title": "Trudy strengthens to a hurricane as system nears Mexico’s coast with storm expected",
+      "title_en": "Trudy strengthens to a hurricane as system nears Mexico’s coast with storm expected",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/trudy-strengthens-hurricane-system-nears-mexicos-coast-major-137280302",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "Through the weekend, Trudy is expected to produce 4-8 inches of rainfall, with isolated totals around 12 inches across the southwestern Mexican states",
+      "excerpt_en": "Through the weekend, Trudy is expected to produce 4-8 inches of rainfall, with isolated totals around 12 inches across the southwestern Mexican states",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/hurricane-trudy-mexico-storm-b3067584.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T11:32:06+09:00",
+      "latest_published_at": "2026-10-15T15:42:59+09:00",
+      "articles": [
+        {
+          "title": "Hurricane Trudy looms over Mexico’s Pacific coast as it strengthens into huge storm",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/hurricane-trudy-mexico-storm-b3067584.html",
+          "published_at": "15:42"
+        },
+        {
+          "title": "Trudy strengthens to a hurricane as system nears Mexico’s coast with storm expected",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/trudy-strengthens-hurricane-system-nears-mexicos-coast-major-137280302",
+          "published_at": "11:32"
+        }
+      ]
+    },
+    {
+      "id": "world-340",
+      "title": "EU leaders push back on a major budget proposal, putting a deal by end of the year in doubt",
+      "title_en": "EU leaders push back on a major budget proposal, putting a deal by end of the year in doubt",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/europe-friedrich-merz-brussels-antonio-costa-swedish-b3067418.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "European Union leaders are voicing strong opposition to a new proposal for the bloc’s long-term budget",
+      "excerpt_en": "European Union leaders are voicing strong opposition to a new proposal for the bloc’s long-term budget",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/europe-friedrich-merz-brussels-antonio-costa-swedish-b3067418.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T12:38:07+09:00",
+      "latest_published_at": "2026-10-15T13:05:34+09:00",
+      "articles": [
+        {
+          "title": "EU leaders push back on a major budget proposal, putting a deal by 2027 in doubt",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/eu-leaders-push-back-major-budget-proposal-putting-137284258",
+          "published_at": "13:05"
+        },
+        {
+          "title": "EU leaders push back on a major budget proposal, putting a deal by end of the year in doubt",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/europe-friedrich-merz-brussels-antonio-costa-swedish-b3067418.html",
+          "published_at": "12:38"
+        }
+      ]
+    },
+    {
+      "id": "world-341",
+      "title": "Starlink restrictions would hamper Ukraine's war effort. But the country can adapt, experts say",
+      "title_en": "Starlink restrictions would hamper Ukraine's war effort. But the country can adapt, experts say",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/ukraine-starlink-elon-musk-9.7380594?cmp=rss",
+      "category": "유럽",
+      "primary_source": "CBC",
+      "excerpt": "Starlink and the military-grade version known as Starshield have been integral to Ukraine's war effort against Russia. But earlier this week, according to Ukrainian officials, the military lost some a",
+      "excerpt_en": "Starlink and the military-grade version known as Starshield have been integral to Ukraine's war effort against Russia. But earlier this week, according to Ukrainian officials, the military lost some a",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/ukraine-starlink-elon-musk-9.7380594?cmp=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T08:00:00+09:00",
+      "latest_published_at": "2026-10-15T12:27:20+09:00",
+      "articles": [
+        {
+          "title": "What is Starlink and why is it so important for Ukraine?",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/starlink-ukraine-russia-donald-trump-zelensky-b3067280.html",
+          "published_at": "12:27"
+        },
+        {
+          "title": "Starlink restrictions would hamper Ukraine's war effort. But the country can adapt, experts say",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/ukraine-starlink-elon-musk-9.7380594?cmp=rss",
+          "published_at": "08:00"
         }
       ]
     },
     {
       "id": "world-354",
+      "title": "US teen, who described Indians as ‘subhumans’, arrested for plotting to attack Hindu temple",
+      "title_en": "US teen, who described Indians as ‘subhumans’, arrested for plotting to attack Hindu temple",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-teen-alexandros-paporakis-who-described-indians-as-subhumans-arrested-for-plotting-to-attack-hindu-temple-gun-jam-prevents-101792031447237.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Alexandros Paporakis, a Taco Bell cashier from Palatine, Illinois, faces felony charges of making a terrorist threat and unlawfully possessing weapons",
+      "excerpt_en": "Alexandros Paporakis, a Taco Bell cashier from Palatine, Illinois, faces felony charges of making a terrorist threat and unlawfully possessing weapons",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-15T02:56:10+09:00",
+      "latest_published_at": "2026-10-15T04:27:51+09:00",
+      "articles": [
+        {
+          "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+          "published_at": "04:27"
+        },
+        {
+          "title": "US teen, who described Indians as ‘subhumans’, arrested for plotting to attack Hindu temple",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-teen-alexandros-paporakis-who-described-indians-as-subhumans-arrested-for-plotting-to-attack-hindu-temple-gun-jam-prevents-101792031447237.html",
+          "published_at": "02:56"
+        }
+      ]
+    },
+    {
+      "id": "world-361",
       "title": "Orange skies in Indonesia as haze crisis spreads",
       "title_en": "Orange skies in Indonesia as haze crisis spreads",
       "title_source": "earliest_pick",
@@ -2217,7 +2866,7 @@
       ]
     },
     {
-      "id": "world-364",
+      "id": "world-368",
       "title": "Mauritius extends curfew for two more nights after riots, looting; schools to remain shut this week",
       "title_en": "Mauritius extends curfew for two more nights after riots, looting; schools to remain shut this week",
       "title_source": "earliest_pick",
@@ -2264,17 +2913,17 @@
       ]
     },
     {
-      "id": "world-379",
-      "title": "Police investigating report of sexual assault at University of Chicago frat party",
-      "title_en": "Police investigating report of sexual assault at University of Chicago frat party",
+      "id": "world-376",
+      "title": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
+      "title_en": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/university-of-chicago-frat-party-alleged-sexual-assault-9.7381090?cmp=rss",
-      "category": "기타",
-      "primary_source": "CBC",
-      "excerpt": "Police are investigating a woman's report that she was sexually assaulted during a fraternity party near the University of Chicago campus, an allegation that comes at a time of heightened awareness of",
-      "excerpt_en": "Police are investigating a woman's report that she was sexually assaulted during a fraternity party near the University of Chicago campus, an allegation that comes at a time of heightened awareness of",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/university-of-chicago-frat-party-alleged-sexual-assault-9.7381090?cmp=rss",
+      "title_url": "https://www.cbsnews.com/news/egypt-farmer-stone-statues-ancient-king/",
+      "category": "중동",
+      "primary_source": "CBS News",
+      "excerpt": "A farmer in Behbeit El Hagar, Egypt stumbled upon a remarkable royal statue of Ramses II while tilling his land. In a swift response, local antiquities officials began an excavation to retrieve the st",
+      "excerpt_en": "A farmer in Behbeit El Hagar, Egypt stumbled upon a remarkable royal statue of Ramses II while tilling his land. In a swift response, local antiquities officials began an excavation to retrieve the st",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/science/archaeology/egyptian-farmer-tilling-the-land-discovered-28-foot-statue-of-biblical-pharaoh-who-enslaved-israelis-allegedly-challenged-moses-in-bible/articleshow/134965090.cms",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2290,86 +2939,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "CBC",
-        "Hindustan Times"
+        "CBS News",
+        "Times of India"
       ],
-      "first_published_at": "2026-10-14T22:40:59+09:00",
-      "latest_published_at": "2026-10-15T11:13:45+09:00",
+      "first_published_at": "2026-10-15T16:51:08+09:00",
+      "latest_published_at": "2026-10-15T17:29:00+09:00",
       "articles": [
         {
-          "title": "University of Chicago identifies person of interest in reported sexual assault at Alpha Epsilon Pi fraternity house",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/university-of-chicago-identifies-person-of-interest-in-reported-sexual-assault-at-alpha-epsilon-pi-fraternity-house-101792057205822.html",
-          "published_at": "11:13"
+          "title": "28-foot statue of biblical pharaoh who enslaved Israelis discovered by Egyptian farmer",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/science/archaeology/egyptian-farmer-tilling-the-land-discovered-28-foot-statue-of-biblical-pharaoh-who-enslaved-israelis-allegedly-challenged-moses-in-bible/articleshow/134965090.cms",
+          "published_at": "17:29"
         },
         {
-          "title": "Police investigating report of sexual assault at University of Chicago frat party",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/university-of-chicago-frat-party-alleged-sexual-assault-9.7381090?cmp=rss",
-          "published_at": "22:40"
+          "title": "Farmer's discovery in Egypt leads to pieces of statues for ancient king",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/egypt-farmer-stone-statues-ancient-king/",
+          "published_at": "16:51"
         }
       ]
     },
     {
-      "id": "world-416",
-      "title": "Who is Alexandros Paporakis? Teen accused of plotting mass shooting at Hindu place of worship in Aurora",
-      "title_en": "Who is Alexandros Paporakis? Teen accused of plotting mass shooting at Hindu place of worship in Aurora",
+      "id": "world-128",
+      "title": "FBI investigating after letters with 'suspicious substances' are sent to congressional and election offices",
+      "title_en": "FBI investigating after letters with 'suspicious substances' are sent to congressional and election offices",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/who-is-alexandros-paporakis-teen-accused-of-plotting-mass-shooting-at-hindu-place-of-worship-in-aurora-illinois-101792019265999.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Alexandros Paporakis was arrested and charged as investigators found an alleged mass shooting plan which may have targeted a Hindu place of worship in Aurora.",
-      "excerpt_en": "Alexandros Paporakis was arrested and charged as investigators found an alleged mass shooting plan which may have targeted a Hindu place of worship in Aurora.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/who-is-alexandros-paporakis-teen-accused-of-plotting-mass-shooting-at-hindu-place-of-worship-in-aurora-illinois-101792019265999.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-letters-suspicious-substance-congressional-election-offices-b3067578.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
+      "excerpt_en": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
+      "excerpt_source": "BBC",
+      "excerpt_url": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 4,
-        "major_score": 5,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 40
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 39
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "Hindustan Times"
+        "BBC",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-14T23:50:44+09:00",
-      "latest_published_at": "2026-10-15T10:47:30+09:00",
+      "first_published_at": "2026-10-15T18:28:21+09:00",
+      "latest_published_at": "2026-10-15T21:42:26+09:00",
       "articles": [
         {
-          "title": "Surrounded by 4 cops, cuffed on the ground: Video shows arrest of US teen accused of plotting Hindu temple shooting",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/surrounded-by-4-cops-cuffed-on-the-ground-video-shows-arrest-of-us-teen-alexandros-paporakis-accused-of-plotting-hindu-temple-shooting-101792058161647.html",
-          "published_at": "10:47"
+          "title": "Letters with 'suspicious substances' sent to US senators and election offices",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
+          "published_at": "21:42"
         },
         {
-          "title": "Alexandros Paporakis: Inside chilling manifesto of teen accused of plotting mass shooting at Hindu temple in Aurora",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/alexandros-paporakis-inside-chilling-manifesto-of-teen-accused-of-plotting-mass-shooting-at-hindu-temple-in-aurora-101792045805681.html",
-          "published_at": "09:22"
-        },
-        {
-          "title": "Raja Krishnamoorthi condemns ‘poison of anti-Indian hatred’ after US teen accused of plotting mass shooting at Hindu temple in Aurora",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/raja-krishnamoorthi-condemns-poison-of-anti-indian-hatred-after-us-teen-accused-of-plotting-mass-shooting-at-hindu-temple-in-aurora-101792044665956.html",
-          "published_at": "06:27"
-        },
-        {
-          "title": "Who is Alexandros Paporakis? Teen accused of plotting mass shooting at Hindu place of worship in Aurora",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/who-is-alexandros-paporakis-teen-accused-of-plotting-mass-shooting-at-hindu-place-of-worship-in-aurora-illinois-101792019265999.html",
-          "published_at": "23:50"
+          "title": "FBI investigating after letters with 'suspicious substances' are sent to congressional and election offices",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-letters-suspicious-substance-congressional-election-offices-b3067578.html",
+          "published_at": "18:28"
         }
       ]
     },
     {
-      "id": "world-214",
+      "id": "world-212",
       "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
       "title_en": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
       "title_source": "earliest_pick",
@@ -2416,54 +3054,7 @@
       ]
     },
     {
-      "id": "world-301",
-      "title": "Three dead as heavy rainfall and floods hit Istanbul",
-      "title_en": "Three dead as heavy rainfall and floods hit Istanbul",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/three-dead-and-2700-evacuated-as-heavy-rainfall-and-floods-shut-down-istanbul-13599536",
-      "category": "유럽",
-      "primary_source": "Sky News",
-      "excerpt": "At least three people are dead following heavy rains in Istanbul on Wednesday that flooded homes and businesses, and inundated roads and underpasses in Turkey's largest city.",
-      "excerpt_en": "At least three people are dead following heavy rains in Istanbul on Wednesday that flooded homes and businesses, and inundated roads and underpasses in Turkey's largest city.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/istanbul-flooding-scroller-9.7381591?cmp=rss",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
-        "Sky News"
-      ],
-      "first_published_at": "2026-10-15T10:46:00+09:00",
-      "latest_published_at": "2026-10-15T14:10:31+09:00",
-      "articles": [
-        {
-          "title": "IN PHOTOS | Heavy rain floods homes, streets in Istanbul, killing 3",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/istanbul-flooding-scroller-9.7381591?cmp=rss",
-          "published_at": "14:10"
-        },
-        {
-          "title": "Three dead as heavy rainfall and floods hit Istanbul",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/three-dead-and-2700-evacuated-as-heavy-rainfall-and-floods-shut-down-istanbul-13599536",
-          "published_at": "10:46"
-        }
-      ]
-    },
-    {
-      "id": "world-328",
+      "id": "world-335",
       "title": "‘Happy ending’: Missing dog Luna found in Yellowstone wilderness after month of massive search efforts",
       "title_en": "‘Happy ending’: Missing dog Luna found in Yellowstone wilderness after month of massive search efforts",
       "title_source": "earliest_pick",
@@ -2510,7 +3101,7 @@
       ]
     },
     {
-      "id": "world-361",
+      "id": "world-372",
       "title": "El Salvador's Bukele announces plan to free up to half of prisoners jailed in gang crackdown",
       "title_en": "El Salvador's Bukele announces plan to free up to half of prisoners jailed in gang crackdown",
       "title_source": "earliest_pick",
