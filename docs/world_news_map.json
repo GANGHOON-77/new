@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,46 +8,48 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-10-18T06:04:24.955786+09:00",
+  "updated_at": "2026-10-18T14:46:41.103017+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 452,
-  "cluster_count_total": 350,
+  "article_count_total": 441,
+  "cluster_count_total": 349,
   "clusters": [
     {
-      "id": "world-3",
-      "title": "Israeli settlers attack and beat Palestinians, U.S. journalist in West Bank",
-      "title_en": "Israeli settlers attack and beat Palestinians, U.S. journalist in West Bank",
+      "id": "world-12",
+      "title": "🔴 Israeli settlers beat French mayor, attack European diplomatic cars in West Bank",
+      "title_en": "🔴 Israeli settlers beat French mayor, attack European diplomatic cars in West Bank",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/player/play/9.7385021?cmp=rss",
+      "title_url": "https://www.france24.com/en/middle-east/20261017-israeli-settlers-attack-european-delegation-convoy-in-west-bank-beat-french-mayor",
       "category": "중동",
-      "primary_source": "CBC",
+      "primary_source": "France24",
       "excerpt": "French mayor and archbishop also attacked during violent attempt to stop Palestinians harvesting olives Israeli settler militants have attacked European diplomats, a French mayor and the archbishop of",
       "excerpt_en": "French mayor and archbishop also attacked during violent attempt to stop Palestinians harvesting olives Israeli settler militants have attacked European diplomats, a French mayor and the archbishop of",
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank",
       "translation_status": "failed",
-      "score": 93,
+      "score": 92,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 70
+        "time_score": 2,
+        "raw75": 69
       },
-      "area_value": 11,
-      "article_count": 11,
+      "area_value": 13,
+      "article_count": 13,
       "syndicated_count": 0,
-      "source_count": 11,
+      "source_count": 13,
       "sources": [
         "ABC News",
-        "ABC News Australia",
-        "CBC",
+        "AP News",
+        "Al Jazeera",
+        "Bangkok Post",
         "CBS News",
+        "Channel News Asia",
         "DW",
         "France24",
         "New York Times",
@@ -56,26 +58,38 @@
         "Sky News",
         "The Guardian"
       ],
-      "first_published_at": "2026-10-17T02:06:35+09:00",
-      "latest_published_at": "2026-10-17T20:49:25+09:00",
+      "first_published_at": "2026-10-17T14:58:54+09:00",
+      "latest_published_at": "2026-10-18T02:32:51+09:00",
       "articles": [
-        {
-          "title": "Israeli settlers attack European diplomats in West Bank",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-18/israeli-settler-attack-palestinians-european-diplomats-west-bank/107280242",
-          "published_at": "20:49"
-        },
         {
           "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
-          "published_at": "20:49"
+          "published_at": "02:32"
+        },
+        {
+          "title": "Israeli settlers attack European diplomats in the occupied West Bank",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
+          "published_at": "01:02"
+        },
+        {
+          "title": "Israeli settlers attack European diplomats, beat French mayor",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/israeli-settlers-attack-european-diplomats-beat-french-mayor-6469036",
+          "published_at": "21:37"
+        },
+        {
+          "title": "Israeli settlers attack European diplomats, beat French mayor",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3339193/israeli-settlers-attack-european-diplomats-beat-french-mayor",
+          "published_at": "21:18"
         },
         {
           "title": "EU diplomats say they were attacked by settlers in West Bank",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/european-diplomats-attacked-west-bank/",
-          "published_at": "19:50"
+          "published_at": "21:02"
         },
         {
           "title": "Israeli settlers attack European diplomats in West Bank",
@@ -114,120 +128,31 @@
           "published_at": "16:29"
         },
         {
+          "title": "Masked settlers attack European diplomats in the occupied West Bank",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRiVjVsUFhzbGdNVXNZRm9JNDNUMGJDN2FrQlRjc00tM2JRTEh0bFNFVjFZdXRwN18teXNLN2lvblRwaHlzWHFQQnVqc1pVSWhHUWtDaks1eXNodVJsYmdHSzR6R0RBQk1jTjRmZ0wxYl9OZm5KQ285WU0tWDVzNDZISzA3bktzeXU0V2d1QklWYVlNWmdoQnNzRHFaQ2E1LUU3MTN4Zw?oc=5",
+          "published_at": "15:59"
+        },
+        {
           "title": "🔴 Israeli settlers beat French mayor, attack European diplomatic cars in West Bank",
           "source_name": "France24",
           "url": "https://www.france24.com/en/middle-east/20261017-israeli-settlers-attack-european-delegation-convoy-in-west-bank-beat-french-mayor",
           "published_at": "14:58"
-        },
-        {
-          "title": "Israeli settlers attack and beat Palestinians, U.S. journalist in West Bank",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/player/play/9.7385021?cmp=rss",
-          "published_at": "02:06"
         }
       ]
     },
     {
-      "id": "world-60",
-      "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
-      "title_en": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
+      "id": "world-3",
+      "title": "Canada: Major fire reported at military base in Alberta",
+      "title_en": "Canada: Major fire reported at military base in Alberta",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024 Get our breaking news email , free app or daily ne",
-      "excerpt_en": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024 Get our breaking news email , free app or daily ne",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-      "translation_status": "failed",
-      "score": 92,
-      "score_breakdown": {
-        "article_score": 25,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
-      },
-      "area_value": 8,
-      "article_count": 8,
-      "syndicated_count": 0,
-      "source_count": 8,
-      "sources": [
-        "BBC",
-        "CBS News",
-        "Fox News",
-        "SCMP",
-        "Sky News",
-        "Sydney Morning Herald",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-17T02:52:59+09:00",
-      "latest_published_at": "2026-10-17T17:38:52+09:00",
-      "articles": [
-        {
-          "title": "Three men get 158 years each for murdering American and Australian surfers, dumping bodies in Mexican well",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/three-men-158-years-murdering-american-australian-surfers-dumping-bodies-mexican-well",
-          "published_at": "17:38"
-        },
-        {
-          "title": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/jake-callum-robinson-mexico-murder-trial-sentence-b3068452.html",
-          "published_at": "12:45"
-        },
-        {
-          "title": "Killers of U.S., Australian surf trio sentenced to 158 years",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/australian-us-surfers-mexico-murder-sentence-prison/",
-          "published_at": "12:08"
-        },
-        {
-          "title": "Three men sentenced to more than 158 years in jail for murders of surfers​",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/three-men-sentenced-to-more-than-158-years-in-prison-for-murders-of-australian-and-us-surfers-13600108",
-          "published_at": "07:23"
-        },
-        {
-          "title": "3 Mexican men jailed for over 158 years for Australian, US surfer murders",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3371227/3-mexican-men-jailed-over-158-years-australian-us-surfer-murders?utm_source=rss_feed",
-          "published_at": "03:39"
-        },
-        {
-          "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
-          "published_at": "03:11"
-        },
-        {
-          "title": "Mexican men sentenced to 158 years in prison for murdering Australian brothers",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/mexican-men-sentenced-to-158-years-in-prison-for-murder-of-australian-brothers-20261017-p616dl.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "02:57"
-        },
-        {
-          "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-          "published_at": "02:52"
-        }
-      ]
-    },
-    {
-      "id": "world-2",
-      "title": "Kenya confirms four new Ebola cases, bringing total number to seven",
-      "title_en": "Kenya confirms four new Ebola cases, bringing total number to seven",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUTZzMGJpaXBieHFQeHRDYkRPM1BGLUtyVWRUd1UxVDE1TF92ZDZHMXF6WjB0YmhLNlpuZkhhVTN4TGc5MVBCaS1SSmNzTnk1YXhhYTE4NWlmLXU0ejhDUTFtOG9ROTF5Qkl3LUw2bkRnT1p3VlJWbEdfRVZlSGF2dC1RRk9semdrMWtBTEZiUE1kSkFqV2M2R3ByWmZEVHRyOHZiU1FYTW1ZbEdBTWtJZzhhQ19RTmt6XzFaWDBLTE9tZHRrUW5Mb21WMDByaXJm?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "NAIROBI - Kenya has confirmed four new Ebola cases, the health ministry said Saturday, including another relative of the first victim and three healthcare workers who treated him.",
-      "excerpt_en": "NAIROBI - Kenya has confirmed four new Ebola cases, the health ministry said Saturday, including another relative of the first victim and three healthcare workers who treated him.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3338859/four-more-ebola-cases-detected-in-kenya-bringing-total-to-seven",
+      "title_url": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "미국",
+      "primary_source": "DW",
+      "excerpt": "Canadian Prime Minister Mark Carney has said a \"serious incident\" sparked a major fire at a military base in Alberta. He did not provide details on the cause of the fire.",
+      "excerpt_en": "Canadian Prime Minister Mark Carney has said a \"serious incident\" sparked a major fire at a military base in Alberta. He did not provide details on the cause of the fire.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "failed",
       "score": 85,
       "score_breakdown": {
@@ -238,117 +163,106 @@
         "time_score": 3,
         "raw75": 64
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 4,
       "sources": [
-        "Al Jazeera",
-        "Bangkok Post",
-        "Channel News Asia",
-        "New York Times",
+        "BBC",
+        "DW",
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-10-17T15:21:43+09:00",
-      "latest_published_at": "2026-10-17T20:52:41+09:00",
+      "first_published_at": "2026-10-18T02:08:00+09:00",
+      "latest_published_at": "2026-10-18T04:00:50+09:00",
       "articles": [
         {
-          "title": "Kenya confirms four new Ebola cases, bringing total number to seven",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/kenya-confirms-four-new-ebola-cases-bringing-total-number-seven-6468456",
-          "published_at": "20:52"
+          "title": "Deaths confirmed in major fire at Canada military base",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "04:00"
         },
         {
-          "title": "Kenya Confirms Four New Ebola Cases",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/17/world/africa/kenya-ebola.html",
-          "published_at": "19:41"
+          "title": "Deaths confirmed in ‘serious incident’ after fire at one of Canada’s busiest army bases in Alberta",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/canada-alberta-army-military-base-fire-explosion-deaths-mark-carney-news-101792289903100.html",
+          "published_at": "02:26"
         },
         {
-          "title": "Kenya confirms four more Ebola cases, bringing total to seven",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/17/kenya-confirms-four-more-ebola-cases-bringing-total-to-seven?traffic_source=rss",
-          "published_at": "16:48"
-        },
-        {
-          "title": "Four more Ebola cases detected in Kenya, bringing total to seven",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3338859/four-more-ebola-cases-detected-in-kenya-bringing-total-to-seven",
-          "published_at": "15:45"
-        },
-        {
-          "title": "Kenya confirms four new Ebola cases, bringing total number to seven",
+          "title": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUTZzMGJpaXBieHFQeHRDYkRPM1BGLUtyVWRUd1UxVDE1TF92ZDZHMXF6WjB0YmhLNlpuZkhhVTN4TGc5MVBCaS1SSmNzTnk1YXhhYTE4NWlmLXU0ejhDUTFtOG9ROTF5Qkl3LUw2bkRnT1p3VlJWbEdfRVZlSGF2dC1RRk9semdrMWtBTEZiUE1kSkFqV2M2R3ByWmZEVHRyOHZiU1FYTW1ZbEdBTWtJZzhhQ19RTmt6XzFaWDBLTE9tZHRrUW5Mb21WMDByaXJm?oc=5",
-          "published_at": "15:21"
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5",
+          "published_at": "02:13"
+        },
+        {
+          "title": "Canada: Major fire reported at military base in Alberta",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "02:08"
         }
       ]
     },
     {
-      "id": "world-19",
-      "title": "Photos show pope celebrating Mass at hospital after cancer surgery",
-      "title_en": "Photos show pope celebrating Mass at hospital after cancer surgery",
+      "id": "world-99",
+      "title": "Pope Leo leaves hospital after lung cancer surgery, the Vatican says",
+      "title_en": "Pope Leo leaves hospital after lung cancer surgery, the Vatican says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/photos-pope-leo-mass-hospital-recovery-surgery/",
+      "title_url": "https://news.sky.com/story/pope-leo-to-leave-hospital-today-after-lung-cancer-surgery-the-vatican-says-13600129",
       "category": "미국",
-      "primary_source": "CBS News",
+      "primary_source": "Sky News",
       "excerpt": "Pope Leo left hospital in Rome on Saturday afternoon and returned to the Vatican four days after surgery for lung cancer, an illness that has prompted speculation about how it might affect his 17-mont",
       "excerpt_en": "Pope Leo left hospital in Rome on Saturday afternoon and returned to the Vatican four days after surgery for lung cancer, an illness that has prompted speculation about how it might affect his 17-mont",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371256/pope-leo-leave-hospital-saturday-after-lung-cancer-surgery?utm_source=rss_feed",
       "translation_status": "failed",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 20,
-      "article_count": 20,
+      "area_value": 16,
+      "article_count": 16,
       "syndicated_count": 0,
-      "source_count": 17,
+      "source_count": 13,
       "sources": [
         "ABC News",
-        "ABC News Australia",
-        "Al Jazeera",
         "Bangkok Post",
+        "CBC",
         "CBS News",
-        "Channel News Asia",
         "DW",
         "Fox News",
         "NBC News",
         "NPR",
         "New York Times",
-        "Reuters",
         "SCMP",
         "Sky News",
         "Sydney Morning Herald",
-        "The Independent",
-        "Times of India"
+        "The Independent"
       ],
-      "first_published_at": "2026-10-17T00:04:02+09:00",
-      "latest_published_at": "2026-10-17T20:23:43+09:00",
+      "first_published_at": "2026-10-17T09:40:00+09:00",
+      "latest_published_at": "2026-10-18T02:35:58+09:00",
       "articles": [
         {
-          "title": "Smiling pope returns to Vatican after cancer surgery",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/smiling-pope-returns-vatican-after-cancer-surgery-6468996",
-          "published_at": "20:23"
-        },
-        {
-          "title": "Pope's surgeon details operating on \"ideal patient\" after lung cancer discovered",
+          "title": "Pope Leo discharged from Rome hospital ahead of schedule after successful lung surgery",
           "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/pope-leo-surgeon-details-operation-lung-cancer/",
-          "published_at": "19:53"
+          "url": "https://www.cbsnews.com/video/pope-leo-discharged-from-rome-hospital-ahead-of-schedule-after-successful-lung-surgery/",
+          "published_at": "02:35"
         },
         {
-          "title": "Pope Leo returns to Vatican four days after cancer surgery",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5",
-          "published_at": "18:25"
+          "title": "Pope Leo set to speak at Vatican after cancer surgery",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/nightly-news/video/pope-leo-set-to-speak-at-vatican-after-cancer-surgery-271759941822",
+          "published_at": "23:06"
+        },
+        {
+          "title": "Pope Leo returns to Vatican after lung cancer surgery",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/pope-leo-lung-cancer-surgery-9.7385445?cmp=rss",
+          "published_at": "22:46"
         },
         {
           "title": "Pope Leo Leaves Hospital, Days After Lung Cancer Surgery",
@@ -357,28 +271,16 @@
           "published_at": "16:17"
         },
         {
-          "title": "Pope Leo discharged from hospital on Saturday, four days after surgery",
+          "title": "Pope Leo discharged from hospital 4 days after lung cancer surgery",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/pope-leo-hospital-released-discharged-saturday-appearance/",
           "published_at": "16:05"
-        },
-        {
-          "title": "Pope Leo leaves hospital after lung cancer surgery",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/pope-leo-leaves-hospital-after-lung-cancer-surgery?traffic_source=rss",
-          "published_at": "15:47"
         },
         {
           "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
           "source_name": "NPR",
           "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
           "published_at": "15:10"
-        },
-        {
-          "title": "Pope Leo leaves hospital for Vatican four days after lung cancer surgery",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-18/pope-leo-leaves-hospital-after-surgery/107279894",
-          "published_at": "14:45"
         },
         {
           "title": "Pope Leo walks out of Rome hospital unaided four days after lung cancer surgery",
@@ -421,21 +323,94 @@
           "source_name": "Fox News",
           "url": "https://www.foxnews.com/world/pope-leo-xiv-discharged-hospital-return-vatican-surgery-remove-lung-cancer",
           "published_at": "11:19"
+        },
+        {
+          "title": "Pope Leo discharged from hospital after lung cancer surgery",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-discharged-hospital-lung-cancer-surgery-rcna604005",
+          "published_at": "10:30"
+        },
+        {
+          "title": "Pope Leo leaves hospital 4 days after lung cancer surgery",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3371256/pope-leo-leave-hospital-saturday-after-lung-cancer-surgery?utm_source=rss_feed",
+          "published_at": "10:26"
         }
       ]
     },
     {
-      "id": "world-56",
-      "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
-      "title_en": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+      "id": "world-47",
+      "title": "Scuffles and fires break out as protesters rally across France, joining students",
+      "title_en": "Scuffles and fires break out as protesters rally across France, joining students",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/ukraine-donald-trump-russia-kyiv-moscow-b3068497.html",
+      "title_url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
       "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Ukrainian President Volodymyr Zelenskyy urged supporters on Saturday to speak out in defence of new U.S. sanctions against Russia, hours after President Donald Trump signed an executive order pausing ",
-      "excerpt_en": "Ukrainian President Volodymyr Zelenskyy urged supporters on Saturday to speak out in defence of new U.S. sanctions against Russia, hours after President Donald Trump signed an executive order pausing ",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/zelenskyy-trump-russia-sanctions-9.7385125?cmp=rss",
+      "primary_source": "NPR",
+      "excerpt": "Violent clashes, fires and looting marred demonstrations in France as hundreds of thousands of people marched against rising living costs and school conditions.",
+      "excerpt_en": "Violent clashes, fires and looting marred demonstrations in France as hundreds of thousands of people marched against rising living costs and school conditions.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/clashes-fires-and-looting-break-out-as-protesters-rally-across-france-20261018-p616fc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "NPR",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-10-17T15:57:40+09:00",
+      "latest_published_at": "2026-10-18T02:50:56+09:00",
+      "articles": [
+        {
+          "title": "Clashes, fires and looting break out as protesters rally across France",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/protesters-france-rally-rising-living-costs-joining-students-137342706",
+          "published_at": "02:50"
+        },
+        {
+          "title": "Clashes, fires and looting break out as protesters rally across France",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/clashes-fires-and-looting-break-out-as-protesters-rally-across-france-20261018-p616fc.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "22:20"
+        },
+        {
+          "title": "Clashes, fires and looting break out as protesters rally across France, joining students",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5",
+          "published_at": "19:59"
+        },
+        {
+          "title": "Scuffles and fires break out as protesters rally across France, joining students",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "published_at": "15:57"
+        }
+      ]
+    },
+    {
+      "id": "world-230",
+      "title": "Protesters storm town hall and clash with police in France’s Marseille",
+      "title_en": "Protesters storm town hall and clash with police in France’s Marseille",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/10/17/protesters-storm-town-hall-and-clash-with-police-in-frances-marseille",
+      "category": "유럽",
+      "primary_source": "Euronews",
+      "excerpt": "LIMOGES (FRANCE) - The town hall in the French city of Limoges was \"largely lost\" to a fire set by masked protesters on Saturday, the top regional official told AFP.",
+      "excerpt_en": "LIMOGES (FRANCE) - The town hall in the French city of Limoges was \"largely lost\" to a fire set by masked protesters on Saturday, the top regional official told AFP.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3339188/town-hall-in-limoges-largely-lost-to-blaze-set-during-french-protests",
       "translation_status": "failed",
       "score": 81,
       "score_breakdown": {
@@ -449,23 +424,83 @@
       "area_value": 5,
       "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 4,
+      "sources": [
+        "Bangkok Post",
+        "Euronews",
+        "Fox News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-17T16:29:29+09:00",
+      "latest_published_at": "2026-10-18T03:25:37+09:00",
+      "articles": [
+        {
+          "title": "France's historic Limoges Town Hall burns down amid protests; JD Vance blames ‘immigration’ for unrest",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/france-limoges-town-hall-burns-down-fire-protests-world-war-structure-143-year-old-us-jd-vance-blames-immigration-assimilation-for-unrest-101792292569231.html",
+          "published_at": "03:25"
+        },
+        {
+          "title": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/limoges-town-hall-largely-lost-after-far-left-rioters-set-historic-building-fire-amid-french-unrest",
+          "published_at": "22:56"
+        },
+        {
+          "title": "Historic Limoges town hall engulfed in flames amid protests in France",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/historic-limoges-town-hall-engulfed-in-flames-amid-protests-in-france",
+          "published_at": "20:55"
+        },
+        {
+          "title": "Town hall in Limoges 'largely lost' to blaze set during French protests",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3339188/town-hall-in-limoges-largely-lost-to-blaze-set-during-french-protests",
+          "published_at": "19:45"
+        },
+        {
+          "title": "Protesters storm town hall and clash with police in France’s Marseille",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/17/protesters-storm-town-hall-and-clash-with-police-in-frances-marseille",
+          "published_at": "16:29"
+        }
+      ]
+    },
+    {
+      "id": "world-100",
+      "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+      "title_en": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/ukraine-donald-trump-russia-kyiv-moscow-b3068497.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Ukrainian President Volodymyr Zelenskyy urged supporters on Saturday to speak out in defence of new U.S. sanctions against Russia, hours after President Donald Trump signed an executive order pausing ",
+      "excerpt_en": "Ukrainian President Volodymyr Zelenskyy urged supporters on Saturday to speak out in defence of new U.S. sanctions against Russia, hours after President Donald Trump signed an executive order pausing ",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/zelenskyy-trump-russia-sanctions-9.7385125?cmp=rss",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
       "sources": [
         "ABC News",
-        "AP News",
         "CBC",
         "NPR",
         "The Independent"
       ],
       "first_published_at": "2026-10-17T10:12:25+09:00",
-      "latest_published_at": "2026-10-17T18:17:00+09:00",
+      "latest_published_at": "2026-10-17T15:30:13+09:00",
       "articles": [
-        {
-          "title": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5",
-          "published_at": "18:17"
-        },
         {
           "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
           "source_name": "ABC News",
@@ -493,71 +528,17 @@
       ]
     },
     {
-      "id": "world-225",
-      "title": "Supertanker carrying 2 million barrels of oil hits naval mine, explodes in Strait of Hormuz",
-      "title_en": "Supertanker carrying 2 million barrels of oil hits naval mine, explodes in Strait of Hormuz",
+      "id": "world-45",
+      "title": "Fire breaks out after deadly incident at Canadian military base, officials say",
+      "title_en": "Fire breaks out after deadly incident at Canadian military base, officials say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/tanker-carrying-over-2-million-barrels-of-crude-oil-hits-mine-in-hormuz-catches-fire-irans-guards-say-101792219288746.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "With the prospect of peace in the Middle East looking increasingly remote ahead of the US midterm elections, oil prices remain stubbornly high and attacks have intensified rather than settled. Experts",
-      "excerpt_en": "With the prospect of peace in the Middle East looking increasingly remote ahead of the US midterm elections, oil prices remain stubbornly high and attacks have intensified rather than settled. Experts",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-iran-war-ships-oil-b3067351.html",
-      "translation_status": "failed",
-      "score": 77,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 58
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "CBS News",
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-17T07:58:56+09:00",
-      "latest_published_at": "2026-10-17T19:37:57+09:00",
-      "articles": [
-        {
-          "title": "Reported attacks on ships around Hormuz reach record highs",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
-          "published_at": "19:37"
-        },
-        {
-          "title": "The disturbing ‘new normal’ in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-iran-war-ships-oil-b3067351.html",
-          "published_at": "09:10"
-        },
-        {
-          "title": "Supertanker carrying 2 million barrels of oil hits naval mine, explodes in Strait of Hormuz",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/tanker-carrying-over-2-million-barrels-of-crude-oil-hits-mine-in-hormuz-catches-fire-irans-guards-say-101792219288746.html",
-          "published_at": "07:58"
-        }
-      ]
-    },
-    {
-      "id": "world-15",
-      "title": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
-      "title_en": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNUVjcERQUE83S1lFTVA1Q2tOMXJya3BMZXZPbWRkMk9wS21FRTBDcGdoN3BHRFhLUHd3dGNRcE9ackxXRm1QaHcyZE1oVVYxTzhjNkJHTVRUYUFIOTdUVUpkQnJneDRpNEdFSF9hc0NsRUx5Ti14RklDYm5DVzZEakxIRjBheWtlYXN2S25lcGloZmFXOGFRWk9kTld4ZXFzZ0VHUm0zVjcwQW9nRFZyMVJXS0hJcWtZUFpB?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "At least 17 people have died and dozens more are injured after a crush at a religious festival in India, local media reports.",
-      "excerpt_en": "At least 17 people have died and dozens more are injured after a crush at a religious festival in India, local media reports.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/crush-at-religious-festival-kills-at-least-17-and-injures-dozens-in-india-13600451",
+      "title_url": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/",
+      "category": "미국",
+      "primary_source": "CBS News",
+      "excerpt": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+      "excerpt_en": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/",
       "translation_status": "failed",
       "score": 73,
       "score_breakdown": {
@@ -573,45 +554,99 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "Reuters",
-        "Sky News"
+        "ABC News",
+        "AP News",
+        "CBS News"
       ],
-      "first_published_at": "2026-10-17T19:05:10+09:00",
-      "latest_published_at": "2026-10-17T19:59:38+09:00",
+      "first_published_at": "2026-10-18T02:56:04+09:00",
+      "latest_published_at": "2026-10-18T04:18:20+09:00",
       "articles": [
         {
-          "title": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/festival-crush-in-indian-city-kolkata-kills-least-17-local-media-say-6468991",
-          "published_at": "19:59"
+          "title": "Major fire breaks out in Alberta after deadly incident at military base",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/major-fire-breaks-alberta-after-deadly-incident-military-137354452",
+          "published_at": "04:18"
         },
         {
-          "title": "Crush at religious festival kills at least 17 and injures dozens in India",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/crush-at-religious-festival-kills-at-least-17-and-injures-dozens-in-india-13600451",
-          "published_at": "19:37"
+          "title": "Major fire breaks out in Alberta after deadly incident at military base",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
+          "published_at": "03:57"
         },
         {
-          "title": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNUVjcERQUE83S1lFTVA1Q2tOMXJya3BMZXZPbWRkMk9wS21FRTBDcGdoN3BHRFhLUHd3dGNRcE9ackxXRm1QaHcyZE1oVVYxTzhjNkJHTVRUYUFIOTdUVUpkQnJneDRpNEdFSF9hc0NsRUx5Ti14RklDYm5DVzZEakxIRjBheWtlYXN2S25lcGloZmFXOGFRWk9kTld4ZXFzZ0VHUm0zVjcwQW9nRFZyMVJXS0hJcWtZUFpB?oc=5",
-          "published_at": "19:05"
+          "title": "Fire breaks out after deadly incident at Canadian military base, officials say",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/",
+          "published_at": "02:56"
         }
       ]
     },
     {
-      "id": "world-27",
-      "title": "Fire guts a Bangladeshi beach resort, killing 10 people",
-      "title_en": "Fire guts a Bangladeshi beach resort, killing 10 people",
+      "id": "world-76",
+      "title": "Canada says people killed after incident and fire at Alberta military base",
+      "title_en": "Canada says people killed after incident and fire at Alberta military base",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/fire-guts-bangladeshi-beach-resort-killing-10-people-137342617",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3371281/fatalities-feared-fire-erupts-canadian-military-base-alberta?utm_source=rss_feed",
+      "category": "미국",
+      "primary_source": "SCMP",
+      "excerpt": "Patients being taken to hospitals in Edmonton as Wainwright ‘completely overwhelmed’ by number of injuries, local doctor says People have been killed and injured after an incident at one of Canada’s b",
+      "excerpt_en": "Patients being taken to hospitals in Edmonton as Wainwright ‘completely overwhelmed’ by number of injuries, local doctor says People have been killed and injured after an incident at one of Canada’s b",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "translation_status": "failed",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "SCMP",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-18T02:19:35+09:00",
+      "latest_published_at": "2026-10-18T04:59:29+09:00",
+      "articles": [
+        {
+          "title": "Deaths, injuries after fire at Alberta military base: Canada minister",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister?traffic_source=rss",
+          "published_at": "04:59"
+        },
+        {
+          "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+          "published_at": "02:50"
+        },
+        {
+          "title": "Canada says people killed after incident and fire at Alberta military base",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3371281/fatalities-feared-fire-erupts-canadian-military-base-alberta?utm_source=rss_feed",
+          "published_at": "02:19"
+        }
+      ]
+    },
+    {
+      "id": "world-79",
+      "title": "19 dead, 25 hurt in stampede at India religious festival",
+      "title_en": "19 dead, 25 hurt in stampede at India religious festival",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/asia/south-asia/article/3371278/19-dead-25-hurt-stampede-india-religious-festival?utm_source=rss_feed",
       "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "Ten people, including six members of the same family, were killed in a fire at a beach resort in Bangladesh.",
-      "excerpt_en": "Ten people, including six members of the same family, were killed in a fire at a beach resort in Bangladesh.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-sv-coxsbazaar-hotel-blaze-_-bd?traffic_source=rss",
+      "primary_source": "SCMP",
+      "excerpt": "At least 19 people were killed and two dozen more injured on Saturday in eastern India after a stampede that occurred during sudden rainfall at a Hindu religious gathering, officials and Indian media ",
+      "excerpt_en": "At least 19 people were killed and two dozen more injured on Saturday in eastern India after a stampede that occurred during sudden rainfall at a Hindu religious gathering, officials and Indian media ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3371278/19-dead-25-hurt-stampede-india-religious-festival?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 73,
       "score_breakdown": {
@@ -629,151 +664,205 @@
       "sources": [
         "ABC News",
         "Al Jazeera",
-        "Reuters"
+        "SCMP"
       ],
-      "first_published_at": "2026-10-17T11:06:57+09:00",
-      "latest_published_at": "2026-10-17T20:50:01+09:00",
+      "first_published_at": "2026-10-17T23:31:57+09:00",
+      "latest_published_at": "2026-10-18T04:21:46+09:00",
       "articles": [
         {
-          "title": "Ten killed in fire at beach resort in Bangladesh",
+          "title": "At least 19 dead in stampede at Kolkata Hindu festival",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-sv-coxsbazaar-hotel-blaze-_-bd?traffic_source=rss",
-          "published_at": "20:50"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss",
+          "published_at": "04:21"
         },
         {
-          "title": "At least 10 killed in fire at Bangladesh beach resort",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM0ZGUFdvc2dCZkk1U0s0aGx0YkJyazlfSWhSYWduUlZqdjV4d2VBRDYzbDdQUlFTMldsaHFQNWw4aDhPMVlCTUczZlBOVlp3aGdveHlqb3o0VGN3TzEyTzB2dHR5NVBBak11NkNXWGdtR0JrLVRLOENfLXo1RHBSLWdwU3RLUV9XTkd0TDYtc3pySXhSSkd5djJwRjlxTC1S?oc=5",
-          "published_at": "13:36"
-        },
-        {
-          "title": "Fire guts a Bangladeshi beach resort, killing 10 people",
+          "title": "Stampede at a popular Hindu festival in eastern India kills 19",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fire-guts-bangladeshi-beach-resort-killing-10-people-137342617",
-          "published_at": "11:06"
+          "url": "https://abcnews.com/International/wireStory/stampede-popular-hindu-festival-eastern-india-kills-19-137356042",
+          "published_at": "03:45"
+        },
+        {
+          "title": "19 dead, 25 hurt in stampede at India religious festival",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3371278/19-dead-25-hurt-stampede-india-religious-festival?utm_source=rss_feed",
+          "published_at": "23:31"
         }
       ]
     },
     {
-      "id": "world-175",
-      "title": "Police and protesters clash in some of France’s worst unrest in years",
-      "title_en": "Police and protesters clash in some of France’s worst unrest in years",
+      "id": "world-11",
+      "title": "Kenya confirms four new Ebola cases, bringing total number to seven",
+      "title_en": "Kenya confirms four new Ebola cases, bringing total number to seven",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Violent clashes erupted between ⁠police and protesters across France on Saturday, as hundreds of thousands of people protested against rising costs and declining public services in some of the country",
-      "excerpt_en": "Violent clashes erupted between ⁠police and protesters across France on Saturday, as hundreds of thousands of people protested against rising costs and declining public services in some of the country",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
+      "title_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUTZzMGJpaXBieHFQeHRDYkRPM1BGLUtyVWRUd1UxVDE1TF92ZDZHMXF6WjB0YmhLNlpuZkhhVTN4TGc5MVBCaS1SSmNzTnk1YXhhYTE4NWlmLXU0ejhDUTFtOG9ROTF5Qkl3LUw2bkRnT1p3VlJWbEdfRVZlSGF2dC1RRk9semdrMWtBTEZiUE1kSkFqV2M2R3ByWmZEVHRyOHZiU1FYTW1ZbEdBTWtJZzhhQ19RTmt6XzFaWDBLTE9tZHRrUW5Mb21WMDByaXJm?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "NAIROBI - Kenya has confirmed four new Ebola cases, the health ministry said Saturday, including another relative of the first victim and three healthcare workers who treated him.",
+      "excerpt_en": "NAIROBI - Kenya has confirmed four new Ebola cases, the health ministry said Saturday, including another relative of the first victim and three healthcare workers who treated him.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3338859/four-more-ebola-cases-detected-in-kenya-bringing-total-to-seven",
       "translation_status": "failed",
-      "score": 73,
+      "score": 72,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
+        "time_score": 2,
+        "raw75": 54
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "SCMP",
-        "The Independent"
+        "Bangkok Post",
+        "New York Times",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-17T10:12:29+09:00",
-      "latest_published_at": "2026-10-17T19:20:53+09:00",
+      "first_published_at": "2026-10-17T15:21:43+09:00",
+      "latest_published_at": "2026-10-17T19:41:02+09:00",
       "articles": [
         {
-          "title": "Hundreds arrested as protesters clash with police across France over rising living costs",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-riots-police-arrests-students-b3068502.html",
-          "published_at": "19:20"
+          "title": "Kenya Confirms Four New Ebola Cases",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/17/world/africa/kenya-ebola.html",
+          "published_at": "19:41"
         },
         {
-          "title": "Police and protesters clash in some of France's worst unrest in years",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/police-and-protesters-clash-in-some-frances-worst-unrest-in-years-6468581",
-          "published_at": "18:03"
+          "title": "Four more Ebola cases detected in Kenya, bringing total to seven",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3338859/four-more-ebola-cases-detected-in-kenya-bringing-total-to-seven",
+          "published_at": "15:45"
         },
         {
-          "title": "Police and protesters clash in some of France’s worst unrest in years",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
-          "published_at": "10:12"
+          "title": "Kenya confirms four new Ebola cases, bringing total number to seven",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUTZzMGJpaXBieHFQeHRDYkRPM1BGLUtyVWRUd1UxVDE1TF92ZDZHMXF6WjB0YmhLNlpuZkhhVTN4TGc5MVBCaS1SSmNzTnk1YXhhYTE4NWlmLXU0ejhDUTFtOG9ROTF5Qkl3LUw2bkRnT1p3VlJWbEdfRVZlSGF2dC1RRk9semdrMWtBTEZiUE1kSkFqV2M2R3ByWmZEVHRyOHZiU1FYTW1ZbEdBTWtJZzhhQ19RTmt6XzFaWDBLTE9tZHRrUW5Mb21WMDByaXJm?oc=5",
+          "published_at": "15:21"
         }
       ]
     },
     {
       "id": "world-13",
-      "title": "Neto’s brace fires Chelsea past Everton but Martinez head injury mars win",
-      "title_en": "Neto’s brace fires Chelsea past Everton but Martinez head injury mars win",
+      "title": "Protesters clash with police in Brussels",
+      "title_en": "Protesters clash with police in Brussels",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/sports/2026/10/17/neto-brace-fires-chelsea-past-everton-but-martinez-head-injury-mars-win?traffic_source=rss",
-      "category": "기타",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Argentinian international taken to hospital for precautionary tests after head clash with Everton's Jarrad Branthwaite.",
-      "excerpt_en": "Argentinian international taken to hospital for precautionary tests after head clash with Everton's Jarrad Branthwaite.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/sports/2026/10/17/neto-brace-fires-chelsea-past-everton-but-martinez-head-injury-mars-win?traffic_source=rss",
+      "title_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWEJmRHZXRTB5bU1Xb1FoXzVTVG4yTkVQUmM2cS1oZzZrcGZIbjVnRU5MMFBtc0FVQjBOTUFFdU1YbldSSkpTWm40Vll2YmtMaDFVRTVvREN1ODJsQ2FRaU5lRmM1cnp3d2FnU1Fsc1MtNmVzX2JrenRfM3lnQ0k1Vk1GeEExZw?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Violent clashes are ongoing between police and protesters over high prices and weak public spending",
+      "excerpt_en": "Violent clashes are ongoing between police and protesters over high prices and weak public spending",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-riots-police-arrests-students-b3068502.html",
       "translation_status": "failed",
-      "score": 69,
+      "score": 72,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Al Jazeera",
-        "Channel News Asia",
-        "Reuters"
+        "Reuters",
+        "Sydney Morning Herald",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-17T15:25:27+09:00",
-      "latest_published_at": "2026-10-17T18:41:12+09:00",
+      "first_published_at": "2026-10-17T14:42:07+09:00",
+      "latest_published_at": "2026-10-18T01:38:17+09:00",
       "articles": [
         {
-          "title": "Neto double fires Chelsea past Everton but Martinez head injury mars win",
+          "title": "Police and protesters clash in some of France's worst unrest in years",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/police-and-protesters-clash-in-some-of-frances-worst-unrest-in-years-20261018-p616h8.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "01:38"
+        },
+        {
+          "title": "Hundreds arrested as protesters clash with police across France over rising living costs",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-riots-police-arrests-students-b3068502.html",
+          "published_at": "22:34"
+        },
+        {
+          "title": "Protesters clash with police in Brussels",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMHFmblVQNDRYLW9XWWFHV0Z2MWR0dVFpN0FnWXVhYTE4NS1JWGhNSkZQc2ltcEh4SmZ0U0hlMFF6dFhwRzNaR2VwTWpjU1hVY0FPTWEtOGFsY2syaDhiLXlKQ0F5Ym16bHBiZjJLY3NyLWVnMkp1Vm1iWWVJODB2a04zcmxGNnRvQ1NVTzliMzZqN2hITGg3WjlxeUJZTjR2a2p2S05HVmdJcFZTWXBNbXMxOA?oc=5",
-          "published_at": "18:41"
-        },
-        {
-          "title": "Chelsea's Martinez suffered concussion after collision at Everton, says Alonso",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/chelseas-martinez-suffered-concussion-after-collision-everton-says-alonso-6468516",
-          "published_at": "16:56"
-        },
-        {
-          "title": "Neto’s brace fires Chelsea past Everton but Martinez head injury mars win",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/10/17/neto-brace-fires-chelsea-past-everton-but-martinez-head-injury-mars-win?traffic_source=rss",
-          "published_at": "15:25"
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWEJmRHZXRTB5bU1Xb1FoXzVTVG4yTkVQUmM2cS1oZzZrcGZIbjVnRU5MMFBtc0FVQjBOTUFFdU1YbldSSkpTWm40Vll2YmtMaDFVRTVvREN1ODJsQ2FRaU5lRmM1cnp3d2FnU1Fsc1MtNmVzX2JrenRfM3lnQ0k1Vk1GeEExZw?oc=5",
+          "published_at": "14:42"
         }
       ]
     },
     {
-      "id": "world-38",
-      "title": "India's 'cockroach' movement founder released a day after detention",
-      "title_en": "India's 'cockroach' movement founder released a day after detention",
+      "id": "world-22",
+      "title": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
+      "title_en": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWlN6bi00Sm50dzdTdjZsXzM0TmtsM2JRWDdieXQtM2VSdzlVTTlxM1B5Xy01WTBFWnpQQWlFSWRqNDBqcHkteEViMFV5M1plS01VV3JCVUtCeDVhZF8yT01HYVQ5Q1Q0NmZIZ3JHQWtSM01rbTNCZ2lxRFdqeVZkWjY3MXB4QXYzNmtJME41Qi1IaWxnZ1htSGVXUlNLeUFpZFZXVmRRem5UYmdu?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNUVjcERQUE83S1lFTVA1Q2tOMXJya3BMZXZPbWRkMk9wS21FRTBDcGdoN3BHRFhLUHd3dGNRcE9ackxXRm1QaHcyZE1oVVYxTzhjNkJHTVRUYUFIOTdUVUpkQnJneDRpNEdFSF9hc0NsRUx5Ti14RklDYm5DVzZEakxIRjBheWtlYXN2S25lcGloZmFXOGFRWk9kTld4ZXFzZ0VHUm0zVjcwQW9nRFZyMVJXS0hJcWtZUFpB?oc=5",
       "category": "아시아",
       "primary_source": "Reuters",
-      "excerpt": "India's \"Cockroach\" movement founder, Abhijeet Dipke, was released after agreeing to certain conditions, according to the CJP's head of legal affairs. DW has more.",
-      "excerpt_en": "India's \"Cockroach\" movement founder, Abhijeet Dipke, was released after agreeing to certain conditions, according to the CJP's head of legal affairs. DW has more.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/india-news-cjp-founder-released-a-day-after-detention/live-79685143?maca=en-rss-en-all-1573-xml-mrss",
+      "excerpt": "A police official says an announcement outside a pavilion after it started raining resulted in the crowd \"rushing forward\" and people falling on the ground.",
+      "excerpt_en": "A police official says an announcement outside a pavilion after it started raining resulted in the crowd \"rushing forward\" and people falling on the ground.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-10-18/india-stampede-kolkata-hindu-festival/107280156",
+      "translation_status": "failed",
+      "score": 72,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 54
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News Australia",
+        "Reuters",
+        "Sky News"
+      ],
+      "first_published_at": "2026-10-17T16:50:00+09:00",
+      "latest_published_at": "2026-10-17T23:43:20+09:00",
+      "articles": [
+        {
+          "title": "Stampede kills at least 17 people at religious festival in India",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-18/india-stampede-kolkata-hindu-festival/107280156",
+          "published_at": "23:43"
+        },
+        {
+          "title": "Crush at religious festival kills at least 17 and injures dozens in India",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/crush-at-religious-festival-kills-at-least-17-and-injures-dozens-in-india-13600451",
+          "published_at": "19:37"
+        },
+        {
+          "title": "Festival crush in Indian city of Kolkata kills at least 17, local media say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNUVjcERQUE83S1lFTVA1Q2tOMXJya3BMZXZPbWRkMk9wS21FRTBDcGdoN3BHRFhLUHd3dGNRcE9ackxXRm1QaHcyZE1oVVYxTzhjNkJHTVRUYUFIOTdUVUpkQnJneDRpNEdFSF9hc0NsRUx5Ti14RklDYm5DVzZEakxIRjBheWtlYXN2S25lcGloZmFXOGFRWk9kTld4ZXFzZ0VHUm0zVjcwQW9nRFZyMVJXS0hJcWtZUFpB?oc=5",
+          "published_at": "16:50"
+        }
+      ]
+    },
+    {
+      "id": "world-19",
+      "title": "Albanian police fire rubber bullets as student protesters call for PM to quit",
+      "title_en": "Albanian police fire rubber bullets as student protesters call for PM to quit",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
+      "category": "미국",
+      "primary_source": "SCMP",
+      "excerpt": "Police in Albania fired what appeared to be rubber bullets at protesters on Saturday, the fifth day of mass student protests demanding Prime Minister Edi Rama step down. Reuters video footage showed p",
+      "excerpt_en": "Police in Albania fired what appeared to be rubber bullets at protesters on Saturday, the fifth day of mass student protests demanding Prime Minister Edi Rama step down. Reuters video footage showed p",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -789,35 +878,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Channel News Asia",
-        "DW",
-        "Reuters"
+        "Reuters",
+        "SCMP",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-17T01:56:00+09:00",
-      "latest_published_at": "2026-10-17T13:00:00+09:00",
+      "first_published_at": "2026-10-17T16:05:10+09:00",
+      "latest_published_at": "2026-10-17T21:04:25+09:00",
       "articles": [
         {
-          "title": "India news: CJP founder released a day after detention",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/india-news-cjp-founder-released-a-day-after-detention/live-79685143?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "13:00"
-        },
-        {
-          "title": "India's 'cockroach' movement founder released a day after detention",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/asia/india-cockroach-movement-founder-released-abhijeet-dipke-6468291",
-          "published_at": "12:52"
-        },
-        {
-          "title": "India's 'cockroach' movement founder released a day after detention",
+          "title": "Albanian police fire rubber bullets as student protests rage",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWlN6bi00Sm50dzdTdjZsXzM0TmtsM2JRWDdieXQtM2VSdzlVTTlxM1B5Xy01WTBFWnpQQWlFSWRqNDBqcHkteEViMFV5M1plS01VV3JCVUtCeDVhZF8yT01HYVQ5Q1Q0NmZIZ3JHQWtSM01rbTNCZ2lxRFdqeVZkWjY3MXB4QXYzNmtJME41Qi1IaWxnZ1htSGVXUlNLeUFpZFZXVmRRem5UYmdu?oc=5",
-          "published_at": "01:56"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVlJCekoweVlrYktkQmJZZ2V4aFFnRFpHdnRBMlYzZDlJS0xFS1JWQVMtOVNvbURNdUNHU09BTnBkNjBwdi0yaFVNR2Nqbm9sTUxHTFZQQk1PWkU2ZzdVeC04UVdLb2lJNFoxWHVsSWJJQTlrNXBYZ0NfNWJ4YTdENjlBYmwtdDlOMHhMOWtJY2NxUDJHRlJ1emtpa2h4UmFwZlBOQ0dEQlBORTREQ0E?oc=5",
+          "published_at": "21:04"
+        },
+        {
+          "title": "Violent Albanian protests sparked by luxury Trump resort ramp up amid demands for PM to resign",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/albania-protests-violence-tirana-edi-rama-b3068565.html",
+          "published_at": "16:09"
+        },
+        {
+          "title": "Albanian police fire rubber bullets as student protesters call for PM to quit",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
+          "published_at": "16:05"
         }
       ]
     },
     {
-      "id": "world-51",
+      "id": "world-54",
       "title": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate",
       "title_en": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate",
       "title_source": "earliest_pick",
@@ -871,215 +960,101 @@
       ]
     },
     {
-      "id": "world-234",
-      "title": "Trump signs executive order waiving new Russia sanctions package",
-      "title_en": "Trump signs executive order waiving new Russia sanctions package",
+      "id": "world-2",
+      "title": "US ambassador urges Israel to prosecute attackers of American journalist",
+      "title_en": "US ambassador urges Israel to prosecute attackers of American journalist",
       "title_source": "earliest_pick",
-      "title_url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
-      "category": "유럽",
-      "primary_source": "Euronews",
-      "excerpt": "WASHINGTON - President Donald Trump has waived key Russia-related US sanctions and tariffs days before they were to take effect under a law he signed last month, including duties on the country’s good",
-      "excerpt_en": "WASHINGTON - President Donald Trump has waived key Russia-related US sanctions and tariffs days before they were to take effect under a law he signed last month, including duties on the country’s good",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3338805/trump-waives-key-russiarelated-sanctions-and-tariffs",
+      "title_url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
+      "category": "중동",
+      "primary_source": "Al Jazeera",
+      "excerpt": "US Secretary of State Rubio separately urges Israel to ‘crack down’ on settler violence after attack on photographer.",
+      "excerpt_en": "US Secretary of State Rubio separately urges Israel to ‘crack down’ on settler violence after attack on photographer.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
       "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-17T06:37:32+09:00",
-      "latest_published_at": "2026-10-17T09:01:00+09:00",
-      "articles": [
-        {
-          "title": "Trump waives key Russia-related sanctions and tariffs",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3338805/trump-waives-key-russiarelated-sanctions-and-tariffs",
-          "published_at": "09:01"
-        },
-        {
-          "title": "‘Truly historic moment’: Putin's envoy hails Trump's move to waive some sanctions against Russia",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/putin-envoy-kirill-dmitriev-hails-trump-decision-on-waiving-some-russia-sanctions-calls-it-historic-moment-101792221321563.html",
-          "published_at": "07:27"
-        },
-        {
-          "title": "Trump signs executive order waiving new Russia sanctions package",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package",
-          "published_at": "06:37"
-        }
-      ]
-    },
-    {
-      "id": "world-226",
-      "title": "'It was an honor to work for Trump': Katie Zacharia after quitting White House job in 5 days",
-      "title_en": "'It was an honor to work for Trump': Katie Zacharia after quitting White House job in 5 days",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/katie-zacharia-exits-as-white-house-press-secretary-after-five-days-says-it-was-honor-to-work-for-trump-101792202505606.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Katie Zacharia's brief tenure as White House press secretary ended abruptly after just five days due to a rocky start marked by an underwhelming briefing and questions regarding her qualifications. De",
-      "excerpt_en": "Katie Zacharia's brief tenure as White House press secretary ended abruptly after just five days due to a rocky start marked by an underwhelming briefing and questions regarding her qualifications. De",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/jd-wanted-to-chat-with-us-real-quick-how-trumps-press-secretary-was-fired-mid-interview/articleshow/135011970.cms",
-      "translation_status": "failed",
-      "score": 67,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 50
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-10-17T02:11:12+09:00",
-      "latest_published_at": "2026-10-17T10:43:17+09:00",
-      "articles": [
-        {
-          "title": "Katie Zacharia was interrupted mid-interview, then came her exit as Trump's press secretary",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/jd-wanted-quick-chat-katie-zacharia-was-interrupted-by-trumps-adviser-mid-interview-before-white-house-exit-101792227755066.html",
-          "published_at": "10:43"
-        },
-        {
-          "title": "‘JD wanted to chat with us real quick’: How Trump’s press secretary was fired mid-interview",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/jd-wanted-to-chat-with-us-real-quick-how-trumps-press-secretary-was-fired-mid-interview/articleshow/135011970.cms",
-          "published_at": "10:35"
-        },
-        {
-          "title": "White House’s Katie Zacharia sitting down for ‘interview with Wall Street Journal when fired by Trump’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/katie-zacharia-press-secretary-trump-fired-white-house-b3068455.html",
-          "published_at": "08:05"
-        },
-        {
-          "title": "'It was an honor to work for Trump': Katie Zacharia after quitting White House job in 5 days",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/katie-zacharia-exits-as-white-house-press-secretary-after-five-days-says-it-was-honor-to-work-for-trump-101792202505606.html",
-          "published_at": "02:11"
-        }
-      ]
-    },
-    {
-      "id": "world-215",
-      "title": "A winter of hunger looms for residents trapped in Russian-occupied city in Ukraine",
-      "title_en": "A winter of hunger looms for residents trapped in Russian-occupied city in Ukraine",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/winter-hunger-looms-residents-trapped-russian-occupied-city-137341209",
-      "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "Food and medical supplies have been scarce for months in Oleshky, which sits on the Dnipro River that separates Ukrainian forces from the city’s Russian occupiers",
-      "excerpt_en": "Food and medical supplies have been scarce for months in Oleshky, which sits on the Dnipro River that separates Ukrainian forces from the city’s Russian occupiers",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/winter-hunger-looms-residents-trapped-russian-occupied-city-137341209",
-      "translation_status": "failed",
-      "score": 64,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 9,
-        "time_score": 2,
-        "raw75": 48
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-17T06:34:30+09:00",
-      "latest_published_at": "2026-10-17T15:49:44+09:00",
-      "articles": [
-        {
-          "title": "Trapped civilians in Russian-occupied city in Ukraine face starvation or ‘road of death’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/oleshky-ukraine-russia-putin-war-b3068573.html",
-          "published_at": "15:49"
-        },
-        {
-          "title": "A winter of hunger looms for residents trapped in Russian-occupied city in Ukraine",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/winter-hunger-looms-residents-trapped-russian-occupied-city-137341209",
-          "published_at": "06:34"
-        }
-      ]
-    },
-    {
-      "id": "world-37",
-      "title": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong'",
-      "title_en": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong'",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Zelenskyy said Trump's latest action emboldens Russian President Vladimir Putin and encourages more attacks by Russia.",
-      "excerpt_en": "Zelenskyy said Trump's latest action emboldens Russian President Vladimir Putin and encourages more attacks by Russia.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/zelenskyy-criticises-trumps-waiver-sanctions-russia-wrong-6468946",
-      "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Al Jazeera",
         "Reuters"
       ],
-      "first_published_at": "2026-10-17T01:17:00+09:00",
-      "latest_published_at": "2026-10-17T19:30:24+09:00",
+      "first_published_at": "2026-10-17T23:40:59+09:00",
+      "latest_published_at": "2026-10-17T23:49:37+09:00",
       "articles": [
         {
-          "title": "Zelenskyy criticises Trump's waiver of sanctions on Russia as 'wrong'",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/zelenskyy-criticises-trumps-waiver-sanctions-russia-wrong-6468946",
-          "published_at": "19:30"
+          "title": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2RPSkdZZ0xrcm1MRkYySnVIVFRmRFN0UXBfV21jVlcxZ2xrUDloZlFYWE1Za0JnRXNHVXdRbWkzSVljckpwSmpUSzFsWHpCcV9YM2RTSGZZNEprQlNkSmFPQlgtYUZCejI3a3BuS2RmUEgwS3JmUUNIbkxvSzJoNUg3ckdsRUxvVE9BdTFBX0NUR3pYcThTQjBUb05tQ1V2QzlUR3JneGU5ZTB2Z0xPTGdUM2lSemFsQmc?oc=5",
+          "published_at": "23:49"
         },
         {
-          "title": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong'",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
-          "published_at": "01:17"
+          "title": "US ambassador urges Israel to prosecute attackers of American journalist",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
+          "published_at": "23:40"
         }
       ]
     },
     {
-      "id": "world-5",
+      "id": "world-8",
+      "title": "Italian police clash with protesters in Milan and Bologna",
+      "title_en": "Italian police clash with protesters in Milan and Bologna",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Protests against inflation, low wages, and public service issues turned violent in multiple Italian cities. In Milan, protests erupted in Piazza Duomo where demonstrators clashed with police and vanda",
+      "excerpt_en": "Protests against inflation, low wages, and public service issues turned violent in multiple Italian cities. In Milan, protests erupted in Piazza Duomo where demonstrators clashed with police and vanda",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/europe/cost-of-living-protests-italian-police-clash-with-protesters-in-milan-bologna-meloni-condemns-violence/articleshow/135022686.cms",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-17T18:27:40+09:00",
+      "latest_published_at": "2026-10-18T01:23:58+09:00",
+      "articles": [
+        {
+          "title": "Cost-of-living protests: Italian police clash with protesters in Milan, Bologna",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/cost-of-living-protests-italian-police-clash-with-protesters-in-milan-bologna-meloni-condemns-violence/articleshow/135022686.cms",
+          "published_at": "01:23"
+        },
+        {
+          "title": "Italian police clash with protesters in Milan and Bologna",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5",
+          "published_at": "18:27"
+        }
+      ]
+    },
+    {
+      "id": "world-14",
       "title": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
       "title_en": "Egypt's Sisi seeks parliament's backing to help defend Saudi Arabia if asked",
       "title_source": "earliest_pick",
@@ -1126,7 +1101,54 @@
       ]
     },
     {
-      "id": "world-50",
+      "id": "world-228",
+      "title": "The disturbing ‘new normal’ in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel",
+      "title_en": "The disturbing ‘new normal’ in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-iran-war-ships-oil-b3067351.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "With the prospect of peace in the Middle East looking increasingly remote ahead of the US midterm elections, oil prices remain stubbornly high and attacks have intensified rather than settled. Experts",
+      "excerpt_en": "With the prospect of peace in the Middle East looking increasingly remote ahead of the US midterm elections, oil prices remain stubbornly high and attacks have intensified rather than settled. Experts",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-iran-war-ships-oil-b3067351.html",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-17T09:10:51+09:00",
+      "latest_published_at": "2026-10-17T23:28:11+09:00",
+      "articles": [
+        {
+          "title": "Reported attacks on ships around Hormuz reach record highs",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+          "published_at": "23:28"
+        },
+        {
+          "title": "The disturbing ‘new normal’ in the Strait of Hormuz: Attacks on ships at a record high and oil at $100 a barrel",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-iran-war-ships-oil-b3067351.html",
+          "published_at": "09:10"
+        }
+      ]
+    },
+    {
+      "id": "world-243",
       "title": "'Beyond irresponsible': Trump's decision to waive Russian sanctions faces Congress backlash",
       "title_en": "'Beyond irresponsible': Trump's decision to waive Russian sanctions faces Congress backlash",
       "title_source": "earliest_pick",
@@ -1152,17 +1174,17 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
+        "CBS News",
         "Hindustan Times"
       ],
       "first_published_at": "2026-10-17T15:57:49+09:00",
-      "latest_published_at": "2026-10-17T17:26:00+09:00",
+      "latest_published_at": "2026-10-18T02:38:24+09:00",
       "articles": [
         {
-          "title": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV3OUN4YUtURHoxVG1sTV9uMjVTdFU0Tmlqc2hod0trU1hzQnMzUTc5UE12TGJsMVJmOVU1VEFxWXVSOEJxOU5sR3FwUFc2OFY0b2NKczZOR3pjX0xTWlJacDZSdWk1SmgxVjJvVTRWQVZyckd3MW14dFRiM0RJb3F6bG15MGNyTFJtOU1IVDVLeTNHSjZsMzl2aFB1azZZRG5TajhNTUVGUQ?oc=5",
-          "published_at": "17:26"
+          "title": "Zelenskyy says Trump's decision to waive new sanctions on Russia \"seems wrong\"",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/zelenskyy-says-trumps-decision-to-waive-new-sanctions-on-russia-seems-wrong/",
+          "published_at": "02:38"
         },
         {
           "title": "'Beyond irresponsible': Trump's decision to waive Russian sanctions faces Congress backlash",
@@ -1173,61 +1195,101 @@
       ]
     },
     {
-      "id": "world-217",
-      "title": "Susie Wiles helped arrange Katie Zacharia’s Fox News interview before her exit: Report",
-      "title_en": "Susie Wiles helped arrange Katie Zacharia’s Fox News interview before her exit: Report",
+      "id": "world-6",
+      "title": "Prominent Guatemalan anti-corruption lawyer killed in shooting",
+      "title_en": "Prominent Guatemalan anti-corruption lawyer killed in shooting",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/susie-wiles-helped-arrange-katie-zacharia-s-fox-news-interview-before-her-exit-report-101792215849593.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "White House chief of staff Susie Wiles reportedly helped arrange Katie Zacharia’s Fox News interview shortly before she was removed as press secretary.",
-      "excerpt_en": "White House chief of staff Susie Wiles reportedly helped arrange Katie Zacharia’s Fox News interview shortly before she was removed as press secretary.",
+      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY0t3bFVkTnk1U1BqQXZkQTBlM3NmU1FmNmtaV0xOMmlVTVpIanIxcnBHWjhCNGdnS0Y3T3ctRHJWNDhHdVJEVS1KOFdicHJDeDZXMVdVbjlkbDlicVB1TjNhUXYzaVB0My03NzROeWhXVHhieTNuNkZvNklPaW9Sa0poZjcwUmpRM3JJa05DSE1sV2J1dnhGOWc0SDNGOGN3b0tYM2ZTS3FpU1dpS0pJ?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "GUATEMALA-VIOLENCE/ (PIX, TV):Prominent Guatemalan anti-corruption lawyer killed in shooting",
+      "excerpt_en": "GUATEMALA-VIOLENCE/ (PIX, TV):Prominent Guatemalan anti-corruption lawyer killed in shooting",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/susie-wiles-helped-arrange-katie-zacharia-s-fox-news-interview-before-her-exit-report-101792215849593.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/prominent-guatemalan-anti-corruption-lawyer-killed-in-shooting-101792269712542.html",
       "translation_status": "failed",
-      "score": 61,
+      "score": 57,
       "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 1,
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
         "time_score": 2,
-        "raw75": 46
+        "raw75": 43
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
         "Hindustan Times",
-        "The Independent",
-        "Times of India"
+        "Reuters"
       ],
-      "first_published_at": "2026-10-17T06:00:07+09:00",
-      "latest_published_at": "2026-10-17T14:55:40+09:00",
+      "first_published_at": "2026-10-17T20:41:00+09:00",
+      "latest_published_at": "2026-10-17T20:41:52+09:00",
       "articles": [
         {
-          "title": "Trump aide helped set up ‘sanctioned hit’ on Katie Zacharia: Report",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/trump-aide-susie-wiles-helped-set-up-sanctioned-hit-on-fired-white-house-press-secy-katie-zacharia-report/articleshow/135016022.cms",
-          "published_at": "14:55"
-        },
-        {
-          "title": "Susie Wiles had a hand in setting up Katie Zacharia’s car crash Fox interview: report",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/susie-wiles-katie-zacharia-fox-news-b3068547.html",
-          "published_at": "14:43"
-        },
-        {
-          "title": "Susie Wiles helped arrange Katie Zacharia’s Fox News interview before her exit: Report",
+          "title": "Prominent Guatemalan anti-corruption lawyer killed in shooting",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/susie-wiles-helped-arrange-katie-zacharia-s-fox-news-interview-before-her-exit-report-101792215849593.html",
-          "published_at": "06:00"
+          "url": "https://www.hindustantimes.com/world-news/prominent-guatemalan-anti-corruption-lawyer-killed-in-shooting-101792269712542.html",
+          "published_at": "20:41"
+        },
+        {
+          "title": "Prominent Guatemalan anti-corruption lawyer killed in shooting",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY0t3bFVkTnk1U1BqQXZkQTBlM3NmU1FmNmtaV0xOMmlVTVpIanIxcnBHWjhCNGdnS0Y3T3ctRHJWNDhHdVJEVS1KOFdicHJDeDZXMVdVbjlkbDlicVB1TjNhUXYzaVB0My03NzROeWhXVHhieTNuNkZvNklPaW9Sa0poZjcwUmpRM3JJa05DSE1sV2J1dnhGOWc0SDNGOGN3b0tYM2ZTS3FpU1dpS0pJ?oc=5",
+          "published_at": "20:41"
         }
       ]
     },
     {
-      "id": "world-210",
+      "id": "world-53",
+      "title": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake",
+      "title_en": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5",
+      "category": "기타",
+      "primary_source": "AP News",
+      "excerpt": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake AP News",
+      "excerpt_en": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-17T21:00:00+09:00",
+      "latest_published_at": "2026-10-17T21:05:15+09:00",
+      "articles": [
+        {
+          "title": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/fisherman-71-killed-by-12-foot-alligator-alongside-florida-lake-101792271116335.html",
+          "published_at": "21:05"
+        },
+        {
+          "title": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5",
+          "published_at": "21:00"
+        }
+      ]
+    },
+    {
+      "id": "world-209",
       "title": "Violence erupts at France protests as Macron warns unrest is being exploited",
       "title_en": "Violence erupts at France protests as Macron warns unrest is being exploited",
       "title_source": "earliest_pick",
@@ -1239,14 +1301,14 @@
       "excerpt_source": "Fox News",
       "excerpt_url": "https://www.foxnews.com/world/violence-erupts-france-protests-macron-warns-unrest-being-exploited",
       "translation_status": "failed",
-      "score": 59,
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1257,13 +1319,13 @@
         "The Independent"
       ],
       "first_published_at": "2026-10-17T16:03:16+09:00",
-      "latest_published_at": "2026-10-17T19:32:20+09:00",
+      "latest_published_at": "2026-10-17T22:22:35+09:00",
       "articles": [
         {
-          "title": "France protests live: Macron says ‘no place for violence’ as 400 arrested after clashes with police",
+          "title": "France protests live: Macron says ‘no place for violence’ as hundreds arrested after clashes with police",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/europe/france-protests-paris-live-riots-police-arrests-students-b3068513.html",
-          "published_at": "19:32"
+          "published_at": "22:22"
         },
         {
           "title": "Violence erupts at France protests as Macron warns unrest is being exploited",
@@ -1274,17 +1336,111 @@
       ]
     },
     {
-      "id": "world-23",
-      "title": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
-      "title_en": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+      "id": "world-227",
+      "title": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
+      "title_en": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/ukrainian-foreign-minister-says-russian-held-town-is-a-death-trap-with-starving-residents-101792265386957.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/jake-callum-robinson-mexico-murder-trial-sentence-b3068452.html",
+      "category": "아시아",
+      "primary_source": "The Independent",
+      "excerpt": "Three men were sentenced to 158 years each in Ensenada, Baja California, for the murders of surfers Callum and Jake Robinson and Carter Redd Rhoad.",
+      "excerpt_en": "Three men were sentenced to 158 years each in Ensenada, Baja California, for the murders of surfers Callum and Jake Robinson and Carter Redd Rhoad.",
+      "excerpt_source": "Fox News",
+      "excerpt_url": "https://www.foxnews.com/world/three-men-158-years-murdering-american-australian-surfers-dumping-bodies-mexican-well",
+      "translation_status": "failed",
+      "score": 57,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 43
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Fox News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-17T12:45:40+09:00",
+      "latest_published_at": "2026-10-17T17:38:52+09:00",
+      "articles": [
+        {
+          "title": "Three men get 158 years each for murdering American and Australian surfers, dumping bodies in Mexican well",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/three-men-158-years-murdering-american-australian-surfers-dumping-bodies-mexican-well",
+          "published_at": "17:38"
+        },
+        {
+          "title": "Three men jailed for 158 years each over murders of Australian and US surfers in Baja California",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/jake-callum-robinson-mexico-murder-trial-sentence-b3068452.html",
+          "published_at": "12:45"
+        }
+      ]
+    },
+    {
+      "id": "world-198",
+      "title": "Fire guts a Bangladeshi beach resort, killing 10 people",
+      "title_en": "Fire guts a Bangladeshi beach resort, killing 10 people",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/fire-guts-bangladeshi-beach-resort-killing-10-people-137342617",
+      "category": "아시아",
+      "primary_source": "ABC News",
+      "excerpt": "At least 10 tourists have been killed in a fire at a seaside resort in the southeastern Bangladeshi district of Cox’s Bazar, the country’s largest travel destination, officials said on Saturday. Dolon",
+      "excerpt_en": "At least 10 tourists have been killed in a fire at a seaside resort in the southeastern Bangladeshi district of Cox’s Bazar, the country’s largest travel destination, officials said on Saturday. Dolon",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3371264/bangladesh-tourist-resort-fire-kills-10?utm_source=rss_feed",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 1,
+        "raw75": 42
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-17T11:06:57+09:00",
+      "latest_published_at": "2026-10-17T11:18:20+09:00",
+      "articles": [
+        {
+          "title": "Bangladesh tourist resort fire kills 10",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3371264/bangladesh-tourist-resort-fire-kills-10?utm_source=rss_feed",
+          "published_at": "11:18"
+        },
+        {
+          "title": "Fire guts a Bangladeshi beach resort, killing 10 people",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/fire-guts-bangladeshi-beach-resort-killing-10-people-137342617",
+          "published_at": "11:06"
+        }
+      ]
+    },
+    {
+      "id": "world-0",
+      "title": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
+      "title_en": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/president-wants-60-days-to-analyse-impact-of-russia-sanctions-law-rubio-101792287672011.html",
       "category": "유럽",
       "primary_source": "Hindustan Times",
-      "excerpt": "UKRAINE-CRISIS/OLESHKY (PIX):Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
-      "excerpt_en": "UKRAINE-CRISIS/OLESHKY (PIX):Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/ukrainian-foreign-minister-says-russian-held-town-is-a-death-trap-with-starving-residents-101792265386957.html",
+      "excerpt": "Rubio says Trump to take up to 60 days to weigh Russia sanctions Reuters",
+      "excerpt_en": "Rubio says Trump to take up to 60 days to weigh Russia sanctions Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1303,35 +1459,129 @@
         "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-10-17T19:29:46+09:00",
-      "latest_published_at": "2026-10-17T19:30:10+09:00",
+      "first_published_at": "2026-10-18T01:41:11+09:00",
+      "latest_published_at": "2026-10-18T03:38:00+09:00",
       "articles": [
         {
-          "title": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+          "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT1Q1WlkxYTlaMElEckVoRThQaWdiQmU4QWtzQ2g0OU9HMzY0OVZ0UUlKNUFHZW90VXZFX3JYaXplQmxyb2pscFd4NWxndnFVZmg0bTEtUnRhSWVNd21jQko4R1ZEbGNkcWFWSnBtS2pSTmVEZUtUVzZvQ0JvRjNpSWp3MTRkRXdmeElWaDgxLXE2a18xWlNCR0s3bi1faDNWVFZzRXlhUUZUaXNqS2ZXYm9UTnNoR1AyVXlN?oc=5",
-          "published_at": "19:30"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5",
+          "published_at": "03:38"
         },
         {
-          "title": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+          "title": "President wants 60 days to analyse impact of Russia sanctions law: Rubio",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/ukrainian-foreign-minister-says-russian-held-town-is-a-death-trap-with-starving-residents-101792265386957.html",
-          "published_at": "19:29"
+          "url": "https://www.hindustantimes.com/world-news/us-news/president-wants-60-days-to-analyse-impact-of-russia-sanctions-law-rubio-101792287672011.html",
+          "published_at": "01:41"
         }
       ]
     },
     {
-      "id": "world-103",
-      "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
-      "title_en": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
+      "id": "world-50",
+      "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+      "title_en": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
       "title_source": "earliest_pick",
-      "title_url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-all-1573-xml-mrss",
+      "title_url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
       "category": "미국",
-      "primary_source": "DW",
-      "excerpt": "US police have praised the actions of three people who cut short a deadly shooting at a school in the state of Oregon. Three children and a teacher were killed in the attack, carried out by a former p",
-      "excerpt_en": "US police have praised the actions of three people who cut short a deadly shooting at a school in the state of Oregon. Three children and a teacher were killed in the attack, carried out by a former p",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-all-1573-xml-mrss",
+      "primary_source": "ABC News",
+      "excerpt": "Hurricane Trudy moved toward Mexico’s southwestern and west-central Pacific coast and could strengthen through Saturday, the U.S. National Hurricane Center said",
+      "excerpt_en": "Hurricane Trudy moved toward Mexico’s southwestern and west-central Pacific coast and could strengthen through Saturday, the U.S. National Hurricane Center said",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-10-17T17:38:17+09:00",
+      "latest_published_at": "2026-10-18T03:38:00+09:00",
+      "articles": [
+        {
+          "title": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5",
+          "published_at": "03:38"
+        },
+        {
+          "title": "Hurricane Trudy approaches Mexico coast as Typhoon Champi threatens Guam",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/hurricane-trudy-makes-mexico-typhoon-champi-threatens-guam-137342807",
+          "published_at": "17:38"
+        }
+      ]
+    },
+    {
+      "id": "world-78",
+      "title": "No action to be taken against wife of PM’s aide over Palestine Action post",
+      "title_en": "No action to be taken against wife of PM’s aide over Palestine Action post",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
+      "category": "중동",
+      "primary_source": "The Guardian",
+      "excerpt": "Tweet by Sarah Helm, wife of national security adviser Jonathan Powell, ‘does not meet criminal threshold’ No further action will be taken against Sarah Helm, the wife of the prime minister’s national",
+      "excerpt_en": "Tweet by Sarah Helm, wife of national security adviser Jonathan Powell, ‘does not meet criminal threshold’ No further action will be taken against Sarah Helm, the wife of the prime minister’s national",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-17T19:47:45+09:00",
+      "latest_published_at": "2026-10-18T04:46:17+09:00",
+      "articles": [
+        {
+          "title": "UK police rule out probe into Palestine Action post by PM adviser’s wife",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/uk-police-rule-out-probe-into-palestine-action-post-by-pm-advisers-wife?traffic_source=rss",
+          "published_at": "04:46"
+        },
+        {
+          "title": "No action to be taken against wife of PM’s aide over Palestine Action post",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
+          "published_at": "19:47"
+        }
+      ]
+    },
+    {
+      "id": "world-138",
+      "title": "Mass protests in France spiral into worst riots in years",
+      "title_en": "Mass protests in France spiral into worst riots in years",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "Police fire teargas in Paris and Limoges town hall ‘largely lost’ to fire – with officials blaming violence on ‘ultra-left’ More than 1,200 people were arrested in France on Saturday after protesters ",
+      "excerpt_en": "Police fire teargas in Paris and Limoges town hall ‘largely lost’ to fire – with officials blaming violence on ‘ultra-left’ More than 1,200 people were arrested in France on Saturday after protesters ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1347,36 +1597,36 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "DW",
-        "The Independent"
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-10-17T06:04:00+09:00",
-      "latest_published_at": "2026-10-17T17:37:46+09:00",
+      "first_published_at": "2026-10-17T10:12:29+09:00",
+      "latest_published_at": "2026-10-18T00:01:12+09:00",
       "articles": [
         {
-          "title": "Teen gunman in Oregon mass shooting killed three students and one teacher on school picture day as police investigate motive",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/oregon-bend-school-shooting-motive-investigation-b3068578.html",
-          "published_at": "17:37"
+          "title": "Buildings set ablaze and more than 1,200 arrested as police clash with protesters across France",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes",
+          "published_at": "00:01"
         },
         {
-          "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "06:04"
+          "title": "Mass protests in France spiral into worst riots in years",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
+          "published_at": "10:12"
         }
       ]
     },
     {
-      "id": "world-207",
+      "id": "world-205",
       "title": "Man and woman charged with assault and criminal damage after fatal house fire",
       "title_en": "Man and woman charged with assault and criminal damage after fatal house fire",
       "title_source": "earliest_pick",
       "title_url": "https://news.sky.com/story/man-and-woman-charged-with-assault-and-criminal-damage-after-fatal-house-fire-13600228",
       "category": "기타",
       "primary_source": "Sky News",
-      "excerpt": "A man and a woman have been charged with assault and criminal damage after a fatal house fire in Waterford that killed four members of the same family.",
-      "excerpt_en": "A man and a woman have been charged with assault and criminal damage after a fatal house fire in Waterford that killed four members of the same family.",
+      "excerpt": "A man and a woman have been charged with assault and criminal damage after a fatal house fire in Waterford, Ireland, that killed four members of the same family.",
+      "excerpt_en": "A man and a woman have been charged with assault and criminal damage after a fatal house fire in Waterford, Ireland, that killed four members of the same family.",
       "excerpt_source": "Sky News",
       "excerpt_url": "https://news.sky.com/story/man-and-woman-charged-with-assault-and-criminal-damage-after-fatal-house-fire-13600228",
       "translation_status": "failed",
@@ -1415,25 +1665,25 @@
       ]
     },
     {
-      "id": "world-208",
-      "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-      "title_en": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
+      "id": "world-240",
+      "title": "Zelenskyy terms restricting military use of Starlink in Ukraine deliberate",
+      "title_en": "Zelenskyy terms restricting military use of Starlink in Ukraine deliberate",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/houthi-strikes-saudi-arabia-show-yemeni-rebels-growing-137341692",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "Yemen's Iran-backed Houthi rebels have showcased their growing military capabilities, repeatedly striking the airport in Saudi Arabia's capital and seizing territory near a key shipping chokepoint",
-      "excerpt_en": "Yemen's Iran-backed Houthi rebels have showcased their growing military capabilities, repeatedly striking the airport in Saudi Arabia's capital and seizing territory near a key shipping chokepoint",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/houthi-strikes-saudi-arabia-show-yemeni-rebels-growing-137341692",
+      "title_url": "https://timesofindia.indiatimes.com/world/europe/zelenskyy-terms-restricting-military-use-of-starlink-in-ukraine-deliberate/articleshow/135022864.cms",
+      "category": "유럽",
+      "primary_source": "Times of India",
+      "excerpt": "The Ukrainian president said Starlink issues are hampering his country's defensive efforts against Russian drones.",
+      "excerpt_en": "The Ukrainian president said Starlink issues are hampering his country's defensive efforts against Russian drones.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/ukraine-trump-zelenskyy-starlink-russia-war-drones/",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
         "raw75": 41
       },
       "area_value": 2,
@@ -1441,23 +1691,258 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "Sky News"
+        "CBS News",
+        "Times of India"
       ],
-      "first_published_at": "2026-10-17T06:38:21+09:00",
-      "latest_published_at": "2026-10-17T10:21:00+09:00",
+      "first_published_at": "2026-10-18T01:55:15+09:00",
+      "latest_published_at": "2026-10-18T02:48:30+09:00",
       "articles": [
         {
-          "title": "UK advises against all but essential travel to Saudi Arabia",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/uk-advises-against-all-but-essential-travel-to-saudi-arabia-amid-houthi-strikes-as-missiles-hit-yemen-airport-13600096",
-          "published_at": "10:21"
+          "title": "Ukraine still can't intercept drones due to Starlink issues, Zelenskyy says",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-trump-zelenskyy-starlink-russia-war-drones/",
+          "published_at": "02:48"
         },
         {
-          "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/houthi-strikes-saudi-arabia-show-yemeni-rebels-growing-137341692",
-          "published_at": "06:38"
+          "title": "Zelenskyy terms restricting military use of Starlink in Ukraine deliberate",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/zelenskyy-terms-restricting-military-use-of-starlink-in-ukraine-deliberate/articleshow/135022864.cms",
+          "published_at": "01:55"
+        }
+      ]
+    },
+    {
+      "id": "world-7",
+      "title": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+      "title_en": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT1Q1WlkxYTlaMElEckVoRThQaWdiQmU4QWtzQ2g0OU9HMzY0OVZ0UUlKNUFHZW90VXZFX3JYaXplQmxyb2pscFd4NWxndnFVZmg0bTEtUnRhSWVNd21jQko4R1ZEbGNkcWFWSnBtS2pSTmVEZUtUVzZvQ0JvRjNpSWp3MTRkRXdmeElWaDgxLXE2a18xWlNCR0s3bi1faDNWVFZzRXlhUUZUaXNqS2ZXYm9UTnNoR1AyVXlN?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "UKRAINE-CRISIS/OLESHKY (PIX):Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+      "excerpt_en": "UKRAINE-CRISIS/OLESHKY (PIX):Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/ukrainian-foreign-minister-says-russian-held-town-is-a-death-trap-with-starving-residents-101792265386957.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-17T19:29:00+09:00",
+      "latest_published_at": "2026-10-17T19:29:46+09:00",
+      "articles": [
+        {
+          "title": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/ukrainian-foreign-minister-says-russian-held-town-is-a-death-trap-with-starving-residents-101792265386957.html",
+          "published_at": "19:29"
+        },
+        {
+          "title": "Ukrainian foreign minister says Russian-held town is a 'death trap' with starving residents",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT1Q1WlkxYTlaMElEckVoRThQaWdiQmU4QWtzQ2g0OU9HMzY0OVZ0UUlKNUFHZW90VXZFX3JYaXplQmxyb2pscFd4NWxndnFVZmg0bTEtUnRhSWVNd21jQko4R1ZEbGNkcWFWSnBtS2pSTmVEZUtUVzZvQ0JvRjNpSWp3MTRkRXdmeElWaDgxLXE2a18xWlNCR0s3bi1faDNWVFZzRXlhUUZUaXNqS2ZXYm9UTnNoR1AyVXlN?oc=5",
+          "published_at": "19:29"
+        }
+      ]
+    },
+    {
+      "id": "world-36",
+      "title": "Iran's Guards say two tankers hit mines in Strait of Hormuz",
+      "title_en": "Iran's Guards say two tankers hit mines in Strait of Hormuz",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
+      "excerpt_en": "Iran's Guards say two tankers hit mines in Strait of Hormuz Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-17T13:36:11+09:00",
+      "latest_published_at": "2026-10-18T01:56:59+09:00",
+      "articles": [
+        {
+          "title": "Two oil tankers on fire after hitting mines: Iran’s Guards",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/two-oil-tankers-on-fire-after-hitting-mines-irans-guards/articleshow/135022868.cms",
+          "published_at": "01:56"
+        },
+        {
+          "title": "Iran's Guards say two tankers hit mines in Strait of Hormuz",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?oc=5",
+          "published_at": "13:36"
+        }
+      ]
+    },
+    {
+      "id": "world-46",
+      "title": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+      "title_en": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "Thousands gathered at events throughout the country on Saturday, building on two years of No Kings marches.",
+      "excerpt_en": "Thousands gathered at events throughout the country on Saturday, building on two years of No Kings marches.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Al Jazeera"
+      ],
+      "first_published_at": "2026-10-17T19:52:00+09:00",
+      "latest_published_at": "2026-10-17T21:08:10+09:00",
+      "articles": [
+        {
+          "title": "Photos: No Kings rallies in US urge midterm voters to cast ballots early",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss",
+          "published_at": "21:08"
+        },
+        {
+          "title": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5",
+          "published_at": "19:52"
+        }
+      ]
+    },
+    {
+      "id": "world-82",
+      "title": "Search continues after boat capsizes off Baja California coast. 16 rescued, but others missing",
+      "title_en": "Search continues after boat capsizes off Baja California coast. 16 rescued, but others missing",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/search-continues-after-boat-capsizes-off-baja-california-coast-16-rescued-but-others-missing-101792271296590.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Search continues after boat capsizes off Baja California coast. 16 rescued, but others missing",
+      "excerpt_en": "Search continues after boat capsizes off Baja California coast. 16 rescued, but others missing",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/search-continues-after-boat-capsizes-off-baja-california-coast-16-rescued-but-others-missing-101792271296590.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-17T21:08:16+09:00",
+      "latest_published_at": "2026-10-18T02:33:14+09:00",
+      "articles": [
+        {
+          "title": "Search continues for 11 missing after boat sank off Mexico’s Baja coast",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/search-continues-for-11-missing-after-boat-sank-off-mexicos-baja-coast?traffic_source=rss",
+          "published_at": "02:33"
+        },
+        {
+          "title": "Search continues after boat capsizes off Baja California coast. 16 rescued, but others missing",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/search-continues-after-boat-capsizes-off-baja-california-coast-16-rescued-but-others-missing-101792271296590.html",
+          "published_at": "21:08"
+        }
+      ]
+    },
+    {
+      "id": "world-104",
+      "title": "California ‘No Kings’ protests draw crowds in San Francisco, Los Angeles, Santa Barbara, San Diego and Santa Monica",
+      "title_en": "California ‘No Kings’ protests draw crowds in San Francisco, Los Angeles, Santa Barbara, San Diego and Santa Monica",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/california-no-kings-protests-draw-crowds-in-san-francisco-los-angeles-santa-barbara-san-diego-and-santa-monica-101792263984687.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Organizers of the \"No Kings\" protests, known for their anti-Trump sentiment, are urging Americans to vote early in the November 3 midterm elections, as Republicans face tough races to retain control o",
+      "excerpt_en": "Organizers of the \"No Kings\" protests, known for their anti-Trump sentiment, are urging Americans to vote early in the November 3 midterm elections, as Republicans face tough races to retain control o",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/no-kings-rallies-push-early-voting-ahead-of-us-midterm-elections/a-79690502?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-17T19:12:35+09:00",
+      "latest_published_at": "2026-10-18T00:51:00+09:00",
+      "articles": [
+        {
+          "title": "'No Kings' rallies push early voting ahead of US midterm elections",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/no-kings-rallies-push-early-voting-ahead-of-us-midterm-elections/a-79690502?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "00:51"
+        },
+        {
+          "title": "California ‘No Kings’ protests draw crowds in San Francisco, Los Angeles, Santa Barbara, San Diego and Santa Monica",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/california-no-kings-protests-draw-crowds-in-san-francisco-los-angeles-santa-barbara-san-diego-and-santa-monica-101792263984687.html",
+          "published_at": "19:12"
         }
       ]
     },
@@ -1474,14 +1959,14 @@
       "excerpt_source": "CBS News",
       "excerpt_url": "https://www.cbsnews.com/news/protests-france-rising-living-costs-students/",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -1509,378 +1994,49 @@
       ]
     },
     {
-      "id": "world-11",
-      "title": "Albanian police fire rubber bullets as student protesters call for PM to quit",
-      "title_en": "Albanian police fire rubber bullets as student protesters call for PM to quit",
+      "id": "world-149",
+      "title": "Shooting at NYC subway station leaves man critically injured",
+      "title_en": "Shooting at NYC subway station leaves man critically injured",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
-      "category": "기타",
-      "primary_source": "SCMP",
-      "excerpt": "Police in Albania fired what appeared to be rubber bullets at protesters on Saturday, the fifth day of mass student protests demanding Prime Minister Edi Rama step down. Reuters video footage showed p",
-      "excerpt_en": "Police in Albania fired what appeared to be rubber bullets at protesters on Saturday, the fifth day of mass student protests demanding Prime Minister Edi Rama step down. Reuters video footage showed p",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-17T16:05:10+09:00",
-      "latest_published_at": "2026-10-17T16:48:32+09:00",
-      "articles": [
-        {
-          "title": "Albanian police fire rubber bullets as student protests rage",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVlJCekoweVlrYktkQmJZZ2V4aFFnRFpHdnRBMlYzZDlJS0xFS1JWQVMtOVNvbURNdUNHU09BTnBkNjBwdi0yaFVNR2Nqbm9sTUxHTFZQQk1PWkU2ZzdVeC04UVdLb2lJNFoxWHVsSWJJQTlrNXBYZ0NfNWJ4YTdENjlBYmwtdDlOMHhMOWtJY2NxUDJHRlJ1emtpa2h4UmFwZlBOQ0dEQlBORTREQ0E?oc=5",
-          "published_at": "16:48"
-        },
-        {
-          "title": "Albanian police fire rubber bullets as student protesters call for PM to quit",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
-          "published_at": "16:05"
-        }
-      ]
-    },
-    {
-      "id": "world-21",
-      "title": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
-      "title_en": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/nyc-subway-station-shooting-today-man-shot-aboard-northbound-e-train-in-manhattan-101792256959684.html",
       "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers Reuters",
-      "excerpt_en": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbk9CdFVPN2k3VV9iLUx0SGxFc184WkJQSDVpNGhBTkxVUElnNmFvRk5YeHJNVjloYlFXZWY1MC1TQjBaT3RMSmJXQjl4YUU4X0ZDVllhRGR5T09ncE1vRTVhZVBqZGZYeE1kRG9jRVFram83dWZSd3N1eU9jeWpPckdNTTFyYV9jN1kxTHBWR3YycW1DRlVMU095QzMxVnVNb1RULVZPaXYtVlRaMlF4TEFEd1U4aFpySG83R3BMaDNXYlpPclE?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-17T09:14:49+09:00",
-      "latest_published_at": "2026-10-17T11:39:54+09:00",
-      "articles": [
-        {
-          "title": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbk9CdFVPN2k3VV9iLUx0SGxFc184WkJQSDVpNGhBTkxVUElnNmFvRk5YeHJNVjloYlFXZWY1MC1TQjBaT3RMSmJXQjl4YUU4X0ZDVllhRGR5T09ncE1vRTVhZVBqZGZYeE1kRG9jRVFram83dWZSd3N1eU9jeWpPckdNTTFyYV9jN1kxTHBWR3YycW1DRlVMU095QzMxVnVNb1RULVZPaXYtVlRaMlF4TEFEd1U4aFpySG83R3BMaDNXYlpPclE?oc=5",
-          "published_at": "11:39"
-        },
-        {
-          "title": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
-          "published_at": "09:14"
-        }
-      ]
-    },
-    {
-      "id": "world-40",
-      "title": "World’s worst measles outbreak a ‘warning’ to other nations",
-      "title_en": "World’s worst measles outbreak a ‘warning’ to other nations",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/asia/world-s-worst-measles-outbreak-a-warning-to-other-nations-20261017-p616d6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "category": "아시아",
-      "primary_source": "Sydney Morning Herald",
-      "excerpt": "So far, 1147 people have died in the outbreak of the highly contagious disease in Bangladesh.",
-      "excerpt_en": "So far, 1147 people have died in the outbreak of the highly contagious disease in Bangladesh.",
-      "excerpt_source": "Sydney Morning Herald",
-      "excerpt_url": "https://www.smh.com.au/world/asia/world-s-worst-measles-outbreak-a-warning-to-other-nations-20261017-p616d6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-10-17T02:00:06+09:00",
-      "latest_published_at": "2026-10-17T12:02:13+09:00",
-      "articles": [
-        {
-          "title": "Bangladesh is battling measles. It's a 'real warning' to other nations",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLVdDQ0N6V1RSeHlVS2lLcmJqbjVyUlJ1ZFJFYWFlWFo0MUtWT3hmUW1MSzRxaXI5SGJza2N1dzdFUG1venFSTnpUSGlPUVpIUHRIZGV0TTBCVVc0Qk5valRHWlUwRjdDbVp6MUdRSmFiUm5MaTU0dC1mOHY0Si1kb1lqdUp2NXpDMmZaVTQzUWlMcTJUZ01JUFNUTWt4UTdqYlFlbU1R?oc=5",
-          "published_at": "12:02"
-        },
-        {
-          "title": "World’s worst measles outbreak a ‘warning’ to other nations",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/asia/world-s-worst-measles-outbreak-a-warning-to-other-nations-20261017-p616d6.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "02:00"
-        }
-      ]
-    },
-    {
-      "id": "world-41",
-      "title": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
-      "title_en": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J4RHIwY0c5ZmwzaGg4VmNYbG5kYWNwckU4d3dYSWxyUUVKMDk0U01jcm5fSllLMk91NEFDcDhraTlTS2Foa0dfbkZUQ0Jpa3NHZEp3NkpORkk4bHdzWTJPWlEtTHF5YlQ3SkpwZWYtbm4zb2U2dHBOT3c0ZWs3dEtEY0dvSmxMNGlvYlVDX254N1IyQTNhN2xLWTFncnozWTVsSEJ3dm5JOXhlWjFkMGl2WmpqMmRyRldqNg?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers Reuters",
-      "excerpt_en": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J4RHIwY0c5ZmwzaGg4VmNYbG5kYWNwckU4d3dYSWxyUUVKMDk0U01jcm5fSllLMk91NEFDcDhraTlTS2Foa0dfbkZUQ0Jpa3NHZEp3NkpORkk4bHdzWTJPWlEtTHF5YlQ3SkpwZWYtbm4zb2U2dHBOT3c0ZWs3dEtEY0dvSmxMNGlvYlVDX254N1IyQTNhN2xLWTFncnozWTVsSEJ3dm5JOXhlWjFkMGl2WmpqMmRyRldqNg?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-17T02:26:00+09:00",
-      "latest_published_at": "2026-10-17T10:18:41+09:00",
-      "articles": [
-        {
-          "title": "3 men sentenced to 158 years for the killings of Australian, US surfers in Mexico",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/3-men-sentenced-158-years-killings-australian-us-137340778",
-          "published_at": "10:18"
-        },
-        {
-          "title": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J4RHIwY0c5ZmwzaGg4VmNYbG5kYWNwckU4d3dYSWxyUUVKMDk0U01jcm5fSllLMk91NEFDcDhraTlTS2Foa0dfbkZUQ0Jpa3NHZEp3NkpORkk4bHdzWTJPWlEtTHF5YlQ3SkpwZWYtbm4zb2U2dHBOT3c0ZWs3dEtEY0dvSmxMNGlvYlVDX254N1IyQTNhN2xLWTFncnozWTVsSEJ3dm5JOXhlWjFkMGl2WmpqMmRyRldqNg?oc=5",
-          "published_at": "02:26"
-        }
-      ]
-    },
-    {
-      "id": "world-48",
-      "title": "Coastal homes burn as hot winds fuel California fires",
-      "title_en": "Coastal homes burn as hot winds fuel California fires",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmJmSmdlU0NrdkN0LTJXMGYtbHdsTTk1dTFhY2tGbHVtRENWSUtGWVFHbk02ZVJsWnZwZDJQTGdVbm5xOUpCanFtMXhOUlh1VVdXWVFkQjVkQ29OeFRqWExBdXgzQWFGSXNsWjA1V3lHdjdHNGhfNFpINGlpenlpVHlIRHhvTTdoclNZOUlORk5BakdtMXJXLVNlQkI?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "A fast-moving fire fueled by high winds burned at least six homes in Southern California on Friday, engulfing expensive coastal properties and prompting thousands to evacuate.",
-      "excerpt_en": "A fast-moving fire fueled by high winds burned at least six homes in Southern California on Friday, engulfing expensive coastal properties and prompting thousands to evacuate.",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261017-coastal-homes-burn-as-hot-winds-fuel-california-fires",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "France24"
-      ],
-      "first_published_at": "2026-10-17T05:36:00+09:00",
-      "latest_published_at": "2026-10-17T10:37:58+09:00",
-      "articles": [
-        {
-          "title": "Coastal homes burn as hot winds fuel California fires",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261017-coastal-homes-burn-as-hot-winds-fuel-california-fires",
-          "published_at": "10:37"
-        },
-        {
-          "title": "Coastal homes burn as hot winds fuel California fires",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmJmSmdlU0NrdkN0LTJXMGYtbHdsTTk1dTFhY2tGbHVtRENWSUtGWVFHbk02ZVJsWnZwZDJQTGdVbm5xOUpCanFtMXhOUlh1VVdXWVFkQjVkQ29OeFRqWExBdXgzQWFGSXNsWjA1V3lHdjdHNGhfNFpINGlpenlpVHlIRHhvTTdoclNZOUlORk5BakdtMXJXLVNlQkI?oc=5",
-          "published_at": "05:36"
-        }
-      ]
-    },
-    {
-      "id": "world-118",
-      "title": "France faces day of cost-of-living protests",
-      "title_en": "France faces day of cost-of-living protests",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3338834/france-faces-day-of-costofliving-protests",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "French authorities detained dozens on Saturday at the start of nationwide protests against the cost of living, in what is likely to be a key indicator of the social climate heading toward elections to",
-      "excerpt_en": "French authorities detained dozens on Saturday at the start of nationwide protests against the cost of living, in what is likely to be a key indicator of the social climate heading toward elections to",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261017-france-faces-day-of-cost-of-living-protests",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "France24"
-      ],
-      "first_published_at": "2026-10-17T10:45:00+09:00",
-      "latest_published_at": "2026-10-17T11:47:30+09:00",
-      "articles": [
-        {
-          "title": "France faces day of cost-of-living protests",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261017-france-faces-day-of-cost-of-living-protests",
-          "published_at": "11:47"
-        },
-        {
-          "title": "France faces day of cost-of-living protests",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3338834/france-faces-day-of-costofliving-protests",
-          "published_at": "10:45"
-        }
-      ]
-    },
-    {
-      "id": "world-197",
-      "title": "Trump pauses Russian sanctions package after striking diesel deal with Putin",
-      "title_en": "Trump pauses Russian sanctions package after striking diesel deal with Putin",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3371222/trump-pauses-russian-sanctions-package-after-striking-diesel-deal-putin?utm_source=rss_feed",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "US President Donald Trump on Friday signed an executive order that puts on hold a sweeping new sanctions package targeting the Russian economy, telling Congress the pause was in the national interest.",
-      "excerpt_en": "US President Donald Trump on Friday signed an executive order that puts on hold a sweeping new sanctions package targeting the Russian economy, telling Congress the pause was in the national interest.",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3371222/trump-pauses-russian-sanctions-package-after-striking-diesel-deal-putin?utm_source=rss_feed",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBC",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-17T02:26:19+09:00",
-      "latest_published_at": "2026-10-17T02:36:07+09:00",
-      "articles": [
-        {
-          "title": "Trump pauses sanctions package targeted at Russian economy",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/trump-waiver-russia-sanctions-ukraine-9.7385045?cmp=rss",
-          "published_at": "02:36"
-        },
-        {
-          "title": "Trump pauses Russian sanctions package after striking diesel deal with Putin",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3371222/trump-pauses-russian-sanctions-package-after-striking-diesel-deal-putin?utm_source=rss_feed",
-          "published_at": "02:26"
-        }
-      ]
-    },
-    {
-      "id": "world-288",
-      "title": "Can social media bans protect young people’s mental health? Research suggests bans aren’t the answer",
-      "title_en": "Can social media bans protect young people’s mental health? Research suggests bans aren’t the answer",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/can-social-media-bans-protect-young-people-s-mental-health-research-suggests-bans-aren-t-the-answer-101792216401774.html",
-      "category": "아시아",
       "primary_source": "Hindustan Times",
-      "excerpt": "Advocates say Australia has a hidden cohort of young people aged between four and 25 who help care for people with disabilities, as well as sick, injured or elderly people.",
-      "excerpt_en": "Advocates say Australia has a hidden cohort of young people aged between four and 25 who help care for people with disabilities, as well as sick, injured or elderly people.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-18/young-carers-advocates-call-for-better-identification/107241766",
+      "excerpt": "Suspect shot a man in his 30s on the E train platform of the 53rd Street-7th Avenue subway station, according to NYPD A man was shot and killed in a New York City subway station Saturday afternoon, an",
+      "excerpt_en": "Suspect shot a man in his 30s on the E train platform of the 53rd Street-7th Avenue subway station, according to NYPD A man was shot and killed in a New York City subway station Saturday afternoon, an",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/oct/17/new-york-city-subway-station-shooting",
       "translation_status": "failed",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "Hindustan Times"
+        "Hindustan Times",
+        "The Guardian"
       ],
-      "first_published_at": "2026-10-17T05:53:21+09:00",
-      "latest_published_at": "2026-10-17T20:27:30+09:00",
+      "first_published_at": "2026-10-17T17:44:19+09:00",
+      "latest_published_at": "2026-10-17T22:45:48+09:00",
       "articles": [
         {
-          "title": "Young people the hidden group of carers few are talking about",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-18/young-carers-advocates-call-for-better-identification/107241766",
-          "published_at": "20:27"
+          "title": "New York City police seek suspect in fatal subway station shooting",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/new-york-city-subway-station-shooting",
+          "published_at": "22:45"
         },
         {
-          "title": "Can social media bans protect young people’s mental health? Research suggests bans aren’t the answer",
+          "title": "Shooting at NYC subway station leaves man critically injured",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/can-social-media-bans-protect-young-people-s-mental-health-research-suggests-bans-aren-t-the-answer-101792216401774.html",
-          "published_at": "05:53"
+          "url": "https://www.hindustantimes.com/world-news/us-news/nyc-subway-station-shooting-today-man-shot-aboard-northbound-e-train-in-manhattan-101792256959684.html",
+          "published_at": "17:44"
         }
       ]
     }
