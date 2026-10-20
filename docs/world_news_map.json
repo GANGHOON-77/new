@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,27 +8,27 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-10-21T03:40:29.353891+09:00",
+  "updated_at": "2026-10-21T06:55:40.199802+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 631,
-  "cluster_count_total": 519,
+  "article_count_total": 643,
+  "cluster_count_total": 516,
   "clusters": [
     {
-      "id": "world-134",
-      "title": "Australian MP Helen Haines loses leg after car attack, says report; PM Albanese calls incident ‘deliberate’",
-      "title_en": "Australian MP Helen Haines loses leg after car attack, says report; PM Albanese calls incident ‘deliberate’",
+      "id": "world-53",
+      "title": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
+      "title_en": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/australian-mp-helen-haines-loses-leg-after-car-attack-says-report-pm-albanese-calls-incident-deliberate-101792474052137.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Helen Haines, an independent, remained in critical condition after she was struck by a vehicle. A 43-year-old man was charged and will appear in court on Wednesday.",
-      "excerpt_en": "Helen Haines, an independent, remained in critical condition after she was struck by a vehicle. A 43-year-old man was charged and will appear in court on Wednesday.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "RAF Typhoon fighters to fly defensive missions over cities and infrastructure in extension of UK support for Riyadh RAF Typhoon fighters are to be used in efforts to protect Saudi Arabia from attack b",
+      "excerpt_en": "RAF Typhoon fighters to fly defensive missions over cities and infrastructure in extension of UK support for Riyadh RAF Typhoon fighters are to be used in efforts to protect Saudi Arabia from attack b",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
       "translation_status": "failed",
       "score": 93,
       "score_breakdown": {
@@ -39,100 +39,102 @@
         "time_score": 3,
         "raw75": 70
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
       "source_count": 6,
       "sources": [
-        "ABC News Australia",
-        "BBC",
+        "Al Jazeera",
         "CBS News",
-        "Hindustan Times",
         "New York Times",
-        "The Independent"
+        "Reuters",
+        "SCMP",
+        "The Guardian"
       ],
-      "first_published_at": "2026-10-20T06:37:04+09:00",
-      "latest_published_at": "2026-10-20T18:04:09+09:00",
+      "first_published_at": "2026-10-20T12:04:05+09:00",
+      "latest_published_at": "2026-10-20T18:55:52+09:00",
       "articles": [
         {
-          "title": "Live: Brendan Nugent to face court over alleged attack on MP Helen Haines",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-21/helen-haines-attack-live-updates/107290276",
-          "published_at": "18:04"
+          "title": "UK to deploy fighter jets to defend Saudi Arabia",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
+          "published_at": "18:55"
         },
         {
-          "title": "Man charged in \"targeted\" attack on Australian lawmaker Helen Haines",
+          "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
+          "published_at": "18:30"
+        },
+        {
+          "title": "Britain says it will carry out defensive air missions over Saudi Arabia",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTGh1LWkyRVZqaTRQMEdnRXhvWFhvWnJ6TW5WdlEyM0dxTFQwLWczNjAwLU95SDFDZVVSdUNQUE1uYkREcG05THRjbmhiQk5FWlBjb2p2V01DVmhGRFppUmFHQUFwMm4yZHFLRndUbU9PcEVjY0JBY1JpZjROd0JnOTdoZXFodTRDSzJEQURHQkVzd21pMmtUZmdnLUE3SGI1UGt5Wno0WWVKR1ZWV0FaQ0FmZUY5aVlQZVAtRGV4WEhoTmVnbHRsZ0taZ2d2NFBxOFIzdQ?oc=5",
+          "published_at": "17:05"
+        },
+        {
+          "title": "Egypt weighs sending troops to Saudi Arabia in war with Iran-backed rebels",
           "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/australian-man-charged-targeted-attack-lawmaker-helen-haines-who-reportedly-lost-leg/",
-          "published_at": "13:51"
+          "url": "https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/",
+          "published_at": "16:54"
         },
         {
-          "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
-          "published_at": "11:25"
-        },
-        {
-          "title": "Australian Lawmaker Helen Haines Remains in Critical Condition After Car Attack",
+          "title": "UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks",
           "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html",
-          "published_at": "10:59"
+          "url": "https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html",
+          "published_at": "12:34"
         },
         {
-          "title": "Who is Brendan Nugent? Suspect in attack on Australian MP Helen Haines as parents say they are ‘family friends’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/brendan-nugent-helen-haines-car-attack-b3069654.html",
-          "published_at": "09:38"
-        },
-        {
-          "title": "Police charge suspect in car ‘attack’ on Australian MP Helen Haines",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-wangaratta-attack-suspect-family-australia-mp-b3069651.html",
-          "published_at": "09:26"
-        },
-        {
-          "title": "Australian MP Helen Haines loses leg after car attack, says report; PM Albanese calls incident ‘deliberate’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/australian-mp-helen-haines-loses-leg-after-car-attack-says-report-pm-albanese-calls-incident-deliberate-101792474052137.html",
-          "published_at": "06:37"
+          "title": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis",
+          "published_at": "12:04"
         }
       ]
     },
     {
-      "id": "world-29",
-      "title": "Shark kills woman swimming off popular beach in South Africa",
-      "title_en": "Shark kills woman swimming off popular beach in South Africa",
+      "id": "world-52",
+      "title": "Swimmer killed in shark attack in South Africa",
+      "title_en": "Swimmer killed in shark attack in South Africa",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/shark-kills-woman-orient-beach-south-africa/",
+      "title_url": "https://www.independent.co.uk/news/world/africa/shark-attack-south-africa-orient-beach-kugompo-b3069968.html",
       "category": "유럽",
-      "primary_source": "CBS News",
+      "primary_source": "The Independent",
       "excerpt": "A 65-year-old woman was killed on Tuesday in a shark attack off South Africa’s southeastern coast, police and municipal authorities said, prompting the closure of two beaches. Officers were called to ",
       "excerpt_en": "A 65-year-old woman was killed on Tuesday in a shark attack off South Africa’s southeastern coast, police and municipal authorities said, prompting the closure of two beaches. Officers were called to ",
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/africa/article/3371560/shark-kills-woman-swimming-south-africas-eastern-cape",
       "translation_status": "failed",
-      "score": 89,
+      "score": 92,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 69
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 6,
       "sources": [
         "ABC News",
         "CBS News",
         "Reuters",
-        "SCMP"
+        "SCMP",
+        "Sky News",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-20T14:21:23+09:00",
-      "latest_published_at": "2026-10-20T18:03:29+09:00",
+      "first_published_at": "2026-10-20T13:50:57+09:00",
+      "latest_published_at": "2026-10-20T18:30:00+09:00",
       "articles": [
+        {
+          "title": "Swimmer killed in shark attack in South Africa",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/woman-65-killed-in-shark-attack-in-south-africa-13601492",
+          "published_at": "18:30"
+        },
         {
           "title": "Shark kills woman swimming off South Africa’s Eastern Cape",
           "source_name": "SCMP",
@@ -156,211 +158,88 @@
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/shark-kills-woman-orient-beach-south-africa/",
           "published_at": "14:21"
-        }
-      ]
-    },
-    {
-      "id": "world-232",
-      "title": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
-      "title_en": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis",
-      "category": "중동",
-      "primary_source": "SCMP",
-      "excerpt": "RAF Typhoon fighters to fly defensive missions over cities and infrastructure in extension of UK support for Riyadh RAF Typhoon fighters are to be used in efforts to protect Saudi Arabia from attack b",
-      "excerpt_en": "RAF Typhoon fighters to fly defensive missions over cities and infrastructure in extension of UK support for Riyadh RAF Typhoon fighters are to be used in efforts to protect Saudi Arabia from attack b",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-      "translation_status": "failed",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBS News",
-        "New York Times",
-        "SCMP",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-20T12:04:05+09:00",
-      "latest_published_at": "2026-10-20T18:30:16+09:00",
-      "articles": [
-        {
-          "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-          "published_at": "18:30"
         },
         {
-          "title": "Egypt weighs sending troops to Saudi Arabia in war with Iran-backed rebels",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/",
-          "published_at": "16:54"
-        },
-        {
-          "title": "UK to Send Fighter Jets to Help Defend Saudi Arabia From Houthi Attacks",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html",
-          "published_at": "12:34"
-        },
-        {
-          "title": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis",
-          "published_at": "12:04"
-        }
-      ]
-    },
-    {
-      "id": "world-255",
-      "title": "Pete Hegseth met Netanyahu in 'secret' a day after Trump endorsed Israeli PM's election bid: Report",
-      "title_en": "Pete Hegseth met Netanyahu in 'secret' a day after Trump endorsed Israeli PM's election bid: Report",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/pete-hegseth-met-netanyahu-in-secret-a-day-after-trump-endorsed-israeli-pms-election-bid-report-101792456178305.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Defense Secretary Pete Hegseth made an unannounced visit to Israel just over a week before Prime Minister Benjamin Netanyahu stands for elections, and as President Trump floats restarting the Iran war",
-      "excerpt_en": "Defense Secretary Pete Hegseth made an unannounced visit to Israel just over a week before Prime Minister Benjamin Netanyahu stands for elections, and as President Trump floats restarting the Iran war",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/",
-      "translation_status": "failed",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBS News",
-        "Hindustan Times",
-        "New York Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-20T00:42:40+09:00",
-      "latest_published_at": "2026-10-20T18:01:58+09:00",
-      "articles": [
-        {
-          "title": "Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html",
-          "published_at": "18:01"
-        },
-        {
-          "title": "Teenager among four killed in Israel strikes and gunfire in Gaza during 'ceasefire'",
+          "title": "Swimmer killed in shark attack in South Africa",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/gaza-israel-attack-khan-younis-b3069848.html",
+          "url": "https://www.independent.co.uk/news/world/africa/shark-attack-south-africa-orient-beach-kugompo-b3069968.html",
+          "published_at": "13:50"
+        }
+      ]
+    },
+    {
+      "id": "world-126",
+      "title": "Australian Lawmaker Helen Haines Remains in Critical Condition After Car Attack",
+      "title_en": "Australian Lawmaker Helen Haines Remains in Critical Condition After Car Attack",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html",
+      "category": "아시아",
+      "primary_source": "New York Times",
+      "excerpt": "An Australian federal lawmaker remained in a hospital in a critical but stable condition, with a male driver charged with three offences in what police allege was a targeted attack with a vehicle.",
+      "excerpt_en": "An Australian federal lawmaker remained in a hospital in a critical but stable condition, with a male driver charged with three offences in what police allege was a targeted attack with a vehicle.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/australia-haines-attack-charges-nugent-9.7387976?cmp=rss",
+      "translation_status": "failed",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "BBC",
+        "CBC",
+        "CBS News",
+        "New York Times"
+      ],
+      "first_published_at": "2026-10-20T10:59:49+09:00",
+      "latest_published_at": "2026-10-20T13:51:35+09:00",
+      "articles": [
+        {
+          "title": "Man charged in \"targeted\" attack on Australian lawmaker Helen Haines",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/australian-man-charged-targeted-attack-lawmaker-helen-haines-who-reportedly-lost-leg/",
+          "published_at": "13:51"
+        },
+        {
+          "title": "Australian man charged in vehicle attack on MP, who reportedly has leg amputated",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/australia-haines-attack-charges-nugent-9.7387976?cmp=rss",
+          "published_at": "11:39"
+        },
+        {
+          "title": "Man charged with attack on Australia MP to face court",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
           "published_at": "11:25"
         },
         {
-          "title": "Hegseth meets Netanyahu ahead of elections, possible Iran war restart",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/",
-          "published_at": "04:50"
-        },
-        {
-          "title": "Pete Hegseth met Netanyahu in 'secret' a day after Trump endorsed Israeli PM's election bid: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/pete-hegseth-met-netanyahu-in-secret-a-day-after-trump-endorsed-israeli-pms-election-bid-report-101792456178305.html",
-          "published_at": "00:42"
-        }
-      ]
-    },
-    {
-      "id": "world-256",
-      "title": "Voters reject separation of Alberta from Canada in referendum",
-      "title_en": "Voters reject separation of Alberta from Canada in referendum",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/",
-      "category": "미국",
-      "primary_source": "CBS News",
-      "excerpt": "Residents of the province were asked if they wished to remain in Canada or to hold another vote on breaking away, in a referendum that was a win for Prime Minister Mark Carney.",
-      "excerpt_en": "Residents of the province were asked if they wished to remain in Canada or to hold another vote on breaking away, in a referendum that was a win for Prime Minister Mark Carney.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/10/19/world/canada/alberta-secession-canada-referendum.html",
-      "translation_status": "failed",
-      "score": 89,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News Australia",
-        "CBS News",
-        "Hindustan Times",
-        "New York Times",
-        "Sydney Morning Herald"
-      ],
-      "first_published_at": "2026-10-20T06:11:00+09:00",
-      "latest_published_at": "2026-10-20T18:12:25+09:00",
-      "articles": [
-        {
-          "title": "Alberta Voters Reject Leaving Canada in Referendum on Separatism",
+          "title": "Australian Lawmaker Helen Haines Remains in Critical Condition After Car Attack",
           "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/19/world/canada/alberta-secession-canada-referendum.html",
-          "published_at": "18:12"
-        },
-        {
-          "title": "Alberta voters reject move to separate from Canada",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-20/alberta-votes-to-remain-part-of-canada/107289816",
-          "published_at": "09:15"
-        },
-        {
-          "title": "‘Albertans chose Canada’: Voters reject move towards independence in victory for Carney",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/north-america/albertans-chose-canada-voters-reject-move-towards-independence-in-victory-for-carney-20261020-p6177o.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "08:35"
-        },
-        {
-          "title": "Alberta voters reject separation from Canada, back tougher immigration limits",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/alberta-voters-reject-separation-from-canada-back-tougher-immigration-limits-101792485097111.html",
-          "published_at": "08:31"
-        },
-        {
-          "title": "Voters reject separation of Alberta from Canada in referendum",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/",
-          "published_at": "06:11"
+          "url": "https://www.nytimes.com/2026/10/20/world/asia/helen-haines-mp-attacked-wangaratta-australia.html",
+          "published_at": "10:59"
         }
       ]
     },
     {
-      "id": "world-128",
-      "title": "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
-      "title_en": "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
+      "id": "world-6",
+      "title": "Nigeria confirms first Ebola case amid concerns about continental spread",
+      "title_en": "Nigeria confirms first Ebola case amid concerns about continental spread",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGVJSnlXYzBBWko0QVp2YkVtWXFxUk5zc3AtUEtGalhoMmh3OEx4SWsySTRuSnZ6NDk2X3RWZnFra0lVWnU5Z2xEM2NHVmlzSUFOOWwxaGVXeDRWMTh3U1RyeWlfMVB0dDdiWEtjR3EzdGRvZUdtblhGNUtiTU5oX05WUFU1WDY5U2o0NkgyZnB3M1ZtMDlDTi10TlpSbkk?oc=5",
-      "category": "중동",
-      "primary_source": "AP News",
-      "excerpt": "British police said on Tuesday that they had rearrested two men on suspicion of assisting Iran’s intelligence service in a suspected plot at a US-run airbase in England last month. Counter Terrorism P",
-      "excerpt_en": "British police said on Tuesday that they had rearrested two men on suspicion of assisting Iran’s intelligence service in a suspected plot at a US-run airbase in England last month. Counter Terrorism P",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371559/uk-rearrests-duo-suspicion-aiding-iran-alleged-plot-us-run-airbase",
+      "title_url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case?traffic_source=rss",
+      "category": "기타",
+      "primary_source": "Al Jazeera",
+      "excerpt": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
+      "excerpt_en": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
+      "excerpt_source": "NPR",
+      "excerpt_url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
       "translation_status": "failed",
       "score": 85,
       "score_breakdown": {
@@ -371,19 +250,100 @@
         "time_score": 3,
         "raw75": 64
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "Hindustan Times",
+        "NPR",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-20T17:31:26+09:00",
+      "latest_published_at": "2026-10-20T20:19:16+09:00",
+      "articles": [
+        {
+          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+          "published_at": "20:19"
+        },
+        {
+          "title": "Nigeria confirms Ebola case in Abuja as woman who arrived from Uganda tests positive",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/nigeria-confirms-ebola-case-abuja-woman-arrived-uganda-137420211",
+          "published_at": "20:02"
+        },
+        {
+          "title": "Nigeria confirms Ebola case in patient who arrived from Uganda",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOczRmaE4xM1NBWWl0dkZiUFNWc3gyR2pPU05ick11alhPNFpfanVNb3dJLWRCQmFNcDlyU1ZmTi1GQVBHN1VjdVprQ0pvMG8yNC1fYWF6QkpoRnFQY1ZSMlpaa2RZN1liNlJzbWFWNTA5MV9PTFF2RXpSTUFBRDJxaWhxcTNySWFEMnNhRXhHVWVGSldjZGcwOHdPWkJ2QUMtNk1VWTZTSV91VG9tMWo1cFQzd2ZtMVMwUDA0Rg?oc=5",
+          "published_at": "19:08"
+        },
+        {
+          "title": "Nigeria confirms Ebola case in patient who arrived from Uganda",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nigeria-confirms-ebola-case-in-patient-who-arrived-from-uganda-101792522917657.html",
+          "published_at": "19:01"
+        },
+        {
+          "title": "Nigeria confirms first Ebola case amid concerns about continental spread",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case?traffic_source=rss",
+          "published_at": "17:31"
+        }
+      ]
+    },
+    {
+      "id": "world-122",
+      "title": "2 men rearrested for alleged spying for Iran in U.K. air base incident",
+      "title_en": "2 men rearrested for alleged spying for Iran in U.K. air base incident",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/raf-fairford-security-incident-arrests-suspected-spying-iran/",
+      "category": "중동",
+      "primary_source": "CBS News",
+      "excerpt": "British police said on Tuesday that they had rearrested two men on suspicion of assisting Iran’s intelligence service in a suspected plot at a US-run airbase in England last month. Counter Terrorism P",
+      "excerpt_en": "British police said on Tuesday that they had rearrested two men on suspicion of assisting Iran’s intelligence service in a suspected plot at a US-run airbase in England last month. Counter Terrorism P",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371559/uk-rearrests-duo-suspicion-aiding-iran-alleged-plot-us-run-airbase",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
       "sources": [
         "ABC News",
         "AP News",
         "CBS News",
+        "Hindustan Times",
         "SCMP"
       ],
-      "first_published_at": "2026-10-20T16:53:00+09:00",
-      "latest_published_at": "2026-10-20T17:49:08+09:00",
+      "first_published_at": "2026-10-20T17:17:55+09:00",
+      "latest_published_at": "2026-10-20T18:34:44+09:00",
       "articles": [
+        {
+          "title": "UK police rearrest 2 men suspected of assisting Iran over alleged plot at US air base",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/uk-police-rearrest-2-men-suspected-of-assisting-iran-over-alleged-plot-at-us-air-base-101792516337455.html",
+          "published_at": "18:34"
+        },
+        {
+          "title": "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/2-men-rearrested-uk-suspicion-assisting-iran-suspected-137418182",
+          "published_at": "17:54"
+        },
         {
           "title": "UK rearrests duo on suspicion of aiding Iran in alleged plot at US-run airbase",
           "source_name": "SCMP",
@@ -391,31 +351,25 @@
           "published_at": "17:49"
         },
         {
+          "title": "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGVJSnlXYzBBWko0QVp2YkVtWXFxUk5zc3AtUEtGalhoMmh3OEx4SWsySTRuSnZ6NDk2X3RWZnFra0lVWnU5Z2xEM2NHVmlzSUFOOWwxaGVXeDRWMTh3U1RyeWlfMVB0dDdiWEtjR3EzdGRvZUdtblhGNUtiTU5oX05WUFU1WDY5U2o0NkgyZnB3M1ZtMDlDTi10TlpSbkk?oc=5",
+          "published_at": "17:43"
+        },
+        {
           "title": "2 men rearrested for alleged spying for Iran in U.K. air base incident",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/news/raf-fairford-security-incident-arrests-suspected-spying-iran/",
           "published_at": "17:17"
-        },
-        {
-          "title": "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/2-men-rearrested-uk-suspicion-assisting-iran-suspected-137418182",
-          "published_at": "17:16"
-        },
-        {
-          "title": "2 men rearrested in UK on suspicion of assisting Iran over suspected plot at a US-run air base",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGVJSnlXYzBBWko0QVp2YkVtWXFxUk5zc3AtUEtGalhoMmh3OEx4SWsySTRuSnZ6NDk2X3RWZnFra0lVWnU5Z2xEM2NHVmlzSUFOOWwxaGVXeDRWMTh3U1RyeWlfMVB0dDdiWEtjR3EzdGRvZUdtblhGNUtiTU5oX05WUFU1WDY5U2o0NkgyZnB3M1ZtMDlDTi10TlpSbkk?oc=5",
-          "published_at": "16:53"
         }
       ]
     },
     {
-      "id": "world-353",
-      "title": "Ukraine pulls of world's first battlefield drone rescue",
-      "title_en": "Ukraine pulls of world's first battlefield drone rescue",
+      "id": "world-352",
+      "title": "Wounded soldier airlifted from front line by drone in ‘world first’",
+      "title_en": "Wounded soldier airlifted from front line by drone in ‘world first’",
       "title_source": "earliest_pick",
-      "title_url": "https://www.smh.com.au/world/ukraine-pulls-of-worlds-first-battlefield-drone-rescue-20261020-p616zr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "title_url": "https://www.smh.com.au/world/europe/wounded-soldier-airlifted-from-front-line-by-drone-in-world-first-20261020-p61741.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "category": "유럽",
       "primary_source": "Sydney Morning Herald",
       "excerpt": "Ukraine’s 92nd Assault Brigade says it has carried out its first aerial drone evacuation of a wounded soldier, pulling him from a position where mines and Russian drone activity made a conventional re",
@@ -423,17 +377,17 @@
       "excerpt_source": "Euronews",
       "excerpt_url": "https://www.euronews.com/2026/10/20/ukraine-carries-out-first-drone-airlift-of-wounded-soldier-from-front-line",
       "translation_status": "failed",
-      "score": 85,
+      "score": 84,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 64
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
@@ -442,7 +396,7 @@
         "Sydney Morning Herald",
         "The Independent"
       ],
-      "first_published_at": "2026-10-19T23:01:19+09:00",
+      "first_published_at": "2026-10-20T03:21:41+09:00",
       "latest_published_at": "2026-10-20T16:08:32+09:00",
       "articles": [
         {
@@ -468,17 +422,132 @@
           "source_name": "Sydney Morning Herald",
           "url": "https://www.smh.com.au/world/europe/wounded-soldier-airlifted-from-front-line-by-drone-in-world-first-20261020-p61741.html?ref=rss&utm_medium=rss&utm_source=rss_world",
           "published_at": "03:21"
-        },
-        {
-          "title": "Ukraine pulls of world's first battlefield drone rescue",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/ukraine-pulls-of-worlds-first-battlefield-drone-rescue-20261020-p616zr.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "23:01"
         }
       ]
     },
     {
-      "id": "world-8",
+      "id": "world-319",
+      "title": "Australian MP Helen Haines loses leg after car attack, says report; PM Albanese calls incident ‘deliberate’",
+      "title_en": "Australian MP Helen Haines loses leg after car attack, says report; PM Albanese calls incident ‘deliberate’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/australian-mp-helen-haines-loses-leg-after-car-attack-says-report-pm-albanese-calls-incident-deliberate-101792474052137.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Red Cross volunteers trained in psychological first aid are arriving in Wangaratta to support residents still reeling from the attack on their MP Helen Haines.",
+      "excerpt_en": "Red Cross volunteers trained in psychological first aid are arriving in Wangaratta to support residents still reeling from the attack on their MP Helen Haines.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-10-21/helen-haines-wangaratta-red-cross-support-nugent-court/107289576",
+      "translation_status": "failed",
+      "score": 83,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 62
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News Australia",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-20T06:37:04+09:00",
+      "latest_published_at": "2026-10-20T21:47:55+09:00",
+      "articles": [
+        {
+          "title": "Counselling available for Wangaratta residents reeling from Haines attack",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-21/helen-haines-wangaratta-red-cross-support-nugent-court/107289576",
+          "published_at": "21:47"
+        },
+        {
+          "title": "Live: Brendan Nugent to face court over alleged attack on MP Helen Haines",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-21/helen-haines-attack-live-updates/107290276",
+          "published_at": "18:04"
+        },
+        {
+          "title": "Australian MP Helen Haines has leg amputated after ‘attack in which driver reversed to hit her twice’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-anthony-albanese-australia-b3069625.html",
+          "published_at": "18:01"
+        },
+        {
+          "title": "Australian MP Helen Haines loses leg after car attack, says report; PM Albanese calls incident ‘deliberate’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/australian-mp-helen-haines-loses-leg-after-car-attack-says-report-pm-albanese-calls-incident-deliberate-101792474052137.html",
+          "published_at": "06:37"
+        }
+      ]
+    },
+    {
+      "id": "world-17",
+      "title": "'Enough drama': Prince Harry says he wants to reconcile with family after years of rift",
+      "title_en": "'Enough drama': Prince Harry says he wants to reconcile with family after years of rift",
+      "title_source": "earliest_pick",
+      "title_url": "https://timesofindia.indiatimes.com/world/uk/enough-drama-in-the-world-prince-harry-says-he-wants-to-reconcile-with-family-after-years-of-rift/articleshow/135072445.cms",
+      "category": "유럽",
+      "primary_source": "Times of India",
+      "excerpt": "Prince Harry recently opened up about the need for reconciliation with his family, sharing his personal experiences that resonate with many who struggle with familial conflicts. He conveyed his aspira",
+      "excerpt_en": "Prince Harry recently opened up about the need for reconciliation with his family, sharing his personal experiences that resonate with many who struggle with familial conflicts. He conveyed his aspira",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/uk/enough-drama-in-the-world-prince-harry-says-he-wants-to-reconcile-with-family-after-years-of-rift/articleshow/135072445.cms",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Channel News Asia",
+        "Reuters",
+        "Sydney Morning Herald",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-20T15:38:39+09:00",
+      "latest_published_at": "2026-10-20T19:26:42+09:00",
+      "articles": [
+        {
+          "title": "Prince Harry says he wants to reconcile with family",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/prince-harry-says-he-wants-reconcile-family-6476621",
+          "published_at": "19:26"
+        },
+        {
+          "title": "Prince Harry: ‘I want family reconciliation ... but some people don’t’",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/prince-harry-i-want-family-reconciliation-but-some-people-don-t-20261021-p6179h.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "18:28"
+        },
+        {
+          "title": "Prince Harry says he wants to reconcile with family",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd09rVTlScGhTd2JOYXp6QUsyVjhkVF9NMmlOdmszZnFXckZfSGZhdm8yOEh4TS1ORFRXQV9yZlRUc2tqZ2VaM2M0QURVeUNHNnd3bVVxZ1U3MXk1SFBPZGNueXZ6RWVJSmdjYnJRSHR6S1R0bTVxMzNNTDVZYTFIU0t2S1ZHYWtPTm9NenhFaHRSOXJpYmdqWQ?oc=5",
+          "published_at": "16:47"
+        },
+        {
+          "title": "'Enough drama': Prince Harry says he wants to reconcile with family after years of rift",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/uk/enough-drama-in-the-world-prince-harry-says-he-wants-to-reconcile-with-family-after-years-of-rift/articleshow/135072445.cms",
+          "published_at": "15:38"
+        }
+      ]
+    },
+    {
+      "id": "world-21",
       "title": "EU unveils a new Arctic push as global warming and security threats reshape the region",
       "title_en": "EU unveils a new Arctic push as global warming and security threats reshape the region",
       "title_source": "earliest_pick",
@@ -490,14 +559,14 @@
       "excerpt_source": "Channel News Asia",
       "excerpt_url": "https://www.channelnewsasia.com/world/eu-unveils-new-arctic-strategy-in-face-us-russia-threats-6476331",
       "translation_status": "failed",
-      "score": 81,
+      "score": 80,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 60
       },
       "area_value": 4,
       "article_count": 4,
@@ -539,242 +608,115 @@
       ]
     },
     {
-      "id": "world-132",
-      "title": "Alberta rejects move toward independence from Canada",
-      "title_en": "Alberta rejects move toward independence from Canada",
+      "id": "world-245",
+      "title": "Teenager among four killed in Israel strikes and gunfire in Gaza during 'ceasefire'",
+      "title_en": "Teenager among four killed in Israel strikes and gunfire in Gaza during 'ceasefire'",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/video/20261020-alberta-rejects-move-toward-independence-from-canada",
-      "category": "미국",
-      "primary_source": "France24",
-      "excerpt": "Result is a victory for prime minister Mark Carney and supporters of Canadian unity Voters in Canada’s Alberta have overwhelmingly rejected a proposal to begin the process of independence, delivering ",
-      "excerpt_en": "Result is a victory for prime minister Mark Carney and supporters of Canadian unity Voters in Canada’s Alberta have overwhelmingly rejected a proposal to begin the process of independence, delivering ",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+      "title_url": "https://www.independent.co.uk/news/world/middle-east/gaza-israel-attack-khan-younis-b3069848.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "Defense Secretary Pete Hegseth made an unannounced visit to Israel just over a week before Prime Minister Benjamin Netanyahu stands for elections, and as President Trump floats restarting the Iran war",
+      "excerpt_en": "Defense Secretary Pete Hegseth made an unannounced visit to Israel just over a week before Prime Minister Benjamin Netanyahu stands for elections, and as President Trump floats restarting the Iran war",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/",
       "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "France24",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-20T13:51:33+09:00",
-      "latest_published_at": "2026-10-20T16:24:05+09:00",
-      "articles": [
-        {
-          "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
-          "published_at": "16:24"
-        },
-        {
-          "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNam5EME1Qam5lQmc2X3BhcDgzXzdMaWJLa1V2akVCc0c2dnJlZmo4bjZ5NEdXZmMxNHp6d1kxV3hEY2QwbkZraktnS1V5a3ItMUFvZmlxb0daZUppSHdqdjBvdUNrNVNueGo0TlROS21OeGl4OTBwM0RlanJuT2pGZjllNWxHMS0wOVFtRV9DOHA0TzZWbkotTGJXMzJHcjJFOHVFbkhnOUk?oc=5",
-          "published_at": "15:37"
-        },
-        {
-          "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/canadian-broadcasting-corp-projects-alberta-voters-rejected-move-137402888",
-          "published_at": "14:02"
-        },
-        {
-          "title": "Alberta rejects move toward independence from Canada",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261020-alberta-rejects-move-toward-independence-from-canada",
-          "published_at": "13:51"
-        }
-      ]
-    },
-    {
-      "id": "world-192",
-      "title": "Japan launches ambitious robotic mission to Martian moon Phobos",
-      "title_en": "Japan launches ambitious robotic mission to Martian moon Phobos",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/japan-launches-ambitious-robotic-mission-to-land-on-martian-moon-phobos-return-samples-to-earth/",
-      "category": "아시아",
-      "primary_source": "CBS News",
-      "excerpt": "The MMX spacecraft is on its way to Mars' moon Phobos to collect surface samples that could help answer long-standing questions about the formation of the Solar System.",
-      "excerpt_en": "The MMX spacecraft is on its way to Mars' moon Phobos to collect surface samples that could help answer long-standing questions about the formation of the Solar System.",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/japan-probe-sets-course-for-mars-moon/a-79708491?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "CBS News",
-        "DW",
-        "Euronews",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-19T21:42:23+09:00",
-      "latest_published_at": "2026-10-20T09:21:46+09:00",
-      "articles": [
-        {
-          "title": "Japan launches mission to bring back samples from Mars’s moon Phobos",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/video/2026/10/20/japan-launches-mission-to-bring-back-samples-from-marss-moon-phobos",
-          "published_at": "09:21"
-        },
-        {
-          "title": "Japan probe sets course for Mars moon",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/japan-probe-sets-course-for-mars-moon/a-79708491?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "07:16"
-        },
-        {
-          "title": "Japan launches mission first of its kind mission to return samples from Martian moon Phobos",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/japan-launches-mission-first-of-its-kind-mission-to-return-samples-from-martian-moon-phobos-101792472966578.html",
-          "published_at": "07:01"
-        },
-        {
-          "title": "Japan launches ambitious robotic mission to Martian moon Phobos",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/japan-launches-ambitious-robotic-mission-to-land-on-martian-moon-phobos-return-samples-to-earth/",
-          "published_at": "21:42"
-        }
-      ]
-    },
-    {
-      "id": "world-103",
-      "title": "Australian man charged in vehicle attack on MP, who reportedly has leg amputated",
-      "title_en": "Australian man charged in vehicle attack on MP, who reportedly has leg amputated",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/australia-haines-attack-charges-nugent-9.7387976?cmp=rss",
-      "category": "아시아",
-      "primary_source": "CBC",
-      "excerpt": "An Australian federal lawmaker remained in a hospital in a critical but stable condition, with a male driver charged with three offences in what police allege was a targeted attack with a vehicle.",
-      "excerpt_en": "An Australian federal lawmaker remained in a hospital in a critical but stable condition, with a male driver charged with three offences in what police allege was a targeted attack with a vehicle.",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/australia-haines-attack-charges-nugent-9.7387976?cmp=rss",
-      "translation_status": "failed",
-      "score": 76,
+      "score": 77,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "time_score": 3,
+        "raw75": 58
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News",
-        "AP News",
-        "CBC"
+        "CBS News",
+        "New York Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-20T11:39:59+09:00",
-      "latest_published_at": "2026-10-20T13:54:20+09:00",
+      "first_published_at": "2026-10-20T11:25:10+09:00",
+      "latest_published_at": "2026-10-20T20:02:49+09:00",
       "articles": [
         {
-          "title": "Driver charged with intentionally injuring Australian federal lawmaker",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/australian-lawmaker-critical-stable-after-hit-car-prime-137403404",
-          "published_at": "13:54"
+          "title": "Hegseth meets Netanyahu ahead of elections, possible Iran war restart",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/",
+          "published_at": "20:02"
         },
         {
-          "title": "Driver charged with intentionally injuring Australian federal lawmaker",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFFOVnVHa0tBUGhjMHRSUTlkTlQ4clhTSmVkNmpnTXFFRVpsZFprTEplajRtX1hmYmZtVWRLRjdZZXB6ZzVseWtHeG51Q1Rxb21YTUZmOUh3aGpBOGQzYWlpRGhiVXJWZjhwTkJ4STFfbWxZWnRpN0t2a3hxQzNsN0pKMEVsZnBkV085TWNvRkV2VlR2azRaMTB6OTM1ZHlhWGZEYzV3?oc=5",
-          "published_at": "13:46"
+          "title": "Hegseth Said to Make Unannounced Visit to Israel for Talks With Netanyahu",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html",
+          "published_at": "18:01"
         },
         {
-          "title": "Australian man charged in vehicle attack on MP, who reportedly has leg amputated",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/australia-haines-attack-charges-nugent-9.7387976?cmp=rss",
-          "published_at": "11:39"
+          "title": "Teenager among four killed in Israel strikes and gunfire in Gaza during 'ceasefire'",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/gaza-israel-attack-khan-younis-b3069848.html",
+          "published_at": "11:25"
         }
       ]
     },
     {
-      "id": "world-224",
-      "title": "Police lay three charges against Brendan Nugent over Haines attack",
-      "title_en": "Police lay three charges against Brendan Nugent over Haines attack",
+      "id": "world-254",
+      "title": "Voters reject separation of Alberta from Canada in referendum",
+      "title_en": "Voters reject separation of Alberta from Canada in referendum",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-10-20/brendan-nugent-charged-over-attack-against-helen-haines/107288126",
-      "category": "아시아",
-      "primary_source": "ABC News Australia",
-      "excerpt": "Victoria police arrested the 43-year-old Tarrawingee man on Monday afternoon after the incident in Wangaratta Who is Helen Haines, the MP allegedly attacked in Victoria? Brendan Nugent’s family say Ha",
-      "excerpt_en": "Victoria police arrested the 43-year-old Tarrawingee man on Monday afternoon after the incident in Wangaratta Who is Helen Haines, the MP allegedly attacked in Victoria? Brendan Nugent’s family say Ha",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-alleged-attacker-brendan-nugent-charged-ntwnfb",
+      "title_url": "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/",
+      "category": "미국",
+      "primary_source": "CBS News",
+      "excerpt": "Residents of the province were asked if they wished to remain in Canada or to hold another vote on breaking away, in a referendum that was a win for Prime Minister Mark Carney.",
+      "excerpt_en": "Residents of the province were asked if they wished to remain in Canada or to hold another vote on breaking away, in a referendum that was a win for Prime Minister Mark Carney.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/10/19/world/canada/alberta-secession-canada-referendum.html",
       "translation_status": "failed",
-      "score": 75,
+      "score": 77,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 10,
+        "article_score": 18,
+        "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 56
+        "time_score": 3,
+        "raw75": 58
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "The Guardian"
+        "CBS News",
+        "Hindustan Times",
+        "New York Times"
       ],
-      "first_published_at": "2026-10-20T09:00:01+09:00",
-      "latest_published_at": "2026-10-20T10:37:28+09:00",
+      "first_published_at": "2026-10-20T06:11:00+09:00",
+      "latest_published_at": "2026-10-20T20:26:35+09:00",
       "articles": [
         {
-          "title": "Helen Haines loses leg as surgeons fight to save the other after alleged attack in Wangaratta",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-mp-alleged-attack-wangaratta-surgery-ntwnfb",
-          "published_at": "10:37"
+          "title": "Alberta Voters Reject Leaving Canada in Referendum on Separatism",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/19/world/canada/alberta-secession-canada-referendum.html",
+          "published_at": "20:26"
         },
         {
-          "title": "Brendan Nugent’s family say Helen Haines has been their friend for more than 20 years",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/20/brendan-nugent-driver-alleged-attack-helen-haines-ntwnfb",
-          "published_at": "10:37"
+          "title": "Alberta voters reject separation from Canada, back tougher immigration limits",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/alberta-voters-reject-separation-from-canada-back-tougher-immigration-limits-101792485097111.html",
+          "published_at": "08:31"
         },
         {
-          "title": "Brendan Nugent facing three charges over alleged attack on MP Helen Haines",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-alleged-attacker-brendan-nugent-charged-ntwnfb",
-          "published_at": "09:18"
-        },
-        {
-          "title": "Police lay three charges against Brendan Nugent over Haines attack",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-20/brendan-nugent-charged-over-attack-against-helen-haines/107288126",
-          "published_at": "09:00"
+          "title": "Voters reject separation of Alberta from Canada in referendum",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/canada-alberta-referendum-vote-separation-independence/",
+          "published_at": "06:11"
         }
       ]
     },
     {
-      "id": "world-142",
+      "id": "world-134",
       "title": "Targeted curfews, protest bans: France steps up security after worst riots in years; 2,400 arrested",
       "title_en": "Targeted curfews, protest bans: France steps up security after worst riots in years; 2,400 arrested",
       "title_source": "earliest_pick",
@@ -805,13 +747,13 @@
         "Sky News"
       ],
       "first_published_at": "2026-10-20T02:03:32+09:00",
-      "latest_published_at": "2026-10-20T16:06:39+09:00",
+      "latest_published_at": "2026-10-20T21:05:50+09:00",
       "articles": [
         {
           "title": "Suspect arrested after historic town hall set alight - French media",
           "source_name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
-          "published_at": "16:06"
+          "published_at": "21:05"
         },
         {
           "title": "Suspect arrested in France after fire at historic city hall",
@@ -828,7 +770,7 @@
       ]
     },
     {
-      "id": "world-259",
+      "id": "world-253",
       "title": "Gold mine collapse kills at least 6 in southwest Colombia",
       "title_en": "Gold mine collapse kills at least 6 in southwest Colombia",
       "title_source": "earliest_pick",
@@ -882,7 +824,61 @@
       ]
     },
     {
-      "id": "world-182",
+      "id": "world-58",
+      "title": "Wall Street climbs as healthcare stocks hit record, oil prices ease",
+      "title_en": "Wall Street climbs as healthcare stocks hit record, oil prices ease",
+      "title_source": "earliest_pick",
+      "title_url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-climbs-as-healthcare-stocks-hit-record-oil-prices-ease-dow-jones-up-0-97-sp-gains-0-42/articleshow/135073829.cms",
+      "category": "미국",
+      "primary_source": "Times of India",
+      "excerpt": "Wall Street's primary indices saw an uptick, primarily driven by healthcare stocks reaching all-time highs amid falling oil prices. Investors are scrutinizing corporate earnings, with increasing worri",
+      "excerpt_en": "Wall Street's primary indices saw an uptick, primarily driven by healthcare stocks reaching all-time highs amid falling oil prices. Investors are scrutinizing corporate earnings, with increasing worri",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-climbs-as-healthcare-stocks-hit-record-oil-prices-ease-dow-jones-up-0-97-sp-gains-0-42/articleshow/135073829.cms",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-20T16:53:31+09:00",
+      "latest_published_at": "2026-10-20T20:01:09+09:00",
+      "articles": [
+        {
+          "title": "Dow leads Wall Street higher, investors focus on healthcare stocks",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+          "published_at": "20:01"
+        },
+        {
+          "title": "Dow outperforms as Wall Street rises, healthcare stocks lead gains",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/dow-outperforms-wall-street-rises-healthcare-stocks-lead-gains-6476586",
+          "published_at": "18:45"
+        },
+        {
+          "title": "Wall Street climbs as healthcare stocks hit record, oil prices ease",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-climbs-as-healthcare-stocks-hit-record-oil-prices-ease-dow-jones-up-0-97-sp-gains-0-42/articleshow/135073829.cms",
+          "published_at": "16:53"
+        }
+      ]
+    },
+    {
+      "id": "world-173",
       "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
       "title_en": "Drone strike on a market in disputed African region of Abyei kills at least 153",
       "title_source": "earliest_pick",
@@ -894,14 +890,14 @@
       "excerpt_source": "France24",
       "excerpt_url": "https://www.france24.com/en/africa/20261020-more-than-150-killed-sudan-drone-strike-disputed-abyei-border-region",
       "translation_status": "failed",
-      "score": 71,
+      "score": 69,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 53
+        "time_score": 2,
+        "raw75": 52
       },
       "area_value": 3,
       "article_count": 3,
@@ -936,115 +932,7 @@
       ]
     },
     {
-      "id": "world-245",
-      "title": "Actor Christina Applegate reveals she was misdiagnosed with multiple sclerosis",
-      "title_en": "Actor Christina Applegate reveals she was misdiagnosed with multiple sclerosis",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/tv-and-radio/2026/oct/20/christina-applegate-ms-misdiagnosed",
-      "category": "미국",
-      "primary_source": "The Guardian",
-      "excerpt": "The Married … With Children actor says the news is ‘unnerving’ and ‘really confusing’ Sign up for the Breaking News US newsletter email After becoming a prominent advocate for multiple sclerosis aware",
-      "excerpt_en": "The Married … With Children actor says the news is ‘unnerving’ and ‘really confusing’ Sign up for the Breaking News US newsletter email After becoming a prominent advocate for multiple sclerosis aware",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/tv-and-radio/2026/oct/20/christina-applegate-ms-misdiagnosed",
-      "translation_status": "failed",
-      "score": 71,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 53
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Hindustan Times",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-20T13:51:59+09:00",
-      "latest_published_at": "2026-10-20T16:13:26+09:00",
-      "articles": [
-        {
-          "title": "Christina Applegate says her doctor told her she was misdiagnosed with MS",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/christina-applegate-jamielynn-sigler-new-york-california-emmy-b3070123.html",
-          "published_at": "16:13"
-        },
-        {
-          "title": "Christina Applegate opens up about emotional toll of multiple sclerosis misdiagnosis: ‘I’m back at square one’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/christina-applegate-opens-up-about-emotional-toll-of-multiple-sclerosis-misdiagnosis-i-m-back-at-square-one-101792505918278.html",
-          "published_at": "14:40"
-        },
-        {
-          "title": "Actor Christina Applegate reveals she was misdiagnosed with multiple sclerosis",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/oct/20/christina-applegate-ms-misdiagnosed",
-          "published_at": "13:51"
-        }
-      ]
-    },
-    {
-      "id": "world-45",
-      "title": "Google Cloud services largely back up in UK",
-      "title_en": "Google Cloud services largely back up in UK",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/google-cloud-services-largely-back-up-in-uk-6475891",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Google Cloud outage in UK eases after impacting digital banks, public sector websites Reuters",
-      "excerpt_en": "Google Cloud outage in UK eases after impacting digital banks, public sector websites Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS0VTdUFWc1FhZzJaWWZDMkN3dkl0RzdnMU84OHNOS1g0eDdGZ0RNWDVJcVd1MXZzMHU2Unp0QXBXN0tvc3ZZcW1iRlg1Y1h4TFl3Yi1oM2pWRW5KLUNTT0M1NU1YMGdrUjY2MkZTNW82U2FOX0VYRkRVaTlmckJ0ZElGcjJYNzlhSnVCQzA3X0tiVTZ2Z092U2haTQ?oc=5",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-20T13:37:16+09:00",
-      "latest_published_at": "2026-10-20T15:57:00+09:00",
-      "articles": [
-        {
-          "title": "Google Cloud outage hits UK banks",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa19yZHNPSUxKdDBqd2FfTDNXbThvRC1nRWdsLWVzd2htZDhQTE1YT3BPRnFXOEZNdFZKbnJhUlUyZnFldnBIRnhkalRrVmNmazB6U2lEdjNzSGMyMURLYTFYNldpYlBTQk45VWF3UVhlVUpTbHluUHZWVDZxZzczcVRGUjNVX2ludFBOODYySGJHVF9X?oc=5",
-          "published_at": "15:57"
-        },
-        {
-          "title": "Google Cloud outage in UK eases after impacting digital banks, public sector websites",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS0VTdUFWc1FhZzJaWWZDMkN3dkl0RzdnMU84OHNOS1g0eDdGZ0RNWDVJcVd1MXZzMHU2Unp0QXBXN0tvc3ZZcW1iRlg1Y1h4TFl3Yi1oM2pWRW5KLUNTT0M1NU1YMGdrUjY2MkZTNW82U2FOX0VYRkRVaTlmckJ0ZElGcjJYNzlhSnVCQzA3X0tiVTZ2Z092U2haTQ?oc=5",
-          "published_at": "13:59"
-        },
-        {
-          "title": "Google Cloud services largely back up in UK",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/google-cloud-services-largely-back-up-in-uk-6475891",
-          "published_at": "13:37"
-        }
-      ]
-    },
-    {
-      "id": "world-136",
+      "id": "world-128",
       "title": "Oil-rich Alberta votes to remain part of Canada in historic referendum",
       "title_en": "Oil-rich Alberta votes to remain part of Canada in historic referendum",
       "title_source": "earliest_pick",
@@ -1056,14 +944,14 @@
       "excerpt_source": "Bangkok Post",
       "excerpt_url": "https://www.bangkokpost.com/world/3340403/alberta-votes-to-remain-part-of-canada",
       "translation_status": "failed",
-      "score": 69,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
+        "time_score": 2,
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -1098,61 +986,7 @@
       ]
     },
     {
-      "id": "world-184",
-      "title": "EU unveils Arctic strategy to counter increasing Russia, China influence",
-      "title_en": "EU unveils Arctic strategy to counter increasing Russia, China influence",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "The European Commission has presented an updated strategy for the Arctic as climate change and rapidly melting ice open up the remote but resource-rich region. “With Russia and China increasing their ",
-      "excerpt_en": "The European Commission has presented an updated strategy for the Arctic as climate change and rapidly melting ice open up the remote but resource-rich region. “With Russia and China increasing their ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "DW",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-20T13:31:45+09:00",
-      "latest_published_at": "2026-10-20T16:44:00+09:00",
-      "articles": [
-        {
-          "title": "New EU plan for Arctic warily eyes influence of Russia, US",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "16:44"
-        },
-        {
-          "title": "EU reveals new Arctic strategy amid Russia threat and Trump's Greenland interest",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/artic-trump-greenland-russia-nato-b3070073.html",
-          "published_at": "15:32"
-        },
-        {
-          "title": "EU unveils Arctic strategy to counter increasing Russia, China influence",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
-          "published_at": "13:31"
-        }
-      ]
-    },
-    {
-      "id": "world-137",
+      "id": "world-130",
       "title": "North Korea releases photos of Kim Jong Un at exhibition after online claims of his death",
       "title_en": "North Korea releases photos of Kim Jong Un at exhibition after online claims of his death",
       "title_source": "earliest_pick",
@@ -1206,7 +1040,115 @@
       ]
     },
     {
-      "id": "world-193",
+      "id": "world-175",
+      "title": "EU unveils Arctic strategy to counter increasing Russia, China influence",
+      "title_en": "EU unveils Arctic strategy to counter increasing Russia, China influence",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "The European Commission has presented an updated strategy for the Arctic as climate change and rapidly melting ice open up the remote but resource-rich region. “With Russia and China increasing their ",
+      "excerpt_en": "The European Commission has presented an updated strategy for the Arctic as climate change and rapidly melting ice open up the remote but resource-rich region. “With Russia and China increasing their ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "DW",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-20T13:31:45+09:00",
+      "latest_published_at": "2026-10-20T16:44:00+09:00",
+      "articles": [
+        {
+          "title": "New EU plan for Arctic warily eyes influence of Russia, US",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "16:44"
+        },
+        {
+          "title": "EU reveals new Arctic strategy amid Russia threat and Trump's Greenland interest",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/artic-trump-greenland-russia-nato-b3070073.html",
+          "published_at": "15:32"
+        },
+        {
+          "title": "EU unveils Arctic strategy to counter increasing Russia, China influence",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3371549/eu-unveils-arctic-strategy-counter-increasing-russia-china-influence",
+          "published_at": "13:31"
+        }
+      ]
+    },
+    {
+      "id": "world-183",
+      "title": "Japan launches mission first of its kind mission to return samples from Martian moon Phobos",
+      "title_en": "Japan launches mission first of its kind mission to return samples from Martian moon Phobos",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/japan-launches-mission-first-of-its-kind-mission-to-return-samples-from-martian-moon-phobos-101792472966578.html",
+      "category": "아시아",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The MMX spacecraft is on its way to Mars' moon Phobos to collect surface samples that could help answer long-standing questions about the formation of the Solar System.",
+      "excerpt_en": "The MMX spacecraft is on its way to Mars' moon Phobos to collect surface samples that could help answer long-standing questions about the formation of the Solar System.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/japan-probe-sets-course-for-mars-moon/a-79708491?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "DW",
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-20T07:01:50+09:00",
+      "latest_published_at": "2026-10-20T09:21:46+09:00",
+      "articles": [
+        {
+          "title": "Japan launches mission to bring back samples from Mars’s moon Phobos",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/20/japan-launches-mission-to-bring-back-samples-from-marss-moon-phobos",
+          "published_at": "09:21"
+        },
+        {
+          "title": "Japan probe sets course for Mars moon",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/japan-probe-sets-course-for-mars-moon/a-79708491?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "07:16"
+        },
+        {
+          "title": "Japan launches mission first of its kind mission to return samples from Martian moon Phobos",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/japan-launches-mission-first-of-its-kind-mission-to-return-samples-from-martian-moon-phobos-101792472966578.html",
+          "published_at": "07:01"
+        }
+      ]
+    },
+    {
+      "id": "world-184",
       "title": "India news: Rubio holds talks with counterpart Jaishankar",
       "title_en": "India news: Rubio holds talks with counterpart Jaishankar",
       "title_source": "earliest_pick",
@@ -1260,212 +1202,117 @@
       ]
     },
     {
-      "id": "world-207",
-      "title": "Ukraine, US hold Norway talks amid rising Zelensky, Trump tension",
-      "title_en": "Ukraine, US hold Norway talks amid rising Zelensky, Trump tension",
+      "id": "world-5",
+      "title": "Stephen Hubbard: Why a 74-year-old retired schoolteacher from the US remains in Russian detention",
+      "title_en": "Stephen Hubbard: Why a 74-year-old retired schoolteacher from the US remains in Russian detention",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-stephen-hubbard-putin-russia-b3069919.html",
       "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Ukrainian President Volodymyr Zelensky arrived in Oslo on Tuesday for talks with top US envoys in a bid to get strained relations with Washington “on a more constructive path”, the Norwegian governmen",
-      "excerpt_en": "Ukrainian President Volodymyr Zelensky arrived in Oslo on Tuesday for talks with top US envoys in a bid to get strained relations with Washington “on a more constructive path”, the Norwegian governmen",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
+      "primary_source": "The Independent",
+      "excerpt": "Pensioner Stephen Hubbard was put in Russian custody in 2022, following the full-scale invasion of Ukraine",
+      "excerpt_en": "Pensioner Stephen Hubbard was put in Russian custody in 2022, following the full-scale invasion of Ukraine",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-stephen-hubbard-putin-russia-b3069919.html",
       "translation_status": "failed",
-      "score": 68,
+      "score": 65,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 49
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-20T13:14:43+09:00",
+      "latest_published_at": "2026-10-20T19:31:27+09:00",
+      "articles": [
+        {
+          "title": "Trump says he asked Putin to release American Stephen Hubbard",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGhyM09wZ1l5S3NNU1JXanVibmYwN0h2S3hCNUltdDR6ZTk1T2FfdUlhd0dpOE05ZTZsNXA3eDJWTkVyRDNxc3Y0SWV1Wk1FMXMwVVVCd3FjaG1fMXplc2RVS3RKRE5EQTBQUjRocUZ1SVppRFN4c1dRY2VvN3kyQUNSeTQtdEFKTTROVjVDZlA?oc=5",
+          "published_at": "19:31"
+        },
+        {
+          "title": "Stephen Hubbard: Why a 74-year-old retired schoolteacher from the US remains in Russian detention",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-stephen-hubbard-putin-russia-b3069919.html",
+          "published_at": "13:14"
+        }
+      ]
+    },
+    {
+      "id": "world-433",
+      "title": "‘No warning before missile strikes’: Zelensky as Ukraine suspects US blocking intel on Russian attacks",
+      "title_en": "‘No warning before missile strikes’: Zelensky as Ukraine suspects US blocking intel on Russian attacks",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/zelensky-ukraine-receives-no-us-warning-before-missile-strikes-kyiv-suspects-america-blocking-intelligence-on-russian-attacks-trump-putin-101792472735099.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Sunday's attack was reportedly the third strike in the same week in which Ukraine was left without the advance warning it receives from the US intelligence.",
+      "excerpt_en": "Sunday's attack was reportedly the third strike in the same week in which Ukraine was left without the advance warning it receives from the US intelligence.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/zelensky-ukraine-receives-no-us-warning-before-missile-strikes-kyiv-suspects-america-blocking-intelligence-on-russian-attacks-trump-putin-101792472735099.html",
+      "translation_status": "failed",
+      "score": 64,
       "score_breakdown": {
         "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 48
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "France24",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-20T09:44:50+09:00",
-      "latest_published_at": "2026-10-20T14:11:29+09:00",
-      "articles": [
-        {
-          "title": "Ukraine ‘losing people and time’, Zelensky says after Oslo talks",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup",
-          "published_at": "14:11"
-        },
-        {
-          "title": "Zelensky and US envoys seek to repair frayed ties",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3340400/zelensky-and-us-envoys-seek-to-repair-frayed-ties",
-          "published_at": "10:45"
-        },
-        {
-          "title": "Ukraine, US hold Norway talks amid rising Zelensky, Trump tension",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
-          "published_at": "09:44"
-        }
-      ]
-    },
-    {
-      "id": "world-36",
-      "title": "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
-      "title_en": "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQak1BT19QRzNXZGRDeDRJODJMVWxmblZ2NWY5OVVXSXhqbW9MMWVlbkVYMHVTaTNLa0NlVURxTUllb050MXZaMUVIdlpQQTFBU2dTeE9Xdl9lNk9aNkxCYkFUek5hR2RqTWctSTkyT0FneHBFbkZ4Y0g0akxMcU53RFFldTUtY2o4RDk4R1dYa1c0ZGVUTkdqQ3RCNmUzN3IzWjR5WHBHVTZPNHRvODZ3eEc3MkRTYjFnRTkwWGN1MHFsbGZK?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Germany's far-right AfD has launched an inquiry after the release of thousands of emails following a cyberattack. Also, investors pledged billions for Germany at a major summit in Berlin. DW has more ",
-      "excerpt_en": "Germany's far-right AfD has launched an inquiry after the release of thousands of emails following a cyberattack. Also, investors pledged billions for Germany at a major summit in Berlin. DW has more ",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/germany-news-hackers-release-afd-party-emails/live-79709090?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "DW",
-        "Reuters"
+        "Channel News Asia",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-10-20T10:26:09+09:00",
-      "latest_published_at": "2026-10-20T15:41:00+09:00",
+      "first_published_at": "2026-10-20T06:23:08+09:00",
+      "latest_published_at": "2026-10-20T21:06:35+09:00",
       "articles": [
         {
-          "title": "Germany news: Hackers release AfD party emails",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/germany-news-hackers-release-afd-party-emails/live-79709090?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "15:41"
+          "title": "Zelenskyy hails resumption of US advance warning of strikes on Ukraine",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/zelenskyy-hails-resumption-us-advance-warning-strikes-ukraine-6476751",
+          "published_at": "21:06"
         },
         {
-          "title": "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQak1BT19QRzNXZGRDeDRJODJMVWxmblZ2NWY5OVVXSXhqbW9MMWVlbkVYMHVTaTNLa0NlVURxTUllb050MXZaMUVIdlpQQTFBU2dTeE9Xdl9lNk9aNkxCYkFUek5hR2RqTWctSTkyT0FneHBFbkZ4Y0g0akxMcU53RFFldTUtY2o4RDk4R1dYa1c0ZGVUTkdqQ3RCNmUzN3IzWjR5WHBHVTZPNHRvODZ3eEc3MkRTYjFnRTkwWGN1MHFsbGZK?oc=5",
-          "published_at": "10:26"
+          "title": "Zelensky hails resumption of US advance warning of strikes on Ukraine",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/zelensky-hails-resumption-of-us-advance-warning-of-strikes-on-ukraine-101792523964828.html",
+          "published_at": "19:19"
+        },
+        {
+          "title": "‘No warning before missile strikes’: Zelensky as Ukraine suspects US blocking intel on Russian attacks",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/zelensky-ukraine-receives-no-us-warning-before-missile-strikes-kyiv-suspects-america-blocking-intelligence-on-russian-attacks-trump-putin-101792472735099.html",
+          "published_at": "06:23"
         }
       ]
     },
     {
-      "id": "world-85",
-      "title": "Islamic State-linked militants kill at least 48 civilians in eastern Mali, sources say",
-      "title_en": "Islamic State-linked militants kill at least 48 civilians in eastern Mali, sources say",
+      "id": "world-191",
+      "title": "Meta tells Brazil court it treats Lula and Bolsonaro campaigns equally",
+      "title_en": "Meta tells Brazil court it treats Lula and Bolsonaro campaigns equally",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZHhPUHpxZmo0TkdvbjFER1VIR0xqUXlDUzQtTDJMeTJmODBJUFNKaFg2LUg2dWJNMS15a24wVHhZNnlaaGxlelJtLWE5Ymt2elMzZmNFNzl2ME15TG00NFVPbDJrOU5LUWUyTXhqMEdfNDl6OGIxa3FPejZ2b25Wd1hnQmVrdGV0TUtGam1sVThKUmtlVkZXQTUtVS00YmFlZnRVUzhXQUxsc0lpNlk0SFNad2ZFcGVMdGI3Y09pOC05M1B2YkdZ?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Militants affiliated with the Islamic State group have killed 48 people in Mali's Ménaka region",
-      "excerpt_en": "Militants affiliated with the Islamic State group have killed 48 people in Mali's Ménaka region",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/attack-islamic-state-affiliated-group-mali-kills-48-137413904",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-20T11:14:39+09:00",
-      "latest_published_at": "2026-10-20T16:00:20+09:00",
-      "articles": [
-        {
-          "title": "Attack by Islamic State-affiliated group in Mali kills 48 people, official says",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/attack-islamic-state-affiliated-group-mali-kills-48-137413904",
-          "published_at": "16:00"
-        },
-        {
-          "title": "Islamic State-linked militants kill at least 48 civilians in eastern Mali, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZHhPUHpxZmo0TkdvbjFER1VIR0xqUXlDUzQtTDJMeTJmODBJUFNKaFg2LUg2dWJNMS15a24wVHhZNnlaaGxlelJtLWE5Ymt2elMzZmNFNzl2ME15TG00NFVPbDJrOU5LUWUyTXhqMEdfNDl6OGIxa3FPejZ2b25Wd1hnQmVrdGV0TUtGam1sVThKUmtlVkZXQTUtVS00YmFlZnRVUzhXQUxsc0lpNlk0SFNad2ZFcGVMdGI3Y09pOC05M1B2YkdZ?oc=5",
-          "published_at": "11:14"
-        }
-      ]
-    },
-    {
-      "id": "world-237",
-      "title": "Brand assaulted woman at radio station in 'frenzied' attack, court told",
-      "title_en": "Brand assaulted woman at radio station in 'frenzied' attack, court told",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-10-21/russell-brand-trial-hears-more-evidence-in-week-two/107290296",
-      "category": "유럽",
-      "primary_source": "ABC News Australia",
-      "excerpt": "Woman says alleged assault at comedian’s London home after gig was one of most painful experiences of her life A woman has said she “couldn’t speak or breathe” when Russell Brand raped her at his Lond",
-      "excerpt_en": "Woman says alleged assault at comedian’s London home after gig was one of most painful experiences of her life A woman has said she “couldn’t speak or breathe” when Russell Brand raped her at his Lond",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/20/russell-brand-told-woman-to-clear-up-mess-after-alleged-rape-court-hears",
-      "translation_status": "failed",
-      "score": 63,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-20T16:41:42+09:00",
-      "latest_published_at": "2026-10-20T18:22:25+09:00",
-      "articles": [
-        {
-          "title": "Russell Brand told woman to ‘clear up the mess you’ve made’ after alleged rape, court hears",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/20/russell-brand-told-woman-to-clear-up-mess-after-alleged-rape-court-hears",
-          "published_at": "18:22"
-        },
-        {
-          "title": "Brand assaulted woman at radio station in 'frenzied' attack, court told",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-21/russell-brand-trial-hears-more-evidence-in-week-two/107290296",
-          "published_at": "16:41"
-        }
-      ]
-    },
-    {
-      "id": "world-420",
-      "title": "'Enough drama': Prince Harry says he wants to reconcile with family after years of rift",
-      "title_en": "'Enough drama': Prince Harry says he wants to reconcile with family after years of rift",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/uk/enough-drama-in-the-world-prince-harry-says-he-wants-to-reconcile-with-family-after-years-of-rift/articleshow/135072445.cms",
-      "category": "유럽",
-      "primary_source": "Times of India",
-      "excerpt": "Prince Harry recently opened up about the need for reconciliation with his family, sharing his personal experiences that resonate with many who struggle with familial conflicts. He conveyed his aspira",
-      "excerpt_en": "Prince Harry recently opened up about the need for reconciliation with his family, sharing his personal experiences that resonate with many who struggle with familial conflicts. He conveyed his aspira",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/uk/enough-drama-in-the-world-prince-harry-says-he-wants-to-reconcile-with-family-after-years-of-rift/articleshow/135072445.cms",
+      "title_url": "https://www.channelnewsasia.com/business/meta-tells-brazil-court-it-treats-lula-and-bolsonaro-campaigns-equally-6476426",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "President Luiz Inácio Lula da Silva’s campaign is preparing to request the annulment of right-wing rival Flavio Bolsonaro's candidacy over alleged social media interference from US tech giant Meta as ",
+      "excerpt_en": "President Luiz Inácio Lula da Silva’s campaign is preparing to request the annulment of right-wing rival Flavio Bolsonaro's candidacy over alleged social media interference from US tech giant Meta as ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference",
       "translation_status": "failed",
       "score": 63,
       "score_breakdown": {
@@ -1481,35 +1328,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News Australia",
-        "Sydney Morning Herald",
-        "Times of India"
+        "ABC News",
+        "Channel News Asia",
+        "France24"
       ],
-      "first_published_at": "2026-10-20T15:38:39+09:00",
-      "latest_published_at": "2026-10-20T18:28:44+09:00",
+      "first_published_at": "2026-10-20T17:32:12+09:00",
+      "latest_published_at": "2026-10-20T20:59:51+09:00",
       "articles": [
         {
-          "title": "Prince Harry: ‘I want family reconciliation ... but some people don’t’",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/prince-harry-i-want-family-reconciliation-but-some-people-don-t-20261021-p6179h.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "18:28"
+          "title": "Lula's campaign seeks to disqualify Bolsonoro from Brazil presidential vote over Meta 'interference'",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference",
+          "published_at": "20:59"
         },
         {
-          "title": "Prince Harry expresses hope of reconciling with family",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-21/prince-harry-wants-to-reconcile-with-family/107290562",
-          "published_at": "16:21"
+          "title": "Meta tells Brazil's electoral court it treats Lula and Flávio Bolsonaro equally ahead of Sunday vote",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/meta-tells-brazils-electoral-court-treats-lula-flvio-137424225",
+          "published_at": "20:43"
         },
         {
-          "title": "'Enough drama': Prince Harry says he wants to reconcile with family after years of rift",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/uk/enough-drama-in-the-world-prince-harry-says-he-wants-to-reconcile-with-family-after-years-of-rift/articleshow/135072445.cms",
-          "published_at": "15:38"
+          "title": "Meta tells Brazil court it treats Lula and Bolsonaro campaigns equally",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/meta-tells-brazil-court-it-treats-lula-and-bolsonaro-campaigns-equally-6476426",
+          "published_at": "17:32"
         }
       ]
     },
     {
-      "id": "world-18",
+      "id": "world-37",
       "title": "Death toll in Houthi attack on Yemeni government forces rises to 73: governor",
       "title_en": "Death toll in Houthi attack on Yemeni government forces rises to 73: governor",
       "title_source": "earliest_pick",
@@ -1556,7 +1403,54 @@
       ]
     },
     {
-      "id": "world-269",
+      "id": "world-55",
+      "title": "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
+      "title_en": "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQak1BT19QRzNXZGRDeDRJODJMVWxmblZ2NWY5OVVXSXhqbW9MMWVlbkVYMHVTaTNLa0NlVURxTUllb050MXZaMUVIdlpQQTFBU2dTeE9Xdl9lNk9aNkxCYkFUek5hR2RqTWctSTkyT0FneHBFbkZ4Y0g0akxMcU53RFFldTUtY2o4RDk4R1dYa1c0ZGVUTkdqQ3RCNmUzN3IzWjR5WHBHVTZPNHRvODZ3eEc3MkRTYjFnRTkwWGN1MHFsbGZK?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Germany's far-right AfD has launched an inquiry after the release of thousands of emails following a cyberattack. Also, investors pledged billions for Germany at a major summit in Berlin. DW has more ",
+      "excerpt_en": "Germany's far-right AfD has launched an inquiry after the release of thousands of emails following a cyberattack. Also, investors pledged billions for Germany at a major summit in Berlin. DW has more ",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/germany-news-hackers-release-afd-party-emails/live-79709090?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "DW",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-20T10:26:09+09:00",
+      "latest_published_at": "2026-10-20T15:41:00+09:00",
+      "articles": [
+        {
+          "title": "Germany news: Hackers release AfD party emails",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/germany-news-hackers-release-afd-party-emails/live-79709090?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "15:41"
+        },
+        {
+          "title": "Germany's far-right AfD investigates publication of emails stolen in cyberattack",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQak1BT19QRzNXZGRDeDRJODJMVWxmblZ2NWY5OVVXSXhqbW9MMWVlbkVYMHVTaTNLa0NlVURxTUllb050MXZaMUVIdlpQQTFBU2dTeE9Xdl9lNk9aNkxCYkFUek5hR2RqTWctSTkyT0FneHBFbkZ4Y0g0akxMcU53RFFldTUtY2o4RDk4R1dYa1c0ZGVUTkdqQ3RCNmUzN3IzWjR5WHBHVTZPNHRvODZ3eEc3MkRTYjFnRTkwWGN1MHFsbGZK?oc=5",
+          "published_at": "10:26"
+        }
+      ]
+    },
+    {
+      "id": "world-259",
       "title": "Four soldiers from UN-backed force missing after gang attack in Haiti",
       "title_en": "Four soldiers from UN-backed force missing after gang attack in Haiti",
       "title_source": "earliest_pick",
@@ -1603,158 +1497,164 @@
       ]
     },
     {
-      "id": "world-3",
-      "title": "Kenya confirms new Ebola case, total at nine, health ministry says",
-      "title_en": "Kenya confirms new Ebola case, total at nine, health ministry says",
+      "id": "world-283",
+      "title": "Ukraine getting early warnings about Russian missiles again, ‘grateful’ Zelensky says",
+      "title_en": "Ukraine getting early warnings about Russian missiles again, ‘grateful’ Zelensky says",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQkFibW94Q3BMMDZuM1ZwaWFsTndxRUZ1V3VFd1NIdzdZUk15T2phOExKLVpMeHhfaTlrY3hjbWJQWmo2OHlGUDl4aXZVY3otVU5NdFI4VTU0SUJTVzRPOHNyVzlvd2tIa19kYlVsOENjMXdaNXVPdUEzZ1RTTXlkT28wMTQ4RTd2MHR2RHhnb3ktbWhvMThYRnhyMUIwTE9aNElJTmQ3VlltWWpmSlRGbkJBekZyekhtRGZKYXZCbldrNWlXWThBQU81Q3RZQQ?oc=5",
-      "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Kenya confirms new Ebola case, total at nine, health ministry says Reuters",
-      "excerpt_en": "Kenya confirms new Ebola case, total at nine, health ministry says Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQkFibW94Q3BMMDZuM1ZwaWFsTndxRUZ1V3VFd1NIdzdZUk15T2phOExKLVpMeHhfaTlrY3hjbWJQWmo2OHlGUDl4aXZVY3otVU5NdFI4VTU0SUJTVzRPOHNyVzlvd2tIa19kYlVsOENjMXdaNXVPdUEzZ1RTTXlkT28wMTQ4RTd2MHR2RHhnb3ktbWhvMThYRnhyMUIwTE9aNElJTmQ3VlltWWpmSlRGbkJBekZyekhtRGZKYXZCbldrNWlXWThBQU81Q3RZQQ?oc=5",
-      "translation_status": "failed",
-      "score": 59,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-20T15:41:55+09:00",
-      "latest_published_at": "2026-10-20T18:16:26+09:00",
-      "articles": [
-        {
-          "title": "Nigeria confirms Ebola case in Abuja as woman who arrived from Uganda tests positive",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/nigeria-confirms-ebola-case-abuja-woman-arrived-uganda-137420211",
-          "published_at": "18:16"
-        },
-        {
-          "title": "Kenya confirms new Ebola case, total at nine, health ministry says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQkFibW94Q3BMMDZuM1ZwaWFsTndxRUZ1V3VFd1NIdzdZUk15T2phOExKLVpMeHhfaTlrY3hjbWJQWmo2OHlGUDl4aXZVY3otVU5NdFI4VTU0SUJTVzRPOHNyVzlvd2tIa19kYlVsOENjMXdaNXVPdUEzZ1RTTXlkT28wMTQ4RTd2MHR2RHhnb3ktbWhvMThYRnhyMUIwTE9aNElJTmQ3VlltWWpmSlRGbkJBekZyekhtRGZKYXZCbldrNWlXWThBQU81Q3RZQQ?oc=5",
-          "published_at": "15:41"
-        }
-      ]
-    },
-    {
-      "id": "world-104",
-      "title": "Leader of Kenyan doomsday cult that left more than 400 followers dead convicted of 191 murders",
-      "title_en": "Leader of Kenyan doomsday cult that left more than 400 followers dead convicted of 191 murders",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPak9NUElxak01SC1xVzFnSlNLdTkxaEFsajl0NWE2QVE0b3BXT0VCdS1xTjE1Nzhfa0t1YzZMcTd6V1FfcDRLNlNyY0wwcVRMcjRaN3dvbVM2aTNwZDZZanduYm5XOUlHT0ZiOHRrN25ZMm05eUV0cTNTOHV4YVpJdnFadzVqU3M0NkVLa2VSNXNXTjg?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "Leader of Kenyan doomsday cult that left more than 400 followers dead convicted of 191 murders AP News",
-      "excerpt_en": "Leader of Kenyan doomsday cult that left more than 400 followers dead convicted of 191 murders AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPak9NUElxak01SC1xVzFnSlNLdTkxaEFsajl0NWE2QVE0b3BXT0VCdS1xTjE1Nzhfa0t1YzZMcTd6V1FfcDRLNlNyY0wwcVRMcjRaN3dvbVM2aTNwZDZZanduYm5XOUlHT0ZiOHRrN25ZMm05eUV0cTNTOHV4YVpJdnFadzVqU3M0NkVLa2VSNXNXTjg?oc=5",
-      "translation_status": "failed",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-10-20T02:54:00+09:00",
-      "latest_published_at": "2026-10-20T03:54:22+09:00",
-      "articles": [
-        {
-          "title": "Leader of Kenyan doomsday cult that left more than 400 dead convicted of 191 murders",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/leader-kenyan-doomsday-cult-left-400-followers-dead-137390840",
-          "published_at": "03:54"
-        },
-        {
-          "title": "Leader of Kenyan doomsday cult that left more than 400 followers dead convicted of 191 murders",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPak9NUElxak01SC1xVzFnSlNLdTkxaEFsajl0NWE2QVE0b3BXT0VCdS1xTjE1Nzhfa0t1YzZMcTd6V1FfcDRLNlNyY0wwcVRMcjRaN3dvbVM2aTNwZDZZanduYm5XOUlHT0ZiOHRrN25ZMm05eUV0cTNTOHV4YVpJdnFadzVqU3M0NkVLa2VSNXNXTjg?oc=5",
-          "published_at": "02:54"
-        }
-      ]
-    },
-    {
-      "id": "world-12",
-      "title": "Eastern Libya parliament approves 2019 maritime deal with Turkiye",
-      "title_en": "Eastern Libya parliament approves 2019 maritime deal with Turkiye",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/10/20/eastern-libya-parliament-approves-maritime-deal-with-turkey-lifts-2020-boy?traffic_source=rss",
+      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
       "category": "유럽",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection Reuters",
-      "excerpt_en": "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSDNpNHR3ZzZNNnVsTXE1c1N1RDVPdHFvRjBrRWJiQTltVlRmNlM3VzdkX1dEZmNhcW5rRFI4QzJvUjJXdU9XVWlVQklGLUV4LWc2S2VGczdPanlEb09Vb1hJakM5Z2pfRl9YOVZqNGtmVDFveXZscGhaLXpoRlF5WEUwLWVWSGwzU3JvSmJXb3djX3R6dmRfaGRKclNtRDQ4Smd2TUQ0eG43WEQzZXo1SmNRTmFkdE1JYnNoeGFwMXNlLTlrNGc?oc=5",
+      "primary_source": "SCMP",
+      "excerpt": "Ukrainian President Volodymyr Zelensky said on Tuesday that Kyiv is once again receiving early warnings from its partners following recent Russian missile attacks that occurred without enough notice. ",
+      "excerpt_en": "Ukrainian President Volodymyr Zelensky said on Tuesday that Kyiv is once again receiving early warnings from its partners following recent Russian missile attacks that occurred without enough notice. ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
       "translation_status": "failed",
-      "score": 55,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-20T09:44:50+09:00",
+      "latest_published_at": "2026-10-20T12:07:03+09:00",
+      "articles": [
+        {
+          "title": "Zelenskyy says Ukraine again receiving early warning intel after call with U.S. Secretary of State",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/ukraine-russia-war-zelenskyy-rubio-9.7387989?cmp=rss",
+          "published_at": "12:07"
+        },
+        {
+          "title": "Ukraine getting early warnings about Russian missiles again, ‘grateful’ Zelensky says",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
+          "published_at": "09:44"
+        }
+      ]
+    },
+    {
+      "id": "world-232",
+      "title": "Kyle Kennedy dies at 42: All we know about RFK granddaughter's paralysis from spinal cord injury",
+      "title_en": "Kyle Kennedy dies at 42: All we know about RFK granddaughter's paralysis from spinal cord injury",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/kyle-kennedy-dies-at-42-all-we-know-about-rfk-granddaughters-paralysis-from-spinal-cord-injury-101792511647425.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Kennedy taught in New York public schools and advocated for disability rights after suffering severe spinal cord injury Kyle Kennedy, the granddaughter of Robert F Kennedy and Ethel Kennedy, has died ",
+      "excerpt_en": "Kennedy taught in New York public schools and advocated for disability rights after suffering severe spinal cord injury Kyle Kennedy, the granddaughter of Robert F Kennedy and Ethel Kennedy, has died ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/us-news/2026/oct/20/kyle-kennedy-dead-rfk",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 10,
         "breaking_score": 1,
         "time_score": 3,
-        "raw75": 41
+        "raw75": 42
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-20T15:59:22+09:00",
+      "latest_published_at": "2026-10-20T20:55:01+09:00",
+      "articles": [
+        {
+          "title": "Kyle Kennedy, granddaughter of Robert F Kennedy, dies aged 42",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/20/kyle-kennedy-dead-rfk",
+          "published_at": "20:55"
+        },
+        {
+          "title": "Kyle Kennedy and Liam Kerr's one of two twin kids died days after birth: All you need to know about their 3 children",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/kyle-kennedy-and-liam-kerrs-one-of-two-twins-died-days-after-birth-all-you-need-to-know-about-their-3-kids-101792512914705.html",
+          "published_at": "16:33"
+        },
+        {
+          "title": "Kyle Kennedy dies at 42: All we know about RFK granddaughter's paralysis from spinal cord injury",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/kyle-kennedy-dies-at-42-all-we-know-about-rfk-granddaughters-paralysis-from-spinal-cord-injury-101792511647425.html",
+          "published_at": "15:59"
+        }
+      ]
+    },
+    {
+      "id": "world-308",
+      "title": "Woman claiming to be Amy Acton's mother urges Ohio voters to reject her: ‘She’s lied her entire life’",
+      "title_en": "Woman claiming to be Amy Acton's mother urges Ohio voters to reject her: ‘She’s lied her entire life’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/woman-claiming-to-be-amy-actons-mother-urges-ohio-voters-to-reject-her-she-s-lied-her-entire-life-101792501541113.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A widely shared video shows a woman identifying herself as Donna Arthur, Acton’s mother, accusing the Democratic gubernatorial nominee of lying about her past.",
+      "excerpt_en": "A widely shared video shows a woman identifying herself as Donna Arthur, Acton’s mother, accusing the Democratic gubernatorial nominee of lying about her past.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/woman-claiming-to-be-amy-actons-mother-urges-ohio-voters-to-reject-her-she-s-lied-her-entire-life-101792501541113.html",
+      "translation_status": "failed",
+      "score": 56,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 42
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
-        "Reuters"
+        "Hindustan Times",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-20T15:19:17+09:00",
-      "latest_published_at": "2026-10-20T17:05:58+09:00",
+      "first_published_at": "2026-10-20T13:46:01+09:00",
+      "latest_published_at": "2026-10-20T19:54:37+09:00",
       "articles": [
         {
-          "title": "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSDNpNHR3ZzZNNnVsTXE1c1N1RDVPdHFvRjBrRWJiQTltVlRmNlM3VzdkX1dEZmNhcW5rRFI4QzJvUjJXdU9XVWlVQklGLUV4LWc2S2VGczdPanlEb09Vb1hJakM5Z2pfRl9YOVZqNGtmVDFveXZscGhaLXpoRlF5WEUwLWVWSGwzU3JvSmJXb3djX3R6dmRfaGRKclNtRDQ4Smd2TUQ0eG43WEQzZXo1SmNRTmFkdE1JYnNoeGFwMXNlLTlrNGc?oc=5",
-          "published_at": "17:05"
+          "title": "Ad for Trump-backed Ramaswamy features opponent’s ‘abusive’ mom. The internet is furious",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/amy-acton-mom-ohio-vivek-ramaswamy-ad-b3070231.html",
+          "published_at": "19:54"
         },
         {
-          "title": "Eastern Libya parliament approves 2019 maritime deal with Turkiye",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/20/eastern-libya-parliament-approves-maritime-deal-with-turkey-lifts-2020-boy?traffic_source=rss",
-          "published_at": "15:19"
+          "title": "Woman claiming to be Amy Acton's mother urges Ohio voters to reject her: ‘She’s lied her entire life’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/woman-claiming-to-be-amy-actons-mother-urges-ohio-voters-to-reject-her-she-s-lied-her-entire-life-101792501541113.html",
+          "published_at": "13:46"
         }
       ]
     },
     {
-      "id": "world-14",
-      "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
-      "title_en": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+      "id": "world-1",
+      "title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
+      "title_en": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/salesforce-deepens-ai-bets-566-billion-braze-deal-6475576",
+      "title_url": "https://www.channelnewsasia.com/business/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-6476721",
       "category": "기타",
       "primary_source": "Channel News Asia",
-      "excerpt": "Salesforce deepens AI bets with $5.66 billion Braze deal Reuters",
-      "excerpt_en": "Salesforce deepens AI bets with $5.66 billion Braze deal Reuters",
+      "excerpt": "SpaceX quarterly revenue jumps, beats estimates as AI business surges Reuters",
+      "excerpt_en": "SpaceX quarterly revenue jumps, beats estimates as AI business surges Reuters",
       "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUVE0QXkyR1NSaXY3LTNJTE9uQmY1bXhaV19YNzFMejJRZEhFeDJwd1VCdWg3ZjFFM29VYUNkMWRkSVlsMzlpcmZrdzFudjM0MS02dVJOVGFJZW94cFpHSU9JeGNtSHZtbFQzX3VsaWVTYXFIdzIxbmdhbUVncWRZbFc0T25aUDRMVGwzT01LNA?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1773,35 +1673,129 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-10-20T12:09:15+09:00",
-      "latest_published_at": "2026-10-20T18:16:00+09:00",
+      "first_published_at": "2026-10-20T20:08:59+09:00",
+      "latest_published_at": "2026-10-20T21:39:23+09:00",
       "articles": [
         {
-          "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+          "title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUVE0QXkyR1NSaXY3LTNJTE9uQmY1bXhaV19YNzFMejJRZEhFeDJwd1VCdWg3ZjFFM29VYUNkMWRkSVlsMzlpcmZrdzFudjM0MS02dVJOVGFJZW94cFpHSU9JeGNtSHZtbFQzX3VsaWVTYXFIdzIxbmdhbUVncWRZbFc0T25aUDRMVGwzT01LNA?oc=5",
-          "published_at": "18:16"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
+          "published_at": "21:39"
         },
         {
-          "title": "Salesforce deepens AI bets with $5.66 billion Braze deal",
+          "title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/salesforce-deepens-ai-bets-566-billion-braze-deal-6475576",
-          "published_at": "12:09"
+          "url": "https://www.channelnewsasia.com/business/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-6476721",
+          "published_at": "20:08"
         }
       ]
     },
     {
-      "id": "world-40",
-      "title": "Wall Street gains ground on healthcare stocks rally, oil retreat",
-      "title_en": "Wall Street gains ground on healthcare stocks rally, oil retreat",
+      "id": "world-2",
+      "title": "Netflix issues weak fourth-quarter forecast, shares drop",
+      "title_en": "Netflix issues weak fourth-quarter forecast, shares drop",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+      "title_url": "https://www.channelnewsasia.com/business/netflix-issues-weak-fourth-quarter-forecast-shares-drop-6476696",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Netflix issues weak fourth-quarter forecast, shares drop Reuters",
+      "excerpt_en": "Netflix issues weak fourth-quarter forecast, shares drop Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQmJuWl84Zk9TanlERndybWRsaTVoaF95bUgzbldjVzJKNzcwZEFEUFh4Z0xVa2o0aGFSSEVJT3d2WENIeURzMWV3VUFTY2NxRWF2WHBjTVRjZURraFVHMkZ6M0pkOXJOb01FYW5OWTdkcmM3WkVFcXR5UC1QbDVqOFRIYWpsc1VxaUdhMENKa0I1S1ZWSk1BZ3BrYmRYVVQ5Q1FpRHBlY1NZbndHMVZnYjBfRnQ3cGktWkcwZ28tVDVQSFNqR1dZaFJGSTJ0b0U?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-20T20:02:32+09:00",
+      "latest_published_at": "2026-10-20T21:16:19+09:00",
+      "articles": [
+        {
+          "title": "Netflix issues weak fourth-quarter forecast, shares drop",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQmJuWl84Zk9TanlERndybWRsaTVoaF95bUgzbldjVzJKNzcwZEFEUFh4Z0xVa2o0aGFSSEVJT3d2WENIeURzMWV3VUFTY2NxRWF2WHBjTVRjZURraFVHMkZ6M0pkOXJOb01FYW5OWTdkcmM3WkVFcXR5UC1QbDVqOFRIYWpsc1VxaUdhMENKa0I1S1ZWSk1BZ3BrYmRYVVQ5Q1FpRHBlY1NZbndHMVZnYjBfRnQ3cGktWkcwZ28tVDVQSFNqR1dZaFJGSTJ0b0U?oc=5",
+          "published_at": "21:16"
+        },
+        {
+          "title": "Netflix issues weak fourth-quarter forecast, shares drop",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/netflix-issues-weak-fourth-quarter-forecast-shares-drop-6476696",
+          "published_at": "20:02"
+        }
+      ]
+    },
+    {
+      "id": "world-3",
+      "title": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports",
+      "title_en": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/anthropic-logged-net-loss-over-80-billion-in-first-half-2026-wsj-reports-6476676",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports Reuters",
+      "excerpt_en": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-20T19:41:08+09:00",
+      "latest_published_at": "2026-10-20T20:00:42+09:00",
+      "articles": [
+        {
+          "title": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
+          "published_at": "20:00"
+        },
+        {
+          "title": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/anthropic-logged-net-loss-over-80-billion-in-first-half-2026-wsj-reports-6476676",
+          "published_at": "19:41"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "Boeing 737 Max 10 to finally be approved for US flights after years of safety concerns",
+      "title_en": "Boeing 737 Max 10 to finally be approved for US flights after years of safety concerns",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/boeing-737-max-10-airliner-commercial-passenger-flights-b3070220.html",
       "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "Wall Street's primary indices saw an uptick, primarily driven by healthcare stocks reaching all-time highs amid falling oil prices. Investors are scrutinizing corporate earnings, with increasing worri",
-      "excerpt_en": "Wall Street's primary indices saw an uptick, primarily driven by healthcare stocks reaching all-time highs amid falling oil prices. Investors are scrutinizing corporate earnings, with increasing worri",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-climbs-as-healthcare-stocks-hit-record-oil-prices-ease-dow-jones-up-0-97-sp-gains-0-42/articleshow/135073829.cms",
+      "primary_source": "The Independent",
+      "excerpt": "Major customers for the Max 10 include United Airlines, Delta Air Lines, American Airlines, and Ryanair",
+      "excerpt_en": "Major customers for the Max 10 include United Airlines, Delta Air Lines, American Airlines, and Ryanair",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/boeing-737-max-10-airliner-commercial-passenger-flights-b3070220.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1818,37 +1812,37 @@
       "source_count": 2,
       "sources": [
         "Reuters",
-        "Times of India"
+        "The Independent"
       ],
-      "first_published_at": "2026-10-20T16:39:08+09:00",
-      "latest_published_at": "2026-10-20T16:53:31+09:00",
+      "first_published_at": "2026-10-20T18:24:56+09:00",
+      "latest_published_at": "2026-10-20T20:05:03+09:00",
       "articles": [
         {
-          "title": "Wall Street climbs as healthcare stocks hit record, oil prices ease",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-climbs-as-healthcare-stocks-hit-record-oil-prices-ease-dow-jones-up-0-97-sp-gains-0-42/articleshow/135073829.cms",
-          "published_at": "16:53"
+          "title": "FAA certifies Boeing's 737 MAX 10, clearing way for deliveries",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYzBIbDI0eW5lNzFQYWJEODBXZkQ3MXpXZlJQdVY5X3Z6TGdwQjE1S0NnS0JFQ1RZUkZldjFUbjdndmpEejdtZkxtSDhHZi1VMTc2SGppcWMtTlE5U1haRlJXSEdrT2Rsc28zVGdMQzg5ZUJicW1IY3VwRTdqaC1yeEFqNDBSVkJiNS1wZjFtOUpvSi1ENlRhRncxMDI4bzZlTzJPYlFsNjZnYWx5U3JXRzd1M3ozVEo3RUtJ?oc=5",
+          "published_at": "20:05"
         },
         {
-          "title": "Wall Street gains ground on healthcare stocks rally, oil retreat",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
-          "published_at": "16:39"
+          "title": "Boeing 737 Max 10 to finally be approved for US flights after years of safety concerns",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/boeing-737-max-10-airliner-commercial-passenger-flights-b3070220.html",
+          "published_at": "18:24"
         }
       ]
     },
     {
-      "id": "world-58",
-      "title": "Zelenskyy meets Trump envoys as US-Ukraine relations sink to new lows",
-      "title_en": "Zelenskyy meets Trump envoys as US-Ukraine relations sink to new lows",
+      "id": "world-40",
+      "title": "Italy's Meloni approves tougher anti-riot laws after Milan violence",
+      "title_en": "Italy's Meloni approves tougher anti-riot laws after Milan violence",
       "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-10-21/ukraine-interceptor-missiles-zelenskyy-us-trump-tensions/107290418",
+      "title_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaG9fNlpIcEhSekFlWW96QmtGUnc5Z21yQ1BWR0RFNTJiWFg2ZGU5aHlNMTZBWTVUeE1lNXppbER1dThJUEFVYTFLRTllbEk4SUJLQ1ZTMWhXdWM0QnVPS0hTVnZsZW1QektwMHhoM3hmazdDMFFra2psN2VFLXEwc3U0NEVtM00waEVUblpDSmxDUVNGamRiN0NFdjA2WW54NUtrcTdmSnE?oc=5",
       "category": "유럽",
-      "primary_source": "ABC News Australia",
-      "excerpt": "Marco Rubio denies intelligence-sharing has been limited as US envoys meet the Ukrainian president for talks.",
-      "excerpt_en": "Marco Rubio denies intelligence-sharing has been limited as US envoys meet the Ukrainian president for talks.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-21/ukraine-interceptor-missiles-zelenskyy-us-trump-tensions/107290418",
+      "primary_source": "Reuters",
+      "excerpt": "The government said it will deploy 500 army troops to patrol Milan until the end of 2026",
+      "excerpt_en": "The government said it will deploy 500 army troops to patrol Milan until the end of 2026",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/italy-protests-anti-riot-laws-penalties-milan-b3070222.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1864,38 +1858,132 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News Australia",
-        "Reuters"
+        "Reuters",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-20T14:55:49+09:00",
-      "latest_published_at": "2026-10-20T17:09:59+09:00",
+      "first_published_at": "2026-10-20T18:31:41+09:00",
+      "latest_published_at": "2026-10-20T19:00:35+09:00",
       "articles": [
         {
-          "title": "Zelenskiy meets Witkoff as US-Ukraine relations sink to new lows",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTkRPR0Z1dlo4V3Fhb3J5MGZpRnVlSEluZk93Q1dFWXZaZ0pZc0EtMnowX0xYQmNoQ2lYWnVOTGtreXNKQUtpcElYLVpNZFNtelpTOVV2V0FiM0dGNFdIUDhDUkQyc0RRaTdVWkRrbkJJbFpzbVlYS2FyeEVSRFRpSk9BNFB6Vkp6N2UyMDhvWXg3VDNEbm5KLUUyZEpBN25QQl9iVXdEV1VBQUpvOHN4NEhRc2E0OEFuQ2c?oc=5",
-          "published_at": "17:09"
+          "title": "Rioters face €20,000 fines and prison time under Italy's new anti-riot laws after Milan violence",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/italy-protests-anti-riot-laws-penalties-milan-b3070222.html",
+          "published_at": "19:00"
         },
         {
-          "title": "Zelenskyy meets Trump envoys as US-Ukraine relations sink to new lows",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-21/ukraine-interceptor-missiles-zelenskyy-us-trump-tensions/107290418",
-          "published_at": "14:55"
+          "title": "Italy's Meloni approves tougher anti-riot laws after Milan violence",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaG9fNlpIcEhSekFlWW96QmtGUnc5Z21yQ1BWR0RFNTJiWFg2ZGU5aHlNMTZBWTVUeE1lNXppbER1dThJUEFVYTFLRTllbEk4SUJLQ1ZTMWhXdWM0QnVPS0hTVnZsZW1QektwMHhoM3hmazdDMFFra2psN2VFLXEwc3U0NEVtM00waEVUblpDSmxDUVNGamRiN0NFdjA2WW54NUtrcTdmSnE?oc=5",
+          "published_at": "18:31"
         }
       ]
     },
     {
-      "id": "world-167",
-      "title": "JD Vance sidesteps Netanyahu's endorsement ahead of Israel elections, says Trump's backing ‘most influential’",
-      "title_en": "JD Vance sidesteps Netanyahu's endorsement ahead of Israel elections, says Trump's backing ‘most influential’",
+      "id": "world-101",
+      "title": "Trump and Vance announce $25M whistleblower program to encourage public to report alleged fraud",
+      "title_en": "Trump and Vance announce $25M whistleblower program to encourage public to report alleged fraud",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/jd-vance-sidesteps-netanyahu-endorsement-as-israeli-pm-trump-backing-influence-us-midterms-focus-israel-elections-101792464728084.html",
-      "category": "중동",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/trump-and-vance-announce-25m-whistleblower-program-to-encourage-public-to-report-alleged-fraud-101792523150683.html",
+      "category": "미국",
       "primary_source": "Hindustan Times",
-      "excerpt": "The election on October 27 serves as a crucial turning point that could determine the political future of PM Benjamin Netanyahu.",
-      "excerpt_en": "The election on October 27 serves as a crucial turning point that could determine the political future of PM Benjamin Netanyahu.",
+      "excerpt": "Trump and Vance announce $25M whistleblower program to encourage public to report alleged fraud AP News",
+      "excerpt_en": "Trump and Vance announce $25M whistleblower program to encourage public to report alleged fraud AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRlhMbk5tdzk4Z2ZaMUxTOUc2LW1rYXVxbWtWYl9UX2I0cTFmUkc5QkRjY01XRDkxc3ZJZ0JVMmlJcHR0TEpSajhkTmFtSHRTYzdDd3BpZ1NFWkh5VXJPNGduc1J3MDVCM1EzbG1DM3ZsaGhFMnBWNWF2UlF5am1mS3hPZGNMaVpwQmFzdW1hbDFVNi02ekE?oc=5",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-20T19:05:50+09:00",
+      "latest_published_at": "2026-10-20T20:14:00+09:00",
+      "articles": [
+        {
+          "title": "Trump and Vance announce $25M whistleblower program to encourage public to report alleged fraud",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRlhMbk5tdzk4Z2ZaMUxTOUc2LW1rYXVxbWtWYl9UX2I0cTFmUkc5QkRjY01XRDkxc3ZJZ0JVMmlJcHR0TEpSajhkTmFtSHRTYzdDd3BpZ1NFWkh5VXJPNGduc1J3MDVCM1EzbG1DM3ZsaGhFMnBWNWF2UlF5am1mS3hPZGNMaVpwQmFzdW1hbDFVNi02ekE?oc=5",
+          "published_at": "20:14"
+        },
+        {
+          "title": "Trump and Vance announce $25M whistleblower program to encourage public to report alleged fraud",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-and-vance-announce-25m-whistleblower-program-to-encourage-public-to-report-alleged-fraud-101792523150683.html",
+          "published_at": "19:05"
+        }
+      ]
+    },
+    {
+      "id": "world-112",
+      "title": "Eagles are not being punished for handling of Jalen Hurts’ blood clots, AP source says",
+      "title_en": "Eagles are not being punished for handling of Jalen Hurts’ blood clots, AP source says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVC1kYUkyb2czeXdCR2h3TTMwNERObThlUGtya1BQRlZuS0pkMlp5YV85VWJDSFN2TVJUNVdoNjJiX21yN3Z3ZkpDMUpwSEdaUlBQdVRheU1jVlYyT25DWFBwMGFPVkhmLUZqekZZN0ZCcUFXczl2N1p6eVRvNEwxUi16MFREdzY0Mmx1NmcwdnFyTGR3Ym9lUERR?oc=5",
+      "category": "기타",
+      "primary_source": "AP News",
+      "excerpt": "Jalen Hurts of the Philadelphia Eagles is the latest professional athlete to endure blood clots, joining Victor Wembanyama, Chris Bosh, Damian Lillard and others.",
+      "excerpt_en": "Jalen Hurts of the Philadelphia Eagles is the latest professional athlete to endure blood clots, joining Victor Wembanyama, Chris Bosh, Damian Lillard and others.",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/health/hurts-blood-clots-pro-athletes-9.7388914?cmp=rss",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "CBC"
+      ],
+      "first_published_at": "2026-10-20T19:51:05+09:00",
+      "latest_published_at": "2026-10-20T21:47:56+09:00",
+      "articles": [
+        {
+          "title": "Blood clots have halted Jalen Hurts's NFL season. They've also been a problem for other sports stars",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/health/hurts-blood-clots-pro-athletes-9.7388914?cmp=rss",
+          "published_at": "21:47"
+        },
+        {
+          "title": "Eagles are not being punished for handling of Jalen Hurts’ blood clots, AP source says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVC1kYUkyb2czeXdCR2h3TTMwNERObThlUGtya1BQRlZuS0pkMlp5YV85VWJDSFN2TVJUNVdoNjJiX21yN3Z3ZkpDMUpwSEdaUlBQdVRheU1jVlYyT25DWFBwMGFPVkhmLUZqekZZN0ZCcUFXczl2N1p6eVRvNEwxUi16MFREdzY0Mmx1NmcwdnFyTGR3Ym9lUERR?oc=5",
+          "published_at": "19:51"
+        }
+      ]
+    },
+    {
+      "id": "world-147",
+      "title": "Feds seize Ilhan Omar's DNA that could be critical in proving immigration fraud allegations, marriage to brother: report",
+      "title_en": "Feds seize Ilhan Omar's DNA that could be critical in proving immigration fraud allegations, marriage to brother: report",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/feds-seize-ilhan-omars-dna-that-could-be-critical-in-proving-immigration-fraud-allegations-marriage-to-brother-report-101792457634221.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "The feds reportedly used whistleblowers, government records and now obtained DNA in an effort to substantiate allegations against Ilhan Omar.",
+      "excerpt_en": "The feds reportedly used whistleblowers, government records and now obtained DNA in an effort to substantiate allegations against Ilhan Omar.",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/jd-vance-sidesteps-netanyahu-endorsement-as-israeli-pm-trump-backing-influence-us-midterms-focus-israel-elections-101792464728084.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/feds-seize-ilhan-omars-dna-that-could-be-critical-in-proving-immigration-fraud-allegations-marriage-to-brother-report-101792457634221.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1914,35 +2002,35 @@
         "Al Jazeera",
         "Hindustan Times"
       ],
-      "first_published_at": "2026-10-20T03:24:06+09:00",
-      "latest_published_at": "2026-10-20T15:46:30+09:00",
+      "first_published_at": "2026-10-20T01:04:03+09:00",
+      "latest_published_at": "2026-10-20T20:32:29+09:00",
       "articles": [
         {
-          "title": "‘Not getting involved’: US Vice President refuses to endorse Netanyahu",
+          "title": "Trump: Ilhan Omar could be deported, slams Somalia as a ‘s—house’",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/20/not-getting-involved-us-vice-president-refuses-to-endorse-netanyahu?traffic_source=rss",
-          "published_at": "15:46"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/trump-ilhan-omar-could-be-deported-slams-somalia-as-a-s?traffic_source=rss",
+          "published_at": "20:32"
         },
         {
-          "title": "JD Vance sidesteps Netanyahu's endorsement ahead of Israel elections, says Trump's backing ‘most influential’",
+          "title": "Feds seize Ilhan Omar's DNA that could be critical in proving immigration fraud allegations, marriage to brother: report",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/jd-vance-sidesteps-netanyahu-endorsement-as-israeli-pm-trump-backing-influence-us-midterms-focus-israel-elections-101792464728084.html",
-          "published_at": "03:24"
+          "url": "https://www.hindustantimes.com/world-news/us-news/feds-seize-ilhan-omars-dna-that-could-be-critical-in-proving-immigration-fraud-allegations-marriage-to-brother-report-101792457634221.html",
+          "published_at": "01:04"
         }
       ]
     },
     {
-      "id": "world-218",
-      "title": "Exiled critic of Rwandan President Kagame found beheaded in Uganda",
-      "title_en": "Exiled critic of Rwandan President Kagame found beheaded in Uganda",
+      "id": "world-243",
+      "title": "A Chef Celebrates Immigrant Flavors in Anti-Migrant South Africa",
+      "title_en": "A Chef Celebrates Immigrant Flavors in Anti-Migrant South Africa",
       "title_source": "earliest_pick",
-      "title_url": "https://www.france24.com/en/video/20261020-exiled-critic-of-rwandan-president-kagame-found-beheaded-in-uganda",
-      "category": "유럽",
-      "primary_source": "France24",
-      "excerpt": "Robert Kabera, a former Rwandan soldier living in Uganda, where he had become a vocal critic of his government back home, was found decapitated near Kampala. Rwandan authorities have been accused of a",
-      "excerpt_en": "Robert Kabera, a former Rwandan soldier living in Uganda, where he had become a vocal critic of his government back home, was found decapitated near Kampala. Rwandan authorities have been accused of a",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/video/20261020-exiled-critic-of-rwandan-president-kagame-found-beheaded-in-uganda",
+      "title_url": "https://www.nytimes.com/2026/10/20/world/africa/johannesburg-migrant-cuisine-chef.html",
+      "category": "기타",
+      "primary_source": "New York Times",
+      "excerpt": "A self-taught chef borrows ingredients and ideas from restaurants run by immigrants in South Africa, hoping to help counter rising xenophobia.",
+      "excerpt_en": "A self-taught chef borrows ingredients and ideas from restaurants run by immigrants in South Africa, hoping to help counter rising xenophobia.",
+      "excerpt_source": "New York Times",
+      "excerpt_url": "https://www.nytimes.com/2026/10/20/world/africa/johannesburg-migrant-cuisine-chef.html",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1958,28 +2046,169 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
+        "Channel News Asia",
         "New York Times"
       ],
-      "first_published_at": "2026-10-20T12:34:19+09:00",
-      "latest_published_at": "2026-10-20T18:15:01+09:00",
+      "first_published_at": "2026-10-20T09:00:10+09:00",
+      "latest_published_at": "2026-10-20T19:28:14+09:00",
       "articles": [
         {
-          "title": "Robert Kabera, Rwandan Government Critic, Beheaded in Uganda",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/20/world/africa/rwandan-beheaded-uganda-kabera.html",
-          "published_at": "18:15"
+          "title": "Bavuma battles adversity to put South Africa in control",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/bavuma-battles-adversity-put-south-africa-in-control-6476666",
+          "published_at": "19:28"
         },
         {
-          "title": "Exiled critic of Rwandan President Kagame found beheaded in Uganda",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/video/20261020-exiled-critic-of-rwandan-president-kagame-found-beheaded-in-uganda",
-          "published_at": "12:34"
+          "title": "A Chef Celebrates Immigrant Flavors in Anti-Migrant South Africa",
+          "source_name": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/20/world/africa/johannesburg-migrant-cuisine-chef.html",
+          "published_at": "09:00"
         }
       ]
     },
     {
-      "id": "world-10",
+      "id": "world-375",
+      "title": "King Charles welcomes Oman’s Sultan Haitham for state visit to UK",
+      "title_en": "King Charles welcomes Oman’s Sultan Haitham for state visit to UK",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/video/2026/10/20/king-charles-welcomes-omans-sultan-haitham-for-state-visit-to-uk",
+      "category": "유럽",
+      "primary_source": "Euronews",
+      "excerpt": "King Charles III and Queen Camilla, joined by Prince William and Princess Catherine, have welcomed Oman’s Sultan Haitham bin Tarik to Windsor at the start of a three-day state visit.",
+      "excerpt_en": "King Charles III and Queen Camilla, joined by Prince William and Princess Catherine, have welcomed Oman’s Sultan Haitham bin Tarik to Windsor at the start of a three-day state visit.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/video/2026/10/20/king-charles-welcomes-omans-sultan-haitham-for-state-visit-to-uk",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-20T12:18:40+09:00",
+      "latest_published_at": "2026-10-20T20:51:34+09:00",
+      "articles": [
+        {
+          "title": "King Charles lauds Omani peace efforts on Sultan's state visit",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/king-charles-lauds-omani-peace-efforts-on-sultan-s-state-visit-101792529495075.html",
+          "published_at": "20:51"
+        },
+        {
+          "title": "King Charles welcomes Oman’s Sultan Haitham for state visit to UK",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/20/king-charles-welcomes-omans-sultan-haitham-for-state-visit-to-uk",
+          "published_at": "12:18"
+        }
+      ]
+    },
+    {
+      "id": "world-386",
+      "title": "Pompeii's grandest house gets a $1.6 million restoration funded by private sponsor",
+      "title_en": "Pompeii's grandest house gets a $1.6 million restoration funded by private sponsor",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/pompeiis-grandest-house-gets-a-1-6-million-restoration-funded-by-private-sponsor-101792522222401.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A private home in Pompeii, believed to be the grandest, is being restored with 1.4 million euros ($1.6 million) from a private sponsor",
+      "excerpt_en": "A private home in Pompeii, believed to be the grandest, is being restored with 1.4 million euros ($1.6 million) from a private sponsor",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/pompeiis-grandest-house-gets-16-million-restoration-funded-137422838",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-20T18:50:21+09:00",
+      "latest_published_at": "2026-10-20T20:43:26+09:00",
+      "articles": [
+        {
+          "title": "Pompeii's grandest house gets a $1.6 million restoration funded by private sponsor",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/pompeiis-grandest-house-gets-16-million-restoration-funded-137422838",
+          "published_at": "20:43"
+        },
+        {
+          "title": "Pompeii's grandest house gets a $1.6 million restoration funded by private sponsor",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/pompeiis-grandest-house-gets-a-1-6-million-restoration-funded-by-private-sponsor-101792522222401.html",
+          "published_at": "18:50"
+        }
+      ]
+    },
+    {
+      "id": "world-7",
+      "title": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+      "title_en": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/spacex-investors-ahead-results-press-musk-tesla-merger-6476556",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "SpaceX investors, ahead of results, press Musk on Tesla merger Reuters",
+      "excerpt_en": "SpaceX investors, ahead of results, press Musk on Tesla merger Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUluMVVLVk9ZUmpHeTZNSkduQVlaYWtydVZ3WEptUWc0SXpqUGZ4ckZmOGM4X3JwY0V0WjJfelhvdWRLRTdZRUdnYUxwM0NRZWZGY0M4blhETWlzVnlQY0JMSEdRZFBDaG5MNW1jck9zaEdQdUs4bzhRSjdaX0xsV0xqN1RjWmRuRzAwMFZxamVNTlNuanFhVExaV3RDMEw2RmtSODg4RzB1RzRERWFz?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-20T18:13:28+09:00",
+      "latest_published_at": "2026-10-20T18:34:18+09:00",
+      "articles": [
+        {
+          "title": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUluMVVLVk9ZUmpHeTZNSkduQVlaYWtydVZ3WEptUWc0SXpqUGZ4ckZmOGM4X3JwY0V0WjJfelhvdWRLRTdZRUdnYUxwM0NRZWZGY0M4blhETWlzVnlQY0JMSEdRZFBDaG5MNW1jck9zaEdQdUs4bzhRSjdaX0xsV0xqN1RjWmRuRzAwMFZxamVNTlNuanFhVExaV3RDMEw2RmtSODg4RzB1RzRERWFz?oc=5",
+          "published_at": "18:34"
+        },
+        {
+          "title": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/spacex-investors-ahead-results-press-musk-tesla-merger-6476556",
+          "published_at": "18:13"
+        }
+      ]
+    },
+    {
+      "id": "world-23",
       "title": "US judge dismisses Sam Altman's sister's sexual abuse lawsuit",
       "title_en": "US judge dismisses Sam Altman's sister's sexual abuse lawsuit",
       "title_source": "earliest_pick",
@@ -2026,54 +2255,7 @@
       ]
     },
     {
-      "id": "world-19",
-      "title": "Ronaldo let Man United down, says club's former boss Ten Hag",
-      "title_en": "Ronaldo let Man United down, says club's former boss Ten Hag",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/ronaldo-let-man-united-down-says-clubs-former-boss-ten-hag-6475631",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Ronaldo let Man United down, says club's former boss Ten Hag Reuters",
-      "excerpt_en": "Ronaldo let Man United down, says club's former boss Ten Hag Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWW9raFdRa3pyUWJ5TVozT2VxZ0tLLW12RUZiSE5MUGJ0d1RtZ0puT2dLaVkzT21iZWI2bEJORUFWdUNMSVFzMlczb2E5QVRBTHA1WDIxYjlxV01rUG1iR3dkTWRUcjVYZGYxVVFPUmhrWFRSVHVaakxSNVI1ckVoZHdXaFdVdl9XT1FYaUlMelNacDI4UzVVY2xuLTk2SV9zcG1zVmlXa0pyYXZF?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-20T12:36:25+09:00",
-      "latest_published_at": "2026-10-20T12:36:53+09:00",
-      "articles": [
-        {
-          "title": "Ronaldo let Man United down, says club's former boss Ten Hag",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWW9raFdRa3pyUWJ5TVozT2VxZ0tLLW12RUZiSE5MUGJ0d1RtZ0puT2dLaVkzT21iZWI2bEJORUFWdUNMSVFzMlczb2E5QVRBTHA1WDIxYjlxV01rUG1iR3dkTWRUcjVYZGYxVVFPUmhrWFRSVHVaakxSNVI1ckVoZHdXaFdVdl9XT1FYaUlMelNacDI4UzVVY2xuLTk2SV9zcG1zVmlXa0pyYXZF?oc=5",
-          "published_at": "12:36"
-        },
-        {
-          "title": "Ronaldo let Man United down, says club's former boss Ten Hag",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/ronaldo-let-man-united-down-says-clubs-former-boss-ten-hag-6475631",
-          "published_at": "12:36"
-        }
-      ]
-    },
-    {
-      "id": "world-21",
+      "id": "world-32",
       "title": "Global warming pace accelerating, says climate scientist",
       "title_en": "Global warming pace accelerating, says climate scientist",
       "title_source": "earliest_pick",
@@ -2120,7 +2302,7 @@
       ]
     },
     {
-      "id": "world-35",
+      "id": "world-63",
       "title": "Italy's pasta production 'grounds to a halt' as truck drivers block roads and ports",
       "title_en": "Italy's pasta production 'grounds to a halt' as truck drivers block roads and ports",
       "title_source": "earliest_pick",
@@ -2167,7 +2349,7 @@
       ]
     },
     {
-      "id": "world-46",
+      "id": "world-65",
       "title": "China establishes state-owned National Data Group",
       "title_en": "China establishes state-owned National Data Group",
       "title_source": "earliest_pick",
@@ -2214,54 +2396,7 @@
       ]
     },
     {
-      "id": "world-49",
-      "title": "Waymo to launch autonomous ride-hailing in Madrid next year",
-      "title_en": "Waymo to launch autonomous ride-hailing in Madrid next year",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/waymo-launch-autonomous-ride-hailing-in-madrid-next-year-6475706",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Waymo to launch autonomous ride-hailing in Madrid next year Reuters",
-      "excerpt_en": "Waymo to launch autonomous ride-hailing in Madrid next year Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU2tMSzctZ240NVZFM1ZvRUxhNDg4al9EQ1pPSjQ0UmRvNDZGVmVvNEVWcGpxRE5zU1Z6ZEtvazduc2UyWUF3YkcwRHgwbHY3YnZGWjBfWDNiZHl4LWVSX2dKS1V2NmM5UmRXNVpWT3BWbkk3dHRwbl9JM3RnZ0d5U2FQTnFXbko3VHpXZDVwaDlma2M2M3FwdTc3VXhwN1E?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-20T12:50:33+09:00",
-      "latest_published_at": "2026-10-20T12:55:11+09:00",
-      "articles": [
-        {
-          "title": "Waymo to launch autonomous ride-hailing in Madrid next year",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU2tMSzctZ240NVZFM1ZvRUxhNDg4al9EQ1pPSjQ0UmRvNDZGVmVvNEVWcGpxRE5zU1Z6ZEtvazduc2UyWUF3YkcwRHgwbHY3YnZGWjBfWDNiZHl4LWVSX2dKS1V2NmM5UmRXNVpWT3BWbkk3dHRwbl9JM3RnZ0d5U2FQTnFXbko3VHpXZDVwaDlma2M2M3FwdTc3VXhwN1E?oc=5",
-          "published_at": "12:55"
-        },
-        {
-          "title": "Waymo to launch autonomous ride-hailing in Madrid next year",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/waymo-launch-autonomous-ride-hailing-in-madrid-next-year-6475706",
-          "published_at": "12:50"
-        }
-      ]
-    },
-    {
-      "id": "world-68",
+      "id": "world-88",
       "title": "South Korea to pull more Ukraine embassy staff after POW dispute",
       "title_en": "South Korea to pull more Ukraine embassy staff after POW dispute",
       "title_source": "earliest_pick",
@@ -2308,17 +2443,17 @@
       ]
     },
     {
-      "id": "world-101",
-      "title": "How France’s worst rioting in years erupted and how the government responded",
-      "title_en": "How France’s worst rioting in years erupted and how the government responded",
+      "id": "world-102",
+      "title": "Driver charged with intentionally injuring Australian federal lawmaker",
+      "title_en": "Driver charged with intentionally injuring Australian federal lawmaker",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSllKV1hPNWE2Mmc5TFhzY0oxaUZzNW9Gd2haNjBIMUc3SWIwZWtMd3FMb21DajNOckgybzdfWC1tTEZxMkhjblY1TzUwdUpHcUNzc1dHX242RlRhWHNQRE1WQi1uRWVyWldfMUgta01uRnFFaWwtYlJBeVhobXpKdjRlMHBQOGZvOVJOa1RMSHEyc0E?oc=5",
-      "category": "유럽",
+      "title_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFFOVnVHa0tBUGhjMHRSUTlkTlQ4clhTSmVkNmpnTXFFRVpsZFprTEplajRtX1hmYmZtVWRLRjdZZXB6ZzVseWtHeG51Q1Rxb21YTUZmOUh3aGpBOGQzYWlpRGhiVXJWZjhwTkJ4STFfbWxZWnRpN0t2a3hxQzNsN0pKMEVsZnBkV085TWNvRkV2VlR2azRaMTB6OTM1ZHlhWGZEYzV3?oc=5",
+      "category": "아시아",
       "primary_source": "AP News",
-      "excerpt": "Rioters clashed with police, set cars on fire, stormed public buildings and engulfed a historic city hall in flames in France’s worst civil unrest in years",
-      "excerpt_en": "Rioters clashed with police, set cars on fire, stormed public buildings and engulfed a historic city hall in flames in France’s worst civil unrest in years",
+      "excerpt": "Police have charged a driver with intentionally causing serious injury to Australian lawmaker Helen Haines",
+      "excerpt_en": "Police have charged a driver with intentionally causing serious injury to Australian lawmaker Helen Haines",
       "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/frances-worst-rioting-years-erupted-government-responded-137390407",
+      "excerpt_url": "https://abcnews.com/International/wireStory/australian-lawmaker-critical-stable-after-hit-car-prime-137403404",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2337,25 +2472,72 @@
         "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-10-20T03:44:00+09:00",
-      "latest_published_at": "2026-10-20T05:27:51+09:00",
+      "first_published_at": "2026-10-20T13:46:00+09:00",
+      "latest_published_at": "2026-10-20T13:54:20+09:00",
       "articles": [
         {
-          "title": "How France’s worst rioting in years erupted and how the government responded",
+          "title": "Driver charged with intentionally injuring Australian federal lawmaker",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/frances-worst-rioting-years-erupted-government-responded-137390407",
-          "published_at": "05:27"
+          "url": "https://abcnews.com/International/wireStory/australian-lawmaker-critical-stable-after-hit-car-prime-137403404",
+          "published_at": "13:54"
         },
         {
-          "title": "How France’s worst rioting in years erupted and how the government responded",
+          "title": "Driver charged with intentionally injuring Australian federal lawmaker",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSllKV1hPNWE2Mmc5TFhzY0oxaUZzNW9Gd2haNjBIMUc3SWIwZWtMd3FMb21DajNOckgybzdfWC1tTEZxMkhjblY1TzUwdUpHcUNzc1dHX242RlRhWHNQRE1WQi1uRWVyWldfMUgta01uRnFFaWwtYlJBeVhobXpKdjRlMHBQOGZvOVJOa1RMSHEyc0E?oc=5",
-          "published_at": "03:44"
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFFOVnVHa0tBUGhjMHRSUTlkTlQ4clhTSmVkNmpnTXFFRVpsZFprTEplajRtX1hmYmZtVWRLRjdZZXB6ZzVseWtHeG51Q1Rxb21YTUZmOUh3aGpBOGQzYWlpRGhiVXJWZjhwTkJ4STFfbWxZWnRpN0t2a3hxQzNsN0pKMEVsZnBkV085TWNvRkV2VlR2azRaMTB6OTM1ZHlhWGZEYzV3?oc=5",
+          "published_at": "13:46"
         }
       ]
     },
     {
-      "id": "world-113",
+      "id": "world-110",
+      "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
+      "title_en": "Alberta rejects a move toward independence from Canada in a victory for Carney",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/canadian-broadcasting-corp-projects-alberta-voters-rejected-move-137402888",
+      "category": "미국",
+      "primary_source": "ABC News",
+      "excerpt": "Voters in Alberta have overwhelmingly backed remaining in Canada, with early referendum results showing 76% support for staying",
+      "excerpt_en": "Voters in Alberta have overwhelmingly backed remaining in Canada, with early referendum results showing 76% support for staying",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/canadian-broadcasting-corp-projects-alberta-voters-rejected-move-137402888",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-10-20T14:02:15+09:00",
+      "latest_published_at": "2026-10-20T18:11:00+09:00",
+      "articles": [
+        {
+          "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNam5EME1Qam5lQmc2X3BhcDgzXzdMaWJLa1V2akVCc0c2dnJlZmo4bjZ5NEdXZmMxNHp6d1kxV3hEY2QwbkZraktnS1V5a3ItMUFvZmlxb0daZUppSHdqdjBvdUNrNVNueGo0TlROS21OeGl4OTBwM0RlanJuT2pGZjllNWxHMS0wOVFtRV9DOHA0TzZWbkotTGJXMzJHcjJFOHVFbkhnOUk?oc=5",
+          "published_at": "18:11"
+        },
+        {
+          "title": "Alberta rejects a move toward independence from Canada in a victory for Carney",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/canadian-broadcasting-corp-projects-alberta-voters-rejected-move-137402888",
+          "published_at": "14:02"
+        }
+      ]
+    },
+    {
+      "id": "world-111",
       "title": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
       "title_en": "Japan launches spacecraft to mysterious moons of Mars in a bold mission to bring home soil samples",
       "title_source": "earliest_pick",
@@ -2402,7 +2584,195 @@
       ]
     },
     {
-      "id": "world-115",
+      "id": "world-169",
+      "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+      "title_en": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
+      "category": "미국",
+      "primary_source": "NPR",
+      "excerpt": "Result is a victory for prime minister Mark Carney and supporters of Canadian unity Voters in Canada’s Alberta have overwhelmingly rejected a proposal to begin the process of independence, delivering ",
+      "excerpt_en": "Result is a victory for prime minister Mark Carney and supporters of Canadian unity Voters in Canada’s Alberta have overwhelmingly rejected a proposal to begin the process of independence, delivering ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "NPR",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-20T06:02:40+09:00",
+      "latest_published_at": "2026-10-20T16:24:05+09:00",
+      "articles": [
+        {
+          "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+          "published_at": "16:24"
+        },
+        {
+          "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
+          "published_at": "06:02"
+        }
+      ]
+    },
+    {
+      "id": "world-209",
+      "title": "Zelensky and US envoys seek to repair frayed ties",
+      "title_en": "Zelensky and US envoys seek to repair frayed ties",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bangkokpost.com/world/3340400/zelensky-and-us-envoys-seek-to-repair-frayed-ties",
+      "category": "유럽",
+      "primary_source": "Bangkok Post",
+      "excerpt": "Ukrainian President Volodymyr Zelensky has wrapped up talks with US envoys in Norway Tuesday where he was determined to put diplomacy back on a \"more constructive path”, Oslo officials said. Zelensky ",
+      "excerpt_en": "Ukrainian President Volodymyr Zelensky has wrapped up talks with US envoys in Norway Tuesday where he was determined to put diplomacy back on a \"more constructive path”, Oslo officials said. Zelensky ",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "France24"
+      ],
+      "first_published_at": "2026-10-20T10:45:00+09:00",
+      "latest_published_at": "2026-10-20T14:11:29+09:00",
+      "articles": [
+        {
+          "title": "Ukraine ‘losing people and time’, Zelensky says after Oslo talks",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup",
+          "published_at": "14:11"
+        },
+        {
+          "title": "Zelensky and US envoys seek to repair frayed ties",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3340400/zelensky-and-us-envoys-seek-to-repair-frayed-ties",
+          "published_at": "10:45"
+        }
+      ]
+    },
+    {
+      "id": "world-381",
+      "title": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
+      "title_en": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum",
+      "category": "미국",
+      "primary_source": "Euronews",
+      "excerpt": "Donald Trump’s trade war and threats to make Canada the 51st US state have helped PM Mark Carney rally support in Alberta.",
+      "excerpt_en": "Donald Trump’s trade war and threats to make Canada the 51st US state have helped PM Mark Carney rally support in Alberta.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/north-america/albertans-chose-canada-voters-reject-move-towards-independence-in-victory-for-carney-20261020-p6177o.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Euronews",
+        "Sydney Morning Herald"
+      ],
+      "first_published_at": "2026-10-20T06:36:28+09:00",
+      "latest_published_at": "2026-10-20T08:35:06+09:00",
+      "articles": [
+        {
+          "title": "‘Albertans chose Canada’: Voters reject move towards independence in victory for Carney",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/albertans-chose-canada-voters-reject-move-towards-independence-in-victory-for-carney-20261020-p6177o.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "08:35"
+        },
+        {
+          "title": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum",
+          "published_at": "06:36"
+        }
+      ]
+    },
+    {
+      "id": "world-104",
+      "title": "How France’s worst rioting in years erupted and how the government responded",
+      "title_en": "How France’s worst rioting in years erupted and how the government responded",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSllKV1hPNWE2Mmc5TFhzY0oxaUZzNW9Gd2haNjBIMUc3SWIwZWtMd3FMb21DajNOckgybzdfWC1tTEZxMkhjblY1TzUwdUpHcUNzc1dHX242RlRhWHNQRE1WQi1uRWVyWldfMUgta01uRnFFaWwtYlJBeVhobXpKdjRlMHBQOGZvOVJOa1RMSHEyc0E?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "Rioters clashed with police, set cars on fire, stormed public buildings and engulfed a historic city hall in flames in France’s worst civil unrest in years",
+      "excerpt_en": "Rioters clashed with police, set cars on fire, stormed public buildings and engulfed a historic city hall in flames in France’s worst civil unrest in years",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/frances-worst-rioting-years-erupted-government-responded-137390407",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-10-20T03:44:00+09:00",
+      "latest_published_at": "2026-10-20T05:27:51+09:00",
+      "articles": [
+        {
+          "title": "How France’s worst rioting in years erupted and how the government responded",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/frances-worst-rioting-years-erupted-government-responded-137390407",
+          "published_at": "05:27"
+        },
+        {
+          "title": "How France’s worst rioting in years erupted and how the government responded",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSllKV1hPNWE2Mmc5TFhzY0oxaUZzNW9Gd2haNjBIMUc3SWIwZWtMd3FMb21DajNOckgybzdfWC1tTEZxMkhjblY1TzUwdUpHcUNzc1dHX242RlRhWHNQRE1WQi1uRWVyWldfMUgta01uRnFFaWwtYlJBeVhobXpKdjRlMHBQOGZvOVJOa1RMSHEyc0E?oc=5",
+          "published_at": "03:44"
+        }
+      ]
+    },
+    {
+      "id": "world-114",
       "title": "Díaz, Caminero and Peralta lead Rays to 7-3 win over Guardians and a trip to the World Series",
       "title_en": "Díaz, Caminero and Peralta lead Rays to 7-3 win over Guardians and a trip to the World Series",
       "title_source": "earliest_pick",
@@ -2414,14 +2784,14 @@
       "excerpt_source": "CBC",
       "excerpt_url": "https://www.cbc.ca/sports/baseball/mlb/alcs-rays-guardians-game-6-recap-9.7387928?cmp=rss",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -2449,53 +2819,6 @@
       ]
     },
     {
-      "id": "world-131",
-      "title": "From France to Albania, social unrest is setting Europe’s streets ablaze",
-      "title_en": "From France to Albania, social unrest is setting Europe’s streets ablaze",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSlZieGhTM2g4aU5Rc0pvNExoczBPVzN1NUdCZEJ1SHhpVjVlZWhtcHowVDlMamNpT0FkRVZEZnQ2WTNKQzh1cHdDX3lDS0dEd3FHMHcxd3BDRmFsZV9wMU5uc3ZDRWJNb0ZhWWhHS1ItcVVYbnJMRHZvdC1DYVd1QlpNZ1Bsc0l0Mm5jRmppN3N6UDd0OTZ4dmVGdjJiYTh6RXNoQ1FkT3BPUV9INUl2dmt1eUtIaE9KNHVhcG5yNTFjMEJHNkR5VEhB?oc=5",
-      "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "Rising food and fuel prices, a lack of funding for education, the state of public services, and access to housing have created the perfect breeding ground for a fall of protests across Europe",
-      "excerpt_en": "Rising food and fuel prices, a lack of funding for education, the state of public services, and access to housing have created the perfect breeding ground for a fall of protests across Europe",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/france-albania-social-unrest-setting-europes-streets-ablaze-137383294",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-10-20T08:18:00+09:00",
-      "latest_published_at": "2026-10-20T09:54:14+09:00",
-      "articles": [
-        {
-          "title": "From France to Albania, social unrest is setting Europe's streets ablaze",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/france-albania-social-unrest-setting-europes-streets-ablaze-137383294",
-          "published_at": "09:54"
-        },
-        {
-          "title": "From France to Albania, social unrest is setting Europe’s streets ablaze",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSlZieGhTM2g4aU5Rc0pvNExoczBPVzN1NUdCZEJ1SHhpVjVlZWhtcHowVDlMamNpT0FkRVZEZnQ2WTNKQzh1cHdDX3lDS0dEd3FHMHcxd3BDRmFsZV9wMU5uc3ZDRWJNb0ZhWWhHS1ItcVVYbnJMRHZvdC1DYVd1QlpNZ1Bsc0l0Mm5jRmppN3N6UDd0OTZ4dmVGdjJiYTh6RXNoQ1FkT3BPUV9INUl2dmt1eUtIaE9KNHVhcG5yNTFjMEJHNkR5VEhB?oc=5",
-          "published_at": "08:18"
-        }
-      ]
-    },
-    {
       "id": "world-383",
       "title": "Trump open to meeting Putin, Xi ‘with or without’ Zelensky, says ‘it’s time for somebody else to negotiate for Ukraine’",
       "title_en": "Trump open to meeting Putin, Xi ‘with or without’ Zelensky, says ‘it’s time for somebody else to negotiate for Ukraine’",
@@ -2508,14 +2831,14 @@
       "excerpt_source": "Euronews",
       "excerpt_url": "https://www.euronews.com/2026/10/20/trump-says-hes-ready-to-meet-putin-and-xi-in-china",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
