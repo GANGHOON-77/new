@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "batch_time": "00:00",
+  "batch_time": "06:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,17 +8,17 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-10-25T02:28:52.421500+09:00",
+  "updated_at": "2026-10-25T07:00:45.067334+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 494,
-  "cluster_count_total": 390,
+  "article_count_total": 468,
+  "cluster_count_total": 383,
   "clusters": [
     {
-      "id": "world-64",
+      "id": "world-50",
       "title": "Kim Jong Un calls for ‘Korean-style military revolution’",
       "title_en": "Kim Jong Un calls for ‘Korean-style military revolution’",
       "title_source": "earliest_pick",
@@ -30,21 +30,22 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
       "translation_status": "failed",
-      "score": 92,
+      "score": 93,
       "score_breakdown": {
         "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 69
+        "time_score": 3,
+        "raw75": 70
       },
-      "area_value": 10,
-      "article_count": 10,
+      "area_value": 11,
+      "article_count": 11,
       "syndicated_count": 0,
-      "source_count": 8,
+      "source_count": 9,
       "sources": [
         "ABC News",
+        "ABC News Australia",
         "AP News",
         "Bangkok Post",
         "DW",
@@ -54,8 +55,14 @@
         "The Guardian"
       ],
       "first_published_at": "2026-10-24T04:45:00+09:00",
-      "latest_published_at": "2026-10-24T13:34:56+09:00",
+      "latest_published_at": "2026-10-24T20:12:34+09:00",
       "articles": [
+        {
+          "title": "Kim Jong Un crosses new bridge into China as trade ties warm",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-25/kim-jong-un-crosses-new-bridge-into-china/107305932",
+          "published_at": "20:12"
+        },
         {
           "title": "Kim Jong-un crosses newly opened bridge into China",
           "source_name": "The Guardian",
@@ -75,16 +82,16 @@
           "published_at": "12:38"
         },
         {
+          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0I1TVQybGpFam8xeDVVN1NTdVFha1Q3Und2cjhZbHJnMG1CekZFTWEyMXI2VFNTVHF0MlF5ekIxM3plalZMVU9jVjZHanE2WnozM2xQN2x6WDA2NHh1NUVXRXIwZ2JVczFsQjZ5aXY2VU9tRk1kRWg2bDZpSlJKVzVFaVlhOFc0N0pnOUp0cWVwREY0b1JlZ2xSbw?oc=5",
+          "published_at": "12:16"
+        },
+        {
           "title": "North Korean leader Kim Jong-un pays unexpected visit to Chinese border city of Dandong",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/china/diplomacy/article/3372026/north-korean-leader-kim-jong-un-visits-chinese-border-city-dandong",
           "published_at": "11:08"
-        },
-        {
-          "title": "North Korean leader Kim Jong Un visits China to inaugurate a new cross-border bridge",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0I1TVQybGpFam8xeDVVN1NTdVFha1Q3Und2cjhZbHJnMG1CekZFTWEyMXI2VFNTVHF0MlF5ekIxM3plalZMVU9jVjZHanE2WnozM2xQN2x6WDA2NHh1NUVXRXIwZ2JVczFsQjZ5aXY2VU9tRk1kRWg2bDZpSlJKVzVFaVlhOFc0N0pnOUp0cWVwREY0b1JlZ2xSbw?oc=5",
-          "published_at": "09:33"
         },
         {
           "title": "North Korean leader makes unannounced visit to Chinese border city",
@@ -119,39 +126,99 @@
       ]
     },
     {
-      "id": "world-69",
-      "title": "Gunmen Open Fire at Church in Jordan, Killing at Least Seven",
-      "title_en": "Gunmen Open Fire at Church in Jordan, Killing at Least Seven",
+      "id": "world-56",
+      "title": "Tsunami warning for Vanuatu canceled after 7.2 magnitude earthquake",
+      "title_en": "Tsunami warning for Vanuatu canceled after 7.2 magnitude earthquake",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nytimes.com/2026/10/23/world/middleeast/jordan-church-shooting.html",
-      "category": "중동",
-      "primary_source": "New York Times",
-      "excerpt": "Footage broadcast on state TV shows three attackers approaching Greek Orthodox church and firing shots Nine people have been killed after gunmen opened fire at a funeral at a church in Jordan in a rar",
-      "excerpt_en": "Footage broadcast on state TV shows three attackers approaching Greek Orthodox church and firing shots Nine people have been killed after gunmen opened fire at a funeral at a church in Jordan in a rar",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
+      "title_url": "https://www.hindustantimes.com/world-news/vanuatu-earthquake-with-6-9-magnitude-triggers-tsunami-warning-us-monitor-101792814392206.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A preliminary magnitude 6.9 earthquake has hit off the coast of Vanuatu Saturday, according to the U.S. Geological Survey, prompting a tsunami warning for the area that was later rescinded",
+      "excerpt_en": "A preliminary magnitude 6.9 earthquake has hit off the coast of Vanuatu Saturday, according to the U.S. Geological Survey, prompting a tsunami warning for the area that was later rescinded",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
       "translation_status": "failed",
-      "score": 89,
+      "score": 88,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-24T04:13:31+09:00",
+      "latest_published_at": "2026-10-24T08:21:23+09:00",
+      "articles": [
+        {
+          "title": "Two powerful earthquakes strike off coast of Vanuatu",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-earthquake-tsunami-warning-magnitude-b3072604.html",
+          "published_at": "08:21"
+        },
+        {
+          "title": "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
+          "published_at": "05:38"
+        },
+        {
+          "title": "A preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRGNFRlVtTXd1WEY5R1VKLU9MeElnSzJhZC1Yb2RfaWF6dEVBem9uLWlWSXItYXp3a2hMOVZPWmwyT2x6bnFTRDhlcWM0QzFMNVNVS2JrRTdfR0Ewd1puWTBQdEo1c3MyTVdLal9lVV9KWDlaSUV6cnRyUmcydFRPQUxxX2lfYjdwUDNzQTlvaGxldURWVVE?oc=5",
+          "published_at": "04:46"
+        },
+        {
+          "title": "Tsunami warning for Vanuatu canceled after 7.2 magnitude earthquake",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/vanuatu-earthquake-with-6-9-magnitude-triggers-tsunami-warning-us-monitor-101792814392206.html",
+          "published_at": "04:13"
+        }
+      ]
+    },
+    {
+      "id": "world-63",
+      "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+      "title_en": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYXJlUlhXa2k4Z0t0c0FMNGlNNWZyM2Y2QkdXeFhqeEFMcmduN2JZZVUwelo1aU41bHZtTUMyamxGUVB5YTVQLVQ1S2p3ZnRtVzU5ZXNsaGd1NXctODdmeEZJbTFpN0l2MlE0MFlVSHZDbWtKaVBJeTd1bkNEeF9sTVRTZVZ2VmFxT0E1X2lrOVpybnlLUHJrUTRUWjl6a1VpNGpDRm5OZ0xqRTA5?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "Footage broadcast on state TV shows three attackers approaching Greek Orthodox church and firing shots Nine people have been killed after gunmen opened fire at a funeral at a church in Jordan in a rar",
+      "excerpt_en": "Footage broadcast on state TV shows three attackers approaching Greek Orthodox church and firing shots Nine people have been killed after gunmen opened fire at a funeral at a church in Jordan in a rar",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
+      "translation_status": "failed",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
       "sources": [
         "AP News",
         "Fox News",
         "NPR",
-        "New York Times",
         "The Guardian"
       ],
-      "first_published_at": "2026-10-23T23:07:34+09:00",
+      "first_published_at": "2026-10-24T10:18:00+09:00",
       "latest_published_at": "2026-10-24T16:04:18+09:00",
       "articles": [
         {
@@ -177,119 +244,110 @@
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYXJlUlhXa2k4Z0t0c0FMNGlNNWZyM2Y2QkdXeFhqeEFMcmduN2JZZVUwelo1aU41bHZtTUMyamxGUVB5YTVQLVQ1S2p3ZnRtVzU5ZXNsaGd1NXctODdmeEZJbTFpN0l2MlE0MFlVSHZDbWtKaVBJeTd1bkNEeF9sTVRTZVZ2VmFxT0E1X2lrOVpybnlLUHJrUTRUWjl6a1VpNGpDRm5OZ0xqRTA5?oc=5",
           "published_at": "10:18"
-        },
-        {
-          "title": "Gunmen Open Fire at Church in Jordan, Killing at Least Seven",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/23/world/middleeast/jordan-church-shooting.html",
-          "published_at": "23:07"
         }
       ]
     },
     {
-      "id": "world-126",
-      "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
-      "title_en": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+      "id": "world-150",
+      "title": "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
+      "title_en": "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
       "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-      "category": "중동",
-      "primary_source": "NPR",
-      "excerpt": "Israel’s military launched an operation in the occupied West Bank on Friday it said would last several days and include searches and building demolitions, after gunmen killed two soldiers days ahead o",
-      "excerpt_en": "Israel’s military launched an operation in the occupied West Bank on Friday it said would last several days and include searches and building demolitions, after gunmen killed two soldiers days ahead o",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
+      "title_url": "https://www.nbcnews.com/world/united-kingdom/british-police-received-allegations-meghans-father-2019-didnt-tell-for-rcna605369",
+      "category": "아시아",
+      "primary_source": "NBC News",
+      "excerpt": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sus",
+      "excerpt_en": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sus",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
       "translation_status": "failed",
-      "score": 89,
+      "score": 85,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 4,
         "time_score": 3,
-        "raw75": 67
+        "raw75": 64
       },
       "area_value": 4,
       "article_count": 4,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "Euronews",
-        "NPR",
-        "New York Times",
-        "SCMP"
+        "CBS News",
+        "Channel News Asia",
+        "NBC News",
+        "The Guardian"
       ],
-      "first_published_at": "2026-10-23T21:38:54+09:00",
-      "latest_published_at": "2026-10-24T14:31:04+09:00",
+      "first_published_at": "2026-10-24T13:34:19+09:00",
+      "latest_published_at": "2026-10-24T20:28:58+09:00",
       "articles": [
         {
-          "title": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
-          "published_at": "14:31"
+          "title": "UK police say 'claims' over Meghan Markle's dad not sent to other law enforcement",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/uk-police-say-claims-over-meghan-markles-dad-not-sent-other-law-enforcement-6489761",
+          "published_at": "20:28"
         },
         {
-          "title": "Israel launches major operation in West Bank after soldiers killed",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
-          "published_at": "07:00"
+          "title": "U.K. police confirm it received letter with claims against Meghan's father",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/uk-police-letter-claims-meghan-duchess-sussex-thomas-markle-allegations/",
+          "published_at": "16:56"
         },
         {
-          "title": "Palestinian Gunmen Open Fire on Israelis in the West Bank, Officials Say",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/23/world/middleeast/west-bank-shooting-israel.html",
-          "published_at": "04:42"
+          "title": "Met says it shared allegations about Meghan’s father with her but not other forces",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
+          "published_at": "13:52"
         },
         {
-          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "published_at": "21:38"
+          "title": "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/united-kingdom/british-police-received-allegations-meghans-father-2019-didnt-tell-for-rcna605369",
+          "published_at": "13:34"
         }
       ]
     },
     {
-      "id": "world-201",
-      "title": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
-      "title_en": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
+      "id": "world-141",
+      "title": "Suspect arrested after fire at Hitler’s mountain retreat",
+      "title_en": "Suspect arrested after fire at Hitler’s mountain retreat",
       "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/suspect-arrested-after-fire-at-nazis-wwii-eagles-nest-mountain-retreat-13602938",
+      "title_url": "https://www.bangkokpost.com/world/3342818/suspect-arrested-after-fire-at-hitlers-mountain-retreat",
       "category": "유럽",
-      "primary_source": "Sky News",
-      "excerpt": "Firefighters battled on Saturday to put out flames that tore through Adolf Hitler’s “Eagle’s Nest” mountain retreat while police detained a suspect who investigators said may have psychiatric problems",
-      "excerpt_en": "Firefighters battled on Saturday to put out flames that tore through Adolf Hitler’s “Eagle’s Nest” mountain retreat while police detained a suspect who investigators said may have psychiatric problems",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat",
+      "primary_source": "Bangkok Post",
+      "excerpt": "About 200 firefighters deployed to tackle blaze at former Nazi mountain retreat in remote part of southern Germany Police have arrested a 33-year-old German citizen after a fire ripped through Adolf H",
+      "excerpt_en": "About 200 firefighters deployed to tackle blaze at former Nazi mountain retreat in remote part of southern Germany Police have arrested a 33-year-old German citizen after a fire ripped through Adolf H",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
       "translation_status": "failed",
-      "score": 89,
+      "score": 84,
       "score_breakdown": {
-        "article_score": 25,
+        "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 4,
+      "article_count": 4,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 4,
       "sources": [
-        "ABC News Australia",
         "Bangkok Post",
         "CBS News",
         "Euronews",
-        "SCMP",
-        "Sky News",
-        "The Independent"
+        "The Guardian"
       ],
-      "first_published_at": "2026-10-24T04:15:00+09:00",
-      "latest_published_at": "2026-10-24T16:35:33+09:00",
+      "first_published_at": "2026-10-24T07:45:00+09:00",
+      "latest_published_at": "2026-10-24T14:28:15+09:00",
       "articles": [
         {
-          "title": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat",
-          "published_at": "16:35"
+          "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
+          "published_at": "14:28"
         },
         {
           "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
@@ -304,216 +362,15 @@
           "published_at": "14:03"
         },
         {
-          "title": "Person in custody after fire engulfs Hitler's retreat Eagle's Nest in Bavarian Alps",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/eagles-nest-germany-hitler-fire-b3072653.html",
-          "published_at": "10:35"
-        },
-        {
-          "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-24/hitler-mountain-resort-in-germany-fire-suspect-arrested/107305190",
-          "published_at": "09:16"
-        },
-        {
           "title": "Suspect arrested after fire at Hitler’s mountain retreat",
           "source_name": "Bangkok Post",
           "url": "https://www.bangkokpost.com/world/3342818/suspect-arrested-after-fire-at-hitlers-mountain-retreat",
           "published_at": "07:45"
-        },
-        {
-          "title": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/suspect-arrested-after-fire-at-nazis-wwii-eagles-nest-mountain-retreat-13602938",
-          "published_at": "04:15"
         }
       ]
     },
     {
-      "id": "world-87",
-      "title": "Helen Haines’s condition improves days after losing both legs from alleged attack",
-      "title_en": "Helen Haines’s condition improves days after losing both legs from alleged attack",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/australia-news/2026/oct/24/helen-hainess-condition-improves-days-after-losing-both-legs-from-alleged-attack-ntwnfb",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "Independent MP now serious but stable, according to update from Melbourne’s Alfred hospital Get our breaking news email , free app or daily news podcast Independent MP Helen Haines’s condition has bee",
-      "excerpt_en": "Independent MP now serious but stable, according to update from Melbourne’s Alfred hospital Get our breaking news email , free app or daily news podcast Independent MP Helen Haines’s condition has bee",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/oct/24/helen-hainess-condition-improves-days-after-losing-both-legs-from-alleged-attack-ntwnfb",
-      "translation_status": "failed",
-      "score": 88,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "BBC",
-        "The Guardian",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-24T00:41:29+09:00",
-      "latest_published_at": "2026-10-24T10:09:04+09:00",
-      "articles": [
-        {
-          "title": "Australian MP Helen Haines no longer in critical condition after alleged attack",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-attack-condition-australia-b3072636.html",
-          "published_at": "10:09"
-        },
-        {
-          "title": "Australian MP's condition improves after alleged car attack",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
-          "published_at": "01:55"
-        },
-        {
-          "title": "Rediscovering civility, respect and the art of disagreeing well",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-24/helen-haines-public-discourse-civility-respect-disagreeing/107301488",
-          "published_at": "00:58"
-        },
-        {
-          "title": "Helen Haines’s condition improves days after losing both legs from alleged attack",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/24/helen-hainess-condition-improves-days-after-losing-both-legs-from-alleged-attack-ntwnfb",
-          "published_at": "00:41"
-        }
-      ]
-    },
-    {
-      "id": "world-267",
-      "title": "Rubio urges Cubans to work with CIA to bring political change to communist-run island",
-      "title_en": "Rubio urges Cubans to work with CIA to bring political change to communist-run island",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.foxnews.com/world/rubio-urges-cubans-work-cia-bring-political-change-communist-run-island",
-      "category": "미국",
-      "primary_source": "Fox News",
-      "excerpt": "WASHINGTON - US Secretary of State Marco Rubio on Friday called for Cubans to make “discreet” contact with the American intelligence services as Washington seeks to force an end to the island’s commun",
-      "excerpt_en": "WASHINGTON - US Secretary of State Marco Rubio on Friday called for Cubans to make “discreet” contact with the American intelligence services as Washington seeks to force an end to the island’s commun",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3342774/rubio-urges-cubans-to-work-with-cia-but-discreetly",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Bangkok Post",
-        "CBS News",
-        "Euronews",
-        "Fox News"
-      ],
-      "first_published_at": "2026-10-23T23:43:20+09:00",
-      "latest_published_at": "2026-10-24T15:49:32+09:00",
-      "articles": [
-        {
-          "title": "Rubio calls on Cubans seeking \"positive change\" to work with CIA",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/rubio-cuban-work-with-cia/",
-          "published_at": "15:49"
-        },
-        {
-          "title": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
-          "published_at": "07:28"
-        },
-        {
-          "title": "Rubio urges Cubans to work with CIA, but discreetly",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3342774/rubio-urges-cubans-to-work-with-cia-but-discreetly",
-          "published_at": "02:32"
-        },
-        {
-          "title": "Rubio urges Cubans to work with CIA to bring political change to communist-run island",
-          "source_name": "Fox News",
-          "url": "https://www.foxnews.com/world/rubio-urges-cubans-work-cia-bring-political-change-communist-run-island",
-          "published_at": "23:43"
-        }
-      ]
-    },
-    {
-      "id": "world-80",
-      "title": "Ukraine’s military Starlink is working again, Kyiv says",
-      "title_en": "Ukraine’s military Starlink is working again, Kyiv says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/ukraines-military-starlink-is-working-again-kyiv-says-101792833819784.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Ukraine says Starlink satellite is back to operating at high speeds after restrictions disrupted Ukraine's military operations and intensified tensions with the US.",
-      "excerpt_en": "Ukraine says Starlink satellite is back to operating at high speeds after restrictions disrupted Ukraine's military operations and intensified tensions with the US.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-25/ukraine-says-starlink-operating-normal-speed/107305276",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News Australia",
-        "BBC",
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-24T10:00:41+09:00",
-      "latest_published_at": "2026-10-24T13:49:29+09:00",
-      "articles": [
-        {
-          "title": "Ukraine says Starlink speed restored after long disruption",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/",
-          "published_at": "13:49"
-        },
-        {
-          "title": "Ukraine says Starlink at normal speed after delays impede military",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-25/ukraine-says-starlink-operating-normal-speed/107305276",
-          "published_at": "13:09"
-        },
-        {
-          "title": "Ukraine says Starlink connection 'now stable' after network limits",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-          "published_at": "12:12"
-        },
-        {
-          "title": "Ukraine’s military Starlink is working again, Kyiv says",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/ukraines-military-starlink-is-working-again-kyiv-says-101792833819784.html",
-          "published_at": "10:00"
-        }
-      ]
-    },
-    {
-      "id": "world-62",
+      "id": "world-49",
       "title": "Four Philippine Air Force pilots killed after two trainer aircrafts crash in Batangas province",
       "title_en": "Four Philippine Air Force pilots killed after two trainer aircrafts crash in Batangas province",
       "title_source": "earliest_pick",
@@ -544,13 +401,13 @@
         "SCMP"
       ],
       "first_published_at": "2026-10-24T07:20:22+09:00",
-      "latest_published_at": "2026-10-24T14:00:19+09:00",
+      "latest_published_at": "2026-10-24T09:46:00+09:00",
       "articles": [
         {
           "title": "2 Philippine air force planes collide during a training flight, killing all 4 pilots",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcEo5akhfQVNkRlRuUUNZV1U3dVhlZThEclBrbmRhamp3MGJPem1MNl9XZ2lSWUtDUUt3bWZ0S2E0SWdxQ2lfZUk1djVBREN6VU5PRDlqcFVvd1RCQVktSVhuZWRWOHdEZFNwckVUdDVZQk5KVHJYdlJNeGpwX0V6V3N3R18wdUlGTE4tQ2pYTzc1YXVnMEVvTGcwT0VTbmp2UVE2NXdZZ3Vla3oxMmc?oc=5",
-          "published_at": "14:00"
+          "published_at": "09:46"
         },
         {
           "title": "4 pilots killed as two Philippine military aircraft collide mid-air near Manila",
@@ -573,115 +430,115 @@
       ]
     },
     {
-      "id": "world-144",
-      "title": "Macron condemns ‘racist terrorist attack’ after one killed and five injured in Paris shootings",
-      "title_en": "Macron condemns ‘racist terrorist attack’ after one killed and five injured in Paris shootings",
+      "id": "world-201",
+      "title": "Israel launches major operation in West Bank after soldiers killed",
+      "title_en": "Israel launches major operation in West Bank after soldiers killed",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/france-shootings-macron-racist-terror-attack-b3072518.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Adding to the tensions, France is reeling from a shooting that authorities are investigating as a potentially racist and Islamophobic terrorist attack. One person was killed and five others wounded in",
-      "excerpt_en": "Adding to the tensions, France is reeling from a shooting that authorities are investigating as a potentially racist and Islamophobic terrorist attack. One person was killed and five others wounded in",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/macron-condemns-racist-terrorist-attack-in-paris-suburb",
+      "title_url": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
+      "category": "중동",
+      "primary_source": "SCMP",
+      "excerpt": "Israel’s military launched an operation in the occupied West Bank on Friday it said would last several days and include searches and building demolitions, after gunmen killed two soldiers days ahead o",
+      "excerpt_en": "Israel’s military launched an operation in the occupied West Bank on Friday it said would last several days and include searches and building demolitions, after gunmen killed two soldiers days ahead o",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
       "translation_status": "failed",
-      "score": 76,
+      "score": 77,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
+        "time_score": 3,
+        "raw75": 58
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "France24",
-        "Sydney Morning Herald",
+        "Euronews",
+        "NBC News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-24T07:00:20+09:00",
+      "latest_published_at": "2026-10-24T20:00:00+09:00",
+      "articles": [
+        {
+          "title": "Bulldozers tear down home as Israel cracks down in the West Bank",
+          "source_name": "NBC News",
+          "url": "https://www.nbcnews.com/world/israel/bulldozers-tear-home-israel-cracks-west-bank-rcna605365",
+          "published_at": "20:00"
+        },
+        {
+          "title": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
+          "published_at": "14:31"
+        },
+        {
+          "title": "Israel launches major operation in West Bank after soldiers killed",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
+          "published_at": "07:00"
+        }
+      ]
+    },
+    {
+      "id": "world-222",
+      "title": "Ukraine’s military Starlink is working again, Kyiv says",
+      "title_en": "Ukraine’s military Starlink is working again, Kyiv says",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/ukraines-military-starlink-is-working-again-kyiv-says-101792833819784.html",
+      "category": "유럽",
+      "primary_source": "Hindustan Times",
+      "excerpt": "SpaceX's military-grade version of the Starlink internet service has become the backbone of Ukraine's drone operations.",
+      "excerpt_en": "SpaceX's military-grade version of the Starlink internet service has become the backbone of Ukraine's drone operations.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/",
+      "translation_status": "failed",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBS News",
+        "Hindustan Times",
         "The Independent"
       ],
-      "first_published_at": "2026-10-23T20:57:41+09:00",
-      "latest_published_at": "2026-10-24T13:21:02+09:00",
+      "first_published_at": "2026-10-24T10:00:41+09:00",
+      "latest_published_at": "2026-10-24T21:23:29+09:00",
       "articles": [
         {
-          "title": "Macron condemns racist terrorist attack in Paris suburb",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/macron-condemns-racist-terrorist-attack-in-paris-suburb",
-          "published_at": "13:21"
-        },
-        {
-          "title": "Deadly shootings outside Paris a ‘terrorist attack’, say police",
-          "source_name": "Sydney Morning Herald",
-          "url": "https://www.smh.com.au/world/europe/deadly-shooting-outside-paris-a-terrorist-attack-say-police-20261024-p6188o.html?ref=rss&utm_medium=rss&utm_source=rss_world",
-          "published_at": "01:39"
-        },
-        {
-          "title": "Macron condemns ‘racist terrorist attack’ after one killed and five injured in Paris shootings",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-shootings-macron-racist-terror-attack-b3072518.html",
-          "published_at": "20:57"
-        }
-      ]
-    },
-    {
-      "id": "world-59",
-      "title": "First Lady Melania Trump secures ceasefire for Ukrainian city",
-      "title_en": "First Lady Melania Trump secures ceasefire for Ukrainian city",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/nightly-news/video/first-lady-melania-trump-secures-ceasefire-for-ukrainian-city-272143941767",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "All sides are praising Melania Trump for securing a ceasefire for a war-torn Ukrainian city on the front lines to allow people there to evacuate. NBC News’ Chief Foreign Correspondent Richard Engel re",
-      "excerpt_en": "All sides are praising Melania Trump for securing a ceasefire for a war-torn Ukrainian city on the front lines to allow people there to evacuate. NBC News’ Chief Foreign Correspondent Richard Engel re",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/nightly-news/video/first-lady-melania-trump-secures-ceasefire-for-ukrainian-city-272143941767",
-      "translation_status": "failed",
-      "score": 75,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 56
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "CBS News",
-        "NBC News"
-      ],
-      "first_published_at": "2026-10-23T23:12:03+09:00",
-      "latest_published_at": "2026-10-24T02:12:09+09:00",
-      "articles": [
-        {
-          "title": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
+          "title": "Elon Musk says SpaceX throttled Ukraine Starlink speeds over drone strikes",
           "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/",
-          "published_at": "02:12"
+          "url": "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/",
+          "published_at": "21:23"
         },
         {
-          "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
-          "published_at": "01:17"
+          "title": "Ukraine-Russia war latest: Elon Musk accuses Kyiv of breaching Starlink rules in scathing rant over ‘drone attacks’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-oleshky-melania-trump-ceasefire-starlink-b3072649.html",
+          "published_at": "20:08"
         },
         {
-          "title": "First Lady Melania Trump secures ceasefire for Ukrainian city",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/nightly-news/video/first-lady-melania-trump-secures-ceasefire-for-ukrainian-city-272143941767",
-          "published_at": "23:12"
+          "title": "Ukraine’s military Starlink is working again, Kyiv says",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/ukraines-military-starlink-is-working-again-kyiv-says-101792833819784.html",
+          "published_at": "10:00"
         }
       ]
     },
     {
-      "id": "world-30",
+      "id": "world-40",
       "title": "Typhoon Champi sweeps past Taiwan, leaving 1 dead, 500 injured",
       "title_en": "Typhoon Champi sweeps past Taiwan, leaving 1 dead, 500 injured",
       "title_source": "earliest_pick",
@@ -693,14 +550,14 @@
       "excerpt_source": "DW",
       "excerpt_url": "https://www.dw.com/en/taiwan-typhoon-champi-leaves-1-dead-over-500-injured/a-79748221?maca=en-rss-en-all-1573-xml-mrss",
       "translation_status": "failed",
-      "score": 72,
+      "score": 71,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
+        "time_score": 1,
+        "raw75": 53
       },
       "area_value": 3,
       "article_count": 3,
@@ -735,125 +592,17 @@
       ]
     },
     {
-      "id": "world-171",
-      "title": "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
-      "title_en": "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
+      "id": "world-31",
+      "title": "North Korea's Kim crosses new bridge into China as trade ties warm",
+      "title_en": "North Korea's Kim crosses new bridge into China as trade ties warm",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/united-kingdom/british-police-received-allegations-meghans-father-2019-didnt-tell-for-rcna605369",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sus",
-      "excerpt_en": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sus",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
-      "translation_status": "failed",
-      "score": 72,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 54
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "NBC News",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-24T13:34:19+09:00",
-      "latest_published_at": "2026-10-24T13:52:58+09:00",
-      "articles": [
-        {
-          "title": "Met says it shared allegations about Meghan’s father with her but not other forces",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
-          "published_at": "13:52"
-        },
-        {
-          "title": "Met Police received letter about Meghan Markle's father in 2019",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-25/met-police-received-letter-about-meghan-markles-father/107305284",
-          "published_at": "13:42"
-        },
-        {
-          "title": "U.K. police received claims about Meghan’s father in 2019 but didn’t alert other forces",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/british-police-received-allegations-meghans-father-2019-didnt-tell-for-rcna605369",
-          "published_at": "13:34"
-        }
-      ]
-    },
-    {
-      "id": "world-67",
-      "title": "Kenya reports second Ebola death, a close relative of first patient",
-      "title_en": "Kenya reports second Ebola death, a close relative of first patient",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/africa/article/3371988/kenya-reports-second-ebola-death-close-relative-first-patient",
-      "category": "기타",
-      "primary_source": "SCMP",
-      "excerpt": "Kenya’s health ministry announced the country’s second Ebola death on Friday, saying a 65-year-old woman who was a close relative of the first patient died after developing symptoms while in quarantin",
-      "excerpt_en": "Kenya’s health ministry announced the country’s second Ebola death on Friday, saying a 65-year-old woman who was a close relative of the first patient died after developing symptoms while in quarantin",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/africa/article/3371988/kenya-reports-second-ebola-death-close-relative-first-patient",
-      "translation_status": "failed",
-      "score": 71,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 53
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "AP News",
-        "Hindustan Times",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-23T21:19:15+09:00",
-      "latest_published_at": "2026-10-24T02:07:00+09:00",
-      "articles": [
-        {
-          "title": "Kenya announces 2nd Ebola death, a close relative of the first patient",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkl0UEdpTXV6OFBma24xNHpldWI4Yk1lT2xjX0tlbElGMjZCSkNUNlZCQ1lhWUZYYVFCVHlvT01WZVRGRTVQVFg5U3hwM3B5SjNkNURfLW1QV1lOSUZfVWJheVc0dWlvdGNoU3dHc0owU1BzU0ZsMy1CLXVFcGVtZXB1MmJwV2Fma3otN21jUzhKVlBOMHMw?oc=5",
-          "published_at": "02:07"
-        },
-        {
-          "title": "Kenya confirms second Ebola death as cases rise to nine",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/kenya-confirms-second-ebola-death-as-cases-rise-to-nine-101792790621608.html",
-          "published_at": "21:46"
-        },
-        {
-          "title": "Kenya reports second Ebola death, a close relative of first patient",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3371988/kenya-reports-second-ebola-death-close-relative-first-patient",
-          "published_at": "21:19"
-        }
-      ]
-    },
-    {
-      "id": "world-13",
-      "title": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
-      "title_en": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzhtWHRXdTY3T1I4cld1ZUpvbGotRl9ySmtDd0Y4THhhLWMyYm9IQ1BwZWpHa3NDTnQtTGJYWm9IX01yUVhpNmE3OUtvSjJsUVJrQ3VPS1ktdllQWG1Xbno3SjBPT21CcTVDdkVIcHhDaVdoLVNEN3Z0QjF1Tm5HWHFQcTY0eEJGcnhYQTZrRk1tRG5PM01fbVJ6MXg5UGpMWTM4Vy1fcFRsQlMt?oc=5",
-      "category": "미국",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOTlLSVZQYy0tZFRieEJTYXU0WnM4NElhS29hMlJ4R3g1Mzl3Wmo4TzFRRlE1QXhsQ09SQWV0Uzg5LUdSdWpfdjI4LU1YSXRqY3pOSTEzbTA0cjdHM2MzVUpqbUdOSm13ZGZZdHN3VWlfbm1laGVQSmEtRklGaHhDejhUT2F4MUktamhqTS13ZHpNaERZekprMkp0TWdyX0t4bXhsOGJ1bUwzZw?oc=5",
+      "category": "아시아",
       "primary_source": "Reuters",
-      "excerpt": "Harris is rallying in Georgia, Mississippi, Nevada, New Hampshire and Wisconsin to help Democrats in tight midterm races, yet undecided on a 2028 run.",
-      "excerpt_en": "Harris is rallying in Georgia, Mississippi, Nevada, New Hampshire and Wisconsin to help Democrats in tight midterm races, yet undecided on a 2028 run.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/kamala-harris-returns-to-the-campaign-trail-for-tight-us-midterm-races-undecided-on-2028-101792843757424.html",
+      "excerpt": "The aims and outcomes of Kim's visit were murky, but China is North Korea's largest trading partner and a vital source of diplomatic, economic and political support for Pyongyang.",
+      "excerpt_en": "The aims and outcomes of Kim's visit were murky, but China is North Korea's largest trading partner and a vital source of diplomatic, economic and political support for Pyongyang.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/east-asia/north-koreas-kim-returns-home-after-visit-chinese-border-city-6489741",
       "translation_status": "failed",
       "score": 69,
       "score_breakdown": {
@@ -869,143 +618,35 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "Hindustan Times",
-        "Reuters",
-        "Times of India"
+        "Al Jazeera",
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-24T12:48:36+09:00",
-      "latest_published_at": "2026-10-24T14:53:23+09:00",
+      "first_published_at": "2026-10-24T06:17:00+09:00",
+      "latest_published_at": "2026-10-24T19:48:02+09:00",
       "articles": [
         {
-          "title": "Kamala Harris returns to the campaign trail for tight US midterm races, undecided on 2028",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/kamala-harris-returns-to-the-campaign-trail-for-tight-us-midterm-races-undecided-on-2028-101792843757424.html",
-          "published_at": "14:53"
+          "title": "North Korea's Kim returns home after visit to Chinese border city",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/north-koreas-kim-returns-home-after-visit-chinese-border-city-6489741",
+          "published_at": "19:48"
         },
         {
-          "title": "Kamala Harris returns to campaign trail for US midterms amid speculation over 2028 presidential bid",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/kamala-harris-returns-to-campaign-trail-for-us-midterms-amid-speculation-over-2028-presidential-bid/articleshow/135172049.cms",
-          "published_at": "13:59"
+          "title": "Kim Jong Un crosses new bridge linking North Korea and China",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss",
+          "published_at": "18:00"
         },
         {
-          "title": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
+          "title": "North Korea's Kim crosses new bridge into China as trade ties warm",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzhtWHRXdTY3T1I4cld1ZUpvbGotRl9ySmtDd0Y4THhhLWMyYm9IQ1BwZWpHa3NDTnQtTGJYWm9IX01yUVhpNmE3OUtvSjJsUVJrQ3VPS1ktdllQWG1Xbno3SjBPT21CcTVDdkVIcHhDaVdoLVNEN3Z0QjF1Tm5HWHFQcTY0eEJGcnhYQTZrRk1tRG5PM01fbVJ6MXg5UGpMWTM4Vy1fcFRsQlMt?oc=5",
-          "published_at": "12:48"
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOTlLSVZQYy0tZFRieEJTYXU0WnM4NElhS29hMlJ4R3g1Mzl3Wmo4TzFRRlE1QXhsQ09SQWV0Uzg5LUdSdWpfdjI4LU1YSXRqY3pOSTEzbTA0cjdHM2MzVUpqbUdOSm13ZGZZdHN3VWlfbm1laGVQSmEtRklGaHhDejhUT2F4MUktamhqTS13ZHpNaERZekprMkp0TWdyX0t4bXhsOGJ1bUwzZw?oc=5",
+          "published_at": "06:17"
         }
       ]
     },
     {
-      "id": "world-61",
-      "title": "Fire breaks out at Kehlsteinhaus, Hitler's former mountaintop retreat in Germany",
-      "title_en": "Fire breaks out at Kehlsteinhaus, Hitler's former mountaintop retreat in Germany",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/fire-breaks-out-at-kehlsteinhaus-hitlers-eagles-nest-retreat-in-germany-101792794016959.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "A fire has swept through the mountaintop retreat built for Adolf Hitler and known as the Eagle’s Nest as emergency services struggled to tackle the blaze in snow and wind",
-      "excerpt_en": "A fire has swept through the mountaintop retreat built for Adolf Hitler and known as the Eagle’s Nest as emergency services struggled to tackle the blaze in snow and wind",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-23T22:26:53+09:00",
-      "latest_published_at": "2026-10-24T15:47:32+09:00",
-      "articles": [
-        {
-          "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
-          "published_at": "15:47"
-        },
-        {
-          "title": "A fire devastates the Eagle’s Nest retreat built for Hitler in Germany. A suspect is detained",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX3ZLRkl4Y2Jla2ZCdW90UzZ1aHJuTl9xVjZpSGdQb2xzTDdsRFVEeURDTUJvaVQwbGU2bEFNQ21oMlJqMVFZYWc0dUZiQy1yMWQzUnBhWmZXNzFHWUdpVU1ndHdBTHZIUDFybWNZbGx2QWdRQ2VrNlgwZlMtNWxQc2dCa2U4bmxUdXl1bXhGaUlVZW5OU3RmZnFFVW5LdnpsQUdxZGZkTEpqMm54TVpB?oc=5",
-          "published_at": "14:03"
-        },
-        {
-          "title": "Fire breaks out at Kehlsteinhaus, Hitler's former mountaintop retreat in Germany",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/fire-breaks-out-at-kehlsteinhaus-hitlers-eagles-nest-retreat-in-germany-101792794016959.html",
-          "published_at": "22:26"
-        }
-      ]
-    },
-    {
-      "id": "world-74",
-      "title": "Tsunami warning for Vanuatu canceled after 7.2 magnitude earthquake",
-      "title_en": "Tsunami warning for Vanuatu canceled after 7.2 magnitude earthquake",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/vanuatu-earthquake-with-6-9-magnitude-triggers-tsunami-warning-us-monitor-101792814392206.html",
-      "category": "미국",
-      "primary_source": "Hindustan Times",
-      "excerpt": "A preliminary magnitude 6.9 earthquake has hit off the coast of Vanuatu Saturday, according to the U.S. Geological Survey, prompting a tsunami warning for the area that was later rescinded",
-      "excerpt_en": "A preliminary magnitude 6.9 earthquake has hit off the coast of Vanuatu Saturday, according to the U.S. Geological Survey, prompting a tsunami warning for the area that was later rescinded",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
-      "translation_status": "failed",
-      "score": 68,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 51
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News",
-        "AP News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-24T04:13:31+09:00",
-      "latest_published_at": "2026-10-24T05:38:21+09:00",
-      "articles": [
-        {
-          "title": "Preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/preliminary-magnitude-69-earthquake-hits-off-coast-vanuatu-137531764",
-          "published_at": "05:38"
-        },
-        {
-          "title": "A preliminary magnitude 6.9 earthquake hits off the coast of Vanuatu",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRGNFRlVtTXd1WEY5R1VKLU9MeElnSzJhZC1Yb2RfaWF6dEVBem9uLWlWSXItYXp3a2hMOVZPWmwyT2x6bnFTRDhlcWM0QzFMNVNVS2JrRTdfR0Ewd1puWTBQdEo1c3MyTVdLal9lVV9KWDlaSUV6cnRyUmcydFRPQUxxX2lfYjdwUDNzQTlvaGxldURWVVE?oc=5",
-          "published_at": "04:46"
-        },
-        {
-          "title": "Tsunami warning for Vanuatu canceled after 7.2 magnitude earthquake",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/vanuatu-earthquake-with-6-9-magnitude-triggers-tsunami-warning-us-monitor-101792814392206.html",
-          "published_at": "04:13"
-        }
-      ]
-    },
-    {
-      "id": "world-125",
+      "id": "world-105",
       "title": "In besieged Yemeni city, drinking water supplies hit crisis levels",
       "title_en": "In besieged Yemeni city, drinking water supplies hit crisis levels",
       "title_source": "earliest_pick",
@@ -1059,7 +700,115 @@
       ]
     },
     {
-      "id": "world-280",
+      "id": "world-118",
+      "title": "Musk says he was behind Starlink speed restriction in Ukraine",
+      "title_en": "Musk says he was behind Starlink speed restriction in Ukraine",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/ukraine-starlink-satellite-restored-9.7394719?cmp=rss",
+      "category": "유럽",
+      "primary_source": "CBC",
+      "excerpt": "Elon Musk said on Saturday that his company SpaceX had throttled the Starlink satellite internet service in Ukraine, disrupting operations that the country relies on to defend itself against Russia. M",
+      "excerpt_en": "Elon Musk said on Saturday that his company SpaceX had throttled the Starlink satellite internet service in Ukraine, disrupting operations that the country relies on to defend itself against Russia. M",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "CBC",
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-24T16:15:24+09:00",
+      "latest_published_at": "2026-10-24T18:37:05+09:00",
+      "articles": [
+        {
+          "title": "“Witkoff should step down” says Ukraine Committee Chief",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261024-witkoff-should-step-down-says-ukraine-committee-chief",
+          "published_at": "18:37"
+        },
+        {
+          "title": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
+          "published_at": "18:00"
+        },
+        {
+          "title": "Musk says he was behind Starlink speed restriction in Ukraine",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/ukraine-starlink-satellite-restored-9.7394719?cmp=rss",
+          "published_at": "16:15"
+        }
+      ]
+    },
+    {
+      "id": "world-136",
+      "title": "Bahamas police investigate after British woman dies trying to rescue sons",
+      "title_en": "Bahamas police investigate after British woman dies trying to rescue sons",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
+      "category": "중동",
+      "primary_source": "Sky News",
+      "excerpt": "Mother, 36, died after current off North Bimini reportedly swept away two boys, who were later rescued, police say A British woman has died in the Bahamas while trying to rescue her two sons after a c",
+      "excerpt_en": "Mother, 36, died after current off North Bimini reportedly swept away two boys, who were later rescued, police say A British woman has died in the Bahamas while trying to rescue her two sons after a c",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Sky News",
+        "The Guardian",
+        "Times of India"
+      ],
+      "first_published_at": "2026-10-24T09:25:00+09:00",
+      "latest_published_at": "2026-10-24T17:03:09+09:00",
+      "articles": [
+        {
+          "title": "British woman dies trying to rescue sons swept away by strong current while snorkelling in Bahamas",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/uk/british-woman-dies-trying-to-rescue-sons-swept-away-by-strong-current-while-snorkelling-in-bahamas/articleshow/135174454.cms",
+          "published_at": "17:03"
+        },
+        {
+          "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
+          "published_at": "09:43"
+        },
+        {
+          "title": "Bahamas police investigate after British woman dies trying to rescue sons",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
+          "published_at": "09:25"
+        }
+      ]
+    },
+    {
+      "id": "world-266",
       "title": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns",
       "title_en": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns",
       "title_source": "earliest_pick",
@@ -1113,70 +862,17 @@
       ]
     },
     {
-      "id": "world-159",
-      "title": "Jordon Steele-John’s position remains in limbo as Greens prepare for moment in spotlight",
-      "title_en": "Jordon Steele-John’s position remains in limbo as Greens prepare for moment in spotlight",
+      "id": "world-11",
+      "title": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
+      "title_en": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/australia-news/2026/oct/23/jordan-steele-john-in-limbo-greens-misconduct-allegations-ntwnfb",
-      "category": "아시아",
-      "primary_source": "The Guardian",
-      "excerpt": "WA politician says he considered attending Senate estimates virtually but was told it would be ‘unacceptable’ Get our new political email , free app or daily news podcast Jordon Steele-John has confir",
-      "excerpt_en": "WA politician says he considered attending Senate estimates virtually but was told it would be ‘unacceptable’ Get our new political email , free app or daily news podcast Jordon Steele-John has confir",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/australia-news/2026/oct/24/greens-senator-jordon-steele-john-confirms-leave-from-parliament-ntwnfb",
-      "translation_status": "failed",
-      "score": 64,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
-        "raw75": 48
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Guardian"
-      ],
-      "first_published_at": "2026-10-23T22:41:46+09:00",
-      "latest_published_at": "2026-10-24T00:52:33+09:00",
-      "articles": [
-        {
-          "title": "Embattled Greens senator Jordon Steele-John confirms leave from parliament after allegations against him made public",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/24/greens-senator-jordon-steele-john-confirms-leave-from-parliament-ntwnfb",
-          "published_at": "00:52"
-        },
-        {
-          "title": "WA Greens senator to miss parliament amid allegations",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-24/wa-greens-senator-jordon-steele-john-will-not-attend-parliament/107304512",
-          "published_at": "00:43"
-        },
-        {
-          "title": "Jordon Steele-John’s position remains in limbo as Greens prepare for moment in spotlight",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/oct/23/jordan-steele-john-in-limbo-greens-misconduct-allegations-ntwnfb",
-          "published_at": "22:41"
-        }
-      ]
-    },
-    {
-      "id": "world-16",
-      "title": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
-      "title_en": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd0xVa2UzLXppdXQ4c2xJaWNFcUlFWWswS3NYT0ZwQkZ3by1HNGJTakpQTDdUYzhSTUpwUHMzRnMtRzNEWmhieTJqTjZOdTlUN3c3YlNFMHVGd2V5RUZUcXNnbXFMMTlQLVBsRXNUT0ZndHM5SmswcFE5U0dCRlBnMndsNnRIQk00OXhIMnFzVDlSTWVVUjJGNkdnUFprRXBhY01RdnJFcnUzb1pzMDd4Ri1nUUdJdw?oc=5",
       "category": "중동",
       "primary_source": "Reuters",
-      "excerpt": "Houthi media reported that Saudi strikes killed 11 people in Yemeni capital Sanaa on Saturday, shortly after the Saudi-led coalition fighting them said it had intercepted two missiles targeting Saudi ",
-      "excerpt_en": "Houthi media reported that Saudi strikes killed 11 people in Yemeni capital Sanaa on Saturday, shortly after the Saudi-led coalition fighting them said it had intercepted two missiles targeting Saudi ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3372035/saudi-strikes-kill-11-yemen-houthi-missiles-target-saudi-cities",
+      "excerpt": "Tehran warns that even limited strikes would trigger a response 'several times greater'.",
+      "excerpt_en": "Tehran warns that even limited strikes would trigger a response 'several times greater'.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
       "translation_status": "failed",
       "score": 63,
       "score_breakdown": {
@@ -1192,28 +888,81 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Reuters",
-        "SCMP"
+        "Al Jazeera",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-24T10:07:59+09:00",
-      "latest_published_at": "2026-10-24T14:33:12+09:00",
+      "first_published_at": "2026-10-24T13:27:12+09:00",
+      "latest_published_at": "2026-10-24T21:30:11+09:00",
       "articles": [
         {
-          "title": "Saudi strikes kill 11 in Yemen as Houthi missiles target Saudi cities",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3372035/saudi-strikes-kill-11-yemen-houthi-missiles-target-saudi-cities",
-          "published_at": "14:33"
+          "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+          "published_at": "21:30"
         },
         {
-          "title": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
+          "title": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5",
-          "published_at": "10:07"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd0xVa2UzLXppdXQ4c2xJaWNFcUlFWWswS3NYT0ZwQkZ3by1HNGJTakpQTDdUYzhSTUpwUHMzRnMtRzNEWmhieTJqTjZOdTlUN3c3YlNFMHVGd2V5RUZUcXNnbXFMMTlQLVBsRXNUT0ZndHM5SmswcFE5U0dCRlBnMndsNnRIQk00OXhIMnFzVDlSTWVVUjJGNkdnUFprRXBhY01RdnJFcnUzb1pzMDd4Ri1nUUdJdw?oc=5",
+          "published_at": "13:27"
         }
       ]
     },
     {
-      "id": "world-249",
+      "id": "world-228",
+      "title": "The European cities facing more protests from Paris to Milan as cost of living crisis bites",
+      "title_en": "The European cities facing more protests from Paris to Milan as cost of living crisis bites",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/protests-france-italy-portugal-spain-albania-serbia-students-latest-b3072235.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Nigerian President Bola Tinubu has launched his reelection campaign during a cost-of-living crisis and a fractured opposition",
+      "excerpt_en": "Nigerian President Bola Tinubu has launched his reelection campaign during a cost-of-living crisis and a fractured opposition",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/nigerian-president-launches-reelection-bid-cost-living-crisis-137541806",
+      "translation_status": "failed",
+      "score": 63,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 47
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-24T07:52:32+09:00",
+      "latest_published_at": "2026-10-24T19:51:54+09:00",
+      "articles": [
+        {
+          "title": "Nigerian president launches reelection bid during a cost-of-living crisis and a fractured opposition",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/nigerian-president-launches-reelection-bid-cost-living-crisis-137541806",
+          "published_at": "19:51"
+        },
+        {
+          "title": "Halloween candy sales drop as cost of living crisis bites American households",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/halloween-candy-sales-low-inflation-cost-b3072743.html",
+          "published_at": "16:27"
+        },
+        {
+          "title": "The European cities facing more protests from Paris to Milan as cost of living crisis bites",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/protests-france-italy-portugal-spain-albania-serbia-students-latest-b3072235.html",
+          "published_at": "07:52"
+        }
+      ]
+    },
+    {
+      "id": "world-234",
       "title": "Melania accused of hogging all the credit and ignoring Pope Leo’s role in securing Ukraine ceasefire",
       "title_en": "Melania accused of hogging all the credit and ignoring Pope Leo’s role in securing Ukraine ceasefire",
       "title_source": "earliest_pick",
@@ -1225,14 +974,14 @@
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/melania-trump-pope-leo-ukraine-ceasefire-b3072693.html",
       "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
@@ -1260,195 +1009,54 @@
       ]
     },
     {
-      "id": "world-9",
-      "title": "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit",
-      "title_en": "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit",
+      "id": "world-47",
+      "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in",
+      "title_en": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVlneFRqcVJHMTZlOGpILW51QW1qWXBtVHd3aFpRZGRjT1NDUnVaUW9US2dMTUg2SGp0SGx4YjFENFZQYjVKamhPemJoYlpNQzlHS0E1ZTBHZnlwOXE2OVVJS0NqcFpCaGFuQ3lqUjZxalpSZkVzRUhTOEEzSk9jZTBhSVRuZUZreWtkWkJULXplX2VZMV9KRlN4SklZb0ZlVnhPZVRRMDNoWEdSanlPbEI3SGxSZmI3ZER6X2NneHFwMjNkUS1Dc1lid1ZPa1h1RURSTXFOX0JOSEE?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit Reuters",
-      "excerpt_en": "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVlneFRqcVJHMTZlOGpILW51QW1qWXBtVHd3aFpRZGRjT1NDUnVaUW9US2dMTUg2SGp0SGx4YjFENFZQYjVKamhPemJoYlpNQzlHS0E1ZTBHZnlwOXE2OVVJS0NqcFpCaGFuQ3lqUjZxalpSZkVzRUhTOEEzSk9jZTBhSVRuZUZreWtkWkJULXplX2VZMV9KRlN4SklZb0ZlVnhPZVRRMDNoWEdSanlPbEI3SGxSZmI3ZER6X2NneHFwMjNkUS1Dc1lid1ZPa1h1RURSTXFOX0JOSEE?oc=5",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-24T10:58:24+09:00",
-      "latest_published_at": "2026-10-24T11:15:21+09:00",
-      "articles": [
-        {
-          "title": "Ukraine-Russia war latest: Explosions rock Russian petrochemical plant hit by drone strike",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-oleshky-melania-trump-ceasefire-starlink-b3072649.html",
-          "published_at": "11:15"
-        },
-        {
-          "title": "Russia says drone attack damages Togliatti facilities, Ukraine says petrochemical plant hit",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVlneFRqcVJHMTZlOGpILW51QW1qWXBtVHd3aFpRZGRjT1NDUnVaUW9US2dMTUg2SGp0SGx4YjFENFZQYjVKamhPemJoYlpNQzlHS0E1ZTBHZnlwOXE2OVVJS0NqcFpCaGFuQ3lqUjZxalpSZkVzRUhTOEEzSk9jZTBhSVRuZUZreWtkWkJULXplX2VZMV9KRlN4SklZb0ZlVnhPZVRRMDNoWEdSanlPbEI3SGxSZmI3ZER6X2NneHFwMjNkUS1Dc1lid1ZPa1h1RURSTXFOX0JOSEE?oc=5",
-          "published_at": "10:58"
-        }
-      ]
-    },
-    {
-      "id": "world-76",
-      "title": "Man killed in suspected racist attack near Paris identified as martial arts fighter",
-      "title_en": "Man killed in suspected racist attack near Paris identified as martial arts fighter",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2prYW8takQzZVliTHhrQVJGTmVlbDBSNkJFVzVlLWpyVkZvU1pNM05fWWpXNFY3NzZOZzlqUHJIMVplQV80eVJHemh4Y01VTkVpbGR6RFdnaWExdDlZR3BETWdVZEMwYXh6MUVyRDVPTVNjOTh2dE1MZndxSXNPbWdkMDBZZFlO?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
       "category": "유럽",
       "primary_source": "AP News",
-      "excerpt": "An amateur mixed martial arts fighter was the man killed in Friday’s shooting rampage near Paris, his club said, identifying the victim of what French President Emmanuel Macron called a racist terror ",
-      "excerpt_en": "An amateur mixed martial arts fighter was the man killed in Friday’s shooting rampage near Paris, his club said, identifying the victim of what French President Emmanuel Macron called a racist terror ",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/man-killed-suspected-racist-attack-paris-identified-martial-137533911",
+      "excerpt": "First lady Melania Trump's office says she secured a localized ceasefire for the Russian-occupied Ukrainian city of Oleshky.",
+      "excerpt_en": "First lady Melania Trump's office says she secured a localized ceasefire for the Russian-occupied Ukrainian city of Oleshky.",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/",
       "translation_status": "failed",
-      "score": 61,
+      "score": 60,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
+        "time_score": 1,
+        "raw75": 45
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "AP News"
+        "AP News",
+        "CBS News"
       ],
-      "first_published_at": "2026-10-24T09:18:00+09:00",
-      "latest_published_at": "2026-10-24T09:39:11+09:00",
+      "first_published_at": "2026-10-24T01:17:00+09:00",
+      "latest_published_at": "2026-10-24T02:12:09+09:00",
       "articles": [
         {
-          "title": "Man killed in suspected racist attack near Paris identified as martial arts fighter",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/man-killed-suspected-racist-attack-paris-identified-martial-137533911",
-          "published_at": "09:39"
+          "title": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/",
+          "published_at": "02:12"
         },
         {
-          "title": "Man killed in suspected racist attack near Paris identified as martial arts fighter",
+          "title": "Melania Trump brokers a ceasefire deal in Russian-occupied Ukrainian city to get relief aid in",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2prYW8takQzZVliTHhrQVJGTmVlbDBSNkJFVzVlLWpyVkZvU1pNM05fWWpXNFY3NzZOZzlqUHJIMVplQV80eVJHemh4Y01VTkVpbGR6RFdnaWExdDlZR3BETWdVZEMwYXh6MUVyRDVPTVNjOTh2dE1MZndxSXNPbWdkMDBZZFlO?oc=5",
-          "published_at": "09:18"
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkNRM3hJTVJkUGxjNjB3QmhSd2FSb2JHZkZtTjVNdzNWeHJ4QkpwdEd0cWttQjg0ZmVSQUtCV0JHTFRCeTd3NGJITy1ybDRTQzB4ZkhEdDEtRkRhcUZrWHdONWJZZFlBbGV5YmhkbDh5LTlaZm9jelQ3Y2FWOEcxUlhLZE5yX2c4dVhSZlYyVDUtVllza2ZLLTVXQ2RCN093aGJlRmc4RU9jcHZROVRv?oc=5",
+          "published_at": "01:17"
         }
       ]
     },
     {
-      "id": "world-121",
-      "title": "Iranian plots to target US diplomats reach ‘advanced stages’, extend beyond Middle East: Report",
-      "title_en": "Iranian plots to target US diplomats reach ‘advanced stages’, extend beyond Middle East: Report",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/iranian-plots-to-target-us-diplomats-reach-advanced-stages-extend-beyond-middle-east-report-101792803306141.html",
-      "category": "중동",
-      "primary_source": "Hindustan Times",
-      "excerpt": "As per a memo obtained by Axios, some of the suspected Iranian plots involving potential loss of life have progressed to advanced stages.",
-      "excerpt_en": "As per a memo obtained by Axios, some of the suspected Iranian plots involving potential loss of life have progressed to advanced stages.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/iranian-plots-to-target-us-diplomats-reach-advanced-stages-extend-beyond-middle-east-report-101792803306141.html",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-24T02:33:45+09:00",
-      "latest_published_at": "2026-10-24T12:51:21+09:00",
-      "articles": [
-        {
-          "title": "Is Iran planning attacks on Americans; why is the US on alert?",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
-          "published_at": "12:51"
-        },
-        {
-          "title": "Iranian plots to target US diplomats reach ‘advanced stages’, extend beyond Middle East: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/iranian-plots-to-target-us-diplomats-reach-advanced-stages-extend-beyond-middle-east-report-101792803306141.html",
-          "published_at": "02:33"
-        }
-      ]
-    },
-    {
-      "id": "world-260",
-      "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-      "title_en": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
-      "category": "기타",
-      "primary_source": "ABC News Australia",
-      "excerpt": "A tsunami warning has been issued after two large earthquakes struck off the coast of Vanuatu.",
-      "excerpt_en": "A tsunami warning has been issued after two large earthquakes struck off the coast of Vanuatu.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News Australia",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-24T04:31:41+09:00",
-      "latest_published_at": "2026-10-24T08:21:23+09:00",
-      "articles": [
-        {
-          "title": "Two powerful earthquakes strike off coast of Vanuatu",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/vanuatu-earthquake-tsunami-warning-magnitude-b3072604.html",
-          "published_at": "08:21"
-        },
-        {
-          "title": "Two large earthquakes off coast of Vanuatu prompt tsunami warning",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-24/two-large-earthquakes-strike-off-coast-of-vanuatu/107304900",
-          "published_at": "04:31"
-        }
-      ]
-    },
-    {
-      "id": "world-241",
+      "id": "world-227",
       "title": "A Bulgarian sports official and former member of European Parliament shot dead",
       "title_en": "A Bulgarian sports official and former member of European Parliament shot dead",
       "title_source": "earliest_pick",
@@ -1460,14 +1068,14 @@
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/bulgarian-sports-official-former-member-european-parliament-shot-137534575",
       "translation_status": "failed",
-      "score": 59,
+      "score": 57,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "time_score": 2,
+        "raw75": 43
       },
       "area_value": 2,
       "article_count": 2,
@@ -1495,72 +1103,25 @@
       ]
     },
     {
-      "id": "world-256",
-      "title": "10/23: CBS Evening News",
-      "title_en": "10/23: CBS Evening News",
+      "id": "world-120",
+      "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
+      "title_en": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
       "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/102326-cbs-evening-news/",
-      "category": "기타",
-      "primary_source": "CBS News",
-      "excerpt": "This dad stopped the Oregon school shooting; Officer who fatally shot 1-year-old resigns.",
-      "excerpt_en": "This dad stopped the Oregon school shooting; Officer who fatally shot 1-year-old resigns.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/102326-cbs-evening-news/",
-      "translation_status": "failed",
-      "score": 57,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 43
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-23T22:30:00+09:00",
-      "latest_published_at": "2026-10-24T10:13:45+09:00",
-      "articles": [
-        {
-          "title": "Police officer who fatally shot 1-year-old in car in Mississippi resigns",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/hunter-foster-resigns-kohen-wiley-shooting-b3072404.html",
-          "published_at": "10:13"
-        },
-        {
-          "title": "10/23: CBS Evening News",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/102326-cbs-evening-news/",
-          "published_at": "22:30"
-        }
-      ]
-    },
-    {
-      "id": "world-66",
-      "title": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
-      "title_en": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNdmVtMEVFc1NYVm5sUUp2eGtUTXk3LUU0RlMxYnVONXd5TmpOeThfS1VqaE9RR3dQNDNBSmloU2JOUm5rYXZSZEwyWDNfenZrcnE3QUhpak84LWdSRG1MNHBlRU9VM0tZVWRpazlpNmVjTE5kUzJ4QQ?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "Rescuers are searching for survivors after a magnitude-7 earthquake left 16 people dead in China's Tibet.",
-      "excerpt_en": "Rescuers are searching for survivors after a magnitude-7 earthquake left 16 people dead in China's Tibet.",
-      "excerpt_source": "ABC News Australia",
-      "excerpt_url": "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
+      "title_url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+      "category": "중동",
+      "primary_source": "France24",
+      "excerpt": "Yemen’s Iran-allied Houthi rebels said they launched attacks at Saudi oil facilities and airports on Saturday while Yemen’s Saudi-backed government ​said the ‌group also fired three ballistic missiles",
+      "excerpt_en": "Yemen’s Iran-allied Houthi rebels said they launched attacks at Saudi oil facilities and airports on Saturday while Yemen’s Saudi-backed government ​said the ‌group also fired three ballistic missiles",
+      "excerpt_source": "France24",
+      "excerpt_url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
       "translation_status": "failed",
       "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
         "raw75": 42
       },
       "area_value": 2,
@@ -1569,121 +1130,215 @@
       "source_count": 2,
       "sources": [
         "ABC News Australia",
+        "France24"
+      ],
+      "first_published_at": "2026-10-24T17:50:25+09:00",
+      "latest_published_at": "2026-10-24T19:25:25+09:00",
+      "articles": [
+        {
+          "title": "Houthis claim 'phases' of attacks on Saudi airports, oil pipelines",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-10-25/houthis-claim-attacks-on-saudi-airports-oil-pipelines/107305824",
+          "published_at": "19:25"
+        },
+        {
+          "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+          "published_at": "17:50"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "Belgian protesters and police skirmish at anti-government demonstrations in Brussels",
+      "title_en": "Belgian protesters and police skirmish at anti-government demonstrations in Brussels",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWRmTGozX08xMlVRbHEtbWNESTBRVUg5eVNVR2dJTnh2UTNoU1F1aktWc2FYZVh6N0hkcFJxN05OS1hmNmQzLWZZODBIVFRBYlQ1SG5BUzJvUUdxMmFsRWJlcFdlR3pSRTdJT0pDWk1XYUl6UENiTzNja0ExT0VFbWZvU01iTmpjY0R4bnF1RmRscUtDSnJUQTFJeUtLeF9BZ2kzcWxQOGlOZUhyUThmY29IOTY5eWc?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Belgian police used pepper spray and tear gas during confrontations in Brussels with anti-government protesters on Saturday",
+      "excerpt_en": "Belgian police used pepper spray and tear gas during confrontations in Brussels with anti-government protesters on Saturday",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-24T16:06:20+09:00",
+      "latest_published_at": "2026-10-24T19:38:31+09:00",
+      "articles": [
+        {
+          "title": "Protesters clash with police in Paris as demonstrations turn hostile across France",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/paris-france-protests-riots-trade-unions-b3072794.html",
+          "published_at": "19:38"
+        },
+        {
+          "title": "Belgian protesters and police skirmish at anti-government demonstrations in Brussels",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWRmTGozX08xMlVRbHEtbWNESTBRVUg5eVNVR2dJTnh2UTNoU1F1aktWc2FYZVh6N0hkcFJxN05OS1hmNmQzLWZZODBIVFRBYlQ1SG5BUzJvUUdxMmFsRWJlcFdlR3pSRTdJT0pDWk1XYUl6UENiTzNja0ExT0VFbWZvU01iTmpjY0R4bnF1RmRscUtDSnJUQTFJeUtLeF9BZ2kzcWxQOGlOZUhyUThmY29IOTY5eWc?oc=5",
+          "published_at": "16:06"
+        }
+      ]
+    },
+    {
+      "id": "world-6",
+      "title": "China urges US to halt proposed expansion of outbound investment curbs",
+      "title_en": "China urges US to halt proposed expansion of outbound investment curbs",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3V2bWpZckhlWExlaDZRLTR0NG1MY3l4NmpfZzJCUkVpSkJGblR1S0RScmxSa2tWWVhtZFdBNzkyc0ZaUnlDU2lVNEh3WUpUTkw3d0tIdGlzeTNrRnpWNFhiUk9xTEw4bENXWmxuRlRYTXQtU2N4MXRLVURsUkVxYUpGMks3R0hUaXA4eUZHSXNBWXRLRUN4VVkyVW5WQlBVUFo1dnRSVGxPYmxqMXRXUnVn?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "Beijing said the proposal would damage bilateral economic ties with the United States.",
+      "excerpt_en": "Beijing said the proposal would damage bilateral economic ties with the United States.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/china-urges-us-halt-proposed-expansion-outbound-investment-curbs-6489791",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-24T13:51:55+09:00",
+      "latest_published_at": "2026-10-24T21:09:22+09:00",
+      "articles": [
+        {
+          "title": "China urges US to halt proposed expansion of outbound investment curbs",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/china-urges-us-halt-proposed-expansion-outbound-investment-curbs-6489791",
+          "published_at": "21:09"
+        },
+        {
+          "title": "China urges US to halt proposed expansion of outbound investment curbs",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3V2bWpZckhlWExlaDZRLTR0NG1MY3l4NmpfZzJCUkVpSkJGblR1S0RScmxSa2tWWVhtZFdBNzkyc0ZaUnlDU2lVNEh3WUpUTkw3d0tIdGlzeTNrRnpWNFhiUk9xTEw4bENXWmxuRlRYTXQtU2N4MXRLVURsUkVxYUpGMks3R0hUaXA4eUZHSXNBWXRLRUN4VVkyVW5WQlBVUFo1dnRSVGxPYmxqMXRXUnVn?oc=5",
+          "published_at": "13:51"
+        }
+      ]
+    },
+    {
+      "id": "world-18",
+      "title": "Ukraine says Starshield back to normal, Musk says Kyiv violated terms",
+      "title_en": "Ukraine says Starshield back to normal, Musk says Kyiv violated terms",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVklsWE9QVlFHcHRES2xGTXNTVEtudENYZTR6aFRMZmVuaENzXzBCb0twTjdadFhWY3V3Nkw4aWZTLVJmYjF4OTVmR0haOERYVGlFSFB0a1lsQUUyVDM2UF9lZ3QyeTJ3QzVGN0J0eEF5UEsyanhKaUNHZmpaZnA1eVFsWkVKdHhkdVJjTWZrSGtHOHN0aC1JN0JkbTByTE1vaG5vc2dPWUswNkZxYTN3aFV2WkJZbVlwNlJtZU1R?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Starshield's problems occurred after US President Donald Trump announced a deal to buy Russian diesel while pressing Kyiv to stop striking Russian oil refineries.",
+      "excerpt_en": "Starshield's problems occurred after US President Donald Trump announced a deal to buy Russian diesel while pressing Kyiv to stop striking Russian oil refineries.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/world/ukraine-says-starshield-back-normal-musk-says-kyiv-violated-terms-6489801",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-24T20:57:28+09:00",
+      "latest_published_at": "2026-10-24T21:27:24+09:00",
+      "articles": [
+        {
+          "title": "Ukraine says Starshield back to normal, Musk says Kyiv violated terms",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/ukraine-says-starshield-back-normal-musk-says-kyiv-violated-terms-6489801",
+          "published_at": "21:27"
+        },
+        {
+          "title": "Ukraine says Starshield back to normal, Musk says Kyiv violated terms",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVklsWE9QVlFHcHRES2xGTXNTVEtudENYZTR6aFRMZmVuaENzXzBCb0twTjdadFhWY3V3Nkw4aWZTLVJmYjF4OTVmR0haOERYVGlFSFB0a1lsQUUyVDM2UF9lZ3QyeTJ3QzVGN0J0eEF5UEsyanhKaUNHZmpaZnA1eVFsWkVKdHhkdVJjTWZrSGtHOHN0aC1JN0JkbTByTE1vaG5vc2dPWUswNkZxYTN3aFV2WkJZbVlwNlJtZU1R?oc=5",
+          "published_at": "20:57"
+        }
+      ]
+    },
+    {
+      "id": "world-48",
+      "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
+      "title_en": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "A fire has swept through the mountaintop retreat built for Adolf Hitler and known as the Eagle’s Nest as emergency services struggled to tackle the blaze in snow and wind",
+      "excerpt_en": "A fire has swept through the mountaintop retreat built for Adolf Hitler and known as the Eagle’s Nest as emergency services struggled to tackle the blaze in snow and wind",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-10-23T21:51:00+09:00",
-      "latest_published_at": "2026-10-24T01:22:11+09:00",
+      "first_published_at": "2026-10-24T15:47:32+09:00",
+      "latest_published_at": "2026-10-24T20:23:00+09:00",
       "articles": [
         {
-          "title": "Number of injured rises to 76 after deadly earthquake in Tibet",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-10-24/rescuers-search-for-survivors-after-earthquake-in-tibet/107304378",
-          "published_at": "01:22"
-        },
-        {
-          "title": "Rescuers search for survivors after deadly earthquake in China’s Tibet region",
+          "title": "A fire devastates the Eagle’s Nest retreat built for Hitler in Germany. A suspect is detained",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnM1d0c0MlpBemN5ZHRYb2VlQlNPb3hlWlVNdmVtMEVFc1NYVm5sUUp2eGtUTXk3LUU0RlMxYnVONXd5TmpOeThfS1VqaE9RR3dQNDNBSmloU2JOUm5rYXZSZEwyWDNfenZrcnE3QUhpak84LWdSRG1MNHBlRU9VM0tZVWRpazlpNmVjTE5kUzJ4QQ?oc=5",
-          "published_at": "21:51"
-        }
-      ]
-    },
-    {
-      "id": "world-1",
-      "title": "Trump says he may move White House press corps",
-      "title_en": "Trump says he may move White House press corps",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSk1kdkRlZlJWcUhpbzJzSW1OS2RSRG4zVXd1Y0Vsci1UQjR3ZGZiX2xyU2w4TG1YRUZ6VVhfajRiVmt1MTZxdm5rOXF4MUlEbEN0VjJxb2EyR2VCOGUtRzY3MkprdHZlMVBPckJoOVJFcEtkUVZ0cjNlYzNnSVRXM2t3YnZFM0FkLWRUdWRabDlONk1qeVNQa0JNMndwU1lRcG9GUUZtWG0?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "Trump’s remarks come amid a fractious moment between the US president and the journalists who cover him.",
-      "excerpt_en": "Trump’s remarks come amid a fractious moment between the US president and the journalists who cover him.",
-      "excerpt_source": "Al Jazeera",
-      "excerpt_url": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-24T12:59:43+09:00",
-      "latest_published_at": "2026-10-24T17:01:34+09:00",
-      "articles": [
-        {
-          "title": "Trump says he may move White House press corps to new location",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
-          "published_at": "17:01"
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX3ZLRkl4Y2Jla2ZCdW90UzZ1aHJuTl9xVjZpSGdQb2xzTDdsRFVEeURDTUJvaVQwbGU2bEFNQ21oMlJqMVFZYWc0dUZiQy1yMWQzUnBhWmZXNzFHWUdpVU1ndHdBTHZIUDFybWNZbGx2QWdRQ2VrNlgwZlMtNWxQc2dCa2U4bmxUdXl1bXhGaUlVZW5OU3RmZnFFVW5LdnpsQUdxZGZkTEpqMm54TVpB?oc=5",
+          "published_at": "20:23"
         },
         {
-          "title": "Trump says he may move White House press corps",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSk1kdkRlZlJWcUhpbzJzSW1OS2RSRG4zVXd1Y0Vsci1UQjR3ZGZiX2xyU2w4TG1YRUZ6VVhfajRiVmt1MTZxdm5rOXF4MUlEbEN0VjJxb2EyR2VCOGUtRzY3MkprdHZlMVBPckJoOVJFcEtkUVZ0cjNlYzNnSVRXM2t3YnZFM0FkLWRUdWRabDlONk1qeVNQa0JNMndwU1lRcG9GUUZtWG0?oc=5",
-          "published_at": "12:59"
+          "title": "Fire breaks out at Eagle's Nest retreat built for Hitler in Germany; person detained",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/fire-breaks-eagles-nest-retreat-built-hitler-germany-137533542",
+          "published_at": "15:47"
         }
       ]
     },
     {
-      "id": "world-10",
-      "title": "Five takeaways from Trump's midterm campaign rallies",
-      "title_en": "Five takeaways from Trump's midterm campaign rallies",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOWRrT1lOLWc2TVVFRWZhbENyYUE4ZVlBWHBLLXFHNHhjczlTellOcG9GdUpCaVNZNk9mMFdkSzJqMjdXcFhOSGJGWDJ5Njd6NDhOYkRzYzRzaF9UVE95X0IyR28xbHd2WW1VTXBCV1FrTDdwR092bm9jTHJlMm9acmEzQUJSQ1VaVFBiWW1SWWdwZ1Zna3c?oc=5",
-      "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "Trump is holding near-daily rallies to boost Republicans, but high prices, uneven crowds and a 31% approval rating are complicating his midterm pitch.",
-      "excerpt_en": "Trump is holding near-daily rallies to boost Republicans, but high prices, uneven crowds and a 31% approval rating are complicating his midterm pitch.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/trump-hits-midterm-rally-trail-as-republicans-defend-home-turf-five-takeaways-101792843262862.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-24T10:07:44+09:00",
-      "latest_published_at": "2026-10-24T14:53:17+09:00",
-      "articles": [
-        {
-          "title": "Trump hits midterm rally trail as Republicans defend home turf: five takeaways",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/trump-hits-midterm-rally-trail-as-republicans-defend-home-turf-five-takeaways-101792843262862.html",
-          "published_at": "14:53"
-        },
-        {
-          "title": "Five takeaways from Trump's midterm campaign rallies",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOWRrT1lOLWc2TVVFRWZhbENyYUE4ZVlBWHBLLXFHNHhjczlTellOcG9GdUpCaVNZNk9mMFdkSzJqMjdXcFhOSGJGWDJ5Njd6NDhOYkRzYzRzaF9UVE95X0IyR28xbHd2WW1VTXBCV1FrTDdwR092bm9jTHJlMm9acmEzQUJSQ1VaVFBiWW1SWWdwZ1Zna3c?oc=5",
-          "published_at": "10:07"
-        }
-      ]
-    },
-    {
-      "id": "world-71",
+      "id": "world-53",
       "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
       "title_en": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
       "title_source": "earliest_pick",
@@ -1712,25 +1367,25 @@
         "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-10-24T16:54:00+09:00",
-      "latest_published_at": "2026-10-24T17:06:15+09:00",
+      "first_published_at": "2026-10-24T05:22:40+09:00",
+      "latest_published_at": "2026-10-24T19:06:21+09:00",
       "articles": [
         {
           "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
           "source_name": "ABC News",
           "url": "https://abcnews.com/International/wireStory/paris-shuts-museums-police-deploy-big-numbers-new-137532427",
-          "published_at": "17:06"
+          "published_at": "19:06"
         },
         {
           "title": "More than 400,000 protest across France, challenging Macron as Paris clashes erupt",
           "source_name": "AP News",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFhXb1VmdWxKRzJmZnRpSGpJTk40b3JoTldmR0FjTW9nWWxibmNBOTJCN1NNa1IyenIycmtueTVnVHhaR19YOUU3TkE2ODBHRFFlRWdDYVZzVWY0MVlqV0dTOHlkaTdEbmxkdnFNMnJicVFjSkhYUVdOaGFYYU5jVEQ5VEhRUU5tWlJjZ1pzOE5GQQ?oc=5",
-          "published_at": "16:54"
+          "published_at": "05:22"
         }
       ]
     },
     {
-      "id": "world-84",
+      "id": "world-69",
       "title": "Vanessa Trump says she's ‘cancer free’ after undergoing months of breast cancer treatment",
       "title_en": "Vanessa Trump says she's ‘cancer free’ after undergoing months of breast cancer treatment",
       "title_source": "earliest_pick",
@@ -1760,13 +1415,13 @@
         "Hindustan Times"
       ],
       "first_published_at": "2026-10-24T09:02:55+09:00",
-      "latest_published_at": "2026-10-24T14:45:30+09:00",
+      "latest_published_at": "2026-10-24T19:12:51+09:00",
       "articles": [
         {
           "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
           "source_name": "BBC",
           "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
-          "published_at": "14:45"
+          "published_at": "19:12"
         },
         {
           "title": "Vanessa Trump says she's ‘cancer free’ after undergoing months of breast cancer treatment",
@@ -1777,17 +1432,64 @@
       ]
     },
     {
-      "id": "world-140",
-      "title": "Small clashes erupt at Paris protests, as police remain on high alert",
-      "title_en": "Small clashes erupt at Paris protests, as police remain on high alert",
+      "id": "world-103",
+      "title": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
+      "title_en": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+      "title_url": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095",
       "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "A total of 410,000 people took part in demonstrations across France on Saturday – including 110,000 in Paris – as part of a day of rallies focussed on purchasing power and the defence of public servic",
-      "excerpt_en": "A total of 410,000 people took part in demonstrations across France on Saturday – including 110,000 in Paris – as part of a day of rallies focussed on purchasing power and the defence of public servic",
-      "excerpt_source": "France24",
-      "excerpt_url": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
+      "primary_source": "Sky News",
+      "excerpt": "The Starlink satellite system is back to operating at the speed Ukraine needs after slowing down for more than a week, damaging Kyiv's ability to defend itself from Russian attacks, Ukraine's Presiden",
+      "excerpt_en": "The Starlink satellite system is back to operating at the speed Ukraine needs after slowing down for more than a week, damaging Kyiv's ability to defend itself from Russian attacks, Ukraine's Presiden",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "NPR",
+        "Sky News"
+      ],
+      "first_published_at": "2026-10-24T13:29:00+09:00",
+      "latest_published_at": "2026-10-24T17:54:25+09:00",
+      "articles": [
+        {
+          "title": "Ukraine says Starlink is back to normal after disruptions",
+          "source_name": "NPR",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
+          "published_at": "17:54"
+        },
+        {
+          "title": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095",
+          "published_at": "13:29"
+        }
+      ]
+    },
+    {
+      "id": "world-135",
+      "title": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
+      "title_en": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/brazilians-choose-lula-flvio-bolsonaro-sunday-137534196",
+      "category": "기타",
+      "primary_source": "ABC News",
+      "excerpt": "Nearly 159 million people to head to polls on Sunday in battle between leftwing incumbent and Flávio Bolsonaro More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silv",
+      "excerpt_en": "Nearly 159 million people to head to polls on Sunday in battle between leftwing incumbent and Flávio Bolsonaro More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silv",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
       "translation_status": "failed",
       "score": 55,
       "score_breakdown": {
@@ -1803,38 +1505,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "France24",
-        "SCMP"
+        "ABC News",
+        "The Guardian"
       ],
-      "first_published_at": "2026-10-24T13:17:24+09:00",
-      "latest_published_at": "2026-10-24T17:10:42+09:00",
+      "first_published_at": "2026-10-24T11:14:47+09:00",
+      "latest_published_at": "2026-10-24T21:10:23+09:00",
       "articles": [
         {
-          "title": "France: Protests continue while police fire tear gas at demonstrators",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
-          "published_at": "17:10"
+          "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
+          "published_at": "21:10"
         },
         {
-          "title": "Small clashes erupt at Paris protests, as police remain on high alert",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-          "published_at": "13:17"
+          "title": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/brazilians-choose-lula-flvio-bolsonaro-sunday-137534196",
+          "published_at": "11:14"
         }
       ]
     },
     {
-      "id": "world-15",
-      "title": "Varma leads India fightback in four-wicket victory over New Zealand",
-      "title_en": "Varma leads India fightback in four-wicket victory over New Zealand",
+      "id": "world-7",
+      "title": "Trump says he may move White House press corps",
+      "title_en": "Trump says he may move White House press corps",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/varma-leads-india-fightback-in-four-wicket-victory-over-new-zealand-6488861",
-      "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Varma leads India fightback in four-wicket victory over New Zealand Reuters",
-      "excerpt_en": "Varma leads India fightback in four-wicket victory over New Zealand Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHRCVDdiSWdLY054YzhnT2t2NHhNd1dQdHFpaW1PdGJ3VUZBSWIzV0ExdmlEQ0tfcDI4eW90MlU3Y1ZwSXIxSFk1WWxXWWZaY1ZMdGJzQzA3NElPZFR6Z0FGX2x5OUZlRV9JRHlucWJsREdUMDZGa09YTE1BTXJzRVFuazVfRmRlVGN2c2RkbFM2cEJQeU5ZUGJoRWlZd3B0S3VXLTY2cGQyTUY3Si10cjFkT09Bdw?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSk1kdkRlZlJWcUhpbzJzSW1OS2RSRG4zVXd1Y0Vsci1UQjR3ZGZiX2xyU2w4TG1YRUZ6VVhfajRiVmt1MTZxdm5rOXF4MUlEbEN0VjJxb2EyR2VCOGUtRzY3MkprdHZlMVBPckJoOVJFcEtkUVZ0cjNlYzNnSVRXM2t3YnZFM0FkLWRUdWRabDlONk1qeVNQa0JNMndwU1lRcG9GUUZtWG0?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "Trump’s remarks come amid a fractious moment between the US president and the journalists who cover him.",
+      "excerpt_en": "Trump’s remarks come amid a fractious moment between the US president and the journalists who cover him.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1850,38 +1552,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
+        "Al Jazeera",
         "Reuters"
       ],
-      "first_published_at": "2026-10-24T12:11:25+09:00",
-      "latest_published_at": "2026-10-24T12:11:47+09:00",
+      "first_published_at": "2026-10-24T12:59:43+09:00",
+      "latest_published_at": "2026-10-24T17:01:34+09:00",
       "articles": [
         {
-          "title": "Varma leads India fightback in four-wicket victory over New Zealand",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHRCVDdiSWdLY054YzhnT2t2NHhNd1dQdHFpaW1PdGJ3VUZBSWIzV0ExdmlEQ0tfcDI4eW90MlU3Y1ZwSXIxSFk1WWxXWWZaY1ZMdGJzQzA3NElPZFR6Z0FGX2x5OUZlRV9JRHlucWJsREdUMDZGa09YTE1BTXJzRVFuazVfRmRlVGN2c2RkbFM2cEJQeU5ZUGJoRWlZd3B0S3VXLTY2cGQyTUY3Si10cjFkT09Bdw?oc=5",
-          "published_at": "12:11"
+          "title": "Trump says he may move White House press corps to new location",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
+          "published_at": "17:01"
         },
         {
-          "title": "Varma leads India fightback in four-wicket victory over New Zealand",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/varma-leads-india-fightback-in-four-wicket-victory-over-new-zealand-6488861",
-          "published_at": "12:11"
+          "title": "Trump says he may move White House press corps",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSk1kdkRlZlJWcUhpbzJzSW1OS2RSRG4zVXd1Y0Vsci1UQjR3ZGZiX2xyU2w4TG1YRUZ6VVhfajRiVmt1MTZxdm5rOXF4MUlEbEN0VjJxb2EyR2VCOGUtRzY3MkprdHZlMVBPckJoOVJFcEtkUVZ0cjNlYzNnSVRXM2t3YnZFM0FkLWRUdWRabDlONk1qeVNQa0JNMndwU1lRcG9GUUZtWG0?oc=5",
+          "published_at": "12:59"
         }
       ]
     },
     {
-      "id": "world-33",
-      "title": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say",
-      "title_en": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say",
+      "id": "world-17",
+      "title": "Trump hits midterm rally trail as Republicans defend home turf: five takeaways",
+      "title_en": "Trump hits midterm rally trail as Republicans defend home turf: five takeaways",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmxvaUpMTUR1QlpFdTFCM21oR2ZqYmwzWUVrSFpBYmZLYlFjWV9yc3NTX1BjTnZndGl1d2N4OG52MlVJenJKNkxKUW9aR3lZaGtvVzJ1UzhCeDh2X3hQcFRJVklIZ2N5X3drTHk0YVpFTmNKcGN6WDlpQ294WE5TNUhBT0g0NFJjSDhmek9yMU0zNGRMeU1mZ1ZkME13QUJ1aGFMR0gtOWVqcG50SFZQNWdUVlZxV01wNUNWc2gwZlp3VVhoZDc3VnIwcWdQSGhVOWFWUUE3ZndMTDIz?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "A report said both Biden and Trump administrations repeatedly asked SpaceX to activate or deactivate Starlink in conflict zones.",
-      "excerpt_en": "A report said both Biden and Trump administrations repeatedly asked SpaceX to activate or deactivate Starlink in conflict zones.",
+      "title_url": "https://www.hindustantimes.com/world-news/trump-hits-midterm-rally-trail-as-republicans-defend-home-turf-five-takeaways-101792843262862.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Trump is holding near-daily rallies to boost Republicans, but high prices, uneven crowds and a 31% approval rating are complicating his midterm pitch.",
+      "excerpt_en": "Trump is holding near-daily rallies to boost Republicans, but high prices, uneven crowds and a 31% approval rating are complicating his midterm pitch.",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/joe-biden-donald-trump-administrations-asked-elon-musk-to-alter-starlink-service-in-ukraine-middle-east-for-years-report-101792821528048.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/trump-hits-midterm-rally-trail-as-republicans-defend-home-turf-five-takeaways-101792843262862.html",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1900,35 +1602,82 @@
         "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-10-24T00:43:00+09:00",
-      "latest_published_at": "2026-10-24T07:12:58+09:00",
+      "first_published_at": "2026-10-24T14:53:17+09:00",
+      "latest_published_at": "2026-10-24T17:41:12+09:00",
       "articles": [
         {
-          "title": "Biden, Trump administrations asked Musk to alter Starlink service in Ukraine, Middle East for years: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/joe-biden-donald-trump-administrations-asked-elon-musk-to-alter-starlink-service-in-ukraine-middle-east-for-years-report-101792821528048.html",
-          "published_at": "07:12"
+          "title": "Five takeaways from Trump's midterm campaign rallies",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOWRrT1lOLWc2TVVFRWZhbENyYUE4ZVlBWHBLLXFHNHhjczlTellOcG9GdUpCaVNZNk9mMFdkSzJqMjdXcFhOSGJGWDJ5Njd6NDhOYkRzYzRzaF9UVE95X0IyR28xbHd2WW1VTXBCV1FrTDdwR092bm9jTHJlMm9acmEzQUJSQ1VaVFBiWW1SWWdwZ1Zna3c?oc=5",
+          "published_at": "17:41"
         },
         {
-          "title": "EXCLUSIVE: US has for years asked Musk to alter Starlink service in Ukraine, Middle East, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmxvaUpMTUR1QlpFdTFCM21oR2ZqYmwzWUVrSFpBYmZLYlFjWV9yc3NTX1BjTnZndGl1d2N4OG52MlVJenJKNkxKUW9aR3lZaGtvVzJ1UzhCeDh2X3hQcFRJVklIZ2N5X3drTHk0YVpFTmNKcGN6WDlpQ294WE5TNUhBT0g0NFJjSDhmek9yMU0zNGRMeU1mZ1ZkME13QUJ1aGFMR0gtOWVqcG50SFZQNWdUVlZxV01wNUNWc2gwZlp3VVhoZDc3VnIwcWdQSGhVOWFWUUE3ZndMTDIz?oc=5",
-          "published_at": "00:43"
+          "title": "Trump hits midterm rally trail as Republicans defend home turf: five takeaways",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/trump-hits-midterm-rally-trail-as-republicans-defend-home-turf-five-takeaways-101792843262862.html",
+          "published_at": "14:53"
         }
       ]
     },
     {
-      "id": "world-44",
-      "title": "What will China’s fifth plenum mean for the root-and-branch corruption drive?",
-      "title_en": "What will China’s fifth plenum mean for the root-and-branch corruption drive?",
+      "id": "world-20",
+      "title": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
+      "title_en": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/china/politics/article/3371932/what-will-chinas-fifth-plenum-mean-root-and-branch-corruption-drive",
+      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzhtWHRXdTY3T1I4cld1ZUpvbGotRl9ySmtDd0Y4THhhLWMyYm9IQ1BwZWpHa3NDTnQtTGJYWm9IX01yUVhpNmE3OUtvSjJsUVJrQ3VPS1ktdllQWG1Xbno3SjBPT21CcTVDdkVIcHhDaVdoLVNEN3Z0QjF1Tm5HWHFQcTY0eEJGcnhYQTZrRk1tRG5PM01fbVJ6MXg5UGpMWTM4Vy1fcFRsQlMt?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "Harris is rallying in Georgia, Mississippi, Nevada, New Hampshire and Wisconsin to help Democrats in tight midterm races, yet undecided on a 2028 run.",
+      "excerpt_en": "Harris is rallying in Georgia, Mississippi, Nevada, New Hampshire and Wisconsin to help Democrats in tight midterm races, yet undecided on a 2028 run.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/kamala-harris-returns-to-the-campaign-trail-for-tight-us-midterm-races-undecided-on-2028-101792843757424.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-24T12:48:36+09:00",
+      "latest_published_at": "2026-10-24T14:53:23+09:00",
+      "articles": [
+        {
+          "title": "Kamala Harris returns to the campaign trail for tight US midterm races, undecided on 2028",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/kamala-harris-returns-to-the-campaign-trail-for-tight-us-midterm-races-undecided-on-2028-101792843757424.html",
+          "published_at": "14:53"
+        },
+        {
+          "title": "Kamala Harris returns to US campaign trail with midterms, 2028 in view",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzhtWHRXdTY3T1I4cld1ZUpvbGotRl9ySmtDd0Y4THhhLWMyYm9IQ1BwZWpHa3NDTnQtTGJYWm9IX01yUVhpNmE3OUtvSjJsUVJrQ3VPS1ktdllQWG1Xbno3SjBPT21CcTVDdkVIcHhDaVdoLVNEN3Z0QjF1Tm5HWHFQcTY0eEJGcnhYQTZrRk1tRG5PM01fbVJ6MXg5UGpMWTM4Vy1fcFRsQlMt?oc=5",
+          "published_at": "12:48"
+        }
+      ]
+    },
+    {
+      "id": "world-29",
+      "title": "Indonesia cuts gas to Singapore amid Borneo, Sumatra wildfire haze",
+      "title_en": "Indonesia cuts gas to Singapore amid Borneo, Sumatra wildfire haze",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3372025/indonesia-cuts-gas-singapore-amid-borneo-sumatra-wildfire-haze",
       "category": "아시아",
       "primary_source": "SCMP",
-      "excerpt": "Plenary sessions of the Central Committee, the upper echelon of China’s ruling Communist Party, are major events on the country’s political calendar. In the third part of this series, William Zheng an",
-      "excerpt_en": "Plenary sessions of the Central Committee, the upper echelon of China’s ruling Communist Party, are major events on the country’s political calendar. In the third part of this series, William Zheng an",
+      "excerpt": "Indonesia cut exports of natural gas to Singapore on Saturday to prioritise domestic demand, an official said, with the two countries at loggerheads over regional air pollution emanating from wildfire",
+      "excerpt_en": "Indonesia cut exports of natural gas to Singapore on Saturday to prioritise domestic demand, an official said, with the two countries at loggerheads over regional air pollution emanating from wildfire",
       "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/politics/article/3371932/what-will-chinas-fifth-plenum-mean-root-and-branch-corruption-drive",
+      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3372025/indonesia-cuts-gas-singapore-amid-borneo-sumatra-wildfire-haze",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1947,82 +1696,35 @@
         "Reuters",
         "SCMP"
       ],
-      "first_published_at": "2026-10-23T22:00:09+09:00",
-      "latest_published_at": "2026-10-24T12:39:10+09:00",
+      "first_published_at": "2026-10-24T10:21:42+09:00",
+      "latest_published_at": "2026-10-24T13:30:35+09:00",
       "articles": [
         {
-          "title": "China's Communist Party names new provincial chiefs ahead of fifth plenum",
+          "title": "Indonesia cuts pipeline gas exports to Singapore by about 9%",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVl9fNTlYNGs4dEtyXzhfU29IbXV4bEtGTzVLaURSZVVvNUhfREhmUU03cXBjemJlNURGb195QVRSZ3dIbXM0dC1HMXd1cmFWZGk4bUV1WDZlVzdpckZUZjhNMjZyYkdfN2lnWjNBcm9VeFRlbkxCRXVPaEJhYzg1bEl6dTFvSTZwa0lPZXA4VVJPektWSUVYYk9LSUZ4cXZiU0xhNTZLLWRQeFdKeUNzOVVBT29MbmR5?oc=5",
-          "published_at": "12:39"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVVkTFlZc0hWcDVneTJjckZnXy1kYjhtX1BYaUlZR1JwTlBJMTRzbU1jWm1yQTVqQUZ5Rl92QndOdk1wTFhoUVZUTHU5NTQ1WjFXd1YwcHJZb21JWEw1MmJVUlZRTDc2VTEzU0VyNlVIeXN2cUNOVWlKV3h3dm9Ud21RQU9ZbmdnU2lFaVU5SDMyUG9pcEI5aGF1NEo1TGZCUkxuUjQ2YjdQX0Vj?oc=5",
+          "published_at": "13:30"
         },
         {
-          "title": "What will China’s fifth plenum mean for the root-and-branch corruption drive?",
+          "title": "Indonesia cuts gas to Singapore amid Borneo, Sumatra wildfire haze",
           "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/politics/article/3371932/what-will-chinas-fifth-plenum-mean-root-and-branch-corruption-drive",
-          "published_at": "22:00"
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372025/indonesia-cuts-gas-singapore-amid-borneo-sumatra-wildfire-haze",
+          "published_at": "10:21"
         }
       ]
     },
     {
-      "id": "world-51",
-      "title": "Holder Rybakina sets up Fernandez clash in Ningbo final",
-      "title_en": "Holder Rybakina sets up Fernandez clash in Ningbo final",
+      "id": "world-58",
+      "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says",
+      "title_en": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/sport/holder-rybakina-sets-up-fernandez-clash-in-ningbo-final-6488856",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Holder Rybakina sets up Fernandez clash in Ningbo final Reuters",
-      "excerpt_en": "Holder Rybakina sets up Fernandez clash in Ningbo final Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOamZJekdVekxwcGxhM3NhNXZDaHRrS2tlWnlxUWtxeWxpREFIQlV6MklrTXQxeUhfR1doLTRDT2tJYTlIMTl2UlhxUlRoalZ1N3pIMnd1MEtsbjJZUmVrX0dEeTM3LVJCMFZMSHJhSE8xNTFwZkViMWFhWXB2LWcyUGhSZS10TlQ4MnpGZElmRFE0andXUmF3ZTdRZ2pnUndHSHlqLQ?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Channel News Asia",
-        "Reuters"
-      ],
-      "first_published_at": "2026-10-24T12:13:27+09:00",
-      "latest_published_at": "2026-10-24T12:29:52+09:00",
-      "articles": [
-        {
-          "title": "Holder Rybakina sets up Fernandez clash in Ningbo final",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOamZJekdVekxwcGxhM3NhNXZDaHRrS2tlWnlxUWtxeWxpREFIQlV6MklrTXQxeUhfR1doLTRDT2tJYTlIMTl2UlhxUlRoalZ1N3pIMnd1MEtsbjJZUmVrX0dEeTM3LVJCMFZMSHJhSE8xNTFwZkViMWFhWXB2LWcyUGhSZS10TlQ4MnpGZElmRFE0andXUmF3ZTdRZ2pnUndHSHlqLQ?oc=5",
-          "published_at": "12:29"
-        },
-        {
-          "title": "Holder Rybakina sets up Fernandez clash in Ningbo final",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/sport/holder-rybakina-sets-up-fernandez-clash-in-ningbo-final-6488856",
-          "published_at": "12:13"
-        }
-      ]
-    },
-    {
-      "id": "world-63",
-      "title": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
-      "title_en": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/brazilians-choose-lula-flvio-bolsonaro-sunday-137534196",
-      "category": "기타",
-      "primary_source": "ABC News",
-      "excerpt": "Brazil is on the brink of choosing between left-leaning incumbent Luiz Inácio Lula da Silva and far-right candidate Flávio Bolsonaro",
-      "excerpt_en": "Brazil is on the brink of choosing between left-leaning incumbent Luiz Inácio Lula da Silva and far-right candidate Flávio Bolsonaro",
+      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTR5VVdXaDAyV2lIUndHYkFVb3BPQ3lTWjFMZGxrcmRmR3dPODQzUXdEczBya1ZuQzBvVzJhOWp6a2ZrdkhYZHltOVJld05uNlVZalZEQjBvOWNUSXREeHY4MVg2YVFVaVpTOTl2Qm9vWGVJU0NSdFRvd3J3aVBXcWhKRzRMbnNqZEoxWVdoRExHSzQ?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "Iran remains open to U.S. talks under a Pakistan-brokered interim deal reached in June to end the conflict, according to Tehran’s ambassador to Islamabad",
+      "excerpt_en": "Iran remains open to U.S. talks under a Pakistan-brokered interim deal reached in June to end the conflict, according to Tehran’s ambassador to Islamabad",
       "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/brazilians-choose-lula-flvio-bolsonaro-sunday-137534196",
+      "excerpt_url": "https://abcnews.com/International/wireStory/iran-remains-open-talks-us-pakistan-brokered-deal-137539415",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -2041,25 +1743,25 @@
         "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-10-24T11:14:47+09:00",
-      "latest_published_at": "2026-10-24T14:06:00+09:00",
+      "first_published_at": "2026-10-24T15:50:00+09:00",
+      "latest_published_at": "2026-10-24T17:02:48+09:00",
       "articles": [
         {
-          "title": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXJEbXYtVm45V3lUY3NuMmNFSUxHcjNYdzhENFJ1SXhCRjJyU0dGYnROb3BWVjA0S0NFa1FHSHkwOVJZODRsalpSSXFGQk9vNDE4NDkxTDFOaDFDX3ZrSmtFbjJOUnBPMU1ZN0RHV0o4UWxpUE0yZjBodDFWMWZ6c3FBWVpZSFhheDViTDJ6MkRaei1R?oc=5",
-          "published_at": "14:06"
+          "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/iran-remains-open-talks-us-pakistan-brokered-deal-137539415",
+          "published_at": "17:02"
         },
         {
-          "title": "What to know as Brazilians choose between Lula and Flávio Bolsonaro on Sunday",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/brazilians-choose-lula-flvio-bolsonaro-sunday-137534196",
-          "published_at": "11:14"
+          "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTR5VVdXaDAyV2lIUndHYkFVb3BPQ3lTWjFMZGxrcmRmR3dPODQzUXdEczBya1ZuQzBvVzJhOWp6a2ZrdkhYZHltOVJld05uNlVZalZEQjBvOWNUSXREeHY4MVg2YVFVaVpTOTl2Qm9vWGVJU0NSdFRvd3J3aVBXcWhKRzRMbnNqZEoxWVdoRExHSzQ?oc=5",
+          "published_at": "15:50"
         }
       ]
     },
     {
-      "id": "world-228",
+      "id": "world-211",
       "title": "Revised law to maintain Japan’s imperial family size takes effect",
       "title_en": "Revised law to maintain Japan’s imperial family size takes effect",
       "title_source": "earliest_pick",
@@ -2106,7 +1808,7 @@
       ]
     },
     {
-      "id": "world-254",
+      "id": "world-239",
       "title": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones",
       "title_en": "Ukraine says Starlink speed limits lifted after a slowdown that hobbled its drones",
       "title_source": "earliest_pick",
@@ -2153,17 +1855,17 @@
       ]
     },
     {
-      "id": "world-78",
-      "title": "New York state woman charged with voting illegally says she recently learned she wasn’t a citizen",
-      "title_en": "New York state woman charged with voting illegally says she recently learned she wasn’t a citizen",
+      "id": "world-59",
+      "title": "Lula, Bolsonaro reach out to undecided voters in last debate of Brazil’s presidential race",
+      "title_en": "Lula, Bolsonaro reach out to undecided voters in last debate of Brazil’s presidential race",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/americas/homeland-security-syracuse-new-york-trump-syracuse-university-b3072522.html",
-      "category": "미국",
-      "primary_source": "The Independent",
-      "excerpt": "A Syracuse, New York, woman has been charged with voting illegally in one of the latest arrests touted by the Trump administration as it hunts for noncitizen voters ahead of the midterm elections",
-      "excerpt_en": "A Syracuse, New York, woman has been charged with voting illegally in one of the latest arrests touted by the Trump administration as it hunts for noncitizen voters ahead of the midterm elections",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/homeland-security-syracuse-new-york-trump-syracuse-university-b3072522.html",
+      "title_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaVNWZUxkVXd6dUp2ZThxVU1GTHdhd205VXQ1ZjJaWV9mR2FhSG0wc3RsM1pfRzZDUE1ZWWhVbnJ5SlpsOHNKU0t1c01xRFZCUlRjWHd0QTZSWDlITmptWllIcURnTzdCR25sTTVsZTc2OTF2T2xiWEJaMW1UUWowWVlibnZUUXlodXFfZktzUF9wWno1OXpaajMwamoxeDdabk1iWlVyeEk?oc=5",
+      "category": "유럽",
+      "primary_source": "AP News",
+      "excerpt": "Brazil’s President Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro faced off Friday in their second and final debate ahead of Sunday’s runoff election, but this time with cooler heads than a fe",
+      "excerpt_en": "Brazil’s President Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro faced off Friday in their second and final debate ahead of Sunday’s runoff election, but this time with cooler heads than a fe",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/lula-bolsonaro-reach-undecided-voters-debate-brazils-presidential-137531704",
       "translation_status": "failed",
       "score": 52,
       "score_breakdown": {
@@ -2179,117 +1881,23 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "The Independent"
+        "ABC News",
+        "AP News"
       ],
-      "first_published_at": "2026-10-23T21:00:57+09:00",
-      "latest_published_at": "2026-10-24T00:14:00+09:00",
+      "first_published_at": "2026-10-24T04:55:00+09:00",
+      "latest_published_at": "2026-10-24T05:00:33+09:00",
       "articles": [
         {
-          "title": "New York state woman charged with voting illegally says she recently learned she wasn’t a citizen",
+          "title": "Lula, Bolsonaro reach out to undecided voters in last debate of Brazil's presidential race",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/lula-bolsonaro-reach-undecided-voters-debate-brazils-presidential-137531704",
+          "published_at": "05:00"
+        },
+        {
+          "title": "Lula, Bolsonaro reach out to undecided voters in last debate of Brazil’s presidential race",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb2hMRGVPQVhIRHE2WS1BeTVpaXZWLTE3TFpOeUR5b0FDdWE4QTU0R29rdi1hZm51WU96MFVTTjhLV1NlaDUxdnV5M1M1YzNOLWptdHNoSGd3bUtGSFhQUi15SzBvZWxCdVZ4SUJCQm1sWk1ZWGV1ZklVNU1mM1Q0aFRGU2daZDZIQ2Z2bFpTWUZHMUFfLVl4Umk0OER2NlRKdHM0?oc=5",
-          "published_at": "00:14"
-        },
-        {
-          "title": "New York state woman charged with voting illegally says she recently learned she wasn’t a citizen",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/homeland-security-syracuse-new-york-trump-syracuse-university-b3072522.html",
-          "published_at": "21:00"
-        }
-      ]
-    },
-    {
-      "id": "world-281",
-      "title": "10/23: The Takeout with Major Garrett",
-      "title_en": "10/23: The Takeout with Major Garrett",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/102326-the-takeout-with-major-garrett/",
-      "category": "미국",
-      "primary_source": "CBS News",
-      "excerpt": "Republican officials have claimed that Dan J. Sullivan Jr. is a Democratic ruse to try and tilt the race in which Democrats hope to flip the seat.",
-      "excerpt_en": "Republican officials have claimed that Dan J. Sullivan Jr. is a Democratic ruse to try and tilt the race in which Democrats hope to flip the seat.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-seeks-to-block-alaska-senate-election-results-if-republican-incumbent-loses-101792799309829.html",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-23T21:00:00+09:00",
-      "latest_published_at": "2026-10-24T00:29:11+09:00",
-      "articles": [
-        {
-          "title": "Trump administration seeks to block Alaska Senate election results if Republican incumbent loses",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-administration-seeks-to-block-alaska-senate-election-results-if-republican-incumbent-loses-101792799309829.html",
-          "published_at": "00:29"
-        },
-        {
-          "title": "10/23: The Takeout with Major Garrett",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/102326-the-takeout-with-major-garrett/",
-          "published_at": "21:00"
-        }
-      ]
-    },
-    {
-      "id": "world-82",
-      "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-      "title_en": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-      "category": "기타",
-      "primary_source": "BBC",
-      "excerpt": "In his first interview since stopping the gunman at Silver Rail Elementary, Kaylub Giamanco spoke with Oregon Public Broadcasting about the split-second decisions he made that afternoon",
-      "excerpt_en": "In his first interview since stopping the gunman at Silver Rail Elementary, Kaylub Giamanco spoke with Oregon Public Broadcasting about the split-second decisions he made that afternoon",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-23T22:47:07+09:00",
-      "latest_published_at": "2026-10-24T09:22:33+09:00",
-      "articles": [
-        {
-          "title": "Hero dad who killed Oregon school shooter said children were ‘pleading for their lives’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/oregon-school-shooter-dad-interview-b3072500.html",
-          "published_at": "09:22"
-        },
-        {
-          "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-          "published_at": "22:47"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaVNWZUxkVXd6dUp2ZThxVU1GTHdhd205VXQ1ZjJaWV9mR2FhSG0wc3RsM1pfRzZDUE1ZWWhVbnJ5SlpsOHNKU0t1c01xRFZCUlRjWHd0QTZSWDlITmptWllIcURnTzdCR25sTTVsZTc2OTF2T2xiWEJaMW1UUWowWVlibnZUUXlodXFfZktzUF9wWno1OXpaajMwamoxeDdabk1iWlVyeEk?oc=5",
+          "published_at": "04:55"
         }
       ]
     }
