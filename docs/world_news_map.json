@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "batch_time": "06:00",
+  "batch_time": "12:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,17 +8,78 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-11-01T06:58:24.527655+09:00",
+  "updated_at": "2026-11-01T15:58:21.381082+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 424,
+  "article_count_total": 441,
   "cluster_count_total": 351,
   "clusters": [
     {
-      "id": "world-114",
+      "id": "world-109",
+      "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+      "title_en": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
+      "category": "아시아",
+      "primary_source": "SCMP",
+      "excerpt": "The theft of billions of dollars from Binance within a matter of minutes, the biggest cryptocurrency heist in history, was orchestrated by North Korean hackers, the FBI said on Saturday. The Federal B",
+      "excerpt_en": "The theft of billions of dollars from Binance within a matter of minutes, the biggest cryptocurrency heist in history, was orchestrated by North Korean hackers, the FBI said on Saturday. The Federal B",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
+      "translation_status": "failed",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News Australia",
+        "Bangkok Post",
+        "DW",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-31T23:49:22+09:00",
+      "latest_published_at": "2026-11-01T01:53:00+09:00",
+      "articles": [
+        {
+          "title": "FBI says North Korea behind $6 billion Binance crypto theft",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "01:53"
+        },
+        {
+          "title": "FBI accuses North Korea of Binance hack",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-11-01/fbi-blames-north-korea-binance-cryptocurrency-exchange-hack/107333446",
+          "published_at": "01:48"
+        },
+        {
+          "title": "FBI says North Korea behind $6 billion crypto theft from Binance",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3346474/fbi-says-north-korea-behind-6-billion-crypto-theft-from-binance",
+          "published_at": "00:45"
+        },
+        {
+          "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
+          "published_at": "23:49"
+        }
+      ]
+    },
+    {
+      "id": "world-120",
       "title": "Iran's Khamenei warns US and Israel against fresh attacks, orders 'unrestricted' military response to threats",
       "title_en": "Iran's Khamenei warns US and Israel against fresh attacks, orders 'unrestricted' military response to threats",
       "title_source": "earliest_pick",
@@ -30,14 +91,14 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3372847/irans-supreme-leader-warns-us-israel-against-war",
       "translation_status": "failed",
-      "score": 89,
+      "score": 88,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 3,
-        "raw75": 67
+        "time_score": 2,
+        "raw75": 66
       },
       "area_value": 5,
       "article_count": 5,
@@ -45,19 +106,25 @@
       "source_count": 5,
       "sources": [
         "CBS News",
-        "Channel News Asia",
         "France24",
         "Hindustan Times",
-        "SCMP"
+        "SCMP",
+        "Times of India"
       ],
       "first_published_at": "2026-10-31T12:32:06+09:00",
-      "latest_published_at": "2026-10-31T19:00:18+09:00",
+      "latest_published_at": "2026-11-01T03:54:55+09:00",
       "articles": [
         {
           "title": "Iran's supreme leader warns U.S., Israel against new attacks",
           "source_name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
-          "published_at": "19:00"
+          "published_at": "03:54"
+        },
+        {
+          "title": "Iran Sees US Letter As Victory: Rezaei hails softer tone as win; Khamenei warns of retaliation",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/tone-shifted-completely-iran-reacts-to-us-letter-proposing-peace-talks-led-by-jd-vance/articleshow/135415367.cms",
+          "published_at": "02:32"
         },
         {
           "title": "Iran's Khamenei warns US and Israel against new attacks",
@@ -72,12 +139,6 @@
           "published_at": "14:16"
         },
         {
-          "title": "Iran's supreme leader warns US, Israel against new attacks",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/iran-supreme-leader-warn-us-israel-new-attacks-6509621",
-          "published_at": "14:09"
-        },
-        {
           "title": "Iran's Khamenei warns US and Israel against fresh attacks, orders 'unrestricted' military response to threats",
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/irans-khamenei-warns-us-and-israel-against-fresh-attacks-orders-unrestricted-military-response-to-threats-101793449824927.html",
@@ -86,7 +147,7 @@
       ]
     },
     {
-      "id": "world-36",
+      "id": "world-48",
       "title": "Judge permanently throws out Trump’s Wall Street Journal defamation lawsuit over Epstein letter story",
       "title_en": "Judge permanently throws out Trump’s Wall Street Journal defamation lawsuit over Epstein letter story",
       "title_source": "earliest_pick",
@@ -98,29 +159,76 @@
       "excerpt_source": "SCMP",
       "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
       "translation_status": "failed",
-      "score": 81,
+      "score": 84,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 25,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
+        "time_score": 2,
+        "raw75": 63
       },
-      "area_value": 5,
-      "article_count": 5,
+      "area_value": 11,
+      "article_count": 11,
       "syndicated_count": 0,
-      "source_count": 5,
+      "source_count": 10,
       "sources": [
+        "ABC News Australia",
         "AP News",
+        "Bangkok Post",
         "CBC",
+        "Channel News Asia",
         "Hindustan Times",
         "SCMP",
+        "Sky News",
+        "Sydney Morning Herald",
         "The Independent"
       ],
       "first_published_at": "2026-10-31T19:59:38+09:00",
-      "latest_published_at": "2026-10-31T20:24:33+09:00",
+      "latest_published_at": "2026-11-01T02:48:55+09:00",
       "articles": [
+        {
+          "title": "‘Grasping at straws’: Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/grasping-at-straws-judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-letter-20261101-p61act.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "02:48"
+        },
+        {
+          "title": "Judge dismisses Trump lawsuit against Wall Street Journal over Epstein cartoon",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-11-01/judge-dismisses-trump-lawsuit-against-wsj-over-epstein-cartoon/107333268",
+          "published_at": "01:59"
+        },
+        {
+          "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ2dXRjY0R0EzUzFSNXBrYmRsZGJFdXEzTEtvZHFJYmFwUEVoNndYRzVGWkRyTVlOcHN6LUZFYThjRFFkVDVjZTFYdlRfekxWTE13VTZYRnF4RXlvdmJtQkMzOFViVElDWVdqdW5tXzlCZ0tCSjBZR2dReVlCbVVWZ3NxMGFaNUJydXpoYUFRZVZqRjV2QkJhZE5YeExkZ1AzYUdaUnJ3bmtJRVRmRFE?oc=5",
+          "published_at": "01:56"
+        },
+        {
+          "title": "US judge dismisses Trump lawsuit against Wall Steet Journal over Epstein letter",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/trump-us-judge-dismisses-lawsuit-wall-steet-journal-epstein-letter-6510451",
+          "published_at": "01:18"
+        },
+        {
+          "title": "Judge dismisses Trump's $20 billion defamation lawsuit against Wall Street Journal over Epstein birthday letter",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/judge-dismisses-trumps-20-billion-defamation-lawsuit-against-wall-street-journal-over-epstein-birthday-letter-101793483308154.html",
+          "published_at": "23:07"
+        },
+        {
+          "title": "US judge dismisses Trump lawsuit against Wall Steet Journal over Epstein letter",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3346470/us-judge-dismisses-trump-lawsuit-against-wall-steet-journal-over-epstein-letter",
+          "published_at": "22:53"
+        },
+        {
+          "title": "Judge dismisses Trump's Wall Street Journal lawsuit",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496",
+          "published_at": "21:17"
+        },
         {
           "title": "Judge throws out Trump lawsuit against Wall Street Journal over Epstein birthday letter",
           "source_name": "SCMP",
@@ -140,12 +248,6 @@
           "published_at": "20:11"
         },
         {
-          "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ2dXRjY0R0EzUzFSNXBrYmRsZGJFdXEzTEtvZHFJYmFwUEVoNndYRzVGWkRyTVlOcHN6LUZFYThjRFFkVDVjZTFYdlRfekxWTE13VTZYRnF4RXlvdmJtQkMzOFViVElDWVdqdW5tXzlCZ0tCSjBZR2dReVlCbVVWZ3NxMGFaNUJydXpoYUFRZVZqRjV2QkJhZE5YeExkZ1AzYUdaUnJ3bmtJRVRmRFE?oc=5",
-          "published_at": "20:03"
-        },
-        {
           "title": "Judge permanently throws out Trump’s Wall Street Journal defamation lawsuit over Epstein letter story",
           "source_name": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-epstein-wall-street-journal-defamation-lawsuit-b3076941.html",
@@ -154,7 +256,290 @@
       ]
     },
     {
-      "id": "world-10",
+      "id": "world-99",
+      "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+      "title_en": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+      "category": "중동",
+      "primary_source": "CBS News",
+      "excerpt": "Met alleges demonstrators ‘meeting to purposefully commit a crime’ in largest such gathering under Burnham Almost 140 people have been arrested at the largest mass demonstrations under Andy Burnham’s ",
+      "excerpt_en": "Met alleges demonstrators ‘meeting to purposefully commit a crime’ in largest such gathering under Burnham Almost 140 people have been arrested at the largest mass demonstrations under Andy Burnham’s ",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "ABC News",
+        "Al Jazeera",
+        "CBS News",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-31T18:09:28+09:00",
+      "latest_published_at": "2026-10-31T22:10:53+09:00",
+      "articles": [
+        {
+          "title": "Palestine Action supporters arrested outside US embassy in London",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+          "published_at": "22:10"
+        },
+        {
+          "title": "Dozens arrested outside US Embassy in London for supporting proscribed pro-Palestinian group",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783",
+          "published_at": "19:06"
+        },
+        {
+          "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+          "published_at": "18:28"
+        },
+        {
+          "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+          "published_at": "18:09"
+        }
+      ]
+    },
+    {
+      "id": "world-50",
+      "title": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
+      "title_en": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/shooting-at-spirit-halloween-store-in-california-leaves-1-dead-and-6-wounded-police-say-101793475411420.html",
+      "category": "미국",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A targeted shooting inside a Spirit Halloween store at a California mall left a pregnant 31-year-old woman dead and six others wounded.",
+      "excerpt_en": "A targeted shooting inside a Spirit Halloween store at a California mall left a pregnant 31-year-old woman dead and six others wounded.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/california-spirit-halloween-store-shooting-leaves-pregnant-woman-dead-6-wounded-shooter-not-yet-identified-101793487593935.html",
+      "translation_status": "failed",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 4,
+        "time_score": 2,
+        "raw75": 58
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "AP News",
+        "Hindustan Times",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-31T19:36:50+09:00",
+      "latest_published_at": "2026-10-31T23:25:14+09:00",
+      "articles": [
+        {
+          "title": "California Spirit Halloween store shooting leaves pregnant woman dead, 6 wounded; shooter not yet identified",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/california-spirit-halloween-store-shooting-leaves-pregnant-woman-dead-6-wounded-shooter-not-yet-identified-101793487593935.html",
+          "published_at": "23:25"
+        },
+        {
+          "title": "Shooting at Spirit Halloween store in California leaves pregnant woman dead and 6 wounded",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5kTnNwaXhRRlJ3UjMxc0NMRk1zdVEyWXlqT3hIUmNEZWFVbzk2SzBwSlUyNXBKMzdrNlROUHFmV0dDcEJGUEcyWkZpcGoxQm1hMFdfWWRHcWxfNWE4Wld3bnNXdEFEbnVNbzUyQmdnS2JzLTU3OU04X1h6am4xdUdxX2pjbEZKbE9Lc0ZqSVN2T013TWdSeEo2bzk0NUdXN3RBOWZfWE43MW1t?oc=5",
+          "published_at": "22:34"
+        },
+        {
+          "title": "Manhunt begins after pregnant woman shot dead and others injured at Spirit Halloween",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/california-spirit-halloween-shooting-one-dead-b3076821.html",
+          "published_at": "20:56"
+        },
+        {
+          "title": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/shooting-at-spirit-halloween-store-in-california-leaves-1-dead-and-6-wounded-police-say-101793475411420.html",
+          "published_at": "19:36"
+        }
+      ]
+    },
+    {
+      "id": "world-69",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "title_en": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "category": "아시아",
+      "primary_source": "BBC",
+      "excerpt": "Binance says customer assets remain safe as new update says it uses SAFU reserves, insurance funds and corporate treasury after record cyberattack.",
+      "excerpt_en": "Binance says customer assets remain safe as new update says it uses SAFU reserves, insurance funds and corporate treasury after record cyberattack.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/binance-says-it-has-covered-90-of-losses-after-6-3-billion-crypto-hack-101793503494961.html",
+      "translation_status": "failed",
+      "score": 77,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 58
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-10-31T22:11:45+09:00",
+      "latest_published_at": "2026-11-01T04:41:41+09:00",
+      "articles": [
+        {
+          "title": "Binance says it has covered 90% of losses after $6.3 billion crypto hack",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/binance-says-it-has-covered-90-of-losses-after-6-3-billion-crypto-hack-101793503494961.html",
+          "published_at": "04:41"
+        },
+        {
+          "title": "FBI blames North Korea for record $6.3bn crypto heist from Binance",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist?traffic_source=rss",
+          "published_at": "02:28"
+        },
+        {
+          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "published_at": "22:11"
+        }
+      ]
+    },
+    {
+      "id": "world-86",
+      "title": "Bolivia declares state of emergency over El Nino",
+      "title_en": "Bolivia declares state of emergency over El Nino",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/world/bolivia-state-emergency-el-nino-climate-change-6510571",
+      "category": "기타",
+      "primary_source": "Channel News Asia",
+      "excerpt": "President Rodrigo Paz warned of severe droughts and flooding as El Nino intensifies, with at least 78,000 families already affected by drought.",
+      "excerpt_en": "President Rodrigo Paz warned of severe droughts and flooding as El Nino intensifies, with at least 78,000 families already affected by drought.",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/bolivia-declares-emergency-as-el-nino-intensifies-threatens-severe-weather/a-79820253?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 73,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 9,
+        "time_score": 3,
+        "raw75": 55
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Channel News Asia",
+        "DW"
+      ],
+      "first_published_at": "2026-11-01T03:33:02+09:00",
+      "latest_published_at": "2026-11-01T06:19:00+09:00",
+      "articles": [
+        {
+          "title": "Bolivia declares emergency as El Nino intensifies, threatens severe weather",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/bolivia-declares-emergency-as-el-nino-intensifies-threatens-severe-weather/a-79820253?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "06:19"
+        },
+        {
+          "title": "Bolivia declares state of emergency over El Nino weather pattern",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/bolivia-declares-state-of-emergency-over-el-nino-weather-pattern?traffic_source=rss",
+          "published_at": "04:04"
+        },
+        {
+          "title": "Bolivia declares state of emergency over El Nino",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/bolivia-state-emergency-el-nino-climate-change-6510571",
+          "published_at": "03:33"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "Trump says Flavio Bolsonaro can stay in US 'as long as he wants'",
+      "title_en": "Trump says Flavio Bolsonaro can stay in US 'as long as he wants'",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSmwzNUwxNEpXRmE1UjRrTlBIeGJQMGJ0N1NxOUlVZENsWFVadHloUlA2MzlWRWU1dGFqYk55aUpWeUVkbDJhczBBUThTZ0p6alRuV245ckRGOTl2S1VXbzJDc2NCU1g3QV9QeE1KYnhaVEY5YVp0RnZjVmtpZkNkNFdhdUZjVi0ySXpJWjdPTHUxNDhmeUdxVkR3aTBiRmIxN0ZmT2F0RVBvNlU?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "Flávio Bolsonaro fled Brazil after losing elections to President Luiz Inácio Lula da Silva and arrived in Miami with his wife Fernanda and their two daughters.",
+      "excerpt_en": "Flávio Bolsonaro fled Brazil after losing elections to President Luiz Inácio Lula da Silva and arrived in Miami with his wife Fernanda and their two daughters.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/he-can-stay-as-long-as-he-wants-trump-backs-bolsonaros-stay-in-us-florida-miami-since-fleeing-brazil-election-results-101793503528690.html",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "Hindustan Times",
+        "Reuters"
+      ],
+      "first_published_at": "2026-11-01T00:45:00+09:00",
+      "latest_published_at": "2026-11-01T06:34:20+09:00",
+      "articles": [
+        {
+          "title": "Rubio says Trump administration did not help Bolsonaro flee Brazil to US",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/flavio?traffic_source=rss",
+          "published_at": "06:34"
+        },
+        {
+          "title": "‘He can stay as long as he wants’: Trump backs Bolsonaro's stay in US after Brazil exit",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/he-can-stay-as-long-as-he-wants-trump-backs-bolsonaros-stay-in-us-florida-miami-since-fleeing-brazil-election-results-101793503528690.html",
+          "published_at": "03:45"
+        },
+        {
+          "title": "Trump says Flavio Bolsonaro can stay in US 'as long as he wants'",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSmwzNUwxNEpXRmE1UjRrTlBIeGJQMGJ0N1NxOUlVZENsWFVadHloUlA2MzlWRWU1dGFqYk55aUpWeUVkbDJhczBBUThTZ0p6alRuV245ckRGOTl2S1VXbzJDc2NCU1g3QV9QeE1KYnhaVEY5YVp0RnZjVmtpZkNkNFdhdUZjVi0ySXpJWjdPTHUxNDhmeUdxVkR3aTBiRmIxN0ZmT2F0RVBvNlU?oc=5",
+          "published_at": "00:45"
+        }
+      ]
+    },
+    {
+      "id": "world-62",
       "title": "Pope meets Villanova and Notre Dame basketball teams at the Vatican",
       "title_en": "Pope meets Villanova and Notre Dame basketball teams at the Vatican",
       "title_source": "earliest_pick",
@@ -166,319 +551,14 @@
       "excerpt_source": "ABC News",
       "excerpt_url": "https://abcnews.com/International/wireStory/pope-leo-tells-villanova-notre-dame-basketball-teams-137732026",
       "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "ABC News",
-        "CBS News",
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T13:00:24+09:00",
-      "latest_published_at": "2026-10-31T16:45:47+09:00",
-      "articles": [
-        {
-          "title": "Pope Leo tries to stay neutral as basketball rivals descend on Vatican",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWjFNYmZZY2VGb0VSYmVPcjBFVHRydlE2UnJQVWRNWXI2T2NFUUd0aC1nNXk2MHpnUmRWMVhOMEpsUHpCV3lsRWtrWi1IbzBTakc1SjRVNnZPU3lEekpQcUFZTE9xYUtvQnZCNWI4RlRNQ1lfN1dWc3VJUWRZS294Q29oVXRvalZUUkliLVJTdTMxTWRwNTJrUmNpU2NkSXBubUdvNFhiUQ?oc=5",
-          "published_at": "16:45"
-        },
-        {
-          "title": "Pope Leo tells Villanova and Notre Dame basketball teams he is neutral. Prevost has other ideas",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/pope-leo-tells-villanova-notre-dame-basketball-teams-137732026",
-          "published_at": "16:05"
-        },
-        {
-          "title": "Pope Leo dribbles golden basketball and tries to stay neutral as rival US teams descend on Vatican",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/pope-leo-villanova-notre-dame-visit-college-b3076828.html",
-          "published_at": "14:05"
-        },
-        {
-          "title": "Pope meets Villanova and Notre Dame basketball teams at the Vatican",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/pope-leo-villanova-notre-dame-basketball-teams-vatican/",
-          "published_at": "13:00"
-        }
-      ]
-    },
-    {
-      "id": "world-118",
-      "title": "U.K. PM open to slave trade apology but rules out financial reparations",
-      "title_en": "U.K. PM open to slave trade apology but rules out financial reparations",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/united-kingdom/uk-andy-burnham-slave-trade-apology-reparations-king-charles-rcna606670",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "Prime Minister Andy Burnham said on Saturday he was “open” to the UK issuing a formal apology for its role in the transatlantic slave trade, but ruled out financial reparations. The Labour leader made",
-      "excerpt_en": "Prime Minister Andy Burnham said on Saturday he was “open” to the UK issuing a formal apology for its role in the transatlantic slave trade, but ruled out financial reparations. The Labour leader made",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News",
-        "Bangkok Post",
-        "France24",
-        "NBC News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-31T09:46:08+09:00",
-      "latest_published_at": "2026-10-31T12:31:49+09:00",
-      "articles": [
-        {
-          "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
-          "published_at": "12:31"
-        },
-        {
-          "title": "UK PM Burnham ‘open’ to slavery apology, but not reparations",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
-          "published_at": "12:06"
-        },
-        {
-          "title": "British PM ‘open’ to slavery apology, rules out reparations",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3346050/british-pm-open-to-slavery-apology-rules-out-reparations",
-          "published_at": "11:25"
-        },
-        {
-          "title": "UK PM signals the government will consider an apology for its role in the slave trade",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/uk-prime-minister-signals-government-apology-role-slave-137730910",
-          "published_at": "10:24"
-        },
-        {
-          "title": "U.K. PM open to slave trade apology but rules out financial reparations",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/uk-andy-burnham-slave-trade-apology-reparations-king-charles-rcna606670",
-          "published_at": "09:46"
-        }
-      ]
-    },
-    {
-      "id": "world-129",
-      "title": "Trump and Milei under pressure to explain role in Flavio Bolsonaro’s dramatic escape to US",
-      "title_en": "Trump and Milei under pressure to explain role in Flavio Bolsonaro’s dramatic escape to US",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/americas/article/3372806/trump-and-milei-under-pressure-explain-role-flavio-bolsonaros-dramatic-escape-us",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "US President Donald Trump and Argentina’s Javier Milei faced mounting pressure on Friday to explain the role their countries played in helping Flavio Bolsonaro flee Brazil after he had his passports c",
-      "excerpt_en": "US President Donald Trump and Argentina’s Javier Milei faced mounting pressure on Friday to explain the role their countries played in helping Flavio Bolsonaro flee Brazil after he had his passports c",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3372806/trump-and-milei-under-pressure-explain-role-flavio-bolsonaros-dramatic-escape-us",
-      "translation_status": "failed",
-      "score": 80,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 60
-      },
-      "area_value": 5,
-      "article_count": 5,
-      "syndicated_count": 0,
-      "source_count": 5,
-      "sources": [
-        "ABC News",
-        "France24",
-        "Hindustan Times",
-        "SCMP",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T02:16:32+09:00",
-      "latest_published_at": "2026-10-31T16:04:25+09:00",
-      "articles": [
-        {
-          "title": "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/flvio-bolsonaros-departure-us-sparks-flurry-viral-brazilian-137733405",
-          "published_at": "16:04"
-        },
-        {
-          "title": "Like father, like son: How Flavio Bolsonaro followed Jair’s footsteps fleeing election defeat for the US",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/flavio-bolsonaro-jair-election-defeat-lula-florida-b3075857.html",
-          "published_at": "13:32"
-        },
-        {
-          "title": "Flavio Bolsonaro posts video, says he fled Brazil due to ‘persecution’",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/americas/20261031-flavio-bolsonaro-posts-video-says-he-fled-brazil-due-to-persecution",
-          "published_at": "06:25"
-        },
-        {
-          "title": "‘Persecution began sooner than I imagined’: Flavio Bolsonaro's message after fleeing Brazil",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/persecution-began-sooner-than-i-imagined-flavio-bolsonaros-message-after-brazil-exit-101793411524449.html",
-          "published_at": "05:52"
-        },
-        {
-          "title": "Trump and Milei under pressure to explain role in Flavio Bolsonaro’s dramatic escape to US",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3372806/trump-and-milei-under-pressure-explain-role-flavio-bolsonaros-dramatic-escape-us",
-          "published_at": "02:16"
-        }
-      ]
-    },
-    {
-      "id": "world-3",
-      "title": "Moscow’s Tsaritysyno Museum on terror radar? US warns Russia of possible attack",
-      "title_en": "Moscow’s Tsaritysyno Museum on terror radar? US warns Russia of possible attack",
-      "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/europe/moscows-tsaritysyno-museum-on-terror-radar-us-warns-russia-of-possible-attack/articleshow/135404738.cms",
-      "category": "유럽",
-      "primary_source": "Times of India",
-      "excerpt": "MOSCOW - Russia's FSB security service said on Saturday it was carrying out \"appropriate\" measures after the US embassy in Moscow warned of a planned \"terrorist\" attack in the capital.",
-      "excerpt_en": "MOSCOW - Russia's FSB security service said on Saturday it was carrying out \"appropriate\" measures after the US embassy in Moscow warned of a planned \"terrorist\" attack in the capital.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3346075/russia-says-responding-to-us-report-of-planned-attack-on-moscow",
-      "translation_status": "failed",
-      "score": 76,
+      "score": 68,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 7,
+        "breaking_score": 1,
         "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "Reuters",
-        "Times of India"
-      ],
-      "first_published_at": "2026-10-31T15:32:25+09:00",
-      "latest_published_at": "2026-10-31T16:47:00+09:00",
-      "articles": [
-        {
-          "title": "Russia says responding to US report of planned attack on Moscow",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3346075/russia-says-responding-to-us-report-of-planned-attack-on-moscow",
-          "published_at": "16:47"
-        },
-        {
-          "title": "FSB says US warned Russia of possible Moscow attack",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN01mVmZKa0N0UWNiYkxZaDY4a0J5ekhBX2NKVi1xUDh5cmpEeHhzX3U3VE9GU21KUjlvQ0FuWGVlalZMVjJTY1FnVlJxR0YxNHpLMl9YTG5hNW9yQUVzbzB2RkFHV3JRTTVUVVdwRUkyeE9KRVBVdTQ5R3NYM1p6dF9lZFU0TkNCTVJWb2UyZ2h3eXAx?oc=5",
-          "published_at": "16:37"
-        },
-        {
-          "title": "Moscow’s Tsaritysyno Museum on terror radar? US warns Russia of possible attack",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/moscows-tsaritysyno-museum-on-terror-radar-us-warns-russia-of-possible-attack/articleshow/135404738.cms",
-          "published_at": "15:32"
-        }
-      ]
-    },
-    {
-      "id": "world-246",
-      "title": "White House approves Patriot missile sales to Ukraine",
-      "title_en": "White House approves Patriot missile sales to Ukraine",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3345970/white-house-approves-patriot-missile-sales-to-ukraine",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "WASHINGTON - The Trump administration on Friday approved the sale of 500 Patriot missiles to Ukraine, the State Department said, but the Ukrainian president warned deliveries could take years.",
-      "excerpt_en": "WASHINGTON - The Trump administration on Friday approved the sale of 500 Patriot missiles to Ukraine, the State Department said, but the Ukrainian president warned deliveries could take years.",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3345970/white-house-approves-patriot-missile-sales-to-ukraine",
-      "translation_status": "failed",
-      "score": 76,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 57
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "Bangkok Post",
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-10-31T04:45:00+09:00",
-      "latest_published_at": "2026-10-31T08:22:03+09:00",
-      "articles": [
-        {
-          "title": "U.S. approves sale of 500 Patriot missiles to Ukraine",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/ukraine-patriot-missiles-us-lockheed-martin-sale-zelenskyy/",
-          "published_at": "08:22"
-        },
-        {
-          "title": "US clears sale of 500 Patriot missiles to Ukraine as Zelensky flags delays",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-clears-sale-of-500-patriot-missiles-to-ukraine-as-zelensky-flags-delays-101793430045290.html",
-          "published_at": "07:32"
-        },
-        {
-          "title": "White House approves Patriot missile sales to Ukraine",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3345970/white-house-approves-patriot-missile-sales-to-ukraine",
-          "published_at": "04:45"
-        }
-      ]
-    },
-    {
-      "id": "world-46",
-      "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
-      "title_en": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "London police say that dozens of people have been arrested at a protest outside the U.S. Embassy in support of the proscribed group Palestine Action",
-      "excerpt_en": "London police say that dozens of people have been arrested at a protest outside the U.S. Embassy in support of the proscribed group Palestine Action",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783",
-      "translation_status": "failed",
-      "score": 73,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
+        "raw75": 51
       },
       "area_value": 3,
       "article_count": 3,
@@ -489,41 +569,41 @@
         "AP News",
         "CBS News"
       ],
-      "first_published_at": "2026-10-31T18:09:28+09:00",
-      "latest_published_at": "2026-10-31T20:14:00+09:00",
+      "first_published_at": "2026-10-31T13:00:24+09:00",
+      "latest_published_at": "2026-10-31T21:37:00+09:00",
       "articles": [
         {
-          "title": "London police arrest 139 people outside US Embassy for supporting banned pro-Palestinian group",
+          "title": "Pope Leo tells Villanova and Notre Dame basketball teams he is neutral. Prevost has other ideas",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeUlKZ0JzU2NIcmNFckRsU1l6akpveTNUNHhUbnNyMHhkOUxXbWk0RDJWVnQ0Ti1MQVI0QnhSQnpPZmUyWVNUQktDVGxVbmFMaERuY0tlVDIyN0xYMkpxbHkteUhEVnpCNlAxYVY2SXBEWnFYREJzYWFLTThWOXYxbkNzRjk2OEo3UmtvSnBMRDNDc3BDbW04ak9PUDRWanlpcFNFdG1YWjdSdw?oc=5",
-          "published_at": "20:14"
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeGw3Zm1VdjB6bGlhTElQR3huQmFMdG5YMG0tUHhuanV2UFFZTndBVno2TmhFTWpySWdianloRF9CSXdWVXRzcTZsSWpWbHVWQ0pxX2haLW1Jdi1MNmJYeWszaTZSd3RLZGFwYmtNN0pOQ1E5NGdnblphTThOZGpkeHBmWUV2bU5SNllVa2VyTTJyM3NvNkt4WUlab2E2eVhqRmZ6R1FSRTV0eXRsSnhPQVpNMUREX28?oc=5",
+          "published_at": "21:37"
         },
         {
-          "title": "Dozens arrested outside US Embassy in London for supporting proscribed pro-Palestinian group",
+          "title": "Pope Leo tells Villanova and Notre Dame basketball teams he is neutral. Prevost has other ideas",
           "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783",
-          "published_at": "19:06"
+          "url": "https://abcnews.com/International/wireStory/pope-leo-tells-villanova-notre-dame-basketball-teams-137732026",
+          "published_at": "16:05"
         },
         {
-          "title": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+          "title": "Pope meets Villanova and Notre Dame basketball teams at the Vatican",
           "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
-          "published_at": "18:09"
+          "url": "https://www.cbsnews.com/news/pope-leo-villanova-notre-dame-basketball-teams-vatican/",
+          "published_at": "13:00"
         }
       ]
     },
     {
-      "id": "world-117",
-      "title": "Evacuees from Russian-occupied Oleshky begin arriving in Ukraine",
-      "title_en": "Evacuees from Russian-occupied Oleshky begin arriving in Ukraine",
+      "id": "world-203",
+      "title": "UK king to address Commonwealth with 'unflinching honesty' amid slavery focus",
+      "title_en": "UK king to address Commonwealth with 'unflinching honesty' amid slavery focus",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/uk-king-to-address-commonwealth-with-unflinching-honesty-amid-slavery-focus-101793484270099.html",
       "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Residents of the Russian-occupied city of Oleshky, ravaged by years of war, began arriving in Ukraine on Saturday after being evacuated via Belarus during a rare truce brokered by US First Lady Melani",
-      "excerpt_en": "Residents of the Russian-occupied city of Oleshky, ravaged by years of war, began arriving in Ukraine on Saturday after being evacuated via Belarus during a rare truce brokered by US First Lady Melani",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next",
+      "primary_source": "Hindustan Times",
+      "excerpt": "ST. JOHN'S (ANTIGUA AND BARBUDA) - King Charles III will confront \"shameful aspects\" of UK history with \"unflinching honesty\" when he addresses Commonwealth leaders next week, Buckingham Palace said S",
+      "excerpt_en": "ST. JOHN'S (ANTIGUA AND BARBUDA) - King Charles III will confront \"shameful aspects\" of UK history with \"unflinching honesty\" when he addresses Commonwealth leaders next week, Buckingham Palace said S",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3346465/uk-king-to-address-commonwealth-with-unflinching-honesty-amid-slavery-focus",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -540,34 +620,88 @@
       "source_count": 3,
       "sources": [
         "Bangkok Post",
-        "France24",
-        "SCMP"
+        "Hindustan Times",
+        "Sky News"
       ],
-      "first_published_at": "2026-10-31T09:22:22+09:00",
-      "latest_published_at": "2026-10-31T12:45:49+09:00",
+      "first_published_at": "2026-10-31T22:04:29+09:00",
+      "latest_published_at": "2026-11-01T03:07:00+09:00",
       "articles": [
         {
-          "title": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine",
-          "published_at": "12:45"
+          "title": "The King to speak about slavery with 'unflinching honesty'",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/the-king-to-speak-about-slavery-with-unflinching-honesty-13606556",
+          "published_at": "03:07"
         },
         {
-          "title": "Evacuees from Russian-occupied city due in Ukraine",
+          "title": "UK king to address Commonwealth with 'unflinching honesty' amid slavery focus",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3346064/evacuees-from-russianoccupied-city-due-in-ukraine",
-          "published_at": "12:45"
+          "url": "https://www.bangkokpost.com/world/3346465/uk-king-to-address-commonwealth-with-unflinching-honesty-amid-slavery-focus",
+          "published_at": "22:45"
         },
         {
-          "title": "Evacuees from Russian-occupied Oleshky begin arriving in Ukraine",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next",
-          "published_at": "09:22"
+          "title": "UK king to address Commonwealth with 'unflinching honesty' amid slavery focus",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/uk-king-to-address-commonwealth-with-unflinching-honesty-amid-slavery-focus-101793484270099.html",
+          "published_at": "22:04"
         }
       ]
     },
     {
-      "id": "world-133",
+      "id": "world-124",
+      "title": "UK PM signals the government will consider an apology for its role in the slave trade",
+      "title_en": "UK PM signals the government will consider an apology for its role in the slave trade",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/uk-prime-minister-signals-government-apology-role-slave-137730910",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "Prime Minister Andy Burnham said on Saturday he was “open” to the UK issuing a formal apology for its role in the transatlantic slave trade, but ruled out financial reparations. The Labour leader made",
+      "excerpt_en": "Prime Minister Andy Burnham said on Saturday he was “open” to the UK issuing a formal apology for its role in the transatlantic slave trade, but ruled out financial reparations. The Labour leader made",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
+      "translation_status": "failed",
+      "score": 67,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 50
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "ABC News",
+        "France24",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-31T10:24:08+09:00",
+      "latest_published_at": "2026-10-31T12:31:49+09:00",
+      "articles": [
+        {
+          "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
+          "published_at": "12:31"
+        },
+        {
+          "title": "UK PM Burnham ‘open’ to slavery apology, but not reparations",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
+          "published_at": "12:06"
+        },
+        {
+          "title": "UK PM signals the government will consider an apology for its role in the slave trade",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/uk-prime-minister-signals-government-apology-role-slave-137730910",
+          "published_at": "10:24"
+        }
+      ]
+    },
+    {
+      "id": "world-132",
       "title": "Civilians evacuated from Russian-occupied Oleshky arrive in Ukraine-held territory",
       "title_en": "Civilians evacuated from Russian-occupied Oleshky arrive in Ukraine-held territory",
       "title_source": "earliest_pick",
@@ -579,14 +713,14 @@
       "excerpt_source": "The Guardian",
       "excerpt_url": "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine",
       "translation_status": "failed",
-      "score": 65,
+      "score": 64,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 9,
-        "time_score": 3,
-        "raw75": 49
+        "time_score": 2,
+        "raw75": 48
       },
       "area_value": 2,
       "article_count": 2,
@@ -614,17 +748,17 @@
       ]
     },
     {
-      "id": "world-5",
-      "title": "Binance says it has covered 90% of losses from $6.3 billion hack so far",
-      "title_en": "Binance says it has covered 90% of losses from $6.3 billion hack so far",
+      "id": "world-202",
+      "title": "UN says Yemeni staff member dies in Houthi custody, demands investigation",
+      "title_en": "UN says Yemeni staff member dies in Houthi custody, demands investigation",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/binance-says-it-has-covered-90-losses-63-billion-hack-so-far-6509761",
-      "category": "미국",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Binance uses company funds to replace 90% of the US$6.3 billion stolen in a hack and says user withdrawals stay on track to resume Sunday.",
-      "excerpt_en": "Binance uses company funds to replace 90% of the US$6.3 billion stolen in a hack and says user withdrawals stay on track to resume Sunday.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/business/binance-says-has-covered-90-us63-billion-hack-losses-6510271",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/un-says-yemeni-staff-member-dies-in-houthi-custody-demands-investigation-101793475225163.html",
+      "category": "중동",
+      "primary_source": "Hindustan Times",
+      "excerpt": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said.",
+      "excerpt_en": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
       "translation_status": "failed",
       "score": 63,
       "score_breakdown": {
@@ -640,91 +774,185 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "Hindustan Times",
+        "Sky News"
       ],
-      "first_published_at": "2026-10-31T14:59:09+09:00",
-      "latest_published_at": "2026-10-31T21:01:00+09:00",
+      "first_published_at": "2026-10-31T19:33:44+09:00",
+      "latest_published_at": "2026-11-01T06:29:12+09:00",
       "articles": [
         {
-          "title": "Binance says has covered 90% of US$6.3 billion hack losses",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/binance-says-has-covered-90-us63-billion-hack-losses-6510271",
-          "published_at": "21:01"
+          "title": "UN chief condemns death of Yemeni human rights staff member in Houthi custody",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/un-chief-condemns-death-of-yemeni-human-rights-staff-member-in-houthi-custody-101793512934172.html",
+          "published_at": "06:29"
         },
         {
-          "title": "Binance says it has covered 90% of losses from $6.3 billion hack so far",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV05QRmVQbjJDUTZkNzRFaTA5VVp5RE9Bd2ctMkxITEVaZnNLZVVzdkx5aHBUUFZYOTJCb19YRFJRM2I1RW5QS0JJUmowaUtsVjlnaTExaWJDM2NsLVJINlJQZ0JHdlUyb05LS0kyRGdRMHlyVWdYRHFJOTNlbFRZc0plbkc2SE1nOHB1SklPVVNUVnhFY3lYdWtR?oc=5",
-          "published_at": "17:16"
+          "title": "UN demands investigation into death of staff member in Houthi custody",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
+          "published_at": "01:17"
         },
         {
-          "title": "Binance says it has covered 90% of losses from $6.3 billion hack so far",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/binance-says-it-has-covered-90-losses-63-billion-hack-so-far-6509761",
-          "published_at": "14:59"
+          "title": "UN says Yemeni staff member dies in Houthi custody, demands investigation",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/un-says-yemeni-staff-member-dies-in-houthi-custody-demands-investigation-101793475225163.html",
+          "published_at": "19:33"
         }
       ]
     },
     {
-      "id": "world-39",
-      "title": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
-      "title_en": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
+      "id": "world-17",
+      "title": "FSB says US warned Russia of possible Moscow attack",
+      "title_en": "FSB says US warned Russia of possible Moscow attack",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5kTnNwaXhRRlJ3UjMxc0NMRk1zdVEyWXlqT3hIUmNEZWFVbzk2SzBwSlUyNXBKMzdrNlROUHFmV0dDcEJGUEcyWkZpcGoxQm1hMFdfWWRHcWxfNWE4Wld3bnNXdEFEbnVNbzUyQmdnS2JzLTU3OU04X1h6am4xdUdxX2pjbEZKbE9Lc0ZqSVN2T013TWdSeEo2bzk0NUdXN3RBOWZfWE43MW1t?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say AP News",
-      "excerpt_en": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5kTnNwaXhRRlJ3UjMxc0NMRk1zdVEyWXlqT3hIUmNEZWFVbzk2SzBwSlUyNXBKMzdrNlROUHFmV0dDcEJGUEcyWkZpcGoxQm1hMFdfWWRHcWxfNWE4Wld3bnNXdEFEbnVNbzUyQmdnS2JzLTU3OU04X1h6am4xdUdxX2pjbEZKbE9Lc0ZqSVN2T013TWdSeEo2bzk0NUdXN3RBOWZfWE43MW1t?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN01mVmZKa0N0UWNiYkxZaDY4a0J5ekhBX2NKVi1xUDh5cmpEeHhzX3U3VE9GU21KUjlvQ0FuWGVlalZMVjJTY1FnVlJxR0YxNHpLMl9YTG5hNW9yQUVzbzB2RkFHV3JRTTVUVVdwRUkyeE9KRVBVdTQ5R3NYM1p6dF9lZFU0TkNCTVJWb2UyZ2h3eXAx?oc=5",
+      "category": "유럽",
+      "primary_source": "Reuters",
+      "excerpt": "Russia's FSB security service says it has carried out \"appropriate\" measures after the US embassy in Moscow warned of a planned \"terrorist\" attack in the capital this weekend.",
+      "excerpt_en": "Russia's FSB security service says it has carried out \"appropriate\" measures after the US embassy in Moscow warned of a planned \"terrorist\" attack in the capital this weekend.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-11-01/russia-responds-to-us-intelligence-moscow-terrorist-attack/107333516",
       "translation_status": "failed",
-      "score": 59,
+      "score": 61,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 44
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "AP News",
-        "Hindustan Times"
+        "ABC News Australia",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-31T19:35:00+09:00",
-      "latest_published_at": "2026-10-31T19:36:50+09:00",
+      "first_published_at": "2026-10-31T16:37:08+09:00",
+      "latest_published_at": "2026-11-01T02:07:14+09:00",
       "articles": [
         {
-          "title": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/shooting-at-spirit-halloween-store-in-california-leaves-1-dead-and-6-wounded-police-say-101793475411420.html",
-          "published_at": "19:36"
+          "title": "Russia responds to US warning of Moscow attack plan",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-11-01/russia-responds-to-us-intelligence-moscow-terrorist-attack/107333516",
+          "published_at": "02:07"
         },
         {
-          "title": "Shooting at Spirit Halloween store in California leaves 1 dead and 6 wounded, police say",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5kTnNwaXhRRlJ3UjMxc0NMRk1zdVEyWXlqT3hIUmNEZWFVbzk2SzBwSlUyNXBKMzdrNlROUHFmV0dDcEJGUEcyWkZpcGoxQm1hMFdfWWRHcWxfNWE4Wld3bnNXdEFEbnVNbzUyQmdnS2JzLTU3OU04X1h6am4xdUdxX2pjbEZKbE9Lc0ZqSVN2T013TWdSeEo2bzk0NUdXN3RBOWZfWE43MW1t?oc=5",
-          "published_at": "19:35"
+          "title": "FSB says US warned Russia of possible Moscow attack",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN01mVmZKa0N0UWNiYkxZaDY4a0J5ekhBX2NKVi1xUDh5cmpEeHhzX3U3VE9GU21KUjlvQ0FuWGVlalZMVjJTY1FnVlJxR0YxNHpLMl9YTG5hNW9yQUVzbzB2RkFHV3JRTTVUVVdwRUkyeE9KRVBVdTQ5R3NYM1p6dF9lZFU0TkNCTVJWb2UyZ2h3eXAx?oc=5",
+          "published_at": "16:37"
         }
       ]
     },
     {
-      "id": "world-50",
-      "title": "From the trenches to the track, Ukraine’s amputee athletes join international race",
-      "title_en": "From the trenches to the track, Ukraine’s amputee athletes join international race",
+      "id": "world-61",
+      "title": "Iranian leader threatens immediate response to potential attack, and other Mideast news",
+      "title_en": "Iranian leader threatens immediate response to potential attack, and other Mideast news",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/trenches-track-ukraines-amputee-athletes-join-international-endurance-137728928",
-      "category": "유럽",
+      "title_url": "https://abcnews.com/International/wireStory/iranian-leader-threatens-immediate-response-potential-attack-mideast-137731097",
+      "category": "중동",
       "primary_source": "ABC News",
-      "excerpt": "Ukrainian war veterans, including athletes who have lost limbs in combat, have taken on a grueling HYROX fitness competition in Valencia, Spain, using sport to support their recovery and raise awarene",
-      "excerpt_en": "Ukrainian war veterans, including athletes who have lost limbs in combat, have taken on a grueling HYROX fitness competition in Valencia, Spain, using sport to support their recovery and raise awarene",
+      "excerpt": "Iran's supreme leader has threatened an immediate response to any potential attack from the U.S. or Israel",
+      "excerpt_en": "Iran's supreme leader has threatened an immediate response to any potential attack from the U.S. or Israel",
       "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/trenches-track-ukraines-amputee-athletes-join-international-endurance-137728928",
+      "excerpt_url": "https://abcnews.com/International/wireStory/iranian-leader-threatens-immediate-response-potential-attack-mideast-137731097",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-10-31T16:11:41+09:00",
+      "latest_published_at": "2026-10-31T21:25:00+09:00",
+      "articles": [
+        {
+          "title": "Iran's leader says response to attack would have no 'geographic limits,' and other Mideast news",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcC1sSkxtLWVVWVpCXzVQc1pIeHhrdnBEYkY1ZjZmQjQtZE9CdWNOdkFPalphUHVmWTJ0dk1NUUNtX2Y4RVJ1U0FQZ21BM1VkQTFUOU1IVHNRd2kwMGs4c0VqUG81X2hRbVlvU0NCOFRiYjR4TDdhajltTmRRazJBbUotYUs3Q3o0aEg4UDBONEhodw?oc=5",
+          "published_at": "21:25"
+        },
+        {
+          "title": "Iranian leader threatens immediate response to potential attack, and other Mideast news",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/iranian-leader-threatens-immediate-response-potential-attack-mideast-137731097",
+          "published_at": "16:11"
+        }
+      ]
+    },
+    {
+      "id": "world-128",
+      "title": "Binance says billions replaced from hack that FBI blames on North Korea",
+      "title_en": "Binance says billions replaced from hack that FBI blames on North Korea",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbc.ca/news/world/binance-hack-north-korea-9.7404502?cmp=rss",
+      "category": "아시아",
+      "primary_source": "CBC",
+      "excerpt": "Cryptocurrency exchange says withdrawals expected to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠am",
+      "excerpt_en": "Cryptocurrency exchange says withdrawals expected to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠am",
+      "excerpt_source": "The Guardian",
+      "excerpt_url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+      "translation_status": "failed",
+      "score": 61,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 46
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBC",
+        "The Guardian"
+      ],
+      "first_published_at": "2026-10-31T22:54:58+09:00",
+      "latest_published_at": "2026-11-01T02:41:34+09:00",
+      "articles": [
+        {
+          "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+          "source_name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+          "published_at": "02:41"
+        },
+        {
+          "title": "Binance says billions replaced from hack that FBI blames on North Korea",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/binance-hack-north-korea-9.7404502?cmp=rss",
+          "published_at": "22:54"
+        }
+      ]
+    },
+    {
+      "id": "world-57",
+      "title": "London police arrest 139 people outside US Embassy for supporting banned pro-Palestinian group",
+      "title_en": "London police arrest 139 people outside US Embassy for supporting banned pro-Palestinian group",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeUlKZ0JzU2NIcmNFckRsU1l6akpveTNUNHhUbnNyMHhkOUxXbWk0RDJWVnQ0Ti1MQVI0QnhSQnpPZmUyWVNUQktDVGxVbmFMaERuY0tlVDIyN0xYMkpxbHkteUhEVnpCNlAxYVY2SXBEWnFYREJzYWFLTThWOXYxbkNzRjk2OEo3UmtvSnBMRDNDc3BDbW04ak9PUDRWanlpcFNFdG1YWjdSdw?oc=5",
+      "category": "중동",
+      "primary_source": "AP News",
+      "excerpt": "London police arrested 139 protesters outside the US Embassy for supporting banned group Palestine Action ahead of a Supreme Court appeal.",
+      "excerpt_en": "London police arrested 139 protesters outside the US Embassy for supporting banned group Palestine Action ahead of a Supreme Court appeal.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/london-police-arrest-139-protesters-outside-us-embassy-over-support-for-banned-pro-palestinian-group-101793494929349.html",
       "translation_status": "failed",
       "score": 57,
       "score_breakdown": {
@@ -740,81 +968,216 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "AP News"
+        "AP News",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-10-31T08:33:34+09:00",
-      "latest_published_at": "2026-10-31T12:43:00+09:00",
+      "first_published_at": "2026-10-31T20:14:00+09:00",
+      "latest_published_at": "2026-11-01T01:17:48+09:00",
       "articles": [
         {
-          "title": "From the trenches to the track, Ukraine’s amputee athletes join international endurance race",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQzRSMVpvSjdrYm9qN0xWQi1UZ293TWhFS25ETjhmQWVZUjl0UjdiQW9GWnpiWTlHS2ZNWFdJV1pQNC16SXFuY20xekRoZmZRMFJlaTh3MXgwOTJzNW5TUXRZZlM5ZzdMT2tVUjNuN1p2blhMbE5QZks5UWdyTlg1SDVvbTZUdVZWTWVZbDVtNFZhLXExU2RfVng5ZkI4T0h4QTZ2SmR3c1kyanh6eHc?oc=5",
-          "published_at": "12:43"
+          "title": "London police arrest 139 protesters outside US Embassy over support for banned pro-Palestinian group",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/london-police-arrest-139-protesters-outside-us-embassy-over-support-for-banned-pro-palestinian-group-101793494929349.html",
+          "published_at": "01:17"
         },
         {
-          "title": "From the trenches to the track, Ukraine’s amputee athletes join international race",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/trenches-track-ukraines-amputee-athletes-join-international-endurance-137728928",
-          "published_at": "08:33"
+          "title": "London police arrest 139 people outside US Embassy for supporting banned pro-Palestinian group",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeUlKZ0JzU2NIcmNFckRsU1l6akpveTNUNHhUbnNyMHhkOUxXbWk0RDJWVnQ0Ti1MQVI0QnhSQnpPZmUyWVNUQktDVGxVbmFMaERuY0tlVDIyN0xYMkpxbHkteUhEVnpCNlAxYVY2SXBEWnFYREJzYWFLTThWOXYxbkNzRjk2OEo3UmtvSnBMRDNDc3BDbW04ak9PUDRWanlpcFNFdG1YWjdSdw?oc=5",
+          "published_at": "20:14"
         }
       ]
     },
     {
-      "id": "world-196",
-      "title": "Kim Jong-un urges drone expansion as North Korea showcases new unmanned tech",
-      "title_en": "Kim Jong-un urges drone expansion as North Korea showcases new unmanned tech",
+      "id": "world-0",
+      "title": "Indian authorities tighten security ahead of big opposition march in Delhi",
+      "title_en": "Indian authorities tighten security ahead of big opposition march in Delhi",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/east-asia/article/3372809/kim-jong-un-urges-drone-expansion-north-korea-showcases-new-unmanned-tech",
+      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakVrd3NyN2t0ZzZVTURGaTFwXzREVHc3eEUzd214OHdGOFcwQTdwYnMwSUN3dVhXV0RlTGtqNjJWV2xtSnVfbmJHUDBwX1c1R0VJaGx5V3IxTDdpUGttcHNrOGQxUWtMTk53WmhnempCczJLOUU3V0xfSjlJS0VicGQ3UEtxenEzaHhwNlYxeENNRmEtZUl4M0g1MjlkelRUdjZNdVc5SjBxQkoxVnhTNGFjd0oydWs?oc=5",
       "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "The United States, South Korea and Japan reaffirmed their commitment to the “complete denuclearisation” of North Korea on Saturday, as Pyongyang continues to reject disarmament ahead of possible talks",
-      "excerpt_en": "The United States, South Korea and Japan reaffirmed their commitment to the “complete denuclearisation” of North Korea on Saturday, as Pyongyang continues to reject disarmament ahead of possible talks",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/east-asia/article/3372818/us-south-korea-and-japan-reaffirm-north-korea-denuclearisation-stance",
+      "primary_source": "Reuters",
+      "excerpt": "Protesters are set to demand the resignation of India's election chief over a controversial revision of voter lists.",
+      "excerpt_en": "Protesters are set to demand the resignation of India's election chief over a controversial revision of voter lists.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/asia/indian-authorities-tighten-security-ahead-big-opposition-march-in-delhi-6510591",
       "translation_status": "failed",
-      "score": 57,
+      "score": 55,
       "score_breakdown": {
-        "article_score": 18,
+        "article_score": 12,
         "diversity_score": 10,
-        "major_score": 5,
-        "breaking_score": 9,
-        "time_score": 1,
-        "raw75": 43
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
       },
-      "area_value": 3,
-      "article_count": 3,
+      "area_value": 2,
+      "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Bangkok Post",
-        "SCMP"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-10-31T03:21:11+09:00",
-      "latest_published_at": "2026-10-31T06:43:32+09:00",
+      "first_published_at": "2026-11-01T04:20:00+09:00",
+      "latest_published_at": "2026-11-01T04:42:46+09:00",
       "articles": [
         {
-          "title": "US, South Korea and Japan reaffirm North Korea denuclearisation stance",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3372818/us-south-korea-and-japan-reaffirm-north-korea-denuclearisation-stance",
-          "published_at": "06:43"
+          "title": "Indian authorities tighten security ahead of big opposition march in Delhi",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/indian-authorities-tighten-security-ahead-big-opposition-march-in-delhi-6510591",
+          "published_at": "04:42"
         },
         {
-          "title": "US and allies pledge ‘complete' North Korea denuclearisation",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3346005/us-and-allies-pledge-complete-north-korea-denuclearisation",
-          "published_at": "03:45"
-        },
-        {
-          "title": "Kim Jong-un urges drone expansion as North Korea showcases new unmanned tech",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3372809/kim-jong-un-urges-drone-expansion-north-korea-showcases-new-unmanned-tech",
-          "published_at": "03:21"
+          "title": "Indian authorities tighten security ahead of big opposition march in Delhi",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakVrd3NyN2t0ZzZVTURGaTFwXzREVHc3eEUzd214OHdGOFcwQTdwYnMwSUN3dVhXV0RlTGtqNjJWV2xtSnVfbmJHUDBwX1c1R0VJaGx5V3IxTDdpUGttcHNrOGQxUWtMTk53WmhnempCczJLOUU3V0xfSjlJS0VicGQ3UEtxenEzaHhwNlYxeENNRmEtZUl4M0g1MjlkelRUdjZNdVc5SjBxQkoxVnhTNGFjd0oydWs?oc=5",
+          "published_at": "04:20"
         }
       ]
     },
     {
-      "id": "world-4",
+      "id": "world-2",
+      "title": "Malaysia Airlines says customers may be affected by Amadeus breach",
+      "title_en": "Malaysia Airlines says customers may be affected by Amadeus breach",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmJnZzF1bzhldXBrMWxya3R6dmpVUkFiLTQ5cVRYM0tmSlhGNUdaNU9xb3VlMDNRZUZ0aExyZDEtWW9oRmJ6dFF1QTVsOHpqSXBRbzBFWFFmMHNTT1NtTVJMWER6Vm1kelU3Wk5iZUlUZ255em9TbkdoZjJoM0NhekI0dnphT2pkSUx5ZFktc3dZcFN4NDNtS3ZrUzdqS2wtT05PSjFCUnl3d0NYUU52QzNjX2Q5QzNvQ3gw?oc=5",
+      "category": "기타",
+      "primary_source": "Reuters",
+      "excerpt": "The incident may have affected information processed between August 2023 and September 2026, the airline said on Sunday (Nov 1).",
+      "excerpt_en": "The incident may have affected information processed between August 2023 and September 2026, the airline said on Sunday (Nov 1).",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/asia/malaysia-airlines-amadeus-security-breach-6510631",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-11-01T03:37:00+09:00",
+      "latest_published_at": "2026-11-01T05:01:03+09:00",
+      "articles": [
+        {
+          "title": "Malaysia Airlines says customers may be affected by Amadeus breach",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/malaysia-airlines-amadeus-security-breach-6510631",
+          "published_at": "05:01"
+        },
+        {
+          "title": "Malaysia Airlines says customers may be affected by Amadeus breach",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQmJnZzF1bzhldXBrMWxya3R6dmpVUkFiLTQ5cVRYM0tmSlhGNUdaNU9xb3VlMDNRZUZ0aExyZDEtWW9oRmJ6dFF1QTVsOHpqSXBRbzBFWFFmMHNTT1NtTVJMWER6Vm1kelU3Wk5iZUlUZ255em9TbkdoZjJoM0NhekI0dnphT2pkSUx5ZFktc3dZcFN4NDNtS3ZrUzdqS2wtT05PSjFCUnl3d0NYUU52QzNjX2Q5QzNvQ3gw?oc=5",
+          "published_at": "03:37"
+        }
+      ]
+    },
+    {
+      "id": "world-5",
+      "title": "South Korea exports nearly double in October, strongest growth since 1974",
+      "title_en": "South Korea exports nearly double in October, strongest growth since 1974",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.channelnewsasia.com/business/south-korea-exports-nearly-double-in-october-strongest-growth-1974-6510436",
+      "category": "아시아",
+      "primary_source": "Channel News Asia",
+      "excerpt": "South Korea exports nearly double in October on AI investment boom Reuters",
+      "excerpt_en": "South Korea exports nearly double in October on AI investment boom Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTEw3WmpfUE9XNlpDeFd4LUpBenRHZVpiTVpFRDZfakN2T29CaHE4emNXQ0s0VzFDZTJTeDlXVkJtV0FSVEpwblJEVWZoWEZ4eEFzNDA5eHh0TGo4X2ZFX3hlYzljRl9TTDhPNkE1a05aNjNPU19Kb1lGbmV1UWw0dUtNZk9HS2JENWx5dDJyNWgxSGRWMzBLaGxMazJRbWxGbVBFbWNJbVlzbHkzTk05RDFGMnBzcUh4V2VqSmhTZmhkUQ?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-11-01T00:38:57+09:00",
+      "latest_published_at": "2026-11-01T00:39:00+09:00",
+      "articles": [
+        {
+          "title": "South Korea exports nearly double in October on AI investment boom",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTEw3WmpfUE9XNlpDeFd4LUpBenRHZVpiTVpFRDZfakN2T29CaHE4emNXQ0s0VzFDZTJTeDlXVkJtV0FSVEpwblJEVWZoWEZ4eEFzNDA5eHh0TGo4X2ZFX3hlYzljRl9TTDhPNkE1a05aNjNPU19Kb1lGbmV1UWw0dUtNZk9HS2JENWx5dDJyNWgxSGRWMzBLaGxMazJRbWxGbVBFbWNJbVlzbHkzTk05RDFGMnBzcUh4V2VqSmhTZmhkUQ?oc=5",
+          "published_at": "00:39"
+        },
+        {
+          "title": "South Korea exports nearly double in October, strongest growth since 1974",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/south-korea-exports-nearly-double-in-october-strongest-growth-1974-6510436",
+          "published_at": "00:38"
+        }
+      ]
+    },
+    {
+      "id": "world-9",
+      "title": "North Korea says defence research institutes tested major weapon system",
+      "title_en": "North Korea says defence research institutes tested major weapon system",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2szXzlwbFhuTl8xcVFPLU9JTTFnUTYtT1pYWGxTbEFhUmxWV1E5NkxvbTZvOEtETEp4YjdMaEhDbG1MSzIweE5kYXpSM3FWVEpUWEFFNUZTUFdaNzN2UldqMHlVdDZsT3NaNm9PQl9xSFpfMm1FR3JCUTA0Z2hiQ0EtUXpKZ3MwLThwQmZ3R0JxZ2lRZ2hjcEpkWjI0R2FyUGdIQ3VZZUVwRl96UVByZklTSm1KY1RVRExaSlptRUtLbHRld0FVN2lEYUcwbUU?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "The test was intended to “assess adaptation to combat and power of a cluster-bomb warhead to be tipped on tactical ballistic missiles”, state media KCNA said on Saturday (Oct 31).",
+      "excerpt_en": "The test was intended to “assess adaptation to combat and power of a cluster-bomb warhead to be tipped on tactical ballistic missiles”, state media KCNA said on Saturday (Oct 31).",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/east-asia/north-korea-pyongyang-defence-institutes-test-major-weapon-system-6510466",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-10-31T21:48:05+09:00",
+      "latest_published_at": "2026-11-01T01:35:52+09:00",
+      "articles": [
+        {
+          "title": "North Korea says defence research institutes tested major weapon system",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/east-asia/north-korea-pyongyang-defence-institutes-test-major-weapon-system-6510466",
+          "published_at": "01:35"
+        },
+        {
+          "title": "North Korea says defence research institutes tested major weapon system",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2szXzlwbFhuTl8xcVFPLU9JTTFnUTYtT1pYWGxTbEFhUmxWV1E5NkxvbTZvOEtETEp4YjdMaEhDbG1MSzIweE5kYXpSM3FWVEpUWEFFNUZTUFdaNzN2UldqMHlVdDZsT3NaNm9PQl9xSFpfMm1FR3JCUTA0Z2hiQ0EtUXpKZ3MwLThwQmZ3R0JxZ2lRZ2hjcEpkWjI0R2FyUGdIQ3VZZUVwRl96UVByZklTSm1KY1RVRExaSlptRUtLbHRld0FVN2lEYUcwbUU?oc=5",
+          "published_at": "21:48"
+        }
+      ]
+    },
+    {
+      "id": "world-19",
       "title": "Nigeria reports two suspected Ebola cases in northeast region",
       "title_en": "Nigeria reports two suspected Ebola cases in northeast region",
       "title_source": "earliest_pick",
@@ -826,14 +1189,14 @@
       "excerpt_source": "Al Jazeera",
       "excerpt_url": "https://www.aljazeera.com/news/2026/10/31/health-authorities-probe-two-suspected-ebola-cases-in-northeast-nigeria?traffic_source=rss",
       "translation_status": "failed",
-      "score": 55,
+      "score": 53,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
+        "time_score": 2,
+        "raw75": 40
       },
       "area_value": 2,
       "article_count": 2,
@@ -861,405 +1224,17 @@
       ]
     },
     {
-      "id": "world-34",
-      "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
-      "title_en": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+      "id": "world-25",
+      "title": "Polish PM Tusk vows support for tribunal amid court crisis",
+      "title_en": "Polish PM Tusk vows support for tribunal amid court crisis",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzNPdDBVU2FTV3NVXzdETklrdGtSQXZBVWFZVm1pNGYxRDY4aHR5QlUzbjBHWVljNnFHU0lUbzVOSWxWNE5TYUdIVXJzX2d3Q2IwYndMZzJqQUhSMGM2amlNVjdCTTdWZGp6cnJEMnk5LVV4NklLd2FZLXdiTEZmNlNLTTh3WWhPcldua0I3bVI4Nk9jUVE?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "As Washington seeks to loosen China’s dominance over critical minerals, US Secretary of State Marco Rubio urged other members of the Group of 20 (G20) to strengthen supply chains and secure strategic ",
-      "excerpt_en": "As Washington seeks to loosen China’s dominance over critical minerals, US Secretary of State Marco Rubio urged other members of the Group of 20 (G20) to strengthen supply chains and secure strategic ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3372855/g20-foreign-ministers-end-atlanta-meeting-without-consensus-key-issues",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "SCMP"
-      ],
-      "first_published_at": "2026-10-31T19:14:00+09:00",
-      "latest_published_at": "2026-10-31T19:32:58+09:00",
-      "articles": [
-        {
-          "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3372855/g20-foreign-ministers-end-atlanta-meeting-without-consensus-key-issues",
-          "published_at": "19:32"
-        },
-        {
-          "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzNPdDBVU2FTV3NVXzdETklrdGtSQXZBVWFZVm1pNGYxRDY4aHR5QlUzbjBHWVljNnFHU0lUbzVOSWxWNE5TYUdIVXJzX2d3Q2IwYndMZzJqQUhSMGM2amlNVjdCTTdWZGp6cnJEMnk5LVV4NklLd2FZLXdiTEZmNlNLTTh3WWhPcldua0I3bVI4Nk9jUVE?oc=5",
-          "published_at": "19:14"
-        }
-      ]
-    },
-    {
-      "id": "world-37",
-      "title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
-      "title_en": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/evacuees-reunite-family-ukrainian-belarusian-border-after-fleeing-137730820",
+      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1FQZ3BaNHVzYUlJRnloRE0wc0hFS2xrV3RJb2pkLXlXbXpBX1Y1eURkSUpCTVFhQjc3cWJmS2ZnNGM5eE1YTmxqN0t3cHVNM3NLMjlvSFpMMXJ4TkxjS2N6XzV6bVhlcExudmpBdzZPWHdyVHVYVExqZVVuNkdlVE1Mb1dpel8xdDNWSGlOS2o1R0tQVU5wWnE5WWJ5VmJ5cmsyYjA0cTJ0d1U?oc=5",
       "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky AP News",
-      "excerpt_en": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0JsVDBfeVVaYnBubzFPN3ppVGJZa2tlU21wZVRaUVZ3eVF5S0FaeUNXek5MNVUySkxNYUdfeWJLakN5aWF6VFdNUi1BeUREYWpxQzRXQjVtWU1tRENaTGNtNUt4aDN3Y0dGYVlaT3Zqbms1ZzRWM0JFcHk1Vy1IMGYwYUIwZ0tkWnhZNC1yVjE5UkdSMVFGX2wzUzFEQQ?oc=5",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-10-31T17:00:19+09:00",
-      "latest_published_at": "2026-10-31T20:41:00+09:00",
-      "articles": [
-        {
-          "title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0JsVDBfeVVaYnBubzFPN3ppVGJZa2tlU21wZVRaUVZ3eVF5S0FaeUNXek5MNVUySkxNYUdfeWJLakN5aWF6VFdNUi1BeUREYWpxQzRXQjVtWU1tRENaTGNtNUt4aDN3Y0dGYVlaT3Zqbms1ZzRWM0JFcHk1Vy1IMGYwYUIwZ0tkWnhZNC1yVjE5UkdSMVFGX2wzUzFEQQ?oc=5",
-          "published_at": "20:41"
-        },
-        {
-          "title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/evacuees-reunite-family-ukrainian-belarusian-border-after-fleeing-137730820",
-          "published_at": "17:00"
-        }
-      ]
-    },
-    {
-      "id": "world-43",
-      "title": "Youth-led protests sweep across France, Europe for a 3rd weekend",
-      "title_en": "Youth-led protests sweep across France, Europe for a 3rd weekend",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105?cmp=rss",
-      "category": "유럽",
-      "primary_source": "CBC",
-      "excerpt": "Hundreds of thousands of mostly young protesters took to the streets across France on Saturday in a third consecutive weekend of demonstrations over living costs and education. Youth-led demonstration",
-      "excerpt_en": "Hundreds of thousands of mostly young protesters took to the streets across France on Saturday in a third consecutive weekend of demonstrations over living costs and education. Youth-led demonstration",
-      "excerpt_source": "CBC",
-      "excerpt_url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105?cmp=rss",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "CBC"
-      ],
-      "first_published_at": "2026-10-31T12:27:39+09:00",
-      "latest_published_at": "2026-10-31T21:17:00+09:00",
-      "articles": [
-        {
-          "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdGZ3VDBMUUphN0oxbExCLXh4eUdKSG5tMTVXMUN6bDVuN0pWSkFVUTFYN2Z2Qm9jcTh3OVFmVWR1ZzZXMHVXUjV2LXdqUndkc2piSDlNTHRTTzRRYzc4V0VyVmUtbTNadFdjMDhHSHRvclBIdlRENUp1VnBRTXhiSjRNMy1xZFFrRWJRTktCWEVIazd1aTV6eXRQelVKQnk1TUpmTw?oc=5",
-          "published_at": "21:17"
-        },
-        {
-          "title": "Youth-led protests sweep across France, Europe for a 3rd weekend",
-          "source_name": "CBC",
-          "url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105?cmp=rss",
-          "published_at": "12:27"
-        }
-      ]
-    },
-    {
-      "id": "world-53",
-      "title": "More than 40% of names on DOJ list of alleged noncitizens not on California's voter rolls: analysis",
-      "title_en": "More than 40% of names on DOJ list of alleged noncitizens not on California's voter rolls: analysis",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQjUwTHRGWWVLSHotdzBTellKb2pwRHFtcjRYb2pFaUlHcmN4WXdYaDVhVHAxQ3lyOUt4eG1yYzBfX2NGOUozNEpPUkd3Znk5eUhvR2xhMGlrRDJfNndOWFNuczhXRS1uTjdmcXltRVQweEpJQUJKWE9lRDlseFlMdFVPTVpsYVdNeUVlU3FJcU53OEhKb2U1SW5Vb0g4b1FXZTdpelNHYWxCXzBOMWI0bl82eWtqZkU?oc=5",
-      "category": "미국",
-      "primary_source": "AP News",
-      "excerpt": "More than 40% of names on DOJ list of alleged noncitizens not on California's voter rolls: analysis AP News",
-      "excerpt_en": "More than 40% of names on DOJ list of alleged noncitizens not on California's voter rolls: analysis AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQjUwTHRGWWVLSHotdzBTellKb2pwRHFtcjRYb2pFaUlHcmN4WXdYaDVhVHAxQ3lyOUt4eG1yYzBfX2NGOUozNEpPUkd3Znk5eUhvR2xhMGlrRDJfNndOWFNuczhXRS1uTjdmcXltRVQweEpJQUJKWE9lRDlseFlMdFVPTVpsYVdNeUVlU3FJcU53OEhKb2U1SW5Vb0g4b1FXZTdpelNHYWxCXzBOMWI0bl82eWtqZkU?oc=5",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T18:46:00+09:00",
-      "latest_published_at": "2026-10-31T20:50:34+09:00",
-      "articles": [
-        {
-          "title": "Over 40% of names on DOJ's 'noncitizen' voter list are not on California's voter rolls, analysis finds",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/doj-noncitizen-voter-list-california-analysis-b3076927.html",
-          "published_at": "20:50"
-        },
-        {
-          "title": "More than 40% of names on DOJ list of alleged noncitizens not on California's voter rolls: analysis",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQjUwTHRGWWVLSHotdzBTellKb2pwRHFtcjRYb2pFaUlHcmN4WXdYaDVhVHAxQ3lyOUt4eG1yYzBfX2NGOUozNEpPUkd3Znk5eUhvR2xhMGlrRDJfNndOWFNuczhXRS1uTjdmcXltRVQweEpJQUJKWE9lRDlseFlMdFVPTVpsYVdNeUVlU3FJcU53OEhKb2U1SW5Vb0g4b1FXZTdpelNHYWxCXzBOMWI0bl82eWtqZkU?oc=5",
-          "published_at": "18:46"
-        }
-      ]
-    },
-    {
-      "id": "world-210",
-      "title": "Man dies and another injured after attack at centre housing migrants",
-      "title_en": "Man dies and another injured after attack at centre housing migrants",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
-      "category": "기타",
-      "primary_source": "Sky News",
-      "excerpt": "A man has died following an attack at a centre housing migrants in Ireland.",
-      "excerpt_en": "A man has died following an attack at a centre housing migrants in Ireland.",
-      "excerpt_source": "Sky News",
-      "excerpt_url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Sky News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T12:05:00+09:00",
-      "latest_published_at": "2026-10-31T12:53:54+09:00",
-      "articles": [
-        {
-          "title": "Man dies after attack at centre housing migrants in Ireland",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/tralee-migrant-death-attack-ipas-b3076808.html",
-          "published_at": "12:53"
-        },
-        {
-          "title": "Man dies and another injured after attack at centre housing migrants",
-          "source_name": "Sky News",
-          "url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
-          "published_at": "12:05"
-        }
-      ]
-    },
-    {
-      "id": "world-220",
-      "title": "Forced to eat grass, Oleshky evacuees say truce was a 'blessing'",
-      "title_en": "Forced to eat grass, Oleshky evacuees say truce was a 'blessing'",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3346080/forced-to-eat-grass-oleshky-evacuees-say-truce-was-a-blessing",
-      "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "CHERNIGIV REGION (UKRAINE) - Evacuees from Oleshky, a bombed-out city in Russian-occupied Ukraine, told AFP that residents had to eat grass and dogs to survive and that their rescue following a humani",
-      "excerpt_en": "CHERNIGIV REGION (UKRAINE) - Evacuees from Oleshky, a bombed-out city in Russian-occupied Ukraine, told AFP that residents had to eat grass and dogs to survive and that their rescue following a humani",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3346080/forced-to-eat-grass-oleshky-evacuees-say-truce-was-a-blessing",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Bangkok Post",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T16:59:00+09:00",
-      "latest_published_at": "2026-10-31T17:40:33+09:00",
-      "articles": [
-        {
-          "title": "‘We escaped from hell’: Hundreds of starving Ukrainians return home from Russian-occupied Oleshky under ceasefire deal",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-evacuate-ceasefire-oleshky-b3076850.html",
-          "published_at": "17:40"
-        },
-        {
-          "title": "Forced to eat grass, Oleshky evacuees say truce was a 'blessing'",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3346080/forced-to-eat-grass-oleshky-evacuees-say-truce-was-a-blessing",
-          "published_at": "16:59"
-        }
-      ]
-    },
-    {
-      "id": "world-223",
-      "title": "Dan Sullivan's X campaign account suspended ahead of midterm vote; Alaska Senator's team blames Mary Peltola",
-      "title_en": "Dan Sullivan's X campaign account suspended ahead of midterm vote; Alaska Senator's team blames Mary Peltola",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/dan-sullivans-x-campaign-account-suspended-ahead-of-midterm-vote-alaska-senators-campaign-blames-mary-peltola-101793428409848.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Alaska Senator Dan Sullivan's X campaign account was suspended days before the November 3 midterm election, and his campaign blamed Mary Peltola.",
-      "excerpt_en": "Alaska Senator Dan Sullivan's X campaign account was suspended days before the November 3 midterm election, and his campaign blamed Mary Peltola.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/dan-sullivans-x-campaign-account-suspended-ahead-of-midterm-vote-alaska-senators-campaign-blames-mary-peltola-101793428409848.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T06:48:01+09:00",
-      "latest_published_at": "2026-10-31T15:22:49+09:00",
-      "articles": [
-        {
-          "title": "FBI visits Dan J. Sullivan donor in candidate's home town as Alaska Senate probe widens",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-dan-j-sullivan-alaska-senate-race-b3076832.html",
-          "published_at": "15:22"
-        },
-        {
-          "title": "Daniel J. Sullivan’s whereabouts unclear as Alaska Senate candidate leaves hometown amid same-name controversy",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/daniel-j-sullivan-s-whereabouts-unclear-as-alaska-senate-candidate-leaves-hometown-amid-name-controversy-101793458910012.html",
-          "published_at": "15:19"
-        },
-        {
-          "title": "Dan Sullivan's X campaign account suspended ahead of midterm vote; Alaska Senator's team blames Mary Peltola",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/dan-sullivans-x-campaign-account-suspended-ahead-of-midterm-vote-alaska-senators-campaign-blames-mary-peltola-101793428409848.html",
-          "published_at": "06:48"
-        }
-      ]
-    },
-    {
-      "id": "world-229",
-      "title": "Jon Husted's football record in focus as Trump brings up Ohio senator's backside at Florida midterm rally",
-      "title_en": "Jon Husted's football record in focus as Trump brings up Ohio senator's backside at Florida midterm rally",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/jon-husteds-football-record-in-focus-as-donald-trump-brings-up-ohio-senators-backside-at-florida-midterm-rally-101793411810966.html",
-      "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Ohio Senator Jon Husted's football record has come into focus after President Donald Trump again brought up his backside during a midterm rally in Florida.",
-      "excerpt_en": "Ohio Senator Jon Husted's football record has come into focus after President Donald Trump again brought up his backside during a midterm rally in Florida.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/jon-husteds-football-record-in-focus-as-donald-trump-brings-up-ohio-senators-backside-at-florida-midterm-rally-101793411810966.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 41
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "The Independent"
-      ],
-      "first_published_at": "2026-10-31T02:19:57+09:00",
-      "latest_published_at": "2026-10-31T14:23:03+09:00",
-      "articles": [
-        {
-          "title": "‘Shut up, loser’: Trump's angry exchange with Florida rally heckler caught on camera",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/shut-up-loser-trumps-angry-exchange-with-florida-rally-heckler-caught-on-camera-101793453903696.html",
-          "published_at": "14:23"
-        },
-        {
-          "title": "Trump lashes out at heckler during Florida rally: ‘Shut up dope’",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/tv/news/trump-florida-heckler-loser-video-b3076785.html",
-          "published_at": "11:33"
-        },
-        {
-          "title": "Jon Husted's football record in focus as Trump brings up Ohio senator's backside at Florida midterm rally",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/jon-husteds-football-record-in-focus-as-donald-trump-brings-up-ohio-senators-backside-at-florida-midterm-rally-101793411810966.html",
-          "published_at": "02:19"
-        }
-      ]
-    },
-    {
-      "id": "world-8",
-      "title": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
-      "title_en": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/meta-builds-humanoid-robot-chinese-startup-fourier-information-says-6509811",
-      "category": "아시아",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Meta builds humanoid robot with Chinese startup Fourier, The Information says Reuters",
-      "excerpt_en": "Meta builds humanoid robot with Chinese startup Fourier, The Information says Reuters",
-      "excerpt_source": "Reuters",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YSmt0aW9XWTNEdzJsdjRYeUtCd1FfUGVXNlBuYUpGemJVUXZTM2IxTkExZ3BOSy1MblBvdjhrYUY0VDY2LS1BVnhJTU5YYVR1RzFDMzk2SUtKTjR2QmNSZkx0VDlkcm55ZEthSGp3Nms0WlBPaFN2MzJ0SWhsbFhVV1dTZEdwdF8tSTNCUU5hVHV0N0dkZGlmNF9oQnh0dkcwQ3J6NWVPVVVBeV9vWFNYcA?oc=5",
+      "primary_source": "Reuters",
+      "excerpt": "Riot police have been guarding the court since Friday afternoon, with several hundred protesters gathered to demand the reinstatement of the president of the country’s Constitutional Tribunal.",
+      "excerpt_en": "Riot police have been guarding the court since Friday afternoon, with several hundred protesters gathered to demand the reinstatement of the president of the country’s Constitutional Tribunal.",
+      "excerpt_source": "Sydney Morning Herald",
+      "excerpt_url": "https://www.smh.com.au/world/europe/poland-s-pm-vows-support-for-tribunal-amid-court-crisis-20261101-p61adh.html?ref=rss&utm_medium=rss&utm_source=rss_world",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1275,28 +1250,75 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Reuters"
+        "Reuters",
+        "Sydney Morning Herald"
       ],
-      "first_published_at": "2026-10-31T16:13:30+09:00",
-      "latest_published_at": "2026-10-31T16:14:09+09:00",
+      "first_published_at": "2026-10-31T21:13:03+09:00",
+      "latest_published_at": "2026-11-01T03:04:03+09:00",
       "articles": [
         {
-          "title": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdTFWdC1PaTBpUG1YSmt0aW9XWTNEdzJsdjRYeUtCd1FfUGVXNlBuYUpGemJVUXZTM2IxTkExZ3BOSy1MblBvdjhrYUY0VDY2LS1BVnhJTU5YYVR1RzFDMzk2SUtKTjR2QmNSZkx0VDlkcm55ZEthSGp3Nms0WlBPaFN2MzJ0SWhsbFhVV1dTZEdwdF8tSTNCUU5hVHV0N0dkZGlmNF9oQnh0dkcwQ3J6NWVPVVVBeV9vWFNYcA?oc=5",
-          "published_at": "16:14"
+          "title": "Poland’s PM vows support for tribunal amid court crisis",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/europe/poland-s-pm-vows-support-for-tribunal-amid-court-crisis-20261101-p61adh.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "03:04"
         },
         {
-          "title": "Meta builds humanoid robot with Chinese startup Fourier, The Information says",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/meta-builds-humanoid-robot-chinese-startup-fourier-information-says-6509811",
-          "published_at": "16:13"
+          "title": "Polish PM Tusk vows support for tribunal amid court crisis",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX1FQZ3BaNHVzYUlJRnloRE0wc0hFS2xrV3RJb2pkLXlXbXpBX1Y1eURkSUpCTVFhQjc3cWJmS2ZnNGM5eE1YTmxqN0t3cHVNM3NLMjlvSFpMMXJ4TkxjS2N6XzV6bVhlcExudmpBdzZPWHdyVHVYVExqZVVuNkdlVE1Mb1dpel8xdDNWSGlOS2o1R0tQVU5wWnE5WWJ5VmJ5cmsyYjA0cTJ0d1U?oc=5",
+          "published_at": "21:13"
         }
       ]
     },
     {
-      "id": "world-19",
+      "id": "world-26",
+      "title": "Pope Leo dribbles golden basketball and tries to stay neutral as rival US teams descend on Vatican",
+      "title_en": "Pope Leo dribbles golden basketball and tries to stay neutral as rival US teams descend on Vatican",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/americas/pope-leo-villanova-notre-dame-visit-college-b3076828.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "The teams will face off at the Eternal City Tip-Off, a game created to honor the first American pope",
+      "excerpt_en": "The teams will face off at the Eternal City Tip-Off, a game created to honor the first American pope",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/pope-leo-villanova-notre-dame-visit-college-b3076828.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Reuters",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-31T14:05:01+09:00",
+      "latest_published_at": "2026-10-31T16:45:47+09:00",
+      "articles": [
+        {
+          "title": "Pope Leo tries to stay neutral as basketball rivals descend on Vatican",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWjFNYmZZY2VGb0VSYmVPcjBFVHRydlE2UnJQVWRNWXI2T2NFUUd0aC1nNXk2MHpnUmRWMVhOMEpsUHpCV3lsRWtrWi1IbzBTakc1SjRVNnZPU3lEekpQcUFZTE9xYUtvQnZCNWI4RlRNQ1lfN1dWc3VJUWRZS294Q29oVXRvalZUUkliLVJTdTMxTWRwNTJrUmNpU2NkSXBubUdvNFhiUQ?oc=5",
+          "published_at": "16:45"
+        },
+        {
+          "title": "Pope Leo dribbles golden basketball and tries to stay neutral as rival US teams descend on Vatican",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/pope-leo-villanova-notre-dame-visit-college-b3076828.html",
+          "published_at": "14:05"
+        }
+      ]
+    },
+    {
+      "id": "world-33",
       "title": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions",
       "title_en": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions",
       "title_source": "earliest_pick",
@@ -1343,17 +1365,17 @@
       ]
     },
     {
-      "id": "world-30",
-      "title": "Trump administration plans to deport some Afghan immigrants to Afghanistan",
-      "title_en": "Trump administration plans to deport some Afghan immigrants to Afghanistan",
+      "id": "world-41",
+      "title": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth",
+      "title_en": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcU5XNDNmUnhFZ3BCNDI2alJHcjVUUEZqX0JwZC1uaE1sQV9wTS01NS1FVlpQaXVXY3VrYmUyT2JzOXhuMENRVXB0Y1dPMDNwQ2R4VnU2SkZOSUFQNFVYeFFqQVFDUXRKamFBWjFjWE0wOVd5TkkwR1ZqM3BvcTRuU3pBMkM3OTRNQUNKTzZwV3dHSThtcm5teUlxWFRtVEJQdkYzOWNfZG5TMHlOWFZ0WVhIa0ZPVm9Rc0g2ZVpn?oc=5",
-      "category": "아시아",
+      "title_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGlWdjVINldIeWxNTExNV01jTlZKOVJqWTdPMmRPRTBNZmFnWXBXeGtacmJkMUJldC1FTU0zTlVsMVQ5WVdhYUk2QmZqeG5ZM0U4UFpmeTEwSGNJR1Y1THVzZVZWU1Q5Z2pCcHJyTHpOc3hGVDdxWV9VVndkdzhvVXItQWlyZ3Frb1VSOVB5TWJ4aGdkbk8xeg?oc=5",
+      "category": "기타",
       "primary_source": "Reuters",
-      "excerpt": "The Trump administration plans to deport over 150 Afghan immigrants through Pakistan, with the first flight potentially leaving Monday, according to US media.",
-      "excerpt_en": "The Trump administration plans to deport over 150 Afghan immigrants through Pakistan, with the first flight potentially leaving Monday, according to US media.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-to-deport-over-150-afghan-immigrants-back-to-afghanistan-via-pakistan-advocates-warn-of-danger-101793452504200.html",
+      "excerpt": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth Reuters",
+      "excerpt_en": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGlWdjVINldIeWxNTExNV01jTlZKOVJqWTdPMmRPRTBNZmFnWXBXeGtacmJkMUJldC1FTU0zTlVsMVQ5WVdhYUk2QmZqeG5ZM0U4UFpmeTEwSGNJR1Y1THVzZVZWU1Q5Z2pCcHJyTHpOc3hGVDdxWV9VVndkdzhvVXItQWlyZ3Frb1VSOVB5TWJ4aGdkbk8xeg?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1369,38 +1391,85 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Hindustan Times",
+        "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-10-31T01:13:00+09:00",
-      "latest_published_at": "2026-10-31T13:24:33+09:00",
+      "first_published_at": "2026-10-31T22:27:00+09:00",
+      "latest_published_at": "2026-11-01T02:45:32+09:00",
       "articles": [
         {
-          "title": "US to deport over 150 Afghan immigrants back to Afghanistan via Pakistan; advocates warn of danger",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-to-deport-over-150-afghan-immigrants-back-to-afghanistan-via-pakistan-advocates-warn-of-danger-101793452504200.html",
-          "published_at": "13:24"
+          "title": "Hamilton recalls Schumacher after first Ferrari pole, hails Antonelli",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/sport/hamilton-recalls-schumacher-after-first-ferrari-pole-hails-antonelli-6510516",
+          "published_at": "02:45"
         },
         {
-          "title": "Trump administration plans to deport some Afghan immigrants to Afghanistan",
+          "title": "Hamilton takes first proper pole for Ferrari, Antonelli starts fourth",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcU5XNDNmUnhFZ3BCNDI2alJHcjVUUEZqX0JwZC1uaE1sQV9wTS01NS1FVlpQaXVXY3VrYmUyT2JzOXhuMENRVXB0Y1dPMDNwQ2R4VnU2SkZOSUFQNFVYeFFqQVFDUXRKamFBWjFjWE0wOVd5TkkwR1ZqM3BvcTRuU3pBMkM3OTRNQUNKTzZwV3dHSThtcm5teUlxWFRtVEJQdkYzOWNfZG5TMHlOWFZ0WVhIa0ZPVm9Rc0g2ZVpn?oc=5",
-          "published_at": "01:13"
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbGlWdjVINldIeWxNTExNV01jTlZKOVJqWTdPMmRPRTBNZmFnWXBXeGtacmJkMUJldC1FTU0zTlVsMVQ5WVdhYUk2QmZqeG5ZM0U4UFpmeTEwSGNJR1Y1THVzZVZWU1Q5Z2pCcHJyTHpOc3hGVDdxWV9VVndkdzhvVXItQWlyZ3Frb1VSOVB5TWJ4aGdkbk8xeg?oc=5",
+          "published_at": "22:27"
         }
       ]
     },
     {
-      "id": "world-42",
-      "title": "Protests erupt around a top court in Poland after its president is suspended",
-      "title_en": "Protests erupt around a top court in Poland after its president is suspended",
+      "id": "world-47",
+      "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+      "title_en": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVVIM1owQ1djXzREamhGRFhZUHl5ZTBxN1FYUjBuZW5HVG90TGZfY2R5c1lkVmplYkhGbUNIZ3Q5Z3NXUEdzWndIS29xZzFINmVlcmZOV3hFcDZnS3JBRDZUdFBhTUh6VlVFY19vOUNjXzluSzNXRV82NWlrNXpteTNDemRDMnlSTzgxdmdydWJOWkkwUmw5b1J0cHZnZXYwcXFqdlFfVnZTQQ?oc=5",
-      "category": "유럽",
+      "title_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzNPdDBVU2FTV3NVXzdETklrdGtSQXZBVWFZVm1pNGYxRDY4aHR5QlUzbjBHWVljNnFHU0lUbzVOSWxWNE5TYUdIVXJzX2d3Q2IwYndMZzJqQUhSMGM2amlNVjdCTTdWZGp6cnJEMnk5LVV4NklLd2FZLXdiTEZmNlNLTTh3WWhPcldua0I3bVI4Nk9jUVE?oc=5",
+      "category": "아시아",
       "primary_source": "AP News",
-      "excerpt": "Protests erupt around a top court in Poland after its president is suspended AP News",
-      "excerpt_en": "Protests erupt around a top court in Poland after its president is suspended AP News",
+      "excerpt": "As Washington seeks to loosen China’s dominance over critical minerals, US Secretary of State Marco Rubio urged other members of the Group of 20 (G20) to strengthen supply chains and secure strategic ",
+      "excerpt_en": "As Washington seeks to loosen China’s dominance over critical minerals, US Secretary of State Marco Rubio urged other members of the Group of 20 (G20) to strengthen supply chains and secure strategic ",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/china/diplomacy/article/3372855/g20-foreign-ministers-end-atlanta-meeting-without-consensus-key-issues",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "SCMP"
+      ],
+      "first_published_at": "2026-10-31T19:14:00+09:00",
+      "latest_published_at": "2026-10-31T19:32:58+09:00",
+      "articles": [
+        {
+          "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3372855/g20-foreign-ministers-end-atlanta-meeting-without-consensus-key-issues",
+          "published_at": "19:32"
+        },
+        {
+          "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNXzNPdDBVU2FTV3NVXzdETklrdGtSQXZBVWFZVm1pNGYxRDY4aHR5QlUzbjBHWVljNnFHU0lUbzVOSWxWNE5TYUdIVXJzX2d3Q2IwYndMZzJqQUhSMGM2amlNVjdCTTdWZGp6cnJEMnk5LVV4NklLd2FZLXdiTEZmNlNLTTh3WWhPcldua0I3bVI4Nk9jUVE?oc=5",
+          "published_at": "19:14"
+        }
+      ]
+    },
+    {
+      "id": "world-49",
+      "title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
+      "title_en": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
+      "title_source": "earliest_pick",
+      "title_url": "https://abcnews.com/International/wireStory/evacuees-reunite-family-ukrainian-belarusian-border-after-fleeing-137730820",
+      "category": "유럽",
+      "primary_source": "ABC News",
+      "excerpt": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky AP News",
+      "excerpt_en": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky AP News",
       "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVVIM1owQ1djXzREamhGRFhZUHl5ZTBxN1FYUjBuZW5HVG90TGZfY2R5c1lkVmplYkhGbUNIZ3Q5Z3NXUEdzWndIS29xZzFINmVlcmZOV3hFcDZnS3JBRDZUdFBhTUh6VlVFY19vOUNjXzluSzNXRV82NWlrNXpteTNDemRDMnlSTzgxdmdydWJOWkkwUmw5b1J0cHZnZXYwcXFqdlFfVnZTQQ?oc=5",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0JsVDBfeVVaYnBubzFPN3ppVGJZa2tlU21wZVRaUVZ3eVF5S0FaeUNXek5MNVUySkxNYUdfeWJLakN5aWF6VFdNUi1BeUREYWpxQzRXQjVtWU1tRENaTGNtNUt4aDN3Y0dGYVlaT3Zqbms1ZzRWM0JFcHk1Vy1IMGYwYUIwZ0tkWnhZNC1yVjE5UkdSMVFGX2wzUzFEQQ?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1419,35 +1488,35 @@
         "ABC News",
         "AP News"
       ],
-      "first_published_at": "2026-10-31T16:03:00+09:00",
-      "latest_published_at": "2026-10-31T16:50:20+09:00",
+      "first_published_at": "2026-10-31T17:00:19+09:00",
+      "latest_published_at": "2026-10-31T20:41:00+09:00",
       "articles": [
         {
-          "title": "Protests erupt around a top court in Poland after its president is suspended",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/police-detain-3-protesters-overnight-rally-polish-president-137731099",
-          "published_at": "16:50"
-        },
-        {
-          "title": "Protests erupt around a top court in Poland after its president is suspended",
+          "title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
           "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVVIM1owQ1djXzREamhGRFhZUHl5ZTBxN1FYUjBuZW5HVG90TGZfY2R5c1lkVmplYkhGbUNIZ3Q5Z3NXUEdzWndIS29xZzFINmVlcmZOV3hFcDZnS3JBRDZUdFBhTUh6VlVFY19vOUNjXzluSzNXRV82NWlrNXpteTNDemRDMnlSTzgxdmdydWJOWkkwUmw5b1J0cHZnZXYwcXFqdlFfVnZTQQ?oc=5",
-          "published_at": "16:03"
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0JsVDBfeVVaYnBubzFPN3ppVGJZa2tlU21wZVRaUVZ3eVF5S0FaeUNXek5MNVUySkxNYUdfeWJLakN5aWF6VFdNUi1BeUREYWpxQzRXQjVtWU1tRENaTGNtNUt4aDN3Y0dGYVlaT3Zqbms1ZzRWM0JFcHk1Vy1IMGYwYUIwZ0tkWnhZNC1yVjE5UkdSMVFGX2wzUzFEQQ?oc=5",
+          "published_at": "20:41"
+        },
+        {
+          "title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/evacuees-reunite-family-ukrainian-belarusian-border-after-fleeing-137730820",
+          "published_at": "17:00"
         }
       ]
     },
     {
-      "id": "world-128",
-      "title": "Fears of violence as France braces for Halloween protests",
-      "title_en": "Fears of violence as France braces for Halloween protests",
+      "id": "world-51",
+      "title": "Youth-led protests sweep across France, Europe for a 3rd weekend",
+      "title_en": "Youth-led protests sweep across France, Europe for a 3rd weekend",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3345981/fears-of-violence-as-france-braces-for-halloween-protests",
+      "title_url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105?cmp=rss",
       "category": "유럽",
-      "primary_source": "Bangkok Post",
-      "excerpt": "PARIS - France on Saturday braced for a third weekend of protests coinciding with Halloween, as shops boarded up and authorities scrambled to prevent a repeat of the street violence that swept the cou",
-      "excerpt_en": "PARIS - France on Saturday braced for a third weekend of protests coinciding with Halloween, as shops boarded up and authorities scrambled to prevent a repeat of the street violence that swept the cou",
-      "excerpt_source": "Bangkok Post",
-      "excerpt_url": "https://www.bangkokpost.com/world/3345981/fears-of-violence-as-france-braces-for-halloween-protests",
+      "primary_source": "CBC",
+      "excerpt": "Hundreds of thousands of mostly young protesters took to the streets across France on Saturday in a third consecutive weekend of demonstrations over living costs and education. Youth-led demonstration",
+      "excerpt_en": "Hundreds of thousands of mostly young protesters took to the streets across France on Saturday in a third consecutive weekend of demonstrations over living costs and education. Youth-led demonstration",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105?cmp=rss",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1463,38 +1532,38 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Bangkok Post",
-        "France24"
+        "AP News",
+        "CBC"
       ],
-      "first_published_at": "2026-10-31T02:45:00+09:00",
-      "latest_published_at": "2026-10-31T07:40:42+09:00",
+      "first_published_at": "2026-10-31T12:27:39+09:00",
+      "latest_published_at": "2026-11-01T01:25:00+09:00",
       "articles": [
         {
-          "title": "France braces for Halloween protests, shops board up storefronts",
-          "source_name": "France24",
-          "url": "https://www.france24.com/en/france-braces-for-halloween-protests-shops-board-up-storefronts",
-          "published_at": "07:40"
+          "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdGZ3VDBMUUphN0oxbExCLXh4eUdKSG5tMTVXMUN6bDVuN0pWSkFVUTFYN2Z2Qm9jcTh3OVFmVWR1ZzZXMHVXUjV2LXdqUndkc2piSDlNTHRTTzRRYzc4V0VyVmUtbTNadFdjMDhHSHRvclBIdlRENUp1VnBRTXhiSjRNMy1xZFFrRWJRTktCWEVIazd1aTV6eXRQelVKQnk1TUpmTw?oc=5",
+          "published_at": "01:25"
         },
         {
-          "title": "Fears of violence as France braces for Halloween protests",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3345981/fears-of-violence-as-france-braces-for-halloween-protests",
-          "published_at": "02:45"
+          "title": "Youth-led protests sweep across France, Europe for a 3rd weekend",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105?cmp=rss",
+          "published_at": "12:27"
         }
       ]
     },
     {
-      "id": "world-137",
-      "title": "Cost of living protests  to spread to Germany and reignite in France on Halloween",
-      "title_en": "Cost of living protests  to spread to Germany and reignite in France on Halloween",
+      "id": "world-53",
+      "title": "Over 40% of names on DOJ's 'noncitizen' voter list are not on California's voter rolls, analysis finds",
+      "title_en": "Over 40% of names on DOJ's 'noncitizen' voter list are not on California's voter rolls, analysis finds",
       "title_source": "earliest_pick",
-      "title_url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
-      "category": "유럽",
-      "primary_source": "The Guardian",
-      "excerpt": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France o",
-      "excerpt_en": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France o",
-      "excerpt_source": "The Guardian",
-      "excerpt_url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/doj-noncitizen-voter-list-california-analysis-b3076927.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "Over 40% of names on DOJ list of alleged noncitizens are not on Calif. voter rolls, analysis finds AP News",
+      "excerpt_en": "Over 40% of names on DOJ list of alleged noncitizens are not on Calif. voter rolls, analysis finds AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQjUwTHRGWWVLSHotdzBTellKb2pwRHFtcjRYb2pFaUlHcmN4WXdYaDVhVHAxQ3lyOUt4eG1yYzBfX2NGOUozNEpPUkd3Znk5eUhvR2xhMGlrRDJfNndOWFNuczhXRS1uTjdmcXltRVQweEpJQUJKWE9lRDlseFlMdFVPTVpsYVdNeUVlU3FJcU53OEhKb2U1SW5Vb0g4b1FXZTdpelNHYWxCXzBOMWI0bl82eWtqZkU?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1510,28 +1579,216 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "NBC News",
-        "The Guardian"
+        "AP News",
+        "The Independent"
       ],
-      "first_published_at": "2026-10-31T09:13:22+09:00",
-      "latest_published_at": "2026-10-31T11:39:19+09:00",
+      "first_published_at": "2026-10-31T20:50:34+09:00",
+      "latest_published_at": "2026-10-31T22:32:00+09:00",
       "articles": [
         {
-          "title": "Massive protests sweep Europe over cost of living and strained public services",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/europe/europe-braces-massive-halloween-protests-cost-living-public-services-rcna606671",
-          "published_at": "11:39"
+          "title": "Over 40% of names on DOJ list of alleged noncitizens are not on Calif. voter rolls, analysis finds",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQjUwTHRGWWVLSHotdzBTellKb2pwRHFtcjRYb2pFaUlHcmN4WXdYaDVhVHAxQ3lyOUt4eG1yYzBfX2NGOUozNEpPUkd3Znk5eUhvR2xhMGlrRDJfNndOWFNuczhXRS1uTjdmcXltRVQweEpJQUJKWE9lRDlseFlMdFVPTVpsYVdNeUVlU3FJcU53OEhKb2U1SW5Vb0g4b1FXZTdpelNHYWxCXzBOMWI0bl82eWtqZkU?oc=5",
+          "published_at": "22:32"
         },
         {
-          "title": "Cost of living protests  to spread to Germany and reignite in France on Halloween",
-          "source_name": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
-          "published_at": "09:13"
+          "title": "Over 40% of names on DOJ's 'noncitizen' voter list are not on California's voter rolls, analysis finds",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/doj-noncitizen-voter-list-california-analysis-b3076927.html",
+          "published_at": "20:50"
         }
       ]
     },
     {
-      "id": "world-248",
+      "id": "world-60",
+      "title": "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
+      "title_en": "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHlaSFFJckJQb1FIZVhubXZ6ejRPaEtvR3BTRWFHOEZnZGtScVMxMDY1cGlKcmtBNFVhMXdGTkNaWmxIdTRzX09WM1ZiS3dZcmtPQXdHRlRoZ05VY0ptdGlkRktlUnNYTWFqc2ozVkVPMWhIbU1NZE9JS3phUFp3ak9rajBRWmxLYjRxYUY5VGZxbnd5alQ4cnVpdUhObEM1STdhNkZIY1RFVkh4SXZfTmZ5dw?oc=5",
+      "category": "미국",
+      "primary_source": "AP News",
+      "excerpt": "Political memes have exploded in Brazil since Sunday’s election that saw underdog President Luiz Inácio Lula da Silva beat his opponent Flávio Bolsonaro, who responded to his loss by fleeing the count",
+      "excerpt_en": "Political memes have exploded in Brazil since Sunday’s election that saw underdog President Luiz Inácio Lula da Silva beat his opponent Flávio Bolsonaro, who responded to his loss by fleeing the count",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/flvio-bolsonaros-departure-us-sparks-flurry-viral-brazilian-137733405",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News",
+        "AP News"
+      ],
+      "first_published_at": "2026-10-31T13:39:00+09:00",
+      "latest_published_at": "2026-10-31T16:04:25+09:00",
+      "articles": [
+        {
+          "title": "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/flvio-bolsonaros-departure-us-sparks-flurry-viral-brazilian-137733405",
+          "published_at": "16:04"
+        },
+        {
+          "title": "Flávio Bolsonaro’s departure to the US sparks a flurry of viral Brazilian memes",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHlaSFFJckJQb1FIZVhubXZ6ejRPaEtvR3BTRWFHOEZnZGtScVMxMDY1cGlKcmtBNFVhMXdGTkNaWmxIdTRzX09WM1ZiS3dZcmtPQXdHRlRoZ05VY0ptdGlkRktlUnNYTWFqc2ozVkVPMWhIbU1NZE9JS3phUFp3ak9rajBRWmxLYjRxYUY5VGZxbnd5alQ4cnVpdUhObEM1STdhNkZIY1RFVkh4SXZfTmZ5dw?oc=5",
+          "published_at": "13:39"
+        }
+      ]
+    },
+    {
+      "id": "world-204",
+      "title": "Man dies and another injured after attack at centre housing migrants",
+      "title_en": "Man dies and another injured after attack at centre housing migrants",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
+      "category": "기타",
+      "primary_source": "Sky News",
+      "excerpt": "A man has died following an attack at a centre housing migrants in Ireland.",
+      "excerpt_en": "A man has died following an attack at a centre housing migrants in Ireland.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 1,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Sky News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-31T12:05:00+09:00",
+      "latest_published_at": "2026-10-31T12:53:54+09:00",
+      "articles": [
+        {
+          "title": "Man dies after attack at centre housing migrants in Ireland",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/tralee-migrant-death-attack-ipas-b3076808.html",
+          "published_at": "12:53"
+        },
+        {
+          "title": "Man dies and another injured after attack at centre housing migrants",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/man-dies-and-another-injured-after-attack-at-centre-housing-migrants-in-ireland-13606071",
+          "published_at": "12:05"
+        }
+      ]
+    },
+    {
+      "id": "world-205",
+      "title": "Majority of funds stolen in cryptocurrency hack replenished, Binance says",
+      "title_en": "Majority of funds stolen in cryptocurrency hack replenished, Binance says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
+      "category": "아시아",
+      "primary_source": "Sky News",
+      "excerpt": "Around 90% of stolen cryptocurrency assets following a hack on a major exchange has been replenished, according to Binance.",
+      "excerpt_en": "Around 90% of stolen cryptocurrency assets following a hack on a major exchange has been replenished, according to Binance.",
+      "excerpt_source": "Sky News",
+      "excerpt_url": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Hindustan Times",
+        "Sky News"
+      ],
+      "first_published_at": "2026-10-31T14:39:00+09:00",
+      "latest_published_at": "2026-11-01T00:01:11+09:00",
+      "articles": [
+        {
+          "title": "FBI blames North Korea for record $6.3 billion Binance hack; exchange replaces 90% of stolen funds",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/fbi-blames-north-korea-for-record-6-3-billion-binance-hack-exchange-replaces-90-of-stolen-funds-101793490163776.html",
+          "published_at": "00:01"
+        },
+        {
+          "title": "Majority of funds stolen in cryptocurrency hack replenished, Binance says",
+          "source_name": "Sky News",
+          "url": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
+          "published_at": "14:39"
+        }
+      ]
+    },
+    {
+      "id": "world-206",
+      "title": "France deploys 70,000 police officers to prepare for new wave of protests on Halloween",
+      "title_en": "France deploys 70,000 police officers to prepare for new wave of protests on Halloween",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.foxnews.com/world/france-deploys-70000-police-officers-prepare-new-wave-protests-halloween",
+      "category": "유럽",
+      "primary_source": "Fox News",
+      "excerpt": "Around 70,000 police are expected to deployed nationwide as France braces for further unrest. Demonstrations have also been held in Germany and Albania",
+      "excerpt_en": "Around 70,000 police are expected to deployed nationwide as France braces for further unrest. Demonstrations have also been held in Germany and Albania",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/france-protests-police-halloween-rioting-paris-b3076867.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Fox News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-10-31T14:27:09+09:00",
+      "latest_published_at": "2026-10-31T23:26:21+09:00",
+      "articles": [
+        {
+          "title": "French police fire tear gas as more than 300,000 march across France in latest anti-government protests",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-protests-police-halloween-rioting-paris-b3076867.html",
+          "published_at": "23:26"
+        },
+        {
+          "title": "France deploys 70,000 police officers to prepare for new wave of protests on Halloween",
+          "source_name": "Fox News",
+          "url": "https://www.foxnews.com/world/france-deploys-70000-police-officers-prepare-new-wave-protests-halloween",
+          "published_at": "14:27"
+        }
+      ]
+    },
+    {
+      "id": "world-243",
       "title": "US Embassy warns of credible 'mass casualty' threat at popular Moscow tourist attraction",
       "title_en": "US Embassy warns of credible 'mass casualty' threat at popular Moscow tourist attraction",
       "title_source": "earliest_pick",
@@ -1578,26 +1835,26 @@
       ]
     },
     {
-      "id": "world-216",
-      "title": "Philadelphia professor arrested for blocking delivery robots, says she would do it again because she believes she has more rights than a robot",
-      "title_en": "Philadelphia professor arrested for blocking delivery robots, says she would do it again because she believes she has more rights than a robot",
+      "id": "world-210",
+      "title": "Bullied Ghana teenager shot to death on his way to school in Bronx: Mayor Mamdani says he spoke to Trump, Javits Frimpong's mother to get visa to see son for the last time",
+      "title_en": "Bullied Ghana teenager shot to death on his way to school in Bronx: Mayor Mamdani says he spoke to Trump, Javits Frimpong's mother to get visa to see son for the last time",
       "title_source": "earliest_pick",
-      "title_url": "https://timesofindia.indiatimes.com/world/us/philadelphia-professor-arrested-for-blocking-delivery-robots-says-she-would-do-it-again-because-she-believes-she-has-more-rights-than-a-robot/articleshow/135407173.cms",
-      "category": "기타",
+      "title_url": "https://timesofindia.indiatimes.com/world/us/bullied-ghana-teenager-shot-to-death-on-his-way-to-school-in-bronx-mayor-mamdani-says-he-spoke-to-trump-javits-frimpongs-mother-to-get-visa-to-see-son-for-the-last-time/articleshow/135411473.cms",
+      "category": "미국",
       "primary_source": "Times of India",
-      "excerpt": "‘I was under the impression that I had more rights than the robot did’",
-      "excerpt_en": "‘I was under the impression that I had more rights than the robot did’",
+      "excerpt": "New York City Mayor Zohran Mamdani says President Donald Trump has agreed to grant a visa to the mother of a 15-year-old immigrant from Ghana who was shot to death earlier this week",
+      "excerpt_en": "New York City Mayor Zohran Mamdani says President Donald Trump has agreed to grant a visa to the mother of a 15-year-old immigrant from Ghana who was shot to death earlier this week",
       "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/americas/crime/philadelphia-former-professor-arrested-blocking-delivery-robot-b3076912.html",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/donald-trump-zohran-mamdani-bronx-new-york-thomas-b3076961.html",
       "translation_status": "failed",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
@@ -1607,67 +1864,67 @@
         "The Independent",
         "Times of India"
       ],
-      "first_published_at": "2026-10-31T16:59:23+09:00",
-      "latest_published_at": "2026-10-31T19:05:10+09:00",
+      "first_published_at": "2026-10-31T20:19:08+09:00",
+      "latest_published_at": "2026-10-31T21:48:22+09:00",
       "articles": [
         {
-          "title": "78-year-old former college professor arrested for blocking delivery robot in protest",
+          "title": "Mamdani says Trump agrees to grant visa to mother of Ghanian teen killed in Bronx shooting",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/philadelphia-former-professor-arrested-blocking-delivery-robot-b3076912.html",
-          "published_at": "19:05"
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-zohran-mamdani-bronx-new-york-thomas-b3076961.html",
+          "published_at": "21:48"
         },
         {
-          "title": "Philadelphia professor arrested for blocking delivery robots, says she would do it again because she believes she has more rights than a robot",
+          "title": "Bullied Ghana teenager shot to death on his way to school in Bronx: Mayor Mamdani says he spoke to Trump, Javits Frimpong's mother to get visa to see son for the last time",
           "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/philadelphia-professor-arrested-for-blocking-delivery-robots-says-she-would-do-it-again-because-she-believes-she-has-more-rights-than-a-robot/articleshow/135407173.cms",
-          "published_at": "16:59"
+          "url": "https://timesofindia.indiatimes.com/world/us/bullied-ghana-teenager-shot-to-death-on-his-way-to-school-in-bronx-mayor-mamdani-says-he-spoke-to-trump-javits-frimpongs-mother-to-get-visa-to-see-son-for-the-last-time/articleshow/135411473.cms",
+          "published_at": "20:19"
         }
       ]
     },
     {
-      "id": "world-272",
-      "title": "Spanish village gathers for memorial Mass for train crash victims",
-      "title_en": "Spanish village gathers for memorial Mass for train crash victims",
+      "id": "world-254",
+      "title": "Trump speaks to Netanyahu as US weighs fresh military strikes on Iran: Report",
+      "title_en": "Trump speaks to Netanyahu as US weighs fresh military strikes on Iran: Report",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/spain-train-crash-victim-memorial-mass-6509721",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "Investigators are looking into the cause of one of Europe's deadliest rail disasters this century.",
-      "excerpt_en": "Investigators are looking into the cause of one of Europe's deadliest rail disasters this century.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/spain-train-crash-victim-memorial-mass-6509721",
+      "title_url": "https://timesofindia.indiatimes.com/world/us/donald-trump-speaks-to-benjamin-netanyahu-as-us-weighs-fresh-military-strikes-on-iran-report/articleshow/135415379.cms",
+      "category": "중동",
+      "primary_source": "Times of India",
+      "excerpt": "US President Donald Trump spoke with Israeli Prime Minister Benjamin Netanyahu about military options against Iran while considering diplomatic negotiations. Secretary of State Marco Rubio indicated o",
+      "excerpt_en": "US President Donald Trump spoke with Israeli Prime Minister Benjamin Netanyahu about military options against Iran while considering diplomatic negotiations. Secretary of State Marco Rubio indicated o",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/donald-trump-speaks-to-benjamin-netanyahu-as-us-weighs-fresh-military-strikes-on-iran-report/articleshow/135415379.cms",
       "translation_status": "failed",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "major_score": 5,
+        "breaking_score": 9,
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Channel News Asia",
-        "Hindustan Times"
+        "Hindustan Times",
+        "Times of India"
       ],
-      "first_published_at": "2026-10-31T15:13:00+09:00",
-      "latest_published_at": "2026-10-31T21:24:41+09:00",
+      "first_published_at": "2026-11-01T02:16:06+09:00",
+      "latest_published_at": "2026-11-01T02:56:55+09:00",
       "articles": [
         {
-          "title": "Spanish village holds memorial mass for train crash victims",
+          "title": "Trump, Netanyahu speak as US weighs renewed military action against Iran",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/spanish-village-holds-memorial-mass-for-train-crash-victims-101793481882048.html",
-          "published_at": "21:24"
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-netanyahu-speak-as-us-weighs-renewed-military-action-against-iran-101793496042780.html",
+          "published_at": "02:56"
         },
         {
-          "title": "Spanish village gathers for memorial Mass for train crash victims",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/spain-train-crash-victim-memorial-mass-6509721",
-          "published_at": "15:13"
+          "title": "Trump speaks to Netanyahu as US weighs fresh military strikes on Iran: Report",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/donald-trump-speaks-to-benjamin-netanyahu-as-us-weighs-fresh-military-strikes-on-iran-report/articleshow/135415379.cms",
+          "published_at": "02:16"
         }
       ]
     }
