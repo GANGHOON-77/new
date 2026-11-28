@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "batch_time": "06:00",
+  "batch_time": "18:00",
   "timezone": "Asia/Seoul",
   "batch_slots": [
     "00:00",
@@ -8,27 +8,27 @@
     "12:00",
     "18:00"
   ],
-  "updated_at": "2026-11-28T10:30:09.556264+09:00",
+  "updated_at": "2026-11-28T18:21:52.899221+09:00",
   "score_version": "world-0.1",
   "clustering_method": "tfidf_word1-2gram_greedy_centroid(en)",
   "translation_engine": "deep-translator(google)",
   "view_mode": "world",
   "source_count_total": 26,
-  "article_count_total": 513,
-  "cluster_count_total": 421,
+  "article_count_total": 443,
+  "cluster_count_total": 350,
   "clusters": [
     {
-      "id": "world-114",
-      "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-      "title_en": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+      "id": "world-91",
+      "title": "Israeli strike killed two MSF workers in Gaza, charity says",
+      "title_en": "Israeli strike killed two MSF workers in Gaza, charity says",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+      "title_url": "https://news.sky.com/story/son-of-hamas-chief-and-his-family-survive-israeli-airstrike-group-says-13617394",
       "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "The son of Hamas ⁠chief Khalil al-Hayya survived an assassination attempt ⁠by the Israeli military on Friday, senior Hamas official ⁠Basem Naim said. He said that Izzeldeen al-Hayya and his family had",
-      "excerpt_en": "The son of Hamas ⁠chief Khalil al-Hayya survived an assassination attempt ⁠by the Israeli military on Friday, senior Hamas official ⁠Basem Naim said. He said that Izzeldeen al-Hayya and his family had",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3376106/son-hamas-chief-survives-israeli-strike-group-says",
+      "primary_source": "Sky News",
+      "excerpt": "JERUSALEM - The Israeli army said Saturday it killed two Hamas “terrorists” working at a Doctors Without Borders (MSF) clinic, prompting outrage from the charity.",
+      "excerpt_en": "JERUSALEM - The Israeli army said Saturday it killed two Hamas “terrorists” working at a Doctors Without Borders (MSF) clinic, prompting outrage from the charity.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3362750/israel-says-it-killed-two-terrorists-working-at-clinic",
       "translation_status": "failed",
       "score": 89,
       "score_breakdown": {
@@ -44,42 +44,42 @@
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
+        "ABC News Australia",
         "Al Jazeera",
-        "SCMP",
-        "Sky News",
-        "The Independent"
+        "Bangkok Post",
+        "Sky News"
       ],
-      "first_published_at": "2026-11-27T20:18:45+09:00",
-      "latest_published_at": "2026-11-28T00:33:00+09:00",
+      "first_published_at": "2026-11-28T00:33:00+09:00",
+      "latest_published_at": "2026-11-28T06:20:19+09:00",
       "articles": [
         {
-          "title": "Son of Hamas chief and his family survive Israeli airstrike, group says",
+          "title": "Israeli air strike on Doctors Without Borders Gaza office kills two",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-11-28/two-killed-israeli-air-strike-gaza-msf/107438266",
+          "published_at": "06:20"
+        },
+        {
+          "title": "Israel says it killed two ‘terrorists’ working at clinic",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3362750/israel-says-it-killed-two-terrorists-working-at-clinic",
+          "published_at": "03:45"
+        },
+        {
+          "title": "Israel kills two MSF staff in targeted strike on Gaza clinic",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+          "published_at": "01:55"
+        },
+        {
+          "title": "Israeli strike killed two MSF workers in Gaza, charity says",
           "source_name": "Sky News",
           "url": "https://news.sky.com/story/son-of-hamas-chief-and-his-family-survive-israeli-airstrike-group-says-13617394",
           "published_at": "00:33"
-        },
-        {
-          "title": "Son of Hamas chief survived Israeli strike, group says",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3376106/son-hamas-chief-survives-israeli-strike-group-says",
-          "published_at": "23:52"
-        },
-        {
-          "title": "Hamas say chief’s son survived assassination attempt by Israeli military",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/hamas-israel-military-strike-khalil-al-hayya-b3093052.html",
-          "published_at": "21:31"
-        },
-        {
-          "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
-          "published_at": "20:18"
         }
       ]
     },
     {
-      "id": "world-82",
+      "id": "world-201",
       "title": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports",
       "title_en": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports",
       "title_source": "earliest_pick",
@@ -91,33 +91,40 @@
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-military-says-it-disabled-another-ship-that-tried-to-breach-naval-blockade-on-iranian-ports-101795800931721.html",
       "translation_status": "failed",
-      "score": 88,
+      "score": 89,
       "score_breakdown": {
         "article_score": 22,
         "diversity_score": 20,
         "major_score": 15,
         "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 66
+        "time_score": 3,
+        "raw75": 67
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "sources": [
-        "AP News",
+        "Bangkok Post",
+        "Euronews",
         "Fox News",
         "Hindustan Times",
         "The Independent"
       ],
       "first_published_at": "2026-11-27T17:38:30+09:00",
-      "latest_published_at": "2026-11-27T20:43:00+09:00",
+      "latest_published_at": "2026-11-28T06:55:55+09:00",
       "articles": [
         {
-          "title": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZNR0tfZHB4Qm11eFRLSFJNQjZNejlab0p2TVUzdjBwR1Bsby0xbkZXNVdGbGlBSmJVWGRrVFRhaDVmcW9OTllRcHdYa2VOUjczdkdlQmFGZFZsMm9iUlVKcDZsZkZUYVVFLWFucUlzTnhPYUFpNXlESWd0cDJHbjlMVjlpdVhEX21fSGZLZzlmYks4a21YRUpJSnhDYVFNNlR1MVVld3o?oc=5",
-          "published_at": "20:43"
+          "title": "US military fires at a ship that violated blockade of Iranian ports",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+          "published_at": "06:55"
+        },
+        {
+          "title": "US military fires on ship violating Iran blockade",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3362736/us-military-fires-on-ship-violating-iran-blockade",
+          "published_at": "02:45"
         },
         {
           "title": "US military disables another ship in Gulf of Oman after attempt to breach Iranian ports blockade",
@@ -140,7 +147,142 @@
       ]
     },
     {
-      "id": "world-80",
+      "id": "world-29",
+      "title": "Hamas say chief’s son survived assassination attempt by Israeli military",
+      "title_en": "Hamas say chief’s son survived assassination attempt by Israeli military",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/middle-east/hamas-israel-military-strike-khalil-al-hayya-b3093052.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "The son of Hamas ⁠chief Khalil al-Hayya survived an assassination attempt ⁠by the Israeli military on Friday, senior Hamas official ⁠Basem Naim said. He said that Izzeldeen al-Hayya and his family had",
+      "excerpt_en": "The son of Hamas ⁠chief Khalil al-Hayya survived an assassination attempt ⁠by the Israeli military on Friday, senior Hamas official ⁠Basem Naim said. He said that Izzeldeen al-Hayya and his family had",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/middle-east/article/3376106/son-hamas-chief-survives-israeli-strike-group-says",
+      "translation_status": "failed",
+      "score": 88,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 66
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Hindustan Times",
+        "Reuters",
+        "SCMP",
+        "The Independent"
+      ],
+      "first_published_at": "2026-11-27T21:31:31+09:00",
+      "latest_published_at": "2026-11-27T23:52:33+09:00",
+      "articles": [
+        {
+          "title": "Son of Hamas chief survived Israeli strike, group says",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3376106/son-hamas-chief-survives-israeli-strike-group-says",
+          "published_at": "23:52"
+        },
+        {
+          "title": "Son of Hamas chief survives Israeli strike, Hamas says",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
+          "published_at": "23:26"
+        },
+        {
+          "title": "Hamas chief Khalil al-Hayya's son survives Israeli drone strike in Gaza City",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/hamas-chief-khalil-al-hayyas-son-survives-israeli-drone-strike-in-gaza-city-101795817960514.html",
+          "published_at": "22:26"
+        },
+        {
+          "title": "Hamas say chief’s son survived assassination attempt by Israeli military",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/hamas-israel-military-strike-khalil-al-hayya-b3093052.html",
+          "published_at": "21:31"
+        }
+      ]
+    },
+    {
+      "id": "world-27",
+      "title": "Costa Rica bars UN rapporteur on Palestinian territories, drawing concern from rights chief",
+      "title_en": "Costa Rica bars UN rapporteur on Palestinian territories, drawing concern from rights chief",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVTFhaERnNklOT0hXZlRoWndkWUtRRnlCZ29PZ056TzdPaEpDdExUWWxGZTVadkRrS3ZUQm5yMUprcEw3WUZnMW80Y1ZBTGVjY2JNaExHV0o0SXIyWGpSb3hjUS1lVkR2N1VWeXFveTN4OFNEMTBET0NXR1E3WUVJQ3Q1djcwR2pHVlJQNTExNnVHSG8xZ2IwV3NZeXdaaFpMWVBsM2FXUFAwcktLNEpuV0U4QVEzSEhZX1JJOEhLRmc1bjd6ejFBLWd2NA?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "Costa Rica denied entry ⁠to the United Nations special rapporteur on ⁠the Israeli-occupied Palestinian territories, drawing criticism from UN human rights chief Volker Turk on Friday. Costa Rica’s mov",
+      "excerpt_en": "Costa Rica denied entry ⁠to the United Nations special rapporteur on ⁠the Israeli-occupied Palestinian territories, drawing criticism from UN human rights chief Volker Turk on Friday. Costa Rica’s mov",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/americas/article/3376110/costa-rica-bars-un-picked-human-rights-expert-palestinian-territories",
+      "translation_status": "failed",
+      "score": 84,
+      "score_breakdown": {
+        "article_score": 25,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 63
+      },
+      "area_value": 6,
+      "article_count": 6,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "ABC News",
+        "ABC News Australia",
+        "Hindustan Times",
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-11-27T18:04:00+09:00",
+      "latest_published_at": "2026-11-28T04:30:10+09:00",
+      "articles": [
+        {
+          "title": "Francesca Albanese, UN rapporteur on Palestinian rights, to leave for Mexico after Costa Rica government denies entry",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/francesca-albanese-un-rapporteur-on-palestinian-rights-to-leave-for-mexico-after-costa-rica-government-denies-entry-101795839733586.html",
+          "published_at": "04:30"
+        },
+        {
+          "title": "Costa Rica bars UN-picked human rights expert on Palestinian territories",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3376110/costa-rica-bars-un-picked-human-rights-expert-palestinian-territories",
+          "published_at": "03:27"
+        },
+        {
+          "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-11-28/francesca-albanese-detained-at-costa-rica-airport/107437818",
+          "published_at": "01:39"
+        },
+        {
+          "title": "UN rapporteur halted at Costa Rica airport to leave Saturday",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/un-rapporteur-halted-at-costa-rica-airport-to-leave-saturday-101795829938501.html",
+          "published_at": "01:38"
+        },
+        {
+          "title": "UN rapporteur Albanese in limbo at airport after being denied entry to Costa Rica",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/rapporteur-albanese-limbo-airport-after-denied-entry-costa-138484778",
+          "published_at": "19:14"
+        },
+        {
+          "title": "Costa Rica bars UN rapporteur on Palestinian territories, drawing concern from rights chief",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVTFhaERnNklOT0hXZlRoWndkWUtRRnlCZ29PZ056TzdPaEpDdExUWWxGZTVadkRrS3ZUQm5yMUprcEw3WUZnMW80Y1ZBTGVjY2JNaExHV0o0SXIyWGpSb3hjUS1lVkR2N1VWeXFveTN4OFNEMTBET0NXR1E3WUVJQ3Q1djcwR2pHVlJQNTExNnVHSG8xZ2IwV3NZeXdaaFpMWVBsM2FXUFAwcktLNEpuV0U4QVEzSEhZX1JJOEhLRmc1bjd6ejFBLWd2NA?oc=5",
+          "published_at": "18:04"
+        }
+      ]
+    },
+    {
+      "id": "world-57",
       "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
       "title_en": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
       "title_source": "earliest_pick",
@@ -161,22 +303,33 @@
         "time_score": 2,
         "raw75": 63
       },
-      "area_value": 7,
-      "article_count": 7,
+      "area_value": 6,
+      "article_count": 6,
       "syndicated_count": 0,
-      "source_count": 7,
+      "source_count": 6,
       "sources": [
         "ABC News",
         "AP News",
         "BBC",
-        "Bangkok Post",
         "DW",
-        "SCMP",
-        "Times of India"
+        "Hindustan Times",
+        "SCMP"
       ],
       "first_published_at": "2026-11-27T16:53:46+09:00",
-      "latest_published_at": "2026-11-27T20:43:00+09:00",
+      "latest_published_at": "2026-11-28T02:01:08+09:00",
       "articles": [
+        {
+          "title": "Canada’s Supreme Court upholds Quebec’s religious-symbols ban",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/canadas-supreme-court-upholds-quebec-s-religious-symbols-ban-101795809886152.html",
+          "published_at": "02:01"
+        },
+        {
+          "title": "Canada’s Supreme Court largely upholds a Quebec ban on religious symbols for public servants",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOE9BOWJaNlNZVUhPNE90VDU0SDNmbUxQNjZITWlkbEowX3E3d3RaRW1SVXVnbFlhVUh4RmNiUGJmckltOFpvb25PQkV6R05IVnRLNFpCbE1DYTRVenM4Z2I1eWdOeVVJcEdsMlJMYWlIYk4zeFJxYmZYWEI4RTUxNDk5YWxzQVZkdWExcFFkR0xpcUV1b0lMV08tNFlnWG1MZXV1RTZnWGg?oc=5",
+          "published_at": "00:02"
+        },
         {
           "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
           "source_name": "DW",
@@ -184,28 +337,10 @@
           "published_at": "20:43"
         },
         {
-          "title": "Canada’s Supreme Court largely upholds a Quebec ban on religious symbols for public servants",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOE9BOWJaNlNZVUhPNE90VDU0SDNmbUxQNjZITWlkbEowX3E3d3RaRW1SVXVnbFlhVUh4RmNiUGJmckltOFpvb25PQkV6R05IVnRLNFpCbE1DYTRVenM4Z2I1eWdOeVVJcEdsMlJMYWlIYk4zeFJxYmZYWEI4RTUxNDk5YWxzQVZkdWExcFFkR0xpcUV1b0lMV08tNFlnWG1MZXV1RTZnWGg?oc=5",
-          "published_at": "20:31"
-        },
-        {
           "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
           "source_name": "SCMP",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
           "published_at": "20:25"
-        },
-        {
-          "title": "Canada's top court largely upholds Quebec secularism law",
-          "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3362724/canadas-top-court-largely-upholds-quebec-secularism-law",
-          "published_at": "19:45"
-        },
-        {
-          "title": "Canada's top court upholds Quebec's religious symbols ban for public sector workers",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/canadas-supreme-court-largely-upholds-quebecs-2019-law-banning-certain-public-workers-from-wearing-religious-symbols-at-work-including-sikh-turbans-muslim-hijabs-and-christian-crosses/articleshow/136232101.cms",
-          "published_at": "19:01"
         },
         {
           "title": "Canada’s Supreme Court largely upholds Quebec ban on religious symbols for public servants",
@@ -222,139 +357,78 @@
       ]
     },
     {
-      "id": "world-10",
-      "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
-      "title_en": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
+      "id": "world-158",
+      "title": "Prosecutors seek 25-year sentence for Canada suicide poison seller",
+      "title_en": "Prosecutors seek 25-year sentence for Canada suicide poison seller",
       "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
-      "category": "기타",
-      "primary_source": "The Independent",
-      "excerpt": "The conviction adds to Paul Mackenzie’s existing 200-year prison sentence for the murder of nearly 200 children.",
-      "excerpt_en": "The conviction adds to Paul Mackenzie’s existing 200-year prison sentence for the murder of nearly 200 children.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "Channel News Asia",
-        "Reuters",
-        "The Independent"
-      ],
-      "first_published_at": "2026-11-27T15:11:37+09:00",
-      "latest_published_at": "2026-11-27T22:33:17+09:00",
-      "articles": [
-        {
-          "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
-          "published_at": "22:33"
-        },
-        {
-          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0xwNFVEWnAyNUxEdzNWcUR2X2tPbDZtLTZyTUNKMFY0VlpIaHFMV2ZuT2ZfeEJCcHpjQk9JU1dyeEpRZDZQSnJIbWRGWEZqZEJfQnZyYmNadGJneDNhUnVoUVFYOC1PZXVydXFQOFVvdFVDTjN4QjhhRU5WbTdEZzZCTkFfd2ZtdmZTVWw0YWhhYTFLU05iZUpNMFR3dk9uUXZnLTQxUUxrYW1rM1RBZDBwYk9FWFJscWF2MS1CN2xjY3FYWHc?oc=5",
-          "published_at": "18:26"
-        },
-        {
-          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
-          "published_at": "18:21"
-        },
-        {
-          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
-          "published_at": "15:11"
-        }
-      ]
-    },
-    {
-      "id": "world-36",
-      "title": "EXCLUSIVE: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
-      "title_en": "EXCLUSIVE: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVZ6VDRqcUU2ZDJ1UWdyUmYwNXRPMHAzR0pjRk8zLTJqYlF6YTVFV1Q5V3ZKV1IzZ0NDN2tKdkNxVmUtSmxpNnBNVmkzRWp5NkZ4SFdkaXZ6Zy1hUlhIUkdOY3ozaWVCLVI3M1FaRE9CQVZacHZ0c0tGM3AtUlFWaVR1Tnp4T084eVFjWDIxbVJQa1F0Z1RQRUdkU0YzdnZWMWJWNHRMT0JiQ1NHeDJF?oc=5",
-      "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "The United States influenced both Venezuela and Iraq regarding their membership in OPEC earlier this year. After the removal of Nicolás Maduro, discussions were opened about Venezuela potentially leav",
-      "excerpt_en": "The United States influenced both Venezuela and Iraq regarding their membership in OPEC earlier this year. After the removal of Nicolás Maduro, discussions were opened about Venezuela potentially leav",
-      "excerpt_source": "Times of India",
-      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/us-pushed-venezuela-iraq-to-quit-opec-to-boost-oil-output-report/articleshow/136235653.cms",
-      "translation_status": "failed",
-      "score": 81,
-      "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 20,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 61
-      },
-      "area_value": 4,
-      "article_count": 4,
-      "syndicated_count": 0,
-      "source_count": 4,
-      "sources": [
-        "Hindustan Times",
-        "Reuters",
-        "The Independent",
-        "Times of India"
-      ],
-      "first_published_at": "2026-11-27T06:02:00+09:00",
-      "latest_published_at": "2026-11-27T23:48:27+09:00",
-      "articles": [
-        {
-          "title": "US pushed Venezuela, Iraq to quit OPEC to boost oil output: Report",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-pushed-venezuela-iraq-to-quit-opec-to-boost-oil-output-report/articleshow/136235653.cms",
-          "published_at": "23:48"
-        },
-        {
-          "title": "Iraq seeks higher oil production limit from OPEC ahead of Sunday meeting",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/iraq-seeks-higher-oil-production-limit-from-opec-ahead-of-sunday-meeting-101795811868796.html",
-          "published_at": "21:08"
-        },
-        {
-          "title": "Saudi crown prince stepped in to halt quiet American campaign to break up OPEC oil cartel, sources say",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-admin-venezuela-iraq-oil-ope-b3092708.html",
-          "published_at": "16:00"
-        },
-        {
-          "title": "EXCLUSIVE: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVZ6VDRqcUU2ZDJ1UWdyUmYwNXRPMHAzR0pjRk8zLTJqYlF6YTVFV1Q5V3ZKV1IzZ0NDN2tKdkNxVmUtSmxpNnBNVmkzRWp5NkZ4SFdkaXZ6Zy1hUlhIUkdOY3ozaWVCLVI3M1FaRE9CQVZacHZ0c0tGM3AtUlFWaVR1Tnp4T084eVFjWDIxbVJQa1F0Z1RQRUdkU0YzdnZWMWJWNHRMT0JiQ1NHeDJF?oc=5",
-          "published_at": "06:02"
-        }
-      ]
-    },
-    {
-      "id": "world-5",
-      "title": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption",
-      "title_en": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/prosecutors-seek-25-year-sentence-for-canada-suicide-poison-seller-101795811078121.html",
       "category": "미국",
-      "primary_source": "Reuters",
-      "excerpt": "Mexican President Claudia Sheinbaum says the country is filing a formal complaint with the U.S. over a Drug Enforcement Agency tip line for anonymous reports about criminals and corrupt Mexican offici",
-      "excerpt_en": "Mexican President Claudia Sheinbaum says the country is filing a formal complaint with the U.S. over a Drug Enforcement Agency tip line for anonymous reports about criminals and corrupt Mexican offici",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/mexico-files-formal-complaint-us-dea-tip-line-138484649",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Canadian prosecutors on Friday requested a 25-year prison sentence for a man who sold poison to help people take their own lives, stressing his victims were largely young and experiencing mental distr",
+      "excerpt_en": "Canadian prosecutors on Friday requested a 25-year prison sentence for a man who sold poison to help people take their own lives, stressing his victims were largely young and experiencing mental distr",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3376123/canada-prosecutors-seek-25-year-prison-term-suicide-poison-seller",
+      "translation_status": "failed",
+      "score": 81,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 61
+      },
+      "area_value": 4,
+      "article_count": 4,
+      "syndicated_count": 0,
+      "source_count": 4,
+      "sources": [
+        "Bangkok Post",
+        "CBS News",
+        "Hindustan Times",
+        "SCMP"
+      ],
+      "first_published_at": "2026-11-27T20:24:37+09:00",
+      "latest_published_at": "2026-11-28T08:49:20+09:00",
+      "articles": [
+        {
+          "title": "Canada prosecutors seek 25-year prison term for suicide poison seller",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376123/canada-prosecutors-seek-25-year-prison-term-suicide-poison-seller",
+          "published_at": "08:49"
+        },
+        {
+          "title": "Canadian prosecutors seek 25-year sentence for suicide poison seller",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3362725/canadian-prosecutors-seek-25year-sentence-for-suicide-poison-seller",
+          "published_at": "01:45"
+        },
+        {
+          "title": "25-year sentence sought for former chef who aided 14 suicides",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/former-chef-kennth-law-poison-suicides-prosecutors-seek-25-years/",
+          "published_at": "20:54"
+        },
+        {
+          "title": "Prosecutors seek 25-year sentence for Canada suicide poison seller",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/prosecutors-seek-25-year-sentence-for-canada-suicide-poison-seller-101795811078121.html",
+          "published_at": "20:24"
+        }
+      ]
+    },
+    {
+      "id": "world-48",
+      "title": "Zelenskyy: Trump calling Putin a friend like calling Hitler a friend",
+      "title_en": "Zelenskyy: Trump calling Putin a friend like calling Hitler a friend",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/news/zelenskyy-trump-calling-putin-friend-like-hitler-viewed-friend-wwii/",
+      "category": "유럽",
+      "primary_source": "CBS News",
+      "excerpt": "Ukrainian President Volodymyr Zelenskyy criticized Donald Trump for cozying up to Russian President Vladimir Putin, delaying delivery of promised Patriot missiles and not paying enough attention to th",
+      "excerpt_en": "Ukrainian President Volodymyr Zelenskyy criticized Donald Trump for cozying up to Russian President Vladimir Putin, delaying delivery of promised Patriot missiles and not paying enough attention to th",
+      "excerpt_source": "CBC",
+      "excerpt_url": "https://www.cbc.ca/news/world/zelensky-eu-ukraine-funding-9.7438377?cmp=rss",
       "translation_status": "failed",
       "score": 80,
       "score_breakdown": {
@@ -365,107 +439,175 @@
         "time_score": 2,
         "raw75": 60
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 5,
+      "article_count": 5,
+      "syndicated_count": 0,
+      "source_count": 5,
+      "sources": [
+        "ABC News",
+        "AP News",
+        "CBC",
+        "CBS News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-11-27T15:32:29+09:00",
+      "latest_published_at": "2026-11-27T19:33:00+09:00",
+      "articles": [
+        {
+          "title": "Zelenskyy urges US to pressure Putin and questions Trump’s reference to Putin as a ‘friend’",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZHZncjd6TjJOQy1tZVlWUVowZ0hBY2NWMjN2d1k3WXdzUlB4VUdlbl9kMDdLTnZ2bzY5eGlZUGFNSEQxYVNCaVNRYWlBTkZneUxoZm5ub1Q2MVd3QjFza1BJWWhiWEQ2Tk1aUE1jVlByV0h6NldmUC1NOUQ5WW5ka3pqdUFwaXI1SEd4VzNzUGNoZ2c5WG5Yd3dFeWpyY0taN3c?oc=5",
+          "published_at": "19:33"
+        },
+        {
+          "title": "Trump stands by calling Putin his ‘friend’ despite backlash from Zelensky: ‘I want to make a deal’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-stands-by-calling-putin-his-friend-despite-backlash-from-zelensky-i-want-to-make-a-deal-101795801908648.html",
+          "published_at": "18:09"
+        },
+        {
+          "title": "Zelenskyy criticizes Trump for cozying up to Putin as EU kicks Ukraine funding down the road",
+          "source_name": "CBC",
+          "url": "https://www.cbc.ca/news/world/zelensky-eu-ukraine-funding-9.7438377?cmp=rss",
+          "published_at": "17:41"
+        },
+        {
+          "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/zelenskyy-urges-us-pressure-putin-calling-trumps-friend-138478386",
+          "published_at": "15:46"
+        },
+        {
+          "title": "Zelenskyy: Trump calling Putin a friend like calling Hitler a friend",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/news/zelenskyy-trump-calling-putin-friend-like-hitler-viewed-friend-wwii/",
+          "published_at": "15:32"
+        }
+      ]
+    },
+    {
+      "id": "world-120",
+      "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
+      "title_en": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
+      "category": "유럽",
+      "primary_source": "SCMP",
+      "excerpt": "The US military denied on Friday any issues with its computer security following media reports that the Air Force’s cloud-based system was hacked, in what would be the latest high-profile breach of US",
+      "excerpt_en": "The US military denied on Friday any issues with its computer security following media reports that the Air Force’s cloud-based system was hacked, in what would be the latest high-profile breach of US",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3376113/us-military-says-cyber-systems-secure-after-reports-air-force-hack",
+      "translation_status": "failed",
+      "score": 80,
+      "score_breakdown": {
+        "article_score": 22,
+        "diversity_score": 20,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 60
+      },
+      "area_value": 5,
+      "article_count": 5,
       "syndicated_count": 0,
       "source_count": 4,
       "sources": [
-        "ABC News",
-        "Al Jazeera",
+        "Bangkok Post",
+        "France24",
         "Hindustan Times",
-        "Reuters"
+        "SCMP"
       ],
-      "first_published_at": "2026-11-27T16:48:09+09:00",
-      "latest_published_at": "2026-11-27T19:02:10+09:00",
+      "first_published_at": "2026-11-27T12:25:16+09:00",
+      "latest_published_at": "2026-11-28T06:04:56+09:00",
       "articles": [
         {
-          "title": "Mexico files formal complaint with US over DEA tip line targeting cartel members and corrupt officials",
+          "title": "Hackers reportedly breach US Air Force cloud platform as Pentagon insists systems are secure",
+          "source_name": "France24",
+          "url": "https://www.france24.com/en/americas/20261128-us-military-cloud-platform-reportedly-hacked-as-pentagon-insists-systems-are-secure",
+          "published_at": "06:04"
+        },
+        {
+          "title": "US military says cyber systems secure after reports of Air Force hack",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376113/us-military-says-cyber-systems-secure-after-reports-air-force-hack",
+          "published_at": "04:53"
+        },
+        {
+          "title": "US says systems secure after reports of Air Force hack",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3362781/us-says-systems-secure-after-reports-of-air-force-hack",
+          "published_at": "04:45"
+        },
+        {
+          "title": "US Air Force hacked: Trump’s former National Security Advisor Mike Flynn demands answers from White House",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mexico-files-formal-complaint-with-us-over-dea-tip-line-targeting-cartel-members-and-corrupt-officials-101795805544103.html",
-          "published_at": "19:02"
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-air-force-hacked-trump-s-former-national-security-advisor-mike-flynn-demands-answers-from-white-house-101795809468630.html",
+          "published_at": "20:05"
         },
         {
-          "title": "Mexico files formal complaint to US over DEA tip line",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/mexico-files-formal-complaint-us-dea-tip-line-138484649",
-          "published_at": "19:00"
-        },
-        {
-          "title": "Mexico files complaint with US over DEA tip line on alleged drug dealers",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/mexico-files-complaint-with-us-over-tip-line-on-alleged-drug-traffickers?traffic_source=rss",
-          "published_at": "17:58"
-        },
-        {
-          "title": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
-          "published_at": "16:48"
+          "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
+          "published_at": "12:25"
         }
       ]
     },
     {
-      "id": "world-105",
-      "title": "Costa Rica bars entry to UN rapporteur over 'links to terrorist acts'",
-      "title_en": "Costa Rica bars entry to UN rapporteur over 'links to terrorist acts'",
+      "id": "world-83",
+      "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
+      "title_en": "El Nino-linked deluges flood cities in Peru, Ecuador",
       "title_source": "earliest_pick",
-      "title_url": "https://www.bangkokpost.com/world/3362205/costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts",
-      "category": "중동",
-      "primary_source": "Bangkok Post",
-      "excerpt": "Francesca Albanese, the U.N. special rapporteur on human rights in the occupied Palestinian territories, is stranded at Costa Rica’s main airport awaiting for a court to decide whether she could enter",
-      "excerpt_en": "Francesca Albanese, the U.N. special rapporteur on human rights in the occupied Palestinian territories, is stranded at Costa Rica’s main airport awaiting for a court to decide whether she could enter",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/rapporteur-albanese-limbo-airport-after-denied-entry-costa-138484778",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/el-nino-linked-deluges-flood-cities-in-peru-ecuador-101795831821216.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "PIURA, Peru - Several cities in Peru and Ecuador faced major flooding on Friday after downpours in the region linked to the exceptionally strong El Nino phenomenon.",
+      "excerpt_en": "PIURA, Peru - Several cities in Peru and Ecuador faced major flooding on Friday after downpours in the region linked to the exceptionally strong El Nino phenomenon.",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3362774/el-ninolinked-deluges-strike-peru-and-ecuador",
       "translation_status": "failed",
-      "score": 75,
+      "score": 76,
       "score_breakdown": {
-        "article_score": 22,
+        "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 56
+        "breaking_score": 7,
+        "time_score": 2,
+        "raw75": 57
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "ABC News",
         "Al Jazeera",
-        "Bangkok Post"
+        "Bangkok Post",
+        "Hindustan Times"
       ],
-      "first_published_at": "2026-11-27T06:45:00+09:00",
-      "latest_published_at": "2026-11-28T00:12:20+09:00",
+      "first_published_at": "2026-11-28T02:10:20+09:00",
+      "latest_published_at": "2026-11-28T04:57:32+09:00",
       "articles": [
         {
-          "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+          "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
           "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
-          "published_at": "00:12"
+          "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+          "published_at": "04:57"
         },
         {
-          "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
-          "published_at": "20:10"
-        },
-        {
-          "title": "UN rapporteur Albanese in limbo at airport after being denied entry to Costa Rica",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/rapporteur-albanese-limbo-airport-after-denied-entry-costa-138484778",
-          "published_at": "19:14"
-        },
-        {
-          "title": "Costa Rica bars entry to UN rapporteur over 'links to terrorist acts'",
+          "title": "El Nino-linked deluges strike Peru and Ecuador",
           "source_name": "Bangkok Post",
-          "url": "https://www.bangkokpost.com/world/3362205/costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts",
-          "published_at": "06:45"
+          "url": "https://www.bangkokpost.com/world/3362774/el-ninolinked-deluges-strike-peru-and-ecuador",
+          "published_at": "02:45"
+        },
+        {
+          "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/el-nino-linked-deluges-flood-cities-in-peru-ecuador-101795831821216.html",
+          "published_at": "02:10"
         }
       ]
     },
     {
-      "id": "world-3",
+      "id": "world-11",
       "title": "Fourteen found dead on migrant boat off Spain's Canary Islands",
       "title_en": "Fourteen found dead on migrant boat off Spain's Canary Islands",
       "title_source": "earliest_pick",
@@ -477,14 +619,14 @@
       "excerpt_source": "The Independent",
       "excerpt_url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
       "translation_status": "failed",
-      "score": 73,
+      "score": 72,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 15,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 55
+        "time_score": 2,
+        "raw75": 54
       },
       "area_value": 3,
       "article_count": 3,
@@ -519,77 +661,70 @@
       ]
     },
     {
-      "id": "world-11",
-      "title": "US Air Force flagship Cloud One computing platform hacked, says report",
-      "title_en": "US Air Force flagship Cloud One computing platform hacked, says report",
+      "id": "world-54",
+      "title": "Latest news bulletin | November 27th, 2026 – Evening",
+      "title_en": "Latest news bulletin | November 27th, 2026 – Evening",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/us-air-force-flagship-cloud-one-computing-platform-hacked-says-report-101795779139897.html",
+      "title_url": "https://www.euronews.com/video/2026/11/27/latest-news-bulletin-november-27th-2026-evening",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
-      "excerpt": "Hackers have breached the US Air Force’s flagship cloud computing platform, three people familiar with the matter said, in a development that could jeopardise a vast swathe of sensitive tactical, pers",
-      "excerpt_en": "Hackers have breached the US Air Force’s flagship cloud computing platform, three people familiar with the matter said, in a development that could jeopardise a vast swathe of sensitive tactical, pers",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
+      "primary_source": "Euronews",
+      "excerpt": "Catch up with the most important stories from around Europe and beyond this November 28th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "excerpt_en": "Catch up with the most important stories from around Europe and beyond this November 28th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "excerpt_source": "Euronews",
+      "excerpt_url": "https://www.euronews.com/video/2026/11/28/latest-news-bulletin-november-28th-2026-morning",
       "translation_status": "failed",
-      "score": 73,
+      "score": 71,
       "score_breakdown": {
-        "article_score": 22,
-        "diversity_score": 15,
+        "article_score": 18,
+        "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 55
+        "breaking_score": 7,
+        "time_score": 3,
+        "raw75": 53
       },
-      "area_value": 4,
-      "article_count": 4,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 3,
+      "source_count": 2,
       "sources": [
-        "Hindustan Times",
-        "Reuters",
-        "SCMP"
+        "AP News",
+        "Euronews"
       ],
-      "first_published_at": "2026-11-27T11:46:27+09:00",
-      "latest_published_at": "2026-11-27T20:56:01+09:00",
+      "first_published_at": "2026-11-27T17:00:26+09:00",
+      "latest_published_at": "2026-11-28T06:34:02+09:00",
       "articles": [
         {
-          "title": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
-          "published_at": "20:56"
+          "title": "Associated Press News: Breaking News | Latest News Today",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE1JRTBkY0d6emFJTklfMk1FZkEtdnc2dmtQVGhJQUcxb3cxdVZNajFoUnMxbGx1UQ?oc=5",
+          "published_at": "06:34"
         },
         {
-          "title": "US Air Force hacked: Trump’s former National Security Advisor Mike Flynn demands answers from White House",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-air-force-hacked-trump-s-former-national-security-advisor-mike-flynn-demands-answers-from-white-house-101795809468630.html",
-          "published_at": "20:05"
+          "title": "Latest news bulletin | November 28th, 2026 – Morning",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/28/latest-news-bulletin-november-28th-2026-morning",
+          "published_at": "06:00"
         },
         {
-          "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
-          "published_at": "12:25"
-        },
-        {
-          "title": "US Air Force flagship Cloud One computing platform hacked, says report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/us-air-force-flagship-cloud-one-computing-platform-hacked-says-report-101795779139897.html",
-          "published_at": "11:46"
+          "title": "Latest news bulletin | November 27th, 2026 – Evening",
+          "source_name": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/27/latest-news-bulletin-november-27th-2026-evening",
+          "published_at": "17:00"
         }
       ]
     },
     {
-      "id": "world-0",
-      "title": "OpenAI countersues Apple for stealing trade secrets",
-      "title_en": "OpenAI countersues Apple for stealing trade secrets",
+      "id": "world-1",
+      "title": "US military repelled drones at UK airbase this month, FT reports",
+      "title_en": "US military repelled drones at UK airbase this month, FT reports",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/business/openai-countersues-apple-stealing-trade-secrets-6588456",
-      "category": "기타",
-      "primary_source": "Channel News Asia",
-      "excerpt": "OpenAI has sued Apple, saying it stole trade secrets and blocked its access to hardware suppliers, after Apple sued OpenAI first.",
-      "excerpt_en": "OpenAI has sued Apple, saying it stole trade secrets and blocked its access to hardware suppliers, after Apple sued OpenAI first.",
+      "title_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVBLa19DdUlDcGg5RVY2bjFfYS1QYXJRQmE0Z1ZfNm02WmI5RnBhcEhKSGdRR01XdUJhandJSzQ0SEF5bWRlZlBUbUJPbVJLbjROSUozYnJseGhLekl6bEhTTU5tbEVQMWtCU3Z1YzJiTTZNcnBrdVNYQ3ZudHpLVFREbWhkcUNWSVQ0bHdCVUF5RU0?oc=5",
+      "category": "중동",
+      "primary_source": "Reuters",
+      "excerpt": "The US Air Force personnel at the base reportedly responded to ‘suspected unauthorized drone activity’.",
+      "excerpt_en": "The US Air Force personnel at the base reportedly responded to ‘suspected unauthorized drone activity’.",
       "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/openai-countersues-apple-accuses-tech-of-stealing-trade-secrets-and-blocking-suppliers-101795807860740.html",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/us-army-repelled-drones-at-uk-airbase-in-november-iran-links-suspected-report-101795850228188.html",
       "translation_status": "failed",
       "score": 69,
       "score_breakdown": {
@@ -609,9 +744,123 @@
         "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-11-27T18:28:27+09:00",
-      "latest_published_at": "2026-11-27T23:00:08+09:00",
+      "first_published_at": "2026-11-28T05:18:00+09:00",
+      "latest_published_at": "2026-11-28T08:33:39+09:00",
       "articles": [
+        {
+          "title": "US military repelled drones at UK airbase this month: Report",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/world/us-military-repelled-drones-uk-airbase-6589176",
+          "published_at": "08:33"
+        },
+        {
+          "title": "US army repelled drones at UK airbase in November; Iran links suspected: Report",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-army-repelled-drones-at-uk-airbase-in-november-iran-links-suspected-report-101795850228188.html",
+          "published_at": "07:36"
+        },
+        {
+          "title": "US military repelled drones at UK airbase this month, FT reports",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVBLa19DdUlDcGg5RVY2bjFfYS1QYXJRQmE0Z1ZfNm02WmI5RnBhcEhKSGdRR01XdUJhandJSzQ0SEF5bWRlZlBUbUJPbVJLbjROSUozYnJseGhLekl6bEhTTU5tbEVQMWtCU3Z1YzJiTTZNcnBrdVNYQ3ZudHpLVFREbWhkcUNWSVQ0bHdCVUF5RU0?oc=5",
+          "published_at": "05:18"
+        }
+      ]
+    },
+    {
+      "id": "world-4",
+      "title": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+      "title_en": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVVo0MmV3VWE5bkFxdlExTW5Qa1VRUm4tcHZnbmJKbmNwSjJiNjVuRFlwbHZqcFJYR2pHekJKdFptbDJlekZ0Z0VSRTV3bm5ydUNNNmdLMU5sZkFMLU95SVpnNW9MaXNPNllyZFJleUFWcHEteFZGczZzNHdBY1o3bERlTVp6a3lvd0E1RjFZNXNmRVFpdVVkNVR3MVpJa1dsVW0zcGVTM1I5UmRBVU5icmdB?oc=5",
+      "category": "아시아",
+      "primary_source": "Reuters",
+      "excerpt": "Indian authorities have found a sample of Bisleri-branded water to be unsafe due to coliform bacteria, a regulatory document shows, the second such finding to come to light in recent days on the natio",
+      "excerpt_en": "Indian authorities have found a sample of Bisleri-branded water to be unsafe due to coliform bacteria, a regulatory document shows, the second such finding to come to light in recent days on the natio",
+      "excerpt_source": "SCMP",
+      "excerpt_url": "https://www.scmp.com/news/asia/south-asia/article/3376119/india-finds-unsafe-bisleri-sample-due-bacteria-amid-bottled-water-crackdown",
+      "translation_status": "failed",
+      "score": 69,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 52
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Channel News Asia",
+        "Reuters",
+        "SCMP"
+      ],
+      "first_published_at": "2026-11-28T05:09:00+09:00",
+      "latest_published_at": "2026-11-28T08:21:46+09:00",
+      "articles": [
+        {
+          "title": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/asia/india-bisleri-bottled-water-bacteria-6589171",
+          "published_at": "08:21"
+        },
+        {
+          "title": "India finds unsafe Bisleri sample due to bacteria amid bottled water crackdown",
+          "source_name": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3376119/india-finds-unsafe-bisleri-sample-due-bacteria-amid-bottled-water-crackdown",
+          "published_at": "06:30"
+        },
+        {
+          "title": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVVo0MmV3VWE5bkFxdlExTW5Qa1VRUm4tcHZnbmJKbmNwSjJiNjVuRFlwbHZqcFJYR2pHekJKdFptbDJlekZ0Z0VSRTV3bm5ydUNNNmdLMU5sZkFMLU95SVpnNW9MaXNPNllyZFJleUFWcHEteFZGczZzNHdBY1o3bERlTVp6a3lvd0E1RjFZNXNmRVFpdVVkNVR3MVpJa1dsVW0zcGVTM1I5UmRBVU5icmdB?oc=5",
+          "published_at": "05:09"
+        }
+      ]
+    },
+    {
+      "id": "world-8",
+      "title": "OpenAI countersues Apple, accuses tech giant of stealing trade secrets and blocking suppliers",
+      "title_en": "OpenAI countersues Apple, accuses tech giant of stealing trade secrets and blocking suppliers",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/openai-countersues-apple-accuses-tech-of-stealing-trade-secrets-and-blocking-suppliers-101795807860740.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "OpenAI has countersued Apple, alleging that the tech giant stole trade secrets and restricted supplier access. This legal conflict stems from claims of employee poaching by Apple, which OpenAI vehemen",
+      "excerpt_en": "OpenAI has countersued Apple, alleging that the tech giant stole trade secrets and restricted supplier access. This legal conflict stems from claims of employee poaching by Apple, which OpenAI vehemen",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/openai-vs-apple-chatgpt-maker-countersues-iphone-maker-for-stealing-trade-secrets/articleshow/136236893.cms",
+      "translation_status": "failed",
+      "score": 68,
+      "score_breakdown": {
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 51
+      },
+      "area_value": 3,
+      "article_count": 3,
+      "syndicated_count": 0,
+      "source_count": 3,
+      "sources": [
+        "Hindustan Times",
+        "Reuters",
+        "Times of India"
+      ],
+      "first_published_at": "2026-11-27T20:01:53+09:00",
+      "latest_published_at": "2026-11-28T02:44:15+09:00",
+      "articles": [
+        {
+          "title": "OpenAI vs Apple: ChatGPT maker countersues iPhone maker for stealing trade secrets",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/openai-vs-apple-chatgpt-maker-countersues-iphone-maker-for-stealing-trade-secrets/articleshow/136236893.cms",
+          "published_at": "02:44"
+        },
         {
           "title": "OpenAI countersues Apple for stealing trade secrets",
           "source_name": "Reuters",
@@ -623,81 +872,21 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/openai-countersues-apple-accuses-tech-of-stealing-trade-secrets-and-blocking-suppliers-101795807860740.html",
           "published_at": "20:01"
-        },
-        {
-          "title": "OpenAI countersues Apple for stealing trade secrets",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/business/openai-countersues-apple-stealing-trade-secrets-6588456",
-          "published_at": "18:28"
         }
       ]
     },
     {
-      "id": "world-182",
-      "title": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
-      "title_en": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
+      "id": "world-13",
+      "title": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption",
+      "title_en": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption",
       "title_source": "earliest_pick",
-      "title_url": "https://www.channelnewsasia.com/world/don-toliver-concert-substance-police-manchester-robbery-6588591",
-      "category": "유럽",
-      "primary_source": "Channel News Asia",
-      "excerpt": "The police in Manchester, England, said they believed “organized criminals targeted people in the crowd to commit a series of robberies” during the concert on Sunday night.",
-      "excerpt_en": "The police in Manchester, England, said they believed “organized criminals targeted people in the crowd to commit a series of robberies” during the concert on Sunday night.",
-      "excerpt_source": "New York Times",
-      "excerpt_url": "https://www.nytimes.com/2026/11/27/world/europe/don-toliver-manchester-substance-robberies.html",
-      "translation_status": "failed",
-      "score": 69,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 15,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 52
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 3,
-      "sources": [
-        "ABC News Australia",
-        "Channel News Asia",
-        "New York Times"
-      ],
-      "first_published_at": "2026-11-27T21:42:53+09:00",
-      "latest_published_at": "2026-11-27T23:24:27+09:00",
-      "articles": [
-        {
-          "title": "Police Link Release of Substance at Don Toliver Concert to Robbery Attempts",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/27/world/europe/don-toliver-manchester-substance-robberies.html",
-          "published_at": "23:24"
-        },
-        {
-          "title": "Police link substance release to robbery attempts at concert",
-          "source_name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-11-28/don-toliver-manchester-concert-substance-robbery-attempt-police/107437726",
-          "published_at": "23:10"
-        },
-        {
-          "title": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
-          "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/don-toliver-concert-substance-police-manchester-robbery-6588591",
-          "published_at": "21:42"
-        }
-      ]
-    },
-    {
-      "id": "world-31",
-      "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
-      "title_en": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
-      "category": "중동",
+      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
+      "category": "미국",
       "primary_source": "Reuters",
-      "excerpt": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into ",
-      "excerpt_en": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into ",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-xml-mrss",
+      "excerpt": "Mexican President Claudia Sheinbaum says the country is filing a formal complaint with the U.S. over a Drug Enforcement Agency tip line for anonymous reports about criminals and corrupt Mexican offici",
+      "excerpt_en": "Mexican President Claudia Sheinbaum says the country is filing a formal complaint with the U.S. over a Drug Enforcement Agency tip line for anonymous reports about criminals and corrupt Mexican offici",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/mexico-files-formal-complaint-us-dea-tip-line-138484649",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -713,45 +902,45 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "AP News",
-        "DW",
+        "ABC News",
+        "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-11-27T07:39:00+09:00",
-      "latest_published_at": "2026-11-27T18:32:00+09:00",
+      "first_published_at": "2026-11-27T16:48:09+09:00",
+      "latest_published_at": "2026-11-27T19:02:10+09:00",
       "articles": [
         {
-          "title": "Norwegian budget airline Norse Atlantic files for bankruptcy after halting flights",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDRSQ20wRU41S2psU2lPTFhlUWxkSnpEdDc0VVdYdmdVUEhiNTV0cG41bUFRRnZPUU82ZkVSdDQtQlJXV29LMGktU3hIR1lRaHEtdlFOak1va1NlcGZ0S0dMc2I2Nmt5bTdldXRmcl9TZmdBelhNSzZjWXY5emN6WnAzS0RGSmVpd0FOX0w0NkFyTDNIaWdBZkljX2p0alh5LUYzeA?oc=5",
-          "published_at": "18:32"
+          "title": "Mexico files formal complaint with US over DEA tip line targeting cartel members and corrupt officials",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mexico-files-formal-complaint-with-us-over-dea-tip-line-targeting-cartel-members-and-corrupt-officials-101795805544103.html",
+          "published_at": "19:02"
         },
         {
-          "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "14:20"
+          "title": "Mexico files formal complaint to US over DEA tip line",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/mexico-files-formal-complaint-us-dea-tip-line-138484649",
+          "published_at": "19:00"
         },
         {
-          "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
+          "title": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
-          "published_at": "07:39"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
+          "published_at": "16:48"
         }
       ]
     },
     {
-      "id": "world-218",
-      "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
-      "title_en": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
+      "id": "world-68",
+      "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+      "title_en": "Severe Thanksgiving storms leave roads flooded and trees fallen",
       "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
-      "category": "유럽",
-      "primary_source": "SCMP",
-      "excerpt": "Ukraine’s Volodymyr Zelensky said US ⁠President Donald ⁠Trump calling Russia’s ⁠Vladimir Putin “my friend” was strange and akin to making the same comment about Adolf Hitler during World War II. In an",
-      "excerpt_en": "Ukraine’s Volodymyr Zelensky said US ⁠President Donald ⁠Trump calling Russia’s ⁠Vladimir Putin “my friend” was strange and akin to making the same comment about Adolf Hitler during World War II. In an",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
+      "title_url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
+      "category": "미국",
+      "primary_source": "BBC",
+      "excerpt": "Hundreds of thousands of people were without power after severe weather hit both coasts of the United States during the Thanksgiving holiday.",
+      "excerpt_en": "Hundreds of thousands of people were without power after severe weather hit both coasts of the United States during the Thanksgiving holiday.",
+      "excerpt_source": "BBC",
+      "excerpt_url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
       "translation_status": "failed",
       "score": 68,
       "score_breakdown": {
@@ -767,101 +956,101 @@
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBS News",
+        "BBC",
         "Hindustan Times",
-        "SCMP"
+        "Times of India"
       ],
-      "first_published_at": "2026-11-27T09:22:39+09:00",
-      "latest_published_at": "2026-11-27T18:09:22+09:00",
+      "first_published_at": "2026-11-27T16:46:47+09:00",
+      "latest_published_at": "2026-11-28T04:51:03+09:00",
       "articles": [
         {
-          "title": "Trump stands by calling Putin his ‘friend’ despite backlash from Zelensky: ‘I want to make a deal’",
+          "title": "After Thanksgiving storms bring flooding, power outages and snow, cleanup begins across the US",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-stands-by-calling-putin-his-friend-despite-backlash-from-zelensky-i-want-to-make-a-deal-101795801908648.html",
-          "published_at": "18:09"
+          "url": "https://www.hindustantimes.com/world-news/us-news/after-thanksgiving-storms-bring-flooding-power-outages-and-snow-cleanup-begins-across-the-us-101795838921340.html",
+          "published_at": "04:51"
         },
         {
-          "title": "Zelenskyy: Trump calling Putin a friend like calling Hitler a friend",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/news/zelenskyy-trump-calling-putin-friend-like-hitler-viewed-friend-wwii/",
-          "published_at": "15:32"
+          "title": "US battered by Thanksgiving storms: Thousands without power as floods wreak havoc",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-battered-by-thanksgiving-storms-hundreds-of-thousands-without-power-as-floods-wreak-havoc/articleshow/136235994.cms",
+          "published_at": "00:44"
         },
         {
-          "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
-          "published_at": "09:22"
+          "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+          "source_name": "BBC",
+          "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "16:46"
         }
       ]
     },
     {
-      "id": "world-113",
-      "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
-      "title_en": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+      "id": "world-240",
+      "title": "Several students feared dead, injured in explosion at middle school in Afghanistan",
+      "title_en": "Several students feared dead, injured in explosion at middle school in Afghanistan",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
-      "category": "유럽",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Putin commissions Russia’s new nuclear-powered Perm submarine and announces plans to add five more submarines to the fleet by 2030.",
-      "excerpt_en": "Putin commissions Russia’s new nuclear-powered Perm submarine and announces plans to add five more submarines to the fleet by 2030.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/putin-flags-off-russias-new-nuclear-powered-submarine-says-five-more-to-join-fleet-by-2030-101795819444639.html",
+      "title_url": "https://www.hindustantimes.com/world-news/several-students-feared-dead-injured-in-explosion-at-middle-school-in-afghanistan-101795855521699.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "An explosion at a middle school in Afghanistan's Kunar province has killed or wounded several students",
+      "excerpt_en": "An explosion at a middle school in Afghanistan's Kunar province has killed or wounded several students",
+      "excerpt_source": "ABC News",
+      "excerpt_url": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
       "translation_status": "failed",
-      "score": 65,
+      "score": 63,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
-        "breaking_score": 9,
+        "breaking_score": 7,
         "time_score": 3,
-        "raw75": 49
+        "raw75": 47
       },
       "area_value": 2,
       "article_count": 2,
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "Al Jazeera",
+        "ABC News",
         "Hindustan Times"
       ],
-      "first_published_at": "2026-11-27T20:39:57+09:00",
-      "latest_published_at": "2026-11-27T22:50:28+09:00",
+      "first_published_at": "2026-11-28T08:48:03+09:00",
+      "latest_published_at": "2026-11-28T08:55:08+09:00",
       "articles": [
         {
-          "title": "Putin flags off Russia's new nuclear-powered submarine; says five more to join fleet by 2030",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/putin-flags-off-russias-new-nuclear-powered-submarine-says-five-more-to-join-fleet-by-2030-101795819444639.html",
-          "published_at": "22:50"
+          "title": "An explosion at a middle school in eastern Afghanistan kills or wounds several students",
+          "source_name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/explosion-middle-school-eastern-afghanistan-kills-wounds-students-138493977",
+          "published_at": "08:55"
         },
         {
-          "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
-          "published_at": "20:39"
+          "title": "Several students feared dead, injured in explosion at middle school in Afghanistan",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/several-students-feared-dead-injured-in-explosion-at-middle-school-in-afghanistan-101795855521699.html",
+          "published_at": "08:48"
         }
       ]
     },
     {
-      "id": "world-1",
-      "title": "Exclusive-Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
-      "title_en": "Exclusive-Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
+      "id": "world-9",
+      "title": "EXCLUSIVE: Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
+      "title_en": "EXCLUSIVE: Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/us-news/exclusiverussian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-on-november-22-sources-say-101795806544631.html",
+      "title_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmlHdGhKd3RFRUNYajhTdlVqdUdrckt5RmtIZEltNjE0OTVPMDhaSS1DTFlGQTU5Z19LRFpLRmpXdVJkcVpRY19iLU40eXpEWUhYdDNjMXhfRkJqckxleW8tY25rOVJFTzlGeGVaUTlwb1M1NVBXSzQwSG9hX2VQR1JiMVhXYk1mdG01ei1nR1ZmOFY5RWpnejVHRkJSa2RVTHRLeURHS3hCSHJMcGluWG1fQWNjS19wTy1RejVTWE5BMW8?oc=5",
       "category": "유럽",
-      "primary_source": "Hindustan Times",
+      "primary_source": "Reuters",
       "excerpt": "UKRAINE-CRISIS/SHIPS-LIBYA (UPDATE 1, EXCLUSIVE, PIX):EXCLUSIVE-Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
       "excerpt_en": "UKRAINE-CRISIS/SHIPS-LIBYA (UPDATE 1, EXCLUSIVE, PIX):EXCLUSIVE-Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
       "excerpt_source": "Hindustan Times",
       "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-on-november-22-sources-say-101795806544734.html",
       "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
@@ -871,15 +1060,9 @@
         "Hindustan Times",
         "Reuters"
       ],
-      "first_published_at": "2026-11-27T19:09:04+09:00",
-      "latest_published_at": "2026-11-27T22:55:47+09:00",
+      "first_published_at": "2026-11-27T17:47:00+09:00",
+      "latest_published_at": "2026-11-27T19:09:04+09:00",
       "articles": [
-        {
-          "title": "EXCLUSIVE: Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmlHdGhKd3RFRUNYajhTdlVqdUdrckt5RmtIZEltNjE0OTVPMDhaSS1DTFlGQTU5Z19LRFpLRmpXdVJkcVpRY19iLU40eXpEWUhYdDNjMXhfRkJqckxleW8tY25rOVJFTzlGeGVaUTlwb1M1NVBXSzQwSG9hX2VQR1JiMVhXYk1mdG01ei1nR1ZmOFY5RWpnejVHRkJSa2RVTHRLeURHS3hCSHJMcGluWG1fQWNjS19wTy1RejVTWE5BMW8?oc=5",
-          "published_at": "22:55"
-        },
         {
           "title": "Exclusive-Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
           "source_name": "Hindustan Times",
@@ -891,206 +1074,125 @@
           "source_name": "Hindustan Times",
           "url": "https://www.hindustantimes.com/world-news/us-news/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-on-november-22-sources-say-101795806544734.html",
           "published_at": "19:09"
+        },
+        {
+          "title": "EXCLUSIVE: Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmlHdGhKd3RFRUNYajhTdlVqdUdrckt5RmtIZEltNjE0OTVPMDhaSS1DTFlGQTU5Z19LRFpLRmpXdVJkcVpRY19iLU40eXpEWUhYdDNjMXhfRkJqckxleW8tY25rOVJFTzlGeGVaUTlwb1M1NVBXSzQwSG9hX2VQR1JiMVhXYk1mdG01ei1nR1ZmOFY5RWpnejVHRkJSa2RVTHRLeURHS3hCSHJMcGluWG1fQWNjS19wTy1RejVTWE5BMW8?oc=5",
+          "published_at": "17:47"
         }
       ]
     },
     {
-      "id": "world-183",
-      "title": "Princess Kate wants people to learn from her cancer journey in vulnerable new documentary",
-      "title_en": "Princess Kate wants people to learn from her cancer journey in vulnerable new documentary",
+      "id": "world-195",
+      "title": "Trump’s ally-packed committee could ram his renovations projects through before Dems take control of Congress",
+      "title_en": "Trump’s ally-packed committee could ram his renovations projects through before Dems take control of Congress",
       "title_source": "earliest_pick",
-      "title_url": "https://www.nbcnews.com/world/united-kingdom/princess-kate-wants-people-learn-cancer-journey-vulnerable-new-documen-rcna611259",
-      "category": "유럽",
-      "primary_source": "NBC News",
-      "excerpt": "LONDON — Catherine, Princess of Wales, reveals how cancer treatment terrified and changed her in a very personal documentary she said she hopes will help others reckon with the disease.",
-      "excerpt_en": "LONDON — Catherine, Princess of Wales, reveals how cancer treatment terrified and changed her in a very personal documentary she said she hopes will help others reckon with the disease.",
-      "excerpt_source": "NBC News",
-      "excerpt_url": "https://www.nbcnews.com/world/united-kingdom/princess-kate-wants-people-learn-cancer-journey-vulnerable-new-documen-rcna611259",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-planning-commission-golf-course-dc-renovations-b3093061.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "The president’s allies on the National Capital Planning Commission are expected to rush approval for his next construction projects before Democrats add members to the panel",
+      "excerpt_en": "The president’s allies on the National Capital Planning Commission are expected to rush approval for his next construction projects before Democrats add members to the panel",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-planning-commission-golf-course-dc-renovations-b3093061.html",
       "translation_status": "failed",
-      "score": 63,
+      "score": 61,
       "score_breakdown": {
         "article_score": 18,
         "diversity_score": 15,
         "major_score": 10,
         "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 47
+        "time_score": 2,
+        "raw75": 46
       },
       "area_value": 3,
       "article_count": 3,
       "syndicated_count": 0,
       "source_count": 3,
       "sources": [
-        "CBS News",
-        "NBC News",
-        "New York Times"
+        "Hindustan Times",
+        "Sydney Morning Herald",
+        "The Independent"
       ],
-      "first_published_at": "2026-11-27T22:01:13+09:00",
-      "latest_published_at": "2026-11-28T01:10:00+09:00",
+      "first_published_at": "2026-11-27T22:12:15+09:00",
+      "latest_published_at": "2026-11-28T05:10:46+09:00",
       "articles": [
         {
-          "title": "Documentary clip reveals new details on Princess Kate's cancer journey",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/documentary-clip-reveals-new-details-on-princess-kates-cancer-journey/",
-          "published_at": "01:10"
+          "title": "Trump officials to speed up president’s projects with special meeting before new Congress",
+          "source_name": "Sydney Morning Herald",
+          "url": "https://www.smh.com.au/world/north-america/trump-officials-to-speed-presidents-projects-with-special-meeting-before-new-congress-20261128-p61i3e.html?ref=rss&utm_medium=rss&utm_source=rss_world",
+          "published_at": "05:10"
         },
         {
-          "title": "Princess Kate’s Cancer Documentary ‘Heal’: 3 Takeaways",
-          "source_name": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/27/world/europe/princess-catherine-kate-heal-cancer-documentary.html",
-          "published_at": "22:46"
-        },
-        {
-          "title": "Princess Kate wants people to learn from her cancer journey in vulnerable new documentary",
-          "source_name": "NBC News",
-          "url": "https://www.nbcnews.com/world/united-kingdom/princess-kate-wants-people-learn-cancer-journey-vulnerable-new-documen-rcna611259",
-          "published_at": "22:01"
-        }
-      ]
-    },
-    {
-      "id": "world-73",
-      "title": "Pakistan set to host talks with Saudi Arabia and Turkey under trilateral defense pact",
-      "title_en": "Pakistan set to host talks with Saudi Arabia and Turkey under trilateral defense pact",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/pakistan-set-host-talks-saudi-arabia-turkey-trilateral-138477505",
-      "category": "중동",
-      "primary_source": "ABC News",
-      "excerpt": "Officials say Pakistan is set to host talks with Saudi Arabia and Turkey under a trilateral defense pact that treats an attack on any member as an attack on all three",
-      "excerpt_en": "Officials say Pakistan is set to host talks with Saudi Arabia and Turkey under a trilateral defense pact that treats an attack on any member as an attack on all three",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/pakistan-set-host-talks-saudi-arabia-turkey-trilateral-138477505",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-11-27T09:06:58+09:00",
-      "latest_published_at": "2026-11-27T17:09:00+09:00",
-      "articles": [
-        {
-          "title": "Pakistan and Turkey pledge to support Saudi Arabia against Houthi attacks under defense pact",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWWNfVjBoUnQyN3lnTjdDVXdrSFZRaDFTYU9xQzk4ZkZtbE9nLUNxUUhJczE0aTVHRVliZ3Zlal9VanlaTWEyYmt0b2ZfcFlKV1c4SXVxLVE5SXRQaHl4bGJpcnpKWDJRWGVtZXRJOGVkMlIzR3I1TEVieldaZUNXSGdnT2ZxTXpfMkZoWWpycGZSZzRiQjhnN0dxd29Hc1lOZWpjMXppMXlDU3BhWkE?oc=5",
-          "published_at": "17:09"
-        },
-        {
-          "title": "Pakistan set to host talks with Saudi Arabia and Turkey under trilateral defense pact",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/pakistan-set-host-talks-saudi-arabia-turkey-trilateral-138477505",
-          "published_at": "09:06"
-        }
-      ]
-    },
-    {
-      "id": "world-116",
-      "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-      "title_en": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "Hamas says Israel targeted Khalil al-Hayya’s son in a Gaza airstrike, but he survived. Separately, seven Palestinians were reportedly killed in Israeli strikes.",
-      "excerpt_en": "Hamas says Israel targeted Khalil al-Hayya’s son in a Gaza airstrike, but he survived. Separately, seven Palestinians were reportedly killed in Israeli strikes.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/hamas-chief-khalil-al-hayyas-son-survives-israeli-drone-strike-in-gaza-city-101795817960514.html",
-      "translation_status": "failed",
-      "score": 61,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 2,
-        "raw75": 46
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-11-27T19:53:25+09:00",
-      "latest_published_at": "2026-11-27T22:26:37+09:00",
-      "articles": [
-        {
-          "title": "Hamas chief Khalil al-Hayya's son survives Israeli drone strike in Gaza City",
+          "title": "Trump allies call special panel meeting to fast-track projects before Democrats control Congress: Report",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/hamas-chief-khalil-al-hayyas-son-survives-israeli-drone-strike-in-gaza-city-101795817960514.html",
-          "published_at": "22:26"
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-allies-call-special-panel-meeting-to-fast-track-projects-before-democrats-control-congress-report-101795835322218.html",
+          "published_at": "04:08"
         },
         {
-          "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
-          "published_at": "19:53"
+          "title": "Trump’s ally-packed committee could ram his renovations projects through before Dems take control of Congress",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-planning-commission-golf-course-dc-renovations-b3093061.html",
+          "published_at": "22:12"
         }
       ]
     },
     {
-      "id": "world-46",
-      "title": "Erdogan completes Turkey's ratification of Mecca defence pact",
-      "title_en": "Erdogan completes Turkey's ratification of Mecca defence pact",
+      "id": "world-211",
+      "title": "Saudi crown prince stepped in to halt quiet American campaign to break up OPEC oil cartel, sources say",
+      "title_en": "Saudi crown prince stepped in to halt quiet American campaign to break up OPEC oil cartel, sources say",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmJEdmR5Wl9uZTZKS1R2ckJXekhkX1AwSVZpSHhkODcweDNmTVRva2JDdjRWcjNvYk4yeXNkQWw3ZTVnMUpWUTBjYXNWOTVCY2Y1emVTdGFjazhoR1ltaXF6WTNvMEVqSUdaNTI3VzU4U3dMNkROYVlDMTR5NHhpdGhuZjl4VnZGTzFTNHRXMDdnSXVmdXhpODl6YjVabXVoa0NlMVFsOW94OUw1clJ2UUpR?oc=5",
+      "title_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-admin-venezuela-iraq-oil-ope-b3092708.html",
       "category": "중동",
-      "primary_source": "Reuters",
-      "excerpt": "Turkey's parliament ratified the agreement on November 5, clearing the way for Ankara to send military support to Riyadh amid attacks from the Houthis.",
-      "excerpt_en": "Turkey's parliament ratified the agreement on November 5, clearing the way for Ankara to send military support to Riyadh amid attacks from the Houthis.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/turkeys-erdogan-ratifies-mecca-defence-pact-with-saudi-arabia-pakistan-101795757446184.html",
+      "primary_source": "The Independent",
+      "excerpt": "The United States influenced both Venezuela and Iraq regarding their membership in OPEC earlier this year. After the removal of Nicolás Maduro, discussions were opened about Venezuela potentially leav",
+      "excerpt_en": "The United States influenced both Venezuela and Iraq regarding their membership in OPEC earlier this year. After the removal of Nicolás Maduro, discussions were opened about Venezuela potentially leav",
+      "excerpt_source": "Times of India",
+      "excerpt_url": "https://timesofindia.indiatimes.com/world/us/us-pushed-venezuela-iraq-to-quit-opec-to-boost-oil-output-report/articleshow/136235653.cms",
       "translation_status": "failed",
-      "score": 60,
+      "score": 61,
       "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 45
+        "article_score": 18,
+        "diversity_score": 15,
+        "major_score": 10,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 46
       },
-      "area_value": 2,
-      "article_count": 2,
+      "area_value": 3,
+      "article_count": 3,
       "syndicated_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "sources": [
         "Hindustan Times",
-        "Reuters"
+        "The Independent",
+        "Times of India"
       ],
-      "first_published_at": "2026-11-27T05:22:00+09:00",
-      "latest_published_at": "2026-11-27T05:42:22+09:00",
+      "first_published_at": "2026-11-27T16:00:08+09:00",
+      "latest_published_at": "2026-11-27T23:48:27+09:00",
       "articles": [
         {
-          "title": "Turkey's Erdogan ratifies Mecca defence pact with Saudi Arabia, Pakistan",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/turkeys-erdogan-ratifies-mecca-defence-pact-with-saudi-arabia-pakistan-101795757446184.html",
-          "published_at": "05:42"
+          "title": "US pushed Venezuela, Iraq to quit OPEC to boost oil output: Report",
+          "source_name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-pushed-venezuela-iraq-to-quit-opec-to-boost-oil-output-report/articleshow/136235653.cms",
+          "published_at": "23:48"
         },
         {
-          "title": "Erdogan completes Turkey's ratification of Mecca defence pact",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmJEdmR5Wl9uZTZKS1R2ckJXekhkX1AwSVZpSHhkODcweDNmTVRva2JDdjRWcjNvYk4yeXNkQWw3ZTVnMUpWUTBjYXNWOTVCY2Y1emVTdGFjazhoR1ltaXF6WTNvMEVqSUdaNTI3VzU4U3dMNkROYVlDMTR5NHhpdGhuZjl4VnZGTzFTNHRXMDdnSXVmdXhpODl6YjVabXVoa0NlMVFsOW94OUw1clJ2UUpR?oc=5",
-          "published_at": "05:22"
+          "title": "Iraq seeks higher oil production limit from OPEC ahead of Sunday meeting",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/iraq-seeks-higher-oil-production-limit-from-opec-ahead-of-sunday-meeting-101795811868796.html",
+          "published_at": "21:08"
+        },
+        {
+          "title": "Saudi crown prince stepped in to halt quiet American campaign to break up OPEC oil cartel, sources say",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-admin-venezuela-iraq-oil-ope-b3092708.html",
+          "published_at": "16:00"
         }
       ]
     },
     {
-      "id": "world-86",
+      "id": "world-43",
       "title": "Lula’s choice of Bradesco banker as Brazil’s finance minister lifts markets",
       "title_en": "Lula’s choice of Bradesco banker as Brazil’s finance minister lifts markets",
       "title_source": "earliest_pick",
@@ -1137,25 +1239,25 @@
       ]
     },
     {
-      "id": "world-45",
-      "title": "Russian AI model fills void in unfinished Gogol novel. Not everyone is happy",
-      "title_en": "Russian AI model fills void in unfinished Gogol novel. Not everyone is happy",
+      "id": "world-202",
+      "title": "Army deems lead azide detonation a success but criticism lingers over notification",
+      "title_en": "Army deems lead azide detonation a success but criticism lingers over notification",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOW1ZT25rWmU5YkRYRnRfWWsycFpOU0xXcnFMYUtJeGFxOHJPRElLTmx3VERYNUNOT0dRVXAzN3J4VkVEVFRwQXVfUHRCZ3Q0bWc3a2ZJWkZCcWlKSUJLRzZWWVBPT01VSmxmakNNaFN3eHNwVzgteWM4UlJBclg3YzF6cVItQzR3bThEbTJCTUNFcTAweG1RbnZRbnM1SE9HYVhDdWtGSmEtYjE4b0FkT3Y5RlNqaW5PSnVB?oc=5",
-      "category": "유럽",
-      "primary_source": "Reuters",
-      "excerpt": "A Russian AI model has created its own version of the second volume of Dead Souls that Nikolai Gogol burnt.",
-      "excerpt_en": "A Russian AI model has created its own version of the second volume of Dead Souls that Nikolai Gogol burnt.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/russian-ai-model-finishes-volume-2-of-nikolai-gogols-dead-souls-101795764541460.html",
+      "title_url": "https://www.independent.co.uk/news/world/americas/army-republican-democratic-joni-ernst-chuck-grassley-b3093019.html",
+      "category": "미국",
+      "primary_source": "The Independent",
+      "excerpt": "The dust may be settling after the U.S. Army detonated the nation's aging stockpile of lead azide to keep the material from spontaneously exploding, but criticism lingers over how the Army communicate",
+      "excerpt_en": "The dust may be settling after the U.S. Army detonated the nation's aging stockpile of lead azide to keep the material from spontaneously exploding, but criticism lingers over how the Army communicate",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/americas/army-republican-democratic-joni-ernst-chuck-grassley-b3093019.html",
       "translation_status": "failed",
       "score": 56,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 4,
-        "time_score": 1,
+        "major_score": 10,
+        "breaking_score": 7,
+        "time_score": 3,
         "raw75": 42
       },
       "area_value": 2,
@@ -1164,231 +1266,131 @@
       "source_count": 2,
       "sources": [
         "Hindustan Times",
-        "Reuters"
+        "The Independent"
       ],
-      "first_published_at": "2026-11-27T07:03:00+09:00",
-      "latest_published_at": "2026-11-27T07:37:40+09:00",
+      "first_published_at": "2026-11-27T19:42:50+09:00",
+      "latest_published_at": "2026-11-28T07:45:04+09:00",
       "articles": [
         {
-          "title": "Russian AI model finishes volume 2 of Nikolai Gogol's 'Dead Souls'",
+          "title": "Iowa lead azide explosion: EPA finds no lead in drinking water as first lab results ease contamination fears",
           "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/russian-ai-model-finishes-volume-2-of-nikolai-gogols-dead-souls-101795764541460.html",
-          "published_at": "07:37"
+          "url": "https://www.hindustantimes.com/world-news/us-news/iowa-lead-azide-explosion-epa-finds-no-lead-in-drinking-water-as-first-lab-results-ease-contamination-fears-101795848566215.html",
+          "published_at": "07:45"
         },
         {
-          "title": "Russian AI model fills void in unfinished Gogol novel. Not everyone is happy",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOW1ZT25rWmU5YkRYRnRfWWsycFpOU0xXcnFMYUtJeGFxOHJPRElLTmx3VERYNUNOT0dRVXAzN3J4VkVEVFRwQXVfUHRCZ3Q0bWc3a2ZJWkZCcWlKSUJLRzZWWVBPT01VSmxmakNNaFN3eHNwVzgteWM4UlJBclg3YzF6cVItQzR3bThEbTJCTUNFcTAweG1RbnZRbnM1SE9HYVhDdWtGSmEtYjE4b0FkT3Y5RlNqaW5PSnVB?oc=5",
-          "published_at": "07:03"
+          "title": "Army deems lead azide detonation a success but criticism lingers over notification",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/army-republican-democratic-joni-ernst-chuck-grassley-b3093019.html",
+          "published_at": "19:42"
         }
       ]
     },
     {
-      "id": "world-107",
-      "title": "US military says it disabled merchant ship trying to breach Iran blockade",
-      "title_en": "US military says it disabled merchant ship trying to breach Iran blockade",
+      "id": "world-0",
+      "title": "Iran's flogging of singer was warning from anxious hardliners, insiders say",
+      "title_en": "Iran's flogging of singer was warning from anxious hardliners, insiders say",
       "title_source": "earliest_pick",
-      "title_url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
-      "category": "중동",
-      "primary_source": "Al Jazeera",
-      "excerpt": "A U.S. military aircraft struck a Palau-flagged ship with precision munitions after giving multiple warnings, U.S. Central Command said.",
-      "excerpt_en": "A U.S. military aircraft struck a Palau-flagged ship with precision munitions after giving multiple warnings, U.S. Central Command said.",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
-      "translation_status": "failed",
-      "score": 56,
-      "score_breakdown": {
-        "article_score": 18,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 42
-      },
-      "area_value": 3,
-      "article_count": 3,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "CBS News"
-      ],
-      "first_published_at": "2026-11-27T22:22:02+09:00",
-      "latest_published_at": "2026-11-28T01:10:47+09:00",
-      "articles": [
-        {
-          "title": "U.S. forces disable commercial ship that allegedly tried to breach Iran blockade",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
-          "published_at": "01:10"
-        },
-        {
-          "title": "US disables ship attempting to breach Iran blockade",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
-          "published_at": "23:55"
-        },
-        {
-          "title": "US military says it disabled merchant ship trying to breach Iran blockade",
-          "source_name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
-          "published_at": "22:22"
-        }
-      ]
-    },
-    {
-      "id": "world-98",
-      "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
-      "title_en": "Severe Thanksgiving storms leave roads flooded and trees fallen",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
-      "category": "미국",
-      "primary_source": "BBC",
-      "excerpt": "Hundreds of thousands of people were without power after severe weather hit both coasts of the United States during the Thanksgiving holiday.",
-      "excerpt_en": "Hundreds of thousands of people were without power after severe weather hit both coasts of the United States during the Thanksgiving holiday.",
-      "excerpt_source": "BBC",
-      "excerpt_url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "BBC",
-        "Times of India"
-      ],
-      "first_published_at": "2026-11-27T16:46:47+09:00",
-      "latest_published_at": "2026-11-28T00:44:08+09:00",
-      "articles": [
-        {
-          "title": "US battered by Thanksgiving storms: Thousands without power as floods wreak havoc",
-          "source_name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-battered-by-thanksgiving-storms-hundreds-of-thousands-without-power-as-floods-wreak-havoc/articleshow/136235994.cms",
-          "published_at": "00:44"
-        },
-        {
-          "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
-          "source_name": "BBC",
-          "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
-          "published_at": "16:46"
-        }
-      ]
-    },
-    {
-      "id": "world-297",
-      "title": "Polls open across Taiwan in closely watched local elections",
-      "title_en": "Polls open across Taiwan in closely watched local elections",
-      "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/taiwan-holds-elections-choose-mayors-local-leaders-138489345",
-      "category": "아시아",
-      "primary_source": "ABC News",
-      "excerpt": "The vote will test whether President Lai Ching-te’s party can translate its record run of three straight presidential victories into gains at the local level.",
-      "excerpt_en": "The vote will test whether President Lai Ching-te’s party can translate its record run of three straight presidential victories into gains at the local level.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/taiwan-heads-for-local-elections-ahead-of-2028-presidential-race-china-keeps-a-close-eye-101795827184750.html",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-11-28T00:18:40+09:00",
-      "latest_published_at": "2026-11-28T00:59:20+09:00",
-      "articles": [
-        {
-          "title": "Taiwan heads for local elections ahead of 2028 presidential race, China keeps a close eye",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/taiwan-heads-for-local-elections-ahead-of-2028-presidential-race-china-keeps-a-close-eye-101795827184750.html",
-          "published_at": "00:59"
-        },
-        {
-          "title": "Polls open across Taiwan in closely watched local elections",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/taiwan-holds-elections-choose-mayors-local-leaders-138489345",
-          "published_at": "00:18"
-        }
-      ]
-    },
-    {
-      "id": "world-303",
-      "title": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
-      "title_en": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
-      "category": "아시아",
-      "primary_source": "CBS News",
-      "excerpt": "President Trump took questions from reporters during the Thanksgiving holiday. He touched on Jensen Huang's return to Nvidia and lauded his latest meeting with Russia's Vladimir Putin and China's Xi J",
-      "excerpt_en": "President Trump took questions from reporters during the Thanksgiving holiday. He touched on Jensen Huang's return to Nvidia and lauded his latest meeting with Russia's Vladimir Putin and China's Xi J",
-      "excerpt_source": "CBS News",
-      "excerpt_url": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
-      "translation_status": "failed",
-      "score": 55,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 3,
-        "raw75": 41
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-11-27T14:23:00+09:00",
-      "latest_published_at": "2026-11-27T23:57:25+09:00",
-      "articles": [
-        {
-          "title": "Mitt Romney questions Trump’s support for Jensen Huang; says Nvidia controversy ‘smells of profit, corruption’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/us-news/mitt-romney-questions-trump-s-support-for-jensen-huang-says-nvidia-controversy-smells-of-profit-corruption-101795823234790.html",
-          "published_at": "23:57"
-        },
-        {
-          "title": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
-          "published_at": "14:23"
-        }
-      ]
-    },
-    {
-      "id": "world-6",
-      "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
-      "title_en": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+      "title_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHEwNVJXaUs1bXFUR0FoQUQ2TTJWNThDakwyUkMxZk41VlYwYUthWVdNck1vT3pIY1BZdjQ4S3RIOFZuUlRjRUZoRUxxTmRaOVI1ZjU2RURfVzJMSGo0RVpnZ29XTmlXeV9zbExvOWMwdEZ6a0ozQzBZNkhsQWpsamFrTnlLMUgwTnpHd2htUTdrRUw3a0F5V1lTUDI2dDRTbjQ1UjBObzdKUm50N2hfTHNzVE1hSDNGMng0?oc=5",
       "category": "중동",
       "primary_source": "Reuters",
-      "excerpt": "The US said the ship’s crew was unharmed, while Iran insisted its ports remained active and vowed to resist the blockade.",
-      "excerpt_en": "The US said the ship’s crew was unharmed, while Iran insisted its ports remained active and vowed to resist the blockade.",
-      "excerpt_source": "Channel News Asia",
-      "excerpt_url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
+      "excerpt": "Iran’s flogging of a female singer this week for offending public decency was a display of force by an ​embattled clerical elite straining to uphold public obedience it once took for granted, Iranian ",
+      "excerpt_en": "Iran’s flogging of a female singer this week for offending public decency was a display of force by an ​embattled clerical elite straining to uphold public obedience it once took for granted, Iranian ",
+      "excerpt_source": "Bangkok Post",
+      "excerpt_url": "https://www.bangkokpost.com/world/3362805/iran-flogs-singer-to-send-a-message",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Bangkok Post",
+        "Reuters"
+      ],
+      "first_published_at": "2026-11-28T07:14:00+09:00",
+      "latest_published_at": "2026-11-28T08:46:00+09:00",
+      "articles": [
+        {
+          "title": "Iran flogs singer to send a message",
+          "source_name": "Bangkok Post",
+          "url": "https://www.bangkokpost.com/world/3362805/iran-flogs-singer-to-send-a-message",
+          "published_at": "08:46"
+        },
+        {
+          "title": "Iran's flogging of singer was warning from anxious hardliners, insiders say",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHEwNVJXaUs1bXFUR0FoQUQ2TTJWNThDakwyUkMxZk41VlYwYUthWVdNck1vT3pIY1BZdjQ4S3RIOFZuUlRjRUZoRUxxTmRaOVI1ZjU2RURfVzJMSGo0RVpnZ29XTmlXeV9zbExvOWMwdEZ6a0ozQzBZNkhsQWpsamFrTnlLMUgwTnpHd2htUTdrRUw3a0F5V1lTUDI2dDRTbjQ1UjBObzdKUm50N2hfTHNzVE1hSDNGMng0?oc=5",
+          "published_at": "07:14"
+        }
+      ]
+    },
+    {
+      "id": "world-192",
+      "title": "Australian university apologises to academic over code requiring ‘self-censorship over Israel’s war on Gaza’",
+      "title_en": "Australian university apologises to academic over code requiring ‘self-censorship over Israel’s war on Gaza’",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/australasia/la-trobe-university-israel-palestine-speech-b3092796.html",
+      "category": "중동",
+      "primary_source": "The Independent",
+      "excerpt": "Festival organiser Greater Bendigo City Council says it sincerely regrets infringing Palestinian Australian academic Dr Randa Abdel-Fattah's intellectual and artistic freedom.",
+      "excerpt_en": "Festival organiser Greater Bendigo City Council says it sincerely regrets infringing Palestinian Australian academic Dr Randa Abdel-Fattah's intellectual and artistic freedom.",
+      "excerpt_source": "ABC News Australia",
+      "excerpt_url": "https://www.abc.net.au/news/2026-11-28/bendigo-writers-festival-apology-randa-abdel-fattah/107438282",
+      "translation_status": "failed",
+      "score": 55,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 3,
+        "raw75": 41
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "ABC News Australia",
+        "The Independent"
+      ],
+      "first_published_at": "2026-11-28T05:29:42+09:00",
+      "latest_published_at": "2026-11-28T06:43:59+09:00",
+      "articles": [
+        {
+          "title": "Bendigo Writers Festival offers 'unreserved' apology to author Abdel-Fattah",
+          "source_name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-11-28/bendigo-writers-festival-apology-randa-abdel-fattah/107438282",
+          "published_at": "06:43"
+        },
+        {
+          "title": "Australian university apologises to academic over code requiring ‘self-censorship over Israel’s war on Gaza’",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/la-trobe-university-israel-palestine-speech-b3092796.html",
+          "published_at": "05:29"
+        }
+      ]
+    },
+    {
+      "id": "world-7",
+      "title": "US Black Friday online sales to cross $13 billion, Adobe says",
+      "title_en": "US Black Friday online sales to cross $13 billion, Adobe says",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU2loNkhNMG01Y25zc2J6ZzlvOHNwS1VpVko3MDBMeF9CMFpTVGhFR2VDSmlaY1UyS25Tam81eGdHSlFid1lVajIxTFVPWWt6ZzQ4dW9UaEw3TFRZR3NzMi16SEJSdDdqLW9IMVdsYkgtQTZYTl9mQnlYLUh6T0dSV1Z4ektOMjlKUC1MUU0xbGlmVU15VUNndVgwNGlWc2YtNWs3NzhhTTJnUmhOS050ZnBla2RiT2Nn?oc=5",
+      "category": "미국",
+      "primary_source": "Reuters",
+      "excerpt": "US Black Friday online sales to cross $13 billion, Adobe says Reuters",
+      "excerpt_en": "US Black Friday online sales to cross $13 billion, Adobe says Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU2loNkhNMG01Y25zc2J6ZzlvOHNwS1VpVko3MDBMeF9CMFpTVGhFR2VDSmlaY1UyS25Tam81eGdHSlFid1lVajIxTFVPWWt6ZzQ4dW9UaEw3TFRZR3NzMi16SEJSdDdqLW9IMVdsYkgtQTZYTl9mQnlYLUh6T0dSV1Z4ektOMjlKUC1MUU0xbGlmVU15VUNndVgwNGlWc2YtNWs3NzhhTTJnUmhOS050ZnBla2RiT2Nn?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1407,82 +1409,35 @@
         "Channel News Asia",
         "Reuters"
       ],
-      "first_published_at": "2026-11-27T20:06:57+09:00",
-      "latest_published_at": "2026-11-27T20:55:17+09:00",
+      "first_published_at": "2026-11-28T00:06:00+09:00",
+      "latest_published_at": "2026-11-28T00:06:42+09:00",
       "articles": [
         {
-          "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+          "title": "US Black Friday online sales to cross $13 billion, Adobe says",
           "source_name": "Channel News Asia",
-          "url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
-          "published_at": "20:55"
+          "url": "https://www.channelnewsasia.com/business/us-black-friday-online-sales-cross-13-billion-adobe-says-6588836",
+          "published_at": "00:06"
         },
         {
-          "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+          "title": "US Black Friday online sales to cross $13 billion, Adobe says",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
-          "published_at": "20:06"
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU2loNkhNMG01Y25zc2J6ZzlvOHNwS1VpVko3MDBMeF9CMFpTVGhFR2VDSmlaY1UyS25Tam81eGdHSlFid1lVajIxTFVPWWt6ZzQ4dW9UaEw3TFRZR3NzMi16SEJSdDdqLW9IMVdsYkgtQTZYTl9mQnlYLUh6T0dSV1Z4ektOMjlKUC1MUU0xbGlmVU15VUNndVgwNGlWc2YtNWs3NzhhTTJnUmhOS050ZnBla2RiT2Nn?oc=5",
+          "published_at": "00:06"
         }
       ]
     },
     {
-      "id": "world-8",
-      "title": "EXCLUSIVE: Global fashion brands shift orders from Bangladesh to India amid unrest",
-      "title_en": "EXCLUSIVE: Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "id": "world-25",
+      "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
+      "title_en": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
       "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWJhaVBEcEFiX2hwb0lHanFvdTJncnpwM3JVMEh6WTUxSmhaWjV6MHcwdGJueHd5M1pmcVB2VG9UbGxKbzlseklNR2FjNHFWMlFLbmxLQkxxeXptM1VWUVRkWngxS2dwNTVWTng2NXcyUlo4NHM5OFM3NWNsNUY2WkdJblJmcVFRaVV4X1IweXZQWUJya01ZVi1qc19IVjF1OGEtQU9aVDd0eW5xYnBkQkxhcWg0dHFUWEwyYzlPdkdqZw?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "Major international retailers, including Zara, H&M, and Celio, reportedly shifted about $254 million in orders away from Bangladesh between November 1 and 18.",
-      "excerpt_en": "Major international retailers, including Zara, H&M, and Celio, reportedly shifted about $254 million in orders away from Bangladesh between November 1 and 18.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/zara-h-m-among-brands-to-divert-orders-from-bangladesh-to-india-report-101795790333024.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-11-27T13:04:32+09:00",
-      "latest_published_at": "2026-11-27T17:32:01+09:00",
-      "articles": [
-        {
-          "title": "Zara, H&M among brands to divert orders from Bangladesh to India: Report",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/zara-h-m-among-brands-to-divert-orders-from-bangladesh-to-india-report-101795790333024.html",
-          "published_at": "17:32"
-        },
-        {
-          "title": "EXCLUSIVE: Global fashion brands shift orders from Bangladesh to India amid unrest",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWJhaVBEcEFiX2hwb0lHanFvdTJncnpwM3JVMEh6WTUxSmhaWjV6MHcwdGJueHd5M1pmcVB2VG9UbGxKbzlseklNR2FjNHFWMlFLbmxLQkxxeXptM1VWUVRkWngxS2dwNTVWTng2NXcyUlo4NHM5OFM3NWNsNUY2WkdJblJmcVFRaVV4X1IweXZQWUJya01ZVi1qc19IVjF1OGEtQU9aVDd0eW5xYnBkQkxhcWg0dHFUWEwyYzlPdkdqZw?oc=5",
-          "published_at": "13:04"
-        }
-      ]
-    },
-    {
-      "id": "world-34",
-      "title": "AirAsia delays staff salary payments to end of month",
-      "title_en": "AirAsia delays staff salary payments to end of month",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYWJvTUVxNWJ3aVdMOXFNOGFxT0hEQkdFRC1fb0FCZW9kOGNyWmFqdm9MY3pOM3ZIR2k4WWJPNGxkeFMxRFBOYkxIc3BxR2k3TUVta2RmeFAyNDZyWVpzbDVrOEVWV183YzJxaFJYT1pIVm9zREVMdkw2ejlrRnhtUEFIUl9ld1UtMThDY09nbGk0akxZZ0lZWldScm1ZMUJjczY4Qld2czRuVmRWQkE?oc=5",
+      "title_url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
       "category": "기타",
-      "primary_source": "Reuters",
-      "excerpt": "Loss-making AirAsia will temporarily delay salary payments to the end of each month, according to the airline on Friday, as it takes measures to conserve cash and its Philippine unit cuts jobs. Confir",
-      "excerpt_en": "Loss-making AirAsia will temporarily delay salary payments to the end of each month, according to the airline on Friday, as it takes measures to conserve cash and its Philippine unit cuts jobs. Confir",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3376073/cash-strapped-airasia-pushes-back-malaysian-paydays-axes-90-philippine-pilots",
+      "primary_source": "The Independent",
+      "excerpt": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction Reuters",
+      "excerpt_en": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0xwNFVEWnAyNUxEdzNWcUR2X2tPbDZtLTZyTUNKMFY0VlpIaHFMV2ZuT2ZfeEJCcHpjQk9JU1dyeEpRZDZQSnJIbWRGWEZqZEJfQnZyYmNadGJneDNhUnVoUVFYOC1PZXVydXFQOFVvdFVDTjN4QjhhRU5WbTdEZzZCTkFfd2ZtdmZTVWw0YWhhYTFLU05iZUpNMFR3dk9uUXZnLTQxUUxrYW1rM1RBZDBwYk9FWFJscWF2MS1CN2xjY3FYWHc?oc=5",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1499,131 +1454,84 @@
       "source_count": 2,
       "sources": [
         "Reuters",
-        "SCMP"
+        "The Independent"
       ],
-      "first_published_at": "2026-11-27T06:24:00+09:00",
-      "latest_published_at": "2026-11-27T11:46:04+09:00",
+      "first_published_at": "2026-11-27T15:11:37+09:00",
+      "latest_published_at": "2026-11-27T18:26:56+09:00",
       "articles": [
         {
-          "title": "Cash-strapped AirAsia pushes back Malaysian paydays, axes 90 Philippine pilots",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376073/cash-strapped-airasia-pushes-back-malaysian-paydays-axes-90-philippine-pilots",
-          "published_at": "11:46"
-        },
-        {
-          "title": "AirAsia delays staff salary payments to end of month",
+          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
           "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYWJvTUVxNWJ3aVdMOXFNOGFxT0hEQkdFRC1fb0FCZW9kOGNyWmFqdm9MY3pOM3ZIR2k4WWJPNGxkeFMxRFBOYkxIc3BxR2k3TUVta2RmeFAyNDZyWVpzbDVrOEVWV183YzJxaFJYT1pIVm9zREVMdkw2ejlrRnhtUEFIUl9ld1UtMThDY09nbGk0akxZZ0lZWldScm1ZMUJjczY4Qld2czRuVmRWQkE?oc=5",
-          "published_at": "06:24"
-        }
-      ]
-    },
-    {
-      "id": "world-65",
-      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-      "title_en": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdVNiTVJwcnVUQ1RTTUdUbElNMll3d0xsRTRLSmhQS09GeWh6cFdmV2dDblpwWkJNRmlvdmZJSXZSekxQVVIxRHdOVC1icjZYVlptZlVETzcwZHhOWTlxS19fOFZCT3BnemFQWWZEOHVJS3dhbTZES3FrbGVvRlJ4MFA1bkZuMl96OFhjR3hPdFYxRG1Ob0tzM1hoOWZGWURF?oc=5",
-      "category": "유럽",
-      "primary_source": "AP News",
-      "excerpt": "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts.",
-      "excerpt_en": "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "NPR"
-      ],
-      "first_published_at": "2026-11-27T09:38:00+09:00",
-      "latest_published_at": "2026-11-27T11:49:50+09:00",
-      "articles": [
-        {
-          "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
-          "published_at": "11:49"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0xwNFVEWnAyNUxEdzNWcUR2X2tPbDZtLTZyTUNKMFY0VlpIaHFMV2ZuT2ZfeEJCcHpjQk9JU1dyeEpRZDZQSnJIbWRGWEZqZEJfQnZyYmNadGJneDNhUnVoUVFYOC1PZXVydXFQOFVvdFVDTjN4QjhhRU5WbTdEZzZCTkFfd2ZtdmZTVWw0YWhhYTFLU05iZUpNMFR3dk9uUXZnLTQxUUxrYW1rM1RBZDBwYk9FWFJscWF2MS1CN2xjY3FYWHc?oc=5",
+          "published_at": "18:26"
         },
         {
-          "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdVNiTVJwcnVUQ1RTTUdUbElNMll3d0xsRTRLSmhQS09GeWh6cFdmV2dDblpwWkJNRmlvdmZJSXZSekxQVVIxRHdOVC1icjZYVlptZlVETzcwZHhOWTlxS19fOFZCT3BnemFQWWZEOHVJS3dhbTZES3FrbGVvRlJ4MFA1bkZuMl96OFhjR3hPdFYxRG1Ob0tzM1hoOWZGWURF?oc=5",
-          "published_at": "09:38"
-        }
-      ]
-    },
-    {
-      "id": "world-66",
-      "title": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
-      "title_en": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/berlin-europe-germany-africa-geneva-b3092786.html",
-      "category": "유럽",
-      "primary_source": "The Independent",
-      "excerpt": "Associated Press reporter Geir Moulson was the heart of the organization's Berlin bureau for more than two decades",
-      "excerpt_en": "Associated Press reporter Geir Moulson was the heart of the organization's Berlin bureau for more than two decades",
-      "excerpt_source": "The Independent",
-      "excerpt_url": "https://www.independent.co.uk/news/world/europe/berlin-europe-germany-africa-geneva-b3092786.html",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-11-27T13:15:24+09:00",
-      "latest_published_at": "2026-11-27T14:52:00+09:00",
-      "articles": [
-        {
-          "title": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcjg1R1BBRU1xekNBcWZHZzNNS184dFlybHJNNmhvUExfVVhhNjJLY2lPUlNDaUlXX2R2MXVLWE5yb05lR3pLdUE3MlBqcldyb3lhSk53YmxCRi1hQ1BjVFFIM25HN2JyTDlNMGpndUxGTkpacXcwVENZc0VDVGVORG82UHJjcV9fTDVkRTk0cHBRYjhNQmIxZ2FqTXI1a0FVSmtZ?oc=5",
-          "published_at": "14:52"
-        },
-        {
-          "title": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
+          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
           "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/berlin-europe-germany-africa-geneva-b3092786.html",
-          "published_at": "13:15"
+          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
+          "published_at": "15:11"
         }
       ]
     },
     {
-      "id": "world-68",
-      "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
-      "title_en": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
+      "id": "world-26",
+      "title": "US government bars bandwidth provider RETN from American networks",
+      "title_en": "US government bars bandwidth provider RETN from American networks",
       "title_source": "earliest_pick",
-      "title_url": "https://abcnews.com/International/wireStory/zelenskyy-urges-us-pressure-putin-calling-trumps-friend-138478386",
+      "title_url": "https://www.channelnewsasia.com/business/us-government-bars-bandwidth-provider-retn-american-networks-6588721",
+      "category": "미국",
+      "primary_source": "Channel News Asia",
+      "excerpt": "US government bars bandwidth provider RETN from American networks Reuters",
+      "excerpt_en": "US government bars bandwidth provider RETN from American networks Reuters",
+      "excerpt_source": "Reuters",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYTJDdGNxNk9lQ25td3hEVlhGVDJLZktoSmRQMWxkZ1FCbG5oLVZBd2RhTUcwSGVQRnczNXplSnNjUFNfekRwdDJtWEV0bEVNQWdYZUdHUXBreXhhUmlFeXREYkpNTF9PaW80Z0ZNdEJGLWpDS1JVYnloeXBwZmhDRy12T3VrTk84TUxIRVBTUlNpajN1Wk13b3hZeXktRU9XczYtSG1NWWxvc3pYV0VZSlE5S3NqNzZnc0Zn?oc=5",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "Channel News Asia",
+        "Reuters"
+      ],
+      "first_published_at": "2026-11-27T22:41:50+09:00",
+      "latest_published_at": "2026-11-27T23:11:16+09:00",
+      "articles": [
+        {
+          "title": "US government bars bandwidth provider RETN from American networks",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYTJDdGNxNk9lQ25td3hEVlhGVDJLZktoSmRQMWxkZ1FCbG5oLVZBd2RhTUcwSGVQRnczNXplSnNjUFNfekRwdDJtWEV0bEVNQWdYZUdHUXBreXhhUmlFeXREYkpNTF9PaW80Z0ZNdEJGLWpDS1JVYnloeXBwZmhDRy12T3VrTk84TUxIRVBTUlNpajN1Wk13b3hZeXktRU9XczYtSG1NWWxvc3pYV0VZSlE5S3NqNzZnc0Zn?oc=5",
+          "published_at": "23:11"
+        },
+        {
+          "title": "US government bars bandwidth provider RETN from American networks",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/business/us-government-bars-bandwidth-provider-retn-american-networks-6588721",
+          "published_at": "22:41"
+        }
+      ]
+    },
+    {
+      "id": "world-28",
+      "title": "UK's Princess Kate climbs mountains, fights cancer in intimate documentary",
+      "title_en": "UK's Princess Kate climbs mountains, fights cancer in intimate documentary",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQTF5YVJuNUoxSzFjMFZuSk1neXZ6YUJUZ1JzOThGLTlHODdXZkhBYkhlVjMwTTJZMG1xd2FnU2pLQWZKSFpTZVc5QzBoTkdoNG9LN0VTaGJSSFpuYkJQdGtGNlc4VmlxaGdBVW9FVV9EeFhLb3VpWUh5eWFpNGwtdllCVzJSSmEyUDc4b2FRTkZKN0F0X1F6dTJfUFczVE5jRnRRMDd5cGV2U1l2ZU5pdDJIVi0?oc=5",
       "category": "유럽",
-      "primary_source": "ABC News",
-      "excerpt": "Ukrainian President Volodymyr Zelenskyy has expressed frustration with the U.S. approach to Russian leader Vladimir Putin",
-      "excerpt_en": "Ukrainian President Volodymyr Zelenskyy has expressed frustration with the U.S. approach to Russian leader Vladimir Putin",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/zelenskyy-urges-us-pressure-putin-calling-trumps-friend-138478386",
+      "primary_source": "Reuters",
+      "excerpt": "It provides the most intimate glimpse yet into the private life of Princess Catherine and her family, including the toll her cancer took on her physically and mentally.",
+      "excerpt_en": "It provides the most intimate glimpse yet into the private life of Princess Catherine and her family, including the toll her cancer took on her physically and mentally.",
+      "excerpt_source": "Channel News Asia",
+      "excerpt_url": "https://www.channelnewsasia.com/entertainment/princess-catherine-cancer-documentary-heal-6588646",
       "translation_status": "failed",
       "score": 53,
       "score_breakdown": {
@@ -1639,75 +1547,28 @@
       "syndicated_count": 0,
       "source_count": 2,
       "sources": [
-        "ABC News",
-        "AP News"
+        "Channel News Asia",
+        "Reuters"
       ],
-      "first_published_at": "2026-11-27T15:46:16+09:00",
-      "latest_published_at": "2026-11-27T19:33:00+09:00",
+      "first_published_at": "2026-11-27T23:27:00+09:00",
+      "latest_published_at": "2026-11-28T01:32:00+09:00",
       "articles": [
         {
-          "title": "Zelenskyy urges US to pressure Putin and questions Trump’s reference to Putin as a ‘friend’",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZHZncjd6TjJOQy1tZVlWUVowZ0hBY2NWMjN2d1k3WXdzUlB4VUdlbl9kMDdLTnZ2bzY5eGlZUGFNSEQxYVNCaVNRYWlBTkZneUxoZm5ub1Q2MVd3QjFza1BJWWhiWEQ2Tk1aUE1jVlByV0h6NldmUC1NOUQ5WW5ka3pqdUFwaXI1SEd4VzNzUGNoZ2c5WG5Yd3dFeWpyY0taN3c?oc=5",
-          "published_at": "19:33"
+          "title": "Britain's Princess Catherine climbs mountains, fights cancer in intimate documentary Heal",
+          "source_name": "Channel News Asia",
+          "url": "https://www.channelnewsasia.com/entertainment/princess-catherine-cancer-documentary-heal-6588646",
+          "published_at": "01:32"
         },
         {
-          "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/zelenskyy-urges-us-pressure-putin-calling-trumps-friend-138478386",
-          "published_at": "15:46"
+          "title": "UK's Princess Kate climbs mountains, fights cancer in intimate documentary",
+          "source_name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQTF5YVJuNUoxSzFjMFZuSk1neXZ6YUJUZ1JzOThGLTlHODdXZkhBYkhlVjMwTTJZMG1xd2FnU2pLQWZKSFpTZVc5QzBoTkdoNG9LN0VTaGJSSFpuYkJQdGtGNlc4VmlxaGdBVW9FVV9EeFhLb3VpWUh5eWFpNGwtdllCVzJSSmEyUDc4b2FRTkZKN0F0X1F6dTJfUFczVE5jRnRRMDd5cGV2U1l2ZU5pdDJIVi0?oc=5",
+          "published_at": "23:27"
         }
       ]
     },
     {
-      "id": "world-70",
-      "title": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business",
-      "title_en": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenI4Q2Q4MjZlUGhna0lnWlBnSjJtUktuWE1KUWpOX1Y2dGlIaDJ1RDRIakVsVlpKaW1TeWlGbzBIQ2wwRHJ1TTFSZEstMUlPWnhWMk1HbjM1RVVVME10cWVyQ2JnVDNwck5oblhrbmxOMnA0dkludVJuZkExcDQyc1hYdWlnM3E0YUZDNE1YcDJ0UQ?oc=5",
-      "category": "기타",
-      "primary_source": "AP News",
-      "excerpt": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business AP News",
-      "excerpt_en": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business AP News",
-      "excerpt_source": "AP News",
-      "excerpt_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenI4Q2Q4MjZlUGhna0lnWlBnSjJtUktuWE1KUWpOX1Y2dGlIaDJ1RDRIakVsVlpKaW1TeWlGbzBIQ2wwRHJ1TTFSZEstMUlPWnhWMk1HbjM1RVVVME10cWVyQ2JnVDNwck5oblhrbmxOMnA0dkludVJuZkExcDQyc1hYdWlnM3E0YUZDNE1YcDJ0UQ?oc=5",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "AP News",
-        "The Independent"
-      ],
-      "first_published_at": "2026-11-27T16:47:00+09:00",
-      "latest_published_at": "2026-11-27T17:47:20+09:00",
-      "articles": [
-        {
-          "title": "Pizza Hut cofounder Dan Carney dies aged 95",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/dan-carney-dead-pizza-hut-b3092975.html",
-          "published_at": "17:47"
-        },
-        {
-          "title": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenI4Q2Q4MjZlUGhna0lnWlBnSjJtUktuWE1KUWpOX1Y2dGlIaDJ1RDRIakVsVlpKaW1TeWlGbzBIQ2wwRHJ1TTFSZEstMUlPWnhWMk1HbjM1RVVVME10cWVyQ2JnVDNwck5oblhrbmxOMnA0dkludVJuZkExcDQyc1hYdWlnM3E0YUZDNE1YcDJ0UQ?oc=5",
-          "published_at": "16:47"
-        }
-      ]
-    },
-    {
-      "id": "world-76",
+      "id": "world-47",
       "title": "Protesters take to the streets in Puerto Rico's capital as standard of living deteriorates",
       "title_en": "Protesters take to the streets in Puerto Rico's capital as standard of living deteriorates",
       "title_source": "earliest_pick",
@@ -1754,7 +1615,289 @@
       ]
     },
     {
-      "id": "world-79",
+      "id": "world-53",
+      "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+      "title_en": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-xml-mrss",
+      "category": "중동",
+      "primary_source": "DW",
+      "excerpt": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into ",
+      "excerpt_en": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into ",
+      "excerpt_source": "DW",
+      "excerpt_url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-xml-mrss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "DW"
+      ],
+      "first_published_at": "2026-11-27T14:20:00+09:00",
+      "latest_published_at": "2026-11-27T18:32:00+09:00",
+      "articles": [
+        {
+          "title": "Norwegian budget airline Norse Atlantic files for bankruptcy after halting flights",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDRSQ20wRU41S2psU2lPTFhlUWxkSnpEdDc0VVdYdmdVUEhiNTV0cG41bUFRRnZPUU82ZkVSdDQtQlJXV29LMGktU3hIR1lRaHEtdlFOak1va1NlcGZ0S0dMc2I2Nmt5bTdldXRmcl9TZmdBelhNSzZjWXY5emN6WnAzS0RGSmVpd0FOX0w0NkFyTDNIaWdBZkljX2p0alh5LUYzeA?oc=5",
+          "published_at": "18:32"
+        },
+        {
+          "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+          "source_name": "DW",
+          "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-xml-mrss",
+          "published_at": "14:20"
+        }
+      ]
+    },
+    {
+      "id": "world-56",
+      "title": "Black Friday shoppers flock to stores despite inflation and bad weather",
+      "title_en": "Black Friday shoppers flock to stores despite inflation and bad weather",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.hindustantimes.com/world-news/us-news/black-friday-shoppers-flock-to-stores-despite-inflation-and-bad-weather-101795830640577.html",
+      "category": "기타",
+      "primary_source": "Hindustan Times",
+      "excerpt": "Black Friday into a multiweek event has encouraged people to stock up on everyday items while checking off their holiday lists, retail analysts said.",
+      "excerpt_en": "Black Friday into a multiweek event has encouraged people to stock up on everyday items while checking off their holiday lists, retail analysts said.",
+      "excerpt_source": "Hindustan Times",
+      "excerpt_url": "https://www.hindustantimes.com/world-news/us-news/black-friday-shoppers-flock-to-stores-despite-inflation-and-bad-weather-101795830640577.html",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-11-28T02:02:39+09:00",
+      "latest_published_at": "2026-11-28T03:03:20+09:00",
+      "articles": [
+        {
+          "title": "Black Friday shoppers undeterred by inflation and bad weather",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQS1feGtndkRIT3NUc2hNSFhEX2pNWXZOR0JBSkdpT196Zk5sdlFqc0NpNUVnRmtnQ2xDUjNNcXF2VnF3a05oejFCZHZzODZ5NXN5NFNOZUVMQmRWdEg4dC05dHFTcHBiZVpjUFRpT2xCaGtXcm54eXRwWTNYOXp3R2NDV2VqSFVURVJZMG9wUElMaWdxamVEOTJCcTNNMDM1WlYw?oc=5",
+          "published_at": "03:03"
+        },
+        {
+          "title": "Black Friday shoppers flock to stores despite inflation and bad weather",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/black-friday-shoppers-flock-to-stores-despite-inflation-and-bad-weather-101795830640577.html",
+          "published_at": "02:02"
+        }
+      ]
+    },
+    {
+      "id": "world-58",
+      "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+      "title_en": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+      "category": "미국",
+      "primary_source": "Al Jazeera",
+      "excerpt": "Power is being slowly restored to hundreds of thousands of customers following a round of heavy wind, rain and snow.",
+      "excerpt_en": "Power is being slowly restored to hundreds of thousands of customers following a round of heavy wind, rain and snow.",
+      "excerpt_source": "Al Jazeera",
+      "excerpt_url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "Al Jazeera"
+      ],
+      "first_published_at": "2026-11-28T03:00:00+09:00",
+      "latest_published_at": "2026-11-28T05:38:00+09:00",
+      "articles": [
+        {
+          "title": "Parts of the US clean up, power being restored after Thanksgiving storm soaks East Coast",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjRuNThwR0c4LU54RVBVM3kzcFFCOGFmR0szVnA2SUI1aW55bTMtWWlvZ1FYLUVLZmNEYk1HM2ZGZmotc09Wck9ySldYcW9zTWZaeUw5eFVoNUxrcFo0aDNmejFnbzkwTmNhRDUyamhlWHpWNTFwb1BiRUlqV0ZMUllxV3lnU2NzYnlfSUhNWUVyV09WcE9wN0pmeGp5d011djRj?oc=5",
+          "published_at": "05:38"
+        },
+        {
+          "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+          "source_name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+          "published_at": "03:00"
+        }
+      ]
+    },
+    {
+      "id": "world-244",
+      "title": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
+      "title_en": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+      "category": "아시아",
+      "primary_source": "CBS News",
+      "excerpt": "President Trump took questions from reporters during the Thanksgiving holiday. He touched on Jensen Huang's return to Nvidia and lauded his latest meeting with Russia's Vladimir Putin and China's Xi J",
+      "excerpt_en": "President Trump took questions from reporters during the Thanksgiving holiday. He touched on Jensen Huang's return to Nvidia and lauded his latest meeting with Russia's Vladimir Putin and China's Xi J",
+      "excerpt_source": "CBS News",
+      "excerpt_url": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+      "translation_status": "failed",
+      "score": 53,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 2,
+        "raw75": 40
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "CBS News",
+        "Hindustan Times"
+      ],
+      "first_published_at": "2026-11-27T14:23:00+09:00",
+      "latest_published_at": "2026-11-27T23:57:25+09:00",
+      "articles": [
+        {
+          "title": "Mitt Romney questions Trump’s support for Jensen Huang; says Nvidia controversy ‘smells of profit, corruption’",
+          "source_name": "Hindustan Times",
+          "url": "https://www.hindustantimes.com/world-news/us-news/mitt-romney-questions-trump-s-support-for-jensen-huang-says-nvidia-controversy-smells-of-profit-corruption-101795823234790.html",
+          "published_at": "23:57"
+        },
+        {
+          "title": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
+          "source_name": "CBS News",
+          "url": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+          "published_at": "14:23"
+        }
+      ]
+    },
+    {
+      "id": "world-42",
+      "title": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
+      "title_en": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
+      "title_source": "earliest_pick",
+      "title_url": "https://www.independent.co.uk/news/world/europe/berlin-europe-germany-africa-geneva-b3092786.html",
+      "category": "유럽",
+      "primary_source": "The Independent",
+      "excerpt": "Associated Press reporter Geir Moulson was the heart of the organization's Berlin bureau for more than two decades",
+      "excerpt_en": "Associated Press reporter Geir Moulson was the heart of the organization's Berlin bureau for more than two decades",
+      "excerpt_source": "The Independent",
+      "excerpt_url": "https://www.independent.co.uk/news/world/europe/berlin-europe-germany-africa-geneva-b3092786.html",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-11-27T13:15:24+09:00",
+      "latest_published_at": "2026-11-27T14:01:08+09:00",
+      "articles": [
+        {
+          "title": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcjg1R1BBRU1xekNBcWZHZzNNS184dFlybHJNNmhvUExfVVhhNjJLY2lPUlNDaUlXX2R2MXVLWE5yb05lR3pLdUE3MlBqcldyb3lhSk53YmxCRi1hQ1BjVFFIM25HN2JyTDlNMGpndUxGTkpacXcwVENZc0VDVGVORG82UHJjcV9fTDVkRTk0cHBRYjhNQmIxZ2FqTXI1a0FVSmtZ?oc=5",
+          "published_at": "14:01"
+        },
+        {
+          "title": "Longtime AP journalist Geir Moulson, the heart of its Berlin bureau, dies at 54",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/berlin-europe-germany-africa-geneva-b3092786.html",
+          "published_at": "13:15"
+        }
+      ]
+    },
+    {
+      "id": "world-44",
+      "title": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business",
+      "title_en": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business",
+      "title_source": "earliest_pick",
+      "title_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenI4Q2Q4MjZlUGhna0lnWlBnSjJtUktuWE1KUWpOX1Y2dGlIaDJ1RDRIakVsVlpKaW1TeWlGbzBIQ2wwRHJ1TTFSZEstMUlPWnhWMk1HbjM1RVVVME10cWVyQ2JnVDNwck5oblhrbmxOMnA0dkludVJuZkExcDQyc1hYdWlnM3E0YUZDNE1YcDJ0UQ?oc=5",
+      "category": "기타",
+      "primary_source": "AP News",
+      "excerpt": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business AP News",
+      "excerpt_en": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business AP News",
+      "excerpt_source": "AP News",
+      "excerpt_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenI4Q2Q4MjZlUGhna0lnWlBnSjJtUktuWE1KUWpOX1Y2dGlIaDJ1RDRIakVsVlpKaW1TeWlGbzBIQ2wwRHJ1TTFSZEstMUlPWnhWMk1HbjM1RVVVME10cWVyQ2JnVDNwck5oblhrbmxOMnA0dkludVJuZkExcDQyc1hYdWlnM3E0YUZDNE1YcDJ0UQ?oc=5",
+      "translation_status": "failed",
+      "score": 52,
+      "score_breakdown": {
+        "article_score": 12,
+        "diversity_score": 10,
+        "major_score": 15,
+        "breaking_score": 1,
+        "time_score": 1,
+        "raw75": 39
+      },
+      "area_value": 2,
+      "article_count": 2,
+      "syndicated_count": 0,
+      "source_count": 2,
+      "sources": [
+        "AP News",
+        "The Independent"
+      ],
+      "first_published_at": "2026-11-27T16:47:00+09:00",
+      "latest_published_at": "2026-11-27T17:47:20+09:00",
+      "articles": [
+        {
+          "title": "Pizza Hut cofounder Dan Carney dies aged 95",
+          "source_name": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/dan-carney-dead-pizza-hut-b3092975.html",
+          "published_at": "17:47"
+        },
+        {
+          "title": "Pizza Hut cofounder Dan Carney dies, nearly seven decades after first launching the business",
+          "source_name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOenI4Q2Q4MjZlUGhna0lnWlBnSjJtUktuWE1KUWpOX1Y2dGlIaDJ1RDRIakVsVlpKaW1TeWlGbzBIQ2wwRHJ1TTFSZEstMUlPWnhWMk1HbjM1RVVVME10cWVyQ2JnVDNwck5oblhrbmxOMnA0dkludVJuZkExcDQyc1hYdWlnM3E0YUZDNE1YcDJ0UQ?oc=5",
+          "published_at": "16:47"
+        }
+      ]
+    },
+    {
+      "id": "world-50",
       "title": "Sales for Biden memoir fall far short of books by Obama, Clinton",
       "title_en": "Sales for Biden memoir fall far short of books by Obama, Clinton",
       "title_source": "earliest_pick",
@@ -1766,14 +1909,14 @@
       "excerpt_source": "AP News",
       "excerpt_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjJ5VGIwN2tfQ3dpMldmb0xJSVdTV09YYXlkQU1qYzVZM3o2RVNMeHk1RXpOazFrZmtiQmNpeXRYdi1IM0JWZ2VtSThYWXV4cWZvUEloMGxlUU55Uk1OTzRKb2J1Mmt2RXRFajVra0NCYUpiMlNycVNkSzRBa2puaWVYSkNhcDJWOTNRRk4xcGdwMWNi?oc=5",
       "translation_status": "failed",
-      "score": 53,
+      "score": 52,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 15,
         "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
+        "time_score": 1,
+        "raw75": 39
       },
       "area_value": 2,
       "article_count": 2,
@@ -1801,289 +1944,7 @@
       ]
     },
     {
-      "id": "world-125",
-      "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
-      "title_en": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
-      "category": "기타",
-      "primary_source": "NPR",
-      "excerpt": "Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under President Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80.",
-      "excerpt_en": "Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under President Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80.",
-      "excerpt_source": "NPR",
-      "excerpt_url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "NPR",
-        "The Independent"
-      ],
-      "first_published_at": "2026-11-27T06:12:45+09:00",
-      "latest_published_at": "2026-11-27T14:19:45+09:00",
-      "articles": [
-        {
-          "title": "Strobe Talbott: Clinton’s deputy secretary of state dies aged 80",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/strobe-talbott-death-cause-b3092805.html",
-          "published_at": "14:19"
-        },
-        {
-          "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
-          "source_name": "NPR",
-          "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
-          "published_at": "06:12"
-        }
-      ]
-    },
-    {
-      "id": "world-141",
-      "title": "Philippines’ Sara Duterte says she does not expect fair ICC trial for her father",
-      "title_en": "Philippines’ Sara Duterte says she does not expect fair ICC trial for her father",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.scmp.com/news/asia/southeast-asia/article/3376071/philippines-sara-duterte-says-she-does-not-expect-fair-icc-trial-her-father",
-      "category": "아시아",
-      "primary_source": "SCMP",
-      "excerpt": "Philippine Vice-President Sara Duterte-Carpio said on Friday she did not expect a fair hearing when her ex-president father’s crimes against humanity trial opened next week, predicting the under-fire ",
-      "excerpt_en": "Philippine Vice-President Sara Duterte-Carpio said on Friday she did not expect a fair hearing when her ex-president father’s crimes against humanity trial opened next week, predicting the under-fire ",
-      "excerpt_source": "SCMP",
-      "excerpt_url": "https://www.scmp.com/news/asia/southeast-asia/article/3376071/philippines-sara-duterte-says-she-does-not-expect-fair-icc-trial-her-father",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "SCMP"
-      ],
-      "first_published_at": "2026-11-27T10:49:52+09:00",
-      "latest_published_at": "2026-11-27T12:51:00+09:00",
-      "articles": [
-        {
-          "title": "Philippines: VP Duterte says father's ICC case 'not a fair trial'",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/philippines-vp-duterte-says-father-s-icc-case-not-a-fair-trial/a-80074359?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "12:51"
-        },
-        {
-          "title": "Philippines’ Sara Duterte says she does not expect fair ICC trial for her father",
-          "source_name": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376071/philippines-sara-duterte-says-she-does-not-expect-fair-icc-trial-her-father",
-          "published_at": "10:49"
-        }
-      ]
-    },
-    {
-      "id": "world-284",
-      "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-      "title_en": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-      "category": "중동",
-      "primary_source": "CBS News",
-      "excerpt": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian aggression\".",
-      "excerpt_en": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian aggression\".",
-      "excerpt_source": "Euronews",
-      "excerpt_url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 7,
-        "time_score": 1,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "CBS News",
-        "Euronews"
-      ],
-      "first_published_at": "2026-11-27T10:07:00+09:00",
-      "latest_published_at": "2026-11-27T10:20:33+09:00",
-      "articles": [
-        {
-          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-          "source_name": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-          "published_at": "10:20"
-        },
-        {
-          "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-          "source_name": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
-          "published_at": "10:07"
-        }
-      ]
-    },
-    {
-      "id": "world-295",
-      "title": "Death toll due to building collapse in Pak’s Karachi rises to 7",
-      "title_en": "Death toll due to building collapse in Pak’s Karachi rises to 7",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.hindustantimes.com/world-news/death-toll-due-to-building-collapse-in-pak-s-karachi-rises-to-7-101795773156092.html",
-      "category": "아시아",
-      "primary_source": "Hindustan Times",
-      "excerpt": "The death toll from the collapse of a six-story building under construction in southern Pakistan has risen to eight",
-      "excerpt_en": "The death toll from the collapse of a six-story building under construction in southern Pakistan has risen to eight",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/death-toll-pakistan-building-collapse-rises-8-10-138480840",
-      "translation_status": "failed",
-      "score": 53,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 2,
-        "raw75": 40
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "Hindustan Times"
-      ],
-      "first_published_at": "2026-11-27T09:52:35+09:00",
-      "latest_published_at": "2026-11-27T15:06:19+09:00",
-      "articles": [
-        {
-          "title": "Death toll in Pakistan building collapse rises to 8 with about 10 missing",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/death-toll-pakistan-building-collapse-rises-8-10-138480840",
-          "published_at": "15:06"
-        },
-        {
-          "title": "Death toll due to building collapse in Pak’s Karachi rises to 7",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/death-toll-due-to-building-collapse-in-pak-s-karachi-rises-to-7-101795773156092.html",
-          "published_at": "09:52"
-        }
-      ]
-    },
-    {
-      "id": "world-55",
-      "title": "Philippine VP Duterte rules out resignation, braces for impeachment verdict",
-      "title_en": "Philippine VP Duterte rules out resignation, braces for impeachment verdict",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMGVTaHJ5RWM4a1NsdFcyLV9jcnprZDlVWjg0Yi1KT1ZCMDF0T3ptT25sdU4weS00UDgzOHVrX0FGM1l6bkgzQXlXSnZ1bmNzakhTUWg3LUFwNmhRdE1fUzd0dnRKYlRVdzRkLXh6T1VjeTFEQ2RXb3NXazc2RlQ3eXhQd2NWTi1CRWZ2OVJTN3Q2dDEwX2I3clJCN0tza0hoM0psTU9tMUpwZUNaT2RuT21kbGpBeGd1dHRYQjlpVHRTQ3A1YnhyNw?oc=5",
-      "category": "아시아",
-      "primary_source": "Reuters",
-      "excerpt": "Philippine prosecutors have focused their impeachment case against Duterte on a single allegation of unexplained wealth, dropping three other charges.",
-      "excerpt_en": "Philippine prosecutors have focused their impeachment case against Duterte on a single allegation of unexplained wealth, dropping three other charges.",
-      "excerpt_source": "Hindustan Times",
-      "excerpt_url": "https://www.hindustantimes.com/world-news/philippines-vp-sara-duterte-says-resignation-out-of-the-question-amid-impeachment-trial-101795766644793.html",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "Hindustan Times",
-        "Reuters"
-      ],
-      "first_published_at": "2026-11-27T06:48:00+09:00",
-      "latest_published_at": "2026-11-27T08:28:23+09:00",
-      "articles": [
-        {
-          "title": "‘Out of question’: Philippines Vice President rules out resignation amid impeachment trial over ‘unexplained wealth’",
-          "source_name": "Hindustan Times",
-          "url": "https://www.hindustantimes.com/world-news/philippines-vp-sara-duterte-says-resignation-out-of-the-question-amid-impeachment-trial-101795766644793.html",
-          "published_at": "08:28"
-        },
-        {
-          "title": "Philippine VP Duterte rules out resignation, braces for impeachment verdict",
-          "source_name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMGVTaHJ5RWM4a1NsdFcyLV9jcnprZDlVWjg0Yi1KT1ZCMDF0T3ptT25sdU4weS00UDgzOHVrX0FGM1l6bkgzQXlXSnZ1bmNzakhTUWg3LUFwNmhRdE1fUzd0dnRKYlRVdzRkLXh6T1VjeTFEQ2RXb3NXazc2RlQ3eXhQd2NWTi1CRWZ2OVJTN3Q2dDEwX2I3clJCN0tza0hoM0psTU9tMUpwZUNaT2RuT21kbGpBeGd1dHRYQjlpVHRTQ3A1YnhyNw?oc=5",
-          "published_at": "06:48"
-        }
-      ]
-    },
-    {
-      "id": "world-84",
-      "title": "What to know about North Korean move to shut down Swiss diplomatic office",
-      "title_en": "What to know about North Korean move to shut down Swiss diplomatic office",
-      "title_source": "earliest_pick",
-      "title_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRC1MVFk4b0w4Y2JmSFlwUDdSZTRJU3FYSEV4alp3dWg2OVNDMUM1b00wQndGb2VtSkR4N2dhV0FfV1NCUzFBd2I4ckt6NU9HVDJNckNaY05EUjB6V1I2NWRsVWN0eVFzZGFTa0dULWhBZGVORUo4WXNHM29ZQjFfbFprZkNmdEI1U1gtdFB3SU1VNG5kR001c0J0UGJJMWFmc2xPdllVbnVaRTA?oc=5",
-      "category": "아시아",
-      "primary_source": "AP News",
-      "excerpt": "North Korea has shut down a Swiss diplomatic office in Pyongyang and expelled its head, signaling a more assertive foreign policy",
-      "excerpt_en": "North Korea has shut down a Swiss diplomatic office in Pyongyang and expelled its head, signaling a more assertive foreign policy",
-      "excerpt_source": "ABC News",
-      "excerpt_url": "https://abcnews.com/International/wireStory/north-korean-move-shut-swiss-diplomatic-office-138475957",
-      "translation_status": "failed",
-      "score": 52,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 15,
-        "breaking_score": 1,
-        "time_score": 1,
-        "raw75": 39
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "ABC News",
-        "AP News"
-      ],
-      "first_published_at": "2026-11-27T05:31:00+09:00",
-      "latest_published_at": "2026-11-27T07:23:27+09:00",
-      "articles": [
-        {
-          "title": "What to know about North Korean move to shut down Swiss diplomatic office",
-          "source_name": "ABC News",
-          "url": "https://abcnews.com/International/wireStory/north-korean-move-shut-swiss-diplomatic-office-138475957",
-          "published_at": "07:23"
-        },
-        {
-          "title": "What to know about North Korean move to shut down Swiss diplomatic office",
-          "source_name": "AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRC1MVFk4b0w4Y2JmSFlwUDdSZTRJU3FYSEV4alp3dWg2OVNDMUM1b00wQndGb2VtSkR4N2dhV0FfV1NCUzFBd2I4ckt6NU9HVDJNckNaY05EUjB6V1I2NWRsVWN0eVFzZGFTa0dULWhBZGVORUo4WXNHM29ZQjFfbFprZkNmdEI1U1gtdFB3SU1VNG5kR001c0J0UGJJMWFmc2xPdllVbnVaRTA?oc=5",
-          "published_at": "05:31"
-        }
-      ]
-    },
-    {
-      "id": "world-184",
+      "id": "world-154",
       "title": "Spanish Police Find a Vast Marijuana Bunker Beneath a Backyard Playground",
       "title_en": "Spanish Police Find a Vast Marijuana Bunker Beneath a Backyard Playground",
       "title_source": "earliest_pick",
@@ -2095,14 +1956,14 @@
       "excerpt_source": "New York Times",
       "excerpt_url": "https://www.nytimes.com/2026/11/27/world/europe/marijuana-farm-spain-playground.html",
       "translation_status": "failed",
-      "score": 52,
+      "score": 51,
       "score_breakdown": {
         "article_score": 12,
         "diversity_score": 10,
         "major_score": 10,
         "breaking_score": 4,
-        "time_score": 3,
-        "raw75": 39
+        "time_score": 2,
+        "raw75": 38
       },
       "area_value": 2,
       "article_count": 2,
@@ -2126,53 +1987,6 @@
           "source_name": "New York Times",
           "url": "https://www.nytimes.com/2026/11/27/world/europe/marijuana-farm-spain-playground.html",
           "published_at": "17:45"
-        }
-      ]
-    },
-    {
-      "id": "world-139",
-      "title": "Rodrigo Duterte goes on trial: What is the International Criminal Court?",
-      "title_en": "Rodrigo Duterte goes on trial: What is the International Criminal Court?",
-      "title_source": "earliest_pick",
-      "title_url": "https://www.independent.co.uk/news/world/europe/international-criminal-court-philippines-duterte-b3092528.html",
-      "category": "아시아",
-      "primary_source": "The Independent",
-      "excerpt": "Former Philippine President Rodrigo Duterte faces trial in The Hague over his deadly war on drugs. The proceedings could determine the political fortunes of a powerful dynasty. Victims' families hope ",
-      "excerpt_en": "Former Philippine President Rodrigo Duterte faces trial in The Hague over his deadly war on drugs. The proceedings could determine the political fortunes of a powerful dynasty. Victims' families hope ",
-      "excerpt_source": "DW",
-      "excerpt_url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-all-1573-xml-mrss",
-      "translation_status": "failed",
-      "score": 51,
-      "score_breakdown": {
-        "article_score": 12,
-        "diversity_score": 10,
-        "major_score": 10,
-        "breaking_score": 4,
-        "time_score": 2,
-        "raw75": 38
-      },
-      "area_value": 2,
-      "article_count": 2,
-      "syndicated_count": 0,
-      "source_count": 2,
-      "sources": [
-        "DW",
-        "The Independent"
-      ],
-      "first_published_at": "2026-11-27T04:50:59+09:00",
-      "latest_published_at": "2026-11-27T13:23:00+09:00",
-      "articles": [
-        {
-          "title": "Duterte's ICC trial: What is at stake for the Philippines?",
-          "source_name": "DW",
-          "url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-all-1573-xml-mrss",
-          "published_at": "13:23"
-        },
-        {
-          "title": "Rodrigo Duterte goes on trial: What is the International Criminal Court?",
-          "source_name": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/international-criminal-court-philippines-duterte-b3092528.html",
-          "published_at": "04:50"
         }
       ]
     }
